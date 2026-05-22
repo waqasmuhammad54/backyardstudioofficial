@@ -10,15 +10,15 @@ const SERVICES_LIST = [
 ];
 
 const BUDGETS = [
-  "Under AED 5,000", "AED 5,000 – 20,000", "AED 20,000 – 50,000",
-  "AED 50,000 – 100,000", "AED 100,000+", "Let's discuss",
+  "Under AED 5,000", "AED 5,000 â 20,000", "AED 20,000 â 50,000",
+  "AED 50,000 â 100,000", "AED 100,000+", "Let's discuss",
 ];
 
 const INFO = [
   {
     icon: <Phone size={18} />,
     label: "Call / WhatsApp",
-    value: "+971 50 000 0000",
+    value: "+971 58 588 2685",
     href: "tel:+971585882685",
   },
   {
@@ -87,7 +87,7 @@ export default function ContactSection() {
             className="text-xs tracking-[0.5em] uppercase mb-6 font-medium"
             style={{ color: "var(--gold)" }}
           >
-            ✦ Work With Us
+            â¦ Work With Us
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 50 }} animate={inView ? { opacity: 1, y: 0 } : {}}
@@ -111,13 +111,13 @@ export default function ContactSection() {
             className="mt-8 max-w-xl mx-auto text-base leading-relaxed"
             style={{ color: "var(--muted)" }}
           >
-            Drop us a brief and our production team responds within 2 hours —
+            Drop us a brief and our production team responds within 2 hours â
             because great projects start fast.
           </motion.p>
         </div>
 
         <div className="grid lg:grid-cols-[1fr_1.4fr] gap-20">
-          {/* Left — Info */}
+          {/* Left â Info */}
           <motion.div
             initial={{ opacity: 0, x: -40 }} animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -182,7 +182,7 @@ export default function ContactSection() {
             </a>
           </motion.div>
 
-          {/* Right — Form */}
+          {/* Right â Form */}
           <motion.div
             initial={{ opacity: 0, x: 40 }} animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.3 }}
@@ -231,7 +231,7 @@ export default function ContactSection() {
                 <div className="border-b" style={{ borderColor: "var(--border)" }}>
                   <input
                     name="phone" type="tel" value={form.phone} onChange={handleChange}
-                    placeholder="+971 50 000 0000"
+                    placeholder="+971 58 588 2685"
                     className={inputBase}
                     style={{ borderColor: "var(--border)", color: "var(--cream)" }}
                   />
@@ -289,7 +289,7 @@ export default function ContactSection() {
                     )}
                   </button>
                   <p className="text-center text-xs mt-4" style={{ color: "var(--muted)" }}>
-                    We respond within 2 hours · Your info is kept confidential
+                    We respond within 2 hours Â· Your info is kept confidential
                   </p>
                 </div>
               </form>
