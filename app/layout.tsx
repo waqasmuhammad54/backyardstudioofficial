@@ -8,7 +8,7 @@ import CustomCursor from "@/components/shared/CustomCursor";
 import CinematicIntro from "@/components/shared/CinematicIntro";
 import { organizationSchema, localBusinessSchema } from "@/lib/structuredData";
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "G-MES1TPW4VC";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.backyardstudioofficial.com"),
