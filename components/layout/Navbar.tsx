@@ -5,12 +5,13 @@ import Link from "next/link";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 
 const NAV = [
-  { label: "Services",  href: "/services"  },
-  { label: "Work",      href: "/portfolio" },
-  { label: "Pricing",   href: "/pricing"   },
-  { label: "Journal",   href: "/blog"      },
-  { label: "Locations", href: "/locations" },
-  { label: "About",     href: "/about"     },
+  { label: "Services",   href: "/services"   },
+  { label: "Industries", href: "/industries" },
+  { label: "Work",       href: "/portfolio"  },
+  { label: "Pricing",    href: "/pricing"    },
+  { label: "Journal",    href: "/blog"       },
+  { label: "Locations",  href: "/locations"  },
+  { label: "About",      href: "/about"      },
 ];
 
 export default function Navbar() {
@@ -34,13 +35,13 @@ export default function Navbar() {
 
           {/* LOGO */}
           <Link href="/" className="relative flex items-center gap-3 group" aria-label="Backyard Studio Official">
-            <div className="relative w-24 h-24 shrink-0 transition-all duration-500 group-hover:scale-110">
+            <div className="relative w-20 h-20 shrink-0 transition-all duration-500 group-hover:scale-110">
               <Image
                 src="/logo-black.png"
                 alt="Backyard Studio Official"
                 fill
                 className="object-contain"
-                sizes="96px"
+                sizes="80px"
                 priority
                 style={{ mixBlendMode: "screen" }}
               />
@@ -52,10 +53,10 @@ export default function Navbar() {
           </Link>
 
           {/* DESKTOP NAV */}
-          <ul className="hidden lg:flex items-center gap-8">
+          <ul className="hidden lg:flex items-center gap-7">
             {NAV.map((n) => (
               <li key={n.label}>
-                <Link href={n.href} className="link-gold text-[0.65rem] text-silver hover:text-gold-light transition-colors duration-300 tracking-[0.25em]">
+                <Link href={n.href} className="link-gold text-[0.6rem] text-silver hover:text-gold-light transition-colors duration-300 tracking-[0.2em] uppercase">
                   {n.label}
                 </Link>
               </li>
@@ -65,7 +66,7 @@ export default function Navbar() {
           {/* CTA */}
           <div className="hidden lg:flex items-center gap-6">
             <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer"
-               className="text-[0.65rem] tracking-[0.25em] text-silver hover:text-gold-light transition-colors duration-300 uppercase font-medium">
+               className="text-[0.6rem] tracking-[0.2em] text-silver hover:text-gold-light transition-colors duration-300 uppercase font-medium">
               WhatsApp
             </a>
             <Link href="/contact" className="btn-gold">
@@ -92,15 +93,15 @@ export default function Navbar() {
         <span className="absolute bottom-10 right-10 font-display text-[12rem] text-white/[0.02] leading-none select-none">BSO</span>
 
         <div className="flex flex-col justify-center items-start h-full container-xl">
-          <p className="eyebrow mb-10 opacity-60">Navigation</p>
-          <ul className="space-y-2 mb-12">
+          <p className="eyebrow mb-8 opacity-60">Navigation</p>
+          <ul className="space-y-1 mb-10">
             {[...NAV, { label: "Contact", href: "/contact" }].map((n, i) => (
-              <li key={n.label} style={{ transitionDelay: open ? `${i * 80}ms` : "0ms" }}
+              <li key={n.label} style={{ transitionDelay: open ? `${i * 70}ms` : "0ms" }}
                   className={`transition-all duration-700 ${open ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}>
                 <Link href={n.href} onClick={() => setOpen(false)}
-                  className="font-display text-5xl sm:text-7xl text-cream hover:text-stroke transition-all duration-300 tracking-wider group flex items-end gap-4">
+                  className="font-display text-4xl sm:text-6xl text-cream hover:text-stroke transition-all duration-300 tracking-wider group flex items-end gap-4">
                   {n.label}
-                  <ArrowUpRight size={24} className="text-gold opacity-0 group-hover:opacity-100 transition-opacity mb-2" />
+                  <ArrowUpRight size={20} className="text-gold opacity-0 group-hover:opacity-100 transition-opacity mb-2" />
                 </Link>
               </li>
             ))}
@@ -114,7 +115,7 @@ export default function Navbar() {
               { label: "Facebook",  href: "https://www.facebook.com/Backyardstudioofficial/" },
             ].map((s) => (
               <a key={s.label} href={s.href} target="_blank" rel="noreferrer"
-                className="text-[0.65rem] tracking-[0.3em] text-muted hover:text-gold-light transition-colors uppercase">{s.label}</a>
+                className="text-[0.6rem] tracking-[0.3em] text-muted hover:text-gold-light transition-colors uppercase">{s.label}</a>
             ))}
           </div>
         </div>

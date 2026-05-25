@@ -189,6 +189,22 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
               )}
 
               <div className="p-6 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm">
+                <p className="text-[#e8c547] text-xs tracking-[0.3em] uppercase font-semibold mb-4">INDUSTRY SOLUTIONS</p>
+                <div className="space-y-2">
+                  {sidebarIndustries.map((i) => (
+                    <Link key={i.slug} href={`/industries/${i.slug}`}
+                      className="flex items-center gap-2 text-[#a0a0a0] hover:text-[#e8c547] transition-colors text-xs">
+                      <span className="text-[#e8c547]">&#8594;</span> {i.label}
+                    </Link>
+                  ))}
+                  <Link href="/industries"
+                    className="flex items-center gap-2 text-[#e8c547] text-xs font-semibold mt-3 pt-3 border-t border-[#2a2a2a] hover:underline">
+                    All Industries
+                  </Link>
+                </div>
+              </div>
+
+              <div className="p-6 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm">
                 <p className="text-[#e8c547] text-xs tracking-[0.3em] uppercase font-semibold mb-4">OUR SERVICES</p>
                 <div className="space-y-2">
                   {sidebarServices.map((s) => (

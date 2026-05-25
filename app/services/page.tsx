@@ -122,6 +122,29 @@ export default function ServicesPage() {
         </div>
       </section>
 
+      {/* BY INDUSTRY */}
+      <section className="py-16 border-t border-[#2a2a2a]" style={{ background: "var(--black)" }}>
+        <div className="container-xl">
+          <p className="text-[#e8c547] text-xs tracking-[0.3em] uppercase font-semibold mb-3 text-center">PRODUCTION BY INDUSTRY</p>
+          <h2 className="font-display text-3xl text-white text-center mb-10">WE KNOW YOUR SECTOR</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            {[
+              { label: "Hospitality",     slug: "hospitality",   desc: "Hotels, resorts & F&B" },
+              { label: "Real Estate",     slug: "real-estate",   desc: "Listings & developer films" },
+              { label: "Fashion",         slug: "fashion",       desc: "Editorial & campaigns" },
+              { label: "Food & Beverage", slug: "food-beverage", desc: "Menus & delivery apps" },
+              { label: "Corporate",       slug: "corporate",     desc: "Films & executive photos" },
+            ].map((i) => (
+              <Link key={i.slug} href={`/industries/${i.slug}`}
+                className="group p-5 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm text-center card-glow">
+                <p className="text-white font-bold text-sm mb-1 group-hover:text-[#e8c547] transition-colors">{i.label}</p>
+                <p className="text-[#666] text-xs">{i.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-16 bg-[#111111] text-center border-t border-[#2a2a2a]">
         <p className="text-[#e8c547] text-xs tracking-[0.4em] uppercase font-semibold mb-4">READY TO START?</p>

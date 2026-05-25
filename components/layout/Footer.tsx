@@ -25,6 +25,14 @@ const COMPANY = [
   { label: "Contact",      href: "/contact" },
 ];
 
+const INDUSTRIES = [
+  { label: "Hospitality",    href: "/industries/hospitality" },
+  { label: "Real Estate",    href: "/industries/real-estate" },
+  { label: "Fashion",        href: "/industries/fashion" },
+  { label: "Food & Beverage",href: "/industries/food-beverage" },
+  { label: "Corporate",      href: "/industries/corporate" },
+];
+
 const CITIES = [
   { label: "Dubai",          href: "/locations/dubai" },
   { label: "Abu Dhabi",      href: "/locations/abu-dhabi" },
@@ -86,11 +94,11 @@ export default function Footer() {
 
       {/* Main grid */}
       <div className="container-xl py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-12 lg:gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr] gap-10 lg:gap-6">
           {/* Col 1 — Brand */}
-          <div>
+          <div className="col-span-2 md:col-span-3 lg:col-span-1">
             <Link href="/" className="flex items-center gap-4 mb-7 group" aria-label="Backyard Studio Official Home">
-              <div className="relative w-24 h-24 shrink-0 transition-all duration-300">
+              <div className="relative w-20 h-20 shrink-0 transition-all duration-300">
                 <Image src="/logo-black.png" alt="Backyard Studio Official Logo" fill className="object-contain" style={{ mixBlendMode: "screen" }} />
               </div>
               <div>
@@ -103,14 +111,12 @@ export default function Footer() {
               </div>
             </Link>
 
-            <p className="text-sm leading-relaxed mb-8 max-w-xs" style={{ color: "var(--muted)" }}>
-              Dubai&apos;s premier creative production studio. We craft cinematic content that
-              moves brands forward across every UAE emirate — from corporate headquarters to
-              desert horizons.
+            <p className="text-sm leading-relaxed mb-6 max-w-xs" style={{ color: "var(--muted)" }}>
+              Dubai&apos;s premier creative production studio. Cinematic content across every UAE emirate.
             </p>
 
             {/* Credentials */}
-            <div className="flex flex-col gap-2 mb-8">
+            <div className="flex flex-col gap-2 mb-6">
               {["GCAA Licensed Drone Operator", "8+ Years in UAE Production", "2,400+ Projects Delivered", "All 7 Emirates Covered"].map((badge) => (
                 <div key={badge} className="flex items-center gap-2">
                   <div className="w-1 h-1 rounded-full shrink-0" style={{ background: "var(--gold)" }} />
@@ -122,23 +128,23 @@ export default function Footer() {
             {/* Social */}
             <div className="flex gap-3 flex-wrap">
               <a href="https://www.instagram.com/backyardstudioofficial/" target="_blank" rel="noreferrer"
-                aria-label="Instagram" className="footer-social w-10 h-10 flex items-center justify-center border">
-                <Instagram size={15} />
+                aria-label="Instagram" className="footer-social w-9 h-9 flex items-center justify-center border">
+                <Instagram size={14} />
               </a>
               <a href="https://www.facebook.com/Backyardstudioofficial/" target="_blank" rel="noreferrer"
-                aria-label="Facebook" className="footer-social w-10 h-10 flex items-center justify-center border text-[10px] font-bold">
+                aria-label="Facebook" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
                 FB
               </a>
               <a href="https://www.tiktok.com/@backyardstudio_official5" target="_blank" rel="noreferrer"
-                aria-label="TikTok" className="footer-social w-10 h-10 flex items-center justify-center border text-[10px] font-bold">
+                aria-label="TikTok" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
                 TT
               </a>
               <a href="https://youtube.com/@backyardstudioofficial" target="_blank" rel="noreferrer"
-                aria-label="YouTube" className="footer-social w-10 h-10 flex items-center justify-center border">
-                <Youtube size={15} />
+                aria-label="YouTube" className="footer-social w-9 h-9 flex items-center justify-center border">
+                <Youtube size={14} />
               </a>
               <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer"
-                aria-label="WhatsApp" className="footer-social w-10 h-10 flex items-center justify-center border text-[10px] font-bold">
+                aria-label="WhatsApp" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
                 WA
               </a>
             </div>
@@ -146,20 +152,11 @@ export default function Footer() {
 
           {/* Col 2 — Services */}
           <div>
-            <h4
-              className="font-display text-lg tracking-[0.25em] mb-6"
-              style={{ color: "var(--cream)" }}
-            >
-              SERVICES
-            </h4>
-            <ul className="space-y-3">
+            <h4 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>SERVICES</h4>
+            <ul className="space-y-2.5">
               {SERVICES.map((s) => (
                 <li key={s.href}>
-                  <Link
-                    href={s.href}
-                    className="text-sm transition-colors duration-200 hover:text-[var(--gold)]"
-                    style={{ color: "var(--muted)" }}
-                  >
+                  <Link href={s.href} className="text-xs transition-colors duration-200 hover:text-[var(--gold)]" style={{ color: "var(--muted)" }}>
                     {s.label}
                   </Link>
                 </li>
@@ -167,72 +164,49 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 3 — Company */}
+          {/* Col 3 — Industries */}
           <div>
-            <h4
-              className="font-display text-lg tracking-[0.25em] mb-6"
-              style={{ color: "var(--cream)" }}
-            >
-              COMPANY
-            </h4>
-            <ul className="space-y-3 mb-10">
-              {COMPANY.map((c) => (
-                <li key={c.href}>
-                  <Link
-                    href={c.href}
-                    className="text-sm transition-colors duration-200 hover:text-[var(--gold)]"
-                    style={{ color: "var(--muted)" }}
-                  >
-                    {c.label}
+            <h4 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>INDUSTRIES</h4>
+            <ul className="space-y-2.5 mb-8">
+              {INDUSTRIES.map((i) => (
+                <li key={i.href}>
+                  <Link href={i.href} className="text-xs transition-colors duration-200 hover:text-[var(--gold)]" style={{ color: "var(--muted)" }}>
+                    {i.label}
                   </Link>
                 </li>
               ))}
             </ul>
 
-            {/* Quick contact */}
-            <h4
-              className="font-display text-lg tracking-[0.25em] mb-5"
-              style={{ color: "var(--cream)" }}
-            >
-              CONTACT
-            </h4>
-            <div className="space-y-3">
-              <a
-                href="tel:+971585882685"
-                className="block text-sm transition-colors hover:text-[var(--gold)]"
-                style={{ color: "var(--muted)" }}
-              >
-                +971 58 588 2685
-              </a>
-              <a
-                href="mailto:info@backyardstudioofficial.com"
-                className="block text-sm transition-colors hover:text-[var(--gold)]"
-                style={{ color: "var(--muted)" }}
-              >
-                info@backyardstudioofficial.com
-              </a>
-              <p className="text-sm" style={{ color: "var(--muted)" }}>
-                Dubai, United Arab Emirates
-              </p>
-            </div>
+            <h4 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>COMPANY</h4>
+            <ul className="space-y-2.5">
+              {COMPANY.map((c) => (
+                <li key={c.href}>
+                  <Link href={c.href} className="text-xs transition-colors duration-200 hover:text-[var(--gold)]" style={{ color: "var(--muted)" }}>
+                    {c.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
-          {/* Col 4 — UAE Coverage */}
+          {/* Col 4 — Contact + UAE Coverage */}
           <div>
-            <h4
-              className="font-display text-lg tracking-[0.25em] mb-6"
-              style={{ color: "var(--cream)" }}
-            >
-              UAE COVERAGE
-            </h4>
-            <ul className="space-y-3 mb-8">
+            <h4 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>CONTACT</h4>
+            <div className="space-y-2.5 mb-8">
+              <a href="tel:+971585882685" className="block text-xs transition-colors hover:text-[var(--gold)]" style={{ color: "var(--muted)" }}>
+                +971 58 588 2685
+              </a>
+              <a href="mailto:info@backyardstudioofficial.com" className="block text-xs transition-colors hover:text-[var(--gold)]" style={{ color: "var(--muted)" }}>
+                info@backyardstudioofficial.com
+              </a>
+              <p className="text-xs" style={{ color: "var(--muted)" }}>Dubai, United Arab Emirates</p>
+            </div>
+
+            <h4 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>UAE COVERAGE</h4>
+            <ul className="space-y-2.5 mb-6">
               {CITIES.map((c) => (
                 <li key={c.href}>
-                  <Link
-                    href={c.href}
-                    className="text-sm transition-colors duration-200 hover:text-[var(--gold)]"
-                    style={{ color: "var(--muted)" }}
-                  >
+                  <Link href={c.href} className="text-xs transition-colors duration-200 hover:text-[var(--gold)]" style={{ color: "var(--muted)" }}>
                     {c.label}
                   </Link>
                 </li>
@@ -240,20 +214,11 @@ export default function Footer() {
             </ul>
 
             {/* Response guarantee */}
-            <div
-              className="p-5 border"
-              style={{ borderColor: "var(--border)" }}
-            >
-              <div className="w-2 h-2 rounded-full mb-3" style={{ background: "var(--gold)" }} />
-              <p className="text-xs tracking-widest uppercase mb-1" style={{ color: "var(--gold)" }}>
-                Response Time
-              </p>
-              <p className="font-display text-2xl" style={{ color: "var(--cream)" }}>
-                2 HOURS
-              </p>
-              <p className="text-xs mt-1" style={{ color: "var(--muted)" }}>
-                Guaranteed reply on all briefs
-              </p>
+            <div className="p-4 border" style={{ borderColor: "var(--border)" }}>
+              <div className="w-1.5 h-1.5 rounded-full mb-2" style={{ background: "var(--gold)" }} />
+              <p className="text-[10px] tracking-widest uppercase mb-1" style={{ color: "var(--gold)" }}>Response Time</p>
+              <p className="font-display text-xl" style={{ color: "var(--cream)" }}>2 HOURS</p>
+              <p className="text-[10px] mt-1" style={{ color: "var(--muted)" }}>Guaranteed reply on all briefs</p>
             </div>
           </div>
         </div>
@@ -271,12 +236,7 @@ export default function Footer() {
               { label: "Terms", href: "/terms" },
               { label: "Sitemap", href: "/sitemap.xml" },
             ].map((l) => (
-              <Link
-                key={l.href}
-                href={l.href}
-                className="text-xs transition-colors hover:text-[var(--gold)]"
-                style={{ color: "var(--muted)" }}
-              >
+              <Link key={l.href} href={l.href} className="text-xs transition-colors hover:text-[var(--gold)]" style={{ color: "var(--muted)" }}>
                 {l.label}
               </Link>
             ))}

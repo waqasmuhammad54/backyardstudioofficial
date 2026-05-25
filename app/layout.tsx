@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -6,6 +7,8 @@ import WhatsAppButton from "@/components/shared/WhatsAppButton";
 import CustomCursor from "@/components/shared/CustomCursor";
 import CinematicIntro from "@/components/shared/CinematicIntro";
 import { organizationSchema, localBusinessSchema } from "@/lib/structuredData";
+
+const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.backyardstudioofficial.com"),
@@ -90,13 +93,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
 
-        {/* Fonts: Inter (body) + Bebas Neue (display) + Playfair Display (serif/editorial) */}
+        {/* Fonts */}
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Bebas+Neue&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"
           rel="stylesheet"
         />
 
-        {/* Speakable schema for GEO/AI search (Google, Perplexity, ChatGPT, Copilot) */}
+        {/* Speakable schema for GEO/AI search */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -105,9 +108,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@type": "WebPage",
               "speakable": {
                 "@type": "SpeakableSpecification",
-                "cssSelector": ["h1", "h2", ".speakable"]
+                "cssSelector": ["h1", "h2", ".speakable"],
               },
-              "url": "https://www.backyardstudioofficial.com"
+              "url": "https://www.backyardstudioofficial.com",
             }),
           }}
         />
@@ -124,7 +127,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema()) }}
         />
 
-        {/* BreadcrumbList for site structure (GEO signal) */}
+        {/* BreadcrumbList for site structure */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -132,16 +135,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@context": "https://schema.org",
               "@type": "BreadcrumbList",
               "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.backyardstudioofficial.com" },
-                { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.backyardstudioofficial.com/services" },
+                { "@type": "ListItem", "position": 1, "name": "Home",      "item": "https://www.backyardstudioofficial.com" },
+                { "@type": "ListItem", "position": 2, "name": "Services",  "item": "https://www.backyardstudioofficial.com/services" },
                 { "@type": "ListItem", "position": 3, "name": "Portfolio", "item": "https://www.backyardstudioofficial.com/portfolio" },
-                { "@type": "ListItem", "position": 4, "name": "Contact", "item": "https://www.backyardstudioofficial.com/contact" },
-              ]
+                { "@type": "ListItem", "position": 4, "name": "Pricing",   "item": "https://www.backyardstudioofficial.com/pricing" },
+                { "@type": "ListItem", "position": 5, "name": "Blog",      "item": "https://www.backyardstudioofficial.com/blog" },
+                { "@type": "ListItem", "position": 6, "name": "Contact",   "item": "https://www.backyardstudioofficial.com/contact" },
+              ],
             }),
           }}
         />
-
-        {/* Google Analytics — add your G-XXXXXXXX ID here once created in GA4 */}
       </head>
 
       <body style={{ background: "var(--black-2)", color: "var(--cream)", overflowX: "hidden" }}>
@@ -151,6 +154,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main>{children}</main>
         <Footer />
         <WhatsAppButton />
+
+        {/* Google Analytics 4 */}
+        {GA_ID && (
+          <>
+            <Script
+              src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID}
+              strategy="afterInteractive"
+            />
+            <Script id="ga4-init" strategy="afterInteractive"
+              dangerouslySetInnerHTML={{
+                __html:
+                  "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','" + GA_ID + "',{page_path:window.location.pathname,anonymize_ip:true});",
+              }}
+            />
+          </>
+        )}
       </body>
     </html>
   );
