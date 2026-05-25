@@ -5,11 +5,12 @@ import Link from "next/link";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 
 const NAV = [
-  { label: "Services",  href: "/#services"  },
-  { label: "Work",      href: "/portfolio"  },
-  { label: "Journal",   href: "/blog"       },
-  { label: "Locations", href: "/#coverage"  },
-  { label: "About",     href: "/about"      },
+  { label: "Services",  href: "/services"  },
+  { label: "Work",      href: "/portfolio" },
+  { label: "Pricing",   href: "/pricing"   },
+  { label: "Journal",   href: "/blog"      },
+  { label: "Locations", href: "/locations" },
+  { label: "About",     href: "/about"     },
 ];
 
 export default function Navbar() {
@@ -51,7 +52,7 @@ export default function Navbar() {
           </Link>
 
           {/* DESKTOP NAV */}
-          <ul className="hidden lg:flex items-center gap-10">
+          <ul className="hidden lg:flex items-center gap-8">
             {NAV.map((n) => (
               <li key={n.label}>
                 <Link href={n.href} className="link-gold text-[0.65rem] text-silver hover:text-gold-light transition-colors duration-300 tracking-[0.25em]">
@@ -84,10 +85,10 @@ export default function Navbar() {
       </nav>
 
       {/* MOBILE FULLSCREEN MENU */}
-      <div className={`fixed inset-0 z-40 transition-all duration-700 ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
-           style={{ background: "radial-gradient(ellipse at 20% 50%, rgba(212,160,23,0.06) 0%, #050505 60%)" }}>
-
-        {/* Decorative number */}
+      <div
+        className={`fixed inset-0 z-40 transition-all duration-700 ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
+        style={{ background: "radial-gradient(ellipse at 20% 50%, rgba(212,160,23,0.06) 0%, #050505 60%)" }}
+      >
         <span className="absolute bottom-10 right-10 font-display text-[12rem] text-white/[0.02] leading-none select-none">BSO</span>
 
         <div className="flex flex-col justify-center items-start h-full container-xl">

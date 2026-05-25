@@ -1,19 +1,26 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { Camera, Film, Video, Smartphone, Megaphone, MessageSquare, ImageIcon, Plane, Building2, Clapperboard, ArrowUpRight } from "lucide-react";
+import { Camera, Film, Video, Smartphone, Megaphone, MessageSquare, ImageIcon, Plane, Building2, Clapperboard, Car, Home, Mic, Youtube, Utensils, Package, Users, ArrowUpRight } from "lucide-react";
 
 const SERVICES = [
-  { icon: Camera,        slug: "event-shoots",         label: "Event Shoots",           num: "01", desc: "Corporate galas, product launches, conferences & weddings — captured with cinematic precision." },
-  { icon: Film,          slug: "event-video-editing",  label: "Event Video Editing",    num: "02", desc: "48-hour polished highlight reels from raw footage. Colour-graded, sound-designed, ready to post." },
-  { icon: Clapperboard,  slug: "dvcs",                 label: "DVCs",                   num: "03", desc: "Digital video commercials that make UAE audiences stop, watch, and act." },
-  { icon: Video,         slug: "reels",                label: "Reels & Short Films",    num: "04", desc: "Cinematic short-form content built for maximum organic reach on Instagram & TikTok in 2026." },
-  { icon: ImageIcon,     slug: "photo-shoots",         label: "Photo Shoots",           num: "05", desc: "Editorial, lifestyle, product & architectural photography across all UAE emirates." },
-  { icon: Smartphone,    slug: "social-media-content", label: "TikTok & Instagram",     num: "06", desc: "Vertical-first, AI-algorithm-aware content that wins on social in 2026." },
-  { icon: MessageSquare, slug: "testimonial-videos",   label: "Testimonial Videos",     num: "07", desc: "Authentic client testimonials that build instant trust and drive measurable conversion." },
-  { icon: Megaphone,     slug: "ads-shooting",         label: "Ads Shooting",           num: "08", desc: "High-production ad content for Meta, TikTok, YouTube, OOH & broadcast campaigns." },
-  { icon: Plane,         slug: "aerial-drone",          label: "Aerial / Drone",         num: "09", desc: "GCAA-licensed drone cinematography across all 7 UAE emirates — from desert to coastline." },
-  { icon: Building2,     slug: "corporate-films",      label: "Corporate Films",        num: "10", desc: "Brand documentaries, investor films, culture content & annual report videos." },
+  { icon: Camera,        slug: "event-videography",      label: "Event Videography & Photography",       num: "01", desc: "Full-service event coverage — galas, conferences, launches and weddings across all UAE emirates." },
+  { icon: ImageIcon,     slug: "photo-shoots",            label: "Wedding & Photo Shoots",                num: "02", desc: "Dubai's best wedding shoot company. Pre-wedding, editorial, and lifestyle photography across UAE." },
+  { icon: Smartphone,    slug: "social-media-shoots",     label: "Social Media Videography & Photography",num: "03", desc: "Combined photo + video shoot days for Instagram, TikTok and YouTube — all assets in one session." },
+  { icon: Car,           slug: "automotive",              label: "Automotive Videography & Photography",  num: "04", desc: "Studio and on-road car shoots, dynamic footage, and GCAA drone aerials for UAE auto brands." },
+  { icon: Home,          slug: "real-estate",             label: "Real Estate Videography & Photography", num: "05", desc: "Property walkthroughs, architectural photography, and drone aerials for UAE listings and developers." },
+  { icon: Users,         slug: "corporate-videography",  label: "Corporate Videography & Photography",   num: "06", desc: "Executive headshots, team portraits, office shoots, and LinkedIn video content for UAE businesses." },
+  { icon: Mic,           slug: "podcast",                 label: "Podcast Videography",                   num: "07", desc: "Multi-camera studio podcast production with broadcast audio and social clip cutting." },
+  { icon: Youtube,       slug: "youtube-content",         label: "YouTube Videography",                   num: "08", desc: "Full-service YouTube video production for UAE brands — scripting, filming, editing, thumbnails." },
+  { icon: Utensils,      slug: "food",                    label: "Food Videography & Photography",        num: "09", desc: "Styled food photography and cinematic video for UAE restaurants, delivery apps, and F&B brands." },
+  { icon: Package,       slug: "product-shoots",          label: "Product Videography & Photography",     num: "10", desc: "E-commerce listing shots, lifestyle product photography, and product reveal videos." },
+  { icon: Clapperboard,  slug: "dvcs",                    label: "DVCs & TV Commercials",                 num: "11", desc: "High-production digital video commercials that make UAE audiences stop, watch, and act." },
+  { icon: Video,         slug: "reels",                   label: "Reels & Short Films",                   num: "12", desc: "Algorithm-optimised short-form content built for maximum organic reach on Instagram & TikTok." },
+  { icon: Megaphone,     slug: "ads-shooting",            label: "Ads Shooting",                          num: "13", desc: "High-production ad content for Meta, TikTok, YouTube, OOH & broadcast campaigns." },
+  { icon: Plane,         slug: "aerial-drone",            label: "Aerial / Drone (GCAA Licensed)",        num: "14", desc: "GCAA-licensed drone cinematography across all 7 UAE emirates — from desert to coastline." },
+  { icon: Building2,     slug: "corporate-films",         label: "Corporate Films",                       num: "15", desc: "Brand documentaries, investor films, culture content & annual report videos." },
+  { icon: MessageSquare, slug: "testimonial-videos",      label: "Testimonial Videos",                    num: "16", desc: "Authentic client testimonials that build instant trust and drive measurable conversion." },
+  { icon: Film,          slug: "event-video-editing",     label: "Event Video Editing",                   num: "17", desc: "48-hour polished highlight reels from raw footage. Colour-graded, sound-designed, ready to post." },
 ];
 
 export default function ServicesGrid() {

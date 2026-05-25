@@ -18,10 +18,11 @@ const SERVICES = [
 const COMPANY = [
   { label: "About Us",     href: "/about" },
   { label: "Portfolio",    href: "/portfolio" },
+  { label: "Pricing",      href: "/pricing" },
   { label: "Blog",         href: "/blog" },
   { label: "Testimonials", href: "/testimonials" },
+  { label: "Locations",    href: "/locations" },
   { label: "Contact",      href: "/contact" },
-  { label: "Studio",       href: "/studio" },
 ];
 
 const CITIES = [
@@ -54,7 +55,7 @@ export default function Footer() {
         style={{ borderColor: "var(--border)" }}
       >
         <p className="text-xs tracking-[0.5em] uppercase mb-6 font-medium" style={{ color: "var(--gold)" }}>
-          â¦ Ready to Create?
+          ✦ Ready to Create?
         </p>
         <h2
           className="font-display leading-none mb-8"
@@ -86,7 +87,7 @@ export default function Footer() {
       {/* Main grid */}
       <div className="container-xl py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-12 lg:gap-8">
-          {/* Col 1 â Brand */}
+          {/* Col 1 — Brand */}
           <div>
             <Link href="/" className="flex items-center gap-4 mb-7 group" aria-label="Backyard Studio Official Home">
               <div className="relative w-24 h-24 shrink-0 transition-all duration-300">
@@ -104,7 +105,7 @@ export default function Footer() {
 
             <p className="text-sm leading-relaxed mb-8 max-w-xs" style={{ color: "var(--muted)" }}>
               Dubai&apos;s premier creative production studio. We craft cinematic content that
-              moves brands forward across every UAE emirate â from corporate headquarters to
+              moves brands forward across every UAE emirate — from corporate headquarters to
               desert horizons.
             </p>
 
@@ -143,7 +144,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Col 2 â Services */}
+          {/* Col 2 — Services */}
           <div>
             <h4
               className="font-display text-lg tracking-[0.25em] mb-6"
@@ -166,7 +167,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Col 3 â Company */}
+          {/* Col 3 — Company */}
           <div>
             <h4
               className="font-display text-lg tracking-[0.25em] mb-6"
@@ -216,7 +217,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Col 4 â UAE Coverage */}
+          {/* Col 4 — UAE Coverage */}
           <div>
             <h4
               className="font-display text-lg tracking-[0.25em] mb-6"
@@ -262,7 +263,7 @@ export default function Footer() {
       <div className="border-t" style={{ borderColor: "var(--border)" }}>
         <div className="container-xl py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs" style={{ color: "var(--muted)" }}>
-            Â© {new Date().getFullYear()} Backyard Studio Official. All Rights Reserved. Dubai, UAE.
+            © {new Date().getFullYear()} Backyard Studio Official. All Rights Reserved. Dubai, UAE.
           </p>
           <div className="flex items-center gap-6">
             {[

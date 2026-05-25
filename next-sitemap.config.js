@@ -1,17 +1,8 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://backyardstudioofficial.com",
-  generateRobotsTxt: true,
-  robotsTxtOptions: {
-    policies: [
-      { userAgent: "*",      allow: "/" },
-      { userAgent: "*",      disallow: "/studio" },
-      { userAgent: "*",      disallow: "/api" },
-    ],
-    additionalSitemaps: [
-      "https://backyardstudioofficial.com/server-sitemap.xml",
-    ],
-  },
+  siteUrl: "https://www.backyardstudioofficial.com",
+  generateRobotsTxt: false, // handled by app/robots.ts
+  exclude: ["/studio/*", "/api/*"],
   exclude: ["/studio/*", "/api/*"],
   generateIndexSitemap: true,
   changefreq: "weekly",

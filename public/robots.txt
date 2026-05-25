@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
-Disallow: /studio
+Disallow: /studio/
 Disallow: /api/
 
-Sitemap: https://backyardstudioofficial.com/sitemap.xml
+Sitemap: https://www.backyardstudioofficial.com/sitemap.xml
+Host: https://www.backyardstudioofficial.com

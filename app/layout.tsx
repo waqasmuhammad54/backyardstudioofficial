@@ -8,42 +8,52 @@ import CinematicIntro from "@/components/shared/CinematicIntro";
 import { organizationSchema, localBusinessSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://backyardstudioofficial.com"),
+  metadataBase: new URL("https://www.backyardstudioofficial.com"),
   title: {
-    default: "Backyard Studio Official | #1 Video Production Studio in UAE 2026",
+    default: "Best Production Company in Dubai | Backyard Studio Official — UAE #1 2026",
     template: "%s | Backyard Studio Official",
   },
   description:
-    "Dubai's premier creative production studio in 2026. Event shoots, DVCs, Instagram Reels, TikTok content, testimonials & drone ads — serving all 7 UAE emirates. 2,400+ projects delivered. 8+ years of cinematic excellence.",
+    "Dubai's best production company for video, events, weddings & social media shoots. DVCs, Instagram Reels, TikTok content, corporate films, wedding photography & drone production across all 7 UAE emirates. 2,400+ projects. GCAA licensed.",
   keywords: [
-    "video production Dubai 2026",
-    "event videography UAE",
-    "DVC production Dubai",
-    "Instagram reels UAE",
-    "TikTok content Dubai",
-    "corporate video Abu Dhabi",
-    "ads shooting UAE",
-    "testimonial videos Dubai",
-    "backyard studio official",
-    "video production company UAE",
-    "event shoots Dubai",
-    "reels production Dubai",
-    "photo shoots UAE",
+    "best production company in Dubai",
+    "top production companies in Dubai",
+    "production house Dubai",
+    "video production company Dubai",
+    "film production company Dubai",
+    "event production company Dubai",
+    "best wedding shoot company in Dubai",
+    "top wedding shoot company in Dubai",
+    "wedding videographer Dubai",
+    "wedding photography Dubai",
+    "wedding video production Dubai",
+    "pre wedding photoshoot Dubai",
+    "pre wedding photographers Dubai",
+    "best wedding photographers Dubai",
+    "wedding studio Dubai",
+    "Indian wedding photographer Dubai",
+    "social media content creator Dubai",
+    "Instagram reels production Dubai",
+    "TikTok content creation Dubai",
+    "social media shoots Dubai",
+    "corporate video production Dubai",
+    "event videographer Dubai",
+    "ads shooting Dubai",
     "aerial drone videography Dubai",
-    "corporate films UAE",
-    "best production studio Dubai",
-    "cinematic video production UAE",
     "GCAA licensed drone operator UAE",
-    "social media content Dubai",
-    "brand films Abu Dhabi",
+    "DVC production Dubai",
+    "testimonial videos Dubai",
+    "corporate films UAE",
+    "backyard studio official",
+    "best production company UAE",
   ],
-  authors:   [{ name: "Backyard Studio Official", url: "https://backyardstudioofficial.com" }],
+  authors:   [{ name: "Backyard Studio Official", url: "https://www.backyardstudioofficial.com" }],
   creator:   "Backyard Studio Official",
   publisher: "Backyard Studio Official",
   openGraph: {
     type:        "website",
     locale:      "en_AE",
-    url:         "https://backyardstudioofficial.com",
+    url:         "https://www.backyardstudioofficial.com",
     siteName:    "Backyard Studio Official",
     title:       "Backyard Studio Official | UAE's #1 Creative Production Studio 2026",
     description: "Event shoots, DVCs, Reels, TikTok, Ads & cinematic brand films — crafted for ambitious brands across Dubai, Abu Dhabi & all 7 UAE emirates. 2,400+ projects. GCAA licensed.",
@@ -65,9 +75,9 @@ export const metadata: Metadata = {
     apple:   "/apple-touch-icon.png",
     shortcut:"/favicon-32x32.png",
   },
-  verification: { google: "REPLACE_WITH_GSC_VERIFICATION_CODE" },
+  verification: { google: "gTxfmwhvhvy9X-uOewdWpTtYQsHAbst-wGFZgwLx4RE" },
   alternates: {
-    canonical: "https://backyardstudioofficial.com",
+    canonical: "https://www.backyardstudioofficial.com",
   },
   category: "Video Production",
 };
@@ -97,7 +107,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 "@type": "SpeakableSpecification",
                 "cssSelector": ["h1", "h2", ".speakable"]
               },
-              "url": "https://backyardstudioofficial.com"
+              "url": "https://www.backyardstudioofficial.com"
             }),
           }}
         />
@@ -122,22 +132,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@context": "https://schema.org",
               "@type": "BreadcrumbList",
               "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://backyardstudioofficial.com" },
-                { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://backyardstudioofficial.com/services" },
-                { "@type": "ListItem", "position": 3, "name": "Portfolio", "item": "https://backyardstudioofficial.com/portfolio" },
-                { "@type": "ListItem", "position": 4, "name": "Contact", "item": "https://backyardstudioofficial.com/contact" },
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.backyardstudioofficial.com" },
+                { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.backyardstudioofficial.com/services" },
+                { "@type": "ListItem", "position": 3, "name": "Portfolio", "item": "https://www.backyardstudioofficial.com/portfolio" },
+                { "@type": "ListItem", "position": 4, "name": "Contact", "item": "https://www.backyardstudioofficial.com/contact" },
               ]
             }),
           }}
         />
 
-        {/* Google Analytics — replace G-XXXXXXXX */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXX" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXX');`,
-          }}
-        />
+        {/* Google Analytics — add your G-XXXXXXXX ID here once created in GA4 */}
       </head>
 
       <body style={{ background: "var(--black-2)", color: "var(--cream)", overflowX: "hidden" }}>
