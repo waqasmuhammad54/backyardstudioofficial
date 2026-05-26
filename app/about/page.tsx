@@ -7,7 +7,7 @@ import { personSchema, breadcrumbSchema } from "@/lib/structuredData";
 export const metadata: Metadata = {
   title: "About Us | Fahad Iqbal Butt & Syed Mazhar Zaidi — Dubai Production Studio",
   description:
-    "Backyard Studio Official was co-founded by filmmaker Fahad Iqbal Butt (NCA Lahore) and documentary cinematographer Syed Mazhar Zaidi (NCA + GC University). Dubai's premier production studio — 2,400+ projects across all 7 UAE emirates since 2019.",
+    "Meet the team behind Dubai's best production studio. Co-founded by filmmaker Fahad Iqbal Butt and cinematographer Syed Mazhar Zaidi (IMDB) — 2,400+ projects across all 7 UAE emirates since 2019. GCAA licensed. Free quote in 2 hours.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/about" },
 };
 
@@ -280,4 +280,5 @@ export default function AboutPage() {
                       {link.label} <ArrowUpRight size={11} />
                     </a>
                   ))}
-                </d
+                </div>
+         

@@ -4,7 +4,7 @@ import { Camera, Film, Video, Smartphone, Megaphone, MessageSquare, Image, Plane
 
 export const metadata: Metadata = {
   title: "Video & Photography Production Services Dubai UAE",
-  description: "Full-service video and photography production in Dubai — events, weddings, DVCs, social media, automotive, real estate, food, product, podcast, YouTube & corporate shoots across all UAE emirates.",
+  description: "Dubai's full-service production studio — events, weddings, DVCs, Reels, TikTok, corporate films, automotive, real estate, food & product shoots across all 7 UAE emirates. GCAA drone. 48h delivery. Free quote in 2 hours.",
   keywords: [
     "production company services Dubai",
     "video production services UAE",
@@ -158,4 +158,4 @@ export default function ServicesPage() {
     </div>
   );
 }
-                           
+   

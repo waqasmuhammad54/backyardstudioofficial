@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Check, ArrowUpRight } from "lucide-react";
 import VimeoEmbed from "@/components/shared/VimeoEmbed";
-import { breadcrumbSchema } from "@/lib/structuredData";
+import { breadcrumbSchema, faqSchema } from "@/lib/structuredData";
 
 // Vimeo video embeds per service slug
 const SERVICE_VIDEOS: Record<string, { id: string; title: string; poster: string }> = {
@@ -701,10 +701,16 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
     { name: "Services", url: "https://www.backyardstudioofficial.com/services" },
     { name: service.title, url: `https://www.backyardstudioofficial.com/services/${params.slug}` },
   ]);
+  const serviceFaqSchema = service.faqs.length > 0
+    ? faqSchema(service.faqs.map((f) => ({ question: f.q, answer: f.a })))
+    : null;
 
   return (
     <div className="pt-24">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceBreadcrumb) }} />
+      {serviceFaqSchema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceFaqSchema) }} />
+      )}
       {/* Cinematic hero */}
       <div className="relative h-[60vh] min-h-[420px] overflow-hidden">
         <Image src={imgs.hero} alt={service.title} fill className="object-cover img-cinematic" sizes="100vw" priority />
@@ -813,9 +819,4 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
               <p className="text-[0.65rem] tracking-widest uppercase mb-4" style={{ color: "var(--muted)" }}>Available across</p>
               <div className="flex flex-wrap gap-2">
                 {["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "RAK", "Fujairah", "UAQ"].map((c) => (
-                  <span key={c} className="text-xs px-3 py-1 border text-silver/60" style={{ borderColor: "var(--border)" }}>{c}</span>
-                ))}
-              </div>
-            </div>
-            <div className="p-6 border" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
-              <div className="w-2 h-2
+                  <span key={c} className

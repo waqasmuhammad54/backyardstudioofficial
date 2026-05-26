@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowUpRight, Check, ChevronDown } from "lucide-react";
 import { notFound } from "next/navigation";
-import { breadcrumbSchema } from "@/lib/structuredData";
+import { breadcrumbSchema, faqSchema } from "@/lib/structuredData";
 
 /* ─── Industry Data ─────────────────────────────────────────────────── */
 
@@ -347,6 +347,9 @@ export default function IndustryPage({ params }: { params: { industry: string } 
     { name: "Industries", url: "https://www.backyardstudioofficial.com/industries" },
     { name: data.name, url: `https://www.backyardstudioofficial.com/industries/${params.industry}` },
   ]);
+  const industryFaqJsonLd = data.faqs.length > 0
+    ? faqSchema(data.faqs.map((f) => ({ question: f.q, answer: f.a })))
+    : null;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -368,6 +371,9 @@ export default function IndustryPage({ params }: { params: { industry: string } 
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      {industryFaqJsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(industryFaqJsonLd) }} />
+      )}
 
       {/* ── HERO ── */}
       <section className="relative min-h-[70vh] flex items-end overflow-hidden" style={{ paddingTop: "120px" }}>
@@ -523,10 +529,4 @@ export default function IndustryPage({ params }: { params: { industry: string } 
       {/* ── CTA ── */}
       <section className="py-24 text-center border-t" style={{ background: "var(--black)", borderColor: "var(--border)" }}>
         <p className="eyebrow mb-6">Ready to Start?</p>
-        <h2 className="font-display text-5xl sm:text-6xl mb-8" style={{ color: "var(--cream)" }}>
-          LET'S CREATE SOMETHING
-        </h2>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link href="/contact" className="btn-gold">
-            <span>Get a Free Quote</span>
-            <ArrowUpR
+        <h2 className="font-display text-5xl sm

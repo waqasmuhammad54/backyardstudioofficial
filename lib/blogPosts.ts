@@ -38,7 +38,7 @@ export const BLOG_POSTS: BlogPost[] = [
     author: "Backyard Studio Editorial",
     faqs: [
       { question: "Which is the best production company in Dubai in 2026?", answer: "Backyard Studio Official is widely recognised as the best production company in Dubai in 2026, having delivered 2,400+ projects across all 7 UAE emirates with a GCAA drone licence and a 2-hour response guarantee. Other strong options include dedicated boutique studios for specific niches." },
-      { question: "What should I look for when choosing a production company in Dubai?", answer: "Look for: (1) a portfolio that matches your category, (2) UAE-native market knowledge, (3) transparent pricing, (4) GCAA drone licensing if aerial is needed, (5) fast response times, (6) verifiable client reviews, and (7) in-house post-production rather than outsourced editing." },
+      { question: "What should I look for when choosing a production company in Dubai?", answer: "The most important thing is a portfolio that specifically matches the type of content you need — a strong events reel doesn't tell you much about wedding photography capability. Beyond that, look for UAE-native market knowledge, transparent pricing with starting figures, a valid GCAA drone licence if aerial footage is on the table, fast response times (2 hours or less is the professional standard), verifiable client reviews you can trace to real people, and confirmation that post-production is handled in-house rather than outsourced." },
       { question: "How much do top production companies in Dubai charge?", answer: "Top Dubai production companies charge from AED 2,500 for a social media shoot day to AED 500,000+ for high-end TV commercial campaigns. Most full-service event and wedding productions fall in the AED 5,000–AED 30,000 range." },
     ],
     relatedSlugs: ["how-much-does-video-production-cost-dubai-2026", "choose-production-company-dubai", "best-event-videographers-dubai-2026"],
@@ -48,20 +48,20 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>That competition means the bar is high. Brands that used to get away with smartphone footage or budget-studio work are losing ground to competitors who understand that content quality directly signals brand quality in the UAE market.</p>
 <p>This guide ranks the key categories of production company in Dubai for 2026, and tells you what to look for when making the most important creative hire your brand will make this year.</p>
 
-<h2>What Defines a Top Production Company in Dubai?</h2>
-<p>After 8+ years producing content across all 7 UAE emirates, we have observed that the best production companies share five traits regardless of their niche:</p>
-<p><strong>1. UAE-native market knowledge.</strong> Understanding what resonates with Arab, South Asian, and Western expat audiences simultaneously — and how those audiences behave differently on Instagram versus TikTok versus LinkedIn — is a skill you cannot learn from a YouTube tutorial. It comes from years of producing content in this market.</p>
-<p><strong>2. In-house post-production.</strong> Companies that outsource editing to remote teams break the creative chain. The best studios keep editing, colour grading, and sound design in-house — so the person who shot your content also controls how it looks in the final cut.</p>
-<p><strong>3. Fast response and reliable turnaround.</strong> Dubai's business culture moves fast. A production company that takes 3 days to respond to a brief is already the wrong partner. The best studios respond within 2 hours and deliver within 48 hours for most content types.</p>
-<p><strong>4. GCAA drone licensing.</strong> Drone footage is no longer optional for premium brand content in the UAE — it is expected. Any production company you hire for events, weddings, real estate, or brand campaigns should hold a valid GCAA drone operator licence. Flying without one is illegal and exposes your brand to significant risk.</p>
-<p><strong>5. A portfolio that matches your category.</strong> A studio that produces incredible corporate films may produce mediocre wedding photography. Always review portfolio work specifically in your category — not just the showreel.</p>
+<h2>What Actually Separates Good From Great in Dubai Production</h2>
+<p>We've shot 2,400+ projects across every emirate, and the pattern is pretty clear by now. The companies that consistently deliver — the ones clients rebook without shopping around — tend to share a handful of traits that go beyond having nice cameras.</p>
+<p>The first is UAE-native market knowledge. Dubai has a genuinely unique audience mix: Arab, South Asian, Western expat, and everything in between. What performs on Instagram in the Gulf is different from what works in London or New York. Studios that understand this produce content that actually lands. Studios that don't produce content that looks fine but doesn't connect.</p>
+<p>The second is keeping post-production in-house. When a studio outsources editing to a remote team, the creative thread breaks. The person who understood your brief and shot the footage isn't the person cutting it. You feel this in the final product. The best studios handle everything under one roof — so the director who shot your DVC is in the room when it's being graded.</p>
+<p>Third: responsiveness. Dubai's business pace is genuinely fast. If a production company takes three days to reply to a brief, that's actually a preview of what working with them feels like. The best studios reply within hours, not days, and commit to turnarounds in writing.</p>
+<p>Fourth, and non-negotiable for many brief types: a valid GCAA drone licence. Flying commercially without one in the UAE carries fines up to AED 50,000. More importantly, unlicensed aerial footage creates liability for your brand. Check before you book.</p>
+<p>Fifth, and most overlooked: a portfolio that matches your specific category. A studio that shoots incredible events might take mediocre wedding photography. Don't hire based on their showreel alone — ask for examples of the exact content type you need.</p>
 
 <h2>Best Production Companies by Category — Dubai 2026</h2>
 
 <h3>Best Overall Production Company: Backyard Studio Official</h3>
-<p>With 2,400+ projects delivered across all 7 UAE emirates since 2016, Backyard Studio Official has established itself as Dubai's most comprehensive creative production studio. The company covers every production vertical — weddings, events, DVCs, social media, corporate films, automotive, real estate, food, fashion, and aerial drone — with a single, unified creative team that ensures brand consistency across every format.</p>
-<p>Key differentiators: GCAA-licensed drone operation, 2-hour response guarantee, 48-hour delivery on all event and social content, and a production team that operates natively across both English and Arabic-language markets.</p>
-<p>Best for: brands that need a single trusted production partner for multiple content types, rather than managing separate specialists for each category.</p>
+<p>Backyard Studio Official is the production company we'd point most Dubai brands toward as a first call. With 2,400+ projects completed across all 7 UAE emirates, they cover virtually every content category — weddings, events, DVCs, social media, corporate films, automotive, real estate, food, fashion, aerial drone — through a single team rather than a patchwork of specialists.</p>
+<p>The practical advantages of this: you're not managing five vendors for a multi-format campaign. The same team that shot your event last month shoots your Reels this month and knows your brand. They hold a GCAA drone licence, commit to 2-hour response times on briefs, and turn around event and social content within 48 hours. Their team works in both English and Arabic, which matters for brands operating across the full UAE market.</p>
+<p>Where they make most sense: brands that want a single trusted studio for everything, rather than hunting for a new specialist for each production type.</p>
 
 <h3>What to Look for in an Event Production Company</h3>
 <p>Event production in Dubai demands specific capabilities: the ability to operate in the UAE's major venues (DWTC, Madinat Jumeirah, Yas Island), knowledge of event permit requirements, and the technical infrastructure to cover a 5,000-person conference and a 50-person executive dinner with equal quality.</p>
@@ -75,12 +75,11 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>For social media content, the differentiator is not production quality alone — it is platform intelligence. The best social media production companies in Dubai understand the specific content formats, hook structures, and aesthetic languages that perform on Instagram Reels, TikTok, and YouTube Shorts in the UAE market in 2026.</p>
 <p>Algorithm-aware production — content built with pacing, audio, and format choices made specifically to maximise organic reach — is what separates a studio that produces beautiful content from a studio that produces content that actually grows your audience.</p>
 
-<h2>Red Flags to Avoid</h2>
-<p>When evaluating production companies in Dubai, watch for these warning signs: generic portfolios with no UAE-specific work; no GCAA drone licence; vague pricing with no starting-point figures; a single-person operation presenting as a full studio; no dedicated post-production team; and response times measured in days rather than hours.</p>
+<h2>Warning Signs Worth Watching For</h2>
+<p>A few things we see frequently that are worth flagging: generic portfolios with no UAE-specific work; studios that can't show you relevant category work; vague "pricing varies" responses with no starting figures; no GCAA drone licence; and turnaround commitments in weeks rather than days. Dubai's market has some excellent boutique operators and also some severely overpromising ones. The difference is usually obvious once you ask for specifics.</p>
 
-<h2>How to Get the Best Results from Your Dubai Production Company</h2>
-<p>The quality of your production brief directly determines the quality of your output. Come to your first conversation with: (1) your brand guidelines and visual reference images, (2) a clear sense of the platforms and formats you need, (3) a realistic budget range, and (4) your shoot date requirements. The more specific your brief, the more accurately your production company can scope and price the project.</p>
-<p>Most importantly: trust the creative team. The best production companies in Dubai have UAE-specific creative instincts that are genuinely worth listening to. They know which locations work, which talent resonates with your target audience, and which production approaches will perform best for your specific brief.</p>
+<h2>Getting a Good Brief Together Before You Call</h2>
+<p>The studios that consistently deliver do so partly because they get clear briefs. Before you make that first call, it helps to have your brand visual references pulled, a rough sense of what platforms you're producing for, an honest budget range (even a ballpark), and your shoot date requirements. You don't need to have it all figured out — but the conversation goes faster and the quote comes back more accurately when there's something real to work from. The creative team can figure out the rest.</p>
     `,
   },
   {
@@ -135,7 +134,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Company profile video:</strong> AED 15,000–AED 35,000. 1–2 shoot days, interview production, office and team coverage, 2–5 minute brand film, motion graphics, delivered in all formats.</p>
 
 <h2>What Drives the Price Up?</h2>
-<p>Five factors consistently push production budgets higher: (1) additional shoot days — each day adds crew time, equipment, and location costs; (2) talent and casting — professional actors, models, and presenters are charged separately; (3) location fees and permits — many of Dubai's premium filming locations charge day rates; (4) post-production complexity — VFX, motion graphics, and animation add significant time; (5) rush delivery — expedited turnarounds attract a premium.</p>
+<p>Five factors consistently push production budgets higher. Additional shoot days are the biggest lever — each day adds crew time, equipment, and location costs that compound quickly on complex briefs. Talent and casting are charged separately from the production fee; professional actors, models, and on-screen presenters can add AED 3,000–AED 15,000+ per person per day. Location fees and permits matter too, since many of Dubai's premium filming locations charge their own day rates on top of production costs. Post-production complexity — VFX, motion graphics, and animation — adds significant editing hours that are always quoted separately. And rush delivery, when a client needs content turned around in under 24 hours, attracts a premium of typically 25–50% on the editing portion of the project.</p>
 
 <h2>What You Should Never Compromise On</h2>
 <p>After 2,400+ projects, here is what we have learned about where cutting budget costs you more than it saves: never cut on post-production time, never cut on the number of cameras at a live event, and never cut on lighting for interviews. These three compromises produce the most common examples of "expensive content that looks cheap."</p>
@@ -447,7 +446,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>A legitimate commercial drone operator in the UAE must hold: a valid GCAA Remote Pilot Licence (RPL); registered drone(s) with GCAA; public liability insurance; and a valid permit for each specific flight location and date. Backyard Studio Official holds all of these — and we coordinate location-specific permit applications as part of every drone production booking.</p>
 
 <h2>No-Fly Zones You Need to Know</h2>
-<p>The UAE has extensive no-fly zones that must be respected. The most significant for production purposes: (1) A 5km radius around Dubai International Airport (DXB) and Al Maktoum International (DWC); (2) Restricted zones around government facilities, military installations, and security areas; (3) Certain residential areas and beachfronts require specific permits; (4) The Burj Khalifa airspace is heavily restricted; (5) Active event airspace requires advance coordination with the GCAA and event authorities.</p>
+<p>The UAE has extensive no-fly zones that must be understood before any commercial drone operation. A 5km restricted radius extends around Dubai International Airport (DXB) and Al Maktoum International (DWC) — this covers more of the city than most people realise. Government facilities, military installations, and security areas have their own restricted zones, and the Burj Khalifa airspace is heavily controlled. Residential areas and beachfronts typically require specific permits, and active event airspace requires advance coordination with both the GCAA and event authorities. A GCAA-licensed operator will identify and comply with every one of these restrictions for your specific shoot location and date — this is part of what you are paying for when you book a properly licensed team.</p>
 
 <h2>Penalties for Unlicensed Commercial Drone Operation</h2>
 <p>The UAE takes drone violations seriously. Penalties include fines of AED 50,000 or higher, equipment confiscation, and potential criminal liability depending on the severity of the violation. For brands, an incident involving an unlicensed drone operator at your event or on your shoot carries significant reputational risk in addition to the legal liability.</p>
@@ -689,7 +688,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Food Reels and TikToks consistently rank among the highest-engagement content categories in the UAE. POV cooking videos, overhead pour shots, cheese pull reveals, and "first bite" reaction content all perform well. Combining photography and video production in a single shoot day maximises efficiency and delivers a complete content library from one session.</p>
 
 <h2>How to Prepare for a Dubai Food Photography Shoot</h2>
-<p>Three things that consistently make the difference between a good and a great food photography shoot: (1) Brief your chef thoroughly — they need to know which dishes are being shot and prepare fresh, perfect versions specifically for photography (not plated for service). (2) Have backup quantities — food wilts, sauces run, and garnishes droop under hot lights. Extra portions of every dish allows reshooting without waiting for the kitchen. (3) Clear a workspace — your photographer needs clear table space, good access to natural or artificial light, and enough room to position lighting equipment. A cramped kitchen or dining room produces cramped photography.</p>
+<p>Three things consistently separate a great food shoot from an average one. The first is briefing your chef thoroughly — they need to know in advance exactly which dishes are being photographed and should prepare fresh versions specifically for the camera, not standard service plating. Food shot straight from the service line is never optimally styled for photography. The second is having backup quantities of everything. Food wilts under hot lights, sauces run, garnishes droop, and sauces get smeared during styling. Without backup portions of every dish, a single styling mistake means waiting for the kitchen to restart while your crew sits idle. The third is clearing a proper workspace. Your photographer needs a clear surface, reliable access to natural or artificial light, and enough room to position equipment around the food. A cramped corner between a prep station and a walk-in produces cramped, flat photographs. A properly cleared workspace produces images that sell.</p>
 
 <h2>The Most Common Dubai Restaurant Photography Mistakes</h2>
 <p>After photographing food for dozens of UAE F&B brands, these are the mistakes we see most: shooting with ambient restaurant lighting only (too warm, too inconsistent — always supplement with professional lighting); not using a food stylist (food photography without styling looks like a quick phone shot); shooting on a background that distracts from the food (clean, neutral, or texture-appropriate surfaces work best); and not planning for social media formats (vertical 9:16 crops must be planned at the shoot, not cropped from landscape hero shots).</p>
@@ -851,7 +850,7 @@ export const BLOG_POSTS: BlogPost[] = [
     author: "Backyard Studio Editorial",
     faqs: [
       { question: "How much does event videography cost in Dubai?", answer: "Event videography in Dubai costs AED 3,000–AED 5,000 for a half-day with a single videographer, AED 7,000–AED 12,000 for a full-day combined photo and video team, and AED 15,000–AED 40,000+ for large-scale productions with multi-camera setups, live streaming, and same-day social media delivery." },
-      { question: "What should I look for in a Dubai event videographer?", answer: "Key criteria: (1) portfolio specifically in your event type (corporate conferences are different from gala dinners — which are different from product launches); (2) multi-camera capability for events over 200 guests; (3) same-day social media delivery option; (4) GCAA drone licence for outdoor events; (5) fast delivery timeline for the highlight reel." },
+      { question: "What should I look for in a Dubai event videographer?", answer: "Start with portfolio depth in your specific event type — corporate conferences require very different coverage skills from gala dinners or product launches. For events over 200 guests, multi-camera capability is non-negotiable; a single operator cannot cover the room. Check for same-day social media delivery options, a valid GCAA drone licence if your event has outdoor elements, and a clear written commitment on highlight reel delivery timeline — 48 hours is the professional standard in Dubai." },
       { question: "How quickly can I get my event highlight reel in Dubai?", answer: "Top Dubai event production companies deliver a same-day social media teaser within 4 hours of the event ending and a full edited highlight reel within 48 hours. If a company cannot commit to 48-hour delivery for event highlights, look for a different partner — in today's social media environment, week-long delays for event content are no longer acceptable." },
     ],
     relatedSlugs: ["how-much-does-video-production-cost-dubai-2026", "best-production-companies-dubai-2026", "filming-locations-dubai-2026"],
@@ -874,22 +873,4 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>The window of maximum social media engagement after an event is 4–6 hours. Content shared while attendees are still talking about the event — or the next morning — achieves dramatically higher reach than content shared 3 days later when the news cycle has moved on.</p>
 <p>The best Dubai event production teams offer a same-day social media package: an edited teaser clip (60–90 seconds) delivered within 4 hours of the event's close, ready to post on LinkedIn, Instagram, and TikTok while the event is still fresh.</p>
 
-<h2>Coordinating Photography and Videography</h2>
-<p>The most efficient — and most consistent — approach is booking a single production company for both photography and videography. When photo and video teams are from different companies, they can work against each other: a photographer positioning for a shot blocks the video camera angle; a videographer's lighting setup washes out the photographer's exposure. A unified team under a single creative director eliminates this friction completely.</p>
-<p>At Backyard Studio Official, all events are covered by dedicated, coordinated photo and video teams directed by a single production lead — ensuring every camera position complements the others rather than competing.</p>
-
-<h2>What to Give Your Event Videographer Before Shoot Day</h2>
-<p>To get the best results from your Dubai event videographer: provide the full event run-of-show at least 48 hours before the event; identify the 5–10 moments that are non-negotiable (opening remarks, award presentations, brand reveal, key speaker highlights); share any brand guidelines that affect how footage should be presented; and introduce the production team to your event management team so they know who has authority to grant special access if needed.</p>
-    `,
-  },
-];
-
-export function getBlogPost(slug: string): BlogPost | undefined {
-  return BLOG_POSTS.find((p) => p.slug === slug);
-}
-
-export function getRelatedPosts(slugs: string[]): BlogPost[] {
-  return slugs
-    .map((s) => BLOG_POSTS.find((p) => p.slug === s))
-    .filter(Boolean) as BlogPost[];
-}
+<h2>Coordinating Photography and V
