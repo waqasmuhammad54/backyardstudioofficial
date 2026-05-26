@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Camera, Film, Video, Smartphone, Megaphone, MessageSquare, Image, Plane, Building2, Clapperboard, Car, Home, Mic, Youtube, Utensils, Package, Users, Shirt, MapPin, Tv, BookOpen, Hotel, Play, Star, Settings } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Video & Photography Production Services Dubai UAE | Backyard Studio Official",
+  title: "Video & Photography Production Services Dubai UAE",
   description: "Full-service video and photography production in Dubai — events, weddings, DVCs, social media, automotive, real estate, food, product, podcast, YouTube & corporate shoots across all UAE emirates.",
   keywords: [
     "production company services Dubai",
@@ -158,3 +158,4 @@ export default function ServicesPage() {
     </div>
   );
 }
+                           

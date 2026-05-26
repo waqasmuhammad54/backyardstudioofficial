@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Clock, Calendar, Share2 } from "lucide-react";
 import { BLOG_POSTS, getBlogPost, getRelatedPosts } from "@/lib/blogPosts";
-import { faqSchema, articleSchema } from "@/lib/structuredData";
+import { faqSchema, articleSchema, breadcrumbSchema } from "@/lib/structuredData";
 
 const BASE = "https://www.backyardstudioofficial.com";
 
@@ -47,6 +47,11 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
 
   const related = getRelatedPosts(post.relatedSlugs);
   const faqJsonLd = post.faqs.length > 0 ? faqSchema(post.faqs) : null;
+  const breadcrumbJsonLd = breadcrumbSchema([
+    { name: "Home", url: BASE },
+    { name: "Blog", url: `${BASE}/blog` },
+    { name: post.title, url: `${BASE}/blog/${post.slug}` },
+  ]);
   const articleJsonLd = articleSchema({
     title: post.title,
     description: post.metaDescription,
@@ -65,17 +70,20 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     { label: "Corporate Films", slug: "corporate-films" },
   ];
 
+  const sidebarIndustries = [
+    { label: "Hospitality", slug: "hospitality" },
+    { label: "Real Estate", slug: "real-estate" },
+    { label: "Fashion", slug: "fashion" },
+    { label: "Food & Beverage", slug: "food-beverage" },
+    { label: "Corporate", slug: "corporate" },
+  ];
+
   return (
     <div className="pt-24">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       {faqJsonLd && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-        />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       )}
 
       <article>
@@ -209,20 +217,4 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                 <div className="space-y-2">
                   {sidebarServices.map((s) => (
                     <Link key={s.slug} href={`/services/${s.slug}`}
-                      className="flex items-center gap-2 text-[#a0a0a0] hover:text-[#e8c547] transition-colors text-xs">
-                      <span className="text-[#e8c547]">&#8594;</span> {s.label}
-                    </Link>
-                  ))}
-                  <Link href="/services"
-                    className="flex items-center gap-2 text-[#e8c547] text-xs font-semibold mt-3 pt-3 border-t border-[#2a2a2a] hover:underline">
-                    View all services
-                  </Link>
-                </div>
-              </div>
-            </aside>
-          </div>
-        </div>
-      </article>
-    </div>
-  );
-}
+                      className="flex items-center gap-2 text-[#a0a0a0] hover:

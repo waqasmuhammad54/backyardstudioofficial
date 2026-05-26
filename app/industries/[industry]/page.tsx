@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowUpRight, Check, ChevronDown } from "lucide-react";
 import { notFound } from "next/navigation";
+import { breadcrumbSchema } from "@/lib/structuredData";
 
 /* ─── Industry Data ─────────────────────────────────────────────────── */
 
@@ -341,6 +342,12 @@ export default function IndustryPage({ params }: { params: { industry: string } 
   const data = INDUSTRY_DATA[params.industry];
   if (!data) notFound();
 
+  const breadcrumbJsonLd = breadcrumbSchema([
+    { name: "Home", url: "https://www.backyardstudioofficial.com" },
+    { name: "Industries", url: "https://www.backyardstudioofficial.com/industries" },
+    { name: data.name, url: `https://www.backyardstudioofficial.com/industries/${params.industry}` },
+  ]);
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -360,6 +367,7 @@ export default function IndustryPage({ params }: { params: { industry: string } 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
 
       {/* ── HERO ── */}
       <section className="relative min-h-[70vh] flex items-end overflow-hidden" style={{ paddingTop: "120px" }}>
@@ -521,16 +529,4 @@ export default function IndustryPage({ params }: { params: { industry: string } 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Link href="/contact" className="btn-gold">
             <span>Get a Free Quote</span>
-            <ArrowUpRight size={14} />
-          </Link>
-          <a href="https://wa.me/971585882685?text=Hi%20Backyard%20Studio%2C%20I%27m%20interested%20in%20your%20{data.name}%20services"
-            target="_blank" rel="noreferrer"
-            className="btn-gold" style={{ background: "transparent", border: "1px solid var(--gold)", color: "var(--gold)" }}>
-            <span>WhatsApp Us</span>
-            <ArrowUpRight size={14} />
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+            <ArrowUpR

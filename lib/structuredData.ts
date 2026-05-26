@@ -11,8 +11,8 @@ const BRAND = {
   url: "https://www.backyardstudioofficial.com",
   phone: "+971-58-588-2685",
   email: "info@backyardstudioofficial.com",
-  logo: "https://backyardstudioofficial.com/logo-black.png",
-  og: "https://backyardstudioofficial.com/images/cover.webp",
+  logo: "https://www.backyardstudioofficial.com/logo-black.png",
+  og: "https://www.backyardstudioofficial.com/images/cover.webp",
   sameAs: [
     "https://www.instagram.com/backyardstudioofficial/",
     "https://www.facebook.com/Backyardstudioofficial/",
@@ -241,28 +241,29 @@ export function articleSchema(opts: {
   };
 }
 
-export function servicePageSchema(opts: {
+export function personSchema(opts: {
   name: string;
+  jobTitle: string;
   description: string;
-  url: string;
-  price?: string;
+  url?: string;
+  image?: string;
+  sameAs?: string[];
+  alumniOf?: { name: string }[];
 }) {
   return {
     "@context": "https://schema.org",
-    "@type": "Service",
+    "@type": "Person",
     name: opts.name,
+    jobTitle: opts.jobTitle,
     description: opts.description,
-    url: opts.url,
-    provider: { "@type": "Organization", name: BRAND.name, url: BRAND.url },
-    areaServed: { "@type": "Country", name: "United Arab Emirates" },
-    ...(opts.price ? {
-      offers: {
-        "@type": "Offer",
-        price: opts.price,
-        priceCurrency: "AED",
-        availability: "https://schema.org/InStock",
-      },
-    } : {}),
-    serviceType: opts.name,
-  };
-}
+    url: opts.url || BRAND.url,
+    image: opts.image,
+    worksFor: {
+      "@type": "Organization",
+      name: BRAND.name,
+      url: BRAND.url,
+    },
+    ...(opts.sameAs ? { sameAs: opts.sameAs } : {}),
+    ...(opts.alumniOf ? {
+      alumniOf: opts.alumniOf.map((a) => ({
+        "@typ

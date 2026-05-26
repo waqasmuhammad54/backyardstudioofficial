@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Check, ArrowUpRight } from "lucide-react";
 import VimeoEmbed from "@/components/shared/VimeoEmbed";
+import { breadcrumbSchema } from "@/lib/structuredData";
 
 // Vimeo video embeds per service slug
 const SERVICE_VIDEOS: Record<string, { id: string; title: string; poster: string }> = {
@@ -682,7 +683,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const s = SERVICE_DATA[params.slug] || DEFAULT_SERVICE;
   const fmtSlug = params.slug.replace(/-/g, " ");
   return {
-    title: `${s.title} in Dubai UAE | Backyard Studio Official`,
+    title: `${s.title} in Dubai UAE`,
     description: `Professional ${fmtSlug} services across Dubai, Abu Dhabi and all UAE. ${s.description.substring(0, 120)}...`,
     alternates: { canonical: `https://www.backyardstudioofficial.com/services/${params.slug}` },
   };
@@ -695,9 +696,15 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
   };
   const imgs  = SERVICE_IMAGES[params.slug] || DEFAULT_IMAGES;
   const video = SERVICE_VIDEOS[params.slug] || null;
+  const serviceBreadcrumb = breadcrumbSchema([
+    { name: "Home", url: "https://www.backyardstudioofficial.com" },
+    { name: "Services", url: "https://www.backyardstudioofficial.com/services" },
+    { name: service.title, url: `https://www.backyardstudioofficial.com/services/${params.slug}` },
+  ]);
 
   return (
     <div className="pt-24">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceBreadcrumb) }} />
       {/* Cinematic hero */}
       <div className="relative h-[60vh] min-h-[420px] overflow-hidden">
         <Image src={imgs.hero} alt={service.title} fill className="object-cover img-cinematic" sizes="100vw" priority />
@@ -811,15 +818,4 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
               </div>
             </div>
             <div className="p-6 border" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
-              <div className="w-2 h-2 rounded-full mb-3" style={{ background: "var(--gold)" }} />
-              <p className="text-[0.65rem] tracking-widest uppercase mb-1" style={{ color: "var(--gold)" }}>Avg. Response</p>
-              <p className="font-display text-3xl text-cream">2 HOURS</p>
-              <p className="text-xs mt-1" style={{ color: "var(--muted)" }}>On all project briefs</p>
-            </div>
-          </div>
-
-        </div>
-      </section>
-    </div>
-  );
-}
+              <div className="w-2 h-2

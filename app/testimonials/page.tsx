@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Star, Quote } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Client Testimonials | Backyard Studio Official UAE",
+  title: "Client Reviews & Testimonials — Dubai UAE Production Studio",
   description: "See what UAE brands say about Backyard Studio Official — 100+ 5-star reviews for event shoots, DVCs, Reels, ads and video production across the UAE.",
 };
 
@@ -56,6 +56,4 @@ export default function TestimonialsPage() {
           <Link href="/contact" className="btn-gold">Start a Project →</Link>
         </div>
       </section>
-    </div>
-  );
-}
+    </d

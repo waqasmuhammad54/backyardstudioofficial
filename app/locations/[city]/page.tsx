@@ -75,7 +75,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { city: string } }): Promise<Metadata> {
   const data = CITY_DATA[params.city] || DEFAULT_CITY(params.city);
   return {
-    title: `Video Production in ${data.name}, UAE | Backyard Studio Official`,
+    title: `Video & Photography Production in ${data.name} UAE`,
     description: `Professional event shoots, DVCs, Reels & ads production in ${data.name}. Backyard Studio Official covers all areas of ${data.name} with fast turnaround and cinematic results.`,
     keywords: [`video production ${data.name}`, `event videography ${data.name}`, `DVC ${data.name}`, `Instagram Reels ${data.name} UAE`],
   };
@@ -171,3 +171,4 @@ export default function CityPage({ params }: { params: { city: string } }) {
     </div>
   );
 }
+              

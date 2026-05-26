@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Play } from "lucide-react";
+import { personSchema, breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "About Us | Fahad Iqbal Butt & Syed Mazhar Zaidi — Backyard Studio Official Dubai",
+  title: "About Us | Fahad Iqbal Butt & Syed Mazhar Zaidi — Dubai Production Studio",
   description:
     "Backyard Studio Official was co-founded by filmmaker Fahad Iqbal Butt (NCA Lahore) and documentary cinematographer Syed Mazhar Zaidi (NCA + GC University). Dubai's premier production studio — 2,400+ projects across all 7 UAE emirates since 2019.",
-  alternates: { canonical: "https://backyardstudioofficial.com/about" },
+  alternates: { canonical: "https://www.backyardstudioofficial.com/about" },
 };
 
 const TEAM = [
@@ -71,9 +72,39 @@ const MILESTONES = [
   { year: "2026", event: "Growing toward international market — Europe & Asia" },
 ];
 
+const fahadSchema = personSchema({
+  name: "Fahad Iqbal Butt",
+  jobTitle: "Founder & CEO",
+  description: "Fahad Iqbal Butt is a filmmaker, fashion photographer, and creative entrepreneur. He studied Film & TV at the National College of Arts (NCA) Lahore and holds a BSc in Fashion Design under the UK Excel Board. He founded Backyard Studio Official in 2019.",
+  url: "https://www.backyardstudioofficial.com/about",
+  image: "https://www.backyardstudioofficial.com/images/team/fahad.webp",
+  alumniOf: [{ name: "National College of Arts, Lahore" }],
+});
+
+const mazharSchema = personSchema({
+  name: "Syed Mazhar Zaidi",
+  jobTitle: "Co-Founder & Creative Head",
+  description: "Syed Mazhar Zaidi is a filmmaker, cinematographer, and documentary storyteller with 20+ years of experience. He studied at NCA Lahore and holds a Master's in Mass Communication from GC University. His IMDB-verified work spans 50+ music videos, TVCs, and brand films.",
+  url: "https://www.backyardstudioofficial.com/about",
+  image: "https://www.backyardstudioofficial.com/images/team/mazhar.webp",
+  sameAs: ["https://www.imdb.com/name/nm14029494/"],
+  alumniOf: [
+    { name: "National College of Arts, Lahore" },
+    { name: "GC University, Lahore" },
+  ],
+});
+
+const aboutBreadcrumb = breadcrumbSchema([
+  { name: "Home", url: "https://www.backyardstudioofficial.com" },
+  { name: "About Us", url: "https://www.backyardstudioofficial.com/about" },
+]);
+
 export default function AboutPage() {
   return (
     <div className="pt-24">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(fahadSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(mazharSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutBreadcrumb) }} />
 
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-end pb-20 overflow-hidden" style={{ background: "var(--black)" }}>
@@ -249,46 +280,4 @@ export default function AboutPage() {
                       {link.label} <ArrowUpRight size={11} />
                     </a>
                   ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Stats bar */}
-      <section className="py-16 border-y" style={{ borderColor: "var(--border)", background: "var(--black)" }}>
-        <div className="container-xl grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-          {[
-            { num: "2,400+", label: "Projects Delivered" },
-            { num: "7",      label: "UAE Emirates Covered" },
-            { num: "6+",     label: "Years in Production" },
-            { num: "2hrs",   label: "Response Guarantee" },
-          ].map(s => (
-            <div key={s.label}>
-              <p className="font-display text-5xl leading-none" style={{ color: "var(--gold)" }}>{s.num}</p>
-              <p className="text-xs tracking-widest uppercase mt-2" style={{ color: "var(--muted)" }}>{s.label}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="py-24 text-center" style={{ background: "var(--black-2)" }}>
-        <p className="eyebrow mb-4">Let's Create Together</p>
-        <h2 className="font-display text-[clamp(2.5rem,6vw,5.5rem)] leading-none text-cream mb-8">
-          START YOUR<br /><span style={{ color: "var(--gold)" }}>PROJECT</span>
-        </h2>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="/contact" className="btn-gold inline-flex items-center gap-2">
-            Get a Free Quote <ArrowUpRight size={14} />
-          </Link>
-          <a href="https://wa.me/971585882685?text=Hi%20Fahad%2C%20I%27d%20like%20to%20discuss%20a%20project%20with%20Backyard%20Studio"
-            target="_blank" rel="noreferrer" className="btn-outline inline-flex items-center gap-2">
-            WhatsApp Fahad
-          </a>
-        </div>
-      </section>
-    </div>
-  );
-}
+                </d
