@@ -23,4 +23,24 @@ export default function RuBlogPage() {
       <section style={{ background: "#111", padding: "4rem 2rem 3rem", textAlign: "center" }}>
         <h1 style={{ fontFamily: "Inter, sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 800, color: "var(--cream)", marginBottom: "1rem" }}>Блог</h1>
         <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", maxWidth: "500px", margin: "0 auto" }}>
-  
+          Советы и статьи от команды Backyard Studio по видеосъёмке и фотографии в Дубае и ОАЭ.
+        </p>
+      </section>
+      <section style={{ padding: "4rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))", gap: "1.5rem" }}>
+          {POSTS.map((post) => (
+            <a key={post.href} href={post.href} style={{ textDecoration: "none", display: "block", background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "2rem" }}>
+              <div style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.4)", fontSize: "0.8rem", marginBottom: "0.5rem" }}>{post.date}</div>
+              <h2 style={{ fontFamily: "Inter, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.75rem" }}>{post.title}</h2>
+              <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.875rem", lineHeight: 1.6 }}>{post.desc}</p>
+              <span style={{ fontFamily: "Inter, sans-serif", color: "var(--gold)", fontSize: "0.875rem", marginTop: "1rem", display: "block" }}>Читать далее →</span>
+            </a>
+          ))}
+        </div>
+        <p style={{ fontFamily: "Inter, sans-serif", textAlign: "center", marginTop: "2rem", color: "rgba(245,240,225,0.4)", fontSize: "0.875rem" }}>
+          Все статьи доступны на английском языке. <a href="/blog" style={{ color: "var(--gold)" }}>Перейти в полный блог →</a>
+        </p>
+      </section>
+    </>
+  );
+}
