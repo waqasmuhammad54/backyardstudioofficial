@@ -873,4 +873,186 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>The window of maximum social media engagement after an event is 4–6 hours. Content shared while attendees are still talking about the event — or the next morning — achieves dramatically higher reach than content shared 3 days later when the news cycle has moved on.</p>
 <p>The best Dubai event production teams offer a same-day social media package: an edited teaser clip (60–90 seconds) delivered within 4 hours of the event's close, ready to post on LinkedIn, Instagram, and TikTok while the event is still fresh.</p>
 
-<h2>Coordinating Photography and V
+<h2>Coordinating Photography and Videography</h2>
+<p>The most efficient — and most consistent — approach is booking a single production company for both photography and videography. When photo and video teams are from different companies, they can work against each other: a photographer positioning for a shot blocks the video camera angle; a videographer's lighting setup washes out the photographer's exposure. A unified team under a single creative director eliminates this friction completely.</p>
+<p>At Backyard Studio Official, all events are covered by dedicated, coordinated photo and video teams directed by a single production lead — ensuring every camera position complements the others rather than competing.</p>
+
+<h2>What to Give Your Event Videographer Before Shoot Day</h2>
+<p>To get the best results from your Dubai event videographer: provide the full event run-of-show at least 48 hours before the event; identify the 5–10 moments that are non-negotiable (opening remarks, award presentations, brand reveal, key speaker highlights); share any brand guidelines that affect how footage should be presented; and introduce the production team to your event management team so they know who has authority to grant special access if needed.</p>
+    `,
+  },
+  // ─── NEW POST 1 ───────────────────────────────────────────────────────────
+  {
+    slug: "automotive-photography-dubai-2026",
+    title: "Automotive Photography in Dubai 2026 — The Complete Guide",
+    metaTitle: "Automotive Photography Dubai 2026 | Car Photography UAE | Backyard Studio",
+    metaDescription: "Everything you need to know about automotive photography in Dubai — studio car shoots, on-road campaigns, GCAA drone aerials, and pricing. UAE's leading car photography studio.",
+    keywords: ["automotive photography Dubai", "car photography Dubai", "car photography UAE", "automotive videography Dubai", "luxury car photoshoot Dubai", "car commercial photography UAE"],
+    category: "Automotive",
+    date: "May 26, 2026",
+    dateISO: "2026-05-26",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1200&q=80",
+    excerpt: "Dubai is one of the world's great automotive markets. Here's what separates average car photography from the kind that shifts vehicles off the lot.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does automotive photography cost in Dubai?", answer: "Automotive photography in Dubai typically starts at AED 3,500–5,000 for a half-day studio or urban location shoot with a single vehicle, AED 8,000–15,000 for a full-day on-road campaign with multiple locations, and AED 20,000–60,000+ for full automotive commercial productions with drone, talent, and post-production. GCAA-licensed drone add-ons typically cost AED 2,500–5,000 per half-day." },
+      { question: "What locations are best for car photography in Dubai?", answer: "Dubai has some of the world's best automotive shoot locations. The most used include: the empty desert roads around Al Qudra and Hatta for dramatic off-road or horizon shots; the futuristic architecture of Downtown Dubai and DIFC for luxury urban campaigns; Jebel Jais in Ras Al Khaimah for mountain road sequences; and the Dubai Autodrome for performance and track-day content. For drone aerials, any location requires GCAA permit approval — we handle this as part of every production." },
+      { question: "Do I need a GCAA licence for automotive drone shots in Dubai?", answer: "Yes, absolutely. Flying a drone commercially anywhere in the UAE — including for automotive photography — requires a valid GCAA (General Civil Aviation Authority) remote pilot licence and advance permit approval for each location. Backyard Studio Official holds a full GCAA commercial drone licence and manages all permits in-house." },
+    ],
+    relatedSlugs: ["best-production-companies-dubai-2026", "drone-videography-rules-dubai-2026", "how-much-does-video-production-cost-dubai-2026"],
+    content: `
+<h2>Why Dubai Is a Global Benchmark for Automotive Photography</h2>
+<p>Dubai has a relationship with cars that goes beyond transport. In a market where a Lamborghini is a school-run vehicle and a new supercar launch draws genuine crowds, the visual standards for automotive content have been pushed to a level that rivals anything produced in Stuttgart, Los Angeles, or Tokyo.</p>
+<p>For automotive brands, dealerships, and private sellers operating in the UAE, this creates both an opportunity and a pressure point. The opportunity: produce exceptional content and you're speaking directly to the most car-literate, visually sophisticated audience in the region. The pressure: substandard photography gets noticed immediately in a market that knows what great automotive imagery looks like.</p>
+<p>Having shot automotive content across all seven UAE emirates — from desert dunes to Jebel Jais mountain roads to the structured grandeur of Downtown Dubai — here's what actually makes the difference between forgettable car photography and content that moves vehicles.</p>
+
+<h2>The Three Elements That Make Great Automotive Photography</h2>
+
+<h3>Light — Dubai's Most Underused Asset</h3>
+<p>Dubai's golden hour is extraordinary. For roughly 45 minutes after sunrise and before sunset, the UAE sky produces a warm, low, directional light that wraps around automotive bodywork in a way that no studio setup can fully replicate. The best automotive photographers in Dubai plan shoots specifically around this window — sometimes driving 90 minutes to a desert location to be in position at 5:30am.</p>
+<p>This isn't just aesthetics. Car paint is a complex optical surface: metallic flakes, clear coats, and curved bodywork all respond differently to different light angles. Low-angle golden-hour light does something to a well-painted car that overhead midday light simply cannot. Studio shoots have their own strengths — controlled reflection management, consistent output for dealer catalogues — but the most striking single-vehicle images are almost always captured in the field at the right time of day.</p>
+
+<h3>Location — Setting That Tells the Brand Story</h3>
+<p>The location you choose for an automotive shoot communicates as much about the vehicle as the vehicle itself. A Range Rover photographed in the dunes near Al Qudra speaks to capability and adventure. The same vehicle photographed on Sheikh Zayed Road communicates urban versatility. A Ferrari outside the Opera House in Downtown speaks to culture and aspiration. These aren't interchangeable: the location is part of the creative brief, not an afterthought.</p>
+<p>In Dubai, we have access to an unusually diverse set of shoot environments within a 90-minute radius: open desert, dramatic mountain roads in Hatta and RAK, coastal highways in Fujairah, sleek urban infrastructure, and fully permitted racetrack environments at Dubai Autodrome. The right location is chosen after understanding what the vehicle is trying to say and who it's saying it to.</p>
+
+<h3>Motion — The Element Most Photography Misses</h3>
+<p>Static shots establish beauty. Motion shots establish desire. The most effective automotive campaigns combine both — hero static images for billboards and press, motion content (rolling shots, tracking sequences, driver perspective footage) for digital and social. In an era when Instagram and TikTok reward video above all other content formats, a pure photography brief for automotive work is increasingly an incomplete brief.</p>
+<p>Rolling shots — where the camera car moves in parallel with the subject vehicle — require a chase vehicle, a skilled follow-focus operator, and a driver who can hold a precise speed differential on a public road. This isn't a capability every production company in Dubai has. When you're briefing an automotive shoot, ask specifically whether rolling shots are in scope and what equipment setup they use for it.</p>
+
+<h2>Drone Aerials — The Shot That Changes Everything</h2>
+<p>The aerial perspective transforms automotive content. A vehicle photographed from 40 metres above — set against the geometric symmetry of an Abu Dhabi interchange, the orange vastness of the Empty Quarter, or the turquoise coastline of Fujairah — achieves a sense of scale and drama that no ground-level camera position can match.</p>
+<p>In the UAE, commercial drone operation requires a GCAA remote pilot licence and advance location permits. This is non-negotiable: unlicensed commercial drone flights carry fines up to AED 50,000 and create significant liability for the commissioning brand. We hold a full GCAA commercial licence and manage all location permit applications in-house, typically with 48–72 hours advance notice for standard locations. Sensitive locations near airports or military zones require longer lead times and are handled case by case.</p>
+
+<h2>Studio vs. Location for Car Photography in Dubai</h2>
+<p>Studio car photography has a specific and valuable use case: clean, controlled, catalogue-standard images where consistency across multiple vehicles matters more than drama. If you're a dealer photographing 40 pre-owned vehicles for a website, studio shooting is the right answer — it's efficient, consistent, and provides a neutral backdrop that lets the vehicle speak for itself.</p>
+<p>Location shooting is the right answer when you're trying to tell a story, generate emotional response, or create content that stands out in a crowded social feed. A location shoot for a single hero vehicle — a new model launch, a brand campaign, a social series — produces content that a studio simply cannot replicate.</p>
+<p>Most sophisticated automotive marketing uses both: studio for the catalogue and operational content, location for the hero campaign imagery. The budget split and priority depends entirely on what you're trying to achieve.</p>
+
+<h2>What to Brief Your Automotive Photographer</h2>
+<p>The quality of your brief determines the quality of your output, more directly in automotive photography than almost any other category. Before your shoot, make sure your production team knows: the vehicle's hero features and design language (what should the photography emphasise — the profile, the rear, the interior, the grille?); the target audience and what they respond to; the platforms the content will run on (billboard vs. Instagram vs. press requires different crop ratios and composition approaches); and any brand guidelines that govern how the vehicle should be presented.</p>
+<p>Also, critically: prepare the vehicle properly. Professional detailing the day before a shoot is not optional — it's essential. Paint swirls, dust, and fingerprints that are invisible to the naked eye become very visible in a high-resolution image with controlled lighting. We recommend a full professional detail within 24 hours of any automotive shoot.</p>
+
+<h2>Automotive Photography Pricing in Dubai</h2>
+<p>Automotive photography pricing in Dubai varies significantly based on scope. A basic half-day single-vehicle shoot at a pre-scouted location with a single photographer runs AED 3,500–5,000, delivered as retouched stills. A full-day campaign shoot with multiple locations, a photography and video team, rolling shots, and drone aerials for a single hero vehicle typically sits in the AED 15,000–25,000 range all-in. Full automotive commercial productions — with talent, multiple vehicles, custom permits, and broadcast-ready delivery — start at AED 40,000 and scale up from there.</p>
+<p>For UAE dealers running regular catalogue updates, we offer retainer arrangements that bring the per-vehicle cost down significantly versus booking individual sessions.</p>
+`,
+  },
+
+  // ─── NEW POST 2 ───────────────────────────────────────────────────────────
+  {
+    slug: "hotel-photography-dubai-2026",
+    title: "Hotel Photography in Dubai 2026 — The Complete Guide for UAE Hospitality Brands",
+    metaTitle: "Hotel Photography Dubai 2026 | Resort Photography UAE | Backyard Studio",
+    metaDescription: "A complete guide to hotel and resort photography in Dubai and UAE — rooms, F&B, spa, drone aerials, and what separates 5-star photography from average hospitality content.",
+    keywords: ["hotel photography Dubai", "resort photography UAE", "hospitality photography Dubai", "hotel videography UAE", "5-star hotel photography Dubai", "hotel marketing photography UAE"],
+    category: "Hospitality",
+    date: "May 26, 2026",
+    dateISO: "2026-05-26",
+    readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&q=80",
+    excerpt: "In a market where every luxury hotel has a stunning lobby and an Instagram-worthy pool, the photography that actually drives bookings has to work harder than ever.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does hotel photography cost in Dubai?", answer: "Hotel photography pricing in Dubai depends on scope. A full-property shoot for a boutique hotel (rooms, lobby, F&B, pool) typically runs AED 8,000–15,000 for a one-day production. Large-scale 5-star resort photography packages covering all venues, facilities, and drone aerials typically cost AED 25,000–60,000+ over multiple shoot days. We offer tailored packages based on number of room categories, F&B outlets, and facilities requiring coverage." },
+      { question: "How long does a hotel photography project take in Dubai?", answer: "A thorough hotel photography project for a property with 100+ rooms, multiple F&B outlets, and full facilities typically requires 2–3 shoot days to cover everything properly. Rushed single-day shoots for large properties result in compromised images — there isn't time to style rooms properly, wait for optimal natural light in each space, and cover all facilities. We plan shoot schedules carefully around guest occupancy, meal service times, and natural light windows for each area." },
+      { question: "What should be included in a hotel photography package?", answer: "A comprehensive hotel photography package should cover: room categories (at least one hero image per room type, plus detail shots of standout features); all F&B outlets (restaurant ambience, signature dishes, bar setups); lobby and public spaces; pool, beach, and outdoor facilities; spa and wellness facilities; meeting and event spaces; and drone aerials of the property and surroundings. Video walkthroughs and social media short-form content add significant value when included alongside photography." },
+    ],
+    relatedSlugs: ["best-production-companies-dubai-2026", "food-photography-guide-dubai-2026", "travel-lifestyle-campaigns-uae"],
+    content: `
+<h2>The Stakes of Hotel Photography in Dubai's Luxury Market</h2>
+<p>Dubai's hospitality market operates at a level of visual sophistication that makes hotel photography genuinely high-stakes work. When a traveller is choosing between a Jumeirah property, an Atlantis, a Four Seasons, and a premium boutique hotel — all of which offer exceptional experiences — the photography on the hotel's website and OTA listings is frequently the deciding factor in which booking gets made.</p>
+<p>This creates a visible market dynamic: the hotels investing in exceptional photography consistently outperform their competitive set on direct bookings and review engagement. The hotels cutting corners on visual content lose ground not because their product is worse, but because their photography makes it look worse. In a market where the product is often excellent across the board, visual marketing is the differentiator.</p>
+<p>Having shot hospitality content across Dubai, Abu Dhabi, RAK, and Fujairah — from 5-star city hotels to remote desert resorts — here's what we've learned about what actually drives bookings through photography.</p>
+
+<h2>What 5-Star Hotel Photography Actually Requires</h2>
+
+<h3>Time — The Resource Most Properties Underestimate</h3>
+<p>Great hotel photography takes longer than most properties expect. A single hero room image — the kind that makes a traveller genuinely want to be in that room — requires proper staging, pillow and linen styling, amenity placement, adjustment of all window treatments for the right light balance, and then careful waiting for the optimal natural light angle. Done properly, this takes 25–40 minutes per room setup.</p>
+<p>A hotel with 8 room categories, each needing 2–3 hero images plus detail shots, is looking at a full day of room photography alone — before touching the restaurant, pool, lobby, spa, or outdoor spaces. Production companies that promise to shoot an entire 4-star hotel in a single day either aren't shooting it properly or are delivering images that look like it was rushed.</p>
+<p>We schedule hotel shoots across multiple days, timed around natural light cycles. Lobby shots are typically taken in the early morning before guests descend. Restaurant ambience is shot both in the pre-service setup (for clean detail shots) and during service (for atmosphere). Pool images are captured in the 8–10am window when the light is soft and the area is clean before daily use begins.</p>
+
+<h3>Styling — The Hidden Labour That Separates Exceptional From Average</h3>
+<p>The images that appear effortlessly beautiful in 5-star hotel photography are, almost without exception, the result of careful pre-shoot styling that most viewers never notice consciously. Perfectly aligned pillowcases. Towels folded to a specific standard. Bathroom amenities positioned precisely. Curtain fabric smoothed and arranged. Reading glasses and a book placed on a bedside table to suggest occupancy without obscuring the space.</p>
+<p>This is a specialised skill, distinct from photography itself. At Backyard Studio Official, our hotel shoots include a dedicated styling lead whose sole job is to prepare each space to photographic standard before the camera enters the room. This single addition to the production team has a dramatic impact on the final images — and it's the difference you're seeing when you look at photography from top hotels and wonder why yours doesn't look quite the same.</p>
+
+<h3>Food and Beverage — The Category That Sells the Stay</h3>
+<p>For most hotels, F&B is a significant revenue centre and a major differentiator. The photography of a hotel's restaurants, bars, and signature dishes does triple duty: it drives restaurant bookings from non-guests; it influences hotel booking decisions from travellers who care about dining; and it provides content for the F&B team's own marketing channels.</p>
+<p>Great hotel F&B photography requires a food photographer (not just an architectural photographer who "also does food"), a food stylist, coordination with the executive chef on which dishes represent the menu best, and enough time to shoot each dish before it deteriorates. This is typically organised as a dedicated half-day or full-day session separate from the room and facilities photography.</p>
+
+<h2>Drone Photography for UAE Hotels and Resorts</h2>
+<p>For resorts with significant outdoor presence — beach access, private islands, large pools, extensive landscaping, or distinctive architectural rooflines — drone photography is not optional, it's essential. The aerial view shows the property in context: its relationship to the beach or waterfront, the scale of its grounds, the layout of its facilities. No ground-level camera can substitute for this.</p>
+<p>We hold a full GCAA commercial drone licence and manage all location permits in-house. For hotels near DXB, DWC, or in airspace with specific restrictions, we apply for permits with appropriate lead time. We've shot aerial content at properties across all seven emirates and understand the permitting requirements for each.</p>
+
+<h2>Video Walkthroughs and Social Content</h2>
+<p>Hotel video content has moved from "nice to have" to essential in the booking journey. OTA research consistently shows that properties with video content outperform those without on click-through rate and dwell time — which translates directly to conversion. More practically, the social media platforms that drive hotel discovery — Instagram, TikTok, YouTube — are video-first environments.</p>
+<p>The most efficient approach is to capture photography and video in the same production window. When your photo and video team share a shoot day, they can coordinate on lighting setups, model positioning, and scheduling so that each scene is captured for both formats without doubling the disruption to hotel operations.</p>
+<p>At minimum, a hotel video package should include: a 60–90 second hero brand film; a property tour walkthrough (2–3 minutes, designed for the website and YouTube); and a series of short-form clips for social media (Instagram Reels, TikTok, Stories). These can be cut from the same footage captured during the hero film shoot.</p>
+
+<h2>Seasonal Updates and Ongoing Content</h2>
+<p>The best-performing hotel properties treat photography not as a one-time project but as an ongoing programme. Seasonal decoration (Ramadan setups, festive installations, seasonal F&B menu changes) requires fresh photography. New service offerings need visual coverage. And social media demands a continuous stream of new content — a hotel running on two-year-old photography on its Instagram has a visible engagement disadvantage against properties posting fresh content regularly.</p>
+<p>We offer retainer arrangements for UAE hotel and resort clients — quarterly or bi-annual shoot packages that keep visual content fresh without the cost and disruption of full-production shoots every time something changes.</p>
+`,
+  },
+
+  // ─── NEW POST 3: PRODUCT PHOTOGRAPHY ─────────────────────────────────────
+  {
+    slug: "product-photography-dubai-2026",
+    title: "Product Photography in Dubai 2026 — Everything UAE Brands Need to Know",
+    metaTitle: "Product Photography Dubai 2026 | E-Commerce Photography UAE | Backyard Studio",
+    metaDescription: "Complete guide to product photography in Dubai for UAE brands — e-commerce shots, lifestyle content, packaging photography, and what it actually costs. Book a free quote in 2 hours.",
+    keywords: ["product photography Dubai", "product photography UAE", "e-commerce photography Dubai", "product shoot Dubai", "packaging photography UAE", "lifestyle product photography Dubai"],
+    category: "Product",
+    date: "May 26, 2026",
+    dateISO: "2026-05-26",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&q=80",
+    excerpt: "Product photography is the closest thing to a sales tool that marketing produces. Here is how UAE brands should be thinking about it in 2026.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does product photography cost in Dubai?", answer: "Product photography in Dubai typically costs AED 150-400 per product for basic e-commerce white-background shots, AED 400-900 per product for styled lifestyle photography, and AED 5,000-20,000+ for a full brand campaign shoot with multiple products, models, and locations. Volume discounts apply for large catalogues." },
+      { question: "What is the difference between e-commerce and lifestyle product photography?", answer: "E-commerce product photography uses clean backgrounds and consistent lighting to show exactly what the product looks like. Lifestyle product photography places the product in a real-world context to create aspiration and emotional connection. Most successful UAE brands use both: e-commerce shots for listings, lifestyle shots for social media and brand campaigns." },
+      { question: "How many products can you shoot in a day in Dubai?", answer: "For straightforward e-commerce photography on a white background, an experienced team can typically shoot 30-60 SKUs per day. For styled lifestyle photography with multiple setups, 8-15 hero product images per day is more realistic. Complex products with multiple configurations require additional time per SKU." },
+    ],
+    relatedSlugs: ["best-production-companies-dubai-2026", "food-photography-guide-dubai-2026", "how-much-does-video-production-cost-dubai-2026"],
+    content: `
+<h2>Product Photography as a Sales Tool</h2>
+<p>Every brand understands, in principle, that product photography matters. Fewer brands fully reckon with how directly it affects revenue. In e-commerce -- which has become the dominant channel for product discovery and purchase across virtually every category in the UAE -- the product image is the closest thing to a physical interaction the customer gets before buying. It has to do the work that, in a retail environment, the product does itself.</p>
+<p>The brands that have internalised this invest in product photography the way they invest in the product itself: deliberately, with clear standards, and with an understanding that cheap photography communicates cheap product even when the product is excellent. In the UAE's premium-brand-saturated market, where consumer standards are high and competition is intense, this matters more than in most markets.</p>
+
+<h2>The Two Types of Product Photography -- and When You Need Both</h2>
+
+<h3>E-Commerce Photography: The Foundation</h3>
+<p>E-commerce product photography -- clean backgrounds (typically white, grey, or cream), consistent lighting, multiple angles, accurate colour representation -- is the non-negotiable baseline. This is what goes on your Noon listing, your Amazon store, your website product page. Its job is to answer "what does this product actually look like?" as clearly and honestly as possible.</p>
+<p>Good e-commerce photography is deceptively technical. Consistent white background exposure that does not blow out to pure white (losing product edge detail) requires controlled studio lighting. Accurate colour reproduction requires careful white balance and calibration for the platform it will display on. Multiple angles (front, back, three-quarter, detail shots of key features) require a clear shot list and efficient workflow.</p>
+
+<h3>Lifestyle Photography: The Aspiration Layer</h3>
+<p>If e-commerce photography answers "what is it?", lifestyle photography answers "who am I when I use it?" It runs on Instagram, on brand campaigns, on the homepage hero image, and in advertising. It requires prop styling, sometimes model casting, location or set design, and a stronger creative brief upfront.</p>
+<p>For UAE brands in beauty, fashion, F&B, wellness, and home categories, lifestyle photography is essential to performing on social media. Platforms that reward beautiful, aspirational content distribute lifestyle imagery far more effectively than clean product shots, which tend to feel advertising-like in a feed context.</p>
+
+<h2>Product Video -- The Category Most Brands Add Too Late</h2>
+<p>The fastest-growing format in product marketing is short-form video. TikTok Shop and Instagram native shopping have made it possible to go directly from a product video to a purchase. For UAE brands with younger demographics or selling impulse-category products, product video is frequently generating more direct revenue than static photography in 2026.</p>
+<p>The most efficient approach is to shoot product photography and video in the same session. A combined shoot day costs roughly 40-60% more than photography alone but produces content for every major platform. Brands that commission video six months after the photography session spend significantly more overall and often struggle to recreate the original setups.</p>
+
+<h2>Packaging Photography</h2>
+<p>Packaging photography is arguably the most commercial product photography a brand commissions. Reflective surfaces (glass bottles, metallic foils, glossy finishes) require careful polarisation and lighting control. Soft packaging (pouches, tubes) needs to be filled and styled to look full without distortion. Clear packaging requires backlit setups that show the product within. These are specialised techniques distinct from general product photography -- your packaging deserves its own brief.</p>
+
+<h2>What to Brief Your Production Company</h2>
+<p>The brands that get the best results come in with a clear brief: which products are being photographed and in what volume; what platforms and placements the images will run in; what competitors' photography looks like; any brand aesthetic guidelines; and whether models or lifestyle elements are required. Send the actual products at least 48 hours before the shoot so the team can plan the shot list and identify technical challenges before shoot day, not during it.</p>
+
+<h2>Product Photography Pricing in Dubai</h2>
+<p>Simple e-commerce shoots on white backgrounds run AED 150-300 per SKU for studios with efficient workflows. Styled lifestyle photography with prop sourcing and set design typically starts at AED 500-800 per hero image. Campaign-level shoots with models, location elements, and retouching sit at AED 10,000-25,000+ for a full production day. For brands with large ongoing photography needs, a retainer arrangement -- covering seasonal catalogue updates, new product launches, and continuous social content -- is significantly more cost-effective than commissioning individual sessions.</p>
+    `,
+  },
+];
+
+export function getBlogPost(slug: string): BlogPost | undefined {
+  return BLOG_POSTS.find((p) => p.slug === slug);
+}
+
+export function getRelatedPosts(slugs: string[]): BlogPost[] {
+  return slugs
+    .map((s) => BLOG_POSTS.find((p) => p.slug === s))
+    .filter(Boolean) as BlogPost[];
+}
