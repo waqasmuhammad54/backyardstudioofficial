@@ -1321,14 +1321,8 @@ export const BLOG_POSTS: BlogPost[] = [
 `,
   },
 
-];
-
-export function getBlogPost(slug: string): BlogPost | undefined {
-  return BLOG_POSTS.find((p) => p.slug === slug);
-}
-
-export function getRelatedPosts(slugs: string[]): BlogPost[] {
-  return slugs
-    .map((s) => BLOG_POSTS.find((p) => p.slug === s))
-    .filter(Boolean) as BlogPost[];
-}
+  // ─── Real Estate Videography Dubai 2026 ──────────────────────────────────
+  {
+    slug: "real-estate-videography-dubai-2026",
+    title: "Real Estate Videography Dubai 2026 — Property Video Production Guide",
+   
