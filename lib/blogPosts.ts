@@ -1135,6 +1135,192 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>For brands with ongoing photography needs — seasonal ranges, regular new product launches, continuous social content creation — retainer arrangements are the most cost-effective structure. We work with UAE brands across beauty, F&B, fashion, and household categories on monthly or quarterly retainers that cover all their product photography needs at a predictable per-period cost rather than a variable per-project one.</p>
 `,
   },
+
+  {
+    slug: "youtube-video-production-dubai-2026",
+    title: "YouTube Video Production Dubai 2026 — Full-Service Channel Strategy & Filming",
+    metaTitle: "YouTube Video Production Dubai 2026 | Channel Management & Video Strategy UAE",
+    metaDescription: "Professional YouTube video production in Dubai. Scripting, filming, editing, channel SEO and management for UAE brands. From AED 3,500 per video. See how we grow channels.",
+    keywords: [
+      "youtube video production dubai",
+      "youtube video production company dubai",
+      "youtube channel management dubai",
+      "youtube content creator dubai",
+      "youtube marketing dubai",
+      "youtube video editing dubai",
+      "youtube channel growth dubai",
+      "video production company dubai",
+      "social media video production dubai",
+      "corporate youtube channel dubai",
+    ],
+    category: "Video Production",
+    date: "May 29, 2026",
+    dateISO: "2026-05-29",
+    readTime: "10 min read",
+    image: "/images/blog/youtube-production-dubai.jpg",
+    excerpt:
+      "YouTube is still the highest-ROI long-form video platform for Dubai brands that approach it with a proper strategy and production quality. Here is what full-service YouTube production looks like, what it costs in the UAE, and why most brands are leaving serious growth on the table.",
+    author: "Fahad Iqbal Butt, Backyard Studio Official",
+    faqs: [
+      {
+        question: "How much does YouTube video production cost in Dubai?",
+        answer:
+          "Professional YouTube video production in Dubai ranges from AED 3,500 for a single polished talking-head or explainer video to AED 15,000–25,000 for a fully produced brand documentary or cinematic series episode. Monthly retainers covering 4–8 videos with scripting, filming, editing, and thumbnail design run AED 12,000–35,000 depending on volume and scope.",
+      },
+      {
+        question: "What does a full-service YouTube production package include?",
+        answer:
+          "A full-service package covers concept development, scripting, on-location or studio filming with professional crew, colour grading, sound design, motion graphics, captions, thumbnail design, and upload-ready delivery. Channel SEO — titles, descriptions, tags, end-screen configuration — is included in our managed YouTube retainer packages.",
+      },
+      {
+        question: "How often should a Dubai brand post on YouTube to grow?",
+        answer:
+          "For a brand building from scratch, two to four uploads per month is the minimum effective cadence. Consistency matters more than volume — one polished video every two weeks outperforms four rushed uploads. Most of our retainer clients post two to eight videos monthly, calibrated to their audience growth goals and budget.",
+      },
+      {
+        question: "Can Backyard Studio Official manage our entire YouTube channel?",
+        answer:
+          "Yes. Beyond production, we offer full channel management for UAE brands: scripting, filming, editing, thumbnail creation, upload scheduling, SEO metadata, community management, and monthly performance reporting. This is our managed YouTube retainer product, designed for brands that want channel growth without building an in-house team.",
+      },
+    ],
+    relatedSlugs: [
+      "corporate-video-production-dubai-2026",
+      "best-social-media-content-creators-dubai-2026",
+      "how-much-does-video-production-cost-dubai-2026",
+    ],
+    content: `
+<h2>Why YouTube Is Still the Highest-Return Video Platform for Dubai Brands</h2>
+<p>YouTube video production in Dubai is the most under-invested content channel for mid-size UAE brands in 2026, and that gap is an opportunity. While every brand is producing Instagram Reels and TikToks — and the competition for attention on those platforms intensifies weekly — YouTube remains the one platform where a three-minute video can drive organic discovery from Google search, build a lasting subscriber base, and rank for competitive commercial keywords for years after the upload date. We have produced YouTube content for UAE brands across hospitality, real estate, automotive, and professional services, and the common thread in the ones that perform is that they treated YouTube as a strategic channel from day one, not a secondary dumping ground for content made for other platforms.</p>
+<p>The Dubai audience on YouTube skews toward decision-making research. UAE users are on the platform looking for how-to content, product comparisons, behind-the-scenes brand stories, and expert commentary. If your brand produces this content at professional quality and with a consistent publishing schedule, you build authority in your category in a way that no other platform currently replicates. Instagram builds reach. TikTok builds virality. YouTube builds trust and search-driven inbound traffic that compounds over time.</p>
+
+<h2>What Does Professional YouTube Video Production Cost in Dubai?</h2>
+<p>The honest answer is that YouTube production costs in Dubai span a wide range because the production scope varies enormously between a talking-head Q&amp;A video and a cinematic brand documentary. For a single polished video — studio or on-location shoot, professional lighting and sound, edited with colour grading, captions, and motion graphics — the market rate in Dubai runs AED 3,500–8,000 for a concise five-to-ten minute format, and AED 10,000–25,000 for a longer-form episode or mini-documentary with multiple filming days, extensive B-roll, and full post-production.</p>
+<p>For brands producing content on a regular schedule, monthly production retainers make more sense than per-video pricing. A retainer covering four videos per month — including scripting, filming, editing, thumbnails, and channel management — runs approximately AED 18,000–28,000 per month at our studio, depending on the production complexity per video. Brands producing eight videos per month at lighter production weight (talking-head, interview format) can be in the AED 22,000–38,000 range. These numbers sound significant until you compare them to the cost of one paid social campaign that stops delivering the moment the budget runs out. YouTube organic traffic keeps compounding.</p>
+
+<h2>What Does Full-Service YouTube Production Actually Include?</h2>
+
+<h3>Does a Video Production Studio Handle Scripting Too?</h3>
+<p>The best ones do, and scripting is often where the biggest production value improvements happen. We work with our clients on YouTube to develop a content strategy first — identifying the keywords and questions their audience is searching for, the formats that perform in their category, and the balance between educational, entertaining, and conversion-focused content. From that strategy we develop scripts or detailed shot plans for each episode. The brands that give us a brief and a subject matter expert to interview consistently produce better-performing videos than the ones who arrive on shoot day without a clear content direction.</p>
+<p>Syed Mazhar Zaidi, our post-production lead, says the majority of average-performing corporate YouTube videos fail at the script level — not the shoot level. You can film something beautifully and edit it brilliantly, but if the structure does not hook the viewer in the first thirty seconds and deliver on the implied promise of the title, no amount of production quality saves it. We have seen this repeatedly with brands who come to us after trying YouTube independently and not getting traction.</p>
+
+<h3>How Is the Filming Day Structured for YouTube Content?</h3>
+<p>YouTube filming at Backyard Studio Official typically runs one of three configurations: full studio days at our Dubai studio for talking-head, interview, or product-demonstration content; on-location days at client offices, properties, or branded environments; or hybrid days combining a studio segment and an on-location B-roll shoot. For hospitality clients, we often film at the property itself — a hotel shoot in Dubai Marina or a restaurant in DIFC covers both the YouTube episode and additional content for other channels in the same production day.</p>
+<p>A standard YouTube filming day with our crew — DP, sound engineer, and a production coordinator — covers three to five video episodes in interview or talking-head format, or one to two longer narrative pieces. We bring professional lighting rigs, three-camera setups for interview content, lavalier and boom microphone setups for clean audio, and teleprompter equipment for scripted segments. The filming day output goes directly into our post-production pipeline, with a typical turnaround of seven to ten business days from shoot to delivery.</p>
+
+<h3>What Happens in Post-Production for YouTube Videos?</h3>
+<p>Post-production for YouTube is more involved than most clients expect. Beyond the edit itself — which involves selecting the best takes, cutting to pace, adding supporting graphics and B-roll — a proper YouTube post-production workflow includes colour grading for consistency across episodes, audio mastering so the voice is clean and normalised to YouTube's loudness standard, custom lower-thirds and title cards that match brand guidelines, motion graphics for data visualisations or product callouts, closed captions in both English and Arabic where the audience warrants it, and export in YouTube's recommended format for maximum quality. Thumbnails are designed separately — we produce two or three thumbnail options per video and A/B test them in the first 24 hours after upload to identify the higher-click-through version.</p>
+
+<h3>What Is YouTube Channel SEO and Why Does It Matter?</h3>
+<p>YouTube SEO is the optimisation work that makes a video discoverable in search — both within YouTube's own search engine and in Google's video results, which now appear prominently for many commercial and informational queries. The variables that matter most: the video title (which should include the primary keyword exactly as searchers type it), the first three lines of the video description (which appear in search results and must be compelling and keyword-rich), tags, chapters, transcript accuracy, and the engagement signals YouTube uses to determine whether a video is worth surfacing — watch time, click-through rate from the thumbnail, and audience retention curve.</p>
+<p>We handle all of this for our managed YouTube clients. Before uploading any video, we research the keyword landscape for that episode's topic, identify the exact search terms the target audience uses, and write a title and description that is both optimised for search and genuinely compelling to a human reader. This is where the investment in YouTube often pays back fastest — a well-optimised video on a search-intent topic in a niche category can begin generating organic views within weeks of upload.</p>
+
+<h2>How Often Should a UAE Brand Post to See Real YouTube Growth?</h2>
+<p>Two videos per month is the minimum cadence that produces measurable channel growth for a brand starting from zero subscribers. One video per month is not enough — YouTube's algorithm rewards channels that upload consistently and at a pace that suggests active production, and monthly uploads are too infrequent to build algorithmic momentum. Four videos per month — roughly once a week — is the cadence at which most of our clients begin to see compounding subscriber growth, where new uploads start pulling in subscribers who then watch older content.</p>
+<p>The quality-versus-frequency trade-off is real. We have seen brands try to hit a four-per-month schedule at a production budget that does not support it, and the quality drop shows immediately in watch time and retention data. The right answer for most UAE brands is two to three videos per month at a production standard that the target audience finds credible, rather than four videos per month at a production level that undermines the brand's quality positioning.</p>
+
+<h2>YouTube Channel Management vs. One-Off Video Production</h2>
+<p>Most brands that approach us for YouTube content fall into one of two situations. The first is a one-off project — a brand film, a company story, or a product launch video that will live on YouTube as a reference asset and be shared across channels. For this, one-off production pricing makes sense. The second — and increasingly common — situation is a brand that wants YouTube as an ongoing content channel with regular uploads, subscriber growth, and a library of content that builds organic authority over time. For this, a managed channel retainer is almost always more cost-effective and produces better results than commissioning individual videos on an ad-hoc basis.</p>
+<p>Our YouTube channel management service in Dubai covers the entire chain from strategy to performance reporting: monthly content planning sessions to align video topics with business goals and search demand, scripting or detailed content briefs, filming days scheduled around the content calendar, full post-production, SEO-optimised upload and scheduling, thumbnail testing, community comment management, and a monthly dashboard showing subscriber growth, view counts, watch time, and traffic source breakdown. We have been running managed YouTube channels for UAE brands across hospitality, real estate, automotive, and professional services categories, and the brands that commit to a twelve-month managed retainer consistently see meaningful organic search traffic and brand authority growth that paid campaigns cannot replicate at equivalent cost.</p>
+
+<h2>Our YouTube Video Production Work Across the UAE</h2>
+<p>We have filmed YouTube content across Dubai, Abu Dhabi, and Sharjah — in luxury hotel properties in Downtown Dubai and DIFC, at automotive showrooms in Business Bay and Al Quoz, in real estate developments across Dubai Marina and Palm Jumeirah, and at corporate headquarters across the free zones. The variety of environments we work in has given us practical knowledge of what works — which locations light well for talking-head content, which property types create the strongest brand backdrops, how to manage audio in open office environments, and how to structure a hotel shoot to maximise content output per filming day.</p>
+<p>If you are considering YouTube as a channel for your UAE brand and want to understand what a production plan would look like for your specific business type, we offer initial strategy consultations at no cost. The consultation covers content format recommendations, realistic timeline to first results, production scope and budget, and a sample content calendar for the first three months. Reach out through our contact page or call us directly to schedule.</p>
+`,
+  },
+
+  {
+    slug: "fashion-photography-dubai-2026",
+    title: "Fashion Photography Dubai 2026 — Editorial, Lookbook & Brand Campaign Shoots",
+    metaTitle: "Fashion Photography Dubai 2026 | Editorial, Lookbook & Brand Campaign Shoots UAE",
+    metaDescription: "Professional fashion photography in Dubai for editorial, lookbooks, model portfolios and commercial campaigns. Studio and location shoots across UAE. See our work.",
+    keywords: [
+      "fashion photography dubai",
+      "fashion photographer dubai",
+      "editorial photography dubai",
+      "fashion shoot dubai",
+      "lookbook photography dubai",
+      "model portfolio photography dubai",
+      "fashion photography studio dubai",
+      "commercial fashion photography uae",
+      "brand campaign photography dubai",
+      "fashion photography cost dubai",
+    ],
+    category: "Photography",
+    date: "May 29, 2026",
+    dateISO: "2026-05-29",
+    readTime: "9 min read",
+    image: "/images/blog/fashion-photography-dubai.jpg",
+    excerpt:
+      "Dubai is one of the world's strongest fashion photography markets — the locations, the light, and the production access are all here. Here is what professional fashion photography looks like across editorial, lookbook, model portfolio, and commercial campaign work in the UAE.",
+    author: "Fahad Iqbal Butt, Backyard Studio Official",
+    faqs: [
+      {
+        question: "How much does fashion photography cost in Dubai?",
+        answer:
+          "Fashion photography in Dubai ranges from AED 3,500–6,000 for a half-day studio editorial shoot to AED 8,000–18,000 for a full-day location campaign with a styling team, hair and makeup, and multiple looks. Lookbook shoots for seasonal ranges covering 20–30 outfits typically run AED 10,000–22,000 for a full production day. Model portfolio sessions in a studio environment start from AED 2,500 for a two-hour session with five to ten final retouched images.",
+      },
+      {
+        question: "What locations do you use for fashion photography in Dubai?",
+        answer:
+          "Our most-used fashion photography locations in Dubai include rooftop terraces in Downtown Dubai and DIFC with city skyline backdrops, industrial spaces in Al Quoz and Dubai Design District (D3), desert settings in Al Qudra and Dubai Desert Conservation Reserve, beach and marina locations along JBR and Dubai Marina, and heritage settings in Al Fahidi Historical Neighbourhood and Al Seef. We also have access to a range of private villas, hotel lobbies, and branded spaces across the emirate.",
+      },
+      {
+        question: "Do you provide styling, hair, and makeup for fashion shoots?",
+        answer:
+          "We do not provide styling in-house, but we coordinate with trusted stylists, hair artists, and makeup artists from our Dubai production network for clients who need a full production team. Most of our clients handle their own styling direction and bring their own models or talent, while we manage the photography direction, lighting, and post-production. We can also recommend casting agencies for model sourcing across the UAE.",
+      },
+      {
+        question: "What is the difference between editorial and commercial fashion photography?",
+        answer:
+          "Editorial fashion photography prioritises a strong aesthetic point of view and brand narrative — it may sacrifice strict product legibility for visual impact, and is used for publications, brand storytelling, and campaign imagery. Commercial fashion photography exists to sell: the garment must be clearly visible, accurately coloured, and styled to appeal to the target buyer. It runs in e-commerce, catalogues, paid advertising, and lookbooks. Most brands need both: editorial for brand building, commercial for conversion.",
+      },
+    ],
+    relatedSlugs: [
+      "product-photography-dubai-2026",
+      "filming-locations-dubai-2026",
+      "best-production-companies-dubai-2026",
+    ],
+    content: `
+<h2>Why Dubai Is One of the Best Fashion Photography Markets in the World</h2>
+<p>Fashion photography in Dubai has evolved significantly over the past decade. What was once a market servicing primarily catalogue and e-commerce work has become a genuine creative hub — attracting international brands, regional designers, and UAE-based fashion labels that want the specific combination of production access, location variety, and visual identity that Dubai uniquely offers. We have shot fashion campaigns here across every format: indoor studio editorial, desert location work at Al Qudra, luxury hotel lobbies across Downtown Dubai and DIFC, rooftop city skylines, and the contrast-rich industrial spaces of Al Quoz and Dubai Design District. No other city in the region gives you this range within a forty-minute radius.</p>
+<p>The light in Dubai is also genuinely exceptional for photography, particularly in the shoulder seasons — October through April — when the angle of the sun produces a warm, directional quality that flatters both skin tones and fabric textures in a way that studio lighting struggles to replicate authentically. The golden hour window in Dubai is long, predictable, and free from the haze that limits outdoor photography in summer months. If your brand can schedule between October and March, the natural light alone elevates the work meaningfully.</p>
+
+<h2>How Much Does Fashion Photography Cost in Dubai?</h2>
+<p>Fashion photography pricing in Dubai depends on four variables: shoot duration, location type and access fees, the size of the production team required, and the post-production scope. For a straightforward studio editorial shoot — a half-day in a controlled studio environment with one photographer, a DP assistant, and standard lighting — rates run AED 3,500–6,000. For a full production day on location with a styled set, additional crew, and multiple look changes, the day rate including photography, lighting, and post-production sits at AED 8,000–18,000 depending on the complexity and location access requirements.</p>
+<p>Lookbook photography — the format used by fashion brands to document a seasonal range across the full collection — is typically priced per day or per outfit number. A full seasonal lookbook covering 20–30 outfits in a studio or single-location setting runs AED 10,000–22,000 for a full production day including photography, basic retouching, and digital delivery. For brands needing extensive colour correction and per-image retouching for e-commerce use, post-production is typically priced separately at AED 80–200 per final image depending on the retouching depth required.</p>
+<p>Model portfolio sessions — the compact, high-quality shoots that a new model uses to approach agencies — start from AED 2,500 for a two-hour studio session producing five to ten final retouched images. More comprehensive portfolio builds covering multiple looks, outdoor locations, and a larger image deliverable run AED 4,500–8,000. We have done a significant number of portfolio sessions for models entering the UAE market through Dubai-based agencies, and the consistent feedback from those clients is that a well-produced, well-retouched portfolio opens doors that a cheaper shoot simply does not.</p>
+
+<h2>Editorial vs. Commercial vs. Lookbook — What Type of Fashion Photography Do You Need?</h2>
+
+<h3>What Is Editorial Fashion Photography and When Should Brands Commission It?</h3>
+<p>Editorial fashion photography is content created for narrative and brand identity — the kind of imagery you see in magazine spreads, brand campaign lookbooks, and high-concept social content that builds a brand's aesthetic positioning rather than directly selling a product. Editorial work prioritises the story, the mood, and the visual point of view. A garment might be partially obscured, the model might be in motion, the background might add visual tension that a commercial photographer would eliminate. The purpose is to create images that feel like art direction rather than documentation.</p>
+<p>Brands should commission editorial photography when they are establishing or refreshing their brand aesthetic, when they are pitching to press or styling publications, when they want campaign imagery that differentiates them from competitors who shoot purely commercial catalogue work, or when they are building an Instagram or Pinterest presence that relies on scroll-stopping creative imagery. Editorial photography requires a different briefing approach — it is less about specifications and more about references, mood boards, and a clear articulation of what feeling the brand wants to evoke.</p>
+
+<h3>What Is Commercial Campaign Photography and How Is It Different?</h3>
+<p>Commercial fashion photography exists to sell. The product must be clearly visible. The colour must be accurate. The model's expression and pose must be approachable and aspirational in a way the target buyer can relate to, not intimidating or avant-garde. It will run in paid social advertising, in e-commerce product listings, in email marketing, and in catalogue formats where the buyer is making a purchase decision and needs visual information that a purely aesthetic image does not provide.</p>
+<p>The production approach for commercial work is more systematic than editorial. Shot lists are detailed. Each outfit is photographed in a prescribed set of angles. The brief specifies aspect ratios for the platforms where the images will run — a square format for Instagram feed, a vertical format for Instagram Stories, a wider crop for desktop banner advertising. Colour accuracy is verified against physical samples before the shoot ends. The retouching is consistent and brand-guided rather than creative-interpretive. Commercial fashion photography is less visually adventurous than editorial but more commercially valuable per image because it directly drives conversion.</p>
+
+<h3>What Is Lookbook Photography and Who Needs It?</h3>
+<p>A lookbook is the seasonal range document — the comprehensive visual record of everything a fashion brand or retailer is selling in a given season. It is used by wholesale buyers at trade shows, by internal sales teams presenting ranges to retail accounts, by e-commerce teams building product pages, and by marketing teams building campaign assets from a single production. A lookbook shoot typically involves photographing every item in a collection in a consistent style — usually two to four angles per piece, with and without model, styled consistently to the brand's aesthetic.</p>
+<p>Lookbook shoots are production-intensive days. We typically work through 25–40 outfits in a full production day, which requires a tightly managed shot list, a production coordinator to track what has been photographed, quick-change areas for models, and an organised styling team to manage steaming and pressing between takes. Brands that try to handle their own lookbook production without a professional crew consistently underestimate the logistics involved and end up with inconsistent output across the range — different white balance, different crop consistency, different model positioning — which creates problems across every downstream use of the images.</p>
+
+<h3>What Should a Model Portfolio Shoot Include for the UAE Market?</h3>
+<p>A strong model portfolio in 2026 needs to demonstrate range — the ability to adapt across commercial, editorial, and lifestyle contexts. An agency-ready portfolio should include at least: a clean, well-lit studio headshot on a neutral background; a three-quarter body shot showing posture and proportions; a strong editorial look with clear styling direction; a commercial-style look demonstrating approachability and range; and at least one outdoor or location shot showing the model in a natural setting. For models entering the UAE market specifically, having at least one look that works for the regional luxury fashion market is valuable — agencies in Dubai cast for a broad international client base covering GCC luxury, hospitality, and lifestyle brands.</p>
+<p>We shoot model portfolios in our Dubai studio and on location across the city depending on the range required. Fahad Iqbal Butt leads portfolio sessions personally, directing models through poses and expressions to produce images that read as confident and professionally directed rather than stiff or uncertain — which is the most common failure mode in portfolio photography done with less experienced photographers. A well-directed model looks like a model. A poorly directed model looks like a person having their photo taken.</p>
+
+<h2>Where Do We Shoot Fashion Photography in Dubai?</h2>
+<p>Location selection is one of the most commercially important decisions in fashion photography, and it is one where production experience makes a significant difference. The wrong location — one that fights the clothing, produces inconsistent lighting through the day, or requires logistics that consume half the shoot time — can undermine an otherwise strong production.</p>
+<p>Our most frequently used fashion photography locations in Dubai cover the main visual contexts the regional fashion market requires. For luxury and high-end editorial: the rooftop terraces and lobby spaces of five-star hotels in Downtown Dubai and DIFC, private villas in Emirates Hills and Jumeirah Bay, and marina settings along Dubai Marina provide the luxury-adjacent environments that high-end fashion clients need. For contemporary and streetwear: Al Quoz industrial spaces, the murals and architectural forms of Dubai Design District (D3), and the container district at Port Rashid give an urban edge that studio work cannot replicate. For destination and lifestyle: Al Qudra desert locations, the heritage environment of Al Fahidi Historical Neighbourhood, and beach settings at JBR and Kite Beach. We also use permit-required locations — including certain Expo City spaces and public architectural landmarks — where clients require these specific environments, handling the permit process through our established Dubai Tourism authority channels.</p>
+
+<h2>How to Brief a Fashion Photography Shoot So You Get What You Need</h2>
+<p>The brief is the single most important document in a fashion photography production. A detailed brief saves time on shoot day, reduces the probability of reshoots, and ensures the images serve the brand's commercial goals rather than just looking good in isolation. The elements a fashion photography brief should cover: the intended use for each image type (social, e-commerce, editorial, advertising) — because this determines aspect ratios, crop compositions, and retouching standards; a visual reference set showing the aesthetic direction; a complete list of garments or products with styling notes; model or talent requirements; location preferences and any specific environmental elements required; turnaround requirements and delivery format specifications.</p>
+<p>Send the physical garments to our studio at least 48 hours before shoot day for steaming and review. We check every piece for defects, styling issues, or fit problems that would require addressing on shoot day — and finding these problems before shoot day costs nothing except the time to resolve them, while finding them on shoot day costs everyone time and budget. We have a pre-shoot review process for all fashion clients that includes a shot list review, a mood board alignment call, and a logistics confirmation covering call times, model arrival, and break schedule. Brands that engage seriously with the pre-production process consistently produce better images than those that show up on the day with an incomplete brief.</p>
+
+<h2>Our Fashion Photography Work and Clients</h2>
+<p>We have shot fashion campaigns for UAE-based labels and regional retailers across womenswear, menswear, modest fashion, luxury accessories, and activewear categories. Our clients include regional e-commerce brands building their first professional lookbook, established UAE fashion labels refreshing their brand imagery, and international brands using Dubai as a regional production base for GCC-market campaigns. The common thread in all the best work we have done is a client team that treats photography as a strategic business asset and commits the production investment that serious work requires. If you are at the stage of considering a fashion photography production in Dubai and want to discuss the scope, timeline, and budget for your specific project, reach out through our contact page. We are happy to walk through the brief with you before any commitment is made.</p>
+`,
+  },
+
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
