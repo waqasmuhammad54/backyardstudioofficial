@@ -69,5 +69,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }));
 
-  return [...core, ...services, ...locations, ...industries, ...blogPosts];
-}
+  // Arabic pages (/ar/)
+  const arCore: MetadataRoute.Sitemap = [
+    { url: 
