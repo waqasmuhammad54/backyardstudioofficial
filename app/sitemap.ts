@@ -77,6 +77,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/ar/about",                                   lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: BASE + "/ar/contact",                                 lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: BASE + "/ar/blog",                                    lastModified: now, changeFrequency: "weekly",  priority: 0.7 },
+    { url: BASE + "/ar/portfolio",                               lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/testimonials",                            lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: BASE + "/ar/locations",                               lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/taswirzifaf-dubai-2026",             lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/asear-tasswirvideo-dubai-2026",      lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/video-sharikaat-dubai-2026",         lastModified: now, changeFrequency: "monthly", priority: 0.75 },
@@ -91,11 +94,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/ru/about",                                   lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: BASE + "/ru/contact",                                 lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: BASE + "/ru/blog",                                    lastModified: now, changeFrequency: "weekly",  priority: 0.7 },
-    { url: BASE + "/ru/blog/svadebnyi-fotograf-dubai-2026",      lastModified: now, changeFrequency: "monthly", priority: 0.75 },
-    { url: BASE + "/ru/blog/stoimost-videosemki-dubai-2026",     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
-    { url: BASE + "/ru/blog/korporativnoe-video-dubai-2026",     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
-    { url: BASE + "/ru/blog/semka-nedvizhimosti-dubai-2026",     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
-  ];
-
-  return [...core, ...services, ...locations, ...industries, ...blogPosts, ...arCore, ...ruCore];
-}
+    { url: BASE + "/ru/portfolio",                               lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/testimonials",                            lastModified: now, changeFrequency: "month

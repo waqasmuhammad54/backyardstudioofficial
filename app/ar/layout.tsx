@@ -56,6 +56,7 @@ function ArNavbar() {
       <div style={{ display: "flex", gap: "1.5rem", alignItems: "center" }}>
         <a href="/ar/services" style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem", fontFamily: "Cairo, sans-serif" }}>خدماتنا</a>
         <a href="/ar/pricing" style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem", fontFamily: "Cairo, sans-serif" }}>الأسعار</a>
+        <a href="/ar/portfolio" style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem", fontFamily: "Cairo, sans-serif" }}>أعمالنا</a>
         <a href="/ar/blog" style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem", fontFamily: "Cairo, sans-serif" }}>المدوّنة</a>
         <a href="/ar/about" style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem", fontFamily: "Cairo, sans-serif" }}>عن الاستوديو</a>
         <a href="/ar/contact"
@@ -99,7 +100,7 @@ function ArFooter() {
           <div>
             <h4 style={{ color: "var(--cream)", fontWeight: 600, marginBottom: "0.75rem", fontSize: "0.9rem" }}>روابط سريعة</h4>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
-              {[["خدماتنا", "/ar/services"], ["الأسعار", "/ar/pricing"], ["عن الاستوديو", "/ar/about"], ["المدوّنة", "/ar/blog"], ["تواصل معنا", "/ar/contact"]].map(([label, href]) => (
+              {[["خدماتنا", "/ar/services"], ["الأسعار", "/ar/pricing"], ["أعمالنا", "/ar/portfolio"], ["المدوّنة", "/ar/blog"], ["الشهادات", "/ar/testimonials"], ["مواقع التصوير", "/ar/locations"], ["عن الاستوديو", "/ar/about"], ["تواصل معنا", "/ar/contact"]].map(([label, href]) => (
                 <a key={href} href={href} style={{ color: "rgba(245,240,225,0.6)", textDecoration: "none", fontSize: "0.875rem" }}>{label}</a>
               ))}
             </div>
@@ -166,12 +167,4 @@ export default function ArabicLayout({ children }: { children: React.ReactNode }
         <>
           <Script src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID} strategy="afterInteractive" />
           <Script id="ga4-ar" strategy="afterInteractive"
-            dangerouslySetInnerHTML={{
-              __html: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','" + GA_ID + "',{page_path:window.location.pathname,anonymize_ip:true});",
-            }}
-          />
-        </>
-      )}
-    </>
-  );
-}
+            dangerouslySetI
