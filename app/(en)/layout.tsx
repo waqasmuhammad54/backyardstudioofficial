@@ -72,6 +72,7 @@ export const metadata: Metadata = {
     languages: {
       "ar": "https://www.backyardstudioofficial.com/ar",
       "ru": "https://www.backyardstudioofficial.com/ru",
+      "zh": "https://www.backyardstudioofficial.com/zh",
     },
   },
   category: "Video Production",
@@ -152,10 +153,4 @@ export default function EnglishLayout({ children }: { children: React.ReactNode 
             dangerouslySetInnerHTML={{
               __html:
                 "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','" + GA_ID + "',{page_path:window.location.pathname,anonymize_ip:true});",
-            }}
-          />
-        </>
-      )}
-    </>
-  );
-}
+       

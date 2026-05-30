@@ -19,6 +19,7 @@ export const metadata: Metadata = {
       "en": "https://www.backyardstudioofficial.com",
       "ar": "https://www.backyardstudioofficial.com/ar",
       "ru": "https://www.backyardstudioofficial.com/ru",
+      "zh": "https://www.backyardstudioofficial.com/zh",
     },
   },
   openGraph: {
@@ -162,5 +163,4 @@ export default function RussianLayout({ children }: { children: React.ReactNode 
         <>
           <Script src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID} strategy="afterInteractive" />
           <Script id="ga4-ru" strategy="afterInteractive"
-            dangerouslySetInnerHTML={{
-              __html: "w
+      

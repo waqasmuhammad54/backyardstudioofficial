@@ -19,6 +19,7 @@ export const metadata: Metadata = {
       "en": "https://www.backyardstudioofficial.com",
       "ru": "https://www.backyardstudioofficial.com/ru",
       "ar": "https://www.backyardstudioofficial.com/ar",
+      "zh": "https://www.backyardstudioofficial.com/zh",
     },
   },
   openGraph: {
@@ -166,5 +167,4 @@ export default function ArabicLayout({ children }: { children: React.ReactNode }
       {GA_ID && (
         <>
           <Script src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID} strategy="afterInteractive" />
-          <Script id="ga4-ar" strategy="afterInteractive"
-            dangerouslySetI
+          <Script id="ga4-ar
