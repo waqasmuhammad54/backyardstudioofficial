@@ -18,4 +18,5 @@ export async function GET(req: NextRequest) {
   if (status && status !== "all") query = query.eq("status", status);
   const { data, error } = await query;
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
-  retu
+  return NextResponse.json({ leads: data });
+}

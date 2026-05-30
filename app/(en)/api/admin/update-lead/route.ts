@@ -19,4 +19,5 @@ export async function POST(req: NextRequest) {
   if (notes !== undefined) updates.notes = notes;
   const { error } = await supabase.from("leads").update(updates).eq("id", id);
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
-  return
+  return NextResponse.json({ success: true });
+}
