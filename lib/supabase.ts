@@ -1,10 +1,24 @@
 import { createClient } from "@supabase/supabase-js";
 
-const supabaseUrl = process.env.SUPABASE_URL!;
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+// Lazy singleton — only initialised at request time, not at build time
+let _supabase: ReturnType<typeof createClient> | null = null;
 
-// Server-side client using service role key (bypasses RLS — for API routes only)
-export const supabase = createClient(supabaseUrl, supabaseKey);
+export function getSupabase() {
+  if (!_supabase) {
+    const url = process.env.SUPABASE_URL;
+    const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
+    if (!url || !key) throw new Error("Supabase env vars not set");
+    _supabase = createClient(url, key);
+  }
+  return _supabase;
+}
+
+// Keep named export for backwards compat — resolves at call time
+export const supabase = new Proxy({} as ReturnType<typeof createClient>, {
+  get(_t, prop) {
+    return (getSupabase() as any)[prop];
+  },
+});
 
 export interface Lead {
   id: string;
