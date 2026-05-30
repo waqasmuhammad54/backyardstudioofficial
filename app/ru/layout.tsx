@@ -54,11 +54,10 @@ function RuNavbar() {
         </span>
       </a>
       <div style={{ display: "flex", gap: "1.5rem", alignItems: "center" }}>
-        <a href="/ru/services"  style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem" }}>Услуги</a>
-        <a href="/ru/pricing"   style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem" }}>Цены</a>
-        <a href="/ru/portfolio" style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem" }}>Портфолио</a>
-        <a href="/ru/blog"      style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem" }}>Блог</a>
-        <a href="/ru/about"     style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem" }}>О нас</a>
+        <a href="/ru/services" style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem" }}>Услуги</a>
+        <a href="/ru/pricing"  style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem" }}>Цены</a>
+        <a href="/ru/blog"     style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem" }}>Блог</a>
+        <a href="/ru/about"    style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem" }}>О нас</a>
         <a href="/ru/contact"
           style={{
             background: "var(--gold)",
@@ -98,7 +97,7 @@ function RuFooter() {
           <div>
             <h4 style={{ color: "var(--cream)", fontWeight: 600, marginBottom: "0.75rem", fontSize: "0.9rem" }}>Навигация</h4>
             <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
-              {[["Услуги", "/ru/services"], ["Цены", "/ru/pricing"], ["Портфолио", "/ru/portfolio"], ["Блог", "/ru/blog"], ["Отзывы", "/ru/testimonials"], ["Локации", "/ru/locations"], ["О нас", "/ru/about"], ["Контакты", "/ru/contact"]].map(([label, href]) => (
+              {[["Услуги", "/ru/services"], ["Цены", "/ru/pricing"], ["О нас", "/ru/about"], ["Блог", "/ru/blog"], ["Контакты", "/ru/contact"]].map(([label, href]) => (
                 <a key={href} href={href} style={{ color: "rgba(245,240,225,0.6)", textDecoration: "none", fontSize: "0.875rem" }}>{label}</a>
               ))}
             </div>
@@ -163,4 +162,12 @@ export default function RussianLayout({ children }: { children: React.ReactNode 
         <>
           <Script src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID} strategy="afterInteractive" />
           <Script id="ga4-ru" strategy="afterInteractive"
-      
+            dangerouslySetInnerHTML={{
+              __html: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','" + GA_ID + "',{page_path:window.location.pathname,anonymize_ip:true});",
+            }}
+          />
+        </>
+      )}
+    </>
+  );
+}

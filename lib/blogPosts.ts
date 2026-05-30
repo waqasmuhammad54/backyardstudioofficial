@@ -1507,6 +1507,103 @@ export const BLOG_POSTS: BlogPost[] = [
 `,
   },
 
+  // ─── POST 27: Social Media Content Creation Dubai ───────────────────────────
+  {
+    slug: "social-media-content-creation-dubai-2026",
+    title: "Social Media Content Creation Dubai 2026 — The Complete Brand Guide",
+    metaTitle: "Social Media Content Creation Dubai 2026 | Brand Content Agency UAE | Backyard Studio",
+    metaDescription: "Professional social media content creation in Dubai from AED 3,000/month. Instagram Reels, TikTok, YouTube Shorts — strategy, shooting, editing for UAE brands. Backyard Studio Official.",
+    keywords: ["social media content creation Dubai", "social media agency Dubai", "Instagram content creator Dubai", "TikTok content Dubai", "brand content creation UAE", "social media video production Dubai"],
+    category: "Social Media",
+    date: "May 30, 2026",
+    dateISO: "2026-05-30",
+    readTime: "10 min",
+    image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=1200&q=80",
+    excerpt: "Dubai brands that invest in consistent, high-quality social media content outperform competitors in organic reach, follower growth, and conversion. This guide covers what professional social media content creation costs in the UAE, what it includes, and how to build a content engine that compounds over time.",
+    author: "Fahad Iqbal Butt",
+    faqs: [
+      { question: "How much does social media content creation cost in Dubai?", answer: "Professional social media content creation in Dubai starts from AED 3,000 per month for a basic package (8 Reels/short-form videos, strategy, shooting, editing, captions). Mid-range monthly retainers covering 16-20 pieces of content across Instagram, TikTok, and YouTube Shorts run AED 6,000-12,000. Full-service packages including strategy, shooting, editing, posting, community management, and paid advertising management run AED 15,000-35,000 per month." },
+      { question: "What type of social media content performs best for Dubai brands?", answer: "Short-form vertical video (Instagram Reels, TikTok, YouTube Shorts) consistently outperforms static images for reach in the UAE market. Behind-the-scenes content, product demonstrations, customer testimonials in video format, and location-based content (showcasing Dubai backdrops) perform particularly well. Posting 3-5 Reels per week with consistent aesthetic, sound strategy, and strong hooks in the first 3 seconds is the current benchmark for accounts growing from 0-50K." },
+      { question: "Should Dubai brands post in Arabic or English on social media?", answer: "It depends on your target audience. For a UAE-wide brand, posting in both English and Arabic — either in separate posts or using bilingual captions — maximises reach. For luxury real estate, hospitality, and international B2B brands, English-first content performs strongly. For retail, food and beverage, and consumer brands targeting Emirati and Arab expatriate audiences, Arabic content drives significantly higher engagement. We help clients develop a language strategy as part of the content brief." },
+      { question: "How many pieces of content should a Dubai brand post per month?", answer: "For meaningful organic growth on Instagram and TikTok in 2026, the minimum effective frequency is 12-16 Reels per month (3-4 per week). Below this frequency, the algorithm does not have enough material to test with different audience segments, and growth stalls. Static posts and Stories can complement this volume but should not replace video output. For YouTube, 4-8 Shorts per month plus 1-2 long-form videos is the current recommended minimum." },
+      { question: "Do you manage posting and community management alongside content production?", answer: "Yes. Our full-service social media retainer includes content strategy, shooting, editing, caption writing, hashtag research, scheduling and posting, and basic community management (responding to comments and DMs within 24 hours). We provide a monthly performance report covering reach, impressions, engagement rate, follower growth, and profile visits so you can see the return on your content investment." },
+    ],
+    relatedSlugs: ["instagram-reels-strategy-uae-2026", "tiktok-strategy-uae-brands-2026", "youtube-video-production-dubai-2026"],
+    content: `
+<h2>Why Dubai Brands Need Professional Social Media Content in 2026</h2>
+<p>The Dubai consumer and B2B buyer makes decisions on social proof faster than almost any other market. A brand with a polished, consistent Instagram or TikTok presence is perceived as credible, established, and worth engaging before the first conversation happens. A brand with an inconsistent or low-quality content feed — or no feed at all — has lost the decision before the pitch begins.</p>
+<p>We have worked with dozens of Dubai brands across hospitality, real estate, retail, F&amp;B, and professional services. The pattern is consistent: brands that commit to professional, high-frequency social media content for 3-6 months see compounding organic results — more profile visits, more direct enquiries, more conversions from social channels — that justify the investment many times over. The brands that cut corners, use stock footage and Canva templates, or post inconsistently, plateau quickly.</p>
+
+<h2>What Professional Social Media Content Creation Includes</h2>
+<p>At Backyard Studio, a monthly social media content retainer covers the full production cycle from strategy through delivery. This starts with a monthly content brief: we review your upcoming campaigns, products, or brand moments and plan a shooting schedule that captures enough material for the month's content output. A typical monthly shoot produces 4-6 hours of raw material which is edited into the required number of deliverables — Reels, Shorts, Stories, carousels, and static posts as needed.</p>
+<p>The editing phase is where most in-house content fails. Professional social media editing is not just cutting clips together — it involves sound design, motion graphics, colour grading, subtitle timing, aspect ratio optimisation for each platform (9:16 for Reels and TikTok, 1:1 for feed, 16:9 for YouTube), and hook engineering — ensuring the first 1-3 seconds of every piece of content stops the scroll. Syed Mazhar Zaidi leads our post-production team and brings over 20 years of film editing discipline to social content — the result is social content that looks and sounds distinctly different from DIY production.</p>
+
+<h2>Social Media Content Packages — Dubai Pricing 2026</h2>
+<p>Our entry-level monthly retainer starts at <strong>AED 3,000/month</strong> and covers 8 short-form videos (Reels/TikTok/Shorts), strategy session, one shooting half-day per month, editing with captions, and delivery of native files. This is appropriate for brands starting their social media investment and building a content baseline.</p>
+<p>The mid-range retainer at <strong>AED 6,000-8,000/month</strong> covers 16-20 pieces of mixed content (12 Reels plus 4-8 static or Stories), a full shooting day per month, detailed monthly performance report, and dedicated account management. Most established Dubai brands operate at this tier.</p>
+<p>Our full-service retainer at <strong>AED 12,000-20,000/month</strong> includes unlimited content planning, 2 shooting days per month, 25+ pieces of mixed-format content, platform posting and scheduling, community management, monthly strategy review, and paid boosting recommendations. This is appropriate for brands treating social media as a primary acquisition channel.</p>
+
+<h2>Platform Strategy for UAE Brands</h2>
+<p>Instagram remains the highest-ROI platform for most Dubai B2C brands — particularly hospitality, real estate, fashion, food, and luxury goods. The Reels algorithm still gives significant organic reach to new accounts with high-quality video content. A brand posting 4 Reels per week with strong hooks and consistent aesthetic can reach 100K+ accounts per month in the UAE within 3-6 months.</p>
+<p>TikTok is growing aggressively in the UAE market and is particularly strong for brands targeting 18-35 demographics, F&amp;B, entertainment, and lifestyle products. The TikTok algorithm is more discovery-oriented than Instagram, meaning content from smaller accounts gets served to large audiences based on quality signals rather than follower count. For brands starting from zero, TikTok often produces faster follower and reach growth than Instagram in the first 90 days.</p>
+<p>YouTube Shorts function primarily as a discovery tool that drives subscriptions to the main YouTube channel. For brands investing in long-form YouTube content (product reviews, tutorials, behind-the-scenes, event coverage), a consistent Shorts strategy is the fastest path to channel growth.</p>
+
+<h2>What Separates Good Social Content From Great Social Content in Dubai</h2>
+<p>Fahad Iqbal Butt has directed social content for brands across every major sector in the UAE. The difference between content that performs and content that does not comes down to three variables: the quality of the visual and audio hook in the first 3 seconds, the authenticity of the narrative (Dubai audiences respond to real people and real experiences, not obviously scripted or stock-heavy content), and the consistency of the aesthetic identity across all content (a recognisable look, colour palette, and motion language that makes the brand immediately identifiable in a scrolling feed).</p>
+<p>These are not things that improve incrementally with more posting — they require a creative director who understands brand positioning and audience psychology, a camera operator who can create the visual quality that stops the scroll, and an editor who can construct pacing that holds attention for the full duration. This is what a professional production studio brings to social media that an in-house coordinator or a freelance content creator typically cannot.</p>
+
+<h2>Ready to Build a Content Engine for Your Brand?</h2>
+<p>We work with Dubai brands on monthly retainer arrangements starting from AED 3,000 per month. Initial strategy consultations are complimentary. Reach out through our contact page or WhatsApp and we will put together a content proposal based on your brand, your audience, and your growth objectives within 48 hours.</p>
+`,
+  },
+
+  // ─── POST 28: Corporate Photography Dubai ─────────────────────────────────
+  {
+    slug: "corporate-photography-dubai-2026",
+    title: "Corporate Photography Dubai 2026 — Headshots, Events & Brand Imagery",
+    metaTitle: "Corporate Photography Dubai 2026 | Business Headshots UAE | Backyard Studio Official",
+    metaDescription: "Professional corporate photography in Dubai from AED 1,500. Executive headshots, team photos, office branding, event photography. 2,400+ projects. GCAA licensed. Book in 24 hours.",
+    keywords: ["corporate photography Dubai", "business headshots Dubai", "executive photography Dubai", "corporate photographer UAE", "professional headshots Dubai", "office photography Dubai"],
+    category: "Corporate",
+    date: "May 30, 2026",
+    dateISO: "2026-05-30",
+    readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80",
+    excerpt: "A professional headshot and a library of high-quality brand imagery are the two most consistently underinvested assets in Dubai corporate communications. This guide covers what corporate photography costs in Dubai, what it includes, and why professional visuals are one of the highest-ROI marketing investments a company makes.",
+    author: "Fahad Iqbal Butt",
+    faqs: [
+      { question: "How much does corporate photography cost in Dubai?", answer: "Corporate photography in Dubai starts from AED 1,500 for a half-day executive headshot session (up to 5 people, studio lighting, 10 edited images per person). Full-day corporate photography packages covering team headshots, office environment shots, and brand lifestyle imagery run AED 4,000-8,000. Large-scale corporate event photography starts from AED 3,500 per event. All packages include professional retouching and high-resolution digital delivery." },
+      { question: "How long does a corporate headshot session take in Dubai?", answer: "A standard executive headshot session for a single person takes 30-45 minutes including setup, shooting, and reviewing selects. For team headshots, we can typically photograph 8-12 people per hour in a studio setup. We regularly photograph entire Dubai corporate teams — 50-200 people — in a single day using a streamlined studio workflow. Turnaround is typically 5-7 business days for edited files." },
+      { question: "Do you shoot corporate photography on location or in a studio in Dubai?", answer: "Both. For executive headshots and team photography, we bring a portable studio setup to your Dubai office — a clean professional backdrop, studio lighting, and all equipment. This minimises disruption to your team and eliminates travel time. For brand lifestyle and office environment photography, we shoot in your actual workspace to capture the authentic look and feel of your business. We also have access to premium studio spaces in Dubai for productions requiring specialist sets." },
+      { question: "What should I wear for a corporate headshot in Dubai?", answer: "Solid colours in neutral or muted tones — navy, charcoal, white, and grey — photograph best. Avoid busy patterns, logos, or very bright colours that distract from the face. Business formal or business smart-casual are both appropriate depending on your industry and brand positioning. For DIFC-based finance and legal firms, business formal is standard. For technology, media, and creative companies, smart-casual reads as more authentic. We brief all clients before the session." },
+      { question: "How often should a company update its corporate photography?", answer: "For most Dubai businesses, a full refresh every 2-3 years is appropriate, with headshot updates for new team members as they join. Rapidly growing companies — particularly those raising investment, expanding to new markets, or undergoing rebranding — benefit from an annual photography refresh. Outdated headshots (photos more than 3-4 years old, or using backgrounds or styles that look dated) actively undermine credibility, particularly on LinkedIn where Dubai decision-makers do significant pre-meeting research." },
+    ],
+    relatedSlugs: ["best-production-companies-dubai-2026", "corporate-video-production-dubai-2026", "brand-film-production-dubai-2026"],
+    content: `
+<h2>Why Corporate Photography Matters More in Dubai Than Almost Any Other Market</h2>
+<p>Dubai is a city where first impressions are made on LinkedIn before they are made in person, where investor decks need to look like they belong on a global stage, and where the visual quality of your brand materials signals whether you belong in the room. A professional headshot and a library of high-quality brand and environment photography are not vanity investments — they are table stakes for any company operating at a serious level in the UAE market.</p>
+<p>We have photographed executive teams at companies across every sector in Dubai: financial services firms in DIFC, hospitality groups across the Emirates, real estate developers from Palm Jumeirah to Dubai Hills, and technology startups raising Series A rounds. The pattern is consistent: companies that invest in professional corporate photography close more deals, attract stronger candidates, and build faster credibility with clients and partners than companies that rely on phone selfies, outdated photos, or stock imagery.</p>
+
+<h2>Types of Corporate Photography We Deliver in Dubai</h2>
+<p><strong>Executive headshots</strong> are the most frequent request — a polished, consistent set of professional portraits for an individual or team, delivered in both colour and black-and-white formats for maximum versatility. We use studio lighting setups that produce the clean, sharp, professional look that works on LinkedIn, company websites, press releases, and speaker profiles. A standard individual headshot session produces 5-10 fully retouched, high-resolution images in approximately 45 minutes.</p>
+<p><strong>Team photography</strong> covers groups from 5 to 500 people. For large teams, we bring a studio setup to your office and work through the team systematically, producing a consistent look across all portraits that can be used immediately for the company website directory, internal communications, and recruitment materials. For executive teams, we often shoot both individual portraits and a group composition.</p>
+<p><strong>Office and environment photography</strong> captures the physical reality of your brand — workspace, meeting rooms, the detail of your office design and culture. This type of imagery is essential for company websites, recruitment marketing, investor presentations, and press coverage. It communicates scale, culture, and professionalism in a way that no text can replicate.</p>
+<p><strong>Event and conference photography</strong> covers corporate events, product launches, award ceremonies, and conferences across Dubai and the UAE. We document the key moments, the networking, the presentations, and the details that tell the story of the event — producing a library of images usable for post-event content, press, social media, and annual reports.</p>
+
+<h2>Corporate Photography Pricing in Dubai 2026</h2>
+<p>Individual executive headshot sessions start from <strong>AED 1,500</strong> and include 45 minutes of shooting, 10 fully retouched high-resolution images, and delivery within 5 business days.</p>
+<p>Team headshot packages for groups of 10-25 people run <strong>AED 4,000-6,000</strong>, covering a full morning of shooting at your office with a portable studio setup, producing a minimum of 5 retouched images per person.</p>
+<p>Full-day corporate photography packages — covering team headshots, office environment, and brand lifestyle images — run <strong>AED 6,000-10,000</strong> and deliver a comprehensive image library suitable for all communications needs for 2-3 years.</p>
+
+<h2>The Technical Difference Professional Corporate Photography Makes</h2>
+<p>Fahad Iqbal Butt studied film and photography at the National College of Arts and has been photographing corporate and brand subjects since 2019. The technical elements that separate professional corporate photography from a phone photo or a well-intentioned office selfie are: controlled studio lighting that eliminates shadows and produces consistent, flattering light across all subjects; a prime lens at a focal length that avoids facial distortion; a controlled aperture that separates the subject cleanly from the background; and professional retouching that addresses skin tones, minor blemishes, and background consistency without making the subject look artificially altered.</p>
+<p>These elements combine to produce a headshot that reads, at a glance, as the portrait of someone credible and professional. This is not a small thing: the headshot is often the first impression made in a professional context, and research consistently shows that perceived competence, trustworthiness, and likability are all influenced by the quality of a professional portrait.</p>
+
+<h2>Book Your Corporate Photography Session in Dubai</h2>
+<p>Sessions are available throughout the week and can be booked with 48-hour notice for individual headshots. For large team sessions (20+ people), we recommend booking 2 weeks in advance to allow time to communicate the wardrobe brief to all participants and confirm the shooting schedule. Contact us through the website or WhatsApp to confirm availability and receive a session proposal.</p>
+`,
+  },
+
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {

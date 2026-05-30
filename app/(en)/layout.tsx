@@ -153,4 +153,10 @@ export default function EnglishLayout({ children }: { children: React.ReactNode 
             dangerouslySetInnerHTML={{
               __html:
                 "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','" + GA_ID + "',{page_path:window.location.pathname,anonymize_ip:true});",
-       
+            }}
+          />
+        </>
+      )}
+    </>
+  );
+}
