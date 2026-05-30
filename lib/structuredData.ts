@@ -266,4 +266,48 @@ export function personSchema(opts: {
     ...(opts.sameAs ? { sameAs: opts.sameAs } : {}),
     ...(opts.alumniOf ? {
       alumniOf: opts.alumniOf.map((a) => ({
-        "@typ
+        "@type": "EducationalOrganization",
+        name: a.name,
+      })),
+    } : {}),
+  };
+}
+
+export function breadcrumbSchema(items: { name: string; url: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  };
+}
+
+export function servicePageSchema(opts: {
+  name: string;
+  description: string;
+  url: string;
+  price?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: opts.name,
+    description: opts.description,
+    url: opts.url,
+    provider: { "@type": "Organization", name: BRAND.name, url: BRAND.url },
+    areaServed: { "@type": "Country", name: "United Arab Emirates" },
+    ...(opts.price ? {
+      offers: {
+        "@type": "Offer",
+        price: opts.price,
+        priceCurrency: "AED",
+        availability: "https://schema.org/InStock",
+      },
+    } : {}),
+    serviceType: opts.name,
+  };
+}
