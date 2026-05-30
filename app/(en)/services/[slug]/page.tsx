@@ -819,4 +819,20 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
               <p className="text-[0.65rem] tracking-widest uppercase mb-4" style={{ color: "var(--muted)" }}>Available across</p>
               <div className="flex flex-wrap gap-2">
                 {["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "RAK", "Fujairah", "UAQ"].map((c) => (
-                  <span key={c} className
+                  <span key={c} className="text-xs px-3 py-1 border text-silver/60" style={{ borderColor: "var(--border)" }}>{c}</span>
+                ))}
+              </div>
+            </div>
+            <div className="p-6 border" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
+              <div className="w-2 h-2 rounded-full mb-3" style={{ background: "var(--gold)" }} />
+              <p className="text-[0.65rem] tracking-widest uppercase mb-1" style={{ color: "var(--gold)" }}>Avg. Response</p>
+              <p className="font-display text-3xl text-cream">2 HOURS</p>
+              <p className="text-xs mt-1" style={{ color: "var(--muted)" }}>On all project briefs</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </div>
+  );
+}

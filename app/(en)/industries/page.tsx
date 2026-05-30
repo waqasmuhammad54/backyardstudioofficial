@@ -120,4 +120,8 @@ export default function IndustriesPage() {
             <span>WhatsApp Us</span>
             <ArrowUpRight size={14} />
           </a>
-        
+        </div>
+      </section>
+    </>
+  );
+}

@@ -281,4 +281,45 @@ export default function AboutPage() {
                     </a>
                   ))}
                 </div>
-         
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Stats bar */}
+      <section className="py-16 border-y" style={{ borderColor: "var(--border)", background: "var(--black)" }}>
+        <div className="container-xl grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          {[
+            { num: "2,400+", label: "Projects Delivered" },
+            { num: "7",      label: "UAE Emirates Covered" },
+            { num: "6+",     label: "Years in Production" },
+            { num: "2hrs",   label: "Response Guarantee" },
+          ].map(s => (
+            <div key={s.label}>
+              <p className="font-display text-5xl leading-none" style={{ color: "var(--gold)" }}>{s.num}</p>
+              <p className="text-xs tracking-widest uppercase mt-2" style={{ color: "var(--muted)" }}>{s.label}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-24 text-center" style={{ background: "var(--black-2)" }}>
+        <p className="eyebrow mb-4">Let's Create Together</p>
+        <h2 className="font-display text-[clamp(2.5rem,6vw,5.5rem)] leading-none text-cream mb-8">
+          START YOUR<br /><span style={{ color: "var(--gold)" }}>PROJECT</span>
+        </h2>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link href="/contact" className="btn-gold inline-flex items-center gap-2">
+            Get a Free Quote <ArrowUpRight size={14} />
+          </Link>
+          <a href="https://wa.me/971585882685?text=Hi%20Fahad%2C%20I%27d%20like%20to%20discuss%20a%20project%20with%20Backyard%20Studio"
+            target="_blank" rel="noreferrer" className="btn-outline inline-flex items-center gap-2">
+            WhatsApp Fahad
+          </a>
+        </div>
+      </section>
+    </div>
+  );
+}

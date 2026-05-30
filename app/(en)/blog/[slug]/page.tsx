@@ -217,4 +217,20 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                 <div className="space-y-2">
                   {sidebarServices.map((s) => (
                     <Link key={s.slug} href={`/services/${s.slug}`}
-                      className="flex items-center gap-2 text-[#a0a0a0] hover:
+                      className="flex items-center gap-2 text-[#a0a0a0] hover:text-[#e8c547] transition-colors text-xs">
+                      <span className="text-[#e8c547]">&#8594;</span> {s.label}
+                    </Link>
+                  ))}
+                  <Link href="/services"
+                    className="flex items-center gap-2 text-[#e8c547] text-xs font-semibold mt-3 pt-3 border-t border-[#2a2a2a] hover:underline">
+                    View all services
+                  </Link>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </article>
+    </div>
+  );
+}

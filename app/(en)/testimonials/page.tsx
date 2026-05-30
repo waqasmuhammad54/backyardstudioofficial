@@ -56,4 +56,6 @@ export default function TestimonialsPage() {
           <Link href="/contact" className="btn-gold">Start a Project →</Link>
         </div>
       </section>
-    </d
+    </div>
+  );
+}

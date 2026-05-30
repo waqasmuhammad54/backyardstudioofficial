@@ -171,4 +171,3 @@ export default function CityPage({ params }: { params: { city: string } }) {
     </div>
   );
 }
-              

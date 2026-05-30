@@ -43,4 +43,10 @@ export default function LocationsPage() {
                 <h2 className="text-white font-bold mb-1 group-hover:text-[#e8c547] transition-colors">{e.name}</h2>
                 <p className="text-[#666] text-xs leading-relaxed">{e.desc}</p>
               </div>
-        
+            </Link>
+          ))}
+        </div>
+      </section>
+    </div>
+  );
+}
