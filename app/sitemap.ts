@@ -110,6 +110,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/zh/locations",                                       lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/zh/blog/hunli-sheying-dubai-2026",                   lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/zh/blog/wurenji-hangpai-dubai-2026",                 lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/zh/blog/qiye-shipin-zhizuo-dubai-2026",              lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/zh/blog/chanpin-sheying-dubai-2026",                 lastModified: now, changeFrequency: "monthly", priority: 0.75 },
   ];
 
   return [...core, ...services, ...locations, ...industries, ...blogPosts, ...arCore, ...ruCore, ...zhCore];

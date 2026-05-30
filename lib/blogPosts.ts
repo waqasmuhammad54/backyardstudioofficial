@@ -1604,6 +1604,205 @@ export const BLOG_POSTS: BlogPost[] = [
 `,
   },
 
+  // ─── POST 29: Event Photography Dubai ────────────────────────────────────────
+  {
+    slug: "event-photography-dubai-2026",
+    title: "Event Photography Dubai 2026 — Corporate Events, Galas & Conferences",
+    metaTitle: "Event Photography Dubai 2026 | Corporate & Gala Event Photographer UAE | Backyard Studio",
+    metaDescription: "Professional event photography in Dubai from AED 3,500. Corporate galas, conferences, product launches, award ceremonies. Same-day delivery available. 2,400+ projects.",
+    keywords: ["event photography Dubai", "corporate event photographer Dubai", "gala photography Dubai", "conference photographer UAE", "event photographer Dubai price", "award ceremony photography Dubai"],
+    category: "Events",
+    date: "May 30, 2026",
+    dateISO: "2026-05-30",
+    readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80",
+    excerpt: "Dubai runs on events — product launches in DIFC, award ceremonies at Atlantis, regional summits in ADNEC. This guide covers what professional event photography costs in 2026, what to look for in a photographer, and how to brief a team for a flawless event coverage.",
+    author: "Fahad Iqbal Butt",
+    faqs: [
+      { question: "How much does event photography cost in Dubai?", answer: "Event photography in Dubai starts from AED 3,500 for a half-day corporate event (up to 4 hours, one photographer, 150+ edited images delivered within 48 hours). Full-day event photography for large conferences or galas runs AED 6,000-12,000, covering multiple photographers, same-day social media edits, and a full edited gallery within 5 business days. For award ceremonies and gala dinners requiring red carpet coverage, multiple rooms, and same-day highlight delivery, packages run AED 8,000-18,000." },
+      { question: "How quickly can you deliver event photos in Dubai?", answer: "For social media purposes, we deliver 20-30 edited highlight images within 2 hours of the event ending upon request — specifically for clients who need to post during or immediately after the event. The full edited gallery of all deliverable images is typically ready within 48 hours for events up to 500 guests, and 5 business days for large multi-day conferences. We have delivered same-day full galleries for time-sensitive events." },
+      { question: "Do you cover events outside Dubai in the UAE?", answer: "Yes. We regularly cover events across Abu Dhabi, Sharjah, Ras Al Khaimah, Fujairah, and all UAE emirates. Travel to events within the UAE is included in most packages — we confirm this during briefing. For events in Saudi Arabia, Bahrain, or other GCC countries, travel and accommodation costs are added separately." },
+      { question: "How many photographers do you send for a corporate event?", answer: "For events up to 200 guests, one experienced corporate event photographer typically covers the full event effectively. For events of 200-500 guests with multiple rooms, a keynote stage, and networking areas, we recommend two photographers working complementary angles. For large galas and conferences of 500+ guests with multiple simultaneous sessions, we deploy 3-4 photographers plus a videographer. We advise on the right team size during the briefing call." },
+      { question: "What should I send a photographer before a corporate event in Dubai?", answer: "The most useful brief includes: the event agenda with timings, a list of VIPs and executives who must be photographed, a floor plan or venue walkthrough, any specific shots required (product displays, branding, signage), and the intended use of images (press, social, internal comms, annual report). The more detail we receive, the more precisely we can structure the shoot — ensuring no key moments are missed." },
+    ],
+    relatedSlugs: ["best-event-videographers-dubai-2026", "corporate-video-production-dubai-2026", "corporate-photography-dubai-2026"],
+    content: `
+<h2>Why Event Photography in Dubai Requires Specialised Expertise</h2>
+<p>Dubai events operate at a pace and scale that most markets do not. A single evening can involve a red carpet arrival, a VIP cocktail reception, a staged keynote address, a sit-down gala dinner, an award ceremony, a live performance, and networking across multiple rooms — all within five hours. The photographer covering this event needs to navigate between spaces without missing key moments, manage challenging mixed lighting conditions (the typical Dubai gala mixes warm candlelight, harsh overhead fluorescents, and coloured stage lighting in the same frame), capture executives who are moving fast and may have limited time for posed portraits, and deliver usable images under pressure.</p>
+<p>Fahad Iqbal Butt has covered more than 400 corporate events in the UAE since 2019. The ability to read a room, predict where the next important moment will happen, and position correctly before it occurs — rather than reacting after it has passed — is the difference between event photography that looks professional and event photography that looks like someone was there.</p>
+
+<h2>Types of Events We Cover in Dubai</h2>
+<p><strong>Corporate conferences and summits</strong> require coverage of keynote speakers on stage, panel discussions, audience reactions, exhibition areas, and executive portraits. For multi-day conferences, we structure the schedule to ensure consistent coverage across all sessions while managing our own energy across long days.</p>
+<p><strong>Gala dinners and award ceremonies</strong> are the most technically demanding event category. The lighting changes dramatically between reception, dinner, and ceremony — each requiring a different approach. Award presentations happen fast and often only once. We brief ourselves on every award category in advance so we know exactly when to be in position.</p>
+<p><strong>Product launches</strong> require hero shots of the product in context, executive presentations, media and influencer coverage, and behind-the-scenes content for social media. We understand that product launch photography needs to serve multiple simultaneous audiences — press, social, internal communications, and investor relations — and shoot accordingly.</p>
+<p><strong>Exhibition and trade show coverage</strong> at venues like DWTC, ADNEC, and Dubai World Trade Centre requires coverage of the stand, the team, client interactions, and the broader exhibition environment. We work to schedules that minimise disruption to live sales conversations.</p>
+
+<h2>Event Photography Pricing in Dubai 2026</h2>
+<p>Half-day event coverage (up to 4 hours) starts from <strong>AED 3,500</strong>, delivering 150+ edited images within 48 hours. This covers most product launches, smaller award events, and corporate networking evenings.</p>
+<p>Full-day event coverage (up to 8 hours) runs <strong>AED 6,000-9,000</strong> with 300+ edited images and a social media priority edit within 2 hours. This is appropriate for full-day conferences, larger galas, and multi-session corporate events.</p>
+<p>Multi-photographer event packages for large galas, summits, and ceremonies of 300+ guests start from <strong>AED 10,000</strong> and include a same-day highlight delivery of 30-50 images for immediate social use.</p>
+
+<h2>How to Brief Your Event Photographer</h2>
+<p>The best event photos come from the most specific briefs. Send us your event agenda, a VIP list with photos if available, a floor plan, and your priority shot list. If there are specific executives who must be photographed individually, tell us their names so we can identify and approach them proactively. If there is a product, a display, or branded environment that represents significant investment and must look perfect in the images, flag it.</p>
+<p>We do a venue visit for events above AED 8,000 in scope — this allows us to plan camera positions, identify lighting challenges, and brief any second shooter before the day. For smaller events, a detailed brief call 48 hours before the event achieves the same result.</p>
+`,
+  },
+
+  // ─── POST 30: Wedding Videography Abu Dhabi ───────────────────────────────
+  {
+    slug: "wedding-videography-abu-dhabi-2026",
+    title: "Wedding Videography Abu Dhabi 2026 — Prices, Packages & Best Venues",
+    metaTitle: "Wedding Videography Abu Dhabi 2026 | Wedding Filmmaker UAE | Backyard Studio Official",
+    metaDescription: "Professional wedding videography in Abu Dhabi from AED 4,000. Cinematic wedding films, highlights delivered in 48 hours, GCAA drone licensed. Covers Saadiyat, Yas Island & all Abu Dhabi venues.",
+    keywords: ["wedding videography Abu Dhabi", "wedding videographer Abu Dhabi", "wedding film Abu Dhabi", "wedding video production Abu Dhabi", "Abu Dhabi wedding photographer", "wedding videography UAE"],
+    category: "Weddings",
+    date: "May 30, 2026",
+    dateISO: "2026-05-30",
+    readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200&q=80",
+    excerpt: "Abu Dhabi's wedding scene is distinct from Dubai — more intimate, more architectural, with some of the most stunning venues in the UAE. This guide covers wedding videography costs in Abu Dhabi in 2026, the best venues, and how Backyard Studio Official covers weddings across the capital.",
+    author: "Fahad Iqbal Butt",
+    faqs: [
+      { question: "How much does wedding videography cost in Abu Dhabi?", answer: "Wedding videography in Abu Dhabi starts from AED 4,000 for a standard package covering 8 hours with one camera operator, a 3-5 minute cinematic highlights film, and delivery within 5 days. Full packages with two camera operators, a highlights film plus a full 30-45 minute wedding film, drone footage, and same-week delivery run AED 8,000-15,000. Luxury productions at premier venues like Emirates Palace, St. Regis Saadiyat, or Qasr Al Watan typically run AED 12,000-22,000 for a full cinematic production." },
+      { question: "Do you cover weddings in Abu Dhabi regularly?", answer: "Yes. Backyard Studio Official covers weddings regularly across Abu Dhabi — from intimate ceremonies on Saadiyat Island to large traditional Emirati weddings in Abu Dhabi city. We are familiar with the key venue logistics, timing traditions, and the specific lighting conditions of Abu Dhabi's most popular wedding locations. We have covered weddings at Emirates Palace, Jumeirah at Saadiyat Island, Yas Viceroy, W Abu Dhabi, and many private residence celebrations." },
+      { question: "What is the best time of year for an outdoor wedding in Abu Dhabi?", answer: "October through April is Abu Dhabi's outdoor wedding season — temperatures are mild (22-32°C), the light at golden hour is exceptional, and the humidity is low. November through February is peak season with the most pleasant conditions. May through September should be avoided for outdoor ceremonies due to extreme heat (40-50°C) and high humidity. For indoor venues, year-round timing is viable, but the winter months still tend to produce the most photogenic light for outdoor portraits before or after the ceremony." },
+      { question: "Can you film at Emirates Palace or Qasr Al Watan?", answer: "Yes, though both venues have their own filming policies that require advance coordination. Emirates Palace requires a filming permit and a pre-approved vendor relationship, which Backyard Studio Official holds. Qasr Al Watan has specific guidelines for commercial filming. We handle all venue coordination as part of the production process — clients do not need to manage this separately." },
+      { question: "How far in advance should I book a wedding videographer in Abu Dhabi?", answer: "For peak season (November-March), bookings 6-12 months in advance are standard, particularly for weekend dates. We hold a limited number of dates per month to ensure quality — once those dates are confirmed, we do not accept additional bookings for the same day. For off-peak months and weekday weddings, 2-3 months notice is usually sufficient. We always advise booking as early as possible once the venue and date are confirmed." },
+    ],
+    relatedSlugs: ["wedding-photographer-cost-dubai-2026", "best-wedding-photographers-dubai-2026", "drone-videography-rules-dubai-2026"],
+    content: `
+<h2>Wedding Videography in Abu Dhabi — What Makes It Different</h2>
+<p>Abu Dhabi weddings have a character distinct from Dubai. The capital's wedding venues tend toward grandeur and architecture — Emirates Palace, Qasr Al Watan, the St. Regis Saadiyat Island, Jumeirah at Saadiyat — settings that reward a cinematic approach and wide establishing shots that communicate the scale and elegance of the space. The Emirati wedding tradition in Abu Dhabi also follows its own rhythm and customs, with male and female celebrations often held separately, traditional music and dancing integral to the event, and specific ceremonial moments that require a photographer and videographer who understands when to be present and when to step back.</p>
+<p>Fahad Iqbal Butt has filmed weddings in Abu Dhabi since 2022 and brings an understanding of the specific venues, cultural traditions, and lighting conditions of the capital's wedding scene that is only developed through consistent presence in the market.</p>
+
+<h2>Abu Dhabi's Best Wedding Venues for Film</h2>
+<p><strong>Emirates Palace</strong> is the most filmed wedding venue in the UAE. The scale of the atrium, the gold leaf detailing, and the exterior fountains are unmatched for cinematic grandeur. The venue's own chandeliers produce a warm amber light that works beautifully for gala footage. The challenge is the scale — a poorly planned shoot can make the space feel empty. We know how to compose Emirates Palace to communicate its opulence.</p>
+<p><strong>Saadiyat Island</strong> — particularly the Jumeirah at Saadiyat Island and St. Regis — offers a more intimate, contemporary luxury aesthetic. The beach access, white architecture, and private pool villas create natural cinematic opportunities. The natural light on Saadiyat at sunset is among the best in the UAE.</p>
+<p><strong>Yas Island venues</strong> including Yas Viceroy and W Abu Dhabi offer a more modern, design-forward aesthetic suited to contemporary couples. The Formula 1 circuit views and the futuristic architecture create unique visual opportunities not available elsewhere.</p>
+
+<h2>Wedding Videography Packages for Abu Dhabi 2026</h2>
+<p>Our Abu Dhabi entry package starts at <strong>AED 4,000</strong> — one camera operator, 8 hours, a 3-5 minute highlights film, and delivery within 5 business days. The travel from Dubai to Abu Dhabi is included.</p>
+<p>Our most requested Abu Dhabi package at <strong>AED 9,000-12,000</strong> includes two camera operators, a drone sequence (GCAA licensed), a highlights film plus a 30-minute full wedding film, same-week delivery, and a USB keepsake box.</p>
+<p>For luxury venue productions at Emirates Palace, Qasr Al Watan, or comparable venues, our premium production package starts at <strong>AED 15,000</strong> and includes a cinema-grade camera setup, three-operator team, aerial sequences, and a colour-graded production that matches the visual standards of the venue itself.</p>
+`,
+  },
+
+  // ─── POST 31: Podcast Studio Dubai ───────────────────────────────────────
+  {
+    slug: "podcast-studio-dubai-2026",
+    title: "Podcast Studio Dubai 2026 — Recording, Video & Production Services",
+    metaTitle: "Podcast Studio Dubai 2026 | Video Podcast Production UAE | Backyard Studio Official",
+    metaDescription: "Professional podcast recording and video production in Dubai from AED 2,500. Studio setup, multi-camera, editing, YouTube and Spotify delivery. UAE brands and executives.",
+    keywords: ["podcast studio Dubai", "podcast production Dubai", "video podcast Dubai", "podcast recording Dubai", "podcast filming Dubai", "podcast production UAE"],
+    category: "Content",
+    date: "May 30, 2026",
+    dateISO: "2026-05-30",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=1200&q=80",
+    excerpt: "Dubai's podcast market is growing fast — driven by the city's density of entrepreneurs, executives, and thought leaders who want to build authority and audience. This guide covers what professional podcast production costs in Dubai in 2026 and what separates a professional video podcast from a setup that undermines the speaker's credibility.",
+    author: "Syed Mazhar Zaidi",
+    faqs: [
+      { question: "How much does podcast production cost in Dubai?", answer: "A single podcast episode shoot in Dubai starts from AED 2,500 for a one-hour session covering one or two hosts, multi-camera video recording, professional audio, basic editing, and delivery in both audio and video formats. Monthly podcast production retainers covering 4 episodes per month with editing, thumbnails, and platform upload management start from AED 6,000/month. Full-service podcast packages including studio design, branding, launch strategy, and ongoing production run AED 12,000-20,000 for setup plus AED 6,000-10,000/month ongoing." },
+      { question: "Do you provide a studio space for podcast recording in Dubai?", answer: "Yes. We bring a complete portable studio setup to your office or preferred location in Dubai — professional backdrop, studio-quality lighting (softboxes and rim lights), multiple camera angles (typically 3-4 cameras for a standard 2-host setup), and a professional audio rig with dedicated microphones and a field mixer. The result looks like a purpose-built studio regardless of the location. For clients who want a permanent studio setup in their own office, we also design and install fixed podcast studio environments." },
+      { question: "What platforms do you optimise podcast content for?", answer: "We deliver your podcast in the formats required for YouTube (16:9 video, chapter markers, SEO-optimised titles and descriptions), Spotify (MP3 audio, episode metadata), Apple Podcasts (M4A audio, show notes), and social media clips (9:16 vertical edits for Instagram Reels, TikTok, and YouTube Shorts). We can also produce a LinkedIn-optimised square video edit for executive audience distribution." },
+      { question: "Can you help with editing only if we already record ourselves?", answer: "Yes. We offer podcast editing as a standalone service starting from AED 800 per episode, covering audio cleaning and levelling, music intro and outro integration, video colour grading if applicable, caption creation, and export to all required formats. For clients producing 4+ episodes per month, monthly editing retainers are available from AED 2,500/month." },
+      { question: "How long does it take to edit a podcast episode in Dubai?", answer: "Standard turnaround for a one-hour episode is 3-5 business days. Rush delivery within 24-48 hours is available for time-sensitive episodes at an additional cost of AED 500. For clients on monthly retainers, we schedule sessions and deliveries on a fixed weekly calendar so content is always ready on time." },
+    ],
+    relatedSlugs: ["youtube-video-production-dubai-2026", "social-media-content-creation-dubai-2026", "corporate-video-production-dubai-2026"],
+    content: `
+<h2>Why Dubai Executives Are Investing in Video Podcasts</h2>
+<p>The video podcast has become the dominant thought leadership format for Dubai executives and founders. Unlike written content, a video podcast demonstrates presence, clarity of communication, and genuine expertise in real time — qualities that text cannot convey. For B2B audiences, seeing a founder or CEO speak confidently and intelligently for 45 minutes does more for credibility than any website, brochure, or LinkedIn post. For consumer brands, a personality-driven podcast builds the kind of audience relationship that paid advertising cannot buy.</p>
+<p>Syed Mazhar Zaidi, who leads our post-production team, has edited over 50 documentary and long-form video productions. The same skills that make a documentary hold attention — pacing, audio quality, visual variety, and the ability to cut to the essential moment — apply directly to podcast editing. The difference between a podcast that sounds and looks professional and one that sounds like it was recorded in a spare room is immediate and irreversible in the first 30 seconds.</p>
+
+<h2>What a Professional Podcast Setup Looks Like</h2>
+<p>A typical Backyard Studio podcast setup for two hosts involves four cameras: a wide establishing shot showing both hosts, a medium shot on each individual host, and a detail/reaction camera. This gives the editor enough material to cut dynamically through a one-hour conversation — moving between wide shots for context, close-ups for emphasis, and cutaways for transitions — rather than sitting on a locked-off wide shot for the full duration.</p>
+<p>Audio is recorded to dedicated microphones — either broadcast-quality dynamic mics (Shure SM7B or equivalent) or high-quality condenser mics depending on the environment. We run a dedicated audio recorder separate from the camera audio as a backup. This separation means that if anything goes wrong with the camera audio during a live recording, we have a clean independent audio source.</p>
+<p>Lighting is the most visible signal of production quality. A properly lit podcast setup uses at least three light sources per person: a key light (main face illumination), a fill light (shadows reduction), and a rim or hair light (subject separation from background). The result is a face that looks dimensional, natural, and broadcast-ready rather than flat or harsh.</p>
+
+<h2>Podcast Production Pricing in Dubai 2026</h2>
+<p>Single episode shoot and edit: <strong>AED 2,500</strong> — covers up to 2 hours on location, multi-camera recording, professional audio, full episode edit, social clips, and delivery in all formats.</p>
+<p>Monthly podcast retainer (4 episodes): <strong>AED 6,000-8,000/month</strong> — covers all shoots, editing, thumbnail design, upload management, and monthly performance review.</p>
+<p>Studio installation (permanent): <strong>AED 8,000-15,000</strong> one-time — camera mounts, lighting rigs, acoustic treatment guidance, and audio equipment installed in your office for self-production with occasional our-team refinement sessions.</p>
+`,
+  },
+
+  // ─── POST 32: Car Commercial Dubai ────────────────────────────────────────
+  {
+    slug: "car-commercial-production-dubai-2026",
+    title: "Car Commercial Production Dubai 2026 — Automotive Ads & Brand Films",
+    metaTitle: "Car Commercial Production Dubai 2026 | Automotive Video UAE | Backyard Studio Official",
+    metaDescription: "Professional car commercial production in Dubai from AED 15,000. Cinematic automotive ads, dealer brand films, launch videos. GCAA drone licensed. 2,400+ projects UAE.",
+    keywords: ["car commercial Dubai", "automotive video production Dubai", "car advertisement Dubai", "vehicle brand film UAE", "automotive photography Dubai", "car launch video Dubai"],
+    category: "Automotive",
+    date: "May 30, 2026",
+    dateISO: "2026-05-30",
+    readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1200&q=80",
+    excerpt: "Dubai is one of the world's most car-obsessed cities — and one of the most competitive markets for automotive content. This guide covers what car commercial and automotive brand film production costs in the UAE in 2026, the locations that consistently produce the best results, and how to brief a production team for a campaign-quality automotive shoot.",
+    author: "Fahad Iqbal Butt",
+    faqs: [
+      { question: "How much does a car commercial cost to produce in Dubai?", answer: "Car commercial production in Dubai starts from AED 15,000 for a compact 30-60 second brand spot — one shooting day, two-camera setup, basic car rigging and motion work, colour grading, and music licensing. Mid-range automotive brand films (90 seconds to 3 minutes, multiple locations, aerial sequences, motion control, and talent) run AED 35,000-80,000. Full TV commercial productions for manufacturer launch campaigns run AED 80,000-250,000+ and involve multiple shooting days, professional automotive talent, location permits, and a full post-production pipeline including VFX and sound design." },
+      { question: "What are the best locations for car shoots in Dubai?", answer: "The Dubai desert dunes south of the city produce the most iconic automotive footage — the combination of golden light, sweeping terrain, and unlimited space is unique. Al Qudra desert road is the most commonly used location. For urban automotive content, Sheikh Zayed Road at blue hour (30 minutes after sunset) produces striking city-backdrop shots. The Hatta Mountain road offers switchback driving sequences unlike anything available near the coast. Dubai Marina for lifestyle automotive content. We hold location permits for all key automotive shoot locations in Dubai." },
+      { question: "Do you need special permits to film a car commercial in Dubai?", answer: "For filming on public roads in Dubai, a Roads and Transport Authority (RTA) filming permit is required. For desert locations on government land, a separate location permit is needed. For aerial drone sequences over vehicles, a GCAA commercial drone licence is required. Backyard Studio Official holds all of these — clients do not need to manage the permit process independently. We include permit costs in the production quote." },
+      { question: "Can you do car photography and video in the same shoot day?", answer: "Yes. Combined automotive photography and video shoots are efficient and cost-effective — the lighting setup, location scouts, and production logistics are shared. We typically structure a combined shoot as: early morning static photography before the heat and wind increases, mid-day driving sequences and drone work, and a golden hour video sequence at sunset. This produces both a photography library and video content from a single day's production." },
+      { question: "Do you work with car dealerships or only manufacturers?", answer: "Both. We regularly produce brand content for UAE-based dealers including inventory showcase videos, dealership brand films, new model arrival content for social media, and seasonal campaign videos. For dealers producing monthly inventory content, we offer monthly retainer packages from AED 5,000/month covering regular photo and video updates for the dealer's website and social channels." },
+    ],
+    relatedSlugs: ["automotive-photography-dubai-2026", "drone-photography-dubai-2026", "brand-film-production-dubai-2026"],
+    content: `
+<h2>Automotive Content in Dubai — What the Market Expects</h2>
+<p>Dubai is a city that takes cars seriously. A city where the Lamborghini dealer is on the same block as the Ferrari dealer, where a supercar in the street does not attract a second glance, and where automotive content on social media consistently outperforms other categories for engagement. The standard for automotive content in this market is high — audiences here see exceptional car photography and cinematography regularly and know the difference between a professional production and a phone video.</p>
+<p>Fahad Iqbal Butt has directed automotive shoots for dealerships, importers, and individual car owners across the UAE. The technical demands of automotive cinematography are distinct from other production types: cars are reflective and every light source in the environment appears in the body panels; motion work requires careful planning for car-to-car, car-to-drone, and car-to-camera sequences; and the relationship between car and environment — the way a car sits in a desert landscape or moves through an urban setting — is what separates compelling automotive film from car documentation.</p>
+
+<h2>Production Elements of a Car Commercial in Dubai</h2>
+<p><strong>Location selection</strong> is the first creative decision. The location should complement the vehicle's positioning — a luxury SUV belongs in the desert or the mountains; a sports car belongs on a clean urban road at night; a family vehicle belongs in recognisable Dubai neighbourhoods. We location scout for every automotive production and propose 2-3 options with mood references.</p>
+<p><strong>Camera approach</strong> determines the visual language. Static beauty shots on a tripod produce catalogue-quality images. Gimbal-stabilised moving shots alongside a moving vehicle create energy. Car-mounted shots from bonnet, door, and boot positions create immersion. High-speed phantom camera work (available on our premium automotive packages) captures tyre smoke, suspension movement, and detail elements imperceptible at normal speed. Aerial drone sequences establish context and scale. A well-produced car commercial uses all of these approaches selectively.</p>
+<p><strong>Post-production</strong> for automotive content requires colour grading expertise specific to metallic surfaces — the interplay between the car's paint, the light, and the environment requires a colourist who understands how automotive colour works. Syed Mazhar Zaidi grades all our automotive productions to standards comparable to manufacturer-level marketing content.</p>
+
+<h2>Car Commercial Pricing in Dubai 2026</h2>
+<p>Dealer social media package (monthly): <strong>AED 5,000/month</strong> — 4-8 inventory videos, photography, and social edits per month for ongoing channel management.</p>
+<p>Brand spot (30-60 seconds): <strong>AED 15,000-25,000</strong> — one shooting day, two-camera setup, desert or urban location, drone sequence, full post-production.</p>
+<p>Automotive brand film (90 seconds to 3 minutes): <strong>AED 35,000-80,000</strong> — multiple locations, motion work, aerial sequences, professional colour grade and sound design.</p>
+`,
+  },
+
+  // ─── POST 33: Photography Studio Rental Dubai ─────────────────────────────
+  {
+    slug: "photography-studio-rental-dubai-2026",
+    title: "Photography Studio Rental Dubai 2026 — Hire a Studio for Shoots",
+    metaTitle: "Photography Studio Rental Dubai 2026 | Studio Hire UAE | Backyard Studio Official",
+    metaDescription: "Professional photography studio hire in Dubai from AED 500/hour. Cyclorama, product tables, lighting rigs, makeup rooms. Available daily. Book online or WhatsApp.",
+    keywords: ["photography studio rental Dubai", "studio hire Dubai", "photo studio Dubai", "cyclorama studio Dubai", "studio photography Dubai", "hire photo studio UAE"],
+    category: "Studio",
+    date: "May 30, 2026",
+    dateISO: "2026-05-30",
+    readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1200&q=80",
+    excerpt: "Whether you need a cyclorama for fashion shoots, a product table setup for e-commerce photography, or a full studio day for a brand campaign, Dubai has studio options across every budget. This guide explains what to look for in a photography studio rental in Dubai and what Backyard Studio's in-house studio offers.",
+    author: "Fahad Iqbal Butt",
+    faqs: [
+      { question: "How much does it cost to rent a photography studio in Dubai?", answer: "Photography studio rental in Dubai ranges from AED 300-500 per hour for basic studio spaces with minimal equipment, to AED 800-1,500 per hour for fully equipped cyclorama studios with professional lighting rigs, makeup rooms, and a client lounge. Full-day rates (8 hours) typically range from AED 2,500-8,000 depending on the studio specification. Backyard Studio's in-house space starts from AED 500 per hour and includes our full lighting inventory. For regular clients, we offer monthly studio time packages at discounted rates." },
+      { question: "What equipment is included with a studio rental in Dubai?", answer: "A professional studio rental in Dubai should include: a cyc wall (infinity curve) or seamless backdrop system in multiple colours, a studio strobe lighting system (typically 2-4 heads), light modifiers (softboxes, beauty dishes, reflectors), a C-stand and grip inventory, a product table for e-commerce photography, and a basic changing area. Higher-spec studios add: a professional makeup room, a client lounge, a video monitor for live view, and a dedicated digital tech station. Backyard Studio's space includes all of the above." },
+      { question: "Can I bring my own photographer to rent the studio?", answer: "Yes. Studio rental is available to external photographers who want a professional space without committing to a full production service. We provide the space, the lighting, and any grip equipment requested. You bring your own team and creative direction. The minimum rental is 2 hours, and bookings can be made via WhatsApp or our contact page with 24-hour notice." },
+      { question: "Do you offer studio rentals for video production as well as photography?", answer: "Yes. Our studio space accommodates video production including brand films, talking head interviews, product demonstrations, and social media content shoots. For video, we additionally provide: V-flat flag systems for light control, a full audio setup (microphones, recorder, monitoring), and a dedicated video monitor for director and client review. The space is also acoustically treated to reduce ambient noise for audio-sensitive video productions." },
+      { question: "What industries use your studio for rental in Dubai?", answer: "Our studio is regularly used by fashion photographers for editorial and lookbook shoots, e-commerce brands for product photography on white or coloured backgrounds, beauty brands for cosmetics and skincare photography, food and beverage brands for product campaigns, casting agencies for headshot sessions, and content creators and influencers for social media content. We have hosted shoots for international fashion brands, UAE-based startups, and individual freelance photographers building their portfolios." },
+    ],
+    relatedSlugs: ["corporate-photography-dubai-2026", "product-photography-dubai-2026", "fashion-photography-dubai-2026"],
+    content: `
+<h2>What to Look For in a Photography Studio in Dubai</h2>
+<p>Not all studio spaces in Dubai are equal. The Dubai studio rental market ranges from converted warehouses in Al Quoz with minimal equipment to purpose-built spaces in Business Bay with full grip inventory, makeup rooms, and catering. Before booking, the key questions to ask are: what is the ceiling height (important for large softboxes and overhead rigs — minimum 3.5m for professional work, ideally 4-5m); what is the cyc wall width (important for full-length fashion shots — minimum 4m, ideally 6m+); what is the natural light situation (controllable daylight is an asset, uncontrolled direct sunlight is a problem); and what lighting equipment is included versus additional cost.</p>
+
+<h2>What Backyard Studio's Space Offers</h2>
+<p>Our in-house studio in Dubai is a purpose-built production space designed around the needs of commercial photography and video. The cyclorama measures 6m wide with a 4.2m ceiling, accommodating full-length fashion, large product setups, and group headshot sessions without constraint. The lighting inventory includes Profoto strobes and continuous LED panels, with a full modifier collection covering every quality of light from hard direct to the softest butterfly diffusion.</p>
+<p>A dedicated product photography table is permanently rigged for e-commerce shoots — with a plexi sweep, colour background options, and a vertical shooting arm for flat-lay and overhead angles. For beauty and fashion clients, a professional makeup station with Hollywood-style mirror lighting and a steamer is available within the space. A client lounge with a monitor connected to the camera allows clients to review images in real time at full resolution.</p>
+
+<h2>Studio Rental Rates in Dubai 2026</h2>
+<p>Hourly rate: <strong>AED 500/hour</strong> (minimum 2 hours) — includes full lighting inventory, cyclorama, product table, and client lounge access.</p>
+<p>Half-day rate: <strong>AED 1,800</strong> (4 hours) — includes a digital tech for the session and a basic craft services setup.</p>
+<p>Full-day rate: <strong>AED 3,200</strong> (8 hours) — includes a digital tech, craft services, makeup room access, and a one-hour turnaround at the end of the day for a late pickup if needed.</p>
+<p>Monthly studio time package: <strong>AED 8,000/month</strong> for 20 hours of studio time — suitable for brands with a regular content calendar who want reliable, consistent access to a professional space at a predictable cost.</p>
+`,
+  },
+
 ];
 
 export function getBlogPost(slug: string): BlogPost | undefined {
