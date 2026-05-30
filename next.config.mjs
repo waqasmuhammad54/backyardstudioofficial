@@ -31,14 +31,8 @@ const nextConfig = {
   async redirects() {
     return [
       { source: "/home", destination: "/", permanent: true },
+      // Canonical www redirect — catches backyardstudioofficial.com → www
       {
         source: "/:path*",
         has: [{ type: "host", value: "backyardstudioofficial.com" }],
-        destination: "https://www.backyardstudioofficial.com/:path*",
-        permanent: true,
-      },
-    ];
-  },
-};
-
-export default nextConfig;
+        destination: "https://www.backyardstudioof
