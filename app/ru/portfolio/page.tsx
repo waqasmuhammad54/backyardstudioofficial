@@ -1,4 +1,13 @@
 import type { Metadata } from "next";
+import { buildPortfolioItemListSchema } from "@/lib/portfolio-data";
+
+const portfolioSchema = {
+  ...buildPortfolioItemListSchema(),
+  name: "Backyard Studio Official — Портфолио",
+  description: "Портфолио Backyard Studio — корпоративное видео, свадебная съёмка, недвижимость и контент для соцсетей в Дубае и ОАЭ. 500+ проектов.",
+  url: "https://www.backyardstudioofficial.com/ru/portfolio",
+  inLanguage: "ru",
+};
 
 export const metadata: Metadata = {
   title: "Портфолио | Backyard Studio Official — Дубай",
@@ -20,6 +29,7 @@ const CATEGORIES = [
 export default function RuPortfolioPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(portfolioSchema) }} />
       <section style={{ background: "#111", padding: "5rem 2rem 3rem", textAlign: "center" }}>
         <div style={{ fontFamily: "Inter, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.85rem", marginBottom: "1rem", letterSpacing: "0.1em" }}>НАШИ РАБОТЫ</div>
         <h1 style={{ fontFamily: "Inter, sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 800, color: "var(--cream)", marginBottom: "1rem" }}>Портфолио</h1>

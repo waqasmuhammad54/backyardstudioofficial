@@ -1,4 +1,13 @@
 import type { Metadata } from "next";
+import { buildPortfolioItemListSchema } from "@/lib/portfolio-data";
+
+const portfolioSchema = {
+  ...buildPortfolioItemListSchema(),
+  name: "باكيارد ستوديو أوفيشيال — معرض الأعمال",
+  description: "معرض أعمال باكيارد ستوديو الرسمي في دبي والإمارات. 500+ مشروع في تصوير الفيديو والصور الاحترافية.",
+  url: "https://www.backyardstudioofficial.com/ar/portfolio",
+  inLanguage: "ar",
+};
 
 export const metadata: Metadata = {
   title: "معرض الأعمال | باكيارد ستوديو أوفيشيال — دبي",
@@ -20,6 +29,7 @@ const CATEGORIES = [
 export default function ArPortfolioPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(portfolioSchema) }} />
       <section style={{ background: "#111", padding: "5rem 2rem 3rem", textAlign: "center" }}>
         <div style={{ fontFamily: "Cairo, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.85rem", marginBottom: "1rem", letterSpacing: "0.1em" }}>معرض الأعمال</div>
         <h1 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>أعمالنا</h1>

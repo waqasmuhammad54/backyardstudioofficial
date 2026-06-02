@@ -1,4 +1,13 @@
 import type { Metadata } from "next";
+import { buildPortfolioItemListSchema } from "@/lib/portfolio-data";
+
+const portfolioSchema = {
+  ...buildPortfolioItemListSchema(),
+  name: "Backyard Studio Official — 作品集",
+  description: "Backyard Studio Official精选作品集。企业视频、婚礼摄影、无人机航拍、时尚大片——超过500个迪拜及阿联酋项目。",
+  url: "https://www.backyardstudioofficial.com/zh/portfolio",
+  inLanguage: "zh",
+};
 
 export const metadata: Metadata = {
   title: "作品集 | 迪拜摄影摄像作品 Backyard Studio Official",
@@ -18,6 +27,7 @@ const CATEGORIES = [
 export default function ZhPortfolioPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(portfolioSchema) }} />
       <section style={{ background: "#111", padding: "4rem 2rem 3rem", textAlign: "center" }}>
         <h1 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>
           作品集
