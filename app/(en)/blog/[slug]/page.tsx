@@ -4,7 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Clock, Calendar, Share2 } from "lucide-react";
 import { BLOG_POSTS, getBlogPost, getRelatedPosts } from "@/lib/blogPosts";
-import { faqSchema, articleSchema, breadcrumbSchema } from "@/lib/structuredData";
+import { faqSchema, articleSchema, breadcrumbSchema, speakableSchema } from "@/lib/structuredData";
 
 const BASE = "https://www.backyardstudioofficial.com";
 
@@ -60,6 +60,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     authorName: post.author,
     url: `${BASE}/blog/${post.slug}`,
   });
+  const blogSpeakable = speakableSchema(`${BASE}/blog/${post.slug}`, ["h1", "h2", "h3", ".speakable"]);
 
   const sidebarServices = [
     { label: "Event Videography", slug: "event-videography" },
@@ -82,6 +83,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     <div className="pt-24">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSpeakable) }} />
       {faqJsonLd && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       )}

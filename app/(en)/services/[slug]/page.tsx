@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Check, ArrowUpRight } from "lucide-react";
 import VimeoEmbed from "@/components/shared/VimeoEmbed";
-import { breadcrumbSchema, faqSchema } from "@/lib/structuredData";
+import { breadcrumbSchema, faqSchema, servicePageSchema, howToSchema, speakableSchema } from "@/lib/structuredData";
 
 // Vimeo video embeds per service slug
 const SERVICE_VIDEOS: Record<string, { id: string; title: string; poster: string }> = {
@@ -137,6 +137,139 @@ const SERVICE_IMAGES: Record<string, { hero: string; gallery: string[] }> = {
 const DEFAULT_IMAGES = {
   hero: "/images/events/event-01.webp",
   gallery: ["/images/creative/creative-04.webp", "/images/events/event-03.webp"],
+};
+
+// ─── Starting prices per service (AED) ───────────────────────────────────────
+const SERVICE_PRICES: Record<string, string> = {
+  "event-shoots": "2000",
+  "event-videography": "2000",
+  "event-video-editing": "800",
+  "dvcs": "8000",
+  "reels": "2500",
+  "photo-shoots": "1500",
+  "social-media-content": "2500",
+  "social-media-shoots": "3500",
+  "testimonial-videos": "1800",
+  "ads-shooting": "5000",
+  "aerial-drone": "2500",
+  "corporate-films": "15000",
+  "corporate-videography": "1500",
+  "podcast": "1800",
+  "youtube-content": "3000",
+  "automotive": "2500",
+  "real-estate": "1500",
+  "food": "1500",
+  "product-shoots": "1500",
+  "fashion-shoots": "2500",
+  "hotel-photography": "3000",
+  "brand-events": "5000",
+  "car-commercials": "8000",
+  "tv-commercials": "25000",
+  "corporate-brand-films": "15000",
+};
+
+// ─── HowTo steps per service ──────────────────────────────────────────────────
+const SERVICE_HOWTO: Record<string, { name: string; description: string; totalTime: string; steps: { name: string; text: string }[] }> = {
+  "event-shoots": {
+    name: "How to Book Event Photography in Dubai",
+    description: "Step-by-step guide to booking professional event photography and videography in Dubai with Backyard Studio Official.",
+    totalTime: "P3D",
+    steps: [
+      { name: "Submit your event brief", text: "Contact Backyard Studio Official via the website, WhatsApp (+971 58 588 2685), or email with your event date, venue, duration, and coverage requirements. We respond within 2 hours." },
+      { name: "Receive a tailored quote", text: "We provide a transparent, itemised quote within 2 hours covering the full scope: crew size, hours, deliverables, and turnaround times. No hidden fees." },
+      { name: "Confirm the booking", text: "Sign the booking agreement and pay the deposit to secure your date. All UAE major events book 2–8 weeks in advance — confirm early for peak dates." },
+      { name: "Pre-event production call", text: "We schedule a 30-minute call before your event to review the run of show, identify VIPs and key moments, and confirm all logistics with your event team." },
+      { name: "Event day coverage", text: "Our team arrives 45–60 minutes before guests for venue setup, lighting assessment, and coordination. We cover the full event unobtrusively with professional cinema-grade equipment." },
+      { name: "Receive your deliverables", text: "A same-day social media teaser is delivered within 6 hours. Full edited gallery and highlight reel are delivered within 48 hours via your private online gallery." },
+    ],
+  },
+  "dvcs": {
+    name: "How to Produce a DVC (Digital Video Commercial) in Dubai",
+    description: "The complete process for commissioning and producing a digital video commercial in Dubai with Backyard Studio Official.",
+    totalTime: "P14D",
+    steps: [
+      { name: "Brief and discovery session", text: "Share your brand brief, campaign objectives, target audience, and budget. We conduct a discovery session to understand your brand's positioning and commercial goals in the UAE market." },
+      { name: "Creative concept development", text: "Our creative team develops 2–3 concept directions with visual references, script outlines, and location ideas. You select and refine the direction that fits your brief." },
+      { name: "Pre-production planning", text: "Full pre-production covers scriptwriting, storyboarding, talent casting, location scouting and permits, shot list development, and production schedule." },
+      { name: "Production shoot day(s)", text: "Professional shoot in Dubai with cinema-grade equipment, experienced director, and full crew. Multiple looks and setups are captured in a single efficient shoot day for most standard DVC scopes." },
+      { name: "Post-production and editing", text: "Offline edit, colour grade, sound design, music licensing, motion graphics, and all required platform cuts (16:9, 9:16, 1:1) delivered with two rounds of revision." },
+      { name: "Final delivery", text: "Broadcast-ready master files and all platform-specific exports delivered within 10–14 days. Rush timelines available." },
+    ],
+  },
+  "aerial-drone": {
+    name: "How to Get GCAA-Licensed Drone Footage in Dubai",
+    description: "How to commission legal, GCAA-licensed drone videography in Dubai and across the UAE with Backyard Studio Official.",
+    totalTime: "P2D",
+    steps: [
+      { name: "Confirm your location and requirements", text: "Share the shoot location, date, type of footage needed (event, real estate, landscape, automotive), and any specific angles or sequences. We confirm GCAA compliance for your location immediately." },
+      { name: "Receive quote and permits confirmation", text: "We provide pricing and confirm any authority notifications needed for your specific location. Most standard UAE locations are pre-cleared in our network." },
+      { name: "Pre-flight planning", text: "Our GCAA-licensed pilot plans the flight path, altitude, and shot sequence. We coordinate with venue or site management and handle all required notifications." },
+      { name: "Drone shoot day", text: "Our licensed pilot and support crew arrive on site. We capture all required aerial sequences in 4K, including dynamic tracking shots, establishing wides, and point-of-interest orbits." },
+      { name: "Colour-graded delivery", text: "Edited aerial footage with professional colour grade delivered within 24 hours. Raw 4K files also provided. Integration with ground-level footage available same-day." },
+    ],
+  },
+  "wedding-videography": {
+    name: "How to Book a Wedding Videographer in Dubai",
+    description: "How to find, brief, and book a professional wedding videographer in Dubai for a cinematic wedding film.",
+    totalTime: "P7D",
+    steps: [
+      { name: "Share your wedding details", text: "Contact us with your wedding date, venue, guest count, and any cultural or ceremonial requirements. We confirm availability within 2 hours." },
+      { name: "Review packages and pricing", text: "We walk you through package options from single-camera coverage to full cinematic production with drone, second shooter, and same-day edit. Transparent pricing with no hidden fees." },
+      { name: "Creative consultation", text: "A dedicated consultation to understand your vision: the moments that matter most, any cultural traditions to document, the tone of the film (romantic, cinematic, energetic), and music direction." },
+      { name: "Venue coordination", text: "We liaise directly with your venue coordinator to confirm access, lighting conditions, restrictions, and the optimal positions for capturing each moment of the day." },
+      { name: "Wedding day filming", text: "Our team arrives during preparations and films through to the reception. Every key moment is captured — the getting ready, ceremony, first look, speeches, first dance, and celebrations." },
+      { name: "Receive your wedding film", text: "A 48-hour teaser is delivered first for immediate sharing. The full cinematic highlight film (4–8 minutes) is delivered within 4 weeks. Full ceremony and reception edits within 6 weeks." },
+    ],
+  },
+  "real-estate": {
+    name: "How to Get Real Estate Photography and Videography in Dubai",
+    description: "The process for commissioning professional real estate photography, walkthrough video, and drone footage in Dubai.",
+    totalTime: "P2D",
+    steps: [
+      { name: "Share property details", text: "Provide the property address, type, size, and your specific requirements (photography only, video walkthrough, drone, virtual tour). We confirm availability and quote within 2 hours." },
+      { name: "Schedule the shoot", text: "We schedule around the best natural light window for your property's orientation. Morning shoots for east-facing properties, afternoon for west-facing. Twilight shoots scheduled at dusk." },
+      { name: "Pre-shoot preparation", text: "We share a property preparation checklist — decluttering, lighting setup, staging suggestions — to ensure your property photographs at its best." },
+      { name: "Professional shoot", text: "Our team arrives and sets up professional lighting to complement natural light. We systematically photograph every space, capture the walkthrough video, and coordinate the GCAA drone flight." },
+      { name: "Editing and delivery", text: "Edited photos delivered within 24 hours, edited video within 48 hours. All files delivered via private download link in web-ready and print-ready formats." },
+    ],
+  },
+  "corporate-films": {
+    name: "How to Commission a Corporate Film in Dubai",
+    description: "Step-by-step guide to producing a professional corporate film or brand documentary in Dubai with Backyard Studio Official.",
+    totalTime: "P21D",
+    steps: [
+      { name: "Discovery and briefing", text: "We begin with a discovery session to understand your company, the story the film needs to tell, the audience it speaks to, and the business outcome it needs to achieve." },
+      { name: "Creative direction development", text: "We develop a Creative Direction document: the narrative, the visual style, the tone, the key messages, and the interview subjects. This is the foundation of the entire production." },
+      { name: "Pre-production", text: "Full pre-production covers scripting, location scouting, talent casting (if required), interview guide preparation, shot list, and production schedule." },
+      { name: "Production shoot", text: "Filming led by Fahad Iqbal Butt or Syed Mazhar Zaidi with a full professional crew. C-suite interviews, office environments, product demonstrations, and any required on-location sequences." },
+      { name: "Post-production", text: "Offline edit, colour grade, sound design, music licensing, motion graphics, and voice-over (English and Arabic available). Two revision rounds included." },
+      { name: "Delivery and distribution planning", text: "Final files delivered in all required formats — website hero, LinkedIn, YouTube, event screen, investor deck. We advise on distribution strategy to maximise the film's reach." },
+    ],
+  },
+  "podcast": {
+    name: "How to Set Up a Video Podcast Production in Dubai",
+    description: "How to produce a professional multi-camera video podcast in Dubai with Backyard Studio Official.",
+    totalTime: "P3D",
+    steps: [
+      { name: "Share your podcast brief", text: "Tell us about your show: format (interview, co-hosted, solo), episode length, frequency, and visual style. We advise on the optimal setup for your goals and budget." },
+      { name: "Location and setup planning", text: "We confirm the recording location (your office, a hired studio, or our partner spaces in Dubai) and plan the camera positions, lighting design, and branded set elements." },
+      { name: "Technical setup on recording day", text: "Our team arrives 90 minutes before recording to set up cameras, audio, lighting, and branded graphics. Full system test before any recording begins." },
+      { name: "Record the episode", text: "Multi-camera recording with broadcast-quality audio. Our producer monitors levels and framing throughout. We capture all takes and any required re-records." },
+      { name: "Post-production and clip cutting", text: "Full episode edit, colour grade, audio master, intro/outro, lower thirds, and up to 15 short-form social media clips per episode. Delivered within 48 hours." },
+    ],
+  },
+  "social-media-shoots": {
+    name: "How to Plan a Social Media Content Shoot in Dubai",
+    description: "The process for commissioning a professional social media photo and video shoot in Dubai.",
+    totalTime: "P3D",
+    steps: [
+      { name: "Define your content goals", text: "Share your brand, your social media channels, your target audience, and the type of content you need (product, lifestyle, behind-the-scenes, Reels, TikTok). We help clarify the brief." },
+      { name: "Content strategy session", text: "A 30-minute pre-shoot strategy session where we build the shot list: specific angles, hooks, messages, and the number of deliverables needed for your content calendar." },
+      { name: "Location and styling", text: "We advise on locations in Dubai that match your brand aesthetic. We can shoot in our partner spaces, your premises, or public UAE locations with the right permits." },
+      { name: "Shoot day", text: "Professional production day covering all video and photo requirements from the shot list. Our team works efficiently to maximise the number of assets from a single shoot day." },
+      { name: "Editing and delivery", text: "All videos edited to platform specs (9:16 for Reels/TikTok, 1:1 for feed, 16:9 for YouTube), photos colour-graded. Full delivery within 48 hours." },
+    ],
+  },
 };
 
 const SERVICE_DATA: Record<string, { title: string; description: string; includes: string[]; faqs: { q: string; a: string }[] }> = {
@@ -696,20 +829,36 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
   };
   const imgs  = SERVICE_IMAGES[params.slug] || DEFAULT_IMAGES;
   const video = SERVICE_VIDEOS[params.slug] || null;
+  const pageUrl = `https://www.backyardstudioofficial.com/services/${params.slug}`;
   const serviceBreadcrumb = breadcrumbSchema([
     { name: "Home", url: "https://www.backyardstudioofficial.com" },
     { name: "Services", url: "https://www.backyardstudioofficial.com/services" },
-    { name: service.title, url: `https://www.backyardstudioofficial.com/services/${params.slug}` },
+    { name: service.title, url: pageUrl },
   ]);
   const serviceFaqSchema = service.faqs.length > 0
     ? faqSchema(service.faqs.map((f) => ({ question: f.q, answer: f.a })))
     : null;
+  const serviceSchema = servicePageSchema({
+    name: service.title,
+    description: service.description.split("\n")[0],
+    url: pageUrl,
+    price: SERVICE_PRICES[params.slug],
+  });
+  const howTo = SERVICE_HOWTO[params.slug]
+    ? howToSchema(SERVICE_HOWTO[params.slug])
+    : null;
+  const speakable = speakableSchema(pageUrl, ["h1", "h2", ".speakable", ".service-description"]);
 
   return (
     <div className="pt-24">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceBreadcrumb) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakable) }} />
       {serviceFaqSchema && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceFaqSchema) }} />
+      )}
+      {howTo && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howTo) }} />
       )}
       {/* Cinematic hero */}
       <div className="relative h-[60vh] min-h-[420px] overflow-hidden">

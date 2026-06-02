@@ -112,6 +112,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/zh/blog/wurenji-hangpai-dubai-2026",                 lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/zh/blog/qiye-shipin-zhizuo-dubai-2026",              lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/zh/blog/chanpin-sheying-dubai-2026",                 lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/zh/blog/dubai-hunjia-sheying-2026",                  lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/zh/blog/dubai-qiye-shipin-2026",                     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/zh/blog/fangchan-paizhao-dubai-2026",                lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/zh/blog/yewu-shipin-dubai-2026",                     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
   ];
 
   return [...core, ...services, ...locations, ...industries, ...blogPosts, ...arCore, ...ruCore, ...zhCore];

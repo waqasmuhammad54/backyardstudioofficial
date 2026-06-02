@@ -1,0 +1,8 @@
+@echo off
+echo Removing git lock if exists...
+if exist ".git\index.lock" del /f ".git\index.lock"
+echo Pushing SEO/GEO commit to GitHub...
+git push origin main
+echo.
+echo Done! Check Vercel for build status at https://vercel.com
+pause

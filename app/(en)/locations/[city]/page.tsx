@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { MapPin, Camera, ArrowRight } from "lucide-react";
+import { faqSchema, speakableSchema, breadcrumbSchema } from "@/lib/structuredData";
 
 const CITY_DATA: Record<string, { name: string; image: string; description: string; landmarks: string[]; areas: string[]; services: string[]; faqs: { q: string; a: string }[] }> = {
   "dubai": {
@@ -84,9 +85,24 @@ export async function generateMetadata({ params }: { params: { city: string } })
 export default function CityPage({ params }: { params: { city: string } }) {
   const data = CITY_DATA[params.city] || DEFAULT_CITY(params.city);
   const SERVICES = ["Event Shoots", "DVCs", "Instagram Reels", "TikTok Content", "Testimonial Videos", "Ads Shooting", "Aerial Drone", "Corporate Films"];
+  const pageUrl = `https://www.backyardstudioofficial.com/locations/${params.city}`;
+  const cityBreadcrumb = breadcrumbSchema([
+    { name: "Home", url: "https://www.backyardstudioofficial.com" },
+    { name: "UAE Coverage", url: "https://www.backyardstudioofficial.com/locations" },
+    { name: data.name, url: pageUrl },
+  ]);
+  const cityFaqSchema = data.faqs?.length > 0
+    ? faqSchema(data.faqs.map((f: { q: string; a: string }) => ({ question: f.q, answer: f.a })))
+    : null;
+  const citySpeakable = speakableSchema(pageUrl, ["h1", "h2", ".speakable"]);
 
   return (
     <div className="pt-24">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(cityBreadcrumb) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(citySpeakable) }} />
+      {cityFaqSchema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(cityFaqSchema) }} />
+      )}
       {/* Hero */}
       <section className="relative h-80 flex items-end overflow-hidden">
         <Image src={data.image} alt={`Video production in ${data.name}`} fill className="object-cover" sizes="100vw" />

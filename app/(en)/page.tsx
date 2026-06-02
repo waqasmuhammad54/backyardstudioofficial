@@ -10,7 +10,7 @@ import TestimonialsSection from "@/components/home/TestimonialsSection";
 import BlogPreview         from "@/components/home/BlogPreview";
 import GalleryStrip        from "@/components/home/GalleryStrip";
 import ContactSection      from "@/components/home/ContactSection";
-import { faqSchema }       from "@/lib/structuredData";
+import { faqSchema, speakableSchema, itemListSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Best Production Company in Dubai | Backyard Studio Official — UAE #1 2026",
@@ -75,12 +75,33 @@ const HOME_FAQS = [
   },
 ];
 
+const HOME_SERVICES_LIST = [
+  { name: "Event Photography & Videography Dubai", url: "https://www.backyardstudioofficial.com/services/event-shoots", description: "Professional event photography and videography across Dubai and UAE from AED 2,000." },
+  { name: "Wedding Photography & Videography Dubai", url: "https://www.backyardstudioofficial.com/services/photo-shoots", description: "Cinematic wedding photography and videography packages from AED 3,500." },
+  { name: "Digital Video Commercials (DVC) Dubai", url: "https://www.backyardstudioofficial.com/services/dvcs", description: "Professional DVC production in Dubai from AED 8,000. Social media, broadcast and digital." },
+  { name: "Instagram Reels & TikTok Production Dubai", url: "https://www.backyardstudioofficial.com/services/reels", description: "Algorithm-first Reels and TikTok content for UAE brands from AED 2,500." },
+  { name: "Social Media Content Creation Dubai", url: "https://www.backyardstudioofficial.com/services/social-media-content", description: "Full-service social media content creation for UAE brands from AED 2,500." },
+  { name: "Aerial Drone Videography Dubai (GCAA Licensed)", url: "https://www.backyardstudioofficial.com/services/aerial-drone", description: "GCAA-licensed drone videography across all 7 UAE emirates from AED 2,500." },
+  { name: "Corporate Films Dubai", url: "https://www.backyardstudioofficial.com/services/corporate-films", description: "Brand documentaries and corporate films in Dubai from AED 15,000." },
+  { name: "Real Estate Photography & Videography Dubai", url: "https://www.backyardstudioofficial.com/services/real-estate", description: "Professional real estate photo and video for Dubai property listings from AED 1,500." },
+  { name: "Product Photography Dubai", url: "https://www.backyardstudioofficial.com/services/product-shoots", description: "Professional product photography for e-commerce and brands in Dubai from AED 1,500." },
+  { name: "Podcast Videography Dubai", url: "https://www.backyardstudioofficial.com/services/podcast", description: "Multi-camera video podcast production in Dubai from AED 1,800." },
+];
+
 export default function HomePage() {
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(HOME_FAQS)) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema("https://www.backyardstudioofficial.com", ["h1", "h2", ".speakable"])) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema(HOME_SERVICES_LIST)) }}
       />
       <HeroSlider />
       <AboutSection />
