@@ -5,6 +5,10 @@ echo ========================================
 
 cd /d "D:\Claude Project\Backyard\backyard-studio"
 
+echo Clearing any git lock files...
+if exist .git\index.lock del /f /q .git\index.lock
+if exist .git\HEAD.lock del /f /q .git\HEAD.lock
+
 echo Removing broken git state...
 if exist .git rmdir /s /q .git
 
@@ -28,7 +32,7 @@ echo Staging all changes...
 git add -A
 
 echo Committing...
-git commit -m "Fix: ESLint config invalid next/typescript — use next/core-web-vitals only"
+git commit -m "fix: blogPosts.ts syntax error (];itle → slug+title) — resolves Vercel build failure; add VideoObject schema lib + EN portfolio slug page"
 
 echo Pushing to GitHub...
 git push origin main

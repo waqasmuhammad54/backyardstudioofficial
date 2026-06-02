@@ -1843,7 +1843,9 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>If you are planning a commercial shoot in Dubai and are unsure whether to rent a studio separately or work with a full-service production team, reach out through our contact page. We will give you an honest recommendation based on your specific project and often find solutions that are both better quality and more cost-effective than the studio-rental-plus-separate-photographer approach.</p>
 `,
   },
-];itle: "Social Media Content Creation Dubai 2026 | Brand Content Agency UAE | Backyard Studio",
+  {
+    slug: "social-media-content-creation-dubai-2026",
+    title: "Social Media Content Creation Dubai 2026 | Brand Content Agency UAE | Backyard Studio",
     metaDescription: "Professional social media content creation in Dubai from AED 3,000/month. Instagram Reels, TikTok, YouTube Shorts — strategy, shooting, editing for UAE brands. Backyard Studio Official.",
     keywords: ["social media content creation Dubai", "social media agency Dubai", "Instagram content creator Dubai", "TikTok content Dubai", "brand content creation UAE", "social media video production Dubai"],
     category: "Social Media",
