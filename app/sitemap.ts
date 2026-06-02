@@ -81,6 +81,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/ar/blog/asear-tasswirvideo-dubai-2026",      lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/video-sharikaat-dubai-2026",         lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/taswiremolak-dubai-2026",            lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswirafidiyat-dubai-2026",          lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/asear-video-sharkati-dubai-2026",    lastModified: now, changeFrequency: "monthly", priority: 0.75 },
   ];
 
   // Russian pages (/ru/)
@@ -95,6 +97,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/ru/blog/stoimost-videosemki-dubai-2026",     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ru/blog/korporativnoe-video-dubai-2026",     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ru/blog/semka-nedvizhimosti-dubai-2026",     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/svadebnyi-fotograf-abu-dhabi-2026",  lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/fotografiya-nedvizhimosti-dubai-2026", lastModified: now, changeFrequency: "monthly", priority: 0.75 },
   ];
 
   // Chinese pages (/zh/)
