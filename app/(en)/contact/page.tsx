@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import ContactSection from "@/components/home/ContactSection";
 
 export const metadata: Metadata = {
-  title: "Contact | Book Your Video Production in UAE",
+  title: "Contact Backyard Studio | Free Quote — Dubai UAE",
   description:
     "Get in touch with Backyard Studio Official. Book event shoots, DVCs, reels, ads & more across Dubai, Abu Dhabi and all UAE. Response within 2 hours.",
+  alternates: { canonical: "https://www.backyardstudioofficial.com/contact" },
 };
 
 export default function ContactPage() {

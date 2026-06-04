@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Корпоративное видео в Дубае 2026 — Цены и производство | Backyard Studio",
-  description: "Профессиональное корпоративное видео в Дубае от 8 000 AED. Корпоративные фильмы, видео о компании, рекламные ролики. Реальные цены и опыт 2 400+ проектов по всем ОАЭ.",
+  title: "Корпоративное видео Дубай 2026 | Backyard Studio",
+  description: "Корпоративное видео в Дубае от 8,000 AED. Корпоративные фильмы, видео о компании, рекламные ролики. Реальные цены, опыт 2,400+ проектов по всем ОАЭ.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/ru/blog/korporativnoe-video-dubai-2026" },
   openGraph: {
     title: "Корпоративное видео в Дубае 2026 | Backyard Studio",

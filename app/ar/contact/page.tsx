@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "تواصل معنا | باكيارد ستوديو أوفيشيال دبي",
-  description: "تواصل مع استوديو باكيارد أوفيشيال في دبي. نرد على جميع الاستفسارات خلال ساعتين. واتساب: +971 58 588 2685.",
+  description: "تواصل مع باكيارد ستوديو في دبي لحجز تصوير الفعاليات والأعراس والإعلانات في جميع أنحاء الإمارات. نرد خلال ساعتين. واتساب: +971 58 588 2685.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/ar/contact" },
 };
 

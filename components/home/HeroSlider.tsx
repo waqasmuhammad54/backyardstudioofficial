@@ -7,11 +7,11 @@ import { ArrowUpRight } from "lucide-react";
 const SLIDES = [
   {
     image: "/images/events/event-01.webp",
-    eyebrow: "Event Coverage",
-    line1: "Every Moment",
-    line2: "Deserves",
-    line3: "Cinema.",
-    sub: "Dubai's finest event shoots — delivered within 48 hours.",
+    eyebrow: "Production Company in Dubai",
+    line1: "Dubai's Best",
+    line2: "Production",
+    line3: "Company.",
+    sub: "2,400+ projects across all 7 UAE emirates. GCAA licensed. Free quote in 2 hours.",
   },
   {
     image: "/images/wedding/wedding-01.webp",
@@ -40,7 +40,7 @@ const SLIDES = [
 ];
 
 const MARQUEE = ["EVENT SHOOTS","DVCs","INSTAGRAM REELS","TIKTOK CONTENT","VIDEO EDITING",
-                 "ADS PRODUCTION","TESTIMONIALS","AERIAL DRONE","CORPORATE FILMS","PHOTO SHOOTS"];
+"ADS PRODUCTION","TESTIMONIALS","AERIAL DRONE","CORPORATE FILMS","PHOTO SHOOTS"];
 
 export default function HeroSlider() {
   const [current, setCurrent] = useState(0);
@@ -106,7 +106,7 @@ export default function HeroSlider() {
             <p className="text-silver/80 text-sm font-light max-w-xs leading-relaxed">{s.sub}</p>
             <div className="flex gap-4">
               <Link href="/portfolio" className="btn-gold"><span>View Our Work</span><ArrowUpRight size={13} /></Link>
-              <Link href="/contact"   className="btn-outline"><span>Get a Quote</span></Link>
+              <Link href="/contact" className="btn-outline"><span>Get a Quote</span></Link>
             </div>
           </div>
 

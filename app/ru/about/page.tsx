@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "О нас | Backyard Studio Official — продакшн-студия в Дубае",
+  title: "О нас | Backyard Studio Official Дубай",
   description: "Backyard Studio Official — творческая продакшн-студия, основанная в 2019 году. Узнайте о нашей команде, опыте и ценностях.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/ru/about" },
 };

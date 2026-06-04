@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Съёмка недвижимости в Дубае 2026 — Цены на фото и видео | Backyard Studio",
-  description: "Профессиональная съёмка недвижимости в Дубае от 2 500 AED. Видеотуры по объектам, аэросъёмка (лицензия GCAA), застройщики, элитная недвижимость. Реальные цены 2026.",
+  title: "Съёмка недвижимости Дубай 2026 | Backyard Studio",
+  description: "Съёмка недвижимости в Дубае от 2,500 AED. Видеотуры, аэросъёмка (GCAA), квартиры, виллы, элитные объекты и застройщики. Реальные цены 2026.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/ru/blog/semka-nedvizhimosti-dubai-2026" },
   openGraph: {
     title: "Съёмка недвижимости в Дубае 2026 | Backyard Studio",

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Свадебный фотограф в Абу-Даби 2026 — цены, пакеты и лучшие площадки",
+  title: "Свадебный фотограф Абу-Даби 2026 | Backyard Studio",
   description:
-    "Свадебная фото и видеосъёмка в Абу-Даби от AED 4,000. Emirates Palace, Yas Island, Saadiyat. GCAA-лицензия на дрон. Команда Backyard Studio — ответ за 2 часа, съёмка по всем 7 эмиратам.",
+    "Свадебная съёмка в Абу-Даби от AED 4,000. Emirates Palace, Yas Island, Saadiyat. GCAA-дрон. Backyard Studio — ответ за 2 часа, съёмка по всем 7 эмиратам.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru/blog/svadebnyi-fotograf-abu-dhabi-2026",
     languages: {

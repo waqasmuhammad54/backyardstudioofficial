@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Стоимость видеосъёмки в Дубае 2026 — реальные цены на видеопродакшн",
+  title: "Стоимость видеосъёмки Дубай 2026 | Backyard Studio",
   description:
-    "Сколько стоит профессиональная видеосъёмка в Дубае в 2026 году? Корпоративное видео, реклама, контент для соцсетей, съёмка мероприятий. Цены в дирхамах, что влияет на бюджет и как сэкономить.",
+    "Цены на видеосъёмку в Дубае 2026: корпоративное видео, реклама, соцсети, мероприятия. Честные цены в дирхамах, факторы бюджета от Backyard Studio.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru/blog/stoimost-videosemki-dubai-2026",
     languages: {

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Свадебный фотограф и видеограф в Дубае 2026 — как выбрать и сколько стоит",
+  title: "Свадебный фотограф Дубай 2026 | Backyard Studio",
   description:
-    "Полный гид по выбору свадебного фотографа и видеографа в Дубае. Реальные цены в дирхамах, чем отличается кинематографическое видео от репортажного, и почему команда Backyard Studio снимает более 250 свадеб в год.",
+    "Выбор свадебного фотографа в Дубае: реальные цены в AED, кинематографическое видео vs репортаж, почему Backyard Studio снимает более 250 свадеб в год.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru/blog/svadebnyi-fotograf-dubai-2026",
     languages: {

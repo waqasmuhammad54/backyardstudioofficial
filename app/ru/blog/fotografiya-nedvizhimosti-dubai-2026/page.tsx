@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Фотография недвижимости в Дубае 2026 — профессиональная съёмка объектов ОАЭ",
+  title: "Фотография недвижимости Дубай 2026 | Backyard",
   description:
-    "Профессиональная фото и видеосъёмка недвижимости в Дубае от AED 1,500. Интерьеры, экстерьеры, аэросъёмка дроном (GCAA-лицензия), видеотуры. Backyard Studio — доставка за 24 ч.",
+    "Фотосъёмка недвижимости в Дубае от AED 1,500. Интерьеры, экстерьеры, аэросъёмка дроном (GCAA), видеотуры. Backyard Studio — доставка за 24 часа.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru/blog/fotografiya-nedvizhimosti-dubai-2026",
     languages: {

@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Camera, Film, Video, Smartphone, Megaphone, MessageSquare, Image, Plane, Building2, Clapperboard, Car, Home, Mic, Youtube, Utensils, Package, Users, Shirt, MapPin, Tv, BookOpen, Hotel, Play, Star, Settings } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Video & Photography Production Services Dubai UAE",
-  description: "Dubai's full-service production studio — events, weddings, DVCs, Reels, TikTok, corporate films, automotive, real estate, food & product shoots across all 7 UAE emirates. GCAA drone. 48h delivery. Free quote in 2 hours.",
+  title: "Production Services Dubai | Backyard Studio UAE",
+  description: "Full-service Dubai production studio — events, weddings, DVCs, Reels, corporate & drone across all 7 UAE emirates. GCAA licensed. 48h delivery. Free quote.",
   keywords: [
     "production company services Dubai",
     "video production services UAE",

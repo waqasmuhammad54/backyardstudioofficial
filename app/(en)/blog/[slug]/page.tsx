@@ -19,14 +19,22 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const post = getBlogPost(params.slug);
   if (!post) return { title: "Article Not Found" };
+  // Enforce ≤55 char title: use first segment before " | ", add brand if fits
+  const firstSeg = post.metaTitle.split(" | ")[0];
+  const withBrand = `${firstSeg} | Backyard Studio`;
+  const safeTitle = withBrand.length <= 55 ? withBrand : firstSeg;
+  // Enforce 120–155 char description
+  const safeDesc = post.metaDescription.length > 155
+    ? post.metaDescription.substring(0, 152) + "..."
+    : post.metaDescription;
   return {
-    title: post.metaTitle,
-    description: post.metaDescription,
+    title: safeTitle,
+    description: safeDesc,
     keywords: post.keywords,
     alternates: { canonical: `${BASE}/blog/${post.slug}` },
     openGraph: {
-      title: post.metaTitle,
-      description: post.metaDescription,
+      title: safeTitle,
+      description: safeDesc,
       type: "article",
       publishedTime: post.dateISO,
       authors: [post.author],

@@ -3,8 +3,9 @@ import Link from "next/link";
 import { Star, Quote } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Client Reviews & Testimonials — Dubai UAE Production Studio",
-  description: "See what UAE brands say about Backyard Studio Official — 100+ 5-star reviews for event shoots, DVCs, Reels, ads and video production across the UAE.",
+  title: "Reviews & Testimonials | Backyard Studio Dubai",
+  description: "100+ five-star reviews from UAE brands on event shoots, DVCs, Reels and video production. See what clients say about Backyard Studio Official.",
+  alternates: { canonical: "https://www.backyardstudioofficial.com/testimonials" },
 };
 
 const TESTIMONIALS = [

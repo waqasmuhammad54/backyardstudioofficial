@@ -14,8 +14,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       title: `${title} | Backyard Studio Official`,
       description: project?.description,
       images: project ? [{ url: `https://www.backyardstudioofficial.com${project.image}` }] : [],
-      type: "video.other",
-      videos: project ? [`https://player.vimeo.com/video/${project.vimeoId}`] : [],
+      type: "website",
     },
     alternates: {
       canonical: `https://www.backyardstudioofficial.com/portfolio/${params.slug}`,
@@ -25,12 +24,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 
 export default function ProjectPage({ params }: { params: { slug: string } }) {
   const project = getProjectBySlug(params.slug);
-  const title = project?.title ?? params.slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
   const schema = project ? buildVideoObjectSchema(project) : null;
+  const title = project?.title ?? params.slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
   return (
     <div className="pt-24">
-      {/* ── VideoObject JSON-LD ─────────────────────────────────────────────── */}
+      {/* JSON-LD */}
       {schema && (
         <script
           type="application/ld+json"
@@ -45,31 +44,37 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
         </Link>
       </div>
 
-      {/* Hero Video — Vimeo embed when ID available, thumbnail fallback otherwise */}
-      <div className="aspect-video relative bg-[#111111] max-w-5xl mx-auto mx-4 rounded-sm overflow-hidden border border-[#2a2a2a]">
-        {project ? (
-          <iframe
-            src={`https://player.vimeo.com/video/${project.vimeoId}?h=0&badge=0&autopause=0&player_id=0&app_id=58479&title=0&byline=0&portrait=0`}
-            className="absolute inset-0 w-full h-full"
-            allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
-            title={title}
-          />
-        ) : (
-          <>
-            <Image
-              src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1280&q=80"
-              alt={title}
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 1024px"
-            />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <button className="w-16 h-16 rounded-full border-2 border-[#e8c547] flex items-center justify-center bg-black/50 hover:bg-[#e8c547]/20 transition-all">
-                <svg width="20" height="22" viewBox="0 0 20 22" fill="#e8c547"><path d="M1 1l18 10L1 21V1z"/></svg>
-              </button>
-            </div>
-          </>
+      {/* Hero Image — project thumbnail */}
+      <div className="relative max-w-5xl mx-auto mx-4 rounded-sm overflow-hidden border border-[#2a2a2a]"
+           style={{ aspectRatio: "16/9" }}>
+        <Image
+          src={project?.image ?? "/images/events/event-01.webp"}
+          alt={title}
+          fill
+          className="object-cover"
+          sizes="(max-width: 1024px) 100vw, 1024px"
+          priority
+        />
+        {/* Overlay gradient */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+        {/* Category badge */}
+        {project && (
+          <span className="absolute bottom-4 left-4 bg-[#e8c547] text-black text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest">
+            {project.category}
+          </span>
         )}
+      </div>
+
+      {/* CTA strip — link to showreel */}
+      <div className="max-w-5xl mx-auto px-4 mt-4">
+        <a
+          href="https://www.youtube.com/@BackyardStudioofficialuae"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-[#e8c547] text-sm hover:underline"
+        >
+          ▶ Watch our showreel on YouTube →
+        </a>
       </div>
 
       {/* Details */}
@@ -79,13 +84,8 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
             <h1 className="font-display text-4xl md:text-5xl text-white mb-6">{title}</h1>
             <p className="text-[#a0a0a0] leading-relaxed mb-4">
               {project?.description ??
-                "This project exemplifies Backyard Studio Official’s commitment to cinematic excellence. From the initial brief through to final delivery, every decision was made to maximise the visual impact and emotional resonance of the final piece."}
+                "This project exemplifies Backyard Studio Official's commitment to cinematic excellence. From the initial brief through to final delivery, every decision was made to maximise the visual impact and emotional resonance of the final piece."}
             </p>
-            {!project && (
-              <p className="text-[#a0a0a0] leading-relaxed">
-                Shot across iconic UAE locations with our elite crew, this production combined cutting-edge camera technology with a deeply considered creative approach — resulting in content that far outperformed benchmark engagement metrics for the client.
-              </p>
-            )}
           </div>
 
           {/* Sidebar */}

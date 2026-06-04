@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "2026年迪拜婚礼摄影完全指南：价格、地点与注意事项 | Backyard Studio",
-  description: "在迪拜举办婚礼？本文详解迪拜婚礼摄影摄像费用（AED 3,500起）、最佳拍摄地点、如何选择专业团队及注意事项。",
+  description: "在迪拜举办婚礼？本文详解迪拜婚礼摄影摄像费用（AED 3,500起）、棕榈岛和亚斯岛等最佳拍摄地点、如何选择专业婚礼摄影团队及注意事项。Backyard Studio专业婚礼摄影。",
   alternates: { canonical: "https://www.backyardstudioofficial.com/zh/blog/hunli-sheying-dubai-2026" },
 };
 

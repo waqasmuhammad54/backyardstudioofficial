@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Цены на видеосъёмку в Дубае | Backyard Studio Official",
-  description: "Прозрачные цены на видеосъёмку и фотосъёмку в Дубае. Свадебная съёмка от 3,500 AED, корпоративное видео от 15,000 AED, съёмка мероприятий от 3,500 AED. Бесплатная оценка за 2 часа.",
+  description: "Цены на видеосъёмку в Дубае: свадьбы от 3,500 AED, корпоративное видео от 15,000 AED, мероприятия от 3,500 AED, аэросъёмка от 2,000 AED. Бесплатная оценка.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/ru/pricing" },
 };
 

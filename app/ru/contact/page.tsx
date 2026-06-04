@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Контакты | Backyard Studio Official — видеосъёмка в Дубае",
-  description: "Свяжитесь с Backyard Studio Official в Дубае. Ответим в течение 2 часов. WhatsApp: +971 58 588 2685.",
+  title: "Контакты | Backyard Studio Official Дубай",
+  description: "Свяжитесь с Backyard Studio Official в Дубае. Заказ видеосъёмки, рекламных роликов, свадебной съёмки по всем ОАЭ. Ответим в течение 2 часов. WhatsApp: +971 58 588 2685.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/ru/contact" },
 };
 

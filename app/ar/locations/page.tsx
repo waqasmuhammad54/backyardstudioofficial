@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "مواقع التصوير في الإمارات | باكيارد ستوديو أوفيشيال",
-  description: "نصوّر في جميع إمارات الدولة السبع — دبي، أبوظبي، الشارقة، عجمان، رأس الخيمة، الفجيرة وأم القيوين. بدون رسوم تنقل.",
+  description: "باكيارد ستوديو يصوّر في جميع الإمارات السبع — دبي، أبوظبي، الشارقة، عجمان، رأس الخيمة، الفجيرة وأم القيوين. بدون رسوم تنقل. عرض سعر مجاني خلال ساعتين.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/ar/locations" },
 };
 

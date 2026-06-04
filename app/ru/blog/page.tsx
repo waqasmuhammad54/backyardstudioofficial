@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Блог | Backyard Studio Official — видеосъёмка в Дубае",
-  description: "Статьи и советы по видеосъёмке и фотографии в Дубае и ОАЭ от команды Backyard Studio Official.",
+  description: "Статьи и советы по видеосъёмке, стоимости производства, локациям для съёмки и свадебной фотографии в Дубае и ОАЭ. Экспертный контент от Backyard Studio Official.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/ru/blog" },
 };
 

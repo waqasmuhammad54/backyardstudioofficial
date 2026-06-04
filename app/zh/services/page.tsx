@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "摄影摄像服务 | 迪拜专业制作 Backyard Studio Official",
-  description: "迪拜及阿联酋全套创意制作服务：企业视频、婚礼摄影、活动拍摄、无人机航拍、社交媒体内容、产品及时尚摄影。即时报价。",
+  description: "迪拜及阿联酋全套制作服务——企业宣传片、婚礼摄影摄像、活动拍摄、无人机航拍（GCAA许可）、社交媒体内容、产品及时尚摄影。2,400+项目完成。即时报价。",
   alternates: { canonical: "https://www.backyardstudioofficial.com/zh/services" },
 };
 

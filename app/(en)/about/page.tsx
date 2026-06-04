@@ -5,9 +5,9 @@ import { ArrowUpRight, Play } from "lucide-react";
 import { personSchema, breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "About Us | Fahad Iqbal Butt & Syed Mazhar Zaidi — Dubai Production Studio",
+  title: "About Backyard Studio | Dubai Production Studio",
   description:
-    "Meet the team behind Dubai's best production studio. Co-founded by filmmaker Fahad Iqbal Butt and cinematographer Syed Mazhar Zaidi (IMDB) — 2,400+ projects across all 7 UAE emirates since 2019. GCAA licensed. Free quote in 2 hours.",
+    "Meet the founders of Dubai's best production studio — Fahad Iqbal Butt & Syed Mazhar Zaidi. 2,400+ projects, all 7 UAE emirates, GCAA licensed since 2019.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/about" },
 };
 

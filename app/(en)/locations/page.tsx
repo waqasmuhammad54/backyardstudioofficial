@@ -3,8 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Video Production Locations Across UAE — All 7 Emirates",
-  description: "Backyard Studio Official shoots video and photography across all 7 UAE emirates — Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah and Umm Al Quwain. No travel fees within UAE. Get a quote in 2 hours.",
+  title: "Production Locations UAE | All 7 Emirates Covered",
+  description: "Backyard Studio covers all 7 UAE emirates — Dubai, Abu Dhabi, Sharjah, Ajman, RAK, Fujairah & UAQ for video & photography. No travel fees. Free quote in 2 hours.",
+  alternates: { canonical: "https://www.backyardstudioofficial.com/locations" },
 };
 
 const EMIRATES = [

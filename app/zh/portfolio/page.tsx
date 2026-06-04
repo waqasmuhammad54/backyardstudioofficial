@@ -54,7 +54,7 @@ export default function ZhPortfolioPage() {
             </h2>
             <div style={{ position: "relative", paddingBottom: "56.25%", height: 0, overflow: "hidden", borderRadius: "4px", border: "1px solid rgba(212,175,55,0.2)" }}>
               <iframe
-                src="https://player.vimeo.com/video/1074232475?h=0&badge=0&autopause=0&player_id=0&app_id=58479"
+                src="https://www.youtube.com/embed/oJddzb2DKTU?rel=0&modestbranding=1"
                 style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
                 allow="autoplay; fullscreen; picture-in-picture"
                 title="Backyard Studio Official — Showreel"
@@ -65,13 +65,13 @@ export default function ZhPortfolioPage() {
           {/* More videos grid */}
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1.5rem" }}>
             {[
-              { title: "企业品牌影片", desc: "2024年迪拜精选企业项目", vimeoId: "1074232475" },
-              { title: "婚礼摄影合集", desc: "迪拜婚礼精彩瞬间", vimeoId: "1074232475" },
+              { title: "企业品牌影片", desc: "2024年迪拜精选企业项目", vimeoId: "oJddzb2DKTU" },
+              { title: "婚礼摄影合集", desc: "迪拜婚礼精彩瞬间", vimeoId: "oJddzb2DKTU" },
             ].map((item) => (
               <div key={item.title} style={{ background: "#111", border: "1px solid rgba(212,175,55,0.15)", borderRadius: "4px", overflow: "hidden" }}>
                 <div style={{ position: "relative", paddingBottom: "56.25%", height: 0 }}>
                   <iframe
-                    src={`https://player.vimeo.com/video/${item.vimeoId}?h=0&badge=0`}
+                    src={`https://www.youtube.com/embed/${item.vimeoId}?rel=0&modestbranding=1`}
                     style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
                     allow="autoplay; fullscreen"
                     title={item.title}
@@ -93,10 +93,7 @@ export default function ZhPortfolioPage() {
               <a href="https://www.instagram.com/backyardstudioofficial" target="_blank" rel="noopener noreferrer" style={{ background: "rgba(212,175,55,0.1)", color: "var(--gold)", border: "1px solid var(--gold)", padding: "0.6rem 1.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontSize: "0.9rem", fontWeight: 600 }}>
                 Instagram
               </a>
-              <a href="https://vimeo.com/backyardstudioofficial" target="_blank" rel="noopener noreferrer" style={{ background: "rgba(212,175,55,0.1)", color: "var(--gold)", border: "1px solid var(--gold)", padding: "0.6rem 1.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontSize: "0.9rem", fontWeight: 600 }}>
-                Vimeo
-              </a>
-              <a href="https://www.youtube.com/@backyardstudioofficial" target="_blank" rel="noopener noreferrer" style={{ background: "rgba(212,175,55,0.1)", color: "var(--gold)", border: "1px solid var(--gold)", padding: "0.6rem 1.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontSize: "0.9rem", fontWeight: 600 }}>
+              <a href="https://www.youtube.com/@BackyardStudioofficialuae" target="_blank" rel="noopener noreferrer" style={{ background: "rgba(212,175,55,0.1)", color: "var(--gold)", border: "1px solid var(--gold)", padding: "0.6rem 1.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontSize: "0.9rem", fontWeight: 600 }}>
                 YouTube
               </a>
             </div>

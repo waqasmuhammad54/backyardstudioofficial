@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "博客 | 迪拜摄影摄像干货 Backyard Studio Official",
-  description: "迪拜及阿联酋摄影摄像行业资讯、拍摄攻略、价格指南。中文专业内容，助您了解迪拜创意制作行业。",
+  description: "迪拜及阿联酋摄影摄像行业资讯、拍摄攻略与价格指南——婚礼摄影费用、企业视频制作、无人机航拍规定。中文专业内容，助您深入了解迪拜创意制作行业。",
   alternates: { canonical: "https://www.backyardstudioofficial.com/zh/blog" },
 };
 

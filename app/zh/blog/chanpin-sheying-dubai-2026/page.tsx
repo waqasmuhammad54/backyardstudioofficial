@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "迪拜产品摄影2026：电商与品牌图片完全指南 | Backyard Studio Official",
-  description: "迪拜专业产品摄影服务，起价AED 1,500。电商主图、品牌宣传图、棚拍与场景摄影。亚马逊、Noon及品牌营销全套方案。2小时内报价。",
+  description: "迪拜专业产品摄影服务，起价AED 1,500。白底电商主图、品牌宣传图、棚拍与生活方式场景摄影。适用于亚马逊、Noon及品牌营销。已完成2,400+项目。2小时内报价。",
   alternates: { canonical: "https://www.backyardstudioofficial.com/zh/blog/chanpin-sheying-dubai-2026" },
 };
 

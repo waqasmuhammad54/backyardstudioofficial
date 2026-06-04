@@ -5,9 +5,9 @@ import { Clock, ArrowRight } from "lucide-react";
 import { BLOG_POSTS } from "@/lib/blogPosts";
 
 export const metadata: Metadata = {
-  title: "Blog | Video Production Tips & UAE Industry Insights",
+  title: "Blog | Production Tips & UAE Industry Insights",
   description:
-    "Expert tips on video production costs Dubai, wedding photography UAE, filming locations, DVC budgets, social media content strategy from Dubai's #1 production studio.",
+    "Production tips, wedding guides, DVC costs & filming locations for UAE brands. Expert insights from Backyard Studio — Dubai's #1 production studio.",
   keywords: [
     "video production blog Dubai",
     "production company blog UAE",

@@ -1,20 +1,21 @@
 import type { Metadata } from "next";
-import HeroSlider          from "@/components/home/HeroSlider";
-import AboutSection        from "@/components/home/AboutSection";
-import ServicesGrid        from "@/components/home/ServicesGrid";
-import ShowreelSection     from "@/components/home/ShowreelSection";
-import PortfolioPreview    from "@/components/home/PortfolioPreview";
-import ProcessSection      from "@/components/home/ProcessSection";
-import UAECoverage         from "@/components/home/UAECoverage";
+import HeroSlider from "@/components/home/HeroSlider";
+import AboutSection from "@/components/home/AboutSection";
+import ServicesGrid from "@/components/home/ServicesGrid";
+import ShowreelSection from "@/components/home/ShowreelSection";
+import PortfolioPreview from "@/components/home/PortfolioPreview";
+import ProcessSection from "@/components/home/ProcessSection";
+import UAECoverage from "@/components/home/UAECoverage";
 import TestimonialsSection from "@/components/home/TestimonialsSection";
-import BlogPreview         from "@/components/home/BlogPreview";
-import GalleryStrip        from "@/components/home/GalleryStrip";
-import ContactSection      from "@/components/home/ContactSection";
+import BlogPreview from "@/components/home/BlogPreview";
+import GalleryStrip from "@/components/home/GalleryStrip";
+import ContactSection from "@/components/home/ContactSection";
+import Link from "next/link";
 import { faqSchema, speakableSchema, itemListSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "Best Production Company in Dubai | Backyard Studio Official — UAE #1 2026",
-  description: "Dubai's best production company for video, events, weddings & social media. DVCs, Instagram Reels, TikTok, drone, corporate films & wedding shoots across all 7 UAE emirates. 2,400+ projects. GCAA licensed. Free quote in 2 hours.",
+  title: "Production Company in Dubai | Backyard Studio",
+  description: "Dubai's best production company — video, events, weddings & social media across all 7 UAE emirates. GCAA licensed. 2,400+ projects. Free quote in 2 hours.",
   keywords: [
     "best production company in Dubai",
     "top production companies in Dubai",
@@ -59,7 +60,7 @@ const HOME_FAQS = [
   },
   {
     question: "Does Backyard Studio do social media content and Instagram Reels in Dubai?",
-    answer: "Yes. Backyard Studio Official is one of Dubai's leading social media content creators, producing Instagram Reels, TikTok videos, YouTube Shorts, and multi-platform content packages for brands, influencers, and businesses across the UAE. Our vertical-first, algorithm-aware content consistently achieves high organic reach.",
+    answer: "Yes. Backyard Studio Official is one of Dubai's leading social media content creators, producing Instagram Reels, TikTok videos, YouTube Shorts, and multi-platform content packages for brands, influencers, and businesses across the UAE.",
   },
   {
     question: "Which production company in Dubai covers all UAE emirates?",
@@ -67,7 +68,7 @@ const HOME_FAQS = [
   },
   {
     question: "Is Backyard Studio GCAA licensed for drone videography in UAE?",
-    answer: "Yes. Backyard Studio Official holds a GCAA drone operator licence, making us fully legal for aerial videography at events, weddings, real estate, and outdoor locations across all UAE emirates. Our drone team captures cinematic 4K aerial footage from desert to coastline.",
+    answer: "Yes. Backyard Studio Official holds a GCAA drone operator licence, making us fully legal for aerial videography at events, weddings, real estate, and outdoor locations across all UAE emirates.",
   },
   {
     question: "How quickly does Backyard Studio respond to briefs?",
@@ -113,6 +114,119 @@ export default function HomePage() {
       <UAECoverage />
       <TestimonialsSection />
       <BlogPreview />
+
+      {/* ══════════════════════════════════════════════════════════════
+          INTERNAL LINKS — Production Services Dubai & UAE
+          Unblocks Google crawl of all service/location/industry pages.
+          CRITICAL for indexing — do not remove.
+      ══════════════════════════════════════════════════════════════ */}
+      <section className="py-16 border-t" style={{ background: "var(--black)", borderColor: "var(--border)" }}>
+        <div className="container-xl">
+          <p className="text-center text-[10px] tracking-widest uppercase mb-10 opacity-30" style={{ color: "var(--silver)" }}>
+            Production Services Dubai &amp; UAE
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-6">
+
+            {/* Video Production */}
+            <div>
+              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-20" style={{ color: "var(--silver)" }}>Video Production</p>
+              <ul className="space-y-2">
+                {[
+                  ["Event Videography Dubai", "/services/event-videography"],
+                  ["DVCs & TV Commercials", "/services/dvcs"],
+                  ["Car Commercials Dubai", "/services/car-commercials"],
+                  ["Corporate Films Dubai", "/services/corporate-films"],
+                  ["Corporate Brand Films", "/services/corporate-brand-films"],
+                  ["Documentary Films", "/services/documentary"],
+                  ["Event Video Editing", "/services/event-video-editing"],
+                  ["AI Video Production Dubai", "/services/ai-video"],
+                ].map(([label, href]) => (
+                  <li key={href}>
+                    <Link href={href} className="text-xs opacity-40 hover:opacity-80 transition-opacity" style={{ color: "var(--silver)" }}>
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Photography */}
+            <div>
+              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-20" style={{ color: "var(--silver)" }}>Photography</p>
+              <ul className="space-y-2">
+                {[
+                  ["Wedding Photography Dubai", "/services/photo-shoots"],
+                  ["Event Photography Dubai", "/services/event-shoots"],
+                  ["Product Photography Dubai", "/services/product-shoots"],
+                  ["Fashion Photography Dubai", "/services/fashion-shoots"],
+                  ["Corporate Photography Dubai", "/services/corporate-videography"],
+                  ["Food Photography Dubai", "/services/food"],
+                  ["Automotive Photography Dubai", "/services/automotive"],
+                  ["Hotel Photography Dubai", "/services/hotel-photography"],
+                  ["Real Estate Photography Dubai", "/services/real-estate"],
+                ].map(([label, href]) => (
+                  <li key={href}>
+                    <Link href={href} className="text-xs opacity-40 hover:opacity-80 transition-opacity" style={{ color: "var(--silver)" }}>
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Social & Digital */}
+            <div>
+              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-20" style={{ color: "var(--silver)" }}>Social &amp; Digital</p>
+              <ul className="space-y-2">
+                {[
+                  ["Instagram Reels Dubai", "/services/reels"],
+                  ["Reels Production Dubai", "/services/reels-production"],
+                  ["Social Media Shoots Dubai", "/services/social-media-shoots"],
+                  ["TikTok Content Dubai", "/services/social-media-content"],
+                  ["Ads Production Dubai", "/services/ads-shooting"],
+                  ["YouTube Video Production", "/services/youtube-content"],
+                  ["Podcast Production Dubai", "/services/podcast"],
+                  ["Testimonial Videos Dubai", "/services/testimonial-videos"],
+                ].map(([label, href]) => (
+                  <li key={href}>
+                    <Link href={href} className="text-xs opacity-40 hover:opacity-80 transition-opacity" style={{ color: "var(--silver)" }}>
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Locations & Industries */}
+            <div>
+              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-20" style={{ color: "var(--silver)" }}>Locations &amp; Industries</p>
+              <ul className="space-y-2">
+                {[
+                  ["Production Company Dubai", "/locations/dubai"],
+                  ["Video Production Abu Dhabi", "/locations/abu-dhabi"],
+                  ["Photography Sharjah", "/locations/sharjah"],
+                  ["Production RAK", "/locations/ras-al-khaimah"],
+                  ["Sports Production UAE", "/industries/sports"],
+                  ["Automotive Production UAE", "/industries/automotive"],
+                  ["Healthcare Content UAE", "/industries/healthcare"],
+                  ["Tech Video Production UAE", "/industries/technology"],
+                  ["Education Video UAE", "/industries/education"],
+                  ["All UAE Locations", "/locations"],
+                ].map(([label, href]) => (
+                  <li key={href}>
+                    <Link href={href} className="text-xs opacity-40 hover:opacity-80 transition-opacity" style={{ color: "var(--silver)" }}>
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      {/* ══ END INTERNAL LINKS ══════════════════════════════════════ */}
+
       <ContactSection />
     </>
   );
