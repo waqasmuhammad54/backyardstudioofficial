@@ -59,9 +59,22 @@ export default function RealEstateZhPage() {
     ],
   };
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "迪拜房产摄影2026：价格、套餐与拍摄攻略",
+    author: { "@type": "Person", name: "Fahad Iqbal Butt", jobTitle: "Lead Photographer — Backyard Studio Official" },
+    publisher: { "@type": "Organization", name: "Backyard Studio Official", url: "https://www.backyardstudioofficial.com" },
+    datePublished: "2026-06-06",
+    dateModified: "2026-06-06",
+    inLanguage: "zh",
+    url: "https://www.backyardstudioofficial.com/zh/blog/fangchan-paizhao-dubai-2026",
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       <article style={{ fontFamily: "'Noto Sans SC', 'Inter', sans-serif", maxWidth: "860px", margin: "0 auto", padding: "4rem 2rem", color: "var(--cream)", lineHeight: "1.9" }}>
         <nav style={{ fontSize: "0.8rem", color: "rgba(245,240,225,0.45)", marginBottom: "2rem" }}>
@@ -81,9 +94,7 @@ export default function RealEstateZhPage() {
           <span>Fahad Iqbal Butt</span><span>2026年6月</span><span>7分钟阅读</span>
         </div>
 
-        <div style={{ width: "100%", height: "360px", background: "linear-gradient(135deg, rgba(212,175,55,0.08) 0%, rgba(10,10,10,0.9) 100%)", borderRadius: "4px", marginBottom: "3rem", display: "flex", alignItems: "center", justifyContent: "center", border: "1px solid rgba(212,175,55,0.12)" }}>
-          <span style={{ color: "rgba(212,175,55,0.4)", fontSize: "4rem" }}>🏙️</span>
-        </div>
+        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1400&q=80" alt="迪拜豪华公寓室内房产摄影" style={{ width: "100%", height: "360px", objectFit: "cover", borderRadius: "4px", marginBottom: "3rem" }} />
 
         <p style={{ fontSize: "1.05rem", marginBottom: "1.5rem" }}>
           迪拜房产市场竞争激烈。Property Finder和Bayut上每天新增数百条房源，买家和租客的注意力就是稀缺资源。研究表明，高质量房产照片能使房源点击率提升118%，而专业视频导览更能让询盘量增加403%。

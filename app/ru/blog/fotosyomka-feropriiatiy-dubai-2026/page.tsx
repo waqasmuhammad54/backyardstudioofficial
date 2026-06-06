@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Фотосъёмка мероприятий в Дубае 2026 | Backyard Studio",
   description:
-    "Профессиональный фотограф на мероприятие в Дубае от AED 2 500. Корпоративы, конференции, выставки, вечеринки — быстрая доставка, хайлайт-пакет в тот же день.",
+    "Фотограф на мероприятие в Дубае от AED 2 500. Корпоративы, конференции, выставки — DWTC, Madinat, Atlantis. Хайлайт-пакет в тот же день.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru/blog/fotosyomka-feropriiatiy-dubai-2026",
     languages: {
@@ -94,9 +94,7 @@ export default function EventsPhotoRuPage() {
           <span>Fahad Iqbal Butt</span><span>Июнь 2026</span><span>7 мин. чтения</span>
         </div>
 
-        <div style={{ width: "100%", height: "380px", background: "linear-gradient(135deg, rgba(212,175,55,0.08) 0%, rgba(10,10,10,0.9) 100%)", borderRadius: "4px", marginBottom: "3rem", display: "flex", alignItems: "center", justifyContent: "center", border: "1px solid rgba(212,175,55,0.12)" }}>
-          <span style={{ color: "rgba(212,175,55,0.4)", fontSize: "4rem" }}>📸</span>
-        </div>
+        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1400&q=80" alt="Фотосъёмка корпоративных мероприятий в Дубае" style={{ width: "100%", height: "380px", objectFit: "cover", borderRadius: "4px", marginBottom: "3rem" }} />
 
         <p style={{ fontSize: "1.1rem", marginBottom: "1.5rem" }}>
           Каждое мероприятие — это инвестиция. Аренда площадки, кейтеринг, décor, спикеры — всё это стоит денег и времени. Но если фотографии после события выглядят посредственно, вся работа теряет половину своей ценности: нет материала для пресс-релиза, нет контента для соцсетей, нет портфолио для следующего события.

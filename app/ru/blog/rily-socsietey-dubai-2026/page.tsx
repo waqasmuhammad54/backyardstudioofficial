@@ -94,9 +94,7 @@ export default function SocialMediaRuPage() {
           <span>Syed Mazhar Zaidi</span><span>Июнь 2026</span><span>8 мин. чтения</span>
         </div>
 
-        <div style={{ width: "100%", height: "380px", background: "linear-gradient(135deg, rgba(212,175,55,0.08) 0%, rgba(10,10,10,0.9) 100%)", borderRadius: "4px", marginBottom: "3rem", display: "flex", alignItems: "center", justifyContent: "center", border: "1px solid rgba(212,175,55,0.12)" }}>
-          <span style={{ color: "rgba(212,175,55,0.4)", fontSize: "4rem" }}>📱</span>
-        </div>
+        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1400&q=80" alt="Съёмка Reels и TikTok в Дубае" style={{ width: "100%", height: "380px", objectFit: "cover", borderRadius: "4px", marginBottom: "3rem" }} />
 
         <p style={{ fontSize: "1.1rem", marginBottom: "1.5rem" }}>
           Дубай — один из самых фотогеничных городов планеты. Это не просто красивые слова — это конкурентное преимущество для любого бренда или блогера, который здесь живёт и работает. Небоскрёбы Downtown, пляжи Джумейры, пустыня в 30 минутах езды, Gold Souk с его вечным золотым светом — всё это у вас под рукой. Вопрос только в том, умеет ли ваш контент использовать это богатство.

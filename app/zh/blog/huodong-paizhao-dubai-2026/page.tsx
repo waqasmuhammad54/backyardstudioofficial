@@ -51,9 +51,22 @@ export default function EventsZhPage() {
     ],
   };
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "迪拜活动摄影2026：企业年会、展会与发布会拍摄",
+    author: { "@type": "Person", name: "Fahad Iqbal Butt", jobTitle: "Lead Photographer — Backyard Studio Official" },
+    publisher: { "@type": "Organization", name: "Backyard Studio Official", url: "https://www.backyardstudioofficial.com" },
+    datePublished: "2026-06-06",
+    dateModified: "2026-06-06",
+    inLanguage: "zh",
+    url: "https://www.backyardstudioofficial.com/zh/blog/huodong-paizhao-dubai-2026",
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       <article style={{ fontFamily: "'Noto Sans SC', 'Inter', sans-serif", maxWidth: "860px", margin: "0 auto", padding: "4rem 2rem", color: "var(--cream)", lineHeight: "1.9" }}>
         <nav style={{ fontSize: "0.8rem", color: "rgba(245,240,225,0.45)", marginBottom: "2rem" }}>
@@ -66,9 +79,7 @@ export default function EventsZhPage() {
         <div style={{ display: "flex", gap: "1.5rem", fontSize: "0.85rem", color: "rgba(245,240,225,0.5)", marginBottom: "3rem", flexWrap: "wrap" }}>
           <span>Fahad Iqbal Butt</span><span>2026年6月</span><span>6分钟阅读</span>
         </div>
-        <div style={{ width: "100%", height: "360px", background: "linear-gradient(135deg, rgba(212,175,55,0.08) 0%, rgba(10,10,10,0.9) 100%)", borderRadius: "4px", marginBottom: "3rem", display: "flex", alignItems: "center", justifyContent: "center", border: "1px solid rgba(212,175,55,0.12)" }}>
-          <span style={{ color: "rgba(212,175,55,0.4)", fontSize: "4rem" }}>🎪</span>
-        </div>
+        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1400&q=80" alt="迪拜企业活动摄影展会现场" style={{ width: "100%", height: "360px", objectFit: "cover", borderRadius: "4px", marginBottom: "3rem" }} />
         <p style={{ fontSize: "1.05rem", marginBottom: "1.5rem" }}>每一场企业活动都是一笔投资。场地租赁、餐饮、布置、嘉宾——这一切的价值，最终体现在活动结束后能否留下有力的视觉记录。发布到领英的精选图、发给媒体的新闻稿配图、存入企业档案的历史影像——这些都从专业摄影师的镜头开始。</p>
         <p style={{ marginBottom: "2.5rem" }}>Backyard Studio的摄影团队长期服务迪拜企业活动市场，熟悉DWTC、Madinat Jumeirah、Atlantis等主要场馆的拍摄条件与工作流程。我们提供当天精选集锦交付，让您的内容在活动热度最高峰时即刻上线。</p>
 

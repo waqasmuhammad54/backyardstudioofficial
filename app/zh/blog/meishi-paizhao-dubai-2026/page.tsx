@@ -51,9 +51,22 @@ export default function FoodPhotoZhPage() {
     ],
   };
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "迪拜美食摄影2026：餐厅菜单与外卖平台拍摄指南",
+    author: { "@type": "Person", name: "Fahad Iqbal Butt", jobTitle: "Lead Photographer — Backyard Studio Official" },
+    publisher: { "@type": "Organization", name: "Backyard Studio Official", url: "https://www.backyardstudioofficial.com" },
+    datePublished: "2026-06-06",
+    dateModified: "2026-06-06",
+    inLanguage: "zh",
+    url: "https://www.backyardstudioofficial.com/zh/blog/meishi-paizhao-dubai-2026",
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       <article style={{ fontFamily: "'Noto Sans SC', 'Inter', sans-serif", maxWidth: "860px", margin: "0 auto", padding: "4rem 2rem", color: "var(--cream)", lineHeight: "1.9" }}>
         <nav style={{ fontSize: "0.8rem", color: "rgba(245,240,225,0.45)", marginBottom: "2rem" }}>
@@ -66,9 +79,7 @@ export default function FoodPhotoZhPage() {
         <div style={{ display: "flex", gap: "1.5rem", fontSize: "0.85rem", color: "rgba(245,240,225,0.5)", marginBottom: "3rem", flexWrap: "wrap" }}>
           <span>Fahad Iqbal Butt</span><span>2026年6月</span><span>6分钟阅读</span>
         </div>
-        <div style={{ width: "100%", height: "360px", background: "linear-gradient(135deg, rgba(212,175,55,0.08) 0%, rgba(10,10,10,0.9) 100%)", borderRadius: "4px", marginBottom: "3rem", display: "flex", alignItems: "center", justifyContent: "center", border: "1px solid rgba(212,175,55,0.12)" }}>
-          <span style={{ color: "rgba(212,175,55,0.4)", fontSize: "4rem" }}>🍽️</span>
-        </div>
+        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1400&q=80" alt="迪拜餐厅美食摄影专业布光" style={{ width: "100%", height: "360px", objectFit: "cover", borderRadius: "4px", marginBottom: "3rem" }} />
         <p style={{ fontSize: "1.05rem", marginBottom: "1.5rem" }}>迪拜是全球餐饮竞争最激烈的城市之一。仅Talabat平台就有数千家餐厅，顾客的选择就在0.5秒内完成。外卖平台数据显示：拥有专业菜品照片的餐厅，订单量比无图或低质图片的同类餐厅高出25-40%。</p>
         <p style={{ marginBottom: "2.5rem" }}>Backyard Studio为迪拜200+餐厅、咖啡厅和食品品牌提供美食摄影服务，涵盖从快餐连锁到米其林级别的高端餐厅。我们理解不同风格的美食呈现逻辑——暗调高端感、清爽极简风、生活化场景感——并根据您的品牌定位量身打造视觉语言。</p>
 

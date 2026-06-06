@@ -51,9 +51,22 @@ export default function SocialMediaZhPage() {
     ],
   };
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "迪拜社交媒体短视频制作2026：Reels与TikTok拍摄指南",
+    author: { "@type": "Person", name: "Syed Mazhar Zaidi", jobTitle: "Director — Backyard Studio Official" },
+    publisher: { "@type": "Organization", name: "Backyard Studio Official", url: "https://www.backyardstudioofficial.com" },
+    datePublished: "2026-06-06",
+    dateModified: "2026-06-06",
+    inLanguage: "zh",
+    url: "https://www.backyardstudioofficial.com/zh/blog/shejiao-meiti-neirong-dubai-2026",
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       <article style={{ fontFamily: "'Noto Sans SC', 'Inter', sans-serif", maxWidth: "860px", margin: "0 auto", padding: "4rem 2rem", color: "var(--cream)", lineHeight: "1.9" }}>
         <nav style={{ fontSize: "0.8rem", color: "rgba(245,240,225,0.45)", marginBottom: "2rem" }}>
@@ -66,9 +79,7 @@ export default function SocialMediaZhPage() {
         <div style={{ display: "flex", gap: "1.5rem", fontSize: "0.85rem", color: "rgba(245,240,225,0.5)", marginBottom: "3rem", flexWrap: "wrap" }}>
           <span>Syed Mazhar Zaidi</span><span>2026年6月</span><span>7分钟阅读</span>
         </div>
-        <div style={{ width: "100%", height: "360px", background: "linear-gradient(135deg, rgba(212,175,55,0.08) 0%, rgba(10,10,10,0.9) 100%)", borderRadius: "4px", marginBottom: "3rem", display: "flex", alignItems: "center", justifyContent: "center", border: "1px solid rgba(212,175,55,0.12)" }}>
-          <span style={{ color: "rgba(212,175,55,0.4)", fontSize: "4rem" }}>📱</span>
-        </div>
+        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1400&q=80" alt="迪拜品牌短视频拍摄制作现场" style={{ width: "100%", height: "360px", objectFit: "cover", borderRadius: "4px", marginBottom: "3rem" }} />
         <p style={{ fontSize: "1.05rem", marginBottom: "1.5rem" }}>迪拜是全球最上镜的城市之一。哈利法塔、棕榈岛、金色沙漠——这些场景是品牌内容天然的视觉背书。问题不在于迪拜美不美，而在于你的内容是否能在用户滑动屏幕的1.5秒内留住眼球。</p>
         <p style={{ marginBottom: "2.5rem" }}>Backyard Studio为迪拜的品牌、餐厅、博主和企业制作Instagram Reels、TikTok、YouTube Shorts和小红书内容。我们把每一条短视频都当作微型叙事——开头有钩子，中段有价值，结尾有行动召唤。</p>
 

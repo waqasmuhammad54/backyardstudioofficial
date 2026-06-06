@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Фудфотография в Дубае 2026 — для ресторанов и брендов",
   description:
-    "Профессиональная съёмка еды в Дубае от AED 1 500. Меню, соцсети, Talabat/Deliveroo, рекламные кампании. Backyard Studio — фудфотограф с доставкой за 48 часов.",
+    "Съёмка еды в Дубае от AED 1 500. Меню для ресторанов, Talabat/Deliveroo, Instagram, рекламные кампании. Доставка за 48 часов. Реквизит включён.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru/blog/fotografiya-edy-dubai-2026",
     languages: {
@@ -94,9 +94,7 @@ export default function FoodPhotoRuPage() {
           <span>Fahad Iqbal Butt</span><span>Июнь 2026</span><span>7 мин. чтения</span>
         </div>
 
-        <div style={{ width: "100%", height: "380px", background: "linear-gradient(135deg, rgba(212,175,55,0.08) 0%, rgba(10,10,10,0.9) 100%)", borderRadius: "4px", marginBottom: "3rem", display: "flex", alignItems: "center", justifyContent: "center", border: "1px solid rgba(212,175,55,0.12)" }}>
-          <span style={{ color: "rgba(212,175,55,0.4)", fontSize: "4rem" }}>🍽️</span>
-        </div>
+        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1400&q=80" alt="Фудфотография для ресторанов в Дубае" style={{ width: "100%", height: "380px", objectFit: "cover", borderRadius: "4px", marginBottom: "3rem" }} />
 
         <p style={{ fontSize: "1.1rem", marginBottom: "1.5rem" }}>
           Дубай — город, где ресторанный рынок один из самых конкурентных в мире. Только на Talabat представлены тысячи заведений. Разница между рестораном, который стоит в очереди, и тем, который пустует, часто начинается с одного: как выглядит еда на фотографии.

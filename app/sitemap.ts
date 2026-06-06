@@ -83,6 +83,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/ar/blog/taswiremolak-dubai-2026",            lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/taswirafidiyat-dubai-2026",          lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/asear-video-sharkati-dubai-2026",    lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-zifaf-emirati-dubai-2026",    lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-zifaf-arabi-dubai-2026",      lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-taaam-dubai-2026",            lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-muatamart-dubai-2026",        lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/tasjil-video-faaliyat-dubai-2026",   lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/intaj-klip-musiqi-dubai-2026",       lastModified: now, changeFrequency: "monthly", priority: 0.75 },
   ];
 
   // Russian pages (/ru/)
@@ -98,7 +104,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/ru/blog/korporativnoe-video-dubai-2026",     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ru/blog/semka-nedvizhimosti-dubai-2026",     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ru/blog/svadebnyi-fotograf-abu-dhabi-2026",  lastModified: now, changeFrequency: "monthly", priority: 0.75 },
-    { url: BASE + "/ru/blog/fotografiya-nedvizhimosti-dubai-2026", lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/fotografiya-nedvizhimosti-dubai-2026",  lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/rily-socsietey-dubai-2026",            lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/fotosyomka-feropriiatiy-dubai-2026",   lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/fotografiya-edy-dubai-2026",           lastModified: now, changeFrequency: "monthly", priority: 0.75 },
   ];
 
   // Chinese pages (/zh/)
@@ -120,6 +129,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/zh/blog/dubai-qiye-shipin-2026",                     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/zh/blog/fangchan-paizhao-dubai-2026",                lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/zh/blog/yewu-shipin-dubai-2026",                     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/zh/blog/shejiao-meiti-neirong-dubai-2026",           lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/zh/blog/qiye-shipin-dubai-2026",                     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/zh/blog/huodong-paizhao-dubai-2026",                 lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/zh/blog/meishi-paizhao-dubai-2026",                  lastModified: now, changeFrequency: "monthly", priority: 0.75 },
   ];
 
   return [...core, ...services, ...locations, ...industries, ...blogPosts, ...arCore, ...ruCore, ...zhCore];

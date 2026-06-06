@@ -51,9 +51,22 @@ export default function CorporateVideoZhPage() {
     ],
   };
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: "迪拜企业视频制作2026：品牌影片、宣传片与客户证言",
+    author: { "@type": "Person", name: "Syed Mazhar Zaidi", jobTitle: "Director — Backyard Studio Official" },
+    publisher: { "@type": "Organization", name: "Backyard Studio Official", url: "https://www.backyardstudioofficial.com" },
+    datePublished: "2026-06-06",
+    dateModified: "2026-06-06",
+    inLanguage: "zh",
+    url: "https://www.backyardstudioofficial.com/zh/blog/qiye-shipin-dubai-2026",
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       <article style={{ fontFamily: "'Noto Sans SC', 'Inter', sans-serif", maxWidth: "860px", margin: "0 auto", padding: "4rem 2rem", color: "var(--cream)", lineHeight: "1.9" }}>
         <nav style={{ fontSize: "0.8rem", color: "rgba(245,240,225,0.45)", marginBottom: "2rem" }}>
@@ -66,9 +79,7 @@ export default function CorporateVideoZhPage() {
         <div style={{ display: "flex", gap: "1.5rem", fontSize: "0.85rem", color: "rgba(245,240,225,0.5)", marginBottom: "3rem", flexWrap: "wrap" }}>
           <span>Syed Mazhar Zaidi</span><span>2026年6月</span><span>8分钟阅读</span>
         </div>
-        <div style={{ width: "100%", height: "360px", background: "linear-gradient(135deg, rgba(212,175,55,0.08) 0%, rgba(10,10,10,0.9) 100%)", borderRadius: "4px", marginBottom: "3rem", display: "flex", alignItems: "center", justifyContent: "center", border: "1px solid rgba(212,175,55,0.12)" }}>
-          <span style={{ color: "rgba(212,175,55,0.4)", fontSize: "4rem" }}>🎬</span>
-        </div>
+        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1400&q=80" alt="迪拜企业视频拍摄制作现场" style={{ width: "100%", height: "360px", objectFit: "cover", borderRadius: "4px", marginBottom: "3rem" }} />
         <p style={{ fontSize: "1.05rem", marginBottom: "1.5rem" }}>研究显示，企业官网首页放置品牌影片后，平均停留时间延长88%，转化率提升80%。在迪拜这个国际化商业中心，一支高质量企业视频不仅是品牌资产，更是赢得客户信任的第一步。</p>
         <p style={{ marginBottom: "2.5rem" }}>Backyard Studio已为迪拜100+企业提供视频制作服务，涵盖科技公司、房地产开发商、零售品牌、医疗机构和教育机构。导演Syed Mazhar Zaidi带领全职团队，从脚本到精修全程负责，确保每个项目准时交付。</p>
 
