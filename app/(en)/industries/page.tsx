@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import { faqSchema, itemListSchema, breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "Industry Production Services Dubai | Backyard Studio",
+  title: "Industry Video & Photography Production Dubai | All Sectors UAE | Backyard Studio Official",
   description:
-    "Industry video & photography for hospitality, real estate, fashion, F&B, automotive & corporate brands across Dubai and UAE. 2,400+ projects. GCAA licensed. Free quote.",
+    "Specialist video & photography for hospitality, real estate, fashion, F&B, automotive, corporate, sports, healthcare, tech & education sectors across Dubai and all 7 UAE emirates. 2,400+ projects. GCAA licensed. Free quote in 2 hours.",
   keywords: [
     "sports video production Dubai",
     "automotive video production UAE",
@@ -23,6 +24,49 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.backyardstudioofficial.com/industries" },
 };
+
+const INDUSTRIES_FAQS = [
+  {
+    question: "Which industries does Backyard Studio serve in Dubai and UAE?",
+    answer: "Backyard Studio Official produces content for 13 industries across the UAE: hospitality, real estate, fashion, food & beverage, corporate, sports, automotive, healthcare, technology, music & entertainment, fitness & wellness, e-commerce & retail, and education. We cover all 7 UAE emirates with a dedicated team and GCAA-licensed drone operators.",
+  },
+  {
+    question: "Does Backyard Studio do video production for hospitality brands in Dubai?",
+    answer: "Yes. Backyard Studio Official is one of Dubai's leading hospitality production studios. We produce hotel photography, resort campaigns, F&B shoots, room tours, restaurant photography, and social media content for 5-star properties including Atlantis, Jumeirah Group, Four Seasons, Marriott, and Hilton across the UAE. Same-day social highlight delivery available.",
+  },
+  {
+    question: "Which production company in UAE handles sports video production?",
+    answer: "Backyard Studio Official covers UAE sports events including Formula 1 at Yas Marina, the Dubai Duty Free Tennis Championships, Dubai Rugby Sevens, Meydan Horse Racing, UAE Pro League football, ICC Cricket, and major padel and jiu-jitsu championships. We provide multi-camera live coverage, GCAA drone aerials, athlete branding, and same-day social media cuts.",
+  },
+  {
+    question: "Can Backyard Studio produce content for real estate developers in UAE?",
+    answer: "Yes. Backyard Studio Official is a specialist real estate production company in Dubai. We handle property photography, walkthrough videos, off-plan launch films, developer brand campaigns, aerial drone (GCAA licensed), and social media content for major UAE developers including Emaar, DAMAC, Aldar, and Sobha. Our real estate packages start from AED 1,500.",
+  },
+  {
+    question: "Does Backyard Studio produce healthcare and medical content in Dubai?",
+    answer: "Yes. Backyard Studio Official produces healthcare content for hospitals, clinics, specialist centres, and pharmaceutical brands across the UAE. Services include doctor profile videos, patient testimonial films, hospital photography, medical tourism campaigns, and health app explainer videos. We work with providers in Dubai Healthcare City, Abu Dhabi, and across all UAE emirates.",
+  },
+  {
+    question: "What technology and startup content does Backyard Studio produce in Dubai?",
+    answer: "Backyard Studio Official is the production partner for Dubai's tech ecosystem — covering GITEX Global, Dubai Future Forum, startup pitch events, and product launches. Services include product demo videos, app launch campaigns, founder interview series, SaaS explainer animations, and LinkedIn video content for startups, scaleups, and enterprise tech brands.",
+  },
+];
+
+const INDUSTRIES_ITEM_LIST = [
+  { name: "Hospitality Video & Photography Dubai", url: "https://www.backyardstudioofficial.com/industries/hospitality", description: "Hotel photography, resort videos, F&B shoots for UAE's top 5-star properties." },
+  { name: "Real Estate Video & Photography Dubai", url: "https://www.backyardstudioofficial.com/industries/real-estate", description: "Property photography, walkthroughs, developer films and drone for UAE listings." },
+  { name: "Fashion Photography & Video Dubai", url: "https://www.backyardstudioofficial.com/industries/fashion", description: "Editorial shoots, lookbooks and campaign films for UAE fashion brands." },
+  { name: "Food & Beverage Photography Dubai", url: "https://www.backyardstudioofficial.com/industries/food-beverage", description: "Menu photography, restaurant shoots and F&B brand films across UAE." },
+  { name: "Corporate Video Production Dubai", url: "https://www.backyardstudioofficial.com/industries/corporate", description: "Company films, headshots, office photography and testimonials for UAE businesses." },
+  { name: "Sports Video Production Dubai", url: "https://www.backyardstudioofficial.com/industries/sports", description: "Event coverage, athlete branding and highlight reels for UAE sporting events." },
+  { name: "Automotive Video Production Dubai", url: "https://www.backyardstudioofficial.com/industries/automotive", description: "Car launch films, dealership campaigns and dynamic on-road shoots in UAE." },
+  { name: "Healthcare Video Production Dubai", url: "https://www.backyardstudioofficial.com/industries/healthcare", description: "Hospital photography, doctor profiles and patient testimonials in UAE." },
+  { name: "Technology Video Production Dubai", url: "https://www.backyardstudioofficial.com/industries/technology", description: "Product demos, startup brand films and tech event coverage in Dubai." },
+  { name: "Music & Entertainment Production Dubai", url: "https://www.backyardstudioofficial.com/industries/music-entertainment", description: "Music videos, artist branding and concert coverage in UAE." },
+  { name: "Fitness & Wellness Video Dubai", url: "https://www.backyardstudioofficial.com/industries/fitness-wellness", description: "Gym branding, trainer content and supplement campaigns in Dubai." },
+  { name: "E-Commerce Photography Dubai", url: "https://www.backyardstudioofficial.com/industries/ecommerce-retail", description: "Product photography, Amazon UAE shoots and social commerce content." },
+  { name: "Education Video Production Dubai", url: "https://www.backyardstudioofficial.com/industries/education", description: "Campus photography, student testimonials and e-learning video in UAE." },
+];
 
 const INDUSTRIES = [
   // ── ORIGINAL 5 ─────────────────────────────────────────────────────────────
@@ -352,123 +396,15 @@ const INDUSTRIES = [
 export default function IndustriesPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(INDUSTRIES_FAQS)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema(INDUSTRIES_ITEM_LIST)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([
+        { name: "Home", url: "https://www.backyardstudioofficial.com" },
+        { name: "Industries", url: "https://www.backyardstudioofficial.com/industries" },
+      ])) }} />
+
       {/* HERO */}
       <section className="section-pad pt-40" style={{ background: "var(--black)" }}>
         <div className="container-xl text-center max-w-4xl mx-auto">
           <p className="eyebrow mb-6">Industry Expertise</p>
-          <h1 className="font-display text-6xl sm:text-8xl leading-none mb-8" style={{ color: "var(--cream)" }}>
-            WE SPEAK<br />YOUR INDUSTRY
-          </h1>
-          <p className="text-xl max-w-2xl mx-auto" style={{ color: "var(--silver)" }}>
-            Generic production doesn't cut it. Every industry has different visual language, buyer psychology,
-            and platform requirements. We've mastered the content that works for yours.
-          </p>
-          <p className="text-sm mt-4" style={{ color: "var(--muted)" }}>13 industries · 2,400+ projects · All 7 UAE emirates</p>
-        </div>
-      </section>
-
-      {/* INDUSTRIES GRID */}
-      <section className="section-pad border-t" style={{ background: "var(--black)", borderColor: "var(--border)" }}>
-        <div className="container-xl">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {INDUSTRIES.map((ind) => (
-              <Link
-                key={ind.slug}
-                href={`/industries/${ind.slug}`}
-                className="group block border overflow-hidden transition-all duration-300 hover:border-[var(--gold)]"
-                style={{ borderColor: "var(--border)" }}
-              >
-                <div className="relative h-56 overflow-hidden">
-                  <img
-                    src={ind.image}
-                    alt={ind.label}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(5,5,5,0.85), transparent)" }} />
-                  <div className="absolute bottom-0 left-0 p-5">
-                    <p className="font-display text-2xl" style={{ color: "var(--cream)" }}>{ind.label.toUpperCase()}</p>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <p className="text-sm leading-relaxed mb-4" style={{ color: "var(--muted)" }}>{ind.desc}</p>
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {ind.tags.map((t) => (
-                      <span
-                        key={t}
-                        className="text-[10px] tracking-widest uppercase px-2 py-1 border"
-                        style={{ borderColor: "var(--border)", color: "var(--silver)" }}
-                      >
-                        {t}
-                      </span>
-                    ))}
-                  </div>
-                  <div className="flex items-center gap-2 text-xs tracking-widest uppercase" style={{ color: "var(--gold)" }}>
-                    <span>Explore</span>
-                    <ArrowUpRight size={12} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* SPORTS CALLOUT — featured since it's the biggest new addition */}
-      <section className="py-16 border-t" style={{ background: "var(--ink)", borderColor: "var(--border)" }}>
-        <div className="container-xl">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <p className="eyebrow mb-4">New — Sports Production</p>
-              <h2 className="font-display text-5xl mb-6" style={{ color: "var(--cream)" }}>
-                UAE SPORTS.<br />COVERED.
-              </h2>
-              <p className="mb-6" style={{ color: "var(--silver)" }}>
-                From Formula 1 at Yas Marina to the Dubai Rugby Sevens, the Dubai Duty Free Tennis Championships
-                to UAE Pro League football — we cover every major sport in the Emirates with broadcast-quality
-                multi-camera rigs, GCAA-licensed drone aerials, and same-day social delivery.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-8">
-                {["Formula 1", "Tennis", "Football", "Cricket", "Horse Racing", "Golf", "Rugby Sevens", "MMA & Boxing", "Padel", "Jiu-Jitsu"].map((s) => (
-                  <span key={s} className="text-[10px] tracking-widest uppercase px-3 py-1 border"
-                    style={{ borderColor: "var(--gold)", color: "var(--gold)" }}>{s}</span>
-                ))}
-              </div>
-              <Link href="/industries/sports" className="btn-gold inline-flex items-center gap-2">
-                <span>See Sports Services</span>
-                <ArrowUpRight size={14} />
-              </Link>
-            </div>
-            <div className="grid grid-cols-2 gap-3">
-              <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400&q=80"
-                alt="Sports event coverage Dubai" className="w-full h-40 object-cover" />
-              <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80"
-                alt="Athlete photography UAE" className="w-full h-40 object-cover" />
-              <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&q=80"
-                alt="Sports drone filming Dubai" className="w-full h-40 object-cover" />
-              <img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=400&q=80"
-                alt="Sports social media content UAE" className="w-full h-40 object-cover" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="py-24 text-center border-t" style={{ background: "var(--black)", borderColor: "var(--border)" }}>
-        <p className="eyebrow mb-6">Not Sure Where to Start?</p>
-        <h2 className="font-display text-5xl mb-8" style={{ color: "var(--cream)" }}>TALK TO OUR TEAM</h2>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link href="/contact" className="btn-gold inline-flex items-center gap-2">
-            <span>Get a Free Quote</span>
-            <ArrowUpRight size={14} />
-          </Link>
-          <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer"
-            className="btn-gold inline-flex items-center gap-2"
-            style={{ background: "transparent", border: "1px solid var(--gold)", color: "var(--gold)" }}>
-            <span>WhatsApp Us</span>
-            <ArrowUpRight size={14} />
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+          <h1 className="font-display text-6xl sm:text-8xl leading-none mb-8" style={{ c
