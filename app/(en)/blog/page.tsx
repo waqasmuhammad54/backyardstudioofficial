@@ -3,11 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { Clock, ArrowRight } from "lucide-react";
 import { BLOG_POSTS } from "@/lib/blogPosts";
+import { breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "Blog | Production Tips & UAE Industry Insights",
+  title: "Production Blog Dubai — Video, Wedding & Photography Guides UAE 2026 | Backyard Studio Official",
   description:
-    "Production tips, wedding guides, DVC costs & filming locations for UAE brands. Expert insights from Backyard Studio — Dubai's #1 production studio.",
+    "Expert production guides for UAE brands — DVC costs, wedding photography tips, drone regulations, filming locations, Instagram Reels strategy & more. 39 articles from Dubai's #1 production studio.",
   keywords: [
     "video production blog Dubai",
     "production company blog UAE",
@@ -20,9 +21,19 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.backyardstudioofficial.com/blog" },
   openGraph: {
-    title: "Blog | Video Production Tips & UAE Industry Insights",
-    description: "Expert insights on video production, wedding photography, social media content from Dubai's leading production studio.",
+    title: "Production Blog Dubai — Video & Photography Guides UAE 2026",
+    description: "Expert production guides from Dubai's #1 studio — DVC costs, wedding tips, drone regulations, filming locations & social media strategy.",
     type: "website",
+    url: "https://www.backyardstudioofficial.com/blog",
+    siteName: "Backyard Studio Official",
+    locale: "en_AE",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Backyard Studio Blog — Dubai Production Tips" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Production Blog Dubai | Backyard Studio Official",
+    description: "Expert guides on DVC costs, weddings, drone rules & social media content from Dubai's #1 production studio.",
+    images: ["/og-image.jpg"],
   },
 };
 
@@ -37,6 +48,10 @@ export default function BlogPage() {
 
   return (
     <div className="pt-24">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([
+        { name: "Home", url: "https://www.backyardstudioofficial.com" },
+        { name: "Blog", url: "https://www.backyardstudioofficial.com/blog" },
+      ])) }} />
       <div className="bg-[#111111] py-16 text-center border-b border-[#2a2a2a]">
         <p className="text-[#e8c547] text-xs tracking-[0.4em] uppercase font-semibold mb-3">STUDIO JOURNAL</p>
         <h1 className="font-display text-6xl md:text-7xl text-white">BLOG</h1>
@@ -114,27 +129,4 @@ export default function BlogPage() {
                   <h3 className="text-white font-semibold text-sm leading-snug mb-2 group-hover:text-[#e8c547] transition-colors line-clamp-2">
                     {post.title}
                   </h3>
-                  <p className="text-[#666] text-xs leading-relaxed line-clamp-2">{post.excerpt}</p>
-                </div>
-              </Link>
-            ))}
-          </div>
-
-          <div className="mt-16 p-8 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm text-center">
-            <p className="text-[#e8c547] text-xs tracking-[0.4em] uppercase font-semibold mb-3">READY TO PRODUCE?</p>
-            <h2 className="font-display text-3xl md:text-4xl text-white mb-3">Start Your Project Today</h2>
-            <p className="text-[#a0a0a0] text-sm mb-6 max-w-md mx-auto">
-              Get a custom production plan delivered within 2 hours.
-            </p>
-            <div className="flex gap-4 justify-center flex-wrap">
-              <Link href="/contact" className="btn-gold">Get a Free Quote</Link>
-              <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer" className="btn-outline">
-                WhatsApp Us
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-}
+                  <p className="text-[#666] text-xs leading-relaxed line-cla

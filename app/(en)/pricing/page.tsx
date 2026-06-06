@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Check, ArrowRight, Phone } from "lucide-react";
-import { faqSchema } from "@/lib/structuredData";
+import { faqSchema, breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "Production Pricing Dubai UAE | Backyard Studio",
+  title: "Video & Photography Pricing Dubai 2026 — Production Costs & Packages UAE | Backyard Studio Official",
   description:
-    "Transparent pricing for Dubai production. Wedding photos from AED 3,500, DVCs from AED 15,000, social shoots from AED 2,500, drone from AED 2,000. Free quote.",
+    "Transparent 2026 production pricing for Dubai & UAE. Wedding photography from AED 3,500, DVCs from AED 8,000, Instagram Reels from AED 2,500, drone from AED 2,500, corporate films from AED 15,000. GCAA licensed. Free quote in 2 hours.",
   keywords: [
     "video production cost Dubai",
     "photography pricing Dubai UAE",
@@ -25,6 +25,21 @@ export const metadata: Metadata = {
     "real estate photography price Dubai",
   ],
   alternates: { canonical: "https://www.backyardstudioofficial.com/pricing" },
+  openGraph: {
+    title: "Video & Photography Pricing Dubai 2026 | Backyard Studio Official",
+    description: "Transparent 2026 production pricing for Dubai. Wedding from AED 3,500, DVCs from AED 8,000, Reels from AED 2,500. Free quote in 2 hours.",
+    url: "https://www.backyardstudioofficial.com/pricing",
+    siteName: "Backyard Studio Official",
+    locale: "en_AE",
+    type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Production Pricing Dubai — Backyard Studio Official" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Production Pricing Dubai UAE 2026 | Backyard Studio Official",
+    description: "Transparent pricing: weddings from AED 3,500, DVCs from AED 8,000, drone from AED 2,500. Free quote.",
+    images: ["/og-image.jpg"],
+  },
 };
 
 const PACKAGES = [
@@ -344,6 +359,10 @@ const PRICE_FAQS = [
 export default function PricingPage() {
   return (
     <div className="pt-24">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([
+        { name: "Home", url: "https://www.backyardstudioofficial.com" },
+        { name: "Pricing", url: "https://www.backyardstudioofficial.com/pricing" },
+      ])) }} />
       {/* Header */}
       <div className="bg-[#111111] py-16 text-center border-b border-[#2a2a2a]">
         <p className="text-[#e8c547] text-xs tracking-[0.4em] uppercase font-semibold mb-3">TRANSPARENT PRICING</p>
@@ -459,29 +478,4 @@ export default function PricingPage() {
           <div className="space-y-4">
             {PRICE_FAQS.map((faq, i) => (
               <div key={i} className="p-6 bg-[#111111] border border-[#2a2a2a]">
-                <p className="text-white font-semibold text-sm mb-2">{faq.question}</p>
-                <p className="text-[#a0a0a0] text-sm leading-relaxed">{faq.answer}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section className="py-20 bg-[#111111] text-center border-t border-[#2a2a2a]">
-        <p className="eyebrow mb-4">READY TO START?</p>
-        <h2 className="font-display text-5xl text-white mb-4">GET YOUR QUOTE IN 2 HOURS</h2>
-        <p className="text-[#a0a0a0] text-sm mb-8 max-w-md mx-auto">
-          Tell us your project, dates, and budget range. We respond to every brief within 2 hours — 7 days a week.
-        </p>
-        <div className="flex flex-wrap gap-4 justify-center">
-          <a href="https://wa.me/971585882685?text=Hi%20Backyard%20Studio%2C%20I%27d%20like%20a%20quote%20for%20a%20production%20project" target="_blank" rel="noreferrer" className="btn-gold">
-            <Phone size={14} /> WhatsApp Us Now
-          </a>
-          <Link href="/contact" className="btn-outline">Use the Contact Form</Link>
-        </div>
-        <p className="text-[#444] text-xs mt-6">All prices in AED. VAT applicable where required. Prices correct as of 2026.</p>
-      </section>
-    </div>
-  );
-}
+                <p className="text-white font-semibold t

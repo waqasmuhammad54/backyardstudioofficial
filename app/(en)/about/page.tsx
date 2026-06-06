@@ -5,10 +5,25 @@ import { ArrowUpRight, Play } from "lucide-react";
 import { personSchema, breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "About Backyard Studio | Dubai Production Studio",
+  title: "About Backyard Studio Official — Fahad Iqbal Butt & Syed Mazhar Zaidi | Dubai Production Studio",
   description:
-    "Meet the founders of Dubai's best production studio — Fahad Iqbal Butt & Syed Mazhar Zaidi. 2,400+ projects, all 7 UAE emirates, GCAA licensed since 2019.",
+    "Meet the founders of Dubai's best production studio — Fahad Iqbal Butt (Creative Director) & Syed Mazhar Zaidi (Director of Photography). 2,400+ projects delivered across all 7 UAE emirates. GCAA licensed. Founded 2019.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/about" },
+  openGraph: {
+    title: "About Backyard Studio Official — Fahad Iqbal Butt & Syed Mazhar Zaidi",
+    description: "Meet the founders of Dubai's best production studio. 2,400+ projects, GCAA licensed, all 7 UAE emirates.",
+    url: "https://www.backyardstudioofficial.com/about",
+    siteName: "Backyard Studio Official",
+    locale: "en_AE",
+    type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Backyard Studio Official Team — Dubai Production Studio" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Backyard Studio Official | Dubai's Best Production Studio",
+    description: "Meet Fahad Iqbal Butt & Syed Mazhar Zaidi — founders of Dubai's top production studio. 2,400+ projects.",
+    images: ["/og-image.jpg"],
+  },
 };
 
 const TEAM = [
@@ -305,21 +320,3 @@ export default function AboutPage() {
       </section>
 
       {/* CTA */}
-      <section className="py-24 text-center" style={{ background: "var(--black-2)" }}>
-        <p className="eyebrow mb-4">Let's Create Together</p>
-        <h2 className="font-display text-[clamp(2.5rem,6vw,5.5rem)] leading-none text-cream mb-8">
-          START YOUR<br /><span style={{ color: "var(--gold)" }}>PROJECT</span>
-        </h2>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link href="/contact" className="btn-gold inline-flex items-center gap-2">
-            Get a Free Quote <ArrowUpRight size={14} />
-          </Link>
-          <a href="https://wa.me/971585882685?text=Hi%20Fahad%2C%20I%27d%20like%20to%20discuss%20a%20project%20with%20Backyard%20Studio"
-            target="_blank" rel="noreferrer" className="btn-outline inline-flex items-center gap-2">
-            WhatsApp Fahad
-          </a>
-        </div>
-      </section>
-    </div>
-  );
-}

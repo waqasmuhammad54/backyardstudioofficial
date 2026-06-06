@@ -1,11 +1,27 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Star, Quote } from "lucide-react";
+import { breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "Reviews & Testimonials | Backyard Studio Dubai",
-  description: "100+ five-star reviews from UAE brands on event shoots, DVCs, Reels and video production. See what clients say about Backyard Studio Official.",
+  title: "Client Reviews & Testimonials — Dubai Production Studio | Backyard Studio Official",
+  description: "100+ five-star reviews from UAE brands — Emaar, Noon, GITEX, luxury hotels & more. See what clients say about Backyard Studio Official's event shoots, DVCs, Reels and production services.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/testimonials" },
+  openGraph: {
+    title: "Client Reviews & Testimonials | Backyard Studio Official Dubai",
+    description: "100+ five-star reviews from UAE brands including Emaar, Noon, and luxury hotels. Dubai's most trusted production studio.",
+    url: "https://www.backyardstudioofficial.com/testimonials",
+    siteName: "Backyard Studio Official",
+    locale: "en_AE",
+    type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Client Reviews — Backyard Studio Official Dubai" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Client Reviews | Backyard Studio Official Dubai",
+    description: "100+ five-star reviews from UAE brands. Dubai's most trusted production studio.",
+    images: ["/og-image.jpg"],
+  },
 };
 
 const TESTIMONIALS = [
@@ -23,6 +39,10 @@ const TESTIMONIALS = [
 export default function TestimonialsPage() {
   return (
     <div className="pt-24">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([
+        { name: "Home", url: "https://www.backyardstudioofficial.com" },
+        { name: "Testimonials", url: "https://www.backyardstudioofficial.com/testimonials" },
+      ])) }} />
       <div className="bg-[#111111] py-16 text-center border-b border-[#2a2a2a]">
         <p className="text-[#e8c547] text-xs tracking-[0.4em] uppercase font-semibold mb-3">CLIENT REVIEWS</p>
         <h1 className="font-display text-6xl md:text-7xl text-white">TESTIMONIALS</h1>
@@ -35,28 +55,4 @@ export default function TestimonialsPage() {
       <section className="section-pad bg-[#0a0a0a]">
         <div className="container-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {TESTIMONIALS.map((t) => (
-            <div key={t.name} className="p-6 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm card-glow flex flex-col">
-              <Quote size={24} className="text-[#e8c547]/30 mb-4" />
-              <div className="flex gap-1 mb-4">
-                {Array.from({ length: t.rating }).map((_, i) => <Star key={i} size={14} fill="#e8c547" color="#e8c547" />)}
-              </div>
-              <blockquote className="text-[#d0d0d0] text-sm leading-relaxed flex-1 italic mb-5">
-                &ldquo;{t.quote}&rdquo;
-              </blockquote>
-              <div className="border-t border-[#2a2a2a] pt-4">
-                <p className="text-white font-semibold text-sm">{t.name}</p>
-                <p className="text-[#a0a0a0] text-xs">{t.role} — {t.company}</p>
-                <span className="mt-2 inline-block text-[10px] text-[#e8c547] border border-[#e8c547]/30 px-2 py-0.5 rounded-sm uppercase tracking-wide">{t.service}</span>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <div className="text-center mt-16">
-          <p className="text-[#a0a0a0] mb-6">Ready to join 500+ happy UAE clients?</p>
-          <Link href="/contact" className="btn-gold">Start a Project →</Link>
-        </div>
-      </section>
-    </div>
-  );
-}
+            <div key={t.name} className="p-6 bg-[#1a1a1a] border border-[#2a2a2a] r
