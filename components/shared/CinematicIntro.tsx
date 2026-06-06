@@ -60,6 +60,7 @@ export default function CinematicIntro() {
             muted
             playsInline
             onEnded={finish}
+            onError={finish}
             style={{
               width: "100%",
               height: "100%",

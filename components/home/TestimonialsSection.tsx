@@ -86,10 +86,13 @@ export default function TestimonialsSection() {
               <ArrowLeft size={16} />
             </button>
 
-            <div className="flex gap-2">
+            <div className="flex gap-1">
               {T.map((_, i) => (
                 <button key={i} onClick={() => setCur(i)}
-                  className={`rounded-full transition-all duration-500 ${i === cur ? "w-8 h-1.5 bg-gold shadow-[0_0_8px_rgba(212,160,23,0.6)]" : "w-1.5 h-1.5 bg-white/15"}`} />
+                  aria-label={`Go to review ${i + 1}`}
+                  className={`rounded-full transition-all duration-500 p-3 flex items-center justify-center`}>
+                  <span className={`block rounded-full transition-all duration-500 ${i === cur ? "w-8 h-1.5 bg-gold shadow-[0_0_8px_rgba(212,160,23,0.6)]" : "w-1.5 h-1.5 bg-white/15"}`} />
+                </button>
               ))}
             </div>
 

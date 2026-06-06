@@ -242,6 +242,7 @@ export default function ContactSection() {
                   <div className="border-b" style={{ borderColor: "var(--border)" }}>
                     <select
                       name="service" value={form.service} onChange={handleChange}
+                      aria-label="Select service type"
                       className={inputBase + " appearance-none cursor-pointer"}
                       style={{ borderColor: "var(--border)", color: form.service ? "var(--cream)" : "#444" }}
                     >
@@ -252,6 +253,7 @@ export default function ContactSection() {
                   <div className="border-b" style={{ borderColor: "var(--border)" }}>
                     <select
                       name="budget" value={form.budget} onChange={handleChange}
+                      aria-label="Select budget range"
                       className={inputBase + " appearance-none cursor-pointer"}
                       style={{ borderColor: "var(--border)", color: form.budget ? "var(--cream)" : "#444" }}
                     >
