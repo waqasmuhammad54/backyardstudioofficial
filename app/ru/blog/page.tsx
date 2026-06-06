@@ -15,6 +15,9 @@ const POSTS = [
   { title: "Стоимость видеопроизводства в ОАЭ 2026", desc: "Прозрачный гид по ценам — от контента для соцсетей до крупных рекламных кампаний.", href: "/blog/how-much-does-video-production-cost-dubai-2026", date: "Март 2026" },
   { title: "Автомобильная фотосъёмка в Дубае 2026", desc: "Как студия снимает автомобили с дронами на лучших локациях Дубая.", href: "/blog/automotive-photography-dubai-2026", date: "Май 2026" },
   { title: "Фотосъёмка для отелей в Дубае", desc: "Руководство по профессиональной гостиничной фотографии в Дубае — от номеров до видовых локаций.", href: "/blog/hotel-photography-dubai-2026", date: "Май 2026" },
+  { title: "Рилсы и контент для соцсетей в Дубае 2026", desc: "Съёмка Reels и TikTok — монтаж, субтитры, форматирование для Instagram, TikTok и YouTube Shorts. Для брендов и блогеров. От AED 1 800.", href: "/ru/blog/rily-socsietey-dubai-2026", date: "Июнь 2026", featured: true },
+  { title: "Фотосъёмка мероприятий в Дубае 2026", desc: "Корпоративы, конференции, выставки, запуски продуктов — от AED 2 500. Хайлайт-пакет в тот же день. DWTC, Madinat, Atlantis.", href: "/ru/blog/fotosyomka-feropriiatiy-dubai-2026", date: "Июнь 2026", featured: true },
+  { title: "Фудфотография в Дубае 2026 — для ресторанов и брендов", desc: "Съёмка еды — меню, Talabat, Instagram, рекламные кампании. Доставка за 48 часов. От AED 1 500.", href: "/ru/blog/fotografiya-edy-dubai-2026", date: "Июнь 2026", featured: true },
 ];
 
 export default function RuBlogPage() {

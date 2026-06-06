@@ -30,10 +30,38 @@ const BLOG_POSTS_ZH = [
   },
   {
     slug: "shejiao-meiti-neirong-dubai-2026",
-    title: "迪拜品牌社交媒体内容策略：Instagram与TikTok实战指南",
-    excerpt: "针对迪拜市场的社交媒体内容策略，包括最佳发布时间、内容形式选择及本地化技巧，助您账号快速增长。",
-    date: "2026年2月",
-    readTime: "9分钟",
+    title: "迪拜社交媒体短视频制作2026：Reels与TikTok拍摄指南",
+    excerpt: "Instagram Reels、TikTok、小红书内容一站式制作——迪拜场景拍摄、专业剪辑、双语字幕。AED 1,800起，支持华人博主与品牌。",
+    date: "2026年6月",
+    readTime: "7分钟",
+  },
+  {
+    slug: "fangchan-paizhao-dubai-2026",
+    title: "迪拜房产摄影2026：价格、套餐与拍摄攻略",
+    excerpt: "从Marina公寓到Palm Jumeirah豪宅——专业房产摄影AED 2,500起，GCAA认证无人机航拍，48小时交付，提升房源点击率118%。",
+    date: "2026年6月",
+    readTime: "7分钟",
+  },
+  {
+    slug: "qiye-shipin-dubai-2026",
+    title: "迪拜企业视频制作2026：品牌影片、宣传片与客户证言",
+    excerpt: "Backyard Studio为迪拜100+品牌制作企业影片——AED 8,000起，支持中英双语版本，2-4周交付，提升网站转化率80%。",
+    date: "2026年6月",
+    readTime: "8分钟",
+  },
+  {
+    slug: "huodong-paizhao-dubai-2026",
+    title: "迪拜活动摄影2026：企业年会、展会与发布会拍摄",
+    excerpt: "DWTC、Madinat Jumeirah、Atlantis常驻拍摄团队——活动摄影AED 2,500起，精选集锦当天交付，覆盖GITEX等大型展会。",
+    date: "2026年6月",
+    readTime: "6分钟",
+  },
+  {
+    slug: "meishi-paizhao-dubai-2026",
+    title: "迪拜美食摄影2026：餐厅菜单与外卖平台拍摄指南",
+    excerpt: "符合Talabat、Deliveroo规格的专业美食摄影——AED 1,500起，道具齐全，48小时交付，帮助餐厅提升外卖订单25-40%。",
+    date: "2026年6月",
+    readTime: "6分钟",
   },
 ];
 
