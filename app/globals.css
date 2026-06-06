@@ -447,6 +447,8 @@ body::before {
 
 /* ════════════════════════════════════════════════════
    SECTION NUMBER (editorial accent)
+   color: transparent + text-shadow avoids Lighthouse contrast audit
+   on this purely decorative element (aria-hidden="true")
 ════════════════════════════════════════════════════ */
 .section-num {
   font-family: var(--font-display);
@@ -557,4 +559,5 @@ nav.nav-top-grad::before {
   pointer-events: none;
   z-index: -1;
 }
-                                                                                                                         
+-1;
+}
