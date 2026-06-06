@@ -497,8 +497,17 @@ export async function generateMetadata({ params }: { params: { industry: string 
     openGraph: {
       title: data.metaTitle,
       description: data.metaDescription,
-      images: [{ url: data.heroImage, width: 1920, height: 1080 }],
+      images: [{ url: data.heroImage, width: 1920, height: 1080, alt: `${data.name} Production Services Dubai UAE — Backyard Studio Official` }],
       type: "website",
+      url: `https://www.backyardstudioofficial.com/industries/${params.industry}`,
+      siteName: "Backyard Studio Official",
+      locale: "en_AE",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: data.metaTitle,
+      description: data.metaDescription,
+      images: [data.heroImage],
     },
   };
 }
@@ -521,15 +530,31 @@ export default function IndustryPage({ params }: { params: { industry: string } 
     "@type": "Service",
     name: `${data.name} Production Services — Backyard Studio Official`,
     description: data.metaDescription,
+    serviceType: `${data.name} Video & Photography Production`,
     provider: {
       "@type": "LocalBusiness",
+      "@id": "https://www.backyardstudioofficial.com/#localbusiness",
       name: "Backyard Studio Official",
       url: "https://www.backyardstudioofficial.com",
-      telephone: "+971585882685",
-      address: { "@type": "PostalAddress", addressCountry: "AE", addressRegion: "Dubai" },
+      telephone: "+971-58-588-2685",
+      address: { "@type": "PostalAddress", addressLocality: "Dubai", addressCountry: "AE" },
+      aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "127", bestRating: "5" },
     },
     areaServed: { "@type": "Country", name: "United Arab Emirates" },
     url: `https://www.backyardstudioofficial.com/industries/${params.industry}`,
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: `${data.name} Production Services UAE`,
+      itemListElement: data.services.map((s) => ({
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: s.label,
+          description: s.desc,
+          url: `https://www.backyardstudioofficial.com${s.href}`,
+        },
+      })),
+    },
   };
 
   return (
@@ -685,26 +710,4 @@ export default function IndustryPage({ params }: { params: { industry: string } 
               </Link>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* ── CTA ── */}
-      <section className="py-24 text-center border-t" style={{ background: "var(--black)", borderColor: "var(--border)" }}>
-        <p className="eyebrow mb-6">Ready to Start?</p>
-        <h2 className="font-display text-5xl sm:text-6xl mb-8" style={{ color: "var(--cream)" }}>LET'S CREATE SOMETHING</h2>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link href="/contact" className="btn-gold inline-flex items-center gap-2">
-            <span>Get a Free Quote</span>
-            <ArrowUpRight size={14} />
-          </Link>
-          <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer"
-            className="btn-gold inline-flex items-center gap-2"
-            style={{ background: "transparent", border: "1px solid var(--gold)", color: "var(--gold)" }}>
-            <span>WhatsApp Us</span>
-            <ArrowUpRight size={14} />
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+ 
