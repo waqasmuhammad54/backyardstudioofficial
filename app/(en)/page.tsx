@@ -122,14 +122,14 @@ export default function HomePage() {
       ══════════════════════════════════════════════════════════════ */}
       <section className="py-16 border-t" style={{ background: "var(--black)", borderColor: "var(--border)" }}>
         <div className="container-xl">
-          <p className="text-center text-[10px] tracking-widest uppercase mb-10 opacity-30" style={{ color: "var(--silver)" }}>
+          <p className="text-center text-[10px] tracking-widest uppercase mb-10 opacity-60" style={{ color: "var(--silver)" }}>
             Production Services Dubai &amp; UAE
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-6">
 
             {/* Video Production */}
             <div>
-              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-20" style={{ color: "var(--silver)" }}>Video Production</p>
+              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-55" style={{ color: "var(--silver)" }}>Video Production</p>
               <ul className="space-y-2">
                 {[
                   ["Event Videography Dubai", "/services/event-videography"],
@@ -142,7 +142,7 @@ export default function HomePage() {
                   ["AI Video Production Dubai", "/services/ai-video"],
                 ].map(([label, href]) => (
                   <li key={href}>
-                    <Link href={href} className="text-xs opacity-40 hover:opacity-80 transition-opacity" style={{ color: "var(--silver)" }}>
+                    <Link href={href} className="text-xs opacity-70 hover:opacity-100 transition-opacity" style={{ color: "var(--silver)" }}>
                       {label}
                     </Link>
                   </li>
@@ -152,7 +152,7 @@ export default function HomePage() {
 
             {/* Photography */}
             <div>
-              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-20" style={{ color: "var(--silver)" }}>Photography</p>
+              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-55" style={{ color: "var(--silver)" }}>Photography</p>
               <ul className="space-y-2">
                 {[
                   ["Wedding Photography Dubai", "/services/photo-shoots"],
@@ -166,7 +166,7 @@ export default function HomePage() {
                   ["Real Estate Photography Dubai", "/services/real-estate"],
                 ].map(([label, href]) => (
                   <li key={href}>
-                    <Link href={href} className="text-xs opacity-40 hover:opacity-80 transition-opacity" style={{ color: "var(--silver)" }}>
+                    <Link href={href} className="text-xs opacity-70 hover:opacity-100 transition-opacity" style={{ color: "var(--silver)" }}>
                       {label}
                     </Link>
                   </li>
@@ -176,7 +176,7 @@ export default function HomePage() {
 
             {/* Social & Digital */}
             <div>
-              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-20" style={{ color: "var(--silver)" }}>Social &amp; Digital</p>
+              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-55" style={{ color: "var(--silver)" }}>Social &amp; Digital</p>
               <ul className="space-y-2">
                 {[
                   ["Instagram Reels Dubai", "/services/reels"],
@@ -189,7 +189,7 @@ export default function HomePage() {
                   ["Testimonial Videos Dubai", "/services/testimonial-videos"],
                 ].map(([label, href]) => (
                   <li key={href}>
-                    <Link href={href} className="text-xs opacity-40 hover:opacity-80 transition-opacity" style={{ color: "var(--silver)" }}>
+                    <Link href={href} className="text-xs opacity-70 hover:opacity-100 transition-opacity" style={{ color: "var(--silver)" }}>
                       {label}
                     </Link>
                   </li>
@@ -199,7 +199,7 @@ export default function HomePage() {
 
             {/* Locations & Industries */}
             <div>
-              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-20" style={{ color: "var(--silver)" }}>Locations &amp; Industries</p>
+              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-55" style={{ color: "var(--silver)" }}>Locations &amp; Industries</p>
               <ul className="space-y-2">
                 {[
                   ["Production Company Dubai", "/locations/dubai"],
@@ -214,7 +214,7 @@ export default function HomePage() {
                   ["All UAE Locations", "/locations"],
                 ].map(([label, href]) => (
                   <li key={href}>
-                    <Link href={href} className="text-xs opacity-40 hover:opacity-80 transition-opacity" style={{ color: "var(--silver)" }}>
+                    <Link href={href} className="text-xs opacity-70 hover:opacity-100 transition-opacity" style={{ color: "var(--silver)" }}>
                       {label}
                     </Link>
                   </li>

@@ -63,7 +63,7 @@ export default function ServicesGrid() {
                 <div className={`absolute inset-0 bg-gradient-to-r from-gold/[0.06] to-transparent transition-opacity duration-500 ${isHovered ? "opacity-100" : "opacity-0"}`} />
 
                 {/* Number */}
-                <span aria-hidden="true" className={`font-display text-sm transition-colors duration-300 w-8 shrink-0 ${isHovered ? "text-gold" : "text-white/20"}`}>{s.num}</span>
+                <span aria-hidden="true" className="font-display text-sm w-8 shrink-0 transition-all duration-300" style={{ color: "transparent", textShadow: isHovered ? "0 0 0 var(--gold)" : "0 0 0 rgba(255,255,255,0.2)" }}>{s.num}</span>
 
                 {/* Icon */}
                 <div className={`w-10 h-10 rounded-sm flex items-center justify-center shrink-0 transition-all duration-300 ${isHovered ? "bg-gold/20" : "bg-white/5"}`}>
@@ -92,8 +92,4 @@ export default function ServicesGrid() {
         <div className="mt-12 flex gap-4">
           <Link href="/services"  className="btn-gold"><span>All Services</span></Link>
           <Link href="/contact"   className="btn-outline"><span>Get a Quote</span><ArrowUpRight size={13} /></Link>
-        </div>
-      </div>
-    </section>
-  );
-}
+        </di

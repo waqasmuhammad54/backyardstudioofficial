@@ -32,7 +32,7 @@ export default function UAECoverage() {
             </h2>
           </div>
           <div>
-            <p className="text-silver/60 font-light leading-relaxed mb-6">
+            <p className="text-silver/75 font-light leading-relaxed mb-6">
               From the golden-hour skyline of Downtown Dubai to the turquoise coastline of Fujairah — no location in the UAE is too far, too remote, or too complex for our crew.
             </p>
             <div className="flex flex-wrap gap-3">
@@ -64,7 +64,7 @@ export default function UAECoverage() {
               <div className="relative">
                 <div className="flex items-start justify-between mb-4">
                   <div className={`w-8 h-8 border flex items-center justify-center transition-all duration-300 ${hovered === e.slug ? "border-gold bg-gold/10" : "border-white/10"}`}>
-                    <MapPin size={14} className={`transition-colors duration-300 ${hovered === e.slug ? "text-gold" : "text-silver/40"}`} />
+                    <MapPin size={14} className={`transition-colors duration-300 ${hovered === e.slug ? "text-gold" : "text-silver/60"}`} />
                   </div>
                   <ArrowUpRight size={14} className={`transition-all duration-300 ${hovered === e.slug ? "text-gold opacity-100" : "text-silver/20 opacity-0 group-hover:opacity-100"}`} />
                 </div>
@@ -89,6 +89,4 @@ export default function UAECoverage() {
           ))}
         </div>
       </div>
-    </section>
-  );
-}
+   

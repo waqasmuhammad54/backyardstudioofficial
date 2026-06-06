@@ -22,7 +22,7 @@ export default function CinematicIntro() {
 
   useEffect(() => {
     if (!visible) return;
-    const t = setTimeout(finish, 12000);
+    const t = setTimeout(finish, 3000);
     return () => clearTimeout(t);
   }, [visible]);
 
@@ -87,6 +87,4 @@ export default function CinematicIntro() {
           </motion.p>
         </motion.div>
       )}
-    </AnimatePresence>
-  );
-}
+ 

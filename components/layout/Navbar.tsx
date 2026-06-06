@@ -43,6 +43,7 @@ export default function Navbar() {
                 className="object-contain"
                 sizes="80px"
                 priority
+                quality={60}
                 style={{ mixBlendMode: "screen" }}
               />
             </div>

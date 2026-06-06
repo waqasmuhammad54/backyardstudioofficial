@@ -7,6 +7,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
+    deviceSizes: [640, 750, 828, 1080, 1200, 1440, 1920],
     remotePatterns: [
       { protocol: "https", hostname: "cdn.sanity.io" },
       { protocol: "https", hostname: "images.unsplash.com" },
@@ -32,16 +33,4 @@ const nextConfig = {
     ];
   },
   async redirects() {
-    return [
-      { source: "/home", destination: "/", permanent: true },
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "backyardstudioofficial.com" }],
-        destination: "https://www.backyardstudioofficial.com/:path*",
-        permanent: true,
-      },
-    ];
-  },
-};
-
-export default nextConfig;
+   
