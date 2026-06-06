@@ -20,12 +20,23 @@ export const metadata: Metadata = {
       "ar": "https://www.backyardstudioofficial.com/ar",
       "ru": "https://www.backyardstudioofficial.com/ru",
       "zh": "https://www.backyardstudioofficial.com/zh",
+      "x-default": "https://www.backyardstudioofficial.com",
     },
   },
   openGraph: {
-    locale: "ru_RU",
+    title: "Лучшая студия видеопроизводства в Дубае | Backyard Studio Official",
+    description: "Профессиональная видеосъёмка в Дубае и ОАЭ. Корпоративное видео, свадьбы, аэросъёмка GCAA. Более 2,400 проектов. Фахад Икбал Батт и Сайед Мазхар Зайди.",
+    url: "https://www.backyardstudioofficial.com/ru",
     siteName: "Backyard Studio Official",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    locale: "ru_RU",
+    type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Backyard Studio Official — видеопроизводство в Дубае" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Backyard Studio Official — видеопроизводство в Дубае",
+    description: "Корпоративное видео, свадьбы, аэросъёмка (лицензия GCAA). 2,400+ проектов по всем ОАЭ.",
+    images: ["/og-image.jpg"],
   },
   robots: { index: true, follow: true },
 };
@@ -136,7 +147,9 @@ export default function RussianLayout({ children }: { children: React.ReactNode 
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
+            "@id": "https://www.backyardstudioofficial.com/ru/#localbusiness",
             "name": "Backyard Studio Official",
+            "alternateName": "Бэкъярд Студио",
             "url": "https://www.backyardstudioofficial.com/ru",
             "telephone": "+971585882685",
             "email": "info@backyardstudioofficial.com",
@@ -144,30 +157,4 @@ export default function RussianLayout({ children }: { children: React.ReactNode 
               "@type": "PostalAddress",
               "addressLocality": "Дубай",
               "addressCountry": "AE",
-            },
-            "description": "Профессиональная видеосъёмка и фотография в Дубае. Корпоративное видео, свадебная съёмка, контент для соцсетей, аэросъёмка дроном.",
-          }),
-        }}
-      />
-
-      <div style={{ fontFamily: "Inter, sans-serif", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
-        <RuNavbar />
-        <main style={{ flex: 1, paddingTop: "80px" }}>{children}</main>
-        <RuFooter />
-      </div>
-
-      <WhatsAppButton />
-
-      {GA_ID && (
-        <>
-          <Script src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID} strategy="afterInteractive" />
-          <Script id="ga4-ru" strategy="afterInteractive"
-            dangerouslySetInnerHTML={{
-              __html: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','" + GA_ID + "',{page_path:window.location.pathname,anonymize_ip:true});",
-            }}
-          />
-        </>
-      )}
-    </>
-  );
-}
+   

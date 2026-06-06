@@ -1,9 +1,33 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Цены на видеосъёмку в Дубае | Backyard Studio Official",
-  description: "Цены на видеосъёмку в Дубае: свадьбы от 3,500 AED, корпоративное видео от 15,000 AED, мероприятия от 3,500 AED, аэросъёмка от 2,000 AED. Бесплатная оценка.",
-  alternates: { canonical: "https://www.backyardstudioofficial.com/ru/pricing" },
+  title: "Цены на видеосъёмку в Дубае 2026 | Backyard Studio Official",
+  description: "Цены на видеосъёмку в Дубае 2026: свадьбы от 3 500 AED, корпоративное видео от 15 000 AED, мероприятия от 3 500 AED, аэросъёмка от 2 000 AED. Бесплатная оценка за 2 часа.",
+  alternates: {
+    canonical: "https://www.backyardstudioofficial.com/ru/pricing",
+    languages: {
+      "en": "https://www.backyardstudioofficial.com/pricing",
+      "ar": "https://www.backyardstudioofficial.com/ar/pricing",
+      "ru": "https://www.backyardstudioofficial.com/ru/pricing",
+      "zh": "https://www.backyardstudioofficial.com/zh/pricing",
+      "x-default": "https://www.backyardstudioofficial.com/pricing",
+    },
+  },
+  openGraph: {
+    title: "Цены на видеосъёмку в Дубае 2026 — Backyard Studio Official",
+    description: "Свадьбы от 3 500 AED · корпоративное видео от 15 000 AED · аэросъёмка от 2 000 AED. Бесплатная оценка.",
+    url: "https://www.backyardstudioofficial.com/ru/pricing",
+    siteName: "Backyard Studio Official",
+    locale: "ru_RU",
+    type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Цены на видеосъёмку — Backyard Studio Official Дубай" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Цены на видеосъёмку в Дубае 2026",
+    description: "Свадьбы 3 500 AED · корпоративное видео 15 000 AED · аэросъёмка 2 000 AED.",
+    images: ["/og-image.jpg"],
+  },
 };
 
 const PACKAGES = [
@@ -16,6 +40,14 @@ const PACKAGES = [
 export default function RuPricingPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://www.backyardstudioofficial.com/ru" },
+          { "@type": "ListItem", "position": 2, "name": "Цены", "item": "https://www.backyardstudioofficial.com/ru/pricing" },
+        ],
+      }) }} />
+
       <section style={{ background: "#111", padding: "4rem 2rem 3rem", textAlign: "center" }}>
         <h1 style={{ fontFamily: "Inter, sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 800, color: "var(--cream)", marginBottom: "1rem" }}>
           Цены на наши услуги в Дубае
@@ -30,25 +62,4 @@ export default function RuPricingPage() {
           {PACKAGES.map((pkg) => (
             <div key={pkg.title} style={{ background: pkg.featured ? "rgba(212,175,55,0.08)" : "rgba(255,255,255,0.03)", border: pkg.featured ? "1px solid rgba(212,175,55,0.4)" : "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "2rem", textAlign: "center", position: "relative" as const }}>
               {pkg.featured && (
-                <div style={{ position: "absolute" as const, top: "-12px", left: "50%", transform: "translateX(-50%)", background: "var(--gold)", color: "#000", padding: "0.2rem 1rem", borderRadius: "2px", fontSize: "0.75rem", fontFamily: "Inter, sans-serif", fontWeight: 700, whiteSpace: "nowrap" as const }}>
-                  Наиболее популярно
-                </div>
-              )}
-              <h2 style={{ fontFamily: "Inter, sans-serif", color: pkg.featured ? "var(--gold)" : "var(--cream)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.5rem" }}>{pkg.title}</h2>
-              <div style={{ fontFamily: "Inter, sans-serif", color: "var(--gold)", fontSize: "1.5rem", fontWeight: 800, marginBottom: "1.5rem" }}>{pkg.price}</div>
-              <ul style={{ listStyle: "none", padding: 0, margin: "0 0 2rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
-                {pkg.features.map((f) => <li key={f} style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.875rem" }}>✓ {f}</li>)}
-              </ul>
-              <a href="/ru/contact" style={{ display: "block", background: pkg.featured ? "var(--gold)" : "transparent", border: pkg.featured ? "none" : "1px solid rgba(212,175,55,0.4)", color: pkg.featured ? "#000" : "var(--gold)", padding: "0.75rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Inter, sans-serif", fontWeight: 700, fontSize: "0.9rem" }}>
-                Получить предложение
-              </a>
-            </div>
-          ))}
-        </div>
-        <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.4)", textAlign: "center", marginTop: "2rem", fontSize: "0.875rem" }}>
-          Все цены в дирхамах ОАЭ (AED). Цены ориентировочные — точная стоимость определяется по требованиям проекта.
-        </p>
-      </section>
-    </>
-  );
-}
+                <div style={{ position: "absolute" as const, top: "-12px", left: "50%", transform: "translateX(-50%)", background: "var(--gold)", color: "#000", padding: "0.2rem 1rem", borderRadius: "2px", fontSize: "0.75rem", fontFamily:
