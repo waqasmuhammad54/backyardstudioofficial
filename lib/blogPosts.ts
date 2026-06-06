@@ -2353,6 +2353,468 @@ export const BLOG_POSTS: BlogPost[] = [
     `,
   },
 
+  {
+    slug: "business-headshots-dubai-2026",
+    title: "Business Headshots Dubai 2026 | Corporate Portrait Photography UAE",
+    metaTitle: "Business Headshots Dubai 2026",
+    metaDescription: "Business headshots Dubai from AED 800. Corporate portraits for LinkedIn, company websites, and press kits. Studio and on-location. Same-day delivery available.",
+    keywords: ["business headshots Dubai", "corporate headshots Dubai", "professional headshots Dubai", "LinkedIn headshots Dubai", "team portraits Dubai", "company headshots UAE"],
+    category: "Photography",
+    dateISO: "2026-06-06",
+    readingTime: 7,
+    author: "Fahad Iqbal Butt",
+    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=1200&q=80",
+    faqs: [
+      {
+        question: "How long does a business headshot session take in Dubai?",
+        answer: "Individual sessions run 30–45 minutes when properly prepared. We complete the lighting setup before you arrive so every minute is spent in front of the camera. Team shoots are scheduled at 10–15 minutes per person depending on the number of looks required.",
+      },
+      {
+        question: "Can you photograph our entire team in one day?",
+        answer: "Yes. We can photograph 40–60 people in a structured shoot day with consistent lighting and background. For groups larger than 30, we typically run two parallel setups to maintain pace. We provide a detailed shoot-day schedule and pre-shoot briefing for your team.",
+      },
+      {
+        question: "What should I wear for a business headshot in Dubai?",
+        answer: "Solid colours work best on camera — they keep attention on the face and don't date quickly. Avoid bold patterns, logos, and anything reflective. We send a pre-shoot wardrobe brief to all participants so there are no surprises on the day.",
+      },
+      {
+        question: "Do you offer same-day delivery for business headshots?",
+        answer: "Yes, rush same-day delivery is available for an additional fee. This is typically used when headshots are needed for an announcement, press release, or event happening that day. Standard delivery is 48 hours.",
+      },
+    ],
+    relatedSlugs: ["executive-portraits-dubai-2026", "conference-photographer-dubai-2026", "event-videography-dubai-2026"],
+    body: `<p>The business headshot is one of the most underinvested assets in most Dubai companies' marketing toolkit. LinkedIn profiles, the company website, press coverage, conference name badges, pitch decks — your team's faces are everywhere. And in Dubai's high-trust, relationship-driven market, a headshot that communicates confidence and approachability carries real commercial weight. A headshot that looks like it was taken in a hotel corridor does the opposite.</p>
+
+<p>At Backyard Studio Official, we've photographed headshots for individual senior leaders and for corporate teams of 60+ people in a single day. Fahad Iqbal Butt leads our corporate portraiture work, bringing the same attention to lighting, direction, and post-processing that we apply to commercial campaigns.</p>
+
+<h2>What Makes a Business Headshot Actually Work in 2026</h2>
+<p>The difference between a good headshot and a forgettable one is almost never the camera. It's direction. Most people are uncomfortable in front of a lens — they tighten, go slightly blank, or perform a version of confidence that reads as stiff on screen. A photographer who gives clear, friendly, specific guidance produces images that look natural precisely because the subject stopped thinking about the camera.</p>
+<p>Lighting is the second variable. Clean, even, flattering light with a slight directional quality produces faces that read as trustworthy and capable. Overly dramatic light is fine for musicians and actors. For a CFO's press headshot or a solicitor's LinkedIn profile, it introduces the wrong signal.</p>
+<p>We shoot a blend of tight headshots (shoulders and above) and environmental portraits (showing the person in their professional context) at every session. Most clients end up preferring the environmental portrait for LinkedIn and the tight headshot for company website thumbnails. Having both on delivery costs nothing extra but dramatically increases the usefulness of the session.</p>
+
+<h2>Studio vs On-Location in Dubai</h2>
+<p>Our studio setup produces completely consistent, clean results — ideal when you need multiple team members to match visually, or when the team is large enough that bringing the full setup to the office makes more sense than travelling individually. The neutral backdrop keeps all attention on the person.</p>
+<p>On-location at your Dubai office often works better for senior leadership — it contextualises them in their environment and produces a slightly warmer, more personal image. Modern offices in DIFC, Business Bay, and ADGM typically offer strong architectural backdrops: glass walls, clean structural lines, interesting available light. We scout the space before the shoot to identify the two or three strongest locations.</p>
+
+<h2>Corporate Teams at Scale</h2>
+<p>Large team shoots require different logistics from individual sessions. In a well-organised day, we can photograph 40–60 people with consistent setup and lighting — enough for a full corporate directory, website, and press library refresh in one go. We provide a shoot-day schedule, a pre-shoot briefing covering wardrobe and preparation, and a streamlined check-in process on the day itself.</p>
+<p>For groups larger than 30, we typically run two setups in parallel — one for tight headshots, one for environmental portraits — with a coordinated flow between them. Same-day social media selects can be delivered by end of business if needed for urgent announcements or press releases.</p>
+
+<h2>Business Headshots Dubai 2026: Pricing</h2>
+<p><strong>AED 800–1,200:</strong> Individual session, studio or on-location, 2 looks, 5–10 fully edited images delivered within 48 hours.</p>
+<p><strong>AED 3,500–6,000:</strong> Small team (5–10 people), consistent studio setup, full edit of 3–5 images per person.</p>
+<p><strong>AED 8,000–18,000:</strong> Full corporate team of 20–60, structured shoot day, complete delivery within 72 hours, company website and press library ready.</p>
+<p>Rush same-day delivery is available for an additional fee. Contact us directly for urgent requirements.</p>`,
+  },
+
+  {
+    slug: "executive-portraits-dubai-2026",
+    title: "Executive Portraits Dubai 2026 | C-Suite & Leadership Photography UAE",
+    metaTitle: "Executive Portraits Dubai 2026",
+    metaDescription: "Executive portrait photography Dubai for C-suite and board members. From AED 1,200. Confident images for media, press kits, and annual reports.",
+    keywords: ["executive portraits Dubai", "CEO photography Dubai", "C-suite photography Dubai", "corporate portrait Dubai", "leadership photography UAE", "annual report photography Dubai"],
+    category: "Photography",
+    dateISO: "2026-06-06",
+    readingTime: 6,
+    author: "Fahad Iqbal Butt",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80",
+    faqs: [
+      {
+        question: "How is an executive portrait different from a standard business headshot?",
+        answer: "A headshot is a functional identification image. An executive portrait is a deliberate, directed image designed to convey authority, trustworthiness, and the specific kind of confidence that investors, board members, and press expect from senior leadership. It is used in annual reports, media coverage, speaking engagement profiles, and investor materials — contexts where the image must carry significant weight.",
+      },
+      {
+        question: "How long does an executive portrait session take?",
+        answer: "Individual sessions run 30–45 minutes when properly prepared. We complete the full lighting and background setup before the subject arrives so no time is wasted. For a full C-suite of 8–12 leaders, we typically schedule one structured half-day to maintain consistency across the group.",
+      },
+      {
+        question: "How much does executive portrait photography cost in Dubai?",
+        answer: "Individual sessions from AED 1,200, leadership teams of 3–5 from AED 2,500, full C-suite annual report sessions from AED 6,000. Pricing includes full post-processing to publication standard and all digital usage rights.",
+      },
+      {
+        question: "Can you match the style of our existing company portraits?",
+        answer: "Yes. If you have existing leadership portraits you need to match — for a new hire joining an established team — send us reference images in the brief. We replicate background colour, lighting style, crop ratio, and processing to within a very close match.",
+      },
+    ],
+    relatedSlugs: ["business-headshots-dubai-2026", "conference-photographer-dubai-2026", "event-videography-dubai-2026"],
+    body: `<p>An executive portrait is not a headshot. The distinction matters commercially.</p>
+<p>A headshot confirms who a person is. An executive portrait conveys authority, trustworthiness, and the specific kind of confidence that makes investors, board members, and clients feel they are in capable hands. In Dubai's relationship-driven business culture, the image of a CEO or Chairman that appears in an annual report, a fundraising prospectus, or the cover of a business publication carries real weight. It communicates — or fails to communicate — the quality of the organisation behind the person.</p>
+
+<h2>Why Executive Portrait Photography Is Different</h2>
+<p>Senior leaders have two challenges that junior employees typically don't face when being photographed.</p>
+<p>The first is time. They will give you 45 minutes if you're fortunate. The preparation, setup, and direction have to happen fast and produce strong results immediately. There is no second chance to reschedule for the annual report deadline.</p>
+<p>The second is that they are accustomed to being in control. Being directed by a photographer is the opposite of being in control. Many senior executives arrive at a portrait session carrying a tension that reads, in the final image, as stiffness or defensiveness.</p>
+<p>Fahad Iqbal Butt has extensive experience directing senior leadership portraiture. The approach is direct and specific — clear instructions delivered without hesitation, immediate positive feedback, and a pace that keeps the session moving before the subject becomes self-conscious. The full lighting and background setup is complete before the subject arrives so that every minute of their time is in front of the camera.</p>
+
+<h2>Annual Reports, Media, and LinkedIn: Three Different Briefs</h2>
+<p>Annual report headshots require visual consistency across the entire leadership team — same background, same lighting, same crop ratio — so that the publication reads as coherent. A new hire joining a team with existing portraits needs a very close match.</p>
+<p>Media and press portraits benefit from more personality. A slight smile, glasses held rather than worn, a slightly more relaxed pose — these produce images that read as approachable in profile features and speaking biographies without sacrificing authority.</p>
+<p>LinkedIn profile images sit between the two. They need to communicate competence clearly but also signal that the person is worth connecting with.</p>
+<p>We discuss intended use in every brief and adapt the session to produce all three variants where needed. A leader who requires annual report, media, and LinkedIn versions gets all three within the same session.</p>
+
+<h2>On-Location at DIFC, Downtown, and ADGM</h2>
+<p>Many of our executive portrait commissions take place at the client's office in DIFC, Downtown Dubai, Business Bay, or the Abu Dhabi Global Market. These locations typically offer excellent environmental options: boardrooms with city views, glass-walled meeting rooms with controlled light, and reception areas with architectural interest. We scout the space in advance and arrive with supplementary lighting to ensure the environmental portraits look deliberate rather than opportunistic.</p>
+
+<h2>Executive Portraits Dubai 2026: Pricing</h2>
+<p><strong>AED 1,200–2,000:</strong> Individual executive session, 2 environments, 5–8 fully edited images, 48-hour delivery.</p>
+<p><strong>AED 2,500–4,000:</strong> Leadership team of 3–5, matching style and background, full edit across all, 48-hour delivery.</p>
+<p><strong>AED 6,000–12,000:</strong> Full C-suite annual report campaign — 8–15 leaders, studio or office environment, publication-standard retouch, print and digital delivery.</p>`,
+  },
+
+  {
+    slug: "exhibition-photography-dubai-2026",
+    title: "Exhibition Photography Dubai 2026 | Trade Show & GITEX Coverage UAE",
+    metaTitle: "Exhibition Photography Dubai 2026",
+    metaDescription: "Exhibition photography at GITEX, Arab Health, and Big 5 Dubai. Booth, product, and event coverage from AED 3,500. Same-day social media highlights available.",
+    keywords: ["exhibition photography Dubai", "GITEX photography", "trade show photographer Dubai", "Arab Health photography", "Big 5 event photography", "exhibition photographer UAE", "DWTC photographer"],
+    category: "Photography",
+    dateISO: "2026-06-06",
+    readingTime: 7,
+    author: "Fahad Iqbal Butt",
+    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80",
+    faqs: [
+      {
+        question: "How much does exhibition photography cost at GITEX in Dubai?",
+        answer: "Half-day coverage (4 hours) from AED 3,500–5,000. Full-day coverage (8 hours) from AED 6,000–10,000 including booth setup shots, product photography, and interaction coverage. Multi-day exhibition packages from AED 12,000 with same-day social highlights included.",
+      },
+      {
+        question: "Can you photograph multiple booths or halls at the same show?",
+        answer: "Yes. With advance planning we can cover multiple stand locations across different halls at the same event. We coordinate access and timing around the show programme to ensure booth setup photography happens before the show opens and interaction photography is captured during peak hours.",
+      },
+      {
+        question: "How quickly can we get images for social media during an active show?",
+        answer: "Same-day delivery of 20–30 edited social media highlights is available when planned in advance. We typically deliver a first selection by midday on each show day, with the full gallery following within 24 hours of the final shoot day.",
+      },
+      {
+        question: "Do you handle accreditation and access for DWTC and ADNEC?",
+        answer: "Yes. We manage all advance accreditation and crew access logistics for both Dubai World Trade Centre and ADNEC as part of our exhibition packages. You do not need to manage photographer credentials on top of your own exhibition logistics.",
+      },
+    ],
+    relatedSlugs: ["conference-photographer-dubai-2026", "event-videography-dubai-2026", "business-headshots-dubai-2026"],
+    body: `<p>Dubai runs some of the most significant trade shows and exhibitions in the world. GITEX Technology Week brings over 100,000 technology professionals to the Dubai World Trade Centre every October. Arab Health draws more than 55,000 healthcare executives annually. The Big 5 construction event, INDEX Interior Design, and Beautyworld Middle East are similarly high-stakes business events where brands spend significant budgets on stand design, product launches, and B2B activations.</p>
+<p>And then they often under-invest in the photography.</p>
+<p>The images from your exhibition presence are not just event records. They are marketing assets — for post-event social media, LinkedIn company updates, sales presentations, investor decks, and next year's pre-show marketing. High-quality exhibition photography is the difference between a post-event content library and a folder of blurry phone photos.</p>
+
+<h2>What Exhibition Photography at Dubai Trade Shows Actually Covers</h2>
+<p>Professional exhibition photography covers four distinct categories, each serving different communication purposes.</p>
+<p><strong>Booth photography</strong> captures wide-angle images of your stand showing the design investment, product displays, and overall brand environment. These are typically shot early in the morning before the show opens, when the hall is clear and the lighting is controlled.</p>
+<p><strong>Product photography</strong> provides close-up, commercial-quality shots of your products in context, in display cases, or being demonstrated. These require proper lighting equipment — available-light documentation cannot match what a proper setup produces.</p>
+<p><strong>Interaction photography</strong> documents your team meeting visitors, conducting product demonstrations, and having conversations at the stand. These feel alive and authentic in social media and press coverage.</p>
+<p><strong>Conference and event coverage</strong> includes keynotes you're presenting, panel discussions, networking events, and activations beyond the stand itself.</p>
+<p>A complete exhibition brief covers all four categories. Brands that focus only on documentation miss the product-quality booth and close-up shots that would serve them for months after the show closes.</p>
+
+<h2>Same-Day Social Media Delivery</h2>
+<p>During active shows like GITEX or Arab Health, content velocity matters enormously. A highlight selection of 20–30 edited images delivered to your marketing team by midday allows you to post on LinkedIn and Instagram while the show is still running — while your brand is in the feed of everyone physically at the event that day.</p>
+<p>We build same-day delivery into exhibition packages when requested. Images are edited to a shareable standard with correct crop ratios for LinkedIn portrait format, Instagram square and landscape, and a master gallery for print-quality use.</p>
+
+<h2>Working at DWTC and ADNEC</h2>
+<p>Dubai World Trade Centre and Abu Dhabi National Exhibition Centre have specific requirements for equipment access and crew accreditation. Our team has worked at both venues across multiple shows — we know the loading dock timings, the lighting conditions in each hall, and the crew access procedures. All advance logistics are handled as part of our exhibition packages.</p>
+
+<h2>Exhibition Photography Dubai 2026: Pricing</h2>
+<p><strong>AED 3,500–5,000:</strong> Half-day coverage (4 hours), 80–120 edited images, delivered within 24 hours.</p>
+<p><strong>AED 6,000–10,000:</strong> Full-day coverage (8 hours), 200–300 edited images including booth setup, product close-ups, and interaction photography.</p>
+<p><strong>AED 12,000–20,000:</strong> Multi-day exhibition package with same-day social highlights, product photography, and a post-show content library ready for campaign reuse.</p>`,
+  },
+
+  {
+    slug: "interior-photography-dubai-2026",
+    title: "Interior Photography Dubai 2026 | Hotel, Real Estate & Showroom UAE",
+    metaTitle: "Interior Photography Dubai 2026",
+    metaDescription: "Interior photography Dubai for hotels, showrooms, and real estate from AED 1,500. Luxury, commercial, and residential interiors. 48-hour delivery.",
+    keywords: ["interior photography Dubai", "hotel photography Dubai", "real estate photography Dubai", "showroom photography Dubai", "property photography UAE", "interior photographer Dubai"],
+    category: "Photography",
+    dateISO: "2026-06-06",
+    readingTime: 7,
+    author: "Fahad Iqbal Butt",
+    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&q=80",
+    faqs: [
+      {
+        question: "How much does interior photography cost in Dubai?",
+        answer: "Single apartments and villas from AED 1,500–2,500. Commercial spaces (showrooms, restaurants, offices) from AED 3,500–6,000. Hotel suite and hospitality photography from AED 8,000. Pricing varies with square footage, shoot complexity, and turnaround requirements.",
+      },
+      {
+        question: "What time of day is best for interior photography in Dubai?",
+        answer: "For spaces with significant natural light, early morning (7–9am) or late afternoon (4–6pm) produces the softest, most photogenic window light in Dubai's climate. We advise on optimal timing after reviewing the property's orientation and the balance of natural and artificial light sources.",
+      },
+      {
+        question: "Can you photograph furnished show apartments and model villas?",
+        answer: "Yes. Show unit photography for UAE developers is a significant part of our work. We can also composite CGI furniture into unfurnished unit photography if required for off-plan developments — producing a complete visual asset before the physical fit-out is complete.",
+      },
+      {
+        question: "Do you cover both wide-angle and detail shots?",
+        answer: "Every interior shoot includes both overview shots (showing full rooms, space proportions, and the relationship between areas) and detail shots (materials, fixtures, design features). The detail images are often the most powerful for marketing purposes even though clients sometimes initially only request the wide shots.",
+      },
+    ],
+    relatedSlugs: ["architecture-photography-dubai-2026", "jewelry-photography-dubai-2026", "business-headshots-dubai-2026"],
+    body: `<p>Interior photography for commercial purposes in Dubai covers enormous range — a five-star hotel room, a luxury car showroom, a fitted kitchen in a Palm Jumeirah villa, an ADGM law firm's boardroom, a restaurant designed by a Michelin-star architect. What these have in common is that they represent a substantial design and financial investment, and the photography needs to show that investment accurately enough to drive booking, purchase, or leasing decisions.</p>
+<p>The technical challenge with interior photography in Dubai is specific: the climate means large-format floor-to-ceiling glass is near-universal, and the exterior light coming through that glass is both very bright and very warm in colour. Managing the contrast between window-lit spaces and interior lighting — while producing an image that looks like what the eye actually sees, rather than a silhouette in front of a blown-out window — requires specific technical skill and equipment.</p>
+
+<h2>Hotels, Showrooms, and Real Estate: Different Briefs, Same Standard</h2>
+<p><strong>Hotel and hospitality photography</strong> requires images that create desire — that make a viewer want to be in the space. The key images are typically the bedroom (showing linen quality, light, and view), the bathroom, the restaurant or lounge, and outdoor or pool areas. These need to feel aspirational without appearing dishonest.</p>
+<p><strong>Showroom photography</strong> is about presenting the product in its best possible context. A furniture brand, automotive showroom, or kitchen company needs images that convey quality to a prospective buyer who may be making a decision worth hundreds of thousands of dirhams based largely on what they see online.</p>
+<p><strong>Real estate interior photography</strong> for apartments, villas, and commercial properties needs to show accurate square footage, natural light quality, and the relationship between spaces — while making the property feel liveable and desirable. For off-plan and show unit photography, we add CGI compositing when required to show furnishing concepts for unfurnished spaces.</p>
+
+<h2>The Light Problem in Dubai Interiors</h2>
+<p>Most interior photography in Dubai requires HDR blending or supplementary flash fill to handle the exposure range between window light and interior artificial light. We use natural light management, LED panel supplementary lighting, and multiple-exposure blending in post-processing to produce images where the view through the window is visible, the interior details are clear, and the overall scene looks like what the eye experiences — not what a single camera exposure captures.</p>
+<p>Fahad Iqbal Butt handles the technical execution of every interior shoot, with a colour science background that ensures the warm tones of Dubai interiors — marble, wood, fabric, gold fixtures — are reproduced accurately rather than shifted by white balance errors.</p>
+
+<h2>Interior Photography Dubai 2026: Pricing</h2>
+<p><strong>AED 1,500–2,500:</strong> Single apartment or villa (up to 3 bedrooms), 15–20 hero images, 48-hour delivery. Ideal for real estate listings.</p>
+<p><strong>AED 3,500–6,000:</strong> Commercial space up to 500 sqm (showroom, restaurant, office), full coverage with 25–40 images, wide and detail shots.</p>
+<p><strong>AED 8,000–15,000:</strong> Hotel suite or full floor, brand-quality hospitality photography, full retouch to marketing standard, all digital usage rights.</p>`,
+  },
+
+  {
+    slug: "architecture-photography-dubai-2026",
+    title: "Architecture Photography Dubai 2026 | Buildings & Development UAE",
+    metaTitle: "Architecture Photography Dubai 2026",
+    metaDescription: "Architecture photography Dubai for developers, architects, and luxury real estate from AED 2,500. DIFC, Downtown, Palm Jumeirah. 48-hour delivery.",
+    keywords: ["architecture photography Dubai", "building photography Dubai", "real estate developer photography UAE", "architectural photographer Dubai", "DIFC photography", "Downtown Dubai photography"],
+    category: "Photography",
+    dateISO: "2026-06-06",
+    readingTime: 7,
+    author: "Fahad Iqbal Butt",
+    image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&q=80",
+    faqs: [
+      {
+        question: "Do I need permits for architecture photography in Dubai?",
+        answer: "For public exterior locations, permits may be required depending on equipment and commercial usage. DIFC and some government areas require specific clearance for professional commercial photography. We handle all permit applications as part of the project — clients should not need to manage this separately.",
+      },
+      {
+        question: "What is the best time to shoot architecture in Dubai?",
+        answer: "Golden hour (approximately 6–7am and 5:30–6:30pm depending on the season) produces warm directional light that gives facades depth and texture. Blue hour — the 20-minute window after sunset — produces a balanced exposure between the illuminated building exterior and the darkening sky. We plan every shoot schedule around these windows.",
+      },
+      {
+        question: "How much does architecture photography cost in Dubai?",
+        answer: "Single building exterior from AED 2,500–5,000. Full exterior and interior documentation of a completed project from AED 6,000–12,000. Comprehensive developer marketing campaigns including drone aerials and dusk shots from AED 15,000.",
+      },
+      {
+        question: "Can you include licensed drone aerial photography?",
+        answer: "Yes. Our GCAA-licensed drone team integrates into every architecture shoot that benefits from aerial perspectives. The combination of ground-level architectural photography and aerial overview shots produces a complete asset set that covers design detail and broader contextual story for developer marketing.",
+      },
+    ],
+    relatedSlugs: ["interior-photography-dubai-2026", "exhibition-photography-dubai-2026", "tvc-production-dubai-2026"],
+    body: `<p>Dubai's built environment is among the most photographed in the world — but most of those photographs are tourist snapshots. Architecture photography at a professional commercial level is something different: it is the precise, considered documentation of a building or space in a way that communicates its design intent, structural quality, and position within the broader built environment.</p>
+<p>The clients who commission professional architecture photography in Dubai are typically developers marketing off-plan or completed properties, architects and design practices building their portfolio, interior design firms documenting completed projects, or real estate investment funds producing materials for international investors.</p>
+
+<h2>What Architects and Developers Actually Need</h2>
+<p>An architecture portfolio image is not a marketing image — it is a design document. It needs to show the relationship between structure and space, the quality of materials, how light moves through the building at different times of day, and the relationship between the structure and its surroundings.</p>
+<p>Developers need something slightly different: images that sell the aspiration of the project, showing lifestyle, light, and scale in a way that converts international buyers from a distance. A Kuala Lumpur investor deciding between two Dubai developments based on their websites will make that decision largely on the strength of the photography.</p>
+<p>Fahad Iqbal Butt handles our architecture photography with an understanding of architectural drawing and spatial logic that informs how each image is framed and lit. We work from a detailed brief — whether the client is presenting to investors, submitting to architectural awards, or building a developer's sales deck, the image selection and processing approach differs.</p>
+
+<h2>Permits and Access in Dubai</h2>
+<p>Exterior architecture photography in Dubai requires advance consideration of access, permits, and in some cases GCAA coordination for aerial elements. DIFC has its own permit requirements for commercial photography within the financial district. We manage all advance logistics — permit applications, building management coordination, and GCAA clearance for any drone work.</p>
+<p>For drone architecture photography showing the relationship between a building and the city skyline, coastal plots, or surrounding infrastructure, our GCAA-licensed drone team integrates into the shoot schedule. Aerial and ground-level images together produce a complete set of assets that covers both the architectural detail work and the broader contextual story.</p>
+
+<h2>Golden Hour, Blue Hour, and Timing in Dubai</h2>
+<p>Architecture photography in Dubai requires specific timing. Golden hour produces warm, directional light that gives facades depth and texture. Blue hour — the 20-minute window after sunset — produces a balanced exposure between illuminated buildings and the darkening sky that is one of architecture photography's most reliable and striking compositions.</p>
+<p>Pre-shoot planning for timing is not optional; it is the foundation of the shoot schedule. We advise on optimal times after reviewing each building's orientation, and build multi-timing shoots (morning, afternoon, blue hour) into comprehensive projects.</p>
+
+<h2>Architecture Photography Dubai 2026: Pricing</h2>
+<p><strong>AED 2,500–5,000:</strong> Single building exterior, golden hour timing, 15–20 hero images, 48-hour delivery.</p>
+<p><strong>AED 6,000–12,000:</strong> Full exterior and interior documentation of a completed project, portfolio-quality processing, all digital usage rights.</p>
+<p><strong>AED 15,000–30,000:</strong> Comprehensive developer campaign including ground photography, licensed drone aerials, dusk and blue-hour shots, and a complete marketing asset library for international sales.</p>`,
+  },
+
+  {
+    slug: "jewelry-photography-dubai-2026",
+    title: "Jewelry Photography Dubai 2026 | Gold, Diamond & Watch Photography UAE",
+    metaTitle: "Jewelry Photography Dubai 2026",
+    metaDescription: "Jewelry photography in Dubai from AED 1,200. E-commerce, editorial, and campaign shots for gold, diamonds, and luxury watches. Delivered in 48 hours.",
+    keywords: ["jewelry photography Dubai", "jewellery photographer Dubai", "gold photography Dubai", "diamond photography UAE", "product photography Dubai", "e-commerce jewelry photography UAE"],
+    category: "Photography",
+    dateISO: "2026-06-06",
+    readingTime: 7,
+    author: "Fahad Iqbal Butt",
+    image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=1200&q=80",
+    faqs: [
+      {
+        question: "How do you photograph jewelry without unwanted reflections?",
+        answer: "We use a combination of light tents, polarising filters, and controlled directional lighting to manage reflections at capture, then clean up any remaining issues in post-processing. The approach differs by material — yellow gold, white gold, diamonds, and coloured gemstones each require a different lighting configuration to look accurate and attractive.",
+      },
+      {
+        question: "How much does jewelry photography cost in Dubai?",
+        answer: "E-commerce photography for up to 10 pieces from AED 1,200. Collection shoots of 20–40 pieces from AED 3,500. Campaign and editorial shoots with models or styled environments from AED 8,000. Pricing includes full post-processing and digital usage rights.",
+      },
+      {
+        question: "Do I need to provide styling or props for a jewelry shoot?",
+        answer: "For e-commerce white-background photography, we provide everything needed — the setup is fully controlled in studio. For editorial and campaign work, we collaborate on a brief and source appropriate props, surfaces, and styling that complement the collection. Models can be sourced through our UAE talent network.",
+      },
+      {
+        question: "Can you photograph watches as well as fine jewelry?",
+        answer: "Yes. Watch photography requires a completely different technical approach from gold and gemstone work due to the combination of reflective case, printed dial detail, and often textured strap. We typically include individual shots of the dial, case back, crown, and clasp alongside the full-piece hero image.",
+      },
+    ],
+    relatedSlugs: ["interior-photography-dubai-2026", "architecture-photography-dubai-2026", "business-headshots-dubai-2026"],
+    body: `<p>Dubai is a global hub for fine jewelry. The gold souks of Deira, the boutiques of Dubai Mall, the diamond traders of DMCC, and the luxury watch retailers along Sheikh Zayed Road make the UAE jewelry market one of the most competitive and visually demanding in the world.</p>
+<p>Jewelry photography is one of the most technically demanding commercial photography disciplines. The combination of reflective metal, transparent or translucent gemstones, and the need to show both colour accuracy and dimensional detail means that amateur approaches produce results that look wrong. The metal reflects the ceiling. The diamond appears grey instead of brilliant. The sapphire shifts in colour in ways that damage buyer trust before they've even seen a price.</p>
+
+<h2>E-Commerce vs Editorial: Two Different Briefs</h2>
+<p><strong>E-commerce jewelry photography</strong> uses clean white backgrounds, precise and consistent lighting setups, and a standardised crop ratio that allows every piece in a collection to appear in a uniform format in your digital storefront. The goal is accuracy — colour accuracy, dimensional accuracy, and technical reproduction of the piece's craftsmanship. This style drives conversion on platforms like noon, Ounass, and your own website.</p>
+<p><strong>Editorial jewelry photography</strong> introduces context — styled environments, models, complementary props, mood lighting, and narrative. This is what fills campaign materials, Instagram feeds, lookbooks, and press coverage. Editorial images create desire; e-commerce images close the transaction. Most brands need both.</p>
+
+<h2>Gold, Diamond, and Watch Photography for the UAE Market</h2>
+<p>Yellow gold — which dominates the UAE market in a way that differs significantly from European consumers — requires specific white balance and exposure control to reproduce accurately. The warm tones of 22-karat gold can easily shift toward orange or appear dull under incorrect conditions. Fahad Iqbal Butt handles our jewelry photography, bringing a colour science background that ensures what appears in the final image accurately represents what the buyer will receive.</p>
+<p>Diamond and gemstone photography requires controlled, directional light to activate a stone's brilliance and fire. Flat, even light makes diamonds appear glassy and lifeless. We use a combination of light tent, directional accent lights, and selective retouching to produce gemstone images that show what the eye sees when the piece is examined in natural light.</p>
+<p>Watch photography — with its combination of reflective case metal, printed dial detail, and often textured strap — requires a completely different approach from either gold or gemstone work. We include individual shots of the dial, case back, crown, and clasp alongside the full-piece hero image as standard for luxury watch clients.</p>
+
+<h2>Jewelry Photography Dubai 2026: Pricing</h2>
+<p><strong>AED 1,200–2,000:</strong> Up to 10 pieces, e-commerce white background, 2 angles per piece, 48-hour delivery.</p>
+<p><strong>AED 3,500–6,000:</strong> Collection of 20–40 pieces, e-commerce and lifestyle selects, full edit, 3–5 days delivery.</p>
+<p><strong>AED 8,000–15,000:</strong> Campaign shoot with model, styled environment, studio or location, full usage rights, 5–7 days delivery.</p>`,
+  },
+
+  {
+    slug: "tvc-production-dubai-2026",
+    title: "TVC Production Dubai 2026 | TV Commercial Production UAE",
+    metaTitle: "TVC Production Dubai 2026",
+    metaDescription: "TV commercial production in Dubai from AED 45,000. Full TVC service: concept, scripting, production, and broadcast delivery. Trusted by UAE brands.",
+    keywords: ["TVC production Dubai", "TV commercial Dubai", "television commercial UAE", "TVC filming Dubai", "video production company Dubai", "commercial production UAE"],
+    category: "Video",
+    dateISO: "2026-06-06",
+    readingTime: 8,
+    author: "Syed Mazhar Zaidi",
+    image: "https://images.unsplash.com/photo-1597350584914-55bb62285896?w=1200&q=80",
+    faqs: [
+      {
+        question: "How much does a TV commercial cost to produce in Dubai?",
+        answer: "AED 45,000–80,000 for a single-location 30-second TVC with full post-production including colour grade, audio mix, and broadcast delivery. Multi-location and more complex productions range from AED 80,000 to AED 180,000. Large-scale regional campaigns with complex VFX and multi-market broadcast delivery start at AED 180,000.",
+      },
+      {
+        question: "How long does TVC production take from start to finish?",
+        answer: "Typically 6–10 weeks from brief to broadcast delivery: 2–4 weeks of pre-production (concept, scripting, casting, location, logistics), 1–3 days of shooting, and 2–3 weeks of post-production (edit, grade, audio, VFX, delivery). Rush timelines are possible with adjusted pre-production scope.",
+      },
+      {
+        question: "Can you handle format compliance and broadcast delivery?",
+        answer: "Yes. We deliver to all UAE broadcast specifications as standard, including MBC, beIN Sports, OSN, and Dubai TV requirements, as well as digital platform specs for YouTube, Instagram, and on-demand streaming. Format compliance is built into the post-production process, not an add-on.",
+      },
+      {
+        question: "Do you handle casting and location scouting in Dubai?",
+        answer: "Yes. Pre-production services include talent casting through our UAE talent network, location scouting and permit applications, wardrobe coordination, and full production logistics. We manage all GCAA permits for aerial elements and Dubai Film and Creative Cluster requirements for public location filming.",
+      },
+    ],
+    relatedSlugs: ["explainer-video-dubai-2026", "event-videography-dubai-2026", "music-video-production-dubai-2026"],
+    body: `<p>A television commercial produced in Dubai in 2026 is competing for attention in one of the most sophisticated advertising markets in the region. UAE consumers are exposed to production quality from international networks and streaming platforms. Local brands that produce TVCs at a genuine broadcast standard — with proper cinematography, direction, and post-production — stand clearly above those that don't.</p>
+<p>TVC production is one of the highest-value services at Backyard Studio Official. It requires a full production team, significant pre-production investment, and post-production work that includes colour grading, audio mix, and format-specific delivery for broadcast requirements. When executed well, a TVC is an asset that runs for months or years and generates returns that far exceed the production investment.</p>
+
+<h2>What Goes Into a TVC Production in Dubai</h2>
+<p><strong>Pre-production</strong> (typically 2–4 weeks) is where the commercial is actually made. It covers creative brief, concept development, storyboard, script, talent casting, location scouting and permits, production schedule, wardrobe, and props. Every hour spent in pre-production saves three hours on set.</p>
+<p><strong>Production</strong> (typically 1–3 days) involves the full crew: director, director of photography, camera team, lighting crew, art department, talent, and client representatives. Dubai filming locations — from Burj Khalifa precinct to private villa settings in Emirates Hills, from desert sequences near Al Qudra Lakes to controlled studio environments — are coordinated with full permit coverage.</p>
+<p><strong>Post-production</strong> (typically 2–3 weeks) includes offline edit, client review, online colour grade, VFX and motion graphics, audio composition and mix, and final delivery in broadcast specifications. UAE broadcast stations have specific delivery requirements; we handle format compliance as standard.</p>
+<p>Syed Mazhar Zaidi leads cinematography on our TVC projects, with a background in broadcast production for regional TV and international streaming. Production quality is built to play equally well on MBC, beIN Sports, OSN, and on-demand digital platforms.</p>
+
+<h2>Dubai as a TVC Location</h2>
+<p>Dubai offers a production advantage that few cities can match: world-class infrastructure, a deep talent pool both local and internationally sourced through the UAE's free zone system, extraordinary diverse locations within short distances of each other, and a government that has streamlined commercial filming permits through Dubai Film and Creative Cluster.</p>
+<p>A TVC that would require production across three countries in Europe can often be completed entirely within the UAE — desert, open sea, modern city skyline, and traditional souks all within an hour of each other. This compression of production logistics into a single location jurisdiction reduces cost, simplifies logistics, and keeps the full crew together throughout.</p>
+
+<h2>TVC Production Dubai 2026: Pricing</h2>
+<p><strong>AED 45,000–80,000:</strong> Single-location TVC (30 seconds), limited cast, 2-day shoot, full post-production including grade and audio mix, broadcast delivery.</p>
+<p><strong>AED 80,000–180,000:</strong> Multi-location TVC (45–60 seconds), professional talent, 3–5 day shoot, full VFX and grade, multi-format delivery for broadcast and digital.</p>
+<p><strong>AED 180,000+:</strong> Full-scale regional campaign commercial, drone sequences, international talent, complex VFX, and multi-market broadcast delivery.</p>`,
+  },
+
+  {
+    slug: "explainer-video-dubai-2026",
+    title: "Explainer Video Dubai 2026 | Animation & Live-Action Production UAE",
+    metaTitle: "Explainer Video Dubai 2026",
+    metaDescription: "Explainer video production Dubai from AED 8,000. Animation, live-action, and mixed formats for SaaS, tech startups, and UAE brands. 2-week delivery.",
+    keywords: ["explainer video Dubai", "explainer video production UAE", "animated video Dubai", "product explainer video UAE", "startup video Dubai", "SaaS explainer video Dubai"],
+    category: "Video",
+    dateISO: "2026-06-06",
+    readingTime: 7,
+    author: "Syed Mazhar Zaidi",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    faqs: [
+      {
+        question: "How long should an explainer video be?",
+        answer: "60–90 seconds is the optimal length for most purposes. Homepage explainers can run to 2 minutes if the product is genuinely complex and the audience is already engaged. Anything longer typically loses the viewer before the call-to-action. For social media cutdowns, 15–30 seconds is the working range.",
+      },
+      {
+        question: "How much does an explainer video cost in Dubai?",
+        answer: "Animated explainers from AED 8,000–15,000. Live-action with motion graphics from AED 15,000–30,000. Full campaign suites including master video, multiple social cuts, and Arabic and English versions from AED 30,000.",
+      },
+      {
+        question: "How long does it take to produce an explainer video?",
+        answer: "Typically 3–5 weeks from brief to delivery: 1 week for script and storyboard or shot list, 1 week for voiceover and animation or filming, 1–2 weeks for edit and client review cycles. Rush timelines of 10 working days are possible for animation-only projects.",
+      },
+      {
+        question: "Can you produce explainer videos in Arabic for the UAE market?",
+        answer: "Yes. Our scripts can be adapted for both Gulf Arabic and Modern Standard Arabic, with voiceover options from our UAE talent network. We produce bilingual versions (Arabic and English) within the same project for brands addressing both local and international audiences.",
+      },
+    ],
+    relatedSlugs: ["tvc-production-dubai-2026", "event-videography-dubai-2026", "music-video-production-dubai-2026"],
+    body: `<p>The explainer video is one of the most reliably useful marketing investments a Dubai business can make. A well-produced 90-second video that clearly explains what a product does, who it is for, and why it matters can do the work of a dozen sales conversations. For SaaS companies, fintech startups, and complex B2B services — industries all well-represented in DIFC, Tecom, and Dubai Internet City — the explainer video is often the single most-watched piece of content on the company website.</p>
+<p>The challenge is that most explainer videos are mediocre. Either the script runs too long and too technical, the animation is generic and interchangeable with any other company, or the live-action footage is clearly not professional quality. In Dubai's sophisticated market, a mediocre explainer does more damage than no video at all — it signals a company that invests in the form but not the standard.</p>
+
+<h2>Script: Where It Starts and Ends</h2>
+<p>Every explainer video starts with the script. The script determines structure, duration, animation style, voiceover tone, and ultimately whether the viewer stays or clicks away 15 seconds in. We work with clients on a problem-solution-proof-CTA framework that is short, specific, and customer-focused rather than company-focused.</p>
+<p>The most common script mistake we correct is opening with the company rather than the customer's problem. "Backyard Studio Official is a Dubai production company that..." is a script that has already lost the viewer. "Your product launch is in three weeks and you have no video content" has their attention immediately. The distinction sounds simple; applying it consistently throughout a 90-second script requires genuine discipline.</p>
+<p>For Arabic-speaking markets, scripts are adapted for both Gulf Arabic and Modern Standard Arabic with voiceover options from our UAE talent network.</p>
+
+<h2>Animation vs Live-Action vs Mixed Format</h2>
+<p><strong>2D animation</strong> works best for abstract products — software platforms, financial services, insurance products — where there is nothing physical to show and the story is entirely conceptual. The visual style range is broad: from clean corporate motion graphics to character-led narrative animation. We align every visual style to brand guidelines rather than defaulting to a generic template.</p>
+<p><strong>Live-action</strong> works best when the product or service has tangible, photogenic components — a physical product, a real workspace, a recognisable human interaction. Live-action communicates authenticity in a way animation cannot replicate, and it grounds an otherwise abstract proposition in something real.</p>
+<p><strong>Mixed format</strong> — live footage with motion graphics, callouts, and animated data overlays — often produces the most commercially effective results. It combines the authenticity of live footage with the explanatory clarity of animation for the parts that need diagrammatic treatment. This is the format we recommend most frequently for technology and professional services brands.</p>
+
+<h2>Explainer Video Dubai 2026: Pricing</h2>
+<p><strong>AED 8,000–15,000:</strong> Animated explainer (60–90 seconds), custom script, voiceover, branded motion graphics, licensed music, master file and social cuts.</p>
+<p><strong>AED 15,000–30,000:</strong> Live-action explainer with mixed motion graphics, 1-day shoot, full post-production, 60–90 second master, 15–30 second social cutdowns.</p>
+<p><strong>AED 30,000–60,000:</strong> Full campaign explainer suite — master video, 3 social cuts, Arabic and English versions, across multiple product lines or audience segments.</p>`,
+  },
+
+  {
+    slug: "school-photography-dubai-2026",
+    title: "School Photography Dubai 2026 | Annual Portraits & Graduation UAE",
+    metaTitle: "School Photography Dubai 2026",
+    metaDescription: "School photography Dubai for annual portraits, graduation, and events. Recurring contracts from AED 3,500. Fast multi-student workflows and 72-hour delivery.",
+    keywords: ["school photography Dubai", "school photographer Dubai", "annual portrait photography UAE", "graduation photography Dubai", "school event photography Dubai", "school photos UAE"],
+    category: "Photography",
+    dateISO: "2026-06-06",
+    readingTime: 7,
+    author: "Fahad Iqbal Butt",
+    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1200&q=80",
+    faqs: [
+      {
+        question: "How much does school photography cost in Dubai?",
+        answer: "Annual portrait days for up to 200 students from AED 3,500–6,000. Full school shoots up to 600 students from AED 8,000–15,000. Graduation packages covering ceremony and studio portraits from AED 6,000–12,000. Annual retainer rates with discounted pricing are available for schools booking multiple services across the academic year.",
+      },
+      {
+        question: "How quickly are the photos delivered to students and parents?",
+        answer: "Digital galleries are delivered within 48–72 hours of the shoot day. Ceremony and event photography can be delivered within 24 hours when same-day social media content is needed for the school's channels. Print orders are processed through our online system and delivered within 7–10 working days.",
+      },
+      {
+        question: "Can parents order prints directly?",
+        answer: "Yes. Each family receives a personal gallery link with an online ordering system for prints, mounted photos, framed portraits, and digital download packages. The school does not need to manage print distribution or payment collection — the entire process is handled through our client portal.",
+      },
+      {
+        question: "How many students can you photograph in a single day?",
+        answer: "With our multi-setup approach, we can photograph 300+ students in a full school day while maintaining consistent lighting, background, and image quality throughout. For very large schools (600+ students), we schedule across 2 days to maintain pace and quality without rushing.",
+      },
+    ],
+    relatedSlugs: ["business-headshots-dubai-2026", "event-videography-dubai-2026", "conference-photographer-dubai-2026"],
+    body: `<p>School photography in Dubai is a different business from any other photography service category. The client is an institution, not an individual. The number of subjects is measured in hundreds or thousands. The delivery format needs to serve both the school's communication requirements and the parents' desire for individual print products. And it recurs annually — the school that has a good experience with a photographer typically re-books the same team for five or ten years.</p>
+<p>At Backyard Studio Official, we work with international schools, American curriculum schools, British curriculum schools, and nurseries across Dubai and the wider UAE. The approach is logistically rigorous, technically consistent, and designed to minimise disruption to the school's schedule while producing results that parents genuinely want.</p>
+
+<h2>Annual Portrait Workflow That Actually Works</h2>
+<p>Individual school portrait sessions are fundamentally a volume exercise. The mistake many photographers make is treating them as a series of creative portrait sessions — which produces inconsistent results and a schedule that runs hours behind by mid-morning. The right approach is an efficient, tested production process: a consistent setup with clear, friendly direction that can produce a good portrait of a six-year-old, a self-conscious teenager, and a distracted classroom support teacher in under two minutes each, repeatedly, without quality degrading across the day.</p>
+<p>Fahad Iqbal Butt coordinates our school portrait logistics, running a setup capable of processing 300+ students in a full school day with consistent lighting, consistent background, and consistent image quality. Pre-shoot coordination with the school covers room access, class schedule, teacher briefings, and the wardrobe and preparation reminders sent to parents in advance.</p>
+
+<h2>Graduation Photography in Dubai</h2>
+<p>Graduation photography covers two distinct deliverables. The ceremony is a documentary exercise: individual stage crossings, group photographs with teachers and faculty, and candid celebration moments during the reception. The formal graduation portrait session is a deliberate creation — it needs proper studio lighting, a clean backdrop, and the kind of direction that produces a proud, confident expression rather than a strained smile.</p>
+<p>We build both elements into our graduation packages. Stage crossing photography is timed to the ceremony programme and delivered as individual named galleries for each graduate within 48 hours. Studio portrait sessions can be scheduled the same day as the ceremony or on a dedicated portrait day.</p>
+
+<h2>Sports Day and Events</h2>
+<p>Beyond annual portraits and graduation, schools need photography for sports days, cultural festivals, theatrical productions, and community events. These require documentary photography skills — the ability to work in variable outdoor light, capture fast movement accurately (relay races, gymnastics, football), and deliver a curated edit quickly enough to be useful for the school's social media and parent newsletter on the same day or the following morning.</p>
+<p>We offer single-event photography packages and annual retainer agreements that cover portrait day, graduation, and 3–6 events across the full academic year at a predictable cost.</p>
+
+<h2>School Photography Dubai 2026: Pricing</h2>
+<p><strong>AED 3,500–6,000:</strong> Annual portrait day for up to 200 students, consistent studio setup, 2 digital images per student, online ordering portal for prints and packages.</p>
+<p><strong>AED 8,000–15,000:</strong> Full school including all year groups up to 600 students, multi-day if required, class group photographs, full digital library for school marketing use.</p>
+<p><strong>AED 6,000–12,000:</strong> Graduation package including ceremony coverage and studio portrait session, individual named galleries per graduate, 48-hour delivery.</p>
+<p>Annual retainer rates with discounted pricing are available for schools booking portrait day, graduation, and event coverage across the full academic year.</p>`,
+  },
+
+
 ];
 export function getBlogPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
