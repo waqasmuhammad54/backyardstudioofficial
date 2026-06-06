@@ -33,4 +33,16 @@ const nextConfig = {
     ];
   },
   async redirects() {
-   
+    return [
+      { source: "/home", destination: "/", permanent: true },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "backyardstudioofficial.com" }],
+        destination: "https://www.backyardstudioofficial.com/:path*",
+        permanent: true,
+      },
+    ];
+  },
+};
+
+export default nextConfig;
