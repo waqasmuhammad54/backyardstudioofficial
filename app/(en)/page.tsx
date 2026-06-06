@@ -11,10 +11,10 @@ import BlogPreview from "@/components/home/BlogPreview";
 import GalleryStrip from "@/components/home/GalleryStrip";
 import ContactSection from "@/components/home/ContactSection";
 import Link from "next/link";
-import { faqSchema, speakableSchema, itemListSchema } from "@/lib/structuredData";
+import { faqSchema, itemListSchema, personSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "Production Company in Dubai | Backyard Studio",
+  title: "Best Production Company in Dubai | Backyard Studio Official",
   description: "Dubai's best production company — video, events, weddings & social media across all 7 UAE emirates. GCAA licensed. 2,400+ projects. Free quote in 2 hours.",
   keywords: [
     "best production company in Dubai",
@@ -74,6 +74,22 @@ const HOME_FAQS = [
     question: "How quickly does Backyard Studio respond to briefs?",
     answer: "Our production team responds to all project briefs within 2 hours, 7 days a week. WhatsApp, email, or our contact form all reach the same dedicated team. Most projects can be mobilised within 48–72 hours of a confirmed brief.",
   },
+  {
+    question: "Who founded Backyard Studio Official in Dubai?",
+    answer: "Backyard Studio Official was founded by Fahad Iqbal Butt (Creative Director) and Syed Mazhar Zaidi (Director of Photography). Together they bring over 15 years of combined production experience across Dubai, Abu Dhabi, and the wider UAE. The studio is officially registered as 'Backyardstudio official For Commercial Photographs Production'.",
+  },
+  {
+    question: "What languages does Backyard Studio serve clients in?",
+    answer: "Backyard Studio Official serves clients in English, Arabic, Urdu, Hindi, Tagalog, and Russian — reflecting Dubai's diverse international community. Our website is also available in Arabic (/ar), Chinese (/zh), and Russian (/ru) for international brands and visitors.",
+  },
+  {
+    question: "Does Backyard Studio handle large corporate events and government productions in Abu Dhabi?",
+    answer: "Yes. Backyard Studio Official regularly handles large-scale corporate events, government productions, brand activations, and summits in Abu Dhabi — including venues such as Yas Island, Saadiyat Island, ADNEC, and Etihad Towers. We deploy full multi-camera production teams with drone operators within 48 hours across all UAE.",
+  },
+  {
+    question: "Does Backyard Studio offer green screen and in-studio shoots in Dubai?",
+    answer: "Yes. Backyard Studio Official offers green screen studio shoots, controlled lighting setups, and full in-studio productions in Dubai. Studio hire starts from AED 1,500 and includes professional lighting rigs, multiple backdrops, and full post-production editing. Ideal for ads, TVCs, testimonials, and talking-head interviews.",
+  },
 ];
 
 const HOME_SERVICES_LIST = [
@@ -98,11 +114,32 @@ export default function HomePage() {
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema("https://www.backyardstudioofficial.com", ["h1", "h2", ".speakable"])) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema(HOME_SERVICES_LIST)) }}
+      />
+      {/* Person schemas — GEO/LLM entity signals for founders */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(personSchema({
+            name: "Fahad Iqbal Butt",
+            jobTitle: "Creative Director",
+            description: "Fahad Iqbal Butt is the Creative Director and co-founder of Backyard Studio Official, Dubai's leading production company. He leads creative strategy, brand films, DVCs, and event productions across the UAE.",
+            url: "https://www.backyardstudioofficial.com/about",
+            sameAs: ["https://www.instagram.com/backyardstudioofficial/"],
+          }))
+        }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema(HOME_SERVICES_LIST)) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(personSchema({
+            name: "Syed Mazhar Zaidi",
+            jobTitle: "Director of Photography",
+            description: "Syed Mazhar Zaidi is the Director of Photography and co-founder of Backyard Studio Official in Dubai. He leads all cinematography, wedding films, aerial drone productions, and commercial photography across the UAE.",
+            url: "https://www.backyardstudioofficial.com/about",
+            sameAs: ["https://www.instagram.com/backyardstudioofficial/"],
+          }))
+        }}
       />
       <HeroSlider />
       <AboutSection />
@@ -170,64 +207,4 @@ export default function HomePage() {
                       {label}
                     </Link>
                   </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Social & Digital */}
-            <div>
-              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-55" style={{ color: "var(--silver)" }}>Social &amp; Digital</p>
-              <ul className="space-y-2">
-                {[
-                  ["Instagram Reels Dubai", "/services/reels"],
-                  ["Reels Production Dubai", "/services/reels-production"],
-                  ["Social Media Shoots Dubai", "/services/social-media-shoots"],
-                  ["TikTok Content Dubai", "/services/social-media-content"],
-                  ["Ads Production Dubai", "/services/ads-shooting"],
-                  ["YouTube Video Production", "/services/youtube-content"],
-                  ["Podcast Production Dubai", "/services/podcast"],
-                  ["Testimonial Videos Dubai", "/services/testimonial-videos"],
-                ].map(([label, href]) => (
-                  <li key={href}>
-                    <Link href={href} className="text-xs opacity-70 hover:opacity-100 transition-opacity" style={{ color: "var(--silver)" }}>
-                      {label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            {/* Locations & Industries */}
-            <div>
-              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-55" style={{ color: "var(--silver)" }}>Locations &amp; Industries</p>
-              <ul className="space-y-2">
-                {[
-                  ["Production Company Dubai", "/locations/dubai"],
-                  ["Video Production Abu Dhabi", "/locations/abu-dhabi"],
-                  ["Photography Sharjah", "/locations/sharjah"],
-                  ["Production RAK", "/locations/ras-al-khaimah"],
-                  ["Sports Production UAE", "/industries/sports"],
-                  ["Automotive Production UAE", "/industries/automotive"],
-                  ["Healthcare Content UAE", "/industries/healthcare"],
-                  ["Tech Video Production UAE", "/industries/technology"],
-                  ["Education Video UAE", "/industries/education"],
-                  ["All UAE Locations", "/locations"],
-                ].map(([label, href]) => (
-                  <li key={href}>
-                    <Link href={href} className="text-xs opacity-70 hover:opacity-100 transition-opacity" style={{ color: "var(--silver)" }}>
-                      {label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-          </div>
-        </div>
-      </section>
-      {/* ══ END INTERNAL LINKS ══════════════════════════════════════ */}
-
-      <ContactSection />
-    </>
-  );
-}
+        

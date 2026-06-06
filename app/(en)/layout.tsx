@@ -70,9 +70,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.backyardstudioofficial.com",
     languages: {
+      "en": "https://www.backyardstudioofficial.com",
       "ar": "https://www.backyardstudioofficial.com/ar",
       "ru": "https://www.backyardstudioofficial.com/ru",
       "zh": "https://www.backyardstudioofficial.com/zh",
+      "x-default": "https://www.backyardstudioofficial.com",
     },
   },
   category: "Video Production",
@@ -125,28 +127,25 @@ export default function EnglishLayout({ children }: { children: React.ReactNode 
         }}
       />
 
-      <CinematicIntro />
-      <CustomCursor />
-      <Navbar />
-      <main>{children}</main>
-      <Footer />
-      <WhatsAppButton />
-
-      {/* Google Analytics 4 */}
-      {GA_ID && (
-        <>
-          <Script
-            src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID}
-            strategy="afterInteractive"
-          />
-          <Script id="ga4-init" strategy="afterInteractive"
-            dangerouslySetInnerHTML={{
-              __html:
-                "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','" + GA_ID + "',{page_path:window.location.pathname,anonymize_ip:true});",
-            }}
-          />
-        </>
-      )}
-    </>
-  );
-}
+      {/* WebSite schema with SearchAction — enables Google Sitelinks Search Box + LLM site context */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "@id": "https://www.backyardstudioofficial.com/#website",
+            name: "Backyard Studio Official",
+            url: "https://www.backyardstudioofficial.com",
+            description: "Dubai's best production company — video, events, weddings & social media across all 7 UAE emirates. GCAA licensed. 2,400+ projects.",
+            publisher: {
+              "@id": "https://www.backyardstudioofficial.com/#organization",
+            },
+            inLanguage: ["en", "ar", "ru", "zh"],
+            potentialAction: {
+              "@type": "SearchAction",
+              target: {
+                "@type": "EntryPoint",
+                urlTemplate: "https://www.backyardstudioofficial.com/blog?q={search_term_string}",
+              },
+   
