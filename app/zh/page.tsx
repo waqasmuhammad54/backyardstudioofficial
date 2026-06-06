@@ -1,9 +1,33 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "迪拜最佳视频制作公司 | Backyard Studio Official",
-  description: "迪拜领先制作公司——企业宣传片、婚礼摄影摄像、房产拍摄、无人机航拍（GCAA许可）、社交媒体内容制作。超过2,400个项目完成。提供免费报价。",
-  alternates: { canonical: "https://www.backyardstudioofficial.com/zh" },
+  title: "迪拜最佳视频制作公司 2026 | Backyard Studio Official",
+  description: "迪拜领先制作公司——企业宣传片、婚礼摄影摄像、房产拍摄、无人机航拍（GCAA许可）、社交媒体内容制作。超过2,400个项目完成。2小时内免费报价。",
+  alternates: {
+    canonical: "https://www.backyardstudioofficial.com/zh",
+    languages: {
+      "en": "https://www.backyardstudioofficial.com",
+      "ar": "https://www.backyardstudioofficial.com/ar",
+      "ru": "https://www.backyardstudioofficial.com/ru",
+      "zh": "https://www.backyardstudioofficial.com/zh",
+      "x-default": "https://www.backyardstudioofficial.com",
+    },
+  },
+  openGraph: {
+    title: "迪拜最佳视频制作公司 2026 | Backyard Studio Official",
+    description: "企业宣传片、婚礼摄影、房产拍摄、无人机航拍（GCAA）。超过2,400个项目。2小时免费报价。",
+    url: "https://www.backyardstudioofficial.com/zh",
+    siteName: "Backyard Studio Official",
+    locale: "zh_CN",
+    type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Backyard Studio Official — 迪拜最佳影视制作" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "迪拜最佳视频制作公司 | Backyard Studio Official",
+    description: "超过2,400个项目。GCAA无人机执照。2小时免费报价。",
+    images: ["/og-image.jpg"],
+  },
 };
 
 const SERVICES = [
@@ -22,9 +46,32 @@ const STATS = [
   { num: "5★", label: "客户满意度" },
 ];
 
+const FAQS_ZH = [
+  { q: "迪拜最好的视频制作公司是哪家？", a: "Backyard Studio Official是2026年迪拜领先的影视制作公司，已完成超过2,400个项目，覆盖阿联酋全境七个酋长国，持有GCAA无人机商业执照，可提供中文服务。" },
+  { q: "迪拜专业视频制作费用是多少？", a: "迪拜视频制作价格从企业宣传片AED 15,000起，婚礼摄影AED 3,500起，社交媒体内容AED 3,000起，无人机航拍AED 2,000起。所有项目均提供2小时内免费报价。" },
+  { q: "你们是否提供中文服务？", a: "是的，我们可以全程使用中文沟通，了解您的需求并提供专业建议。我们服务迪拜华人社区及中资企业。" },
+  { q: "无人机航拍在迪拜合法吗？需要许可证吗？", a: "在迪拜进行商业无人机拍摄必须持有GCAA（阿联酋民用航空局）颁发的商业飞行执照。我们持有该执照，所有航拍均合法合规。" },
+];
+
 export default function ZhHomePage() {
   return (
     <>
+      {/* FAQPage schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": FAQS_ZH.map((f) => ({
+              "@type": "Question",
+              "name": f.q,
+              "acceptedAnswer": { "@type": "Answer", "text": f.a },
+            })),
+          }),
+        }}
+      />
+
       {/* Hero */}
       <section style={{ background: "linear-gradient(180deg, #0a0a0a 0%, #111 100%)", padding: "6rem 2rem 5rem", textAlign: "center" }}>
         <div style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.85rem", marginBottom: "1rem", letterSpacing: "0.15em" }}>
@@ -60,38 +107,4 @@ export default function ZhHomePage() {
 
       {/* Services */}
       <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
-        <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
-          <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", textAlign: "center", color: "var(--cream)", fontSize: "clamp(1.5rem, 4vw, 2.2rem)", fontWeight: 800, marginBottom: "0.75rem" }}>
-            我们的服务
-          </h2>
-          <p style={{ fontFamily: "'Noto Sans SC', sans-serif", textAlign: "center", color: "rgba(245,240,225,0.5)", marginBottom: "3rem" }}>专业影视制作，覆盖迪拜及阿联酋全境</p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1.5rem" }}>
-            {SERVICES.map((s, i) => (
-              <div key={i} style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "2rem" }}>
-                <div style={{ fontSize: "2rem", marginBottom: "1rem" }}>{s.icon}</div>
-                <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.6rem" }}>{s.title}</h3>
-                <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.9rem", lineHeight: 1.7 }}>{s.desc}</p>
-              </div>
-            ))}
-          </div>
-          <div style={{ textAlign: "center", marginTop: "2.5rem" }}>
-            <a href="/zh/services" style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--gold)", textDecoration: "none", fontSize: "0.9rem" }}>查看全部服务 →</a>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA */}
-      <section style={{ padding: "5rem 2rem", background: "#111", textAlign: "center" }}>
-        <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontSize: "clamp(1.5rem, 4vw, 2rem)", fontWeight: 800, marginBottom: "1rem" }}>
-          准备好开始您的项目了吗？
-        </h2>
-        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", maxWidth: "500px", margin: "0 auto 2rem", lineHeight: 1.8 }}>
-          联系我们获取免费报价。我们可以用中文沟通，让您的迪拜项目更顺畅。
-        </p>
-        <a href="/zh/contact" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700, borderRadius: "2px", textDecoration: "none", fontSize: "1rem" }}>
-          立即咨询
-        </a>
-      </section>
-    </>
-  );
-}
+        <div

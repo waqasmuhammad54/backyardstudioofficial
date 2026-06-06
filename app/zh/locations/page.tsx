@@ -1,9 +1,33 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "服务地区 | 迪拜及阿联酋全境 Backyard Studio Official",
-  description: "Backyard Studio Official服务覆盖阿联酋全境：迪拜、阿布扎比、沙迦、阿治曼、哈伊马角、富吉拉、乌姆盖万。",
-  alternates: { canonical: "https://www.backyardstudioofficial.com/zh/locations" },
+  title: "服务地区 | 阿联酋七大酋长国全覆盖 — Backyard Studio Official",
+  description: "Backyard Studio Official服务覆盖阿联酋全境七个酋长国：迪拜、阿布扎比、沙迦、阿治曼、哈伊马角、富吉拉、乌姆盖万。无额外差旅费，48小时上门服务。",
+  alternates: {
+    canonical: "https://www.backyardstudioofficial.com/zh/locations",
+    languages: {
+      "en": "https://www.backyardstudioofficial.com/locations",
+      "ar": "https://www.backyardstudioofficial.com/ar/locations",
+      "ru": "https://www.backyardstudioofficial.com/ru/locations",
+      "zh": "https://www.backyardstudioofficial.com/zh/locations",
+      "x-default": "https://www.backyardstudioofficial.com/locations",
+    },
+  },
+  openGraph: {
+    title: "服务地区 | 阿联酋七大酋长国 — Backyard Studio Official",
+    description: "迪拜、阿布扎比及阿联酋全境摄影摄像服务。48小时上门，无额外差旅费。",
+    url: "https://www.backyardstudioofficial.com/zh/locations",
+    siteName: "Backyard Studio Official",
+    locale: "zh_CN",
+    type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "阿联酋摄影摄像服务地区 — Backyard Studio" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "服务地区 — 阿联酋七大酋长国",
+    description: "迪拜·阿布扎比·沙迦及全境。48小时上门服务。",
+    images: ["/og-image.jpg"],
+  },
 };
 
 const LOCATIONS = [
@@ -54,36 +78,20 @@ const LOCATIONS = [
 export default function ZhLocationsPage() {
   return (
     <>
-      <section style={{ background: "#111", padding: "4rem 2rem 3rem", textAlign: "center" }}>
-        <h1 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>
-          服务地区
-        </h1>
-        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", maxWidth: "500px", margin: "0 auto", lineHeight: 1.8 }}>
-          覆盖阿联酋全境七个酋长国，随时为您提供专业摄影摄像服务。
-        </p>
-      </section>
-
-      <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1.5rem" }}>
-          {LOCATIONS.map((loc) => (
-            <div key={loc.city} style={{ background: "#111", border: "1px solid rgba(212,175,55,0.15)", borderRadius: "4px", padding: "1.75rem" }}>
-              <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>{loc.icon}</div>
-              <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.125rem", marginBottom: "0.25rem" }}>{loc.city}</h2>
-              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(212,175,55,0.6)", fontSize: "0.8rem", marginBottom: "0.75rem" }}>{loc.en}</p>
-              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.65)", lineHeight: 1.8, fontSize: "0.875rem" }}>{loc.desc}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section style={{ background: "#111", padding: "4rem 2rem", textAlign: "center" }}>
-        <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "1.25rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1rem" }}>
-          您的项目在哪里？我们来找您
-        </h2>
-        <a href="/zh/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700 }}>
-          预约上门拍摄
-        </a>
-      </section>
-    </>
-  );
-}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://www.backyardstudioofficial.com/zh" },
+          { "@type": "ListItem", "position": 2, "name": "服务地区", "item": "https://www.backyardstudioofficial.com/zh/locations" },
+        ],
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "ItemList",
+        "name": "阿联酋摄影摄像服务地区 — Backyard Studio Official",
+        "itemListElement": LOCATIONS.map((loc, i) => ({
+          "@type": "ListItem", "position": i + 1,
+          "name": `${loc.city} (${loc.en})`,
+          "url": `https://www.backyardstudioofficial.com/locations/${loc.en.toLowerCase().replace(/ /g, "-")}`,
+        })),
+      }) }} />
+      <section style={{ background: "#111", padding: "4rem 

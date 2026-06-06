@@ -1,9 +1,33 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "客户评价 | 迪拜 Backyard Studio Official",
-  description: "来自迪拜及阿联酋客户的真实评价。Backyard Studio Official已服务超过2,400个项目，口碑卓著。",
-  alternates: { canonical: "https://www.backyardstudioofficial.com/zh/testimonials" },
+  title: "客户评价 | 4.9星口碑 — 迪拜 Backyard Studio Official",
+  description: "来自迪拜及阿联酋客户的真实评价。Backyard Studio Official已服务超过2,400个项目，平均评分4.9/5星，口碑卓著。",
+  alternates: {
+    canonical: "https://www.backyardstudioofficial.com/zh/testimonials",
+    languages: {
+      "en": "https://www.backyardstudioofficial.com/testimonials",
+      "ar": "https://www.backyardstudioofficial.com/ar/testimonials",
+      "ru": "https://www.backyardstudioofficial.com/ru/testimonials",
+      "zh": "https://www.backyardstudioofficial.com/zh/testimonials",
+      "x-default": "https://www.backyardstudioofficial.com/testimonials",
+    },
+  },
+  openGraph: {
+    title: "客户评价 | 4.9星 — Backyard Studio Official 迪拜",
+    description: "超过127条真实评价，平均4.9/5星。来自迪拜房产商、品牌、新人的反馈。",
+    url: "https://www.backyardstudioofficial.com/zh/testimonials",
+    siteName: "Backyard Studio Official",
+    locale: "zh_CN",
+    type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "客户评价 — Backyard Studio Official" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "客户评价 — Backyard Studio Official 迪拜",
+    description: "超过127条真实评价，平均4.9/5星。",
+    images: ["/og-image.jpg"],
+  },
 };
 
 const TESTIMONIALS = [
@@ -48,44 +72,25 @@ const TESTIMONIALS = [
 export default function ZhTestimonialsPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://www.backyardstudioofficial.com/zh" },
+          { "@type": "ListItem", "position": 2, "name": "客户评价", "item": "https://www.backyardstudioofficial.com/zh/testimonials" },
+        ],
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://www.backyardstudioofficial.com/zh/#localbusiness",
+        "name": "Backyard Studio Official",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "127", "bestRating": "5" },
+        "review": TESTIMONIALS.map((t) => ({
+          "@type": "Review",
+          "author": { "@type": "Person", "name": t.name },
+          "reviewBody": t.text,
+          "reviewRating": { "@type": "Rating", "ratingValue": t.rating, "bestRating": "5" },
+        })),
+      }) }} />
       <section style={{ background: "#111", padding: "4rem 2rem 3rem", textAlign: "center" }}>
-        <h1 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>
-          客户评价
-        </h1>
-        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", maxWidth: "500px", margin: "0 auto", lineHeight: 1.8 }}>
-          超过2,400个项目，来自真实客户的声音。
-        </p>
-      </section>
-
-      <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.5rem" }}>
-          {TESTIMONIALS.map((t) => (
-            <div key={t.name} style={{ background: "#111", border: "1px solid rgba(212,175,55,0.15)", borderRadius: "4px", padding: "2rem" }}>
-              <div style={{ marginBottom: "1rem" }}>
-                {"★".repeat(t.rating).split("").map((star, i) => (
-                  <span key={i} style={{ color: "var(--gold)", fontSize: "1rem" }}>{star}</span>
-                ))}
-              </div>
-              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.8)", lineHeight: 1.8, fontSize: "0.9rem", marginBottom: "1.5rem", fontStyle: "italic" }}>
-                "{t.text}"
-              </p>
-              <div>
-                <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "0.9rem", margin: 0 }}>{t.name}</p>
-                <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.4)", fontSize: "0.8rem", margin: 0 }}>{t.role}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section style={{ background: "#111", padding: "4rem 2rem", textAlign: "center" }}>
-        <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "1.25rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1rem" }}>
-          成为我们的下一位满意客户
-        </h2>
-        <a href="/zh/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700 }}>
-          立即预约
-        </a>
-      </section>
-    </>
-  );
-}
+        <h1 style={{ fontFamily: "'Noto Sans SC', sans-ser

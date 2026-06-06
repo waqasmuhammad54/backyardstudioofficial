@@ -20,12 +20,23 @@ export const metadata: Metadata = {
       "ar": "https://www.backyardstudioofficial.com/ar",
       "ru": "https://www.backyardstudioofficial.com/ru",
       "zh": "https://www.backyardstudioofficial.com/zh",
+      "x-default": "https://www.backyardstudioofficial.com",
     },
   },
   openGraph: {
+    title: "迪拜最佳影视制作公司 | Backyard Studio Official",
+    description: "迪拜及阿联酋领先的影视制作公司。超过2,400个项目。GCAA无人机商业执照。2小时内免费报价。",
+    url: "https://www.backyardstudioofficial.com/zh",
     locale: "zh_CN",
+    type: "website",
     siteName: "Backyard Studio Official",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Backyard Studio Official — 迪拜影视制作" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "迪拜最佳影视制作公司 | Backyard Studio Official",
+    description: "迪拜领先制作公司。超过2,400个项目。GCAA执照。",
+    images: ["/og-image.jpg"],
   },
   robots: { index: true, follow: true },
 };
@@ -108,28 +119,11 @@ export default function ChineseLayout({ children }: { children: React.ReactNode 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
+        "@id": "https://www.backyardstudioofficial.com/zh/#localbusiness",
         "name": "Backyard Studio Official",
+        "alternateName": "巴克亚德工作室",
         "url": "https://www.backyardstudioofficial.com/zh",
         "telephone": "+971585882685",
         "email": "info@backyardstudioofficial.com",
-        "address": { "@type": "PostalAddress", "addressLocality": "迪拜", "addressCountry": "AE" },
-        "description": "迪拜专业影视制作公司。企业视频、婚礼摄影、无人机航拍、社交媒体内容。",
-      }) }} />
-
-      <div style={{ fontFamily: "'Noto Sans SC', sans-serif", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
-        <ZhNavbar />
-        <main style={{ flex: 1, paddingTop: "80px" }}>{children}</main>
-        <ZhFooter />
-      </div>
-
-      <WhatsAppButton />
-
-      {GA_ID && (
-        <>
-          <Script src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID} strategy="afterInteractive" />
-          <Script id="ga4-zh" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}',{page_path:window.location.pathname,anonymize_ip:true});` }} />
-        </>
-      )}
-    </>
-  );
-}
+        "address": { "@type": "PostalAddress", "addressLocality": "迪拜", "addressRegion": "Dubai", "addressCountry": "AE" },
+        "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujai

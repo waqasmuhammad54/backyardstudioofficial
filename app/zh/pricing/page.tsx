@@ -1,9 +1,33 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "摄影摄像价格表 | 迪拜 Backyard Studio Official",
-  description: "迪拜及阿联酋摄影摄像服务价格。婚礼摄影起价AED 3,500，企业视频起价AED 15,000，活动拍摄起价AED 3,500。免费报价，2小时内回复。",
-  alternates: { canonical: "https://www.backyardstudioofficial.com/zh/pricing" },
+  title: "摄影摄像价格表 2026 | 迪拜 Backyard Studio Official",
+  description: "迪拜及阿联酋摄影摄像服务价格2026。婚礼摄影起价AED 3,500，企业视频起价AED 15,000，无人机航拍起价AED 2,000。免费报价，2小时内回复。",
+  alternates: {
+    canonical: "https://www.backyardstudioofficial.com/zh/pricing",
+    languages: {
+      "en": "https://www.backyardstudioofficial.com/pricing",
+      "ar": "https://www.backyardstudioofficial.com/ar/pricing",
+      "ru": "https://www.backyardstudioofficial.com/ru/pricing",
+      "zh": "https://www.backyardstudioofficial.com/zh/pricing",
+      "x-default": "https://www.backyardstudioofficial.com/pricing",
+    },
+  },
+  openGraph: {
+    title: "摄影摄像价格表 2026 — 迪拜 | Backyard Studio Official",
+    description: "透明定价：婚礼AED 3,500起，企业视频AED 15,000起，无人机AED 2,000起。2小时免费报价。",
+    url: "https://www.backyardstudioofficial.com/zh/pricing",
+    siteName: "Backyard Studio Official",
+    locale: "zh_CN",
+    type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Backyard Studio Official 价格表 — 迪拜" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "摄影摄像价格表 2026 — 迪拜",
+    description: "婚礼AED 3,500起·企业视频AED 15,000起·无人机AED 2,000起",
+    images: ["/og-image.jpg"],
+  },
 };
 
 const PACKAGES = [
@@ -43,6 +67,13 @@ const PACKAGES = [
 export default function ZhPricingPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://www.backyardstudioofficial.com/zh" },
+          { "@type": "ListItem", "position": 2, "name": "价格", "item": "https://www.backyardstudioofficial.com/zh/pricing" },
+        ],
+      }) }} />
       <section style={{ background: "#111", padding: "4rem 2rem 3rem", textAlign: "center" }}>
         <h1 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>
           服务报价
@@ -69,31 +100,4 @@ export default function ZhPricingPage() {
               <div style={{ color: "var(--gold)", fontSize: "1.75rem", fontWeight: 900, marginBottom: "1.25rem", fontFamily: "'Noto Sans SC', sans-serif" }}>{pkg.price}</div>
               <ul style={{ listStyle: "none", padding: 0, margin: "0 0 1.5rem" }}>
                 {pkg.features.map((f) => (
-                  <li key={f} style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", fontSize: "0.875rem", marginBottom: "0.5rem", paddingLeft: "1.2rem", position: "relative" }}>
-                    <span style={{ position: "absolute", left: 0, color: "var(--gold)" }}>✓</span>
-                    {f}
-                  </li>
-                ))}
-              </ul>
-              <a href="/zh/contact" style={{ display: "block", textAlign: "center", background: pkg.highlight ? "var(--gold)" : "transparent", color: pkg.highlight ? "#000" : "var(--gold)", border: "1px solid var(--gold)", padding: "0.7rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700, fontSize: "0.9rem" }}>
-                获取报价
-              </a>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section style={{ background: "#111", padding: "4rem 2rem", textAlign: "center" }}>
-        <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "1.25rem", fontWeight: 700, color: "var(--cream)", marginBottom: "0.75rem" }}>
-          有定制需求？
-        </h2>
-        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", marginBottom: "1.5rem" }}>
-          我们为每个项目提供专属方案。联系我们，2小时内回复。
-        </p>
-        <a href="/zh/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700 }}>
-          免费咨询
-        </a>
-      </section>
-    </>
-  );
-}
+                  <li key={f} style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)",
