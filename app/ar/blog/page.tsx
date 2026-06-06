@@ -59,6 +59,44 @@ const BLOG_POSTS_AR = [
     href: "/blog/hotel-photography-dubai-2026",
     date: "مايو 2026",
   },
+  {
+    title: "تصوير حفلات الزفاف الإماراتية في دبي 2026",
+    desc: "خبرة متخصصة في أعراس الخليج الإماراتية — الحناء، الصبحة، فريق عربي يفهم الخصوصية الثقافية. من AED 8,000.",
+    href: "/ar/blog/taswir-zifaf-emirati-dubai-2026",
+    date: "يونيو 2026",
+    featured: true,
+  },
+  {
+    title: "تصوير حفلات الزفاف العربية في دبي 2026",
+    desc: "لبنانية، خليجية، مصرية — فريق عربي يفهم كل ثقافة ويوثّق كل لحظة بعيون تعرف معناها. من AED 6,000.",
+    href: "/ar/blog/taswir-zifaf-arabi-dubai-2026",
+    date: "يونيو 2026",
+    featured: true,
+  },
+  {
+    title: "تصوير الطعام في دبي 2026 — للمطاعم والعلامات التجارية",
+    desc: "صور الطعام الاحترافية ترفع مبيعات المطاعم وتُحسّن أداء منصات التوصيل. أسعار تبدأ من AED 1,500.",
+    href: "/ar/blog/taswir-taaam-dubai-2026",
+    date: "يونيو 2026",
+  },
+  {
+    title: "تصوير المؤتمرات والفعاليات في دبي 2026",
+    desc: "تغطية DWTC وMadinat وAtlantis. هايلايت سوشيال بنفس اليوم. إطلاق منتجات، معارض، حفلات شركات.",
+    href: "/ar/blog/taswir-muatamart-dubai-2026",
+    date: "يونيو 2026",
+  },
+  {
+    title: "تصوير فيديو الفعاليات في دبي 2026",
+    desc: "هايلايت جاهز للنشر في ساعات، كاميرات متعددة، لقطات جوية GCAA. من AED 3,500.",
+    href: "/ar/blog/tasjil-video-faaliyat-dubai-2026",
+    date: "يونيو 2026",
+  },
+  {
+    title: "إنتاج كليب موسيقي في دبي 2026",
+    desc: "رؤية إخراجية سينمائية للفنانين العرب والخليجيين. معالجة Treatment + تصاريح + تدرج لوني. من AED 8,000.",
+    href: "/ar/blog/intaj-klip-musiqi-dubai-2026",
+    date: "يونيو 2026",
+  },
 ];
 
 export default function ArBlogPage() {

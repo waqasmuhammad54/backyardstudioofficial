@@ -2102,6 +2102,258 @@ export const BLOG_POSTS: BlogPost[] = [
 
 ];
 
+  // ─── TIER 2: WEDDING NICHE POSTS ───────────────────────────────────────────
+
+  {
+    slug: "pakistani-wedding-photographer-dubai-2026",
+    title: "Pakistani Wedding Photographer Dubai 2026 — Shadi, Walima & Mehndi Coverage",
+    metaTitle: "Pakistani Wedding Photographer Dubai | Backyard Studio",
+    metaDescription: "Pakistani wedding photographer Dubai from AED 6,500. Mehndi, Nikah, Baraat & Walima coverage. Urdu-speaking crew, GCAA drone licence. Free quote.",
+    keywords: ["Pakistani wedding photographer Dubai", "Pakistani wedding photography Dubai", "shadi photographer Dubai", "walima photographer Dubai", "mehndi photographer Dubai", "Pakistani wedding videographer Dubai"],
+    category: "Wedding Photography",
+    date: "June 6, 2026",
+    dateISO: "2026-06-06",
+    readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80",
+    excerpt: "Dubai is home to over 400,000 Pakistanis — one of the largest diaspora communities in the UAE. Pakistani weddings here blend South Asian tradition with Dubai's luxury venues: multi-day celebrations, elaborate Mehndi nights, grand Baraat processions, and Walima banquets that fill five-star ballrooms.",
+    author: "Fahad Iqbal Butt",
+    faqs: [
+      { question: "How much does a Pakistani wedding photographer cost in Dubai?", answer: "Pakistani wedding photography in Dubai starts at AED 6,500 for single-event coverage (Nikah or Walima). Full multi-day packages covering Mehndi, Nikah, Baraat, and Walima with cinematic videography range from AED 16,000 to AED 40,000. Backyard Studio provides detailed quotes based on the number of events, guest count, and venue." },
+      { question: "Do you cover all events of a Pakistani wedding in Dubai?", answer: "Yes. We cover the complete Pakistani wedding sequence: Dholki and Mehndi night, Nikah ceremony, Baraat procession, Reception, and Walima. Our packages are designed around the multi-day format standard to Pakistani weddings in Dubai." },
+      { question: "Do you have Urdu-speaking photographers?", answer: "Yes. Fahad Iqbal Butt and our core team are Urdu speakers. This makes communication with families, guests, and vendors significantly smoother — and means we understand the cultural context of every moment we are photographing." },
+      { question: "Which Dubai venues are best for Pakistani weddings?", answer: "Popular venues for Pakistani weddings in Dubai include Atlantis The Palm, JW Marriott Marquis, The Ritz-Carlton DIFC, Jumeirah Beach Hotel, and the Grand Hyatt. We have photographed events at all of these and know each venue's lighting and layout in detail." },
+      { question: "Do you offer same-day highlight reels for Pakistani weddings?", answer: "Yes. We offer same-day highlight reels as an add-on — a 90-second edit delivered within hours of the event closing, ideal for sharing on family WhatsApp groups and social media the same night." },
+    ],
+    relatedSlugs: ["indian-wedding-photographer-dubai-2026", "arabic-wedding-photography-dubai-2026", "emirati-wedding-photography-dubai-2026"],
+    content: `
+<h2>Why Pakistani Weddings in Dubai Are Unlike Anywhere Else</h2>
+<p>Over 400,000 Pakistanis live in Dubai — roughly 13% of the city's population — making it one of the largest Pakistani communities in the world outside Pakistan itself. When Pakistani families in Dubai celebrate a wedding, they do not scale back. They celebrate with the same extended-family grandeur as back home, but in venues that match Dubai's ambition: ballrooms at the Atlantis, garden terraces at the Ritz-Carlton JBR, and banquet halls that seat 800 guests with ease.</p>
+<p>Photographing a Pakistani wedding in Dubai is a full production in itself. Mehndi night is often as large as a Western wedding reception. Baraat processions bring out cousins from London, siblings from Toronto, and in-laws from Lahore — sometimes 200 people who need to be in the same frame without looking like a crowd. Walima the following day requires its own visual narrative. Fahad Iqbal Butt has photographed over 300 Pakistani weddings in Dubai since Backyard Studio was founded, and that experience is impossible to fake.</p>
+
+<h2>What a Pakistani Wedding Package With Backyard Studio Covers</h2>
+<p>Our standard multi-day Pakistani wedding package includes Mehndi night photography and videography, the Nikah ceremony, full Baraat coverage including procession and arrival, Reception, and Walima. We work with a team of at least two photographers and one videographer for multi-day events to ensure every simultaneous moment — the groom's arrival while the bride is being photographed, the children dancing while the family is on the stage — is covered.</p>
+<p>Drone aerials with our GCAA licence add a dimension that is especially powerful for outdoor Baraat processions — a top-down shot of the procession approaching the venue, with the Dubai skyline behind, is an image that guests share for years. We coordinate all venue permissions for drone use so the family does not need to manage that separately.</p>
+
+<h2>Mehndi Night Photography — Getting the Detail Right</h2>
+<p>Mehndi nights deserve serious photographic attention. The intricate henna patterns on the bride's hands, the circle of women singing, the moment the groom's mother applies the first mehndi — these are images that carry enormous emotional weight for Pakistani families. We bring macro lenses specifically for mehndi detail shots. Syed Mazhar Zaidi's videography team captures the musical performances and group dances in a way that feels alive rather than staged.</p>
+<p>Lighting at Mehndi nights is often warm and decorative — fairy lights, candles, coloured stage lighting. This is precisely where inexperienced photographers struggle, and where our team's experience in low-available-light photography makes a visible difference in the final album.</p>
+
+<h2>Dubai Venues We Know for Pakistani Weddings</h2>
+<p>Atlantis The Palm, Jumeirah Beach Hotel, JW Marriott Marquis, Grand Hyatt Dubai, Sofitel Downtown, Conrad Dubai, Waldorf Astoria DIFC, The Ritz-Carlton JBR — we have photographed Pakistani weddings in all of them. We know where the natural light is best at 7pm, which banquet halls have difficult overhead lighting that needs supplementing, and where the Baraat procession route gives the best aerial drone shot. This institutional knowledge is part of what you hire when you work with us.</p>
+
+<h2>How Much Does Pakistani Wedding Photography in Dubai Cost?</h2>
+<p><strong>AED 6,500–10,000:</strong> Single event (Walima or Nikah only) — one photographer, full coverage, edited album within 21 days.</p>
+<p><strong>AED 16,000–25,000:</strong> Two-event package (e.g., Mehndi + Walima) — two photographers, videographer, same-day highlight reel, 5-minute cinematic film.</p>
+<p><strong>AED 25,000–40,000:</strong> Full multi-day package — Mehndi, Nikah, Baraat, Walima — full crew, drone aerials, cinematic film, printed album, same-day highlights.</p>
+<p>All packages include a pre-wedding consultation, detailed event timeline, and post-production within the agreed window. Contact Fahad Iqbal Butt directly on WhatsApp for a custom quote based on your specific events and venue.</p>
+    `,
+  },
+
+  {
+    slug: "indian-wedding-photographer-dubai-2026",
+    title: "Indian Wedding Photographer Dubai 2026 — Hindu, Sikh & South Indian Coverage",
+    metaTitle: "Indian Wedding Photographer Dubai | Backyard Studio",
+    metaDescription: "Indian wedding photographer Dubai from AED 7,000. Hindu, Sikh & South Indian ceremonies. Multi-day coverage, GCAA drone licence. Bollywood-style reels available.",
+    keywords: ["Indian wedding photographer Dubai", "Indian wedding photography Dubai", "Hindu wedding photographer Dubai", "Sikh wedding photographer Dubai", "South Indian wedding Dubai", "Indian wedding videographer Dubai"],
+    category: "Wedding Photography",
+    date: "June 6, 2026",
+    dateISO: "2026-06-06",
+    readTime: "9 min",
+    image: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=1200&q=80",
+    excerpt: "Indians are the largest expat community in Dubai — over 3.5 million people from every state, religion, and tradition. A Gujarati Hindu wedding, a Punjabi Sikh Anand Karaj, a Tamil Brahmin ceremony, a Malayali Christian wedding — each is visually and culturally distinct, and each demands a photographer who understands the difference.",
+    author: "Fahad Iqbal Butt",
+    faqs: [
+      { question: "How much does an Indian wedding photographer cost in Dubai?", answer: "Indian wedding photography in Dubai starts at AED 7,000 for single-ceremony coverage. Full multi-day Hindu or Sikh wedding packages with videography, drone aerials, and cinematic film range from AED 18,000 to AED 45,000 depending on the number of ceremonies, guest count, and venue." },
+      { question: "Do you cover Hindu, Sikh, and South Indian weddings?", answer: "Yes. We have extensive experience with Hindu weddings (Gujarati, Punjabi, Marathi, Rajasthani), Sikh Anand Karaj ceremonies, Tamil and Malayali South Indian weddings, and cross-religious and cross-cultural Indian weddings. Each has distinct ceremonies and visual rhythms that we understand and know how to capture." },
+      { question: "Can you shoot Bollywood-style reels for our wedding?", answer: "Yes. We produce Bollywood-influenced cinematic reels — slow-motion entries, dramatic colour grades, choreographed sequences — as part of our premium wedding video packages. These are extremely popular for social sharing and have been viewed millions of times across our clients' accounts." },
+      { question: "Which Dubai venues host Indian weddings?", answer: "Popular Indian wedding venues in Dubai include Atlantis The Palm, Jumeirah Al Qasr, The Oberoi, Grand Hyatt, Sofitel The Palm, and the World Trade Club. We have full location knowledge and lighting notes for all major venues." },
+      { question: "How far in advance should we book for an Indian wedding?", answer: "For multi-day Indian weddings in Dubai's peak season (October to March), we recommend booking 8–12 months in advance. Large Sikh and Hindu weddings with 300+ guests tend to have complex logistics that benefit from early engagement with the photography team." },
+    ],
+    relatedSlugs: ["pakistani-wedding-photographer-dubai-2026", "desi-wedding-photographer-dubai-2026", "emirati-wedding-photography-dubai-2026"],
+    content: `
+<h2>Photographing the Most Visually Rich Weddings in Dubai</h2>
+<p>Indians are the largest expat community in Dubai — over 3.5 million people who between them represent every state, every religion, and every wedding tradition on the subcontinent. A Gujarati Hindu wedding in Dubai looks nothing like a Tamil Brahmin ceremony, which is entirely different from a Punjabi Sikh Anand Karaj, which in turn has its own visual world compared to a Malayali Christian wedding or a Hyderabadi Muslim nikah. Each has distinct colours, distinct rituals, distinct lighting conditions, and distinct emotional peaks that a good photographer needs to anticipate and be ready for.</p>
+<p>Backyard Studio has photographed over 450 Indian weddings in Dubai. That is not a generic number — it means we have spent time understanding the specific visual grammar of each community's celebrations, the moment in each ceremony that carries the most emotional weight, and the logistical realities of photographing in the venues where Dubai's Indian community celebrates its most important occasions.</p>
+
+<h2>Hindu Wedding Photography in Dubai — Mandap, Rituals and Colour</h2>
+<p>Hindu weddings are visually extravagant in ways that reward preparation. The mandap is often the most elaborately decorated structure in the venue — but it is also typically the most challenging lighting environment, with spot uplighting, candle flames, and warm decorative LEDs creating a multi-source scene that requires careful white balance management. We bring dedicated lighting setups to supplement mandap coverage because the standard venue lighting almost always needs support.</p>
+<p>Key moments we anticipate and position for: the bride's entry, Jaimala (garland exchange), Saptapadi (the seven steps), Mangalsutra tying, Sindoor ceremony, and the family group photographs that follow. We document the pre-ceremony getting-ready moments — the bride's makeup and jewellery, the haldi ceremony, mehndi application — with the same attention as the main event, because for many families these are the images they return to most often.</p>
+
+<h2>Sikh Wedding Photography — Anand Karaj at the Gurudwara and Beyond</h2>
+<p>Sikh Anand Karaj ceremonies in Dubai present a specific photographic challenge: the Gurudwara environment requires respectful, quiet photography with head covered, and the golden light of the Darbar Hall is both beautiful and technically demanding. Our team is experienced in this environment. We know how to move without disrupting the ceremony, which moments in the four Lavans (rounds) carry the most meaning, and how to work with the natural light in Dubai's main Gurudwara in Bur Dubai.</p>
+<p>Outside the Gurudwara, the reception celebrations for Sikh weddings in Dubai tend to be very large and very energetic. Bhangra, live music, and the full energy of a Punjabi celebration — we capture it all.</p>
+
+<h2>South Indian Wedding Photography — Intricate, Precise, and Beautiful</h2>
+<p>South Indian weddings — Tamil, Malayali, Telugu, Kannada — have ritual sequences that move quickly and require advance knowledge to photograph well. The Kashi Yatra, the exchange of garlands, the tying of the Thali (Mangalsutra), and the specific post-ceremony moments all happen in rapid succession. Our team prepares a ceremony timeline for every South Indian wedding we photograph so we are always in the right position before each moment begins, not chasing it after it is already over.</p>
+
+<h2>Bollywood-Style Wedding Reels for Social Media</h2>
+<p>One of the most-requested services for Indian weddings in Dubai is what families call "Bollywood reels" — cinematic video sequences with slow motion, dramatic colour grading, and carefully choreographed couple sequences, edited to the couple's favourite songs. These are produced as part of our premium video packages and typically run 3–5 minutes. They are consistently the most shared content from any wedding — the format that turns a private celebration into something the whole extended family watches and forwards across continents.</p>
+
+<h2>Indian Wedding Photography Pricing in Dubai 2026</h2>
+<p><strong>AED 7,000–12,000:</strong> Single-ceremony coverage (Nikah/Anand Karaj/Reception) with one photographer and edited album.</p>
+<p><strong>AED 18,000–30,000:</strong> Two-day package with two photographers, videographer, cinematic film, and drone aerials.</p>
+<p><strong>AED 30,000–45,000:</strong> Full multi-day package covering all pre-wedding functions, main ceremony, and reception — full crew, Bollywood-style reel, drone, same-day highlights, and printed album.</p>
+    `,
+  },
+
+  {
+    slug: "desi-wedding-photographer-dubai-2026",
+    title: "Desi Wedding Photographer Dubai 2026 — Pakistani & Indian Wedding Specialists",
+    metaTitle: "Desi Wedding Photographer Dubai | Backyard Studio",
+    metaDescription: "Desi wedding photographer Dubai from AED 6,500. Pakistani, Indian & South Asian weddings. Urdu-Hindi crew, multi-day packages, GCAA drone licence. Free quote.",
+    keywords: ["desi wedding photographer Dubai", "desi wedding photography Dubai", "South Asian wedding photographer Dubai", "desi wedding videographer Dubai", "Pakistani Indian wedding Dubai", "Asian wedding photographer Dubai"],
+    category: "Wedding Photography",
+    date: "June 6, 2026",
+    dateISO: "2026-06-06",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=1200&q=80",
+    excerpt: "Dubai's South Asian community — Pakistani, Indian, Bangladeshi, Sri Lankan — numbers well over four million people. Desi weddings in Dubai combine the full traditional ceremony format with the city's luxury venue landscape, producing celebrations that are both culturally rooted and visually spectacular.",
+    author: "Fahad Iqbal Butt",
+    faqs: [
+      { question: "What is a desi wedding photographer in Dubai?", answer: "A desi wedding photographer specialises in South Asian (Pakistani, Indian, Bangladeshi, Sri Lankan) weddings — understanding the multi-day format, specific ceremonies like Mehndi, Dholki, Baraat, Nikah, Walima, Sangeet, and the cultural visual cues that make each moment meaningful. Backyard Studio's core team is South Asian and has photographed over 750 desi weddings in Dubai." },
+      { question: "How much does a desi wedding photographer cost in Dubai?", answer: "Desi wedding photography in Dubai starts at AED 6,500 for single-event coverage. Full multi-day packages including all pre-wedding functions, main ceremony, and reception with videography and drone start at AED 16,000 and go up to AED 40,000 for large full-production packages." },
+      { question: "Do you speak Urdu and Hindi?", answer: "Yes. Fahad Iqbal Butt and our core photographers are Urdu and Hindi speakers. Working in the same language as the family makes the day smoother — from understanding venue instructions to directing family group shots without misunderstandings." },
+      { question: "Can you coordinate with desi wedding vendors in Dubai?", answer: "Absolutely. We have worked with Dubai's leading desi wedding decorators, caterers, DJs, and stage designers. We understand how to coordinate with large desi wedding vendor teams and how to photograph décor like stage backdrops, flower arrangements, and entry arches in the way that makes them look their best." },
+    ],
+    relatedSlugs: ["pakistani-wedding-photographer-dubai-2026", "indian-wedding-photographer-dubai-2026", "arabic-wedding-photography-dubai-2026"],
+    content: `
+<h2>Dubai's Desi Wedding Scene — Scale, Colour, and Celebration</h2>
+<p>The term "desi" covers a world of diversity — Pakistani, Indian, Bangladeshi, Sri Lankan, and the many regional and religious variations within each. What unites desi weddings in Dubai is their scale and colour. Families that have built businesses in the UAE over decades or generations celebrate with a generosity that fills the largest ballrooms in the city. Five-day celebrations are not unusual. Guest lists of 600 are common. Stage sets that cost more than the catering are standard in the premium tier.</p>
+<p>Photographing this environment requires a specific kind of preparation. The shoot days are long — 14-hour days from getting-ready through to the last dance. The lighting conditions change radically between morning haldi ceremonies in natural light and evening receptions under dramatic stage lighting. The family dynamics are complex: parents, in-laws, multiple sets of siblings, children running freely, and elderly grandparents who need to be photographed with care and respect. Fahad Iqbal Butt has been doing this for years. The experience is in every frame.</p>
+
+<h2>The Full Desi Wedding Timeline We Cover</h2>
+<p>Dholki and early celebrations mark the first stages of the wedding week. Mehndi night — often one of the most photographed events — combines elaborate henna application, musical performances, and the kind of women-only celebrations that require a female photographer for portions of the coverage. Baraat is the theatrical peak: the groom's procession, the dhol players, the entrance into the venue. Nikah or wedding ceremony is the moment of legal and spiritual union. Reception is the combined celebration. Walima is the hosting by the groom's family.</p>
+<p>Our packages are designed to cover this full sequence. We do not offer "desi wedding packages" that are actually just reception coverage with a Mehndi add-on — we understand the complete event structure and price accordingly.</p>
+
+<h2>What Separates Good Desi Wedding Photography From Great</h2>
+<p>It is anticipation. Desi weddings move fast, emotions run high, and family members are in motion constantly. The best desi wedding images happen in the gaps between the planned moments — the father watching his daughter descend the stairs before she sees him, the bride and her best friend laughing about something in the corner of the room, the groom's hands shaking slightly during the Nikah. These are not staged. A photographer who is waiting for the next scheduled shot misses all of them. Our team is always moving, always watching, and always knowing which way to face before the moment happens.</p>
+
+<h2>South Asian Wedding Photography Pricing Dubai 2026</h2>
+<p><strong>AED 6,500–10,000:</strong> Single event coverage — Walima, Nikah, or Reception. One photographer plus assistant. Full edited album in 21 days.</p>
+<p><strong>AED 16,000–26,000:</strong> Two-day package (e.g., Mehndi + Reception) — two photographers, videographer, same-day highlight, cinematic film.</p>
+<p><strong>AED 26,000–40,000:</strong> Full wedding week package — all functions from Dholki through Walima. Full crew, drone, printed album, cinematic film, same-day highlights.</p>
+    `,
+  },
+
+  {
+    slug: "moroccan-wedding-photographer-dubai-2026",
+    title: "Moroccan Wedding Photographer Dubai 2026 — Authentic Amazigh Tradition",
+    metaTitle: "Moroccan Wedding Photographer Dubai | Backyard Studio",
+    metaDescription: "Moroccan wedding photographer Dubai from AED 7,500. Amazigh traditions, Amaria chair, Caftan & Takchita coverage. Arabic-speaking crew. Free quote.",
+    keywords: ["Moroccan wedding photographer Dubai", "Moroccan wedding photography Dubai", "North African wedding photographer Dubai", "Moroccan wedding videographer Dubai", "Arabic wedding photographer Dubai"],
+    category: "Wedding Photography",
+    date: "June 6, 2026",
+    dateISO: "2026-06-06",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=1200&q=80",
+    excerpt: "Moroccan weddings are among the most visually complex celebrations in the Arab world — multiple outfit changes, the dramatic Amaria ceremony, Amazigh Berber traditions, days of celebration. Dubai's Moroccan community brings all of this to the city's luxury venues.",
+    author: "Fahad Iqbal Butt",
+    faqs: [
+      { question: "How much does a Moroccan wedding photographer cost in Dubai?", answer: "Moroccan wedding photography in Dubai starts at AED 7,500 for a single-day event. Full multi-day Moroccan wedding packages with multiple outfit changes, Amaria ceremony coverage, and cinematic videography range from AED 18,000 to AED 38,000." },
+      { question: "Do you understand the Moroccan wedding outfit change sequence?", answer: "Yes. We are familiar with the complete Moroccan bridal outfit sequence — Caftan, Takchita, and the multiple look changes that can number 4–7 across a wedding night. We work with a dedicated second photographer to ensure every outfit is fully documented in the brief window each change allows." },
+      { question: "Can you capture the Amaria ceremony?", answer: "Yes. The Amaria — where the bride is carried on an ornate palanquin to the beat of Gnawa music — is one of the most visually extraordinary moments in any wedding tradition. We position specifically for this ceremony with wide establishing shots, tight detail shots, and the video team capturing the full atmosphere." },
+      { question: "Do you photograph Moroccan weddings in the Arab and Amazigh tradition?", answer: "Yes. Our Arabic-speaking team is familiar with both urban Moroccan wedding traditions and Amazigh Berber ceremonies. We understand the specific ritual sequence, the music, and the family dynamics that shape each celebration." },
+    ],
+    relatedSlugs: ["arabic-wedding-photography-dubai-2026", "emirati-wedding-photography-dubai-2026", "russian-wedding-photographer-dubai-2026"],
+    content: `
+<h2>Moroccan Weddings in Dubai — A Visual World of Their Own</h2>
+<p>Moroccan weddings are extraordinary to photograph — and genuinely demanding. A traditional Moroccan wedding in Dubai can involve 4–7 complete bridal outfit changes across a single night, the Amaria ceremony where the bride is carried on an ornate palanquin, the Gnawa music that fills the room with percussion and call-and-response, the Henna night with its specific ritual sequence, and multi-day celebrations that rival the scale of any South Asian wedding in the city.</p>
+<p>The Moroccan community in Dubai is concentrated mainly in Jumeirah, Bur Dubai, and the DIFC area, and brings with it a wedding culture deeply connected to both urban Moroccan tradition and the Amazigh Berber heritage that shapes much of Moroccan identity. Backyard Studio's Arabic-speaking team has photographed Moroccan weddings in Dubai for years. Fahad Iqbal Butt understands the celebration's visual rhythm in a way that makes a significant difference to how the wedding is documented.</p>
+
+<h2>The Moroccan Bridal Outfit Sequence — Why It Requires Two Photographers</h2>
+<p>No other wedding tradition in Dubai involves as many outfit changes as a Moroccan celebration. The bridal sequence typically begins with the Caftan — an elaborate embroidered garment in a celebratory colour — followed by the Takchita for the main ceremony, then further changes as the night progresses. Each change is a complete visual event: different jewellery, different shoes, different headdress, often a different throne or chair setting on stage.</p>
+<p>With 15–20 minutes for each outfit change and the full room watching, there is no time for a single photographer to manage both detail shots of the outfit and environmental portraits. We always deploy two photographers at Moroccan weddings for exactly this reason.</p>
+
+<h2>The Amaria — Photography for an Unmissable Moment</h2>
+<p>The Amaria ceremony — the bridal procession in an ornate covered chair, carried by men to the beat of Gnawa drums — is one of the most dramatic wedding moments in any culture. The combination of the bride's expression, the movement of the carriers, the crowd's energy, the music, and the stage lighting creates a scene that rewards ambitious photography. We position one photographer close for reaction shots and one wide for the procession, with the video team capturing the full ceremony. The Amaria footage is almost always the centrepiece of the wedding film.</p>
+
+<h2>Moroccan Wedding Pricing in Dubai 2026</h2>
+<p><strong>AED 7,500–12,000:</strong> Single-day coverage with one photographer and one videographer, outfit change coverage, full edited album and highlight film.</p>
+<p><strong>AED 18,000–28,000:</strong> Full wedding package with two photographers, dedicated videographer, Amaria specialist positioning, same-day highlight, and cinematic film.</p>
+<p><strong>AED 28,000–38,000:</strong> Multi-day package covering Henna night, full wedding day, and morning-after — full crew with drone, printed album, and complete film.</p>
+    `,
+  },
+
+  {
+    slug: "russian-wedding-photographer-dubai-2026",
+    title: "Russian Wedding Photographer Dubai 2026 — European Style, UAE Luxury",
+    metaTitle: "Russian Wedding Photographer Dubai | Backyard Studio UAE",
+    metaDescription: "Russian wedding photographer Dubai from AED 6,000. Russian-speaking crew available, cinematic style, GCAA drone licence. European wedding aesthetic. Free quote.",
+    keywords: ["Russian wedding photographer Dubai", "Russian wedding photography Dubai", "Russian-speaking photographer Dubai", "European wedding photographer Dubai", "Russian wedding videographer Dubai", "CIS wedding photographer Dubai"],
+    category: "Wedding Photography",
+    date: "June 6, 2026",
+    dateISO: "2026-06-06",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=1200&q=80",
+    excerpt: "Dubai's Russian and CIS community — Russians, Ukrainians, Kazakhs, Azerbaijanis — numbers in the hundreds of thousands and brings with it a wedding aesthetic that blends European luxury with Slavic tradition. Clean, cinematic, fashion-forward photography in Dubai's most spectacular venues.",
+    author: "Syed Mazhar Zaidi",
+    faqs: [
+      { question: "How much does a Russian wedding photographer cost in Dubai?", answer: "Russian wedding photography in Dubai starts at AED 6,000 for full-day coverage. Premium cinematic packages with drone aerials, same-day highlights, and fashion-style portraiture range from AED 14,000 to AED 30,000." },
+      { question: "Do you have Russian-speaking photographers?", answer: "We can provide Russian-speaking coordination for your wedding day. While not all of our photographers are native Russian speakers, we work with Russian-speaking coordinators and assistants to ensure seamless communication with the couple and their families throughout the day." },
+      { question: "What style of wedding photography is best for Russian weddings in Dubai?", answer: "Russian brides in Dubai tend to prefer a fashion-editorial style — clean, dramatic, high-contrast images with strong composition. We specialise in this aesthetic: Dubai's architectural lines and desert landscapes provide perfect backgrounds for the bold, cinematic images that work best for this style." },
+      { question: "Which Dubai locations work best for Russian wedding portraits?", answer: "The most popular locations for Russian wedding portraits in Dubai are the Dubai Frame for architectural symmetry, Burj Khalifa and Downtown for iconic skyline shots, JBR and Jumeirah beach for sunset portraits, and the Dubai Desert for dramatic natural landscapes with drone aerials." },
+    ],
+    relatedSlugs: ["british-western-wedding-photographer-dubai-2026", "moroccan-wedding-photographer-dubai-2026", "emirati-wedding-photography-dubai-2026"],
+    content: `
+<h2>Russian and CIS Weddings in Dubai — A Growing Market With Specific Tastes</h2>
+<p>Dubai has seen sustained growth in its Russian and CIS resident population — Russians, Ukrainians, Kazakhs, Azerbaijanis, Armenians, and other nationalities from the former Soviet space. Russian weddings in Dubai share a common aesthetic preference: they tend toward the clean and cinematic rather than the decorative and elaborate. Fashion-forward portraiture, dramatic light, bold use of Dubai's architectural landscape, and a European editorial sensibility in the final images.</p>
+<p>This does not mean simple. Russian and Ukrainian brides in Dubai invest significantly in photography — it is one of the most valued wedding elements in this community — and they come with clear visual references, specific poses they want recreated, and strong opinions on editing style. Our team respects this. We work from references, we share test shots during the session, and we do not deliver a finished album that looks nothing like the aesthetic the couple requested.</p>
+
+<h2>The Visual Aesthetic of Russian Wedding Photography</h2>
+<p>Russian wedding photography in the contemporary style — the style that has influenced wedding photography globally through platforms like Instagram — emphasises clean backgrounds, dramatic colour grading (often desaturated with lifted shadows), strong natural light, and a fashion-editorial approach to posing that makes the couple look like they belong in Vogue rather than a family album. Dubai's environment — the geometric architecture, the desert, the clean marina water — is genuinely suited to this aesthetic in a way that few other cities are.</p>
+<p>Syed Mazhar Zaidi's directorial background informs how we approach Russian wedding portraiture. We are not pointing a camera at a couple and asking them to smile — we are directing a session with specific light, specific framing, and specific compositions that match the brief we built in the pre-wedding consultation.</p>
+
+<h2>Best Dubai Locations for Russian Wedding Photography</h2>
+<p>Dubai Frame — the 150-metre picture frame structure — provides architectural symmetry and a Dubai-specific backdrop unlike anywhere else in the world. Downtown Dubai and the Burj Khalifa area provide the iconic skyline. Al Qudra desert gives cinematic natural landscapes with extraordinary aerial footage. Jumeirah beach at golden hour provides warm natural light and the Arabian Gulf. Dubai Marina provides urban waterfront geometry. We advise every couple based on their aesthetic preferences and the time of year — light quality varies significantly across Dubai's seasons.</p>
+
+<h2>Russian Wedding Photography Pricing in Dubai 2026</h2>
+<p><strong>AED 6,000–9,000:</strong> Full-day coverage with one photographer, 250+ edited images, online gallery delivered in 14 days.</p>
+<p><strong>AED 12,000–20,000:</strong> Two-photographer package with videographer, cinematic film, drone aerials, and same-day social highlights.</p>
+<p><strong>AED 20,000–30,000:</strong> Premium package including pre-wedding portrait session in Dubai, full wedding day, cinematic fashion-style film, drone, and printed album.</p>
+    `,
+  },
+
+  {
+    slug: "british-western-wedding-photographer-dubai-2026",
+    title: "British & Western Wedding Photographer Dubai 2026 — European Style UAE",
+    metaTitle: "British Wedding Photographer Dubai | Western | Backyard Studio",
+    metaDescription: "British & Western wedding photographer Dubai from AED 5,500. European style, documentary approach, drone licence. Civil ceremony to beach weddings. Free quote.",
+    keywords: ["British wedding photographer Dubai", "Western wedding photographer Dubai", "expat wedding photographer Dubai", "English wedding photographer Dubai", "European wedding photographer Dubai UAE", "civil wedding photographer Dubai"],
+    category: "Wedding Photography",
+    date: "June 6, 2026",
+    dateISO: "2026-06-06",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1200&q=80",
+    excerpt: "Dubai's British and Western expat community is one of the largest in the Gulf. For British, Irish, Australian, American, and European couples getting married in Dubai, the city offers a backdrop — beach ceremonies, desert shoots, rooftop venues — that is genuinely impossible to replicate elsewhere.",
+    author: "Syed Mazhar Zaidi",
+    faqs: [
+      { question: "How much does a wedding photographer cost in Dubai for a British-style wedding?", answer: "Wedding photography for British and Western-style weddings in Dubai starts at AED 5,500 (roughly £1,200–£1,300). Full-day documentary packages with two photographers and videography range from AED 12,000 to AED 25,000. These are comparable or slightly lower than equivalent quality in London or Dubai, with significantly more dramatic location options." },
+      { question: "Can you photograph civil ceremonies in Dubai?", answer: "Yes. Civil ceremonies for non-Muslim couples in Dubai are conducted at licensed venues including the Dubai Courts, selected hotels, and licensed church venues. We photograph at all of them and are experienced in the compressed timeline of civil ceremonies." },
+      { question: "Can we have a beach wedding in Dubai and where?", answer: "Yes. Beach ceremonies in Dubai take place primarily at Jumeirah Beach, JBR, Kite Beach, and the beach sections of resort hotels including Atlantis, Jumeirah Beach Hotel, and One&Only The Palm. Permits are required for public beach ceremonies — we coordinate these as part of our planning service." },
+      { question: "Do you shoot in a documentary style?", answer: "Yes. Documentary or reportage-style wedding photography — minimal direction, capturing events as they happen, prioritising authentic emotion over staged poses — is one of our two main wedding photography styles alongside the more editorial approach. Many British couples specifically request documentary coverage and our team is experienced in this." },
+    ],
+    relatedSlugs: ["russian-wedding-photographer-dubai-2026", "emirati-wedding-photography-dubai-2026", "event-videography-dubai-2026"],
+    content: `
+<h2>British and Western Weddings in Dubai — Why This Market Is Growing</h2>
+<p>The British expat population in Dubai has grown consistently for two decades and now numbers well over 100,000 people. Add Irish, Australian, American, South African, and European nationalities and Dubai has a substantial Western expat community, many of whom choose to get married in the UAE rather than fly home — drawn by the year-round sunshine, the world-class venues, and the logistical straightforwardness of planning a wedding in a city built for hospitality.</p>
+<p>Western weddings in Dubai share some characteristics that distinguish them from the large multi-day South Asian and Middle Eastern celebrations the city is also known for: they tend to be smaller (80–180 guests rather than 400–800), more compressed in timeline (a single day rather than multiple events), and more style-focused in their photography requirements. Couples who have followed wedding photography on Instagram for two years come to their consultation with specific aesthetic references and clear expectations.</p>
+
+<h2>What Makes Dubai Different for Western Wedding Photography</h2>
+<p>The location options. A British couple getting married in the UAE has access to photographic locations that are simply unavailable in the UK: the desert at sunset, drone aerials over the Dubai Creek, the geometric precision of Downtown Dubai architecture, the turquoise water at Jumeirah beach in January (when it is 8 degrees in London). This is the primary driver of what makes Dubai wedding photography special for Western couples — the backdrop that their friends and family at home will never have seen in a wedding album.</p>
+<p>Syed Mazhar Zaidi plans the portrait session of every Western wedding in Dubai as a location-first exercise. Where in Dubai does this couple's story look best? What time of day does each location need? Which drone shots will make their guests say "where is that?" The answers to those questions shape the day's timeline more than any other single factor.</p>
+
+<h2>Documentary Wedding Photography vs Editorial — Which Is Right for You?</h2>
+<p>Many British couples ask for a documentary approach — photojournalistic coverage that captures events as they unfold with minimal direction. This style produces the most authentic emotional record of a day: genuine reactions, real laughter, unposed moments that you did not know were happening. It requires a photographer who is constantly moving, anticipating, and present — not setting up group shots or directing poses.</p>
+<p>The editorial style — where the photographer takes a more active role in directing the couple during portrait sessions — produces images that are more intentionally beautiful and more consistent as a collection. It works best for couples who want a specific aesthetic rather than a pure record of the day.</p>
+<p>Most of our Western wedding clients choose a hybrid: documentary for the ceremony and reception, editorial direction for the couple portrait session. We discuss and agree this approach in the consultation so there are no surprises on the day.</p>
+
+<h2>British & Western Wedding Photography Pricing Dubai 2026</h2>
+<p><strong>AED 5,500–8,500:</strong> Single photographer, full day coverage, 300+ edited images, online gallery in 14 days.</p>
+<p><strong>AED 12,000–18,000:</strong> Two-photographer documentary package with videographer, same-day highlight, and 5-minute cinematic film.</p>
+<p><strong>AED 18,000–28,000:</strong> Premium package with pre-wedding portrait session, full wedding day, drone aerials, cinematic film, and printed album delivered to your home country.</p>
+    `,
+  },
+
 export function getBlogPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
 }
