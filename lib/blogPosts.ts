@@ -2383,7 +2383,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
     relatedSlugs: ["executive-portraits-dubai-2026", "conference-photographer-dubai-2026", "event-videography-dubai-2026"],
-    body: `<p>The business headshot is one of the most underinvested assets in most Dubai companies' marketing toolkit. LinkedIn profiles, the company website, press coverage, conference name badges, pitch decks — your team's faces are everywhere. And in Dubai's high-trust, relationship-driven market, a headshot that communicates confidence and approachability carries real commercial weight. A headshot that looks like it was taken in a hotel corridor does the opposite.</p>
+    content: `<p>The business headshot is one of the most underinvested assets in most Dubai companies' marketing toolkit. LinkedIn profiles, the company website, press coverage, conference name badges, pitch decks — your team's faces are everywhere. And in Dubai's high-trust, relationship-driven market, a headshot that communicates confidence and approachability carries real commercial weight. A headshot that looks like it was taken in a hotel corridor does the opposite.</p>
 
 <p>At Backyard Studio Official, we've photographed headshots for individual senior leaders and for corporate teams of 60+ people in a single day. Fahad Iqbal Butt leads our corporate portraiture work, bringing the same attention to lighting, direction, and post-processing that we apply to commercial campaigns.</p>
 
@@ -2437,7 +2437,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
     relatedSlugs: ["business-headshots-dubai-2026", "conference-photographer-dubai-2026", "event-videography-dubai-2026"],
-    body: `<p>An executive portrait is not a headshot. The distinction matters commercially.</p>
+    content: `<p>An executive portrait is not a headshot. The distinction matters commercially.</p>
 <p>A headshot confirms who a person is. An executive portrait conveys authority, trustworthiness, and the specific kind of confidence that makes investors, board members, and clients feel they are in capable hands. In Dubai's relationship-driven business culture, the image of a CEO or Chairman that appears in an annual report, a fundraising prospectus, or the cover of a business publication carries real weight. It communicates — or fails to communicate — the quality of the organisation behind the person.</p>
 
 <h2>Why Executive Portrait Photography Is Different</h2>
@@ -2491,7 +2491,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
     relatedSlugs: ["conference-photographer-dubai-2026", "event-videography-dubai-2026", "business-headshots-dubai-2026"],
-    body: `<p>Dubai runs some of the most significant trade shows and exhibitions in the world. GITEX Technology Week brings over 100,000 technology professionals to the Dubai World Trade Centre every October. Arab Health draws more than 55,000 healthcare executives annually. The Big 5 construction event, INDEX Interior Design, and Beautyworld Middle East are similarly high-stakes business events where brands spend significant budgets on stand design, product launches, and B2B activations.</p>
+    content: `<p>Dubai runs some of the most significant trade shows and exhibitions in the world. GITEX Technology Week brings over 100,000 technology professionals to the Dubai World Trade Centre every October. Arab Health draws more than 55,000 healthcare executives annually. The Big 5 construction event, INDEX Interior Design, and Beautyworld Middle East are similarly high-stakes business events where brands spend significant budgets on stand design, product launches, and B2B activations.</p>
 <p>And then they often under-invest in the photography.</p>
 <p>The images from your exhibition presence are not just event records. They are marketing assets — for post-event social media, LinkedIn company updates, sales presentations, investor decks, and next year's pre-show marketing. High-quality exhibition photography is the difference between a post-event content library and a folder of blurry phone photos.</p>
 
@@ -2546,7 +2546,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
     relatedSlugs: ["architecture-photography-dubai-2026", "jewelry-photography-dubai-2026", "business-headshots-dubai-2026"],
-    body: `<p>Interior photography for commercial purposes in Dubai covers enormous range — a five-star hotel room, a luxury car showroom, a fitted kitchen in a Palm Jumeirah villa, an ADGM law firm's boardroom, a restaurant designed by a Michelin-star architect. What these have in common is that they represent a substantial design and financial investment, and the photography needs to show that investment accurately enough to drive booking, purchase, or leasing decisions.</p>
+    content: `<p>Interior photography for commercial purposes in Dubai covers enormous range — a five-star hotel room, a luxury car showroom, a fitted kitchen in a Palm Jumeirah villa, an ADGM law firm's boardroom, a restaurant designed by a Michelin-star architect. What these have in common is that they represent a substantial design and financial investment, and the photography needs to show that investment accurately enough to drive booking, purchase, or leasing decisions.</p>
 <p>The technical challenge with interior photography in Dubai is specific: the climate means large-format floor-to-ceiling glass is near-universal, and the exterior light coming through that glass is both very bright and very warm in colour. Managing the contrast between window-lit spaces and interior lighting — while producing an image that looks like what the eye actually sees, rather than a silhouette in front of a blown-out window — requires specific technical skill and equipment.</p>
 
 <h2>Hotels, Showrooms, and Real Estate: Different Briefs, Same Standard</h2>
@@ -2594,7 +2594,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
     relatedSlugs: ["interior-photography-dubai-2026", "exhibition-photography-dubai-2026", "tvc-production-dubai-2026"],
-    body: `<p>Dubai's built environment is among the most photographed in the world — but most of those photographs are tourist snapshots. Architecture photography at a professional commercial level is something different: it is the precise, considered documentation of a building or space in a way that communicates its design intent, structural quality, and position within the broader built environment.</p>
+    content: `<p>Dubai's built environment is among the most photographed in the world — but most of those photographs are tourist snapshots. Architecture photography at a professional commercial level is something different: it is the precise, considered documentation of a building or space in a way that communicates its design intent, structural quality, and position within the broader built environment.</p>
 <p>The clients who commission professional architecture photography in Dubai are typically developers marketing off-plan or completed properties, architects and design practices building their portfolio, interior design firms documenting completed projects, or real estate investment funds producing materials for international investors.</p>
 
 <h2>What Architects and Developers Actually Need</h2>
@@ -2646,7 +2646,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
     relatedSlugs: ["interior-photography-dubai-2026", "architecture-photography-dubai-2026", "business-headshots-dubai-2026"],
-    body: `<p>Dubai is a global hub for fine jewelry. The gold souks of Deira, the boutiques of Dubai Mall, the diamond traders of DMCC, and the luxury watch retailers along Sheikh Zayed Road make the UAE jewelry market one of the most competitive and visually demanding in the world.</p>
+    content: `<p>Dubai is a global hub for fine jewelry. The gold souks of Deira, the boutiques of Dubai Mall, the diamond traders of DMCC, and the luxury watch retailers along Sheikh Zayed Road make the UAE jewelry market one of the most competitive and visually demanding in the world.</p>
 <p>Jewelry photography is one of the most technically demanding commercial photography disciplines. The combination of reflective metal, transparent or translucent gemstones, and the need to show both colour accuracy and dimensional detail means that amateur approaches produce results that look wrong. The metal reflects the ceiling. The diamond appears grey instead of brilliant. The sapphire shifts in colour in ways that damage buyer trust before they've even seen a price.</p>
 
 <h2>E-Commerce vs Editorial: Two Different Briefs</h2>
@@ -2694,7 +2694,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
     relatedSlugs: ["explainer-video-dubai-2026", "event-videography-dubai-2026", "music-video-production-dubai-2026"],
-    body: `<p>A television commercial produced in Dubai in 2026 is competing for attention in one of the most sophisticated advertising markets in the region. UAE consumers are exposed to production quality from international networks and streaming platforms. Local brands that produce TVCs at a genuine broadcast standard — with proper cinematography, direction, and post-production — stand clearly above those that don't.</p>
+    content: `<p>A television commercial produced in Dubai in 2026 is competing for attention in one of the most sophisticated advertising markets in the region. UAE consumers are exposed to production quality from international networks and streaming platforms. Local brands that produce TVCs at a genuine broadcast standard — with proper cinematography, direction, and post-production — stand clearly above those that don't.</p>
 <p>TVC production is one of the highest-value services at Backyard Studio Official. It requires a full production team, significant pre-production investment, and post-production work that includes colour grading, audio mix, and format-specific delivery for broadcast requirements. When executed well, a TVC is an asset that runs for months or years and generates returns that far exceed the production investment.</p>
 
 <h2>What Goes Into a TVC Production in Dubai</h2>
@@ -2743,7 +2743,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
     relatedSlugs: ["tvc-production-dubai-2026", "event-videography-dubai-2026", "music-video-production-dubai-2026"],
-    body: `<p>The explainer video is one of the most reliably useful marketing investments a Dubai business can make. A well-produced 90-second video that clearly explains what a product does, who it is for, and why it matters can do the work of a dozen sales conversations. For SaaS companies, fintech startups, and complex B2B services — industries all well-represented in DIFC, Tecom, and Dubai Internet City — the explainer video is often the single most-watched piece of content on the company website.</p>
+    content: `<p>The explainer video is one of the most reliably useful marketing investments a Dubai business can make. A well-produced 90-second video that clearly explains what a product does, who it is for, and why it matters can do the work of a dozen sales conversations. For SaaS companies, fintech startups, and complex B2B services — industries all well-represented in DIFC, Tecom, and Dubai Internet City — the explainer video is often the single most-watched piece of content on the company website.</p>
 <p>The challenge is that most explainer videos are mediocre. Either the script runs too long and too technical, the animation is generic and interchangeable with any other company, or the live-action footage is clearly not professional quality. In Dubai's sophisticated market, a mediocre explainer does more damage than no video at all — it signals a company that invests in the form but not the standard.</p>
 
 <h2>Script: Where It Starts and Ends</h2>
@@ -2792,7 +2792,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
     relatedSlugs: ["business-headshots-dubai-2026", "event-videography-dubai-2026", "conference-photographer-dubai-2026"],
-    body: `<p>School photography in Dubai is a different business from any other photography service category. The client is an institution, not an individual. The number of subjects is measured in hundreds or thousands. The delivery format needs to serve both the school's communication requirements and the parents' desire for individual print products. And it recurs annually — the school that has a good experience with a photographer typically re-books the same team for five or ten years.</p>
+    content: `<p>School photography in Dubai is a different business from any other photography service category. The client is an institution, not an individual. The number of subjects is measured in hundreds or thousands. The delivery format needs to serve both the school's communication requirements and the parents' desire for individual print products. And it recurs annually — the school that has a good experience with a photographer typically re-books the same team for five or ten years.</p>
 <p>At Backyard Studio Official, we work with international schools, American curriculum schools, British curriculum schools, and nurseries across Dubai and the wider UAE. The approach is logistically rigorous, technically consistent, and designed to minimise disruption to the school's schedule while producing results that parents genuinely want.</p>
 
 <h2>Annual Portrait Workflow That Actually Works</h2>
