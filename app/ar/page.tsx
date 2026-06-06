@@ -24,13 +24,24 @@ export const metadata: Metadata = {
       "en": "https://www.backyardstudioofficial.com",
       "ar": "https://www.backyardstudioofficial.com/ar",
       "ru": "https://www.backyardstudioofficial.com/ru",
+      "zh": "https://www.backyardstudioofficial.com/zh",
+      "x-default": "https://www.backyardstudioofficial.com",
     },
   },
   openGraph: {
     title: "أفضل شركة إنتاج فيديو في دبي | باكيارد ستوديو أوفيشيال",
-    description: "شركة الإنتاج الإبداعي الرائدة في دبي. أكثر من 2,400 مشروع. رخصة GCAA.",
+    description: "شركة الإنتاج الإبداعي الرائدة في دبي. أكثر من 2,400 مشروع. رخصة GCAA للطائرات المسيّرة. عرض سعر مجاني خلال ساعتين.",
     url: "https://www.backyardstudioofficial.com/ar",
+    siteName: "باكيارد ستوديو أوفيشيال",
     locale: "ar_AE",
+    type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "باكيارد ستوديو أوفيشيال — أفضل شركة إنتاج في دبي" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "أفضل شركة إنتاج فيديو في دبي | باكيارد ستوديو أوفيشيال",
+    description: "الإنتاج الإبداعي الرائد في دبي. أكثر من 2,400 مشروع. رخصة GCAA.",
+    images: ["/og-image.jpg"],
   },
 };
 
@@ -284,16 +295,4 @@ export default function ArabicHomePage() {
         </h2>
         <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", marginBottom: "2rem", fontSize: "1rem" }}>
           نرد على جميع الاستفسارات خلال ساعتين. تواصل معنا الآن للحصول على عرض سعر مجاني.
-        </p>
-        <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
-          <a href="/ar/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.25rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Cairo, sans-serif", fontWeight: 700, fontSize: "1rem" }}>
-            تواصل معنا
-          </a>
-          <a href="https://wa.me/971585882685" target="_blank" rel="noopener noreferrer" style={{ border: "1px solid rgba(212,175,55,0.5)", color: "var(--gold)", padding: "0.9rem 2.25rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Cairo, sans-serif", fontWeight: 600 }}>
-            واتساب: +971 58 588 2685
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+        </

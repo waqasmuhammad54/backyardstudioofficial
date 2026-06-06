@@ -1,10 +1,34 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "خدمات التصوير والإنتاج في دبي | باكيارد ستوديو أوفيشيال",
-  description: "خدمات إنتاج متكاملة في دبي والإمارات: تصوير فيديو مؤسسي، تصوير الأعراس، الفعاليات، الطائرات المسيّرة، محتوى التواصل الاجتماعي، تصوير المنتجات والأزياء.",
-  keywords: ["خدمات تصوير دبي", "انتاج فيديو الإمارات", "تصوير احترافي", "تصوير الاعراس", "انتاج محتوى رقمي"],
-  alternates: { canonical: "https://www.backyardstudioofficial.com/ar/services" },
+  title: "خدمات التصوير والإنتاج في دبي والإمارات | باكيارد ستوديو أوفيشيال",
+  description: "خدمات إنتاج متكاملة في دبي والإمارات: تصوير فيديو مؤسسي من 15,000 درهم، تصوير الأعراس من 3,500 درهم، الفعاليات، الطائرات المسيّرة GCAA، محتوى رقمي. عرض سعر مجاني.",
+  keywords: ["خدمات تصوير دبي", "انتاج فيديو الإمارات", "تصوير احترافي", "تصوير الاعراس دبي", "انتاج محتوى رقمي", "تصوير بالطائرة المسيرة دبي", "خدمات الإنتاج دبي"],
+  alternates: {
+    canonical: "https://www.backyardstudioofficial.com/ar/services",
+    languages: {
+      "en": "https://www.backyardstudioofficial.com/services",
+      "ar": "https://www.backyardstudioofficial.com/ar/services",
+      "ru": "https://www.backyardstudioofficial.com/ru/services",
+      "zh": "https://www.backyardstudioofficial.com/zh/services",
+      "x-default": "https://www.backyardstudioofficial.com/services",
+    },
+  },
+  openGraph: {
+    title: "خدمات التصوير والإنتاج في دبي والإمارات | باكيارد ستوديو أوفيشيال",
+    description: "خدمات إنتاج متكاملة: فيديو مؤسسي، أعراس، فعاليات، طائرات مسيّرة GCAA، محتوى رقمي. أسعار شفافة وعرض مجاني.",
+    url: "https://www.backyardstudioofficial.com/ar/services",
+    siteName: "باكيارد ستوديو أوفيشيال",
+    locale: "ar_AE",
+    type: "website",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "خدمات باكيارد ستوديو أوفيشيال — دبي" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "خدمات التصوير والإنتاج — دبي والإمارات",
+    description: "فيديو مؤسسي، أعراس، فعاليات، طائرات مسيّرة GCAA. عرض مجاني خلال ساعتين.",
+    images: ["/og-image.jpg"],
+  },
 };
 
 const SERVICES = [
@@ -58,34 +82,7 @@ const SERVICES = [
   },
 ];
 
-export default function ArServicesPage() {
-  return (
-    <>
-      <section style={{ background: "#111", padding: "4rem 2rem 3rem", textAlign: "center" }}>
-        <h1 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>
-          خدماتنا الإبداعية في دبي والإمارات
-        </h1>
-        <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", maxWidth: "600px", margin: "0 auto", lineHeight: 1.7 }}>
-          حلول إنتاج متكاملة للعلامات التجارية، الشركات، والأفراد. من الفيديو المؤسسي إلى تصوير الأعراس — نحن هنا لتحويل رؤيتك إلى محتوى مؤثر.
-        </p>
-      </section>
-      <section style={{ padding: "4rem 2rem", background: "#0a0a0a" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.5rem" }}>
-          {SERVICES.map((s) => (
-            <div key={s.title} style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "2rem" }}>
-              <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>{s.icon}</div>
-              <h2 style={{ fontFamily: "Cairo, sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.6rem" }}>{s.title}</h2>
-              <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.65)", fontSize: "0.9rem", lineHeight: 1.7, marginBottom: "1rem" }}>{s.desc}</p>
-              <span style={{ fontFamily: "Cairo, sans-serif", color: "var(--gold)", fontWeight: 600, fontSize: "0.9rem" }}>{s.price}</span>
-            </div>
-          ))}
-        </div>
-        <div style={{ textAlign: "center", marginTop: "3rem" }}>
-          <a href="/ar/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Cairo, sans-serif", fontWeight: 700, fontSize: "1rem" }}>
-            احصل على عرض سعر مجاني
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+const SERVICES_FAQS = [
+  { q: "ما هي خدمات الإنتاج التي تقدمها باكيارد ستوديو في دبي؟", a: "نقدم طيفاً كاملاً من خدمات الإنتاج: فيديو مؤسسي، تصوير الأعراس والفعاليات، تصوير جوي بترخيص GCAA، محتوى وسائل التواصل الاجتماعي، تصوير المنتجات والأزياء، والعقارات." },
+  { q: "ما هو سعر تصوير الفيديو المؤسسي في دبي؟", a: "يبدأ الفيديو المؤسسي الاحترافي من 15,000 درهم. الإعلانات التجارية الكبرى (DVC) تبدأ من 25,000 درهم. نقدم عرض سعر مجاني خلال ساعتين." },
+  { q: "هل تمتلكون رخص�

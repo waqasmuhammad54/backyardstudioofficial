@@ -17,15 +17,26 @@ export const metadata: Metadata = {
     canonical: "https://www.backyardstudioofficial.com/ar",
     languages: {
       "en": "https://www.backyardstudioofficial.com",
-      "ru": "https://www.backyardstudioofficial.com/ru",
       "ar": "https://www.backyardstudioofficial.com/ar",
+      "ru": "https://www.backyardstudioofficial.com/ru",
       "zh": "https://www.backyardstudioofficial.com/zh",
+      "x-default": "https://www.backyardstudioofficial.com",
     },
   },
   openGraph: {
+    title: "أفضل شركة إنتاج فيديو في دبي | باكيارد ستوديو أوفيشيال",
+    description: "شركة الإنتاج الإبداعي الرائدة في دبي والإمارات. تصوير فيديو احترافي، تصوير الأعراس، محتوى رقمي، طائرات مسيّرة GCAA. أكثر من 2,400 مشروع.",
+    url: "https://www.backyardstudioofficial.com/ar",
     locale: "ar_AE",
+    type: "website",
     siteName: "باكيارد ستوديو أوفيشيال",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "باكيارد ستوديو أوفيشيال — دبي" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "أفضل شركة إنتاج فيديو في دبي | باكيارد ستوديو أوفيشيال",
+    description: "الإنتاج الإبداعي الرائد في دبي. أكثر من 2,400 مشروع. رخصة GCAA.",
+    images: ["/og-image.jpg"],
   },
   robots: { index: true, follow: true },
 };
@@ -140,6 +151,7 @@ export default function ArabicLayout({ children }: { children: React.ReactNode }
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
+            "@id": "https://www.backyardstudioofficial.com/ar/#localbusiness",
             "name": "باكيارد ستوديو أوفيشيال",
             "alternateName": "Backyard Studio Official",
             "url": "https://www.backyardstudioofficial.com/ar",
@@ -148,31 +160,7 @@ export default function ArabicLayout({ children }: { children: React.ReactNode }
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "دبي",
+              "addressRegion": "Dubai",
               "addressCountry": "AE",
             },
-            "description": "شركة الإنتاج الإبداعي الرائدة في دبي. تصوير فيديو احترافي، تصوير الأعراس، محتوى وسائل التواصل الاجتماعي، تصوير بالطائرة المسيّرة.",
-          }),
-        }}
-      />
-
-      <div dir="rtl" lang="ar" style={{ fontFamily: "Cairo, sans-serif", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
-        <ArNavbar />
-        <main style={{ flex: 1, paddingTop: "80px" }}>{children}</main>
-        <ArFooter />
-      </div>
-
-      <WhatsAppButton />
-
-      {GA_ID && (
-        <>
-          <Script src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID} strategy="afterInteractive" />
-          <Script id="ga4-ar" strategy="afterInteractive"
-            dangerouslySetInnerHTML={{
-              __html: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','" + GA_ID + "',{page_path:window.location.pathname,anonymize_ip:true});",
-            }}
-          />
-        </>
-      )}
-    </>
-  );
-}
+            "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", 
