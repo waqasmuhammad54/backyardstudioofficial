@@ -44,6 +44,18 @@ const CITY_DATA: Record<string, { name: string; image: string; description: stri
       { q: "Can you shoot social media content in Sharjah?", a: "Absolutely. We produce Instagram Reels, TikTok content, and brand social media shoots across Sharjah — at Al Qasba, the Corniche, Sharjah Art Foundation venues, and commercial properties across the emirate." },
     ],
   },
+  "ajman": {
+    name: "Ajman",
+    image: "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8e?w=1920&q=80",
+    description: "Ajman is one of the UAE's most accessible emirates for production — with a beautiful Corniche, historic fort, and a growing commercial and residential community. Backyard Studio Official covers Ajman for events, weddings, corporate films, social media shoots, and DVCs.\n\nOur team knows Ajman's permit processes and best shooting locations, making us the preferred production partner for brands and individuals based in or shooting within the emirate.",
+    areas: ["Ajman City Centre", "Ajman Corniche", "Al Jurf", "Al Rashidiya", "Al Nuaimiya", "Al Rawda", "Ajman Free Zone", "Al Hamidiyah"],
+    landmarks: ["Ajman Museum", "Ajman Corniche", "Ajman Fort", "City Centre Ajman", "Al Zorah Nature Reserve"],
+    services: ["Event Shoots", "Corporate Films", "Social Media Content", "Wedding Photography", "DVCs", "Aerial Drone", "Instagram Reels", "Testimonial Videos"],
+    faqs: [
+      { q: "Do you cover productions in Ajman?", a: "Yes. Backyard Studio Official covers all of Ajman for events, corporate films, social media shoots, weddings, and DVCs. We handle permit coordination and can mobilise within 48 hours for most Ajman productions." },
+      { q: "Can you shoot social media content in Ajman?", a: "Yes. We produce Instagram Reels, TikTok content, and brand social media shoots across Ajman — at the Corniche, Ajman Corniche beachfront, Al Zorah, and commercial venues across the emirate." },
+    ],
+  },
   "ras-al-khaimah": {
     name: "Ras Al Khaimah",
     image: "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8e?w=1920&q=80",
@@ -54,6 +66,32 @@ const CITY_DATA: Record<string, { name: string; image: string; description: stri
     faqs: [
       { q: "Do you cover Ras Al Khaimah for wedding and pre-wedding shoots?", a: "Yes. RAK's dramatic mountain and coastal landscapes make it one of the most popular destinations for pre-wedding shoots in the UAE. We cover Jebel Jais, Al Hamra, Mina Al Arab, and all major RAK locations." },
       { q: "Can you fly drones in Ras Al Khaimah?", a: "Yes. As GCAA-licensed drone operators, we can fly legally across Ras Al Khaimah including Jebel Jais aerial footage, coastal drone shots, and event aerial coverage — with all necessary coordination and permits handled by our team." },
+    ],
+  },
+};
+
+  "fujairah": {
+    name: "Fujairah",
+    image: "https://images.unsplash.com/photo-1590004987778-bece5c9adab6?w=1920&q=80",
+    description: "Fujairah is one of the UAE's most cinematic emirates — with dramatic Hajar Mountain backdrops, pristine East Coast beaches, and the historic Fujairah Fort. It's a popular destination for pre-wedding shoots, adventure brand films, and tourism content. Backyard Studio Official brings our full production capability to Fujairah, including GCAA drone operations over the East Coast's stunning terrain.\n\nWe cover events in Fujairah City, wedding shoots along the East Coast beaches, corporate films for Fujairah's growing business community, and social media content for tourism and hospitality brands based in the emirate.",
+    areas: ["Fujairah City", "Dibba Al Fujairah", "Khorfakkan", "Kalba", "Al Faseel", "Mina Al Fahal", "Qidfa", "Mirbah"],
+    landmarks: ["Fujairah Fort", "Al Bidyah Mosque", "Khorfakkan Corniche", "Fujairah Heritage Village", "Hajar Mountains", "East Coast beaches"],
+    services: ["Pre-Wedding Shoots", "Drone Videography", "Event Coverage", "Social Media Shoots", "Tourism & Lifestyle Films", "Corporate Films", "Wedding Photography"],
+    faqs: [
+      { q: "Do you cover wedding and pre-wedding shoots in Fujairah?", a: "Yes. Fujairah's East Coast beaches and Hajar Mountain landscapes make it one of the most popular destinations for pre-wedding shoots in the UAE. We cover all major Fujairah and East Coast locations including Khorfakkan, Dibba, and Kalba." },
+      { q: "Can you fly drones in Fujairah?", a: "Yes. As GCAA-licensed drone operators, we can fly legally across Fujairah — capturing stunning aerial footage of the East Coast, Hajar Mountains, and coastal areas with all permit coordination handled by our team." },
+    ],
+  },
+  "umm-al-quwain": {
+    name: "Umm Al Quwain",
+    image: "https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?w=1920&q=80",
+    description: "Umm Al Quwain is one of the UAE's most tranquil and scenic emirates — with mangrove-lined lagoons, historic old town architecture, and the popular Dreamland Aqua Park. Backyard Studio Official covers UAQ for events, social media shoots, nature and lifestyle content, and productions requiring authentic Old UAE scenery.\n\nOur team handles all permit coordination for Umm Al Quwain productions and can mobilise efficiently for brands and clients based in or shooting within the emirate.",
+    areas: ["UAQ City Centre", "Old Town UAQ", "Dreamland Area", "King Faisal Road", "Al Salama", "Al Shamera"],
+    landmarks: ["Umm Al Quwain Fort", "UAQ Lagoon", "Dreamland Aqua Park", "UAQ Old Town Corniche", "UAQ Mangroves"],
+    services: ["Event Shoots", "Social Media Content", "Corporate Films", "Wedding Photography", "DVCs", "Aerial Drone", "Lifestyle Films"],
+    faqs: [
+      { q: "Do you cover productions in Umm Al Quwain?", a: "Yes. Backyard Studio Official covers Umm Al Quwain for events, social media shoots, corporate films, and weddings. We can mobilise within 48 hours and handle all UAQ permit requirements." },
+      { q: "What makes Umm Al Quwain a good filming location?", a: "UAQ offers authentic Old UAE scenery, mangrove lagoons, and a relaxed environment that's ideal for lifestyle content, nature shoots, and productions seeking a contrast to Dubai's urban aesthetic. The UAQ mangroves in particular are sought after for editorial and fashion shoots." },
     ],
   },
 };
@@ -75,115 +113,21 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: { city: string } }): Promise<Metadata> {
   const data = CITY_DATA[params.city] || DEFAULT_CITY(params.city);
-  return {
-    title: `Video & Photography Production in ${data.name} UAE`,
-    description: `Professional event shoots, DVCs, Reels & ads production in ${data.name}. Backyard Studio Official covers all areas of ${data.name} with fast turnaround and cinematic results.`,
-    keywords: [`video production ${data.name}`, `event videography ${data.name}`, `DVC ${data.name}`, `Instagram Reels ${data.name} UAE`],
-  };
-}
-
-export default function CityPage({ params }: { params: { city: string } }) {
-  const data = CITY_DATA[params.city] || DEFAULT_CITY(params.city);
-  const SERVICES = ["Event Shoots", "DVCs", "Instagram Reels", "TikTok Content", "Testimonial Videos", "Ads Shooting", "Aerial Drone", "Corporate Films"];
   const pageUrl = `https://www.backyardstudioofficial.com/locations/${params.city}`;
-  const cityBreadcrumb = breadcrumbSchema([
-    { name: "Home", url: "https://www.backyardstudioofficial.com" },
-    { name: "UAE Coverage", url: "https://www.backyardstudioofficial.com/locations" },
-    { name: data.name, url: pageUrl },
-  ]);
-  const cityFaqSchema = data.faqs?.length > 0
-    ? faqSchema(data.faqs.map((f: { q: string; a: string }) => ({ question: f.q, answer: f.a })))
-    : null;
-  const citySpeakable = speakableSchema(pageUrl, ["h1", "h2", ".speakable"]);
-
-  return (
-    <div className="pt-24">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(cityBreadcrumb) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(citySpeakable) }} />
-      {cityFaqSchema && (
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(cityFaqSchema) }} />
-      )}
-      {/* Hero */}
-      <section className="relative h-80 flex items-end overflow-hidden">
-        <Image src={data.image} alt={`Video production in ${data.name}`} fill className="object-cover" sizes="100vw" />
-        <div className="absolute inset-0 bg-black/65" />
-        <div className="relative container-xl pb-10">
-          <div className="flex items-center gap-2 text-[#a0a0a0] text-xs mb-2">
-            <Link href="/locations" className="hover:text-[#e8c547] transition-colors">UAE Coverage</Link>
-            <span>→</span>
-            <span className="text-[#e8c547]">{data.name}</span>
-          </div>
-          <h1 className="font-display text-5xl md:text-6xl text-white">
-            VIDEO PRODUCTION IN {data.name.toUpperCase()}
-          </h1>
-        </div>
-      </section>
-
-      <section className="section-pad bg-[#0a0a0a]">
-        <div className="container-xl grid lg:grid-cols-3 gap-12">
-          <div className="lg:col-span-2">
-            {/* Description */}
-            {data.description.split("\n\n").map((p, i) => (
-              <p key={i} className="text-[#a0a0a0] leading-relaxed mb-5">{p}</p>
-            ))}
-
-            {/* Areas */}
-            <h2 className="font-display text-3xl text-white mt-10 mb-5">AREAS WE COVER IN {data.name.toUpperCase()}</h2>
-            <div className="flex flex-wrap gap-2 mb-10">
-              {data.areas.map((a) => (
-                <span key={a} className="text-sm bg-[#1a1a1a] border border-[#2a2a2a] text-[#a0a0a0] px-3 py-1.5 rounded-sm hover:border-[#e8c547]/50 hover:text-[#e8c547] transition-colors cursor-default">
-                  <MapPin size={10} className="inline mr-1" />{a}
-                </span>
-              ))}
-            </div>
-
-            {/* Landmarks */}
-            <h2 className="font-display text-3xl text-white mb-5">ICONIC SHOOT LOCATIONS</h2>
-            <div className="grid grid-cols-2 gap-3">
-              {data.landmarks.map((l) => (
-                <div key={l} className="flex items-center gap-2 p-3 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm text-sm text-[#a0a0a0]">
-                  <Camera size={14} className="text-[#e8c547] shrink-0" /> {l}
-                </div>
-              ))}
-            </div>
-
-            {/* Services */}
-            <h2 className="font-display text-3xl text-white mt-10 mb-5">SERVICES IN {data.name.toUpperCase()}</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-              {SERVICES.map((s) => (
-                <div key={s} className="text-center p-3 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm text-xs text-[#a0a0a0]">{s}</div>
-              ))}
-            </div>
-          </div>
-
-          {/* Sidebar CTA */}
-          <div className="space-y-4">
-            <div className="p-6 bg-[#1a1a1a] border border-[#e8c547]/30 rounded-sm">
-              <h3 className="font-display text-2xl text-white mb-2">SHOOT IN {data.name.toUpperCase()}</h3>
-              <p className="text-[#a0a0a0] text-sm mb-5">Get a custom quote for your {data.name} production.</p>
-              <Link href="/contact" className="btn-gold w-full justify-center block text-center">Get a Quote →</Link>
-              <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer"
-                 className="btn-outline w-full justify-center block text-center mt-3">WhatsApp Us</a>
-            </div>
-            <div className="p-5 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm">
-              <p className="text-xs text-[#666] uppercase tracking-widest mb-3">Other Emirates</p>
-              {["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "RAK", "Fujairah", "UAQ"].map((c) => (
-                <Link key={c} href={`/locations/${c.toLowerCase().replace(/ /g, "-")}`}
-                  className="flex items-center justify-between py-1.5 text-[#a0a0a0] text-sm hover:text-[#e8c547] transition-colors border-b border-[#2a2a2a] last:border-0">
-                  <span>{c}</span><ArrowRight size={12} />
-                </Link>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Banner */}
-      <section className="py-16 bg-[#111111] text-center border-t border-[#2a2a2a]">
-        <h2 className="font-display text-4xl text-white mb-4">READY TO SHOOT IN {data.name.toUpperCase()}?</h2>
-        <p className="text-[#a0a0a0] mb-8 max-w-md mx-auto text-sm">Send us your brief and we&apos;ll respond within 2 hours with a custom production plan.</p>
-        <Link href="/contact" className="btn-gold">Start Your Project →</Link>
-      </section>
-    </div>
-  );
-}
+  return {
+    title: `Video & Photography Production in ${data.name}, UAE | Backyard Studio Official`,
+    description: `Professional video production, event shoots, weddings, DVCs, Instagram Reels & drone in ${data.name}. Backyard Studio Official covers all areas of ${data.name} — fast turnaround, cinematic results. Free quote in 2 hours.`,
+    keywords: [`video production ${data.name}`, `event videography ${data.name}`, `DVC ${data.name}`, `Instagram Reels ${data.name} UAE`, `wedding photography ${data.name}`, `production company ${data.name}`],
+    alternates: { canonical: pageUrl },
+    openGraph: {
+      title: `Video & Photography Production in ${data.name} | Backyard Studio Official`,
+      description: `Events, weddings, DVCs, Reels & drone in ${data.name}. UAE's leading production studio. Free quote in 2 hours.`,
+      url: pageUrl,
+      siteName: "Backyard Studio Official",
+      locale: "en_AE",
+      type: "website",
+      images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: `Video Production in ${data.name} — Backyard Studio Official` }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `Vi
