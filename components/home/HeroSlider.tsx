@@ -69,6 +69,7 @@ export default function HeroSlider() {
           <Image src={sl.image} alt={sl.eyebrow} fill priority={i === 0}
             className="object-cover scale-[1.04] img-cinematic"
             sizes="100vw"
+            quality={60}
           />
         </div>
       ))}

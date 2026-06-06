@@ -18,7 +18,7 @@ export default function UAECoverage() {
 
   return (
     <section id="coverage" className="section-pad bg-ink-2 relative overflow-hidden">
-      <div className="section-num">06</div>
+      <div className="section-num" aria-hidden="true">06</div>
 
       <div className="container-xl">
         {/* Header */}

@@ -28,7 +28,7 @@ export default function ServicesGrid() {
 
   return (
     <section id="services" className="section-pad bg-ink relative overflow-hidden">
-      <div className="section-num">02</div>
+      <div className="section-num" aria-hidden="true">02</div>
 
       {/* Top gold line */}
       <div className="gold-line-full mb-0" />
@@ -42,7 +42,7 @@ export default function ServicesGrid() {
               OUR<br /><span className="gold-text">SERVICES</span>
             </h2>
           </div>
-          <p className="text-silver/60 max-w-xs text-sm font-light leading-relaxed md:text-right">
+          <p className="text-silver/75 max-w-xs text-sm font-light leading-relaxed md:text-right">
             Full-spectrum creative production for UAE brands. Available across all 7 emirates, 365 days a year.
           </p>
         </div>
@@ -63,7 +63,7 @@ export default function ServicesGrid() {
                 <div className={`absolute inset-0 bg-gradient-to-r from-gold/[0.06] to-transparent transition-opacity duration-500 ${isHovered ? "opacity-100" : "opacity-0"}`} />
 
                 {/* Number */}
-                <span className={`font-display text-sm transition-colors duration-300 w-8 shrink-0 ${isHovered ? "text-gold" : "text-white/20"}`}>{s.num}</span>
+                <span aria-hidden="true" className={`font-display text-sm transition-colors duration-300 w-8 shrink-0 ${isHovered ? "text-gold" : "text-white/20"}`}>{s.num}</span>
 
                 {/* Icon */}
                 <div className={`w-10 h-10 rounded-sm flex items-center justify-center shrink-0 transition-all duration-300 ${isHovered ? "bg-gold/20" : "bg-white/5"}`}>

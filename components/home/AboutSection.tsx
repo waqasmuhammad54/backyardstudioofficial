@@ -18,7 +18,7 @@ export default function AboutSection() {
   return (
     <section id="about" className="section-pad bg-ink-2 relative overflow-hidden">
       {/* Decorative BG number */}
-      <div className="section-num">01</div>
+      <div className="section-num" aria-hidden="true">01</div>
 
       {/* Subtle radial glow */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full pointer-events-none"
@@ -89,7 +89,7 @@ export default function AboutSection() {
                     {inView ? <CountUp end={st.value} duration={2.5} suffix={st.suffix} /> : `0${st.suffix}`}
                   </p>
                   <p className="text-cream text-sm font-medium">{st.label}</p>
-                  <p className="text-silver/40 text-xs mt-0.5">{st.detail}</p>
+                  <p className="text-silver/65 text-xs mt-0.5">{st.detail}</p>
                 </div>
               ))}
             </div>

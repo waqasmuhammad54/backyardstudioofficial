@@ -69,7 +69,7 @@ export default function PortfolioPreview() {
 
   return (
     <section id="work" className="section-pad bg-ink-2 relative overflow-hidden">
-      <div className="section-num">04</div>
+      <div className="section-num" aria-hidden="true">04</div>
       <div className="container-xl">
 
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-14">
@@ -86,7 +86,7 @@ export default function PortfolioPreview() {
                 className={`text-[0.6rem] tracking-[0.25em] uppercase px-4 py-2 border transition-all duration-300 font-medium
                   ${active === c
                     ? "border-gold bg-gold/10 text-gold shadow-[0_0_20px_rgba(212,160,23,0.15)]"
-                    : "border-white/10 text-silver/50 hover:border-gold/30 hover:text-silver"}`}
+                    : "border-white/10 text-silver/70 hover:border-gold/30 hover:text-silver"}`}
                 style={{ clipPath: active === c ? "polygon(0 0,calc(100% - 6px) 0,100% 6px,100% 100%,6px 100%,0 calc(100% - 6px))" : "none" }}>
                 {c}
               </button>
@@ -120,7 +120,7 @@ export default function PortfolioPreview() {
                   <div>
                     <span className="text-[0.55rem] tracking-[0.35em] text-gold uppercase font-semibold">{p.category}</span>
                     <h3 className="text-cream font-display text-xl mt-0.5">{p.title.toUpperCase()}</h3>
-                    <p className="text-silver/50 text-xs">{p.client}</p>
+                    <p className="text-silver/70 text-xs">{p.client}</p>
                   </div>
                   <div className="w-8 h-8 rounded-full border border-gold/30 bg-gold/10 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
                     <ArrowUpRight size={14} className="text-gold" />
@@ -133,7 +133,7 @@ export default function PortfolioPreview() {
 
         <div className="mt-12 flex items-center gap-6">
           <Link href="/portfolio" className="btn-gold"><span>View All Work</span><ArrowUpRight size={13} /></Link>
-          <p className="text-silver/40 text-xs font-light">500+ projects delivered across the UAE</p>
+          <p className="text-silver/65 text-xs font-light">500+ projects delivered across the UAE</p>
         </div>
       </div>
     </section>

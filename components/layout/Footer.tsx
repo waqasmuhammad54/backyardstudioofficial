@@ -152,7 +152,7 @@ export default function Footer() {
 
           {/* Col 2 — Services */}
           <div>
-            <h4 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>SERVICES</h4>
+            <h3 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>SERVICES</h3>
             <ul className="space-y-2.5">
               {SERVICES.map((s) => (
                 <li key={s.href}>
@@ -166,7 +166,7 @@ export default function Footer() {
 
           {/* Col 3 — Industries */}
           <div>
-            <h4 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>INDUSTRIES</h4>
+            <h3 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>INDUSTRIES</h3>
             <ul className="space-y-2.5 mb-8">
               {INDUSTRIES.map((i) => (
                 <li key={i.href}>
@@ -177,7 +177,7 @@ export default function Footer() {
               ))}
             </ul>
 
-            <h4 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>COMPANY</h4>
+            <h3 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>COMPANY</h3>
             <ul className="space-y-2.5">
               {COMPANY.map((c) => (
                 <li key={c.href}>
@@ -191,7 +191,7 @@ export default function Footer() {
 
           {/* Col 4 — Contact + UAE Coverage */}
           <div>
-            <h4 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>CONTACT</h4>
+            <h3 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>CONTACT</h3>
             <div className="space-y-2.5 mb-8">
               <a href="tel:+971585882685" className="block text-xs transition-colors hover:text-[var(--gold)]" style={{ color: "var(--muted)" }}>
                 +971 58 588 2685
@@ -202,7 +202,7 @@ export default function Footer() {
               <p className="text-xs" style={{ color: "var(--muted)" }}>Dubai, United Arab Emirates</p>
             </div>
 
-            <h4 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>UAE COVERAGE</h4>
+            <h3 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>UAE COVERAGE</h3>
             <ul className="space-y-2.5 mb-6">
               {CITIES.map((c) => (
                 <li key={c.href}>

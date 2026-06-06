@@ -10,7 +10,7 @@ const STEPS = [
 export default function ProcessSection() {
   return (
     <section id="process" className="section-pad bg-ink-3 relative overflow-hidden">
-      <div className="section-num">05</div>
+      <div className="section-num" aria-hidden="true">05</div>
 
       {/* Horizontal gold rule top */}
       <div className="gold-line-full" />
@@ -24,7 +24,7 @@ export default function ProcessSection() {
               <span className="gold-text">WORK</span>
             </h2>
           </div>
-          <p className="text-silver/50 max-w-xs text-sm font-light leading-relaxed">
+          <p className="text-silver/70 max-w-xs text-sm font-light leading-relaxed">
             A process refined over 8+ years and 500+ productions across the UAE — built for speed without sacrificing craft.
           </p>
         </div>
@@ -41,7 +41,7 @@ export default function ProcessSection() {
                 )}
 
                 {/* Number */}
-                <p className="font-display text-6xl text-white/[0.04] leading-none mb-4 group-hover:text-gold/10 transition-colors duration-500">
+                <p aria-hidden="true" className="font-display text-6xl text-white/[0.04] leading-none mb-4 group-hover:text-gold/10 transition-colors duration-500">
                   {step.num}
                 </p>
 
@@ -53,7 +53,7 @@ export default function ProcessSection() {
                 </div>
 
                 <h3 className="text-cream font-semibold text-base mb-3 group-hover:text-gold-light transition-colors duration-300">{step.title}</h3>
-                <p className="text-silver/50 text-sm font-light leading-relaxed">{step.desc}</p>
+                <p className="text-silver/70 text-sm font-light leading-relaxed">{step.desc}</p>
 
                 {/* Bottom gold accent line */}
                 <div className="mt-6 w-0 h-px bg-gold group-hover:w-12 transition-all duration-500" />
