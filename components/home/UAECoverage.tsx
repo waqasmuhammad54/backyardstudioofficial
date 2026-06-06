@@ -89,4 +89,6 @@ export default function UAECoverage() {
           ))}
         </div>
       </div>
-   
+    </section>
+  );
+}

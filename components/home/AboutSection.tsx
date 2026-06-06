@@ -48,7 +48,7 @@ export default function AboutSection() {
             <div className="absolute top-[38%] left-[28%] z-10 p-5 bg-ink-4/95 border border-gold/20 shadow-[0_20px_60px_rgba(0,0,0,0.7)]"
                  style={{ clipPath:"polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px))" }}>
               <p className="font-display text-3xl gold-text">2026</p>
-              <p className="text-[0.6rem] tracking-[0.3em] text-silver/75 uppercase">UAE's Premier Studio</p>
+              <p className="text-[0.6rem] tracking-[0.3em] text-silver/75 uppercase">UAE&apos;s Premier Studio</p>
             </div>
 
             {/* Gold corner brackets */}
@@ -70,7 +70,7 @@ export default function AboutSection() {
             </h2>
 
             <p className="text-silver/80 leading-relaxed mb-5 font-light">
-              Backyard Studio Official is the UAE's most trusted creative production studio in 2026. We don't just shoot — we craft stories that resonate across every screen, every platform, and every market in the Emirates.
+              Backyard Studio Official is the UAE&apos;s most trusted creative production studio in 2026. We don&apos;t just shoot — we craft stories that resonate across every screen, every platform, and every market in the Emirates.
             </p>
             <p className="text-silver/75 leading-relaxed mb-8 font-light text-sm">
               From intimate event coverage in Downtown Dubai to full-scale commercial productions on Yas Island — our team of world-class cinematographers, directors, and editors bring Hollywood craft to every UAE brief.
@@ -96,4 +96,6 @@ export default function AboutSection() {
           </div>
         </div>
       </div>
-   
+    </section>
+  );
+}

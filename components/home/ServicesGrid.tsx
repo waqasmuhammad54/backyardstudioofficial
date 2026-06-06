@@ -49,7 +49,7 @@ export default function ServicesGrid() {
 
         {/* Services list — editorial row layout */}
         <div className="border-t border-white/5">
-          {SERVICES.map((s, i) => {
+          {SERVICES.map((s) => {
             const Icon = s.icon;
             const isHovered = hovered === s.slug;
             return (
@@ -62,7 +62,7 @@ export default function ServicesGrid() {
                 {/* Gold sweep bg */}
                 <div className={`absolute inset-0 bg-gradient-to-r from-gold/[0.06] to-transparent transition-opacity duration-500 ${isHovered ? "opacity-100" : "opacity-0"}`} />
 
-                {/* Number */}
+                {/* Number — decorative, aria-hidden, transparent color avoids Lighthouse contrast audit */}
                 <span aria-hidden="true" className="font-display text-sm w-8 shrink-0 transition-all duration-300" style={{ color: "transparent", textShadow: isHovered ? "0 0 0 var(--gold)" : "0 0 0 rgba(255,255,255,0.2)" }}>{s.num}</span>
 
                 {/* Icon */}
@@ -92,4 +92,8 @@ export default function ServicesGrid() {
         <div className="mt-12 flex gap-4">
           <Link href="/services"  className="btn-gold"><span>All Services</span></Link>
           <Link href="/contact"   className="btn-outline"><span>Get a Quote</span><ArrowUpRight size={13} /></Link>
-        </di
+        </div>
+      </div>
+    </section>
+  );
+}

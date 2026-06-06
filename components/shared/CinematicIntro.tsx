@@ -87,4 +87,6 @@ export default function CinematicIntro() {
           </motion.p>
         </motion.div>
       )}
- 
+    </AnimatePresence>
+  );
+}
