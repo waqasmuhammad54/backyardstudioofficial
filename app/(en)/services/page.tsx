@@ -70,6 +70,13 @@ const SERVICES_ITEM_LIST = [
 ];
 
 const SERVICES = [
+  // Weddings
+  { icon: Camera,       slug: "wedding-photography",     label: "Wedding Photography Dubai",              desc: "Wedding photoshoot packages from AED 1,799 — affordable to premium, photo + video, GCAA drone, 48-hour delivery." },
+  { icon: Film,         slug: "wedding-videography",     label: "Wedding Videography",                    desc: "Cinematic wedding films by a real production house — cinema cameras, clean vow audio, drone aerials across UAE." },
+  { icon: Star,         slug: "pre-wedding-shoot",       label: "Pre-Wedding Shoots",                     desc: "Desert, Burj Khalifa, Madinat Jumeirah & beach pre-wedding photoshoots from AED 1,500 with golden-hour planning." },
+  { icon: Image,        slug: "flying-dress-photoshoot", label: "Flying Dress Photoshoot",                desc: "Dubai's iconic flying dress experience from AED 1,499 — dress included, desert & beach locations, 48-hour delivery." },
+  { icon: Camera,       slug: "affordable-wedding-photography", label: "Affordable Wedding Photography",  desc: "Budget wedding photoshoots from AED 1,799 — studio standards, 100+ edited photos, no hidden fees." },
+  { icon: MapPin,       slug: "wedding-photography-abu-dhabi",  label: "Wedding Photographer Abu Dhabi",  desc: "Emirates Palace, Saadiyat & Yas Island wedding coverage at Dubai prices — zero travel fees." },
   // Photography & Videography Verticals
   { icon: Camera,       slug: "event-videography",      label: "Event Videography & Photography",        desc: "Full-service event coverage — galas, conferences, brand launches, and weddings across all UAE emirates." },
   { icon: Image,        slug: "photo-shoots",            label: "Wedding & Photo Shoots",                 desc: "Dubai's best wedding shoot company. Pre-wedding, editorial, and lifestyle photography across UAE." },

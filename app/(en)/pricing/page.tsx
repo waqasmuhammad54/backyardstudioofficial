@@ -46,8 +46,24 @@ const PACKAGES = [
   {
     category: "Wedding Photography & Videography",
     anchor: "wedding",
-    intro: "Dubai's most requested wedding production packages. All include GCAA drone, same-day teaser, and 48-hour full delivery.",
+    intro: "Dubai's most requested wedding production packages — from affordable photography to multi-day productions. 48-hour delivery on every package.",
     plans: [
+      {
+        name: "Essential",
+        price: "AED 1,799",
+        label: "Affordable Photography",
+        desc: "Budget-friendly professional photography for intimate ceremonies and court weddings.",
+        includes: [
+          "1 professional photographer",
+          "3 hours of coverage",
+          "100+ edited photos",
+          "Online delivery gallery",
+          "48-hour delivery",
+          "Add videography from AED 1,200",
+        ],
+        cta: "Get Quote",
+        featured: false,
+      },
       {
         name: "Silver",
         price: "AED 3,500",
@@ -327,7 +343,7 @@ const PRICE_FAQS = [
   {
     question: "How much does a wedding photographer cost in Dubai?",
     answer:
-      "Wedding photography in Dubai ranges from AED 3,500 for a half-day civil ceremony package to AED 25,000+ for a full multi-day Indian wedding with drone, video, pre-wedding shoot, and same-day highlights. Backyard Studio Official's most popular full-day wedding package (Gold) is AED 8,500 and includes 2 photographers, 2 videographers, drone, and 48-hour delivery.",
+      "Wedding photography in Dubai ranges from AED 1,799 for Backyard Studio Official's affordable Essential photography package to AED 25,000+ for a full multi-day Indian wedding with drone, video, pre-wedding shoot, and same-day highlights. Our most popular full-day wedding package (Gold) is AED 8,500 and includes 2 photographers, 2 videographers, drone, and 48-hour delivery.",
   },
   {
     question: "How much does video production cost in Dubai UAE?",
@@ -396,7 +412,7 @@ export default function PricingPage() {
               <h2 className="font-display text-4xl md:text-5xl text-white mb-3">{pkg.category.toUpperCase()}</h2>
               <p className="text-[#a0a0a0] text-sm mb-12 max-w-2xl">{pkg.intro}</p>
 
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className={`grid grid-cols-1 md:grid-cols-2 ${pkg.plans.length >= 4 ? "lg:grid-cols-4" : "lg:grid-cols-3"} gap-6`}>
                 {pkg.plans.map((plan) => (
                   <div
                     key={plan.name}
