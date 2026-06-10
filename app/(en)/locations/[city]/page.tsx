@@ -68,7 +68,6 @@ const CITY_DATA: Record<string, { name: string; image: string; description: stri
       { q: "Can you fly drones in Ras Al Khaimah?", a: "Yes. As GCAA-licensed drone operators, we can fly legally across Ras Al Khaimah including Jebel Jais aerial footage, coastal drone shots, and event aerial coverage — with all necessary coordination and permits handled by our team." },
     ],
   },
-};
 
   "fujairah": {
     name: "Fujairah",
@@ -130,4 +129,115 @@ export async function generateMetadata({ params }: { params: { city: string } })
     },
     twitter: {
       card: "summary_large_image",
-      title: `Vi
+      title: `Video Production in ${data.name} | Backyard Studio Official`,
+      description: `Events, weddings, DVCs & Reels in ${data.name}. Free quote in 2 hours.`,
+      images: ["/og-image.jpg"],
+    },
+  };
+}
+
+export default function CityPage({ params }: { params: { city: string } }) {
+  const data = CITY_DATA[params.city] || DEFAULT_CITY(params.city);
+  const SERVICES = ["Event Shoots", "DVCs", "Instagram Reels", "TikTok Content", "Testimonial Videos", "Ads Shooting", "Aerial Drone", "Corporate Films"];
+  const pageUrl = `https://www.backyardstudioofficial.com/locations/${params.city}`;
+  const cityBreadcrumb = breadcrumbSchema([
+    { name: "Home", url: "https://www.backyardstudioofficial.com" },
+    { name: "UAE Coverage", url: "https://www.backyardstudioofficial.com/locations" },
+    { name: data.name, url: pageUrl },
+  ]);
+  const cityFaqSchema = data.faqs?.length > 0
+    ? faqSchema(data.faqs.map((f: { q: string; a: string }) => ({ question: f.q, answer: f.a })))
+    : null;
+  const citySpeakable = speakableSchema(pageUrl, ["h1", "h2", ".speakable"]);
+
+  return (
+    <div className="pt-24">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(cityBreadcrumb) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(citySpeakable) }} />
+      {cityFaqSchema && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(cityFaqSchema) }} />
+      )}
+      {/* Hero */}
+      <section className="relative h-80 flex items-end overflow-hidden">
+        <Image src={data.image} alt={`Video production in ${data.name}`} fill className="object-cover" sizes="100vw" />
+        <div className="absolute inset-0 bg-black/65" />
+        <div className="relative container-xl pb-10">
+          <div className="flex items-center gap-2 text-[#a0a0a0] text-xs mb-2">
+            <Link href="/locations" className="hover:text-[#e8c547] transition-colors">UAE Coverage</Link>
+            <span>→</span>
+            <span className="text-[#e8c547]">{data.name}</span>
+          </div>
+          <h1 className="font-display text-5xl md:text-6xl text-white">
+            VIDEO PRODUCTION IN {data.name.toUpperCase()}
+          </h1>
+        </div>
+      </section>
+
+      <section className="section-pad bg-[#0a0a0a]">
+        <div className="container-xl grid lg:grid-cols-3 gap-12">
+          <div className="lg:col-span-2">
+            {/* Description */}
+            {data.description.split("\n\n").map((p, i) => (
+              <p key={i} className="text-[#a0a0a0] leading-relaxed mb-5">{p}</p>
+            ))}
+
+            {/* Areas */}
+            <h2 className="font-display text-3xl text-white mt-10 mb-5">AREAS WE COVER IN {data.name.toUpperCase()}</h2>
+            <div className="flex flex-wrap gap-2 mb-10">
+              {data.areas.map((a) => (
+                <span key={a} className="text-sm bg-[#1a1a1a] border border-[#2a2a2a] text-[#a0a0a0] px-3 py-1.5 rounded-sm hover:border-[#e8c547]/50 hover:text-[#e8c547] transition-colors cursor-default">
+                  <MapPin size={10} className="inline mr-1" />{a}
+                </span>
+              ))}
+            </div>
+
+            {/* Landmarks */}
+            <h2 className="font-display text-3xl text-white mb-5">ICONIC SHOOT LOCATIONS</h2>
+            <div className="grid grid-cols-2 gap-3">
+              {data.landmarks.map((l) => (
+                <div key={l} className="flex items-center gap-2 p-3 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm text-sm text-[#a0a0a0]">
+                  <Camera size={14} className="text-[#e8c547] shrink-0" /> {l}
+                </div>
+              ))}
+            </div>
+
+            {/* Services */}
+            <h2 className="font-display text-3xl text-white mt-10 mb-5">SERVICES IN {data.name.toUpperCase()}</h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+              {SERVICES.map((s) => (
+                <div key={s} className="text-center p-3 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm text-xs text-[#a0a0a0]">{s}</div>
+              ))}
+            </div>
+          </div>
+
+          {/* Sidebar CTA */}
+          <div className="space-y-4">
+            <div className="p-6 bg-[#1a1a1a] border border-[#e8c547]/30 rounded-sm">
+              <h3 className="font-display text-2xl text-white mb-2">SHOOT IN {data.name.toUpperCase()}</h3>
+              <p className="text-[#a0a0a0] text-sm mb-5">Get a custom quote for your {data.name} production.</p>
+              <Link href="/contact" className="btn-gold w-full justify-center block text-center">Get a Quote →</Link>
+              <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer"
+                 className="btn-outline w-full justify-center block text-center mt-3">WhatsApp Us</a>
+            </div>
+            <div className="p-5 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm">
+              <p className="text-xs text-[#666] uppercase tracking-widest mb-3">Other Emirates</p>
+              {["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "RAK", "Fujairah", "UAQ"].map((c) => (
+                <Link key={c} href={`/locations/${c.toLowerCase().replace(/ /g, "-")}`}
+                  className="flex items-center justify-between py-1.5 text-[#a0a0a0] text-sm hover:text-[#e8c547] transition-colors border-b border-[#2a2a2a] last:border-0">
+                  <span>{c}</span><ArrowRight size={12} />
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Banner */}
+      <section className="py-16 bg-[#111111] text-center border-t border-[#2a2a2a]">
+        <h2 className="font-display text-4xl text-white mb-4">READY TO SHOOT IN {data.name.toUpperCase()}?</h2>
+        <p className="text-[#a0a0a0] mb-8 max-w-md mx-auto text-sm">Send us your brief and we&apos;ll respond within 2 hours with a custom production plan.</p>
+        <Link href="/contact" className="btn-gold">Start Your Project →</Link>
+      </section>
+    </div>
+  );
+}

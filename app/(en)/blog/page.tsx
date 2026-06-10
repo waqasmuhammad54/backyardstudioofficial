@@ -129,4 +129,27 @@ export default function BlogPage() {
                   <h3 className="text-white font-semibold text-sm leading-snug mb-2 group-hover:text-[#e8c547] transition-colors line-clamp-2">
                     {post.title}
                   </h3>
-                  <p className="text-[#666] text-xs leading-relaxed line-cla
+                  <p className="text-[#666] text-xs leading-relaxed line-clamp-2">{post.excerpt}</p>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          <div className="mt-16 p-8 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm text-center">
+            <p className="text-[#e8c547] text-xs tracking-[0.4em] uppercase font-semibold mb-3">READY TO PRODUCE?</p>
+            <h2 className="font-display text-3xl md:text-4xl text-white mb-3">Start Your Project Today</h2>
+            <p className="text-[#a0a0a0] text-sm mb-6 max-w-md mx-auto">
+              Get a custom production plan delivered within 2 hours.
+            </p>
+            <div className="flex gap-4 justify-center flex-wrap">
+              <Link href="/contact" className="btn-gold">Get a Free Quote</Link>
+              <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer" className="btn-outline">
+                WhatsApp Us
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

@@ -710,4 +710,26 @@ export default function IndustryPage({ params }: { params: { industry: string } 
               </Link>
             </div>
           </div>
- 
+        </div>
+      </section>
+
+      {/* ── CTA ── */}
+      <section className="py-24 text-center border-t" style={{ background: "var(--black)", borderColor: "var(--border)" }}>
+        <p className="eyebrow mb-6">Ready to Start?</p>
+        <h2 className="font-display text-5xl sm:text-6xl mb-8" style={{ color: "var(--cream)" }}>LET'S CREATE SOMETHING</h2>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <Link href="/contact" className="btn-gold inline-flex items-center gap-2">
+            <span>Get a Free Quote</span>
+            <ArrowUpRight size={14} />
+          </Link>
+          <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer"
+            className="btn-gold inline-flex items-center gap-2"
+            style={{ background: "transparent", border: "1px solid var(--gold)", color: "var(--gold)" }}>
+            <span>WhatsApp Us</span>
+            <ArrowUpRight size={14} />
+          </a>
+        </div>
+      </section>
+    </>
+  );
+}
