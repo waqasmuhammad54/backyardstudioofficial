@@ -62,4 +62,25 @@ export default function RuPricingPage() {
           {PACKAGES.map((pkg) => (
             <div key={pkg.title} style={{ background: pkg.featured ? "rgba(212,175,55,0.08)" : "rgba(255,255,255,0.03)", border: pkg.featured ? "1px solid rgba(212,175,55,0.4)" : "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "2rem", textAlign: "center", position: "relative" as const }}>
               {pkg.featured && (
-                <div style={{ position: "absolute" as const, top: "-12px", left: "50%", transform: "translateX(-50%)", background: "var(--gold)", color: "#000", padding: "0.2rem 1rem", borderRadius: "2px", fontSize: "0.75rem", fontFamily:
+                <div style={{ position: "absolute" as const, top: "-12px", left: "50%", transform: "translateX(-50%)", background: "var(--gold)", color: "#000", padding: "0.2rem 1rem", borderRadius: "2px", fontSize: "0.75rem", fontFamily: "Inter, sans-serif", fontWeight: 700, whiteSpace: "nowrap" as const }}>
+                  Наиболее популярно
+                </div>
+              )}
+              <h2 style={{ fontFamily: "Inter, sans-serif", color: pkg.featured ? "var(--gold)" : "var(--cream)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.5rem" }}>{pkg.title}</h2>
+              <div style={{ fontFamily: "Inter, sans-serif", color: "var(--gold)", fontSize: "1.5rem", fontWeight: 800, marginBottom: "1.5rem" }}>{pkg.price}</div>
+              <ul style={{ listStyle: "none", padding: 0, margin: "0 0 2rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+                {pkg.features.map((f) => <li key={f} style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.875rem" }}>✓ {f}</li>)}
+              </ul>
+              <a href="/ru/contact" style={{ display: "block", background: pkg.featured ? "var(--gold)" : "transparent", border: pkg.featured ? "none" : "1px solid rgba(212,175,55,0.4)", color: pkg.featured ? "#000" : "var(--gold)", padding: "0.75rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Inter, sans-serif", fontWeight: 700, fontSize: "0.9rem" }}>
+                Получить предложение
+              </a>
+            </div>
+          ))}
+        </div>
+        <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.4)", textAlign: "center", marginTop: "2rem", fontSize: "0.875rem" }}>
+          Все цены в дирхамах ОАЭ (AED). Цены ориентировочные — точная стоимость определяется по требованиям проекта.
+        </p>
+      </section>
+    </>
+  );
+}

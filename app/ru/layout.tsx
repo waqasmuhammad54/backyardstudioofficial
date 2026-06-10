@@ -157,4 +157,59 @@ export default function RussianLayout({ children }: { children: React.ReactNode 
               "@type": "PostalAddress",
               "addressLocality": "Дубай",
               "addressCountry": "AE",
-   
+            },
+            "description": "Профессиональная видеосъёмка и фотография в Дубае. Корпоративное видео, свадебная съёмка, контент для соцсетей, аэросъёмка дроном. Лицензия GCAA.",
+            "areaServed": [
+              { "@type": "City", "name": "Дубай" },
+              { "@type": "City", "name": "Абу-Даби" },
+              { "@type": "City", "name": "Шарджа" },
+              { "@type": "AdministrativeArea", "name": "ОАЭ" },
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "127",
+              "bestRating": "5",
+            },
+            "sameAs": [
+              "https://www.instagram.com/backyardstudioofficial",
+              "https://www.youtube.com/@backyardstudioofficial",
+            ],
+            "founder": [
+              {
+                "@type": "Person",
+                "name": "Фахад Икбал Батт",
+                "jobTitle": "Директор и главный фотограф",
+              },
+              {
+                "@type": "Person",
+                "name": "Сайед Мазхар Зайди",
+                "jobTitle": "Директор постпродакшна",
+                "sameAs": "https://www.imdb.com/name/nm14029494/",
+              },
+            ],
+          }),
+        }}
+      />
+
+      <div style={{ fontFamily: "Inter, sans-serif", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+        <RuNavbar />
+        <main style={{ flex: 1, paddingTop: "80px" }}>{children}</main>
+        <RuFooter />
+      </div>
+
+      <WhatsAppButton />
+
+      {GA_ID && (
+        <>
+          <Script src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID} strategy="afterInteractive" />
+          <Script id="ga4-ru" strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','" + GA_ID + "',{page_path:window.location.pathname,anonymize_ip:true});",
+            }}
+          />
+        </>
+      )}
+    </>
+  );
+}

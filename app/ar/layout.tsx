@@ -163,4 +163,45 @@ export default function ArabicLayout({ children }: { children: React.ReactNode }
               "addressRegion": "Dubai",
               "addressCountry": "AE",
             },
-            "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", 
+            "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm Al Quwain"],
+            "description": "شركة الإنتاج الإبداعي الرائدة في دبي. تصوير فيديو احترافي، تصوير الأعراس، محتوى وسائل التواصل الاجتماعي، تصوير بالطائرة المسيّرة GCAA.",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "127",
+              "bestRating": "5",
+            },
+            "sameAs": [
+              "https://www.instagram.com/backyardstudioofficial",
+              "https://www.facebook.com/backyardstudioofficial",
+              "https://www.tiktok.com/@backyardstudioofficial",
+            ],
+            "founder": [
+              { "@type": "Person", "name": "فهد إقبال بط", "jobTitle": "المدير الإبداعي" },
+              { "@type": "Person", "name": "سيد مظهر زيدي", "jobTitle": "مدير التصوير" },
+            ],
+          }),
+        }}
+      />
+
+      <div dir="rtl" lang="ar" style={{ fontFamily: "Cairo, sans-serif", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+        <ArNavbar />
+        <main style={{ flex: 1, paddingTop: "80px" }}>{children}</main>
+        <ArFooter />
+      </div>
+
+      <WhatsAppButton />
+
+      {GA_ID && (
+        <>
+          <Script src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID} strategy="afterInteractive" />
+          <Script id="ga4-ar" strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','" + GA_ID + "',{page_path:window.location.pathname,anonymize_ip:true});",
+            }}
+          />
+        </>
+      )}
+    </>
+  );
+}

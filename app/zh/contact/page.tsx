@@ -90,4 +90,27 @@ export default function ZhContactPage() {
                 type="tel" name="phone" placeholder="电话 / WhatsApp号码"
                 style={{ background: "#0a0a0a", border: "1px solid rgba(212,175,55,0.25)", borderRadius: "2px", padding: "0.75rem 1rem", color: "var(--cream)", fontFamily: "'Noto Sans SC', sans-serif", fontSize: "0.9rem", outline: "none" }}
               />
-              <select name="service" style={{ background: "#0a0a0a", border: "1px so
+              <select name="service" style={{ background: "#0a0a0a", border: "1px solid rgba(212,175,55,0.25)", borderRadius: "2px", padding: "0.75rem 1rem", color: "var(--cream)", fontFamily: "'Noto Sans SC', sans-serif", fontSize: "0.9rem", outline: "none" }}>
+                <option value="">选择服务类型</option>
+                <option value="wedding">婚礼摄影摄像</option>
+                <option value="corporate">企业视频制作</option>
+                <option value="event">活动及发布会</option>
+                <option value="drone">无人机航拍</option>
+                <option value="social">社交媒体内容</option>
+                <option value="product">产品及电商摄影</option>
+                <option value="other">其他</option>
+              </select>
+              <textarea
+                name="message" placeholder="请描述您的项目需求（日期、地点、预算等）" rows={4} required
+                style={{ background: "#0a0a0a", border: "1px solid rgba(212,175,55,0.25)", borderRadius: "2px", padding: "0.75rem 1rem", color: "var(--cream)", fontFamily: "'Noto Sans SC', sans-serif", fontSize: "0.9rem", outline: "none", resize: "vertical" }}
+              />
+              <button type="submit" style={{ background: "var(--gold)", color: "#000", border: "none", padding: "0.9rem", borderRadius: "2px", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700, fontSize: "1rem", cursor: "pointer" }}>
+                提交询价
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

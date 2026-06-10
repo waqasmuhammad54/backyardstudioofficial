@@ -107,4 +107,55 @@ export default function ZhHomePage() {
 
       {/* Services */}
       <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
-        <div
+        <div style={{ maxWidth: "1000px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", textAlign: "center", color: "var(--cream)", fontSize: "clamp(1.5rem, 4vw, 2.2rem)", fontWeight: 800, marginBottom: "0.75rem" }}>
+            我们的服务
+          </h2>
+          <p style={{ fontFamily: "'Noto Sans SC', sans-serif", textAlign: "center", color: "rgba(245,240,225,0.5)", marginBottom: "3rem" }}>专业影视制作，覆盖迪拜及阿联酋全境</p>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1.5rem" }}>
+            {SERVICES.map((s, i) => (
+              <div key={i} style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "2rem" }}>
+                <div style={{ fontSize: "2rem", marginBottom: "1rem" }}>{s.icon}</div>
+                <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.6rem" }}>{s.title}</h3>
+                <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.9rem", lineHeight: 1.7 }}>{s.desc}</p>
+              </div>
+            ))}
+          </div>
+          <div style={{ textAlign: "center", marginTop: "2.5rem" }}>
+            <a href="/zh/services" style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--gold)", textDecoration: "none", fontSize: "0.9rem" }}>查看全部服务 →</a>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "clamp(1.5rem, 3.5vw, 2rem)", fontWeight: 800, color: "var(--cream)", textAlign: "center", marginBottom: "3rem" }}>
+            常见问题
+          </h2>
+          <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
+            {FAQS_ZH.map((f) => (
+              <div key={f.q} style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "1.5rem" }}>
+                <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem" }}>{f.q}</h3>
+                <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.9rem", lineHeight: 1.8, margin: 0 }}>{f.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section style={{ padding: "5rem 2rem", background: "#111", textAlign: "center" }}>
+        <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontSize: "clamp(1.5rem, 4vw, 2rem)", fontWeight: 800, marginBottom: "1rem" }}>
+          准备好开始您的项目了吗？
+        </h2>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", maxWidth: "500px", margin: "0 auto 2rem", lineHeight: 1.8 }}>
+          联系我们获取免费报价。我们可以用中文沟通，让您的迪拜项目更顺畅。
+        </p>
+        <a href="/zh/contact" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700, borderRadius: "2px", textDecoration: "none", fontSize: "1rem" }}>
+          立即咨询
+        </a>
+      </section>
+    </>
+  );
+}

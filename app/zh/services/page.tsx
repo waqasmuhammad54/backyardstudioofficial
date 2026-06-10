@@ -95,4 +95,64 @@ export default function ZhServicesPage() {
         "@context": "https://schema.org", "@type": "BreadcrumbList",
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://www.backyardstudioofficial.com/zh" },
-          { "@
+          { "@type": "ListItem", "position": 2, "name": "服务", "item": "https://www.backyardstudioofficial.com/zh/services" },
+        ],
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        "mainEntity": SERVICES_FAQS_ZH.map((f) => ({
+          "@type": "Question", "name": f.q,
+          "acceptedAnswer": { "@type": "Answer", "text": f.a },
+        })),
+      }) }} />
+
+      <section style={{ background: "#111", padding: "4rem 2rem 3rem", textAlign: "center" }}>
+        <h1 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>
+          我们的服务
+        </h1>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", maxWidth: "600px", margin: "0 auto", lineHeight: 1.8 }}>
+          迪拜及阿联酋全套创意制作服务，从策划到交付，一站式解决方案。
+        </p>
+      </section>
+
+      <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.5rem" }}>
+          {SERVICES.map((s) => (
+            <div key={s.title} style={{ background: "#111", border: "1px solid rgba(212,175,55,0.15)", borderRadius: "4px", padding: "2rem" }}>
+              <div style={{ fontSize: "2rem", marginBottom: "1rem" }}>{s.icon}</div>
+              <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.125rem", marginBottom: "0.75rem" }}>{s.title}</h2>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.65)", lineHeight: 1.8, fontSize: "0.9rem", marginBottom: "1rem" }}>{s.desc}</p>
+              <span style={{ color: "var(--gold)", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700, fontSize: "0.95rem" }}>{s.price}</span>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "clamp(1.5rem, 3vw, 2rem)", fontWeight: 800, color: "var(--cream)", textAlign: "center", marginBottom: "3rem" }}>
+            常见问题
+          </h2>
+          <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
+            {SERVICES_FAQS_ZH.map((f) => (
+              <div key={f.q} style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "1.5rem" }}>
+                <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem" }}>{f.q}</h3>
+                <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.9rem", lineHeight: 1.8, margin: 0 }}>{f.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section style={{ background: "#111", padding: "4rem 2rem", textAlign: "center" }}>
+        <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1rem" }}>
+          获取免费报价
+        </h2>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", marginBottom: "1.5rem" }}>2小时内回复</p>
+        <a href="/zh/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700 }}>
+          立即咨询
+        </a>
+      </section>
+    </>
+  );
+}

@@ -295,4 +295,16 @@ export default function ArabicHomePage() {
         </h2>
         <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", marginBottom: "2rem", fontSize: "1rem" }}>
           نرد على جميع الاستفسارات خلال ساعتين. تواصل معنا الآن للحصول على عرض سعر مجاني.
-        </
+        </p>
+        <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
+          <a href="/ar/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.25rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Cairo, sans-serif", fontWeight: 700, fontSize: "1rem" }}>
+            تواصل معنا
+          </a>
+          <a href="https://wa.me/971585882685" target="_blank" rel="noopener noreferrer" style={{ border: "1px solid rgba(212,175,55,0.5)", color: "var(--gold)", padding: "0.9rem 2.25rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Cairo, sans-serif", fontWeight: 600 }}>
+            واتساب: +971 58 588 2685
+          </a>
+        </div>
+      </section>
+    </>
+  );
+}

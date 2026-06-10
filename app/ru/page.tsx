@@ -158,4 +158,20 @@ export default function RussianHomePage() {
       {/* CTA */}
       <section style={{ padding: "4rem 2rem", background: "linear-gradient(135deg, #1a1408 0%, #0a0a0a 100%)", textAlign: "center", borderTop: "1px solid rgba(212,175,55,0.2)" }}>
         <h2 style={{ fontFamily: "Inter, sans-serif", fontSize: "clamp(1.5rem, 3vw, 2rem)", fontWeight: 700, color: "var(--cream)", marginBottom: "1rem" }}>
-          Готовы к ва�
+          Готовы к вашему проекту?
+        </h2>
+        <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", marginBottom: "2rem" }}>
+          Мы отвечаем на все запросы в течение 2 часов, 7 дней в неделю.
+        </p>
+        <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
+          <a href="/ru/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.25rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Inter, sans-serif", fontWeight: 700 }}>
+            Связаться с нами
+          </a>
+          <a href="https://wa.me/971585882685" target="_blank" rel="noopener noreferrer" style={{ border: "1px solid rgba(212,175,55,0.5)", color: "var(--gold)", padding: "0.9rem 2.25rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Inter, sans-serif", fontWeight: 600 }}>
+            WhatsApp: +971 58 588 2685
+          </a>
+        </div>
+      </section>
+    </>
+  );
+}

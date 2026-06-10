@@ -100,4 +100,31 @@ export default function ZhPricingPage() {
               <div style={{ color: "var(--gold)", fontSize: "1.75rem", fontWeight: 900, marginBottom: "1.25rem", fontFamily: "'Noto Sans SC', sans-serif" }}>{pkg.price}</div>
               <ul style={{ listStyle: "none", padding: 0, margin: "0 0 1.5rem" }}>
                 {pkg.features.map((f) => (
-                  <li key={f} style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)",
+                  <li key={f} style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", fontSize: "0.875rem", marginBottom: "0.5rem", paddingLeft: "1.2rem", position: "relative" }}>
+                    <span style={{ position: "absolute", left: 0, color: "var(--gold)" }}>✓</span>
+                    {f}
+                  </li>
+                ))}
+              </ul>
+              <a href="/zh/contact" style={{ display: "block", textAlign: "center", background: pkg.highlight ? "var(--gold)" : "transparent", color: pkg.highlight ? "#000" : "var(--gold)", border: "1px solid var(--gold)", padding: "0.7rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700, fontSize: "0.9rem" }}>
+                获取报价
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section style={{ background: "#111", padding: "4rem 2rem", textAlign: "center" }}>
+        <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "1.25rem", fontWeight: 700, color: "var(--cream)", marginBottom: "0.75rem" }}>
+          有定制需求？
+        </h2>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", marginBottom: "1.5rem" }}>
+          我们为每个项目提供专属方案。联系我们，2小时内回复。
+        </p>
+        <a href="/zh/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700 }}>
+          免费咨询
+        </a>
+      </section>
+    </>
+  );
+}

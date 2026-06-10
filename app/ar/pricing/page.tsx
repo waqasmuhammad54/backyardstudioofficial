@@ -92,4 +92,29 @@ export default function ArPricingPage() {
               position: "relative" as const,
             }}>
               {pkg.featured && (
-                <div style={{ position: "absolute" as const, top: "-12px", left: "50%", transform: "translateX(-50%)", background: "var(--g
+                <div style={{ position: "absolute" as const, top: "-12px", left: "50%", transform: "translateX(-50%)", background: "var(--gold)", color: "#000", padding: "0.2rem 1rem", borderRadius: "2px", fontSize: "0.75rem", fontFamily: "Cairo, sans-serif", fontWeight: 700, whiteSpace: "nowrap" as const }}>
+                  الأكثر طلباً
+                </div>
+              )}
+              <h2 style={{ fontFamily: "Cairo, sans-serif", color: pkg.featured ? "var(--gold)" : "var(--cream)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.5rem" }}>{pkg.title}</h2>
+              <div style={{ fontFamily: "Cairo, sans-serif", color: "var(--gold)", fontSize: "1.5rem", fontWeight: 900, marginBottom: "1.5rem" }}>{pkg.price}</div>
+              <ul style={{ listStyle: "none", padding: 0, margin: "0 0 2rem", display: "flex", flexDirection: "column", gap: "0.6rem" }}>
+                {pkg.features.map((f) => (
+                  <li key={f} style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.875rem" }}>
+                    ✓ {f}
+                  </li>
+                ))}
+              </ul>
+              <a href="/ar/contact" style={{ display: "block", background: pkg.featured ? "var(--gold)" : "transparent", border: pkg.featured ? "none" : "1px solid rgba(212,175,55,0.4)", color: pkg.featured ? "#000" : "var(--gold)", padding: "0.75rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Cairo, sans-serif", fontWeight: 700, fontSize: "0.9rem" }}>
+                احصل على عرض سعر
+              </a>
+            </div>
+          ))}
+        </div>
+        <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.4)", textAlign: "center", marginTop: "2rem", fontSize: "0.875rem" }}>
+          جميع الأسعار بالدرهم الإماراتي (AED). الأسعار تقديرية — يتم تحديد السعر النهائي بناءً على متطلبات المشروع.
+        </p>
+      </section>
+    </>
+  );
+}

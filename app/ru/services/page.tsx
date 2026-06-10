@@ -48,4 +48,86 @@ const SERVICES_FAQS = [
   },
   {
     q: "Сколько стоит корпоративное видео в Дубае?",
-    a: "Корпоративное видео в Дубае начинается от 15 000 AED. Стоимость зависит от хронометража, локаций и сложно
+    a: "Корпоративное видео в Дубае начинается от 15 000 AED. Стоимость зависит от хронометража, локаций и сложности постпродакшна. Связной нами для бесплатной оценки вашего проекта.",
+  },
+  {
+    q: "Есть ли у вас лицензия GCAA на аэросъёмку дроном в ОАЭ?",
+    a: "Да. Backyard Studio Official имеет лицензию GCAA (Генеральное управление гражданской авиации) на коммерческую аэросъёмку. Это гарантирует легальность всех наших дроновых съёмок по всем эмиратам ОАЭ.",
+  },
+  {
+    q: "Работаете ли вы за пределами Дубая?",
+    a: "Да. Мы работаем во всех 7 эмиратах ОАЭ: Дубай, Абу-Даби, Шарджа, Аджман, Рас-эль-Хайма, Фуджейра и Умм-эль-Кайвайн. Без дополнительной платы за выезд.",
+  },
+];
+
+export default function RuServicesPage() {
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://www.backyardstudioofficial.com/ru" },
+          { "@type": "ListItem", "position": 2, "name": "Услуги", "item": "https://www.backyardstudioofficial.com/ru/services" },
+        ],
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "ItemList",
+        "name": "Услуги видеопроизводства — Backyard Studio Official Дубай",
+        "itemListElement": SERVICES.map((s, i) => ({
+          "@type": "ListItem", "position": i + 1, "name": s.title,
+          "url": "https://www.backyardstudioofficial.com/ru/services",
+        })),
+      }) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        "mainEntity": SERVICES_FAQS.map((f) => ({
+          "@type": "Question", "name": f.q,
+          "acceptedAnswer": { "@type": "Answer", "text": f.a },
+        })),
+      }) }} />
+
+      <section style={{ background: "#111", padding: "4rem 2rem 3rem", textAlign: "center" }}>
+        <h1 style={{ fontFamily: "Inter, sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 800, color: "var(--cream)", marginBottom: "1rem" }}>
+          Наши услуги в Дубае и ОАЭ
+        </h1>
+        <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", maxWidth: "600px", margin: "0 auto", lineHeight: 1.7 }}>
+          Комплексные решения для брендов, компаний и частных лиц. От корпоративного видео до свадебной съёмки.
+        </p>
+      </section>
+      <section style={{ padding: "4rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1.5rem" }}>
+          {SERVICES.map((s) => (
+            <div key={s.title} style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "2rem" }}>
+              <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>{s.icon}</div>
+              <h2 style={{ fontFamily: "Inter, sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.6rem" }}>{s.title}</h2>
+              <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.65)", fontSize: "0.9rem", lineHeight: 1.7, marginBottom: "1rem" }}>{s.desc}</p>
+              <span style={{ fontFamily: "Inter, sans-serif", color: "var(--gold)", fontWeight: 600, fontSize: "0.9rem" }}>{s.price}</span>
+            </div>
+          ))}
+        </div>
+        <div style={{ textAlign: "center", marginTop: "3rem" }}>
+          <a href="/ru/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Inter, sans-serif", fontWeight: 700 }}>
+            Получить бесплатное предложение
+          </a>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section style={{ padding: "5rem 2rem", background: "#111" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "Inter, sans-serif", fontSize: "clamp(1.5rem, 3vw, 2rem)", fontWeight: 700, color: "var(--cream)", textAlign: "center", marginBottom: "3rem" }}>
+            Вопросы об услугах
+          </h2>
+          <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
+            {SERVICES_FAQS.map((f) => (
+              <div key={f.q} style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "1.5rem" }}>
+                <h3 style={{ fontFamily: "Inter, sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem" }}>{f.q}</h3>
+                <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.9rem", lineHeight: 1.7, margin: 0 }}>{f.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

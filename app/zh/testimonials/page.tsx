@@ -93,4 +93,43 @@ export default function ZhTestimonialsPage() {
         })),
       }) }} />
       <section style={{ background: "#111", padding: "4rem 2rem 3rem", textAlign: "center" }}>
-        <h1 style={{ fontFamily: "'Noto Sans SC', sans-ser
+        <h1 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>
+          客户评价
+        </h1>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", maxWidth: "500px", margin: "0 auto", lineHeight: 1.8 }}>
+          超过2,400个项目，来自真实客户的声音。
+        </p>
+      </section>
+
+      <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.5rem" }}>
+          {TESTIMONIALS.map((t) => (
+            <div key={t.name} style={{ background: "#111", border: "1px solid rgba(212,175,55,0.15)", borderRadius: "4px", padding: "2rem" }}>
+              <div style={{ marginBottom: "1rem" }}>
+                {"★".repeat(t.rating).split("").map((star, i) => (
+                  <span key={i} style={{ color: "var(--gold)", fontSize: "1rem" }}>{star}</span>
+                ))}
+              </div>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.8)", lineHeight: 1.8, fontSize: "0.9rem", marginBottom: "1.5rem", fontStyle: "italic" }}>
+                "{t.text}"
+              </p>
+              <div>
+                <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "0.9rem", margin: 0 }}>{t.name}</p>
+                <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.4)", fontSize: "0.8rem", margin: 0 }}>{t.role}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section style={{ background: "#111", padding: "4rem 2rem", textAlign: "center" }}>
+        <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "1.25rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1rem" }}>
+          成为我们的下一位满意客户
+        </h2>
+        <a href="/zh/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700 }}>
+          立即预约
+        </a>
+      </section>
+    </>
+  );
+}

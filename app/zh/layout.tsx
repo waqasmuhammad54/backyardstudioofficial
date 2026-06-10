@@ -126,4 +126,34 @@ export default function ChineseLayout({ children }: { children: React.ReactNode 
         "telephone": "+971585882685",
         "email": "info@backyardstudioofficial.com",
         "address": { "@type": "PostalAddress", "addressLocality": "迪拜", "addressRegion": "Dubai", "addressCountry": "AE" },
-        "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujai
+        "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm Al Quwain"],
+        "description": "迪拜专业影视制作公司。企业视频、婚礼摄影、无人机航拍（GCAA执照）、社交媒体内容制作。",
+        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "127", "bestRating": "5" },
+        "sameAs": [
+          "https://www.instagram.com/backyardstudioofficial",
+          "https://www.facebook.com/backyardstudioofficial",
+          "https://www.tiktok.com/@backyardstudioofficial",
+        ],
+        "founder": [
+          { "@type": "Person", "name": "Fahad Iqbal Butt", "jobTitle": "Creative Director" },
+          { "@type": "Person", "name": "Syed Mazhar Zaidi", "jobTitle": "Director of Photography" },
+        ],
+      }) }} />
+
+      <div style={{ fontFamily: "'Noto Sans SC', sans-serif", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+        <ZhNavbar />
+        <main style={{ flex: 1, paddingTop: "80px" }}>{children}</main>
+        <ZhFooter />
+      </div>
+
+      <WhatsAppButton />
+
+      {GA_ID && (
+        <>
+          <Script src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID} strategy="afterInteractive" />
+          <Script id="ga4-zh" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}',{page_path:window.location.pathname,anonymize_ip:true});` }} />
+        </>
+      )}
+    </>
+  );
+}

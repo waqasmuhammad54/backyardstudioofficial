@@ -94,4 +94,36 @@ export default function ZhLocationsPage() {
           "url": `https://www.backyardstudioofficial.com/locations/${loc.en.toLowerCase().replace(/ /g, "-")}`,
         })),
       }) }} />
-      <section style={{ background: "#111", padding: "4rem 
+      <section style={{ background: "#111", padding: "4rem 2rem 3rem", textAlign: "center" }}>
+        <h1 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>
+          服务地区
+        </h1>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", maxWidth: "500px", margin: "0 auto", lineHeight: 1.8 }}>
+          覆盖阿联酋全境七个酋长国，随时为您提供专业摄影摄像服务。
+        </p>
+      </section>
+
+      <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1.5rem" }}>
+          {LOCATIONS.map((loc) => (
+            <div key={loc.city} style={{ background: "#111", border: "1px solid rgba(212,175,55,0.15)", borderRadius: "4px", padding: "1.75rem" }}>
+              <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>{loc.icon}</div>
+              <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.125rem", marginBottom: "0.25rem" }}>{loc.city}</h2>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(212,175,55,0.6)", fontSize: "0.8rem", marginBottom: "0.75rem" }}>{loc.en}</p>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.65)", lineHeight: 1.8, fontSize: "0.875rem" }}>{loc.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section style={{ background: "#111", padding: "4rem 2rem", textAlign: "center" }}>
+        <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "1.25rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1rem" }}>
+          您的项目在哪里？我们来找您
+        </h2>
+        <a href="/zh/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700 }}>
+          预约上门拍摄
+        </a>
+      </section>
+    </>
+  );
+}

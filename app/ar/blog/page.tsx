@@ -99,4 +99,71 @@ const BLOG_POSTS_AR = [
   },
   {
     title: "تصوير الطعام في دبي 2026 — للمطاعم والعلامات التجارية",
-    desc: "صور الطعام الاحترافية ترفع مبيعات المطاعم وتُحسّن أداء منصا�
+    desc: "صور الطعام الاحترافية ترفع مبيعات المطاعم وتُحسّن أداء منصات التوصيل. أسعار تبدأ من AED 1,500.",
+    href: "/ar/blog/taswir-taaam-dubai-2026",
+    date: "يونيو 2026",
+  },
+  {
+    title: "تصوير المؤتمرات والفعاليات في دبي 2026",
+    desc: "تغطية DWTC وMadinat وAtlantis. هايلايت سوشيال بنفس اليوم. إطلاق منتجات، معارض، حفلات شركات.",
+    href: "/ar/blog/taswir-muatamart-dubai-2026",
+    date: "يونيو 2026",
+  },
+  {
+    title: "تصوير فيديو الفعاليات في دبي 2026",
+    desc: "هايلايت جاهز للنشر في ساعات، كاميرات متعددة، لقطات جوية GCAA. من AED 3,500.",
+    href: "/ar/blog/tasjil-video-faaliyat-dubai-2026",
+    date: "يونيو 2026",
+  },
+  {
+    title: "إنتاج كليب موسيقي في دبي 2026",
+    desc: "رؤية إخراجية سينمائية للفنانين العرب والخليجيين. معالجة Treatment + تصاريح + تدرج لوني. من AED 8,000.",
+    href: "/ar/blog/intaj-klip-musiqi-dubai-2026",
+    date: "يونيو 2026",
+  },
+];
+
+export default function ArBlogPage() {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "الرئيسية", "item": "https://www.backyardstudioofficial.com/ar" },
+              { "@type": "ListItem", "position": 2, "name": "المدوّنة", "item": "https://www.backyardstudioofficial.com/ar/blog" },
+            ],
+          }),
+        }}
+      />
+
+      <section style={{ background: "#111", padding: "4rem 2rem 3rem", textAlign: "center" }}>
+        <h1 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>
+          المدوّنة
+        </h1>
+        <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", maxWidth: "500px", margin: "0 auto" }}>
+          مقالات ونصائح من فريق باكيارد ستوديو حول الإنتاج والتصوير في دبي والإمارات.
+        </p>
+      </section>
+
+      <section style={{ padding: "4rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(350px, 1fr))", gap: "1.5rem" }}>
+          {BLOG_POSTS_AR.map((post) => (
+            <a key={post.href} href={post.href} style={{ textDecoration: "none", display: "block", background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "2rem", transition: "border-color 0.3s" }}>
+              <div style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.4)", fontSize: "0.8rem", marginBottom: "0.5rem" }}>{post.date}</div>
+              <h2 style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.75rem" }}>{post.title}</h2>
+              <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.875rem", lineHeight: 1.6 }}>{post.desc}</p>
+              <span style={{ fontFamily: "Cairo, sans-serif", color: "var(--gold)", fontSize: "0.875rem", marginTop: "1rem", display: "block" }}>اقرأ المزيد &larr;</span>
+            </a>
+          ))}
+        </div>
+        <p style={{ fontFamily: "Cairo, sans-serif", textAlign: "center", marginTop: "2rem", color: "rgba(245,240,225,0.4)", fontSize: "0.875rem" }}>
+          جميع المقالات متاحة باللغة الإنجليزية. <a href="/blog" style={{ color: "var(--gold)" }}>تصفح المدوّنة الكاملة &rarr;</a>
+        </p>
+      </section>
+    </>
+  );
+}
