@@ -98,4 +98,132 @@ const SERVICES = [
   { icon: Building2,    slug: "corporate-films",         label: "Corporate Films",                        desc: "Brand documentaries, investor films, culture videos and annual report content." },
   { icon: BookOpen,     slug: "documentary",             label: "Documentary Films",                      desc: "Brand documentaries, magazine editorials, behind-the-scenes, and culture storytelling films." },
   { icon: Star,         slug: "brand-events",            label: "Brand Launch Events",                    desc: "Fashion events, corporate events, concert aftermovies — with same-day social media delivery." },
-  { icon: MessageSquare,slug: "testimonial-videos",      label: "Testimonial Videos",                 
+  { icon: MessageSquare,slug: "testimonial-videos",      label: "Testimonial Videos",                     desc: "Authentic client testimonials that build trust and drive conversion across UAE." },
+  // Specialist
+  { icon: Plane,        slug: "aerial-drone",            label: "Aerial / Drone (GCAA Licensed)",         desc: "Legally licensed drone cinematography across all 7 UAE emirates — cinematic 4K aerials." },
+  { icon: Settings,     slug: "pre-post-production",    label: "Pre & Post Production",                  desc: "Location scouting, casting, styling, video editing, colour grading, and retouching services." },
+  { icon: Film,         slug: "event-video-editing",     label: "Event Video Editing",                    desc: "48-hour polished highlight reels from your raw footage — colour-graded and sound-designed." },
+];
+
+const CATEGORIES = [
+  {
+    label: "Photography & Videography",
+    slugs: ["event-videography","photo-shoots","social-media-shoots","automotive","real-estate","corporate-videography","food","product-shoots","fashion-shoots","travel-lifestyle","hotel-photography"],
+  },
+  {
+    label: "Commercial Production",
+    slugs: ["tv-commercials","dvcs","car-commercials","ads-shooting"],
+  },
+  {
+    label: "Content & Social Media",
+    slugs: ["reels-production","reels","social-media-content","podcast","youtube-content"],
+  },
+  {
+    label: "Corporate & Brand",
+    slugs: ["corporate-brand-films","corporate-films","documentary","brand-events","testimonial-videos"],
+  },
+  {
+    label: "Specialist Services",
+    slugs: ["aerial-drone","pre-post-production","event-video-editing"],
+  },
+];
+
+const SERVICE_MAP = Object.fromEntries(SERVICES.map((s) => [s.slug, s]));
+
+export default function ServicesPage() {
+  return (
+    <div className="pt-24">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(SERVICES_FAQS)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema(SERVICES_ITEM_LIST)) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([
+        { name: "Home", url: "https://www.backyardstudioofficial.com" },
+        { name: "Services", url: "https://www.backyardstudioofficial.com/services" },
+      ])) }} />
+      <div className="bg-[#111111] py-16 text-center border-b border-[#2a2a2a]">
+        <p className="text-[#e8c547] text-xs tracking-[0.4em] uppercase font-semibold mb-3">WHAT WE DO</p>
+        <h1 className="font-display text-6xl md:text-7xl text-white">SERVICES</h1>
+        <p className="text-[#a0a0a0] mt-4 max-w-xl mx-auto text-sm leading-relaxed">
+          Dubai's most comprehensive production studio. Video, photography, commercials, social media, events, and specialist services — all delivered to broadcast standard across all 7 UAE emirates.
+        </p>
+      </div>
+
+      <section className="section-pad bg-[#0a0a0a]">
+        <div className="container-xl space-y-16">
+          {CATEGORIES.map((cat) => (
+            <div key={cat.label}>
+              <p className="text-[#e8c547] text-xs tracking-[0.3em] uppercase font-semibold mb-8 border-b border-[#2a2a2a] pb-4">{cat.label}</p>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                {cat.slugs.map((slug) => {
+                  const s = SERVICE_MAP[slug];
+                  if (!s) return null;
+                  const Icon = s.icon;
+                  return (
+                    <Link key={slug} href={`/services/${slug}`}
+                      className="group p-7 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm card-glow">
+                      <div className="w-12 h-12 bg-[#e8c547]/10 rounded-sm flex items-center justify-center mb-5 group-hover:bg-[#e8c547]/20 transition-colors">
+                        <Icon size={22} className="text-[#e8c547]" />
+                      </div>
+                      <h2 className="text-white font-bold text-base mb-2">{s.label}</h2>
+                      <p className="text-[#a0a0a0] text-sm leading-relaxed mb-4">{s.desc}</p>
+                      <span className="text-[#e8c547] text-xs font-semibold tracking-wide">Learn More →</span>
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* BY INDUSTRY */}
+      <section className="py-16 border-t border-[#2a2a2a]" style={{ background: "var(--black)" }}>
+        <div className="container-xl">
+          <p className="text-[#e8c547] text-xs tracking-[0.3em] uppercase font-semibold mb-3 text-center">PRODUCTION BY INDUSTRY</p>
+          <h2 className="font-display text-3xl text-white text-center mb-10">WE KNOW YOUR SECTOR</h2>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            {[
+              { label: "Hospitality",     slug: "hospitality",   desc: "Hotels, resorts & F&B" },
+              { label: "Real Estate",     slug: "real-estate",   desc: "Listings & developer films" },
+              { label: "Fashion",         slug: "fashion",       desc: "Editorial & campaigns" },
+              { label: "Food & Beverage", slug: "food-beverage", desc: "Menus & delivery apps" },
+              { label: "Corporate",       slug: "corporate",     desc: "Films & executive photos" },
+            ].map((i) => (
+              <Link key={i.slug} href={`/industries/${i.slug}`}
+                className="group p-5 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm text-center card-glow">
+                <p className="text-white font-bold text-sm mb-1 group-hover:text-[#e8c547] transition-colors">{i.label}</p>
+                <p className="text-[#666] text-xs">{i.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-20 border-t border-[#2a2a2a]" style={{ background: "var(--ink)" }}>
+        <div className="container-xl max-w-4xl mx-auto">
+          <p className="text-[#e8c547] text-xs tracking-[0.4em] uppercase font-semibold mb-3 text-center">FAQ</p>
+          <h2 className="font-display text-4xl text-white text-center mb-12">PRODUCTION SERVICES FAQ</h2>
+          <div className="space-y-6">
+            {SERVICES_FAQS.map((faq) => (
+              <div key={faq.question} className="border-b border-[#2a2a2a] pb-6">
+                <h3 className="text-white font-semibold mb-2">{faq.question}</h3>
+                <p className="text-[#a0a0a0] text-sm leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-16 bg-[#111111] text-center border-t border-[#2a2a2a]">
+        <p className="text-[#e8c547] text-xs tracking-[0.4em] uppercase font-semibold mb-4">READY TO START?</p>
+        <h2 className="font-display text-4xl md:text-5xl text-white mb-4">GET A QUOTE IN 2 HOURS</h2>
+        <p className="text-[#a0a0a0] mb-8 max-w-md mx-auto text-sm">Tell us about your project and we&apos;ll respond with a custom production plan within 2 hours.</p>
+        <div className="flex gap-4 justify-center">
+          <Link href="/contact" className="btn-gold">Request a Quote →</Link>
+          <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer" className="btn-outline">WhatsApp Us</a>
+        </div>
+      </section>
+    </div>
+  );
+}

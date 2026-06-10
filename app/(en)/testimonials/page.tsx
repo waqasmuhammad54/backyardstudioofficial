@@ -55,4 +55,28 @@ export default function TestimonialsPage() {
       <section className="section-pad bg-[#0a0a0a]">
         <div className="container-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {TESTIMONIALS.map((t) => (
-            <div key={t.name} className="p-6 bg-[#1a1a1a] border border-[#2a2a2a] r
+            <div key={t.name} className="p-6 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm card-glow flex flex-col">
+              <Quote size={24} className="text-[#e8c547]/30 mb-4" />
+              <div className="flex gap-1 mb-4">
+                {Array.from({ length: t.rating }).map((_, i) => <Star key={i} size={14} fill="#e8c547" color="#e8c547" />)}
+              </div>
+              <blockquote className="text-[#d0d0d0] text-sm leading-relaxed flex-1 italic mb-5">
+                &ldquo;{t.quote}&rdquo;
+              </blockquote>
+              <div className="border-t border-[#2a2a2a] pt-4">
+                <p className="text-white font-semibold text-sm">{t.name}</p>
+                <p className="text-[#a0a0a0] text-xs">{t.role} — {t.company}</p>
+                <span className="mt-2 inline-block text-[10px] text-[#e8c547] border border-[#e8c547]/30 px-2 py-0.5 rounded-sm uppercase tracking-wide">{t.service}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <div className="text-center mt-16">
+          <p className="text-[#a0a0a0] mb-6">Ready to join 500+ happy UAE clients?</p>
+          <Link href="/contact" className="btn-gold">Start a Project →</Link>
+        </div>
+      </section>
+    </div>
+  );
+}
