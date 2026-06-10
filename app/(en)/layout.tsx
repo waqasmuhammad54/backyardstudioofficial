@@ -148,4 +148,34 @@ export default function EnglishLayout({ children }: { children: React.ReactNode 
                 "@type": "EntryPoint",
                 urlTemplate: "https://www.backyardstudioofficial.com/blog?q={search_term_string}",
               },
-   
+              "query-input": "required name=search_term_string",
+            },
+          }),
+        }}
+      />
+
+      <CinematicIntro />
+      <CustomCursor />
+      <Navbar />
+      <main>{children}</main>
+      <Footer />
+      <WhatsAppButton />
+
+      {/* Google Analytics 4 */}
+      {GA_ID && (
+        <>
+          <Script
+            src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID}
+            strategy="afterInteractive"
+          />
+          <Script id="ga4-init" strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html:
+                "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','" + GA_ID + "',{page_path:window.location.pathname,anonymize_ip:true});",
+            }}
+          />
+        </>
+      )}
+    </>
+  );
+}

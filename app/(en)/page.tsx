@@ -207,4 +207,64 @@ export default function HomePage() {
                       {label}
                     </Link>
                   </li>
-        
+                ))}
+              </ul>
+            </div>
+
+            {/* Social & Digital */}
+            <div>
+              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-55" style={{ color: "var(--silver)" }}>Social &amp; Digital</p>
+              <ul className="space-y-2">
+                {[
+                  ["Instagram Reels Dubai", "/services/reels"],
+                  ["Reels Production Dubai", "/services/reels-production"],
+                  ["Social Media Shoots Dubai", "/services/social-media-shoots"],
+                  ["TikTok Content Dubai", "/services/social-media-content"],
+                  ["Ads Production Dubai", "/services/ads-shooting"],
+                  ["YouTube Video Production", "/services/youtube-content"],
+                  ["Podcast Production Dubai", "/services/podcast"],
+                  ["Testimonial Videos Dubai", "/services/testimonial-videos"],
+                ].map(([label, href]) => (
+                  <li key={href}>
+                    <Link href={href} className="text-xs opacity-70 hover:opacity-100 transition-opacity" style={{ color: "var(--silver)" }}>
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Locations & Industries */}
+            <div>
+              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-55" style={{ color: "var(--silver)" }}>Locations &amp; Industries</p>
+              <ul className="space-y-2">
+                {[
+                  ["Production Company Dubai", "/locations/dubai"],
+                  ["Video Production Abu Dhabi", "/locations/abu-dhabi"],
+                  ["Photography Sharjah", "/locations/sharjah"],
+                  ["Production RAK", "/locations/ras-al-khaimah"],
+                  ["Sports Production UAE", "/industries/sports"],
+                  ["Automotive Production UAE", "/industries/automotive"],
+                  ["Healthcare Content UAE", "/industries/healthcare"],
+                  ["Tech Video Production UAE", "/industries/technology"],
+                  ["Education Video UAE", "/industries/education"],
+                  ["All UAE Locations", "/locations"],
+                ].map(([label, href]) => (
+                  <li key={href}>
+                    <Link href={href} className="text-xs opacity-70 hover:opacity-100 transition-opacity" style={{ color: "var(--silver)" }}>
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      {/* ══ END INTERNAL LINKS ══════════════════════════════════════ */}
+
+      <ContactSection />
+    </>
+  );
+}

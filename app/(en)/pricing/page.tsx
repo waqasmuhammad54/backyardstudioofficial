@@ -478,4 +478,29 @@ export default function PricingPage() {
           <div className="space-y-4">
             {PRICE_FAQS.map((faq, i) => (
               <div key={i} className="p-6 bg-[#111111] border border-[#2a2a2a]">
-                <p className="text-white font-semibold t
+                <p className="text-white font-semibold text-sm mb-2">{faq.question}</p>
+                <p className="text-[#a0a0a0] text-sm leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="py-20 bg-[#111111] text-center border-t border-[#2a2a2a]">
+        <p className="eyebrow mb-4">READY TO START?</p>
+        <h2 className="font-display text-5xl text-white mb-4">GET YOUR QUOTE IN 2 HOURS</h2>
+        <p className="text-[#a0a0a0] text-sm mb-8 max-w-md mx-auto">
+          Tell us your project, dates, and budget range. We respond to every brief within 2 hours — 7 days a week.
+        </p>
+        <div className="flex flex-wrap gap-4 justify-center">
+          <a href="https://wa.me/971585882685?text=Hi%20Backyard%20Studio%2C%20I%27d%20like%20a%20quote%20for%20a%20production%20project" target="_blank" rel="noreferrer" className="btn-gold">
+            <Phone size={14} /> WhatsApp Us Now
+          </a>
+          <Link href="/contact" className="btn-outline">Use the Contact Form</Link>
+        </div>
+        <p className="text-[#444] text-xs mt-6">All prices in AED. VAT applicable where required. Prices correct as of 2026.</p>
+      </section>
+    </div>
+  );
+}
