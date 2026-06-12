@@ -6,6 +6,8 @@ const BASE = "https://www.backyardstudioofficial.com";
 const SERVICES = [
   "wedding-photography", "wedding-videography", "pre-wedding-shoot",
   "affordable-wedding-photography", "flying-dress-photoshoot", "wedding-photography-abu-dhabi",
+  "wedding-photography-sharjah", "wedding-photography-ajman", "wedding-photography-ras-al-khaimah",
+  "wedding-photography-fujairah", "wedding-photography-umm-al-quwain",
   "event-shoots", "event-video-editing", "dvcs", "reels",
   "photo-shoots", "social-media-content", "testimonial-videos",
   "ads-shooting", "aerial-drone", "corporate-films",
@@ -42,6 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/blog",             lastModified: now, changeFrequency: "weekly",  priority: 0.8 },
     { url: BASE + "/locations",        lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: BASE + "/wedding-packages", lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: BASE + "/weddings",         lastModified: now, changeFrequency: "weekly",  priority: 0.9 },
   ];
 
   const services: MetadataRoute.Sitemap = SERVICES.map((slug) => ({

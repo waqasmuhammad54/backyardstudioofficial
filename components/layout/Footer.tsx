@@ -3,6 +3,8 @@ import Link from "next/link";
 import { Instagram, Youtube, ArrowUpRight } from "lucide-react";
 
 const SERVICES = [
+  { label: "Weddings",             href: "/weddings" },
+  { label: "Wedding Photography",  href: "/services/wedding-photography" },
   { label: "Event Shoots",         href: "/services/event-shoots" },
   { label: "Event Video Editing",  href: "/services/event-video-editing" },
   { label: "DVCs",                 href: "/services/dvcs" },

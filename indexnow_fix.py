@@ -1,7 +1,7 @@
 import urllib.request
 import json
 
-API_KEY = "backyardstudioofficial2026"
+API_KEY = "314c7e9d7ba045308e8f73c0bb9136b4"
 HOST = "www.backyardstudioofficial.com"
 KEY_LOCATION = f"https://{HOST}/{API_KEY}.txt"
 
@@ -16,6 +16,21 @@ URLS = [
     f"https://{HOST}/testimonials",
     f"https://{HOST}/locations",
     f"https://{HOST}/portfolio",
+    # Wedding landing pages (Tier 1+2, 2026-06-10)
+    f"https://{HOST}/services/wedding-photography",
+    f"https://{HOST}/services/wedding-videography",
+    f"https://{HOST}/services/pre-wedding-shoot",
+    f"https://{HOST}/wedding-packages",
+    f"https://{HOST}/services/affordable-wedding-photography",
+    f"https://{HOST}/services/flying-dress-photoshoot",
+    f"https://{HOST}/services/wedding-photography-abu-dhabi",
+    # Wedding indexing build (2026-06-12)
+    f"https://{HOST}/weddings",
+    f"https://{HOST}/services/wedding-photography-sharjah",
+    f"https://{HOST}/services/wedding-photography-ajman",
+    f"https://{HOST}/services/wedding-photography-ras-al-khaimah",
+    f"https://{HOST}/services/wedding-photography-fujairah",
+    f"https://{HOST}/services/wedding-photography-umm-al-quwain",
     # English locations
     f"https://{HOST}/locations/dubai",
     f"https://{HOST}/locations/abu-dhabi",
@@ -125,7 +140,12 @@ def submit_indexnow(urls, batch_size=100):
             with urllib.request.urlopen(req, timeout=15) as resp:
                 print(f"Batch {i//batch_size + 1}: HTTP {resp.status} — {len(batch)} URLs submitted")
         except urllib.error.HTTPError as e:
-            print(f"Batch {i//batch_size + 1}: HTTP {e.code} — {e.reason}")
+            body = ""
+            try:
+                body = e.read().decode("utf-8", "ignore")[:500]
+            except Exception:
+                pass
+            print(f"Batch {i//batch_size + 1}: HTTP {e.code} — {e.reason} — {body}")
         except Exception as e:
             print(f"Batch {i//batch_size + 1}: Error — {e}")
 

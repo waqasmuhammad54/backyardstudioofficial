@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Wedding Photoshoot Dubai Packages & Prices 2026",
-    description: "From AED 3,500 — photo + video, GCAA drone, 48-hour delivery.",
+    description: "From AED 1,799 — affordable to multi-day, GCAA drone, 48-hour delivery.",
     images: ["/images/wedding/wedding-08.webp"],
   },
 };
