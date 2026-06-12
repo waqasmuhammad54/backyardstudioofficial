@@ -70,7 +70,24 @@ export function buildVideoObjectSchema(project: PortfolioProject) {
     name: `${project.title} | Backyard Studio Official`,
     description: project.description,
     thumbnailUrl: `https://www.backyardstudioofficial.com${project.image}`,
-    uploadDate: project.uploadDate,
+    uploadDate: (() => {
+      // Normalize to ISO 8601 with timezone for Google VideoObject schema.
+      const d = new Date(project.uploadDate);
+      if (isNaN(d.getTime())) return project.uploadDate;
+      const fmt = new Intl.DateTimeFormat("en-CA", {
+        timeZone: "Asia/Dubai",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: false,
+      });
+      const parts = Object.fromEntries(fmt.formatToParts(d).map((p) => [p.type, p.value]));
+      const hour = parts.hour === "24" ? "00" : parts.hour;
+      return `${parts.year}-${parts.month}-${parts.day}T${hour}:${parts.minute}:${parts.second}+04:00`;
+    })(),
     duration: project.duration,
     embedUrl: `https://player.vimeo.com/video/${project.vimeoId}`,
     contentUrl: `https://vimeo.com/${project.vimeoId}`,

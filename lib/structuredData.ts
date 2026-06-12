@@ -20,6 +20,38 @@ const BRAND = {
   ],
 };
 
+/**
+ * Normalize any date-ish string to a Google-compliant ISO 8601 datetime with
+ * timezone. Google Search Console rejects bare `YYYY-MM-DD` uploadDate values
+ * ("Invalid datetime value" + "missing a time zone").
+ *
+ * - Date-only  "2025-01-05"        → "2025-01-05T00:00:00+04:00"  (UAE, UTC+4)
+ * - DateTime  "2025-01-05T12:00"  → "2025-01-05T12:00:00+04:00"
+ * - Full ISO  "2025-01-05T12:00Z" → unchanged
+ */
+export function toISODateTime(input: string | Date): string {
+  const d = typeof input === "string" ? new Date(input) : input;
+  if (isNaN(d.getTime())) {
+    // Last-resort fallback: today's date in UAE, valid ISO 8601.
+    return new Date().toISOString();
+  }
+  // Use Asia/Dubai offset (+04:00) regardless of server timezone.
+  const fmt = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Dubai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: false,
+  });
+  const parts = Object.fromEntries(fmt.formatToParts(d).map((p) => [p.type, p.value]));
+  // Intl can emit "24" for midnight in some locales — normalise.
+  const hour = parts.hour === "24" ? "00" : parts.hour;
+  return `${parts.year}-${parts.month}-${parts.day}T${hour}:${parts.minute}:${parts.second}+04:00`;
+}
+
 export function organizationSchema() {
   return {
     "@context": "https://schema.org",
@@ -193,7 +225,7 @@ export function videoObjectSchema(opts: {
     name: opts.name,
     description: opts.description,
     thumbnailUrl: opts.thumbnailUrl,
-    uploadDate: opts.uploadDate,
+    uploadDate: toISODateTime(opts.uploadDate),
     ...(opts.duration ? { duration: opts.duration } : {}),
     ...(opts.contentUrl ? { contentUrl: opts.contentUrl } : {}),
     ...(opts.embedUrl ? { embedUrl: opts.embedUrl } : {}),
