@@ -5,9 +5,9 @@ import { ArrowUpRight, Play } from "lucide-react";
 import { personSchema, breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "About Backyard Studio Official — Fahad Iqbal Butt & Syed Mazhar Zaidi | Dubai Production Studio",
+  title: { absolute: "About Backyard Studio | Dubai Production Company" },
   description:
-    "Meet the founders of Dubai's best production studio — Fahad Iqbal Butt (Creative Director) & Syed Mazhar Zaidi (Director of Photography). 2,400+ projects delivered across all 7 UAE emirates. GCAA licensed. Founded 2019.",
+    "Meet Fahad Iqbal Butt & Syed Mazhar Zaidi — founders of Dubai's best production studio. 2,400+ projects, GCAA licensed, all 7 UAE emirates.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/about" },
   openGraph: {
     title: "About Backyard Studio Official — Fahad Iqbal Butt & Syed Mazhar Zaidi",

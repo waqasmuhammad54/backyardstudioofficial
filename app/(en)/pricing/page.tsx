@@ -4,9 +4,9 @@ import { Check, ArrowRight, Phone } from "lucide-react";
 import { faqSchema, breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "Video & Photography Pricing Dubai 2026 — Production Costs & Packages UAE | Backyard Studio Official",
+  title: { absolute: "Production Pricing Dubai 2026 | Costs & Packages" },
   description:
-    "Transparent 2026 production pricing for Dubai & UAE. Wedding photography from AED 3,500, DVCs from AED 8,000, Instagram Reels from AED 2,500, drone from AED 2,500, corporate films from AED 15,000. GCAA licensed. Free quote in 2 hours.",
+    "2026 production pricing for Dubai. Wedding from AED 3,500, DVCs from AED 8,000, Reels from AED 2,500, corporate films from AED 15,000. GCAA licensed.",
   keywords: [
     "video production cost Dubai",
     "photography pricing Dubai UAE",

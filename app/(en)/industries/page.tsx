@@ -4,9 +4,9 @@ import { ArrowUpRight } from "lucide-react";
 import { faqSchema, itemListSchema, breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "Industry Video & Photography Production Dubai | All Sectors UAE | Backyard Studio Official",
+  title: { absolute: "Industry Video Production Dubai | All Sectors UAE" },
   description:
-    "Specialist video & photography for hospitality, real estate, fashion, F&B, automotive, corporate, sports, healthcare, tech & education sectors across Dubai and all 7 UAE emirates. 2,400+ projects. GCAA licensed. Free quote in 2 hours.",
+    "Specialist video and photography for hospitality, real estate, fashion, F&B, automotive, corporate, healthcare and tech sectors across Dubai and UAE.",
   keywords: [
     "sports video production Dubai",
     "automotive video production UAE",

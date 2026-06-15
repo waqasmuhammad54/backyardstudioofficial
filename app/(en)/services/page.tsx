@@ -4,8 +4,8 @@ import { Camera, Film, Video, Smartphone, Megaphone, MessageSquare, Image, Plane
 import { faqSchema, itemListSchema, breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "All Production Services Dubai — Video, Photography & Social Media UAE | Backyard Studio Official",
-  description: "Dubai's most comprehensive production studio — 28+ services covering events, weddings, DVCs, Instagram Reels, TikTok, corporate films, aerial drone, real estate & more across all 7 UAE emirates. GCAA licensed. 48h delivery. Free quote in 2 hours.",
+  title: { absolute: "Production Services Dubai | Backyard Studio" },
+  description: "28+ production services in Dubai. Events, weddings, DVCs, Reels, corporate films, aerial drone and real estate. GCAA licensed, free quote.",
   keywords: [
     "production company services Dubai",
     "video production services UAE",

@@ -4,8 +4,8 @@ import { Star, Quote } from "lucide-react";
 import { breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "Client Reviews & Testimonials — Dubai Production Studio | Backyard Studio Official",
-  description: "100+ five-star reviews from UAE brands — Emaar, Noon, GITEX, luxury hotels & more. See what clients say about Backyard Studio Official's event shoots, DVCs, Reels and production services.",
+  title: { absolute: "Client Reviews | Backyard Studio Dubai" },
+  description: "100+ five-star reviews from UAE brands — Emaar, Noon, GITEX, luxury hotels and more. Event shoots, DVCs, Reels and production services across UAE.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/testimonials" },
   openGraph: {
     title: "Client Reviews & Testimonials | Backyard Studio Official Dubai",

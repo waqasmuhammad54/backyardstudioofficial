@@ -6,9 +6,9 @@ import { BLOG_POSTS } from "@/lib/blogPosts";
 import { breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "Production Blog Dubai — Video, Wedding & Photography Guides UAE 2026 | Backyard Studio Official",
+  title: { absolute: "Production Blog Dubai | Video & Photography Guides" },
   description:
-    "Expert production guides for UAE brands — DVC costs, wedding photography tips, drone regulations, filming locations, Instagram Reels strategy & more. 39 articles from Dubai's #1 production studio.",
+    "Expert production guides for UAE brands — DVC costs, wedding photography, drone regulations, filming locations, Instagram Reels strategy and more.",
   keywords: [
     "video production blog Dubai",
     "production company blog UAE",

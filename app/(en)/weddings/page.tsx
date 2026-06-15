@@ -7,9 +7,9 @@ import { breadcrumbSchema, faqSchema, speakableSchema, itemListSchema } from "@/
 const PAGE_URL = "https://www.backyardstudioofficial.com/weddings";
 
 export const metadata: Metadata = {
-  title: "Weddings — Dubai & UAE Wedding Photography, Videography & Packages | Backyard Studio Official",
+  title: { absolute: "Wedding Photography Dubai | Packages & Films" },
   description:
-    "Everything weddings at Backyard Studio Official: Dubai wedding photography & cinematic films from AED 1,799, pre-wedding shoots, flying dress experiences, packages for all 7 emirates, and 20+ planning guides in English, العربية, Русский & 中文.",
+    "Wedding photography and cinematic films from AED 1,799. Pre-wedding shoots, flying dress, packages across all 7 UAE emirates.",
   keywords: [
     "wedding photography Dubai",
     "wedding videographer Dubai",

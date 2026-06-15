@@ -4,8 +4,8 @@ import Image from "next/image";
 import { breadcrumbSchema, itemListSchema, faqSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "Video Production Locations UAE — All 7 Emirates | Backyard Studio Official",
-  description: "Backyard Studio Official covers all 7 UAE emirates — Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah & Umm Al Quwain for video, photography & events. No travel fees within UAE. Free quote in 2 hours.",
+  title: { absolute: "Production Locations UAE | All 7 Emirates" },
+  description: "Video and photography across all 7 UAE emirates. Dubai, Abu Dhabi, Sharjah, Ajman, RAK, Fujairah and UAQ. No travel fees. Free quote in 2 hours.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/locations" },
   openGraph: {
     title: "Video Production Across All 7 UAE Emirates | Backyard Studio Official",

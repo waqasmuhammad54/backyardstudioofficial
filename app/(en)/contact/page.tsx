@@ -3,9 +3,9 @@ import ContactSection from "@/components/home/ContactSection";
 import { faqSchema, breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "Contact Backyard Studio Official | Free Quote in 2 Hours — Dubai UAE",
+  title: { absolute: "Contact Backyard Studio | Free Quote Dubai" },
   description:
-    "Contact Dubai's best production studio. Get a free quote in 2 hours for events, weddings, DVCs, Instagram Reels, TikTok, corporate films, drone & more across all 7 UAE emirates. WhatsApp: +971-58-588-2685.",
+    "Get a free production quote in 2 hours. Events, weddings, DVCs, Reels, corporate films, drone. All 7 UAE emirates. WhatsApp +971 58 588 2685.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/contact" },
   openGraph: {
     title: "Contact Backyard Studio Official | Free Production Quote — Dubai UAE",
