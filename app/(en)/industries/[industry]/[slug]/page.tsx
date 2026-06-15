@@ -78,6 +78,124 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       ],
     },
 
+    "cycling": {
+      parentSlug: "sports",
+      parentName: "Sports",
+      name: "Cycling Event Photography & Video",
+      tagline: "UAE Cycling Content — From Gran Fondo to Downtown Criterium",
+      heroImage: "https://images.unsplash.com/photo-1534787238916-9ba6764efd4f?w=1920&q=80",
+      metaTitle: "Cycling Event Video Dubai UAE | Backyard Studio",
+      metaDescription: "Cycling event photography and video production in UAE. Race coverage, drone aerials, social highlights and sponsor content. Dubai, Abu Dhabi, RAK. Free quote.",
+      keywords: ["cycling event video Dubai","cycling photography UAE","race coverage Dubai","gran fondo video UAE","cycling tournament photography Dubai","bike race filming UAE","cycling drone Dubai","cycling social media content UAE"],
+      intro: "Cycling in the UAE has gone from a niche pursuit to one of the country's most organised amateur sports. The UAE Cycling Tour attracts WorldTour professionals, the Gran Fondo calendar runs from October through March, and club criteriums are now weekly fixtures at venues across Dubai, Abu Dhabi, and Ras Al Khaimah. Behind the scenes, cycling content demand has grown in lockstep with event numbers — clubs, sponsors, and event organisers all need photography and video that captures the sport's speed, colour, and scale.
+
+Backyard Studio Official produces cycling event content across all formats: multi-day stage races, closed-circuit criteriums, sportive mass participation events, and club training camps. Our production setups are designed for the specific requirements of cycling photography — fast-moving subjects on open roads, finish line sequences, peloton aerials, and the narrative arc of a multi-stage race that needs a complete documentary edit as its primary deliverable.
+
+For cycling event organisers, content serves three commercial purposes: post-event participant satisfaction (riders want to see themselves), sponsorship value delivery (sponsors need evidence of logo visibility and audience reach), and next-year registration marketing (compelling content from this year's event drives sign-ups for the next). We produce all three content types simultaneously from the same event coverage, which maximises production efficiency without requiring separate shoots for each purpose.
+
+For cycling brands — apparel, equipment, nutrition, training platforms — UAE's cycling community provides a highly targeted and engaged audience. Cycling brand content in the UAE needs to reflect the local riding environment: early morning desert rides, coastal bike paths, Jebel Jais mountain stages, and the social culture of coffee stops after a club ride. We produce cycling brand content that feels specific to the UAE cycling scene rather than repurposed from European or American cycling markets.",
+      challenge: "Cycling is one of the most technically demanding sports to cover well. Riders move at 40 to 60 kilometres per hour, the peloton is constantly changing shape, and the best moments — an attack, a sprint finish, a bunch crash — are unpredictable and over in seconds. Most videographers who cover cycling for the first time miss the key moments because they haven't built the anticipation and positioning that comes from understanding the sport's dynamics.",
+      solution: "Our cycling production team includes crew who ride competitively and understand race dynamics from the inside. We position cameras at the finish line, in the follow vehicle, at key technical sections, and at feed zones — all informed by knowledge of where the race's decisive moments are most likely to happen. Drone coverage adds the aerial perspective that shows the peloton's scale and the landscape context that makes UAE cycling content distinctive.",
+      services: [
+        { label: "Race Day Coverage", href: "/services/event-videography", desc: "Multi-camera race coverage with follow vehicles, finish line positions, and drone aerials." },
+        { label: "Peloton Drone Aerials", href: "/services/aerial-drone", desc: "GCAA-licensed drone coverage of peloton sequences, finish line aerials, and route overview." },
+        { label: "Social Highlight Reels", href: "/services/reels-production", desc: "Same-day social highlights for race Instagram and TikTok — delivered before riders leave the venue." },
+        { label: "Sponsor Activation Content", href: "/services/dvcs", desc: "Branded sponsor reels from race footage — logo visibility evidence and activation content." },
+        { label: "Race Photography", href: "/services/photo-shoots", desc: "Action photography, finish line sequences, portrait sessions, and post-race social content." },
+        { label: "Cycling Brand Films", href: "/services/corporate-brand-films", desc: "Brand content for cycling apparel, equipment, and nutrition brands — UAE-specific locations." },
+      ],
+      results: [
+        { stat: "Same Day", label: "Social highlight delivery at race finish" },
+        { stat: "GCAA", label: "Licensed drone for peloton aerials" },
+        { stat: "All UAE", label: "Race coverage across all 7 emirates" },
+        { stat: "4K", label: "All cycling content in 4K" },
+      ],
+      caseStudy: {
+        title: "UAE Gran Fondo — Full Event Coverage",
+        client: "International Cycling Event Organiser, UAE",
+        result: "2,400 participant content downloads in 24 hours; next year registration 40% higher",
+        body: "A 1,200-rider gran fondo in RAK needed content that would satisfy participants, deliver sponsor value, and drive next-year registration. We deployed 6 photographers and videographers across the route, a GCAA drone for aerial peloton sequences over the Hajar Mountain stage, and an on-site editor for same-day social delivery.
+
+Deliverables: 1,400 edited photographs available for participant download within 24 hours, 4-minute event documentary for YouTube, 12 social highlight reels, and individual sponsor activation videos for the 4 category sponsors.
+
+Participant photo download rate was 87% within 48 hours. The event's social content reached 340,000 UAE cycling community accounts. The following year's registration opened with a 40% increase in sign-ups compared to the previous year — which the organiser attributed directly to content quality.",
+      },
+      faqs: [
+        { q: "Can you follow the race on the road for moving action shots?", a: "Yes. We use follow vehicles — motorcycles with camera operators and cars for video capture — to follow the race in motion. This allows us to capture in-race action footage alongside the riders rather than only from fixed positions. Follow vehicle access is coordinated with the race director and UAE road authorities as part of our event production planning." },
+        { q: "How do you handle drone permits for open road cycling events?", a: "Open road cycling events in UAE require GCAA clearance for drone operations plus coordination with the relevant emirate road authority and police. We manage all permit applications as part of our event production management. Lead time for cycling event drone permits is typically 5 to 7 business days, so we recommend confirming production requirements at least 2 weeks before the event." },
+        { q: "Do you produce content for club rides and smaller cycling events?", a: "Yes. We cover cycling events at every scale, from 20-rider club criteriums to 2,000-participant gran fondos. Smaller events typically use a 2-person crew with one camera operator and one drone pilot, with highlights delivered within 48 hours. Pricing scales with crew size and deliverable volume." },
+        { q: "Can you produce content for cycling kit and equipment brands?", a: "Yes. Cycling brand content production is a separate service from event coverage. Brand shoots use UAE's cycling environments — desert roads, coastal paths, mountain stages — to produce campaign imagery and video for apparel brands, component manufacturers, and nutrition companies. We can combine a brand shoot day with an event coverage commission to maximise cost efficiency." },
+      ],
+      relatedLocations: [
+        { label: "Dubai Cycling Routes", href: "/locations/dubai" },
+        { label: "RAK Jebel Jais Cycling", href: "/locations/ras-al-khaimah" },
+        { label: "Abu Dhabi Cycling", href: "/locations/abu-dhabi" },
+      ],
+      relatedPosts: [
+        { title: "Event Videography Dubai 2026", href: "/blog/event-photography-dubai-2026" },
+        { title: "Sports Production UAE", href: "/industries/sports" },
+      ],
+    },
+
+    "running": {
+      parentSlug: "sports",
+      parentName: "Sports",
+      name: "Running Event Photography & Video",
+      tagline: "Marathon and Race Content for UAE Running Events",
+      heroImage: "https://images.unsplash.com/photo-1452626038306-9aae5e071dd3?w=1920&q=80",
+      metaTitle: "Running Event Photography Dubai UAE | Backyard Studio",
+      metaDescription: "Marathon and running event photography and video in UAE. Finish line coverage, drone aerials, participant photos and sponsor content. Free quote in 2 hours.",
+      keywords: ["marathon photography Dubai","running event video UAE","race photography Dubai","Dubai Marathon coverage","10K event photography UAE","running event content Dubai","finish line photography UAE","running race video Dubai"],
+      intro: "The UAE running calendar is one of the most active in the region. The Dubai Marathon, the Abu Dhabi Marathon, and dozens of 10K, 5K, and trail running events keep the running community busy from October through April, with night races extending the season through summer months. Backyard Studio Official produces content for running events across the full scale spectrum — from community 5K charity runs to major marathons with elite fields and international media coverage.
+
+Running event photography and video serves a market that most event organisers underestimate: participants. Every runner who finishes a race wants photographic evidence of the moment, and the social sharing of race photos drives significant organic reach for event brands. The event that provides professional finish line photography with same-day download access gets more user-generated social posts, more community engagement, and more word-of-mouth marketing than the event that hands out medals without content.
+
+For sponsors of running events, content requirements have become increasingly sophisticated. A title sponsor of a 5,000-participant race needs more than a logo on the finish line banner — they need a content package that documents their activation, shows their brand in context with the event's community, and provides social assets for their own channels. We produce sponsor-specific content simultaneously with main event coverage, so each sponsor gets a dedicated content deliverable without requiring additional production days.
+
+For running brands — footwear, apparel, nutrition, GPS watches, training apps — UAE's running community provides an engaged and commercially valuable audience. We produce running brand content across UAE's most visually distinctive running environments: the Dubai Creek waterfront at dawn, the Abu Dhabi Corniche at sunrise, and the trail environments around Hatta and the Hajar Mountains.",
+      challenge: "Running event photography requires managing large numbers of participants across extended distances and timeframes. A 5,000-person marathon requires photographers at multiple course positions, a finish line setup that can capture every finisher without missing key moments, and a post-processing workflow that delivers individual participant photos at scale within 24 hours.",
+      solution: "We staff running events with the appropriate crew number for the participant count and course length, and we use a systematic finish line photography setup — multiple cameras covering different finish zones, a consistent backdrop, and participant bib number tagging in post-processing that allows runners to search for their own photos. For social highlights, we prioritise the first finishers, the mass start, and the emotional finish line moments that generate the highest social engagement.",
+      services: [
+        { label: "Finish Line Photography", href: "/services/photo-shoots", desc: "Professional finish line photography with participant tagging and same-day download access." },
+        { label: "Race Video & Highlight Film", href: "/services/event-videography", desc: "Full race video coverage with highlight film for event brand channels and post-event marketing." },
+        { label: "Drone Aerials", href: "/services/aerial-drone", desc: "GCAA-licensed mass start aerials, route overview, and finish line aerial sequences." },
+        { label: "Social Media Content", href: "/services/reels-production", desc: "Same-day highlight Reels, Instagram Stories, and TikTok content for event social channels." },
+        { label: "Sponsor Activation Content", href: "/services/dvcs", desc: "Branded content for event title sponsors and category sponsors — delivered within 48 hours." },
+        { label: "Running Brand Campaigns", href: "/services/corporate-brand-films", desc: "Brand film and photography for running footwear, apparel, and nutrition brands — UAE locations." },
+      ],
+      results: [
+        { stat: "24h", label: "Participant photo delivery standard" },
+        { stat: "Same Day", label: "Social highlights at event finish" },
+        { stat: "GCAA", label: "Licensed drone for mass start aerials" },
+        { stat: "All UAE", label: "Event coverage across all 7 emirates" },
+      ],
+      caseStudy: {
+        title: "Dubai 10K Run — Full Event Coverage",
+        client: "Corporate Running Event, Dubai",
+        result: "4,200 participant photo downloads in 48 hours; event NPS score increased 18 points",
+        body: "A 3,500-participant corporate 10K in Dubai Business Bay needed finish line photography, a highlight video, and sponsor content for 3 activation partners. Previous years had used a single photographer and produced inconsistent results — many participants couldn't find their finish photo.
+
+We deployed 4 photographers at the finish line with a systematic coverage protocol, a video team covering the mass start, mid-course action, and finish atmosphere, and a GCAA drone for the starting gun aerial. Post-processing included bib number tagging for searchable participant access.
+
+Participant photo download rate was 76% within 48 hours. Post-event survey NPS score for the event increased 18 points compared to the previous year, with photography quality the most-mentioned positive in written feedback. All 3 sponsors shared their activation content packages on their own LinkedIn and Instagram channels within 3 days.",
+      },
+      faqs: [
+        { q: "How do participants access their finish line photos?", a: "We provide participants with a download link either via the event app, email, or a QR code at the finish area. Photos are searchable by bib number, which we tag during post-processing. Standard delivery is 24 hours after the event for most race sizes, with 48 hours for very large events above 10,000 participants." },
+        { q: "Can you cover trail running events in the UAE mountains?", a: "Yes. We cover trail running events in the Hajar Mountains, Hatta, and the Northern Emirates mountain environments. Trail events require specific logistics — follow vehicle access is limited on mountain trails, so we position crew at key technical sections, summits, and finish areas, with GCAA drone coverage for mountain aerials where permitted." },
+        { q: "How many photographers do you deploy for a large marathon?", a: "For an event of 5,000 participants, we typically deploy 6 to 8 photographers across the finish line, course positions, and start area, plus a dedicated video team. For events over 10,000 participants, we scale accordingly. We provide a crew recommendation based on your participant count, course layout, and deliverable requirements." },
+        { q: "Do you produce content for virtual races and hybrid events?", a: "Yes. We produce content packages for virtual race events and hybrid events that combine in-person and remote participation. For virtual races, we typically produce a highlight film from the in-person hub, social content from participant submissions, and brand content for the race's physical product partnerships. We can advise on content strategies for hybrid event formats." },
+      ],
+      relatedLocations: [
+        { label: "Dubai Running Events", href: "/locations/dubai" },
+        { label: "Abu Dhabi Marathon", href: "/locations/abu-dhabi" },
+        { label: "RAK Marathon", href: "/locations/ras-al-khaimah" },
+      ],
+      relatedPosts: [
+        { title: "Event Videography Dubai 2026", href: "/blog/event-photography-dubai-2026" },
+        { title: "Sports Production UAE", href: "/industries/sports" },
+      ],
+    },
+
   },
 
   /* ── AUTOMOTIVE ── */
@@ -230,6 +348,376 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       relatedPosts: [
         { title: "Corporate Video Production Dubai 2026", href: "/blog/corporate-video-production-dubai-2026" },
         { title: "Technology Production UAE", href: "/industries/tech" },
+      ],
+    },
+
+    "gitex": {
+      parentSlug: "tech",
+      parentName: "Technology",
+      name: "GITEX Event Production",
+      tagline: "GITEX Coverage, Brand Activations & Tech Event Content",
+      heroImage: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1920&q=80",
+      metaTitle: "GITEX Video Production Dubai | Backyard Studio",
+      metaDescription: "GITEX event coverage, booth activations, conference content and tech brand video in Dubai. Full-service production for exhibitors and organisers. Free quote.",
+      keywords: ["GITEX video production Dubai","GITEX photography UAE","tech event video Dubai","GITEX booth coverage","conference video Dubai","technology event production UAE","GITEX content creator Dubai","tech conference coverage UAE"],
+      intro: "GITEX Global is the largest technology event in the Middle East and one of the largest in the world. For the three weeks surrounding GITEX — the main show, GITEX Expand North Star, and the associated side events — Dubai becomes the epicentre of the global tech industry's Middle East and Africa strategy. Backyard Studio Official produces content for GITEX exhibitors, technology brands, conference speakers, and event organisers across the full GITEX ecosystem.
+
+For exhibitors, GITEX content serves multiple simultaneous purposes: live social media content that demonstrates booth traffic and brand presence to audiences watching remotely, CEO and product team interview content that builds thought leadership during the event window, partnership announcement content that captures key moments in real time, and a polished event recap film that becomes a core asset in the following year's participation planning and sponsorship conversations.
+
+For technology brands that aren't exhibiting but are active at GITEX side events, dinners, and networking activities, content production requires a mobile, reactive team that can cover unscheduled moments and produce social content on the same day. The GITEX social media environment moves fast — content that arrives two days after a panel discussion or product announcement has missed the window of maximum relevance.
+
+Backyard Studio Official has produced GITEX content for technology companies across a wide range of sectors and sizes, from early-stage startups exhibiting for the first time to global technology brands with 10-metre double-storey stands. We understand the operational environment of World Trade Centre during GITEX week — the access protocols, the best shooting positions in the halls, the timing of key moments, and the logistical requirements for fast content delivery in a high-traffic convention centre.",
+      challenge: "GITEX is one of the most logistically demanding production environments in the UAE. The convention centre is enormous, exhibitor stands are densely packed, event schedules are unpredictable, and the noise and lighting conditions in the halls are challenging for audio and camera work. A team that hasn't produced at GITEX before spends significant time solving operational problems rather than producing content.",
+      solution: "Our GITEX production teams know World Trade Centre's layout, the best positions for filming in each hall, the light conditions at different times of day, and the access protocols that apply to different exhibitor tiers. We pre-plan GITEX productions with full shot lists, scheduled interview slots, and social content templates that allow fast turnaround without requiring creative decisions under pressure on show days.",
+      services: [
+        { label: "Booth Coverage & Daily Highlights", href: "/services/event-videography", desc: "Full booth coverage with same-day highlight videos delivered each evening of the event." },
+        { label: "CEO & Spokesperson Interviews", href: "/services/corporate-videography", desc: "On-stand interview content with company leadership — produced for social, media, and internal use." },
+        { label: "Product & Partnership Announcements", href: "/services/dvcs", desc: "Same-day announcement content delivered before press coverage cycle closes." },
+        { label: "Social Media Content — Live", href: "/services/reels-production", desc: "Live social content team producing Reels and Stories from the booth throughout each show day." },
+        { label: "Event Recap Film", href: "/services/corporate-brand-films", desc: "3 to 5 minute GITEX recap film for year-round marketing and next-year sponsorship conversations." },
+        { label: "Conference Session Coverage", href: "/services/event-videography", desc: "Speaker session video, panel coverage, and keynote documentation for conference content libraries." },
+      ],
+      results: [
+        { stat: "Same Day", label: "Social content delivery every show day" },
+        { stat: "GITEX", label: "Experienced in WTCAD production environment" },
+        { stat: "All Halls", label: "Coverage across all GITEX exhibition halls" },
+        { stat: "48h", label: "Full recap film post-event" },
+      ],
+      caseStudy: {
+        title: "Global Tech Brand — GITEX 5-Day Coverage",
+        client: "International B2B Technology Platform, European HQ",
+        result: "GITEX social content reached 2.1M impressions; 3 partnership announcements covered same-day",
+        body: "A European B2B technology company with regional HQ in Dubai needed full GITEX coverage across 5 show days, including daily highlight videos, CEO interview content, and same-day partnership announcement coverage for 3 scheduled partnership signings.
+
+We deployed a dedicated 3-person GITEX team — one content director, one camera operator, one editor — embedded at the client's stand for the full 5-day show. Daily highlight videos were delivered to the client's social team by 7pm each evening. The 3 partnership announcement videos were delivered within 4 hours of each signing ceremony.
+
+GITEX social content reached 2.1 million impressions across LinkedIn, Instagram, and Twitter over the 5-day period. The recap film, delivered 48 hours after show close, was used as the central asset in the client's GITEX 2026 participation proposal to their global marketing leadership.",
+      },
+      faqs: [
+        { q: "Do you need special accreditation to film at GITEX?", a: "Yes. GITEX requires media accreditation for video production teams operating in the halls. Exhibitor-affiliated production teams can operate under the exhibitor's badge allocation. For independent media coverage, separate media accreditation is required from DWTC. Backyard Studio Official manages accreditation applications for all our GITEX clients as part of our standard event production process." },
+        { q: "Can you handle fast turnaround for partnership announcements?", a: "Yes. Partnership and product announcement content is the most time-sensitive deliverable at GITEX. We produce announcement videos with a 4-hour turnaround from filming to delivery — designed to be social-ready before the tech press cycle closes on the same day. This requires pre-built edit templates and a dedicated editor working during the show day." },
+        { q: "Do you also cover GITEX Expand North Star and GITEX side events?", a: "Yes. Our GITEX production service covers the main GITEX Global show, Expand North Star, and the ecosystem of side events, dinners, and networking activities during GITEX week. For clients with presence across multiple GITEX venues, we coordinate multi-location coverage with appropriate team sizing." },
+        { q: "What is the cost of GITEX event production?", a: "GITEX production is quoted per day based on crew size and deliverable requirements. A single-day booth coverage package with a 2-person crew and same-day highlight delivery starts from AED 5,500. A full 5-day GITEX programme with a dedicated embedded team, daily highlights, interview content, and post-show recap film starts from AED 22,000." },
+      ],
+      relatedLocations: [
+        { label: "Dubai Events Production", href: "/locations/dubai" },
+        { label: "Abu Dhabi Conference Coverage", href: "/locations/abu-dhabi" },
+      ],
+      relatedPosts: [
+        { title: "Corporate Video Production Dubai 2026", href: "/blog/corporate-video-production-dubai-2026" },
+        { title: "Technology Production UAE", href: "/industries/tech" },
+      ],
+    },
+
+    "startup": {
+      parentSlug: "tech",
+      parentName: "Technology",
+      name: "Startup Investor Content",
+      tagline: "Pitch Films, Founder Content & Startup Brand Video — UAE",
+      heroImage: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1920&q=80",
+      metaTitle: "Startup Video Production Dubai UAE | Backyard Studio",
+      metaDescription: "Investor pitch videos, founder content and startup brand films in Dubai UAE. Seed to Series B production packages. GCC market positioning. Free quote.",
+      keywords: ["startup video production Dubai","investor pitch video UAE","founder content Dubai","startup brand film UAE","pitch deck video Dubai","startup content creator UAE","venture capital video Dubai","startup launch film UAE"],
+      intro: "Dubai's startup ecosystem has grown into one of the most active in the Middle East, with DIFC FinTech Hive, Hub71 in Abu Dhabi, and a growing number of accelerators and VC-backed startups making the UAE one of the region's primary innovation hubs. For early-stage and growth-stage startups, content production serves a specific set of commercial objectives that differ from established businesses: investor relations, talent acquisition, customer acquisition on limited budget, and brand positioning in a competitive product category.
+
+Backyard Studio Official produces startup content from seed stage through to Series B, with production packages and pricing structures designed for the capital efficiency requirements of early-stage companies. We understand that a seed-stage startup cannot spend AED 80,000 on a brand film — and that the same brand film produced for AED 18,000 can serve investor decks, website hero sections, LinkedIn thought leadership, and App Store listings simultaneously if planned correctly from the outset.
+
+Investor pitch videos are the highest-stakes deliverable in startup content production. A 90-second investor video that appears in a fundraising deck will be watched by 50 to 500 investors — some of whom will make a decision about whether to read further based entirely on how that 90 seconds makes the company feel. The production quality is secondary to the narrative: investors who see a polished video with the wrong story are not persuaded. Investors who see a compelling story told with credible production quality move to the next stage of diligence.
+
+We develop startup investor content from a narrative-first process — understanding the investment thesis, the market opportunity, the unfair advantage, and the team story before any camera is deployed. The content that comes out of that process serves not only the fundraising round but the startup's broader brand story for the 12 to 24 months following the raise.",
+      challenge: "Most startup content fails because it's built backwards — the production happens before the narrative is clear, and the result is a video that looks good but says nothing memorable. The second failure mode is investor video that feels like a product demo rather than a company story. Investors already understand the product category; what they need to understand is why this team, in this market, at this moment.",
+      solution: "We run a structured narrative development session with each startup founder before any production begins. The session identifies the investment thesis, the market entry narrative, the team's relevant credentials, and the single most compelling proof point the company has at the time of filming. Everything that appears in the video comes from that session — so every second of content is doing commercial work rather than filling time.",
+      services: [
+        { label: "Investor Pitch Video", href: "/services/corporate-brand-films", desc: "90-second company overview for fundraising decks — narrative-first, investor-specific framework." },
+        { label: "Founder & Team Content", href: "/services/corporate-videography", desc: "Founder interview series, team culture content, and LinkedIn thought leadership video." },
+        { label: "Product Demo Video", href: "/services/dvcs", desc: "60 to 90 second problem-first product demo for website, sales outreach, and investor materials." },
+        { label: "Brand Launch Film", href: "/services/corporate-brand-films", desc: "Company brand film for launch announcements, press coverage, and partner communications." },
+        { label: "App & Product Social Content", href: "/services/reels-production", desc: "Product launch Reels, TikTok content, and social campaign assets for product-led growth." },
+        { label: "Office & Culture Photography", href: "/services/photo-shoots", desc: "Office environment photography, team portraits, and culture content for recruitment and press." },
+      ],
+      results: [
+        { stat: "90s", label: "Standard investor pitch video format" },
+        { stat: "Seed to B", label: "Production packages for all startup stages" },
+        { stat: "GCC", label: "Content positioned for Gulf investor markets" },
+        { stat: "48h", label: "Investor pitch video delivery" },
+      ],
+      caseStudy: {
+        title: "Series A Fundraising Pitch Video — UAE FinTech",
+        client: "UAE-Based B2B FinTech Startup",
+        result: "Pitch video in Series A deck; round closed at AED 18M from 3 GCC family office investors",
+        body: "A Dubai FinTech startup raising a Series A round needed an investor video for their fundraising deck. Their existing materials included a detailed pitch deck and a product demo video produced by their own team — but they lacked a compelling company overview film that conveyed the team's credibility and the market opportunity at scale.
+
+We ran a 90-minute narrative development session with the two co-founders, identifying the founding story, the market validation evidence, and the specific proof point that most clearly demonstrated product-market fit. From that session we developed a 85-second script, shot over one day at their DIFC office, and delivered within 48 hours.
+
+The video was embedded in the Series A deck sent to 40 GCC investors. The round closed at AED 18 million from 3 GCC family office investors within 60 days of the deck going out.",
+      },
+      faqs: [
+        { q: "How long should a startup investor pitch video be?", a: "90 seconds is the established standard for investor pitch videos embedded in decks. Some investors prefer 60 seconds; very few want more than 2 minutes. We produce investor videos at 85 to 95 seconds — enough time to establish the market problem, present the solution, show the team, and communicate the ask, without overstaying the attention window." },
+        { q: "Do you work with pre-revenue startups?", a: "Yes. Some of our most important startup content work is for pre-revenue companies where the pitch video is one of the first professional content assets the company has produced. We have packages specifically designed for pre-revenue startups at AED 8,000 to AED 15,000 that cover an investor pitch video and 2 to 3 social content assets." },
+        { q: "Can you produce content in Arabic for GCC investor outreach?", a: "Yes. We produce bilingual startup content in English and Arabic, including Arabic-language investor videos for family office outreach in Saudi Arabia, Kuwait, and Qatar where Arabic-language materials are expected. Arabic versions are produced with native business Arabic speakers and are culturally adapted rather than directly translated." },
+        { q: "How do you approach confidentiality for early-stage startups?", a: "We operate under NDA for all startup client relationships on request. Our production team is accustomed to working with pre-announcement content — unreleased products, unannounced funding rounds, and proprietary technology demonstrations — and understands the commercial sensitivity of early-stage startup information." },
+      ],
+      relatedLocations: [
+        { label: "Dubai Startup Ecosystem", href: "/locations/dubai" },
+        { label: "Abu Dhabi Hub71", href: "/locations/abu-dhabi" },
+      ],
+      relatedPosts: [
+        { title: "Corporate Video Production Dubai 2026", href: "/blog/corporate-video-production-dubai-2026" },
+        { title: "Technology Production UAE", href: "/industries/tech" },
+      ],
+    },
+
+    "fintech": {
+      parentSlug: "tech",
+      parentName: "Technology",
+      name: "FinTech Video Production",
+      tagline: "Financial Technology Content for UAE and GCC Markets",
+      heroImage: "https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?w=1920&q=80",
+      metaTitle: "FinTech Video Production Dubai UAE | Backyard Studio",
+      metaDescription: "FinTech video production in Dubai and UAE. Product demos, investor content, regulatory communications and brand films for financial technology companies. Free quote.",
+      keywords: ["fintech video production Dubai","financial technology content UAE","fintech brand film Dubai","payments video production UAE","digital banking video Dubai","fintech marketing content UAE","neobank brand video Dubai","fintech explainer UAE"],
+      intro: "Dubai has established itself as the Gulf's leading FinTech hub, with DIFC FinTech Hive, Abu Dhabi's Hub71, and a regulatory framework that has attracted hundreds of financial technology companies from across the world. The UAE FinTech sector spans payments, digital banking, wealth management, insurtech, proptech, and regulatory technology — each with specific content requirements shaped by their product category, their target customer, and the regulatory environment in which they operate.
+
+Backyard Studio Official produces content for FinTech companies at every stage: seed-stage startups building their first investor materials, growth-stage scale-ups producing product content for enterprise sales, and established FinTech brands maintaining a content programme across multiple product lines. We understand the specific constraints that financial services content operates within — regulatory compliance requirements, the conservative visual vocabulary expected by institutional buyers, and the need for trust signals in content targeting retail financial consumers.
+
+FinTech product content faces a specific challenge that general corporate video doesn't: the product involves money, and viewers apply a higher standard of trust scrutiny to financial content than to other product categories. A consumer evaluating a payments app or a digital wallet is asking not only whether the product is useful but whether the company behind it is credible enough to be trusted with their financial information. Content that communicates credibility — through production quality, spokesperson authority, customer testimony, and regulatory compliance signals — performs significantly better in the FinTech category than generic corporate video.
+
+For B2B FinTech selling to enterprise clients — banks, insurance companies, large retailers — content operates in a longer sales cycle context. The product demo video that appears in a sales deck will be reviewed by multiple stakeholders across a 3 to 12 month procurement process. It needs to communicate technical capability, security and compliance credentials, and partnership potential simultaneously, while remaining clear and compelling to non-technical senior decision-makers.",
+      challenge: "FinTech content sits at the intersection of two conflicting creative demands: it needs to communicate technical sophistication to technical evaluators while remaining accessible and trustworthy to non-technical buyers and retail consumers. Content that's too technical alienates the business decision-maker. Content that's too simple fails to satisfy the technical evaluation. Most FinTech video content picks one audience and ignores the other.",
+      solution: "We develop FinTech content from a layered communication framework — a single primary narrative that communicates the core value proposition to any viewer, with a supporting layer of technical specificity that satisfies technical evaluators who look closer. The visual vocabulary we use for FinTech — clean office environments, data visualisation sequences, security credential close-ups — signals credibility without requiring technical claims in the script.",
+      services: [
+        { label: "FinTech Product Demo Videos", href: "/services/dvcs", desc: "Problem-first product demos showing the financial technology in a realistic use context." },
+        { label: "Investor Relations Content", href: "/services/corporate-brand-films", desc: "Company overview films, Series A/B fundraising pitch videos, and investor update content." },
+        { label: "B2B Sales Content", href: "/services/corporate-videography", desc: "Enterprise sales deck video, security and compliance credential videos, and partnership content." },
+        { label: "Consumer Brand Films", href: "/services/corporate-brand-films", desc: "Trust-building brand films for consumer FinTech products in retail banking, payments, and insurance." },
+        { label: "Regulatory & Compliance Content", href: "/services/corporate-videography", desc: "Regulated communications content for CBUAE, ADGM, and DIFC compliance requirements." },
+        { label: "Conference & GITEX Content", href: "/services/event-videography", desc: "Industry conference coverage, panel session video, and award ceremony content for FinTech events." },
+      ],
+      results: [
+        { stat: "DIFC", label: "ADGM and DIFC compliance environment experienced" },
+        { stat: "B2B + B2C", label: "Content for both enterprise and retail FinTech" },
+        { stat: "GCC", label: "Content positioned for Gulf regulatory markets" },
+        { stat: "48h", label: "Product demo video standard delivery" },
+      ],
+      caseStudy: {
+        title: "B2B Payments Platform — Enterprise Sales Content",
+        client: "UAE-Based B2B Payments Platform",
+        result: "Sales cycle shortened by 3 weeks; demo request conversion from cold email up 29%",
+        body: "A DIFC-registered B2B payments platform was losing prospects in the early stages of their enterprise sales cycle because their product story required a long discovery call to communicate clearly. Their existing collateral was text-heavy and the product complexity was working against them.
+
+We produced a 75-second product demo video using a problem-first script: the first 25 seconds showed the specific pain of reconciling multi-currency B2B payments across UAE and Saudi Arabia operations, the middle 35 seconds showed the platform eliminating that pain in a realistic workflow, and the final 15 seconds showed the compliance credential signals that enterprise buyers need to see before engaging in procurement.
+
+The sales team embedded the video in cold outreach to CFOs and treasury managers at UAE enterprise targets. Demo request conversion from cold email increased 29%, and the average time from first contact to booked demo reduced by 3 weeks versus the previous quarter.",
+      },
+      faqs: [
+        { q: "Do you understand DIFC and ADGM regulatory requirements for financial content?", a: "Yes. Backyard Studio Official has produced content for DIFC and ADGM-registered financial services companies and understands the communication standards and compliance requirements that apply to regulated financial content in the UAE. We do not provide legal or compliance sign-off — that remains the client's responsibility — but we are experienced with the production constraints that regulated financial content operates within." },
+        { q: "Can you produce content for Islamic finance and Sharia-compliant products?", a: "Yes. We produce content for Islamic finance products including Sharia-compliant banking, takaful, and Islamic fintech platforms. Arabic-language versions and culturally appropriate visual content for Islamic finance products are available as part of our standard bilingual service." },
+        { q: "How do you handle compliance review in the content approval process?", a: "We build compliance review into our standard approval process for regulated FinTech clients. After the first cut is delivered, we provide an explicit compliance review window — typically 5 business days — before the final revision round. This allows the client's legal and compliance team to review content before we make any additional changes, avoiding multiple revision rounds driven by compliance requirements." },
+        { q: "What is the typical cost of a FinTech brand film?", a: "A FinTech product demo video starts from AED 12,000 for a 60 to 90 second problem-first format. A full brand film with production design, multiple interview subjects, and a 3 to 5 minute running time starts from AED 28,000. Investor pitch videos for fundraising rounds are quoted separately based on the scope of narrative development required. All quotes are provided within 2 hours of receiving a brief." },
+      ],
+      relatedLocations: [
+        { label: "DIFC Dubai FinTech", href: "/locations/dubai" },
+        { label: "Abu Dhabi Hub71", href: "/locations/abu-dhabi" },
+      ],
+      relatedPosts: [
+        { title: "Corporate Video Production Dubai 2026", href: "/blog/corporate-video-production-dubai-2026" },
+        { title: "Technology Production UAE", href: "/industries/tech" },
+      ],
+    },
+
+  },
+
+  /* ── HEALTHCARE ── */
+  "healthcare": {
+
+    "dental": {
+      parentSlug: "healthcare",
+      parentName: "Healthcare",
+      name: "Dental Clinic Photography & Video",
+      tagline: "Dental Clinic Content That Builds Patient Trust",
+      heroImage: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=1920&q=80",
+      metaTitle: "Dental Clinic Video Dubai UAE | Backyard Studio",
+      metaDescription: "Dental clinic photography and video production in Dubai UAE. Patient testimonials, clinic tours, social media content and brand films for dental practices. Free quote.",
+      keywords: ["dental clinic video Dubai","dental photography UAE","dentist video Dubai","dental clinic marketing content UAE","dental practice film Dubai","dental social media content UAE","dentist photography Dubai","dental clinic brand film UAE"],
+      intro: "Dubai's dental market is one of the most competitive in the Middle East, with hundreds of private dental practices competing for patients across the emirate and the wider UAE. The practices that attract and retain patients most effectively are those whose content builds trust before the patient walks through the door — showing the clinic environment, the team, the technology, and the patient experience in a way that reduces the anxiety that many patients feel about dental visits.
+
+Backyard Studio Official produces content for dental clinics, specialist dental practices, and dental groups across UAE. Our dental content production experience covers general dentistry, cosmetic dentistry, orthodontics, implantology, and specialist dental surgery — each with specific content requirements shaped by the patient's decision-making process and the clinical environment's visual characteristics.
+
+Dental content operates in a high-trust, high-stakes decision context. A patient choosing a dental clinic is making a significant financial and personal trust commitment — treatment costs in Dubai's private dental market start at AED 500 and can exceed AED 50,000 for comprehensive cosmetic or implant cases. Content that communicates clinical quality, team expertise, hygiene standards, and patient satisfaction influences this decision in a way that generic advertising does not.
+
+For cosmetic dentistry specifically, before-and-after content — done ethically with patient consent and accurate representation — is one of the most powerful marketing assets a dental practice can have. We produce before-and-after photography to clinical standards, ensuring accurate colour representation, consistent lighting between before and after images, and patient presentation that is professional and reassuring rather than promotional in a way that patients would find off-putting.
+
+Social media content for dental practices in Dubai has matured significantly. TikTok and Instagram content from UAE dental clinics is one of the most engaged healthcare content categories on social media in the region. Educational content (how to maintain good dental hygiene, what to expect from specific treatments, myth-busting common dental anxieties) performs particularly well when produced with the right clinical authority tone.",
+      challenge: "Dental clinic content has specific technical requirements — dental operatories are small, colour-sensitive environments where standard photography and video approaches often produce clinical imagery that looks cold or anxiety-inducing rather than reassuring. Additionally, clinical content involving patients requires careful consent management and representation that complies with UAE healthcare authority guidelines.",
+      solution: "We have developed specific lighting setups and camera positions for dental operatory environments that produce warm, reassuring imagery without misrepresenting the clinical setting. Our dental content team understands the DHA and MOH content requirements for healthcare marketing in UAE, and we build consent and compliance processes into our standard dental clinic production workflow.",
+      services: [
+        { label: "Patient Testimonial Videos", href: "/services/testimonial-videos", desc: "Authentic patient outcome stories — consent-managed, clinically accurate, and emotionally compelling." },
+        { label: "Clinic Environment Photography", href: "/services/photo-shoots", desc: "Reception, operatory, and team photography that communicates quality and hygiene standards." },
+        { label: "Treatment Explainer Videos", href: "/services/corporate-videography", desc: "Patient education videos explaining specific treatments — for website, waiting room, and social." },
+        { label: "Social Media Content Package", href: "/services/reels-production", desc: "Monthly social content for Instagram and TikTok — educational, reassurance-focused, and culturally appropriate." },
+        { label: "Before-and-After Photography", href: "/services/photo-shoots", desc: "Clinical before-and-after photography for cosmetic dentistry — consistent, accurate, and ethically managed." },
+        { label: "Team & Brand Photography", href: "/services/photo-shoots", desc: "Dentist portraits, hygienist team photography, and specialist profile images for website and DHA listings." },
+      ],
+      results: [
+        { stat: "DHA", label: "Compliant with UAE healthcare marketing guidelines" },
+        { stat: "Consent", label: "Full patient consent managed in production process" },
+        { stat: "48h", label: "Social content delivered within 48 hours" },
+        { stat: "All UAE", label: "Dental clinic coverage across all 7 emirates" },
+      ],
+      caseStudy: {
+        title: "Cosmetic Dental Clinic — Full Content Programme",
+        client: "Dubai Cosmetic Dental Practice, JBR",
+        result: "Online consultation bookings up 65% within 3 months of content programme launch",
+        body: "A JBR cosmetic dental practice was struggling to differentiate in a competitive Dubai market. Their website had generic stock photography and no video content. Patient acquisition was driven almost entirely by referral with limited social media presence.
+
+We produced a full content programme: clinic environment photography for the website, 4 patient testimonial videos with full consent management, a 3-minute brand film featuring the lead dentist explaining the clinic's cosmetic philosophy, and a monthly social content plan producing 8 social posts per month across Instagram and TikTok.
+
+Online consultation booking requests increased 65% within 3 months of the content going live. The clinic's Instagram following grew from 800 to 3,400 in the same period. The lead dentist's professional profile photography was used for a Dubai Health Authority speaking engagement confirmation and cited as a factor in the invitation.",
+      },
+      faqs: [
+        { q: "Do you understand DHA guidelines for dental marketing content in Dubai?", a: "Yes. We produce dental marketing content in compliance with Dubai Health Authority guidelines for healthcare marketing in Dubai. This includes appropriate claims management, patient consent protocols, and the specific restrictions on before-and-after representation that apply to cosmetic treatment marketing. We are not a legal compliance service, but we understand the practical production implications of DHA content standards." },
+        { q: "Can you film inside the dental operatory during treatment?", a: "Filming during active treatment requires explicit patient consent and appropriate clinical approval from the practice principal. We support this with a formal video consent process that meets UAE healthcare authority standards. For most dental content purposes, we recommend recreated treatment scenarios with consenting dental team members rather than filming actual patient treatment — the results are visually equivalent and the consent management is straightforward." },
+        { q: "How do you produce before-and-after photography accurately?", a: "Before-and-after dental photography requires consistent lighting, camera position, focal length, and patient positioning between the before and after images. We use calibrated colour reference cards to ensure accurate tooth colour representation, and we photograph before and after images in the same operatory under the same controlled lighting. Editing is limited to colour correction and crop — we do not alter the teeth or gum appearance in any way in post-processing." },
+        { q: "Do you work with dental groups as well as single practices?", a: "Yes. We produce content programmes for dental groups with multiple branches across UAE. Multi-branch dental groups benefit from a standardised content approach across all locations — consistent brand photography style, a shared social content calendar, and a central brand film that covers the group rather than individual branches. Pricing for multi-branch programmes benefits from economies of scale." },
+      ],
+      relatedLocations: [
+        { label: "Dubai Dental Clinics", href: "/locations/dubai" },
+        { label: "Abu Dhabi Dental Practices", href: "/locations/abu-dhabi" },
+        { label: "Sharjah Healthcare", href: "/locations/sharjah" },
+      ],
+      relatedPosts: [
+        { title: "Corporate Video Production Dubai 2026", href: "/blog/corporate-video-production-dubai-2026" },
+        { title: "Healthcare Production UAE", href: "/industries/healthcare" },
+      ],
+    },
+
+  },
+
+  /* ── CORPORATE ── */
+  "corporate": {
+
+    "company-profile": {
+      parentSlug: "corporate",
+      parentName: "Corporate",
+      name: "Company Profile Video Production",
+      tagline: "Company Profile Films That Win Tenders and Build Trust",
+      heroImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&q=80",
+      metaTitle: "Company Profile Video Dubai UAE | Backyard Studio",
+      metaDescription: "Company profile video production in Dubai UAE. Corporate overview films for tender submissions, investor presentations and brand communications. Free quote in 2 hours.",
+      keywords: ["company profile video Dubai","corporate profile film UAE","company video Dubai","company overview film UAE","business profile video Dubai","corporate documentary UAE","company presentation video Dubai","brand film corporate UAE"],
+      intro: "The company profile video is the most commercially important piece of content most UAE businesses produce. It appears in tender submissions, investor decks, trade show presentations, website hero sections, LinkedIn pages, and client pitches. A well-produced company profile creates the first impression that either opens or closes the door to a commercial relationship — and in UAE's relationship-driven business culture, that first impression carries exceptional weight.
+
+Backyard Studio Official has produced company profile films for businesses across every sector in UAE — from single-owner SMEs submitting their first government tender to regional headquarters of multinational corporations communicating their UAE strategy to global stakeholders. The commercial objective is the same in every case: establish credibility, communicate capability, and create the impression that this is a company worth doing business with.
+
+The UAE company profile market has specific characteristics that distinguish it from other markets. Many UAE businesses operate in regulated sectors — government contracting, financial services, construction, healthcare — where the company profile video appears in a formal procurement context alongside technical documents, financial statements, and legal certifications. In this context, the production quality and tone of the video is itself a capability signal. A company profile that looks under-produced in a government tender submission communicates doubt about the company's capacity and attention to quality.
+
+For businesses with a regional or international client base, the company profile also needs to communicate the UAE business environment in a way that resonates with buyers who may not be familiar with it. Office environment footage, team composition, facility quality, and client relationship footage all function as trust-building signals for international buyers evaluating whether to engage a UAE-based supplier.
+
+Backyard Studio Official's company profile productions typically run 3 to 5 minutes in the standard format, with a 90-second cut for social and digital use, and an extended 8 to 10 minute version for trade show and presentation use. All three are produced from the same shoot day, which maximises cost efficiency for clients who need multiple format versions.",
+      challenge: "Company profile videos fail in two common ways. The first is the generic company narrative — the video that describes what the company does without communicating why it matters, who the team is, or what specifically distinguishes it from competitors. The second is the over-produced vanity project — a technically impressive film that says nothing specific about the company's actual capability or commercial proposition.",
+      solution: "We develop company profile scripts from a competitive differentiation framework — identifying the specific claims the company can make that competitors cannot, the specific client outcomes that evidence capability, and the specific team expertise that builds personal trust. Every minute of a company profile video should be doing commercial work rather than filling screen time with generic corporate imagery.",
+      services: [
+        { label: "Full Company Profile Film", href: "/services/corporate-brand-films", desc: "3 to 5 minute corporate overview film for tender submissions, investor materials, and website." },
+        { label: "90-Second Social Cut", href: "/services/reels-production", desc: "Short-form social version cut from the company profile for LinkedIn and YouTube." },
+        { label: "Extended Presentation Version", href: "/services/corporate-brand-films", desc: "8 to 10 minute extended company overview for trade show screens and board presentations." },
+        { label: "Arabic-Language Version", href: "/services/corporate-videography", desc: "Arabic narration and subtitle version for government procurement and GCC market outreach." },
+        { label: "Team & Facility Photography", href: "/services/photo-shoots", desc: "Professional team portraits and office/facility photography produced alongside the video." },
+        { label: "Testimonial Integration", href: "/services/testimonial-videos", desc: "Client testimonial videos produced and integrated into the company profile as evidence segments." },
+      ],
+      results: [
+        { stat: "3-5 min", label: "Standard company profile format" },
+        { stat: "Same Day", label: "Social cut delivered alongside main film" },
+        { stat: "Arabic", label: "Bilingual versions for government procurement" },
+        { stat: "All UAE", label: "Company profile production across all 7 emirates" },
+      ],
+      caseStudy: {
+        title: "Government Contracting Tender Submission — Company Profile",
+        client: "UAE-Based Construction & FM Company",
+        result: "Tender shortlisted in 3 government submissions where previously eliminated at pre-qualification",
+        body: "A UAE facilities management company had been consistently eliminated at the pre-qualification stage of government tenders. Their existing company profile was a 4-year old PowerPoint with no video component — while competitors had professional video profiles that were standard submission elements for government procurement.
+
+We produced a 4-minute company profile film covering the company's 18-year UAE operating history, their facility management project portfolio with UAE government and real estate sector clients, their team structure and certification credentials, and a client testimonial from a government entity that confirmed 4 years of contract performance.
+
+In the 6 months following the profile's completion, the company was shortlisted in 3 government tender submissions where they had previously been eliminated at pre-qualification. The tender team attributed the change directly to the video's role in communicating company maturity and capability in a format that evaluators engaged with before reviewing the technical submission.",
+      },
+      faqs: [
+        { q: "How long should a company profile video be?", a: "3 to 5 minutes is the standard format for company profile videos in UAE's corporate and government procurement context. For website hero sections, a 60 to 90 second cut performs better. For trade show and boardroom presentations, 8 to 10 minutes is appropriate when the audience is a captive, high-value group. We produce all three formats from the same shoot day so you have the right version for every context." },
+        { q: "Can you produce the company profile in Arabic and English?", a: "Yes. Bilingual company profile production — English primary with an Arabic narration and subtitle version — is one of our most common requests. Arabic-language versions are essential for government tender submissions and for regional GCC client communications in Saudi Arabia, Kuwait, and Qatar. We use native business Arabic speakers for narration rather than direct translation services." },
+        { q: "What is the typical production timeline for a company profile?", a: "A standard company profile video has a 3 to 4 week timeline from briefing to final delivery. Pre-production and script development takes 1 to 2 weeks. Filming is typically 1 to 2 days. Post-production takes 1 to 2 weeks depending on revision rounds. Rush timelines of 10 to 14 business days are possible for clients with a tender submission deadline." },
+        { q: "What does a company profile video cost in Dubai?", a: "Company profile video production starts from AED 12,000 for a single-day shoot producing a 3 to 5 minute film with 90-second social cut. More comprehensive programmes including multi-location filming, testimonial integration, and Arabic-language version are quoted from AED 22,000. Exact pricing depends on filming days required, crew size, animation requirements, and post-production scope." },
+      ],
+      relatedLocations: [
+        { label: "Dubai Corporate Production", href: "/locations/dubai" },
+        { label: "Abu Dhabi Government Tenders", href: "/locations/abu-dhabi" },
+        { label: "Sharjah Corporate Content", href: "/locations/sharjah" },
+      ],
+      relatedPosts: [
+        { title: "Corporate Video Production Dubai 2026", href: "/blog/corporate-video-production-dubai-2026" },
+        { title: "Corporate Production UAE", href: "/industries/corporate" },
+      ],
+    },
+
+  },
+
+  /* ── HOSPITALITY ── */
+  "hospitality": {
+
+    "hotels": {
+      parentSlug: "hospitality",
+      parentName: "Hospitality",
+      name: "Hotel Photography & Video Production",
+      tagline: "Hotel Content That Fills Rooms and Wins Awards",
+      heroImage: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1920&q=80",
+      metaTitle: "Hotel Video Production Dubai UAE | Backyard Studio",
+      metaDescription: "Hotel photography and video production in Dubai UAE. Property films, room photography, drone aerials and social content for hotels and resorts. Free quote in 2 hours.",
+      keywords: ["hotel video production Dubai","hotel photography UAE","resort video Dubai","hotel drone photography UAE","hotel marketing content Dubai","hospitality photography UAE","hotel opening film Dubai","hotel social media content UAE"],
+      intro: "Hotels in Dubai and the UAE operate in one of the most visually sophisticated hospitality markets in the world. Guests arrive with their social media expectations set by the properties' own Instagram accounts, and the competition for online booking decisions is decided in the 3 to 5 seconds a traveller spends looking at a hotel's primary visual assets before deciding whether to click through. Backyard Studio Official produces hotel content that performs in this environment — photography that converts browsers into bookings, video that communicates the property's experience rather than just its facilities, and social media content that keeps the hotel visible between guest stays.
+
+Our hotel content production experience spans the full spectrum of UAE's accommodation market: luxury five-star properties with international brand standards and global distribution systems, four-star business hotels with corporate client bases, boutique lifestyle properties appealing to social media-aware leisure travellers, and serviced apartment developments with medium to long-stay residents as their primary market. Each category has different content requirements, different target audiences, and different distribution channels — and we produce specifically for each rather than applying a generic hospitality template.
+
+For hotel openings, content production is one of the most time-compressed and commercially critical exercises in hospitality marketing. The opening period — from pre-opening marketing through the first 90 days of operation — sets the property's positioning in the market for years. Pre-opening content (construction progress documentation, design reveal content, pre-opening event coverage) builds anticipation. Opening-day content drives initial bookings. Post-opening content consolidates the property's position in its competitive set.
+
+For established hotels, ongoing content is the operational reality of hospitality marketing. Room rates and availability change weekly, seasonal packages need photography, restaurant menus change quarterly, and the social content calendar needs to be fed continuously. Backyard Studio Official runs content retainer programmes for established UAE hotels — structured monthly productions that keep the hotel's content library current without requiring a separate brief and production cycle for every piece of content.",
+      challenge: "Hotel photography is technically demanding at the highest quality level. Room interiors require complex lighting setups that balance natural and artificial light, manage reflections from screens and windows, and create a sense of scale in rooms that are often smaller than they look in professional photography. Exterior and aerial photography must manage UAE's intense sunlight and haze while capturing the property's architecture and environment at their best.",
+      solution: "We schedule hotel shoots around light conditions rather than convenience — early morning for exterior and pool photography when the light is at its most flattering and the property is at its quietest, controlled artificial lighting for interior work, and GCAA-cleared drone operations for aerial photography that shows the property's full setting. Post-processing for hotel content is handled by specialists in architectural and hospitality photography rather than generalist editors.",
+      services: [
+        { label: "Room & Suite Photography", href: "/services/photo-shoots", desc: "Professional room photography for OTAs, brand website, and marketing materials — all room categories." },
+        { label: "Hotel Brand Film", href: "/services/corporate-brand-films", desc: "3 to 5 minute property film for website hero, brand channels, and trade presentations." },
+        { label: "Drone Aerial Photography & Video", href: "/services/aerial-drone", desc: "GCAA-licensed aerial photography showing the property, pool, beach, and location context." },
+        { label: "Restaurant & F&B Photography", href: "/services/photo-shoots", desc: "Menu photography, restaurant interior photography, and food social media content." },
+        { label: "Social Media Content Programme", href: "/services/reels-production", desc: "Monthly social content for hotel Instagram and TikTok — property features, offers, and seasonal content." },
+        { label: "Hotel Opening Coverage", href: "/services/event-videography", desc: "Opening event coverage, pre-opening marketing content, and opening night same-day highlights." },
+      ],
+      results: [
+        { stat: "5-Star", label: "Experience with luxury brand photography standards" },
+        { stat: "GCAA", label: "Licensed drone for property aerial photography" },
+        { stat: "OTA-Ready", label: "Photography delivered in Booking.com and Expedia specs" },
+        { stat: "All UAE", label: "Hotel content production across all 7 emirates" },
+      ],
+      caseStudy: {
+        title: "4-Star Business Hotel — Full Property Photography Update",
+        client: "Dubai Business Hotel, Sheikh Zayed Road",
+        result: "Booking.com score increased 0.4 points; direct booking rate up 22% post-content update",
+        body: "A Sheikh Zayed Road business hotel had been using the same photography for 6 years. The images showed a dated design that had since been refurbished, and the online guest reviews were noting a disconnect between the property's actual quality and its visual presentation. The hotel's revenue management team identified photography as the primary lever for improving online conversion.
+
+We produced a full property photography update across 3 shoot days: all room and suite categories, public areas including lobby, gym, pool, and business centre, restaurant photography for the in-house F&B outlet, and GCAA drone aerials showing the hotel's location on Sheikh Zayed Road and its relation to the surrounding business district.
+
+Booking.com review score increased 0.4 points in the first 90 days following the photography update — with guests commenting that the property 'looked exactly as shown online'. Direct booking rate through the hotel's own website increased 22% compared to the same period the previous year.",
+      },
+      faqs: [
+        { q: "How many days does a full hotel photography project take?", a: "A full property photography project for a medium-sized hotel (100 to 200 rooms, 3 to 5 F&B outlets, standard public areas) typically takes 2 to 3 shoot days. Larger luxury properties with extensive room categories, multiple restaurant concepts, and significant outdoor spaces may require 4 to 5 days. We plan the shoot schedule around the hotel's occupancy to minimise disruption to occupied rooms." },
+        { q: "Can you produce content for OTA (Booking.com, Expedia, Airbnb) requirements?", a: "Yes. We produce hotel photography and video to the specific technical requirements of all major OTAs — Booking.com, Expedia, Hotels.com, Marriott.com, and Airbnb — including file format, minimum resolution, image ratio, and the content guidelines that each platform applies to property photography. Files are delivered ready for direct upload to each platform." },
+        { q: "Do you cover hotel openings and soft opening events?", a: "Yes. Hotel opening events are one of our most involved production commissions — covering pre-opening teaser content, opening night event photography and video, same-day social highlights, and the post-opening marketing content sprint that supports the property's first 90 days of trading. We have covered hotel openings across all UAE emirates and understand the operational complexity of producing content in a hotel that is simultaneously opening its doors for the first time." },
+        { q: "Can you produce Arabic-language hotel content for regional marketing?", a: "Yes. Arabic-language hotel content — including Arabic narration for brand films, Arabic subtitles for social video, and culturally appropriate visual content for GCC market distribution — is available as part of our standard bilingual service. Gulf Arabic-speaking travellers represent a significant market for UAE hotel bookings, and we produce content that speaks directly to that audience." },
+      ],
+      relatedLocations: [
+        { label: "Dubai Hotel Photography", href: "/locations/dubai" },
+        { label: "Abu Dhabi Resort Content", href: "/locations/abu-dhabi" },
+        { label: "RAK Hotel Production", href: "/locations/ras-al-khaimah" },
+      ],
+      relatedPosts: [
+        { title: "Hotel Photography Dubai 2026", href: "/blog/hotel-photography-dubai-2026" },
+        { title: "Hospitality Production UAE", href: "/industries/hospitality" },
       ],
     },
 
@@ -551,3 +1039,4 @@ export default function SubIndustryPage({
     </>
   );
 }
+                  
