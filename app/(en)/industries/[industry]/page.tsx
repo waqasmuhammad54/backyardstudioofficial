@@ -327,7 +327,7 @@ const INDUSTRY_DATA: Record<string, {
   },
 
   /* ── TECHNOLOGY ────────────────────────────────────────────────────── */
-  "technology": {
+  "tech": {
     name: "Technology",
     tagline: "Tech Content That Converts — Dubai's Startup & Enterprise Scene",
     heroImage: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=1920&q=80",
@@ -363,9 +363,9 @@ const INDUSTRY_DATA: Record<string, {
     relatedLocations: [{ label: "Dubai Tech Ecosystem", href: "/locations/dubai" },{ label: "Abu Dhabi Tech", href: "/locations/abu-dhabi" }],
     relatedPosts: [{ title: "Corporate Video Production Dubai 2026", href: "/blog/corporate-video-production-dubai-2026" },{ title: "Social Media Content Dubai 2026", href: "/blog/social-media-content-creation-dubai-2026" }],
     specialisations: [
-      { name: "SaaS & App Demo Videos", href: "/industries/technology/saas", desc: "Product demo videos, app walkthroughs and launch campaigns for SaaS and mobile products in UAE." },
-      { name: "GITEX Event Production", href: "/industries/technology/gitex", desc: "Booth content, live event coverage and same-day social cuts for GITEX Global and North Star." },
-      { name: "Startup Investor Content", href: "/industries/technology/startup", desc: "Investor pitch videos, founder films and fundraising content for UAE startups." },
+      { name: "SaaS & App Demo Videos", href: "/industries/tech/saas", desc: "Product demo videos, app walkthroughs and launch campaigns for SaaS and mobile products in UAE." },
+      { name: "GITEX Event Production", href: "/industries/tech/gitex", desc: "Booth content, live event coverage and same-day social cuts for GITEX Global and North Star." },
+      { name: "Startup Investor Content", href: "/industries/tech/startup", desc: "Investor pitch videos, founder films and fundraising content for UAE startups." },
     ],
   },
 

@@ -183,10 +183,10 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
   },
 
   /* ── TECHNOLOGY ── */
-  "technology": {
+  "tech": {
 
     "saas": {
-      parentSlug: "technology",
+      parentSlug: "tech",
       parentName: "Technology",
       name: "SaaS & App Video Production",
       tagline: "Software Product Content That Converts — UAE & GCC",
@@ -229,7 +229,7 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       ],
       relatedPosts: [
         { title: "Corporate Video Production Dubai 2026", href: "/blog/corporate-video-production-dubai-2026" },
-        { title: "Technology Production UAE", href: "/industries/technology" },
+        { title: "Technology Production UAE", href: "/industries/tech" },
       ],
     },
 
