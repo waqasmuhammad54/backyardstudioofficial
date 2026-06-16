@@ -3,10 +3,10 @@ import { useState, useEffect } from "react";
 import { Star, ArrowLeft, ArrowRight } from "lucide-react";
 
 const T = [
-  { name:"Sarah Al Mansouri", role:"Marketing Director", company:"Emaar Properties",   service:"Event Shoots",     rating:5, quote:"Backyard Studio delivered our event coverage with a level of professionalism and creativity that exceeded every expectation. The final film moved our entire leadership to tears. Pure cinematic magic." },
-  { name:"James McKinley",    role:"CEO",                company:"FinTech Hub UAE",     service:"Testimonials",     rating:5, quote:"Our testimonial video series increased our website conversion rate by 47% within the first month. The team understood our brand voice perfectly and made our clients look and sound incredible on screen." },
-  { name:"Noor Khalifa",      role:"Brand Manager",      company:"Noon.com",            service:"Social Media",     rating:5, quote:"The Instagram Reels campaign Backyard Studio produced for our Ramadan 2026 launch garnered 2.3 million organic views in 72 hours. They genuinely understand what works for the UAE audience in 2026." },
-  { name:"Ahmed Rashid",      role:"Founder",            company:"Luxury Motors Dubai", service:"DVCs",             rating:5, quote:"Our DVC was flawless — from location scouting in Fujairah to the final colour grade. Backyard Studio are in a completely different league to everyone else we've tried in the UAE market." },
+  { name:"Sarah Al Mansouri", service:"Event Shoots",     rating:5, quote:"Backyard Studio delivered our event coverage with a level of professionalism and creativity that exceeded every expectation. The final film moved our entire leadership to tears. Pure cinematic magic." },
+  { name:"James McKinley",    service:"Testimonials",     rating:5, quote:"Our testimonial video series increased our website conversion rate by 47% within the first month. The team understood our brand voice perfectly and made our clients look and sound incredible on screen." },
+  { name:"Noor Khalifa",      service:"Social Media",     rating:5, quote:"The Instagram Reels campaign Backyard Studio produced for our Ramadan 2026 launch garnered 2.3 million organic views in 72 hours. They genuinely understand what works for the UAE audience in 2026." },
+  { name:"Ahmed Rashid",      service:"DVCs",             rating:5, quote:"Our DVC was flawless — from location scouting in Fujairah to the final colour grade. Backyard Studio are in a completely different league to everyone else we've tried in the UAE market." },
 ];
 
 export default function TestimonialsSection() {
@@ -74,7 +74,6 @@ export default function TestimonialsSection() {
             <div className="flex flex-col items-center gap-1">
               <div className="gold-line mx-auto mb-4" />
               <p className="text-cream font-semibold tracking-wide">{t.name}</p>
-              <p className="text-silver/50 text-sm font-light">{t.role} — {t.company}</p>
               <span className="mt-3 text-[0.6rem] tracking-[0.3em] text-gold border border-gold/25 px-3 py-1 uppercase">{t.service}</span>
             </div>
           </div>
