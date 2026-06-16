@@ -1214,8 +1214,6 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
 
   },
 
-  },
-
 };
 
 export function generateStaticParams() {
