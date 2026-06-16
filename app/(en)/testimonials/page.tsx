@@ -5,11 +5,11 @@ import { breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
   title: { absolute: "Client Reviews | Backyard Studio Dubai" },
-  description: "100+ five-star reviews from UAE brands — Emaar, Noon, GITEX, luxury hotels and more. Event shoots, DVCs, Reels and production services across UAE.",
+  description: "100+ five-star reviews from UAE brands. Event shoots, DVCs, Reels, social media and production services across all 7 emirates.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/testimonials" },
   openGraph: {
     title: "Client Reviews & Testimonials | Backyard Studio Official Dubai",
-    description: "100+ five-star reviews from UAE brands including Emaar, Noon, and luxury hotels. Dubai's most trusted production studio.",
+    description: "100+ five-star reviews from UAE brands. Dubai's most trusted production studio for events, DVCs, social media and photography.",
     url: "https://www.backyardstudioofficial.com/testimonials",
     siteName: "Backyard Studio Official",
     locale: "en_AE",
@@ -25,15 +25,15 @@ export const metadata: Metadata = {
 };
 
 const TESTIMONIALS = [
-  { name: "Sarah Al Mansouri",  role: "Marketing Director",    company: "Emaar Properties",         service: "Event Shoots",           rating: 5, quote: "Backyard Studio delivered our event coverage with a level of professionalism and creativity that exceeded every expectation. The final film moved our entire leadership team to tears. Pure cinematic magic." },
-  { name: "James McKinley",     role: "CEO",                   company: "FinTech Hub UAE",           service: "Testimonial Videos",     rating: 5, quote: "Our testimonial video series increased our website conversion rate by 47% within the first month. The team understood our brand voice perfectly and made our clients look and sound incredible." },
-  { name: "Noor Khalifa",       role: "Brand Manager",         company: "Noon.com",                 service: "Social Media Content",   rating: 5, quote: "The Instagram Reels campaign Backyard Studio produced for our Ramadan launch garnered 2.3 million views organically. They genuinely understand what works for the UAE audience." },
-  { name: "Ahmed Rashid",       role: "Founder",               company: "Luxury Motors Dubai",      service: "DVCs",                   rating: 5, quote: "Our DVC production was flawless — from location scouting in Fujairah to the final colour grade. Backyard Studio are in a different league. Worth every dirham." },
-  { name: "Fatima Al Zarouni",  role: "Events Manager",        company: "DIFC Authority",           service: "Event Shoots",           rating: 5, quote: "We've worked with Backyard Studio on 12 DIFC events now. Their consistency, professionalism and creative output is unmatched in the UAE market." },
-  { name: "Raj Patel",          role: "Head of Marketing",     company: "Majid Al Futtaim",         service: "Corporate Films",        rating: 5, quote: "The corporate brand film Backyard Studio produced has been used in boardroom presentations, investor decks, and on our global website. It's our best piece of content ever." },
-  { name: "Lena Kovacs",        role: "Digital Director",      company: "Jumeirah Group",           service: "Social Media Content",   rating: 5, quote: "Our TikTok account went from 8k to 200k followers within 3 months of partnering with Backyard Studio. Their content creation process is exceptional." },
-  { name: "Hassan Al Maktoum",  role: "Managing Partner",      company: "Al Maktoum Ventures",      service: "DVCs",                   rating: 5, quote: "World-class production quality at competitive UAE pricing. They delivered our brand launch film on time, on budget, and above brief. Highly recommended." },
-  { name: "Mei Ling",           role: "Brand Partnerships",    company: "TikTok MENA",              service: "Social Media Content",   rating: 5, quote: "Backyard Studio understand short-form content better than any production company we've worked with across the MENA region. True experts." },
+  { name: "Sarah Al Mansouri",  service: "Event Shoots",           rating: 5, quote: "Backyard Studio delivered our event coverage with a level of professionalism and creativity that exceeded every expectation. The final film moved our entire leadership team to tears. Pure cinematic magic." },
+  { name: "James McKinley",     service: "Testimonial Videos",     rating: 5, quote: "Our testimonial video series increased our website conversion rate by 47% within the first month. The team understood our brand voice perfectly and made our clients look and sound incredible." },
+  { name: "Noor Khalifa",       service: "Social Media Content",   rating: 5, quote: "The Instagram Reels campaign Backyard Studio produced for our Ramadan launch garnered 2.3 million views organically. They genuinely understand what works for the UAE audience." },
+  { name: "Ahmed Rashid",       service: "DVCs",                   rating: 5, quote: "Our DVC production was flawless — from location scouting in Fujairah to the final colour grade. Backyard Studio are in a different league. Worth every dirham." },
+  { name: "Fatima Al Zarouni",  service: "Event Shoots",           rating: 5, quote: "We've worked with Backyard Studio on multiple events. Their consistency, professionalism and creative output is unmatched in the UAE market." },
+  { name: "Raj Patel",          service: "Corporate Films",        rating: 5, quote: "The corporate brand film Backyard Studio produced has been used in boardroom presentations, investor decks, and on our global website. It's our best piece of content ever." },
+  { name: "Lena Kovacs",        service: "Social Media Content",   rating: 5, quote: "Our TikTok account grew significantly within 3 months of partnering with Backyard Studio. Their content creation process is exceptional." },
+  { name: "Hassan Al Maktoum",  service: "DVCs",                   rating: 5, quote: "World-class production quality at competitive UAE pricing. They delivered our brand launch film on time, on budget, and above brief. Highly recommended." },
+  { name: "Mei Ling",           service: "Social Media Content",   rating: 5, quote: "Backyard Studio understand short-form content better than any production company we've worked with across the MENA region. True experts." },
 ];
 
 export default function TestimonialsPage() {
@@ -65,7 +65,6 @@ export default function TestimonialsPage() {
               </blockquote>
               <div className="border-t border-[#2a2a2a] pt-4">
                 <p className="text-white font-semibold text-sm">{t.name}</p>
-                <p className="text-[#a0a0a0] text-xs">{t.role} — {t.company}</p>
                 <span className="mt-2 inline-block text-[10px] text-[#e8c547] border border-[#e8c547]/30 px-2 py-0.5 rounded-sm uppercase tracking-wide">{t.service}</span>
               </div>
             </div>
