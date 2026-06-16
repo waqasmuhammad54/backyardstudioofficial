@@ -1208,15 +1208,11 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       relatedPosts: [
         { title: "Corporate Video Production Guide Dubai 2026", href: "/blog/corporate-video-production-dubai-2026" },
         { title: "Best Production Companies Dubai 2026", href: "/blog/best-production-companies-dubai-2026" },
+        { title: "Hospitality Production UAE", href: "/industries/hospitality" },
       ],
     },
 
   },
-
-,
-        { title: "Hospitality Production UAE", href: "/industries/hospitality" },
-      ],
-    },
 
   },
 
