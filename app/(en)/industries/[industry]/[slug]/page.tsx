@@ -632,7 +632,10 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
         { label: "RAK Hotel Production", href: "/locations/ras-al-khaimah" },
       ],
       relatedPosts: [
-        { title: "Hotel Photography Dubai 2026", href: "/blog/hotel-photography-dubai-2026" }
+        { title: "Hotel Photography Dubai 2026", href: "/blog/hotel-photography-dubai-2026" },
+      ],
+    },
+
     "resorts": {
       parentSlug: "hospitality",
       parentName: "Hospitality",
