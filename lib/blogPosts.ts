@@ -3835,6 +3835,282 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>University ceremony coverage (AED 3,500–15,000):</strong> Priced by cohort size and number of photographers required. Includes individual portrait station and ceremony documentation.</p>`
   },
 
+  // ─── Portrait Photographer Dubai 2026 ────────────────────────────────────
+  {
+    slug: "portrait-photographer-dubai-2026",
+    title: "Portrait Photographer Dubai 2026 — Personal & Professional Photography",
+    metaTitle: "Portrait Photographer Dubai 2026 | Personal Photography UAE | Backyard Studio",
+    metaDescription: "Professional portrait photographer in Dubai from AED 800. Personal, lifestyle & studio portraits. On-location across Dubai — Downtown, DIFC, Creek, desert.",
+    keywords: ["portrait photographer Dubai", "portrait photography Dubai", "personal photographer Dubai", "lifestyle photographer Dubai", "professional portrait Dubai", "portrait session Dubai 2026"],
+    category: "Photography Guide",
+    date: "June 17, 2026",
+    dateISO: "2026-06-17",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=1200&q=80",
+    excerpt: "A great portrait photograph is one of the most commercially and personally valuable images you can own. This guide covers how portrait photography works in Dubai, what sessions cost, and which locations produce the most striking results.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does a portrait photographer in Dubai cost?", answer: "Portrait photography in Dubai starts from AED 800 for a 45-minute studio or single-location portrait session, producing 20–25 edited images delivered within 48 hours. Extended lifestyle portrait sessions at 2–3 Dubai locations run AED 1,500–2,500, producing 40–60 edited images over 90 minutes to 2 hours. Premium editorial portrait sessions with styling, multiple looks, and a full-day production run AED 4,000–8,000. All packages include professional editing and delivery via online gallery." },
+      { question: "What are the best locations for portrait photography in Dubai?", answer: "The top portrait locations in Dubai are Al Fahidi Historical District (warm stone walls, quiet alleys, old-city atmosphere), DIFC (glass and steel architecture, minimal aesthetic), Creek Harbour (water reflections, modern skyline), Dubai Frame (architectural framing, city backdrop), and the Al Quoz desert edge (open sky, golden-hour light). For indoor sessions, our Al Quoz studio provides controlled lighting year-round. Location choice depends on the portrait's purpose — personal branding vs lifestyle vs fine-art portrait each suit different settings." },
+      { question: "What is the best time of year for outdoor portrait photography in Dubai?", answer: "October through April is optimal for outdoor portrait photography in Dubai. Temperatures are comfortable, natural light is softer and more directional, and the desert edge and outdoor locations are at their most accessible. Between May and September, outdoor portrait sessions should be scheduled at sunrise (5:30–7:30am) or the 45-minute golden-hour window after sunset. Midday outdoor shooting in summer is not recommended. Our studio in Al Quoz is air-conditioned and available year-round for climate-independent portrait sessions." },
+      { question: "What should I wear for a portrait session in Dubai?", answer: "For personal or lifestyle portraits, wear colours that complement Dubai's warm palette — deep navy, terracotta, cream, olive, and warm white all photograph beautifully in Dubai's natural light and architectural environments. Avoid bright neon or heavily patterned clothing that competes with the location. For professional portraits (LinkedIn, corporate), business attire in solid colours is recommended. We send a full style guide with every portrait booking covering colour palettes, styling tips, and what to avoid." },
+    ],
+    relatedSlugs: ["personal-branding-photographer-dubai-2026", "headshot-photographer-dubai-2026", "family-photographer-dubai-2026"],
+    content: `
+<h2>What a Portrait Photographer in Dubai Actually Does</h2>
+<p>Portrait photography in Dubai spans a wide range — from the corporate LinkedIn headshot taken in a studio in 20 minutes to the editorial lifestyle shoot that spans three Dubai locations across a full morning. What they share is a purpose: capturing a person in a way that communicates something true and compelling about who they are.</p>
+<p>Dubai's visual environment is exceptional for portrait work. The architecture provides natural framing and context that most cities cannot match. The light — particularly the warm, directional golden-hour light in the hour after sunrise and before sunset — is genuinely world-class. And the city's diversity means portrait photography here must speak to a broad range of cultural contexts and aesthetics.</p>
+<p>We have photographed portraits across every context Dubai offers: founders and executives for professional use, couples for lifestyle and editorial purposes, creatives building visual identities for social platforms, athletes documenting peak condition, and individuals marking personal milestones. Each has a different brief, a different purpose, and a different visual language — but the fundamentals are the same: find the right light, find the right location, establish trust with the subject, and capture something genuine.</p>
+
+<h2>Types of Portrait Photography Sessions in Dubai</h2>
+
+<h3>Studio Portrait Sessions</h3>
+<p>A studio portrait session in Dubai offers controlled, consistent conditions regardless of the season or time of day. Our Al Quoz studio is equipped with professional strobe and continuous lighting setups, seamless paper backgrounds in a range of colours, and a climate-controlled environment that makes shooting comfortable even in Dubai's summer months. Studio portraits produce clean, versatile images that are appropriate for professional applications — LinkedIn profiles, company websites, speaker profiles, media kits, and press photography. Sessions typically run 45–60 minutes and produce 20–30 edited images.</p>
+
+<h3>Outdoor Lifestyle Portrait Sessions</h3>
+<p>Outdoor portrait sessions in Dubai leverage the city's exceptional locations and natural light. Al Fahidi Historical District — Dubai's oldest neighbourhood, with warm sandstone walls, quiet alleyways, and authentic old-city atmosphere — is one of the most photographically interesting urban environments in the Gulf. DIFC provides a glass-and-steel modernist backdrop for cleaner, more contemporary portraits. Creek Harbour provides water reflections and the contrast of traditional dhows against new development. The desert edge around Al Qudra provides open-sky minimalism and directional golden-hour light. Location selection depends on the purpose and aesthetic of the portraits — we discuss this during the booking process and recommend based on your specific brief.</p>
+
+<h3>Personal Branding Portrait Sessions</h3>
+<p>Personal branding portraits serve a specific commercial purpose: communicating who you are as a professional, thought leader, or creator to an audience that has not met you. These sessions are more strategic than a standard portrait session — they consider the visual narrative across multiple images, the variety of contexts and looks, and the specific platforms the images will appear on. A complete personal branding portrait session produces images for your LinkedIn profile, your website's About page, your speaking profile, your Instagram grid, and your press kit — designed to feel cohesive as a visual identity rather than just a collection of photographs. See our dedicated <a href="/blog/personal-branding-photographer-dubai-2026">personal branding photography</a> guide for full details.</p>
+
+<h3>Artistic and Fine-Art Portraits</h3>
+<p>Beyond professional application, portrait photography in Dubai serves creative and personal purposes — fine-art portraits that exist as art objects, conceptual portrait projects for personal or editorial publication, and creative self-expression sessions that have no commercial brief. Dubai's architecture and environment lend themselves to portrait work with genuine artistic ambition: the geometric shadows of DIFC at midday, the textured surfaces of Bur Dubai's old architecture, the minimal palette of the desert at dawn. We take creative portrait commissions and enjoy working with clients who have a specific visual idea they want to realise.</p>
+
+<h2>Portrait Photography Pricing in Dubai — 2026</h2>
+<p><strong>Studio portrait session (AED 800–1,200):</strong> 45–60 minutes, controlled studio lighting, 20–25 edited images, 48-hour delivery.</p>
+<p><strong>Single-location outdoor portrait session (AED 1,000–1,500):</strong> 60 minutes at one Dubai location, golden-hour timing, 25–35 edited images.</p>
+<p><strong>Extended lifestyle portrait session (AED 1,500–2,500):</strong> 90 minutes to 2 hours, 2–3 locations, multiple looks, 40–60 edited images.</p>
+<p><strong>Personal branding portrait day (AED 3,500–6,000):</strong> Full morning or half-day, 3–4 locations or mixed studio/outdoor, 80–120 edited images across multiple looks.</p>
+<p><strong>Editorial/fine-art portrait commission (AED 4,000–10,000):</strong> Concept development, styling, multiple setups, delivered as a cohesive editorial set.</p>
+
+<h2>What to Expect From Your Portrait Session in Dubai</h2>
+<p>The most important factor in portrait photography quality is not equipment or location — it is how comfortable the subject feels in front of the camera. Very few people are naturally at ease being photographed, and a photographer who cannot establish trust and relaxation in the first ten minutes will produce technically correct but visually inert portraits. Our portrait sessions begin with 10–15 minutes of conversation and low-key movement before we start shooting — building familiarity, establishing the right energy, and ensuring that by the time we are capturing the images that matter, the person in front of the lens is genuinely relaxed.</p>
+<p>Location briefing, timing coordination, and a styling guide are included with every portrait booking. We confirm the location, the timing (particularly important for golden-hour outdoor sessions), the clothing direction, and any specific requirements at least 48 hours before the shoot. For clients who want a more structured creative direction, we offer pre-session mood-boarding and concept development.</p>
+<p>To book a portrait session in Dubai, contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685. We confirm availability and discuss the brief within 2 hours during business days.</p>
+`,
+  },
+
+  // ─── Reels Videographer Dubai 2026 ───────────────────────────────────────
+  {
+    slug: "reels-videographer-dubai-2026",
+    title: "Reels Videographer Dubai 2026 — Instagram, TikTok & Short-Form Content",
+    metaTitle: "Reels Videographer Dubai 2026 | Instagram TikTok Content Creator UAE",
+    metaDescription: "Hire a reels videographer in Dubai from AED 1,500. Instagram Reels, TikTok, YouTube Shorts. Fast turnaround, branded edits, hook-first storytelling for UAE brands.",
+    keywords: ["reels videographer Dubai", "instagram reels videographer Dubai", "TikTok videographer Dubai", "reels content creator Dubai", "short form video Dubai", "hire reels videographer UAE 2026"],
+    category: "Social Media Production",
+    date: "June 17, 2026",
+    dateISO: "2026-06-17",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=1200&q=80",
+    excerpt: "Short-form video is the highest-return content investment most Dubai brands and creators can make in 2026. This guide covers what a reels videographer does, what it costs, and how to brief one properly for maximum impact.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does a reels videographer cost in Dubai?", answer: "A reels videographer in Dubai starts from AED 1,500 for a half-day shoot producing 3–5 edited Reels or TikTok videos with captions, transitions, and music. Full-day reels production runs AED 2,500–4,500 producing 8–15 edited short-form videos across multiple setups and locations. Monthly retainer packages for brands needing consistent weekly content run AED 6,000–12,000 per month, covering weekly shoots and full editing for all platforms. Prices vary based on locations, talent, props, and post-production complexity." },
+      { question: "What's the difference between hiring a reels videographer and a content creator?", answer: "A reels videographer is a production professional who shoots and edits short-form video to a professional standard — they handle camera, lighting, audio, editing, and captions. A content creator typically brings their own audience and creates content as talent. When you hire a reels videographer, you own the content and direct the message. When you partner with a content creator, you are accessing their audience and creative voice. For brand-owned content on your own channels, you need a videographer. For influencer marketing, you need a content creator. We provide both but the briefs and outcomes are different." },
+      { question: "How many Reels can you produce in a shoot day?", answer: "A professional reels production day in Dubai typically produces 8–15 edited Reels depending on complexity. Simple single-setup talking-head or product videos can produce 12–20 finished edits from a full day. Reels requiring multiple locations, outfit changes, or elaborate setups in Dubai (Palm, DIFC, desert) typically produce 6–10 polished edits per day. We plan shoot schedules specifically to maximise the number of usable setups per hour, which is meaningfully different from planning for a long-form video production." },
+      { question: "Can you produce Arabic-language reels for the UAE market?", answer: "Yes. We produce Arabic-language reels specifically for the Gulf market — including Arabic voiceover, Arabic caption overlays, and culturally relevant framing for a UAE and GCC audience. Syed Mazhar Zaidi, our co-founder, brings deep UAE market context to briefs targeting the Arabic-speaking audience. We also produce dual-language reels (English + Arabic) for brands communicating across both segments of Dubai's audience." },
+    ],
+    relatedSlugs: ["social-media-content-creation-dubai-2026", "instagram-reels-strategy-uae-2026", "influencer-content-creator-dubai-2026"],
+    content: `
+<h2>Why Dubai Brands Are Doubling Down on Short-Form Video in 2026</h2>
+<p>Short-form video — Instagram Reels, TikTok, YouTube Shorts — is not a trend that peaked and plateaued. It is the primary content format through which most of Dubai's consumer audience now discovers brands, makes purchase decisions, and evaluates service providers. The algorithm rewards regular, high-quality short-form output in a way that static posts simply cannot match. And Dubai, with its photogenic architecture, diverse population, and high smartphone penetration, is one of the best cities on earth to produce compelling short-form video content.</p>
+<p>The problem most brands face is not understanding this. It is execution. Shooting quality short-form video that performs — that stops the scroll, delivers the message, and drives a follow or a click — requires a different skill set from long-form corporate video production. The hooks are different. The editing rhythm is different. The way you write captions, use music, and structure a 15-second idea is a specific craft. A reels videographer who understands this is a different hire from a general videographer who can also shoot vertically.</p>
+
+<h2>What a Reels Videographer in Dubai Does</h2>
+
+<h3>Short-Form Video Production End-to-End</h3>
+<p>A reels videographer handles the complete production pipeline for short-form content: pre-production planning (hook writing, setup planning, location scouting), shooting (camera, lighting, audio — handheld and stabilised), and post-production (vertical editing, transitions, text overlays, caption writing, music licensing and syncing). The deliverable is finished, platform-ready short-form video, not raw footage. You receive files exported to the exact spec for Instagram Reels (1080x1920), TikTok, and YouTube Shorts — ready to schedule and post.</p>
+
+<h3>Hook-First Structure</h3>
+<p>The single most important difference between short-form video that performs and short-form video that doesn't is the first 2–3 seconds. Dubai's audience swipes quickly. If the opening of your Reel doesn't immediately create curiosity, surprise, or relevance, it will be swiped past before the message lands. We structure every short-form video we produce around the hook first — the visual or spoken first line that stops the scroll — and build the rest of the content from that anchor. This is a production discipline that comes from understanding the platform, not just the camera.</p>
+
+<h3>Location-First Dubai Content</h3>
+<p>Some of the highest-performing Reels and TikToks produced for Dubai brands use the city itself as a character — Dubai Frame, the Burj Khalifa, the creek at sunrise, the desert at magic hour. We understand which Dubai locations are visually distinct on camera, how to navigate location permissions, and how to use Dubai's environment to make content that signals premium positioning while remaining authentic and unforced. Location-based reels for Dubai brands typically outperform studio-only content because they carry the aspirational energy of the city itself.</p>
+
+<h2>Reels Production for Different Client Types</h2>
+
+<h3>Restaurants and Food Businesses</h3>
+<p>Dubai's F&B sector is highly competitive on social platforms. Restaurant Reels that perform well typically combine three elements: visually striking food footage (steam, pour shots, cross-sections, chef in motion), a clear hook in the caption or on-screen text, and authentic location energy. A shoot day for a restaurant client typically covers 8–12 Reels across 3–4 different menu items or concepts, with each edit optimised for a different content angle — new dish launch, behind-the-kitchen, customer testimonial, aesthetic loop. We have produced reels content for restaurants across Dubai Marina, JBR, Downtown, and Al Quoz.</p>
+
+<h3>Brands and Product Businesses</h3>
+<p>Product Reels for Dubai brands work best when they combine demonstration (showing the product in actual use) with lifestyle context (placing it in a Dubai setting that signals the brand's target market). A skincare brand's Reel performs better when it shows morning-routine context in a light-filled Dubai apartment than when it shows product against a white backdrop. We plan product reels shoots to produce both the clinical demonstration versions and the lifestyle context versions from the same session.</p>
+
+<h3>Professional Creators and Personal Brands</h3>
+<p>Founders, coaches, consultants, and professionals building personal brands on LinkedIn, Instagram, and TikTok in Dubai need a consistent output of short-form video that communicates their expertise and personality. A monthly retainer with a reels videographer covers a regular half-day or full-day shoot producing enough content for 2–3 posts per week across platforms. We work with a number of Dubai-based professionals on exactly this basis — planning content themes, shooting efficiently across multiple setups, and delivering a month's worth of edited content in a single production session.</p>
+
+<h2>Reels Videographer Pricing in Dubai — 2026</h2>
+<p><strong>Half-day reels shoot (AED 1,500–2,200):</strong> 3–4 hours, 3–5 edited Reels, captions, music, delivered in 48 hours.</p>
+<p><strong>Full-day reels production (AED 2,500–4,500):</strong> 6–8 hours, multiple setups, 8–15 edited Reels, platform-optimised exports.</p>
+<p><strong>Monthly content retainer (AED 6,000–12,000/month):</strong> Weekly or biweekly shoot days, 30–50 edited Reels per month, content calendar planning.</p>
+<p><strong>Campaign short-form set (AED 3,500–7,000):</strong> One concept, 3–5 variations, A/B test edits, hook testing formats.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to discuss a reels production brief. We typically respond within 2 hours and can turn around shoot-ready concepts within 24 hours of brief receipt.</p>
+`,
+  },
+
+  // ─── Personal Branding Photographer Dubai 2026 ───────────────────────────
+  {
+    slug: "personal-branding-photographer-dubai-2026",
+    title: "Personal Branding Photographer Dubai 2026 — Founders, Coaches & Professionals",
+    metaTitle: "Personal Branding Photographer Dubai 2026 | LinkedIn & Brand Photos UAE",
+    metaDescription: "Personal branding photographer in Dubai from AED 2,000. Founders, coaches, speakers & executives. LinkedIn, website & media kit photos across Dubai's best locations.",
+    keywords: ["personal branding photographer Dubai", "personal branding photography Dubai", "founder photographer Dubai", "professional branding photos Dubai", "LinkedIn photographer Dubai", "personal brand photography UAE 2026"],
+    category: "Photography Guide",
+    date: "June 17, 2026",
+    dateISO: "2026-06-17",
+    readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80",
+    excerpt: "In Dubai's professional landscape, your visual identity is often the first impression you make. A personal branding session produces the images that represent you across LinkedIn, your website, speaking profiles, and media kits — designed to work together as a coherent professional identity.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "What is personal branding photography and who needs it?", answer: "Personal branding photography produces a library of professional images that represent your public identity across all your platforms — LinkedIn, your website, speaking profiles, podcast covers, press features, and social media. Unlike a one-off headshot, a personal branding session produces variety: different looks, contexts, and expressions that give you visual assets for every content need over 6–12 months. It's most valuable for founders, consultants, coaches, speakers, executives, and professionals who use their personal profile as a business development tool. In Dubai's relationship-driven business culture, how you present yourself professionally is directly connected to your commercial results." },
+      { question: "How much does personal branding photography cost in Dubai?", answer: "Personal branding photography in Dubai starts from AED 2,000 for a focused 90-minute session at 2 locations producing 50–60 edited images across 2 looks. Comprehensive personal branding days covering 3–4 locations, multiple looks, and a full content library run AED 4,000–7,000, producing 100–150 edited images. Premium editorial personal branding packages including pre-session strategy consultation, professional styling, and full art direction run AED 8,000–15,000. All packages include online gallery delivery and licensing for all commercial and personal use." },
+      { question: "How should I prepare for a personal branding photo session in Dubai?", answer: "Preparation makes a significant difference in personal branding session output. Before the session: define the 3–5 words you want people to feel when they see your images (confident, approachable, creative, authoritative), prepare 2–3 outfit changes in colours that photograph well in Dubai's environments (deep navy, charcoal, cream, warm white, terracotta), think about the key platforms these images will appear on and what those audiences expect to see, and bring any props that are relevant to your work (laptop, notebook, product, tool of your trade). We send a full preparation guide with every booking." },
+      { question: "Which Dubai locations work best for personal branding photography?", answer: "The best personal branding locations in Dubai depend on the professional's brand personality. DIFC suits finance, law, tech, and corporate professionals — the glass-and-steel environment signals established credibility. Al Fahidi and the Creek signals a more creative, culturally connected profile. Dubai Design District (d3) works for creative professionals, designers, and brand consultants. Coffee shop environments in Jumeirah or DIFC work for coaches and consultants building a more accessible, warm brand. For a varied personal branding shoot we typically plan 2–3 locations to produce images that serve different contexts — the formal professional, the approachable human, and the working expert." },
+    ],
+    relatedSlugs: ["linkedin-headshots-dubai-2026", "headshot-photographer-dubai-2026", "portrait-photographer-dubai-2026"],
+    content: `
+<h2>Why Personal Branding Photography Is Different From a Headshot</h2>
+<p>A headshot is one image: a clear, professional photograph of your face for your LinkedIn profile, business card, or company website. It serves a specific, defined purpose and can be shot in 20–30 minutes. A personal branding session is a strategic production. Its goal is to create a visual library that represents you across every surface of your professional presence — and to make those images feel cohesive, purposeful, and unmistakably you.</p>
+<p>The difference matters because the way professionals use imagery in 2026 has expanded dramatically. A LinkedIn profile, a personal website with an About page, a podcast cover, a speaker booking page, an Instagram grid, press features, a media kit, a newsletter header — each of these surfaces needs images that feel intentional and connected. Relying on the same cropped conference photo across all of them signals that you have not invested in your visual identity. A personal branding shoot solves this entirely: one well-planned session produces enough variety that every surface has the right image.</p>
+
+<h2>Who Needs Personal Branding Photography in Dubai</h2>
+
+<h3>Founders and Entrepreneurs</h3>
+<p>In Dubai's startup and entrepreneurial community, the founder is often the brand — particularly at early stages. Investors, potential clients, and media judge the company in part through the founder's visual credibility and presence. A founder who leads with a blurry conference selfie on their LinkedIn signals something different from one who presents with intentional, high-quality photography that communicates confidence, professionalism, and personality. We work with founders at all stages — pre-funding, post-Series A, and established — on personal branding shoots that match where they are and where they are going.</p>
+
+<h3>Consultants, Coaches, and Speakers</h3>
+<p>Service-based professionals who sell expertise and personal relationship are among the highest-return clients for personal branding photography. A business coach whose website and LinkedIn feature warm, approachable images that communicate genuine competence converts prospects at a meaningfully higher rate than one whose profile has no clear visual identity. The same applies to public speakers, whose booking rate from speaking bureaus is partly determined by the quality of their promotional photography. We have worked with Dubai-based coaches, speakers, and consultants across a wide range of disciplines — finance, HR, wellness, technology, leadership, and marketing.</p>
+
+<h3>Executives and Corporate Professionals</h3>
+<p>Senior executives in Dubai increasingly maintain active personal LinkedIn profiles separate from their company's brand presence. An executive who publishes thought leadership, speaks at industry events, or maintains a visible professional profile needs personal branding images that are more than a company headshot. They need images that convey the person behind the role — approachable but authoritative, experienced but engaged. These images serve the LinkedIn profile, speaking engagements, media interviews, and the board presentations where first impressions are formed before the first word is spoken.</p>
+
+<h3>Creative Professionals and Agency Founders</h3>
+<p>For creative directors, designers, architects, photographers, and agency founders, the personal branding shoot is also a demonstration of taste. The images signal creative sensibility — the choices made in location, light, colour, and composition communicate something about how you approach your own work. We take this brief particularly seriously for creative professionals, because for them the photography is itself a portfolio piece.</p>
+
+<h2>What a Personal Branding Shoot Produces</h2>
+<p>A comprehensive personal branding session at Backyard Studio Official produces the following image types:</p>
+<p><strong>Primary professional portrait:</strong> Your definitive LinkedIn and website profile image. Clean, confident, competent.</p>
+<p><strong>Secondary portrait variations:</strong> Different expressions and framings from the same setup — smiling, thinking, direct eye contact — giving you options for different contexts.</p>
+<p><strong>Lifestyle working images:</strong> You in action — at a laptop, in a meeting, with a notebook, working in your element. These images populate blog posts, newsletter headers, and About pages.</p>
+<p><strong>Environmental context images:</strong> You in your professional environment or at locations that reinforce your brand — the DIFC exterior for a finance professional, the creative studio for a designer, the café for a coach building an accessible brand.</p>
+<p><strong>Social content variety:</strong> Horizontal and vertical crops from across the session, optimised for LinkedIn posts, Instagram, and short-form content use.</p>
+
+<h2>Personal Branding Photography Pricing in Dubai — 2026</h2>
+<p><strong>Essential personal branding session (AED 2,000–3,000):</strong> 90 minutes, 2 locations, 2 looks, 50–70 edited images, 72-hour delivery.</p>
+<p><strong>Comprehensive personal branding day (AED 4,000–6,000):</strong> Half-day, 3–4 locations, 3–4 looks, 100–140 edited images, priority 48-hour delivery.</p>
+<p><strong>Premium personal branding production (AED 8,000–14,000):</strong> Full creative direction, pre-session strategy consultation, professional styling, 4–5 locations, 150+ edited images, brand colour grading, platform-optimised exports.</p>
+<p>To discuss a personal branding photography brief, email info@backyardstudioofficial.com or WhatsApp +971 58 588 2685. We respond within 2 hours during business hours and can schedule shoots within 3–5 days.</p>
+`,
+  },
+
+  // ─── Amazon Product Photography Dubai 2026 ───────────────────────────────
+  {
+    slug: "amazon-product-photography-dubai-2026",
+    title: "Amazon Product Photography Dubai 2026 — Listings, A+ Content & Noon",
+    metaTitle: "Amazon Product Photography Dubai 2026 | Noon Listings UAE | Backyard Studio",
+    metaDescription: "Amazon & Noon product photography in Dubai from AED 75/image. White background, lifestyle, A+ Content & 360° spin. Spec-compliant delivery for UAE sellers.",
+    keywords: ["amazon product photography Dubai", "amazon photographer Dubai", "product photography amazon UAE", "noon product photography Dubai", "ecommerce product photographer Dubai", "amazon listing photography UAE 2026"],
+    category: "Ecommerce Photography",
+    date: "June 17, 2026",
+    dateISO: "2026-06-17",
+    readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&q=80",
+    excerpt: "Amazon UAE and Noon sellers live and die by their product images. This guide covers exactly what compliant listing photography looks like, what it costs from a Dubai studio, and how the right images affect your conversion rate and ranking.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does Amazon product photography cost in Dubai?", answer: "Amazon product photography in Dubai starts from AED 75–120 per image for standard white-background listing shots (main image compliant, professional retouching, delivered within 48 hours). Lifestyle product images with props, environment, and styled context run AED 150–300 per image. A complete Amazon listing package covering 7 images (main white background + 6 lifestyle/infographic images) typically runs AED 800–1,800 per product depending on complexity. Bulk discounts apply for sellers with 5+ products: contact us for a custom rate card." },
+      { question: "What does Amazon require for product listing images in the UAE?", answer: "Amazon UAE has specific technical requirements for product listing images. The main image must show the product on a pure white background (RGB 255,255,255), with the product filling at least 85% of the frame, a minimum of 1,000 pixels on the longest side for zoom functionality, and no text, logos, borders, or watermarks. Secondary images (positions 2–9) have more flexibility: lifestyle photography, infographics, size charts, detail shots, and use-case demonstrations are all acceptable. We are fully briefed on Amazon UAE image specifications and deliver files that pass the upload check without revisions." },
+      { question: "What product images perform best on Amazon UAE and Noon?", answer: "The main white-background image is the most important — it determines your click-through rate from search results, so clarity, cleanliness, and appropriate product scale are critical. Secondary images that most consistently improve conversion on Amazon UAE and Noon are: lifestyle in-use images (showing the product being used in a realistic UAE context), comparison infographics (showing product dimensions or feature comparison), close-up detail shots (highlighting quality or unique features), and trust-building images (showing the packaging, contents, or size reference). We plan full listing packages around these proven formats." },
+      { question: "Can you produce A+ Content images for Amazon UAE?", answer: "Yes. Amazon A+ Content requires larger format image modules designed for the enhanced listing page — comparison charts, lifestyle banners, brand story sections, and product detail modules. We produce complete A+ Content image sets to Amazon's module specifications (standard and premium modules), working from your brand guidelines to produce a cohesive listing page that reinforces brand identity while optimising for conversion. A+ Content production is priced per module set from AED 2,500 for a standard 5-module page." },
+    ],
+    relatedSlugs: ["ecommerce-product-photography-dubai-2026", "product-photography-dubai-2026", "food-photography-dubai-2026"],
+    content: `
+<h2>Why Amazon and Noon Product Photography Is a Specialist Job</h2>
+<p>General product photography and Amazon listing photography overlap but are not the same thing. General product photography produces beautiful images for a brand's website, catalogue, or advertising. Amazon listing photography produces images that comply with Amazon's strict technical requirements, optimise for the specific visual hierarchy of a product detail page, and perform in the competitive context of search results where buyers are comparing multiple listings at once.</p>
+<p>The distinction matters commercially. An Amazon listing's main image is its most important asset — it determines click-through rate from search results, which directly affects ranking (more clicks = more sales = higher BSR = more organic visibility). A product photographed beautifully for a brand website might not fill the right proportion of the frame for Amazon's zoom threshold, might have a background that isn't pure white, or might be styled in a way that doesn't communicate key product attributes immediately enough for a buyer scanning a search results page.</p>
+<p>We produce Amazon UAE and Noon product photography to platform specifications — understanding the technical requirements, the visual context of how the images appear on the listing page, and the conversion patterns that research consistently supports.</p>
+
+<h2>Amazon UAE Image Requirements — What Your Photographer Must Know</h2>
+
+<h3>Main Image Technical Specifications</h3>
+<p>Amazon's main image has non-negotiable technical requirements. The background must be pure white: RGB 255,255,255 exactly, not off-white or cream. The product must fill at least 85% of the image frame. The minimum image size is 500px on the longest side, but 1,600px or larger is required for zoom functionality — and zoom is strongly correlated with conversion rate, so this is a practical requirement. No text, logos, graphics, borders, or watermarks are permitted on the main image. The image must show the product and only the product. Any seller who submits a main image that fails these criteria will have their listing suppressed or their image rejected.</p>
+<p>We shoot Amazon main images against a physical white sweep background under calibrated strobe lighting, with retouching to ensure the background is spectrally pure white — not just photographically bright. Products are cleaned, steamed or prepped as appropriate, and positioned to show the most commercially meaningful angle. Files are delivered in JPEG and PNG at 2,400px minimum, sized and retouched to Amazon specification.</p>
+
+<h3>Secondary Images — What Actually Drives Conversion</h3>
+<p>Your secondary images (positions 2–9 on a listing) are where brand differentiation and conversion optimisation happen. Amazon UAE allows lifestyle images, infographics, video (where enabled), size charts, comparison images, and package content images in secondary positions. The most consistently high-performing secondary images for UAE market sellers are:</p>
+<p><strong>Lifestyle in-use images:</strong> Product shown being used by a person in a realistic UAE or Gulf-appropriate context. A kitchen gadget in a modern UAE apartment. A skincare product on a dressing table. A sports accessory in use at the gym or outdoor track. These images allow the buyer to see themselves using the product and dramatically increase perceived relevance.</p>
+<p><strong>Infographic overlays:</strong> Product image with text callouts highlighting key features, dimensions, or benefits. Dubai buyers, particularly in categories like electronics, supplements, and home goods, respond well to clear, scannable feature communication. We produce infographic images from the shoot files using your brand typography and colours.</p>
+<p><strong>Comparison and scale images:</strong> Showing product size against a known reference, or showing product variants side-by-side. Eliminates a major source of buyer uncertainty and reduces returns.</p>
+
+<h2>Noon Product Photography — UAE-Specific Considerations</h2>
+<p>Noon, the UAE-headquartered e-commerce platform, has similar but not identical image requirements to Amazon. Noon's main image specifications are slightly more flexible on background (light grey is technically permitted) but the practical standard for conversion is still pure white. Noon's listing pages display images at different proportions than Amazon — understanding this display context affects how we frame products to maximise visual impact at the specific size and format Noon uses.</p>
+<p>We produce Noon-optimised product images as either a separate shoot or as a simultaneous deliverable alongside Amazon images — shooting at the appropriate spec for both platforms from the same setup where product angle requirements permit, keeping production costs efficient for sellers listing on multiple UAE platforms.</p>
+
+<h2>Amazon Product Photography Pricing — Dubai 2026</h2>
+<p><strong>White background main image (AED 75–120/image):</strong> Amazon-spec pure white, min 2,400px, professional retouching, delivered in 48 hours.</p>
+<p><strong>Lifestyle product image (AED 150–250/image):</strong> Props, styled context, model (if required quoted separately), AED 150 for simple prop styling, AED 220–250 for complex environmental setup.</p>
+<p><strong>Infographic overlay image (AED 100–180/image):</strong> Shoot file + graphic design, text callouts, your brand colours.</p>
+<p><strong>Complete 7-image listing package (AED 800–1,600/product):</strong> 1 main white + 6 secondary (mix of lifestyle, infographic, detail, scale). Most popular package for UAE Amazon sellers.</p>
+<p><strong>A+ Content image set (AED 2,500–4,500):</strong> Full 5-module standard A+ Content page, to Amazon specification.</p>
+<p><strong>Bulk rate (5+ products):</strong> Contact us for a custom rate card — bulk shoots are significantly more cost-efficient per product.</p>
+<p>Email info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to discuss your Amazon or Noon photography brief. We can typically schedule product shoots within 3–5 business days.</p>
+`,
+  },
+
+  // ─── Headshot Photographer Dubai 2026 ────────────────────────────────────
+  {
+    slug: "headshot-photographer-dubai-2026",
+    title: "Headshot Photographer Dubai 2026 — Professional Headshots UAE",
+    metaTitle: "Headshot Photographer Dubai 2026 | Professional Headshots UAE | Backyard Studio",
+    metaDescription: "Professional headshot photographer in Dubai from AED 400. LinkedIn, corporate, executive & actor headshots. Studio & on-location across UAE. 24-hour delivery.",
+    keywords: ["headshot photographer Dubai", "headshot photography Dubai", "professional headshots Dubai", "LinkedIn headshot Dubai", "corporate headshot Dubai", "headshot photographer UAE 2026"],
+    category: "Photography Guide",
+    date: "June 17, 2026",
+    dateISO: "2026-06-17",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=1200&q=80",
+    excerpt: "A professional headshot is the most viewed photograph most professionals will ever have taken. This guide covers what makes a headshot work, what one costs in Dubai, and how to brief a headshot session for the best possible output.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does a headshot photographer cost in Dubai?", answer: "Headshot photography in Dubai starts from AED 400 for a 20–30 minute individual session in a studio or at a single location, producing 5–8 retouched images delivered within 24 hours. Standard professional headshot packages run AED 600–900 for a 45-minute session with 2 background or location options and 10–15 retouched images. Corporate headshot packages for teams (5+ people) start from AED 250 per person with volume pricing. LinkedIn headshot packages specifically optimised for profile use start from AED 500 including profile crop and sizing." },
+      { question: "What's the difference between a headshot and a portrait?", answer: "A headshot is tightly framed — typically head-and-shoulders or head-to-chest — with the focus entirely on the face and immediate expression. It is a professional identification image: your LinkedIn profile, company website team page, press release photo, or speaking booking profile. A portrait is a broader composition that may include more of the body, the environment, and deliberate compositional choices that communicate lifestyle or identity. Headshots are faster, more standardised, and typically less expensive than full portrait sessions. For professional identification purposes, a headshot is what you need. For building a comprehensive personal brand visual library, you need both." },
+      { question: "How should I prepare for a professional headshot session in Dubai?", answer: "Wear solid colours — navy, charcoal, dark grey, and white photograph particularly well for professional headshots. Avoid busy patterns, loud graphics, and very light grey (which can merge with white backgrounds). For women, slightly more makeup than everyday (studio lighting washes out colour slightly) is recommended. For men, ensure the shirt collar sits well and is pressed. Bring a second top as a backup. Arrive 5 minutes early to settle, and avoid scheduling a headshot immediately after a stressful meeting or commute — relaxed shoulders and genuine expression make the most significant difference in headshot quality." },
+      { question: "Can you do corporate headshots for a whole company team in Dubai?", answer: "Yes. We regularly provide corporate headshot services for Dubai companies ranging from 5 to 200+ employees. For team headshot sessions we bring a portable studio setup to your office — soft-box lighting, backdrop stand, and a consistent setup that produces uniform results across the whole team. This eliminates travel time for staff and allows us to run efficiently through 8–12 people per hour. We can also produce consistent headshots for teams spread across multiple Dubai office locations by maintaining the same equipment setup and lighting parameters across sessions. Contact us for corporate team headshot rates." },
+    ],
+    relatedSlugs: ["linkedin-headshots-dubai-2026", "business-headshots-dubai-2026", "personal-branding-photographer-dubai-2026"],
+    content: `
+<h2>Why Your Headshot Is the Most Important Photo You Have</h2>
+<p>Your LinkedIn profile photo is seen by more people than any other photograph you will ever take. Every connection request, every message, every job application, every business development email — each one is accompanied by your profile image. Before a single word of your profile is read, your headshot has already made an impression. This is not a trivial detail. Research consistently shows that LinkedIn profiles with a professional headshot receive dramatically more engagement than those without one, and that the quality of the headshot affects how credibility, competence, and approachability are perceived.</p>
+<p>In Dubai's professional environment — where business relationships form quickly and credibility is established visually before it is established in person — a poor quality headshot is a commercial liability. It is also, relative to its impact, one of the cheapest professional investments you can make. A professional headshot session in Dubai starts from AED 400 and lasts for years.</p>
+
+<h2>Types of Headshot Sessions in Dubai</h2>
+
+<h3>LinkedIn and Professional Profile Headshots</h3>
+<p>The most requested headshot format in Dubai — a clean, professional photograph for your LinkedIn profile, company website bio, or professional directory listing. These sessions are efficient: 20–30 minutes, studio or clean outdoor background, 2–3 background options, and 8–12 retouched images delivered within 24 hours. The goal is a photograph that communicates confidence, competence, and approachability — and that works as a small circular thumbnail on mobile as well as it does at full size on a desktop. We produce LinkedIn-optimised headshots for individuals across all sectors of Dubai's professional community.</p>
+
+<h3>Corporate and Executive Headshots</h3>
+<p>Executive headshots carry additional weight — they appear on board profiles, investor materials, press coverage, and high-stakes communications where visual presentation directly affects how the executive and the company are perceived. Executive headshot sessions allow more time and care: multiple setups, environmental options that provide context (in the office, at a relevant location), and a more considered approach to lighting and expression. The output is a headshot that is unmistakably professional but avoids the generic corporate-portrait look that communicates nothing distinctive about the person in the frame. See our dedicated <a href="/blog/executive-portraits-dubai-2026">executive portrait guide</a> for full details on senior leadership photography.</p>
+
+<h3>Corporate Team Headshots</h3>
+<p>Consistent, professional headshots for an entire company team serve multiple purposes: a company website that presents a unified visual identity, LinkedIn profiles that reflect well on the brand when staff list their employer, and internal communications that humanise the organisation. We provide corporate team headshot services using a portable studio setup brought to your Dubai office, maintaining consistent lighting, background, and image quality across every team member. For companies with 10+ people, on-site setup eliminates the coordination overhead of sending staff to a photography studio and allows sessions to be scheduled in coordination with normal working hours. Corporate team headshot packages are priced per person with volume discounts from 5+ people.</p>
+
+<h3>Actor and Creative Headshots</h3>
+<p>Actor headshots in Dubai serve a specific commercial purpose: casting submissions to Dubai's active film, advertising, and television production sector. Actor headshots follow different conventions from corporate photography — more variety of expression, character range, and deliberate styling choices that communicate casting range. Dubai's growing content and commercial production sector means actor headshots are in consistent demand from the large expatriate creative community based here. We produce actor headshots that are appropriate for submission to Dubai-based casting directors and production companies.</p>
+
+<h2>What Makes a Great Headshot</h2>
+<p>The technical elements of a headshot — clean background, professional lighting, correct exposure — are table stakes. The genuinely differentiating factor is expression. A headshot with technically perfect lighting and a closed-off, tense expression will underperform a headshot with natural studio lighting and a genuine, relaxed, confident expression every time. The best headshot photographers understand this and spend the first part of every session establishing comfort and genuine relaxedness before producing any images that matter.</p>
+<p>We begin every headshot session with a few minutes of conversation and breathing — not in a theatrical way, but practically, to help the person in front of the camera settle into a natural state. The technical quality of the images is a given. The expression is what the session is really about.</p>
+
+<h2>Headshot Pricing in Dubai — 2026</h2>
+<p><strong>Quick headshot session (AED 400–600):</strong> 20–30 minutes, 1–2 backgrounds, 5–8 retouched images, 24-hour delivery. Ideal for a LinkedIn profile update.</p>
+<p><strong>Standard headshot package (AED 700–1,000):</strong> 45 minutes, 2–3 backgrounds or indoor/outdoor option, 12–18 retouched images, same-day preview.</p>
+<p><strong>Executive headshot session (AED 1,200–2,000):</strong> 60–90 minutes, multiple setups including environmental options, 20–30 retouched images, priority 24-hour delivery.</p>
+<p><strong>Corporate team headshots — on-site (AED 250–400 per person):</strong> Portable studio to your Dubai office, consistent setup, 5–10 retouched images per person, volume discounts for 10+ people.</p>
+<p><strong>Actor headshots (AED 800–1,400):</strong> 60 minutes, multiple looks and expressions, 15–25 retouched images, casting-appropriate formatting.</p>
+<p>Book a headshot session by emailing info@backyardstudioofficial.com or WhatsApp +971 58 588 2685. We confirm availability within 2 hours and can typically schedule sessions within 2–3 days.</p>
+`,
+  },
+
 ];
 export function getBlogPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);

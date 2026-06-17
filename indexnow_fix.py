@@ -66,10 +66,10 @@ URLS = [
     f"https://{HOST}/ru/blog",
     f"https://{HOST}/ru/testimonials",
     f"https://{HOST}/ru/locations",
-    # EN Blog posts
+    # EN Blog posts — Batch 1
     f"https://{HOST}/blog/best-production-companies-dubai-2026",
     f"https://{HOST}/blog/how-much-does-video-production-cost-dubai-2026",
-    f"https://{HOST}/blog/wedding-photography-dubai-2026",
+    f"https://{HOST}/blog/wedding-photographer-cost-dubai-2026",
     f"https://{HOST}/blog/drone-photography-dubai-2026",
     f"https://{HOST}/blog/real-estate-videography-dubai-2026",
     f"https://{HOST}/blog/brand-film-production-dubai-2026",
@@ -80,17 +80,12 @@ URLS = [
     f"https://{HOST}/blog/product-photography-dubai-2026",
     f"https://{HOST}/blog/youtube-video-production-dubai-2026",
     f"https://{HOST}/blog/fashion-photography-dubai-2026",
-    # Tier 2 EN blogs
-    f"https://{HOST}/blog/indian-wedding-photographer-dubai-2026",
-    f"https://{HOST}/blog/arabic-wedding-videographer-dubai-2026",
-    f"https://{HOST}/blog/destination-wedding-photographer-dubai-2026",
+    # EN Blog posts — Batch 2
     f"https://{HOST}/blog/event-photography-dubai-2026",
     f"https://{HOST}/blog/food-photography-dubai-2026",
     f"https://{HOST}/blog/real-estate-photography-dubai-2026",
-    f"https://{HOST}/blog/social-media-video-production-dubai-2026",
     f"https://{HOST}/blog/corporate-video-production-dubai-2026",
     f"https://{HOST}/blog/music-video-production-dubai-2026",
-    # Tier 3 EN blogs
     f"https://{HOST}/blog/company-profile-video-dubai-2026",
     f"https://{HOST}/blog/testimonial-video-dubai-2026",
     f"https://{HOST}/blog/influencer-content-creator-dubai-2026",
@@ -102,7 +97,7 @@ URLS = [
     f"https://{HOST}/blog/filipino-wedding-photographer-dubai-2026",
     f"https://{HOST}/blog/sports-photography-dubai-2026",
     f"https://{HOST}/blog/green-screen-studio-dubai-2026",
-    # Sub-industry pages (all 23 sub-slugs — 2026-06-16/17)
+    # Sub-industry pages (all 23 sub-slugs)
     f"https://{HOST}/industries/automotive/dealership",
     f"https://{HOST}/industries/hospitality/resorts",
     f"https://{HOST}/industries/real-estate/luxury-villa",
@@ -126,7 +121,7 @@ URLS = [
     f"https://{HOST}/industries/healthcare/dental",
     f"https://{HOST}/industries/corporate/company-profile",
     f"https://{HOST}/industries/hospitality/hotels",
-    # Batch 4 EN blogs (2026-06-17)
+    # EN Blog posts — Batch 3 (photography guides)
     f"https://{HOST}/blog/ecommerce-product-photography-dubai-2026",
     f"https://{HOST}/blog/aerial-videography-dubai-2026",
     f"https://{HOST}/blog/family-photographer-dubai-2026",
@@ -137,7 +132,52 @@ URLS = [
     f"https://{HOST}/blog/brand-photography-dubai-2026",
     f"https://{HOST}/blog/360-video-production-dubai-2026",
     f"https://{HOST}/blog/graduation-photographer-dubai-2026",
-    # RU blogs
+    # RU Blog posts
     f"https://{HOST}/ru/blog/korporativnoe-video-dubai-2026",
     f"https://{HOST}/ru/blog/semka-nedvizhimosti-dubai-2026",
-    f"https://{HOST}/ru/blog/svadebnyi-foto
+    f"https://{HOST}/ru/blog/svadebnyi-fotograf-dubai-2026",
+    f"https://{HOST}/ru/blog/stoimost-videosemki-dubai-2026",
+    f"https://{HOST}/ru/blog/rily-socsietey-dubai-2026",
+    f"https://{HOST}/ru/blog/fotosyomka-feropriiatiy-dubai-2026",
+    f"https://{HOST}/ru/blog/fotografiya-edy-dubai-2026",
+    f"https://{HOST}/ru/blog/semeinaya-fotosessiya-dubai-2026",
+    f"https://{HOST}/ru/blog/fotograf-novorozhdennykh-dubai-2026",
+    # AR Blog posts
+    f"https://{HOST}/ar/blog/video-sharikaat-dubai-2026",
+    f"https://{HOST}/ar/blog/taswiremolak-dubai-2026",
+    f"https://{HOST}/ar/blog/taswirzifaf-dubai-2026",
+    f"https://{HOST}/ar/blog/asear-tasswirvideo-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-zifaf-emirati-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-zifaf-arabi-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-taaam-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-muatamart-dubai-2026",
+    f"https://{HOST}/ar/blog/tasjil-video-faaliyat-dubai-2026",
+    f"https://{HOST}/ar/blog/intaj-klip-musiqi-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-khetuba-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-mawaalid-dubai-2026",
+    # EN Blog posts — Batch 4 (keyword gap fills, 2026-06-17)
+    f"https://{HOST}/blog/portrait-photographer-dubai-2026",
+    f"https://{HOST}/blog/reels-videographer-dubai-2026",
+    f"https://{HOST}/blog/personal-branding-photographer-dubai-2026",
+    f"https://{HOST}/blog/amazon-product-photography-dubai-2026",
+    f"https://{HOST}/blog/headshot-photographer-dubai-2026",
+]
+
+payload = {
+    "host": HOST,
+    "key": API_KEY,
+    "keyLocation": KEY_LOCATION,
+    "urlList": URLS,
+}
+
+req = urllib.request.Request(
+    "https://api.indexnow.org/indexnow",
+    data=json.dumps(payload).encode("utf-8"),
+    headers={"Content-Type": "application/json; charset=utf-8"},
+    method="POST",
+)
+
+with urllib.request.urlopen(req) as resp:
+    print(f"Status: {resp.status}")
+    print(f"URLs submitted: {len(URLS)}")
+    print("Done.")
