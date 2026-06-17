@@ -42,6 +42,8 @@ const POSTS = [
   { title: "Рилсы и контент для соцсетей в Дубае 2026", desc: "Съёмка Reels и TikTok — монтаж, субтитры, форматирование для Instagram, TikTok и YouTube Shorts. Для брендов и блогеров. От AED 1 800.", href: "/ru/blog/rily-socsietey-dubai-2026", date: "Июнь 2026", featured: true },
   { title: "Фотосъёмка мероприятий в Дубае 2026", desc: "Корпоративы, конференции, выставки, запуски продуктов — от AED 2 500. Хайлайт-пакет в тот же день. DWTC, Madinat, Atlantis.", href: "/ru/blog/fotosyomka-feropriiatiy-dubai-2026", date: "Июнь 2026", featured: true },
   { title: "Фудфотография в Дубае 2026 — для ресторанов и брендов", desc: "Съёмка еды — меню, Talabat, Instagram, рекламные кампании. Доставка за 48 часов. От AED 1 500.", href: "/ru/blog/fotografiya-edy-dubai-2026", date: "Июнь 2026", featured: true },
+  { title: "Семейная фотосессия в Дубае 2026 — лучшие локации и цены", desc: "Где снимать семью в Дубае: Creek Harbour, пляж Джумейра, старый Дубай, пустыня Al Qudra. Живые кадры, реальные цены от AED 1 200.", href: "/ru/blog/semeinaya-fotosessiya-dubai-2026", date: "Июнь 2026", featured: true },
+  { title: "Фотограф новорождённых в Дубае 2026 — безопасно и нежно", desc: "Профессиональная съёмка новорождённых в тёплой студии. Первые 14 дней — лучшее время. Бронируйте до родов. От AED 900.", href: "/ru/blog/fotograf-novorozhdennykh-dubai-2026", date: "Июнь 2026", featured: true },
 ];
 
 export default function RuBlogPage() {
@@ -66,16 +68,4 @@ export default function RuBlogPage() {
           {POSTS.map((post) => (
             <a key={post.href} href={post.href} style={{ textDecoration: "none", display: "block", background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "2rem" }}>
               <div style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.4)", fontSize: "0.8rem", marginBottom: "0.5rem" }}>{post.date}</div>
-              <h2 style={{ fontFamily: "Inter, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.75rem" }}>{post.title}</h2>
-              <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.875rem", lineHeight: 1.6 }}>{post.desc}</p>
-              <span style={{ fontFamily: "Inter, sans-serif", color: "var(--gold)", fontSize: "0.875rem", marginTop: "1rem", display: "block" }}>Читать далее →</span>
-            </a>
-          ))}
-        </div>
-        <p style={{ fontFamily: "Inter, sans-serif", textAlign: "center", marginTop: "2rem", color: "rgba(245,240,225,0.4)", fontSize: "0.875rem" }}>
-          Все статьи доступны на английском языке. <a href="/blog" style={{ color: "var(--gold)" }}>Перейти в полный блог →</a>
-        </p>
-      </section>
-    </>
-  );
-}
+              <h2 style={{ fontFamily: "Inter, sans-serif", color: "

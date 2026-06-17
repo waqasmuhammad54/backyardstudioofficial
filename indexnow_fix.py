@@ -102,54 +102,42 @@ URLS = [
     f"https://{HOST}/blog/filipino-wedding-photographer-dubai-2026",
     f"https://{HOST}/blog/sports-photography-dubai-2026",
     f"https://{HOST}/blog/green-screen-studio-dubai-2026",
+    # Sub-industry pages (all 23 sub-slugs — 2026-06-16/17)
+    f"https://{HOST}/industries/automotive/dealership",
+    f"https://{HOST}/industries/hospitality/resorts",
+    f"https://{HOST}/industries/real-estate/luxury-villa",
+    f"https://{HOST}/industries/real-estate/off-plan",
+    f"https://{HOST}/industries/fashion/model-portfolio",
+    f"https://{HOST}/industries/fashion/fashion-reels",
+    f"https://{HOST}/industries/food-beverage/restaurants",
+    f"https://{HOST}/industries/food-beverage/menu-photography",
+    f"https://{HOST}/industries/sports/football",
+    f"https://{HOST}/industries/sports/fitness",
+    f"https://{HOST}/industries/corporate/investor-pitch",
+    f"https://{HOST}/industries/corporate/annual-report",
+    f"https://{HOST}/industries/tech/saas",
+    f"https://{HOST}/industries/sports/padel",
+    f"https://{HOST}/industries/automotive/car-launch",
+    f"https://{HOST}/industries/sports/cycling",
+    f"https://{HOST}/industries/sports/running",
+    f"https://{HOST}/industries/tech/gitex",
+    f"https://{HOST}/industries/tech/startup",
+    f"https://{HOST}/industries/tech/fintech",
+    f"https://{HOST}/industries/healthcare/dental",
+    f"https://{HOST}/industries/corporate/company-profile",
+    f"https://{HOST}/industries/hospitality/hotels",
+    # Batch 4 EN blogs (2026-06-17)
+    f"https://{HOST}/blog/ecommerce-product-photography-dubai-2026",
+    f"https://{HOST}/blog/aerial-videography-dubai-2026",
+    f"https://{HOST}/blog/family-photographer-dubai-2026",
+    f"https://{HOST}/blog/passport-photo-dubai-2026",
+    f"https://{HOST}/blog/corporate-event-videography-dubai-2026",
+    f"https://{HOST}/blog/newborn-photographer-dubai-2026",
+    f"https://{HOST}/blog/maternity-photographer-dubai-2026",
+    f"https://{HOST}/blog/brand-photography-dubai-2026",
+    f"https://{HOST}/blog/360-video-production-dubai-2026",
+    f"https://{HOST}/blog/graduation-photographer-dubai-2026",
     # RU blogs
     f"https://{HOST}/ru/blog/korporativnoe-video-dubai-2026",
     f"https://{HOST}/ru/blog/semka-nedvizhimosti-dubai-2026",
-    f"https://{HOST}/ru/blog/svadebnyi-fotograf-dubai-2026",
-    f"https://{HOST}/ru/blog/stoimost-videosemki-dubai-2026",
-    f"https://{HOST}/ru/blog/rily-socsietey-dubai-2026",
-    f"https://{HOST}/ru/blog/fotosyomka-feropriiatiy-dubai-2026",
-    f"https://{HOST}/ru/blog/fotografiya-edy-dubai-2026",
-    # ZH blogs
-    f"https://{HOST}/zh/blog/hunli-sheying-dubai-2026",
-    f"https://{HOST}/zh/blog/wurenji-hangpai-dubai-2026",
-    f"https://{HOST}/zh/blog/qiye-shipin-dubai-2026",
-    f"https://{HOST}/zh/blog/fangchan-paizhao-dubai-2026",
-    f"https://{HOST}/zh/blog/shejiao-meiti-neirong-dubai-2026",
-    f"https://{HOST}/zh/blog/huodong-paizhao-dubai-2026",
-    f"https://{HOST}/zh/blog/meishi-paizhao-dubai-2026",
-]
-
-def submit_indexnow(urls, batch_size=100):
-    endpoint = "https://api.indexnow.org/indexnow"
-    for i in range(0, len(urls), batch_size):
-        batch = urls[i:i+batch_size]
-        payload = json.dumps({
-            "host": HOST,
-            "key": API_KEY,
-            "keyLocation": KEY_LOCATION,
-            "urlList": batch,
-        }).encode("utf-8")
-        req = urllib.request.Request(
-            endpoint,
-            data=payload,
-            headers={"Content-Type": "application/json; charset=utf-8"},
-            method="POST",
-        )
-        try:
-            with urllib.request.urlopen(req, timeout=15) as resp:
-                print(f"Batch {i//batch_size + 1}: HTTP {resp.status} — {len(batch)} URLs submitted")
-        except urllib.error.HTTPError as e:
-            body = ""
-            try:
-                body = e.read().decode("utf-8", "ignore")[:500]
-            except Exception:
-                pass
-            print(f"Batch {i//batch_size + 1}: HTTP {e.code} — {e.reason} — {body}")
-        except Exception as e:
-            print(f"Batch {i//batch_size + 1}: Error — {e}")
-
-if __name__ == "__main__":
-    print(f"Submitting {len(URLS)} URLs to IndexNow...")
-    submit_indexnow(URLS)
-    print("Done.")
+    f"https://{HOST}/ru/blog/svadebnyi-foto
