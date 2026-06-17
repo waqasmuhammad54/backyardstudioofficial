@@ -167,4 +167,16 @@ export default function ArBlogPage() {
           {BLOG_POSTS_AR.map((post) => (
             <a key={post.href} href={post.href} style={{ textDecoration: "none", display: "block", background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "2rem", transition: "border-color 0.3s" }}>
               <div style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.4)", fontSize: "0.8rem", marginBottom: "0.5rem" }}>{post.date}</div>
-              <h2 style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontW
+              <h2 style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.75rem" }}>{post.title}</h2>
+              <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.875rem", lineHeight: 1.6 }}>{post.desc}</p>
+              <span style={{ fontFamily: "Cairo, sans-serif", color: "var(--gold)", fontSize: "0.875rem", marginTop: "1rem", display: "block" }}>اقرأ المزيد &larr;</span>
+            </a>
+          ))}
+        </div>
+        <p style={{ fontFamily: "Cairo, sans-serif", textAlign: "center", marginTop: "2rem", color: "rgba(245,240,225,0.4)", fontSize: "0.875rem" }}>
+          جميع المقالات متاحة باللغة الإنجليزية. <a href="/blog" style={{ color: "var(--gold)" }}>تصفح المدوّنة الكاملة &rarr;</a>
+        </p>
+      </section>
+    </>
+  );
+}
