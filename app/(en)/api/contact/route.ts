@@ -4,8 +4,6 @@ import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import { supabase } from "@/lib/supabase";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 const NOTIFY_EMAILS = [
   "info@backyardstudioofficial.com",
   "ragnarking786@gmail.com",
@@ -61,6 +59,7 @@ function buildEmailHTML(d: { name:string; email:string; phone:string; service:st
 }
 
 export async function POST(req: NextRequest) {
+  const resend = new Resend(process.env.RESEND_API_KEY);
   try {
     const body = await req.json();
     const { name, email, phone = "", service = "", budget = "", message = "" } = body;
