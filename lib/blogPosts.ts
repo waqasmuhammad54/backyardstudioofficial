@@ -523,7 +523,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { question: "How long should Instagram Reels be for UAE brands?", answer: "In 2026, the best-performing Reels lengths for UAE brand accounts are 15–30 seconds for product and lifestyle content (highest completion rate), 30–60 seconds for educational and storytelling content, and up to 90 seconds for highly engaging series or behind-the-scenes content. Reels over 60 seconds require very strong hooks and high production value to maintain completion rate." },
       { question: "What is the best time to post Instagram Reels in the UAE?", answer: "UAE Instagram posting times that consistently produce highest initial engagement: 7–9am (pre-work scroll), 12–2pm (lunch break), and 8–11pm (evening leisure). Thursday and Friday evenings perform particularly well due to UAE weekend timing. Post at consistent times to train your audience's Instagram habits." },
     ],
-    relatedSlugs: ["tiktok-strategy-uae-brands-2026", "best-social-media-content-creators-dubai-2026", "how-much-does-video-production-cost-dubai-2026"],
+    relatedSlugs: ["reels-videographer-dubai-2026", "tiktok-strategy-uae-brands-2026", "best-social-media-content-creators-dubai-2026"],
     content: `
 <h2>Instagram Reels in 2026 — The Algorithm Has Changed</h2>
 <p>Instagram's algorithm has undergone significant changes since 2024, with the platform prioritising original content, reducing the reach of reshared content, and increasingly using AI to evaluate the quality and relevance of Reels before deciding whether to push them beyond your existing follower base.</p>
@@ -1095,9 +1095,9 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
     relatedSlugs: [
-      "best-production-companies-dubai-2026",
-      "food-photography-guide-dubai-2026",
-      "how-much-does-video-production-cost-dubai-2026",
+      "amazon-product-photography-dubai-2026",
+      "ecommerce-product-photography-dubai-2026",
+      "food-photography-dubai-2026",
     ],
     content: `
 <h2>Why Product Photography Is a Revenue Decision, Not a Marketing Expense</h2>
@@ -1276,9 +1276,9 @@ export const BLOG_POSTS: BlogPost[] = [
       },
     ],
     relatedSlugs: [
+      "men-photographer-dubai-2026",
+      "portrait-photographer-dubai-2026",
       "product-photography-dubai-2026",
-      "filming-locations-dubai-2026",
-      "best-production-companies-dubai-2026",
     ],
     content: `
 <h2>Why Dubai Is One of the Best Fashion Photography Markets in the World</h2>
@@ -1526,7 +1526,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { question: "What social media platforms do Dubai brands focus on in 2026?", answer: "In the UAE, Instagram remains the dominant platform for brand discovery with Reels driving the majority of organic reach. TikTok has grown rapidly especially among the under-35 demographic and now rivals Instagram for consumer brand engagement. YouTube Shorts is increasingly important for searchable evergreen content. LinkedIn is critical for B2B and corporate brand content. Most brands benefit from a cross-platform strategy where the same shoot produces assets optimised for each channel." },
       { question: "Does Backyard Studio handle content strategy or just filming?", answer: "Backyard Studio handles both. Our social media production service includes a content strategy session, platform-specific brief development, the shoot itself, editing to each platform's optimal specs (aspect ratio, duration, caption hooks), and a content calendar for delivery scheduling. We do not just film and hand you raw footage — every deliverable is edit-ready and platform-optimised." },
     ],
-    relatedSlugs: ["best-social-media-content-creators-dubai-2026", "instagram-reels-strategy-uae-2026", "tiktok-strategy-uae-brands-2026"],
+    relatedSlugs: ["reels-videographer-dubai-2026", "instagram-reels-strategy-uae-2026", "best-social-media-content-creators-dubai-2026"],
     content: `
 <h2>What Social Media Content Creation in Dubai Actually Requires</h2>
 <p>Social media content creation in Dubai is not the same as social media content creation anywhere else. The visual standard expected by UAE audiences — shaped by exposure to international luxury brands, a competitive business landscape, and the sheer visual richness of Dubai as a backdrop — is genuinely higher than most markets. Content that performs in other cities often looks underpowered here.</p>
@@ -1576,7 +1576,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { question: "What is included in a corporate headshot session in Dubai?", answer: "A professional headshot session at Backyard Studio includes pre-session styling consultation, full studio lighting setup (or on-location lighting at your office), direction for natural on-camera expression, multiple looks and backgrounds where required, same-day or next-day turnaround on edited selects, and delivery in web and print-ready formats. We also provide LinkedIn-optimised crops as standard." },
       { question: "Can you photograph our whole team at our office in Dubai?", answer: "Yes. Backyard Studio offers on-location corporate photography anywhere in the UAE. We bring full professional lighting, background systems, and camera equipment to your office — no need for your team to travel to a studio. Most team photography sessions of 10–20 people are completed in half a day. We can also photograph office environments, meeting rooms, and workspace context shots in the same session." },
     ],
-    relatedSlugs: ["best-production-companies-dubai-2026", "corporate-video-production-dubai-2026", "hotel-photography-dubai-2026"],
+    relatedSlugs: ["portrait-photographer-dubai-2026", "headshot-photographer-dubai-2026", "corporate-video-production-dubai-2026"],
     content: `
 <h2>What Corporate Photography Means for Dubai Businesses in 2026</h2>
 <p>Corporate photography in Dubai is a direct investment in how your business is perceived. In a market where first impressions are formed online — on LinkedIn, on your company website, in email signatures, in pitch decks — the quality of your professional imagery communicates the quality of your business before a single word is read. Poor-quality headshots on a law firm's website, a recruitment agency's LinkedIn, or a consultancy's proposal document signal a level of attention to detail that potential clients notice.</p>
@@ -2382,7 +2382,7 @@ export const BLOG_POSTS: BlogPost[] = [
         answer: "Yes, rush same-day delivery is available for an additional fee. This is typically used when headshots are needed for an announcement, press release, or event happening that day. Standard delivery is 48 hours.",
       },
     ],
-    relatedSlugs: ["executive-portraits-dubai-2026", "conference-photographer-dubai-2026", "event-videography-dubai-2026"],
+    relatedSlugs: ["headshot-photographer-dubai-2026", "executive-portraits-dubai-2026", "conference-photographer-dubai-2026"],
     content: `<p>The business headshot is one of the most underinvested assets in most Dubai companies' marketing toolkit. LinkedIn profiles, the company website, press coverage, conference name badges, pitch decks — your team's faces are everywhere. And in Dubai's high-trust, relationship-driven market, a headshot that communicates confidence and approachability carries real commercial weight. A headshot that looks like it was taken in a hotel corridor does the opposite.</p>
 
 <p>At Backyard Studio Official, we've photographed headshots for individual senior leaders and for corporate teams of 60+ people in a single day. Fahad Iqbal Butt leads our corporate portraiture work, bringing the same attention to lighting, direction, and post-processing that we apply to commercial campaigns.</p>
@@ -2436,7 +2436,7 @@ export const BLOG_POSTS: BlogPost[] = [
         answer: "Yes. If you have existing leadership portraits you need to match — for a new hire joining an established team — send us reference images in the brief. We replicate background colour, lighting style, crop ratio, and processing to within a very close match.",
       },
     ],
-    relatedSlugs: ["business-headshots-dubai-2026", "conference-photographer-dubai-2026", "event-videography-dubai-2026"],
+    relatedSlugs: ["headshot-photographer-dubai-2026", "business-headshots-dubai-2026", "personal-branding-photographer-dubai-2026"],
     content: `<p>An executive portrait is not a headshot. The distinction matters commercially.</p>
 <p>A headshot confirms who a person is. An executive portrait conveys authority, trustworthiness, and the specific kind of confidence that makes investors, board members, and clients feel they are in capable hands. In Dubai's relationship-driven business culture, the image of a CEO or Chairman that appears in an annual report, a fundraising prospectus, or the cover of a business publication carries real weight. It communicates — or fails to communicate — the quality of the organisation behind the person.</p>
 
@@ -3290,7 +3290,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { question: "How should I prepare for a LinkedIn headshot session?", answer: "Wear professional attire that you would wear to an important client meeting — this signals to your LinkedIn audience the professional standard you operate at. Avoid patterns that create visual noise (fine stripes, small checks) and very bright colours that can reflect onto your face under studio lighting. Bring 2–3 wardrobe options to maximise the variety from a single session. For men, a fresh haircut and a close shave or well-groomed beard 1–2 days before the session is recommended. For women, professional makeup applied before the session is recommended as studio lighting is more revealing than natural light." },
       { question: "How quickly are LinkedIn headshots delivered?", answer: "Our standard delivery is a selection gallery of all images within 24 hours, and fully retouched final images within 48 hours of the session. Same-day delivery of the top 3 retouched images is available as an add-on for AED 300, which is popular with executives updating their profile immediately after a job change or promotion." },
     ],
-    relatedSlugs: ["executive-portraits-dubai-2026", "corporate-photography-dubai-2026", "choose-production-company-dubai"],
+    relatedSlugs: ["headshot-photographer-dubai-2026", "executive-portraits-dubai-2026", "personal-branding-photographer-dubai-2026"],
     content: `<h2>Why Your LinkedIn Headshot Matters More in Dubai Than Almost Anywhere</h2>
 <p>Dubai is one of the most networking-intensive business cities in the world. The combination of a high proportion of senior expatriate executives, a culture in which personal relationships and trust underpin commercial decisions, and an active events and conference calendar means that your LinkedIn profile is frequently checked before, during, and after a meeting. When someone meets you at an event and looks you up on LinkedIn, your profile photo is the first impression they form before they read a single word about your experience.</p>
 <p>LinkedIn's internal data consistently shows that profiles with professional photographs receive significantly more profile views, connection requests, and direct messages than profiles with casual or low-quality photos. In Dubai's competitive professional market — where executives from 195 nationalities are networked into the same LinkedIn ecosystem — the visual quality of your profile photo signals something real about the professional standard you bring to your work.</p>
@@ -3411,7 +3411,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { question: "What is the best background colour for product photography in the UAE?", answer: "For Amazon.ae, Noon, and most marketplace platforms in the UAE, pure white (#FFFFFF) background is the mandatory standard for primary listing images — the platform will reject images that don't meet this spec. For secondary images and social media content, lifestyle backgrounds, gradient neutrals, and brand-coloured sets perform better because they create context and emotional connection. Most UAE e-commerce businesses need both: white background for the primary marketplace image and lifestyle content for Instagram, TikTok, and brand website galleries." },
       { question: "How long does a product photography session take in Dubai?", answer: "A product photography session in Dubai typically runs at a pace of 8–15 products per hour for standard white-background shooting, depending on product complexity. A set of 30 products with 4–5 angles each would take a full day. Lifestyle or model-based product photography is slower — 3–6 hero shots per hour including setup and lighting adjustments. At Backyard Studio Official, we run product photography sessions from our Al Quoz studio and can handle up to 80 SKUs per day for straightforward product types." },
     ],
-    relatedSlugs: ["commercial-photography-dubai-2026", "food-photography-dubai-2026", "brand-photography-dubai-2026"],
+    relatedSlugs: ["amazon-product-photography-dubai-2026", "commercial-photography-dubai-2026", "brand-photography-dubai-2026"],
     content: `<h2>Why E-Commerce Product Photography Determines Your Conversion Rate</h2>
 <p>E-commerce product photography in Dubai is not a cosmetic decision — it is a commercial one. On Amazon.ae, Noon, and every UAE marketplace, your primary product image is the single most tested variable in conversion rate optimisation. Studies across MENA e-commerce consistently show that professional product photography increases click-through rate by 30–60% and reduces return rates by 20–35% compared to amateur photography. In the UAE's highly competitive online retail market, where consumers have immediate access to international alternatives, the visual quality of your product listing is often the deciding factor.</p>
 <p>We have shot product photography for UAE e-commerce businesses across every category — electronics, fashion, beauty, food supplements, homeware, and luxury goods. The requirements are different for each: a skincare brand on Noon needs primary white-background shots plus lifestyle imagery showing texture and skin tone; a kitchenware brand needs both flat lay and in-use photography; a fashion brand needs ghost mannequin or model imagery. The platform, category, and buyer determine the format strategy.</p>
@@ -3724,7 +3724,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { question: "How much does brand photography cost in Dubai?", answer: "Brand photography in Dubai ranges from AED 2,500 for a half-day personal brand shoot (studio or one location, 3 outfits, 50+ edited images covering headshots, lifestyle, and brand-context images) to AED 8,000–15,000 for a full-day commercial brand shoot with a team, multiple locations, props and styling, and a delivered library of 100–150 images designed to cover all your brand's channels for 12 months. Annual brand photography retainer packages — quarterly half-day shoots that keep your content fresh — start from AED 8,000/year." },
       { question: "What is the difference between brand photography and headshots in Dubai?", answer: "Headshots are a subset of brand photography — they capture a professional portrait for LinkedIn, business cards, and email signatures. Brand photography is much broader: it covers how you work (in your office, at your desk, in meetings), what you create or deliver (your product, your service in action, your workspace), who you are (personality images, behind-the-scenes content), and the visual style and colour palette that run consistently across everything. A single brand photography session produces 50–150 images that cover all of these categories, giving you months of social media content and a complete visual system for your business." },
     ],
-    relatedSlugs: ["ecommerce-product-photography-dubai-2026", "corporate-video-production-dubai-2026", "commercial-photography-dubai-2026"],
+    relatedSlugs: ["personal-branding-photographer-dubai-2026", "ecommerce-product-photography-dubai-2026", "corporate-video-production-dubai-2026"],
     content: `<h2>What Brand Photography Actually Does for a Dubai Business</h2>
 <p>Brand photography is the visual infrastructure that every marketing asset your business produces depends on. Your website redesign, your LinkedIn content strategy, your pitch deck, your email newsletter, your Instagram presence — every one of these needs a consistent library of professional images that represent your brand correctly. Without it, you are either using stock photography (which signals generic and impersonal) or inconsistent personal photos taken on different phones at different quality levels (which signals unpolished and unplanned). Neither serves a Dubai business competing for high-value clients.</p>
 <p>The businesses that invest most in brand photography in Dubai are typically at an inflection point: they have outgrown their current visual identity, they are pursuing larger clients or partnerships where their brand credibility matters, or they are building a personal brand as a founder or executive and need a consistent visual presence across LinkedIn, media appearances, and speaking engagements. The photography produces images that last 12–18 months across all channels — it is among the highest-ROI marketing investments a UAE business can make per dirham spent.</p>
