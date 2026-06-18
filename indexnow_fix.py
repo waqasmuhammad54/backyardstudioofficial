@@ -161,6 +161,10 @@ URLS = [
     f"https://{HOST}/blog/personal-branding-photographer-dubai-2026",
     f"https://{HOST}/blog/amazon-product-photography-dubai-2026",
     f"https://{HOST}/blog/headshot-photographer-dubai-2026",
+    # EN Blog posts — Tier 2 gap fills (2026-06-18)
+    f"https://{HOST}/blog/freelance-photographer-dubai-2026",
+    f"https://{HOST}/blog/watch-photography-dubai-2026",
+    f"https://{HOST}/blog/men-photographer-dubai-2026",
 ]
 
 payload = {
