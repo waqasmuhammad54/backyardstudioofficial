@@ -165,6 +165,15 @@ URLS = [
     f"https://{HOST}/blog/freelance-photographer-dubai-2026",
     f"https://{HOST}/blog/watch-photography-dubai-2026",
     f"https://{HOST}/blog/men-photographer-dubai-2026",
+    # EN Blog posts — Sprint 1: Wedding sub-niches (2026-06-18)
+    f"https://{HOST}/blog/indian-wedding-photographer-dubai-2026",
+    f"https://{HOST}/blog/pakistani-wedding-photographer-dubai-2026",
+    f"https://{HOST}/blog/emirati-wedding-photographer-dubai-2026",
+    f"https://{HOST}/blog/filipino-wedding-photographer-dubai-2026",
+    f"https://{HOST}/blog/pre-wedding-shoot-dubai-2026",
+    f"https://{HOST}/blog/nigerian-wedding-photographer-dubai-2026",
+    f"https://{HOST}/blog/russian-wedding-photographer-dubai-2026",
+    f"https://{HOST}/blog/luxury-wedding-photographer-dubai-2026",
 ]
 
 payload = {
