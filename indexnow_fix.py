@@ -197,6 +197,24 @@ URLS = [
     f"https://{HOST}/blog/interior-photography-dubai-2026",
     f"https://{HOST}/blog/perfume-photography-dubai-2026",
     f"https://{HOST}/blog/cosmetics-photography-dubai-2026",
+    # EN Blog posts — Sprint 5: Video sub-niches (2026-06-18)
+    f"https://{HOST}/blog/wedding-videographer-dubai-2026",
+    f"https://{HOST}/blog/instagram-reels-videographer-dubai-2026",
+    f"https://{HOST}/blog/tiktok-videographer-dubai-2026",
+    # RU Blog posts — Sprint 5 (2026-06-18)
+    f"https://{HOST}/ru/blog/svadebnyi-fotograf-indiyskaya-svadba-dubai-2026",
+    f"https://{HOST}/ru/blog/detskiy-fotograf-dubai-2026",
+    f"https://{HOST}/ru/blog/sportivnyi-fotograf-dubai-2026",
+    f"https://{HOST}/ru/blog/fotosessiya-beremennosti-dubai-2026",
+    f"https://{HOST}/ru/blog/predsvadebnaya-fotosessiya-dubai-2026",
+    f"https://{HOST}/ru/blog/fotograf-para-dubai-2026",
+    # AR Blog posts — Sprint 5 (2026-06-18)
+    f"https://{HOST}/ar/blog/taswir-aris-hindi-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-atfal-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-riyadi-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-intaj-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-nisa-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-aqariya-dubai-2026",
 ]
 
 payload = {

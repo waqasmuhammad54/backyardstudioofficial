@@ -5701,6 +5701,171 @@ export const BLOG_POSTS: BlogPost[] = [
 `,
   },
 
+  // ─── Sprint 5: Video Production Sub-Niches ───────────────────────────────
+
+  // ─── Wedding Videographer Dubai 2026 ─────────────────────────────────────
+  {
+    slug: "wedding-videographer-dubai-2026",
+    title: "Wedding Videographer Dubai 2026 — Cinematic Wedding Films UAE",
+    metaTitle: "Wedding Videographer Dubai 2026 | Cinematic Wedding Video UAE | Wedding Film Dubai",
+    metaDescription: "Professional wedding videographer in Dubai. Cinematic highlight films, full-ceremony coverage & same-day edits for all wedding cultures. From AED 4,500.",
+    keywords: ["wedding videographer dubai", "wedding videographer dubai 2026", "cinematic wedding videography dubai", "wedding film dubai uae", "wedding video production dubai", "wedding videography packages dubai"],
+    category: "Wedding Videography",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=1200&q=80",
+    excerpt: "A wedding film is the one piece of wedding content that can actually make you feel the day again — the emotion, the movement, the details you didn't notice while it was happening. The best wedding videographers in Dubai understand that they're not just recording an event; they're creating a film that will be watched and shared for decades. This is a complete guide to choosing a wedding videographer in Dubai for 2026.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does a wedding videographer cost in Dubai?", answer: "Wedding videography in Dubai starts from AED 4,500 for a highlight film package covering 6–8 hours of filming with a single videographer and a 5–8 minute edited highlight reel. Full-day wedding videography (12 hours, two videographers, full ceremony edit plus highlight film) starts from AED 8,500. Combined photography and videography packages — the most popular option — start from AED 10,000 for both disciplines together, with comprehensive packages including pre-wedding shoot and same-day edit from AED 18,000. Cinematic feature-length wedding films (30–60 minutes, full ceremony documentation) are priced from AED 12,000." },
+      { question: "What is the difference between a highlight film and a full wedding film?", answer: "A highlight film (also called a highlight reel or cinematic short) is a 4–10 minute edited film that captures the best moments of the wedding day — ceremony vows, first look, first dance, key family moments, speeches — set to music and edited with a cinematic sensibility. This is the film most couples watch repeatedly and share on social media. A full wedding film is a longer documentary-style edit (typically 30–60 minutes) that chronicles the complete wedding day in sequence, including the full ceremony speeches, dances, and reception events. The two formats serve different purposes — couples often order both." },
+      { question: "What is a same-day edit wedding video?", answer: "A same-day edit (SDE) is a 2–5 minute highlight film of the wedding day that is edited and screened to guests at the reception, typically during the dinner or first dance portion of the evening. The SDE requires a dedicated editing team working simultaneously while the main videography team continues filming. It's an extraordinary moment when guests — including the couple — watch the morning's ceremony and preparations in a film that was made the same day. Same-day edits are a premium addition, starting from AED 4,000 added to a standard videography package." },
+      { question: "Do you film weddings in Arabic, Indian, and Western traditions?", answer: "Yes — we have extensive experience filming weddings across every major cultural tradition present in Dubai. Arabic weddings require understanding of zaffa ceremonies, the henna night (laylat al-hinna), and the distinct visual and musical character of Gulf, Lebanese, and Egyptian wedding traditions. Indian weddings require coverage across multi-day events — mehndi, sangeet, baraat, nikah or pheras, and reception — with the ability to be in multiple locations simultaneously and the cultural knowledge to anticipate key ritual moments. Filipino, Russian, Nigerian, and Western weddings each have their own visual grammar and ceremonial structure that our team understands intimately." },
+    ],
+    relatedSlugs: ["arabic-wedding-photography-dubai-2026", "wedding-photographer-cost-dubai-2026", "corporate-video-production-dubai-2026"],
+    content: `
+<h2>Why Wedding Videography in Dubai is Different from Anywhere Else</h2>
+<p>Dubai's wedding culture is one of the most extraordinary in the world. The city hosts weddings from over 200 nationalities — Emirati, Lebanese, Egyptian, Indian, Pakistani, Filipino, Russian, Nigerian, British, and dozens more — each with their own traditions, musical cultures, ceremonial structures, and visual languages. The diversity of wedding cultures in Dubai means that an experienced wedding videographer in the city has encountered more ceremonial variety in a single year than a videographer in a single-culture market will encounter in a career.</p>
+<p>The city itself is also one of the world's most visually remarkable wedding backdrops. The Burj Al Arab and Burj Khalifa as background architecture, the desert landscape available 20 minutes outside the city centre, the luxury hotel venues — Atlantis, Armani, Address Downtown, One&Only — that provide the kind of physical environment that makes wedding films look expensive, because they are expensive. And Dubai's climate provides reliable golden-hour conditions (October through April, 5:00–6:30pm) that give outdoor footage a cinematic warmth that photographers and videographers in temperate climates wait months for.</p>
+
+<h2>The Technical Elements of Wedding Videography</h2>
+
+<h3>Camera Systems and Lenses for Wedding Films</h3>
+<p>Wedding videography requires camera systems that can perform across the full range of lighting conditions a single wedding day presents: bright outdoor ceremony in midday sun, dimly-lit hotel ballroom at reception, candle-lit dinner, dance floor with mixed artificial light and LED effects, and the intimate, close-focus moments of a bride getting ready. Professional wedding videographers use cinema-grade camera systems (Sony FX series, Canon Cinema EOS, Blackmagic Cinema Camera) with a selection of prime lenses that allow shallow depth of field — the cinematic separation between a sharp subject and a softly blurred background that defines the look of professional wedding films. A single fixed focal length lens cannot cover all wedding shooting situations; a professional videographer carries a selection from 24mm to 85mm to cover wide establishing shots, environmental portraits, and close telephoto moments.</p>
+
+<h3>Audio for Wedding Films</h3>
+<p>The visual quality of wedding videography is immediately apparent; the audio quality is equally critical but easier to underestimate until you watch a wedding film where the vows are inaudible or the officiant's words are lost in room echo. Professional wedding videographers use multiple independent audio sources simultaneously: a wireless lavalier microphone concealed on the groom (or officiant) for ceremony audio, a second lavalier on the bride for her responses, a directional shotgun microphone on the camera for ambient audio, and an independent audio recorder placed at the lectern or podium. These sources are synced and mixed in post-production to provide perfectly clear ceremony audio even when the venue has challenging acoustics.</p>
+
+<h3>Stabilisation and Movement</h3>
+<p>Handheld camera movement in wedding videography — the slight organic movement that comes from a camera operated by a human being — is a choice, not a limitation. The best wedding videographers use stabilisation deliberately: a gimbal stabiliser for smooth, floating movement during ceremony walks and location transitions; a tripod for static compositions like altar shots or speeches; and intentional handheld movement for documentary-style moments where the rawness of real motion adds authenticity. The worst wedding videography is shaky footage that wasn't intended to look that way — the result of inadequate stabilisation rather than creative decision-making.</p>
+
+<h3>Drone Footage in Wedding Films</h3>
+<p>Drone footage in wedding films serves a specific purpose: establishing the scale and context of a venue, capturing moments of arrival and departure from a perspective the ground cannot provide, and adding the cinematic sweep that differentiates a professional wedding film from any other video of the day. Not every moment or every venue requires drone footage — a hotel ballroom ceremony doesn't benefit from aerial coverage, but a beach wedding, a villa ceremony, or a baraat procession down a Dubai street is transformed by it. We hold a GCAA drone licence, which is the non-negotiable legal requirement for commercial drone operation in the UAE.</p>
+
+<h2>Wedding Videography Coverage Structure</h2>
+
+<h3>Getting Ready Coverage</h3>
+<p>The preparation footage — bride getting hair and makeup done, groom and groomsmen getting dressed, the quiet moments of reflection before the ceremony — provides the intimate, personal material that makes a wedding film emotionally resonant. This footage requires the videographer to be unobtrusive, to capture candid moments rather than directing the scene, and to use natural light wherever possible to preserve the authentic atmosphere of the moment.</p>
+
+<h3>Ceremony Coverage</h3>
+<p>The ceremony is the heart of the wedding film. Professional coverage requires at minimum two camera angles (a wide master shot and a close-up telephoto from a different position) so that the editing can cut between perspectives during the vows, ring exchange, and ceremonial moments. A single camera in a locked-off position produces static, monotonous footage. Two cameras — or a videographer and a dedicated camera operator — provide the editorial flexibility to create a properly assembled scene.</p>
+
+<h3>Reception and Celebration</h3>
+<p>The reception — speeches, first dance, family dances, dinner, and the open celebration of the evening — provides the energy and joy that counterbalances the emotional depth of the ceremony. The technical challenges of reception coverage are distinct: low light, moving subjects, varied audio sources (band, DJ, speeches), and the need to capture spontaneous moments across a large venue simultaneously.</p>
+
+<h2>Wedding Videography Packages — Dubai 2026</h2>
+<p><strong>Highlight Film (From AED 4,500):</strong> 6–8 hours, 1 videographer, 5–8 minute cinematic highlight reel, 4K delivery, 3-week turnaround.</p>
+<p><strong>Full Day + Highlight (From AED 8,500):</strong> 10–12 hours, 2 videographers, full ceremony edit + highlight film, 4K + web delivery, 4-week turnaround.</p>
+<p><strong>Combined Photo + Video (From AED 10,000):</strong> Full day photography and videography team together, highlight film + full gallery, 4K delivery, 4–5 week turnaround.</p>
+<p><strong>Premium Package (From AED 18,000):</strong> 2 days (pre-wedding + wedding), highlight + feature film, drone coverage, same-day edit, engagement shoot, full print gallery.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Instagram Reels Videographer Dubai 2026 ─────────────────────────────
+  {
+    slug: "instagram-reels-videographer-dubai-2026",
+    title: "Instagram Reels Videographer Dubai 2026 — Reels Production UAE",
+    metaTitle: "Instagram Reels Videographer Dubai 2026 | Reels Production Dubai | Instagram Video UAE",
+    metaDescription: "Professional Instagram Reels videographer in Dubai. Brand Reels, restaurant Reels, product Reels & creator content. Algorithm-aware production. From AED 800.",
+    keywords: ["instagram reels videographer dubai", "reels videographer dubai 2026", "instagram reels production dubai", "reels content creator dubai uae", "reels video production dubai", "instagram reels dubai"],
+    category: "Social Media Video",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1611162616475-46b635cb6868?w=1200&q=80",
+    excerpt: "Instagram Reels is now the primary organic discovery tool for brands and creators in the UAE — consistently outperforming static posts, Stories, and carousel content in reach and engagement. This guide covers professional Instagram Reels production in Dubai: what makes Reels perform, how professional production differs from in-house content, and what a Reels session with Backyard Studio delivers.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does Instagram Reels production cost in Dubai?", answer: "Instagram Reels production in Dubai starts from AED 800 for a single Reel (1 filming location, 30–60 seconds, professionally edited, music licensed, captions). A Reels content pack — 3 Reels from one shooting session — starts from AED 2,000. A monthly Reels retainer covering 4–6 Reels per month with a regular shooting day starts from AED 3,500/month. Restaurant Reels packs (3 food/drinks Reels from one session) start from AED 1,800." },
+      { question: "What makes a Reel perform well on Instagram in the UAE?", answer: "UAE Instagram Reels performance in 2026 is driven by several factors: a strong hook in the first 1–2 seconds that stops the scroll (this is the single most important element), vertical 9:16 framing optimised for full-screen mobile viewing, original audio or trending sounds with proven reach history in the GCC region, captions or text overlays that communicate the message without sound (over 80% of Instagram users watch without sound initially), a clear call to action in the final frame, and consistent posting cadence (3+ per week for organic growth). We build all of these factors into our Reels production process." },
+      { question: "Can you produce Reels for restaurants and F&B brands in Dubai?", answer: "Yes — restaurant and F&B Reels is one of our most in-demand categories. Dubai's F&B scene is extraordinarily competitive on Instagram, and Reels is the primary discovery channel for new restaurant audiences. We produce food preparation process videos, dish reveal Reels, atmosphere and ambience content, new menu announcements, and behind-the-scenes kitchen content. A restaurant Reels session covers 3 different Reels concepts (different dishes, different moods, different formats) in a 3-hour shooting session." },
+      { question: "Do you write Reels scripts and plan the content?", answer: "Yes. Every Reels session begins with a content brief: what the Reel needs to achieve (brand awareness, product launch, promotion, entertainment), the specific hook concept for each piece, the key message, and the call to action. We provide the hook script and shot list before the session so the filming day is efficient and purposeful. For monthly retainer clients, we develop a full monthly content calendar in advance so every Reel connects to a broader content strategy rather than being a one-off piece." },
+    ],
+    relatedSlugs: ["reels-videographer-dubai-2026", "social-media-content-creation-dubai-2026", "influencer-content-creator-dubai-2026"],
+    content: `
+<h2>Instagram Reels in Dubai — The Organic Reach Opportunity</h2>
+<p>Instagram's algorithm in 2026 aggressively distributes Reels content to non-followers — a fundamental difference from static posts and carousel content, which is served primarily to existing followers. This means that a well-produced Reel from a Dubai brand or creator can reach tens of thousands of UAE users who have never encountered that brand before, at zero paid media cost. For Dubai's intensely competitive restaurant, retail, fitness, beauty, and hospitality sectors, this organic discovery potential is one of the most valuable marketing opportunities available.</p>
+<p>The UAE's Instagram market is particularly responsive to Reels: Dubai and Abu Dhabi consistently rank among the highest per-capita social media usage cities globally, and the UAE audience skews toward high-income, brand-aware consumers who make purchasing decisions through social discovery. A Reel that performs in Dubai reaches people with genuine purchasing power and a culture of acting on social media recommendations.</p>
+
+<h2>What Professional Reels Production Delivers</h2>
+
+<h3>The Hook — The Only Metric That Matters Initially</h3>
+<p>Instagram's Reels algorithm evaluates content in its first 1–3 seconds before making distribution decisions. A video that doesn't capture attention in that window will be suppressed regardless of how well the rest of the content is produced. Professional Reels production begins with hook engineering: what visual or verbal trigger in the first moment will stop a UAE Instagram user mid-scroll and cause them to watch the next 30 seconds?</p>
+<p>The best hooks in the UAE market in 2026 share common characteristics: a surprising visual, an unexpected perspective, a question that the viewer wants answered, a moment of transformation (before/after), or a sound that triggers an immediate emotional response. We build hook concepts before every Reels session and produce multiple options for testing — because the hook that performs best is not always the one that feels most obvious in the planning stage.</p>
+
+<h3>Production Quality and Aesthetic</h3>
+<p>The UAE's Instagram audience has been exposed to world-class brand content from international and local luxury brands — the aesthetic standard for Dubai's Instagram market is genuinely high. A Reel filmed on a phone in poor light with untreated audio does not perform in the same way as content produced with professional cinema cameras, proper lighting, and colour-graded footage. Professional production differentiates your brand visually from the volume of lower-quality content competing for the same audience's attention.</p>
+<p>This doesn't mean every Reel needs to look like a TV commercial — some of the best-performing Reels are deliberately lo-fi and authentic. The difference is that authentic-looking Reels from professional producers are crafted to look authentic within a deliberately chosen aesthetic, not accidentally rough because of equipment limitations.</p>
+
+<h3>Audio Strategy</h3>
+<p>Reels audio strategy in 2026 involves a choice between trending audio (using sounds that Instagram is currently distributing widely, which can dramatically boost initial reach) and original audio (branded sound, voiceover, or original music that builds the brand's sonic identity). For most brand accounts, we use a combination: trending audio for discovery-focused Reels, original audio for conversion-focused content. We license all audio used in commercial Reels to avoid copyright restrictions on branded content.</p>
+
+<h3>Vertical Framing and Composition</h3>
+<p>Professional Reels production uses 9:16 vertical framing from the start of the shoot — not landscape footage cropped for vertical. The compositional decisions for a strong Reel frame are different from landscape photography: subjects positioned in the centre-frame to survive the circular crop of Stories, text safe zones that avoid the Instagram UI overlaying key information, and the ability to communicate the key visual message within a narrow, tall frame. These compositional decisions are built into the camera setup and shot list before filming begins.</p>
+
+<h2>Reels Packages by Industry — Dubai 2026</h2>
+<p><strong>Restaurant & F&B Reels (From AED 1,800/session):</strong> 3-hour session, 3 Reels concepts, food styling, 5–7 day delivery, music licensed.</p>
+<p><strong>Brand & Product Reels (From AED 800/Reel):</strong> Single Reel, 1 location, scripted hook, professionally edited, delivered in 5 days.</p>
+<p><strong>Creator Content Days (From AED 2,000):</strong> 3 Reels from 1 session day, multiple locations/outfits, 7-day delivery.</p>
+<p><strong>Monthly Retainer (From AED 3,500/month):</strong> 4–6 Reels per month, content calendar, one filming day, strategy brief included.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── TikTok Videographer Dubai 2026 ──────────────────────────────────────
+  {
+    slug: "tiktok-videographer-dubai-2026",
+    title: "TikTok Videographer Dubai 2026 — TikTok Video Production UAE",
+    metaTitle: "TikTok Videographer Dubai 2026 | TikTok Video Production Dubai | TikTok Content UAE",
+    metaDescription: "Professional TikTok videographer in Dubai. Brand TikTok content, creator videos & TikTok Shop production for UAE market. Algorithm-optimised. From AED 700.",
+    keywords: ["tiktok videographer dubai", "tiktok video production dubai 2026", "tiktok content creator dubai", "tiktok production dubai uae", "tiktok videographer uae", "tiktok marketing dubai"],
+    category: "Social Media Video",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1562577309-4932fdd64cd1?w=1200&q=80",
+    excerpt: "TikTok in the UAE is no longer just a platform for Gen Z entertainment — it's a purchasing platform, a discovery engine, and for an increasing number of Dubai brands, their most effective marketing channel. Professional TikTok production in Dubai covers brand content, creator partnerships, TikTok Shop integration, and the specific format expertise that separates high-performing TikTok content from video that gets ignored.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does TikTok video production cost in Dubai?", answer: "TikTok video production in Dubai starts from AED 700 per video for a single professionally-produced TikTok (filmed, edited, captions, sound). A TikTok content pack covering 5 videos from a single shooting day starts from AED 2,500. TikTok content retainer services — ongoing monthly TikTok production for brand accounts — start from AED 3,000/month for 8 videos per month. TikTok Shop product videos (optimised for TikTok Shop listing and in-feed shopping ads) start from AED 300 per product." },
+      { question: "How is TikTok content different from Instagram Reels content?", answer: "TikTok and Instagram Reels have overlapping formats but distinct platform cultures, algorithm behaviours, and audience expectations. TikTok rewards longer watch time and completion rate — a 45-second video that 70% of viewers watch to the end outperforms a 15-second video with 30% completion. TikTok's discovery algorithm (the 'For You Page') distributes content based on engagement signals rather than follower relationships, making it easier for new accounts to reach large audiences. TikTok's aesthetic culture is more casual and raw than Instagram's, but this is a creative choice — not a production quality reduction. Dubai TikTok audiences in 2026 are highly responsive to authentic UAE-specific content, behind-the-scenes access, and educational 'Dubai life' content." },
+      { question: "Can you manage our TikTok account and produce content regularly?", answer: "Yes. We offer TikTok content management packages that include the full production workflow: content strategy and calendar planning, scripting and hook engineering, filming sessions, editing and caption writing, and posting at optimal times for the UAE TikTok audience. Monthly management packages start from AED 4,500/month covering strategy + 8 videos per month + account management. This is the option for brands who want to build a genuine TikTok presence rather than posting sporadically." },
+      { question: "Do you produce content for TikTok Shop in the UAE?", answer: "Yes. TikTok Shop launched in the UAE in 2024 and has grown rapidly — it combines in-feed video with direct product purchase, eliminating the step between content discovery and buying. TikTok Shop product videos have specific requirements: the product must be clearly featured, there must be a clear demonstration of the product's value or use, and the video must drive click-through to the Shop listing. We produce TikTok Shop product videos from AED 300 per product in batch sessions, and can manage the TikTok Shop affiliate programme for brands that want to scale through creator partnerships." },
+    ],
+    relatedSlugs: ["reels-videographer-dubai-2026", "social-media-content-creation-dubai-2026", "instagram-reels-videographer-dubai-2026"],
+    content: `
+<h2>TikTok in the UAE — The Platform in 2026</h2>
+<p>TikTok's UAE user base has grown consistently year on year and now represents a broad demographic cross-section rather than just younger users. The platform's penetration in the UAE is among the highest in the world by percentage of population, and the average daily usage time is substantial — Dubai TikTok users spend significant time on the platform across entertainment, discovery, and increasingly, shopping. TikTok Shop's launch and growth in the UAE has transformed the platform from a purely top-of-funnel awareness channel to a full commerce platform where content can drive direct purchase.</p>
+<p>For Dubai brands, TikTok offers something Instagram and Google cannot: organic reach to audiences that haven't yet discovered you. The For You Page algorithm distributes content based on engagement signals, not follower relationships — meaning a brand with 200 followers can achieve the same reach as a brand with 200,000 if their content creates the right signals in the first 24 hours after posting.</p>
+
+<h2>TikTok Content Strategy for Dubai Brands</h2>
+
+<h3>The For You Page Algorithm — How Content Gets Distributed</h3>
+<p>Understanding TikTok's distribution mechanism is fundamental to producing content that performs. When a video is posted, TikTok initially distributes it to a small test audience — typically 200–500 accounts in the relevant geographic and interest cluster. If that test audience engages (watches to completion, likes, comments, shares, or clicks through to profile), TikTok escalates distribution to progressively larger audiences. If the test audience disengages (swipes away in the first two seconds, reports the content), distribution is limited.</p>
+<p>This means every TikTok video is evaluated in its first few hours. The content decisions that determine that evaluation are: the first-frame visual (what appears on screen before the user decides to watch or swipe), the watch time curve (do viewers watch all the way through, or exit at a specific moment?), and the engagement rate (what fraction of viewers interact with the content). Professional TikTok production builds these performance signals into the content from the brief stage.</p>
+
+<h3>Dubai-Specific TikTok Content That Performs</h3>
+<p>The UAE TikTok market has specific content categories that consistently outperform across demographics. Behind-the-scenes content of Dubai's extraordinary venues, businesses, and daily life performs exceptionally well because it provides genuine insight into a city that millions of global TikTok users find aspirational. "Day in the life" content from Dubai — whether a day in a luxury hotel, a day running a restaurant, or a day in the UAE desert — reaches both local audiences and an enormous international audience that has curiosity about Dubai. Product demonstrations and reviews in the context of Dubai's lifestyle perform strongly for ecommerce brands.</p>
+<p>For B2B brands in Dubai — agencies, professional services, construction, real estate — TikTok's educational content format (short explainers, myth-busting content, process reveals) provides access to decision-maker audiences who use the platform personally even if they wouldn't identify as TikTok users.</p>
+
+<h3>TikTok Shop Production</h3>
+<p>TikTok Shop has changed the economics of TikTok content for product businesses. A video that shows a product clearly, demonstrates its benefit, and includes a Shop link can generate direct purchase without the viewer ever leaving the app. This collapses the traditional awareness-consideration-purchase funnel into a single piece of content. We produce TikTok Shop videos with specific best practices: the product appears within the first two seconds, the key benefit is communicated in the first ten seconds, the purchase trigger (discount, limited availability, bundle offer) is delivered before the 30-second mark, and the Shop link is visible throughout.</p>
+
+<h3>Creator Partnerships and UGC Production</h3>
+<p>User-generated content (UGC) — video that looks like it was made by a consumer rather than a brand — consistently outperforms polished brand content on TikTok because TikTok audiences trust authenticity over production value in content that feels organic. We produce UGC-style TikTok content for brands that wants the performance of authentic-feeling content without relying on actual user submissions. This involves our production team deliberately using aesthetic choices (portrait mode camera, natural light, minimal editing) that create the feel of real user content while maintaining strategic control over message, product presentation, and call to action.</p>
+
+<h2>TikTok Production Packages — Dubai 2026</h2>
+<p><strong>Single TikTok Video (From AED 700):</strong> Scripted, filmed, edited, captioned, music licensed. 5-day delivery.</p>
+<p><strong>Content Day Pack (From AED 2,500):</strong> 5 TikToks from 1 shooting day, multiple concepts, 7-day delivery.</p>
+<p><strong>TikTok Shop Videos (From AED 300/product):</strong> Product demo format, Shop-optimised, batch pricing available.</p>
+<p><strong>Monthly TikTok Retainer (From AED 3,000/month):</strong> 8 videos/month, content calendar, strategy brief, filming + editing.</p>
+<p><strong>Full Management (From AED 4,500/month):</strong> Strategy + production + posting + account management + monthly performance report.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
   // ─── Cosmetics Photography Dubai 2026 ────────────────────────────────────
   {
     slug: "cosmetics-photography-dubai-2026",
