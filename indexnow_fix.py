@@ -257,6 +257,24 @@ URLS = [
     # RU Blog posts — missing from earlier batches (2026-06-19)
     f"https://{HOST}/ru/blog/svadebnyi-fotograf-abu-dhabi-2026",
     f"https://{HOST}/ru/blog/fotografiya-nedvizhimosti-dubai-2026",
+    # Sprint 10 AR translations (2026-06-19)
+    f"https://{HOST}/ar/blog/taswir-zifaf-hindi-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-afraah-arabiya-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-zifaf-wajiha-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-nikah-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-brand-shakhsi-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-mataam-ihtirafi-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-muntajat-tijaria-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-uslub-hayat-dubai-2026",
+    # Sprint 10 RU translations (2026-06-19)
+    f"https://{HOST}/ru/blog/indiyskaya-svadba-fotografiya-dubai-2026",
+    f"https://{HOST}/ru/blog/arabskaya-svadba-fotografiya-dubai-2026",
+    f"https://{HOST}/ru/blog/vyezdnaya-svadba-dubai-2026",
+    f"https://{HOST}/ru/blog/nikah-fotografiya-dubai-2026",
+    f"https://{HOST}/ru/blog/personal-brending-fotografiya-dubai-2026",
+    f"https://{HOST}/ru/blog/fotografiya-restoranov-dubai-2026",
+    f"https://{HOST}/ru/blog/fotografiya-tovarov-dubai-2026",
+    f"https://{HOST}/ru/blog/layfstayl-fotografiya-dubai-2026",
 ]
 
 payload = {

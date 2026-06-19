@@ -122,6 +122,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/ar/blog/taswir-aqariya-dubai-2026",          lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/taswir-khetuba-dubai-2026",          lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/taswir-mawaalid-dubai-2026",         lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    // Sprint 10 AR translations (2026-06-19)
+    { url: BASE + "/ar/blog/taswir-zifaf-hindi-dubai-2026",       lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-afraah-arabiya-dubai-2026",    lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-zifaf-wajiha-dubai-2026",      lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-nikah-dubai-2026",             lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-brand-shakhsi-dubai-2026",     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-mataam-ihtirafi-dubai-2026",   lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-muntajat-tijaria-dubai-2026",  lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-uslub-hayat-dubai-2026",       lastModified: now, changeFrequency: "monthly", priority: 0.75 },
   ];
 
   // Russian pages (/ru/)
@@ -149,6 +158,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/ru/blog/fotosessiya-beremennosti-dubai-2026",     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ru/blog/predsvadebnaya-fotosessiya-dubai-2026",   lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ru/blog/fotograf-para-dubai-2026",                lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    // Sprint 10 RU translations (2026-06-19)
+    { url: BASE + "/ru/blog/indiyskaya-svadba-fotografiya-dubai-2026",   lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/arabskaya-svadba-fotografiya-dubai-2026",    lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/vyezdnaya-svadba-dubai-2026",                lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/nikah-fotografiya-dubai-2026",               lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/personal-brending-fotografiya-dubai-2026",   lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/fotografiya-restoranov-dubai-2026",          lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/fotografiya-tovarov-dubai-2026",             lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/layfstayl-fotografiya-dubai-2026",           lastModified: now, changeFrequency: "monthly", priority: 0.75 },
   ];
 
   // Chinese pages (/zh/)
