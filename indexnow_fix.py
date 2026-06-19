@@ -183,6 +183,14 @@ URLS = [
     f"https://{HOST}/blog/gym-photography-dubai-2026",
     f"https://{HOST}/blog/marathon-photographer-dubai-2026",
     f"https://{HOST}/blog/motorsport-photographer-dubai-2026",
+    # EN Blog posts — Sprint 3: Lifestyle & portrait sub-niches (2026-06-18)
+    f"https://{HOST}/blog/couple-photoshoot-dubai-2026",
+    f"https://{HOST}/blog/kids-photographer-dubai-2026",
+    f"https://{HOST}/blog/baby-photographer-dubai-2026",
+    f"https://{HOST}/blog/pregnancy-photoshoot-dubai-2026",
+    f"https://{HOST}/blog/desert-photoshoot-dubai-2026",
+    f"https://{HOST}/blog/social-media-photographer-dubai-2026",
+    f"https://{HOST}/blog/engagement-photographer-dubai-2026",
 ]
 
 payload = {
