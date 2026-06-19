@@ -191,6 +191,12 @@ URLS = [
     f"https://{HOST}/blog/desert-photoshoot-dubai-2026",
     f"https://{HOST}/blog/social-media-photographer-dubai-2026",
     f"https://{HOST}/blog/engagement-photographer-dubai-2026",
+    # EN Blog posts — Sprint 4: Commercial sub-niches (2026-06-18)
+    f"https://{HOST}/blog/jewellery-photography-dubai-2026",
+    f"https://{HOST}/blog/car-photography-dubai-2026",
+    f"https://{HOST}/blog/interior-photography-dubai-2026",
+    f"https://{HOST}/blog/perfume-photography-dubai-2026",
+    f"https://{HOST}/blog/cosmetics-photography-dubai-2026",
 ]
 
 payload = {

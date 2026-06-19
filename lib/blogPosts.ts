@@ -5488,6 +5488,269 @@ export const BLOG_POSTS: BlogPost[] = [
 `,
   },
 
+  // ─── Sprint 4: Commercial Sub-Niches ─────────────────────────────────────
+
+  // ─── Jewellery Photography Dubai 2026 ────────────────────────────────────
+  {
+    slug: "jewellery-photography-dubai-2026",
+    title: "Jewellery Photography Dubai 2026 — Professional Jewellery & Gold Photography UAE",
+    metaTitle: "Jewellery Photography Dubai 2026 | Gold Photography Dubai | Jewellery Photographer UAE",
+    metaDescription: "Professional jewellery photographer in Dubai. Gold, diamonds, watches & fine jewellery product photography for ecommerce, catalogues & brand campaigns. From AED 150/piece.",
+    keywords: ["jewellery photography dubai", "jewellery photographer dubai", "gold photography dubai", "diamond photography dubai 2026", "jewellery product photography uae", "fine jewellery photographer dubai"],
+    category: "Commercial Photography",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=1200&q=80",
+    excerpt: "Dubai is the world's third largest gold and jewellery trading hub — the Dubai Gold Souk alone sees billions of dollars in annual transactions, and the city's fine jewellery retail sector is one of the most competitive in the world. Professional jewellery photography in Dubai is a specialist discipline that sits at the intersection of product photography, still-life art direction, and the technical mastery required to make metal and stone look extraordinary on screen and in print.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does jewellery photography cost in Dubai?", answer: "Jewellery photography pricing in Dubai depends on the complexity of each piece and the required output. Simple white-background jewellery photography for ecommerce starts from AED 150 per piece for standard rings, chains, and earrings, with pricing increasing for more complex multi-element pieces. A full jewellery catalogue session covering 20 pieces starts from AED 2,500 for a day's studio production. Lifestyle jewellery photography (pieces worn on models or in styled settings) is priced per setup, typically from AED 500 per lifestyle image. Campaign photography for jewellery brands starts from AED 5,000 for a full production day." },
+      { question: "How do you photograph gold and diamonds to show their brilliance?", answer: "Gold and diamond photography requires specialist lighting techniques that most general product photographers do not use. For gold, we use directional lighting with carefully controlled reflections — gold's warmth comes from the way it reflects warm light sources, and the texture of brushed or hammered gold requires raking light at a low angle to reveal the surface detail. For diamonds, we use a combination of sparkle lighting (a point-light source at a specific angle that triggers the fire and brilliance of the stone) and base lighting that keeps the diamond's colour accurate. We never use a single overhead light source for jewellery photography — the result is flat metal and dull stones." },
+      { question: "Do you photograph jewellery on models or on mannequins?", answer: "Both approaches serve different purposes. White-background product photography (pieces photographed alone against a clean background) is required for ecommerce platforms and catalogues — it shows the piece clearly with no distraction. Lifestyle and campaign photography with a model wearing the jewellery provides the emotional context and aspirational quality needed for brand marketing. We offer both in the same session if required — catalogue shots first, then model-worn lifestyle shots with the same pieces. For earrings and necklaces, a mannequin neck or ear stand is often used as a middle-ground option that shows the piece in a natural wearing position without requiring a full model booking." },
+      { question: "Can you photograph jewellery for the Dubai Gold Souk retailers?", answer: "Yes — we photograph jewellery for Gold Souk retailers, fine jewellery brands, independent designers, and online jewellery businesses across Dubai. Our studio is equipped with the specialist macro lenses and lighting equipment required for jewellery photography, and we have experience across gold, silver, platinum, diamonds, coloured gemstones, pearls, and mixed-material pieces. We can collect pieces for studio photography or work at a retailer's premises for large-volume catalogue shoots." },
+    ],
+    relatedSlugs: ["product-photography-dubai-2026", "ecommerce-product-photography-dubai-2026", "watch-photography-dubai-2026"],
+    content: `
+<h2>Jewellery Photography in Dubai — The Market</h2>
+<p>Dubai's jewellery market is one of the most significant in the world. The Dubai Gold Souk in Deira — with over 380 shops trading across gold, diamonds, and precious stones — is the largest gold market in the world by volume. The city's fine jewellery retail sector ranges from international luxury houses (Cartier, Bulgari, Van Cleef & Arpels have flagship boutiques in Dubai Mall) to independent Gulf designers, traditional Arabian jewellery workshops, and online-first jewellery businesses targeting the UAE and broader GCC market.</p>
+<p>This extraordinary concentration of jewellery retail and manufacturing creates a continuous demand for professional jewellery photography: ecommerce product images for online sales, catalogue photography for seasonal collections, campaign imagery for brand advertising, and social media content for jewellery brands with active Instagram presences. The quality standard for jewellery photography in Dubai's competitive luxury market is very high — and the technical demands of photographing metal and stone correctly are significant enough that specialist expertise is not optional.</p>
+
+<h2>The Technical Demands of Jewellery Photography</h2>
+
+<h3>Macro Lenses and Depth of Field</h3>
+<p>Jewellery is small. A ring might be 20mm across. An earring stud might be 8mm. Photographing these pieces at a scale that fills a product image frame — showing the detail of the stone settings, the texture of the metal, the pattern of a chain link — requires macro lenses that can focus at extremely close distances while maintaining sharpness across the depth of the piece. We use professional macro lenses (100mm f/2.8 macro) for jewellery photography, which provide the close-focus capability, the magnification, and the working distance needed to position lighting correctly at close range.</p>
+<p>Depth of field at macro distances is extremely shallow — at 1:1 macro ratio, the depth of field at f/8 might be only 1–2mm. For pieces with depth (a ring with a raised stone setting, a brooch with multiple layers), we use focus stacking — photographing 10–20 frames at slightly different focus distances and combining them in post-production to achieve sharpness across the full depth of the piece. This technique is invisible in the final image but essential for professional jewellery product photography.</p>
+
+<h3>Lighting for Metal and Stone</h3>
+<p>The three primary materials in fine jewellery — gold, silver/white gold/platinum, and diamonds/coloured stones — each require different lighting approaches to look their best.</p>
+<p><strong>Gold</strong> photographs best under warm, directional light with carefully positioned reflectors that add dimensionality and reveal the texture of the surface. Yellow gold needs warm-temperature lighting to maintain its characteristic colour; rose gold benefits from slightly warmer sources that enhance its pink tone. Lighting that is too diffuse makes gold look flat; lighting that is too directional creates harsh specular reflections that blow out the highlights.</p>
+<p><strong>Silver and white metals</strong> (white gold, platinum, silver) are more challenging than gold because they reflect everything in the studio environment. We use a light tent or softbox arrangement for silver and white metal pieces that provides even, wrap-around illumination that avoids visible reflections of equipment or the photographer while maintaining the dimensional quality of the metal's surface.</p>
+<p><strong>Diamonds and faceted stones</strong> require a specific sparkle-lighting technique: a focused point-light source (a small LED at the right angle) triggers the internal reflection of the stone's facets, producing the characteristic fire and brilliance that makes a diamond look alive in a photograph. Without this technique, diamonds photograph as dull, glassy objects. With it, they look exactly as they do to the human eye in good light — extraordinary.</p>
+
+<h3>Background and Presentation</h3>
+<p>Jewellery is photographed against several different background types depending on the end use. White backgrounds (pure white for ecommerce platform requirements) provide the clean, distraction-free presentation required by Amazon, Noon, and most online retailers. Black backgrounds give fine jewellery a dramatic, luxury aesthetic that works for brand campaigns and editorial use. Textured backgrounds (marble, velvet, raw stone, fabric) provide the lifestyle context and aesthetic depth used in brand marketing and social media content. We discuss background requirements with clients before the session and prepare accordingly.</p>
+
+<h2>Jewellery Photography Output Types</h2>
+<p><strong>Ecommerce white background:</strong> Clean, white or off-white background, piece presented clearly, multiple angles (front, side, detail), colour-accurate, ready for platform upload.</p>
+<p><strong>Catalogue photography:</strong> Consistent style across a full collection, styled backgrounds and props, multiple pieces per image where relevant, high-resolution for print use.</p>
+<p><strong>Campaign and brand imagery:</strong> Creative direction, models or styled environments, retouched to campaign standard, usage-rights cleared for advertising placement.</p>
+<p><strong>Social media content:</strong> Multiple crops and formats, lifestyle-styled detail shots, behind-the-scenes content, Stories and Reels cover frames.</p>
+
+<h2>Jewellery Photography Packages — Dubai 2026</h2>
+<p><strong>Ecommerce Singles (From AED 150/piece):</strong> White background, 3 angles per piece, colour-accurate, retouched. Minimum 5 pieces per booking.</p>
+<p><strong>Catalogue Session (From AED 2,500/day):</strong> Full studio day, 15–25 pieces, multiple backgrounds, high-res delivery for print and digital.</p>
+<p><strong>Lifestyle Campaign (From AED 5,000):</strong> Creative direction, model or styled setup, 10–15 hero images, full retouching, usage rights.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Car Photography Dubai 2026 ───────────────────────────────────────────
+  {
+    slug: "car-photography-dubai-2026",
+    title: "Car Photography Dubai 2026 — Automotive & Supercar Photography UAE",
+    metaTitle: "Car Photography Dubai 2026 | Automotive Photography Dubai | Supercar Photographer UAE",
+    metaDescription: "Professional car photographer in Dubai. Automotive photography for dealerships, supercar owners, car brands & social media. Locations across Dubai. From AED 1,500.",
+    keywords: ["car photography dubai", "automotive photography dubai", "car photographer dubai 2026", "supercar photography dubai", "car photoshoot dubai uae", "automotive photographer dubai"],
+    category: "Commercial Photography",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=1200&q=80",
+    excerpt: "Dubai is one of the world's great car cities — a place where Lamborghinis sit in traffic next to Range Rovers and where the culture of car ownership is deeply woven into the social fabric of the city. Professional car photography in Dubai serves a market that ranges from personal supercar owners who want stunning images for social media to dealerships needing catalogue photography and brands commissioning full campaign productions.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does car photography cost in Dubai?", answer: "Car photography in Dubai starts from AED 1,500 for a personal car session at a single location (2–3 hours, 30–50 edited images). A multi-location automotive shoot covering 2–3 Dubai photography locations starts from AED 2,500 and delivers 60–80 images. Dealership catalogue photography — multiple vehicles shot in a consistent style for a car dealer's website and marketing — is priced per vehicle from AED 600, with full-day catalogue rates from AED 3,500 covering 6–8 vehicles. Full commercial automotive campaign production for a brand or launch event starts from AED 8,000." },
+      { question: "What are the best locations for car photography in Dubai?", answer: "Dubai has extraordinary car photography locations. The empty desert roads near Al Qudra provide clean asphalt with desert backdrop. The Dubai Frame area offers iconic architecture as a backdrop. Hatta Road through the Hajar Mountains gives dramatic winding roads and rocky scenery. Dubai Autodrome provides the professional motorsport backdrop. Al Meydan Road alongside the racecourse is clean and wide. JBR and the Palm Jumeirah boardwalk give the luxury waterfront aesthetic. For sunset shots, the raised section of Sheikh Zayed Road in the marina area is spectacular. We plan location routes with each client based on the car's character and the desired visual outcome." },
+      { question: "Do you photograph cars at night in Dubai?", answer: "Yes — night car photography in Dubai is one of the most dramatic automotive photography styles available. The city's light infrastructure — the LED-lit Sheikh Zayed Road, the illuminated Marina skyline, the neon reflections on wet roads after rain — provides backdrops that are unique to Dubai. Night car photography typically involves long exposures for light trails, light painting techniques that illuminate specific sections of the car using handheld LED torches, and the blue-hour window (15–30 minutes after sunset) when there is still some sky colour above the city lights." },
+      { question: "Can you do rolling shots and action photography of moving cars in Dubai?", answer: "Yes. Rolling shot photography — where the camera car drives alongside the subject vehicle at matching speed, capturing a moving car against a blurred background that shows motion — is one of the most effective automotive photography techniques. We use a camera car (or camera mount on a chase vehicle) with a specialist arm or gimbal mount, and coordinate the speed-matching with the subject vehicle driver. Rolling shots require a closed or low-traffic road, and we advise on appropriate locations and logistics for this type of shoot in Dubai." },
+    ],
+    relatedSlugs: ["automotive-photography-dubai-2026", "drone-photography-dubai-2026", "motorsport-photographer-dubai-2026"],
+    content: `
+<h2>Car Photography in Dubai — The Market</h2>
+<p>Dubai's relationship with cars is unlike any other city in the world. The combination of high disposable income, a car-centric urban design, a culture that celebrates automotive excellence, and one of the highest concentrations of luxury and exotic vehicles per capita in the world makes Dubai the Middle East's definitive automotive photography market. Any serious car — a Ferrari Roma, a Porsche GT3, a custom Land Cruiser, a vintage Mercedes — looks extraordinary against Dubai's visual backdrop, and the demand for professional automotive photography reflects this.</p>
+<p>The market breaks into four distinct segments: personal car photography for supercar and luxury car owners who want professional images for social media and personal portfolios; dealership catalogue photography for the city's hundreds of car dealers who need consistent, professional imagery of their stock; brand campaign photography for automotive companies launching products in the UAE market; and event photography for auto shows, launches, and car club gatherings.</p>
+
+<h2>Automotive Photography Techniques</h2>
+
+<h3>Static Beauty Shots</h3>
+<p>The static beauty shot is the foundation of automotive photography — the car positioned perfectly, clean and detailed, in a location that complements its character, photographed with the right lens, the right light, and the right composition. For a supercar, this might be a low angle on an empty desert road with the sun setting behind the mountain range in the distance. For a luxury SUV, it might be positioned at the entrance to a luxury hotel with the building's architecture creating a frame. For a classic car, it might be in the heritage district with traditional architecture as a backdrop.</p>
+<p>The key technical elements of a static car photograph: the car must be absolutely clean (any dust, fingerprints, or marks are highly visible in a professional photograph at large scale), the reflection on the car's surfaces must be managed (we use a polarising filter and position to avoid distracting reflections from the sky or surrounding environment), the angle must be flattering (typically a 3/4 front or rear angle that shows both the front and the side profile), and the light must be appropriate (golden hour for warmth, overcast for even detail on complex surfaces, blue hour for drama).</p>
+
+<h3>Environmental Location Photography</h3>
+<p>Environmental car photography uses Dubai's diverse landscape to place the vehicle in a context that reinforces its character. Desert roads for SUVs and off-road vehicles that emphasise capability. Coastal corniche roads for convertibles and sports cars that emphasise freedom. Urban downtown environments for luxury sedans and GT cars that emphasise sophistication. Mountain passes near Hatta for sports cars that emphasise performance. We plan each automotive shoot around the vehicle's character and the client's intended use for the images — a social media content shoot needs different locations from a brand campaign.</p>
+
+<h3>Detail Photography</h3>
+<p>Detail photography — close-up images of the car's distinctive design elements, interior, and features — is an essential component of professional automotive photography that many clients underestimate until they see the results. The stitching on a leather steering wheel, the texture of carbon fibre trim, the clarity of an instrument cluster, the curve of a brake caliper visible through the wheel spokes — these images provide visual depth and authenticity that wide exterior shots alone cannot achieve. Detail shots also perform exceptionally well on social media, where close-up compositions stop the scroll in a way that full-car images sometimes do not.</p>
+
+<h3>Night and Blue Hour Photography</h3>
+<p>Dubai's night environment is among the best in the world for automotive photography. The illuminated Sheikh Zayed Road provides streaked light trails behind a stationary car at 1/4–2 second exposures. The Burj Khalifa lights provide a dramatic vertical backdrop for cars parked in Downtown. The Marina waterfront reflects in puddles (or we create puddles artificially with water from a jerry can) to give lower-angle shots a mirror-image quality that doubles the visual impact. Light painting — using a handheld LED torch to selectively illuminate sections of the car during a long exposure — produces images with a dimensional, crafted quality that neither daylight nor standard night photography achieves.</p>
+
+<h2>Car Photography Packages — Dubai 2026</h2>
+<p><strong>Personal Car Session (From AED 1,500):</strong> 2–3 hours, 1 location, static beauty shots + details, 30–50 edited images, 1-week delivery.</p>
+<p><strong>Multi-Location Session (From AED 2,500):</strong> 4 hours, 2–3 locations, exterior + detail + interior, 60–80 images, 1-week delivery.</p>
+<p><strong>Dealership Catalogue (From AED 600/vehicle):</strong> Consistent style, 8–12 images per vehicle, web-ready and print-ready, full session from AED 3,500/day (6–8 vehicles).</p>
+<p><strong>Brand Campaign (From AED 8,000):</strong> Full creative direction, multiple locations, models if required, day rate production, commercial usage rights.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Interior Photography Dubai 2026 ─────────────────────────────────────
+  {
+    slug: "interior-photography-dubai-2026",
+    title: "Interior Photography Dubai 2026 — Architectural Interior & Property Photography UAE",
+    metaTitle: "Interior Photography Dubai 2026 | Interior Photographer Dubai | Architectural Photography UAE",
+    metaDescription: "Professional interior photographer in Dubai. Luxury homes, hotels, restaurants, offices & retail spaces. Architectural interior photography from AED 1,500.",
+    keywords: ["interior photography dubai", "interior photographer dubai", "architectural photography dubai 2026", "interior design photography dubai", "property interior photography dubai uae", "interior photographer uae"],
+    category: "Commercial Photography",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1200&q=80",
+    excerpt: "Dubai's built environment is one of the most photographically extraordinary in the world — luxury residential interiors, world-class hotel design, innovative office spaces, and the restaurant interiors that drive the city's food and beverage industry all require professional interior photography that captures design excellence at its best. This guide covers professional interior photography in Dubai across residential, hospitality, commercial, and retail settings.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does interior photography cost in Dubai?", answer: "Interior photography in Dubai starts from AED 1,500 for a residential property session covering 4–6 rooms with 20–30 edited images, delivered within one week. Hotel and hospitality interior photography for suites, lobbies, and dining spaces starts from AED 2,500 for a half-day session. Restaurant interior photography — typically covering the full dining room, bar area, and key design details — starts from AED 1,800 for a 3–4 hour session. Office and retail space photography starts from AED 1,500 for a standard session. Large-scale architectural interior projects are quoted per project based on scope and complexity." },
+      { question: "When is the best time to photograph interiors in Dubai?", answer: "Interior photography in Dubai works best at specific times of day depending on the orientation of the space. Spaces with east-facing windows photograph best in the morning (7:00–10:00am) when directional morning light enters horizontally and fills the space with warm, dimensional illumination. West-facing spaces photograph best in the afternoon and early evening. North-facing spaces receive consistent, cool, shadow-free light throughout the day and can be photographed at any time. For spaces without significant natural light, time of day matters less, but we schedule sessions to allow sufficient setup time and avoid times when client activity disrupts the space." },
+      { question: "Do you use HDR or flash for interior photography in Dubai?", answer: "We use a combination of techniques depending on the specific space and its lighting conditions. For spaces with complex mixed lighting (a combination of daylight through windows, LED downlights, and accent lighting), we use a flash-blending technique: capturing the ambient exposure of the room and separately lit flash frames that fill shadows and balance the window light, then blending these in post-production. This produces results that look natural while being technically perfect — no blown-out windows, no dark shadows, and no HDR artefacts. Pure HDR processing for interior photography produces an artificial look that we avoid." },
+      { question: "Do you photograph interiors for real estate listings in Dubai?", answer: "Yes — we provide real estate interior photography for property listings across Dubai, from studio apartments to full-floor penthouses and luxury villas. Property listing photography focuses on making spaces look as large, bright, and appealing as possible within accurate representation. We use wide-angle lenses, careful staging advice (removing clutter, adjusting furniture positions), and professional lighting to ensure every room photographs at its best. See our <a href='/blog/real-estate-photography-dubai-2026'>real estate photography guide</a> for more detail on property listing photography." },
+    ],
+    relatedSlugs: ["real-estate-photography-dubai-2026", "hotel-photography-dubai-2026", "architecture-photography-dubai-2026"],
+    content: `
+<h2>Interior Photography in Dubai — Why Spaces Need to Be Shown at Their Best</h2>
+<p>Dubai's built environment represents some of the most significant design and construction investment in the world. The city's hotels, residences, restaurants, and commercial spaces are designed to an extraordinary standard — and that design investment is only fully realised when the spaces are photographed by someone who understands how to capture architecture, light, and interior design at their best.</p>
+<p>Interior photography in Dubai serves a market that ranges from interior designers who need portfolio images of their completed projects to hotel groups who need imagery for their reservations platform, from restaurant groups who need atmospheric interiors to drive bookings to property developers who need show apartment photography that sells off-plan units before a building is complete. Each of these applications requires photography that makes the space look extraordinary — and achieving that consistently requires specialist technical knowledge that general photography cannot provide.</p>
+
+<h2>The Technical Approach to Interior Photography</h2>
+
+<h3>Lenses and Perspective</h3>
+<p>Interior photography uses wide-angle lenses to show the full extent of a space in a single frame — typically a 16–24mm rectilinear wide-angle on a full-frame camera. The challenge with wide-angle interior photography is controlling perspective distortion: walls that lean inward, converging vertical lines, and the spatial exaggeration that wide-angle lenses introduce when used carelessly. We use a combination of careful lens and camera positioning and precise correction in post-production (correcting perspective and keeping verticals truly vertical) to produce interior images that are visually wide and spacious without the artificial distortions that poorly-corrected wide-angle photography produces.</p>
+
+<h3>Managing Mixed Light Sources</h3>
+<p>Dubai's interiors typically have multiple light sources: daylight through windows, LED ceiling downlights, warm accent lighting from table lamps and decorative fixtures, and often neon or RGB accent lighting in hospitality spaces. Each of these light sources has a different colour temperature and a different brightness level, and a camera's sensor cannot simultaneously capture them all as the human eye does. Interior photography technique addresses this through two approaches: ambient exposure blending (using multiple exposures to balance different light levels) and supplementary flash (adding artificial light from outside windows to balance the interior exposure with the daylight). The result is interior photography that looks as the designer intended — warm and inviting — rather than the harsh, yellow-tinged, blown-out-windows imagery that untreated interior photography typically produces.</p>
+
+<h3>Styling and Staging</h3>
+<p>The most technically perfect interior photograph is undermined by a cluttered, unstaged space. We work with clients on styling before the shoot begins: removing personal items from surfaces, adjusting furniture positions for better sightlines and compositions, ensuring all visible light switches and wall outlets are within the off position, and attending to the small details (straightened cushions, evenly-spaced table settings, clear countertops) that separate a photograph of a space from a photograph of a design. For hospitality and retail clients, we coordinate with the venue's own styling team to ensure the space is presented exactly as the brand intends.</p>
+
+<h2>Interior Photography Applications in Dubai</h2>
+
+<h3>Residential Interior Photography</h3>
+<p>Luxury residential interior photography in Dubai serves multiple audiences: interior designers documenting completed projects for their portfolio, homeowners who want architectural photography of their own space, property developers photographing show apartments for off-plan sales marketing, and real estate agents photographing properties for listing photography. Each application has different priorities: portfolio photography emphasises design excellence and creative detail; listing photography emphasises space and practicality; show apartment photography emphasises aspiration and lifestyle.</p>
+
+<h3>Hotel and Hospitality Interior Photography</h3>
+<p>Hotels in Dubai compete for international bookings on platforms where photography is the primary decision-making tool. The photography quality of a hotel's room type, its lobby, its restaurant, and its amenity spaces directly influences click-through rates, booking conversions, and the perception of value. We produce hotel interior photography that meets the technical specifications of international hotel booking platforms (minimum resolution, aspect ratio requirements, metadata standards) while achieving the creative quality that differentiates a Dubai hotel in a highly competitive market.</p>
+
+<h3>Restaurant and F&B Interior Photography</h3>
+<p>Restaurant photography in Dubai divides into interior photography (the space, the design, the atmosphere) and food photography (the dishes, the plating, the production values of the kitchen). Interior photography of a restaurant establishes the context — what it feels like to be there, why you would choose it for an occasion. We photograph restaurants at the time of day or evening that best represents their atmosphere: breakfast restaurants in morning light, dinner restaurants in the golden ambient lighting of service, rooftop bars at blue hour when the sky is still visible behind the Dubai skyline.</p>
+
+<h2>Interior Photography Packages — Dubai 2026</h2>
+<p><strong>Residential Property (From AED 1,500):</strong> 4–6 rooms, 20–30 edited images, perspective corrected, HDR-blended, 1-week delivery.</p>
+<p><strong>Restaurant / Retail Space (From AED 1,800):</strong> Full space + key details, 25–40 images, styled and staged, ambient + flash-blended, 1-week delivery.</p>
+<p><strong>Hotel Suite / Hospitality (From AED 2,500):</strong> Full suite or public area, 30–50 images, OTA-spec delivery, 1-week turnaround.</p>
+<p><strong>Full Interior Design Portfolio (From AED 4,500):</strong> Full project documentation, 50–80 images, print and web resolutions, designer credit formatting.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Perfume Photography Dubai 2026 ──────────────────────────────────────
+  {
+    slug: "perfume-photography-dubai-2026",
+    title: "Perfume Photography Dubai 2026 — Fragrance & Oud Product Photography UAE",
+    metaTitle: "Perfume Photography Dubai 2026 | Fragrance Photography Dubai | Oud Photography UAE",
+    metaDescription: "Professional perfume and fragrance photographer in Dubai. Oud, attar, luxury perfume & fragrance bottles. Studio product photography from AED 200/bottle.",
+    keywords: ["perfume photography dubai", "fragrance photography dubai", "oud photography dubai 2026", "perfume product photography uae", "fragrance photographer dubai", "attar photography dubai"],
+    category: "Commercial Photography",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1541643600914-78b084683702?w=1200&q=80",
+    excerpt: "Dubai is the world capital of oud and Arabian fragrance — a city where perfume is woven into the culture, where the oud market generates billions annually, and where luxury fragrance brands from across the world have their regional headquarters. Perfume photography in Dubai is a specialist discipline that requires mastery of glass, liquid, and reflective surface photography — some of the most technically demanding product photography that exists.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does perfume photography cost in Dubai?", answer: "Perfume photography in Dubai starts from AED 200 per bottle for standard ecommerce product shots (white or black background, 3 angles, retouched). Creative lifestyle perfume photography — with styled backgrounds, props, fabric, and atmospheric lighting — starts from AED 400 per hero image. A full fragrance launch campaign with multiple setups, bottle variations, and campaign-standard retouching starts from AED 4,000 for a half-day production. Oud and attar photography (typically smaller bottles with very detailed glass work) starts from AED 250 per piece." },
+      { question: "How do you photograph transparent glass perfume bottles without reflections?", answer: "Transparent glass perfume photography is technically one of the most demanding forms of product photography. Glass reflects everything in the environment — including the camera, the photographer, the lights, and the background. We use a specialist glass photography technique: a lightbox or tent arrangement with carefully controlled light transmission through the glass rather than reflection off it, combined with post-production to remove any remaining environmental reflections. The result shows the bottle's shape, the colour of the liquid inside, and the design of the cap and label clearly, without the distracting reflections that untreated glass photography produces." },
+      { question: "Can you photograph oud sticks and bakhoor alongside bottles?", answer: "Yes. Oud sticks, bakhoor (incense), wood chips, and the accessories of Arabian fragrance culture are regular elements of our perfume photography setups. These items add cultural authenticity and visual warmth to fragrance photography that is particularly appropriate for Gulf and Arabian fragrance brands. We also photograph the smoke of burning oud for atmospheric images — capturing the smoke trails against dark backgrounds requires controlled studio conditions and multiple exposures to produce usable results, but the visual effect is highly distinctive and extremely popular for Arabian fragrance brand marketing." },
+      { question: "What backgrounds work best for luxury perfume photography in Dubai?", answer: "Background choice for perfume photography depends on the brand positioning. Pure white or pure black backgrounds provide the clean, distraction-free presentation required for ecommerce platforms. Dark, textured backgrounds (black marble, dark velvet, slate) give luxury fragrances a premium, editorial feel that works for campaign imagery and social media. Arabian-themed props and backgrounds — oud wood, traditional fabrics, brass incense burners, desert sand — work specifically for Middle Eastern and Arabian fragrance brands to connect the product visually to its cultural heritage. Gold and copper tones work well for oud brands targeting the luxury Gulf market." },
+    ],
+    relatedSlugs: ["product-photography-dubai-2026", "cosmetics-photography-dubai-2026", "ecommerce-product-photography-dubai-2026"],
+    content: `
+<h2>Perfume Photography in Dubai — The Cultural and Commercial Context</h2>
+<p>In few cities in the world is fragrance as culturally significant as it is in Dubai and the wider Gulf. Oud — the resinous wood from agarwood trees that forms the foundation of Arabian perfumery — is among the most valuable natural materials in the world, and Dubai's oud and fragrance market is one of the most significant in the global luxury goods economy. The city hosts regional offices for Chanel, Dior, and Creed, while simultaneously being the base for major Arabian fragrance houses like Rasasi, Al Haramain, Swiss Arabian, and dozens of newer independent fragrance brands emerging from the Gulf's growing luxury sector.</p>
+<p>This extraordinary concentration of fragrance brands — international luxury houses, established Arabian perfumers, and a growing cohort of independent niche brands — creates a substantial and continuous demand for professional perfume photography. Every fragrance brand needs ecommerce imagery, campaign photography, social media content, and the catalogue and editorial photography that supports product launch cycles.</p>
+
+<h2>The Technical Challenge of Perfume Photography</h2>
+
+<h3>Glass and Transparency</h3>
+<p>Perfume bottles are predominantly glass — and glass is the most technically challenging material in product photography. A glass bottle reflects its entire environment: the light sources, the camera, the photographer, the walls and ceiling of the studio. An untreated glass photograph typically shows the reflection of the studio infrastructure as clearly as it shows the bottle itself. The solution is a tent-lighting approach that wraps the bottle in uniform, seamless light that creates clean gradient tones on the glass surface rather than sharp reflections of individual light sources. This technique, combined with careful reflector placement and post-production clean-up, produces glass photography where the bottle's shape and the liquid's colour read clearly and beautifully without environmental reflections.</p>
+
+<h3>Liquid Colour and Depth</h3>
+<p>Many premium fragrances are distinctively coloured — the amber of a classic oriental, the pale gold of a fresh floral, the dark richness of an oud-based concentrate. Capturing these liquid colours accurately in photography requires careful colour management: calibrated monitors, correct white balance, and post-processing that preserves the specific hue of the liquid without shifting it toward orange (a common failure mode in warm-toned studio lighting). For very dark liquids (some ouds are almost black), backlighting through the bottle reveals the depth and warmth of the liquid that front lighting alone obscures.</p>
+
+<h3>Atomiser and Cap Detail</h3>
+<p>The cap and atomiser of a premium fragrance bottle are often as exquisitely designed as the bottle itself — engraved metal caps, gemstone details, decorative spray heads. These elements require macro photography and careful lighting to show the craftsmanship at the scale and detail that the brand intends. We shoot caps and atomiser details separately at 1:1 macro magnification and composite these high-detail shots with the full bottle image if required for campaign use.</p>
+
+<h2>Oud Photography — A Specialist Category</h2>
+<p>Oud photography encompasses not just the bottles that contain oud-based fragrances but the raw material itself: oud wood chips, oud resin, agarwood pieces, and the bakhoor incense blocks that are central to Gulf home fragrance culture. Raw oud photography emphasises the visual richness of the material: the dark, gnarled texture of the wood, the resinous surface that catches light, and the cultural artifacts (traditional incense burners, brass vessels, woven accessories) that provide contextual authenticity. Smoke photography — capturing the trails of oud smoke against a dark background — is a highly distinctive visual that appears extensively in Arabian fragrance marketing and requires specific studio conditions to produce well.</p>
+
+<h2>Perfume Photography Packages — Dubai 2026</h2>
+<p><strong>Ecommerce Bottles (From AED 200/bottle):</strong> White or black background, 3 angles, retouched, colour accurate. Min. 5 bottles per booking.</p>
+<p><strong>Lifestyle Hero Shots (From AED 400/image):</strong> Styled background, props, atmospheric lighting, full retouch. Min. 5 images per booking.</p>
+<p><strong>Oud & Bakhoor Photography (From AED 250/piece):</strong> Raw material, accessories, smoke photography options.</p>
+<p><strong>Fragrance Campaign Production (From AED 4,000):</strong> Half-day, full creative direction, 15–20 final images, campaign-standard retouching, usage rights.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Cosmetics Photography Dubai 2026 ────────────────────────────────────
+  {
+    slug: "cosmetics-photography-dubai-2026",
+    title: "Cosmetics Photography Dubai 2026 — Beauty & Makeup Product Photography UAE",
+    metaTitle: "Cosmetics Photography Dubai 2026 | Beauty Photography Dubai | Makeup Product Photographer UAE",
+    metaDescription: "Professional cosmetics and beauty product photographer in Dubai. Makeup, skincare, haircare & beauty brand photography for ecommerce and campaigns. From AED 120/product.",
+    keywords: ["cosmetics photography dubai", "beauty photography dubai", "makeup photography dubai 2026", "skincare photography dubai", "beauty product photographer uae", "cosmetics photographer dubai"],
+    category: "Commercial Photography",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=1200&q=80",
+    excerpt: "Dubai's beauty and cosmetics market is one of the fastest-growing in the world — the UAE's beauty sector is valued at billions annually, driven by a population with high disposable income, strong brand awareness, and an active social media beauty community. Professional cosmetics photography in Dubai is the commercial foundation of every beauty brand's marketing, from ecommerce product shots that drive online sales to campaign imagery that builds brand identity.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does cosmetics photography cost in Dubai?", answer: "Cosmetics photography pricing in Dubai depends on product type and output requirements. Simple ecommerce product photography (lipstick, mascara, foundation on white background) starts from AED 120 per product. Lifestyle beauty photography with styled backgrounds, props, and creative composition starts from AED 300 per hero image. A full beauty brand catalogue session covering 20–30 products starts from AED 2,500 for a full studio day. Model-applied beauty photography (makeup swatches on skin, skincare routine shots, hair product results) involves model casting and starts from AED 3,500 for a half-day production." },
+      { question: "What types of cosmetics do you photograph in Dubai?", answer: "We photograph the full range of cosmetics and beauty products: colour cosmetics (lipsticks, eyeshadow palettes, blush, highlighter, foundation), skincare (serums, moisturisers, cleansers, face masks, eye creams), haircare (shampoo, conditioner, oils, treatments), body care (lotions, body butter, scrubs), fragrances and parfums (see our <a href='/blog/perfume-photography-dubai-2026'>perfume photography guide</a>), nail products, and professional salon and spa products. We also photograph beauty tools and accessories: makeup brushes, applicators, gua sha tools, and electronic beauty devices." },
+      { question: "Can you photograph makeup swatches and on-skin product demonstrations?", answer: "Yes. On-skin beauty photography — showing makeup swatches on arms or hands, skincare product texture on skin, and the before/after result of beauty treatments — requires model casting (we work with Dubai-based model agencies for specific skin tone requirements), specialist macro photography of skin texture, and careful lighting that shows both the product and the skin quality accurately. On-skin beauty photography is particularly important for brands that need to show products across multiple skin tones, which is a significant consideration for the UAE's diverse market." },
+      { question: "Do you work with Dubai-based beauty brands and influencer brands?", answer: "Yes — we work with established UAE beauty retailers, international brands entering the GCC market, and the growing number of Dubai-based influencer beauty brands that have launched their own product lines. Dubai's beauty influencer economy is substantial, and several homegrown beauty brands have been launched by UAE-based content creators who need professional photography to compete with established brands at the retail and ecommerce level. We understand the specific visual requirements of this segment — high social media performance, strong colour accuracy, and a creative aesthetic that stands out on Instagram and TikTok." },
+    ],
+    relatedSlugs: ["product-photography-dubai-2026", "perfume-photography-dubai-2026", "ecommerce-product-photography-dubai-2026"],
+    content: `
+<h2>Cosmetics Photography in Dubai — The Beauty Market</h2>
+<p>The UAE beauty and personal care market is one of the most dynamic in the world. High per-capita income, a young and beauty-conscious population, strong penetration of international luxury brands, and the enormous influence of social media on purchasing decisions have created a beauty market that grows consistently year on year. Dubai is the hub of this market — the city where international brands launch their GCC collections, where Dubai-based influencers launch their own product lines, and where the visual standard for beauty marketing is set by a combination of international brand investment and a highly sophisticated local consumer base.</p>
+<p>In this environment, cosmetics photography is a commercial necessity, not an optional enhancement. A beauty brand that cannot compete visually on Instagram, on its own website, and on ecommerce platforms like Sephora and Namshi is at a fundamental competitive disadvantage — and the quality of product photography is the single most direct visual signal of a brand's positioning and price point.</p>
+
+<h2>Categories of Cosmetics Photography</h2>
+
+<h3>Ecommerce Product Photography</h3>
+<p>Ecommerce cosmetics photography — clean, clear, colour-accurate product images against white or light backgrounds — is the foundation of any beauty brand's online presence. Every product sold on a brand's own website, on Sephora, on Amazon UAE, on Namshi, or on any other online retail platform needs ecommerce photography that meets the platform's technical specifications and presents the product accurately. The specific challenges of ecommerce cosmetics photography include: accurate colour reproduction (a lipstick that looks red on the website but arrives coral creates immediate return rate issues), consistent style across a product range, and flattering but accurate lighting that shows the product's surface finish (matte, satin, metallic) correctly.</p>
+
+<h3>Lifestyle and Editorial Beauty Photography</h3>
+<p>Beyond ecommerce, beauty brands need lifestyle photography for their campaigns, social media, and editorial placements. Lifestyle cosmetics photography places products in a visual context: styled flat lays with complementary props, products arranged with flowers, fabrics, and textures, or products photographed in the setting of a beauty ritual (morning skincare routine on a marble countertop, evening makeup laid out before application). These images are the creative expression of the brand's identity — they communicate the emotional world of the brand rather than just the product itself.</p>
+<p>Dubai's beauty market has specific aesthetic preferences that differ from some other markets: the Gulf luxury aesthetic tends toward gold tones, rich textures, and an overall sense of opulence that reflects the market's cultural context. We understand these preferences and apply them when appropriate for brands targeting the GCC consumer specifically.</p>
+
+<h3>Model and Skin Beauty Photography</h3>
+<p>Some cosmetics categories require photography that shows the product in use on skin: foundation swatches across a range of skin tones, eyeshadow looks applied on a model, skincare products shown being applied to the face. Dubai's diverse population makes it an excellent location for multi-skin-tone beauty photography — finding models representing the range of skin tones in the UAE market (South Asian, Arab, East African, European, East Asian) is practical in a way that is simply not possible in more homogeneous markets. Model beauty photography is the most production-intensive category of cosmetics photography, requiring model casting, makeup artist booking, and full creative direction, but it produces the imagery with the highest emotional resonance and strongest sales conversion.</p>
+
+<h3>Flat Lay and Styled Compositions</h3>
+<p>Flat lay photography — products arranged and photographed from directly above — is one of the most used and most effective formats for beauty social media content. A well-styled flat lay of a skincare routine, a makeup collection, or a gift set communicates product range, brand aesthetic, and aspirational lifestyle in a single image. Flat lay styling is a creative discipline in itself: the choice of background, the selection of complementary props, the arrangement of products, and the lighting all require deliberate decision-making. We bring styling expertise to every flat lay session, working with clients on prop selection and arrangement before the shoot begins.</p>
+
+<h2>Cosmetics Photography Packages — Dubai 2026</h2>
+<p><strong>Ecommerce Product (From AED 120/product):</strong> White background, 3 angles, colour-accurate, retouched. Min. 10 products per booking.</p>
+<p><strong>Lifestyle Hero Images (From AED 300/image):</strong> Styled composition, creative direction, full retouch. Min. 5 images.</p>
+<p><strong>Full Brand Catalogue Day (From AED 2,500):</strong> Studio day, 20–30 products, ecommerce and lifestyle outputs, complete brand image library.</p>
+<p><strong>Model Beauty Production (From AED 3,500):</strong> Half-day, model casting, MUA, on-skin product shots, campaign retouching.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
 ];
 export function getBlogPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
