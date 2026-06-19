@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.backyardstudioofficial.com"),
   title: {
     default: "Лучшая студия видеопроизводства в Дубае | Backyard Studio Official",
-    template: "%s | Backyard Studio Official",
+    template: "%s | Backyard Studio",
   },
   description:
     "Профессиональная видеосъёмка и фотография в Дубае и ОАЭ. Корпоративное видео, свадебная съёмка, контент для соцсетей, аэросъёмка дроном. Более 2,400 реализованных проектов. Лицензия GCAA.",

@@ -13,8 +13,8 @@ const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "G-MES1TPW4VC";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.backyardstudioofficial.com"),
   title: {
-    default: "Best Production Company in Dubai | Backyard Studio Official — UAE #1 2026",
-    template: "%s | Backyard Studio Official",
+    default: "Best Production Studio in Dubai 2026 | Backyard Studio",
+    template: "%s | Backyard Studio",
   },
   description:
     "Dubai's best production company for video, events, weddings & social media shoots. DVCs, Instagram Reels, TikTok content, corporate films, wedding photography & drone production across all 7 UAE emirates. 2,400+ projects. GCAA licensed.",

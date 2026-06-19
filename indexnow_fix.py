@@ -223,6 +223,15 @@ URLS = [
     f"https://{HOST}/blog/studio-rental-dubai-2026",
     f"https://{HOST}/blog/2d-animation-dubai-2026",
     f"https://{HOST}/blog/post-production-dubai-2026",
+    # EN Blog posts — Sprint 7: Tier 2 video service pages (2026-06-18)
+    f"https://{HOST}/blog/timelapse-video-dubai-2026",
+    f"https://{HOST}/blog/voice-over-artist-dubai-2026",
+    f"https://{HOST}/blog/arabic-voice-over-dubai-2026",
+    f"https://{HOST}/blog/tv-commercial-dubai-2026",
+    f"https://{HOST}/blog/commercial-production-dubai-2026",
+    f"https://{HOST}/blog/conference-video-dubai-2026",
+    f"https://{HOST}/blog/event-videographer-dubai-2026",
+    f"https://{HOST}/blog/explainer-video-dubai-2026",
 ]
 
 payload = {

@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     description: "迪拜领先制作公司。超过2,400个项目。GCAA执照。",
     images: ["/og-image.jpg"],
   },
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: false },
 };
 
 function ZhNavbar() {

@@ -6520,6 +6520,599 @@ export const BLOG_POSTS: BlogPost[] = [
 `,
   },
 
+  // ─── Sprint 7: Tier 2 Video Service Pages ────────────────────────────────
+
+  // ─── Timelapse Video Dubai 2026 ───────────────────────────────────────────
+  {
+    slug: "timelapse-video-dubai-2026",
+    title: "Timelapse Video Dubai 2026",
+    metaTitle: "Timelapse Video Dubai 2026 | Backyard Studio",
+    metaDescription: "Professional timelapse video production in Dubai for construction projects, corporate events and city skylines. Long-term site documentation and single-day shoots. From AED 1,200.",
+    keywords: [
+      "timelapse video dubai",
+      "time lapse video dubai",
+      "construction timelapse dubai",
+      "timelapse production dubai",
+      "time lapse photography dubai",
+      "timelapse company dubai",
+      "construction time lapse dubai",
+    ],
+    category: "Video Production",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&q=80",
+    excerpt: "Timelapse video production in Dubai for construction documentation, corporate events and brand content — single-day shoots and long-term monthly site visits from Backyard Studio.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      {
+        q: "How much does timelapse video production cost in Dubai?",
+        a: "Timelapse production in Dubai starts from AED 1,200 for a single-location event timelapse (4-8 hours of compressed footage, same-day or next-day delivery). Construction timelapse on a monthly visit basis starts from AED 2,500 per visit. Long-term construction documentation contracts (12+ months with monthly visits and quarterly edits) start from AED 18,000 total.",
+      },
+      {
+        q: "What is timelapse video used for in Dubai?",
+        a: "The most common uses in Dubai are: construction progress documentation for developers and contractors (monthly site visits compressed into a 2-4 minute project film), corporate event coverage (a full conference day compressed into 60-90 seconds for social media), city and skyline content for tourism and destination marketing, and product or interior reveal sequences for brand content.",
+      },
+      {
+        q: "How long does a timelapse production take?",
+        a: "The capture time varies from hours to months. A single-day event timelapse requires 4-12 hours of on-site camera time, compressed into 30-120 seconds of footage. Construction timelapse involves monthly visits over 6-24 months, with a final edited film produced at project completion. Delivery of the final edited timelapse video is typically 24-48 hours after capture.",
+      },
+      {
+        q: "Do you provide permanent timelapse camera installations in Dubai?",
+        a: "Yes — for long-term construction projects we offer permanent camera installations mounted on site (rooftop, scaffold, or secure pole) that capture automatically at set intervals. We handle installation, maintenance, remote monitoring, and periodic data retrieval. This is the standard approach for major construction projects in Dubai where the site needs continuous documentation over 12-36 months.",
+      },
+      {
+        q: "Can you shoot timelapse at night in Dubai?",
+        a: "Yes — night timelapse in Dubai is particularly striking given the city's skyline lighting, traffic trails, and cloud movement over the Gulf. Night timelapse requires different camera settings and longer intervals than day shooting. We regularly combine day-to-night timelapse sequences for construction documentation and city content.",
+      },
+      {
+        q: "What is the difference between timelapse and hyperlapse?",
+        a: "Timelapse is shot from a fixed camera position — the camera stays still while time compresses. Hyperlapse involves the camera moving through space while compressing time — typically walking or driving a route, with each frame shot at a different physical position. The result is a moving journey compressed in time. We produce both: timelapse for static scenes and construction, hyperlapse for walking tours, venue reveals, and dynamic city content.",
+      },
+    ],
+    relatedSlugs: [
+      "corporate-video-production-dubai-2026",
+      "live-streaming-dubai-2026",
+      "drone-photography-dubai-2026",
+    ],
+    content: `
+<h2>Timelapse Video in Dubai: What It Does and When to Use It</h2>
+<p>Timelapse is one of the most underused formats in corporate and brand video production in Dubai. Used correctly, it communicates in seconds what a standard video would take minutes to convey — the rise of a building from foundation to facade, the energy of a conference hall filling with delegates, the transformation of an empty plot into a completed residential tower. The compression of time is the message, and it is a message that no other video format delivers.</p>
+<p>Dubai's built environment makes it a natural market for timelapse production. The pace of construction in the city — new towers, infrastructure projects, mixed-use developments, and district-scale master plans — creates consistent demand for construction timelapse documentation. Beyond construction, the city's corporate event calendar, skyline, and desert landscape give timelapse a range of creative applications that few other cities match.</p>
+<h2>Construction Timelapse Documentation</h2>
+<p>Construction timelapse is the single most common timelapse brief we receive in Dubai. Developers, contractors, and project management firms use timelapse documentation for two distinct purposes: internal project management records that show progress against timeline, and marketing content that shows the completed project's story from ground-breaking to handover.</p>
+<p>The marketing use case is particularly valuable. A developer selling off-plan units in Phase 2 of a project can show prospective buyers a timelapse of Phase 1 rising from foundation to completion — tangible evidence that the developer delivers. A contractor bidding for new work can show a timelapse of a comparable completed project as proof of capability. These are high-value content pieces that serve the business for years after the project completes.</p>
+<p>Our construction timelapse approach: we visit the site monthly (or at agreed intervals), capture from a consistent vantage point so sequences can be edited together coherently, and deliver interim progress cuts every quarter. At project completion, we produce the final edited timelapse film with music, titles, and drone aerials integrated. The whole production history of the project is documented in one piece of content.</p>
+<h2>Corporate Event Timelapse</h2>
+<p>A full day corporate conference — registration, morning keynotes, breakout sessions, lunch, afternoon panels, networking drinks — generates eight hours of footage that nobody watches in full. A timelapse of the same day, compressed to 90 seconds, captures the energy, scale, and organisation of the event in a format that works on social media, in the post-event report, and in the pitch deck for next year's edition.</p>
+<p>We position timelapse cameras at strategic points around the venue — registration desk, main hall, networking areas — and run them for the full event duration. The edit compresses the day into a punchy overview that communicates scale and atmosphere without requiring the viewer to commit time.</p>
+<h2>City and Skyline Timelapse</h2>
+<p>Dubai's skyline is one of the most photogenic urban environments on the planet, and timelapse does it justice in a way that photography cannot. The movement of clouds over the Burj Khalifa, traffic trails on Sheikh Zayed Road at dusk, the sun rising behind the Dubai Frame and casting long shadows across the creek — these are sequences that only timelapse reveals. We produce Dubai skyline timelapse for tourism boards, destination marketing campaigns, hotel lobby content, and commercial brand videos that need a visually stunning establishing sequence.</p>
+<h2>Timelapse Equipment and Technical Approach</h2>
+<p>Professional timelapse requires more than pointing a camera and pressing a button. The quality of timelapse depends on precise interval timing, exposure consistency across changing light conditions (requiring either manual exposure lock or deflicker in post), motion control for moving timelapse sequences, and sufficient storage and battery capacity for long capture sessions. We use Sony and Blackmagic cameras on motorised motion control heads for dynamic timelapse, with interval timers calibrated for each specific capture scenario.</p>
+<p>For construction timelapse, we use weatherproofed camera housings mounted in fixed positions with remote monitoring and automatic data backup. Sites in Dubai's climate need housings rated for the temperature ranges and occasional sand exposure that come with outdoor installation in the Gulf.</p>
+<h2>Timelapse Pricing — Dubai 2026</h2>
+<p>Single-location event timelapse (full day, edited delivery next day): from AED 1,200. Corporate conference timelapse (multi-camera, full-day, edited 90-second social cut): from AED 2,500. Construction timelapse monthly visit (single camera, consistent vantage point): from AED 2,500/visit. Long-term construction contract (12 months, monthly visits, quarterly cuts, final film): from AED 18,000. Permanent camera installation (hardware, mounting, 12-month monitoring): quoted per project.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Voice Over Artist Dubai 2026 ─────────────────────────────────────────
+  {
+    slug: "voice-over-artist-dubai-2026",
+    title: "Voice Over Artist Dubai 2026",
+    metaTitle: "Voice Over Artist Dubai 2026 | Backyard Studio",
+    metaDescription: "Professional English voice over recording in Dubai for corporate videos, explainers, e-learning, IVR and commercial ads. Native and non-native English talent. From AED 350.",
+    keywords: [
+      "voice over artist dubai",
+      "voice over dubai",
+      "english voice over dubai",
+      "professional voice over dubai",
+      "voice over recording dubai",
+      "voice over services dubai",
+      "voice over talent dubai",
+    ],
+    category: "Video Production",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=1200&q=80",
+    excerpt: "Professional voice over recording in Dubai for corporate video, explainers, e-learning and IVR — English voice over talent with broadcast-quality studio recording from Backyard Studio.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      {
+        q: "How much does voice over recording cost in Dubai?",
+        a: "Voice over rates in Dubai depend on project type and usage. A 30-second commercial spot starts from AED 350. A 60-second corporate video or explainer starts from AED 600. A 2-3 minute e-learning module starts from AED 1,200. IVR or on-hold messaging (per menu level, typically 8-15 prompts) starts from AED 800. Long-form e-learning (per 10 minutes of recorded audio) starts from AED 2,500. Broadcast commercial usage (TV, radio) carries additional usage rights on top of the recording session fee.",
+      },
+      {
+        q: "What English accents are available for voice over in Dubai?",
+        a: "We work with voice over talent across British RP, General American, Australian, South African, and neutral international English accents. The right accent choice depends on the target audience: British RP works well for luxury brands and pan-Arabic English-language content; General American is preferred for tech, finance, and North American audience targets; neutral international English is ideal for global corporate content where no specific accent is preferred.",
+      },
+      {
+        q: "Can you match a specific voice style or reference I have?",
+        a: "Yes — if you have a reference voice (from a previous campaign, a competitor's content, or a specific artist or broadcaster), we can find talent that matches the tone, pace, and energy of that reference. We can also audition multiple voice artists on your script before you commit, so you choose based on actual recordings of your content rather than demo reels.",
+      },
+      {
+        q: "How long does voice over recording take?",
+        a: "A 60-second script takes approximately 30-60 minutes in the studio (including warm-up, multiple takes, and director's pick edits). A 3-minute explainer takes 1-2 hours. A full e-learning course of 20-30 minutes of audio takes a full studio day. Same-day or next-day delivery is standard for short commercial projects.",
+      },
+      {
+        q: "Do you provide a director during voice over recording sessions?",
+        a: "Yes — all Backyard Studio voice over sessions include a recording director who works with the talent to achieve the right tone, pace, and energy for your project. If you want to attend the session in person or remotely via video call to provide real-time feedback and direction, that is standard practice. The director's role is to ensure the talent delivers what your brief requires, not just technically acceptable audio.",
+      },
+      {
+        q: "What audio format do you deliver voice over recordings in?",
+        a: "We deliver broadcast-quality audio as WAV or AIFF at 48kHz/24-bit for video post-production, and MP3 at 320kbps for web and streaming use. If you have specific delivery specifications from your broadcaster, post-production facility, or audio system, we match those specifications. We also deliver stems separately if required — dry voice, with music, with sound design — for maximum flexibility in your edit.",
+      },
+    ],
+    relatedSlugs: [
+      "arabic-voice-over-dubai-2026",
+      "explainer-video-dubai-2026",
+      "post-production-dubai-2026",
+    ],
+    content: `
+<h2>Voice Over in Dubai: What the Market Looks Like</h2>
+<p>Dubai's multilingual corporate environment creates constant demand for voice over production. A brand operating across the UAE and GCC typically needs content in English, Arabic, and sometimes Hindi, Tagalog, or Russian — each requiring native talent who can deliver the language with the credibility and accent that the audience expects. Producing voice over in Dubai rather than sourcing it remotely removes timezone delays, allows real-time direction, and gives you access to talent with genuine familiarity with the Dubai and GCC market context.</p>
+<p>We have been producing voice over content in Dubai since 2016 for corporate videos, explainer animations, e-learning courses, IVR systems, on-hold messaging, TV commercials, radio spots, and documentary narration. The range of formats matters — a TV commercial voice requires a different approach than an e-learning narrator, and a luxury brand voice requires something different again from a financial services disclaimer read.</p>
+<h2>Types of Voice Over Projects We Produce</h2>
+<h3>Corporate Video Narration</h3>
+<p>Corporate video narration is the most common voice over brief: a 2-5 minute company profile film, product launch video, or brand film needs a voice that carries authority without sounding stiff, communicates warmth without losing professionalism, and matches the visual tone of the edit. We cast from our roster of experienced voice artists who have delivered corporate narration for regional and international brands, and we direct each session toward the specific tone and pace your edit requires.</p>
+<h3>Explainer Video Voice Over</h3>
+<p>Explainer video voice over is technically demanding — the voice must match the pace of an animated edit precisely, land on specific visual beats, and sustain energy across 60-90 seconds of continuous delivery. We produce voice over for 2D animation, 3D animation, and motion graphics explainers, and we time the recording to the locked animatic before animation begins, ensuring the visual pace is built around the voice rather than the voice being forced to match an animation it has not seen.</p>
+<h3>E-Learning and Training Audio</h3>
+<p>E-learning voice over for corporate training, compliance modules, and online courses requires talent with a clear, consistent delivery across hours of content. We produce e-learning audio for LMS platforms, microlearning modules, and full certification courses. Session structure, chapter breaks, file naming conventions, and format compliance with standard LMS specifications are all handled in the production process.</p>
+<h3>IVR and On-Hold Messaging</h3>
+<p>IVR (interactive voice response) recordings and on-hold messaging are typically short in individual duration but large in volume: a standard IVR menu system might require 30-80 individual prompt recordings, each needing consistent energy and delivery across a session. We record IVR in a single session with a single voice artist to ensure consistency, and we deliver in the format required by your telephony provider.</p>
+<h3>Commercial and Broadcast Voice Over</h3>
+<p>TV and radio commercial voice over carries usage rights that differ from corporate voice over — broadcast talent charges session fees plus usage fees based on the territories, media types, and duration of the campaign. We handle all rights negotiations transparently and ensure your usage rights match your campaign plan before recording begins.</p>
+<h2>Voice Over Studio in Dubai</h2>
+<p>Our voice over recording studio is acoustically treated to broadcast standard, with a Neumann U87 condenser microphone as the primary recording mic, backed by an AKG C414 and Sennheiser MKH 416 for different voice characters. We record to Pro Tools at 48kHz/24-bit. The control room is separated from the recording booth with a clear glass panel, allowing the director and client to communicate with talent through talkback without entering the booth. Remote clients can listen in and provide direction via Cleanfeed, Source-Connect, or standard video call depending on their setup.</p>
+<h2>Voice Over Pricing — Dubai 2026</h2>
+<p>30-second commercial spot (session recording): from AED 350. 60-second corporate or explainer narration: from AED 600. 2-3 minute corporate film narration: from AED 1,200. IVR system (up to 20 prompts, single session): from AED 1,500. E-learning module (per 10 minutes of recorded audio): from AED 2,500. Broadcast commercial (TV/radio, UAE territory): session fee from AED 800 plus usage rights.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 for a quote and talent demo reel.</p>
+`,
+  },
+
+  // ─── Arabic Voice Over Dubai 2026 ─────────────────────────────────────────
+  {
+    slug: "arabic-voice-over-dubai-2026",
+    title: "Arabic Voice Over Dubai 2026",
+    metaTitle: "Arabic Voice Over Dubai 2026 | Backyard Studio",
+    metaDescription: "Professional Arabic voice over recording in Dubai. Gulf, MSA, Egyptian and Levantine Arabic dialects for corporate video, IVR, e-learning and TV commercials. From AED 400.",
+    keywords: [
+      "arabic voice over dubai",
+      "arabic voiceover dubai",
+      "arabic voice over artist uae",
+      "arabic dubbing dubai",
+      "arabic voice recording dubai",
+      "arabic voice over services",
+      "gulf arabic voice over",
+    ],
+    category: "Video Production",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?w=1200&q=80",
+    excerpt: "Arabic voice over recording in Dubai for corporate video, TV commercials, IVR and e-learning — Gulf, MSA and regional Arabic dialects from professional talent with broadcast-quality studio recording.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      {
+        q: "Which Arabic dialect should I use for my voice over?",
+        a: "The right dialect depends on your audience. Modern Standard Arabic (MSA / Fusha) is understood across all Arabic-speaking countries and is the standard for news, government content, and pan-Arab campaigns. Gulf Arabic (Khaleeji) is preferred for content targeting UAE, Saudi, and GCC audiences specifically — it feels more local and natural to Emirati and Saudi audiences than MSA. Egyptian Arabic is the most widely understood colloquial dialect for entertainment content. Levantine (Lebanese/Syrian) works for fashion and lifestyle content targeting that demographic. We advise on dialect choice before casting.",
+      },
+      {
+        q: "How much does Arabic voice over cost in Dubai?",
+        a: "Arabic voice over in Dubai starts from AED 400 for a 30-second commercial spot. A 60-second corporate explainer starts from AED 700. IVR Arabic recording (up to 20 prompts) starts from AED 1,800. E-learning (per 10 minutes): from AED 2,800. Arabic broadcast commercial (TV/radio): session fee from AED 900 plus usage rights. MSA narration for longer documentary or instructional content: from AED 1,200 per 5 minutes.",
+      },
+      {
+        q: "Can you translate my English script into Arabic before recording?",
+        a: "Yes — we provide professional translation from English to Arabic (MSA or dialect as required) as part of the voice over production package. Arabic translation is not a literal word-for-word process — Arabic sentence structure differs significantly from English, and a translated script often needs adaptation for delivery timing, particularly for explainer videos or animations where the voice must match specific visual beats.",
+      },
+      {
+        q: "Do Arabic voice over recordings need right-to-left text adaptation?",
+        a: "For the audio recording itself, no — the voice artist reads the Arabic script and delivers the audio. If the voice over will be used alongside Arabic subtitles, titles, or on-screen text, those elements need to be produced in RTL format separately. We handle Arabic subtitle production and text overlay for our clients' videos when required.",
+      },
+      {
+        q: "Can you produce Arabic voice over for a Saudi or Emirati government audience?",
+        a: "Yes — we have produced Arabic voice over content for government entities in the UAE and for multinational brands targeting Saudi Arabia. Government and institutional content in the GCC typically requires MSA with a formal, authoritative tone and specific recording quality standards. We are familiar with these requirements and can provide samples of comparable government content on request.",
+      },
+      {
+        q: "Can you dub an existing English video into Arabic?",
+        a: "Yes — Arabic dubbing of existing English video content involves translation, script timing adjustment to match the original video's lip movements and scene cuts, casting, recording, and audio mixing. Full dubbing is more complex than standalone voice over because the Arabic audio must match the visual rhythm of the original. We produce Arabic dubbing for corporate films, e-learning videos, product demos, and training content.",
+      },
+    ],
+    relatedSlugs: [
+      "voice-over-artist-dubai-2026",
+      "explainer-video-dubai-2026",
+      "corporate-video-production-dubai-2026",
+    ],
+    content: `
+<h2>Arabic Voice Over in Dubai: Why Dialect and Tone Matter More Than Volume</h2>
+<p>Arabic is not a single language in practice — it is a family of dialects and registers that vary significantly across the Arab world. The choice between Modern Standard Arabic and a specific dialect affects how your content is received by Arabic-speaking audiences more than any other production decision. Content in the wrong dialect or register for its audience does not just sound foreign — it sounds like the brand did not consider the audience carefully enough. In Dubai's market, where Arabic-speaking residents include Emirati nationals, Saudi and GCC visitors, Egyptian and Levantine communities, and audiences across the wider Arab world through digital distribution, the dialect decision matters at the brief stage, not after recording.</p>
+<h2>Understanding Arabic Dialect Options</h2>
+<h3>Modern Standard Arabic (MSA)</h3>
+<p>MSA is the formal written form of Arabic used in news media, official government communications, pan-Arab broadcasting, and academic content. It is understood across the entire Arabic-speaking world — from Morocco to Oman — because it is the written standard taught in schools throughout the Arab world. For content targeting a pan-Arab audience, content that will be published across multiple GCC markets simultaneously, or content with an institutional or government context, MSA is the appropriate choice. The trade-off is that MSA can feel formal and somewhat distant compared to colloquial Arabic for casual or consumer-facing content.</p>
+<h3>Gulf Arabic (Khaleeji)</h3>
+<p>Gulf Arabic is the colloquial dialect of the UAE, Saudi Arabia, Kuwait, Qatar, Bahrain, and Oman. It is the natural choice for content specifically targeting Emirati, Saudi, or broader GCC audiences in a direct, consumer-facing tone. A UAE government department communicating with Emirati citizens, a Saudi brand running a social media campaign, or a hospitality brand targeting GCC tourists would typically choose Gulf Arabic over MSA for this kind of content. It sounds like the audience's everyday language rather than formal broadcast Arabic.</p>
+<h3>Egyptian Arabic</h3>
+<p>Egyptian Arabic is the most widely understood Arabic dialect across the Arab world, largely because Egypt's entertainment industry — film, television, music — has distributed Egyptian dialect content throughout the Arab world for decades. For entertainment content, social media video, and any informal content targeting a broad Arab audience, Egyptian Arabic is often the most practical colloquial choice because it reaches the widest audience without requiring MSA's formal register.</p>
+<h2>Arabic Voice Over for UAE Corporate Content</h2>
+<p>Corporate video content in the UAE that will be distributed to Arabic-speaking audiences — whether Emirati stakeholders, Arabic-language social media channels, or GCC business partners — typically uses either MSA for formal institutional content or Gulf Arabic for marketing and consumer-facing content. We cast voice talent appropriate to each register and provide consultation on the appropriate choice at the brief stage.</p>
+<h2>Arabic IVR and On-Hold Messaging</h2>
+<p>Arabic IVR systems in the UAE require particular care. Many companies run parallel English and Arabic IVR trees, and the Arabic tree needs to match the brand voice and tone of the English version while sounding natural in Arabic. Recording Arabic IVR in a formal MSA tone when the English version is warm and conversational creates a jarring inconsistency for bilingual callers. We record Arabic and English IVR in the same session framework to ensure tonal consistency across both language tracks.</p>
+<h2>Arabic E-Learning Voice Over</h2>
+<p>Arabic e-learning content for compliance training, HR induction, and technical instruction in UAE companies faces a specific challenge: the workforce being trained may include Emirati nationals, Arabic-speaking expats from Egypt, Lebanon, Syria, and Jordan, and non-native Arabic speakers who have learned MSA. For maximum comprehension across this mixed audience, MSA at a measured, clear pace is the standard approach.</p>
+<h2>Arabic Voice Over Pricing — Dubai 2026</h2>
+<p>30-second Arabic commercial spot: from AED 400. 60-second corporate explainer or product narration: from AED 700. IVR Arabic recording (up to 20 prompts): from AED 1,800. E-learning (per 10 minutes of recorded audio): from AED 2,800. Arabic-English script translation and adaptation: from AED 0.30/word. Arabic broadcast commercial (UAE territory): session from AED 900 plus usage rights.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── TV Commercial Dubai 2026 ─────────────────────────────────────────────
+  {
+    slug: "tv-commercial-dubai-2026",
+    title: "TV Commercial Production Dubai 2026",
+    metaTitle: "TV Commercial Production Dubai 2026 | Backyard Studio",
+    metaDescription: "TV commercial production in Dubai for UAE and GCC broadcast. Brand TVCs, product ads and digital commercials. Full production from concept to delivery. From AED 12,000.",
+    keywords: [
+      "tv commercial dubai",
+      "tv commercial production dubai",
+      "television commercial dubai",
+      "tvc production dubai",
+      "advert production dubai",
+      "commercial video dubai",
+      "tv ad production dubai",
+    ],
+    category: "Video Production",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=1200&q=80",
+    excerpt: "TV commercial production in Dubai for UAE and GCC broadcast — concept, casting, full production crew and broadcast delivery from Backyard Studio.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      {
+        q: "How much does a TV commercial cost to produce in Dubai?",
+        a: "TVC production in Dubai ranges significantly based on complexity. A 15-second brand spot (single location, presenter-led or product-focused, small crew): from AED 12,000. A 30-second TVC with cast, wardrobe, multiple locations, and full crew: from AED 20,000-35,000. A 60-second brand film for broadcast (cinematic production values, large crew, post-production with VFX): from AED 45,000-80,000. High-end national campaigns with celebrity talent, large sets, and multiple broadcast deliverables go significantly higher.",
+      },
+      {
+        q: "What are the technical delivery specifications for UAE TV broadcast?",
+        a: "UAE broadcasters including Dubai One, MBC, Abu Dhabi TV, and OSN have specific delivery specifications. Standard requirements include: MXF or MOV container, XDCAM or ProRes 422 HQ codec, 1920x1080 25fps for UAE broadcast, audio at -23 LUFS integrated (EBU R128) or -24 LKFS (ATSC A/85) for US-format channels, embedded stereo or 5.1 audio depending on the channel. We prepare broadcast masters to any channel's specific technical specs and submit QC before delivery.",
+      },
+      {
+        q: "Do you handle casting for TV commercials in Dubai?",
+        a: "Yes — casting is included in our full-service TVC production. Dubai has a significant pool of commercial talent across nationalities, ages, and demographics, accessible through established casting agencies. For TVCs with specific nationality requirements, product category expertise, or cultural representation needs, we brief casting agencies with a detailed character breakdown and shortlist from the presented options. All talent engagement includes commercial usage rights appropriate to the broadcast territory and duration.",
+      },
+      {
+        q: "Can you produce a TVC in both English and Arabic versions?",
+        a: "Yes — producing dual-language TVC versions (English and Arabic) in a single production is significantly more cost-efficient than producing separately. On shoot day, we capture the same scenes twice — once with English-speaking talent delivering in English, and once with Arabic talent in Arabic — or we produce a single version without dialogue and use voice over in both languages in post. The second-language version typically adds 20-30% to the total production cost versus producing it as a standalone project.",
+      },
+      {
+        q: "What is the production timeline for a TV commercial in Dubai?",
+        a: "A 30-second TVC follows this timeline: 1 week for creative development and script approval, 1 week for pre-production (casting, location, crew, props, permits), 1-2 shoot days, 2-3 weeks for post-production (offline edit, colour grade, sound mix, graphics, broadcast master). Total: 5-7 weeks from brief to broadcast delivery. Rush productions (3 weeks total) are possible with an accelerated fee.",
+      },
+      {
+        q: "Do you produce digital-first commercials as well as broadcast TVCs?",
+        a: "Yes — many clients produce a 30-second broadcast TVC alongside 15-second, 6-second, and vertical format cuts for digital platforms (YouTube pre-roll, Meta ads, TikTok, Snapchat). These digital cuts are produced from the same shoot footage as the broadcast TVC, adding relatively little cost while producing a full suite of campaign assets. We deliver all formats simultaneously from a single post-production session.",
+      },
+    ],
+    relatedSlugs: [
+      "commercial-production-dubai-2026",
+      "corporate-video-production-dubai-2026",
+      "post-production-dubai-2026",
+    ],
+    content: `
+<h2>TVC Production in Dubai: The Full Picture</h2>
+<p>Television commercial production in Dubai serves two distinct markets. The first is broadcast: UAE free-to-air and pay-TV channels, GCC regional broadcast, and pan-Arab satellite platforms. The second is digital: YouTube pre-roll, Meta ads, programmatic display, and connected TV platforms that use broadcast-quality creative. The same production infrastructure serves both, and the most efficient approach is producing broadcast-quality content from the outset that can be repurposed across both channels rather than producing separately for each.</p>
+<p>Dubai occupies an unusual position in the GCC advertising market. As the region's media hub, it hosts most of the major regional broadcasting networks and advertising holding companies. This concentration of broadcast infrastructure means that Dubai-based production companies work within a technical and professional ecosystem that matches global broadcast standards.</p>
+<h2>The TVC Production Process</h2>
+<h3>Creative Development</h3>
+<p>A TVC brief starts with the message: what the brand wants the viewer to feel, know, or do in 15, 30, or 60 seconds. From the brief, we develop a creative concept — script, visual treatment, tone reference, casting direction, and location approach. We present two to three distinct creative directions before developing the chosen approach into a full production plan. The script and storyboard are both approved before any production expenditure is committed.</p>
+<h3>Pre-Production</h3>
+<p>Pre-production for a Dubai TVC covers casting (managed through casting agencies, with auditions and shortlisting), location scouting and permitting (Dubai's permitting landscape for commercial shoots in public areas is well-established but requires advance planning), wardrobe and art direction, equipment scheduling, crew assembly, and production scheduling. Pre-production typically runs one to two weeks and determines the production quality ceiling — the shoot can only deliver what pre-production has set up.</p>
+<h3>Production</h3>
+<p>A full-crew TVC shoot in Dubai includes director, DOP, camera operator, gaffer and lighting team, key grip and rigging team, production designer and art director, makeup artist, wardrobe stylist, production manager, production assistant, and talent. For larger productions requiring aerial coverage, we add GCAA-licensed drone operators. Dubai's climate means scheduling shoots to avoid peak midday heat for exterior work — early morning or late afternoon golden hour is standard for outdoor commercial production.</p>
+<h3>Post-Production</h3>
+<p>TVC post-production follows a specific pipeline: offline edit (rough cut for client approval), online edit (technical finishing, VFX, graphics), colour grade to a reference that matches the creative vision and brand standards, sound design and music licensing, audio mix to broadcast loudness specifications, and broadcast master preparation to channel specifications. We do not deliver a broadcast TVC until it passes our internal QC checklist covering all technical requirements for the target broadcast platform.</p>
+<h2>UAE Broadcast Specifications</h2>
+<p>Different UAE and GCC broadcasters have different technical requirements. Dubai One accepts 1080i/25fps MXF XDCAM HD 422. MBC requires similar specifications with specific caption and subtitle requirements for Arabic content. OSN has ProRes requirements for some deliverables. Abu Dhabi Media channels have their own specifications. We maintain a current database of broadcast specifications for the major UAE and GCC channels and deliver masters to those specs as part of the production package.</p>
+<h2>TV Commercial Pricing — Dubai 2026</h2>
+<p>15-second brand TVC (single location, small crew, concept to delivery): from AED 12,000. 30-second TVC (full crew, cast, locations): from AED 22,000. 30-second TVC with second-language Arabic version: from AED 28,000. 60-second brand film for broadcast: from AED 45,000. Digital cuts (15-second, 6-second, vertical) from the same shoot: from AED 3,500 additional.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Commercial Production Dubai 2026 ────────────────────────────────────
+  {
+    slug: "commercial-production-dubai-2026",
+    title: "Commercial Production Dubai 2026",
+    metaTitle: "Commercial Production Dubai 2026 | Backyard Studio",
+    metaDescription: "Commercial video production in Dubai for brand campaigns, product launches and advertising. Full production from concept to delivery for digital and broadcast. From AED 8,000.",
+    keywords: [
+      "commercial production dubai",
+      "commercial video production dubai",
+      "brand commercial dubai",
+      "advertisement production dubai",
+      "commercial filmmaker dubai",
+      "ad production dubai",
+      "commercial shoot dubai",
+    ],
+    category: "Video Production",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1524712245354-2c4e5e7121c0?w=1200&q=80",
+    excerpt: "Commercial video production in Dubai for brand campaigns, product launches and digital advertising — full-service production from concept to final delivery across all formats.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      {
+        q: "What is the difference between commercial production and corporate video production?",
+        a: "Corporate video is produced primarily for a company's internal or stakeholder audiences — training videos, company profile films, investor presentations, internal communications. Commercial production is produced for external advertising audiences — potential customers, broadcast audiences, social media users. Commercial production prioritises persuasion and emotional impact over information delivery. The production standards, creative approach, crew size, and post-production requirements differ significantly between the two.",
+      },
+      {
+        q: "How much does commercial video production cost in Dubai?",
+        a: "Commercial production in Dubai starts from AED 8,000 for a digital-first brand commercial (single location, 30-60 seconds, small crew, intended for social media and digital platforms). A mid-range commercial with multiple locations, cast, and full crew runs AED 15,000-25,000. A high-end brand commercial with cinematic production values, VFX, or international-standard crew runs AED 35,000-80,000+.",
+      },
+      {
+        q: "How many people are on a commercial production crew in Dubai?",
+        a: "Crew size depends on the production scale. A digital-first commercial might run with 5-8 people: director, DOP, camera operator, gaffer, makeup artist, production manager. A full broadcast commercial runs 15-25 people: the above plus key grip and rigging team, art director, production designer, wardrobe stylist, additional camera operators, production assistants, and sometimes a second unit. We scale crew to the specific requirements of each production.",
+      },
+      {
+        q: "Can you produce a commercial in Dubai in under two weeks?",
+        a: "For a small-scale digital commercial (one location, no casting, clear brief), a two-week turnaround from brief to delivery is achievable. This requires: creative approval by end of day one, pre-production and scheduling in days 2-3, shoot on day 4-5, post-production in days 6-10, final delivery on day 12-14. For productions requiring casting, permits for public locations, or complex set construction, two weeks is tight and four to six weeks is more realistic.",
+      },
+      {
+        q: "Do you work with advertising agencies or directly with brands?",
+        a: "Both. We work directly with brands as a full-service production company — handling everything from creative concept to final delivery. We also work as a production company executing advertising agency creative — in this case the agency provides the script, storyboard, and creative direction, and we handle casting, crew, locations, shooting, and post-production to deliver the agency's vision.",
+      },
+      {
+        q: "What locations in Dubai work best for commercial production?",
+        a: "Location choice depends on the brand's visual language. For luxury and premium brands: DIFC, Downtown Dubai, Palm Jumeirah, and five-star hotel interiors. For lifestyle and active brands: beaches, parks, Al Quoz's creative district, and desert locations. For tech and corporate: DIFC, One Central, and modern office environments. For heritage and authenticity: Al Fahidi, Dubai Creek, and Alserkal Avenue. Dubai's scale gives access to almost every visual environment within a 30-minute drive of the city centre.",
+      },
+    ],
+    relatedSlugs: [
+      "tv-commercial-dubai-2026",
+      "corporate-video-production-dubai-2026",
+      "post-production-dubai-2026",
+    ],
+    content: `
+<h2>Commercial Production in Dubai: What Separates Good From Forgettable</h2>
+<p>The Dubai market is saturated with video content. Brands publish on Instagram, TikTok, YouTube, and connected TV simultaneously, competing for attention in a market where the average consumer is exposed to thousands of brand messages daily. In this environment, the brands that invest in commercial-quality production — real crew, real direction, real post-production — consistently outperform those that produce content as quickly and cheaply as possible.</p>
+<p>This is not an argument for excess spend. It is an argument for appropriate production quality relative to the campaign goal. A brand commercial that will run as pre-roll across YouTube in the UAE for six months needs to perform every time it plays. Investing AED 15,000 in production to support a AED 80,000 media buy makes obvious sense. Spending AED 1,500 on the same production to support the same media buy is a false economy.</p>
+<h2>What Commercial Production Covers</h2>
+<p>Commercial production as a term covers a range of formats that have in common the goal of persuading an audience rather than informing one. The category includes product commercials — demonstrating a product's value, quality, or emotional appeal in 15-60 seconds. Brand films — longer format pieces (60-180 seconds) that communicate brand values, positioning, and personality without necessarily featuring a specific product. Campaign assets — a suite of related commercial pieces produced from a single shoot, varying in duration and format for different placements. And social media commercials — short-form content (7-15 seconds) designed to generate action within the first two seconds before the viewer scrolls.</p>
+<h2>The Commercial Production Approach</h2>
+<p>We approach commercial production the same way a full-service production company would: brief, concept, pre-production, production, post-production, delivery. The brief is where the commercial lives or dies. A clear brief specifies the target audience precisely, the single message the commercial must communicate, the desired emotional response, the format and duration requirements, the platform where it will be placed, and the campaign budget. Most commercial production problems trace back to an unclear brief.</p>
+<p>Concept development produces two or three distinct creative directions — different visual approaches, narrative structures, or emotional tones that could serve the brief. We present these as written treatments with reference imagery, not fully produced content. The concept approval stage is where the brand and the production company align on direction before any spend is committed.</p>
+<h2>Commercial Production for Dubai's Specific Market</h2>
+<p>Dubai's commercial production market has specific characteristics worth understanding. The audience is among the most multinational on the planet — a commercial running in Dubai reaches Emirati nationals, Indian and Pakistani expats, Arab expatriates from across the region, Western and Eastern European residents, East African and Southeast Asian communities. A commercial that feels too locally specific to one demographic may not land with another. This drives many brands in Dubai toward visual-led commercial storytelling — content that communicates primarily through image and music rather than dialogue — precisely because it crosses language and cultural lines more efficiently.</p>
+<p>Dubai's visual landscape is a genuine commercial production asset. No other city in the world offers the combination of desert dunes, world-record skyscrapers, luxury hotel environments, a traditional creek district, and a modern financial centre within a 30-minute drive of each other. International brands frequently choose Dubai specifically for this visual range.</p>
+<h2>Commercial Production Pricing — Dubai 2026</h2>
+<p>Digital commercial (30-60 seconds, single location, digital delivery): from AED 8,000. Mid-range brand commercial (30-60 seconds, multiple locations, full crew): from AED 16,000. Full-scale brand campaign (multiple deliverables, broadcast and digital): from AED 30,000. Campaign asset suite (main film + 3 cut-downs, vertical format, social edits): from AED 20,000.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Conference Video Dubai 2026 ──────────────────────────────────────────
+  {
+    slug: "conference-video-dubai-2026",
+    title: "Conference Video Dubai 2026",
+    metaTitle: "Conference Video Dubai 2026 | Backyard Studio",
+    metaDescription: "Professional conference video production in Dubai. Multi-camera filming, keynote recording, highlight reels and live streaming for summits, forums and corporate conferences. From AED 3,500.",
+    keywords: [
+      "conference video dubai",
+      "conference videography dubai",
+      "conference filming dubai",
+      "summit video dubai",
+      "conference recording dubai",
+      "conference video production dubai",
+      "event filming dubai",
+    ],
+    category: "Video Production",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80",
+    excerpt: "Conference video production in Dubai for summits, forums and corporate events — multi-camera keynote recording, highlight reels and live streaming from Backyard Studio.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      {
+        q: "How much does conference video production cost in Dubai?",
+        a: "Conference video production in Dubai starts from AED 3,500 for a single-camera keynote recording with basic edit (up to 4 hours). A multi-camera conference day with highlights reel and full-session recordings starts from AED 7,500. A full multi-day summit (3+ days, multi-camera, live streaming, daily highlight reels) runs AED 15,000-35,000. The main cost variables are conference duration, number of simultaneous stages, whether live streaming is required, and the number and complexity of deliverables.",
+      },
+      {
+        q: "What deliverables do you provide after filming a conference in Dubai?",
+        a: "Standard conference video deliverables include: full unedited recordings of each session or keynote, a 2-4 minute highlight reel for marketing and social media, 30-60 second social cuts from key moments, individual speaker portrait shots if requested, and for conferences with live streaming — the archived stream recording. We can also produce individual speaker clips (2-5 minutes per speaker) for distribution to speakers for their own LinkedIn and website use.",
+      },
+      {
+        q: "How many cameras do you use for a conference in Dubai?",
+        a: "A single-stage conference typically uses 2-3 cameras: a locked-off wide shot covering the full stage, a close-up camera on the speaker, and a third roving camera for audience reaction and atmosphere shots. For larger conferences with multiple keynote speakers, panel discussions, and Q&A segments, 3-4 cameras are standard. Multi-stage conferences (where sessions run simultaneously in different rooms) require a dedicated camera team per stage.",
+      },
+      {
+        q: "Can you handle audio for a conference video in Dubai?",
+        a: "Yes — audio is one of the most critical and most frequently underhandled elements of conference video. We connect directly to the venue's audio mixing desk to receive a clean feed of all speaker microphones, rather than recording room sound through camera microphones. This gives us clean, balanced audio regardless of where speakers move on stage. For outdoor or non-venue locations, we provide our own audio mixing with wireless lavalier microphones on each speaker.",
+      },
+      {
+        q: "How quickly can you deliver conference video highlights?",
+        a: "Same-day highlight delivery (a 60-90 second cut ready for social media before the conference ends) is available for one additional fee — this requires a dedicated editor working during the event on footage delivered in real time. Standard next-day delivery of a 2-4 minute highlights reel is our default offering. Full session recordings are delivered within 2-3 days of the event.",
+      },
+      {
+        q: "Do you also provide photography coverage alongside conference video in Dubai?",
+        a: "Yes — we regularly provide combined photography and videography coverage for conferences in Dubai. The photographer covers speaker portraits, audience engagement, networking moments, and formal group shots. The video team covers all the same moments in motion. Booking both from a single company is more cost-efficient than engaging separate photography and video suppliers, and ensures consistent visual style across all conference content.",
+      },
+    ],
+    relatedSlugs: [
+      "live-streaming-dubai-2026",
+      "event-videographer-dubai-2026",
+      "corporate-video-production-dubai-2026",
+    ],
+    content: `
+<h2>Conference Video in Dubai: Getting Every Deliverable Right</h2>
+<p>Dubai's conference and events calendar is among the most active in the world. GITEX, Cityscape, Arabian Travel Market, Arab Health, the World Government Summit, ADIPEC — major international conferences run in Dubai almost every week of the year. Alongside these flagship events, thousands of corporate conferences, industry summits, partner days, and internal leadership forums take place across Dubai's hotel ballrooms, convention centres, and purpose-built event venues.</p>
+<p>Every one of these events generates content that the organiser, the sponsors, the speakers, and the attendees all want access to after the day ends. The keynote that the CEO delivered needs to be on the company's YouTube channel. The panel discussion on industry trends needs to be clipped for LinkedIn. The highlight reel needs to go into the end-of-year report and the pitch for next year's sponsors. Conference video is not just a record of what happened — it is the content engine that extends the event's value for months after the doors close.</p>
+<h2>Planning Conference Video Coverage</h2>
+<p>The most important conversation in conference video production happens before the event, not during it. We need to know the conference agenda, the stage layout, the lighting plan (or lack of one), the audio system, the expected audience size and movement patterns, the key speakers and sessions that must be covered at highest priority, and the deliverables required. This briefing determines everything from crew size to camera positions to how we interface with the venue's technical team on the day.</p>
+<p>Venue technical teams and production companies often have conflicting requirements. The venue's lighting is designed for the room, not for camera. The PA system is designed for the audience, not for clean audio recording. We negotiate these conflicts in advance rather than discovering them during the opening keynote.</p>
+<h2>Multi-Camera Conference Production</h2>
+<p>Conference video works on the same principles as broadcast television. Multiple cameras, each covering a specific angle, are switched in real time by a director in a production gallery to produce a cut that follows the action — the speaker's face, the slide presentation, the audience reaction, the panel exchange. This live-switched output is simultaneously recorded and (if applicable) streamed, with all individual camera feeds also recorded separately as safety masters.</p>
+<p>The speaker close-up camera is the most important: audiences watching a conference recording need to see the speaker's face clearly, read their expression, and follow their delivery. A conference recording shot only on a wide stage camera is difficult to watch for more than a few minutes. We position the close-up camera at a shooting distance and focal length that gives a clean mid-shot of each speaker without the operator needing to reframe during delivery.</p>
+<h2>Conference Highlight Reels</h2>
+<p>The highlight reel is the single most-used conference video deliverable. A 2-4 minute cut that captures the energy, key moments, and atmosphere of the day — the conference hall filling, the keynote's strongest lines, audience engagement, networking moments, the venue looking its best. This cut goes to attendees as a post-event thank-you, to potential attendees for next year as a preview, to sponsors as evidence of the event's reach, and to the media as a summary of what happened.</p>
+<p>We typically deliver the highlight reel within 24 hours of the conference ending. For events requiring same-day delivery (to be shown at the conference dinner, or for immediate social media posting), we assign a dedicated editor who works during the event on footage delivered in real time from the camera team.</p>
+<h2>Conference Video Pricing — Dubai 2026</h2>
+<p>Single keynote recording (single camera, up to 90 minutes, basic edit): from AED 1,500. Single-stage conference day (3 cameras, highlights reel, full recordings): from AED 7,500. Multi-day conference (3 cameras, daily highlights, full sessions): from AED 5,500/day. Multi-stage conference (dedicated team per stage): priced per stage. Live streaming addition: from AED 3,000/day. Same-day highlights delivery: AED 2,500 additional.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Event Videographer Dubai 2026 ───────────────────────────────────────
+  {
+    slug: "event-videographer-dubai-2026",
+    title: "Event Videographer Dubai 2026",
+    metaTitle: "Event Videographer Dubai 2026 | Backyard Studio",
+    metaDescription: "Professional event videographer in Dubai for corporate events, product launches, galas and private events. Cinematic highlight reels and full coverage. From AED 2,500.",
+    keywords: [
+      "event videographer dubai",
+      "event videography dubai",
+      "event video dubai",
+      "corporate event videographer dubai",
+      "event filming dubai",
+      "event video production dubai",
+      "event cinematographer dubai",
+    ],
+    category: "Video Production",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1200&q=80",
+    excerpt: "Event videography in Dubai for corporate events, product launches, galas and private functions — cinematic coverage, same-day highlights and full event films from Backyard Studio.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      {
+        q: "How much does event videography cost in Dubai?",
+        a: "Event videography in Dubai starts from AED 2,500 for a 4-hour corporate event with a single videographer and a 2-3 minute highlights reel delivered within 48 hours. A full-day event (8 hours, two videographers, highlights reel plus full coverage): from AED 4,500. A flagship product launch or gala (full crew, multi-camera, same-day highlight reel): from AED 8,000-15,000. Drone coverage adds from AED 1,200 for events at permitted outdoor venues.",
+      },
+      {
+        q: "How long does event video take to deliver?",
+        a: "Standard delivery for a highlights reel (2-4 minutes) is 24-48 hours after the event. Full unedited event recordings are delivered within 24 hours. For events requiring same-day highlights — to play at the event dinner, or to post on social media before guests leave — we assign a dedicated editor who cuts during the event from footage delivered in real time.",
+      },
+      {
+        q: "What is the difference between a highlights reel and full event coverage?",
+        a: "A highlights reel is an edited 2-5 minute cut of the event's best moments — key speeches compressed to their strongest 10-20 seconds, atmosphere shots, key visual moments, set to music. It captures the feel of the event rather than a complete record. Full coverage is the complete unedited recording of everything that happened — every speech in full, every session, every performance — typically delivered as raw or lightly edited files rather than a polished production.",
+      },
+      {
+        q: "Can you shoot an event in low light or at night in Dubai?",
+        a: "Yes — corporate events and galas in Dubai frequently take place at night in hotel ballrooms, rooftop venues, or outdoor settings with event lighting rather than natural light. We use cameras and lenses suited to low-light event production (Sony FX series and Canon Cinema EOS), and we bring supplementary lighting where necessary to ensure faces and key moments are properly exposed without disrupting the event ambience.",
+      },
+      {
+        q: "Do you cover private events — not just corporate events?",
+        a: "Yes — we film private events including milestone birthdays, anniversaries, family celebrations, and private parties for Dubai's resident and visiting clientele. Private event videography follows the same quality standards as corporate work: professional cameras, professional editing, and delivery within 48 hours. For private events, discretion and a non-intrusive shooting approach are priorities.",
+      },
+      {
+        q: "Can you produce event recap content for social media in Dubai?",
+        a: "Yes — social media event content is often the primary deliverable for events in 2026. We produce vertical format (9:16) cuts for Instagram Reels and TikTok, 1:1 cuts for feed posts, and subtitled versions for all formats. A social media content package — 3-5 short-form cuts (15-30 seconds each) plus a 60-90 second main reel — is available as an add-on to any event videography booking.",
+      },
+    ],
+    relatedSlugs: [
+      "conference-video-dubai-2026",
+      "live-streaming-dubai-2026",
+      "corporate-event-videography-dubai-2026",
+    ],
+    content: `
+<h2>Event Videography in Dubai: What Good Coverage Actually Requires</h2>
+<p>Event videography is one of the most technically demanding forms of video production. Unlike a controlled studio shoot or a scripted commercial, events are unpredictable — speakers go off-schedule, lighting changes without warning, key moments happen simultaneously in different parts of the venue, and there is no second take. The videographer must capture everything that matters on the first and only pass, in real conditions, without interrupting the event itself.</p>
+<p>This requires a different skill set than scripted production. The best event videographers combine the instinct of a documentary filmmaker — knowing where to be before the moment happens — with the technical fluency to adapt to changing conditions instantly. We have been filming corporate and private events in Dubai since 2016 across hotel ballrooms, outdoor pavilions, desert camps, yacht venues, rooftop spaces, and purpose-built event halls throughout the city.</p>
+<h2>Types of Events We Cover in Dubai</h2>
+<h3>Corporate Events</h3>
+<p>Corporate event videography in Dubai covers product launches, brand activations, award ceremonies, company anniversaries, employee recognition events, client appreciation evenings, and networking functions. Each has different coverage priorities. A product launch puts the product and its reveal moment at the centre of the edit. An award ceremony puts the trophy presentation and recipient reaction at the centre. A networking function needs atmosphere and connection — candid moments, conversations, the energy of the room.</p>
+<h3>Product Launches</h3>
+<p>Product launch video coverage is commercially critical — the launch event is often the single highest-profile moment in a product's marketing calendar, and the video content produced from that event will be used in advertising, social media, and press materials for months. We cover product launches with a structured shot list: the reveal moment (from multiple angles), the product hero shots (worked around event lighting), executive presentation, media and influencer reactions, and ambient atmosphere. The launch highlight reel should be ready for social media distribution before the event ends.</p>
+<h3>Galas and Award Evenings</h3>
+<p>Gala and award evening coverage requires elegance in both shooting and editing. The cinematography needs to match the event's production values — if the organiser has invested in a premium venue, premium styling, and premium guest list, the video needs to look like it belongs in that environment. We use cinema cameras, cinema lenses, and carefully managed supplementary lighting to ensure gala coverage looks as polished as the event itself.</p>
+<h3>Private Events</h3>
+<p>Private event videography in Dubai — milestone birthdays, anniversary parties, family celebrations, private dinners — requires a discreet approach that captures moments without disrupting them. We work with a small, unobtrusive camera team in these settings and deliver edits that feel personal and emotional rather than corporate.</p>
+<h2>Event Video Deliverables</h2>
+<p>The standard Backyard Studio event video package delivers: a 2-4 minute highlights reel (edited, colour graded, scored with licensed music), full unedited recordings of all key sessions or moments, social media cuts in 16:9, 1:1, and 9:16 formats, and subtitled versions of the highlights reel. Additional deliverables — individual speaker clips, same-day social cuts, full-length session edits — are available as package additions.</p>
+<h2>Event Videography Pricing — Dubai 2026</h2>
+<p>Half-day event (4 hours, 1 videographer, highlights reel): from AED 2,500. Full-day event (8 hours, 2 videographers, highlights reel + full coverage): from AED 4,500. Product launch or gala (multi-camera, full crew, same-day social cut): from AED 8,000. Social media content package (3-5 short cuts + reel): from AED 1,800 additional. Drone coverage: from AED 1,200 additional.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Explainer Video Dubai 2026 ───────────────────────────────────────────
+  {
+    slug: "explainer-video-dubai-2026",
+    title: "Explainer Video Dubai 2026",
+    metaTitle: "Explainer Video Dubai 2026 | Backyard Studio",
+    metaDescription: "Professional explainer video production in Dubai. Live-action, animated and mixed-media explainers for apps, products and services. Script to delivery. From AED 3,500.",
+    keywords: [
+      "explainer video dubai",
+      "explainer video company dubai",
+      "animated explainer video dubai",
+      "product explainer video dubai",
+      "explainer video production dubai",
+      "how it works video dubai",
+      "explainer video agency dubai",
+    ],
+    category: "Video Production",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80",
+    excerpt: "Explainer video production in Dubai for apps, SaaS products, services and brand concepts — live-action, animated and mixed-media explainers from script to final delivery.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      {
+        q: "How much does an explainer video cost in Dubai?",
+        a: "Explainer video cost in Dubai depends on format. Animated explainer (60 seconds, flat-style, script and voiceover included): from AED 3,500. Live-action explainer (60 seconds, presenter or demonstration format, studio shoot): from AED 5,000. Mixed-media explainer (live-action with animated overlay, 60-90 seconds): from AED 7,500. Complex animated explainer with custom illustration and character animation (60 seconds): from AED 8,000-12,000.",
+      },
+      {
+        q: "What is an explainer video and when do I need one?",
+        a: "An explainer video is a short video (typically 60-90 seconds) that explains what a product, service, or concept does and why someone should care. You need one when your product or service is complex enough that people do not immediately understand it from a description alone — SaaS platforms, financial products, medical devices, new technology categories, professional services with multiple components. A well-made explainer video on a product landing page consistently increases conversion rates by showing rather than telling.",
+      },
+      {
+        q: "Should I choose animated or live-action for my explainer video?",
+        a: "Choose animated when: your product does not exist physically, the concept involves abstract processes (data flow, financial mechanisms, software workflows), you need to show inside objects or systems, or you want a consistent visual style that ages well without reshooting. Choose live-action when: showing real people using a real product builds trust (physical consumer products, healthcare, hospitality), demonstrating a tangible service, or your brand identity is built on human warmth rather than technical precision. Mixed-media (live-action with animated elements overlaid) works well for software products where you want the credibility of real people but need to show the interface or data processing.",
+      },
+      {
+        q: "How long should an explainer video be?",
+        a: "60-90 seconds is the standard for an explainer video. Research consistently shows that engagement drops sharply after 90 seconds for this format — the more you explain, the less people watch. The discipline of a 60-second explainer forces you to prioritise your single strongest message rather than trying to cover every feature. If you feel you need more than 90 seconds, consider producing a short teaser (60 seconds) and a longer product tour (3-5 minutes) as separate pieces for different stages of the buyer journey.",
+      },
+      {
+        q: "Do you write the script for the explainer video?",
+        a: "Yes — scriptwriting is included in all our explainer video packages. A 60-second explainer script is approximately 150 words at a comfortable presentation pace, and those 150 words need to carry the entire message. The script is the most important element of the explainer. We write from your brief, present two versions, incorporate your feedback, and deliver a final approved script before any production work begins.",
+      },
+      {
+        q: "Can you produce explainer videos in Arabic and English?",
+        a: "Yes — we produce explainer videos in English, Arabic, and Russian, with the option to produce multiple language versions from a single animation by swapping voiceover and on-screen text. Animated explainers are particularly well-suited to multilingual production because the visual layer is language-independent — you produce the animation once and localise through voiceover and subtitle swaps rather than reshooting.",
+      },
+    ],
+    relatedSlugs: [
+      "2d-animation-dubai-2026",
+      "motion-graphics-dubai-2026",
+      "voice-over-artist-dubai-2026",
+    ],
+    content: `
+<h2>Explainer Videos in Dubai: The Format That Earns Its Cost</h2>
+<p>Explainer videos have a specific job: take something that is hard to explain in words alone and make it immediately understandable in 60-90 seconds. When that job is done well, the return on investment is clear and measurable. A SaaS company in Dubai that adds a 90-second explainer to their pricing page and sees conversion rate improve by 15% has a production investment that pays back in weeks. A healthcare provider that uses an explainer video in their patient intake process and reduces the time clinical staff spend explaining procedures has justified the production cost in reduced labour hours.</p>
+<p>The explainer video is probably the most commercially justified video format for B2B businesses — more than corporate profiles, more than testimonials, more than brand films. It directly addresses the conversion moment in the buyer journey: the point where a potential client understands what you do and decides whether to take the next step.</p>
+<h2>The Explainer Video Formats We Produce</h2>
+<h3>Animated Explainer Videos</h3>
+<p>The animated explainer is the most widely used format for software, SaaS, financial products, and abstract services. Animation lets you show concepts that have no physical form: data flowing through a system, a financial instrument's risk distribution, the user journey through an app interface, the process inside a medical device. When the thing you are explaining cannot be filmed, animation is the answer.</p>
+<p>Our animated explainer production: script (150 words for 60 seconds at narration pace), voiceover recording in the required language, storyboard, style development (confirming visual direction before animation begins), animation in After Effects, music and sound design, final delivery in all required formats. Production time is 3-4 weeks for a standard 60-second animated explainer.</p>
+<h3>Live-Action Explainer Videos</h3>
+<p>Live-action explainers work when the subject is tangible and visible — a physical product, a service delivered by real people, a space or environment you want to show. The credibility of real footage, real faces, and real environments builds trust in a way that animation cannot fully replicate. A dental clinic's explainer showing the actual treatment process with the actual team is more convincing than an animated version of the same content. A restaurant's explainer of their delivery service is more appetising with real food than illustrated food.</p>
+<p>Live-action explainer production typically involves one studio or location shoot day, a presenter or demonstration approach (sometimes without on-screen talent, using product close-ups and hands only), and post-production with motion graphics overlays, lower thirds, and clear visual callouts to support the narration.</p>
+<h3>Mixed-Media Explainers</h3>
+<p>The mixed-media format combines live-action footage with animated elements composited onto it: a real person on screen while data visualisations or UI mockups float alongside them, animated diagrams appearing over footage of a real location, screen recordings with animated callout arrows and highlight boxes. This format is particularly effective for software and technology products where both the human credibility of live-action and the visual clarity of animation are needed simultaneously.</p>
+<h2>The Script Is the Product</h2>
+<p>Every explainer video project we take on starts with the same question: what is the single most important thing the viewer must understand in the first 30 seconds? Everything in the script, the structure, the visual design, and the call to action flows from the answer to that question. An explainer video that tries to cover five key points in 60 seconds covers none of them convincingly. One that covers one key point with clarity and conviction — and ends with a specific, actionable call to action — does its job.</p>
+<h2>Explainer Video Pricing — Dubai 2026</h2>
+<p>Animated explainer (60 seconds, script, voiceover, delivery): from AED 3,500. Live-action explainer (60 seconds, studio shoot, edit, graphics): from AED 5,000. Mixed-media explainer (live-action + animation, 60-90 seconds): from AED 7,500. Arabic or Russian language version of existing explainer (voiceover swap + text localisation): from AED 1,500.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
 ];
 export function getBlogPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);

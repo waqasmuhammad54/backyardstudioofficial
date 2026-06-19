@@ -28,7 +28,7 @@ export async function generateMetadata({
     ? post.metaDescription.substring(0, 152) + "..."
     : post.metaDescription;
   return {
-    title: safeTitle,
+    title: { absolute: safeTitle },
     description: safeDesc,
     keywords: post.keywords,
     alternates: { canonical: `${BASE}/blog/${post.slug}` },
