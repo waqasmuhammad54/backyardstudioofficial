@@ -4731,6 +4731,401 @@ export const BLOG_POSTS: BlogPost[] = [
 `,
   },
 
+  // ─── Sprint 2: Sports Sub-Niches ─────────────────────────────────────────
+
+  // ─── Cricket Photographer Dubai 2026 ─────────────────────────────────────
+  {
+    slug: "cricket-photographer-dubai-2026",
+    title: "Cricket Photographer Dubai 2026 — Sports Photography UAE Cricket Matches & Events",
+    metaTitle: "Cricket Photographer Dubai 2026 | Cricket Photography UAE | Sports Photographer Cricket Dubai",
+    metaDescription: "Professional cricket photographer in Dubai. Match action, team portraits, training sessions & tournaments at Dubai Sports City & ICC Academy. From AED 800.",
+    keywords: ["cricket photographer dubai", "cricket photography dubai", "cricket photographer uae", "cricket match photographer dubai", "sports photographer cricket dubai 2026", "dubai cricket photographer"],
+    category: "Sports Photography",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=1200&q=80",
+    excerpt: "Dubai has become one of the world's most active cricket hubs — the ICC Academy, Dubai International Stadium, the ICC Men's T20 World Cup warm-up matches, and a massive league cricket scene driven by the UAE's South Asian community. This guide covers professional cricket photography in Dubai and what to expect from a cricket photographer for your match, tournament, or club.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does cricket photography cost in Dubai?", answer: "Cricket photography in Dubai starts from AED 800 for a half-day session covering a T20 or one-day match, delivering 80–150 edited action images. Full tournament photography (multi-day coverage with 2 photographers) is priced from AED 2,500 per day. Team portrait sessions — squad photographs, individual player portraits, and kit launch imagery — start from AED 1,500 for a full squad session. International match media photography packages are quoted individually based on access level and output requirements." },
+      { question: "Which cricket venues in Dubai do you photograph at?", answer: "We photograph cricket at Dubai International Stadium (the ICC's preferred venue in the UAE), the ICC Academy in Dubai Sports City, Sharjah Cricket Stadium, and the many club cricket grounds and turf pitches across Dubai including the various DCSCA grounds. We are familiar with the media access protocols at each venue and can advise on what credentials are required for access to the designated media positions." },
+      { question: "Can you photograph cricket training sessions and net practice?", answer: "Yes — training session photography is popular with cricket clubs, academies, and individual players building their personal brand or seeking coaching analysis footage. Training photography gives a different visual output from match photography: closer access, more relaxed shots, coaching interactions, and the technical detail of batting and bowling technique. Training shoots typically start from AED 600 for a 90-minute session." },
+      { question: "Do you photograph both amateur league cricket and professional matches in Dubai?", answer: "Yes. We cover the full spectrum of Dubai cricket: PSL warm-up games and international matches at Dubai International Stadium, the Asian Town Cricket Stadium league, DCSCA competitions, company cricket tournaments, and individual or team portrait sessions for local clubs. Cricket is one of the most played sports in Dubai's South Asian community and we receive regular requests from club teams, corporate tournaments, and individual players across all skill levels." },
+    ],
+    relatedSlugs: ["sports-photography-dubai-2026", "football-photographer-dubai-2026", "corporate-event-videography-dubai-2026"],
+    content: `
+<h2>Cricket Photography in Dubai — A Growing Market</h2>
+<p>Dubai has quietly become one of the world's most important cricket cities. The ICC (International Cricket Council) is headquartered in Dubai Sports City, the UAE has hosted international bilateral series and major ICC tournaments, and the South Asian expat community — Indians, Pakistanis, Sri Lankans, Bangladeshis — has built one of the most active club cricket scenes outside the subcontinent. There are hundreds of cricket matches played every weekend across Dubai and the wider UAE, from PSL warm-up games at Dubai International Stadium to company cricket tournaments on synthetic pitches in industrial areas.</p>
+<p>This depth and breadth of cricket activity has created a significant and growing demand for professional cricket photography: match action imagery for clubs and tournaments, player portraits for personal branding, team photographs for club websites and social media, and event photography for sponsors and organising bodies.</p>
+
+<h2>Types of Cricket Photography in Dubai</h2>
+
+<h3>Match Action Photography</h3>
+<p>Match photography is the most technically demanding form of cricket photography and the most visually compelling. Capturing a batsman at the top of a cover drive, a fast bowler at the point of delivery, a slip catch taken at full stretch, or a stumping completed in a fraction of a second requires professional telephoto lenses (typically 300mm or 400mm), fast autofocus tracking systems, and the experience to anticipate where the action will happen before it happens. We use professional Sony and Canon sports bodies with tracking autofocus that locks onto players and maintains focus through the fastest moments of the game.</p>
+<p>For match photography at Dubai International Stadium and the ICC Academy, we typically position with a 400mm f/2.8 at the pavilion end for batting shots and relocate to the square leg position for catching and fielding sequences. At smaller club grounds, we rotate our position between overs to ensure we cover all aspects of the match across both teams.</p>
+
+<h3>Team Portraits and Squad Photography</h3>
+<p>Cricket team portraits are a staple of club and corporate team photography in Dubai. A professional team photograph session typically covers: the full squad group shot in match kit, individual player portraits (headshot and three-quarter), batting and bowling action portraits in kit, and social media content cuts for the club's Instagram and Facebook. We set up a portable backdrop and lighting system at the ground, work through the squad efficiently, and deliver a complete image library that the club can use across all their communications for a full season.</p>
+
+<h3>Corporate Cricket Tournaments</h3>
+<p>Corporate cricket tournaments are one of Dubai's most popular team building events — dozens of companies organise annual cricket days at Dubai Sports City and other venues. Photography of corporate cricket events covers the team action (match play, fielding, celebrations), the social aspect (teams between innings, group celebrations), and the prize ceremony. Corporate cricket event photography starts from AED 1,500 for a half-day event, with full-day tournament packages from AED 2,500.</p>
+
+<h3>Academy and Coaching Photography</h3>
+<p>Dubai has a significant youth cricket academy scene, with several ICC-affiliated academies and private coaching programmes operating across the city. Academy photography — documenting training sessions, capturing coaching techniques, producing imagery for the academy's marketing — is a growing request. We work with academies to produce imagery that shows the quality of their coaching environment, documents the development of young players, and supports their marketing and recruitment efforts.</p>
+
+<h2>Technical Equipment — Cricket Photography Dubai</h2>
+<p>Professional cricket photography in Dubai requires equipment that most photographers simply do not own: 300mm or 400mm telephoto prime lenses (costs AED 30,000–80,000), professional sports camera bodies with 30+ fps continuous shooting, and the physical fitness to move around a cricket ground for 6–8 hours in Dubai's heat. We invest in professional sports photography equipment and maintain our systems specifically for sports work. This investment is what separates professional cricket photography from footage shot on a consumer camera from the boundary rope.</p>
+
+<h2>Cricket Photography Packages — Dubai 2026</h2>
+<p><strong>Half-Day Match Coverage (From AED 800):</strong> 1 photographer, T20 or first session of a one-day match, 80–150 edited images, 3-day delivery.</p>
+<p><strong>Full Match Day (From AED 1,500):</strong> 1 photographer, full match coverage, 200–300 edited images, 5-day delivery.</p>
+<p><strong>Tournament Coverage (From AED 2,500/day):</strong> 2 photographers, all matches, 400+ images per day, social media cuts on same day, full gallery at tournament end.</p>
+<p><strong>Team Portrait Session (From AED 1,500):</strong> Full squad, all formats (group, individual, action portraits), complete image library, 1-week delivery.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Football Photographer Dubai 2026 ────────────────────────────────────
+  {
+    slug: "football-photographer-dubai-2026",
+    title: "Football Photographer Dubai 2026 — Match, Team & 5-a-Side Football Photography UAE",
+    metaTitle: "Football Photographer Dubai 2026 | Football Photography UAE | Soccer Photographer Dubai",
+    metaDescription: "Professional football photographer in Dubai. Match action, team portraits, 5-a-side leagues & corporate tournaments. Football photography from AED 700.",
+    keywords: ["football photographer dubai", "football photography dubai", "soccer photographer dubai", "football photographer uae", "5 a side football photographer dubai 2026", "football team photography dubai"],
+    category: "Sports Photography",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1575361204480-aadea25e6e68?w=1200&q=80",
+    excerpt: "Football is the most popular sport in the world, and Dubai's cosmopolitan population reflects that — from professional UAE Pro League matches to the massive 5-a-side league scene that runs every evening across the city's indoor and outdoor pitches. This guide covers professional football photography in Dubai for clubs, leagues, tournaments, and individual players.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does football photography cost in Dubai?", answer: "Football photography in Dubai starts from AED 700 for a 5-a-side match session (60–90 minutes, 100+ edited images). Full 11-a-side match coverage starts from AED 1,200 for a 90-minute match. Team portrait sessions for full squads start from AED 1,500 and include group photograph, individual headshots in kit, and action portrait shots. Corporate 5-a-side tournament photography (typically a half-day or full-day event) starts from AED 1,500." },
+      { question: "Do you photograph 5-a-side football leagues in Dubai?", answer: "Yes — 5-a-side league photography is one of our most regular football photography requests. Dubai has an enormous indoor and outdoor 5-a-side scene with leagues running across venues like The Cage, BurJuman Sports Hub, Dubai Sports City recreational pitches, and many hotel recreational facilities. We cover these leagues for teams who want social media content, for league organisers who want professional documentation, and for corporate sponsors who need imagery for their brand partnerships with the league." },
+      { question: "Can you photograph individual football players for social media content?", answer: "Yes. Individual player photography is a growing request — young players building social media profiles, coaches wanting professional imagery for their coaching brand, and players seeking content for trials or sponsorship portfolios. Individual player sessions typically take 60–90 minutes and cover action shots (shooting, dribbling, defending), portrait shots in kit, and lifestyle shots at the ground. Pricing starts from AED 800 for an individual player session." },
+      { question: "Do you photograph UAE Pro League and professional football matches in Dubai?", answer: "We can provide photography at UAE Pro League matches subject to press credential requirements, which vary by club and competition. We advise clients on the credential process for specific matches and can produce photography that meets the output requirements of club media departments, sponsors, and sports media publishers. Contact us to discuss specific match requirements." },
+    ],
+    relatedSlugs: ["sports-photography-dubai-2026", "cricket-photographer-dubai-2026", "corporate-event-videography-dubai-2026"],
+    content: `
+<h2>Football Photography in Dubai — The Market</h2>
+<p>Football runs through the fabric of Dubai's cosmopolitan population in a way that no other sport does. On any given evening in Dubai, hundreds of 5-a-side matches are happening simultaneously across the city's pitches — Arab nationals playing at community sports clubs, South Asian leagues at Dubai Sports City, European expat corporate leagues at hotel facilities, and youth academies running evening training sessions. On weekends, the UAE Pro League draws significant crowds to Al Maktoum Stadium and other venues across the emirates.</p>
+<p>This football ecosystem creates a diverse and active market for football photography: clubs and leagues that want to document their seasons, teams that want professional imagery for social media, corporate tournament organisers who need photographs for their event reports, and individual players building their personal brand or preparing applications for trials.</p>
+
+<h2>Types of Football Photography We Cover in Dubai</h2>
+
+<h3>Match Action Photography — 11-a-Side</h3>
+<p>Full-match football photography requires telephoto lenses that can capture the action from both ends of a full-size pitch, fast autofocus for tracking players through movement, and the tactical knowledge to position for the best angles on attacking sequences, set pieces, and goal celebrations. We work with a primary photographer behind one goal and reposition at half-time to cover the attacking end in both halves. Key moments we prioritise: goal celebrations (the universal focal point of football photography), shot saves and goalkeeper reactions, tackle and duel moments, and atmospheric shots that capture the identity of the game — the team dugout, the crowd, the pre-match lineup.</p>
+
+<h3>5-a-Side League Photography</h3>
+<p>5-a-side photography in Dubai has specific technical demands: typically indoor or floodlit outdoor pitches with mixed artificial lighting, fast play in a small space that makes wide angles useful, and the social atmosphere of the post-match where teams want group shots alongside action images. We cover 5-a-side events with a versatile 24-70mm range alongside a 70-200mm for action, giving us the flexibility to move between close-range social shots and compressed telephoto action without changing lenses between moments.</p>
+
+<h3>Team Kit Launches and Squad Portraits</h3>
+<p>Football team portrait photography in Dubai is driven by the same visual culture that has made Instagram the primary platform for sporting communication. Teams that invest in professional kit launch photography and squad portraits have a dramatically higher social media engagement than those using phone camera images. We produce football team photography packages that cover: the official squad photograph in match kit, individual player portraits against a clean background, action portrait shots (shooting, heading, skills), and lifestyle shots that capture the team culture. These packages provide a full-season image library in a single session.</p>
+
+<h3>Youth Academy Photography</h3>
+<p>Dubai's youth football academy sector — with FIFA and AFC-affiliated programmes at several venues — regularly commissions photography for their marketing materials, parent communications, and social media. Youth academy photography requires additional sensitivity around photographing minors, and we are fully compliant with child photography guidelines and GDPR-equivalent standards for images of under-18s. We discuss parental consent requirements with academy management before every youth shoot.</p>
+
+<h2>Football Photography Packages — Dubai 2026</h2>
+<p><strong>5-a-Side Match (From AED 700):</strong> 1 photographer, 60–90 minutes, 100+ edited images, social media crops, 3-day delivery.</p>
+<p><strong>11-a-Side Full Match (From AED 1,200):</strong> 1 photographer, 90 minutes + warm-up, 200+ edited images, 5-day delivery.</p>
+<p><strong>Team Portrait Session (From AED 1,500):</strong> Full squad, kit, action portraits, complete library, 1-week delivery.</p>
+<p><strong>Tournament Day (From AED 1,800):</strong> 1 photographer, full day multi-match tournament, 300+ images, same-day social media teaser, full gallery in 5 days.</p>
+<p>WhatsApp +971 58 588 2685 or email info@backyardstudioofficial.com.</p>
+`,
+  },
+
+  // ─── Tennis Photographer Dubai 2026 ──────────────────────────────────────
+  {
+    slug: "tennis-photographer-dubai-2026",
+    title: "Tennis Photographer Dubai 2026 — Match, Tournament & Player Photography UAE",
+    metaTitle: "Tennis Photographer Dubai 2026 | Tennis Photography UAE | Sports Photographer Tennis Dubai",
+    metaDescription: "Professional tennis photographer in Dubai. Match action, player portraits & tournament coverage. Dubai Duty Free Tennis Championships & club tennis. From AED 800.",
+    keywords: ["tennis photographer dubai", "tennis photography dubai", "tennis photographer uae", "dubai tennis photographer 2026", "tennis match photographer dubai", "tennis player photography dubai"],
+    category: "Sports Photography",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=1200&q=80",
+    excerpt: "Dubai hosts one of the most prestigious tennis tournaments in the world — the Dubai Duty Free Tennis Championships draws ATP and WTA Tour players to the Aviation Club every February. But tennis photography in Dubai extends far beyond the professional tour: a huge network of tennis clubs, private courts, and academies makes tennis one of the most actively played recreational sports in the city. This guide covers professional tennis photography in Dubai.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does tennis photography cost in Dubai?", answer: "Tennis photography in Dubai starts from AED 800 for a single match or training session with one photographer, delivering 80–120 edited images. Player portrait sessions combining action and formal portrait work start from AED 1,200. Academy or club event photography for tournaments or club days starts from AED 1,500 for a half-day. For multi-day club tournaments, full-day rates of AED 2,000 per day apply." },
+      { question: "What tennis clubs and venues do you photograph at in Dubai?", answer: "We photograph tennis at venues across Dubai including Aviation Club Tennis Centre (home of the Dubai Duty Free Tennis Championships), JA Beach Hotel Tennis, Dubai Tennis Stadium, Nad Al Sheba Sports Complex, and the courts at leading hotel leisure clubs including those at Jumeirah Beach Hotel, Le Royal Méridien, and Madinat Jumeirah. We can also set up at private residential or villa tennis courts for individual or family sessions." },
+      { question: "Can you photograph individual player sessions for social media and coaching purposes?", answer: "Yes — individual tennis player sessions are one of our most popular sports photography requests. These sessions cover action imagery for social media (serving, forehand, backhand, volleys), coach-directed technical shots for analysis, and clean portrait shots in kit for profile imagery. Players from recreational level through to national and international junior players use these sessions for social media content, coaching profiles, sponsorship portfolios, and tournament entry imagery. Sessions typically run 60–90 minutes and start from AED 800." },
+      { question: "Do you cover the Dubai Duty Free Tennis Championships?", answer: "The Dubai Duty Free Tennis Championships is a professional ATP/WTA event with specific media accreditation requirements. Press photography access requires credentials issued by the tournament's media team. We can advise on the credential application process and can produce photography at the event for media-accredited clients. For club tennis and academy events, no special credentials are required." },
+    ],
+    relatedSlugs: ["sports-photography-dubai-2026", "fitness-photographer-dubai-2026", "cricket-photographer-dubai-2026"],
+    content: `
+<h2>Tennis Photography in Dubai — The Sport and the Market</h2>
+<p>Dubai's tennis scene spans two very different worlds. The first is the international professional tour — the Dubai Duty Free Tennis Championships, held annually at the Aviation Club, attracts ATP and WTA top-20 players and draws tens of thousands of spectators across a two-week period. The second is the enormous recreational and club tennis scene: thousands of Dubai residents play tennis weekly at hotel courts, residential club courts, tennis academies, and private facilities across the city.</p>
+<p>Professional tennis photography serves both worlds. For the professional tour, it produces the action imagery, player portraits, and atmospheric tournament photography used by media organisations, sponsors, and the tournament itself. For the club and academy scene, it produces the player photography, tournament documentation, and marketing imagery used by facilities and coaches to communicate their offering.</p>
+
+<h2>Tennis Photography — What We Cover</h2>
+
+<h3>Match Action Photography</h3>
+<p>Tennis action photography is among the most technically demanding of all sports photography disciplines. The speed of the ball (professional servers regularly exceed 200 km/h), the speed of the player's movement across the court, and the unpredictability of play direction make tennis photography a constant exercise in anticipation and reaction. We use long telephoto lenses (300–400mm) with fast tracking autofocus, and we position at the baseline angle for the most effective view of serving, groundstrokes, and net approaches. Key tennis action moments: the serve at full extension (showing the athlete's full height and reach), forehand and backhand at the moment of contact (showing technique and power), volley at the net (showing athleticism and precision), and the celebration/dejection moments between points that reveal the emotional reality of competitive tennis.</p>
+
+<h3>Player Portrait Photography</h3>
+<p>Tennis player portraits for social media, coaching profiles, and sponsorship purposes are a distinct photography category from match action. Portrait sessions at a tennis court in Dubai — racket raised, eyes focused, kit sharp and clean — provide the kind of image that professional players use across all their communications. We direct these sessions carefully: the right court, the right angle on the background, the right light, and the right series of poses to produce a complete and versatile image library. A standard player portrait session (60–90 minutes) delivers 40–70 edited images covering action portraits, formal portrait shots, and candid lifestyle-style images that can be used for Instagram, LinkedIn, coaching profiles, and club communications.</p>
+
+<h3>Academy and Junior Tournament Photography</h3>
+<p>Tennis academies in Dubai invest significantly in their facilities and coaching programmes, and many commission photography to document and promote what they offer. Academy photography includes: coaching sessions showing teaching technique, junior player action shots for the academy's marketing, tournament photography for the academy's events, and the facility imagery used on websites and in printed materials. We approach junior tennis photography with particular care around consent and appropriate imagery guidelines.</p>
+
+<h3>Corporate and Social Tennis Events</h3>
+<p>Corporate tennis events — round-robin tournaments, charity matches, and client entertainment days — are popular in Dubai's business community. Photography of these events serves the corporate communications purpose: documenting participation, capturing moments of competition and camaraderie, and producing imagery for internal communications, social media, and sponsor reports.</p>
+
+<h2>Tennis Photography Packages — Dubai 2026</h2>
+<p><strong>Match or Training Session (From AED 800):</strong> 1 photographer, 60–90 minutes, 80–120 edited action images, 3-day delivery.</p>
+<p><strong>Player Portrait Session (From AED 1,200):</strong> 60–90 minutes, 40–70 edited images, action and portrait, social media crops, 1-week delivery.</p>
+<p><strong>Club Tournament (From AED 1,500/half-day):</strong> 1 photographer, multiple matches, 200+ images, social media teaser same day, full gallery 5 days.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Golf Photographer Dubai 2026 ────────────────────────────────────────
+  {
+    slug: "golf-photographer-dubai-2026",
+    title: "Golf Photographer Dubai 2026 — Tournament, Corporate & Player Photography UAE",
+    metaTitle: "Golf Photographer Dubai 2026 | Golf Photography UAE | Golf Tournament Photographer Dubai",
+    metaDescription: "Professional golf photographer in Dubai. Tournament coverage, corporate golf days, player portraits & course photography. Emirates Golf Club & UAE courses. From AED 1,200.",
+    keywords: ["golf photographer dubai", "golf photography dubai", "golf photographer uae", "golf tournament photographer dubai 2026", "corporate golf photographer dubai", "emirates golf club photographer"],
+    category: "Sports Photography",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=1200&q=80",
+    excerpt: "Dubai is one of the Middle East's premier golf destinations — home to the Emirates Golf Club (host of the Omega Dubai Desert Classic), Jumeirah Golf Estates, and a collection of world-class courses that attract golfers from across the region and internationally. This guide covers professional golf photography in Dubai for tournaments, corporate events, and individual player sessions.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does golf photography cost in Dubai?", answer: "Golf photography in Dubai starts from AED 1,200 for a half-day corporate golf day coverage (18-hole round, key moments, prize ceremony, 150+ images). Full-day corporate golf tournament coverage is from AED 2,000. Individual player swing analysis and portrait sessions start from AED 900 for a 60-minute session on the driving range or course. Course photography (full-course landscape and hole imagery for marketing purposes) is quoted per project, typically from AED 3,500 for a 9-hole set." },
+      { question: "Which Dubai golf courses do you photograph at?", answer: "We photograph golf at Emirates Golf Club (Majlis and Faldo courses), Jumeirah Golf Estates (Fire and Earth courses), Dubai Creek Golf & Yacht Club, Al Badia Golf Club, The Els Club Dubai, Montgomerie Golf Club, and Trump International Golf Club Dubai. Each course has its own media and photography guidelines, and we familiarise ourselves with these before each assignment." },
+      { question: "What does a corporate golf day photography package include?", answer: "Corporate golf day photography typically includes: team arrival and registration shots, tee-off photography for key groups, in-round action photography following specific groups on the course, hole-in-one board and feature hole photography, the 19th hole social gathering, prize giving ceremony and winner portraits, and group shots of the full field at the end of the day. We also produce a same-day edited teaser set (20–30 images) for immediate social media posting, with the full gallery delivered within 5 working days." },
+      { question: "Can you photograph golf swing sequences for coaching analysis?", answer: "Yes. Golf swing sequence photography — multiple frames through the full swing captured at 20–30 fps — is a useful coaching tool and a visually distinctive form of golf player photography. We produce swing sequences as composite images (all frames layered on a single image to show the full arc of the swing) or as individual frame sets for detailed coaching analysis. These sessions take place on the driving range or at a practice facility and start from AED 900." },
+    ],
+    relatedSlugs: ["sports-photography-dubai-2026", "corporate-photography-dubai-2026", "corporate-event-videography-dubai-2026"],
+    content: `
+<h2>Golf Photography in Dubai — The Market</h2>
+<p>Golf holds a special position in Dubai's sporting and business culture. The Omega Dubai Desert Classic at Emirates Golf Club has brought the European Tour (now DP World Tour) to the city since 1989, and Dubai's collection of world-class courses has made the emirate one of the region's most popular golf destinations. More practically for photography, golf is deeply embedded in Dubai's corporate entertainment culture: corporate golf days, charity golf tournaments, and client hospitality events on Dubai's courses are among the city's most frequently photographed corporate occasions.</p>
+<p>Golf photography in Dubai serves four distinct markets: professional tournament photography (DP World Tour events and amateur pro events), corporate golf day photography (the most frequent request), individual player photography (swing analysis, social media, handicap tracking), and course photography (marketing imagery for golf clubs and developers).</p>
+
+<h2>Corporate Golf Day Photography in Dubai</h2>
+<p>Corporate golf photography is the backbone of golf photography demand in Dubai. Virtually every major Dubai corporation runs an annual golf day for clients, partners, or internal teams — a morning of golf followed by lunch and a prize giving. These events are significant relationship-building and brand communications occasions, and the photography must reflect that. We approach corporate golf day photography with a clear understanding of what the client needs: imagery for their social media (particularly LinkedIn and Instagram), for their internal communications (event recap emails, newsletters), and for their sponsor reporting if the event has corporate partners.</p>
+<p>The challenge of golf photography for corporate days is covering an event that spans a large geographic area (18 holes across a golf course that might cover several hundred acres) with a single photographer or small team. We plan our day strategically: we cover the arrivals and tee-off at the 1st hole, move to the feature hole (typically a par 3 where everyone plays a hole-in-one competition), position at one of the most photogenic holes on the course for in-round action, and return to the clubhouse for the social finish and prize giving. This route ensures coverage of every important moment without missing any key photographic opportunity.</p>
+
+<h2>Individual Golf Player Photography</h2>
+<p>Individual golf player photography in Dubai covers several distinct applications. Personal social media content for golfers who use their game as part of their personal brand. Swing sequence photography for coaching analysis and progress documentation. Professional profile imagery for club competitions and handicap cards. And the kind of aspirational lifestyle golf photography — walking the fairway at golden hour, overlooking the Arabian Gulf from a course with water views — that represents the Dubai golf experience at its most visually compelling.</p>
+<p>For individual player sessions, we work at the course or driving range and move through a sequence of shot types: wide-angle environmental shots that establish the course location, medium shots showing the full swing from the side and from behind, close-up shots of the club at impact, and portrait-style images in kit. A 60–90 minute session typically produces 40–80 images covering all of these categories.</p>
+
+<h2>Course and Resort Photography</h2>
+<p>Golf course photography for marketing purposes requires a specific approach that emphasises the visual drama and distinctiveness of the course: aerial views of signature holes, sunset and sunrise wide-angle shots that show the landscape in its most flattering light, detail shots of the manicured greens and fairways, and lifestyle shots that show the course as a premium leisure destination. We work with golf clubs and resort developers to produce full course image libraries that can be used across websites, print materials, social media, and sales presentations.</p>
+
+<h2>Golf Photography Packages — Dubai 2026</h2>
+<p><strong>Individual Player Session — From AED 900:</strong> 60–90 minutes on course or range, 40–80 edited images, swing sequences, portrait and lifestyle shots, 1-week delivery.</p>
+<p><strong>Corporate Golf Half-Day — From AED 1,200:</strong> Key moments coverage, arrivals through feature hole, 150+ images, same-day social teaser, full gallery in 5 days.</p>
+<p><strong>Full Corporate Golf Day — From AED 2,000:</strong> Full round + prize giving, 300+ images, same-day social teaser, full gallery in 5 days.</p>
+<p><strong>Course Photography — From AED 3,500:</strong> 9-hole full-course marketing image set, sunrise/sunset timing, drone imagery, 2-week delivery.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Fitness Photographer Dubai 2026 ─────────────────────────────────────
+  {
+    slug: "fitness-photographer-dubai-2026",
+    title: "Fitness Photographer Dubai 2026 — Gym, Personal Trainer & Athlete Photography UAE",
+    metaTitle: "Fitness Photographer Dubai 2026 | Gym Photography Dubai | Personal Trainer Photographer UAE",
+    metaDescription: "Professional fitness photographer in Dubai. Personal trainers, gym brands, athletes & fitness influencers. Studio & gym location shoots. Fitness photography from AED 800.",
+    keywords: ["fitness photographer dubai", "fitness photography dubai", "gym photographer dubai", "personal trainer photographer dubai", "fitness influencer photographer dubai 2026", "athlete photographer dubai uae"],
+    category: "Sports Photography",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&q=80",
+    excerpt: "Dubai's fitness industry is one of the most dynamic in the world — thousands of personal trainers, gym owners, fitness influencers, and athletic brands operate in the city. High-quality fitness photography is the foundation of a fitness professional's brand. This guide covers professional fitness photography in Dubai for PTs, gym brands, athletes, and fitness content creators.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does fitness photography cost in Dubai?", answer: "Fitness photography in Dubai starts from AED 800 for a 60-minute session at your gym or an outdoor location, delivering 50–80 edited images. A comprehensive personal trainer brand session (2 hours, multiple setups, full social media library) starts from AED 1,500–2,000. Gym brand photography — covering equipment, classes, trainers, and the facility itself — is typically a half-day session from AED 2,500. Commercial fitness photography for supplement brands or sportswear starts from AED 3,500 for a full production day." },
+      { question: "Can you come to my gym in Dubai for a fitness photoshoot?", answer: "Yes — we bring portable professional lighting equipment to your gym and shoot on location in your existing facility. This is typically preferred over a studio session for fitness photography because it shows you in your actual environment, with the gym's equipment, aesthetic, and brand identity as the backdrop. We work with you to select the best areas of your gym for photography, manage the lighting setup around the gym's existing light sources, and produce imagery that looks professional while being authentically located in your space." },
+      { question: "What type of images should I get as a personal trainer in Dubai?", answer: "A complete personal trainer image library should cover: professional headshots in kit (for your website, business card, and LinkedIn), training action shots demonstrating your coaching (showing a client interaction, demonstrating an exercise, spotting), solo athlete shots showing your own fitness level and physical presence, lifestyle shots (planning sessions, reviewing progress with a client, the human side of your business), and social media content cuts in the right crop ratios for Instagram, Facebook, and TikTok thumbnails. We structure every PT brand session to produce images across all of these categories." },
+      { question: "Do you photograph fitness competitions and bodybuilding shows in Dubai?", answer: "Yes. We photograph bodybuilding and physique competitions at venues across Dubai and the wider UAE, including NPC and IFBB affiliated shows. Competition photography covers stage presentation shots (mandatory poses, finals comparisons), backstage preparation, and award ceremonies. We also photograph physique photography sessions for competitive athletes preparing for show season — studio lighting setups that replicate competition lighting for posing practice and progress documentation." },
+    ],
+    relatedSlugs: ["sports-photography-dubai-2026", "gym-photography-dubai-2026", "personal-branding-photographer-dubai-2026"],
+    content: `
+<h2>Fitness Photography in Dubai — The Industry Context</h2>
+<p>Dubai's fitness industry is extraordinarily competitive. The city has one of the highest concentrations of personal trainers, boutique fitness studios, and gym facilities per capita of any city in the world — and virtually every fitness professional uses social media as their primary marketing tool. In an Instagram-first market, the quality of your photography directly determines your professional credibility and your ability to attract clients. A personal trainer in Dubai with poor-quality phone camera images is immediately at a disadvantage compared to a competitor with a professional brand photography library — regardless of how good their actual training is.</p>
+<p>This commercial reality has made professional fitness photography one of the most requested types of professional photography in Dubai, and it is one of the areas where the quality difference between professional photography and phone camera imagery is most immediately apparent.</p>
+
+<h2>What Fitness Photography Covers in Dubai</h2>
+
+<h3>Personal Trainer Brand Photography</h3>
+<p>A personal trainer's brand photography library is their primary commercial asset. It needs to cover: who they are as a professional (confident, expert, approachable), what they do (specific training styles and modalities), who they work with (types of clients, if visible and consented), and the environment in which they operate (their gym, their outdoor training spaces). A well-produced PT brand session in Dubai delivers 40–80 images covering all of these dimensions, providing months of social media content and a complete suite of images for a professional website.</p>
+<p>Personal trainer photography in Dubai has specific visual conventions that have emerged from the city's fitness social media culture: the outdoor golden-hour session showing Dubai's skyline or desert backdrop, the gym floor action shot with dramatic side lighting, the close-up expression shot that communicates intensity and focus, and the client-interaction shot that shows the coaching relationship. We understand these conventions and produce images that fit the visual language of Dubai's fitness industry while being specific to the individual trainer's style and brand.</p>
+
+<h3>Gym Brand Photography</h3>
+<p>Gym brand photography covers the facility, the team, and the training environment. A Dubai gym that presents its facilities with professional photography — properly lit equipment, clean compositions, energetic action shots of classes and training — projects the credibility and quality that justifies premium membership pricing. We photograph gyms across Dubai producing image libraries that cover: facility walk-throughs showing each zone of the gym, trainer portraits (all staff, individually and as a team), class photography (HIIT, yoga, spin, weights), member experience photography (with appropriate consent), and the detail shots of equipment and branding that reinforce the quality of the facility.</p>
+
+<h3>Fitness Influencer Content Photography</h3>
+<p>Dubai's fitness influencer community is significant — several Dubai-based fitness accounts have hundreds of thousands of followers and generate substantial income through brand partnerships, product sales, and coaching programmes. Professional photography is the foundation of this business model: influencers need a constant supply of high-quality, varied imagery that keeps their feed looking premium and their engagement rates high. We work with fitness influencers on regular content creation sessions — typically monthly sessions that produce 60–100 images across multiple setups, locations, and outfit changes.</p>
+
+<h3>Commercial Fitness Photography — Brands and Products</h3>
+<p>Supplement brands, sportswear companies, fitness equipment suppliers, and health food businesses all need fitness photography for their marketing. Commercial fitness photography for brand campaigns in Dubai requires a fully produced approach: model casting (or working with the client's brand ambassadors), a clear creative brief, professional studio or location setup, art direction, and post-production to a commercial standard. We handle full commercial fitness photography production for Dubai-based brands.</p>
+
+<h2>Fitness Photography Packages — Dubai 2026</h2>
+<p><strong>PT Brand Session (From AED 800):</strong> 60 minutes at your gym or outdoor location, 50–80 edited images, social media crops, 1-week delivery.</p>
+<p><strong>Comprehensive PT Brand (From AED 1,500):</strong> 2 hours, multiple setups, 80–120 edited images, full brand library, 1-week delivery.</p>
+<p><strong>Gym Brand Half-Day (From AED 2,500):</strong> Full facility, trainer portraits, class photography, 200+ images, 2-week delivery.</p>
+<p><strong>Commercial Fitness Production (From AED 3,500):</strong> Full creative production day, commercial deliverables, usage rights package.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Gym Photography Dubai 2026 ───────────────────────────────────────────
+  {
+    slug: "gym-photography-dubai-2026",
+    title: "Gym Photography Dubai 2026 — Fitness Studio & Gym Interior Photography UAE",
+    metaTitle: "Gym Photography Dubai 2026 | Gym Interior Photography Dubai | Fitness Studio Photography UAE",
+    metaDescription: "Professional gym and fitness studio photography in Dubai. Gym interiors, equipment, classes & trainer photography for marketing. Studio photography from AED 2,000.",
+    keywords: ["gym photography dubai", "gym photographer dubai", "fitness studio photography dubai", "gym interior photography dubai 2026", "gym marketing photography dubai", "fitness centre photographer uae"],
+    category: "Sports Photography",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=1200&q=80",
+    excerpt: "Dubai's gym and fitness studio market is one of the most competitive in the world. Professional gym photography is no longer a luxury — it is a requirement for any facility competing for premium memberships in this market. This guide covers professional gym photography in Dubai, what a full gym photography package includes, and what to expect from a session.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does gym photography cost in Dubai?", answer: "Gym photography in Dubai for a full facility with interior shots, equipment, trainers, and class photography is typically a half-day session priced from AED 2,000–3,500 depending on the size of the gym and the number of setups required. A full-day gym photography production covering a larger facility with multiple zones, all trainers, multiple classes, and member photography starts from AED 4,000–6,000. Smaller boutique studio photography (yoga studio, Pilates studio, boxing gym) can often be covered in 3–4 hours starting from AED 1,500." },
+      { question: "When is the best time to photograph a gym in Dubai?", answer: "Gym photography typically works best at off-peak times when the facility is not overcrowded with regular members — early morning before the 6am rush opens, mid-morning after the 9am peak, or early afternoon before the 5pm–8pm evening peak. We schedule gym photography sessions to coincide with when the facility looks at its best: equipment is clean and in position, lighting can be controlled or supplemented, and the gym's best visual assets are accessible without being blocked by equipment in use. We discuss timing with the gym manager in advance of every session." },
+      { question: "What areas of the gym should be photographed?", answer: "A complete gym photography package in Dubai should cover: the reception and entry experience (first impression of quality), the main weights floor (showing the breadth of equipment), cardio zone, any functional training area, group fitness studio (shown during a class), personal training spaces, changing rooms (if they are a selling point), any café or recovery area, and the exterior of the building (for Google Business Profile and location recognition). We work from a shot list agreed with the gym management in advance to ensure comprehensive coverage." },
+      { question: "Do I need to have models or can you use my members and trainers?", answer: "For most gym photography, using your actual trainers and willing members is preferable to using models — authenticity matters in fitness marketing, and people respond to seeing real trainers and real athletes in their environment rather than obviously posed model shoots. We work with your trainers (and any members who provide written consent) to produce images that look professional, energetic, and authentic simultaneously. Where specific commercial campaign imagery needs professional fitness models, we can advise on model casting in Dubai." },
+    ],
+    relatedSlugs: ["fitness-photographer-dubai-2026", "sports-photography-dubai-2026", "personal-branding-photographer-dubai-2026"],
+    content: `
+<h2>Gym Photography in Dubai — Why It Matters</h2>
+<p>Dubai's gym market is one of the most fiercely competitive in the world. A major gym corridor runs through virtually every Dubai neighbourhood — JLT, Dubai Marina, Business Bay, Downtown, DIFC, and Jumeirah all have multiple competing facilities, from large-format commercial gyms to boutique specialist studios. In a market this competitive, the quality of a gym's visual marketing materials is a direct commercial differentiator. Gyms with professional photography convert higher on their websites, perform better on Instagram, and project the quality that justifies premium membership pricing.</p>
+<p>The gap between a gym with professional photography and one without is immediately visible — and Dubai consumers, who are sophisticated and have high expectations for visual quality in their purchasing environment, make their assessments quickly. A gym's photography is often the first thing a potential member sees before they visit in person, and that first impression matters enormously.</p>
+
+<h2>What a Professional Gym Photography Session Covers</h2>
+
+<h3>Interior and Architecture Photography</h3>
+<p>The physical environment of a gym — the equipment, the layout, the lighting, the finishing — is its primary marketing asset. Interior photography of a gym requires professional wide-angle lenses, tripods, and supplementary lighting to ensure that every zone of the facility is shown at its most impressive. We typically use a 16–24mm ultra-wide lens for full-zone shots that show the scale and layout of the space, and a 35–50mm for detail and section shots that focus on specific equipment areas or design elements.</p>
+<p>Lighting management in gym photography is critical. Commercial gyms typically have a mix of fluorescent overhead lighting, LED strips, natural light from windows, and coloured ambient lighting in specific areas. Managing these mixed sources to produce photographs that look clean and professional — without the orange or green colour casts that unmanaged gym lighting produces — requires careful white balance management and, in some cases, supplementary flash lighting to balance the ambient.</p>
+
+<h3>Action and Class Photography</h3>
+<p>The most engaging gym photography shows the facility in use — classes in session, trainers in action, members engaged with training. Class photography (HIIT, yoga, Pilates, spin, boxing, CrossFit) requires fast shutter speeds, good low-light performance, and the ability to work unobtrusively in the class environment without disrupting the session. We photograph classes from the periphery with telephoto lenses that allow close compositions without entering the class space, producing images that look intimate and engaged while being completely non-disruptive.</p>
+
+<h3>Trainer and Staff Photography</h3>
+<p>Individual trainer portraits and the full team photograph are important elements of a gym's marketing material. Potential members want to see who will be training them before they sign up — and professional trainer photography communicates competence, confidence, and the quality of the team. We produce trainer photography in two styles: formal headshots against a branded background for website staff pages, and action portraits in the gym environment that show each trainer in their element. Both styles should be visually consistent across the full team.</p>
+
+<h3>Equipment and Detail Photography</h3>
+<p>Detail photography — the texture of a leather pad, the logo on a piece of equipment, the clean lines of a functional training rig — adds depth to a gym's image library and provides assets for social media content that breaks the monotony of action and portrait images. These detail shots are often overlooked in gym photography briefs but are among the most useful assets for social media content calendars.</p>
+
+<h2>Gym Photography Packages — Dubai 2026</h2>
+<p><strong>Boutique Studio (From AED 1,500):</strong> 3–4 hours, yoga/Pilates/boxing studio, interiors + class + trainer portrait, 100+ images, 2-week delivery.</p>
+<p><strong>Full Gym Half-Day (From AED 2,000):</strong> 4–5 hours, all zones, 2–3 trainers, one class, 200+ images, 2-week delivery.</p>
+<p><strong>Full Gym Day (From AED 3,500):</strong> 8 hours, all zones and features, all trainers, multiple classes, member photography, 400+ images, 2-week delivery.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Marathon Photographer Dubai 2026 ────────────────────────────────────
+  {
+    slug: "marathon-photographer-dubai-2026",
+    title: "Marathon Photographer Dubai 2026 — Running Event & Race Photography UAE",
+    metaTitle: "Marathon Photographer Dubai 2026 | Dubai Marathon Photography | Running Event Photographer UAE",
+    metaDescription: "Professional marathon and running event photographer in Dubai. Dubai Marathon, Run Dubai, 10K & half marathon coverage. Race photography from AED 1,000.",
+    keywords: ["marathon photographer dubai", "dubai marathon photography", "running event photographer dubai", "race photographer dubai 2026", "10k photographer dubai", "running photography uae"],
+    category: "Sports Photography",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=1200&q=80",
+    excerpt: "Dubai's running scene has grown exponentially over the past decade. The Dubai Marathon, Run Dubai series, Spartan Race UAE, and dozens of community running clubs make the city one of the Middle East's most active running destinations. This guide covers professional marathon and running event photography in Dubai — from official race documentation to individual runner action shots.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "Can I commission a photographer to follow me during the Dubai Marathon?", answer: "Yes — personal marathon photography (where a dedicated photographer follows a specific runner at multiple points on the course) is a popular request. We position ourselves at 3–4 strategic points on the marathon route, capture your individual race shots as you pass, and produce a gallery of 30–60 edited images documenting your race experience. This is particularly popular for runners completing their first marathon or achieving a significant personal best. Personal marathon photography sessions start from AED 1,000." },
+      { question: "Do you provide official photography for running events and races in Dubai?", answer: "Yes — we provide official race photography for organised running events: 5K charity runs, corporate 10K events, half marathons, and full marathon distances. Official race photography covers the start line, mid-course action at photogenic points on the route, the finish line crossing, and the medal presentation and social atmosphere after the race. We also provide same-day image delivery to event organisers for social media posting while the event is still top of mind. Event photography starts from AED 2,000 for a small community run." },
+      { question: "What makes good marathon photography?", answer: "The best marathon photography captures three things: the running form of the athlete (a clean, powerful stride with good form photographs far better than a tired shuffling step, so positioning at the earlier part of a race often produces stronger action images), the facial expression of effort and determination that communicates the emotional reality of endurance sport, and the iconic finish line crossing moment. We position at points on the course that provide a clean, uncluttered background, good light, and a high enough runner volume to make positioning efficient." },
+      { question: "How do you deliver photos after a marathon event in Dubai?", answer: "For individual runner photography, we deliver via an online gallery link within 48–72 hours of the event, with the runner able to download full-resolution images directly. For official event photography, we provide a same-day social media set (20–30 images edited and delivered within 2–3 hours of the race finishing) followed by the complete gallery within 3–5 days. All images are delivered in high-resolution JPEG suitable for print and digital use." },
+    ],
+    relatedSlugs: ["sports-photography-dubai-2026", "fitness-photographer-dubai-2026", "corporate-event-videography-dubai-2026"],
+    content: `
+<h2>Marathon and Running Photography in Dubai</h2>
+<p>Dubai's running community has transformed over the past decade into one of the most active in the Middle East. The Dubai Marathon — one of the world's fastest marathon courses, held every January along the Sheikh Zayed Road — draws elite East African athletes and thousands of recreational runners from across the UAE and internationally. The Run Dubai series, Spartan Race UAE, multiple charity runs, and a thriving network of running clubs (Dubai Creek Striders, Dubai Road Runners, and many others) make running one of the most popular participant sports in the city.</p>
+<p>This activity creates a significant demand for running photography at every level: official documentation for event organisers, personal photography for individual runners documenting their achievement, social media content for running clubs and brands, and commercial photography for sportswear and equipment brands that operate in the UAE market.</p>
+
+<h2>Types of Running Photography We Cover in Dubai</h2>
+
+<h3>Official Race Documentation</h3>
+<p>Official race photography for organised running events serves multiple purposes simultaneously: it provides images for the event's social media and post-race communications, it gives runners access to professional images of their participation (which drives social media sharing and word-of-mouth for future editions), and it provides documentation for event sponsors and stakeholders. We cover official running events with multiple photographers positioned at key points on the course: the start (capturing the energy and scale of the starting field), the mid-course signature locations (iconic Dubai backdrops that identify the event's location), the challenging section (where effort and determination are most visible), and the finish line (the moment that every runner has been working toward).</p>
+
+<h3>Personal Marathon Photography</h3>
+<p>Personal marathon photography — where a dedicated photographer follows and documents a specific runner's experience — is the most personal and emotionally resonant form of running photography. For a first-time marathon finisher, images of their race are among the most significant personal photographs they will ever have: the moment of starting, the struggle in the final miles, and the finish-line crossing carry genuine emotional weight. We plan personal marathon photography routes carefully — arriving at each planned position before the runner, capturing multiple shots as they pass, and moving efficiently to the next position to ensure we have images from several points on the course.</p>
+
+<h3>Running Club Photography</h3>
+<p>Dubai's running clubs need photography for their social media, their websites, and their sponsor communications. Running club photography typically covers training runs (action photography during group sessions at venues like the Dubai Creek or Jumeirah Beach), club race events, and the social atmosphere of the running community. This type of photography is typically commissioned on a recurring basis — monthly sessions that document the club's ongoing activity and provide a constant stream of content.</p>
+
+<h3>Commercial Running Photography for Brands</h3>
+<p>Sportswear brands, running shoe companies, nutrition brands, and fitness apps that operate in the UAE market need running photography for their campaigns. Commercial running photography in Dubai provides the authentic outdoor backdrop of the city — the waterfront, the desert, the urban landscape — as a distinctive visual setting for brand imagery. We produce commercial running photography for regional and international brands operating in the UAE market.</p>
+
+<h2>Marathon Photography Packages — Dubai 2026</h2>
+<p><strong>Personal Runner Package (From AED 1,000):</strong> 1 dedicated photographer, 3–4 course positions, 30–60 edited images, 48-hour delivery.</p>
+<p><strong>Small Community Event (From AED 2,000):</strong> 2 photographers, start + finish + 1 mid-course position, 200+ images, same-day social teaser, full gallery in 5 days.</p>
+<p><strong>Full Race Official Coverage (From AED 3,500):</strong> 3+ photographers, full course coverage, same-day social delivery, complete gallery in 3 days, bib search functionality.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Motorsport Photographer Dubai 2026 ──────────────────────────────────
+  {
+    slug: "motorsport-photographer-dubai-2026",
+    title: "Motorsport Photographer Dubai 2026 — Track Day, Racing & Automotive Sports Photography UAE",
+    metaTitle: "Motorsport Photographer Dubai 2026 | Track Day Photography Dubai | Racing Photographer UAE",
+    metaDescription: "Professional motorsport photographer in Dubai. Track days, car racing, Dubai Autodrome & UAE motorsport events. High-speed racing photography from AED 1,200.",
+    keywords: ["motorsport photographer dubai", "track day photographer dubai", "racing photographer dubai", "dubai autodrome photographer 2026", "car racing photography dubai", "motorsport photography uae"],
+    category: "Sports Photography",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=1200&q=80",
+    excerpt: "Dubai Autodrome is one of the Middle East's premier motorsport facilities — an FIA-certified circuit that hosts track days, racing series, karting events, and corporate driving experiences year-round. This guide covers professional motorsport photography in Dubai at Dubai Autodrome and other UAE racing venues.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does motorsport photography cost in Dubai?", answer: "Motorsport photography at Dubai Autodrome and UAE racing venues starts from AED 1,200 for a half-day track day session, delivering 80–150 edited action images of your car on track. Full-day race event coverage with a dedicated photographer starts from AED 2,000. Corporate track day photography — covering the event, participants, and vehicles for a company's communications needs — starts from AED 2,500 for a half-day event. Custom action sequences with multiple positions around the circuit are quoted per project." },
+      { question: "Can you get trackside access at Dubai Autodrome?", answer: "Yes. We are familiar with the media and photography access procedures at Dubai Autodrome and can obtain appropriate access for photography assignments. Trackside access protocols vary depending on whether the event is a public track day, a private corporate event, or an official race meeting — we advise on what access is possible for each type of event and manage the credential process on behalf of our clients." },
+      { question: "What techniques do you use for fast-moving car photography?", answer: "Motorsport photography uses several distinct techniques depending on the desired visual effect. Panning — tracking the moving car with the camera and using a slow shutter speed (1/60–1/250 second) — produces images where the car is sharp but the background is blurred with motion, conveying speed and dynamism. Freezing — using a very fast shutter speed (1/1000 second or faster) — produces pin-sharp images that show the car's detail and composition in perfect clarity. We use both techniques and plan our shot list to produce a mix of panning and frozen action imagery that captures both the speed and the visual character of the car." },
+      { question: "Can you photograph my personal car at a track day for social media?", answer: "Yes — personal car track day photography is one of the most popular requests from Dubai's car enthusiast community. We photograph your specific car across multiple circuit positions, producing a gallery of action shots, static shots at the circuit (car on pit lane, car at the track entrance), and detail shots of the car's visual highlights (body lines, wheels, cockpit). A personal track day photography session starts from AED 1,200 and produces 80–150 images that provide extensive social media content." },
+    ],
+    relatedSlugs: ["sports-photography-dubai-2026", "automotive-photography-dubai-2026", "drone-photography-dubai-2026"],
+    content: `
+<h2>Motorsport Photography in Dubai — The Scene</h2>
+<p>Dubai has a significant motorsport culture, rooted in the broader car enthusiasm that defines much of the city's leisure identity. Dubai Autodrome in Motor City is the centrepiece of this — an FIA-certified Grade 1 circuit with a 5.39 km grand prix layout and a full programme of track days, race series, karting championships, and corporate driving events that runs throughout the year. The circuit hosts the UAE Touring Car Championship, the Arabian Gulf Cup, various international race series warm-up events, and a constant calendar of track days for private car owners.</p>
+<p>Beyond Dubai Autodrome, the UAE's karting scene — particularly at Yas Marina Circuit in Abu Dhabi and Dubai Kartdrome — provides additional motorsport photography opportunities. And Dubai's position as a premium car market means that automotive brand events, supercar launches, and high-performance driving experiences at various venues around the city generate a regular demand for motorsport-adjacent photography.</p>
+
+<h2>What Motorsport Photography Covers in Dubai</h2>
+
+<h3>Track Day Photography</h3>
+<p>Track day photography is the most frequent motorsport photography request in Dubai — car enthusiasts who take their personal or track-prepared vehicles to Dubai Autodrome on organised track days want professional photographs of their car performing on circuit. The challenge of track day photography is that participants are not professional racing drivers, and the action is spread across a full lap of the circuit, requiring strategic positioning to capture each car in multiple circuit locations across the day.</p>
+<p>We typically work from 3–4 positions around the Dubai Autodrome circuit on a track day: a fast corner (where the car's handling and driver commitment are most visible), a slow corner (where detail and technique are captured), a long straight (where speed and blur can be used in panning shots), and the pit lane (for static and social shots before and after sessions). This positioning strategy ensures we have images from multiple circuit contexts for each participant.</p>
+
+<h3>Race Event Coverage</h3>
+<p>Official motorsport race events at Dubai Autodrome follow a more structured photography approach: practice, qualifying, and race sessions each have distinct photographic opportunities. The start of a race — when the full field of cars launches together into the first corner — is among the most dramatic and compressed moments in all of sports photography. We plan our race coverage from a race day schedule briefing, positioning for the maximum visual impact across the different sessions.</p>
+
+<h3>Corporate Track Day Photography</h3>
+<p>Corporate track day events at Dubai Autodrome — where companies bring clients, partners, or employees for a driving experience day — require photography that serves the corporate communications purpose alongside the participant experience. Corporate track day photography covers: the participant briefing and safety instruction, each participant's driving session on circuit, the social interactions between sessions, the debrief and awards if applicable, and group shots of the full participant field. These images are used in company social media, event recap communications, and sponsor reporting.</p>
+
+<h3>Car Detail and Static Photography at the Circuit</h3>
+<p>Static car photography at Dubai Autodrome — the car positioned on pit lane, at the circuit entry, or against the circuit infrastructure — provides the kind of automotive brand imagery that works for individual owners and for automotive brands alike. The circuit environment adds context and credibility to car photography that a car park or street location cannot replicate. We produce static circuit car photography as part of track day sessions and as standalone commissioned work.</p>
+
+<h2>Motorsport Photography Packages — Dubai 2026</h2>
+<p><strong>Personal Track Day Session (From AED 1,200):</strong> 1 photographer, half-day, 3–4 circuit positions, 80–150 edited images, 1 week delivery.</p>
+<p><strong>Full Track Day Coverage (From AED 2,000):</strong> 1 photographer, full day, all circuit positions, pit lane statics, 200+ images, 1-week delivery.</p>
+<p><strong>Corporate Track Day (From AED 2,500):</strong> Full event documentation, all participants, social teaser same day, full gallery in 5 days.</p>
+<p><strong>Race Event Official Coverage (From AED 3,500):</strong> 2 photographers, practice through race, 400+ images, same-day social delivery.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
 ];
 export function getBlogPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);

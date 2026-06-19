@@ -174,6 +174,15 @@ URLS = [
     f"https://{HOST}/blog/nigerian-wedding-photographer-dubai-2026",
     f"https://{HOST}/blog/russian-wedding-photographer-dubai-2026",
     f"https://{HOST}/blog/luxury-wedding-photographer-dubai-2026",
+    # EN Blog posts — Sprint 2: Sports sub-niches (2026-06-18)
+    f"https://{HOST}/blog/cricket-photographer-dubai-2026",
+    f"https://{HOST}/blog/football-photographer-dubai-2026",
+    f"https://{HOST}/blog/tennis-photographer-dubai-2026",
+    f"https://{HOST}/blog/golf-photographer-dubai-2026",
+    f"https://{HOST}/blog/fitness-photographer-dubai-2026",
+    f"https://{HOST}/blog/gym-photography-dubai-2026",
+    f"https://{HOST}/blog/marathon-photographer-dubai-2026",
+    f"https://{HOST}/blog/motorsport-photographer-dubai-2026",
 ]
 
 payload = {
