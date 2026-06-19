@@ -239,6 +239,15 @@ URLS = [
     f"https://{HOST}/case-studies/corporate-event-video-production-dubai",
     f"https://{HOST}/case-studies/hotel-brand-film-dubai",
     f"https://{HOST}/case-studies/fashion-campaign-production-dubai",
+    # EN Blog posts — Sprint 10: wedding sub-niches + commercial photography (2026-06-19)
+    f"https://{HOST}/blog/indian-wedding-photography-dubai-2026",
+    f"https://{HOST}/blog/arabic-wedding-photography-dubai-2026",
+    f"https://{HOST}/blog/destination-wedding-dubai-2026",
+    f"https://{HOST}/blog/nikah-photography-dubai-2026",
+    f"https://{HOST}/blog/personal-branding-photography-dubai-2026",
+    f"https://{HOST}/blog/food-photography-dubai-2026",
+    f"https://{HOST}/blog/product-photography-dubai-2026",
+    f"https://{HOST}/blog/lifestyle-photography-dubai-2026",
 ]
 
 payload = {
