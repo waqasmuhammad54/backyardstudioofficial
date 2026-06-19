@@ -125,6 +125,57 @@ export default function RuServicesPage() {
                 <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.9rem", lineHeight: 1.7, margin: 0 }}>{f.a}</p>
               </div>
             ))}
+            {[
+              {
+                q: "В чём разница между корпоративным видео и рекламным роликом DVC?",
+                a: "Корпоративное видео предназначено для стейкхолдеров, партнёров и прямых клиентов — фильм о компании, презентация для инвесторов, внутренние обучающие материалы. Рекламный ролик DVC — это рекламный контент для широкой аудитории через цифровые платформы и телевидение. Он требует более высокого уровня производства и бюджета. Оба направления входят в специализацию Backyard Studio.",
+              },
+              {
+                q: "Какое оборудование вы используете для съёмки в Дубае?",
+                a: "Мы снимаем на камеры Sony FX серии и Blackmagic Cinema, используем световое оборудование Aputure и беспроводные микрофоны Sennheiser. Для аэросъёмки — дроны DJI Inspire и Mavic серии с лицензией GCAA. Оборудование подбирается под требования каждого конкретного проекта.",
+              },
+              {
+                q: "Работаете ли вы с государственными структурами в ОАЭ?",
+                a: "Да. Мы имеем опыт работы с государственными и полугосударственными структурами в ОАЭ. Соблюдаем все необходимые процедуры и получаем требуемые разрешения для проектов государственного сектора, включая разрешения на съёмку на государственных объектах и полёты дрона в зонах GCAA.",
+              },
+              {
+                q: "Каковы сроки сдачи проектов в Backyard Studio?",
+                a: "Контент для соцсетей (Reels, TikTok): 24-48 часов. Свадебная съёмка (хайлайт): 48 часов, полный альбом: 2 недели. Съёмка мероприятий (хайлайт): 24-48 часов. Корпоративное видео и рекламные ролики: 2-3 недели в зависимости от сложности постпродакшна. Все сроки фиксируются письменно до начала съёмок.",
+              },
+            ].map((f) => (
+              <div key={f.q} style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "1.5rem" }}>
+                <h3 style={{ fontFamily: "Inter, sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem" }}>{f.q}</h3>
+                <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.9rem", lineHeight: 1.7, margin: 0 }}>{f.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* How we work */}
+      <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.75rem", fontWeight: 700, color: "var(--cream)", textAlign: "center", marginBottom: "3rem" }}>Как мы работаем</h2>
+          <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
+            {[
+              { num: "01", title: "Брифинг", desc: "Начинаем с бесплатной сессии брифинга для понимания задач проекта: кто ваша аудитория, какое послание вы хотите донести, на каких платформах будет использоваться контент. Этот этап определяет всё творческое направление." },
+              { num: "02", title: "Препродакшн", desc: "Пишем сценарий, создаём раскадровку, выбираем локации и команду. Съёмки начинаются только после того, как клиент утверждает все детали препродакшна." },
+              { num: "03", title: "Съёмочный день", desc: "Наша команда приезжает с полным комплектом оборудования точно в срок и реализует план съёмки. Мы управляем всеми аспектами продакшна на площадке: свет, звук, режиссура, при необходимости аэросъёмка." },
+              { num: "04", title: "Постпродакшн и сдача", desc: "Команда постпродакшна выполняет монтаж, цветокоррекцию, звуковой дизайн и подбор музыки. Первая версия передаётся в согласованные сроки. Два раунда правок включены бесплатно, после чего — финальная передача файлов." },
+            ].map((step) => (
+              <div key={step.num} style={{ display: "flex", gap: "1.5rem", alignItems: "flex-start" }}>
+                <div style={{ fontFamily: "Inter, sans-serif", fontSize: "2rem", fontWeight: 800, color: "var(--gold)", lineHeight: 1, flexShrink: 0, minWidth: "3rem" }}>{step.num}</div>
+                <div>
+                  <h3 style={{ fontFamily: "Inter, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.5rem" }}>{step.title}</h3>
+                  <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.9rem", lineHeight: 1.8, margin: 0 }}>{step.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div style={{ textAlign: "center", marginTop: "3rem" }}>
+            <a href="/ru/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Inter, sans-serif", fontWeight: 700 }}>
+              Начать проект
+            </a>
           </div>
         </div>
       </section>

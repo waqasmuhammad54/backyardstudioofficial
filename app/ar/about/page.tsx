@@ -106,6 +106,66 @@ export default function ArAboutPage() {
         </div>
       </section>
 
+      {/* Founders detail */}
+      <section style={{ padding: "5rem 2rem", background: "#111" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.75rem", fontWeight: 700, color: "var(--cream)", marginBottom: "2.5rem", textAlign: "center" }}>فريق القيادة</h2>
+
+          <div style={{ marginBottom: "3rem", borderRight: "3px solid var(--gold)", paddingRight: "1.5rem" }}>
+            <h3 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.3rem", fontWeight: 700, color: "var(--gold)", marginBottom: "0.5rem" }}>فهد إقبال بط — المدير الإبداعي ومؤسس الاستوديو</h3>
+            <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1rem" }}>
+              درس فهد إقبال بط الفيلم والتلفزيون في الكلية الوطنية للفنون (NCA) بلاهور، إحدى أعرق مؤسسات الفنون في جنوب آسيا. بعد سنوات من العمل في مجالَي الأزياء والسينما، أسس استوديو باكيارد أوفيشيال عام 2019 برؤية واضحة: تقديم محتوى بصري بمستوى عالمي يخدم السوق الخليجية.
+            </p>
+            <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem" }}>
+              منذ انتقال الاستوديو إلى دبي عام 2023، قاد فهد أكثر من 800 مشروع في الإمارات — من أفلام العلامات التجارية الكبرى في وسط المدينة، إلى جلسات التصوير في بيئات الصحراء والخليج. يؤمن فهد أن كل لقطة يجب أن تخدم قصة واضحة، ولهذا السبب نبدأ كل مشروع بفهم عميق لهوية العميل ورسالته قبل أي تصوير.
+            </p>
+          </div>
+
+          <div style={{ borderRight: "3px solid var(--gold)", paddingRight: "1.5rem" }}>
+            <h3 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.3rem", fontWeight: 700, color: "var(--gold)", marginBottom: "0.5rem" }}>سيد مظهر زيدي — مدير التصوير ورئيس ما بعد الإنتاج</h3>
+            <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1rem" }}>
+              يحمل سيد مظهر زيدي ماجستير في الاتصال الجماهيري من جامعة GC، وخبرة تتجاوز عشرين عاماً في مجال الإخراج السينمائي والتصوير الوثائقي. أنجز أكثر من 50 مقطعاً موسيقياً وإعلاناً تجارياً وفيلماً وثائقياً خلال مسيرته، ويمكنك الاطلاع على سجله المهني في قاعدة بيانات IMDB (رقم: nm14029494).
+            </p>
+            <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem" }}>
+              في باكيارد ستوديو، يشرف مظهر على مرحلة ما بعد الإنتاج بأكملها — التحرير، تصحيح الألوان، المونتاج الصوتي، والتصميم الحركي. هذا المستوى من الخبرة في ما بعد الإنتاج هو ما يُحوِّل لقطات جيدة إلى محتوى استثنائي. نؤمن أن التصوير هو نصف العمل فقط، والنصف الآخر يُصنع في غرفة المونتاج.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Approach + Stats */}
+      <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.75rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1.5rem" }}>منهجنا في العمل</h2>
+          <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1.5rem" }}>
+            نعمل بنظام الاستوديو الكامل الخدمات (Full-Service): نبدأ بجلسة إحاطة تفصيلية لفهم أهداف المشروع، ثم ننتقل إلى مرحلة ما قبل الإنتاج (سيناريو، لوحة القصة، اختيار الطاقم والمواقع)، ثم يوم أو أيام التصوير، وأخيراً ما بعد الإنتاج الكامل. نُسلِّم المشروع النهائي بتنسيقات متعددة تناسب جميع المنصات الرقمية والبث التلفزيوني.
+          </p>
+          <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1.5rem" }}>
+            نغطي جميع إمارات الدولة السبع: دبي، أبوظبي، الشارقة، عجمان، رأس الخيمة، الفجيرة، وأم القيوين. تبدأ أعمالنا في المدن الساحلية والمراكز التجارية، وتمتد إلى مخيمات الصحراء وشواطئ المحيط الهندي. نحمل رخصة GCAA المعتمدة التي تتيح لنا التصوير الجوي التجاري في جميع مناطق الدولة.
+          </p>
+          <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem" }}>
+            نحرص على الشفافية الكاملة في التسعير — لا رسوم خفية ولا مفاجآت. نُقدِّم عرض سعر مفصلاً خلال ساعتين من الاستفسار، يوضح كل بند من بنود التكلفة. وبعد التعاقد، يحصل كل عميل على مدير مشروع مخصص يتابعه من أول رسالة حتى تسليم الملفات النهائية.
+          </p>
+        </div>
+      </section>
+
+      {/* Stats */}
+      <section style={{ padding: "3rem 2rem", background: "#111", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))", gap: "2rem", textAlign: "center" }}>
+          {[
+            { num: "2,400+", label: "مشروع منجز" },
+            { num: "7", label: "إمارات" },
+            { num: "8+", label: "سنوات خبرة" },
+            { num: "ساعتان", label: "وقت الاستجابة" },
+          ].map((s) => (
+            <div key={s.label}>
+              <div style={{ fontFamily: "Cairo, sans-serif", fontSize: "2.25rem", fontWeight: 900, color: "var(--gold)", lineHeight: 1 }}>{s.num}</div>
+              <div style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.875rem", marginTop: "0.4rem" }}>{s.label}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section style={{ padding: "4rem 2rem", background: "#111", textAlign: "center" }}>
         <div style={{ maxWidth: "700px", margin: "0 auto" }}>
           <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1rem" }}>

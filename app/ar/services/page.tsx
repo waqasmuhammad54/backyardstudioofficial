@@ -178,6 +178,57 @@ export default function ArServicesPage() {
                 <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.9rem", lineHeight: 1.7, margin: 0 }}>{f.a}</p>
               </div>
             ))}
+            {[
+              {
+                q: "ما الفرق بين الفيديو المؤسسي وإعلان DVC؟",
+                a: "الفيديو المؤسسي (Corporate Video) يستهدف أصحاب المصلحة الداخليين والشركاء والعملاء المباشرين — فيلم الشركة، عرض المستثمر، التدريب الداخلي. أما إعلان DVC فهو محتوى إعلاني موجه لجمهور واسع عبر منصات البث الرقمي والتلفزيون، ويتطلب إنتاجاً أعلى مستوى وميزانية أكبر. كلاهما يدخل ضمن تخصصات باكيارد ستوديو.",
+              },
+              {
+                q: "ما المعدات التي تستخدمونها للتصوير في دبي؟",
+                a: "نعمل بكاميرات Sony FX سيريز وBlackmagic Cinema للتصوير الاحترافي، ومجموعة متكاملة من الإضاءة Aputure وAPNG والميكروفونات اللاسلكية Sennheiser. للتصوير الجوي، نستخدم طائرات DJI Inspire وMavic سيريز بترخيص GCAA. نُعدِّل المعدات بحسب متطلبات كل مشروع.",
+              },
+              {
+                q: "هل تتعاملون مع مشاريع حكومية في دبي والإمارات؟",
+                a: "نعم. سبق لنا تقديم خدمات تصوير لجهات حكومية ومؤسسات شبه حكومية في الإمارات. نلتزم بالإجراءات والتراخيص المطلوبة لمشاريع القطاع العام، بما فيها تصاريح التصوير في المواقع الحكومية وتصاريح الطيران في المناطق الخاضعة لقيود GCAA.",
+              },
+              {
+                q: "ما هو وقت تسليم المشاريع لدى باكيارد ستوديو؟",
+                a: "المحتوى الرقمي السريع (ريلز، تيك توك): 24-48 ساعة. تصوير الأعراس (هايلايت): 48 ساعة، الألبوم الكامل: أسبوعان. تصوير المناسبات (هايلايت): 24-48 ساعة. الفيديو المؤسسي والإعلانات التجارية: 2-3 أسابيع حسب تعقيد الإنتاج. جميع المواعيد مؤكدة كتابياً قبل بدء التصوير.",
+              },
+            ].map((f) => (
+              <div key={f.q} style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "1.5rem" }}>
+                <h3 style={{ fontFamily: "Cairo, sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem" }}>{f.q}</h3>
+                <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.9rem", lineHeight: 1.7, margin: 0 }}>{f.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* How we work */}
+      <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.75rem", fontWeight: 700, color: "var(--cream)", textAlign: "center", marginBottom: "3rem" }}>كيف نعمل معك؟</h2>
+          <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
+            {[
+              { num: "01", title: "الإحاطة", desc: "نبدأ بجلسة إحاطة (مجانية) لفهم أهداف مشروعك — من هو جمهورك، ما الرسالة التي تريد إيصالها، وما المنصات التي ستُستخدَم فيها المواد. هذه الجلسة تحدد الاتجاه الإبداعي بالكامل." },
+              { num: "02", title: "ما قبل الإنتاج", desc: "نكتب السيناريو ونُعِدّ لوحة القصة (ستوري بورد) ونختار المواقع والطاقم. لا يبدأ التصوير قبل أن يوافق العميل على كل تفصيل في مرحلة ما قبل الإنتاج." },
+              { num: "03", title: "يوم التصوير", desc: "يصل فريقنا مع كامل المعدات في الوقت المحدد ويُنجز التصوير وفق الخطة. ندير جميع جوانب الإنتاج في الموقع: الإضاءة، الصوت، الإخراج، والتسجيل الجوي عند الحاجة." },
+              { num: "04", title: "ما بعد الإنتاج والتسليم", desc: "يعمل فريق ما بعد الإنتاج لدينا على التحرير، تصحيح الألوان، المونتاج الصوتي، والموسيقى. تتلقى المسودة الأولى خلال الإطار الزمني المتفق عليه، وتُجري التعديلات (دورتان مجانيتان)، ثم التسليم النهائي." },
+            ].map((step) => (
+              <div key={step.num} style={{ display: "flex", gap: "1.5rem", alignItems: "flex-start" }}>
+                <div style={{ fontFamily: "Cairo, sans-serif", fontSize: "2rem", fontWeight: 900, color: "var(--gold)", lineHeight: 1, flexShrink: 0, minWidth: "3rem" }}>{step.num}</div>
+                <div>
+                  <h3 style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.5rem" }}>{step.title}</h3>
+                  <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.9rem", lineHeight: 1.8, margin: 0 }}>{step.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div style={{ textAlign: "center", marginTop: "3rem" }}>
+            <a href="/ar/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Cairo, sans-serif", fontWeight: 700 }}>
+              ابدأ مشروعك اليوم
+            </a>
           </div>
         </div>
       </section>

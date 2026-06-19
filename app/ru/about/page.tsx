@@ -93,6 +93,66 @@ export default function RuAboutPage() {
         </div>
       </section>
 
+      {/* Founders detail */}
+      <section style={{ padding: "5rem 2rem", background: "#111" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.75rem", fontWeight: 700, color: "var(--cream)", marginBottom: "2.5rem", textAlign: "center" }}>Руководство студии</h2>
+
+          <div style={{ marginBottom: "3rem", borderLeft: "3px solid var(--gold)", paddingLeft: "1.5rem" }}>
+            <h3 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.3rem", fontWeight: 700, color: "var(--gold)", marginBottom: "0.5rem" }}>Фахад Икбал Батт — Творческий директор и основатель</h3>
+            <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1rem" }}>
+              Фахад Икбал Батт окончил факультет кино и телевидения Национального колледжа искусств (NCA) в Лахоре — одного из ведущих художественных вузов Южной Азии. После многолетней работы в области фэшн-фотографии и кинопроизводства он основал Backyard Studio Official в 2019 году с чёткой миссией: создавать визуальный контент мирового уровня для рынков Персидского залива.
+            </p>
+            <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem" }}>
+              С момента переезда студии в Дубай в 2023 году Фахад лично руководит более чем 800 проектами в ОАЭ — от брендовых фильмов для компаний в DIFC до съёмок в пустынных кемпах и на прибрежных локациях. Его подход: каждый кадр должен служить чёткой истории, поэтому каждый проект начинается с глубокого погружения в позиционирование и цели клиента.
+            </p>
+          </div>
+
+          <div style={{ borderLeft: "3px solid var(--gold)", paddingLeft: "1.5rem" }}>
+            <h3 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.3rem", fontWeight: 700, color: "var(--gold)", marginBottom: "0.5rem" }}>Сайед Мазхар Зайди — Директор по постпродакшну</h3>
+            <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1rem" }}>
+              Сайед Мазхар Зайди — режиссёр и документалист с более чем 20-летним опытом. Магистр массовых коммуникаций Университета GC. В его послужном списке более 50 музыкальных клипов, рекламных роликов и документальных фильмов. Профессиональный профиль на IMDB: <a href="https://www.imdb.com/name/nm14029494/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--gold)" }}>nm14029494</a>.
+            </p>
+            <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem" }}>
+              В Backyard Studio Мазхар руководит всем постпродакшном: монтаж, цветокоррекция, звуковой дизайн, моушн-графика. Именно этот этап превращает качественные съёмочные материалы в исключительный контент. Мы убеждены, что съёмка — это лишь половина работы, вторая половина создаётся в монтажной.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Approach */}
+      <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.75rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1.5rem" }}>Наш подход</h2>
+          <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1.5rem" }}>
+            Мы работаем по модели полного цикла (Full-Service): начинаем с детального брифинга для понимания целей проекта, переходим к препродакшну (сценарий, раскадровка, подбор команды и локаций), затем съёмочные дни и наконец полный постпродакшн. Финальный проект передаётся в нескольких форматах, подходящих для всех цифровых платформ и телевещания.
+          </p>
+          <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1.5rem" }}>
+            Мы работаем по всем 7 эмиратам ОАЭ: Дубай, Абу-Даби, Шарджа, Аджман, Рас-эль-Хайма, Фуджейра и Умм-эль-Кайвайн. Наши съёмки охватывают деловые центры, роскошные отели, пустынные локации и побережье Аравийского залива. Лицензия GCAA позволяет нам легально снимать с дрона во всех разрешённых зонах страны.
+          </p>
+          <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem" }}>
+            Прозрачность в ценообразовании — один из наших ключевых принципов. Никаких скрытых платежей. Детализированная смета предоставляется в течение 2 часов после запроса и включает каждую статью расходов: съёмочная группа, оборудование, постпродакшн и транспорт. После подписания договора каждый клиент получает персонального менеджера проекта, который сопровождает его от первого письма до финальной передачи файлов.
+          </p>
+        </div>
+      </section>
+
+      {/* Stats */}
+      <section style={{ padding: "3rem 2rem", background: "#111", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))", gap: "2rem", textAlign: "center" }}>
+          {[
+            { num: "2 400+", label: "реализованных проектов" },
+            { num: "7", label: "эмиратов ОАЭ" },
+            { num: "8+", label: "лет опыта" },
+            { num: "2 часа", label: "время ответа" },
+          ].map((s) => (
+            <div key={s.label}>
+              <div style={{ fontFamily: "Inter, sans-serif", fontSize: "2.25rem", fontWeight: 800, color: "var(--gold)", lineHeight: 1 }}>{s.num}</div>
+              <div style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.875rem", marginTop: "0.4rem" }}>{s.label}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
       <section style={{ padding: "4rem 2rem", background: "#111", textAlign: "center" }}>
         <h2 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1rem" }}>
           Хотите работать с нами?
