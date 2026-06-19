@@ -7509,3 +7509,74 @@ export function getRelatedPosts(slugs: string[]): BlogPost[] {
     .map((s) => BLOG_POSTS.find((p) => p.slug === s))
     .filter(Boolean) as BlogPost[];
 }
+
+// ─── Category hub helpers ─────────────────────────────────────────────────────
+
+export const CATEGORY_SLUGS = ["wedding", "video", "photography", "social-media", "industry"] as const;
+export type CategorySlug = typeof CATEGORY_SLUGS[number];
+
+export const CATEGORY_META: Record<CategorySlug, {
+  label: string;
+  metaTitle: string;
+  metaDescription: string;
+  heading: string;
+  intro: string;
+}> = {
+  wedding: {
+    label: "Wedding",
+    metaTitle: "Wedding Photography & Video Dubai | Backyard Studio Blog",
+    metaDescription: "Expert guides on wedding photography and videography in Dubai — packages, prices, venues, traditions, and how to choose the right studio for your day.",
+    heading: "Wedding Photography & Video in Dubai",
+    intro: "Everything you need to know about wedding photography and videography in Dubai — from Indian and Arabic wedding traditions to destination weddings, pre-wedding shoots, and what packages cost.",
+  },
+  video: {
+    label: "Video Production",
+    metaTitle: "Video Production Dubai | Backyard Studio Blog",
+    metaDescription: "In-depth guides on video production in Dubai — corporate films, TVCs, event coverage, motion graphics, drone, post-production and more.",
+    heading: "Video Production in Dubai",
+    intro: "Production guides covering the full range of video services in Dubai — corporate video, commercials, event coverage, drone aerials, motion graphics, post-production, and everything in between.",
+  },
+  photography: {
+    label: "Photography",
+    metaTitle: "Photography Services Dubai | Backyard Studio Blog",
+    metaDescription: "Professional photography guides for Dubai brands and individuals — product, food, real estate, personal branding, lifestyle, fashion and more.",
+    heading: "Photography in Dubai",
+    intro: "Guides to professional photography in Dubai across every category — product and e-commerce, food and F&B, real estate, personal branding, lifestyle, fashion, portrait, and beyond.",
+  },
+  "social-media": {
+    label: "Social Media",
+    metaTitle: "Social Media Content Production Dubai | Backyard Studio Blog",
+    metaDescription: "Guides to social media content production in Dubai — Instagram Reels, TikTok, YouTube Shorts, brand content, and influencer photography strategies.",
+    heading: "Social Media Content Production in Dubai",
+    intro: "Practical guides to producing social media content in Dubai — Reels and TikTok production, Instagram content strategy, creator photography, and building a content calendar that converts.",
+  },
+  industry: {
+    label: "Industry Guides",
+    metaTitle: "Industry Photography & Video Guides Dubai | Backyard Studio",
+    metaDescription: "Sector-specific production guides for Dubai industries — hospitality, real estate, automotive, corporate, events, retail, healthcare, and more.",
+    heading: "Industry Production Guides",
+    intro: "Sector-specific guides to photography and video production in Dubai — how production strategy differs across hospitality, real estate, automotive, corporate, events, and retail.",
+  },
+};
+
+// Which raw category strings map to each hub slug
+const CATEGORY_MAP: Record<CategorySlug, string[]> = {
+  wedding: ["Wedding Guide", "Wedding Photography", "Wedding"],
+  video: ["Video Production", "Video", "Videography", "Videography Guide", "Production Guide", "Production"],
+  photography: [
+    "Photography", "Photography Guide", "Commercial Photography",
+    "Product", "Aerial Production", "Real Estate", "Automotive",
+    "Industry Guide", "Hospitality",
+  ],
+  "social-media": ["Social Media", "Social Media Production"],
+  industry: [
+    "Industry Insight", "Corporate", "Corporate Guide",
+    "Brand Production", "UAE Locations", "Events", "Event Guide",
+    "Pricing Guide", "Studio",
+  ],
+};
+
+export function getPostsByCategory(categorySlug: CategorySlug): BlogPost[] {
+  const rawCategories = CATEGORY_MAP[categorySlug] ?? [];
+  return BLOG_POSTS.filter((p) => rawCategories.includes(p.category));
+}

@@ -248,6 +248,15 @@ URLS = [
     f"https://{HOST}/blog/food-photography-dubai-2026",
     f"https://{HOST}/blog/product-photography-dubai-2026",
     f"https://{HOST}/blog/lifestyle-photography-dubai-2026",
+    # Blog category hub pages (2026-06-19)
+    f"https://{HOST}/blog/category/wedding",
+    f"https://{HOST}/blog/category/video",
+    f"https://{HOST}/blog/category/photography",
+    f"https://{HOST}/blog/category/social-media",
+    f"https://{HOST}/blog/category/industry",
+    # RU Blog posts — missing from earlier batches (2026-06-19)
+    f"https://{HOST}/ru/blog/svadebnyi-fotograf-abu-dhabi-2026",
+    f"https://{HOST}/ru/blog/fotografiya-nedvizhimosti-dubai-2026",
 ]
 
 payload = {

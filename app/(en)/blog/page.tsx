@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Clock, ArrowRight } from "lucide-react";
-import { BLOG_POSTS } from "@/lib/blogPosts";
+import { BLOG_POSTS, CATEGORY_SLUGS, CATEGORY_META } from "@/lib/blogPosts";
 import { breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
@@ -37,10 +37,10 @@ export const metadata: Metadata = {
   },
 };
 
-const ALL_CATEGORIES = [
-  "All", "Industry Guide", "Pricing", "Weddings",
-  "Social Media", "Regulations", "UAE Locations", "Food & F&B", "Real Estate", "Corporate",
-];
+const HUB_CATEGORIES = CATEGORY_SLUGS.map((slug) => ({
+  slug,
+  label: CATEGORY_META[slug].label,
+}));
 
 export default function BlogPage() {
   const featured = BLOG_POSTS[0];
@@ -100,11 +100,15 @@ export default function BlogPage() {
           </Link>
 
           <div className="flex flex-wrap gap-2 mb-10">
-            {ALL_CATEGORIES.map((c) => (
-              <span key={c}
-                className="px-4 py-1.5 text-xs font-semibold tracking-wider uppercase rounded-sm border border-[#2a2a2a] text-[#a0a0a0] hover:border-[#e8c547] hover:text-[#e8c547] transition-all cursor-default">
-                {c}
-              </span>
+            <Link href="/blog"
+              className="px-4 py-1.5 text-xs font-semibold tracking-wider uppercase rounded-sm border border-[#e8c547] text-[#e8c547] transition-all">
+              All
+            </Link>
+            {HUB_CATEGORIES.map((c) => (
+              <Link key={c.slug} href={`/blog/category/${c.slug}`}
+                className="px-4 py-1.5 text-xs font-semibold tracking-wider uppercase rounded-sm border border-[#2a2a2a] text-[#a0a0a0] hover:border-[#e8c547] hover:text-[#e8c547] transition-all">
+                {c.label}
+              </Link>
             ))}
           </div>
 

@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
-import { BLOG_POSTS } from "@/lib/blogPosts";
+import { BLOG_POSTS, CATEGORY_SLUGS } from "@/lib/blogPosts";
+import { CASE_STUDIES } from "@/lib/caseStudies";
 
 const BASE = "https://www.backyardstudioofficial.com";
 
@@ -45,6 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/locations",        lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: BASE + "/wedding-packages", lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: BASE + "/weddings",         lastModified: now, changeFrequency: "weekly",  priority: 0.9 },
+    { url: BASE + "/case-studies",     lastModified: now, changeFrequency: "monthly", priority: 0.85 },
   ];
 
   const services: MetadataRoute.Sitemap = SERVICES.map((slug) => ({
@@ -75,6 +77,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }));
 
+  const blogCategories: MetadataRoute.Sitemap = CATEGORY_SLUGS.map((slug) => ({
+    url: BASE + "/blog/category/" + slug,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
+  }));
+
+  const caseStudies: MetadataRoute.Sitemap = [
+    { url: BASE + "/case-studies", lastModified: now, changeFrequency: "monthly" as const, priority: 0.85 },
+    ...CASE_STUDIES.map((cs) => ({
+      url: BASE + "/case-studies/" + cs.slug,
+      lastModified: new Date(cs.dateISO),
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+  ];
+
   // Arabic pages (/ar/)
   const arCore: MetadataRoute.Sitemap = [
     { url: BASE + "/ar",                                         lastModified: now, changeFrequency: "weekly",  priority: 0.9 },
@@ -95,6 +114,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/ar/blog/taswir-muatamart-dubai-2026",        lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/tasjil-video-faaliyat-dubai-2026",   lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/intaj-klip-musiqi-dubai-2026",       lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-aris-hindi-dubai-2026",       lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-atfal-dubai-2026",            lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-riyadi-dubai-2026",           lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-intaj-dubai-2026",            lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-nisa-dubai-2026",             lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-aqariya-dubai-2026",          lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-khetuba-dubai-2026",          lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ar/blog/taswir-mawaalid-dubai-2026",         lastModified: now, changeFrequency: "monthly", priority: 0.75 },
   ];
 
   // Russian pages (/ru/)
@@ -113,7 +140,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/ru/blog/fotografiya-nedvizhimosti-dubai-2026",  lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ru/blog/rily-socsietey-dubai-2026",            lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ru/blog/fotosyomka-feropriiatiy-dubai-2026",   lastModified: now, changeFrequency: "monthly", priority: 0.75 },
-    { url: BASE + "/ru/blog/fotografiya-edy-dubai-2026",           lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/fotografiya-edy-dubai-2026",              lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/semeinaya-fotosessiya-dubai-2026",        lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/fotograf-novorozhdennykh-dubai-2026",     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/svadebnyi-fotograf-indiyskaya-svadba-dubai-2026", lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/detskiy-fotograf-dubai-2026",             lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/sportivnyi-fotograf-dubai-2026",          lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/fotosessiya-beremennosti-dubai-2026",     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/predsvadebnaya-fotosessiya-dubai-2026",   lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    { url: BASE + "/ru/blog/fotograf-para-dubai-2026",                lastModified: now, changeFrequency: "monthly", priority: 0.75 },
   ];
 
   // Chinese pages (/zh/)
@@ -138,5 +173,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/zh/blog/meishi-paizhao-dubai-2026",                  lastModified: now, changeFrequency: "monthly", priority: 0.75 },
   ];
 
-  return [...core, ...services, ...locations, ...industries, ...blogPosts, ...arCore, ...ruCore, ...zhCore];
+  return [...core, ...services, ...locations, ...industries, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
 }
