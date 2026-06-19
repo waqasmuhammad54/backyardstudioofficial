@@ -232,6 +232,13 @@ URLS = [
     f"https://{HOST}/blog/conference-video-dubai-2026",
     f"https://{HOST}/blog/event-videographer-dubai-2026",
     f"https://{HOST}/blog/explainer-video-dubai-2026",
+    # Case study pages — Sprint 9 (2026-06-19)
+    f"https://{HOST}/case-studies",
+    f"https://{HOST}/case-studies/real-estate-video-campaign-dubai",
+    f"https://{HOST}/case-studies/social-media-content-production-dubai",
+    f"https://{HOST}/case-studies/corporate-event-video-production-dubai",
+    f"https://{HOST}/case-studies/hotel-brand-film-dubai",
+    f"https://{HOST}/case-studies/fashion-campaign-production-dubai",
 ]
 
 payload = {
