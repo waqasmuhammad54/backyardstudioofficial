@@ -215,6 +215,14 @@ URLS = [
     f"https://{HOST}/ar/blog/taswir-intaj-dubai-2026",
     f"https://{HOST}/ar/blog/taswir-nisa-dubai-2026",
     f"https://{HOST}/ar/blog/taswir-aqariya-dubai-2026",
+    # EN Blog posts — Sprint 6: Tier 1 high-demand keywords (2026-06-18)
+    f"https://{HOST}/blog/motion-graphics-dubai-2026",
+    f"https://{HOST}/blog/live-streaming-dubai-2026",
+    f"https://{HOST}/blog/3d-animation-dubai-2026",
+    f"https://{HOST}/blog/video-editing-dubai-2026",
+    f"https://{HOST}/blog/studio-rental-dubai-2026",
+    f"https://{HOST}/blog/2d-animation-dubai-2026",
+    f"https://{HOST}/blog/post-production-dubai-2026",
 ]
 
 payload = {

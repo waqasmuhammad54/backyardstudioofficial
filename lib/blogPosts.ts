@@ -5916,6 +5916,610 @@ export const BLOG_POSTS: BlogPost[] = [
 `,
   },
 
+  // ─── Sprint 6: Tier 1 High-Demand Keyword Pages ──────────────────────────
+
+  // ─── Motion Graphics Dubai 2026 ──────────────────────────────────────────
+  {
+    slug: "motion-graphics-dubai-2026",
+    title: "Motion Graphics Dubai 2026",
+    metaTitle: "Motion Graphics Dubai 2026 | Backyard Studio",
+    metaDescription: "Professional motion graphics in Dubai for corporate video, social media and brand campaigns. Animated infographics, logo animation, explainer reels. From AED 2,500.",
+    keywords: [
+      "motion graphics dubai",
+      "motion graphics company dubai",
+      "motion graphics video dubai",
+      "animated graphics dubai",
+      "infographic animation dubai",
+      "motion design dubai",
+      "explainer animation dubai",
+      "logo animation dubai",
+    ],
+    category: "Video Production",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80",
+    excerpt: "Motion graphics that make your message move — Backyard Studio creates animated graphics for corporate video, social media, brand campaigns and more across Dubai and the UAE.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      {
+        q: "How much does motion graphics production cost in Dubai?",
+        a: "Motion graphics in Dubai range from AED 2,500 for a 15-second social media animation to AED 8,000-15,000 for a full 60-90 second corporate explainer with custom illustration and voiceover. Complexity drives price more than duration — a 30-second animated infographic with 20 data points costs more than a 60-second kinetic typography piece.",
+      },
+      {
+        q: "What is the difference between motion graphics and full animation?",
+        a: "Motion graphics animates graphic design elements — shapes, text, logos, infographics, UI elements — to convey information or create visual interest. Full character animation creates moving characters with acting and expression. Most corporate and brand video uses motion graphics; character animation is used for entertainment content, educational videos, and mascot-based marketing.",
+      },
+      {
+        q: "How long does motion graphics production take in Dubai?",
+        a: "A 30-second social media motion graphics piece takes 5-7 business days. A 60-90 second corporate explainer with script, storyboard, and illustration takes 3-4 weeks. Rush turnaround (48-72 hours) is available for shorter pieces at a premium.",
+      },
+      {
+        q: "Can you create motion graphics in Arabic for the UAE market?",
+        a: "Yes — we produce motion graphics in Arabic, English, and any other language. Arabic motion graphics require right-to-left text handling, Arabic typeface selection, and cultural awareness in visual choices. We have produced Arabic motion graphics content for government entities, banks, and consumer brands across the UAE and wider Gulf region.",
+      },
+      {
+        q: "What file formats do you deliver motion graphics in?",
+        a: "Standard delivery includes MP4 (H.264) for digital and social, MOV (ProRes or H.265) for broadcast, GIF for email and web use, and animated WebP for modern web. We can also deliver After Effects project files if you want the ability to update text or data internally.",
+      },
+      {
+        q: "Can motion graphics be integrated into a live-action video?",
+        a: "Absolutely — this is one of the most effective combinations. We composite motion graphics into live-action footage to show data alongside interview subjects, animate UI screens for product demos, add animated lower thirds and titles to corporate video, or overlay statistics and infographics onto B-roll.",
+      },
+    ],
+    relatedSlugs: [
+      "2d-animation-dubai-2026",
+      "3d-animation-dubai-2026",
+      "corporate-video-production-dubai-2026",
+    ],
+    content: `
+<h2>What Motion Graphics Can Do for Your Brand in Dubai</h2>
+<p>Motion graphics occupies a specific and extremely useful space in brand communication: it takes complex information — data, processes, statistics, concepts — and makes it visually immediate, memorable, and engaging. A static slide showing quarterly revenue looks like a spreadsheet. The same data animated with motion graphics feels like insight. That difference matters when you are presenting to a board, pitching to an investor, or trying to hold someone's attention on LinkedIn for more than three seconds.</p>
+<p>Dubai's corporate landscape makes motion graphics particularly relevant. The city hosts multinational headquarters, regional offices, and government entities that constantly need to communicate complex strategies, financial data, product launches, and regulatory compliance across multilingual audiences. Motion graphics handles all of this — it works without translation if the visual grammar is clear enough, and it works equally well in Arabic and English when text is needed.</p>
+<h2>Types of Motion Graphics We Produce in Dubai</h2>
+<h3>Corporate Explainer Videos</h3>
+<p>The explainer video is the single most widely used form of motion graphics in the B2B world. A 60-90 second animated explanation of what your company does, what problem it solves, and why it is better than alternatives — scripted, designed, animated, and delivered. We script from scratch or from your brief, design characters or flat-style visuals that match your brand, animate with professional timing and easing, and add voiceover in English, Arabic, or any required language.</p>
+<h3>Animated Infographics</h3>
+<p>Static infographics get shared. Animated infographics get watched and shared. When your annual report shows user growth, market penetration, or financial performance through animated charts and kinetic typography rather than static tables, the same data communicates with more impact and is retained more effectively. We produce animated infographics for reports, social media, presentations, and lobby displays.</p>
+<h3>Logo Animation</h3>
+<p>Every piece of video content Backyard Studio produces ends with a logo animation. Your logo should not appear — it should arrive. A 3-5 second branded logo animation sets the tone for the content that precedes or follows it, reinforces brand recognition, and brings professional finish to video content. We animate logos in every style: minimal flat, three-dimensional reveal, particle effects, kinetic letterforms, or anything consistent with your brand identity guidelines.</p>
+<h3>Social Media Motion Graphics</h3>
+<p>Social media content has specific motion graphics requirements that differ from broadcast or corporate video. Formats are vertical (9:16 for Reels/TikTok, 1:1 for feed, 16:9 for YouTube), durations are short (7-30 seconds), and most content is watched without sound. We produce motion graphics optimized specifically for each platform — subtitled, sized correctly, paced for the platform's attention patterns, and designed to communicate even when muted.</p>
+<h3>UI and UX Demo Animation</h3>
+<p>If you are launching an app, SaaS product, or digital platform, showing how it works through screen capture alone looks amateurish. Animated UI demonstrations — showing the user flow through stylized screen recording with motion graphics callouts, zooms, and annotations — communicate product value clearly and at a quality level that matches your brand.</p>
+<h2>Motion Graphics Production Process</h2>
+<p>Stage one is the brief and script. We work from your brief — or write the script ourselves — to establish exactly what the animation needs to communicate, who the audience is, and what action you want them to take after watching. The script is approved before any visual work begins.</p>
+<p>Stage two is the storyboard. We create a static visual storyboard showing every scene, key frame, and transition. This is the most important approval stage — changes at storyboard level are easy; changes after animation begins are expensive.</p>
+<p>Stage three is style development. We produce two or three fully designed style frames to confirm visual direction, colour palette, typography, and illustration style before beginning full animation.</p>
+<p>Stage four is animation in Adobe After Effects, with all elements built from the approved design and synchronized to any voiceover or music track. Stage five is audio and delivery: voiceover, music, sound design, mixed to broadcast loudness standards, delivered in all required formats.</p>
+<h2>Motion Graphics Pricing — Dubai 2026</h2>
+<p>Social media animation (15 seconds, template style): from AED 1,800. Social media animation (30 seconds, custom illustration): from AED 2,500. Corporate explainer (60 seconds, script to delivery): from AED 6,000. Corporate explainer (90 seconds, with voiceover): from AED 9,000. Animated infographic (60 seconds, data-driven): from AED 4,500. Logo animation (3-5 second branded sting): from AED 800.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 for a project quote.</p>
+`,
+  },
+
+  // ─── Live Streaming Dubai 2026 ────────────────────────────────────────────
+  {
+    slug: "live-streaming-dubai-2026",
+    title: "Live Streaming Dubai 2026",
+    metaTitle: "Live Streaming Dubai 2026 | Backyard Studio",
+    metaDescription: "Professional live streaming services in Dubai for corporate events, conferences, product launches and hybrid events. Multi-camera, branded, multi-platform. From AED 3,500.",
+    keywords: [
+      "live streaming dubai",
+      "live stream event dubai",
+      "corporate live streaming dubai",
+      "hybrid event streaming dubai",
+      "live webcast dubai",
+      "event live stream dubai",
+      "live stream production dubai",
+      "online event streaming dubai",
+    ],
+    category: "Video Production",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1200&q=80",
+    excerpt: "Live streaming services in Dubai for corporate events, conferences, product launches and hybrid events — multi-camera production with branded overlays to YouTube, LinkedIn, Zoom and private platforms.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      {
+        q: "How much does live streaming a corporate event cost in Dubai?",
+        a: "Live streaming production in Dubai starts from AED 3,500 for a single-camera webinar or town hall (up to 3 hours) and ranges to AED 12,000-25,000 for a full multi-camera conference or product launch with branded graphics, switching, and simultaneous streaming to multiple platforms. The main cost variables are camera count, crew size, graphics complexity, and duration.",
+      },
+      {
+        q: "Which platforms can you stream to in Dubai?",
+        a: "We stream to YouTube Live, LinkedIn Live, Zoom Webinar, Microsoft Teams Live Events, Facebook Live, Vimeo Live, and private custom RTMP endpoints (internal company portals, bespoke event platforms). We can stream to multiple platforms simultaneously using a single production setup.",
+      },
+      {
+        q: "What equipment do you use for corporate live streaming in Dubai?",
+        a: "Our live streaming setup uses professional broadcast cameras (Sony, Blackmagic), a hardware video switcher (Roland or ATEM), dedicated streaming encoder, backup LTE/4G internet in addition to venue internet, branded graphics overlay system, and intercom for crew coordination. For larger events we add audience Q&A management tools and simultaneous interpretation feeds.",
+      },
+      {
+        q: "What is a hybrid event and how does live streaming support it?",
+        a: "A hybrid event has both an in-person audience at a venue and a virtual audience watching online simultaneously. We handle the virtual audience experience end-to-end: camera coverage of the stage, branded stream graphics, live switching, chat moderation, and technical support for the virtual attendees while the event operations team handles the in-person experience.",
+      },
+      {
+        q: "How far in advance should I book live streaming in Dubai?",
+        a: "Minimum two weeks for standard corporate events, four weeks for large conferences or events with complex graphics requirements. One-week rush booking is sometimes available. We strongly recommend a technical rehearsal the day before or morning of any live stream.",
+      },
+      {
+        q: "What happens if the internet connection fails during a live stream?",
+        a: "We build redundancy into every live stream production. We use the venue's primary internet plus a backup 5G/LTE bonded connection running in parallel. If primary fails, we switch to backup automatically within seconds. For extremely high-stakes events we can add a third satellite internet connection.",
+      },
+    ],
+    relatedSlugs: [
+      "corporate-video-production-dubai-2026",
+      "post-production-dubai-2026",
+      "motion-graphics-dubai-2026",
+    ],
+    content: `
+<h2>Live Streaming in Dubai: What the Market Looks Like Now</h2>
+<p>Live streaming shifted from a nice-to-have to a requirement for corporate events during 2020 and never shifted back. Dubai's corporate event calendar now assumes hybrid attendance as the default: global headquarters teams dialling in from other time zones, regional stakeholders watching without the cost of a Dubai flight, clients and prospects joining product launches without committing to travel. The question is no longer whether to live stream your event but how to do it at a quality level that reflects the brand running it.</p>
+<p>A conference streamed on a single laptop webcam with venue audio picked up on the built-in microphone communicates one thing clearly: the organisation did not consider the virtual audience a real audience. A multi-camera production with branded graphics, professional audio, and smooth switching between speaker, presentation, and audience reaction communicates the opposite.</p>
+<h2>Live Streaming Services We Provide in Dubai</h2>
+<h3>Corporate Town Halls and Internal Events</h3>
+<p>CEO addresses, all-hands meetings, internal product launches, HR announcements — these events have audiences spread across offices in multiple countries, and the production quality directly affects how the message lands. We have produced town hall streams for regional headquarters of multinationals with virtual audiences of 200-2,000 people across dozens of countries simultaneously.</p>
+<h3>Conference and Summit Live Streaming</h3>
+<p>Full-day and multi-day conference streaming is our most technically complex live streaming work. A typical conference stream involves four to six camera operators, a dedicated director in a production gallery, graphics operators for lower thirds and slide matching, and audio engineers handling multiple microphone inputs from panels, Q&A floor mics, and simultaneous interpretation if required.</p>
+<h3>Product Launches</h3>
+<p>A product launch live stream is a brand content production, not just an event recording. We add countdown timers, pre-show content, social media feeds, and interactive elements to extend the live stream into an experience for virtual attendees. The post-event recording becomes a piece of content in its own right — edited down from the full stream, clipped for social media, and used in ongoing marketing.</p>
+<h3>Webinars and Panel Discussions</h3>
+<p>For hosted webinar content — thought leadership panels, educational sessions, industry roundtables — we provide the full broadcast production: professional moderator setup, panellist camera management, slide integration, on-screen Q&A, and post-event recording. A well-produced webinar series is one of the most effective B2B content marketing formats available in 2026.</p>
+<h2>Technical Setup: What Goes Into a Professional Live Stream</h2>
+<p>A full broadcast-quality corporate live stream involves professional broadcast cameras on tripods and shoulder rigs; a hardware video switcher that allows clean transitions between camera feeds, presentation screens, and pre-recorded content; a dedicated streaming encoder; redundant internet connections (venue primary plus 5G/LTE backup); a graphics system for lower thirds, countdown clocks, and branded frames; a monitoring system showing the output exactly as the virtual audience sees it; and an intercom system so the director can communicate with camera operators without disrupting the event.</p>
+<p>On audio: we wire speakers with personal lavalier microphones rather than relying on room microphones or venue PA feeds. We handle simultaneous interpretation feeds if required and mix all audio to broadcast loudness standards before it goes to air.</p>
+<h2>Live Stream Pricing — Dubai 2026</h2>
+<p>Single camera webinar or town hall (up to 3 hours): from AED 3,500. Two-camera corporate event (half day): from AED 6,500. Full conference multi-camera (full day): from AED 12,000. Premium hybrid event production (full day, large venue): from AED 20,000.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to discuss your event.</p>
+`,
+  },
+
+  // ─── 3D Animation Dubai 2026 ──────────────────────────────────────────────
+  {
+    slug: "3d-animation-dubai-2026",
+    title: "3D Animation Dubai 2026",
+    metaTitle: "3D Animation Dubai 2026 | Backyard Studio",
+    metaDescription: "Professional 3D animation in Dubai. Product visualisation, architectural walkthroughs, CGI and 3D explainer videos for brands, developers and agencies. From AED 5,000.",
+    keywords: [
+      "3d animation dubai",
+      "3d animation company dubai",
+      "product 3d animation dubai",
+      "architectural 3d animation dubai",
+      "3d visualization dubai",
+      "3d explainer video dubai",
+      "cgi dubai",
+      "3d product rendering dubai",
+    ],
+    category: "Video Production",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200&q=80",
+    excerpt: "3D animation in Dubai for product visualisation, architectural walkthroughs, CGI and brand content — photorealistic rendering and creative animation from Backyard Studio.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      {
+        q: "How much does 3D animation cost in Dubai?",
+        a: "3D animation in Dubai starts from AED 5,000 for a simple 15-30 second product turntable animation. A 60-second architectural walkthrough costs AED 12,000-25,000. A full CGI product commercial (60 seconds, photorealistic, with lighting and environment) costs AED 20,000-50,000. Price is driven by complexity of the 3D model, realism level, duration, and number of scenes.",
+      },
+      {
+        q: "What can 3D animation be used for in Dubai?",
+        a: "3D animation in Dubai is used for: real estate off-plan marketing (walkthroughs of buildings that do not yet exist), product launches (360-degree visualization for cars, watches, electronics), engineering and manufacturing explanations, medical device visualization, educational content, game trailers, and any situation where the subject does not exist physically or cannot be photographed to the required quality level.",
+      },
+      {
+        q: "Do you create the 3D models or do I need to supply them?",
+        a: "Both options work. We build 3D models from scratch using your reference images, CAD files, product dimensions, or architectural drawings. If you already have 3D models in formats like STL, OBJ, FBX, or 3DS, we can work from those directly, which reduces modelling time and cost.",
+      },
+      {
+        q: "What is the difference between 3D animation and 3D rendering?",
+        a: "3D rendering produces static images — a single frame of a 3D scene at high resolution, used for product photography substitutes, architectural visualizations, and marketing materials. 3D animation moves the camera, the product, or both over time to create video. We produce both: static renders for print and web, animated sequences for video and digital content.",
+      },
+      {
+        q: "How long does a 3D animation project take in Dubai?",
+        a: "A 30-second product animation takes 3-4 weeks from asset creation to delivery. A 90-second architectural walkthrough takes 6-8 weeks. These timelines assume client approval is given promptly at each stage — modelling, lighting, animation, render. Projects requiring significant revisions at later stages take longer.",
+      },
+      {
+        q: "Can you create photorealistic 3D animation?",
+        a: "Yes — photorealistic 3D rendering uses physically based rendering (PBR) with accurate lighting simulation, material shading, and post-processing to create results indistinguishable from real photography. This is used primarily for product launches, automotive visualization, real estate, and luxury goods marketing.",
+      },
+    ],
+    relatedSlugs: [
+      "2d-animation-dubai-2026",
+      "motion-graphics-dubai-2026",
+      "corporate-video-production-dubai-2026",
+    ],
+    content: `
+<h2>3D Animation in Dubai: What Is Now Accessible</h2>
+<p>Three-dimensional animation has changed significantly in the past few years. The gap between photorealistic CGI that required a Hollywood budget in 2010 and what a specialist Dubai production company can produce in 2026 is dramatic. The tools are better, the hardware is faster, and the expertise is more widely distributed. If your product launch, real estate development, or brand campaign would benefit from CGI — and many would — it is genuinely accessible now, not just for global multinationals but for mid-size businesses operating in Dubai's competitive market.</p>
+<h2>3D Animation for Real Estate and Architecture</h2>
+<p>Dubai's off-plan real estate market has always been a major driver of 3D animation demand. Selling a building that does not yet exist requires visualizing it at a quality level that creates genuine desire in buyers and investors. A series of flat architectural drawings does not do this. A photorealistic walkthrough — moving through the lobby, rising in the elevator, stepping onto the terrace and seeing the Marina below — does.</p>
+<p>We produce architectural 3D animation for property developers, architects, and real estate agencies throughout the UAE. Projects range from single apartment visualizations for off-plan sales kits to full tower exterior fly-throughs for investor presentations. We work from architectural drawings, BIM models, or CAD files, and we build the surrounding environment to give the project its proper context rather than floating in a white void.</p>
+<h2>3D Product Visualization and Animation</h2>
+<p>When a product cannot be photographed — because it is not yet manufactured, because manufacturing a sample is prohibitively expensive, because the product has internal mechanics that need to be shown, or because product photography cannot achieve the required visual quality — 3D animation provides the answer.</p>
+<p>We produce 3D product animations for consumer electronics, luxury goods (watches, jewellery, perfume), automotive accessories, FMCG packaging, medical devices, and industrial equipment. A 3D product turntable animation — the product rotating slowly in a beautifully lit virtual environment — is the standard for e-commerce, press kits, and product launch content across these categories.</p>
+<h2>3D Explainer Animation</h2>
+<p>When a process, mechanism, or concept needs to be explained — how a medical device works inside the body, how an industrial process sequences, how a software architecture is structured — 3D animation can show what 2D motion graphics and live action cannot. We produce 3D explainer animations for engineering companies, medical device manufacturers, technology companies, and any organisation that needs to explain something complex without making the audience become an expert first.</p>
+<h2>The 3D Production Pipeline</h2>
+<p>3D projects are sequential: each stage depends on approvals from the previous one, and revisions late in the process are proportionally more expensive than changes made early. The pipeline: concept and brief (establishing purpose, audience, duration, style reference, key scenes); 3D modelling (building the geometry); texturing and materials (applying physically based rendering shaders); lighting and environment (virtual lighting replicated from real-world setups); animation (camera moves, product rotation, mechanical sequences); rendering (the software calculates the final images frame by frame — a single high-resolution frame can take 2-20 minutes); post-production (compositing, colour grading, titles, voiceover added).</p>
+<h2>3D Animation Pricing — Dubai 2026</h2>
+<p>Product turntable (30 seconds, single product, clean background): from AED 5,000. Product hero animation (60 seconds, environment and camera moves): from AED 12,000. Architectural exterior flythrough (60 seconds): from AED 15,000. Architectural interior walkthrough (90 seconds): from AED 22,000. 3D technical explainer (60-90 seconds): from AED 18,000.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Video Editing Dubai 2026 ─────────────────────────────────────────────
+  {
+    slug: "video-editing-dubai-2026",
+    title: "Video Editing Dubai 2026",
+    metaTitle: "Video Editing Dubai 2026 | Backyard Studio",
+    metaDescription: "Professional video editing in Dubai for corporate, social media, weddings and commercial content. Colour grading, audio mixing, motion graphics and subtitles. From AED 800.",
+    keywords: [
+      "video editing dubai",
+      "video editor dubai",
+      "professional video editing dubai",
+      "corporate video editing dubai",
+      "video post production dubai",
+      "colour grading dubai",
+      "video editing services dubai",
+      "social media video editing dubai",
+    ],
+    category: "Video Production",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1574717025058-2f8737d2e2b7?w=1200&q=80",
+    excerpt: "Professional video editing in Dubai for corporate videos, social media content, weddings and commercial campaigns — colour grading, audio mixing and motion graphics from Backyard Studio.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      {
+        q: "How much does professional video editing cost in Dubai?",
+        a: "Video editing in Dubai starts from AED 800 for a 2-3 minute social media video (basic cut, music sync, colour correction, subtitles). A 5-minute corporate video with motion graphics and colour grading runs AED 2,500-4,000. A full 10-15 minute corporate documentary with multi-camera editing, sound design, and custom graphics runs AED 6,000-10,000. Wedding highlight films (5-8 minutes) typically run AED 3,000-5,000.",
+      },
+      {
+        q: "Can you edit footage I have already shot?",
+        a: "Yes — we regularly work from footage shot by other camera operators, client teams, or phone cameras. We work with any footage format: raw camera files (BRAW, ARRIRAW, R3D, LOG), standard video files (MP4, MOV, MXF), drone footage, and screen recordings. Send us your footage and brief and we will assess what can be achieved in the edit.",
+      },
+      {
+        q: "Do you provide colour grading as part of video editing?",
+        a: "Colour grading is included as standard in all our video editing packages above the basic tier. We use DaVinci Resolve for colour work — the industry standard grading software. Colour grading goes beyond basic colour correction: we establish a consistent look, match footage from multiple cameras, enhance skin tones, create a cinematic grade that serves the mood of the content, and export in the correct colour space for the destination platform.",
+      },
+      {
+        q: "How long does video editing take in Dubai?",
+        a: "A 2-3 minute social media video takes 2-3 business days. A 5-minute corporate video takes 3-5 days. A 10-15 minute corporate documentary takes 7-10 days. Wedding highlight films take 10-14 days. Rush turnaround is available: social media videos in 24 hours and short corporate videos in 48 hours for an additional fee.",
+      },
+      {
+        q: "What software do you use for video editing?",
+        a: "We edit primarily in Adobe Premiere Pro for multi-camera, long-form, and client-collaborated projects. We use DaVinci Resolve for colour-critical work. We use After Effects for motion graphics integration. All three handle every professional format used in Dubai production work.",
+      },
+      {
+        q: "Can you add subtitles and translations to videos?",
+        a: "Yes — we add subtitles in English, Arabic, Russian, and any other language to all video formats. English subtitles are burned-in or delivered as an SRT file for platform upload. Arabic subtitles require RTL text handling which we manage correctly. For corporate content going to multilingual audiences, we can add subtitle tracks for multiple languages in a single video deliverable.",
+      },
+    ],
+    relatedSlugs: [
+      "post-production-dubai-2026",
+      "corporate-video-production-dubai-2026",
+      "motion-graphics-dubai-2026",
+    ],
+    content: `
+<h2>Video Editing in Dubai: What Separates a Good Edit from a Great One</h2>
+<p>Every video production ends at the edit. It does not matter how good the camera, the lighting, or the performance was on the day of the shoot — if the edit is wrong, the content is wrong. The edit is where pacing is created, where the story is shaped from the raw material, where colour and sound transform recorded footage into a finished piece of content. For corporate video, it is where the message is refined down to its essential core. For social media content, it is where the hook is sharpened to the point where it stops the scroll.</p>
+<p>We have been editing video in Dubai since 2016 across corporate, commercial, social media, event, wedding, and documentary formats. The range matters because each format requires a different editorial instinct.</p>
+<h2>Corporate Video Editing</h2>
+<p>Corporate video editing requires a specific set of skills that differs from social media or creative editing. The editor needs to understand that the CEO's interview will be watched by potential investors and major clients, and that the pacing, the selection of words from multiple takes, the choice of B-roll to support each point, and the overall structure of the edit reflect directly on the organisation. We bring the same editorial standards to a corporate video edit that a broadcast documentary editor would bring: tight, purposeful, no wasted seconds, clear story arc, strong opening and close.</p>
+<p>Our standard deliverables for a corporate video edit include the main programme cut, a 60-second social cut, a 30-second teaser, and subtitle versions in English and Arabic — delivered from a single edit session, keeping cost reasonable and consistency high.</p>
+<h2>Social Media Video Editing</h2>
+<p>Social media editing operates on different principles than corporate or broadcast editing. The hook must land within the first two seconds. Cuts are faster. Music selection matters as much as the visual cut. Every format — 9:16 Reels, 1:1 feed, 16:9 YouTube — needs individual consideration of framing, pacing, and text placement. Subtitles are not optional; most social media video is watched without sound, and content without subtitles is cutting out a large portion of its potential audience.</p>
+<h2>Colour Grading in Dubai</h2>
+<p>Colour grading is the part of video editing that most non-specialists notice least consciously and feel most strongly. A well-graded video has a coherent visual world — the colours hang together, the skin tones are pleasing, the image has depth and contrast that feels intentional. We grade in DaVinci Resolve on a calibrated display. Our colour work covers primary correction (exposure, white balance, gamma), secondary correction (skin tone refinement, sky enhancement, specific object isolation), and creative grade (the overall look that gives the piece its visual identity).</p>
+<h2>Wedding Film Editing</h2>
+<p>Wedding film editing is emotionally demanding work. The editor works from hours of footage — ceremony, speeches, portraits, reception — and needs to distill it into a 5-8 minute highlight film that feels like the day, not just a summary of it. Music selection is critical: the right song makes a wedding edit; the wrong song undermines everything else. We edit wedding films from footage shot by Backyard Studio cinematographers and also accept footage from other photographers who want Dubai-based post-production at a high standard.</p>
+<h2>Video Editing Pricing — Dubai 2026</h2>
+<p>Social media video (under 60 seconds, basic edit): from AED 500. Social media video (60-90 seconds, colour grade, subtitles, music): from AED 800. Corporate video (3-5 minutes, multi-camera, colour grade, motion graphics): from AED 2,500. Corporate documentary (10-15 minutes, full post): from AED 6,000. Wedding highlight film (5-8 minutes, colour grade, sound mix): from AED 3,000.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Studio Rental Dubai 2026 ─────────────────────────────────────────────
+  {
+    slug: "studio-rental-dubai-2026",
+    title: "Studio Rental Dubai 2026",
+    metaTitle: "Studio Rental Dubai 2026 | Backyard Studio",
+    metaDescription: "Photography and film studio rental in Dubai. Fully equipped with lighting, cyc wall, green screen, makeup room and production office. Hire by the hour or day. From AED 450/hr.",
+    keywords: [
+      "studio rental dubai",
+      "photography studio rental dubai",
+      "film studio rental dubai",
+      "production studio hire dubai",
+      "studio hire dubai",
+      "shooting studio dubai",
+      "video studio rental dubai",
+      "cyclorama studio dubai",
+    ],
+    category: "Photography",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1598387993441-a364f854c3e1?w=1200&q=80",
+    excerpt: "Photography and film studio rental in Dubai with professional lighting, cyclorama wall, green screen, makeup room and production facilities — hire by the hour or full day.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      {
+        q: "How much does studio rental cost in Dubai?",
+        a: "Studio rental in Dubai starts from AED 450 per hour for a photography studio with basic equipment included. Full-day studio hire (8 hours) runs AED 2,800-4,500 depending on studio size and included equipment. Production days including professional lighting setup, grip equipment, and assistant run AED 3,500-6,000 per day.",
+      },
+      {
+        q: "What equipment is included in studio rental at Backyard Studio?",
+        a: "Standard rental includes the studio space, professional studio strobe lighting (Profoto or Broncolor), light modifiers (softboxes, beauty dishes, reflectors), background paper rolls in standard colours, C-stands and boom arms, basic props table, and WiFi. Green screen, extra grip equipment, and camera equipment are available at additional cost.",
+      },
+      {
+        q: "Can I bring my own crew and equipment to your studio?",
+        a: "Yes — our studio is available as a bare hire space if you prefer to use your own lighting, camera, and crew. Many production companies, independent photographers, and advertising agencies hire the space and bring everything else themselves. We just ask for a standard production brief and proof of public liability insurance for commercial productions.",
+      },
+      {
+        q: "Do you have a cyclorama (cyc) wall in the Dubai studio?",
+        a: "Yes — our studio has a built-in curved cyclorama wall that eliminates the floor-wall join for seamless backgrounds. The cyc is white and can be lit to any colour using gels. It is suitable for fashion photography, product work on model, video content, and any production requiring a clean, seamless background.",
+      },
+      {
+        q: "Is the studio available for overnight or multi-day productions?",
+        a: "Yes — overnight and multi-day studio bookings are available. Multi-day bookings (2+ consecutive days) qualify for a 15-20% discount. For major productions that need the set to remain standing between days, we accommodate this with an overnight holding fee rather than a full second-day rate.",
+      },
+      {
+        q: "Is there a makeup and prep area in your Dubai studio?",
+        a: "Yes — the studio has a dedicated makeup and talent preparation room with a professional makeup chair, vanity mirror with surround lighting, steaming facilities, and a hanging rail for wardrobe. For larger productions requiring multiple talent, we can arrange additional prep space in the adjacent production office.",
+      },
+    ],
+    relatedSlugs: [
+      "product-photography-dubai-2026",
+      "corporate-video-production-dubai-2026",
+      "personal-branding-photographer-dubai-2026",
+    ],
+    content: `
+<h2>Studio Rental in Dubai: What You Actually Need to Know</h2>
+<p>Finding a studio for rent in Dubai is straightforward. Finding the right studio — one where the infrastructure works, the equipment is maintained, the team is professional, and the space is genuinely flexible enough for what you are producing — takes more investigation. This page covers what our studio offers, who it is suited for, and what to look for when evaluating any studio rental in Dubai.</p>
+<h2>Who Rents Our Dubai Studio</h2>
+<p>Our studio space is used by three broad groups. Independent photographers and videographers who need a professional space for client shoots — portrait, fashion, product — without the overhead of owning a permanent studio. Production companies and advertising agencies that need a controlled environment for commercial shoots. And brands and content creators who want to shoot their own content in a professional environment rather than adapting an office meeting room or renting an Airbnb apartment.</p>
+<p>Each group uses the space differently, and we have configured the studio to work well for all three. The lighting is set up to be quick to move and adjust, which matters for an independent photographer who needs to turn around three different setups in a four-hour booking. The production facilities — power supply, internet, makeup room, holding area — are adequate for a full commercial crew of 15-20 people.</p>
+<h2>Studio Specifications</h2>
+<p>The main shooting floor is 180 square metres with a ceiling height of 4.5 metres — sufficient for most commercial productions including car interior shoots, large product installations, and multi-subject fashion shoots. The cyclorama wall spans 6 metres of the shooting floor with a 3-metre radius curve at the base. Background paper rolls are available in 18 standard colours.</p>
+<p>Power supply is 32-amp three-phase for professional lighting loads — sufficient to run the largest studio strobes without tripping. WiFi is gigabit throughout the studio, connected to a dedicated fibre line rather than shared building internet, which matters for cloud-based tethering and file transfer during commercial shoots. Air conditioning is zoned and can be set to different temperatures in the shooting floor and prep areas independently.</p>
+<h2>Lighting and Equipment Included</h2>
+<p>The studio is stocked with Profoto strobes — the D2 monolights and B10 Plus portables. The modifier collection includes Profoto softboxes in three sizes, an Octa, a beauty dish, gridded spots, and a range of reflectors and diffusion panels. All of this is included in the studio hire rate without additional equipment fee. Camera equipment — bodies, lenses, tethering cables — is available to rent separately and is not included in the base rate.</p>
+<h2>Green Screen Facility</h2>
+<p>The studio can be configured for green screen production with professional chroma-key fabric or paper background, even and graduated lighting designed to avoid green colour spill that makes keying difficult, and sufficient distance between subject and background for proper depth. For productions requiring high-quality keying — commercial work where the replacement background needs to look real — we recommend the full studio setup with our lighting team rather than a self-operated rental.</p>
+<h2>Booking and Availability</h2>
+<p>The studio operates seven days a week from 7:00 to 22:00 with extended hours available for overnight productions. We recommend booking a minimum of 48 hours in advance for standard half-day and full-day bookings, and one week in advance for multi-day productions or productions requiring extensive pre-production rigging. Popular dates book out 2-3 weeks ahead.</p>
+<h2>Studio Rental Pricing — Dubai 2026</h2>
+<p>Half-day (4 hours, standard lighting kit included): from AED 1,800. Full day (8 hours, standard lighting kit): from AED 2,800. Full day with assistant (8 hours, lighting, assistant, grip): from AED 3,800. Multi-day (3+ consecutive days): from AED 2,400/day. Green screen configuration add-on: AED 600/day.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to check availability and book.</p>
+`,
+  },
+
+  // ─── 2D Animation Dubai 2026 ──────────────────────────────────────────────
+  {
+    slug: "2d-animation-dubai-2026",
+    title: "2D Animation Dubai 2026",
+    metaTitle: "2D Animation Dubai 2026 | Backyard Studio",
+    metaDescription: "Professional 2D animation in Dubai for explainer videos, cartoons, whiteboard animation and social media content. English and Arabic. From AED 2,500 for 60 seconds.",
+    keywords: [
+      "2d animation dubai",
+      "2d animation company dubai",
+      "cartoon animation dubai",
+      "whiteboard animation dubai",
+      "explainer video dubai",
+      "animated explainer dubai",
+      "2d explainer video dubai",
+      "animated video dubai",
+    ],
+    category: "Video Production",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80",
+    excerpt: "2D animation in Dubai for explainer videos, educational content, social media and brand storytelling — flat-style, character, and whiteboard animation produced in English and Arabic.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      {
+        q: "How much does a 2D animated explainer video cost in Dubai?",
+        a: "A 60-second 2D animated explainer video in Dubai costs AED 3,000-6,000 for flat-style motion graphics with basic character design. A character-animated explainer with full lip-sync and background art runs AED 8,000-15,000 per minute. Whiteboard animation is typically the most affordable format at AED 2,000-3,500 per minute.",
+      },
+      {
+        q: "What is the difference between 2D animation and motion graphics?",
+        a: "Motion graphics animates geometric shapes, text, icons, and graphic design elements — it is design-in-motion. 2D character animation involves illustrating and animating characters that move, act, and express emotion. Many explainer videos combine both: a motion graphics base with character elements. Full 2D character animation is more labour-intensive because every character pose and movement must be individually illustrated and animated.",
+      },
+      {
+        q: "Can you produce 2D animation in Arabic for the UAE market?",
+        a: "Yes — we produce 2D explainer videos and social media animation in Arabic with RTL text handling, Arabic voiceover, and culturally appropriate visual design for the Gulf market. We have produced Arabic animated explainers for Dubai government entities, banks, and consumer brands.",
+      },
+      {
+        q: "How long does 2D animation production take?",
+        a: "A 60-second 2D explainer video takes 3-4 weeks from brief to delivery: 3-4 days for script and voiceover, 3-4 days for storyboard, 4-5 days for style development and character design, 10-12 days for animation, 2-3 days for audio and final delivery. Rush projects can be compressed to 2 weeks with a premium fee.",
+      },
+      {
+        q: "What 2D animation style works best for Dubai audiences?",
+        a: "Flat-style 2D animation works well for tech, finance, and corporate audiences. Character-based animation works better for consumer brands, educational content, and family-targeted content. For government and healthcare communications, a clean infographic animation style with authoritative typography tends to be most trusted.",
+      },
+      {
+        q: "Do you write the script for the animated video?",
+        a: "Yes — script writing is included as an option in all our 2D animation packages. A well-written script is the most important element of an explainer video: a 60-second script is 150 words at presentation pace, and those 150 words need to carry the entire message. We write, revise, and final-approve the script before any visual work begins.",
+      },
+    ],
+    relatedSlugs: [
+      "motion-graphics-dubai-2026",
+      "3d-animation-dubai-2026",
+      "corporate-video-production-dubai-2026",
+    ],
+    content: `
+<h2>2D Animation in Dubai: When to Use It and What to Expect</h2>
+<p>2D animation has a specific set of use cases where it outperforms every other content format. When you need to explain something abstract — a software workflow, a financial product, a concept that has no physical form — animation lets you show it rather than just describe it. When you need content that works across multiple languages without re-shooting. When you need content that ages well — because an animated character does not go out of style the way a live-action actor's clothing does. When you need a consistent visual language across a long content series — because animation guarantees visual consistency in a way that live action cannot.</p>
+<p>Dubai's corporate and government communication market uses 2D animation heavily for exactly these reasons. Government service explainers in Arabic and English, banking product walkthroughs, health authority public information campaigns, and technology company product explanations all appear in animated format because animation handles the multilingual, multi-platform demands of this market better than any alternative.</p>
+<h2>Types of 2D Animation We Produce</h2>
+<h3>Flat-Style Motion Graphics Explainer</h3>
+<p>The most common format for corporate explainer video. Clean geometric shapes, bold brand colours, animated icons and diagrams, kinetic typography, and simple character figures if needed. This style is quick to produce, ages well, and has a clean modern appearance that works in both B2B and B2C contexts. The Dubai government's digital service explainers, most bank product videos, and the majority of SaaS explainer videos in the region use a variation of this style.</p>
+<h3>Character Animation</h3>
+<p>Full character animation — where illustrated characters with distinct personalities move, speak, and interact in an illustrated world — is more expensive and more labour-intensive than flat-style, but significantly more engaging when done well. It works particularly well for consumer brands, educational content, and any animation where the audience connection to a character drives the emotional impact.</p>
+<h3>Whiteboard Animation</h3>
+<p>Whiteboard animation simulates a hand drawing illustrations in real time on a white background, typically with a voiceover explaining the content as it is drawn. The format has strong educational associations — it feels like someone explaining something to you personally — which works well for training content, how-to explanations, and technical education. It is also typically the most affordable 2D animation format.</p>
+<h3>Infographic Animation</h3>
+<p>Animated infographics bring data and statistics to life: pie charts that build themselves, bar graphs that animate in sequence, maps that highlight regions, statistics that count up to their final values. Used in annual reports, investor presentations, social media data posts, and news content.</p>
+<h2>2D Animation for Social Media in Dubai</h2>
+<p>Social media animation has different requirements than long-form explainer video. The format is vertical (9:16 for Reels/TikTok), the duration is short (7-30 seconds), and the hook must land immediately. An animated social media series — the same characters, same visual style, same brand colours appearing every week — builds recognition in a way that random live-action content cannot.</p>
+<h2>2D Animation Pricing — Dubai 2026</h2>
+<p>Whiteboard animation (60 seconds, script and voiceover included): from AED 2,500. Flat-style motion graphics explainer (60 seconds): from AED 3,500. Character animation explainer (60 seconds): from AED 7,000. Social media animation pack (6 x 15-30 second posts): from AED 4,500. Arabic language animation: same rates as English with localization included.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  // ─── Post Production Dubai 2026 ───────────────────────────────────────────
+  {
+    slug: "post-production-dubai-2026",
+    title: "Post Production Dubai 2026",
+    metaTitle: "Post Production Dubai 2026 | Backyard Studio",
+    metaDescription: "Professional post production in Dubai. Video editing, colour grading, audio mixing, VFX and motion graphics for corporate, commercial and broadcast content. From AED 2,500.",
+    keywords: [
+      "post production dubai",
+      "video post production dubai",
+      "colour grading dubai",
+      "audio mixing dubai",
+      "video colour correction dubai",
+      "post production company dubai",
+      "vfx dubai",
+      "post production services dubai",
+    ],
+    category: "Video Production",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=1200&q=80",
+    excerpt: "Post production services in Dubai for corporate video, commercial content and broadcast — editing, colour grading, audio mixing, VFX and deliverable preparation from Backyard Studio.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      {
+        q: "What does post production include?",
+        a: "Post production is everything that happens to video content after principal photography ends. It includes: offline editing (assembling the rough cut), online editing (technical finishing), colour grading, audio editing and mixing, sound design, music licensing, motion graphics and titles, visual effects (VFX), subtitles and captions, and final delivery in the required formats for each platform.",
+      },
+      {
+        q: "How much does post production cost in Dubai?",
+        a: "A 3-5 minute corporate video: AED 2,500-5,000 (edit, colour, audio mix, graphics). A 30-second commercial: AED 3,000-8,000 (colour, audio, VFX, finishing). A 30-45 minute documentary: AED 15,000-30,000 (full offline edit, colour, sound design). Broadcast drama or long-form scripted content is priced per episode.",
+      },
+      {
+        q: "Can you handle post production for footage shot elsewhere?",
+        a: "Yes — we regularly handle post production for footage shot by other production companies, client teams, and camera operators in Dubai and internationally. We accept all professional camera formats via secure file transfer or physical media. Our standard intake includes footage quality check, proxy generation, and project organization before editorial begins.",
+      },
+      {
+        q: "What colour grading system do you use?",
+        a: "We grade in DaVinci Resolve on a Sony BVM reference monitor calibrated to P3 D65. For broadcast deliverables, we work to the colour space and loudness specifications of the target broadcaster. For online content, we deliver in Rec.709 for standard web and Rec.2020/HDR10 for HDR-compatible platforms on request.",
+      },
+      {
+        q: "Do you do audio mixing and sound design?",
+        a: "Yes — audio is included in all post production packages at the appropriate level. Corporate video receives dialogue editing, background music mixing, and noise reduction. Commercial and broadcast content receives full audio post: ADR sync, Foley, sound effects, music edit, and final mix to -14 LUFS integrated (online) or -23 LUFS (broadcast) standards.",
+      },
+      {
+        q: "How long does post production take?",
+        a: "A 3-5 minute corporate video takes 5-7 business days. A 30-second commercial takes 5-10 business days depending on VFX complexity. A 30-minute documentary takes 4-6 weeks. These timelines assume a single round of client revisions — multiple stakeholder revision rounds take proportionally longer.",
+      },
+    ],
+    relatedSlugs: [
+      "video-editing-dubai-2026",
+      "corporate-video-production-dubai-2026",
+      "motion-graphics-dubai-2026",
+    ],
+    content: `
+<h2>Post Production in Dubai: The Part That Makes or Breaks the Video</h2>
+<p>There is a widespread and costly misconception about video production: that the shoot is the important part and everything that comes after is just technical finishing. Post production is not finishing. It is where the content actually gets made. The best footage in the world, edited badly and graded poorly, produces mediocre content. Average footage, edited with intelligence and skill and graded to a clear visual standard, can produce genuinely excellent content. The ratio of time spent in post to time spent on set for professional production is typically between 3:1 and 10:1.</p>
+<h2>The Post Production Pipeline</h2>
+<p>Post production for a corporate video or commercial follows a structured pipeline. Understanding the sequence matters because it determines when decisions can still be changed affordably. Changes at the offline edit stage are essentially free. Changes after colour grade require going back to the edit. Changes after final audio mix require re-mixing. Every stage downstream of the decision point adds cost.</p>
+<h3>Ingest and Preparation</h3>
+<p>Raw camera files arrive in various formats: LOG-encoded raw from cinema cameras, ProRes from Sony and Blackmagic cameras, H.264/H.265 from mirrorless and DSLR cameras, drone footage from DJI systems. Our pipeline begins with format assessment, proxy generation, and project organisation before any editing begins.</p>
+<h3>Offline Editing</h3>
+<p>The offline edit — the rough cut — is where the story is built. For a three-minute corporate video shot across a full production day, this might involve reviewing 90 minutes of raw interview footage, 30 minutes of B-roll, and 15 minutes of product footage, then assembling a coherent three-minute narrative. The editor makes hundreds of decisions about which moments to keep, where to place each beat, and how to pace the sequence. This is the most creatively demanding part of post production.</p>
+<h3>Colour Grading</h3>
+<p>We grade in DaVinci Resolve on a calibrated reference monitor. Primary correction balances exposure, white balance, and contrast across every shot. Secondary correction refines specific elements — improving skin tones, enhancing backgrounds, masking areas for targeted adjustment. Creative grade applies the visual look that serves the content's mood and brand identity.</p>
+<h3>Audio Post Production</h3>
+<p>Audio post for corporate content involves: dialogue editing (cleaning up interview and presenter audio, removing room noise and hesitations), music edit (trimming and re-timing licensed music to fit the edit), ambient sound for B-roll, and final mix balancing all audio layers to a consistent output level. For commercial and broadcast content we add Foley, sound effects, and mixing to broadcast loudness specifications.</p>
+<h3>Motion Graphics and Finishing</h3>
+<p>After picture lock and audio approval, we add motion graphics: lower thirds, title cards, transitions, branded end frames, and any infographic or data animation in the cut. Built in After Effects and composited into the timeline. Finishing includes technical quality control before export.</p>
+<h3>Delivery</h3>
+<p>Final deliverables are prepared in formats appropriate for each platform: MP4 H.264 for web and social, ProRes or H.265 for archival and broadcast, vertical crops for social media, sized-down versions for preview. A single post production project typically generates 5-8 distinct deliverable files.</p>
+<h2>Post Production Pricing — Dubai 2026</h2>
+<p>Corporate video (3-5 minutes, full post): from AED 3,500. Commercial (30-60 seconds, broadcast finish): from AED 5,000. Documentary or long-form (30-45 minutes): from AED 18,000. Post production only on client footage (editing, colour, audio): all above rates apply.</p>
+<p>Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 for a project brief and quote.</p>
+`,
+  },
+
+  // ─── Music Video Production Dubai 2026 ───────────────────────────────────
+  {
+    slug: "music-video-production-dubai-2026",
+    title: "Music Video Production Dubai 2026",
+    metaTitle: "Music Video Production Dubai 2026 | Backyard Studio",
+    metaDescription: "Professional music video production in Dubai for Arabic, English and international artists. Concept, location scouting, full crew and post production. From AED 8,000.",
+    keywords: [
+      "music video production dubai",
+      "music video dubai",
+      "music video director dubai",
+      "arabic music video dubai",
+      "music video company dubai",
+      "music video shoot dubai",
+      "music video cinematographer dubai",
+    ],
+    category: "Video Production",
+    date: "June 18, 2026",
+    dateISO: "2026-06-18",
+    readTime: "7 min read",
+    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=1200&q=80",
+    excerpt: "Music video production in Dubai for Arabic, English and international artists — concept development, Dubai location scouting, full crew and cinematic post production from Backyard Studio.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      {
+        q: "How much does a music video cost in Dubai?",
+        a: "Music video production in Dubai ranges from AED 8,000 for a single-location performance video (one shoot day, small crew, basic edit) to AED 40,000-80,000 for a full narrative video with multiple locations, cast, wardrobe, production design, and high-end colour grade. The most common price range for a solid professional music video by an emerging regional artist is AED 15,000-35,000.",
+      },
+      {
+        q: "Do you handle concept development for music videos?",
+        a: "Yes — we offer full creative development for artists who want a music video but do not have a concept yet. Our director and creative team listen to the track, discuss the artist's image and target audience, develop two or three distinct concept directions, and present them with reference imagery and a brief treatment. Every treatment we develop is specific to the track and the artist.",
+      },
+      {
+        q: "What Dubai locations work well for music videos?",
+        a: "Dubai offers exceptional music video locations: the Dubai skyline at golden hour from Al Quoz rooftops, the desert dunes of Al Qudra and Lahbab (40 minutes from the city), Old Dubai and the Creek, Jumeirah Beach and the Palm for lifestyle content, industrial architecture of Dubai Industrial City and Jebel Ali, and ultra-modern interiors available through location agencies.",
+      },
+      {
+        q: "Can you produce Arabic language music videos?",
+        a: "Yes — we have produced music videos for Arabic artists across the Gulf region, including Emirati, Saudi, Egyptian, and Lebanese artists based in Dubai. We understand the cultural and aesthetic sensibilities of the regional market and have relationships with Arabic artist management and label contacts across the GCC.",
+      },
+      {
+        q: "What camera and equipment do you use for music videos?",
+        a: "Our standard music video setup uses cinema cameras (RED, ARRI, Sony Venice or Burano) with cinema lenses for the visual quality streaming platforms expect. We carry full grip and lighting packages — Technocrane for big moves, Ronin and MoVI Pro for dynamic gimbal work, and full lighting for controlling Dubai's sunlight or creating controlled night environments. Drone coverage with GCAA-licensed pilots is added for aerial sequences.",
+      },
+      {
+        q: "How long does music video production take?",
+        a: "A music video typically spans 3-5 weeks from first meeting to final delivery: 1 week for concept development and approval, 1 week for pre-production (location scouting, cast, wardrobe, permits), 1-2 shoot days, and 1-2 weeks for post production. The post timeline depends on VFX or CGI complexity.",
+      },
+    ],
+    relatedSlugs: [
+      "corporate-video-production-dubai-2026",
+      "post-production-dubai-2026",
+      "instagram-reels-videographer-dubai-2026",
+    ],
+    content: `
+<h2>Music Video Production in Dubai: The Complete Picture</h2>
+<p>Dubai has become a genuine production hub for regional music. The convergence of talent, infrastructure, climate, and location variety within a two-hour drive of the city makes it one of the most practical places in the world to produce a music video. The concentration of Arabic, South Asian, and international artists resident in or regularly visiting Dubai has created a real music video production market here. We have been shooting music videos in Dubai since 2017 across Arabic pop, Gulf hip-hop, South Asian urban, EDM, and English-language content from international artists using Dubai for its visual backdrop.</p>
+<h2>What Makes a Good Music Video in 2026</h2>
+<p>The question of what a music video needs to do has changed significantly. The traditional model — a 3-4 minute narrative or performance piece broadcast on a music channel — is only one of several formats now. A music video in 2026 also needs to provide content for Instagram Reels and TikTok clips, perform well on YouTube as both a full video and as clipped segments, work without sound for the first 2-3 seconds on mute autoplay, and provide still frames that work as album artwork, social posts, and press images.</p>
+<p>The best music video productions in 2026 are planned from the outset to produce all of this content simultaneously. We plan our music video productions around the full content output required — the shot list reflects what is needed for TikTok and Reels as much as for the 4-minute YouTube cut.</p>
+<h2>Dubai Locations for Music Videos</h2>
+<p>For urban and contemporary aesthetics: rooftops above Al Quoz's creative district give a full Dubai skyline backdrop at golden hour. The underpass and interchange architecture of Sheikh Zayed Road provides industrial-urban geometry. DIFC's glass towers and Gate Avenue give a financial-district luxury feel. Downtown Dubai and the Burj Khalifa area offer the globally recognised skyline but come with permitting requirements.</p>
+<p>For landscape and desert aesthetics: the Lahbab Red Dunes and Al Qudra desert areas 40 minutes south of the city give access to classic UAE desert scenery — undulating red dunes at sunset, clear night skies away from city light pollution — without requiring a remote expedition.</p>
+<p>For heritage aesthetics: Al Fahidi Historical Neighbourhood, Dubai Creek, and the Shindagha waterfront district give access to traditional Gulf architecture, wooden dhows, and the original Dubai aesthetic that contrasts strongly with the modern skyline.</p>
+<h2>Music Video Crew in Dubai</h2>
+<p>A professional music video requires a real crew. Our standard package includes: director, director of photography, camera operator, gaffer with full lighting package, key grip with rigging equipment, production manager for logistics and permits, makeup artist and hair stylist, wardrobe stylist for the artist and any cast, production assistant, and drone operator where required. Crew size scales with the production — a simple performance video might run with a five-person crew, while a narrative video with cast, wardrobe changes, and multiple locations needs twelve or more.</p>
+<h2>Pre-Production: Why It Determines Everything</h2>
+<p>The best thing we do on a music video is the week before the shoot. Location scouts confirm the spots look right on camera at the right time of day. Cast and wardrobe are confirmed and styled in advance. Shot lists are built scene by scene so the crew knows exactly what needs to happen at each location. Permits are sorted for any locations that require them — Dubai's permitting process for commercial shoots in public areas is navigable when you start early. The shoot day itself is largely about executing a plan that has already been validated.</p>
+<h2>Music Video Pricing — Dubai 2026</h2>
+<p>Performance video (single location, one shoot day, 3-minute edit): from AED 8,000. Standard production (1-2 locations, full crew, 1-2 shoot days): from AED 18,000. Full production (multi-location, concept-driven, narrative elements): from AED 35,000. High-end production (VFX, production design, large cast): from AED 65,000.</p>
+<p>All packages include concept development, pre-production, shoot, and post production. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
 ];
 export function getBlogPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
