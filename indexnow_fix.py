@@ -345,6 +345,24 @@ URLS = [
     f"https://{HOST}/ru/blog/fotografiya-restoranov-dubai-2026",
     f"https://{HOST}/ru/blog/fotografiya-tovarov-dubai-2026",
     f"https://{HOST}/ru/blog/layfstayl-fotografiya-dubai-2026",
+    # Sprint 15 AR (2026-06-22)
+    f"https://{HOST}/ar/blog/taswir-headshot-mihni-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-atfal-mawludeen-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-haml-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-moda-ihtirafiya-dubai-2026",
+    f"https://{HOST}/ar/blog/sani-muhtawa-shbaka-ijtimaia-dubai-2026",
+    f"https://{HOST}/ar/blog/musawir-eid-milad-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-atfal-ihtirafiya-dubai-2026",
+    f"https://{HOST}/ar/blog/musawir-khetuba-ihtirafiya-dubai-2026",
+    # Sprint 15 RU (2026-06-22)
+    f"https://{HOST}/ru/blog/headshot-fotografiya-dubai-2026",
+    f"https://{HOST}/ru/blog/fotosessiya-novorozhdennykh-dubai-2026",
+    f"https://{HOST}/ru/blog/fotografiya-beremennosti-dubai-2026",
+    f"https://{HOST}/ru/blog/fashion-fotografiya-dubai-2026",
+    f"https://{HOST}/ru/blog/kreator-kontenta-sotssetey-dubai-2026",
+    f"https://{HOST}/ru/blog/fotograf-na-den-rozhdeniya-dubai-2026",
+    f"https://{HOST}/ru/blog/fotografiya-detey-dubai-2026",
+    f"https://{HOST}/ru/blog/fotograf-na-pomolvku-dubai-2026",
 ]
 
 payload = {
