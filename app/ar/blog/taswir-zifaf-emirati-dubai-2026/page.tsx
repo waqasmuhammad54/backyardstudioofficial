@@ -150,20 +150,8 @@ export default function EmiratiWeddingArPage() {
           <span>9 دقائق للقراءة</span>
         </div>
 
-        <div
-          style={{
-            width: "100%",
-            height: "400px",
-            background: "linear-gradient(135deg, rgba(212,175,55,0.08) 0%, rgba(10,10,10,0.9) 100%)",
-            borderRadius: "4px",
-            marginBottom: "3rem",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            border: "1px solid rgba(212,175,55,0.12)",
-          }}
-        >
-          <span style={{ color: "rgba(212,175,55,0.4)", fontSize: "4rem" }}>🌙</span>
+        <div style={{ width: "100%", height: "420px", borderRadius: "4px", marginBottom: "3rem", overflow: "hidden" }}>
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80" alt="Taswir Zifaf Emirati Dubai 2026" style={{ width: "100%", height: "420px", objectFit: "cover", borderRadius: "4px", marginBottom: "3rem", display: "block" }} loading="lazy" />
         </div>
 
         <p style={{ fontSize: "1.1rem", marginBottom: "1.5rem" }}>

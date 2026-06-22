@@ -31,13 +31,13 @@ export const metadata: Metadata = {
 };
 
 const EMIRATES = [
-  { name: "Дубай", en: "Dubai", slug: "dubai", desc: "Даунтаун, Марина, Пальма Джумейра, DIFC, Бизнес Бэй и более 25 районов." },
-  { name: "Абу-Даби", en: "Abu Dhabi", slug: "abu-dhabi", desc: "Остров Яс, Саадият, Корниш, Аль-Рим, ADGM и другие." },
-  { name: "Шарджа", en: "Sharjah", slug: "sharjah", desc: "Аль-Маджаз, Аль-Касба, набережная Шарджи, Аль-Хан." },
-  { name: "Аджман", en: "Ajman", slug: "ajman", desc: "Набережная Аджмана, Аль-Джурф, Аль-Рашидия." },
-  { name: "Рас-эль-Хайма", en: "Ras Al Khaimah", slug: "ras-al-khaimah", desc: "Город RAK, деревня Аль-Хамра, Джебель-Джайс." },
-  { name: "Фуджейра", en: "Fujairah", slug: "fujairah", desc: "Город Фуджейра, Дибба, побережье Хорфаккан." },
-  { name: "Умм-эль-Кайвайн", en: "Umm Al Quwain", slug: "umm-al-quwain", desc: "Город UAQ, район Dreamland Aqua Park." },
+  { name: "Дубай", en: "Dubai", slug: "dubai", image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&q=80", desc: "Даунтаун, Марина, Пальма Джумейра, DIFC, Бизнес Бэй и более 25 районов." },
+  { name: "Абу-Даби", en: "Abu Dhabi", slug: "abu-dhabi", image: "https://images.unsplash.com/photo-1526495124232-a04e1849168c?w=600&q=80", desc: "Остров Яс, Саадият, Корниш, Аль-Рим, ADGM и другие." },
+  { name: "Шарджа", en: "Sharjah", slug: "sharjah", image: "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=600&q=80", desc: "Аль-Маджаз, Аль-Касба, набережная Шарджи, Аль-Хан." },
+  { name: "Аджман", en: "Ajman", slug: "ajman", image: "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8e?w=600&q=80", desc: "Набережная Аджмана, Аль-Джурф, Аль-Рашидия." },
+  { name: "Рас-эль-Хайма", en: "Ras Al Khaimah", slug: "ras-al-khaimah", image: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=600&q=80", desc: "Город RAK, деревня Аль-Хамра, Джебель-Джайс." },
+  { name: "Фуджейра", en: "Fujairah", slug: "fujairah", image: "https://images.unsplash.com/photo-1590004987778-bece5c9adab6?w=600&q=80", desc: "Город Фуджейра, Дибба, побережье Хорфаккан." },
+  { name: "Умм-эль-Кайвайн", en: "Umm Al Quwain", slug: "umm-al-quwain", image: "https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?w=600&q=80", desc: "Город UAQ, район Dreamland Aqua Park." },
 ];
 
 export default function RuLocationsPage() {
@@ -72,27 +72,18 @@ export default function RuLocationsPage() {
         <div style={{ maxWidth: "900px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "1.25rem" }}>
           {EMIRATES.map((e) => (
             <a key={e.slug} href={`/locations/${e.slug}`}
-              style={{ display: "block", background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "1.75rem", textDecoration: "none" }}>
-              <h2 style={{ fontFamily: "Inter, sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.25rem" }}>{e.name}</h2>
-              <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(212,175,55,0.5)", fontSize: "0.8rem", marginBottom: "0.6rem" }}>{e.en}</p>
-              <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.875rem", lineHeight: 1.7 }}>{e.desc}</p>
-              <span style={{ fontFamily: "Inter, sans-serif", color: "var(--gold)", fontSize: "0.8rem", marginTop: "1rem", display: "block" }}>Подробнее →</span>
+              style={{ display: "block", background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", overflow: "hidden", textDecoration: "none" }}>
+              <div style={{ height: "180px", overflow: "hidden" }}>
+                <img src={e.image} alt={`Профессиональная съёмка в ${e.name}`} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} loading="lazy" />
+              </div>
+              <div style={{ padding: "1.25rem" }}>
+                <h2 style={{ fontFamily: "Inter, sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.25rem" }}>{e.name}</h2>
+                <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(212,175,55,0.5)", fontSize: "0.8rem", marginBottom: "0.6rem" }}>{e.en}</p>
+                <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.875rem", lineHeight: 1.7 }}>{e.desc}</p>
+                <span style={{ fontFamily: "Inter, sans-serif", color: "var(--gold)", fontSize: "0.8rem", marginTop: "0.75rem", display: "block" }}>Подробнее →</span>
+              </div>
             </a>
           ))}
         </div>
 
-        <div style={{ textAlign: "center", marginTop: "3rem", padding: "2.5rem 2rem", background: "rgba(212,175,55,0.04)", border: "1px solid rgba(212,175,55,0.15)", borderRadius: "6px", maxWidth: "600px", margin: "3rem auto 0" }}>
-          <h3 style={{ fontFamily: "Inter, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.3rem", marginBottom: "0.75rem" }}>
-            Нужна съёмка в конкретной локации?
-          </h3>
-          <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", marginBottom: "1.5rem", lineHeight: 1.7, fontSize: "0.9rem" }}>
-            Свяжитесь с нами — выедем в любую точку ОАЭ. Работаем на натуре, в интерьере и с дроном (лицензия GCAA).
-          </p>
-          <a href="/ru/contact" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.85rem 2rem", fontFamily: "Inter, sans-serif", fontWeight: 700, borderRadius: "2px", textDecoration: "none" }}>
-            Запросить стоимость →
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+        <div style={{ textAlign: "center", marginTop: "3rem", padding: "2.5rem 2rem", background: "rgba(212,175,55,0.04)", border: "1px solid rgba(212,175,55,0.15)", borderRadius: "6px", maxWidth: "600px", margin: "3rem auto 0" }}

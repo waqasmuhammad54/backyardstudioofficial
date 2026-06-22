@@ -114,6 +114,41 @@ export default function RussianHomePage() {
         </div>
       </section>
 
+      {/* SHOWREEL */}
+      <section style={{ padding: "4rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
+            <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.8rem", letterSpacing: "0.12em", marginBottom: "0.75rem" }}>НАШИ РАБОТЫ</p>
+            <h2 style={{ fontFamily: "Inter, sans-serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--cream)", margin: 0 }}>Смотрите наши видео</h2>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.25rem" }}>
+            {[
+              { id: "1194038771", label: "Съёмка пар и love story" },
+              { id: "1194038751", label: "Свадебная видеосъёмка" },
+              { id: "1194038719", label: "Фэшн-съёмка" },
+            ].map((v) => (
+              <div key={v.id} style={{ borderRadius: "4px", overflow: "hidden", background: "#111", border: "1px solid rgba(212,175,55,0.12)" }}>
+                <div style={{ position: "relative", paddingBottom: "56.25%", height: 0 }}>
+                  <iframe
+                    src={`https://player.vimeo.com/video/${v.id}?badge=0&autopause=0&player_id=0&app_id=58479&dnt=1`}
+                    style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: 0 }}
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    title={v.label}
+                    loading="lazy"
+                  />
+                </div>
+                <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.65)", fontSize: "0.85rem", padding: "0.75rem 1rem", margin: 0, textAlign: "center" }}>{v.label}</p>
+              </div>
+            ))}
+          </div>
+          <div style={{ textAlign: "center", marginTop: "2rem" }}>
+            <a href="/ru/portfolio" style={{ color: "var(--gold)", textDecoration: "none", fontFamily: "Inter, sans-serif", fontWeight: 600, borderBottom: "1px solid var(--gold)", paddingBottom: "2px" }}>
+              Смотреть все работы →
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* SERVICES */}
       <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
@@ -140,61 +175,54 @@ export default function RussianHomePage() {
         </div>
       </section>
 
-      {/* Why Dubai / About Studio */}
-      <section style={{ padding: "5rem 2rem", background: "#111" }}>
-        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-          <h2 style={{ fontFamily: "Inter, sans-serif", fontSize: "clamp(1.5rem, 3.5vw, 2rem)", fontWeight: 700, color: "var(--cream)", marginBottom: "2rem" }}>
-            Почему нас выбирают русскоязычные клиенты в Дубае
-          </h2>
-          <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1.5rem" }}>
-            Дубай — один из крупнейших центров русскоязычной диаспоры на Ближнем Востоке. Тысячи русскоязычных предпринимателей, молодожёнов и частных лиц ежегодно приезжают в город или живут здесь постоянно. Мы понимаем, что именно важно для этой аудитории: профессиональное качество, чёткие сроки, прозрачное ценообразование и возможность общаться без языкового барьера.
-          </p>
-          <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1.5rem" }}>
-            Backyard Studio Official работает в Дубае с 2023 года и за это время накопила обширный опыт съёмки для клиентов из России, Казахстана, Украины и других русскоязычных стран. Наши съёмочные локации охватывают весь Дубай: от небоскрёбов Downtown и роскошных отелей Palm Jumeirah до аутентичных районов Al Fahidi и живописных пустынных дюн Аль-Кудра.
-          </p>
-          <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1.5rem" }}>
-            Для свадебных пар мы предлагаем полный пакет: фото и видеосъёмка, хайлайт-ролик в течение 48 часов, полный альбом в течение двух недель. Для бизнеса: корпоративные фильмы, рекламные ролики, контент для социальных сетей и аэросъёмка с лицензией GCAA. Мы работаем по стандартам международного кинопроизводства и понимаем требования как местного, так и международного рынка.
-          </p>
-          <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem" }}>
-            Свяжитесь с нами через WhatsApp (+971 58 588 2685) или по электронной почте (info@backyardstudioofficial.com) — ответим в течение двух часов и подготовим бесплатную детализированную смету по вашему проекту.
-          </p>
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <section style={{ padding: "5rem 2rem", background: "#111" }}>
-        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-          <h2 style={{ fontFamily: "Inter, sans-serif", fontSize: "clamp(1.5rem, 3.5vw, 2.25rem)", fontWeight: 700, color: "var(--cream)", textAlign: "center", marginBottom: "3rem" }}>
-            Часто задаваемые вопросы
-          </h2>
-          <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
-            {FAQS_RU.map((f) => (
-              <div key={f.q} style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "1.5rem" }}>
-                <h3 style={{ fontFamily: "Inter, sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem" }}>{f.q}</h3>
-                <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.9rem", lineHeight: 1.7, margin: 0 }}>{f.a}</p>
-              </div>
+      {/* PORTFOLIO PREVIEW */}
+      <section style={{ padding: "4rem 2rem", background: "#111" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
+            <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.8rem", letterSpacing: "0.12em", marginBottom: "0.75rem" }}>ПОРТФОЛИО</p>
+            <h2 style={{ fontFamily: "Inter, sans-serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--cream)", margin: 0 }}>Из наших работ</h2>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "0.75rem" }}>
+            {[
+              { src: "/images/events/event-01.webp", alt: "Съёмка мероприятий в Дубае" },
+              { src: "/images/creative/creative-04.webp", alt: "Фэшн-съёмка в Дубае" },
+              { src: "/images/products/product-03.webp", alt: "Предметная съёмка" },
+              { src: "/images/wedding/wedding-01.webp", alt: "Свадебная съёмка в Дубае" },
+              { src: "/images/events/event-04.webp", alt: "Корпоративные мероприятия" },
+              { src: "/images/creative/creative-13.webp", alt: "Креативный контент" },
+            ].map((img) => (
+              <a key={img.src} href="/ru/portfolio" style={{ display: "block", borderRadius: "4px", overflow: "hidden", aspectRatio: "4/3", position: "relative", border: "1px solid rgba(212,175,55,0.08)" }}>
+                <img src={img.src} alt={img.alt} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} loading="lazy" />
+              </a>
             ))}
+          </div>
+          <div style={{ textAlign: "center", marginTop: "2rem" }}>
+            <a href="/ru/portfolio" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.85rem 2rem", fontFamily: "Inter, sans-serif", fontWeight: 700, borderRadius: "2px", textDecoration: "none" }}>
+              Смотреть все работы
+            </a>
           </div>
         </div>
       </section>
 
-      {/* CTA */}
-      <section style={{ padding: "4rem 2rem", background: "linear-gradient(135deg, #1a1408 0%, #0a0a0a 100%)", textAlign: "center", borderTop: "1px solid rgba(212,175,55,0.2)" }}>
-        <h2 style={{ fontFamily: "Inter, sans-serif", fontSize: "clamp(1.5rem, 3vw, 2rem)", fontWeight: 700, color: "var(--cream)", marginBottom: "1rem" }}>
-          Готовы к вашему проекту?
-        </h2>
-        <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", marginBottom: "2rem" }}>
-          Мы отвечаем на все запросы в течение 2 часов, 7 дней в неделю.
-        </p>
-        <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
-          <a href="/ru/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.25rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Inter, sans-serif", fontWeight: 700 }}>
-            Связаться с нами
-          </a>
-          <a href="https://wa.me/971585882685" target="_blank" rel="noopener noreferrer" style={{ border: "1px solid rgba(212,175,55,0.5)", color: "var(--gold)", padding: "0.9rem 2.25rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Inter, sans-serif", fontWeight: 600 }}>
-            WhatsApp: +971 58 588 2685
-          </a>
+      {/* GALLERY STRIP */}
+      <section style={{ background: "#0a0a0a", paddingBottom: "0.5rem" }}>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(8, 1fr)", gap: "3px" }}>
+          {[
+            { src: "/images/events/event-01.webp", alt: "Мероприятия Дубай" },
+            { src: "/images/creative/creative-04.webp", alt: "Фэшн и творчество" },
+            { src: "/images/wedding/wedding-01.webp", alt: "Свадьбы в Дубае" },
+            { src: "/images/products/product-03.webp", alt: "Предметная съёмка" },
+            { src: "/images/events/event-03.webp", alt: "Корпоративные события" },
+            { src: "/images/creative/creative-13.webp", alt: "Креативное производство" },
+            { src: "/images/wedding/wedding-16.webp", alt: "Свадебная фотография" },
+            { src: "/images/creative/creative-05.webp", alt: "Фэшн-фотография" },
+          ].map((img) => (
+            <div key={img.src} style={{ aspectRatio: "1", overflow: "hidden" }}>
+              <img src={img.src} alt={img.alt} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} loading="lazy" />
+            </div>
+          ))}
         </div>
       </section>
-    </>
-  );
-}
+
+      {/* Why Dubai / About Studio */}
+ 

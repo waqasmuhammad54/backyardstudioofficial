@@ -93,6 +93,10 @@ export default function EventPhotographyArPage() {
       {/* Content */}
       <article className="max-w-4xl mx-auto px-6 py-16 space-y-12">
 
+        <div style={{ width: "100%", height: "420px", borderRadius: "4px", marginBottom: "2rem", overflow: "hidden" }}>
+          <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80" alt="Taswirafidiyat Dubai 2026" style={{ width: "100%", height: "420px", objectFit: "cover", borderRadius: "4px", marginBottom: "3rem", display: "block" }} loading="lazy" />
+        </div>
+
         <section>
           <h2 className="font-display text-3xl mb-4" style={{ color: "var(--gold)" }}>
             ما الذي يميز تصوير الفعاليات في دبي؟

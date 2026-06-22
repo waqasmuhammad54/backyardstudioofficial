@@ -113,6 +113,8 @@ export default function VideoPricingArPage() {
           وكيف تتأكد أنك تحصل على قيمة حقيقية مقابل ما تدفعه.
         </p>
 
+        <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1200&q=80" alt="Video production pricing Dubai 2026" style={{ width: "100%", height: "420px", objectFit: "cover", borderRadius: "4px", marginBottom: "3rem", display: "block" }} loading="lazy" />
+
         {/* Pricing Tables */}
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, color: "var(--gold)", marginBottom: "1.5rem", marginTop: "3rem" }}>
           جداول الأسعار حسب نوع المشروع
@@ -268,12 +270,4 @@ export default function VideoPricingArPage() {
             <a href="https://wa.me/971585882685" style={{ background: "var(--gold)", color: "#000", padding: "0.8rem 2rem", borderRadius: "2px", textDecoration: "none", fontWeight: 700 }}>
               تواصل عبر واتساب
             </a>
-            <a href="/ar/services" style={{ border: "1px solid var(--gold)", color: "var(--gold)", padding: "0.8rem 2rem", borderRadius: "2px", textDecoration: "none", fontWeight: 600 }}>
-              خدماتنا
-            </a>
-          </div>
-        </div>
-      </article>
-    </>
-  );
-}
+            <a href="

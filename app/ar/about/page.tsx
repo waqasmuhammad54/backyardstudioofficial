@@ -106,29 +106,44 @@ export default function ArAboutPage() {
         </div>
       </section>
 
+      {/* STUDIO BTS IMAGE */}
+      <section style={{ padding: "0", background: "#111" }}>
+        <img src="/images/team/studio-bts.webp" alt="استوديو باكيارد أوفيشيال — خلف الكواليس" style={{ width: "100%", height: "380px", objectFit: "cover", display: "block" }} loading="lazy" />
+      </section>
+
       {/* Founders detail */}
       <section style={{ padding: "5rem 2rem", background: "#111" }}>
         <div style={{ maxWidth: "800px", margin: "0 auto" }}>
           <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.75rem", fontWeight: 700, color: "var(--cream)", marginBottom: "2.5rem", textAlign: "center" }}>فريق القيادة</h2>
 
-          <div style={{ marginBottom: "3rem", borderRight: "3px solid var(--gold)", paddingRight: "1.5rem" }}>
-            <h3 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.3rem", fontWeight: 700, color: "var(--gold)", marginBottom: "0.5rem" }}>فهد إقبال بط — المدير الإبداعي ومؤسس الاستوديو</h3>
+          <div style={{ marginBottom: "3rem" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "120px 1fr", gap: "1.5rem", alignItems: "flex-start", marginBottom: "1.5rem" }}>
+              <img src="/images/team/fahad.webp" alt="فهد إقبال بط — المدير الإبداعي" style={{ width: "120px", height: "120px", objectFit: "cover", borderRadius: "4px", border: "2px solid rgba(212,175,55,0.3)", display: "block" }} loading="lazy" />
+              <div>
+                <h3 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.3rem", fontWeight: 700, color: "var(--gold)", marginBottom: "0.5rem" }}>فهد إقبال بط — المدير الإبداعي ومؤسس الاستوديو</h3>
             <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1rem" }}>
               درس فهد إقبال بط الفيلم والتلفزيون في الكلية الوطنية للفنون (NCA) بلاهور، إحدى أعرق مؤسسات الفنون في جنوب آسيا. بعد سنوات من العمل في مجالَي الأزياء والسينما، أسس استوديو باكيارد أوفيشيال عام 2019 برؤية واضحة: تقديم محتوى بصري بمستوى عالمي يخدم السوق الخليجية.
             </p>
             <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem" }}>
               منذ انتقال الاستوديو إلى دبي عام 2023، قاد فهد أكثر من 800 مشروع في الإمارات — من أفلام العلامات التجارية الكبرى في وسط المدينة، إلى جلسات التصوير في بيئات الصحراء والخليج. يؤمن فهد أن كل لقطة يجب أن تخدم قصة واضحة، ولهذا السبب نبدأ كل مشروع بفهم عميق لهوية العميل ورسالته قبل أي تصوير.
             </p>
+              </div>
+            </div>
           </div>
 
-          <div style={{ borderRight: "3px solid var(--gold)", paddingRight: "1.5rem" }}>
-            <h3 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.3rem", fontWeight: 700, color: "var(--gold)", marginBottom: "0.5rem" }}>سيد مظهر زيدي — مدير التصوير ورئيس ما بعد الإنتاج</h3>
+          <div style={{ marginBottom: "1rem" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "120px 1fr", gap: "1.5rem", alignItems: "flex-start" }}>
+              <img src="/images/team/mazhar.webp" alt="سيد مظهر زيدي — مدير التصوير" style={{ width: "120px", height: "120px", objectFit: "cover", borderRadius: "4px", border: "2px solid rgba(212,175,55,0.3)", display: "block" }} loading="lazy" />
+              <div>
+                <h3 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.3rem", fontWeight: 700, color: "var(--gold)", marginBottom: "0.5rem" }}>سيد مظهر زيدي — مدير التصوير ورئيس ما بعد الإنتاج</h3>
             <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1rem" }}>
               يحمل سيد مظهر زيدي ماجستير في الاتصال الجماهيري من جامعة GC، وخبرة تتجاوز عشرين عاماً في مجال الإخراج السينمائي والتصوير الوثائقي. أنجز أكثر من 50 مقطعاً موسيقياً وإعلاناً تجارياً وفيلماً وثائقياً خلال مسيرته، ويمكنك الاطلاع على سجله المهني في قاعدة بيانات IMDB (رقم: nm14029494).
             </p>
             <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem" }}>
               في باكيارد ستوديو، يشرف مظهر على مرحلة ما بعد الإنتاج بأكملها — التحرير، تصحيح الألوان، المونتاج الصوتي، والتصميم الحركي. هذا المستوى من الخبرة في ما بعد الإنتاج هو ما يُحوِّل لقطات جيدة إلى محتوى استثنائي. نؤمن أن التصوير هو نصف العمل فقط، والنصف الآخر يُصنع في غرفة المونتاج.
             </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -155,27 +170,4 @@ export default function ArAboutPage() {
           {[
             { num: "2,400+", label: "مشروع منجز" },
             { num: "7", label: "إمارات" },
-            { num: "8+", label: "سنوات خبرة" },
-            { num: "ساعتان", label: "وقت الاستجابة" },
-          ].map((s) => (
-            <div key={s.label}>
-              <div style={{ fontFamily: "Cairo, sans-serif", fontSize: "2.25rem", fontWeight: 900, color: "var(--gold)", lineHeight: 1 }}>{s.num}</div>
-              <div style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.875rem", marginTop: "0.4rem" }}>{s.label}</div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section style={{ padding: "4rem 2rem", background: "#111", textAlign: "center" }}>
-        <div style={{ maxWidth: "700px", margin: "0 auto" }}>
-          <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1rem" }}>
-            هل تريد العمل معنا؟
-          </h2>
-          <a href="/ar/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Cairo, sans-serif", fontWeight: 700 }}>
-            تواصل مع فريقنا
-          </a>
-        </div>
-      </section>
-    </>
-  );
-}
+            { num: "8+", label: "سنوات خب�

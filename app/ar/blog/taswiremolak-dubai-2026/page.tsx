@@ -111,6 +111,8 @@ export default function TaswirEmolakDubai2026() {
       <article style={{ padding: "3rem 2rem 5rem", background: "#0a0a0a", direction: "rtl" }}>
         <div style={{ maxWidth: "780px", margin: "0 auto" }}>
 
+
+          <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1400&q=80" alt="Taswiremolak Dubai 2026" style={{ width: "100%", height: "420px", objectFit: "cover", borderRadius: "4px", marginBottom: "3rem", display: "block" }} loading="lazy" />
           {SECTIONS.map((s, i) => (
             <div key={i} style={{ marginBottom: "3rem" }}>
               <h2 style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontSize: "clamp(1.3rem, 3vw, 1.7rem)", fontWeight: 800, marginBottom: "1.25rem", lineHeight: 1.4 }}>

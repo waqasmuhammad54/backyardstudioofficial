@@ -108,6 +108,8 @@ export default function KorporativnoeVideoDubai2026() {
       <article style={{ padding: "3rem 2rem 5rem", background: "#0a0a0a" }}>
         <div style={{ maxWidth: "780px", margin: "0 auto" }}>
 
+
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1200&q=80" alt="Korporativnoe Video Dubai 2026" style={{ width: "100%", height: "420px", objectFit: "cover", borderRadius: "4px", marginBottom: "3rem", display: "block" }} loading="lazy" />
           {SECTIONS.map((s, i) => (
             <div key={i} style={{ marginBottom: "3rem" }}>
               <h2 style={{ fontFamily: "Inter, sans-serif", color: "var(--cream)", fontSize: "clamp(1.25rem, 3vw, 1.6rem)", fontWeight: 700, marginBottom: "1.25rem", lineHeight: 1.4 }}>
