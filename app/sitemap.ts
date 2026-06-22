@@ -49,6 +49,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/case-studies",     lastModified: now, changeFrequency: "monthly", priority: 0.85 },
   ];
 
+  // Sprint 12: Dubai location sub-pages (2026-06-22)
+  const dubaiSubPages: MetadataRoute.Sitemap = [
+    { url: BASE + "/locations/dubai/wedding-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: BASE + "/locations/dubai/corporate-video",              lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: BASE + "/locations/dubai/event-photography",            lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: BASE + "/locations/dubai/real-estate-photography",      lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: BASE + "/locations/dubai/drone-videography",            lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/dubai/food-photography",             lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/dubai/product-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/dubai/personal-branding-photography",lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+  ];
+
   // Sprint 11: Abu Dhabi location sub-pages (2026-06-22)
   const abuDhabiSubPages: MetadataRoute.Sitemap = [
     { url: BASE + "/locations/abu-dhabi/wedding-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.9 },
@@ -203,5 +215,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/zh/blog/meishi-paizhao-dubai-2026",                  lastModified: now, changeFrequency: "monthly", priority: 0.75 },
   ];
 
-  return [...core, ...abuDhabiSubPages, ...services, ...locations, ...industries, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
+  return [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...services, ...locations, ...industries, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
 }

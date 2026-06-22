@@ -17,6 +17,248 @@ interface ServicePage {
 
 const PAGES: Record<string, ServicePage> = {
 
+  // ── DUBAI ─────────────────────────────────────────────────────────────────
+
+  "dubai/wedding-photography": {
+    title: "Wedding Photography in Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Professional wedding photography in Dubai — Atlantis The Palm, Burj Al Arab, Armani Hotel, Palace Downtown, One&Only. Arabic, Indian & destination weddings. From AED 5,000.",
+    h1: "Wedding Photography in Dubai",
+    subtitle: "Atlantis. Burj Al Arab. Palace Downtown. Dubai's most cinematic weddings, documented.",
+    category: "WEDDING PHOTOGRAPHY",
+    intro: [
+      "Dubai is the UAE's wedding capital — and Backyard Studio Official has been one of its leading wedding photography teams since 2016. Atlantis The Palm, Burj Al Arab, Armani Hotel Downtown, Palace Downtown, One&Only The Palm, W Dubai, Address Sky View, The Ritz-Carlton DIFC — we have produced weddings at every major venue in the city, and we know each one's permit requirements, best camera positions, and lighting conditions at every time of day.",
+      "We cover every wedding format in Dubai: Arabic weddings with gender-separated coverage and all-female crews for ladies-only ceremonies, Indian multi-day events spanning Mehendi through Reception, Western destination weddings with international guest lists, and intimate nikah ceremonies at mosques or private residences. Our Dubai wedding teams shoot on cinema-grade camera systems and deliver same-day Teaser reels that guests expect before the event ends.",
+    ],
+    highlights: [
+      { heading: "Atlantis & Palm Jumeirah Venues", body: "Atlantis The Palm, Waldorf Astoria Palm, One&Only The Palm — the gold standard of Dubai's luxury wedding portfolio. We have produced hundreds of weddings across these properties and know every corridor, ballroom, and beach setup." },
+      { heading: "Downtown & DIFC", body: "Armani Hotel, Address Downtown, The Ritz-Carlton DIFC, Four Seasons DIFC — Dubai's most cinematic urban skyline as your wedding backdrop. Our teams know exactly where to position for the Burj Khalifa at golden hour." },
+      { heading: "Indian Multi-Day Weddings", body: "300+ Indian weddings delivered in Dubai. We understand Mehendi energy, Sangeet stage choreography, Barat positioning, and Reception first-dance moments. Two photographers, same-day Teaser, 48-hour full delivery." },
+      { heading: "Same-Day Teaser Delivery", body: "Our editing team starts cutting the Teaser reel during the reception itself. Most Dubai weddings receive a 90-second highlight clip before midnight. It's what the market expects and what we deliver." },
+    ],
+    pricing: [
+      { pkg: "Ceremony Only", detail: "1 photographer / 4 hrs / digital gallery", price: "From AED 2,500" },
+      { pkg: "Wedding Day", detail: "2 photographers / 10 hrs / full gallery", price: "From AED 7,000" },
+      { pkg: "Photo + Video", detail: "2 photographers + 1 videographer / full day", price: "From AED 12,000" },
+      { pkg: "Multi-Day Package", detail: "Mehendi + Sangeet + Ceremony / full team", price: "From AED 18,000" },
+    ],
+    faqs: [
+      { q: "Which wedding venues in Dubai does Backyard Studio Official cover?", a: "We cover every major Dubai wedding venue including Atlantis The Palm, Burj Al Arab, Armani Hotel, Palace Downtown, Address Downtown, One&Only The Palm, W Dubai, The Ritz-Carlton DIFC, Waldorf Astoria Palm, Jumeirah Al Qasr, Bulgari Resort Dubai, and private villas across the emirate." },
+      { q: "Do you provide same-day Teaser reels for Dubai weddings?", a: "Yes. Same-day Teaser delivery is standard for Dubai weddings. Our editing team starts cutting during the event using wireless transfer from cameras to editor. Most clients receive a 60–90 second highlight reel before midnight on the wedding day. Full film delivery is within 48 hours." },
+      { q: "How much does wedding photography in Dubai cost?", a: "Wedding photography in Dubai starts from AED 2,500 for ceremony-only coverage and AED 7,000 for a full wedding day with two photographers. Photo and video packages start from AED 12,000. Multi-day Indian wedding packages from AED 18,000. We provide exact quotes within 2 hours." },
+      { q: "Can you provide all-female photography crews for Arabic weddings in Dubai?", a: "Yes. For ladies-only ceremonies and gender-separated Arabic wedding formats, Backyard Studio Official provides fully all-female photography and videography crews in Dubai. We are one of the few production companies in Dubai able to assemble experienced all-female crews at the same professional level as our main teams." },
+    ],
+  },
+
+  "dubai/corporate-video": {
+    title: "Corporate Video Production in Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Corporate video production in Dubai — brand films, company profiles, DVCs, DIFC, Business Bay, D3. Government & enterprise grade. Same-day social cuts available. From AED 7,000.",
+    h1: "Corporate Video Production in Dubai",
+    subtitle: "DIFC. Business Bay. D3. Dubai's leading brands trust us with their story.",
+    category: "CORPORATE VIDEO",
+    intro: [
+      "Dubai's corporate video market is among the most competitive in the world. Every major multinational, regional champion, and fast-growing SME in DIFC, Business Bay, Dubai Internet City, and Dubai Media City produces corporate content — and the bar is set by the best production companies in London, New York, and Singapore. Backyard Studio Official produces Dubai corporate video that competes at that level.",
+      "We produce company profile films, DVC brand films, investor relations videos, product launch campaigns, testimonial series, executive interview content, and social media brand videos for Dubai's private and public sector. Our clients include Fortune 500 regional offices, UAE government-adjacent entities, and high-growth startups using video to establish credibility in international markets.",
+    ],
+    highlights: [
+      { heading: "DIFC & Business Bay", body: "Dubai's two primary corporate districts, each with its own visual character. Glass towers and financial-district energy for DIFC. Modern mixed-use density for Business Bay. We know both environments and how to make your brand look at home in either." },
+      { heading: "Dubai Media City & D3", body: "Creative industry content for agencies, tech companies, and design brands in DMC and Dubai Design District. Brand films that feel editorial rather than corporate." },
+      { heading: "Government & Semi-Government", body: "Content for Dubai government entities, free zone authorities, and semi-government bodies — meeting the specific communication standards, approval processes, and visual conventions of the UAE public sector." },
+      { heading: "Same-Day Social Cuts", body: "For product launches and press events where social momentum matters, our editing team delivers a 60-second social cut within 3 hours of filming ending. Full film follows within 48 hours." },
+    ],
+    pricing: [
+      { pkg: "Corporate Profile", detail: "1 filming day / 3–5 min film / 2 revisions", price: "From AED 7,000" },
+      { pkg: "DVC / Brand Film", detail: "Multi-day production / script to delivery", price: "From AED 15,000" },
+      { pkg: "Social Media Sprint", detail: "1 day / 5–8 short-form clips / branded edit", price: "From AED 6,000" },
+      { pkg: "Monthly Retainer", detail: "2 filming days/month / social + long-form", price: "From AED 8,000 / mo" },
+    ],
+    faqs: [
+      { q: "What types of corporate video does Backyard Studio Official produce in Dubai?", a: "We produce company profile films, DVC brand films, product launch videos, testimonial series, executive interviews, event highlight reels, social media content sprints, investor relations video, government communications content, and training or internal communications films across Dubai." },
+      { q: "Can you produce corporate video for DIFC-registered financial services companies in Dubai?", a: "Yes. Backyard Studio Official produces corporate video for financial services companies registered in DIFC, including fund launch films, executive profile content, investor briefings, and company profile productions that meet international financial services communication standards." },
+      { q: "How much does corporate video production cost in Dubai?", a: "A standard single-day corporate profile film in Dubai ranges from AED 7,000 to AED 18,000 depending on crew size, duration, and post-production. DVC and brand film productions start from AED 15,000. Monthly content retainer packages from AED 8,000 per month. Exact quotes within 2 hours of brief receipt." },
+      { q: "Do you handle Dubai filming permits for corporate video productions?", a: "Yes. Backyard Studio Official manages all Dubai filming permits as part of our production service, including Dubai Film and TV Commission permits, DIFC media coordinator approvals, Emaar and Nakheel property permissions, and DWTC facility access. Most Dubai commercial locations can be permitted in 24–72 hours through our established relationships." },
+    ],
+  },
+
+  "dubai/event-photography": {
+    title: "Event Photography in Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Professional event photography in Dubai — DWTC, Madinat Jumeirah, Coca-Cola Arena, DIFC, hotel galas. Same-day social delivery. Corporate, brand & gala events. From AED 3,000.",
+    h1: "Event Photography in Dubai",
+    subtitle: "DWTC. Madinat Jumeirah. Atlantis. Every Dubai event, documented at the highest level.",
+    category: "EVENT PHOTOGRAPHY",
+    intro: [
+      "Dubai hosts more major events per square kilometre than almost any other city in the world. GITEX, Cityscape, Arabian Travel Market, Dubai Airshow, Art Dubai, Fashion Forward — the trade show and conference calendar alone generates thousands of photography requirements every year. Add corporate galas at Madinat Jumeirah, product launches at Coca-Cola Arena, brand activations at City Walk, and government ceremonies at Dubai World Trade Centre, and you have one of the world's most demanding event photography markets.",
+      "Backyard Studio Official has been covering Dubai events since 2016, with teams that scale from a single photographer at an intimate DIFC networking evening to a 6-person crew at a multi-day conference. We deliver same-day social media content for time-sensitive events and full image galleries within 24–48 hours.",
+    ],
+    highlights: [
+      { heading: "DWTC & Trade Shows", body: "Dubai World Trade Centre events require teams experienced in multi-hall navigation, VIP arrival protocol, and the specific logistics of covering conferences with hundreds of simultaneous sessions. We've covered GITEX, Arabian Travel Market, and dozens of DWTC events." },
+      { heading: "Madinat Jumeirah & Hotel Galas", body: "The most photographed gala venue in Dubai. We know every corner of Madinat Jumeirah's souk, theatre, and arena spaces — where to position for the arrival shot, the stage moment, and the dinner atmosphere." },
+      { heading: "Brand Activations & Product Launches", body: "City Walk, Box Park, JBR The Walk, La Mer — Dubai's lifestyle event spaces. Our teams work fast in crowded environments and capture the energy that makes activations feel alive on social media." },
+      { heading: "Same-Day Social Content", body: "30 polished images delivered within 2 hours of your Dubai event ending. For launches, activations, and awards nights where social momentum matters most." },
+    ],
+    pricing: [
+      { pkg: "Half Day (4 hrs)", detail: "1 photographer / 50 edited images", price: "From AED 3,000" },
+      { pkg: "Full Day (8–10 hrs)", detail: "1 photographer / 100 edited images", price: "From AED 5,000" },
+      { pkg: "Conference Package", detail: "2 photographers / multi-day / same-day delivery", price: "From AED 8,000 / day" },
+      { pkg: "Photo + Video", detail: "Photographer + videographer / highlight reel", price: "From AED 7,500" },
+    ],
+    faqs: [
+      { q: "Do you cover events at Dubai World Trade Centre and GITEX?", a: "Yes. Backyard Studio Official is an experienced DWTC event photographer, covering trade shows including GITEX, Arabian Travel Market, Cityscape Dubai, and ADIPEC when held in Dubai. We manage multi-hall coverage, accreditation logistics, and same-day social media delivery for large-scale DWTC events." },
+      { q: "Can you deliver event photos on the same day in Dubai?", a: "Yes. For Dubai events requiring same-day social media content, we operate a real-time editing workflow. A selection of 20–30 polished images is delivered within 2 hours of the event ending. The full gallery follows within 24–48 hours." },
+      { q: "How many photographers do you provide for large Dubai events?", a: "We scale from 1 photographer for intimate evening events to 6-person crews for multi-hall conferences and large-scale galas. Every event brief is assessed individually and we recommend the right team size based on venue layout, run-of-show, and simultaneous sessions." },
+      { q: "Do you cover government and official events in Dubai?", a: "Yes. Backyard Studio Official covers official events in Dubai including government ceremony photography, ministerial press events, and UAE national day coverage. We have experience with media accreditation requirements and the protocol awareness that official events demand." },
+    ],
+  },
+
+  "dubai/real-estate-photography": {
+    title: "Real Estate Photography in Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Professional real estate photography in Dubai — Emaar, Nakheel, Meraas, DAMAC, show apartments, drone aerial, Palm Jumeirah, Downtown, JBR. From AED 1,000.",
+    h1: "Real Estate Photography in Dubai",
+    subtitle: "Emaar. DAMAC. Nakheel. Palm Jumeirah. Dubai real estate demands exceptional photography.",
+    category: "REAL ESTATE PHOTOGRAPHY",
+    intro: [
+      "Dubai's real estate market is one of the most competitive content environments in the world. Emaar, Nakheel, Meraas, DAMAC, Sobha, Ellington, Select Group — the developer roster generates extraordinary volumes of photography requirements across unit shoots, show apartment campaigns, project launches, and lifestyle imagery for international buyer audiences from Europe, South Asia, Russia, and China.",
+      "Backyard Studio Official produces real estate photography for Dubai's developer and agency market across the full spectrum — from individual unit shoots for real estate agencies listing on Property Finder and Bayut, to full-scale developer launch campaigns covering show apartment hero photography, drone aerial documentation of masterplan sites, and lifestyle imagery placing Dubai properties in their broader community context.",
+    ],
+    highlights: [
+      { heading: "Show Apartment Photography", body: "Hero shots for Emaar, DAMAC, Nakheel, and boutique developer show apartments — styled, precision-lit, and delivered for both print brochures and international digital marketing campaigns." },
+      { heading: "Aerial Drone Documentation", body: "GCAA-licensed aerial coverage of Dubai development sites and completed communities. Palm Jumeirah drone permits, Downtown Dubai airspace, and JBR coastal aerial — managed by our team." },
+      { heading: "Agency & Listing Photography", body: "Fast-turnaround unit photography for Dubai real estate agencies listing on Property Finder, Bayut, and international portals — delivered within 24 hours of the shoot." },
+      { heading: "International Investor Content", body: "Photography formatted for international investor audiences: high-dynamic-range interiors, twilight exteriors, community lifestyle imagery, and aerial context shots that sell Dubai remotely." },
+    ],
+    pricing: [
+      { pkg: "Unit Photography", detail: "Up to 3 units / interior & exterior / 30 images", price: "From AED 1,000" },
+      { pkg: "Show Apartment", detail: "Full-day shoot / hero shots + detail images", price: "From AED 3,000" },
+      { pkg: "Aerial + Ground Package", detail: "Drone + interior / GCAA licensed", price: "From AED 4,000" },
+      { pkg: "Developer Launch Package", detail: "Multi-day / full photo + video campaign", price: "From AED 12,000" },
+    ],
+    faqs: [
+      { q: "Do you produce real estate photography for Dubai developers like Emaar and DAMAC?", a: "Yes. Backyard Studio Official produces real estate photography for Dubai developers across project launch campaigns, show apartment shoots, unit photography for marketing materials, and aerial drone documentation. We work within developer briefing and approval processes." },
+      { q: "How quickly do you deliver real estate photography in Dubai?", a: "Standard delivery for Dubai real estate photography is 24–48 hours. For agency listings requiring same-day turnaround, we offer rush delivery within 6–8 hours of the shoot for an additional fee. Drone footage delivery is within 24 hours of the aerial session." },
+      { q: "Are you GCAA licensed for drone photography over Dubai real estate sites?", a: "Yes. Backyard Studio Official holds a GCAA commercial drone licence and coordinates permits with Dubai Film and TV Commission, Emaar, Nakheel, and relevant property authorities for aerial photography over Dubai development sites, the Palm Jumeirah, Downtown Dubai, and JBR." },
+      { q: "How much does real estate photography cost in Dubai?", a: "Unit photography starts from AED 1,000 for 3 units with 30 images. Show apartment shoots start from AED 3,000. Aerial drone packages from AED 2,000 for a 2-hour session. Full developer launch packages from AED 12,000. Exact quotes within 2 hours." },
+    ],
+  },
+
+  "dubai/drone-videography": {
+    title: "Drone Videography in Dubai 2026 | Backyard Studio Official",
+    metaDescription: "GCAA-licensed drone videography in Dubai — Burj Khalifa, Palm Jumeirah, Marina, JBR, Downtown. 4K aerial photography & cinematic video. Legal, permitted, fast. From AED 2,000.",
+    h1: "Drone Videography in Dubai",
+    subtitle: "GCAA licensed. Burj Khalifa district. Palm Jumeirah. Marina. Every zone covered legally.",
+    category: "DRONE VIDEOGRAPHY",
+    intro: [
+      "Dubai produces more aerial video content than almost any other city in the world — and for good reason. The Burj Khalifa at golden hour, the Palm Jumeirah from altitude, the Dubai Marina skyline reflected in the Gulf at dusk — these are images that no ground-level camera can replicate. Backyard Studio Official holds full GCAA commercial drone licences and produces aerial video in Dubai's most photographed zones legally, with all permits coordinated before any camera leaves the ground.",
+      "We produce drone videography for Dubai's real estate, tourism, events, construction documentation, wedding, and commercial advertising sectors. Our aerial team operates cinema-grade drone systems in 4K and 6K with cinema colour profiles, delivering footage that integrates seamlessly into broadcast, online, and social media productions.",
+    ],
+    highlights: [
+      { heading: "Burj Khalifa District", body: "One of the world's most filmed aerial environments. Drone operations in the Downtown Dubai zone require DTCM and Dubai Film Commission coordination. Our team has the permits and the experience to deliver exceptional footage from this airspace." },
+      { heading: "Palm Jumeirah & JBR", body: "Coastal aerial footage of the Palm, Jumeirah Beach, and the JBR waterfront — the images that define Dubai's luxury lifestyle brand globally. We coordinate Nakheel and DTCM permits for Palm Jumeirah aerial sessions." },
+      { heading: "Dubai Marina & City Skyline", body: "The Marina at dawn from altitude, the skyline at golden hour, the Creek Harbour towers reflected in the water — our aerial team knows the exact times and positions for each iconic Dubai aerial shot." },
+      { heading: "Real Estate & Construction", body: "Development site documentation, masterplan aerials, community overview footage — GCAA-licensed and coordinated with Dubai Land Department and individual developer site teams." },
+    ],
+    pricing: [
+      { pkg: "Drone Session (2 hrs)", detail: "GCAA pilot / 4K footage / colour-graded edit", price: "From AED 2,000" },
+      { pkg: "Half Day Aerial", detail: "4 hrs / multiple locations / full edit", price: "From AED 3,500" },
+      { pkg: "Drone + Ground Package", detail: "Aerial + ground team / integrated edit", price: "From AED 5,500" },
+      { pkg: "Real Estate Aerial", detail: "Development documentation / same-day delivery", price: "From AED 3,000" },
+    ],
+    faqs: [
+      { q: "Is drone flying legal in Dubai and do you have the required licences?", a: "Drone operations in Dubai require a GCAA commercial operator certificate and location-specific permits from the Dubai Film and TV Commission, relevant property authorities, and in some zones, Dubai Civil Aviation Authority. Backyard Studio Official holds all required licences and manages every permit before any flight. We do not operate without complete legal clearance." },
+      { q: "Can you fly a drone near the Burj Khalifa in Dubai?", a: "Aerial filming in the Burj Khalifa district requires specific DTCM, Emaar, and Dubai Film Commission coordination. Backyard Studio Official has produced aerial content in the Downtown Dubai zone and manages the full permit process for Burj Khalifa-area shoots. Lead time is typically 3–5 business days for Downtown Dubai aerial permits." },
+      { q: "How much does drone videography cost in Dubai?", a: "Drone sessions in Dubai start from AED 2,000 for a 2-hour session with a GCAA-licensed pilot, 4K footage, and colour-graded edit. Half-day aerial packages with multiple locations start from AED 3,500. Combined drone and ground camera packages from AED 5,500." },
+      { q: "Can you produce drone content for Dubai social media and advertising campaigns?", a: "Yes. Our Dubai drone team produces aerial content specifically formatted for social media: vertical Reels, square cuts, and horizontal widescreen — all from a single flight session. We can deliver same-day rough cuts for time-sensitive social media campaigns." },
+    ],
+  },
+
+  "dubai/food-photography": {
+    title: "Food Photography in Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Professional food photography in Dubai — restaurant menus, hotel F&B, JBR, DIFC, Downtown, Jumeirah. Instagram Reels, menu shoots, brand campaigns. From AED 1,500.",
+    h1: "Food Photography in Dubai",
+    subtitle: "From JBR restaurants to DIFC fine dining — content that fills reservation books.",
+    category: "FOOD PHOTOGRAPHY",
+    intro: [
+      "Dubai has one of the world's most competitive restaurant markets, with thousands of new openings each year across Downtown, JBR, DIFC, Business Bay, La Mer, City Walk, and the Palm. In this environment, professional food photography isn't a marketing luxury — it's the primary tool that separates a fully-booked restaurant from an empty one. Every dish that looks extraordinary on Instagram is a reservation waiting to happen.",
+      "Backyard Studio Official is one of Dubai's leading food photography studios, producing content for restaurant menus, hotel F&B outlets, cloud kitchens, delivery platforms, social media campaigns, and franchise launch materials. We shoot with natural and controlled light, styled for the specific visual aesthetic each restaurant brand requires — from casual street food to Michelin-calibre fine dining.",
+    ],
+    highlights: [
+      { heading: "Dubai Restaurant Menu Shoots", body: "Every dish shot at its absolute best for printed menus, QR codes, Talabat and Deliveroo thumbnails, and the restaurant website. We work before opening or between service sessions to minimise disruption." },
+      { heading: "Hotel F&B Content", body: "Full-service food and beverage photography for Dubai's hotel restaurants, rooftop venues, and beach clubs — ambient atmosphere, hero dishes, cocktail campaigns, and seasonal menu updates." },
+      { heading: "Instagram Reels & TikTok", body: "Short-form video of plating moments, chef action, and service theatrics — the format that drives the most new customer traffic for Dubai restaurants right now." },
+      { heading: "Delivery Platform Optimisation", body: "Thumbnail-optimised photography for Talabat, Deliveroo, and Noon Food listings — sized and styled to maximise click-through rate in Dubai's ultra-competitive food delivery market." },
+    ],
+    pricing: [
+      { pkg: "Menu Shoot (20 dishes)", detail: "3 hrs / styled / all formats included", price: "From AED 1,500" },
+      { pkg: "Full Menu (50 dishes)", detail: "6 hrs / food + interior / digital delivery", price: "From AED 3,000" },
+      { pkg: "Social Content Package", detail: "Food + Reels + Stories / monthly", price: "From AED 2,500 / mo" },
+      { pkg: "Restaurant Launch", detail: "Full day / menu + interior + brand film", price: "From AED 5,500" },
+    ],
+    faqs: [
+      { q: "Do you produce food photography for Dubai hotel restaurants and beach clubs?", a: "Yes. We produce food and beverage photography for hotel F&B outlets, rooftop restaurants, and beach clubs across Dubai, including properties in JBR, Palm Jumeirah, Downtown, and DIFC. We work within venue operational schedules and coordinate with F&B managers to shoot efficiently without disrupting service." },
+      { q: "Can you create Instagram Reels content for my Dubai restaurant?", a: "Yes. In addition to still photography, we produce short-form video content — plating moments, chef action, table service theatrics — in vertical Reel format for Instagram and TikTok. Most Dubai restaurant packages include both photography and video content from a single shoot session." },
+      { q: "How much does food photography cost in Dubai?", a: "Food photography in Dubai starts from AED 1,500 for a 3-hour session covering 20 dishes. A full menu shoot covering 50 dishes starts from AED 3,000. Monthly social media content packages from AED 2,500 per month. Restaurant launch packages from AED 5,500." },
+      { q: "How quickly do you deliver food photography content in Dubai?", a: "Standard delivery is 2–4 business days. Rush delivery within 24 hours is available for menu launches or time-sensitive seasonal campaigns. Social media Reels are typically delivered within 48 hours of the shoot." },
+    ],
+  },
+
+  "dubai/product-photography": {
+    title: "Product Photography in Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Professional product photography in Dubai — Amazon UAE, Noon, e-commerce, brand campaigns, studio & lifestyle shoots. Same-day rush available. From AED 800.",
+    h1: "Product Photography in Dubai",
+    subtitle: "Amazon UAE. Noon. Brand campaigns. Your product, converted into sales.",
+    category: "PRODUCT PHOTOGRAPHY",
+    intro: [
+      "Dubai is the UAE's e-commerce and retail hub, and the quality of product photography directly determines conversion rates on Amazon UAE, Noon, Namshi, Ounass, and direct-to-consumer Shopify stores. Poor product images cost sales. Our studio in Dubai produces photography that meets marketplace technical requirements while delivering the brand-quality lifestyle imagery that differentiates products from commodity competitors.",
+      "We work with Dubai-based brands across every category — from luxury fashion accessories and premium beauty products to consumer electronics, specialty food, and industrial equipment. Whether you need clean white-background shots for Amazon compliance or editorial-quality lifestyle imagery for a brand campaign, Backyard Studio Official delivers both from the same production relationship.",
+    ],
+    highlights: [
+      { heading: "Amazon UAE & Marketplace Compliance", body: "Pure white background, minimum 1000px, no prohibited overlays — delivered in Amazon-ready formats the first time. No back-and-forth with marketplace compliance teams." },
+      { heading: "Lifestyle & Context Photography", body: "Products in use, on models, in environments — the content that builds brand desire on Instagram and drives purchase intent beyond the marketplace listing." },
+      { heading: "Luxury & Fashion Products", body: "For Dubai's luxury retail brands, high-end fashion accessories, watches, and jewellery — editorial-quality imagery that meets the standards of international luxury advertising." },
+      { heading: "Same-Day Rush Delivery", body: "Product photography in Dubai with same-day or next-morning delivery for time-sensitive launches. Rush rate applies; standard delivery is 2–3 business days." },
+    ],
+    pricing: [
+      { pkg: "Starter (10 SKUs)", detail: "White bg / 3 angles per product / 2–3 days", price: "From AED 800" },
+      { pkg: "Standard (30 SKUs)", detail: "White bg + lifestyle / styled / 3 days", price: "From AED 2,200" },
+      { pkg: "Premium Campaign", detail: "20 products + model + lifestyle context", price: "From AED 4,500" },
+      { pkg: "Catalogue (100+ SKUs)", detail: "Custom quote / volume pricing", price: "On request" },
+    ],
+    faqs: [
+      { q: "Do you produce Amazon UAE and Noon compliant product photography in Dubai?", a: "Yes. We produce product photography meeting Amazon UAE and Noon technical requirements: pure white background, minimum image dimensions, correct angle coverage, no prohibited overlays. Files delivered ready for direct upload to each marketplace without further editing required." },
+      { q: "How quickly can you deliver product photography in Dubai?", a: "Standard delivery is 2–3 business days. Rush delivery within 24 hours is available for urgent product launches. Same-day hero shot delivery for individual key products is available on request. We will confirm exact timeline at time of booking." },
+      { q: "Can you shoot luxury products and fashion accessories in Dubai?", a: "Yes. Our Dubai studio produces editorial-quality photography for luxury goods, fashion accessories, jewellery, watches, and premium beauty products. We use specialist lighting setups for reflective, transparent, and fabric materials that maintain quality across all product categories." },
+      { q: "How much does product photography cost in Dubai?", a: "Product photography in Dubai starts from AED 800 for 10 SKUs on white background. Standard 30-SKU packages from AED 2,200. Lifestyle and campaign packages from AED 4,500. Large catalogues of 100+ products are quoted individually with volume discounts. Exact quotes within 2 hours." },
+    ],
+  },
+
+  "dubai/personal-branding-photography": {
+    title: "Personal Branding Photography in Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Personal branding photography in Dubai — entrepreneurs, executives, coaches, influencers. LinkedIn portraits, brand sessions, DIFC & Marina locations. From AED 1,200.",
+    h1: "Personal Branding Photography in Dubai",
+    subtitle: "DIFC executives. Marina entrepreneurs. Dubai influencers. Your image is your brand.",
+    category: "PERSONAL BRANDING",
+    intro: [
+      "Dubai is one of the world's most ambitious cities — and its professionals know that how they look online determines how they're perceived before anyone reads a word they've written. A blurry LinkedIn photo, an inconsistent brand aesthetic, or an image that doesn't match the calibre of work you deliver costs you credibility in a market where first impressions travel at the speed of a Google search.",
+      "Backyard Studio Official has produced personal branding photography for hundreds of Dubai professionals: DIFC fund managers, Business Bay consultants, Marina entrepreneurs, JBR influencers, healthcare professionals, lawyers, coaches, and keynote speakers preparing for international stages. Our pre-session brief process ensures every shoot is strategically aligned with where you want to be positioned — not just what you look like.",
+    ],
+    highlights: [
+      { heading: "DIFC & Downtown Shoots", body: "The visual shorthand for Dubai professional credibility. Glass towers, polished lobbies, and the financial district's architectural character — the context that tells your audience what level you operate at." },
+      { heading: "Marina & JBR Lifestyle Sessions", body: "For entrepreneurs and personal brands that want the Dubai lifestyle aesthetic — Marina waterfront, JBR beach, rooftop venues, and the city's most Instagram-recognisable backdrops." },
+      { heading: "LinkedIn & Speaker Profile", body: "Professional headshots for LinkedIn, speaking bureau profiles, board biographies, and press kits. Images that create instant credibility and get used consistently across every platform." },
+      { heading: "Full Brand Day", body: "Multiple looks, multiple locations, 100+ final images — a complete content bank that fuels a full quarter of LinkedIn posting, website updates, and media kit refreshes without another shoot." },
+    ],
+    pricing: [
+      { pkg: "Executive Headshots", detail: "1.5 hrs / 1 location / 20 final images", price: "From AED 1,200" },
+      { pkg: "Personal Brand Session", detail: "3 hrs / 2 looks / 2 locations / 50 images", price: "From AED 2,500" },
+      { pkg: "Full Brand Day", detail: "6 hrs / 4 looks / 3 locations / 100 images", price: "From AED 4,500" },
+      { pkg: "Brand Day + Social Video", detail: "Photos + 3 x LinkedIn video clips", price: "From AED 6,000" },
+    ],
+    faqs: [
+      { q: "Where do you shoot personal branding photography in Dubai?", a: "Popular Dubai personal branding locations include DIFC and Downtown Dubai for corporate professionals, Dubai Marina and JBR for lifestyle-oriented brands, Al Fahidi and the Creek area for heritage context, and modern café and co-working environments across Business Bay and D3. We help you choose locations during the pre-session brief based on your audience and positioning." },
+      { q: "What does a personal branding photography session in Dubai include?", a: "Every session includes a pre-session brief call, guidance on outfits and preparation, the agreed number of looks and locations, full professional editing of selected images, and delivery in both web-optimised and high-resolution formats for LinkedIn, website, and print use." },
+      { q: "How much does personal branding photography cost in Dubai?", a: "Personal branding photography in Dubai starts from AED 1,200 for executive headshots covering 1.5 hours and 20 final images. Personal brand sessions covering multiple looks and locations from AED 2,500. Full brand day packages from AED 4,500." },
+      { q: "Do you produce LinkedIn profile videos in addition to photography in Dubai?", a: "Yes. Our Dubai brand day packages can include short LinkedIn video clips — a 60-second introduction video, a behind-the-scenes work clip, or a talking-head expert content piece. These are produced in the same session as the photography and delivered in formats ready for direct LinkedIn upload." },
+    ],
+  },
+
   // ── ABU DHABI ──────────────────────────────────────────────────────────────
 
   "abu-dhabi/wedding-photography": {
