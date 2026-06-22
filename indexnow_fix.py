@@ -363,23 +363,12 @@ URLS = [
     f"https://{HOST}/ru/blog/fotograf-na-den-rozhdeniya-dubai-2026",
     f"https://{HOST}/ru/blog/fotografiya-detey-dubai-2026",
     f"https://{HOST}/ru/blog/fotograf-na-pomolvku-dubai-2026",
-]
 
-payload = {
-    "host": HOST,
-    "key": API_KEY,
-    "keyLocation": KEY_LOCATION,
-    "urlList": URLS,
-}
-
-req = urllib.request.Request(
-    "https://api.indexnow.org/indexnow",
-    data=json.dumps(payload).encode("utf-8"),
-    headers={"Content-Type": "application/json; charset=utf-8"},
-    method="POST",
-)
-
-with urllib.request.urlopen(req) as resp:
-    print(f"Status: {resp.status}")
-    print(f"URLs submitted: {len(URLS)}")
-    print("Done.")
+    # Sprint 16: Sharjah location sub-pages (2026-06-22)
+    f"https://{HOST}/locations/sharjah/headshot-photography",
+    f"https://{HOST}/locations/sharjah/newborn-photography",
+    f"https://{HOST}/locations/sharjah/maternity-photography",
+    f"https://{HOST}/locations/sharjah/fashion-photography",
+    f"https://{HOST}/locations/sharjah/social-media-content",
+    f"https://{HOST}/locations/sharjah/birthday-photography",
+    f"https://{HOST}/loc

@@ -983,6 +983,248 @@ const PAGES: Record<string, ServicePage> = {
     ],
   },
 
+  // ── SHARJAH ───────────────────────────────────────────────────────────────
+
+  "sharjah/headshot-photography": {
+    title: "Headshot Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Professional headshot photographer in Sharjah — LinkedIn profiles, corporate team days, executive portraits, Al Majaz and University City locations. 48-hour delivery. From AED 800.",
+    h1: "Headshot Photography in Sharjah",
+    subtitle: "Al Majaz Waterfront. University City. Heart of Sharjah. Credibility, photographed.",
+    category: "HEADSHOT PHOTOGRAPHY",
+    intro: [
+      "Sharjah's professional community spans government ministries, University City academia, healthcare institutions, financial services firms along Al Majaz, and a growing cohort of SME founders and entrepreneurs. Across all of these sectors, the credibility gap between a poor LinkedIn photo and a professional headshot is visible and costly. Backyard Studio Official produces professional headshots in Sharjah that accurately represent the seriousness and competence of your professional brand.",
+      "We shoot at Al Majaz Waterfront for an open cityscape background, University City locations for academic professionals, the Heart of Sharjah for heritage context, and our portable studio setup for clean seamless-background corporate portraits. We brief every client before the session on wardrobe, grooming, and what the images will be used for — because those factors directly determine how we shoot.",
+    ],
+    highlights: [
+      { heading: "Al Majaz Waterfront", body: "Sharjah's main promenade along Khalid Lagoon provides an open, modern backdrop for headshots with a distinctive Sharjah character — different from Dubai's glass-tower environment and immediately recognisable to regional professional audiences." },
+      { heading: "University City Sessions", body: "Sharjah is home to the UAE's most concentrated academic cluster. We produce professional headshots for academics, researchers, and administrative staff across University City institutions — meeting the specific visual communication standards of higher education." },
+      { heading: "Corporate Team Days", body: "We set up a portable studio at your Sharjah office or facility and photograph your full team in a single coordinated day, delivering consistent professional headshots for websites, directories, and internal communications." },
+      { heading: "48-Hour Delivery", body: "Standard headshot delivery in 48 hours. Rush same-day or next-day delivery available for conference deadlines, press requirements, or urgent media appearances." },
+    ],
+    pricing: [
+      { pkg: "Individual Headshot", detail: "90 min / 1–2 looks / 10–15 edited images", price: "From AED 800" },
+      { pkg: "Executive Session", detail: "2 hrs / 2 locations / 20 final images", price: "From AED 1,500" },
+      { pkg: "Team Day (per person)", detail: "On-site portable studio / consistent images", price: "From AED 400 / person" },
+      { pkg: "Personal Brand Package", detail: "3 hrs / 3 looks / 40 images / social media ready", price: "From AED 2,500" },
+    ],
+    faqs: [
+      { q: "Where do you shoot professional headshots in Sharjah?", a: "We shoot at Al Majaz Waterfront for open cityscape backgrounds, University City for academic and institutional contexts, the Heart of Sharjah heritage quarter for culturally distinctive imagery, and portable studio setups at your office location for seamless-background corporate portraits." },
+      { q: "Do you photograph corporate team headshots in Sharjah?", a: "Yes. We set up a portable studio at your Sharjah office and photograph your full team systematically in a single day, delivering consistent professional images for websites, LinkedIn, and internal staff directories. Government and semi-government entities in Sharjah are a regular part of our team headshot work." },
+      { q: "How quickly are Sharjah headshots delivered?", a: "Standard delivery is 48 hours from the shoot date. Rush delivery within 24 hours is available for urgent conference, media, or press deadlines at an additional fee." },
+      { q: "How much does a professional headshot cost in Sharjah?", a: "Individual headshot sessions start from AED 800. Executive sessions with two locations from AED 1,500. Corporate team days from AED 400 per person with a session minimum. Personal brand packages from AED 2,500." },
+    ],
+  },
+
+  "sharjah/newborn-photography": {
+    title: "Newborn Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Newborn photographer in Sharjah — posed studio sessions and in-home lifestyle photography for UAE families. Safe, gentle, experienced. From AED 1,500.",
+    h1: "Newborn Photography in Sharjah",
+    subtitle: "The first days. Before they change.",
+    category: "NEWBORN PHOTOGRAPHY",
+    intro: [
+      "Newborn photography documents the very specific physical reality of the first two weeks of life — the natural curl of a sleeping baby, the extraordinary smallness of their hands, the particular softness that parents cannot hold onto with memory alone. Backyard Studio Official produces newborn photography in Sharjah in both posed studio and in-home lifestyle formats, with safety and the baby's comfort as the absolute first principle of every session.",
+      "Sharjah has one of the UAE's most family-oriented communities. Many of the families we work with in Sharjah are building their lives here while extended family remains in their home countries — professional newborn photography gives those relatives abroad their first meaningful connection to a new child. We understand the weight of that and bring the same care to the session itself as to the images we produce.",
+    ],
+    highlights: [
+      { heading: "Posed Studio Sessions (5–14 Days)", body: "Classic posed newborn photography in wraps and props, professional studio lighting, neutral and warm backgrounds. We work entirely at the baby's pace with no time pressure and unlimited breaks for feeding and settling." },
+      { heading: "In-Home Lifestyle Sessions", body: "We travel to your Sharjah home and document your baby in the environment you have prepared — the nursery, the natural light of your space, your family together. Documentary imagery that no studio can replicate." },
+      { heading: "Safety First", body: "All sessions follow established safe posing protocols. A parent is present throughout. We never compromise a baby's comfort or safety for a photograph." },
+      { heading: "Sibling and Family Portraits", body: "We include parents and existing children within the same session at no extra charge — the interactions between older siblings and a new baby consistently produce some of the most meaningful images in the session." },
+    ],
+    pricing: [
+      { pkg: "Studio Newborn", detail: "2–4 hrs / wraps + props / 20 edited images", price: "From AED 1,500" },
+      { pkg: "Premium Studio", detail: "Full session / family + siblings / 35 images", price: "From AED 2,500" },
+      { pkg: "In-Home Lifestyle", detail: "90 min / natural light / 25 images", price: "From AED 1,800" },
+      { pkg: "Studio + In-Home Combo", detail: "Both sessions / complete documentation", price: "From AED 3,200" },
+    ],
+    faqs: [
+      { q: "When should I book a newborn photographer in Sharjah?", a: "Book during your second trimester to hold dates around your due date. We confirm the session once the baby arrives. The ideal window for posed sessions is 5 to 14 days after birth — when babies sleep most deeply and curl most naturally." },
+      { q: "Is newborn photography safe for my baby in Sharjah?", a: "Yes, when performed by trained photographers following safe posing protocols, which is our consistent practice. We never attempt composite or unsafe poses. A parent is present throughout every session, and temperature and environment are actively managed." },
+      { q: "How long does a newborn session take in Sharjah?", a: "Studio sessions run 2 to 4 hours, working entirely at the baby's pace with no time pressure. In-home lifestyle sessions run 90 minutes to 2 hours." },
+      { q: "How much does newborn photography cost in Sharjah?", a: "Studio newborn sessions start from AED 1,500 delivering 20 edited images. Premium sessions with siblings and family from AED 2,500. In-home lifestyle sessions from AED 1,800. Studio and in-home combination packages from AED 3,200." },
+    ],
+  },
+
+  "sharjah/maternity-photography": {
+    title: "Maternity Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Maternity photographer in Sharjah for elegant bump shoots, Al Majaz Waterfront, Al Noor Island and studio sessions. Modest maternity photography available. From AED 1,200.",
+    h1: "Maternity Photography in Sharjah",
+    subtitle: "Al Majaz. Al Noor Island. Heart of Sharjah. Your bump, beautifully documented.",
+    category: "MATERNITY PHOTOGRAPHY",
+    intro: [
+      "Sharjah offers maternity photography environments that feel genuinely different from Dubai. Al Majaz Waterfront along Khalid Lagoon at golden hour produces warm, open coastal imagery with Sharjah's characteristic skyline. Al Noor Island's botanical gardens and butterfly house give a lush, intimate natural backdrop unusual for the UAE. The Heart of Sharjah's heritage architecture provides cultural depth and warmth. These are distinct environments that produce a different aesthetic to the glass-tower or beach-resort imagery associated with Dubai.",
+      "We are experienced with modest maternity photography in Sharjah — sessions designed for families who prefer covered clothing, elegant draping, and beautiful compositions that respect cultural and religious preferences without any compromise in photographic quality. We are happy to discuss your specific requirements before booking.",
+    ],
+    highlights: [
+      { heading: "Al Majaz Waterfront", body: "Sharjah's most popular public promenade along Khalid Lagoon — open water views, the fountain, the city skyline, and consistently beautiful golden-hour light that makes this a standout location for maternity photography." },
+      { heading: "Al Noor Island", body: "Sharjah's botanical island features lush tropical gardens and unique architectural elements that create intimate, green-framed maternity imagery unlike anything else available in the UAE." },
+      { heading: "Heart of Sharjah", body: "The restored heritage quarter provides warm sandstone architecture, courtyard settings, and a cultural depth that works beautifully for families wanting imagery rooted in the region's identity." },
+      { heading: "Modest Maternity Photography", body: "We are experienced shooting elegant covered and draped maternity sessions for families who prefer modest clothing options — equal in quality to any of our standard maternity work." },
+    ],
+    pricing: [
+      { pkg: "Outdoor Session", detail: "90 min / 1 location / 20–25 edited images", price: "From AED 1,200" },
+      { pkg: "Studio Session", detail: "90 min / controlled light / gown options", price: "From AED 1,500" },
+      { pkg: "Premium Outdoor", detail: "2.5 hrs / 2 locations / outfit change / 40 images", price: "From AED 2,200" },
+      { pkg: "Al Noor Island Session", detail: "Golden hour / 2 hrs / 35 images", price: "From AED 2,000" },
+    ],
+    faqs: [
+      { q: "What are the best maternity photography locations in Sharjah?", a: "Al Majaz Waterfront for golden-hour lagoon imagery; Al Noor Island for lush botanical garden sessions; the Heart of Sharjah for heritage architecture backdrops; and our studio for controlled indoor portrait work. We advise on location based on your aesthetic and cultural preferences." },
+      { q: "Do you provide modest maternity photography in Sharjah?", a: "Yes. We are experienced shooting elegant maternity sessions for families who prefer covered or draped clothing options that respect religious and cultural preferences. Equal in creative quality and photographic care to any of our maternity work." },
+      { q: "When is the best time for a maternity shoot in Sharjah?", a: "28 to 34 weeks of pregnancy. Book during your second trimester to secure preferred outdoor slots. Cooler months from October through April are ideal for outdoor sessions. Summer sunrise sessions from 5:30am are available for early risers." },
+      { q: "How much does maternity photography cost in Sharjah?", a: "Outdoor sessions from AED 1,200. Studio sessions from AED 1,500. Al Noor Island golden-hour sessions from AED 2,000. Premium outdoor sessions with two locations from AED 2,200." },
+    ],
+  },
+
+  "sharjah/fashion-photography": {
+    title: "Fashion Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Fashion photographer in Sharjah for editorial shoots, e-commerce, modest fashion and brand campaigns. Al Majaz, Heart of Sharjah, Al Noor Island and studio. From AED 3,000.",
+    h1: "Fashion Photography in Sharjah",
+    subtitle: "Heart of Sharjah. Al Noor Island. Al Majaz. UAE fashion photography with cultural depth.",
+    category: "FASHION PHOTOGRAPHY",
+    intro: [
+      "Sharjah offers fashion photography environments that communicate a distinctly different visual identity from Dubai. The Heart of Sharjah's restored heritage architecture — sandstone buildings, courtyard spaces, traditional geometric motifs — provides a backdrop of cultural depth and authenticity that is increasingly sought after in regional and international fashion editorial. Al Noor Island's botanical gardens and striking geometric structures offer an unusual combination of natural beauty and architectural interest. These locations produce fashion content that stands apart from the glass-and-steel aesthetic that dominates Dubai fashion production.",
+      "Sharjah is also the UAE's primary hub for modest fashion brands. Backyard Studio Official produces fashion photography for abaya designers, modest fashion labels, and regional brands targeting audiences who want photography that is simultaneously elegant, aspirational, and culturally resonant. We work with model agencies in both Sharjah and Dubai and manage full production from brief to delivery.",
+    ],
+    highlights: [
+      { heading: "Heart of Sharjah Heritage", body: "Restored heritage architecture, traditional courtyard spaces, and authentic sandstone settings that produce fashion imagery with genuine cultural weight — a visual angle that Dubai's modern architecture cannot replicate." },
+      { heading: "Al Noor Island", body: "Botanical gardens, the butterfly house, and distinctive architectural structures on the water create fashion photography locations that feel editorial and distinctive." },
+      { heading: "Modest Fashion Specialists", body: "Experienced producing fashion content for abaya designers, modest fashion brands, and regional labels — understanding the visual language that resonates with culturally conservative audiences while maintaining high production values." },
+      { heading: "Full Production Management", body: "Brief to delivery: model sourcing from Sharjah and Dubai agencies, styling coordination, location management, photography, and post-production retouching as a single integrated service." },
+    ],
+    pricing: [
+      { pkg: "Half-Day Shoot", detail: "Photographer + assistant / 1 location", price: "From AED 3,000" },
+      { pkg: "Full Production Day", detail: "Crew / location / post-production included", price: "From AED 5,500" },
+      { pkg: "E-Commerce Day Rate", detail: "Model photography / per-outfit pricing", price: "From AED 4,500 / day" },
+      { pkg: "Campaign Production", detail: "Multi-day / full crew / model + styling", price: "On request" },
+    ],
+    faqs: [
+      { q: "What fashion photography locations are available in Sharjah?", a: "The Heart of Sharjah heritage quarter for authentic cultural architecture; Al Noor Island for botanical gardens and distinctive structures; Al Majaz Waterfront for open contemporary imagery; and studio environments for clean e-commerce fashion photography. Location is selected based on the brand aesthetic and collection type." },
+      { q: "Do you produce modest fashion photography in Sharjah?", a: "Yes. Modest fashion and abaya brand photography is a core part of our Sharjah production work. We understand the visual language of modest fashion — elegant draping, cultural authenticity, sophisticated styling — and produce images that work for both regional and international modest fashion audiences." },
+      { q: "Can you source models for fashion shoots in Sharjah?", a: "Yes. We work with modelling agencies in both Sharjah and Dubai and source appropriate talent for your campaign brief. Model bookings, fees, and scheduling are managed as part of our full production service." },
+      { q: "How much does fashion photography cost in Sharjah?", a: "Half-day shoots start from AED 3,000. Full production days from AED 5,500. E-commerce model photography from AED 4,500 per day. Campaign productions with full crew and styling are quoted per project." },
+    ],
+  },
+
+  "sharjah/social-media-content": {
+    title: "Social Media Content Creation in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Social media content production in Sharjah — Instagram Reels, TikTok, LinkedIn video, modest fashion brands and F&B businesses. Monthly packages available. From AED 2,000.",
+    h1: "Social Media Content Creation in Sharjah",
+    subtitle: "Instagram. TikTok. LinkedIn. Sharjah brands, consistently visible.",
+    category: "SOCIAL MEDIA CONTENT",
+    intro: [
+      "Sharjah's business and cultural landscape is generating real demand for professional social media content. Government entities, University City institutions, family businesses in the heritage quarter, F&B brands across Al Majaz and Rolla, modest fashion labels, and an active community of Sharjah-based content creators all need a consistent flow of professional photography and video for Instagram, TikTok, and LinkedIn.",
+      "Backyard Studio Official produces social media content for Sharjah businesses and creators — delivering photo and video content in the same sessions, working in formats native to each platform, and providing monthly retainer packages for businesses that need consistent output without the overhead of managing individual production shoots every few weeks.",
+    ],
+    highlights: [
+      { heading: "Instagram & TikTok Reels", body: "Short-form vertical video shot natively for Instagram Reels and TikTok — we direct on-camera talent, shoot in vertical format, and deliver platform-ready files with fast turnaround for posting while content is timely." },
+      { heading: "Modest Fashion & Lifestyle Content", body: "A significant share of our Sharjah content work covers modest fashion brands, abaya designers, and lifestyle creators producing content for audiences who expect elegant, culturally resonant imagery." },
+      { heading: "F&B and Heritage Quarter", body: "Restaurant and café social content across Al Majaz, Rolla, and the Heart of Sharjah — food photography, chef reels, atmosphere content, and seasonal campaign material for Sharjah's growing dining culture." },
+      { heading: "Monthly Content Retainers", body: "Regular shoot sessions producing a rolling bank of content for Sharjah businesses who need consistent social media output without managing individual shoot days each month." },
+    ],
+    pricing: [
+      { pkg: "Half-Day Content Shoot", detail: "Photo + Reels / 1–2 platforms", price: "From AED 2,000" },
+      { pkg: "Full-Day Content Sprint", detail: "Multi-platform / photo + video / 3+ deliverables", price: "From AED 3,800" },
+      { pkg: "Creator Monthly Retainer", detail: "2 sessions / month / consistent content bank", price: "From AED 2,000 / mo" },
+      { pkg: "Brand Monthly Retainer", detail: "4 sessions / month / multi-platform / strategy", price: "From AED 3,500 / mo" },
+    ],
+    faqs: [
+      { q: "What social media content do you produce in Sharjah?", a: "Instagram Reels, TikTok videos, YouTube Shorts, LinkedIn video content, Instagram static posts and carousels, Stories content, and brand campaign material. We produce both photography and video in the same sessions to maximise what each shoot day produces." },
+      { q: "Do you offer monthly social media content packages in Sharjah?", a: "Yes. Monthly retainer packages cover 2 to 4 shoot sessions per month, producing a rolling content bank. Creator retainers start from AED 2,000 per month. Brand retainers covering multi-platform output start from AED 3,500 per month." },
+      { q: "Do you produce modest fashion content in Sharjah?", a: "Yes. Modest fashion and lifestyle content is a core area of our Sharjah social media work. We understand the aesthetic and audience expectations of this segment and produce Instagram and TikTok content that resonates with modest fashion communities." },
+      { q: "How much does social media content creation cost in Sharjah?", a: "Half-day content shoots from AED 2,000. Full-day multi-platform sprints from AED 3,800. Monthly creator retainers from AED 2,000 per month. Brand retainers from AED 3,500 per month." },
+    ],
+  },
+
+  "sharjah/birthday-photography": {
+    title: "Birthday Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Birthday photographer in Sharjah for kids parties, milestone birthdays, private celebrations. Al Majaz, Al Noor Island, private venues across Sharjah. From AED 1,000.",
+    h1: "Birthday Photography in Sharjah",
+    subtitle: "Kids parties. Milestone birthdays. Family celebrations. Sharjah moments, documented.",
+    category: "BIRTHDAY PHOTOGRAPHY",
+    intro: [
+      "Birthday photography in Sharjah covers both party event documentation and styled milestone sessions. For birthday parties — kids events at Al Majaz venues, private villa celebrations, community spaces, or home parties across Sharjah's residential areas — we provide event coverage that captures the real moments: the setup before guests arrive, the energy of the celebration, the cake, the genuine interactions that parents want to hold onto. For milestone birthdays, we produce styled photography sessions at Sharjah's most distinctive outdoor locations.",
+      "Sharjah is one of the UAE's most family-oriented communities, and birthday photography here often involves large extended family gatherings, cultural celebrations, and multi-generational moments that require a photographer comfortable with busy, layered events. We are experienced with the full range of birthday event formats and family dynamics in Sharjah.",
+    ],
+    highlights: [
+      { heading: "Kids Party Coverage", body: "We arrive early to document setup and cover the full arc of the celebration, capturing the genuine moments that make children's birthday documentation meaningful — the expressions, the interactions, the energy of the room." },
+      { heading: "Milestone Birthday Sessions", body: "Styled photography sessions for landmark birthdays at Al Majaz Waterfront at golden hour, Al Noor Island's gardens, or the Heart of Sharjah's heritage architecture. Sessions with outfit changes and location variety." },
+      { heading: "Family & Cultural Celebrations", body: "Experienced with large extended family birthday gatherings, Arabic and South Asian cultural celebration formats, and multi-generational events that require both documentary coverage and formal portrait work." },
+      { heading: "Same-Day Sneak Peek", body: "15 highlight images delivered within 6 hours of the event for immediate social media sharing. Full gallery in 3 to 5 business days." },
+    ],
+    pricing: [
+      { pkg: "Party Coverage", detail: "2 hrs / 50–80 edited images / digital gallery", price: "From AED 1,000" },
+      { pkg: "Full Event Coverage", detail: "3–4 hrs / setup to celebration", price: "From AED 1,600" },
+      { pkg: "Milestone Birthday Shoot", detail: "90 min / styled / 2 locations / 30 images", price: "From AED 1,400" },
+      { pkg: "Party + Same-Day Sneak Peek", detail: "Coverage + 15 highlights within 6 hrs", price: "From AED 1,600" },
+    ],
+    faqs: [
+      { q: "Do you photograph kids birthday parties in Sharjah?", a: "Yes. We photograph children's birthday parties at Al Majaz venues, private villas, home parties, community hall events, and celebrations across Sharjah. We are experienced with the fast-moving, unpredictable nature of children's parties and focus on capturing genuine moments rather than staged setups." },
+      { q: "Can you do a milestone birthday shoot in Sharjah?", a: "Yes. We produce styled milestone birthday photography sessions at Al Majaz Waterfront at golden hour, Al Noor Island's botanical gardens, and the Heart of Sharjah heritage quarter. Sessions run 90 minutes with outfit changes and up to 2 locations." },
+      { q: "How quickly do you deliver birthday photos in Sharjah?", a: "Standard delivery is 3 to 5 business days. Same-day sneak peek of 15 highlights within 6 hours is available as an add-on. Rush full delivery in 24 hours available at additional cost." },
+      { q: "How much does a birthday photographer cost in Sharjah?", a: "Party coverage starts from AED 1,000 for 2 hours. Full event coverage from AED 1,600. Milestone birthday shoots from AED 1,400. Same-day sneak peek add-on from AED 300." },
+    ],
+  },
+
+  "sharjah/kids-photography": {
+    title: "Kids Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Children's photographer in Sharjah for family portraits, kids sessions, sibling photography and newborn-to-toddler documentation. Al Majaz, Al Noor Island and studio. From AED 1,000.",
+    h1: "Kids Photography in Sharjah",
+    subtitle: "Toddlers to teens. Genuine moments, not forced poses.",
+    category: "KIDS PHOTOGRAPHY",
+    intro: [
+      "Children's photography in Sharjah requires patience, genuine warmth with young subjects, and a session approach built around the child rather than a fixed production schedule. Backyard Studio Official photographs children of all ages across Sharjah — from newborns through to teenagers — with a consistent philosophy: we work with the child's natural behaviour and energy rather than trying to make them perform. The best children's photographs are always the unguarded, spontaneous moments, and creating the conditions for those to happen is where we focus our attention.",
+      "Sharjah's outdoor environments work exceptionally well for children's photography. Al Noor Island provides botanical gardens and natural spaces that give children room to move freely. Al Majaz Waterfront offers open lagoon views that work beautifully for family sessions. The Heart of Sharjah adds cultural texture for families who want imagery rooted in the region's identity. We use all of these alongside our studio for families wanting a range of imagery styles.",
+    ],
+    highlights: [
+      { heading: "Al Noor Island Sessions", body: "Botanical gardens, open green spaces, and distinctive island architecture give children room to move naturally and produce spontaneous, relaxed photography that feels genuinely playful — unlike any environment in Dubai." },
+      { heading: "Al Majaz Waterfront", body: "Open lagoon views, the iconic fountain, and warm golden-hour light along Sharjah's main promenade provide a beautiful backdrop for family and children's sessions." },
+      { heading: "Patient, Child-Led Approach", body: "We spend the first part of every session building real rapport before we start photographing. Sessions adapt to the child's pace and mood. We never force expressions or rush moments." },
+      { heading: "Family & Sibling Sessions", body: "Parents and siblings included at no additional charge for groups up to 4. We structure the session around getting the best from young children — active outdoor phases first, then quieter portrait moments." },
+    ],
+    pricing: [
+      { pkg: "Kids Session", detail: "60 min / outdoor / 20–30 edited images", price: "From AED 1,000" },
+      { pkg: "Family Session", detail: "90 min / kids + parents / 35 images", price: "From AED 1,600" },
+      { pkg: "Studio Portrait", detail: "60 min / studio / 15 final images", price: "From AED 1,200" },
+      { pkg: "Al Noor Island Premium", detail: "90 min / 2 areas / 30 images", price: "From AED 1,800" },
+    ],
+    faqs: [
+      { q: "What are the best kids photography locations in Sharjah?", a: "Al Noor Island for botanical garden environments that children love to explore naturally; Al Majaz Waterfront for open lagoon and fountain backdrops; the Heart of Sharjah for cultural heritage settings; and our studio for weather-independent controlled portrait work." },
+      { q: "How do you get young children to cooperate for photos in Sharjah?", a: "We don't try to make children perform. We spend the opening part of every session playing and building a genuine connection before we start shooting. Once children are relaxed and comfortable with us, the real moments — the expressions, the energy, the interactions — emerge naturally." },
+      { q: "Can you photograph newborns through older children in the same family session?", a: "Yes. Multi-age family sessions with children spanning a wide age range are common in our Sharjah work. We structure the session to serve each age group — active outdoor phases for energetic children, quieter portrait time for younger ones and parents." },
+      { q: "How much does children's photography cost in Sharjah?", a: "Outdoor kids sessions start from AED 1,000. Family sessions from AED 1,600. Studio portrait sessions from AED 1,200. Al Noor Island premium outdoor sessions from AED 1,800." },
+    ],
+  },
+
+  "sharjah/engagement-photography": {
+    title: "Engagement Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Engagement photographer in Sharjah for couple shoots, proposal photography and pre-wedding sessions. Al Majaz Waterfront, Heart of Sharjah and Al Noor Island. From AED 1,800.",
+    h1: "Engagement Photography in Sharjah",
+    subtitle: "Al Majaz Waterfront. Heart of Sharjah. Al Noor Island. Couple photography with depth.",
+    category: "ENGAGEMENT PHOTOGRAPHY",
+    intro: [
+      "Sharjah's engagement photography locations offer a visual and cultural depth that is distinctly its own. Al Majaz Waterfront along Khalid Lagoon at golden hour produces warm, cinematic couple photography with the Sharjah skyline and fountain as a backdrop. The Heart of Sharjah's restored heritage quarter provides sandstone architecture, courtyard settings, and authentic cultural context that make for stunning images unlike anything produced in Dubai. Al Noor Island combines botanical gardens with striking waterside architecture. These are genuine environments with real character.",
+      "We work with couples across all nationalities and backgrounds in Sharjah, and we are experienced with culturally sensitive session requirements. We take time before every session to understand what the couple wants — the aesthetic, the mood, how comfortable they are in front of a camera — and build the session around helping them feel genuinely at ease rather than directed into rigid poses.",
+    ],
+    highlights: [
+      { heading: "Al Majaz Waterfront", body: "Sharjah's most iconic promenade setting — Khalid Lagoon, the fountain, the cityscape at golden hour. One of the most romantic and visually distinctive engagement photography locations in the UAE." },
+      { heading: "Heart of Sharjah Heritage", body: "Authentic sandstone architecture, intimate courtyards, and heritage setting provide a cultural backdrop for couple photography that feels genuinely rooted in the region's identity." },
+      { heading: "Al Noor Island", body: "Botanical gardens, distinctive architectural structures, and island light create a naturally beautiful and intimate setting for couple and engagement sessions." },
+      { heading: "Proposal Photography", body: "We position covertly at the chosen proposal location ahead of time to capture the genuine moment and immediate reaction — coordinating closely with the proposing partner on timing and position." },
+    ],
+    pricing: [
+      { pkg: "1-Location Session", detail: "90 min / 1 outfit / 30–40 edited images", price: "From AED 1,800" },
+      { pkg: "2-Location Session", detail: "2.5 hrs / 2 outfits / 50 images", price: "From AED 2,800" },
+      { pkg: "Al Majaz Golden Hour", detail: "2 hrs / sunset / 40 images", price: "From AED 2,200" },
+      { pkg: "Proposal Photography", detail: "Covert coverage / full edited gallery", price: "From AED 2,200" },
+    ],
+    faqs: [
+      { q: "What are the best engagement photography locations in Sharjah?", a: "Al Majaz Waterfront at golden hour for the Khalid Lagoon and fountain backdrop; Heart of Sharjah for heritage architecture and cultural depth; Al Noor Island for botanical garden environments; and our studio for weather-independent portrait sessions. We advise based on the couple's aesthetic preferences and session timing." },
+      { q: "Do you photograph proposals in Sharjah?", a: "Yes. We position covertly at the proposal location in advance to capture the genuine moment and the immediate reaction. All timing and positioning is coordinated through close communication with the proposing partner before the day." },
+      { q: "Are you experienced with culturally sensitive engagement photography in Sharjah?", a: "Yes. We regularly work with couples who have specific cultural, religious, or family requirements around their photography sessions. These conversations are always welcome before booking — we want to ensure the session is comfortable, dignified, and genuinely enjoyable for both partners." },
+      { q: "How much does engagement photography cost in Sharjah?", a: "Single-location sessions start from AED 1,800. Two-location sessions from AED 2,800. Al Majaz golden-hour sessions from AED 2,200. Proposal photography from AED 2,200." },
+    ],
+  },
+
 };
 
 // ─── Static params ────────────────────────────────────────────────────────────
