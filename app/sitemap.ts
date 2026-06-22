@@ -49,6 +49,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/case-studies",     lastModified: now, changeFrequency: "monthly", priority: 0.85 },
   ];
 
+  // Sprint 11: Abu Dhabi location sub-pages (2026-06-22)
+  const abuDhabiSubPages: MetadataRoute.Sitemap = [
+    { url: BASE + "/locations/abu-dhabi/wedding-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: BASE + "/locations/abu-dhabi/corporate-video",              lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: BASE + "/locations/abu-dhabi/event-photography",            lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/abu-dhabi/real-estate-photography",      lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/abu-dhabi/drone-videography",            lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/abu-dhabi/food-photography",             lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/abu-dhabi/product-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/abu-dhabi/personal-branding-photography",lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+  ];
+
   const services: MetadataRoute.Sitemap = SERVICES.map((slug) => ({
     url: BASE + "/services/" + slug,
     lastModified: now,
@@ -191,5 +203,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/zh/blog/meishi-paizhao-dubai-2026",                  lastModified: now, changeFrequency: "monthly", priority: 0.75 },
   ];
 
-  return [...core, ...services, ...locations, ...industries, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
+  return [...core, ...abuDhabiSubPages, ...services, ...locations, ...industries, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
 }

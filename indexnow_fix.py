@@ -266,6 +266,15 @@ URLS = [
     f"https://{HOST}/ar/blog/taswir-mataam-ihtirafi-dubai-2026",
     f"https://{HOST}/ar/blog/taswir-muntajat-tijaria-dubai-2026",
     f"https://{HOST}/ar/blog/taswir-uslub-hayat-dubai-2026",
+    # Sprint 11: Abu Dhabi location sub-pages (2026-06-22)
+    f"https://{HOST}/locations/abu-dhabi/wedding-photography",
+    f"https://{HOST}/locations/abu-dhabi/corporate-video",
+    f"https://{HOST}/locations/abu-dhabi/event-photography",
+    f"https://{HOST}/locations/abu-dhabi/real-estate-photography",
+    f"https://{HOST}/locations/abu-dhabi/drone-videography",
+    f"https://{HOST}/locations/abu-dhabi/food-photography",
+    f"https://{HOST}/locations/abu-dhabi/product-photography",
+    f"https://{HOST}/locations/abu-dhabi/personal-branding-photography",
     # Sprint 10 RU translations (2026-06-19)
     f"https://{HOST}/ru/blog/indiyskaya-svadba-fotografiya-dubai-2026",
     f"https://{HOST}/ru/blog/arabskaya-svadba-fotografiya-dubai-2026",
