@@ -71,6 +71,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   // Sprint 11: Abu Dhabi location sub-pages (2026-06-22)
+  // Sprint 14: Additional Abu Dhabi sub-pages (2026-06-22)
   const abuDhabiSubPages: MetadataRoute.Sitemap = [
     { url: BASE + "/locations/abu-dhabi/wedding-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: BASE + "/locations/abu-dhabi/corporate-video",              lastModified: now, changeFrequency: "monthly", priority: 0.9 },
@@ -80,6 +81,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/locations/abu-dhabi/food-photography",             lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: BASE + "/locations/abu-dhabi/product-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: BASE + "/locations/abu-dhabi/personal-branding-photography",lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/abu-dhabi/headshot-photography",         lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/abu-dhabi/newborn-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/abu-dhabi/maternity-photography",        lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/abu-dhabi/fashion-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/abu-dhabi/social-media-content",         lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/abu-dhabi/birthday-photography",         lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/abu-dhabi/kids-photography",             lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/abu-dhabi/engagement-photography",       lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 
   const services: MetadataRoute.Sitemap = SERVICES.map((slug) => ({

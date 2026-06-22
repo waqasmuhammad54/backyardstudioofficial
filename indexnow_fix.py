@@ -311,6 +311,15 @@ URLS = [
     f"https://{HOST}/locations/dubai/birthday-photography",
     f"https://{HOST}/locations/dubai/kids-photography",
     f"https://{HOST}/locations/dubai/engagement-photography",
+    # Sprint 14: Abu Dhabi location sub-pages — new niches (2026-06-22)
+    f"https://{HOST}/locations/abu-dhabi/headshot-photography",
+    f"https://{HOST}/locations/abu-dhabi/newborn-photography",
+    f"https://{HOST}/locations/abu-dhabi/maternity-photography",
+    f"https://{HOST}/locations/abu-dhabi/fashion-photography",
+    f"https://{HOST}/locations/abu-dhabi/social-media-content",
+    f"https://{HOST}/locations/abu-dhabi/birthday-photography",
+    f"https://{HOST}/locations/abu-dhabi/kids-photography",
+    f"https://{HOST}/locations/abu-dhabi/engagement-photography",
 ]
 
 payload = {

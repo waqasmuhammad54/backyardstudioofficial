@@ -741,6 +741,248 @@ const PAGES: Record<string, ServicePage> = {
     ],
   },
 
+  // ── ABU DHABI — Sprint 14 niches ──────────────────────────────────────────
+
+  "abu-dhabi/headshot-photography": {
+    title: "Headshot Photography in Abu Dhabi 2026 | Backyard Studio Official",
+    metaDescription: "Professional headshot photographer in Abu Dhabi — LinkedIn profiles, corporate team days, executive portraits, ADGM and Corniche locations. 48-hour delivery. From AED 900.",
+    h1: "Headshot Photography in Abu Dhabi",
+    subtitle: "ADGM. Corniche. Government district. Abu Dhabi professionals, professionally represented.",
+    category: "HEADSHOT PHOTOGRAPHY",
+    intro: [
+      "Abu Dhabi's professional market is built on credibility. ADGM executives, government officials, Aldar and Mubadala professionals, Abu Dhabi Chamber members, and the capital's growing entrepreneurial community all operate in an environment where visual professional presentation shapes how seriously you are taken before a single conversation happens. Backyard Studio Official produces professional headshots in Abu Dhabi that communicate the right level of authority, approachability, and credibility for your specific professional context.",
+      "We run a brief before every headshot session covering your industry, your target audience, and the platforms where the image will appear. A government consultant in the Abu Dhabi National Exhibition Centre area needs a different image to a creative entrepreneur on Saadiyat Island. We shoot at ADGM, the Corniche, Al Maryah Island, and our studio, and we advise on the right environment for your brand.",
+    ],
+    highlights: [
+      { heading: "ADGM & Al Maryah Island", body: "Abu Dhabi Global Market and the surrounding Al Maryah Island financial district provide corporate architectural backdrops that immediately communicate capital-level professional credibility." },
+      { heading: "Corporate Team Days", body: "We set up a portable studio at your Abu Dhabi office and photograph your full team in a single day, delivering consistent professional headshots for website, LinkedIn, and internal directories." },
+      { heading: "Government & Semi-Government", body: "Experienced producing headshots for Abu Dhabi government entities, free zone authorities, and semi-government organisations — meeting the visual communication standards of the UAE public sector." },
+      { heading: "48-Hour Standard Delivery", body: "Standard headshot delivery in 48 hours. Rush same-day or next-day delivery available for conference speaker profiles, press interviews, or urgent media requirements." },
+    ],
+    pricing: [
+      { pkg: "Individual Headshot", detail: "90 min / 1–2 looks / 10–15 edited images", price: "From AED 900" },
+      { pkg: "Executive Session", detail: "2 hrs / 2 locations / 20 final images", price: "From AED 1,800" },
+      { pkg: "Team Day (per person)", detail: "On-site portable studio / consistent images", price: "From AED 500 / person" },
+      { pkg: "Personal Brand Package", detail: "3 hrs / 3 looks / 40 images / social media ready", price: "From AED 2,800" },
+    ],
+    faqs: [
+      { q: "Where do you shoot headshots in Abu Dhabi?", a: "We shoot at ADGM and Al Maryah Island for finance and professional services contexts, the Corniche for lifestyle-oriented professional profiles, Saadiyat Island for creative and entrepreneurial brands, and our studio for clean seamless background headshots. We advise on location based on your industry and how the images will be used." },
+      { q: "Do you do corporate team headshot days in Abu Dhabi?", a: "Yes. We set up a portable studio at your Abu Dhabi office and photograph your full team systematically, delivering consistent professional headshots for the entire organisation. We have produced team headshot days for government entities, free zone companies, banks, and professional services firms across Abu Dhabi." },
+      { q: "How quickly do you deliver headshots in Abu Dhabi?", a: "Standard delivery is 48 hours from the shoot date. Rush delivery within 24 hours is available for urgent conference, media, or PR deadlines at an additional fee." },
+      { q: "How much does a professional headshot cost in Abu Dhabi?", a: "Individual headshot sessions start from AED 900 for 90 minutes delivering 10 to 15 edited images. Executive sessions from AED 1,800. Corporate team days from AED 500 per person with a minimum session fee." },
+    ],
+  },
+
+  "abu-dhabi/newborn-photography": {
+    title: "Newborn Photography in Abu Dhabi 2026 | Backyard Studio Official",
+    metaDescription: "Newborn photographer in Abu Dhabi — posed studio sessions and in-home lifestyle photography for UAE families. Safe, gentle, experienced team. From AED 1,800.",
+    h1: "Newborn Photography in Abu Dhabi",
+    subtitle: "The first days. Before they change.",
+    category: "NEWBORN PHOTOGRAPHY",
+    intro: [
+      "Newborn photography captures the specific physical reality of the first two weeks of a child's life — the way babies curl naturally, the size of their hands, the particular softness of that first fortnight that passes faster than memory can keep pace with. Backyard Studio Official produces newborn photography for Abu Dhabi families in both posed studio sessions and in-home lifestyle formats, with safety as the non-negotiable first principle of every session.",
+      "Abu Dhabi's expatriate community has a strong relationship with newborn photography — families living in the capital who are far from extended family networks find that professional newborn documentation gives grandparents and relatives abroad their first meaningful connection to a new child. We take this dimension of our work seriously in both the quality of the images we produce and the care we bring to the session itself.",
+    ],
+    highlights: [
+      { heading: "Posed Studio Sessions (5–14 Days)", body: "The classic posed newborn aesthetic: sleeping baby in wraps and props, professional studio lighting, neutral backgrounds. We work at the baby's pace with no time pressure and unlimited settling breaks." },
+      { heading: "In-Home Lifestyle Sessions", body: "We travel to your Abu Dhabi home and document your baby in your family environment — the nursery you prepared, the natural light in your space, the family together. Documentary imagery that studio sessions cannot replicate." },
+      { heading: "Safety First", body: "All sessions follow established safe posing protocols. A parent is present throughout every session. We never compromise a baby's comfort for a photograph." },
+      { heading: "Sibling and Family Portraits", body: "Parents and existing children included within the same session — the interactions between siblings and new baby produce some of the most meaningful images in newborn photography." },
+    ],
+    pricing: [
+      { pkg: "Studio Newborn", detail: "2–4 hrs / wraps + props / 20 edited images", price: "From AED 1,800" },
+      { pkg: "Premium Studio", detail: "Full session / family + siblings / 35 images", price: "From AED 2,800" },
+      { pkg: "In-Home Lifestyle", detail: "90 min / natural light / 25 images", price: "From AED 2,200" },
+      { pkg: "Studio + In-Home Combo", detail: "Both sessions / complete documentation", price: "From AED 3,800" },
+    ],
+    faqs: [
+      { q: "When should I book a newborn photographer in Abu Dhabi?", a: "Book during your second trimester to secure dates around your due date. We hold provisional dates and confirm once the baby arrives. The ideal shoot window for posed sessions is 5 to 14 days after birth." },
+      { q: "Is newborn photography safe for my baby?", a: "Yes, when performed by trained photographers following safe posing protocols. Our newborn photographers hold specialist training. We never attempt unsafe poses, and a parent is present throughout every session. Temperature and environment are managed throughout." },
+      { q: "How long does a newborn session take in Abu Dhabi?", a: "Studio sessions run 2 to 4 hours — working entirely at the baby's pace with breaks for feeding and settling. We never rush. In-home lifestyle sessions run 90 minutes to 2 hours." },
+      { q: "How much does newborn photography cost in Abu Dhabi?", a: "Studio sessions start from AED 1,800 delivering 20 edited images. Premium sessions including siblings and family from AED 2,800. In-home lifestyle sessions from AED 2,200. Studio and in-home combination packages from AED 3,800." },
+    ],
+  },
+
+  "abu-dhabi/maternity-photography": {
+    title: "Maternity Photography in Abu Dhabi 2026 | Backyard Studio Official",
+    metaDescription: "Maternity photographer in Abu Dhabi for elegant bump shoots, Saadiyat beach sessions, Corniche photography and studio portraits. From AED 1,500.",
+    h1: "Maternity Photography in Abu Dhabi",
+    subtitle: "Saadiyat. Corniche. Desert. Abu Dhabi bump photography at its most beautiful.",
+    category: "MATERNITY PHOTOGRAPHY",
+    intro: [
+      "Abu Dhabi's maternity photography environments are genuinely distinctive. Saadiyat Island's beaches — white sand, calm turquoise water, and some of the most beautiful natural light in the UAE — produce maternity images that look editorial in quality. The Corniche at golden hour delivers a long, open coastal backdrop with the Abu Dhabi skyline. The desert outside the city provides the same dramatic dune landscape as Dubai but with fewer crowds and easier access. We use all of these environments depending on the aesthetic the client wants and the time of year.",
+      "The ideal timing for a maternity shoot is 28 to 34 weeks of pregnancy. We recommend booking during the second trimester to secure preferred outdoor slots during Abu Dhabi's excellent cooler season from October through April. Summer sessions are possible at sunrise before temperatures rise.",
+    ],
+    highlights: [
+      { heading: "Saadiyat Island Beach Sessions", body: "Saadiyat's beaches are among the most beautiful in the UAE — white sand, calm water, and extraordinary natural light at sunrise and golden hour. A standout location for maternity photography that produces genuinely special imagery." },
+      { heading: "Corniche Golden Hour", body: "The Abu Dhabi Corniche offers a long open coastal promenade with the city skyline as backdrop — a beautiful and distinctly Abu Dhabi setting for maternity photography at sunset." },
+      { heading: "Desert Sessions", body: "The desert areas outside Abu Dhabi at golden hour provide the same dramatic dune landscape and extraordinary light as Dubai's desert sessions, with excellent access and fewer competing productions." },
+      { heading: "Studio Sessions", body: "Year-round availability regardless of season or weather. Professional lighting, private comfortable environment, and a wardrobe of maternity gowns available to borrow." },
+    ],
+    pricing: [
+      { pkg: "Outdoor Session", detail: "90 min / 1 location / 20–25 edited images", price: "From AED 1,500" },
+      { pkg: "Studio Session", detail: "90 min / controlled light / gown wardrobe", price: "From AED 1,800" },
+      { pkg: "Premium Outdoor", detail: "2.5 hrs / 2 locations / outfit change / 40 images", price: "From AED 2,500" },
+      { pkg: "Saadiyat Beach Session", detail: "Golden hour / 2 hrs / 35 images", price: "From AED 2,500" },
+    ],
+    faqs: [
+      { q: "What are the best maternity photography locations in Abu Dhabi?", a: "Saadiyat Island beach for white sand and extraordinary natural light; the Corniche at golden hour for coastal skyline imagery; the desert outside Abu Dhabi for dramatic dune backdrops; and our studio for controlled indoor portrait sessions. We advise on location based on your preferred aesthetic and the time of year." },
+      { q: "When is the best time for a maternity shoot in Abu Dhabi?", a: "28 to 34 weeks of pregnancy. Book during your second trimester to secure preferred outdoor slots. Cooler months October through April are ideal for outdoor sessions. Summer sunrise sessions (5:30 to 7:00am) are also available." },
+      { q: "Can my partner and children join the maternity shoot?", a: "Yes. We include partners and existing children in maternity sessions. We structure the shoot to work at a pace that suits young children — covering the most active participants first and moving to individual portraits once they have finished." },
+      { q: "How much does maternity photography cost in Abu Dhabi?", a: "Outdoor sessions from AED 1,500. Saadiyat beach and premium outdoor sessions from AED 2,500. Studio sessions from AED 1,800. All sessions include an online gallery with high-resolution downloads." },
+    ],
+  },
+
+  "abu-dhabi/fashion-photography": {
+    title: "Fashion Photography in Abu Dhabi 2026 | Backyard Studio Official",
+    metaDescription: "Fashion photographer in Abu Dhabi for editorial shoots, e-commerce, lookbooks and brand campaigns. Saadiyat, Louvre Abu Dhabi, desert and studio locations. From AED 3,500.",
+    h1: "Fashion Photography in Abu Dhabi",
+    subtitle: "Saadiyat. Louvre Abu Dhabi. Desert. Abu Dhabi fashion photography at international standard.",
+    category: "FASHION PHOTOGRAPHY",
+    intro: [
+      "Abu Dhabi offers fashion photography environments that are visually distinct from Dubai and genuinely competitive with international production locations. The Louvre Abu Dhabi's Jean Nouvel architecture provides a unique geometric backdrop for fashion editorial. Saadiyat Island's beaches deliver white-sand coastal imagery that most fashion markets cannot access. The desert and Eastern Mangroves provide dramatic natural environments. Backyard Studio Official produces fashion photography in Abu Dhabi for regional and international fashion brands that want something visually distinctive.",
+      "We produce editorial fashion photography, e-commerce model photography, lookbook and campaign content, and model portfolio work. Our production approach covers the full creative process — brief to delivery — as a single integrated service, including model sourcing from Abu Dhabi and Dubai agencies, styling coordination, and post-production retouching.",
+    ],
+    highlights: [
+      { heading: "Louvre Abu Dhabi Architecture", body: "Jean Nouvel's iconic geometric dome and surrounding waterfront provide fashion photography backdrops that are visually unique and immediately associated with cultural credibility." },
+      { heading: "Saadiyat Island Beach", body: "Pristine white sand beaches and turquoise water produce coastal fashion imagery comparable to the world's best beach production locations." },
+      { heading: "Eastern Mangroves & Desert", body: "Abu Dhabi's mangrove waterways and desert edges provide natural editorial environments that create visually striking fashion content unlike anything available in urban production." },
+      { heading: "Full Production Management", body: "Brief to delivery: model casting from Abu Dhabi and Dubai agencies, styling coordination, location management, photography, and post-production retouching handled as a single service." },
+    ],
+    pricing: [
+      { pkg: "Half-Day Shoot", detail: "Photographer + assistant / 1 location", price: "From AED 3,500" },
+      { pkg: "Full Production Day", detail: "Crew / location / post-production included", price: "From AED 6,000" },
+      { pkg: "E-Commerce Day Rate", detail: "Model photography / per-outfit pricing", price: "From AED 5,000 / day" },
+      { pkg: "Campaign Production", detail: "Multi-day / full crew / model + styling", price: "On request" },
+    ],
+    faqs: [
+      { q: "What fashion photography locations are available in Abu Dhabi?", a: "Louvre Abu Dhabi and Saadiyat Cultural District for architectural editorial; Saadiyat Island beach for coastal fashion; Eastern Mangroves for natural dramatic environments; the Corniche and Al Maryah Island for urban contemporary imagery; and studio environments for clean e-commerce photography. Location is selected based on the brand aesthetic and collection." },
+      { q: "Can you source models for fashion shoots in Abu Dhabi?", a: "Yes. We work with modelling agencies in both Abu Dhabi and Dubai and can source talent appropriate for your campaign brief. We manage model bookings, fees, and scheduling as part of our full production service." },
+      { q: "Do you produce e-commerce fashion photography in Abu Dhabi?", a: "Yes. We produce high-volume consistent model photography for fashion retail brands — meeting the technical requirements for online marketplaces and brand websites. E-commerce day rates start from AED 5,000." },
+      { q: "How much does fashion photography cost in Abu Dhabi?", a: "Half-day shoots start from AED 3,500. Full production days from AED 6,000. E-commerce model photography from AED 5,000 per day. Campaign productions with full crew are quoted per project." },
+    ],
+  },
+
+  "abu-dhabi/social-media-content": {
+    title: "Social Media Content Creation in Abu Dhabi 2026 | Backyard Studio Official",
+    metaDescription: "Social media content production in Abu Dhabi — Instagram Reels, TikTok, LinkedIn video, brand campaigns. Monthly packages for UAE businesses and creators. From AED 2,500.",
+    h1: "Social Media Content Creation in Abu Dhabi",
+    subtitle: "Instagram. TikTok. LinkedIn. Abu Dhabi brands and creators, consistently showing up.",
+    category: "SOCIAL MEDIA CONTENT",
+    intro: [
+      "Abu Dhabi's business and hospitality landscape is generating significant demand for professional social media content. Government entities, Saadiyat Island hospitality brands, ADGM-based financial services firms, Yas Island entertainment brands, and a growing community of Abu Dhabi-based entrepreneurs and content creators all need a consistent flow of professional photography and video content across Instagram, TikTok, and LinkedIn.",
+      "Backyard Studio Official produces social media content for Abu Dhabi businesses and creators — delivering photo and video in the same sessions, working to platform-specific formats, and providing monthly retainer packages for clients who need consistent content output without managing separate shoots each month.",
+    ],
+    highlights: [
+      { heading: "Instagram & TikTok Reels", body: "Short-form vertical video produced natively for TikTok and Instagram Reels algorithms. We shoot in vertical format, direct on-camera talent, and deliver platform-ready files with fast turnaround." },
+      { heading: "Hospitality & F&B Content", body: "Abu Dhabi's hotel restaurants, Saadiyat beach clubs, and Yas Bay F&B brands are a core part of our social media content work — food photography, chef reels, guest experience content, and seasonal campaign material." },
+      { heading: "Monthly Content Retainers", body: "Regular shoot sessions producing a rolling bank of content for Abu Dhabi businesses who need consistent social media output without managing individual shoot days every month." },
+      { heading: "Government & Corporate Social", body: "LinkedIn and professional social media content for Abu Dhabi government entities, free zone companies, and professional services brands — content that builds institutional credibility." },
+    ],
+    pricing: [
+      { pkg: "Half-Day Content Shoot", detail: "Photo + Reels / 1–2 platforms", price: "From AED 2,500" },
+      { pkg: "Full-Day Content Sprint", detail: "Multi-platform / photo + video / 3+ deliverables", price: "From AED 4,500" },
+      { pkg: "Creator Monthly Retainer", detail: "2 sessions / month / consistent content bank", price: "From AED 2,500 / mo" },
+      { pkg: "Brand Monthly Retainer", detail: "4 sessions / month / multi-platform / strategy", price: "From AED 4,000 / mo" },
+    ],
+    faqs: [
+      { q: "What social media content do you produce in Abu Dhabi?", a: "Instagram Reels, TikTok videos, YouTube Shorts, LinkedIn video content, Instagram static posts and carousels, Stories content, and brand campaign content. We produce both photography and video in the same sessions to maximise output per shoot day." },
+      { q: "Do you offer monthly social media content packages in Abu Dhabi?", a: "Yes. Monthly retainer packages cover 2 to 4 shoot sessions per month producing a rolling content bank. Creator retainers start from AED 2,500 per month. Brand retainers covering multi-platform output start from AED 4,000 per month." },
+      { q: "Can you produce content for Abu Dhabi hotels and hospitality brands?", a: "Yes. Hotel F&B, beach club, and hospitality social media content is a major part of our Abu Dhabi production work. We produce Instagram and TikTok content for Saadiyat Island properties, Yas Bay venues, Corniche hotels, and hospitality brands across the emirate." },
+      { q: "How much does social media content creation cost in Abu Dhabi?", a: "Half-day content shoots start from AED 2,500. Full-day multi-platform content sprints from AED 4,500. Monthly creator retainers from AED 2,500 per month. Brand retainers from AED 4,000 per month." },
+    ],
+  },
+
+  "abu-dhabi/birthday-photography": {
+    title: "Birthday Photography in Abu Dhabi 2026 | Backyard Studio Official",
+    metaDescription: "Birthday photographer in Abu Dhabi for kids parties, milestone birthdays, private celebrations and styled shoots. Hotels, beach clubs, private venues. From AED 1,200.",
+    h1: "Birthday Photography in Abu Dhabi",
+    subtitle: "Kids parties. Milestone birthdays. Private celebrations. Abu Dhabi moments documented.",
+    category: "BIRTHDAY PHOTOGRAPHY",
+    intro: [
+      "Birthday photography in Abu Dhabi covers both event documentation and styled milestone shoots. For parties and celebrations — kids birthdays at Abu Dhabi hotel venues, beach clubs on Saadiyat or Yas Island, or private villa events — we provide event coverage that captures the genuine moments: the setup before guests arrive, the celebration arc, the cake, the interactions that parents actually want to remember. For milestone birthdays, we produce styled photography sessions at Abu Dhabi's most beautiful locations.",
+      "We are experienced with the logistics of birthday events across Abu Dhabi's hotel and venue landscape, coordinating with event managers to ensure coverage access and timing are confirmed before the day. For styled milestone shoots, we use Saadiyat beach, the Corniche, the Al Ain Road desert approaches, and other locations based on the birthday person's aesthetic preferences.",
+    ],
+    highlights: [
+      { heading: "Kids Party Coverage", body: "We arrive early to document setup, cover the full party arc, and capture the genuine moments that make children's birthday photography meaningful — the expressions, the games, the interactions — at Abu Dhabi hotel and venue events." },
+      { heading: "Milestone Birthday Shoots", body: "Styled photography sessions for 18th, 21st, 30th, 40th, and 50th birthdays at Abu Dhabi's best locations — Saadiyat beach at golden hour, Corniche sunset, desert landscape, or heritage environments in Al Ain." },
+      { heading: "Hotel & Beach Club Events", body: "Experienced with Abu Dhabi's major venue and hospitality event environments — Saadiyat Island beach clubs, Yas Island venues, Corniche hotels, and private villa properties across the emirate." },
+      { heading: "Same-Day Sneak Peek", body: "15 highlight images delivered within 6 hours of the event for immediate social media sharing. Full gallery in 3 to 5 business days." },
+    ],
+    pricing: [
+      { pkg: "Party Coverage", detail: "2 hrs / 50–80 edited images / digital gallery", price: "From AED 1,200" },
+      { pkg: "Full Event Coverage", detail: "3–4 hrs / reception to cake cutting", price: "From AED 1,800" },
+      { pkg: "Milestone Birthday Shoot", detail: "90 min / styled / 2 locations / 30 images", price: "From AED 1,500" },
+      { pkg: "Party + Same-Day Sneak Peek", detail: "Coverage + 15 highlights within 6 hrs", price: "From AED 1,800" },
+    ],
+    faqs: [
+      { q: "Do you photograph kids birthday parties in Abu Dhabi?", a: "Yes. We photograph children's birthday parties at Abu Dhabi hotels, beach clubs on Saadiyat and Yas Island, private villa venues, and home parties across the emirate. We are experienced in the fast-moving environment of children's parties and focus on capturing genuine moments." },
+      { q: "Can you do a milestone birthday shoot in Abu Dhabi?", a: "Yes. We produce styled milestone birthday photography sessions at Abu Dhabi's most visually striking locations — Saadiyat Island beach at golden hour, the Corniche at sunset, desert landscape, and heritage environments. Sessions run 90 minutes to 2 hours with outfit changes and 2 locations." },
+      { q: "How quickly do you deliver birthday photos in Abu Dhabi?", a: "Standard delivery is 3 to 5 business days. Same-day sneak peek of 15 highlights within 6 hours is available as an add-on. Rush full delivery within 24 hours is available at an additional fee." },
+      { q: "How much does a birthday photographer cost in Abu Dhabi?", a: "Party coverage starts from AED 1,200 for 2 hours. Full event coverage from AED 1,800. Milestone birthday shoots from AED 1,500. Same-day sneak peek add-on from AED 300." },
+    ],
+  },
+
+  "abu-dhabi/kids-photography": {
+    title: "Kids Photography in Abu Dhabi 2026 | Backyard Studio Official",
+    metaDescription: "Children's photographer in Abu Dhabi for family portraits, kids sessions, sibling photography and school-age portraits. Saadiyat, Corniche, studio locations. From AED 1,200.",
+    h1: "Kids Photography in Abu Dhabi",
+    subtitle: "Toddlers to teens. Genuine moments, not forced poses.",
+    category: "KIDS PHOTOGRAPHY",
+    intro: [
+      "Children's photography in Abu Dhabi requires patience, flexibility, and an approach built around the child rather than a rigid session plan. Backyard Studio Official photographs children of all ages in Abu Dhabi — from babies through to teenagers — with a consistent philosophy: we work with the child's energy and natural behaviour rather than trying to make them perform for the camera. The best children's images are always the genuine, unguarded moments, and creating the conditions for those moments to happen is what we focus on.",
+      "Abu Dhabi's beach and outdoor environments work exceptionally well for children's photography. Saadiyat Island beach gives children space to run, play, and move naturally. The Corniche parks provide green outdoor context. The Eastern Mangroves offer a distinctive natural environment unlike anything in Dubai. We use these environments alongside studio sessions for families who want a range of imagery styles.",
+    ],
+    highlights: [
+      { heading: "Saadiyat Beach Sessions", body: "White sand, clear water, and extraordinary natural light. Saadiyat Island beach gives children space to move naturally and produces beautiful, spontaneous imagery that studio sessions cannot replicate." },
+      { heading: "Corniche & Park Sessions", body: "Abu Dhabi's Corniche parks and waterfront gardens offer green outdoor environments for children's photography — a visual contrast to the city's predominantly architectural landscape." },
+      { heading: "Patient, Child-Led Approach", body: "We spend the first part of every session building rapport before picking up a camera. Sessions are paced around the child's energy, not a fixed schedule. We never rush or force a moment." },
+      { heading: "Family & Sibling Sessions", body: "Parents and siblings included at no additional charge up to 4 family members. We structure sessions to get the best from young children — active outdoor phases for children, then quieter portrait time for parents." },
+    ],
+    pricing: [
+      { pkg: "Kids Session", detail: "60 min / outdoor / 20–30 edited images", price: "From AED 1,200" },
+      { pkg: "Family Session", detail: "90 min / kids + parents / 35 images", price: "From AED 1,800" },
+      { pkg: "Studio Portrait", detail: "60 min / studio / 15 final images", price: "From AED 1,500" },
+      { pkg: "Toddler Mini Session", detail: "45 min / child-paced / 15 images", price: "From AED 950" },
+    ],
+    faqs: [
+      { q: "What locations do you use for children's photography in Abu Dhabi?", a: "Saadiyat Island beach for natural outdoor imagery with space for children to move; Corniche parks and waterfront for green outdoor context; Eastern Mangroves for a distinctive natural environment; and our studio for controlled portrait sessions. Location is chosen based on the children's ages and the family's preferred aesthetic." },
+      { q: "How do you approach photographing young children in Abu Dhabi?", a: "We give children something to do rather than asking them to pose. We engage at their level, use activities and props that draw natural interest, and capture what happens rather than directing what should happen. The first 5 to 10 minutes of every session are rapport-building before we pick up a camera." },
+      { q: "How long should a children's photography session in Abu Dhabi be?", a: "45 to 60 minutes for toddlers; 60 to 90 minutes for school-age children; 90 minutes to 2 hours for family sessions including parents and multiple children. We work flexibly around the child's energy rather than adhering to a rigid schedule." },
+      { q: "How much does kids photography cost in Abu Dhabi?", a: "Children's outdoor sessions start from AED 1,200 for 60 minutes delivering 20 to 30 edited images. Family sessions from AED 1,800. Toddler mini sessions from AED 950. Studio portraits from AED 1,500." },
+    ],
+  },
+
+  "abu-dhabi/engagement-photography": {
+    title: "Engagement Photography in Abu Dhabi 2026 | Backyard Studio Official",
+    metaDescription: "Engagement photographer in Abu Dhabi for pre-wedding couple shoots, proposal photography and anniversary sessions. Saadiyat, desert, Corniche and Louvre AD locations. From AED 2,000.",
+    h1: "Engagement Photography in Abu Dhabi",
+    subtitle: "Saadiyat beach. Desert dunes. Louvre Abu Dhabi. Couple photography in the UAE's capital.",
+    category: "ENGAGEMENT PHOTOGRAPHY",
+    intro: [
+      "Abu Dhabi offers engagement photography environments that are visually distinct from Dubai and genuinely extraordinary. Saadiyat Island's white sand beaches produce couple photography with a coastal quality that is unmatched in the UAE. The Louvre Abu Dhabi's Jean Nouvel architecture provides a backdrop that is simultaneously modern and culturally significant. The desert outside Abu Dhabi at golden hour delivers the same extraordinary dune light as Dubai's desert sessions but with less competition for shooting space. The Corniche at sunset offers a long open vista with the Abu Dhabi skyline.",
+      "We work with couples across all backgrounds and nationalities in Abu Dhabi — from Emirati couples to international expats, and couples who have travelled specifically for an Abu Dhabi engagement shoot. Our approach to couple photography is built on direction and comfort rather than rigid posing: we spend the first part of every session helping couples relax before we start working toward the images that matter.",
+    ],
+    highlights: [
+      { heading: "Saadiyat Island Beach", body: "Abu Dhabi's most beautiful beach environment — white sand, calm clear water, extraordinary natural light. One of the UAE's best engagement photography locations, with a different aesthetic to Dubai's beach sessions." },
+      { heading: "Louvre Abu Dhabi", body: "Jean Nouvel's iconic geometric architecture and the surrounding Saadiyat Cultural District provide a visually unique backdrop for engagement photography that communicates cultural sophistication." },
+      { heading: "Desert Golden Hour", body: "The desert approaches outside Abu Dhabi at golden hour produce the same amber dune light and dramatic scale as Dubai's desert sessions — with more solitude and less competing production activity." },
+      { heading: "Proposal Photography", body: "We position covertly at the proposal location in advance to capture the genuine proposal moment and immediate reaction. Close pre-event coordination with the proposing partner." },
+    ],
+    pricing: [
+      { pkg: "1-Location Session", detail: "90 min / 1 outfit / 30–40 edited images", price: "From AED 2,000" },
+      { pkg: "2-Location Session", detail: "2.5 hrs / 2 outfits / 50 images", price: "From AED 3,000" },
+      { pkg: "Saadiyat Beach Session", detail: "2 hrs / golden hour / 40 images", price: "From AED 2,500" },
+      { pkg: "Proposal Photography", detail: "Covert coverage / full edited gallery", price: "From AED 2,500" },
+    ],
+    faqs: [
+      { q: "What are the best engagement photography locations in Abu Dhabi?", a: "Saadiyat Island beach for white-sand coastal imagery; Louvre Abu Dhabi and the Saadiyat Cultural District for architectural editorial; the Corniche at golden hour for skyline couple photography; the desert outside Abu Dhabi for dramatic dune backdrops; and Eastern Mangroves for a unique natural environment. We advise based on the couple's aesthetic preferences." },
+      { q: "When should we book an engagement shoot in Abu Dhabi?", a: "Book 2 to 4 months in advance, particularly for golden-hour beach and desert slots during Abu Dhabi's cooler months from October through April. Summer outdoor sessions are only practical at sunrise. Indoor and studio options are available year-round." },
+      { q: "Do you photograph proposals in Abu Dhabi?", a: "Yes. We position covertly at the proposal location in advance and capture the genuine moment and immediate reaction. All timing and positioning is coordinated through close communication with the proposing partner. Popular proposal locations — Saadiyat beach, Louvre AD waterfront — should be booked well in advance." },
+      { q: "How much does engagement photography cost in Abu Dhabi?", a: "Single-location sessions start from AED 2,000. Two-location sessions from AED 3,000. Saadiyat beach golden-hour sessions from AED 2,500. Proposal photography from AED 2,500." },
+    ],
+  },
+
 };
 
 // ─── Static params ────────────────────────────────────────────────────────────
