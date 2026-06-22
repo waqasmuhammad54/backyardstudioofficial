@@ -197,12 +197,13 @@ export default function ArabicHomePage() {
         </div>
       </section>
 
+
       {/* SHOWREEL */}
       <section style={{ padding: "4rem 2rem", background: "#0a0a0a" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
-          <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
-            <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.8rem", letterSpacing: "0.12em", marginBottom: "0.75rem" }}>أعمالنا</p>
-            <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--cream)", margin: 0 }}>شاهد إنتاجنا</h2>
+          <div style={{ textAlign: "center", marginBottom: "2rem" }}>
+            <div style={{ fontFamily: "Cairo, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.85rem", letterSpacing: "0.1em", marginBottom: "0.75rem" }}>أعمالنا المرئية</div>
+            <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(1.5rem,4vw,2rem)", fontWeight: 900, color: "var(--cream)" }}>شاهد أعمالنا</h2>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.25rem" }}>
             {[
@@ -223,11 +224,6 @@ export default function ArabicHomePage() {
                 <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.65)", fontSize: "0.85rem", padding: "0.75rem 1rem", margin: 0, textAlign: "center" }}>{v.label}</p>
               </div>
             ))}
-          </div>
-          <div style={{ textAlign: "center", marginTop: "2rem" }}>
-            <a href="/ar/portfolio" style={{ color: "var(--gold)", textDecoration: "none", fontFamily: "Cairo, sans-serif", fontWeight: 600, borderBottom: "1px solid var(--gold)", paddingBottom: "2px" }}>
-              مشاهدة كامل أعمالنا ←
-            </a>
           </div>
         </div>
       </section>
@@ -269,44 +265,107 @@ export default function ArabicHomePage() {
         </div>
       </section>
 
+
       {/* PORTFOLIO PREVIEW */}
       <section style={{ padding: "4rem 2rem", background: "#111" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
-          <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
-            <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.8rem", letterSpacing: "0.12em", marginBottom: "0.75rem" }}>معرض الأعمال</p>
-            <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(1.5rem, 3vw, 2.25rem)", fontWeight: 700, color: "var(--cream)", margin: 0 }}>من أعمالنا</h2>
+          <div style={{ textAlign: "center", marginBottom: "2rem" }}>
+            <div style={{ fontFamily: "Cairo, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.85rem", letterSpacing: "0.1em", marginBottom: "0.75rem" }}>من أعمالنا</div>
+            <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(1.5rem,4vw,2rem)", fontWeight: 900, color: "var(--cream)" }}>معرض الأعمال</h2>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "0.75rem" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "0.75rem", marginBottom: "1.5rem" }}>
             {[
               { src: "/images/events/event-01.webp", alt: "تصوير الفعاليات في دبي" },
-              { src: "/images/creative/creative-04.webp", alt: "تصوير الأزياء والموضة في دبي" },
-              { src: "/images/products/product-03.webp", alt: "تصوير المنتجات الاحترافي" },
-              { src: "/images/wedding/wedding-01.webp", alt: "تصوير حفلات الزفاف في دبي" },
-              { src: "/images/events/event-04.webp", alt: "تغطية المناسبات الكبرى" },
-              { src: "/images/creative/creative-13.webp", alt: "إنتاج المحتوى الإبداعي" },
+              { src: "/images/creative/creative-04.webp", alt: "تصوير الأزياء في دبي" },
+              { src: "/images/products/product-03.webp", alt: "تصوير المنتجات في دبي" },
+              { src: "/images/wedding/wedding-01.webp", alt: "تصوير حفل زفاف في دبي" },
+              { src: "/images/events/event-04.webp", alt: "تصوير المؤتمرات في دبي" },
+              { src: "/images/creative/creative-13.webp", alt: "إنتاج المحتوى الإبداعي في دبي" },
             ].map((img) => (
-              <a key={img.src} href="/ar/portfolio" style={{ display: "block", borderRadius: "4px", overflow: "hidden", aspectRatio: "4/3", position: "relative", border: "1px solid rgba(212,175,55,0.08)" }}>
+              <a key={img.src} href="/ar/portfolio" style={{ display: "block", aspectRatio: "4/3", overflow: "hidden", borderRadius: "4px", background: "#0a0a0a" }}>
                 <img src={img.src} alt={img.alt} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} loading="lazy" />
               </a>
             ))}
           </div>
-          <div style={{ textAlign: "center", marginTop: "2rem" }}>
-            <a href="/ar/portfolio" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.85rem 2rem", fontFamily: "Cairo, sans-serif", fontWeight: 700, borderRadius: "2px", textDecoration: "none" }}>
-              عرض جميع الأعمال
+          <div style={{ textAlign: "center" }}>
+            <a href="/ar/portfolio" style={{ display: "inline-block", border: "1px solid var(--gold)", color: "var(--gold)", padding: "0.8rem 2rem", fontFamily: "Cairo, sans-serif", fontWeight: 700, borderRadius: "2px", textDecoration: "none" }}>
+              عرض كل الأعمال ←
             </a>
           </div>
         </div>
       </section>
 
-      {/* GALLERY STRIP */}
-      <section style={{ background: "#0a0a0a", paddingBottom: "0.5rem" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(8, 1fr)", gap: "3px" }}>
-          {[
-            { src: "/images/events/event-01.webp", alt: "فعاليات دبي" },
-            { src: "/images/creative/creative-04.webp", alt: "إبداع وأزياء" },
-            { src: "/images/wedding/wedding-01.webp", alt: "أعراس دبي" },
-            { src: "/images/products/product-03.webp", alt: "تصوير المنتجات" },
-            { src: "/images/events/event-03.webp", alt: "تغطية الفعاليات" },
-            { src: "/images/creative/creative-13.webp", alt: "إنتاج إبداعي" },
-            { src: "/images/wedding/wedding-16.webp", alt: "تصوير الزفاف" },
-     
+      {/* ABOUT */}
+      <section style={{ padding: "5rem 2rem", background: "#111" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4rem", alignItems: "center" }}>
+          <div>
+            <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(1.5rem, 3.5vw, 2.25rem)", fontWeight: 700, color: "var(--cream)", marginBottom: "1.25rem" }}>
+              من نحن
+            </h2>
+            <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.7)", lineHeight: 1.8, marginBottom: "1rem", fontSize: "0.95rem" }}>
+              تأسس استوديو باكيارد أوفيشيال عام 2019 على يد{" "}
+              <strong style={{ color: "var(--cream)" }}>فهد إقبال بط</strong>،
+              المخرج السينمائي ومصور الأزياء الذي درس الفيلم والتلفزيون في الكلية الوطنية للفنون في لاهور. اليوم، نحن من أبرز شركات الإنتاج الإبداعي في دبي.
+            </p>
+            <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.7)", lineHeight: 1.8, marginBottom: "1.5rem", fontSize: "0.95rem" }}>
+              يترأس فريق ما بعد الإنتاج{" "}
+              <strong style={{ color: "var(--cream)" }}>سيد مظهر زيدي</strong>،
+              المخرج السينمائي والمصور الوثائقي بخبرة تتجاوز 20 عاماً. نمتلك رخصة GCAA للتصوير الجوي التجاري ونعمل في جميع إمارات الدولة.
+            </p>
+            <a href="/ar/about" style={{ color: "var(--gold)", textDecoration: "none", fontFamily: "Cairo, sans-serif", fontWeight: 600 }}>
+              اقرأ قصتنا ←
+            </a>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem" }}>
+            {[
+              { label: "تصوير الأعراس", val: "500+" },
+              { label: "أفلام مؤسسية", val: "300+" },
+              { label: "فعاليات كبرى", val: "400+" },
+              { label: "إعلانات تجارية", val: "200+" },
+            ].map((item) => (
+              <div key={item.label} style={{ background: "rgba(212,175,55,0.05)", border: "1px solid rgba(212,175,55,0.15)", borderRadius: "4px", padding: "1.25rem", textAlign: "center" }}>
+                <div style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.75rem", fontWeight: 900, color: "var(--gold)" }}>{item.val}</div>
+                <div style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.8rem", marginTop: "0.25rem" }}>{item.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(1.5rem, 3.5vw, 2.25rem)", fontWeight: 700, color: "var(--cream)", textAlign: "center", marginBottom: "3rem" }}>
+            أسئلة شائعة
+          </h2>
+          <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
+            {FAQS_AR.map((f) => (
+              <div key={f.q} style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "1.5rem" }}>
+                <h3 style={{ fontFamily: "Cairo, sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem" }}>{f.q}</h3>
+                <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.9rem", lineHeight: 1.7, margin: 0 }}>{f.a}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section style={{ padding: "4rem 2rem", background: "linear-gradient(135deg, #1a1408 0%, #0a0a0a 100%)", textAlign: "center", borderTop: "1px solid rgba(212,175,55,0.2)" }}>
+        <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(1.5rem, 3vw, 2rem)", fontWeight: 700, color: "var(--cream)", marginBottom: "1rem" }}>
+          هل أنت مستعد لمشروعك القادم؟
+        </h2>
+        <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", marginBottom: "2rem", fontSize: "1rem" }}>
+          نرد على جميع الاستفسارات خلال ساعتين. تواصل معنا الآن للحصول على عرض سعر مجاني.
+        </p>
+        <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
+          <a href="/ar/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.25rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Cairo, sans-serif", fontWeight: 700, fontSize: "1rem" }}>
+            تواصل معنا
+          </a>
+          <a href="https://wa.me/971585882685" target="_blank" rel="noopener noreferrer" style={{ border: "1px solid rgba(212,175,55,0.5)", color: "var(--gold)", padding: "0.9rem 2.25rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Cairo, sans-serif", fontWeight: 600 }}>
+            واتساب: +971 58 588 2685
+          </a>
+        </div>
+      </section>
+    </>
+  );
+}

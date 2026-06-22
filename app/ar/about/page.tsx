@@ -170,4 +170,27 @@ export default function ArAboutPage() {
           {[
             { num: "2,400+", label: "مشروع منجز" },
             { num: "7", label: "إمارات" },
-            { num: "8+", label: "سنوات خب�
+            { num: "8+", label: "سنوات خبرة" },
+            { num: "ساعتان", label: "وقت الاستجابة" },
+          ].map((s) => (
+            <div key={s.label}>
+              <div style={{ fontFamily: "Cairo, sans-serif", fontSize: "2.25rem", fontWeight: 900, color: "var(--gold)", lineHeight: 1 }}>{s.num}</div>
+              <div style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.875rem", marginTop: "0.4rem" }}>{s.label}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section style={{ padding: "4rem 2rem", background: "#111", textAlign: "center" }}>
+        <div style={{ maxWidth: "700px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1rem" }}>
+            هل تريد العمل معنا؟
+          </h2>
+          <a href="/ar/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Cairo, sans-serif", fontWeight: 700 }}>
+            تواصل مع فريقنا
+          </a>
+        </div>
+      </section>
+    </>
+  );
+}

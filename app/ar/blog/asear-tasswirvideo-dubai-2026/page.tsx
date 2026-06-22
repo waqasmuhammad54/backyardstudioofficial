@@ -113,8 +113,6 @@ export default function VideoPricingArPage() {
           وكيف تتأكد أنك تحصل على قيمة حقيقية مقابل ما تدفعه.
         </p>
 
-        <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1200&q=80" alt="Video production pricing Dubai 2026" style={{ width: "100%", height: "420px", objectFit: "cover", borderRadius: "4px", marginBottom: "3rem", display: "block" }} loading="lazy" />
-
         {/* Pricing Tables */}
         <h2 style={{ fontSize: "1.5rem", fontWeight: 700, color: "var(--gold)", marginBottom: "1.5rem", marginTop: "3rem" }}>
           جداول الأسعار حسب نوع المشروع
@@ -259,15 +257,9 @@ export default function VideoPricingArPage() {
         </div>
 
         {/* CTA */}
-        <div style={{ background: "linear-gradient(135deg, rgba(212,175,55,0.1) 0%, rgba(10,10,10,0.5) 100%)", border: "1px solid rgba(212,175,55,0.25)", borderRadius: "4px", padding: "2.5rem", textAlign: "center", marginTop: "3rem" }}>
-          <h3 style={{ color: "var(--gold)", fontWeight: 800, fontSize: "1.3rem", marginBottom: "0.75rem" }}>
-            احصل على عرض سعر مخصص
-          </h3>
-          <p style={{ color: "rgba(245,240,225,0.7)", marginBottom: "1.5rem" }}>
-            أخبرنا بمشروعك وسنرسل لك عرضاً مفصلاً خلال ساعتين.
-          </p>
-          <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
-            <a href="https://wa.me/971585882685" style={{ background: "var(--gold)", color: "#000", padding: "0.8rem 2rem", borderRadius: "2px", textDecoration: "none", fontWeight: 700 }}>
-              تواصل عبر واتساب
-            </a>
-            <a href="
+        <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1200&q=80" alt="أسعار تصوير الفيديو الاحترافي في دبي" style={{ width: "100%", height: "420px", objectFit: "cover", borderRadius: "4px", marginBottom: "3rem", display: "block" }} loading="lazy" />
+        </div>
+      </article>
+    </>
+  );
+}

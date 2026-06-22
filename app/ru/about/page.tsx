@@ -93,43 +93,37 @@ export default function RuAboutPage() {
         </div>
       </section>
 
-      {/* STUDIO BTS IMAGE */}
-      <section style={{ padding: "0", background: "#111" }}>
-        <img src="/images/team/studio-bts.webp" alt="Backyard Studio Official — съёмочный процесс" style={{ width: "100%", height: "380px", objectFit: "cover", display: "block" }} loading="lazy" />
-      </section>
+      {/* Studio BTS */}
+      <img src="/images/team/studio-bts.webp" alt="Backyard Studio Official — закулисье съёмок в Дубае" style={{ width: "100%", height: "380px", objectFit: "cover", display: "block" }} loading="lazy" />
 
       {/* Founders detail */}
       <section style={{ padding: "5rem 2rem", background: "#111" }}>
         <div style={{ maxWidth: "800px", margin: "0 auto" }}>
           <h2 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.75rem", fontWeight: 700, color: "var(--cream)", marginBottom: "2.5rem", textAlign: "center" }}>Руководство студии</h2>
 
-          <div style={{ marginBottom: "3rem" }}>
-            <div style={{ display: "grid", gridTemplateColumns: "120px 1fr", gap: "1.5rem", alignItems: "flex-start", marginBottom: "1.5rem" }}>
-              <img src="/images/team/fahad.webp" alt="Фахад Икбал Батт — творческий директор" style={{ width: "120px", height: "120px", objectFit: "cover", borderRadius: "4px", border: "2px solid rgba(212,175,55,0.3)", display: "block" }} loading="lazy" />
-              <div>
-                <h3 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.3rem", fontWeight: 700, color: "var(--gold)", marginBottom: "0.5rem" }}>Фахад Икбал Батт — Творческий директор и основатель</h3>
-                <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1rem" }}>
-                  Фахад Икбал Батт окончил факультет кино и телевидения Национального колледжа искусств (NCA) в Лахоре — одного из ведущих художественных вузов Южной Азии. После многолетней работы в области фэшн-фотографии и кинопроизводства он основал Backyard Studio Official в 2019 году с чёткой миссией: создавать визуальный контент мирового уровня для рынков Персидского залива.
-                </p>
-                <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem" }}>
-                  С момента переезда студии в Дубай в 2023 году Фахад лично руководит более чем 800 проектами в ОАЭ — от брендовых фильмов для компаний в DIFC до съёмок в пустынных кемпах и на прибрежных локациях. Его подход: каждый кадр должен служить чёткой истории, поэтому каждый проект начинается с глубокого погружения в позиционирование и цели клиента.
-                </p>
-              </div>
+          <div style={{ marginBottom: "3rem", display: "grid", gridTemplateColumns: "120px 1fr", gap: "1.5rem", alignItems: "start" }}>
+            <img src="/images/team/fahad.webp" alt="Фахад Икбал Батт — основатель Backyard Studio" style={{ width: "120px", height: "120px", objectFit: "cover", borderRadius: "4px", border: "2px solid rgba(212,175,55,0.3)" }} loading="lazy" />
+            <div>
+              <h3 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.3rem", fontWeight: 700, color: "var(--gold)", marginBottom: "0.5rem" }}>Фахад Икбал Батт — Творческий директор и основатель</h3>
+              <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1rem" }}>
+                Фахад Икбал Батт окончил факультет кино и телевидения Национального колледжа искусств (NCA) в Лахоре — одного из ведущих художественных вузов Южной Азии. После многолетней работы в области фэшн-фотографии и кинопроизводства он основал Backyard Studio Official в 2019 году с чёткой миссией: создавать визуальный контент мирового уровня для рынков Персидского залива.
+              </p>
+              <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem" }}>
+                С момента переезда студии в Дубай в 2023 году Фахад лично руководит более чем 800 проектами в ОАЭ — от брендовых фильмов для компаний в DIFC до съёмок в пустынных кемпах и на прибрежных локациях.
+              </p>
             </div>
           </div>
 
-          <div style={{ marginBottom: "1rem" }}>
-            <div style={{ display: "grid", gridTemplateColumns: "120px 1fr", gap: "1.5rem", alignItems: "flex-start" }}>
-              <img src="/images/team/mazhar.webp" alt="Сайед Мазхар Зайди — директор постпродакшна" style={{ width: "120px", height: "120px", objectFit: "cover", borderRadius: "4px", border: "2px solid rgba(212,175,55,0.3)", display: "block" }} loading="lazy" />
-              <div>
-                <h3 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.3rem", fontWeight: 700, color: "var(--gold)", marginBottom: "0.5rem" }}>Сайед Мазхар Зайди — Директор по постпродакшну</h3>
-                <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1rem" }}>
-                  Сайед Мазхар Зайди — режиссёр и документалист с более чем 20-летним опытом. Магистр массовых коммуникаций Университета GC. В его послужном списке более 50 музыкальных клипов, рекламных роликов и документальных фильмов. Профессиональный профиль на IMDB: <a href="https://www.imdb.com/name/nm14029494/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--gold)" }}>nm14029494</a>.
-                </p>
-                <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem" }}>
-                  В Backyard Studio Мазхар руководит всем постпродакшном: монтаж, цветокоррекция, звуковой дизайн, моушн-графика. Именно этот этап превращает качественные съёмочные материалы в исключительный контент. Мы убеждены, что съёмка — это лишь половина работы, вторая половина создаётся в монтажной.
-                </p>
-              </div>
+          <div style={{ display: "grid", gridTemplateColumns: "120px 1fr", gap: "1.5rem", alignItems: "start" }}>
+            <img src="/images/team/mazhar.webp" alt="Сайед Мазхар Зайди — Backyard Studio" style={{ width: "120px", height: "120px", objectFit: "cover", borderRadius: "4px", border: "2px solid rgba(212,175,55,0.3)" }} loading="lazy" />
+            <div>
+              <h3 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.3rem", fontWeight: 700, color: "var(--gold)", marginBottom: "0.5rem" }}>Сайед Мазхар Зайди — Директор по постпродакшну</h3>
+              <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1rem" }}>
+                Сайед Мазхар Зайди — режиссёр и документалист с более чем 20-летним опытом. Магистр массовых коммуникаций Университета GC. Более 50 музыкальных клипов, рекламных роликов и документальных фильмов. Профиль на IMDB: <a href="https://www.imdb.com/name/nm14029494/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--gold)" }}>nm14029494</a>.
+              </p>
+              <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem" }}>
+                В Backyard Studio Мазхар руководит всем постпродакшном: монтаж, цветокоррекция, звуковой дизайн, моушн-графика.
+              </p>
             </div>
           </div>
         </div>
@@ -155,4 +149,27 @@ export default function RuAboutPage() {
       <section style={{ padding: "3rem 2rem", background: "#111", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))", gap: "2rem", textAlign: "center" }}>
           {[
-            { num: "2 400+", l
+            { num: "2 400+", label: "реализованных проектов" },
+            { num: "7", label: "эмиратов ОАЭ" },
+            { num: "8+", label: "лет опыта" },
+            { num: "2 часа", label: "время ответа" },
+          ].map((s) => (
+            <div key={s.label}>
+              <div style={{ fontFamily: "Inter, sans-serif", fontSize: "2.25rem", fontWeight: 800, color: "var(--gold)", lineHeight: 1 }}>{s.num}</div>
+              <div style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.875rem", marginTop: "0.4rem" }}>{s.label}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section style={{ padding: "4rem 2rem", background: "#111", textAlign: "center" }}>
+        <h2 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1rem" }}>
+          Хотите работать с нами?
+        </h2>
+        <a href="/ru/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Inter, sans-serif", fontWeight: 700 }}>
+          Связаться с командой
+        </a>
+      </section>
+    </>
+  );
+}

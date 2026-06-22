@@ -320,6 +320,31 @@ URLS = [
     f"https://{HOST}/locations/abu-dhabi/birthday-photography",
     f"https://{HOST}/locations/abu-dhabi/kids-photography",
     f"https://{HOST}/locations/abu-dhabi/engagement-photography",
+    # Multilingual media parity sprint (2026-06-22)
+    # Updated pages with real images/videos — resubmit for recrawl
+    f"https://{HOST}/ar/",
+    f"https://{HOST}/ar/portfolio",
+    f"https://{HOST}/ar/about",
+    f"https://{HOST}/ar/locations",
+    f"https://{HOST}/ru/",
+    f"https://{HOST}/ru/portfolio",
+    f"https://{HOST}/ru/about",
+    f"https://{HOST}/ru/locations",
+    # AR blog posts not previously submitted
+    f"https://{HOST}/ar/blog/asear-video-sharkati-dubai-2026",
+    f"https://{HOST}/ar/blog/taswirafidiyat-dubai-2026",
+    # AR/RU blog posts updated with hero images — resubmit
+    f"https://{HOST}/ar/blog/taswir-zifaf-arabi-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-zifaf-hindi-dubai-2026",
+    f"https://{HOST}/ar/blog/taswir-zifaf-wajiha-dubai-2026",
+    f"https://{HOST}/ru/blog/arabskaya-svadba-fotografiya-dubai-2026",
+    f"https://{HOST}/ru/blog/indiyskaya-svadba-fotografiya-dubai-2026",
+    f"https://{HOST}/ru/blog/vyezdnaya-svadba-dubai-2026",
+    f"https://{HOST}/ru/blog/nikah-fotografiya-dubai-2026",
+    f"https://{HOST}/ru/blog/personal-brending-fotografiya-dubai-2026",
+    f"https://{HOST}/ru/blog/fotografiya-restoranov-dubai-2026",
+    f"https://{HOST}/ru/blog/fotografiya-tovarov-dubai-2026",
+    f"https://{HOST}/ru/blog/layfstayl-fotografiya-dubai-2026",
 ]
 
 payload = {
