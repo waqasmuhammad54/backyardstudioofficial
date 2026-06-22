@@ -50,6 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   // Sprint 12: Dubai location sub-pages (2026-06-22)
+  // Sprint 13: Additional Dubai sub-pages (2026-06-22)
   const dubaiSubPages: MetadataRoute.Sitemap = [
     { url: BASE + "/locations/dubai/wedding-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: BASE + "/locations/dubai/corporate-video",              lastModified: now, changeFrequency: "monthly", priority: 0.9 },
@@ -59,6 +60,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/locations/dubai/food-photography",             lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: BASE + "/locations/dubai/product-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: BASE + "/locations/dubai/personal-branding-photography",lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/dubai/headshot-photography",         lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/dubai/newborn-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/dubai/maternity-photography",        lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/dubai/fashion-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/dubai/social-media-content",         lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/dubai/birthday-photography",         lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/dubai/kids-photography",             lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/dubai/engagement-photography",       lastModified: now, changeFrequency: "monthly", priority: 0.85 },
   ];
 
   // Sprint 11: Abu Dhabi location sub-pages (2026-06-22)

@@ -293,6 +293,24 @@ URLS = [
     f"https://{HOST}/ru/blog/fotografiya-restoranov-dubai-2026",
     f"https://{HOST}/ru/blog/fotografiya-tovarov-dubai-2026",
     f"https://{HOST}/ru/blog/layfstayl-fotografiya-dubai-2026",
+    # Sprint 13: EN blog posts — remaining Dubai niches (2026-06-22)
+    f"https://{HOST}/blog/headshot-photography-dubai-2026",
+    f"https://{HOST}/blog/newborn-photographer-dubai-2026",
+    f"https://{HOST}/blog/maternity-photography-dubai-2026",
+    f"https://{HOST}/blog/fashion-photography-dubai-2026",
+    f"https://{HOST}/blog/social-media-content-creator-dubai-2026",
+    f"https://{HOST}/blog/birthday-photographer-dubai-2026",
+    f"https://{HOST}/blog/kids-photography-dubai-2026",
+    f"https://{HOST}/blog/engagement-photographer-dubai-2026",
+    # Sprint 13: Dubai location sub-pages (2026-06-22)
+    f"https://{HOST}/locations/dubai/headshot-photography",
+    f"https://{HOST}/locations/dubai/newborn-photography",
+    f"https://{HOST}/locations/dubai/maternity-photography",
+    f"https://{HOST}/locations/dubai/fashion-photography",
+    f"https://{HOST}/locations/dubai/social-media-content",
+    f"https://{HOST}/locations/dubai/birthday-photography",
+    f"https://{HOST}/locations/dubai/kids-photography",
+    f"https://{HOST}/locations/dubai/engagement-photography",
 ]
 
 payload = {

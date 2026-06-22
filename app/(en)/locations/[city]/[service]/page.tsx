@@ -471,6 +471,246 @@ const PAGES: Record<string, ServicePage> = {
     ],
   },
 
+  "dubai/headshot-photography": {
+    title: "Headshot Photography in Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Professional headshot photographer in Dubai — LinkedIn profiles, corporate team days, executive portraits, DIFC and Business Bay. Fast 48-hour delivery. From AED 900.",
+    h1: "Headshot Photography in Dubai",
+    subtitle: "LinkedIn. Corporate profiles. Executive portraits. Dubai professionals, professionally represented.",
+    category: "HEADSHOT PHOTOGRAPHY",
+    intro: [
+      "Dubai's professional market runs on LinkedIn and digital first impressions. Backyard Studio Official produces headshot photography for Dubai professionals across every industry — from DIFC fund managers to Business Bay startup founders, Media City executives to JLT consultants. A great headshot in Dubai is not a luxury; it is a basic requirement for being taken seriously in one of the world's most networked professional environments.",
+      "We run every headshot session with a pre-shoot brief that covers your industry, your target audience, and what you want people to feel when they see your photo. The result is not a generic corporate pose — it is an image calibrated to the specific professional context you operate in. We deliver edited images within 48 hours, and we offer on-site corporate team days across Dubai for companies that need consistent headshots for their full team.",
+    ],
+    highlights: [
+      { heading: "DIFC & Business Bay", body: "Dubai's two primary professional districts offer architectural backdrops that immediately communicate corporate credibility. We know the best shooting positions, permit requirements, and optimal lighting times for both districts." },
+      { heading: "Corporate Team Headshot Days", body: "We set up a portable studio at your Dubai office and photograph your full team in a single day — from junior staff to C-suite executives — delivering consistent, professional imagery for company websites, LinkedIn, and press kits." },
+      { heading: "48-Hour Turnaround", body: "Standard headshot delivery in 48 hours. Rush same-day or next-day delivery available for conference speaker profiles, press interviews, or urgent media deadlines." },
+      { heading: "Studio & Outdoor Options", body: "Clean studio backgrounds for maximum versatility, or outdoor architectural environments that provide visual context and industry positioning. We advise on the right approach for your specific professional brand." },
+    ],
+    pricing: [
+      { pkg: "Individual Headshot", detail: "90 min / 1–2 looks / 10–15 edited images", price: "From AED 900" },
+      { pkg: "Executive Session", detail: "2 hrs / 2 locations / 20 final images", price: "From AED 1,800" },
+      { pkg: "Team Day (per person)", detail: "On-site portable studio / consistent images", price: "From AED 500 / person" },
+      { pkg: "Personal Brand Package", detail: "3 hrs / 3 looks / 40 images / social media ready", price: "From AED 2,800" },
+    ],
+    faqs: [
+      { q: "Where do you shoot headshots in Dubai?", a: "We shoot at outdoor architectural environments in DIFC, Business Bay, Downtown Dubai, and Dubai Marina; studio backgrounds in our Dubai studio; and on-site at client offices for corporate team days. We advise on location based on your industry and intended use of the images." },
+      { q: "How long does a Dubai headshot session take?", a: "Individual headshot sessions run for 90 minutes to 2 hours. Corporate team days are scheduled based on the number of team members — we photograph 10 to 20 people per day in most corporate environments. We work efficiently and never sacrifice quality for speed." },
+      { q: "How quickly do you deliver headshots in Dubai?", a: "Standard delivery is 48 hours from the shoot date. Rush delivery within 24 hours or same-day is available for urgent media, conference, or PR deadlines at an additional fee." },
+      { q: "What should I wear for a professional headshot in Dubai?", a: "Solid colours photograph better than patterns. Business professional or smart casual depending on your industry. We send a full preparation guide before every session. Most clients bring 2 to 3 outfit options and we advise on which photographs best in the session environment." },
+    ],
+  },
+
+  "dubai/newborn-photography": {
+    title: "Newborn Photography in Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Newborn photographer in Dubai — posed studio sessions and in-home lifestyle photography for UAE families. Safe, gentle, experienced. From AED 1,800.",
+    h1: "Newborn Photography in Dubai",
+    subtitle: "The first two weeks. Captured before they change.",
+    category: "NEWBORN PHOTOGRAPHY",
+    intro: [
+      "Newborn photography in Dubai captures the most fleeting period of a child's life — the 5 to 14 days after birth when babies sleep deeply, curl naturally, and exist in a state of complete newness that photographs cannot revisit once it passes. Backyard Studio Official produces posed studio newborn photography and in-home lifestyle sessions for Dubai families, with safety as the absolute first principle of every session we run.",
+      "Dubai's expatriate families are often far from extended family networks, which makes professional newborn documentation particularly meaningful. The images we produce are frequently the first detailed record of a new child that grandparents and family members in other countries receive. We approach every session with this in mind — both in the care we take with the photography and the care we take with the baby.",
+    ],
+    highlights: [
+      { heading: "Posed Studio Sessions (5–14 Days)", body: "The classic newborn photography aesthetic — sleeping baby in wraps and props, controlled studio light, neutral backgrounds. We work entirely at the baby's pace with no time pressure and unlimited settling time." },
+      { heading: "In-Home Lifestyle Sessions", body: "We come to your home and document your baby in the natural environment of your first days as a family — the nursery, the family together, the natural light in your space. Documentary rather than posed." },
+      { heading: "Safety First Approach", body: "Our newborn photographers follow established safe posing guidelines at all times. A parent is present throughout every session. We never compromise a baby's comfort for an image." },
+      { heading: "Sibling and Family Portraits", body: "We include sibling and family portraits within the same session — parents holding the baby, older children meeting their new sibling — producing a complete set of family images alongside the newborn portraits." },
+    ],
+    pricing: [
+      { pkg: "Studio Newborn", detail: "2–4 hrs / wraps + props / 20 edited images", price: "From AED 1,800" },
+      { pkg: "Premium Studio", detail: "Full session / family + siblings / 35 images", price: "From AED 2,800" },
+      { pkg: "In-Home Lifestyle", detail: "90 min / natural light / 25 images", price: "From AED 2,200" },
+      { pkg: "Studio + In-Home Combo", detail: "Both sessions / complete documentation", price: "From AED 3,800" },
+    ],
+    faqs: [
+      { q: "When should I book a newborn photographer in Dubai?", a: "Book during your second trimester to secure dates around your due date. We hold a provisional date and confirm once the baby arrives. The ideal shoot window is 5 to 14 days after birth for posed sessions." },
+      { q: "Is newborn photography safe in Dubai?", a: "Yes, when performed by trained photographers following established safe posing protocols. Our newborn photographers hold specialist newborn posing training. We never attempt unsafe poses, and a parent is present at every moment of the session." },
+      { q: "How long does a newborn session take in Dubai?", a: "Studio sessions run 2 to 4 hours — working entirely at the baby's pace with breaks for feeding and settling. We do not rush. In-home lifestyle sessions run 90 minutes to 2 hours." },
+      { q: "Do you do in-home newborn photography in Dubai?", a: "Yes. We travel to your home and document your new baby in your family environment — the nursery, natural light, family together. Many Dubai families choose both a studio session for posed images and an in-home session for lifestyle documentation." },
+    ],
+  },
+
+  "dubai/maternity-photography": {
+    title: "Maternity Photography in Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Maternity photographer in Dubai for elegant bump shoots, desert golden hour sessions, beach photography and studio portraits. From AED 1,500.",
+    h1: "Maternity Photography in Dubai",
+    subtitle: "Desert dunes. Golden hour beach. Downtown skyline. Your bump, beautifully documented.",
+    category: "MATERNITY PHOTOGRAPHY",
+    intro: [
+      "Dubai offers a visual environment for maternity photography that most cities in the world cannot match. The desert landscape 30 minutes from the city produces editorial-quality backdrops at golden hour. The beach environments at JBR, Jumeirah, and Palm Jumeirah deliver extraordinary light at sunrise and sunset. The city's skyline provides an urban architectural context that few other pregnancy photograph locations can replicate. We use all of these environments for maternity photography at Backyard Studio Official.",
+      "The ideal timing for a maternity shoot is 28 to 34 weeks — when the bump is prominently visible and the mother is typically still comfortable and mobile enough for a relaxed session. We advise on location based on the season: outdoor beach and desert sessions in Dubai's cooler months from October through April, sunrise sessions during the summer months when morning temperatures are comfortable before the day heats up.",
+    ],
+    highlights: [
+      { heading: "Desert Golden Hour Sessions", body: "The Al Qudra and Lahbab desert areas outside Dubai produce some of the most dramatic maternity photography backdrops available anywhere — warm amber dunes, extraordinary sunset light, and a scale that makes every image feel editorial." },
+      { heading: "Beach and Coastal Sessions", body: "JBR, Jumeirah Beach, and Palm Jumeirah offer beautiful sunrise and golden-hour light for maternity photography. The combination of water, sky, and soft natural light is consistently flattering and produces timeless images." },
+      { heading: "Studio Maternity Portraits", body: "For a controlled, polished aesthetic or when outdoor conditions are not suitable, our Dubai studio provides a private, comfortable environment with professional lighting and a small wardrobe of maternity gowns available to borrow." },
+      { heading: "Family Inclusion", body: "Partners and existing children are included in sessions at no additional per-person fee up to 3 family members. We structure the session to get the best from each combination — individual maternity portraits, couple shots, and family group imagery." },
+    ],
+    pricing: [
+      { pkg: "Outdoor Session", detail: "90 min / 1 location / 20–25 edited images", price: "From AED 1,500" },
+      { pkg: "Studio Session", detail: "90 min / controlled light / gown wardrobe", price: "From AED 1,800" },
+      { pkg: "Premium Outdoor", detail: "2.5 hrs / 2 locations / outfit change / 40 images", price: "From AED 2,500" },
+      { pkg: "Full Desert Session", detail: "Golden hour dunes / 2 hrs / 35 images", price: "From AED 2,800" },
+    ],
+    faqs: [
+      { q: "When is the best time for a maternity shoot in Dubai?", a: "28 to 34 weeks of pregnancy. The bump is fully visible and prominent, and the mother is typically still comfortable for a session lasting 90 minutes to 2 hours. Booking during the second trimester ensures availability of preferred time slots." },
+      { q: "What locations are best for maternity photography in Dubai?", a: "Desert golden hour sessions at Al Qudra or Lahbab for dramatic editorial imagery; JBR and Jumeirah Beach for coastal natural light; Downtown Dubai for urban architectural backdrops; and our studio for controlled indoor portrait sessions. We advise on location based on your preferred aesthetic and the time of year." },
+      { q: "Can my partner and children be in the maternity shoot?", a: "Yes. We include partners and existing children in maternity sessions. We structure the shoot to work at a pace that suits young children — starting with the most active participants while their energy is highest and moving to individual portraits once they have finished." },
+      { q: "How much does maternity photography cost in Dubai?", a: "Sessions start from AED 1,500 for a 90-minute outdoor session. Premium sessions with multiple locations and outfit changes start from AED 2,500. Desert golden hour sessions start from AED 2,800. Studio sessions from AED 1,800." },
+    ],
+  },
+
+  "dubai/fashion-photography": {
+    title: "Fashion Photography in Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Fashion photographer in Dubai for editorial shoots, e-commerce, lookbooks, model portfolios and brand campaigns. DIFC, Downtown, desert, hotel locations. From AED 3,500.",
+    h1: "Fashion Photography in Dubai",
+    subtitle: "Editorial. E-commerce. Campaigns. Dubai's fashion photography at international standard.",
+    category: "FASHION PHOTOGRAPHY",
+    intro: [
+      "Dubai's fashion photography market operates at a genuinely international level. The city's architecture, its desert proximity, its year-round shooting weather, and its diverse and highly experienced modelling community make it a production location that international fashion brands choose specifically — not just use by default because it is where the client is based. Backyard Studio Official produces fashion photography in Dubai that is benchmarked against international editorial standards, not local market conventions.",
+      "We produce editorial fashion photography for magazines and digital media, e-commerce model photography for fashion retail brands, lookbook and campaign content for seasonal collections, and model portfolio shoots for Dubai-based talent. Our production team manages the full creative process — from location scouting and model casting through to post-production retouching — as a single deliverable.",
+    ],
+    highlights: [
+      { heading: "Editorial Fashion", body: "Campaign and editorial imagery with a visual narrative — using Dubai's architecture, desert landscape, and luxury hotel environments as the backdrop for fashion content that communicates more than just the clothes." },
+      { heading: "E-Commerce Photography", body: "High-volume, consistent product-on-model photography for fashion retail brands selling on their own websites, Amazon UAE, or Noon. Clean, technically precise, and delivered efficiently." },
+      { heading: "Model Casting & Styling", body: "We have working relationships with Dubai's leading modelling agencies and experienced freelance stylists. We manage casting and crew coordination as part of our production service." },
+      { heading: "Full Production Management", body: "Brief to delivery — we manage location scouting, model booking, styling, make-up, photography, and post-production as an integrated service rather than as separate hires." },
+    ],
+    pricing: [
+      { pkg: "Half-Day Shoot", detail: "Photographer + assistant / 1 location", price: "From AED 3,500" },
+      { pkg: "Full Production Day", detail: "Crew / location / post-production included", price: "From AED 6,000" },
+      { pkg: "E-Commerce Day Rate", detail: "Model photography / per-outfit pricing", price: "From AED 5,000 / day" },
+      { pkg: "Campaign Production", detail: "Multi-day / full crew / model + styling", price: "On request" },
+    ],
+    faqs: [
+      { q: "What types of fashion photography does Backyard Studio produce in Dubai?", a: "Editorial fashion for magazines and digital media, e-commerce model photography for fashion retail, lookbook and campaign photography for seasonal collections, and model portfolio shoots. We manage the full production process including model casting, styling, location, photography, and post-production." },
+      { q: "Which fashion photography locations do you use in Dubai?", a: "DIFC and Downtown Dubai for architectural editorial imagery; desert and dune locations for dramatic outdoor campaigns; Palm Jumeirah and JBR beach clubs for coastal fashion work; luxury hotel pools and interiors; and studio environments for clean e-commerce photography. Location is chosen based on the brand aesthetic and collection." },
+      { q: "Can you source models for fashion photography in Dubai?", a: "Yes. We work with Dubai's leading modelling agencies and can source models across all demographics, looks, and specialisms. We manage model bookings, fees, and coordination as part of our full production service." },
+      { q: "How much does fashion photography cost in Dubai?", a: "Half-day shoots start from AED 3,500. Full production days including crew and location from AED 6,000. E-commerce model photography from AED 5,000 per day. Multi-day campaign productions are quoted individually based on the brief." },
+    ],
+  },
+
+  "dubai/social-media-content": {
+    title: "Social Media Content Creation in Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Social media content production in Dubai — Instagram Reels, TikTok, LinkedIn video, brand campaigns. Monthly packages for UAE businesses and creators. From AED 2,500.",
+    h1: "Social Media Content Creation in Dubai",
+    subtitle: "Instagram. TikTok. LinkedIn. Dubai brands and creators, consistently showing up.",
+    category: "SOCIAL MEDIA CONTENT",
+    intro: [
+      "Dubai is one of the world's highest-density social media markets. UAE consumers are among the most active social media users globally, and the standard of professional content produced by Dubai's leading brands and creators sets a benchmark that phone photography and amateur video cannot compete with. Backyard Studio Official produces social media content for Dubai businesses and creators — from individual Instagram influencers to corporate brands producing LinkedIn video — at a professional production standard that drives actual results.",
+      "We produce photo and video in the same sessions, delivering content banks that cover Instagram, TikTok, LinkedIn, and YouTube from a single shoot day. Our team understands the platform-specific requirements — vertical video native to TikTok and Reels, hook-structured short-form content, algorithm-aware pacing — and we build these into the production approach rather than retrofitting general footage to platform needs after the fact.",
+    ],
+    highlights: [
+      { heading: "Instagram & TikTok Reels", body: "Short-form vertical video produced natively in the format that Instagram and TikTok algorithms reward — not repurposed horizontal footage cropped to fit. We direct the content, manage on-camera talent briefing, and deliver platform-ready files." },
+      { heading: "Monthly Content Retainers", body: "Regular shoot sessions producing a rolling bank of content that keeps Dubai brands and creators posting consistently. Retainer clients never run out of material and maintain a consistent visual identity across platforms." },
+      { heading: "Photo + Video in One Day", body: "We produce static photography, Reels, Stories content, and LinkedIn video in the same session day — maximising output and reducing the number of shoot days required to keep all channels fed." },
+      { heading: "Hospitality & Restaurant Content", body: "Food, F&B, and hospitality social media content is among the most in-demand work we produce in Dubai. Menu photography, chef reels, guest experience content, and seasonal campaign material — all in a single visit." },
+    ],
+    pricing: [
+      { pkg: "Half-Day Content Shoot", detail: "Photo + Reels / 1–2 platforms", price: "From AED 2,500" },
+      { pkg: "Full-Day Content Sprint", detail: "Multi-platform / photo + video / 3+ deliverables", price: "From AED 4,500" },
+      { pkg: "Creator Monthly Retainer", detail: "2 sessions / month / consistent content bank", price: "From AED 2,500 / mo" },
+      { pkg: "Brand Monthly Retainer", detail: "4 sessions / month / multi-platform / strategy", price: "From AED 4,000 / mo" },
+    ],
+    faqs: [
+      { q: "What social media content do you produce in Dubai?", a: "Instagram Reels, TikTok videos, YouTube Shorts, LinkedIn video content, Instagram static posts and carousels, Stories content, and brand campaign content. We produce both photography and video in the same sessions to maximise output per shoot day." },
+      { q: "Do you offer monthly content packages for Dubai businesses?", a: "Yes. Monthly retainer packages cover 2 to 4 shoot sessions per month producing a rolling bank of content. Creator retainers start from AED 2,500 per month. Brand retainers covering multi-platform output start from AED 4,000 per month." },
+      { q: "Do you produce TikTok and Instagram Reels natively?", a: "Yes. We shoot vertical content natively rather than repurposing horizontal footage. Our team understands TikTok and Reels hook structures, pacing, and the visual rhythm that performs on each platform's algorithm." },
+      { q: "Can you produce content for my Dubai restaurant or hotel?", a: "Yes. Food, hospitality, and lifestyle social media content is a core part of our Dubai production work. We produce Instagram and TikTok content for restaurants, hotels, cafes, beach clubs, and lifestyle brands — typically covering photo and video in a single visit." },
+    ],
+  },
+
+  "dubai/birthday-photography": {
+    title: "Birthday Photography in Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Birthday photographer in Dubai for kids parties, milestone adult birthdays, private celebrations and styled birthday shoots. Hotels, beach clubs, private venues. From AED 1,200.",
+    h1: "Birthday Photography in Dubai",
+    subtitle: "Kids parties. Milestone birthdays. Private celebrations. Dubai moments, professionally documented.",
+    category: "BIRTHDAY PHOTOGRAPHY",
+    intro: [
+      "Birthday photography in Dubai covers two very different briefs. The first is event documentation — a photographer present at the celebration itself, covering the party as it happens and capturing the genuine moments that make the event memorable. The second is a styled birthday shoot — a dedicated photography session in a beautiful Dubai location, producing professional portrait-quality images that mark a milestone birthday with the seriousness it deserves.",
+      "Backyard Studio Official handles both. We photograph kids birthday parties at Dubai hotels, beach clubs, and private venue spaces with the patience and experience that the chaotic but meaningful environment of a children's party demands. And we produce milestone birthday shoots — 18th, 21st, 30th, 40th, 50th — at Dubai's most visually dramatic locations, from desert dunes at golden hour to heritage districts and rooftop skyline environments.",
+    ],
+    highlights: [
+      { heading: "Kids Party Coverage", body: "We arrive early to document the setup before guests arrive, cover the party throughout its natural arc, and capture the genuine moments — the cake expression, the games, the group interactions — that parents actually want to remember." },
+      { heading: "Milestone Birthday Shoots", body: "Styled photography sessions at Dubai's most visually dramatic locations: desert dunes, Palm Jumeirah beach, Downtown skyline, Al Fahidi heritage district. Two to three outfit changes, 2 locations, delivered in 90 minutes to 2 hours." },
+      { heading: "Hotel & Venue Events", body: "We are experienced with the production logistics of birthday events at Dubai's hotels, beach clubs, and private venues — coordinating with venue event managers to ensure coverage access and timing." },
+      { heading: "Same-Day Sneak Peek", body: "10 to 15 highlight images delivered within 6 hours of the event for immediate social media sharing and guest distribution. Full gallery follows in 3 to 5 business days." },
+    ],
+    pricing: [
+      { pkg: "Party Coverage", detail: "2 hrs / 50–80 edited images / digital gallery", price: "From AED 1,200" },
+      { pkg: "Full Event Coverage", detail: "3–4 hrs / reception to cake cutting", price: "From AED 1,800" },
+      { pkg: "Milestone Birthday Shoot", detail: "90 min / styled / 2 locations / 30 images", price: "From AED 1,500" },
+      { pkg: "Party + Same-Day Sneak Peek", detail: "Coverage + 15 highlights within 6 hrs", price: "From AED 1,800" },
+    ],
+    faqs: [
+      { q: "Do you photograph kids birthday parties in Dubai?", a: "Yes. Children's birthday party photography is one of our most frequently booked personal event services. We document kids parties at Dubai hotels, beach clubs, private villas, and home parties — capturing the genuine moments with patience and experience in the fast-moving environment of children's celebrations." },
+      { q: "Can you photograph a styled milestone birthday shoot in Dubai?", a: "Yes. We produce milestone birthday photography sessions at Dubai's most visually dramatic locations — desert dunes, Palm Jumeirah beach, Downtown skyline, Al Fahidi heritage district. Sessions run 90 minutes to 2 hours and include outfit changes and 2 locations." },
+      { q: "Do you photograph birthday events at Dubai hotels and beach clubs?", a: "Yes. We are experienced with the logistics of hotel and venue birthday events in Dubai and coordinate with venue event coordinators in advance. We cover receptions, private dining rooms, pool decks, and beach club events across the emirate." },
+      { q: "How much does birthday photography cost in Dubai?", a: "Party coverage starts from AED 1,200 for 2 hours. Full event coverage for 3 to 4 hours starts from AED 1,800. Milestone birthday shoots start from AED 1,500. Same-day sneak peek add-on from AED 300." },
+    ],
+  },
+
+  "dubai/kids-photography": {
+    title: "Kids Photography in Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Children's photographer in Dubai for family portrait sessions, kids photoshoots, sibling sessions and school-age portraits. Beach, garden, studio locations. From AED 1,200.",
+    h1: "Kids Photography in Dubai",
+    subtitle: "Toddlers to teens. Genuine moments, not forced poses.",
+    category: "KIDS PHOTOGRAPHY",
+    intro: [
+      "Children's photography in Dubai requires a fundamentally different approach to adult portrait work. Children do not respond to direction the way adults do. They move unpredictably, their moods change within minutes, and the best images are almost always the unguarded moments — the genuine expressions and natural interactions — rather than anything posed or structured. At Backyard Studio Official, we approach children's photography with patience, experience, and the understanding that the session works best when we follow the child rather than trying to make the child follow a plan.",
+      "We photograph children of all ages in Dubai — from babies through to teenagers — in outdoor beach and garden environments, in architectural Dubai settings for older children, and in studio environments when a more controlled portrait aesthetic is required. Family sessions including parents are structured to give everyone the best conditions for their images, and we include sibling portrait combinations within the session at no additional cost.",
+    ],
+    highlights: [
+      { heading: "Beach & Outdoor Sessions", body: "JBR, Kite Beach, Jumeirah, and Dubai parks provide space for children to move naturally — producing the spontaneous, genuine imagery that makes children's photography meaningful. We work with the environment rather than against it." },
+      { heading: "Patient, Child-Led Approach", body: "We spend the first part of every session building rapport with the child before we pick up a camera. Sessions are paced around the child's energy and engagement, not a fixed schedule. We never rush a children's session." },
+      { heading: "Family Sessions", body: "Parents and siblings included in sessions at no additional charge up to 4 family members. We structure the session for the best results with young children — covering the most active participants first while their energy is highest." },
+      { heading: "Studio Option", body: "Our Dubai studio provides a controlled, comfortable environment for portrait-quality imagery that works for wall prints, framed gifts, and formal family portraits. Clean backgrounds, professional lighting, and a child-friendly space." },
+    ],
+    pricing: [
+      { pkg: "Kids Session", detail: "60 min / outdoor / 20–30 edited images", price: "From AED 1,200" },
+      { pkg: "Family Session", detail: "90 min / kids + parents / 35 images", price: "From AED 1,800" },
+      { pkg: "Studio Portrait", detail: "60 min / studio / 15 final images", price: "From AED 1,500" },
+      { pkg: "Toddler Mini Session", detail: "45 min / child-paced / 15 images", price: "From AED 950" },
+    ],
+    faqs: [
+      { q: "What is the best approach for photographing young children in Dubai?", a: "Give children something to do rather than asking them to pose. We engage with children at their level, use activities and props that naturally draw their interest, and capture the genuine expressions and movements that result. The first 5 to 10 minutes of every session are spent building rapport before we pick up a camera." },
+      { q: "What locations do you use for kids photography in Dubai?", a: "Beach settings at JBR, Kite Beach, and Jumeirah for natural outdoor imagery; parks and garden environments; Downtown Dubai for older children; the Dubai Miracle Garden for colour and visual interest; and our studio for controlled portrait sessions. Location is chosen based on the children's ages and the family's preferred aesthetic." },
+      { q: "How long should a children's photography session be?", a: "45 to 60 minutes for toddlers; 60 to 90 minutes for school-age children; 90 minutes to 2 hours for family sessions including parents and multiple children. We work flexibly around the child's energy rather than rigidly adhering to a schedule." },
+      { q: "How much does kids photography cost in Dubai?", a: "Children's sessions start from AED 1,200 for a 60-minute outdoor session delivering 20 to 30 edited images. Family sessions including parents start from AED 1,800. Toddler mini sessions from AED 950. Studio portrait sessions from AED 1,500." },
+    ],
+  },
+
+  "dubai/engagement-photography": {
+    title: "Engagement Photography in Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Engagement photographer in Dubai for pre-wedding couple shoots, proposal photography and anniversary sessions. Desert, beach, skyline locations. From AED 2,000.",
+    h1: "Engagement Photography in Dubai",
+    subtitle: "Desert golden hour. Palm Jumeirah. Downtown skyline. Dubai's most romantic locations, professionally shot.",
+    category: "ENGAGEMENT PHOTOGRAPHY",
+    intro: [
+      "Dubai's engagement photography locations are among the best in the world. The desert dunes at golden hour produce imagery that is genuinely extraordinary — warm amber light, dramatic scale, and a visual atmosphere that most cities cannot replicate. The beach environments at Jumeirah, JBR, and Palm Jumeirah offer soft coastal light at sunrise and sunset. The Downtown Dubai skyline, Al Fahidi Heritage District, and Dubai Marina provide a range of architectural contexts that work beautifully for couple photography. Backyard Studio Official uses all of these environments for engagement and pre-wedding photography.",
+      "Our approach to couple photography is built around comfort and direction rather than rigid posing. Most couples are not naturally comfortable being photographed together, and the images from uncomfortable people are visible immediately — the stiffness, the forced smiles, the absence of genuine connection. We spend the warm-up phase of every session getting the couple comfortable before we start working toward the images that matter.",
+    ],
+    highlights: [
+      { heading: "Desert Golden Hour Sessions", body: "Al Qudra and Lahbab desert areas at golden hour produce Dubai's most dramatic couple photography. The light in the 45 minutes before sunset turns dune surfaces amber and copper — a shooting window we plan precisely and use efficiently." },
+      { heading: "Beach & Coastal Sessions", body: "Jumeirah Beach, JBR, and Palm Jumeirah for soft coastal light at sunrise and golden hour. Popular with couples who prefer a natural, romantic aesthetic over urban or desert imagery." },
+      { heading: "Downtown & Skyline", body: "Burj Khalifa views from Downtown Dubai, DIFC's architectural intensity, Dubai Marina's urban waterfront — for couples who want Dubai's modern city character in their engagement images." },
+      { heading: "Proposal Photography", body: "We work covertly — positioned at the proposal location in advance — to capture the genuine moment of the proposal and immediate reaction. Precise timing coordination managed through close pre-event communication." },
+    ],
+    pricing: [
+      { pkg: "1-Location Session", detail: "90 min / 1 outfit / 30–40 edited images", price: "From AED 2,000" },
+      { pkg: "2-Location Session", detail: "2.5 hrs / 2 outfits / 50 images", price: "From AED 3,000" },
+      { pkg: "Desert Golden Hour", detail: "2 hrs / dunes / sunset / 40 images", price: "From AED 2,500" },
+      { pkg: "Proposal Photography", detail: "Covert coverage / full edited gallery", price: "From AED 2,500" },
+    ],
+    faqs: [
+      { q: "What are the best locations for an engagement shoot in Dubai?", a: "Desert dunes at Al Qudra or Lahbab at golden hour for dramatic editorial imagery; JBR, Jumeirah, and Palm Jumeirah beach for coastal natural light; Downtown Dubai with Burj Khalifa views; Al Fahidi Heritage District for historic architectural texture; and Dubai Marina for contemporary urban imagery. We advise based on the couple's preferred aesthetic." },
+      { q: "When should we schedule an engagement shoot in Dubai?", a: "Book 2 to 4 months in advance, particularly for golden-hour desert and beach time slots during Dubai's cooler months from October through April. Summer outdoor sessions are only practical at sunrise (5:30 to 7:00am) to avoid heat. Indoor and studio sessions are available year-round." },
+      { q: "Do you photograph proposals in Dubai?", a: "Yes. We position covertly at the proposal location in advance and capture the genuine proposal moment and reaction. We manage all timing and positioning through close coordination with the proposing partner before the event. Popular proposal locations book far in advance." },
+      { q: "How much does engagement photography cost in Dubai?", a: "Engagement photography starts from AED 2,000 for a 90-minute single-location session. Two-location sessions start from AED 3,000. Desert golden hour sessions from AED 2,500. Proposal photography from AED 2,500." },
+    ],
+  },
+
   "abu-dhabi/personal-branding-photography": {
     title: "Personal Branding Photography in Abu Dhabi 2026 | Backyard Studio Official",
     metaDescription: "Personal branding photography in Abu Dhabi — professionals, entrepreneurs, coaches, executives. LinkedIn, speaker profiles, website portraits. ADGM & Corniche locations. From AED 1,500.",
