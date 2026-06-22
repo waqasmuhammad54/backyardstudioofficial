@@ -224,5 +224,6 @@ export default function RussianHomePage() {
         </div>
       </section>
 
-      {/* Why Dubai / About Studio */}
- 
+    </>
+  );
+}

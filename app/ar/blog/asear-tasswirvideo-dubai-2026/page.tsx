@@ -258,7 +258,6 @@ export default function VideoPricingArPage() {
 
         {/* CTA */}
         <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=1200&q=80" alt="أسعار تصوير الفيديو الاحترافي في دبي" style={{ width: "100%", height: "420px", objectFit: "cover", borderRadius: "4px", marginBottom: "3rem", display: "block" }} loading="lazy" />
-        </div>
       </article>
     </>
   );
