@@ -275,4 +275,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Sprint 18: Ras Al Khaimah location sub-pages (2026-06-23)
   const rakSubPages: MetadataRoute.Sitemap = [
-    { url: BASE + "/locations/ras-al-khaimah/headshot-photography",  lastModified: now, change
+    { url: BASE + "/locations/ras-al-khaimah/headshot-photography",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/ras-al-khaimah/newborn-photography",   lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/ras-al-khaimah/maternity-photography", lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/ras-al-khaimah/fashion-photography",   lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/ras-al-khaimah/social-media-content",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/ras-al-khaimah/birthday-photography",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/ras-al-khaimah/kids-photography",      lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/ras-al-khaimah/engagement-photography",lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+  ];
+
+
+  return [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...ajmanSubPages, ...rakSubPages, ...services, ...locations, ...industries, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
+}
