@@ -1711,6 +1711,249 @@ const PAGES: Record<string, ServicePage> = {
   },
 
 
+  // ── FUJAIRAH ──────────────────────────────────────────────────────────────
+
+  "fujairah/headshot-photography": {
+    title: "Headshot Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Professional headshot photographer in Fujairah — corporate portraits, LinkedIn headshots and executive photography at Fujairah Corniche, Al Aqah Beach and city centre. From AED 750.",
+    h1: "Headshot Photography in Fujairah",
+    subtitle: "Fujairah Corniche. Al Aqah Beach. City Centre. Headshots that make the right first impression.",
+    category: "HEADSHOT PHOTOGRAPHY",
+    intro: [
+      "Fujairah sits on the Gulf of Oman — the UAE's only emirate entirely on the east coast — and its business community reflects this distinct geography. Government and public sector institutions, a growing port and logistics sector anchored by the Port of Fujairah, tourism built around the emirate's beaches and mountain landscapes, and a professional community that serves both local and wider UAE markets. For every professional operating in this environment, a credible headshot is the most immediate statement of professional intent. Backyard Studio Official produces headshots in Fujairah that communicate exactly that.",
+      "We photograph at the Fujairah Corniche for waterfront Gulf of Oman portraits unlike any available on the west coast, at Al Aqah Beach for resort-quality natural backdrops, in the city centre for clean urban environments, and with portable studio setups for teams at government offices and business premises across the emirate.",
+    ],
+    highlights: [
+      { heading: "Gulf of Oman Waterfront Portraits", body: "Fujairah's Corniche along the Gulf of Oman provides a genuinely distinctive backdrop — different in colour, character, and light from the Arabian Gulf coastline of Dubai or Abu Dhabi. East-coast light is softer in the morning, making the Corniche an exceptional headshot location." },
+      { heading: "Al Aqah Beach Resort Setting", body: "Al Aqah's beach and resort environment produces headshots with a clean, aspirational quality — open water, natural beach, and the Hajar Mountains visible inland. For professionals who want a distinctive natural backdrop, Al Aqah offers something genuinely unique." },
+      { heading: "Government and Public Sector Teams", body: "Fujairah's public sector and government institutions represent a significant professional community. We offer on-site portable studio headshot days for government departments and semi-government entities — consistent, formal portraits with quick delivery." },
+      { heading: "48-Hour Standard Delivery", body: "Edited headshots delivered in 48 hours as standard. Rush delivery available for press, conference, or directory requirements." },
+    ],
+    pricing: [
+      { pkg: "Individual Headshot", detail: "90 min / 1–2 looks / 10–15 edited images", price: "From AED 750" },
+      { pkg: "Executive Session", detail: "2 hrs / 2 locations / 20 final images", price: "From AED 1,400" },
+      { pkg: "Team Day (per person)", detail: "On-site portable studio / consistent images", price: "From AED 350 / person" },
+      { pkg: "Al Aqah Beach Session", detail: "2 hrs / resort location / 20 images", price: "From AED 1,600" },
+    ],
+    faqs: [
+      { q: "Where do you shoot headshots in Fujairah?", a: "The Fujairah Corniche for Gulf of Oman waterfront portraits, Al Aqah Beach for resort-quality natural settings, the city centre for clean urban environments, and portable studio setups for government offices, business premises, and team days across the emirate." },
+      { q: "Do you travel to Fujairah from Dubai for headshots?", a: "Yes. We regularly travel to Fujairah for headshot sessions. Travel is included in the session fee for bookings above AED 1,400. For smaller individual bookings, a travel supplement applies — confirmed at booking." },
+      { q: "Can you photograph government and public sector teams in Fujairah?", a: "Yes. We offer on-site portable studio headshot days for government departments, semi-government entities, and large business teams across Fujairah. We set up a consistent studio environment on-site and photograph teams efficiently in a single day." },
+      { q: "How much does a headshot cost in Fujairah?", a: "Individual sessions from AED 750. Executive sessions from AED 1,400. Team days from AED 350 per person. Al Aqah beach sessions from AED 1,600." },
+    ],
+  },
+
+  "fujairah/newborn-photography": {
+    title: "Newborn Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Newborn photographer in Fujairah — home visits, lifestyle sessions and beach newborn photography at Al Aqah and Fujairah Corniche. Safe, unhurried. From AED 1,400.",
+    h1: "Newborn Photography in Fujairah",
+    subtitle: "Al Aqah Beach. Your home. Fujairah Corniche. Safe, unhurried newborn photography.",
+    category: "NEWBORN PHOTOGRAPHY",
+    intro: [
+      "The first two weeks of a newborn's life pass in a way that parents consistently describe as simultaneously overwhelming and fleeting. The particular way a baby curls in those first days, the expressions, the way they fit in a parent's arms — these belong to a window that does not return. Backyard Studio Official produces newborn photography in Fujairah that captures this window honestly and carefully: the real texture of those first days, not a performed version of them.",
+      "We work with families across the emirate — from Fujairah City and Dibba to Al Aqah and the coastal communities — offering home visit sessions, lifestyle sessions, and outdoor sessions at Al Aqah Beach where the natural light and the Hajar Mountain backdrop create a setting unlike anything available in the more densely developed emirates.",
+    ],
+    highlights: [
+      { heading: "Home Visit Sessions", body: "We come to your Fujairah home with full equipment for posed and lifestyle newborn photography. Newborns in their own environment — in the bassinet, in a parent's arms, in the nursery — produce images with an intimacy that studio setups rarely achieve." },
+      { heading: "Al Aqah Beach Lifestyle Sessions", body: "Al Aqah's beach at golden hour — with the Hajar Mountains visible behind and the Gulf of Oman ahead — creates a uniquely beautiful setting for newborn lifestyle sessions. The combination of mountain and sea is specific to Fujairah's east coast." },
+      { heading: "Safe Posing Practice", body: "Every pose is designed specifically for newborns and executed with safety as the absolute first consideration. Sessions are never rushed and no position is ever forced or uncomfortable for the baby." },
+      { heading: "Dibba and North Fujairah Coverage", body: "We cover all of Fujairah emirate including Dibba Al Fujairah in the north and the surrounding residential communities. Home visits are available throughout the emirate." },
+    ],
+    pricing: [
+      { pkg: "Lifestyle Home Session", detail: "2 hrs at your home / 30–40 images", price: "From AED 1,400" },
+      { pkg: "Posed Studio Session", detail: "3 hrs / wraps and props / 40 images", price: "From AED 1,800" },
+      { pkg: "Family Welcome Session", detail: "Newborn + siblings + parents / 50 images", price: "From AED 2,200" },
+      { pkg: "Al Aqah Beach Lifestyle", detail: "2 hrs / mountain + sea backdrop / 35 images", price: "From AED 1,600" },
+    ],
+    faqs: [
+      { q: "When should I book newborn photography in Fujairah?", a: "Between 5 and 14 days after birth. This is when newborns sleep most deeply and curl naturally into the gentle poses that define newborn photography. Book in advance — ideally during pregnancy — to secure your preferred date." },
+      { q: "Do you offer home visits for newborn photography in Fujairah?", a: "Yes. Home visits are available across Fujairah City, Dibba, Al Aqah, and surrounding residential areas. We bring all equipment needed for both lifestyle and posed sessions." },
+      { q: "What is unique about newborn photography in Fujairah?", a: "Al Aqah Beach with the Hajar Mountains as a backdrop creates a setting for outdoor newborn lifestyle photography that is genuinely specific to Fujairah's east coast geography — mountain and sea together in one frame." },
+      { q: "How much does newborn photography cost in Fujairah?", a: "Lifestyle home sessions from AED 1,400. Posed studio sessions from AED 1,800. Family welcome sessions from AED 2,200. Al Aqah beach sessions from AED 1,600." },
+    ],
+  },
+
+  "fujairah/maternity-photography": {
+    title: "Maternity Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Maternity photographer in Fujairah — bump sessions at Al Aqah Beach, Wadi Wurayah and Fujairah Corniche. Culturally respectful. From AED 1,400.",
+    h1: "Maternity Photography in Fujairah",
+    subtitle: "Al Aqah Beach. Wadi Wurayah. Fujairah Corniche. Maternity photography with real character.",
+    category: "MATERNITY PHOTOGRAPHY",
+    intro: [
+      "Fujairah's maternity photography settings are defined by the emirate's unique geography: the east coast on the Gulf of Oman, the Hajar Mountains rising directly from the coastal plain, and wadis cutting through dramatic rocky terrain. Al Aqah Beach with the mountains behind it. The Fujairah Corniche at sunset. Wadi Wurayah — the UAE's only freshwater waterfall — for lush green canyon settings found nowhere else in the country. These are environments that produce maternity photography with a character entirely distinct from what is possible in Dubai or Abu Dhabi.",
+      "We work with expectant mothers across all backgrounds and communities in Fujairah, with full respect for cultural and modesty requirements. Every session begins with a conversation about what the expectant mother actually wants — the aesthetic, the atmosphere, the wardrobe, the degree of comfort in front of the camera — and the session is built entirely around her preferences.",
+    ],
+    highlights: [
+      { heading: "Al Aqah Beach Golden Hour", body: "Al Aqah at golden hour — warm east-coast light, Gulf of Oman water, Hajar Mountains as a backdrop — creates maternity photography with a cinematic, naturally dramatic quality that no west-coast UAE beach can replicate." },
+      { heading: "Wadi Wurayah Green Canyon", body: "The UAE's only freshwater waterfall sits in Wadi Wurayah, accessible from Fujairah. Lush green canyon walls, flowing water, and deep shade create maternity photography settings found nowhere else in the UAE — dramatic, cool, and genuinely unique." },
+      { heading: "Fujairah Corniche at Sunset", body: "The Corniche along the Gulf of Oman provides a long, open waterfront for maternity portraits with east-coast sunset light — distinct in colour and quality from the Arabian Gulf light of Dubai." },
+      { heading: "Cultural Sensitivity", body: "We approach every maternity session with full understanding of the modesty and cultural requirements that matter to families in Fujairah. Abaya sessions, fully covered sessions, and more open-style beach sessions are all handled with equal care and respect." },
+    ],
+    pricing: [
+      { pkg: "Al Aqah Beach Session", detail: "90 min / 1 outfit / 30 images", price: "From AED 1,400" },
+      { pkg: "Wadi Session", detail: "2.5 hrs / canyon backdrop / 35 images", price: "From AED 1,800" },
+      { pkg: "Home Lifestyle Session", detail: "2 hrs at your home / 35 images", price: "From AED 1,400" },
+      { pkg: "Full Maternity Collection", detail: "3 hrs / 3 locations / 60 images", price: "From AED 3,000" },
+    ],
+    faqs: [
+      { q: "When should I book my maternity session in Fujairah?", a: "Between 28 and 34 weeks of pregnancy. Book at 24 weeks to secure your preferred location and time, particularly for Al Aqah beach and wadi sessions where golden-hour timing matters." },
+      { q: "What makes maternity photography in Fujairah different?", a: "Fujairah's east-coast geography — Al Aqah Beach with the Hajar Mountains behind it, Wadi Wurayah's green canyon and waterfall, and the Corniche along the Gulf of Oman — creates maternity photography settings that are genuinely distinctive from anything available in Dubai or Abu Dhabi." },
+      { q: "Can you do a Wadi Wurayah maternity session?", a: "Yes. Wadi Wurayah sessions require planning for access and timing, but the results — lush green canyon walls and the UAE's only freshwater waterfall — produce genuinely extraordinary maternity photography. We coordinate all logistics in advance." },
+      { q: "How much does maternity photography cost in Fujairah?", a: "Al Aqah beach sessions from AED 1,400. Wadi sessions from AED 1,800. Home lifestyle sessions from AED 1,400. Full maternity collections from AED 3,000." },
+    ],
+  },
+
+  "fujairah/fashion-photography": {
+    title: "Fashion Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Fashion photographer in Fujairah — editorial shoots at Al Aqah Beach, Hajar Mountains, Wadi Wurayah and heritage forts. Modest fashion and activewear specialists. From AED 1,800.",
+    h1: "Fashion Photography in Fujairah",
+    subtitle: "Al Aqah Beach. Hajar Mountains. Wadi Wurayah. Fashion photography with genuine terrain.",
+    category: "FASHION PHOTOGRAPHY",
+    intro: [
+      "Fujairah offers fashion photographers something the western UAE emirates structurally cannot — east-coast light, mountain terrain, wadis, ancient forts, and beach environments that have not been photographed into creative exhaustion. Al Aqah Beach for resort fashion with the Hajar Mountains as backdrop. Wadi Wurayah's green canyon for lush, unexpected fashion editorial work. Fujairah Fort and the Bithnah Fort area for heritage-rooted editorial with ancient stone architecture. Hajar Mountain trails for activewear campaigns in genuinely dramatic terrain.",
+      "We produce fashion photography in Fujairah for brands, designers, e-commerce businesses, and independent stylists who need images that are visually distinctive and perform commercially. Modest fashion and activewear are two categories that find particularly strong environments in Fujairah's varied landscape.",
+    ],
+    highlights: [
+      { heading: "Al Aqah Beach Resort Fashion", body: "Al Aqah's beach with the Hajar Mountains rising behind it creates fashion photography with a dramatically different visual character from Dubai's beach environments. For resort wear, modest swimwear, and luxury fashion, Al Aqah produces images that stand out." },
+      { heading: "Hajar Mountain Activewear", body: "Mountain terrain, rocky ridgelines, and dramatic elevation create activewear and outdoor fashion photography with authentic character — the kind that can only be created in real mountain environments, not approximated in studio." },
+      { heading: "Wadi and Heritage Fashion", body: "Wadi Wurayah's lush canyon and Fujairah's ancient forts provide fashion settings with depth, texture, and historical resonance. For heritage-influenced editorial work or fashion that wants to reference the natural world, these are extraordinary environments." },
+      { heading: "Modest Fashion Expertise", body: "We have specific experience photographing abaya collections, modest sportswear, covered fashion, and modest swimwear in outdoor environments that suit these garments naturally. Fujairah's mountain and beach settings are ideal for this category." },
+    ],
+    pricing: [
+      { pkg: "Lookbook Session", detail: "3 hrs / 1 model / 3 looks / 30 images", price: "From AED 1,800" },
+      { pkg: "Editorial Campaign", detail: "Full day / creative direction / 60 final images", price: "From AED 3,800" },
+      { pkg: "E-Commerce Catalogue", detail: "Per look / clean backgrounds / product focus", price: "From AED 250 / look" },
+      { pkg: "Mountain Adventure Campaign", detail: "Full day / Hajar terrain / 50 images", price: "From AED 4,200" },
+    ],
+    faqs: [
+      { q: "What makes Fujairah unique for fashion photography?", a: "East-coast light, Hajar Mountain terrain, Wadi Wurayah's green canyon, Al Aqah Beach with mountain backdrop, and ancient fort architecture — Fujairah offers fashion photography settings with genuine visual character that are unavailable in Dubai or the western emirates." },
+      { q: "Do you photograph modest fashion in Fujairah?", a: "Yes. Modest fashion, abaya collections, covered activewear, and modest swimwear are categories we photograph regularly. Fujairah's outdoor environments — mountain trails, beach, wadi — provide natural, compelling settings for these garments." },
+      { q: "Can you provide models for fashion shoots in Fujairah?", a: "Yes. We work with a network of professional models across the UAE including modest fashion and activewear specialists. Model procurement is coordinated as part of our full production service." },
+      { q: "How much does fashion photography cost in Fujairah?", a: "Lookbook sessions from AED 1,800. Editorial campaigns from AED 3,800. E-commerce catalogue from AED 250 per look. Mountain adventure campaigns from AED 4,200." },
+    ],
+  },
+
+  "fujairah/social-media-content": {
+    title: "Social Media Content Creation in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Social media content creator in Fujairah — reels, photos and brand content for hospitality, tourism, real estate and F&B businesses. From AED 1,800.",
+    h1: "Social Media Content Creation in Fujairah",
+    subtitle: "Reels. Brand content. Photography. Social media production for Fujairah businesses.",
+    category: "SOCIAL MEDIA CONTENT",
+    intro: [
+      "Fujairah's economy is growing across tourism, hospitality, port and logistics, real estate, and retail — and every business in these sectors faces the same content challenge: social media demands consistent, high-quality visual output to attract customers and remain competitive. The businesses in Fujairah that are building a real digital presence are the ones investing in professional content. Backyard Studio Official produces social media content for Fujairah businesses that is built to perform — photography and video that communicates quality, attracts the right audience, and drives actual enquiries.",
+      "Fujairah has a content angle that many UAE businesses haven't fully exploited: the east coast story. The Gulf of Oman, the Hajar Mountains, the wadis, the heritage sites — this is visually distinct from Dubai content and resonates with audiences who are specifically interested in the less-developed, more authentic side of the UAE. We help businesses tell that story.",
+    ],
+    highlights: [
+      { heading: "Tourism and Hospitality Content", body: "Hotels, beach resorts, dive centres, adventure tourism operators, and tour companies in Fujairah need content that communicates the emirate's unique natural appeal. We produce photography and video that shows what makes Fujairah different." },
+      { heading: "Reels and Short-Form Video", body: "Professionally shot and edited Instagram and TikTok reels — scripted to your brief, filmed at Fujairah's most compelling locations, edited with music, captions, and pacing that drives engagement rather than passive scrolling." },
+      { heading: "East Coast Brand Positioning", body: "Fujairah's east coast story — Gulf of Oman, mountains, wadis, heritage — is a genuine content differentiator. We help businesses use this geography as a brand asset, creating content that positions Fujairah businesses as distinctive rather than competing directly with Dubai on Dubai's own terms." },
+      { heading: "Monthly Content Packages", body: "Ongoing monthly content production for Fujairah businesses — a consistent volume of posts, reels, and stories on a rolling schedule so your social presence runs without requiring your daily attention." },
+    ],
+    pricing: [
+      { pkg: "Content Day (Photo)", detail: "4 hrs / 30 edited images / platform-ready", price: "From AED 1,800" },
+      { pkg: "Reels Package", detail: "3 reels / shot + edited / captions included", price: "From AED 2,200" },
+      { pkg: "Monthly Retainer", detail: "8 posts + 4 reels / monthly / strategy included", price: "From AED 3,500 / month" },
+      { pkg: "East Coast Campaign", detail: "Full day / photo + video / beach or mountain", price: "From AED 4,500" },
+    ],
+    faqs: [
+      { q: "What types of businesses do you create social media content for in Fujairah?", a: "Hospitality and hotels, dive and water sports operators, adventure tourism, real estate, food and beverage, retail, and professional services. Fujairah's east coast setting and growing tourism market makes it particularly strong for hospitality and tourism content." },
+      { q: "Can you help us use Fujairah's natural settings in our brand content?", a: "Yes — using Fujairah's geography as a brand asset is one of the strongest content strategies available to businesses here. Al Aqah Beach, the Hajar Mountains, wadis, and heritage sites create content that stands out from generic Dubai-style production." },
+      { q: "Do you offer monthly content packages for Fujairah businesses?", a: "Yes. Monthly retainer packages cover a fixed volume of posts, reels, and stories on a consistent schedule — particularly suitable for tourism and hospitality businesses that need constant high-quality content across seasons." },
+      { q: "How much does social media content creation cost in Fujairah?", a: "Content day photography from AED 1,800. Reels packages from AED 2,200. Monthly retainers from AED 3,500 per month. East coast campaign from AED 4,500." },
+    ],
+  },
+
+  "fujairah/birthday-photography": {
+    title: "Birthday Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Birthday photographer in Fujairah — kids parties, milestone celebrations and family birthdays at Al Aqah resorts, home events and Fujairah venues. From AED 850.",
+    h1: "Birthday Photography in Fujairah",
+    subtitle: "Al Aqah resorts. Your home. Fujairah venues. Birthday photography that captures the real day.",
+    category: "BIRTHDAY PHOTOGRAPHY",
+    intro: [
+      "Birthday celebrations in Fujairah range from home parties in Fujairah City's residential neighbourhoods to resort events at Al Aqah Beach Hotels, beach parties along the Corniche, and family gatherings that take full advantage of the emirate's outdoor spaces. Backyard Studio Official photographs birthday events in Fujairah with the priority of capturing what actually happened — the genuine expressions, the interactions between people who matter to each other, the moments of real joy — rather than arranging everything for the camera and missing the actual event.",
+      "We cover children's birthday parties with the pace and energy they demand, milestone birthdays at resort venues where the occasion deserves documentary coverage, and family celebrations where capturing the group together and the authentic atmosphere of the day is the goal.",
+    ],
+    highlights: [
+      { heading: "Al Aqah Resort Venue Coverage", body: "Al Aqah's beach resort hotels host celebrations in remarkable settings — we cover birthday events at Rotana, Le Meridien, and Sandy Beach with experience navigating the lighting and logistics of resort function spaces and beach party settings." },
+      { heading: "Home Birthday Parties", body: "Home parties across Fujairah City, Dibba, and surrounding residential areas. We cover the arrival energy, the cake moment, the games, and the family interactions that make home parties genuinely meaningful." },
+      { heading: "Milestone Birthday Coverage", body: "30th, 40th, 50th, and 60th milestone birthdays at Fujairah's venues and outdoor spaces deserve documentary coverage with the same serious attention as a wedding. These events matter and the photography should reflect that." },
+      { heading: "Same-Day Preview Gallery", body: "10 to 15 preview images delivered same-day for social media, with the full edited gallery following within 5 working days." },
+    ],
+    pricing: [
+      { pkg: "2-Hour Birthday Coverage", detail: "2 hrs / 60–80 images / online gallery", price: "From AED 850" },
+      { pkg: "Half-Day Coverage", detail: "4 hrs / 120–150 images / full event", price: "From AED 1,500" },
+      { pkg: "Full-Day Milestone", detail: "8 hrs / unlimited images / same-day previews", price: "From AED 2,500" },
+      { pkg: "Kids Party Package", detail: "2 hrs / + cake smash add-on option / 80 images", price: "From AED 1,100" },
+    ],
+    faqs: [
+      { q: "Do you travel to Fujairah for birthday photography?", a: "Yes. We cover birthday events throughout Fujairah — home parties, resort venue events at Al Aqah, outdoor celebrations along the Corniche, and garden events. Travel to Fujairah is included for bookings above AED 1,400." },
+      { q: "Which Al Aqah resort hotels do you work at?", a: "We are experienced working at Rotana Beach Resort, Le Meridien Al Aqah, Sandy Beach Hotel, and other Al Aqah resort properties. For larger events we visit the venue in advance to plan coverage." },
+      { q: "How far in advance should I book birthday photography in Fujairah?", a: "Home parties: 2 to 3 weeks typically sufficient. Resort and venue events: 6 to 8 weeks ahead. Last-minute weekday bookings are sometimes available." },
+      { q: "How much does birthday photography cost in Fujairah?", a: "Two-hour coverage from AED 850. Half-day from AED 1,500. Full-day milestone from AED 2,500. Kids party packages from AED 1,100." },
+    ],
+  },
+
+  "fujairah/kids-photography": {
+    title: "Kids Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Children's photographer in Fujairah — family portraits, milestone sessions and kids photography at Al Aqah Beach, Wadi Wurayah and your home. From AED 900.",
+    h1: "Kids Photography in Fujairah",
+    subtitle: "Al Aqah Beach. Wadi Wurayah. Your home. Children's photography built around the child.",
+    category: "KIDS PHOTOGRAPHY",
+    intro: [
+      "Fujairah gives children an environment unlike any other in the UAE — open east-coast beaches, wadis with running water, mountain trails, and outdoor spaces where children can genuinely play and explore rather than navigate urban density. Professional photography that captures your child in these environments, at a specific age, documents something irreplaceable. Backyard Studio Official produces children's photography in Fujairah that is built around who your child actually is right now: their personality, their relationships, their natural way of being in the world.",
+      "We are experienced working with children across all ages and temperaments, and we build every session around the child's pace rather than imposing adult photographic structure on them. The natural settings available in Fujairah — beach, wadi, mountain — are environments where children relax and behave naturally, which is where the best children's photography happens.",
+    ],
+    highlights: [
+      { heading: "Al Aqah Beach Sessions", body: "Open east-coast beach, clean Gulf of Oman water, and soft natural light create an environment where children naturally play, explore, and be themselves — producing authentic, joyful images that are genuinely documentary rather than performed." },
+      { heading: "Wadi Wurayah Nature Sessions", body: "The UAE's only freshwater waterfall and its surrounding green canyon creates an extraordinary children's photography setting — lush, cool, and naturally engaging for children who will explore and play without needing to be directed." },
+      { heading: "Milestone Portrait Sessions", body: "First birthday, starting school, 10th birthday — milestone sessions document your child at a specific moment in their development, with images created to remain meaningful for decades." },
+      { heading: "Home and Lifestyle Sessions", body: "Photographing children in their own home produces images with an intimacy that outdoor sessions cannot achieve — the relationship with siblings, pets, the particular corners of a childhood home that belong only to that time." },
+    ],
+    pricing: [
+      { pkg: "Mini Portrait Session", detail: "45 min / 1 child / 15 images", price: "From AED 900" },
+      { pkg: "Full Portrait Session", detail: "90 min / 2 looks / 30 images", price: "From AED 1,500" },
+      { pkg: "Siblings Session", detail: "90 min / multiple children / 35 images", price: "From AED 1,700" },
+      { pkg: "Family Portrait Session", detail: "2 hrs / full family / 40 images / 2 locations", price: "From AED 2,000" },
+    ],
+    faqs: [
+      { q: "What are the best locations for children's photography in Fujairah?", a: "Al Aqah Beach for natural outdoor sessions with open water and east-coast light, Wadi Wurayah for lush canyon nature sessions, the Fujairah Corniche for waterfront portraits, and home sessions for intimate family and sibling photography." },
+      { q: "Can you photograph children at Wadi Wurayah?", a: "Yes. Wadi Wurayah is an exceptional setting for children's photography — the green canyon, running water, and natural surroundings create an environment where children naturally explore and play. We plan wadi sessions for the best light and accessibility." },
+      { q: "How do you work with children who are shy or reluctant in front of cameras?", a: "We follow the child's lead entirely. For younger children we photograph them as they play and explore — natural expressions appear when a child is comfortable, not when they are posed and instructed. Sessions are always at the child's pace." },
+      { q: "How much does children's photography cost in Fujairah?", a: "Mini sessions from AED 900. Full portrait sessions from AED 1,500. Sibling sessions from AED 1,700. Family portrait sessions from AED 2,000." },
+    ],
+  },
+
+  "fujairah/engagement-photography": {
+    title: "Engagement Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Engagement photographer in Fujairah — couple shoots and proposal photography at Al Aqah Beach, Wadi Wurayah and Hajar Mountain backdrops. Culturally respectful. From AED 1,800.",
+    h1: "Engagement Photography in Fujairah",
+    subtitle: "Al Aqah Beach. Wadi Wurayah. Hajar Mountains. Engagement photography with real depth.",
+    category: "ENGAGEMENT PHOTOGRAPHY",
+    intro: [
+      "Fujairah's engagement photography settings offer something fundamentally different from the rest of the UAE. Al Aqah Beach at golden hour — east-coast light, Gulf of Oman water, Hajar Mountains as backdrop — creates couple photography with a cinematic quality that no west-coast UAE location can replicate. Wadi Wurayah's lush green canyon with running water. Mountain terrain in the Hajar range for dramatic elevation and rocky backdrops. Fujairah Fort for heritage architecture and elevated views. These are environments with genuine character.",
+      "We work with couples of all backgrounds and nationalities in Fujairah and approach every session with full awareness of cultural requirements and sensitivities. Before every session we take time to understand what the couple actually wants — the aesthetic, the atmosphere, how comfortable they are being photographed — and build the entire session to make them feel genuinely at ease rather than performatively posed.",
+    ],
+    highlights: [
+      { heading: "Al Aqah Beach Golden Hour", body: "Al Aqah at golden hour — east-coast sunset light, open water, and the Hajar Mountains visible behind the beach — creates engagement photography with a naturally dramatic, cinematic quality unlike any UAE west-coast beach." },
+      { heading: "Wadi Wurayah Green Canyon", body: "The UAE's only freshwater waterfall and its surrounding green canyon walls create engagement photography settings that are genuinely extraordinary and unavailable anywhere else in the country. Lush, cool, and visually remarkable." },
+      { heading: "Hajar Mountain Sessions", body: "Mountain terrain and rocky ridgelines in the Hajar range create engagement photography with dramatic natural backdrops — distinctive from resort or urban UAE couple photography and naturally striking." },
+      { heading: "Proposal Photography", body: "We position covertly at your chosen Fujairah location — Al Aqah beach, wadi viewpoint, mountain trail, or heritage site — to capture the genuine moment and immediate reaction. All timing and positioning coordinated in advance with the proposing partner." },
+    ],
+    pricing: [
+      { pkg: "1-Location Session", detail: "90 min / 1 outfit / 30–40 edited images", price: "From AED 1,800" },
+      { pkg: "2-Location Session", detail: "2.5 hrs / 2 outfits / 50 images", price: "From AED 2,800" },
+      { pkg: "Al Aqah Beach Sunset Session", detail: "2 hrs / east-coast golden hour / 45 images", price: "From AED 2,400" },
+      { pkg: "Proposal Photography", detail: "Covert coverage / full edited gallery", price: "From AED 2,200" },
+    ],
+    faqs: [
+      { q: "What are the best engagement photography locations in Fujairah?", a: "Al Aqah Beach at golden hour for east-coast sunset light with mountain backdrop, Wadi Wurayah for green canyon and waterfall settings, Hajar Mountain terrain for dramatic elevated backdrops, and Fujairah Fort for heritage architecture and elevated views." },
+      { q: "What makes engagement photography in Fujairah different from Dubai?", a: "East-coast light, Gulf of Oman water, mountain terrain, and wadi environments create couple photography with a fundamentally different visual character from Dubai. The natural settings are more dramatic, less developed, and more visually distinctive." },
+      { q: "Do you photograph proposals in Fujairah?", a: "Yes. We position covertly at the proposal location to capture the genuine moment. Al Aqah beach, Wadi Wurayah viewpoints, and mountain trails all make spectacular proposal backdrops. All logistics are coordinated closely with the proposing partner in advance." },
+      { q: "How much does engagement photography cost in Fujairah?", a: "Single-location sessions from AED 1,800. Two-location sessions from AED 2,800. Al Aqah beach sunset sessions from AED 2,400. Proposal photography from AED 2,200." },
+    ],
+  },
+
+
 };
 
 // ─── Static params ────────────────────────────────────────────────────────────

@@ -285,6 +285,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/locations/ras-al-khaimah/engagement-photography",lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 
+  // Sprint 19: Fujairah location sub-pages (2026-06-23)
+  const fujairSubPages: MetadataRoute.Sitemap = [
+    { url: BASE + "/locations/fujairah/headshot-photography",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/fujairah/newborn-photography",   lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/fujairah/maternity-photography", lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/fujairah/fashion-photography",   lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/fujairah/social-media-content",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/fujairah/birthday-photography",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/fujairah/kids-photography",      lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/fujairah/engagement-photography",lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+  ];
 
-  return [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...ajmanSubPages, ...rakSubPages, ...services, ...locations, ...industries, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
+
+  return [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...ajmanSubPages, ...rakSubPages, ...fujairSubPages, ...services, ...locations, ...industries, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
 }
