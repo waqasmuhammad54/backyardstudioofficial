@@ -382,23 +382,10 @@ URLS = [
     f"https://{HOST}/locations/ajman/birthday-photography",
     f"https://{HOST}/locations/ajman/kids-photography",
     f"https://{HOST}/locations/ajman/engagement-photography",
-]
-
-payload = {
-    "host": HOST,
-    "key": API_KEY,
-    "keyLocation": KEY_LOCATION,
-    "urlList": URLS,
-}
-
-req = urllib.request.Request(
-    "https://api.indexnow.org/indexnow",
-    data=json.dumps(payload).encode("utf-8"),
-    headers={"Content-Type": "application/json; charset=utf-8"},
-    method="POST",
-)
-
-with urllib.request.urlopen(req) as resp:
-    print(f"Status: {resp.status}")
-    print(f"URLs submitted: {len(URLS)}")
-    print("Done.")
+    # Sprint 18: Ras Al Khaimah location sub-pages (2026-06-23)
+    f"https://{HOST}/locations/ras-al-khaimah/headshot-photography",
+    f"https://{HOST}/locations/ras-al-khaimah/newborn-photography",
+    f"https://{HOST}/locations/ras-al-khaimah/maternity-photography",
+    f"https://{HOST}/locations/ras-al-khaimah/fashion-photography",
+    f"https://{HOST}/locations/ras-al-khaimah/social-media-content",
+    f"https://{HOST}/locations/ras-al-khaimah

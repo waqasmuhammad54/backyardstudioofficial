@@ -273,6 +273,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/locations/ajman/engagement-photography",         lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 
-
-  return [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...ajmanSubPages, ...services, ...locations, ...industries, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
-}
+  // Sprint 18: Ras Al Khaimah location sub-pages (2026-06-23)
+  const rakSubPages: MetadataRoute.Sitemap = [
+    { url: BASE + "/locations/ras-al-khaimah/headshot-photography",  lastModified: now, change

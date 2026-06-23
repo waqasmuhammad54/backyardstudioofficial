@@ -1468,6 +1468,249 @@ const PAGES: Record<string, ServicePage> = {
   },
 
 
+  // ── RAS AL KHAIMAH ────────────────────────────────────────────────────────
+
+  "ras-al-khaimah/headshot-photography": {
+    title: "Headshot Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Professional headshot photographer in Ras Al Khaimah — corporate portraits, LinkedIn headshots, executive photography at Jebel Jais, Al Hamra and RAK Corniche. From AED 750.",
+    h1: "Headshot Photography in Ras Al Khaimah",
+    subtitle: "Al Hamra Village. RAK Corniche. Jebel Jais foothills. Headshots that mean business.",
+    category: "HEADSHOT PHOTOGRAPHY",
+    intro: [
+      "Ras Al Khaimah's economy spans a growing tourism sector anchored by Jebel Jais and the emirate's beach resort strip, a substantial manufacturing and free zone business community, real estate development around Mina Al Arab and Al Hamra, and an expanding professional services sector. For every professional and business owner in this environment, a credible headshot is the baseline of digital trust — the image that appears before any conversation begins. Backyard Studio Official produces professional headshots in Ras Al Khaimah that reflect the seriousness and competence of your work.",
+      "We shoot at Al Hamra Village and Marina for open waterfront backgrounds with resort-quality surroundings, along the RAK Corniche for classic Gulf-facing portraits, in the Jebel Jais foothills for dramatic mountain backdrops unique to RAK, and with a portable studio setup for clean, seamless-background corporate headshots at offices across RAK City and the free zones.",
+    ],
+    highlights: [
+      { heading: "Al Hamra Marina and Village", body: "Al Hamra's marina and resort environment provides a polished, resort-quality backdrop for headshots that communicates professionalism with a distinctly RAK character — open water, clean architecture, and excellent natural light." },
+      { heading: "Jebel Jais Mountain Backdrops", body: "RAK's most distinctive natural feature — the UAE's highest mountain — provides dramatic rocky terrain and elevated landscape backdrops that no other emirate can offer. For professionals who want to communicate ambition and distinctiveness, Jebel Jais headshots are genuinely memorable." },
+      { heading: "Free Zone Corporate Teams", body: "RAK Economic Zone and RAK Free Trade Zone host thousands of businesses across manufacturing, trading, and services. We travel to your office and photograph your full team in a single coordinated day with a portable studio setup for consistent, professional team headshots." },
+      { heading: "48-Hour Delivery", body: "Standard edited delivery in 48 hours. Rush same-day and next-day delivery available for press deadlines, conference requirements, or urgent website and directory updates." },
+    ],
+    pricing: [
+      { pkg: "Individual Headshot", detail: "90 min / 1–2 looks / 10–15 edited images", price: "From AED 750" },
+      { pkg: "Executive Session", detail: "2 hrs / 2 locations / 20 final images", price: "From AED 1,400" },
+      { pkg: "Team Day (per person)", detail: "On-site portable studio / consistent images", price: "From AED 350 / person" },
+      { pkg: "Jebel Jais Mountain Session", detail: "3 hrs / mountain backdrop / 25 images", price: "From AED 1,800" },
+    ],
+    faqs: [
+      { q: "Where do you shoot headshots in Ras Al Khaimah?", a: "Al Hamra Marina and Village for resort-quality waterfront backgrounds, the RAK Corniche for Gulf-facing portraits, Jebel Jais foothills for mountain backdrops, and portable studio setups at your office or free zone facility for clean seamless-background corporate portraits." },
+      { q: "Can you photograph our team at our RAK office or free zone?", a: "Yes. We travel to your RAK Economic Zone or RAK Free Trade Zone office, set up a portable studio on-site, and photograph your full team in one coordinated day. Images are delivered with consistent lighting, background, and colour across all team members." },
+      { q: "How much does a headshot cost in Ras Al Khaimah?", a: "Individual sessions from AED 750 for 90 minutes with 10 to 15 edited images. Executive sessions from AED 1,400. Team days from AED 350 per person. Jebel Jais mountain sessions from AED 1,800." },
+      { q: "Do you travel to Ras Al Khaimah from Dubai?", a: "Yes. We regularly travel to RAK for client sessions. Travel is included in the session fee for bookings above AED 1,400. For individual headshot sessions, a travel supplement applies — confirmed at the time of booking." },
+    ],
+  },
+
+  "ras-al-khaimah/newborn-photography": {
+    title: "Newborn Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Newborn photographer in Ras Al Khaimah — safe posed and lifestyle newborn sessions, home visits and outdoor sessions at Al Hamra Beach and Mina Al Arab. From AED 1,400.",
+    h1: "Newborn Photography in Ras Al Khaimah",
+    subtitle: "Al Hamra Beach. Mina Al Arab. Your home. Safe, unhurried newborn photography.",
+    category: "NEWBORN PHOTOGRAPHY",
+    intro: [
+      "The first two weeks after a baby is born pass faster than any parent is prepared for. The way a newborn curls, the texture of their skin, the particular sound of their breathing — these belong to a window of days that do not return. Backyard Studio Official produces newborn photography in Ras Al Khaimah that captures this window honestly: the real experience of those first days, not a performed version of it.",
+      "We work with families across RAK — from Al Hamra and Mina Al Arab to RAK City and the surrounding residential areas — offering home visit sessions, outdoor lifestyle sessions at Al Hamra Beach and along the Corniche, and portable studio setups for families who prefer controlled backgrounds. Sessions are led entirely by the baby's readiness and are never rushed.",
+    ],
+    highlights: [
+      { heading: "Home Visit Sessions", body: "We come to your RAK home with all equipment needed for both posed and lifestyle sessions. Newborns photographed in their own environment — in the bassinet, in a parent's arms, in the nursery — have an intimacy and authenticity that studio images rarely achieve." },
+      { heading: "Al Hamra Beach Lifestyle Sessions", body: "Al Hamra's beach and resort environment provides a beautiful natural backdrop for newborn lifestyle photography with the natural softness that comes from open sky and water light." },
+      { heading: "Safe Posing Practice", body: "Every pose we use has been specifically designed for newborns and is executed with the baby's safety as the only non-negotiable consideration. No position, prop, or handling is ever rushed or forced." },
+      { heading: "Mina Al Arab Waterfront Sessions", body: "Mina Al Arab's waterfront development and natural surroundings provide clean, open outdoor settings for newborn and family lifestyle sessions with excellent natural light." },
+    ],
+    pricing: [
+      { pkg: "Lifestyle Home Session", detail: "2 hrs at your home / 30–40 images", price: "From AED 1,400" },
+      { pkg: "Posed Studio Session", detail: "3 hrs / wraps and props / 40 images", price: "From AED 1,800" },
+      { pkg: "Family Welcome Session", detail: "Newborn + siblings + parents / 50 images", price: "From AED 2,200" },
+      { pkg: "Al Hamra Beach Lifestyle", detail: "2 hrs outdoor / 35 images", price: "From AED 1,600" },
+    ],
+    faqs: [
+      { q: "When should I book newborn photography in Ras Al Khaimah?", a: "Between 5 and 14 days after birth. In this window newborns sleep deeply and curl naturally into the gentle poses that define newborn photography. After two weeks the baby becomes more alert and less comfortable with extended posed handling." },
+      { q: "Do you offer home visit newborn sessions in RAK?", a: "Yes. We offer home visit sessions across Ras Al Khaimah — Al Hamra, Mina Al Arab, RAK City, and surrounding residential areas. We bring all equipment needed for both lifestyle and posed sessions. Home sessions produce images with a natural intimacy that studio setups rarely replicate." },
+      { q: "Is newborn photography safe?", a: "Safety is the absolute first consideration. All poses are designed specifically for newborns and executed with care. We never rush, never force any position, and never place a baby in any pose that could cause discomfort or risk of any kind." },
+      { q: "How much does newborn photography cost in Ras Al Khaimah?", a: "Lifestyle home sessions from AED 1,400. Posed studio sessions from AED 1,800. Family welcome sessions from AED 2,200. Al Hamra beach lifestyle sessions from AED 1,600." },
+    ],
+  },
+
+  "ras-al-khaimah/maternity-photography": {
+    title: "Maternity Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Maternity photographer in Ras Al Khaimah — beach bump sessions at Al Hamra and Mina Al Arab, mountain backdrops at Jebel Jais and home visits. Culturally respectful. From AED 1,400.",
+    h1: "Maternity Photography in Ras Al Khaimah",
+    subtitle: "Al Hamra Beach. Jebel Jais. Mina Al Arab. Maternity photography with real presence.",
+    category: "MATERNITY PHOTOGRAPHY",
+    intro: [
+      "Ras Al Khaimah offers maternity photography settings that no other emirate can match. Al Hamra Beach at golden hour — warm light, open water, and the kind of uncluttered horizon that Dubai's coastline rarely provides. The Jebel Jais mountain foothills for dramatic elevation and rocky terrain that communicates something bold and unconventional. Mina Al Arab's waterfront development for cleaner, more architectural outdoor settings. These are genuinely distinctive environments for documenting pregnancy.",
+      "We work with expectant mothers across all communities in RAK and approach every session with full understanding of the cultural and modesty requirements that matter here. From abaya sessions to beach-side maternity shoots in flowing gowns, we adapt the session to what the expectant mother actually wants rather than what we assume she should want. Wardrobe, styling, and comfort preferences are all discussed in advance.",
+    ],
+    highlights: [
+      { heading: "Al Hamra Beach Golden Hour", body: "One of the most beautiful maternity photography settings in the UAE — warm late-afternoon light, open water, and uncluttered beach with resort-quality surroundings. Beach maternity sessions at Al Hamra produce images with a cinematic quality that is difficult to achieve in more urban settings." },
+      { heading: "Jebel Jais Mountain Sessions", body: "Dramatic rocky mountain terrain at the UAE's highest peak creates a powerful and visually distinctive backdrop for maternity photography. For expectant mothers who want something genuinely different, Jebel Jais produces images unlike anything possible elsewhere in the UAE." },
+      { heading: "Mina Al Arab Waterfront", body: "Mina Al Arab's waterfront architecture and natural surroundings provide a clean, modern outdoor setting with excellent natural light — particularly at golden hour when the water light is at its softest." },
+      { heading: "Home Visit Sessions", body: "Intimate, unhurried home visits across RAK for expectant mothers who prefer the comfort and privacy of their own environment for their maternity photography session." },
+    ],
+    pricing: [
+      { pkg: "Al Hamra Beach Session", detail: "90 min / 1 outfit / 30 images", price: "From AED 1,400" },
+      { pkg: "Jebel Jais Mountain Session", detail: "2.5 hrs / dramatic backdrop / 35 images", price: "From AED 2,000" },
+      { pkg: "Home Lifestyle Session", detail: "2 hrs at your home / 35 images", price: "From AED 1,400" },
+      { pkg: "Full Maternity Collection", detail: "3 hrs / 3 locations / 60 images / print-ready files", price: "From AED 3,000" },
+    ],
+    faqs: [
+      { q: "When should I book my maternity session in Ras Al Khaimah?", a: "Between 28 and 34 weeks of pregnancy. The bump is fully defined, you are typically still comfortable and mobile, and there is enough time before the due date to choose your location and prepare. Book at around 24 weeks to secure your preferred time and setting." },
+      { q: "What are the best locations for maternity photography in Ras Al Khaimah?", a: "Al Hamra Beach at golden hour for warm waterfront light, Jebel Jais foothills for dramatic mountain terrain, Mina Al Arab waterfront for clean architectural outdoor settings, and home visit sessions for intimate documentary-style images. We advise based on the aesthetic the expectant mother wants." },
+      { q: "Can you do a Jebel Jais maternity session?", a: "Yes. Jebel Jais mountain sessions are available and produce genuinely distinctive maternity images. We plan these sessions carefully for the best light and the safest, most comfortable experience at altitude. Morning sessions offer cooler temperatures and exceptional soft light." },
+      { q: "How much does maternity photography cost in Ras Al Khaimah?", a: "Al Hamra beach sessions from AED 1,400. Jebel Jais mountain sessions from AED 2,000. Home lifestyle sessions from AED 1,400. Full maternity collections from AED 3,000." },
+    ],
+  },
+
+  "ras-al-khaimah/fashion-photography": {
+    title: "Fashion Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Fashion photographer in Ras Al Khaimah — editorial and lookbook shoots at Jebel Jais, Al Hamra Beach and heritage sites. Modest fashion and activewear specialists. From AED 1,800.",
+    h1: "Fashion Photography in Ras Al Khaimah",
+    subtitle: "Jebel Jais. Al Hamra Beach. Dhayah Fort. Fashion photography with genuine character.",
+    category: "FASHION PHOTOGRAPHY",
+    intro: [
+      "Ras Al Khaimah offers fashion photographers something the more developed emirates cannot — raw, diverse, and visually striking environments that have not been photographed into visual cliché. Jebel Jais's rocky mountain terrain for activewear and outdoor fashion campaigns. Al Hamra's resort beaches for luxury fashion and resort wear. Dhayah Fort's ancient hilltop fortification for heritage-influenced editorial work. These are locations where fashion photography can feel genuinely original.",
+      "We produce fashion photography in RAK for brands, independent designers, boutique retailers, e-commerce businesses, and individual stylists who need imagery that communicates clearly and converts effectively. We are experienced with modest fashion and activewear photography — two categories that find their most compelling settings in RAK's landscape — as well as standard lookbook and e-commerce catalogue production.",
+    ],
+    highlights: [
+      { heading: "Jebel Jais Activewear and Outdoor Fashion", body: "The UAE's highest peak provides dramatic mountain terrain for activewear campaigns, outdoor fashion editorials, and adventure lifestyle photography that cannot be replicated in any flatland UAE emirate. The mountain environment is a genuine creative asset." },
+      { heading: "Al Hamra Resort Beach Fashion", body: "Al Hamra's beach and resort environment produces luxury fashion and resort wear photography with warm waterfront light, open water backgrounds, and resort-quality surroundings — naturally aspirational without needing to be constructed." },
+      { heading: "Dhayah Fort Heritage Location", body: "RAK's ancient hilltop fort provides stone architecture, elevated panoramic views, and a sense of historical depth that brings genuine character to heritage-influenced editorial fashion photography." },
+      { heading: "Modest Fashion and Activewear", body: "Abaya collections, modest sportswear, covered fashion, and activewear are all areas where we have specific production experience. RAK's varied landscapes create natural, compelling environments for these categories." },
+    ],
+    pricing: [
+      { pkg: "Lookbook Session", detail: "3 hrs / 1 model / 3 looks / 30 images", price: "From AED 1,800" },
+      { pkg: "Editorial Campaign", detail: "Full day / creative direction / 60 final images", price: "From AED 3,800" },
+      { pkg: "E-Commerce Catalogue", detail: "Per look / clean backgrounds / product focus", price: "From AED 250 / look" },
+      { pkg: "Jebel Jais Adventure Campaign", detail: "Full day / mountain location / 50 images", price: "From AED 4,500" },
+    ],
+    faqs: [
+      { q: "What makes Ras Al Khaimah unique for fashion photography?", a: "RAK offers environments that other UAE emirates cannot — Jebel Jais mountain terrain for activewear and outdoor fashion, Al Hamra's undeveloped beach stretches for resort wear, and Dhayah Fort for heritage-influenced editorial work. These locations are visually distinctive and have not been photographed into cliché." },
+      { q: "Do you photograph activewear and outdoor fashion brands at Jebel Jais?", a: "Yes. Jebel Jais is an exceptional location for activewear campaigns, outdoor fashion editorials, and adventure lifestyle photography. We plan mountain sessions carefully for light, safety, and logistics — morning sessions are typically best for light quality and cooler temperatures." },
+      { q: "Can you provide models for fashion shoots in Ras Al Khaimah?", a: "Yes. We work with a network of professional models across the UAE for all categories — including modest fashion models and activewear specialists. Model procurement is coordinated as part of our full production service." },
+      { q: "How much does fashion photography cost in Ras Al Khaimah?", a: "Lookbook sessions from AED 1,800. Editorial campaigns from AED 3,800. E-commerce catalogue from AED 250 per look. Jebel Jais adventure campaigns from AED 4,500." },
+    ],
+  },
+
+  "ras-al-khaimah/social-media-content": {
+    title: "Social Media Content Creation in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Social media content creator in Ras Al Khaimah — reels, photos and brand content for hospitality, tourism, real estate and F&B businesses. From AED 1,800.",
+    h1: "Social Media Content Creation in Ras Al Khaimah",
+    subtitle: "Reels. Brand content. Photography. Social media production for RAK businesses.",
+    category: "SOCIAL MEDIA CONTENT",
+    intro: [
+      "Ras Al Khaimah's business community is growing rapidly across hospitality, real estate, tourism, food and beverage, and retail — and every business in these sectors faces the same challenge: social media demands consistent, high-quality visual content to attract clients and remain relevant. The gap between businesses that grow their digital presence and those that stagnate comes down almost entirely to content quality and consistency. Backyard Studio Official produces professional social media content for RAK businesses built to perform on the platforms that actually drive bookings and enquiries.",
+      "We understand RAK's specific audience mix — the growing expat community, the resort tourism market, the UAE-wide audience that RAK is actively trying to attract with its adventure and nature positioning, and the local Emirati community. Content is built around what resonates with these specific audiences rather than generic social media templates.",
+    ],
+    highlights: [
+      { heading: "Hospitality and Tourism Content", body: "Hotels, resorts, tour operators, and adventure tourism businesses in RAK need content that captures the emirate's unique appeal — Jebel Jais, the beaches, the heritage. We produce photography and video content that communicates what makes RAK different from Dubai and Sharjah." },
+      { heading: "Reels and Short-Form Video", body: "Professionally shot and edited Instagram and TikTok reels — scripted to your brief, filmed at RAK's most visually compelling locations, edited with music, captions, and pacing that drives real engagement rather than passive scrolling." },
+      { heading: "Real Estate Content", body: "Mina Al Arab, Al Hamra, and the growing RAK residential and resort property market needs photography and video content that communicates quality, lifestyle, and investment value to both local and international buyers." },
+      { heading: "Monthly Content Packages", body: "Ongoing monthly content production for RAK businesses — a consistent volume of posts, reels, and stories delivered on a rolling schedule so your social presence runs without requiring your direct daily involvement." },
+    ],
+    pricing: [
+      { pkg: "Content Day (Photo)", detail: "4 hrs / 30 edited images / platform-ready", price: "From AED 1,800" },
+      { pkg: "Reels Package", detail: "3 reels / shot + edited / captions included", price: "From AED 2,200" },
+      { pkg: "Monthly Retainer", detail: "8 posts + 4 reels / monthly / strategy included", price: "From AED 3,500 / month" },
+      { pkg: "Tourism Content Campaign", detail: "Full day / photo + video / Jebel Jais or beach", price: "From AED 5,000" },
+    ],
+    faqs: [
+      { q: "What industries do you create social media content for in Ras Al Khaimah?", a: "Hospitality and hotels, adventure tourism, real estate, food and beverage, retail, professional services, and personal brands. RAK's growing tourism positioning means a significant portion of our RAK content work is for businesses that want to attract visitors from Dubai and Abu Dhabi." },
+      { q: "Can you create content that showcases Ras Al Khaimah's unique locations?", a: "Yes — Jebel Jais, Al Hamra Beach, Dhayah Fort, Mina Al Arab, and the RAK Corniche all feature in our content production. Showcasing RAK's distinctive environment is one of the strongest content strategies available to businesses in the emirate." },
+      { q: "Do you offer monthly content packages for RAK businesses?", a: "Yes. Monthly retainer packages include a fixed volume of posts, reels, and stories delivered on a consistent schedule. These are particularly suitable for hospitality and tourism businesses that need a constant stream of high-quality content across peak and off-peak seasons." },
+      { q: "How much does social media content creation cost in Ras Al Khaimah?", a: "Content day photography from AED 1,800. Reels packages from AED 2,200. Monthly retainers from AED 3,500 per month. Tourism content campaigns from AED 5,000." },
+    ],
+  },
+
+  "ras-al-khaimah/birthday-photography": {
+    title: "Birthday Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Birthday photographer in Ras Al Khaimah — kids parties, milestone celebrations and family birthdays at Al Hamra, hotel venues and your home. From AED 850.",
+    h1: "Birthday Photography in Ras Al Khaimah",
+    subtitle: "Al Hamra venues. Your home. RAK hotels. Birthday photography that captures the day.",
+    category: "BIRTHDAY PHOTOGRAPHY",
+    intro: [
+      "Birthday celebrations in Ras Al Khaimah happen across a full range of settings — home parties in Al Nakheel and Al Hamra residential areas, venue events at RAK's hotel and resort spaces, beach parties along the Corniche, and outdoor celebrations that take advantage of the emirate's natural environments. Backyard Studio Official photographs birthday celebrations in RAK with the aim of capturing what actually happened — the genuine interactions, the expressions, the moments of real joy — rather than a set of staged portraits that sit beside the event rather than inside it.",
+      "We cover children's birthday parties with the pace and energy they require, milestone birthdays at RAK's resort venues where the gathering deserves documentary treatment, and family celebrations where capturing the group together is the priority.",
+    ],
+    highlights: [
+      { heading: "Resort and Hotel Venue Coverage", body: "RAK's growing hotel and resort sector hosts many of the emirate's significant birthday events. We cover celebrations at Al Hamra, Rixos, InterContinental, and other RAK venues with experience navigating the lighting conditions and logistics of hotel function rooms and outdoor resort spaces." },
+      { heading: "Kids Birthday Parties", body: "Children's parties require a photographer who moves with the event rather than stopping it. We anticipate the moments — the cake arrival, the games, the interactions — and capture them without directing the children away from what they are actually doing." },
+      { heading: "Milestone Birthday Coverage", body: "30th, 40th, 50th, and 60th milestone birthdays deserve the same serious documentary approach as a wedding. These gatherings have real emotional significance and the photography should reflect that." },
+      { heading: "Same-Day Preview Gallery", body: "A selection of 10 to 15 preview images delivered same-day for social media sharing, with the full edited gallery following within 5 working days." },
+    ],
+    pricing: [
+      { pkg: "2-Hour Birthday Coverage", detail: "2 hrs / 60–80 images / online gallery", price: "From AED 850" },
+      { pkg: "Half-Day Coverage", detail: "4 hrs / 120–150 images / full event", price: "From AED 1,500" },
+      { pkg: "Full-Day Milestone", detail: "8 hrs / unlimited images / same-day previews", price: "From AED 2,500" },
+      { pkg: "Kids Party Package", detail: "2 hrs / + cake smash add-on option / 80 images", price: "From AED 1,100" },
+    ],
+    faqs: [
+      { q: "Do you travel to Ras Al Khaimah for birthday photography?", a: "Yes. We cover birthday celebrations throughout RAK — home parties, hotel and resort venues, outdoor beach celebrations, and garden events. Travel to RAK is included for bookings above AED 1,400." },
+      { q: "Can you photograph at a specific RAK hotel or resort?", a: "Yes. We are experienced working at Al Hamra, Rixos Bab Al Bahr, InterContinental RAK, and other RAK resort and hotel venues. For larger events we visit the venue in advance to plan the coverage." },
+      { q: "How far in advance should I book birthday photography in Ras Al Khaimah?", a: "For home birthday parties, 2 to 3 weeks in advance is typically sufficient. For large resort or hotel events, book 6 to 8 weeks ahead to secure the date. Last-minute bookings are sometimes available on weekdays." },
+      { q: "How much does birthday photography cost in Ras Al Khaimah?", a: "Two-hour coverage from AED 850. Half-day coverage from AED 1,500. Full-day milestone coverage from AED 2,500. Kids party packages from AED 1,100." },
+    ],
+  },
+
+  "ras-al-khaimah/kids-photography": {
+    title: "Kids Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Children's photographer in Ras Al Khaimah — family portraits, milestone sessions and kids photography at Jebel Jais, Al Hamra Beach and your home. From AED 900.",
+    h1: "Kids Photography in Ras Al Khaimah",
+    subtitle: "Al Hamra Beach. Jebel Jais. Your home. Children's photography built around the child.",
+    category: "KIDS PHOTOGRAPHY",
+    intro: [
+      "Children in Ras Al Khaimah grow up in one of the UAE's most naturally rich environments — open beaches, mountain trails, open spaces that give children room to actually be children. Professional photography that captures your child in these environments, in the particular way they exist at a specific age, creates something genuinely irreplaceable. Backyard Studio Official produces children's photography in RAK that documents who your child actually is right now: their personality, their relationships, their way of being in the world.",
+      "We are experienced working with children across all ages and temperaments, and we build every session around the child's pace and comfort rather than imposing a structure on them. Al Hamra Beach, Jebel Jais, the RAK Corniche, local parks, and family homes are all settings where we produce natural, authentic images — the kind that parents look back at for decades.",
+    ],
+    highlights: [
+      { heading: "Al Hamra Beach Sessions", body: "Open beach, clean water, and warm natural light create an environment where children naturally relax and play — producing authentic, joyful images that feel genuinely documentary rather than posed." },
+      { heading: "Jebel Jais Adventure Sessions", body: "For older children and teenagers who want something genuinely different — mountain terrain, elevation, and dramatic landscape create children's portraits that are distinctive and memorable." },
+      { heading: "Milestone Portrait Sessions", body: "First birthday, school starting, 10th birthday, teenage portraits — milestone sessions document your child at a specific moment in their development with images intended to remain meaningful for decades." },
+      { heading: "Home and Lifestyle Sessions", body: "Photographing children in their own home produces images with an intimacy and authenticity that outdoor sessions often cannot achieve — the relationship with siblings, the family dog, the particular corners of a childhood home." },
+    ],
+    pricing: [
+      { pkg: "Mini Portrait Session", detail: "45 min / 1 child / 15 images", price: "From AED 900" },
+      { pkg: "Full Portrait Session", detail: "90 min / 2 looks / 30 images", price: "From AED 1,500" },
+      { pkg: "Siblings Session", detail: "90 min / multiple children / 35 images", price: "From AED 1,700" },
+      { pkg: "Family Portrait Session", detail: "2 hrs / full family / 40 images / 2 locations", price: "From AED 2,000" },
+    ],
+    faqs: [
+      { q: "What are the best locations for children's photography in Ras Al Khaimah?", a: "Al Hamra Beach for natural outdoor sessions where children can play freely, Jebel Jais foothills for older children and distinctive mountain backdrops, the RAK Corniche for waterfront portraits, and home sessions for intimate family and sibling photography." },
+      { q: "How do you work with young children who are nervous about cameras?", a: "We build the session around the child rather than imposing a structure on them. For young children we follow their lead and photograph them as they play and explore. Natural expressions happen when a child is comfortable — not when they are told to perform for a camera." },
+      { q: "Do you travel to residential areas across RAK for children's photography?", a: "Yes. We cover sessions across RAK — Al Hamra, Mina Al Arab, Al Nakheel, RAK City, and surrounding residential areas. Home visits are available throughout the emirate." },
+      { q: "How much does children's photography cost in Ras Al Khaimah?", a: "Mini portrait sessions from AED 900. Full portrait sessions from AED 1,500. Sibling sessions from AED 1,700. Family portrait sessions from AED 2,000." },
+    ],
+  },
+
+  "ras-al-khaimah/engagement-photography": {
+    title: "Engagement Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Engagement photographer in Ras Al Khaimah — couple shoots and proposal photography at Jebel Jais, Al Hamra Beach and Dhayah Fort. Culturally respectful. From AED 1,800.",
+    h1: "Engagement Photography in Ras Al Khaimah",
+    subtitle: "Jebel Jais. Al Hamra Beach. Dhayah Fort. Engagement photography with genuine character.",
+    category: "ENGAGEMENT PHOTOGRAPHY",
+    intro: [
+      "Ras Al Khaimah's engagement photography settings are among the most visually diverse and distinctive in the UAE. Jebel Jais — the UAE's highest mountain — provides dramatic rocky terrain and elevated panoramic views for couple photography that is genuinely unlike anything possible in Dubai or Abu Dhabi. Al Hamra Beach at golden hour delivers warm Gulf light, open water, and undeveloped beach stretches with resort surroundings. Dhayah Fort — the UAE's only hilltop fort — combines ancient stone architecture with 360-degree views across the emirate. These are real environments with real character.",
+      "We work with couples across all nationalities and backgrounds in RAK, and we are experienced with the cultural and sensitivity requirements that matter across the Northern Emirates. Before every session, we spend time understanding what the couple actually wants — the aesthetic, the atmosphere, how comfortable they are in front of a camera — and build the entire session around making them feel genuinely at ease.",
+    ],
+    highlights: [
+      { heading: "Jebel Jais Mountain Sessions", body: "The UAE's highest peak provides dramatic, rugged mountain terrain for couple photography that no other emirate can offer. Sunrise sessions on Jebel Jais produce spectacular engagement images with extraordinary light and elevation — genuinely unforgettable as a backdrop." },
+      { heading: "Al Hamra Beach Golden Hour", body: "Al Hamra's undeveloped beach at golden hour — warm light, open water, and the kind of undisturbed beach space that Dubai's overcrowded coastline cannot offer. Beach engagement sessions here have a naturally cinematic quality." },
+      { heading: "Dhayah Fort Heritage Sessions", body: "The UAE's only surviving hilltop fort provides ancient stone walls, elevated viewpoints, and a depth of historical context that brings real character to engagement photography for couples who want something culturally rooted and visually distinctive." },
+      { heading: "Proposal Photography", body: "We position covertly at your chosen RAK proposal location — Jebel Jais viewpoint, Al Hamra waterfront, Dhayah Fort hilltop — to capture the genuine moment and immediate reaction. All timing and positioning is coordinated closely with the proposing partner in advance." },
+    ],
+    pricing: [
+      { pkg: "1-Location Session", detail: "90 min / 1 outfit / 30–40 edited images", price: "From AED 1,800" },
+      { pkg: "2-Location Session", detail: "2.5 hrs / 2 outfits / 50 images", price: "From AED 2,800" },
+      { pkg: "Jebel Jais Sunrise Session", detail: "3 hrs / mountain / 45 images", price: "From AED 3,000" },
+      { pkg: "Proposal Photography", detail: "Covert coverage / full edited gallery", price: "From AED 2,200" },
+    ],
+    faqs: [
+      { q: "What are the best engagement photography locations in Ras Al Khaimah?", a: "Jebel Jais for dramatic mountain terrain and elevation — unique in the UAE; Al Hamra Beach at golden hour for warm waterfront light and open beach; Dhayah Fort for hilltop views and heritage architecture; Mina Al Arab waterfront for cleaner modern outdoor settings. We recommend based on the couple's aesthetic preferences." },
+      { q: "Can we do a sunrise engagement shoot on Jebel Jais?", a: "Yes. Jebel Jais sunrise sessions are logistically more involved but produce spectacular results — extraordinary light, cooler temperatures, and the mountain largely to yourselves. We plan these sessions in advance with full logistics coordination." },
+      { q: "Do you photograph proposals in Ras Al Khaimah?", a: "Yes. We position covertly at the proposal location in advance to capture the genuine moment and immediate reaction. All timing and positioning is coordinated through close communication with the proposing partner before the day. RAK's scenic locations — Jebel Jais, Dhayah Fort, Al Hamra waterfront — make for genuinely spectacular proposal photography." },
+      { q: "How much does engagement photography cost in Ras Al Khaimah?", a: "Single-location sessions from AED 1,800. Two-location sessions from AED 2,800. Jebel Jais sunrise sessions from AED 3,000. Proposal photography from AED 2,200." },
+    ],
+  },
+
+
 };
 
 // ─── Static params ────────────────────────────────────────────────────────────
