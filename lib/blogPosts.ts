@@ -7827,6 +7827,335 @@ export const BLOG_POSTS: BlogPost[] = [
 `,
   },
 
+
+  {
+    slug: "headshot-photographer-abu-dhabi-2026",
+    title: "Headshot Photographer Abu Dhabi 2026 | Professional Headshots UAE Capital",
+    metaTitle: "Headshot Photographer Abu Dhabi 2026 | Backyard Studio",
+    metaDescription: "Professional headshot photographer in Abu Dhabi for LinkedIn, corporate profiles, executive portraits and speaker bios. ADGM, Corniche, Saadiyat locations. From AED 900.",
+    keywords: [
+      "headshot photographer abu dhabi",
+      "professional headshots abu dhabi",
+      "linkedin headshots abu dhabi",
+      "corporate headshots abu dhabi",
+      "executive headshots abu dhabi",
+      "headshot photography abu dhabi",
+    ],
+    category: "Photography",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=1200&q=80",
+    excerpt: "Abu Dhabi's professional market demands a headshot that matches the capital's standards. Here is what separates a great Abu Dhabi headshot from a generic corporate photo — and how to get one.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does a professional headshot cost in Abu Dhabi?", answer: "Professional headshots in Abu Dhabi start from AED 900 for a 90-minute session with 10 to 15 edited images. Executive and personal brand sessions covering multiple looks start from AED 1,800. Corporate team headshot days for 10 to 20 staff are priced at AED 500 to AED 700 per person with a session minimum. All sessions include pre-shoot consultation, location guidance, and post-production editing." },
+      { question: "Where do you shoot headshots in Abu Dhabi?", answer: "We shoot headshots across Abu Dhabi at ADGM on Al Maryah Island, the Corniche waterfront, Saadiyat Island, Yas Island, and at our clients' own offices for team headshot days. We match the location to your industry and the visual context your headshot needs — a financial services professional at ADGM wants a different environment to a hospitality executive on the Corniche." },
+      { question: "What industries do you photograph in Abu Dhabi?", answer: "Our Abu Dhabi headshot clients span financial services at ADGM, government and semi-government entities, Yas Island hospitality and tourism brands, legal and consulting firms, real estate developers, technology companies, and senior executives from across the emirate's diverse business community. We understand the visual expectations of each sector and direct sessions accordingly." },
+      { question: "Do you do corporate team headshot days in Abu Dhabi?", answer: "Yes. We produce corporate team headshot days at Abu Dhabi offices, setting up a portable studio on-site and working through teams of 10 to 30 people. The result is a consistent set of professional images for websites, LinkedIn profiles, press kits, and internal directories. We have produced team headshot days for financial institutions, government agencies, and hospitality groups across Abu Dhabi." },
+      { question: "How quickly are headshots delivered after the session?", answer: "Standard delivery is 48 to 72 hours from the session date, delivered via a private online gallery. Rush delivery within 24 hours is available for urgent requirements. For team headshot days, we deliver a complete gallery within 72 hours of the session, with a preview set of 5 to 10 images per person within 48 hours for team leaders who need to check quality before final delivery." },
+    ],
+    relatedSlugs: ["headshot-photography-dubai-2026", "personal-branding-photography-dubai-2026", "maternity-photography-abu-dhabi-2026"],
+    content: `
+<h2>Why Abu Dhabi Professionals Need a Different Kind of Headshot</h2>
+<p>Abu Dhabi's professional environment is distinct from Dubai's. The UAE capital is home to sovereign wealth funds, government ministries, ADGM-registered financial services firms, and cultural institutions that operate to global standards. The headshot that works for a startup founder in Dubai's Business Bay is not the same image that works for an ADGM fund manager or a senior civil servant presenting at international conferences. The visual register of Abu Dhabi's professional market is more formal, more measured, and more attuned to institutional credibility than Dubai's entrepreneurial energy.</p>
+<p>Backyard Studio Official produces <a href="/locations/abu-dhabi/headshot-photography">headshot photography in Abu Dhabi</a> that understands this distinction. Our sessions are briefed precisely: we spend time before every shoot understanding who the client is addressing, which platforms the images will appear on, and what the headshot needs to communicate about professional positioning. An Abu Dhabi lawyer presenting at international arbitration forums needs something different to an Abu Dhabi hotel executive whose face appears on a hospitality brand's social media. We treat both requirements seriously and direct each session toward its specific outcome.</p>
+<h2>ADGM and the Financial Services Headshot</h2>
+<p>The Abu Dhabi Global Market on Al Maryah Island has become one of the Gulf's most important financial centres. ADGM-registered firms range from global investment banks and asset managers to fintech companies and family offices, all of them with international investor and partner audiences who judge professionalism through visual signals as much as credentials. The headshot used by an ADGM executive on their firm's website, on Bloomberg profiles, and at international finance conferences needs to meet the visual standards of London, New York, and Singapore — not just UAE market conventions.</p>
+<p>We produce ADGM-standard headshots with this international benchmark in mind. Our Al Maryah Island shoots use the island's contemporary financial district architecture as context, with options for studio-clean backgrounds for the most versatile use. The editing is professional and natural — we correct for light, colour balance, and background, but we do not apply heavy retouching that makes people unrecognisable when they appear in person at investor meetings.</p>
+<h2>Government and Institutional Headshots in Abu Dhabi</h2>
+<p>Abu Dhabi's government and semi-government sector generates significant demand for institutional headshots: ministerial portraits, board member photography, senior official profiles for government communications, and team photography for Abu Dhabi entities publishing annual reports and institutional branding materials. This type of work requires specific awareness of protocol, an understanding of Abu Dhabi's government communication standards, and experience working with senior officials whose time is tightly scheduled.</p>
+<p>Backyard Studio Official has produced headshots and portrait sessions for Abu Dhabi government-adjacent entities, with the efficiency, discretion, and quality those environments require. For institutional bookings or to discuss your team's requirements, contact us at info@backyardstudioofficial.com or via <a href="/locations/abu-dhabi">our Abu Dhabi production page</a>.</p>
+`,
+  },
+
+  {
+    slug: "newborn-photographer-abu-dhabi-2026",
+    title: "Newborn Photographer Abu Dhabi 2026 | Baby Photography UAE Capital",
+    metaTitle: "Newborn Photographer Abu Dhabi 2026 | Backyard Studio",
+    metaDescription: "Gentle newborn photographer in Abu Dhabi for posed and lifestyle baby sessions. Safe, experienced, studio and in-home. Saadiyat, Yas Island, Corniche families welcome. From AED 1,800.",
+    keywords: [
+      "newborn photographer abu dhabi",
+      "newborn photography abu dhabi",
+      "baby photographer abu dhabi",
+      "newborn photoshoot abu dhabi",
+      "infant photography abu dhabi",
+      "newborn photos abu dhabi",
+    ],
+    category: "Photography",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=1200&q=80",
+    excerpt: "The first two weeks of a baby's life are the only window for true newborn photography. Here is how to make the most of that window in Abu Dhabi — and what to expect from a professional session.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "When should I book a newborn photographer in Abu Dhabi?", answer: "Book your Abu Dhabi newborn photographer during the second or third trimester — ideally before 32 weeks. The optimal window for newborn photography is the first 5 to 14 days after birth, when babies sleep deeply and can be gently posed. This window passes quickly, and photographers who specialise in newborn work fill their calendars months in advance. We hold a flexible provisional date from the moment you book and confirm the exact session date once your baby arrives." },
+      { question: "How much does newborn photography cost in Abu Dhabi?", answer: "Newborn photography in Abu Dhabi starts from AED 1,800 for a studio session covering 2 to 3 hours of shooting, multiple poses and setups, and a gallery of 20 to 30 edited images. Family inclusion packages covering parents and siblings with the baby start from AED 2,400. In-home lifestyle sessions, where we photograph the baby in your Abu Dhabi home, start from AED 2,200. All sessions include preparation guidance and post-production editing." },
+      { question: "Is newborn photography safe for my baby?", answer: "Safety is the foundation of every newborn session we produce. We work at the baby's pace, never forcing positions or rushing through poses. Room temperature is maintained at the level newborns need, and all props and wraps are thoroughly sanitised between sessions. Our team has extensive experience working with babies in the first weeks of life and recognises every cue that signals the baby needs a break, feeding, or comfort. Parents are present throughout every session." },
+      { question: "Do you come to our home in Abu Dhabi for newborn sessions?", answer: "Yes. In-home lifestyle newborn sessions are popular with Abu Dhabi families who want images that reflect their actual environment and the authentic beginning of life with their baby. We photograph in your nursery, living spaces, and any areas that are meaningful to your family. Natural window light is ideal for these sessions, and we assess your home's light conditions when planning the shoot time to make the most of the available light." },
+      { question: "Can you include siblings and parents in the newborn session?", answer: "Yes. Family inclusion is available in all our Abu Dhabi newborn sessions. We typically photograph the baby alone for the posed newborn work, then bring parents and siblings in for lifestyle family images. These combination sessions are our most popular format — they capture the baby as a new individual and the family as it is in its first days together, producing images that document both the baby and the family's reaction to the new arrival." },
+    ],
+    relatedSlugs: ["newborn-photographer-dubai-2026", "maternity-photography-abu-dhabi-2026", "kids-photography-dubai-2026"],
+    content: `
+<h2>The Newborn Photography Window in Abu Dhabi</h2>
+<p>There is a specific window — the first five to fourteen days of a baby's life — during which newborn photography is possible in the way most families imagine it: deeply sleeping babies, gently curled poses, the extraordinary smallness of a human being just arrived in the world. After this window closes, babies become more alert, sleep more lightly, and are no longer as easy to position in the poses that define classic newborn photography. The sessions we produce capture this brief, irretrievable period with the care and skill it deserves.</p>
+<p>Backyard Studio Official provides <a href="/locations/abu-dhabi/newborn-photography">newborn photography in Abu Dhabi</a> for families across Saadiyat Island, Yas Island, Al Reem Island, the Corniche, Khalidiyah, and across the capital's residential communities. We work in studio environments and in families' homes, and we approach every session with the patience, gentleness, and experience that working with newborns requires.</p>
+<h2>Posed Newborn Sessions</h2>
+<p>Posed newborn sessions capture the classic images most families associate with newborn photography: the baby curled into a basket, nestled in fabric wraps, hands folded under a sleeping cheek. These images require the baby to be in a deep sleep, which in turn requires warmth, patience, and a photographer who knows how to move a sleeping newborn from one setup to the next without waking them. Sessions typically run 2 to 3 hours and feel much more like a slow, careful process than a photo session in the conventional sense.</p>
+<p>We bring everything needed for a posed session: wraps and fabrics in a range of neutral tones, wooden and natural-material props that photograph beautifully without overwhelming the baby, and the temperature management tools that keep the environment comfortable for a sleeping newborn. Parents can request colour themes or prop preferences in advance, and we incorporate family items — a meaningful blanket, a parent's ring — when families want that personal dimension in the images.</p>
+<h2>Lifestyle Newborn Sessions at Home</h2>
+<p>Lifestyle newborn sessions are a different approach: rather than posed arrangements, we document the baby and family as they actually are in the first days at home. The baby feeding, sleeping in a parent's arms, being held by a sibling for the first time — these are the images that families return to most often because they capture the specific, unrepeatable character of their first days together. We work around the baby's natural rhythms, moving through your Abu Dhabi home and photographing the moments as they happen rather than constructing them.</p>
+<p>To book a newborn session in Abu Dhabi, contact us as early in your pregnancy as possible — we hold provisional dates and confirm once your baby arrives. Reach us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  {
+    slug: "maternity-photography-abu-dhabi-2026",
+    title: "Maternity Photography Abu Dhabi 2026 | Pregnancy Photoshoot UAE Capital",
+    metaTitle: "Maternity Photography Abu Dhabi 2026 | Backyard Studio",
+    metaDescription: "Beautiful maternity photography in Abu Dhabi — Saadiyat Island, Corniche, Sheikh Zayed Grand Mosque surroundings. Celebrating pregnancy with artistic portrait sessions. From AED 1,500.",
+    keywords: [
+      "maternity photography abu dhabi",
+      "maternity photographer abu dhabi",
+      "pregnancy photoshoot abu dhabi",
+      "maternity photos abu dhabi",
+      "bump photography abu dhabi",
+      "maternity shoot abu dhabi",
+    ],
+    category: "Photography",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=1200&q=80",
+    excerpt: "Abu Dhabi's architecture and coastline create some of the most beautiful maternity photography backgrounds in the UAE. Here is how we use them — and when to schedule your session.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "When is the best time for a maternity shoot in Abu Dhabi?", answer: "The ideal window for maternity photography in Abu Dhabi is 28 to 34 weeks of pregnancy — late enough that the bump is full and prominent in images, but early enough that you are still comfortable for an outdoor session. Abu Dhabi's outdoor locations are best in the cooler months from October to April, when temperatures allow for longer outdoor sessions. For summer maternity shoots, we use climate-controlled indoor locations including Saadiyat Island's cultural spaces and ADGM's architectural environments." },
+      { question: "What locations do you use for maternity photography in Abu Dhabi?", answer: "Abu Dhabi has exceptional maternity photography locations: Saadiyat Island's beach and Louvre surroundings, the Corniche waterfront at golden hour, the Sheikh Zayed Grand Mosque surroundings for dramatic architectural context, Eastern Mangroves for natural lagoon environments, and Al Reem Island's contemporary urban architecture. We match the location to the visual style you want, from natural and soft to dramatic and graphic." },
+      { question: "How much does maternity photography cost in Abu Dhabi?", answer: "Maternity photography in Abu Dhabi starts from AED 1,500 for a 90-minute session at one location with 20 edited images. Extended sessions covering multiple locations or including a partner start from AED 2,200. All packages include a pre-shoot style consultation, outfit guidance, and post-production editing. Studio maternity sessions are also available from AED 1,800." },
+      { question: "Can I include my partner and other children in the shoot?", answer: "Yes. Including a partner and existing children is one of the most requested additions to Abu Dhabi maternity sessions. Family maternity images — with a partner, with a toddler pressed against the bump, with an older child whose expression shows they understand something remarkable is about to change — are among the most emotionally resonant images we produce. We work with children naturally and are experienced at creating the kind of relaxed environment that produces genuine family moments rather than stiff arrangements." },
+      { question: "What should I wear for a maternity shoot in Abu Dhabi?", answer: "For outdoor Abu Dhabi maternity sessions, flowing dresses and gowns in neutral tones photograph beautifully against the emirate's architectural and coastal environments. We provide a full styling guide before every session covering outfit choices, colour palettes, and what to avoid. For clients who want to hire maternity gowns specifically designed for photography, we can recommend suppliers in Abu Dhabi who stock shoots-specific maternity wardrobes." },
+    ],
+    relatedSlugs: ["maternity-photography-dubai-2026", "newborn-photographer-abu-dhabi-2026", "engagement-photographer-abu-dhabi-2026"],
+    content: `
+<h2>Abu Dhabi's Maternity Photography Locations</h2>
+<p>Abu Dhabi offers a range of maternity photography environments that Dubai's more urban landscape cannot match. Saadiyat Island's natural beach, the Louvre Abu Dhabi's extraordinary architectural canopy, the Eastern Mangroves lagoon system, and the Corniche's wide-horizon waterfront all provide visual settings for pregnancy portraits that feel grounded in natural beauty rather than constructed scenery. These are places with visual depth — the kind that makes an image feel like it comes from a specific, meaningful place rather than a generic backdrop.</p>
+<p>Backyard Studio Official produces <a href="/locations/abu-dhabi/maternity-photography">maternity photography in Abu Dhabi</a> for families across the UAE capital and the wider region. Our Abu Dhabi maternity sessions are planned around the emirate's best locations for the specific time of year, the visual style each family wants, and the practical considerations of pregnancy at different stages.</p>
+<h2>Golden Hour on the Abu Dhabi Corniche</h2>
+<p>The Abu Dhabi Corniche at golden hour — the 45 minutes before sunset when the light turns warm and low — is one of the most photogenic locations in the UAE for portrait work. The wide horizon over the Arabian Gulf, the Corniche's clean lines, and the quality of the light in those final minutes before sunset produce maternity images with a tone that is warm, calm, and distinctly Abu Dhabi. We time our Corniche sessions to arrive with enough setup time to begin shooting as the light reaches its peak.</p>
+<p>For sessions at the Sheikh Zayed Grand Mosque surroundings or on Saadiyat Island's beach, we plan timing around both light quality and visitor patterns, ensuring the sessions are productive without the environmental pressure of a crowded location. Abu Dhabi's major landmarks are manageable for photography in ways that Dubai's most popular spots often are not — there is a scale and openness to Abu Dhabi's architectural environments that produces images with space and air in them.</p>
+<h2>Styling and Preparation for Abu Dhabi Maternity Sessions</h2>
+<p>Preparation for a maternity session is as important as the session itself. We send a detailed style guide before every booking covering outfit choices, colour palettes that work with different Abu Dhabi locations, hair and makeup guidance, and practical tips for the day. For clients who want professional hair and makeup for their session, we can coordinate with UAE-based artists who specialise in photography preparation.</p>
+<p>The best maternity images are made when the person being photographed feels confident and prepared. We invest time in the brief before every session to understand the style you want, the images that have resonated with you, and the specific dimension of your pregnancy you want to document — whether that is the intimacy of a private moment, the joy of a family expanding, or the visual drama of a full-term bump against Abu Dhabi's skyline. To book your Abu Dhabi maternity session, contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  {
+    slug: "engagement-photographer-abu-dhabi-2026",
+    title: "Engagement Photographer Abu Dhabi 2026 | Pre-Wedding Shoots UAE Capital",
+    metaTitle: "Engagement Photographer Abu Dhabi 2026 | Backyard Studio",
+    metaDescription: "Romantic engagement photography in Abu Dhabi — Sheikh Zayed Grand Mosque, Saadiyat Island, Corniche, Eastern Mangroves. Cinematic couple portraits for UAE couples. From AED 2,000.",
+    keywords: [
+      "engagement photographer abu dhabi",
+      "engagement photography abu dhabi",
+      "pre-wedding shoot abu dhabi",
+      "couple photography abu dhabi",
+      "engagement photos abu dhabi",
+      "pre-wedding photographer abu dhabi",
+    ],
+    category: "Photography",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?w=1200&q=80",
+    excerpt: "Abu Dhabi offers some of the most visually spectacular engagement photography locations in the region — from the Sheikh Zayed Grand Mosque to Saadiyat Island's beaches. Here is how to make the most of them.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "What are the best engagement photography locations in Abu Dhabi?", answer: "Abu Dhabi has exceptional engagement photography locations: the Sheikh Zayed Grand Mosque surroundings offer iconic architecture and grand scale; Saadiyat Island's beach provides a natural coastal environment; the Eastern Mangroves give a tranquil lagoon backdrop; the Corniche provides a wide Gulf horizon at golden hour; and Al Maryah Island's financial district offers a contemporary urban environment for couples who want a modern graphic aesthetic. We recommend locations based on the couple's visual style and the time of year." },
+      { question: "How much does engagement photography cost in Abu Dhabi?", answer: "Engagement photography in Abu Dhabi starts from AED 2,000 for a 90-minute golden-hour session at one location with 30 edited images. Multi-location sessions covering two environments start from AED 3,200. Full pre-wedding day packages covering morning, afternoon, and golden-hour sessions at up to three Abu Dhabi locations start from AED 5,500. All packages include a pre-shoot consultation, location planning, and post-production editing." },
+      { question: "Can we shoot at the Sheikh Zayed Grand Mosque for engagement photos?", answer: "Photography in the Sheikh Zayed Grand Mosque's public areas follows the facility's guidelines for visitors. For engagement photography in the mosque surroundings — the reflecting pools, the entrance approach, and the exterior — we plan sessions to work within the available public access areas at times when conditions are optimal for photography. We manage all location logistics and advise on timing and dress code requirements." },
+      { question: "When is the best time of year for Abu Dhabi engagement sessions?", answer: "October to April offers the best outdoor conditions for Abu Dhabi engagement photography, with comfortable temperatures for extended outdoor sessions and soft, warm light during golden hour. The summer months (June to September) are very hot for outdoor work, but we can produce excellent indoor engagement sessions at venues including Saadiyat Island's cultural spaces and ADGM's architectural environments. Desert and beach sessions outside golden hour are best avoided in summer months." },
+      { question: "Do you photograph destination couples visiting Abu Dhabi?", answer: "Yes. Backyard Studio Official regularly photographs destination couples visiting Abu Dhabi for engagement or pre-wedding sessions — couples who want Abu Dhabi's iconic architecture and landscapes as the setting for their engagement images but do not live in the UAE. We manage all logistics, location planning, and permit requirements for destination sessions, making the process as straightforward as possible for couples travelling specifically for the shoot." },
+    ],
+    relatedSlugs: ["engagement-photographer-dubai-2026", "maternity-photography-abu-dhabi-2026", "engagement-photographer-ras-al-khaimah-2026"],
+    content: `
+<h2>Engagement Photography in Abu Dhabi's Iconic Environments</h2>
+<p>Abu Dhabi's visual landscape offers engagement photography environments that are genuinely different from anything available in Dubai or elsewhere in the UAE. The Sheikh Zayed Grand Mosque's gleaming white domes and reflecting pools create a backdrop of extraordinary scale and grandeur. Saadiyat Island's natural beach and the Louvre Abu Dhabi's geometric canopy provide a cultural and architectural contrast that few locations in the world can match. The Eastern Mangroves lagoon system offers something entirely different again: a natural, tranquil environment that feels remote despite being minutes from the city centre.</p>
+<p>Backyard Studio Official produces <a href="/locations/abu-dhabi/engagement-photography">engagement photography in Abu Dhabi</a> that uses these environments intentionally — not as generic backdrops, but as visual contexts that add meaning to the images. We plan each session around the couple's visual personality, the time of year, and the specific combination of environments that will produce the most varied and compelling set of images within the session time available.</p>
+<h2>Sheikh Zayed Grand Mosque Sessions</h2>
+<p>The Sheikh Zayed Grand Mosque is among the most photographed buildings in the world, and its surroundings produce some of the most impressive engagement photography available anywhere in the Middle East. The mosque's white marble, the symmetry of its minarets, and the reflecting pools that extend in front of the main facade create a visual environment of extraordinary authority. Sessions at the mosque surroundings are timed carefully around visitor patterns and light conditions — we arrive early in the golden hour to use the warm directional light that transforms the white marble from bleached to amber.</p>
+<p>Dress code at the mosque requires modest attire for both men and women, which we advise on specifically during the pre-shoot consultation. Many couples use the mosque visit as an opportunity to wear traditional or formal attire that they would not typically wear for a contemporary outdoor session, creating images with a visual register that is distinct from the couple's more casual shots elsewhere.</p>
+<h2>Saadiyat Island and the Eastern Mangroves</h2>
+<p>For couples who want a different visual register from architecture-dominated images, Saadiyat Island's beach provides a natural coastal environment that photographs beautifully in Abu Dhabi's clear, low-humidity light. The island's relative quietness — compared to Dubai's JBR and Palm beaches — means sessions run without the visual clutter of packed crowds and beach umbrellas. The water is a distinctive blue-green tone specific to this part of the Gulf, and the soft sand photography conditions are ideal for both standing and floor-level compositions.</p>
+<p>The Eastern Mangroves, accessible by kayak or from the boardwalk, offer a completely different environment: green, sheltered, and naturally beautiful in a way that is rare in a Gulf city. Couples who choose the mangroves for part of their Abu Dhabi engagement session consistently produce images that stand apart from standard UAE couple photography — the environment has a character that cannot be replicated elsewhere in the emirate. To discuss your Abu Dhabi engagement session, contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  {
+    slug: "headshot-photographer-sharjah-2026",
+    title: "Headshot Photographer Sharjah 2026 | Professional Headshots UAE",
+    metaTitle: "Headshot Photographer Sharjah 2026 | Backyard Studio",
+    metaDescription: "Professional headshot photographer in Sharjah for LinkedIn, corporate profiles and executive portraits. Al Qasba, University City, Sharjah Heritage Area locations. From AED 900.",
+    keywords: [
+      "headshot photographer sharjah",
+      "professional headshots sharjah",
+      "linkedin headshots sharjah",
+      "corporate headshots sharjah",
+      "headshot photography sharjah",
+      "executive headshots sharjah",
+    ],
+    category: "Photography",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1200&q=80",
+    excerpt: "Sharjah professionals — from University City academics to Al Qasba businesses — need headshots that communicate authority and credibility. Here is how to get one in the Cultural Capital.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does a professional headshot cost in Sharjah?", answer: "Professional headshots in Sharjah start from AED 900 for a 90-minute session with 10 to 15 edited images. Corporate team headshot days for Sharjah-based businesses are priced at AED 500 to AED 700 per person. Sessions include pre-shoot consultation, location guidance or studio setup, and post-production editing with delivery within 48 to 72 hours." },
+      { question: "What locations do you use for headshots in Sharjah?", answer: "We shoot headshots across Sharjah at Al Qasba's waterfront, the Sharjah Heritage Area, University City of Sharjah campus environments, Sharjah Corniche, and at clients' offices for corporate team days. Sharjah's heritage architecture provides particularly distinctive backgrounds for professional headshots that convey cultural authenticity and professional substance." },
+      { question: "Do you do headshots for Sharjah University City academics and researchers?", answer: "Yes. University City of Sharjah — home to 28 higher education institutions — generates consistent demand for academic and research headshots for faculty websites, conference speaker profiles, publication author photos, and grant applications. We understand the visual conventions of academic photography and produce headshots that are professional, approachable, and appropriate for international academic publication contexts." },
+      { question: "Can you set up at our Sharjah office for team headshots?", answer: "Yes. Corporate team headshot days at Sharjah offices are one of our most efficient services for Northern Emirates businesses. We set up a portable studio at your location and work through your team systematically. This is particularly popular with Sharjah Free Zone and Hamriyah Free Zone businesses who want professional team photography without Dubai pricing and travel logistics." },
+      { question: "How are Sharjah headshots different from Dubai headshots?", answer: "The professional register in Sharjah is slightly more formal and traditional than Dubai's fast-moving entrepreneurial market. Academic, government, cultural, and industrial sector clients in Sharjah often want headshots that convey substance, credibility, and institutional authority rather than the personal branding energy that dominates Dubai's professional photography market. We adjust our direction and location choices accordingly for Sharjah clients." },
+    ],
+    relatedSlugs: ["headshot-photography-dubai-2026", "headshot-photographer-abu-dhabi-2026", "engagement-photographer-sharjah-2026"],
+    content: `
+<h2>Headshots for Sharjah's Professional Community</h2>
+<p>Sharjah's professional landscape is one of the most diverse in the UAE. University City of Sharjah hosts 28 higher education institutions and thousands of academics, researchers, and administrative professionals who need headshots for faculty profiles, conference speaker bios, and publication author pages. The Sharjah Heritage Area and the emirate's cultural institutions generate demand from professionals working in arts administration, museum curation, and heritage preservation. Sharjah's industrial base — including the Hamriyah Free Zone and the emirate's extensive manufacturing sector — produces steady demand for B2B professional photography for companies marketing to international buyers.</p>
+<p>Backyard Studio Official produces <a href="/locations/sharjah/headshot-photography">headshot photography in Sharjah</a> for all of these professional communities, with sessions that understand the specific visual register each sector requires. An academic at the American University of Sharjah presenting research at an international conference needs a different image to a manufacturing company director whose headshot appears on an export-market company profile.</p>
+<h2>Shooting Headshots in Sharjah's Heritage Architecture</h2>
+<p>Sharjah's Heritage Area is one of the most visually distinctive environments in the UAE for professional photography. The restored windtower houses, traditional alleyways, and the museum district create architectural backgrounds that are impossible to find in Dubai's commercial landscape. For professionals in fields where cultural depth and heritage authenticity matter — arts administration, educational leadership, government communications — a headshot set against Sharjah's heritage architecture communicates something about professional identity that a corporate glass tower environment does not.</p>
+<p>We manage all permit requirements for Sharjah Heritage Area shoots, including the specific coordination that the Heart of Sharjah conservation zone requires. Lead times for heritage area permits are typically five to seven business days, so we advise booking Sharjah heritage headshots with this lead time in mind.</p>
+<h2>Corporate Team Headshot Days in Sharjah</h2>
+<p>For Sharjah businesses that need professional team photography, our on-site team headshot day service removes the logistical friction of getting staff to a Dubai studio. We set up a portable studio at your Sharjah office or free zone facility and photograph your team in a systematic, efficient session that minimises disruption to the working day. The result is a consistent set of professional images for company websites, LinkedIn, and corporate materials, delivered within 72 hours.</p>
+<p>Sharjah-based businesses benefit from the same production quality as our Dubai corporate clients at pricing that reflects the Northern Emirates market reality. To discuss your Sharjah headshot requirements or book a team headshot day, contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  {
+    slug: "engagement-photographer-ras-al-khaimah-2026",
+    title: "Engagement Photographer Ras Al Khaimah 2026 | Pre-Wedding Shoots RAK",
+    metaTitle: "Engagement Photographer RAK 2026 | Backyard Studio",
+    metaDescription: "Romantic engagement photography in Ras Al Khaimah — Jebel Jais, Dhayah Fort, Al Marjan Island, Mina Al Arab. UAE's most dramatic landscapes for pre-wedding couple portraits. From AED 2,000.",
+    keywords: [
+      "engagement photographer ras al khaimah",
+      "engagement photography rak",
+      "pre-wedding shoot ras al khaimah",
+      "couple photography rak",
+      "engagement photos jebel jais",
+      "pre-wedding photographer rak",
+    ],
+    category: "Photography",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    readTime: "6 min read",
+    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=80",
+    excerpt: "Ras Al Khaimah gives couples access to Jebel Jais mountain ridgelines, Dhayah Fort hilltops, and Al Marjan Island's Arabian Gulf coastline — all within a single production day. Here is how we use them for engagement photography.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "What makes Ras Al Khaimah special for engagement photography?", answer: "RAK offers a combination of landscapes unavailable anywhere else in the UAE within a single day: Jebel Jais at 1,934 metres gives mountain ridgeline and cloud-level perspectives; Dhayah Fort provides a hilltop heritage environment with views over palm groves; Al Hamra desert dunes offer classic Arabian landscape; and Al Marjan Island and Mina Al Arab give contemporary coastal environments. This variety — mountain, heritage, desert, and coast — within 40 minutes driving creates a visual diversity that no other UAE emirate offers." },
+      { question: "How much does engagement photography in RAK cost?", answer: "RAK engagement photography starts from AED 2,000 for a golden-hour session at one location with 30 edited images. Multi-environment packages covering Jebel Jais and a coastal location start from AED 3,800 for a full-day session. All packages include pre-shoot consultation, location planning, logistics coordination, and post-production editing. Travel from Dubai is included in our RAK production rate." },
+      { question: "Can we shoot at Jebel Jais for our engagement photos?", answer: "Yes. Jebel Jais is one of our most requested RAK engagement locations. At 1,934 metres, the UAE's highest peak gives mountain ridgeline perspectives, dramatic cloud and sky backdrops, and a visual scale that makes engagement images genuinely different from standard UAE couple photography. We manage all logistics for Jebel Jais productions including the mountain road timing, and our GCAA-licensed drone team can add aerial perspectives to mountain shoots where airspace permits." },
+      { question: "What time of year is best for engagement photography in RAK?", answer: "October to April offers the best outdoor conditions for RAK engagement photography, particularly for Jebel Jais mountain sessions where temperatures are comfortable even in early spring. The golden-hour light in October to March is particularly beautiful at RAK's mountain and coastal locations. Summer shoots are possible at Al Marjan Island and Mina Al Arab during late afternoon and golden hour, but mountain sessions are best avoided from June to September due to heat and humidity at altitude." },
+      { question: "How far is RAK from Dubai and what are the logistics?", answer: "Ras Al Khaimah is approximately 100 kilometres from Dubai, with typical travel times of 75 to 90 minutes. For engagement sessions, we depart Dubai early to reach RAK's locations during morning or golden-hour shooting windows. For full-day RAK shoots covering mountain, desert, and coastal environments, we recommend arriving by 7am for mountain light. All logistics are managed by our production team and the travel cost is included in our RAK engagement package pricing." },
+    ],
+    relatedSlugs: ["engagement-photographer-dubai-2026", "engagement-photographer-abu-dhabi-2026", "maternity-photography-ras-al-khaimah-2026"],
+    content: `
+<h2>Why Ras Al Khaimah Produces the UAE's Most Dramatic Engagement Photography</h2>
+<p>Every UAE emirate has its iconic photography locations. Dubai has the Burj Khalifa and the desert dunes. Abu Dhabi has the Sheikh Zayed Grand Mosque. But Ras Al Khaimah has something none of them can match: genuine mountain terrain. Jebel Jais at 1,934 metres gives UAE couples access to ridgeline perspectives, mountain road sequences, cloud-level photography conditions, and a visual scale that removes every visual reference to the Gulf's urban density. Engagement images made at Jebel Jais do not look like UAE couple photography — they look like something made in a mountain landscape anywhere in the world.</p>
+<p>Backyard Studio Official produces <a href="/locations/ras-al-khaimah/engagement-photography">engagement photography in Ras Al Khaimah</a> that uses the emirate's full visual range. A RAK engagement session can move from Jebel Jais mountain ridgelines in the morning to Al Hamra's desert dune environment in the afternoon and reach Al Marjan Island's coastal sunset within a single production day — a range of environments and visual tones that would require travel to multiple countries in any other context.</p>
+<h2>Jebel Jais Mountain Engagement Sessions</h2>
+<p>Jebel Jais is the UAE's highest mountain and one of its most spectacular photography environments. The drive up the mountain passes through dramatic rock formations, hairpin bends, and increasingly open views toward Oman's Hajar Mountains. The ridgeline at altitude gives perspectives unavailable anywhere else in the country: the couple against a backdrop of peaks, clouds, and the Arabian Gulf visible in the far distance on clear days.</p>
+<p>Mountain engagement sessions require specific logistics: an early departure from Dubai to reach Jebel Jais for the morning light, warm clothing for both the couple and crew as temperatures at altitude can be significantly cooler than sea level, and weather awareness given that mountain conditions can change faster than the Gulf coast. We manage all of this as standard — clients receive a full logistics brief before every Jebel Jais session.</p>
+<h2>Dhayah Fort and Heritage Environments</h2>
+<p>Dhayah Fort, the only hilltop fort in the UAE, sits on a rocky prominence above the RAK inland palm groves with views toward both the Arabian Gulf and the Hajar Mountains. The fort's setting — a white-walled structure on a rock outcrop, surrounded by date palms and traditional Emirati agricultural landscape — provides a heritage context for engagement photography that is unique in the UAE. The climb to the fort, the views from the battlements, and the landscape below create multiple distinct visual environments within a single location.</p>
+<p>For couples who want engagement images that feel connected to the Arabian Peninsula's cultural and historical landscape, Dhayah Fort provides that context in a way that no other location in the UAE quite matches. Contact us to plan your RAK engagement session at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  {
+    slug: "maternity-photography-ras-al-khaimah-2026",
+    title: "Maternity Photography Ras Al Khaimah 2026 | Pregnancy Photoshoot RAK",
+    metaTitle: "Maternity Photography RAK 2026 | Backyard Studio",
+    metaDescription: "Beautiful maternity photography in Ras Al Khaimah — Jebel Jais mountains, Mina Al Arab beach, Al Marjan Island. Celebrating pregnancy against the UAE's most dramatic landscapes. From AED 1,500.",
+    keywords: [
+      "maternity photography ras al khaimah",
+      "maternity photographer rak",
+      "pregnancy photoshoot rak",
+      "maternity photos ras al khaimah",
+      "bump photography rak",
+      "maternity shoot rak",
+    ],
+    category: "Photography",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1544126592-807ade215a0b?w=1200&q=80",
+    excerpt: "Ras Al Khaimah's mountain, desert, and coastal environments create maternity photography that stands apart from anything produced in the UAE's urban centres. Here is how to use them.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "What maternity photography locations are available in RAK?", answer: "Ras Al Khaimah offers exceptional maternity photography environments: Mina Al Arab and Al Marjan Island's beaches for coastal maternity shoots; Jebel Jais mountain road and lower altitude areas for dramatic landscape sessions; Al Hamra desert for golden dune backdrops; and the emirate's natural palm grove and mangrove areas for authentically natural environments. We recommend locations based on the visual style you want, your stage of pregnancy, and the time of year." },
+      { question: "When is the best time for a maternity shoot in RAK?", answer: "October to April is the optimal window for outdoor RAK maternity photography. The cooler temperatures make extended outdoor sessions comfortable, the golden-hour light in these months is particularly warm and soft, and beach and coastal conditions are at their best. For summer maternity shoots in RAK, we use early morning and late golden-hour windows when coastal temperatures are more comfortable, or indoor environments at Al Marjan Island's hotel properties." },
+      { question: "How much does maternity photography in RAK cost?", answer: "Maternity photography in Ras Al Khaimah starts from AED 1,500 for a 90-minute golden-hour session at one location with 20 edited images. Full RAK maternity day packages covering a coastal and a natural landscape environment start from AED 2,800. Travel from Dubai is included in RAK session pricing. All packages include pre-shoot consultation, styling guidance, and post-production editing." },
+      { question: "Can we combine RAK beach and mountain environments in one session?", answer: "Yes. A full RAK maternity day can combine beach or coastal environments at Al Marjan Island or Mina Al Arab with natural landscape environments at lower Jebel Jais altitudes within a single production day. The visual range produced by this kind of multi-environment RAK session — coastal softness and mountain drama in the same gallery — is one of the most distinctive options available for UAE maternity photography." },
+      { question: "Is it safe to travel to RAK for a maternity photoshoot?", answer: "Yes. RAK is approximately 90 minutes from Dubai by car on well-maintained motorways, making it straightforward to reach at any stage of pregnancy. We plan all RAK sessions with logistics that minimise physical demands on the mother-to-be — comfortable parking close to shooting locations, minimal walking on uneven terrain, and sessions timed to avoid the hottest parts of the day. We discuss physical comfort in detail during the pre-shoot brief for every RAK maternity session." },
+    ],
+    relatedSlugs: ["maternity-photography-dubai-2026", "maternity-photography-abu-dhabi-2026", "engagement-photographer-ras-al-khaimah-2026"],
+    content: `
+<h2>Maternity Photography Against RAK's Natural Landscapes</h2>
+<p>Most UAE maternity photography takes place against urban backdrops — Dubai's skyline, the Corniche, architectural environments that are visually impressive but fundamentally man-made. Ras Al Khaimah offers something genuinely different: natural landscapes with scale and character that come from geology and geography rather than construction. The Hajar Mountains rising directly from the coastal plain, the Al Marjan Island coastline's clear Gulf water, the palm groves and mangrove systems of the inland areas — these are environments that make maternity images feel connected to something larger than the immediate moment.</p>
+<p>Backyard Studio Official produces <a href="/locations/ras-al-khaimah/maternity-photography">maternity photography in Ras Al Khaimah</a> for UAE families who want something different from standard urban portrait work. Our RAK maternity sessions are planned around the emirate's best environments for the specific time of year, with logistics that make the journey from Dubai straightforward and the session itself as comfortable as possible at every stage of pregnancy.</p>
+<h2>Mina Al Arab and Al Marjan Island Beach Sessions</h2>
+<p>Mina Al Arab's beach is one of the least crowded natural coastlines accessible from Dubai within two hours. The combination of clear Gulf water, natural beach conditions, and the Hajar Mountains visible in the distance creates a maternity photography environment with genuine visual depth. Al Marjan Island — RAK's developing resort district — provides a different coastal character: longer horizon views, contemporary resort architecture as contextual background, and the open Gulf of Oman that gives a sense of the wider world beyond the UAE's coastline.</p>
+<p>Coastal maternity sessions in RAK are timed around golden hour, when the light is warm and directional and the Gulf water takes on the warm tones that make coastal portrait photography so compelling in this part of the world. We arrive at beach locations with enough setup time to begin shooting as the light improves and work through the session as the conditions evolve in the final hour before sunset.</p>
+<h2>Mountain Maternity Photography at Jebel Jais</h2>
+<p>For expectant mothers who want something genuinely dramatic, the lower altitude environments around Jebel Jais provide mountain maternity photography that has no equivalent in the UAE. The mountain road, the rock formations, the views toward both the Arabian Gulf and inland toward Oman's Hajar range — these create maternity images with a visual scale and emotional weight that beach and urban environments simply cannot match.</p>
+<p>Mountain sessions are designed with comfort and safety as the primary consideration. We use accessible locations on the lower mountain where terrain is manageable, ensure transport is comfortable and close to shooting areas, and time sessions to avoid both peak heat and unpredictable mountain weather. The result is a set of images that look genuinely extraordinary while the session itself is planned to be completely comfortable. To book your RAK maternity session, contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
+  {
+    slug: "newborn-photographer-sharjah-2026",
+    title: "Newborn Photographer Sharjah 2026 | Baby Photography UAE",
+    metaTitle: "Newborn Photographer Sharjah 2026 | Backyard Studio",
+    metaDescription: "Gentle newborn photographer in Sharjah for posed and lifestyle baby sessions. Safe, experienced, studio and in-home. Muwaileh, Al Nahda, University City families welcome. From AED 1,800.",
+    keywords: [
+      "newborn photographer sharjah",
+      "newborn photography sharjah",
+      "baby photographer sharjah",
+      "newborn photoshoot sharjah",
+      "infant photography sharjah",
+      "newborn photos sharjah",
+    ],
+    category: "Photography",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1590086783191-a0694c7d1e6e?w=1200&q=80",
+    excerpt: "The first weeks of a baby's life are unrepeatable. Here is how Sharjah families can capture them with a professional newborn photographer who comes to you.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "When should I book a newborn photographer in Sharjah?", answer: "Book during your second trimester — ideally before 32 weeks of pregnancy. The optimal window for posed newborn photography is the first 5 to 14 days after birth, when babies sleep deeply enough for gentle positioning. This window passes very quickly, and professional newborn photographers fill their calendars months in advance. We hold flexible provisional dates from the time you book and confirm once your baby arrives." },
+      { question: "How much does newborn photography cost in Sharjah?", answer: "Newborn photography in Sharjah starts from AED 1,800 for a 2 to 3 hour session with 20 to 30 edited images. In-home lifestyle sessions in your Sharjah home start from AED 2,000. Family inclusion packages adding parents and siblings start from AED 2,400. All sessions include pre-shoot consultation and preparation guidance. Travel within Sharjah is included in our standard Northern Emirates pricing." },
+      { question: "Do you come to our home in Sharjah for newborn sessions?", answer: "Yes. In-home lifestyle newborn sessions are particularly popular with Sharjah families. We photograph the baby in your home environment — the nursery, the living spaces, the specific details that make your home yours — creating images that document not just the baby but the beginning of life in the place where your family actually lives. We assess window light conditions when planning session timing to make the most of natural light in your Sharjah home." },
+      { question: "Is it safe for a very young baby to have a photoshoot?", answer: "Yes, when conducted by an experienced newborn photographer. We work at the baby's pace throughout every session: warmth is maintained at the appropriate level, all props and fabrics are sanitised, and we move slowly and gently between setups without rushing or forcing any position. Every baby communicates what they need — feeding, comfort, a break — and we respond immediately. Parents remain present and involved throughout every session." },
+      { question: "Can you photograph in Al Nahda and Muwaileh areas of Sharjah?", answer: "Yes. We cover all areas of Sharjah for newborn photography including Al Nahda, Muwaileh, University City, Al Khan, Al Majaz, Al Qasba, and across the emirate's residential communities. Our team travels to your location across Sharjah as part of the standard session, and we are familiar with the areas most Sharjah families live in." },
+    ],
+    relatedSlugs: ["newborn-photographer-dubai-2026", "newborn-photographer-abu-dhabi-2026", "maternity-photography-abu-dhabi-2026"],
+    content: `
+<h2>Newborn Photography for Sharjah Families</h2>
+<p>The newborn phase is the shortest and most intense of a family's journey with a new baby. It is also the most visually extraordinary — the improbable smallness of a human being in their first days, the way they sleep through everything, the details of tiny hands and feet that will never be this small again. Professional newborn photography exists to document this moment with the quality and care it deserves, creating images that families return to for the rest of their lives.</p>
+<p>Backyard Studio Official produces <a href="/locations/sharjah/newborn-photography">newborn photography in Sharjah</a> for families across the emirate's residential communities — Muwaileh, Al Nahda, Al Majaz, University City, Al Khan, and beyond. We come to you, working in your home or at a studio environment depending on your preference, and we bring everything needed to produce beautiful, professional newborn images in either setting.</p>
+<h2>What to Expect from a Sharjah Newborn Session</h2>
+<p>Most families who book their first newborn photography session are not sure what to expect from the experience. The reality is very different from a conventional portrait session: a newborn shoot is slow, patient, and oriented entirely around the baby's needs and rhythms. We arrive with a full set of props — wraps, baskets, wooden accessories, fabric backdrops in neutral tones — but the session is really about waiting for the right moments rather than constructing images against a deadline.</p>
+<p>Sessions typically run between 2 and 3 hours, though we never rush to finish within a fixed time if the baby needs feeding, settling, or simply needs the setup changed. The goal is 20 to 30 finished images that comprehensively document this specific baby in their first weeks of life — a variety of poses, setups, and details that together form a complete record of who this person was in the very beginning.</p>
+<h2>In-Home Lifestyle Sessions for Sharjah Families</h2>
+<p>For families who prefer a more natural approach, in-home lifestyle newborn sessions document the baby and family as they actually are: at home, in the real beginning of their life together. We photograph the baby in the nursery environment you created for them, in the living spaces where the family is spending the early days and nights, and in the specific moments — feeding, being held, sleeping on a parent's chest — that define the newborn phase.</p>
+<p>Sharjah's residential communities have a character and scale that makes in-home photography particularly valuable. The large family apartments and villas that many Sharjah families live in provide multiple spaces and natural light opportunities that work well for lifestyle photography. We assess your home's natural light when planning session timing and work around your family's actual rhythms rather than imposing a fixed schedule. To book your Sharjah newborn session, contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+
 ];
 export function getBlogPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
