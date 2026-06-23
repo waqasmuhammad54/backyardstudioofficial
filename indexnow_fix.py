@@ -400,6 +400,15 @@ URLS = [
     f"https://{HOST}/locations/fujairah/birthday-photography",
     f"https://{HOST}/locations/fujairah/kids-photography",
     f"https://{HOST}/locations/fujairah/engagement-photography",
+    # Sprint 20: Umm Al Quwain location sub-pages (2026-06-23)
+    f"https://{HOST}/locations/umm-al-quwain/headshot-photography",
+    f"https://{HOST}/locations/umm-al-quwain/newborn-photography",
+    f"https://{HOST}/locations/umm-al-quwain/maternity-photography",
+    f"https://{HOST}/locations/umm-al-quwain/fashion-photography",
+    f"https://{HOST}/locations/umm-al-quwain/social-media-content",
+    f"https://{HOST}/locations/umm-al-quwain/birthday-photography",
+    f"https://{HOST}/locations/umm-al-quwain/kids-photography",
+    f"https://{HOST}/locations/umm-al-quwain/engagement-photography",
 ]
 
 payload = {

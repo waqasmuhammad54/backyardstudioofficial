@@ -1954,6 +1954,249 @@ const PAGES: Record<string, ServicePage> = {
   },
 
 
+  // ── UMM AL QUWAIN ─────────────────────────────────────────────────────────
+
+  "umm-al-quwain/headshot-photography": {
+    title: "Headshot Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Professional headshot photographer in Umm Al Quwain — corporate portraits, LinkedIn headshots and team photography at UAQ Corniche, Dreamland and Al Sinniyah. From AED 750.",
+    h1: "Headshot Photography in Umm Al Quwain",
+    subtitle: "UAQ Corniche. Al Sinniyah Island. Dreamland. Headshots in the UAE's most relaxed emirate.",
+    category: "HEADSHOT PHOTOGRAPHY",
+    intro: [
+      "Umm Al Quwain is the UAE's least developed emirate — which, for professional photography, is a genuine advantage. The UAQ Corniche runs along open mangroves and lagoon waters without the urban density of Dubai or Sharjah. Al Sinniyah Island sits in the lagoon as a natural reserve. The pace is slower, the light is cleaner, and the backgrounds are uncluttered. For professionals and business owners in UAQ — across the growing leisure and tourism sector, the free zone business community, fishing and maritime industries, and professional services — a credible headshot is still the most important piece of professional identity. Backyard Studio Official produces headshots in Umm Al Quwain that deliver that credibility.",
+      "We shoot at the UAQ Corniche for open lagoon-facing portraits with mangrove and water backgrounds, at the UAQ Marina area for maritime character, and with portable studio setups for clean seamless-background headshots at offices and free zone facilities across the emirate.",
+    ],
+    highlights: [
+      { heading: "UAQ Corniche and Lagoon", body: "Umm Al Quwain's Corniche runs alongside one of the UAE's largest lagoon and mangrove systems — providing open, natural waterfront backgrounds that are genuinely uncrowded and visually distinct from anything available in Dubai or Sharjah." },
+      { heading: "Uncluttered Natural Backdrops", body: "UAQ's undeveloped character means fewer visual distractions. Clean horizon lines, natural water and mangrove settings, and uncrowded outdoor spaces give headshots a clarity and simplicity that more urban settings struggle to achieve." },
+      { heading: "Free Zone Team Days", body: "UAQ Free Trade Zone hosts a diverse international business community. We travel to your UAQ free zone office with a portable studio setup to photograph your full team in a single coordinated day — consistent lighting, backgrounds, and colour across all images." },
+      { heading: "48-Hour Delivery", body: "Standard edited delivery in 48 hours. Rush same-day and next-day delivery available for urgent requirements." },
+    ],
+    pricing: [
+      { pkg: "Individual Headshot", detail: "90 min / 1–2 looks / 10–15 edited images", price: "From AED 750" },
+      { pkg: "Executive Session", detail: "2 hrs / 2 locations / 20 final images", price: "From AED 1,400" },
+      { pkg: "Team Day (per person)", detail: "On-site portable studio / consistent images", price: "From AED 350 / person" },
+      { pkg: "UAQ Lagoon Session", detail: "90 min / waterfront / 20 images", price: "From AED 1,200" },
+    ],
+    faqs: [
+      { q: "Where do you shoot headshots in Umm Al Quwain?", a: "The UAQ Corniche and lagoon waterfront for natural open backgrounds, the marina area for maritime character, and on-site portable studio setups for offices and free zone facilities. The emirate's undeveloped character provides clean, uncluttered backgrounds." },
+      { q: "Do you travel to Umm Al Quwain for headshots?", a: "Yes. We travel to UAQ for headshot sessions. Travel is included for bookings above AED 1,200. For smaller sessions, a travel supplement applies — confirmed at booking." },
+      { q: "Can you photograph our team at the UAQ Free Trade Zone?", a: "Yes. We set up a portable studio at your UAQ free zone office and photograph your full team in a single day. Images delivered with consistent lighting and background across all team members." },
+      { q: "How much does a headshot cost in Umm Al Quwain?", a: "Individual sessions from AED 750. Executive sessions from AED 1,400. Team days from AED 350 per person. UAQ lagoon sessions from AED 1,200." },
+    ],
+  },
+
+  "umm-al-quwain/newborn-photography": {
+    title: "Newborn Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Newborn photographer in Umm Al Quwain — home visits, lifestyle sessions and lagoon-side newborn photography. Safe, unhurried. From AED 1,400.",
+    h1: "Newborn Photography in Umm Al Quwain",
+    subtitle: "Your home. UAQ Corniche. Lagoon waterfront. Safe, unhurried newborn photography.",
+    category: "NEWBORN PHOTOGRAPHY",
+    intro: [
+      "The first two weeks of a newborn's life pass faster than any parent expects. The way a baby curls, their expressions, the way they sleep in a parent's arms — these belong to a window of days that does not come back. Backyard Studio Official produces newborn photography in Umm Al Quwain that captures this window honestly: the real experience of those first days, documented carefully and without rush.",
+      "We work with families across UAQ — from the main town to the surrounding residential communities — offering home visit sessions, lifestyle sessions at the UAQ Corniche's peaceful waterfront, and portable studio setups for families who want clean, posed images. The emirate's quiet character makes it well-suited to the unhurried pace that good newborn photography requires.",
+    ],
+    highlights: [
+      { heading: "Home Visit Sessions", body: "We come to your UAQ home with all equipment for both posed and lifestyle sessions. Newborns photographed in their own environment produce images with an intimacy and authenticity that studio setups rarely match." },
+      { heading: "UAQ Corniche Lifestyle Sessions", body: "The Corniche alongside UAQ's lagoon and mangroves provides a peaceful, uncrowded outdoor setting for newborn lifestyle photography — open water light, natural surroundings, and no crowds." },
+      { heading: "Safe Posing Practice", body: "All poses are designed specifically for newborns. Safety is the absolute first consideration. Sessions are never rushed and no position is ever forced or uncomfortable." },
+      { heading: "Quiet, Unhurried Environment", body: "UAQ's relaxed pace is genuinely suited to newborn photography. Home sessions in particular benefit from the emirate's quieter residential character." },
+    ],
+    pricing: [
+      { pkg: "Lifestyle Home Session", detail: "2 hrs at your home / 30–40 images", price: "From AED 1,400" },
+      { pkg: "Posed Studio Session", detail: "3 hrs / wraps and props / 40 images", price: "From AED 1,800" },
+      { pkg: "Family Welcome Session", detail: "Newborn + siblings + parents / 50 images", price: "From AED 2,200" },
+      { pkg: "UAQ Corniche Lifestyle", detail: "2 hrs / lagoon waterfront / 35 images", price: "From AED 1,500" },
+    ],
+    faqs: [
+      { q: "When should I book newborn photography in Umm Al Quwain?", a: "Between 5 and 14 days after birth — when newborns sleep most deeply and curl naturally for gentle posed photography. Book during pregnancy to secure your preferred date and time." },
+      { q: "Do you come to homes in Umm Al Quwain for newborn sessions?", a: "Yes. Home visits are available across UAQ. We bring all equipment needed for both lifestyle and posed sessions. UAQ's quiet residential character is well-suited to the calm environment that newborn photography requires." },
+      { q: "How much does newborn photography cost in Umm Al Quwain?", a: "Lifestyle home sessions from AED 1,400. Posed studio sessions from AED 1,800. Family welcome sessions from AED 2,200. UAQ Corniche lifestyle sessions from AED 1,500." },
+      { q: "Is travel to Umm Al Quwain included?", a: "Travel is included for bookings above AED 1,400. For smaller bookings, a travel supplement applies — confirmed at the time of booking." },
+    ],
+  },
+
+  "umm-al-quwain/maternity-photography": {
+    title: "Maternity Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Maternity photographer in Umm Al Quwain — bump sessions at UAQ Corniche, lagoon waterfront and home visits. Culturally respectful. From AED 1,400.",
+    h1: "Maternity Photography in Umm Al Quwain",
+    subtitle: "UAQ Corniche. Lagoon waterfront. Your home. Maternity photography away from the crowds.",
+    category: "MATERNITY PHOTOGRAPHY",
+    intro: [
+      "Umm Al Quwain's maternity photography environment is defined by what it lacks: crowds, construction, and visual clutter. The UAQ Corniche along the lagoon. The mangrove edges at low tide. Open water stretches with clean horizon lines. For expectant mothers who want maternity photography that feels genuinely natural and unhurried — away from the construction noise and population density of Dubai and Sharjah — UAQ's undeveloped character is a real advantage.",
+      "We approach every maternity session in UAQ with full understanding of the cultural requirements and modesty preferences that matter here. The session is built entirely around what the expectant mother actually wants, and we discuss wardrobe, aesthetic preferences, and comfort levels in advance.",
+    ],
+    highlights: [
+      { heading: "UAQ Corniche at Sunset", body: "The Corniche along the lagoon provides a long, uncrowded waterfront with mangrove edges and open water. At sunset, the light over the lagoon is soft and warm — a genuinely peaceful outdoor maternity setting without the weekend crowds of Dubai beaches." },
+      { heading: "Mangrove and Lagoon Backgrounds", body: "UAQ's mangrove system is one of the most intact in the UAE. Mangrove edges and lagoon water create natural, organic backgrounds for maternity photography that are specific to this emirate's character." },
+      { heading: "Home Lifestyle Sessions", body: "Intimate home visit sessions across UAQ for expectant mothers who prefer the privacy and comfort of their own space for maternity photography." },
+      { heading: "Culturally Respectful Approach", body: "Every maternity session is approached with full sensitivity to modesty and cultural requirements. From fully covered abaya sessions to more open beach-style shoots, we adapt entirely to what the expectant mother wants." },
+    ],
+    pricing: [
+      { pkg: "UAQ Corniche Session", detail: "90 min / 1 outfit / 30 images", price: "From AED 1,400" },
+      { pkg: "Extended Outdoor Session", detail: "2.5 hrs / 2 looks / 40 images", price: "From AED 1,800" },
+      { pkg: "Home Lifestyle Session", detail: "2 hrs at your home / 35 images", price: "From AED 1,400" },
+      { pkg: "Full Maternity Collection", detail: "3 hrs / 2 locations / 55 images", price: "From AED 2,800" },
+    ],
+    faqs: [
+      { q: "When should I book my maternity session in Umm Al Quwain?", a: "Between 28 and 34 weeks of pregnancy. Book at around 24 weeks to secure your preferred time and location, particularly for golden-hour outdoor sessions at the Corniche." },
+      { q: "What makes UAQ different for maternity photography?", a: "The Corniche and lagoon waterfront is genuinely uncrowded — a significant difference from Dubai's beaches. The natural mangrove and water settings, clean horizon lines, and relaxed pace create a maternity photography environment that feels real and unhurried rather than constructed." },
+      { q: "How much does maternity photography cost in Umm Al Quwain?", a: "UAQ Corniche sessions from AED 1,400. Extended outdoor sessions from AED 1,800. Home lifestyle sessions from AED 1,400. Full maternity collections from AED 2,800." },
+      { q: "Is travel to UAQ included in the session fee?", a: "Travel is included for maternity session bookings above AED 1,400. A travel supplement applies for smaller bookings — confirmed at the time of booking." },
+    ],
+  },
+
+  "umm-al-quwain/fashion-photography": {
+    title: "Fashion Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Fashion photographer in Umm Al Quwain — editorial shoots at UAQ lagoon, mangroves and heritage sites. Modest fashion and outdoor brand specialists. From AED 1,800.",
+    h1: "Fashion Photography in Umm Al Quwain",
+    subtitle: "UAQ Lagoon. Mangroves. Heritage sites. Fashion photography without the crowds.",
+    category: "FASHION PHOTOGRAPHY",
+    intro: [
+      "Umm Al Quwain offers fashion photographers access to environments that are genuinely difficult to find elsewhere in the UAE: intact mangrove systems, open lagoon water, uncrowded heritage sites, and natural coastal settings that haven't been photographed into visual cliché. For brands and designers who want fashion photography that looks different from the generic Dubai content that saturates the market, UAQ's undeveloped character is a real creative asset.",
+      "We produce fashion photography in UAQ for brands, independent designers, e-commerce businesses, and stylists who need images that communicate clearly and stand out. Modest fashion and outdoor lifestyle categories find particularly strong environments in UAQ's natural settings.",
+    ],
+    highlights: [
+      { heading: "Mangrove and Lagoon Locations", body: "UAQ's mangrove coastline and lagoon create fashion photography backdrops with organic texture, deep green tones, and reflected water light — environments with visual character that styled studio sets cannot approximate." },
+      { heading: "Uncrowded Heritage Sites", body: "UAQ's old town and heritage structures provide traditional architecture and historical context for fashion editorial work, without the crowds that make heritage photography difficult in Dubai and Sharjah." },
+      { heading: "Modest Fashion in Natural Settings", body: "UAQ's outdoor environments — mangroves, lagoon waterfront, natural coastal settings — create genuinely compelling backgrounds for abaya collections, modest sportswear, and covered fashion." },
+      { heading: "Exclusive Location Feel", body: "UAQ's undeveloped character means fewer people, fewer distractions, and a sense of exclusivity that more developed UAE emirates genuinely cannot offer for outdoor fashion shoots." },
+    ],
+    pricing: [
+      { pkg: "Lookbook Session", detail: "3 hrs / 1 model / 3 looks / 30 images", price: "From AED 1,800" },
+      { pkg: "Editorial Campaign", detail: "Full day / creative direction / 60 final images", price: "From AED 3,500" },
+      { pkg: "E-Commerce Catalogue", detail: "Per look / clean backgrounds / product focus", price: "From AED 250 / look" },
+      { pkg: "Mangrove Campaign", detail: "Full day / lagoon + mangrove / 50 images", price: "From AED 3,800" },
+    ],
+    faqs: [
+      { q: "What makes UAQ unique for fashion photography?", a: "Intact mangrove systems, open lagoon, uncrowded heritage sites, and natural coastal settings without construction or crowds. UAQ's undeveloped character gives fashion photography a visual distinctiveness that busy Dubai locations cannot match." },
+      { q: "Do you photograph modest fashion in Umm Al Quwain?", a: "Yes. UAQ's natural outdoor environments — mangroves, lagoon, coastal — provide genuine, organic settings for abaya collections, covered fashion, and modest sportswear." },
+      { q: "Can you provide models for fashion shoots in UAQ?", a: "Yes. We work with a network of professional models across the UAE. Model procurement is coordinated as part of our full production service." },
+      { q: "How much does fashion photography cost in Umm Al Quwain?", a: "Lookbook sessions from AED 1,800. Editorial campaigns from AED 3,500. E-commerce catalogue from AED 250 per look. Mangrove campaigns from AED 3,800." },
+    ],
+  },
+
+  "umm-al-quwain/social-media-content": {
+    title: "Social Media Content Creation in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Social media content creator in Umm Al Quwain — reels, photos and brand content for hospitality, tourism and F&B businesses in UAQ. From AED 1,800.",
+    h1: "Social Media Content Creation in Umm Al Quwain",
+    subtitle: "Reels. Brand content. Photography. Social media production for UAQ businesses.",
+    category: "SOCIAL MEDIA CONTENT",
+    intro: [
+      "Umm Al Quwain's business community — spanning leisure tourism around Dreamland Aqua Park, waterfront hospitality, the UAQ Free Trade Zone, fishing and maritime industries, and retail — faces the same challenge as businesses everywhere: social media demands consistent, professional visual content to remain competitive and attract customers. For UAQ businesses in particular, the opportunity is to use the emirate's distinctive natural character as a content asset rather than competing with Dubai on Dubai's visual terms.",
+      "We produce social media content for UAQ businesses that is built around what makes this emirate genuinely different: the uncrowded lagoon, the mangroves, the relaxed pace, and the authentic atmosphere that the northern emirates offer. This is a real content differentiator for businesses that know how to use it.",
+    ],
+    highlights: [
+      { heading: "Leisure and Tourism Content", body: "Dreamland Aqua Park, UAQ's waterfront restaurants, boat trip operators, and lagoon leisure businesses need content that communicates the emirate's relaxed appeal. We produce photography and video built around what makes UAQ's leisure scene distinct." },
+      { heading: "Reels and Short-Form Video", body: "Professionally shot and edited Instagram and TikTok reels — scripted to your brief, filmed at UAQ's best locations, edited with music and captions that drive real engagement." },
+      { heading: "Monthly Retainer Packages", body: "Ongoing monthly content production for UAQ businesses — a consistent volume of posts, reels, and stories so your social presence runs without your daily involvement." },
+      { heading: "The UAQ Content Angle", body: "UAQ's 'escape from Dubai' positioning is a genuine content angle for businesses in the emirate. Relaxed, natural, uncrowded, authentic — these are real differentiators that resonate with the UAE's increasingly saturated social media audience." },
+    ],
+    pricing: [
+      { pkg: "Content Day (Photo)", detail: "4 hrs / 30 edited images / platform-ready", price: "From AED 1,800" },
+      { pkg: "Reels Package", detail: "3 reels / shot + edited / captions included", price: "From AED 2,200" },
+      { pkg: "Monthly Retainer", detail: "8 posts + 4 reels / monthly / strategy included", price: "From AED 3,500 / month" },
+      { pkg: "Full Brand Day", detail: "Full day / photo + video / full brand content set", price: "From AED 4,000" },
+    ],
+    faqs: [
+      { q: "What types of businesses do you create social media content for in UAQ?", a: "Leisure and tourism, waterfront restaurants and cafes, adventure and water sports, retail, professional services, and the free zone business community. UAQ's natural settings create particularly strong content for hospitality and tourism businesses." },
+      { q: "Can you help us use UAQ's natural settings in our brand content?", a: "Yes — the lagoon, mangroves, uncrowded waterfront, and relaxed character of UAQ are genuine content assets. We help businesses build content that positions them distinctively against more crowded Dubai competitors." },
+      { q: "Do you offer monthly content packages for UAQ businesses?", a: "Yes. Monthly retainer packages cover a fixed volume of posts and reels on a consistent schedule — suitable for any UAQ business that needs regular social media content without managing production in-house." },
+      { q: "How much does social media content creation cost in Umm Al Quwain?", a: "Content day photography from AED 1,800. Reels packages from AED 2,200. Monthly retainers from AED 3,500 per month. Full brand day from AED 4,000." },
+    ],
+  },
+
+  "umm-al-quwain/birthday-photography": {
+    title: "Birthday Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Birthday photographer in Umm Al Quwain — kids parties, milestone celebrations and family birthdays at home events and UAQ venues. From AED 850.",
+    h1: "Birthday Photography in Umm Al Quwain",
+    subtitle: "Your home. UAQ venues. Waterfront settings. Birthday photography that captures the day.",
+    category: "BIRTHDAY PHOTOGRAPHY",
+    intro: [
+      "Birthday celebrations in Umm Al Quwain happen most often at home — in the residential neighbourhoods of UAQ city, at the Corniche waterfront for outdoor parties, and at the emirate's leisure venues including Dreamland Aqua Park for children's events. Backyard Studio Official photographs birthday celebrations in UAQ with the priority of capturing what actually happened: the real expressions, the interactions between family members and friends, the genuine moments of joy — not a set of posed group photographs that sit beside the event rather than inside it.",
+      "We cover children's parties with the energy and pace they require, milestone birthdays at any UAQ venue or outdoor setting, and family gatherings where the priority is documenting the people and the atmosphere authentically.",
+    ],
+    highlights: [
+      { heading: "Home Birthday Parties", body: "Home parties across UAQ city and surrounding residential areas. We move with the energy of the event — cake arrivals, games, family interactions — and capture it all as it happens." },
+      { heading: "Dreamland Aqua Park Events", body: "Dreamland is UAQ's signature leisure venue and hosts many children's birthday events. We are experienced photographing in the Dreamland environment with the logistics and lighting it involves." },
+      { heading: "Waterfront Birthday Sessions", body: "The UAQ Corniche waterfront provides a naturally beautiful outdoor setting for birthday photography — open lagoon views, clean light, and no crowds." },
+      { heading: "Same-Day Preview Gallery", body: "10 to 15 preview images delivered same-day for social media, with the full edited gallery within 5 working days." },
+    ],
+    pricing: [
+      { pkg: "2-Hour Birthday Coverage", detail: "2 hrs / 60–80 images / online gallery", price: "From AED 850" },
+      { pkg: "Half-Day Coverage", detail: "4 hrs / 120–150 images / full event", price: "From AED 1,500" },
+      { pkg: "Full-Day Milestone", detail: "8 hrs / unlimited images / same-day previews", price: "From AED 2,500" },
+      { pkg: "Kids Party Package", detail: "2 hrs / + cake smash add-on option / 80 images", price: "From AED 1,100" },
+    ],
+    faqs: [
+      { q: "Do you travel to Umm Al Quwain for birthday photography?", a: "Yes. We cover birthday events across UAQ — home parties, Dreamland events, Corniche waterfront celebrations, and venue events. Travel is included for bookings above AED 1,200." },
+      { q: "Can you photograph at Dreamland Aqua Park?", a: "Yes. Dreamland is a popular venue for children's birthday events in UAQ. We are experienced photographing in the park environment and can coordinate coverage with venue logistics." },
+      { q: "How far in advance should I book birthday photography in UAQ?", a: "Home parties: 2 to 3 weeks typically sufficient. Venue events: 4 to 6 weeks ahead. Last-minute bookings are sometimes available on weekdays." },
+      { q: "How much does birthday photography cost in Umm Al Quwain?", a: "Two-hour coverage from AED 850. Half-day from AED 1,500. Full-day milestone from AED 2,500. Kids party packages from AED 1,100." },
+    ],
+  },
+
+  "umm-al-quwain/kids-photography": {
+    title: "Kids Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Children's photographer in Umm Al Quwain — family portraits, milestone sessions and kids photography at UAQ lagoon, mangroves and your home. From AED 900.",
+    h1: "Kids Photography in Umm Al Quwain",
+    subtitle: "UAQ Lagoon. Mangroves. Your home. Children's photography in UAQ's natural settings.",
+    category: "KIDS PHOTOGRAPHY",
+    intro: [
+      "Umm Al Quwain gives children access to natural environments that the more developed UAE emirates have largely lost to construction: open lagoon beaches, mangrove edges where children can explore, fishing harbour atmosphere, and outdoor spaces without crowds. Photography that captures your child in these environments — at a specific age, with their particular personality — creates images with a character and authenticity that posed studio portraits cannot achieve. Backyard Studio Official produces children's photography in UAQ that documents who your child actually is right now.",
+      "We follow the child's pace and comfort entirely. For young children, natural expressions happen when they are allowed to explore and play rather than posed and directed. UAQ's natural outdoor settings — lagoon, mangrove edge, open waterfront — create the kind of relaxed environment where children actually behave like themselves.",
+    ],
+    highlights: [
+      { heading: "UAQ Lagoon and Waterfront Sessions", body: "The lagoon waterfront and Corniche provide open, natural outdoor settings where children can play freely — producing authentic, joyful images without the crowds and distractions of more popular UAE photography locations." },
+      { heading: "Mangrove Nature Sessions", body: "UAQ's mangrove system is one of the UAE's most intact. The mangrove edge creates a naturally engaging exploration environment for children — textures, water, wildlife — and photography backdrops with real organic character." },
+      { heading: "Milestone Portrait Sessions", body: "First birthday, starting school, 10th birthday — milestone sessions at a specific moment in your child's development, with images that will remain meaningful for decades." },
+      { heading: "Home and Lifestyle Sessions", body: "Intimate home sessions across UAQ for images with the authenticity that outdoor settings often cannot match — the relationship with siblings, pets, the particular corners of childhood." },
+    ],
+    pricing: [
+      { pkg: "Mini Portrait Session", detail: "45 min / 1 child / 15 images", price: "From AED 900" },
+      { pkg: "Full Portrait Session", detail: "90 min / 2 looks / 30 images", price: "From AED 1,500" },
+      { pkg: "Siblings Session", detail: "90 min / multiple children / 35 images", price: "From AED 1,700" },
+      { pkg: "Family Portrait Session", detail: "2 hrs / full family / 40 images / 2 locations", price: "From AED 2,000" },
+    ],
+    faqs: [
+      { q: "What are the best locations for children's photography in Umm Al Quwain?", a: "The UAQ lagoon and Corniche waterfront for open natural outdoor sessions, the mangrove edge for nature exploration sessions, and home visits for intimate family and sibling photography across UAQ residential areas." },
+      { q: "Can you photograph children in UAQ's mangroves?", a: "Yes. The mangrove edge in UAQ creates an outstanding environment for children's photography — the natural texture, water, and exploration opportunities produce authentic, animated images that differ from typical beach or park sessions." },
+      { q: "How do you work with children who are reluctant in front of cameras?", a: "We follow the child's pace entirely. For young children we photograph them as they play rather than posing them — natural expressions happen when children are comfortable and engaged with their environment, not when they are told to perform for a camera." },
+      { q: "How much does children's photography cost in Umm Al Quwain?", a: "Mini sessions from AED 900. Full portrait sessions from AED 1,500. Sibling sessions from AED 1,700. Family portrait sessions from AED 2,000." },
+    ],
+  },
+
+  "umm-al-quwain/engagement-photography": {
+    title: "Engagement Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Engagement photographer in Umm Al Quwain — couple shoots and proposal photography at UAQ lagoon, mangroves and Corniche. Culturally respectful. From AED 1,800.",
+    h1: "Engagement Photography in Umm Al Quwain",
+    subtitle: "UAQ Lagoon. Mangroves. Corniche. Engagement photography away from the crowds.",
+    category: "ENGAGEMENT PHOTOGRAPHY",
+    intro: [
+      "Umm Al Quwain's engagement photography settings offer couples something increasingly difficult to find in the UAE: genuine privacy, natural surroundings, and a sense of space that crowded Dubai and Sharjah locations rarely provide. The UAQ Corniche runs alongside the lagoon without weekend crowds. The mangrove coastline provides green, organic settings with reflected water light. The lagoon at golden hour offers waterfront couple photography with warm light and open space. For couples who want engagement photography that feels intimate and natural rather than performed in front of crowds, UAQ is a real alternative.",
+      "We are experienced working with couples of all nationalities and backgrounds in the northern emirates, and we approach every session with full sensitivity to cultural and privacy requirements. The session structure is built around making the couple feel genuinely comfortable — not around producing images that look a certain way at the expense of the people in them.",
+    ],
+    highlights: [
+      { heading: "UAQ Lagoon at Golden Hour", body: "The lagoon waterfront at sunset — open water, soft golden light, no crowds — creates engagement photography with a naturally intimate character. The absence of background noise and visual clutter from urban development makes UAQ's waterfront sessions feel genuinely private." },
+      { heading: "Mangrove Romantic Settings", body: "The mangrove edge creates couple photography with organic green tones, reflected water, and natural texture — a romantic and visually distinctive setting unavailable in any more developed UAE emirate." },
+      { heading: "Private, Uncrowded Locations", body: "One of UAQ's genuine advantages for engagement photography is the absence of crowds. The locations that are beautiful in Dubai are often overcrowded on weekends. In UAQ, the same calibre of natural waterfront and outdoor setting is available without the audience." },
+      { heading: "Proposal Photography", body: "We position covertly at your chosen UAQ location to capture the genuine proposal moment and immediate reaction. All timing and positioning coordinated in advance with the proposing partner." },
+    ],
+    pricing: [
+      { pkg: "1-Location Session", detail: "90 min / 1 outfit / 30–40 edited images", price: "From AED 1,800" },
+      { pkg: "2-Location Session", detail: "2.5 hrs / 2 outfits / 50 images", price: "From AED 2,800" },
+      { pkg: "Golden Hour Lagoon Session", detail: "2 hrs / sunset / 40 images", price: "From AED 2,200" },
+      { pkg: "Proposal Photography", detail: "Covert coverage / full edited gallery", price: "From AED 2,000" },
+    ],
+    faqs: [
+      { q: "What are the best engagement photography locations in Umm Al Quwain?", a: "The UAQ lagoon waterfront at golden hour for open water and sunset light, the mangrove edge for green organic romantic settings, and the Corniche for uncrowded outdoor portraits. We recommend locations based on the couple's preferred aesthetic." },
+      { q: "Why choose UAQ for engagement photography over Dubai?", a: "Privacy and natural settings. UAQ's lagoon and mangrove locations provide the same quality of outdoor waterfront environment as Dubai's best spots but without crowds. The sense of space and intimacy is genuinely different." },
+      { q: "Do you photograph proposals in Umm Al Quwain?", a: "Yes. The lagoon waterfront and mangrove settings make beautiful proposal backdrops. We position covertly in advance to capture the moment authentically. All logistics are coordinated with the proposing partner before the day." },
+      { q: "How much does engagement photography cost in Umm Al Quwain?", a: "Single-location sessions from AED 1,800. Two-location sessions from AED 2,800. Golden hour lagoon sessions from AED 2,200. Proposal photography from AED 2,000." },
+    ],
+  },
+
+
 };
 
 // ─── Static params ────────────────────────────────────────────────────────────

@@ -297,6 +297,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/locations/fujairah/engagement-photography",lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 
+  // Sprint 20: Umm Al Quwain location sub-pages (2026-06-23)
+  const uaqSubPages: MetadataRoute.Sitemap = [
+    { url: BASE + "/locations/umm-al-quwain/headshot-photography",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/umm-al-quwain/newborn-photography",   lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/umm-al-quwain/maternity-photography", lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/umm-al-quwain/fashion-photography",   lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/umm-al-quwain/social-media-content",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/umm-al-quwain/birthday-photography",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/umm-al-quwain/kids-photography",      lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/umm-al-quwain/engagement-photography",lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+  ];
 
-  return [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...ajmanSubPages, ...rakSubPages, ...fujairSubPages, ...services, ...locations, ...industries, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
+
+  return [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...ajmanSubPages, ...rakSubPages, ...fujairSubPages, ...uaqSubPages, ...services, ...locations, ...industries, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
 }
