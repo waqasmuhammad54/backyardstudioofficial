@@ -136,6 +136,96 @@ const CITY_DATA: Record<string, { name: string; image: string; description: stri
   },
 };
 
+
+const CITY_SUB_PAGES: Record<string, { slug: string; name: string; desc: string }[]> = {
+  "dubai": [
+    { slug: "wedding-photography",        name: "Wedding Photography",       desc: "Arabic, Indian & destination weddings across Dubai's top venues" },
+    { slug: "corporate-video",             name: "Corporate Video",           desc: "Brand films, DVCs & company profiles for DIFC and Business Bay" },
+    { slug: "event-photography",           name: "Event Photography",         desc: "DWTC, Madinat Jumeirah, hotel galas & brand activations" },
+    { slug: "real-estate-photography",     name: "Real Estate Photography",   desc: "Developer campaigns, show apartments & unit shoots" },
+    { slug: "drone-videography",           name: "Drone Videography",         desc: "GCAA-licensed aerial across Dubai's iconic skyline" },
+    { slug: "food-photography",            name: "Food Photography",          desc: "Restaurant menus, F&B brands & culinary campaigns" },
+    { slug: "product-photography",         name: "Product Photography",       desc: "E-commerce & editorial product shoots for UAE brands" },
+    { slug: "personal-branding-photography", name: "Personal Branding",       desc: "Founder portraits, LinkedIn & thought-leader content" },
+    { slug: "headshot-photography",        name: "Headshot Photography",      desc: "Corporate headshots for teams, profiles & press" },
+    { slug: "newborn-photography",         name: "Newborn Photography",       desc: "Gentle newborn portraits in Dubai studios & homes" },
+    { slug: "maternity-photography",       name: "Maternity Photography",     desc: "Beautiful maternity portraits celebrating pregnancy" },
+    { slug: "fashion-photography",         name: "Fashion Photography",       desc: "Editorial & commercial fashion in Dubai's best locations" },
+    { slug: "social-media-content",        name: "Social Media Content",      desc: "Reels, TikToks & platform-optimised content" },
+    { slug: "birthday-photography",        name: "Birthday Photography",      desc: "Milestone birthday & celebration portrait sessions" },
+    { slug: "kids-photography",            name: "Kids Photography",          desc: "Natural, fun portraits of children at every stage" },
+    { slug: "engagement-photography",      name: "Engagement Photography",    desc: "Romantic engagement sessions across Dubai's iconic spots" },
+  ],
+  "abu-dhabi": [
+    { slug: "wedding-photography",         name: "Wedding Photography",       desc: "Emirates Palace, Yas Hotel & Saadiyat Island weddings" },
+    { slug: "corporate-video",             name: "Corporate Video",           desc: "ADGM, government & enterprise films for Abu Dhabi clients" },
+    { slug: "event-photography",           name: "Event Photography",         desc: "ADNEC, Yas Bay & Corniche event coverage" },
+    { slug: "real-estate-photography",     name: "Real Estate Photography",   desc: "Aldar, Saadiyat & Yas Island developer campaigns" },
+    { slug: "drone-videography",           name: "Drone Videography",         desc: "GCAA-licensed aerial videography over the UAE capital" },
+    { slug: "food-photography",            name: "Food Photography",          desc: "Saadiyat & Corniche F&B brands and restaurant campaigns" },
+    { slug: "product-photography",         name: "Product Photography",       desc: "Commercial product shoots for Abu Dhabi brands" },
+    { slug: "personal-branding-photography", name: "Personal Branding",       desc: "ADGM founders, executives & professional profiles" },
+    { slug: "headshot-photography",        name: "Headshot Photography",      desc: "Professional headshots across Abu Dhabi" },
+    { slug: "newborn-photography",         name: "Newborn Photography",       desc: "Newborn portraits in Abu Dhabi studios & homes" },
+    { slug: "maternity-photography",       name: "Maternity Photography",     desc: "Maternity sessions across Abu Dhabi locations" },
+    { slug: "fashion-photography",         name: "Fashion Photography",       desc: "Fashion shoots at Saadiyat Island & Louvre environments" },
+    { slug: "social-media-content",        name: "Social Media Content",      desc: "Platform-optimised social content for Abu Dhabi brands" },
+    { slug: "birthday-photography",        name: "Birthday Photography",      desc: "Birthday & milestone portrait sessions" },
+    { slug: "kids-photography",            name: "Kids Photography",          desc: "Children's photography across Abu Dhabi" },
+    { slug: "engagement-photography",      name: "Engagement Photography",    desc: "Engagement sessions at Sheikh Zayed Mosque & beyond" },
+  ],
+  "sharjah": [
+    { slug: "headshot-photography",    name: "Headshot Photography",  desc: "Professional headshots for Sharjah businesses & professionals" },
+    { slug: "newborn-photography",     name: "Newborn Photography",   desc: "Gentle newborn portraits in Sharjah studios" },
+    { slug: "maternity-photography",   name: "Maternity Photography", desc: "Maternity portraits at Al Qasba & Sharjah locations" },
+    { slug: "fashion-photography",     name: "Fashion Photography",   desc: "Fashion shoots at Al Qasba & Sharjah Art Foundation" },
+    { slug: "social-media-content",    name: "Social Media Content",  desc: "Platform-optimised content for Sharjah brands" },
+    { slug: "birthday-photography",    name: "Birthday Photography",  desc: "Birthday & celebration portrait sessions in Sharjah" },
+    { slug: "kids-photography",        name: "Kids Photography",      desc: "Natural children's photography in Sharjah" },
+    { slug: "engagement-photography",  name: "Engagement Photography", desc: "Engagement sessions at Sharjah Corniche & heritage sites" },
+  ],
+  "ajman": [
+    { slug: "headshot-photography",    name: "Headshot Photography",  desc: "Professional headshots for Ajman businesses & professionals" },
+    { slug: "newborn-photography",     name: "Newborn Photography",   desc: "Newborn portraits in Ajman studios" },
+    { slug: "maternity-photography",   name: "Maternity Photography", desc: "Maternity sessions at Ajman Corniche & beyond" },
+    { slug: "fashion-photography",     name: "Fashion Photography",   desc: "Fashion shoots at Al Zorah & Ajman locations" },
+    { slug: "social-media-content",    name: "Social Media Content",  desc: "Social media content for Ajman brands & SMEs" },
+    { slug: "birthday-photography",    name: "Birthday Photography",  desc: "Birthday & milestone portrait sessions in Ajman" },
+    { slug: "kids-photography",        name: "Kids Photography",      desc: "Children's photography across Ajman" },
+    { slug: "engagement-photography",  name: "Engagement Photography", desc: "Engagement sessions at Ajman Corniche & fort" },
+  ],
+  "ras-al-khaimah": [
+    { slug: "headshot-photography",    name: "Headshot Photography",  desc: "Professional headshots in Ras Al Khaimah" },
+    { slug: "newborn-photography",     name: "Newborn Photography",   desc: "Newborn portraits in RAK studios" },
+    { slug: "maternity-photography",   name: "Maternity Photography", desc: "Maternity sessions against RAK's mountain & coastal backdrops" },
+    { slug: "fashion-photography",     name: "Fashion Photography",   desc: "Fashion shoots at Jebel Jais & Mina Al Arab" },
+    { slug: "social-media-content",    name: "Social Media Content",  desc: "Social content for RAK tourism & hospitality brands" },
+    { slug: "birthday-photography",    name: "Birthday Photography",  desc: "Birthday & celebration portraits in Ras Al Khaimah" },
+    { slug: "kids-photography",        name: "Kids Photography",      desc: "Children's photography in Ras Al Khaimah" },
+    { slug: "engagement-photography",  name: "Engagement Photography", desc: "Engagement sessions at Jebel Jais, Dhayah Fort & Al Marjan" },
+  ],
+  "fujairah": [
+    { slug: "headshot-photography",    name: "Headshot Photography",  desc: "Professional headshots in Fujairah" },
+    { slug: "newborn-photography",     name: "Newborn Photography",   desc: "Newborn portraits on the East Coast" },
+    { slug: "maternity-photography",   name: "Maternity Photography", desc: "Maternity sessions against Hajar Mountains & East Coast beaches" },
+    { slug: "fashion-photography",     name: "Fashion Photography",   desc: "Fashion shoots at Al Aqah Beach & Fujairah Fort" },
+    { slug: "social-media-content",    name: "Social Media Content",  desc: "Social content for Fujairah tourism & hospitality brands" },
+    { slug: "birthday-photography",    name: "Birthday Photography",  desc: "Birthday & celebration portraits in Fujairah" },
+    { slug: "kids-photography",        name: "Kids Photography",      desc: "Children's photography on the East Coast" },
+    { slug: "engagement-photography",  name: "Engagement Photography", desc: "Engagement sessions at Fujairah's beaches & mountain roads" },
+  ],
+  "umm-al-quwain": [
+    { slug: "headshot-photography",    name: "Headshot Photography",  desc: "Professional headshots in Umm Al Quwain" },
+    { slug: "newborn-photography",     name: "Newborn Photography",   desc: "Newborn portraits in UAQ studios" },
+    { slug: "maternity-photography",   name: "Maternity Photography", desc: "Maternity sessions at UAQ's lagoon & heritage locations" },
+    { slug: "fashion-photography",     name: "Fashion Photography",   desc: "Fashion shoots at UAQ mangroves & old town" },
+    { slug: "social-media-content",    name: "Social Media Content",  desc: "Social content for UAQ brands & tourism operators" },
+    { slug: "birthday-photography",    name: "Birthday Photography",  desc: "Birthday & celebration portraits in Umm Al Quwain" },
+    { slug: "kids-photography",        name: "Kids Photography",      desc: "Children's photography in Umm Al Quwain" },
+    { slug: "engagement-photography",  name: "Engagement Photography", desc: "Engagement sessions at UAQ Corniche & mangroves" },
+  ],
+};
+
 const DEFAULT_CITY = (slug: string) => ({
   name: slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()),
   image: "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8e?w=1920&q=80",
@@ -272,6 +362,31 @@ export default function CityPage({ params }: { params: { city: string } }) {
           </div>
         </div>
       </section>
+
+
+      {/* Photography Sub-Services */}
+      {(CITY_SUB_PAGES[params.city]?.length ?? 0) > 0 && (
+        <section className="section-pad bg-[#080808] border-t border-[#1a1a1a]">
+          <div className="container-xl">
+            <h2 className="font-display text-3xl text-white mb-2">
+              PHOTOGRAPHY SERVICES IN {data.name.toUpperCase()}
+            </h2>
+            <p className="text-[#a0a0a0] text-sm mb-8">
+              Specialist photography and content services available across {data.name}.
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              {CITY_SUB_PAGES[params.city]?.map(({ slug, name, desc }) => (
+                <Link key={slug} href={`/locations/${params.city}/${slug}`}
+                  className="p-5 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm hover:border-[#e8c547]/50 hover:bg-[#111] transition-all group block">
+                  <div className="text-[#e8c547] text-xs font-semibold tracking-wide mb-2">{name}</div>
+                  <p className="text-[#666] text-xs leading-relaxed">{desc}</p>
+                  <div className="text-[#444] text-xs mt-3 group-hover:text-[#e8c547] transition-colors">Learn more →</div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* CTA Banner */}
       <section className="py-16 bg-[#111111] text-center border-t border-[#2a2a2a]">
