@@ -8156,6 +8156,264 @@ export const BLOG_POSTS: BlogPost[] = [
 `,
   },
 
+  {
+    slug: "headshot-photographer-ajman-2026",
+    title: "Headshot Photographer in Ajman — Professional Portraits for Executives & Professionals",
+    metaTitle: "Headshot Photographer Ajman | Professional Corporate Portraits 2026",
+    metaDescription: "Professional headshot photography in Ajman for executives, entrepreneurs, and professionals. LinkedIn portraits, corporate headshots, team photos. Book your Ajman session today.",
+    keywords: ["headshot photographer ajman", "professional headshots ajman", "corporate portrait ajman", "linkedin photo ajman", "executive headshot ajman", "ajman photography studio"],
+    category: "Photography Guide",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80",
+    excerpt: "Professional headshot photography in Ajman for executives, LinkedIn profiles, and corporate teams. Backyard Studio Official delivers boardroom-quality portraits across the emirate.",
+    author: "Backyard Studio Official",
+    faqs: [
+      { question: "Where do you shoot headshots in Ajman?", answer: "We photograph headshots throughout Ajman — at your office, at outdoor locations across the emirate, or at our Dubai studio if you prefer a controlled environment. Popular Ajman locations include the Ajman Corniche, Al Rashidiya business district, and the Ajman Free Zone area for corporate settings." },
+      { question: "How long does a headshot session in Ajman take?", answer: "A standard professional headshot session runs 60 to 90 minutes, giving us time to photograph multiple looks, backgrounds, and expressions. You receive 5 to 10 fully edited, high-resolution images. Corporate team sessions of multiple people can be scheduled as half-day or full-day bookings with individual slots for each team member." },
+      { question: "What should I wear for my Ajman headshot session?", answer: "Business attire that you would wear to meet a client or attend a board meeting works best. Solid colours photograph better than patterns. We recommend avoiding very bright colours or very dark backgrounds that may overpower your face. We provide a full styling guide after booking and are happy to advise on specific outfit questions before your Ajman session." },
+      { question: "How much do professional headshots cost in Ajman?", answer: "Individual professional headshot sessions in Ajman start from AED 1,200, which includes the session and 5 fully edited images. Additional images can be added from the full session gallery. Corporate team bookings are priced per person with discounts available for groups of five or more. Contact us for a team headshot quote tailored to your Ajman company." },
+      { question: "Can you photograph our entire Ajman team in one day?", answer: "Yes. Corporate team headshot days are one of our most popular bookings across the Northern Emirates. We set up a clean, consistent background and lighting setup at your Ajman office and photograph each team member in rotation — typically 15 to 20 minutes per person. This produces a unified, consistent look across your entire team's corporate photography." },
+    ],
+    relatedSlugs: ["headshot-photography-dubai-2026", "headshot-photographer-abu-dhabi-2026", "headshot-photographer-sharjah-2026"],
+    content: `
+<h2>Professional Headshot Photography in Ajman</h2>
+<p>Your headshot is the first image most professional contacts see before they meet you in person. On LinkedIn, company websites, press releases, and conference programmes, a high-quality professional portrait communicates competence, approachability, and credibility before a single word is exchanged. For Ajman's growing community of executives, entrepreneurs, and professionals, professional headshot photography is an investment that pays dividends every time someone looks you up.</p>
+<p>Backyard Studio Official provides <a href="/locations/ajman/headshot-photography">headshot photography in Ajman</a> for individual professionals and corporate teams across the emirate. Our photographers understand what makes a headshot work: the quality of light, the relationship between subject and camera, the specific direction and timing that captures a natural expression rather than a self-conscious pose.</p>
+<h2>Individual Professional Portraits</h2>
+<p>Individual headshot sessions are designed to produce a range of images that work across different professional contexts. We capture formal corporate headshots for company directories and press use, LinkedIn-optimised portraits cropped and sized for professional networking, and environmental portraits that show you in a professional context rather than against a plain background.</p>
+<p>We work throughout Ajman — at your office, at selected outdoor locations, or at our Dubai studio. Many Ajman professionals prefer a combination: clean studio-style images and more natural outdoor portraits that give flexibility depending on how and where the image will be used.</p>
+<h2>Corporate Team Headshots in Ajman</h2>
+<p>Consistency across a team's headshots matters more than most companies realise. When a law firm, financial services company, or property developer publishes team photos taken by different photographers over different years, the inconsistency is immediately visible and subtly undermines the professional image the company is trying to project.</p>
+<p>We solve this with corporate team headshot days: we set up our equipment at your Ajman premises and photograph each team member in a consistent, structured session. The result is a uniform set of images that work as a cohesive gallery on your website and across your marketing materials. To book a session in Ajman, contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+  {
+    slug: "newborn-photographer-ajman-2026",
+    title: "Newborn Photographer in Ajman — Studio & In-Home Baby Photography",
+    metaTitle: "Newborn Photographer Ajman | Baby Photography Sessions 2026",
+    metaDescription: "Specialist newborn photography in Ajman for babies in their first weeks of life. Studio and in-home sessions available. Safe, gentle, professional. Book your Ajman newborn session.",
+    keywords: ["newborn photographer ajman", "baby photography ajman", "newborn photos ajman", "infant photography ajman", "newborn session ajman", "baby photographer ajman"],
+    category: "Photography Guide",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=1200&q=80",
+    excerpt: "Gentle, professional newborn photography in Ajman for babies in their first weeks. Studio and in-home sessions by experienced photographers. Serving all Ajman communities.",
+    author: "Backyard Studio Official",
+    faqs: [
+      { question: "When should I book a newborn session in Ajman?", answer: "Book during your second trimester and schedule the shoot for days 5 to 14 after birth — when babies are most sleepy and flexible for gentle posing. We hold a flexible due-date booking system that adjusts automatically when your baby arrives. This ensures an Ajman slot is always available at exactly the right time regardless of when your due date falls." },
+      { question: "Do you travel to homes across Ajman for newborn sessions?", answer: "Yes. In-home newborn photography is available throughout Ajman including Al Rashidiya, Al Nuaimiya, Al Jurf, Al Mowaihat, Mushref, and all residential areas of the emirate. We bring all our props, wraps, and equipment to your home and work around your family's natural rhythms. Most families find in-home sessions easier with a brand-new baby than travelling to a studio." },
+      { question: "How many images will we receive from an Ajman newborn session?", answer: "You receive 20 to 30 fully edited, high-resolution images from a standard Ajman newborn session. These include a variety of poses, setups, and detail shots — close-ups of hands, feet, eyelashes, and other tiny details that parents treasure as their child grows. All images are delivered via a private online gallery within 3 to 5 business days of the session." },
+      { question: "Is newborn photography safe?", answer: "Yes, when performed by experienced practitioners. We work slowly, gently, and always at the baby's pace. All wraps, fabrics, and props are cleaned before each session. No baby is placed in any position that causes discomfort, and we stop and adjust immediately if a baby signals they need feeding, comfort, or a break. Parents remain present throughout every session. Safety is our first consideration in every newborn shoot." },
+      { question: "What is the best age for newborn photography in Ajman?", answer: "The ideal window is days 5 to 14 after birth. At this age, babies sleep deeply, can be gently positioned in classic newborn poses, and still have that quintessential newborn appearance — the curled posture, the downy skin, the improbable smallness. After 3 weeks, babies become more alert and some classic newborn poses become more challenging. Lifestyle sessions work well at any age in the first 3 months." },
+    ],
+    relatedSlugs: ["newborn-photographer-dubai-2026", "newborn-photographer-abu-dhabi-2026", "newborn-photographer-sharjah-2026"],
+    content: `
+<h2>Newborn Photography in Ajman</h2>
+<p>The first two weeks of a baby's life pass faster than any parent expects. The newborn phase — the deep sleepiness, the impossible smallness, the way a brand-new person fits into a parent's arms — lasts a matter of days before it becomes the beginning of something else. Professional newborn photography exists to stop that time, to create images precise enough and beautiful enough that families can return to this specific moment for the rest of their lives.</p>
+<p>Backyard Studio Official provides <a href="/locations/ajman/newborn-photography">newborn photography in Ajman</a> for families across the emirate. We work in-home across all of Ajman's residential communities and offer studio sessions for families who prefer a more controlled environment. Our photographers specialise in the patience, gentleness, and technical skill that newborn photography requires.</p>
+<h2>What to Expect from Your Ajman Newborn Session</h2>
+<p>A newborn photography session is unlike any other type of portrait session. It is slow, unscheduled, and entirely oriented around one very small and very important person. We arrive with a full kit of props — wraps in neutral tones, wooden accessories, baskets, fabric backdrops — and we work through setups at whatever pace the baby permits, stopping whenever feeding, settling, or a position change is needed.</p>
+<p>Sessions typically run 2 to 3 hours and produce 20 to 30 finished images: a mix of posed setups with classic props, close-up detail shots of hands and feet, and natural family moments with parents and siblings included. The variety of images in the final gallery forms a complete documentary record of this baby in their first days.</p>
+<h2>In-Home Sessions Across Ajman</h2>
+<p>Most Ajman families choose in-home lifestyle newborn sessions, which document the baby in the real environment where family life is beginning. We photograph in the nursery you prepared, in the living room where the family is spending these early weeks, and in the specific quiet moments — a baby sleeping on a parent's chest, siblings meeting the new arrival — that define the newborn phase as it is actually lived. To book your Ajman newborn session, contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+  {
+    slug: "maternity-photography-ajman-2026",
+    title: "Maternity Photographer in Ajman — Pregnancy Portrait Sessions",
+    metaTitle: "Maternity Photography Ajman | Pregnancy Portraits 2026",
+    metaDescription: "Beautiful maternity photography in Ajman celebrating pregnancy with professional portraits. Studio and outdoor sessions available. Book your Ajman maternity session with Backyard Studio Official.",
+    keywords: ["maternity photography ajman", "pregnancy photographer ajman", "maternity shoot ajman", "bump photos ajman", "pregnancy portraits ajman", "maternity session ajman"],
+    category: "Photography Guide",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1584616349163-de96b64baad2?w=1200&q=80",
+    excerpt: "Professional maternity photography in Ajman for expectant mothers and families. Studio and outdoor sessions capturing the beauty of pregnancy. Serving all Ajman communities.",
+    author: "Backyard Studio Official",
+    faqs: [
+      { question: "When is the best time for maternity photos in Ajman?", answer: "The ideal window for maternity photography is between weeks 28 and 36 of pregnancy. At this stage the bump is beautifully prominent and rounded, while the expectant mother still has the energy and comfort for a full photography session. We recommend booking your Ajman session around week 25 so the shoot falls naturally within this ideal window regardless of individual pregnancy progression." },
+      { question: "What locations do you use for maternity photography in Ajman?", answer: "We photograph maternity sessions throughout Ajman — the Ajman Corniche with its waterfront views, Al Zorah Natural Reserve for lush green backgrounds, Ajman beach locations, and urban architectural settings in the city centre. We also offer controlled studio sessions at our Dubai studio for families who prefer consistent lighting and a polished, editorial look." },
+      { question: "Can partners and children be included in the maternity session?", answer: "Absolutely. Partner and family inclusion is warmly encouraged and we plan every session to accommodate the full family naturally. We typically shoot some images with just the expectant mother, some with the couple, and some with children if applicable — building a complete picture of the family at this transitional moment. Children often add spontaneous, joyful energy to maternity sessions." },
+      { question: "How much does maternity photography cost in Ajman?", answer: "Maternity photography sessions in Ajman start from AED 1,500 for a 90-minute session delivering 15 to 20 edited images. Outdoor location sessions and studio sessions are priced similarly. Package upgrades including wardrobe options, additional looks, or combined maternity and newborn bundle pricing are available on request. Contact us for a quote tailored to your vision for the session." },
+      { question: "Do you offer both indoor and outdoor maternity sessions in Ajman?", answer: "Yes. We offer outdoor location sessions across Ajman's most photogenic spots — the Corniche, beachfront areas, and the green spaces of Al Zorah — and indoor sessions at our studio. Many Ajman families combine both: beginning with outdoor golden-hour portraits and finishing with controlled studio images in a different wardrobe. We help you plan whichever approach best suits the look you have in mind." },
+    ],
+    relatedSlugs: ["maternity-photography-dubai-2026", "maternity-photography-abu-dhabi-2026", "maternity-photography-ras-al-khaimah-2026"],
+    content: `
+<h2>Maternity Photography in Ajman</h2>
+<p>Pregnancy is one of the most significant physical and emotional experiences of a person's life, and it passes with remarkable speed. The weeks between the visible appearance of the bump and the arrival of the baby are a window that closes without warning — and professional maternity photography exists to document this specific time with the care and quality it deserves.</p>
+<p>Backyard Studio Official provides <a href="/locations/ajman/maternity-photography">maternity photography in Ajman</a> for expectant mothers and families across the emirate. We work at outdoor locations along Ajman's waterfront and nature reserves, at studio settings for a more controlled look, and in-home for lifestyle-oriented sessions that document this time in the family's actual environment.</p>
+<h2>Outdoor Maternity Sessions in Ajman</h2>
+<p>Ajman's geography offers genuinely varied backdrops for outdoor maternity photography. The Ajman Corniche provides sweeping waterfront views, golden-hour light that flatters and warms every image, and the visual openness that makes bump photography particularly beautiful in coastal settings. Al Zorah Natural Reserve offers lush mangrove greens and a quieter, more intimate feel. We scout each location in advance and schedule sessions to catch the best natural light.</p>
+<h2>Studio Maternity Photography</h2>
+<p>For expectant mothers who prefer a more controlled, editorial look, studio maternity photography offers complete mastery of light and setting. We use flowing fabrics, complementary props, and carefully calibrated lighting to produce images that have a timeless, polished quality. Studio sessions also allow for wardrobe changes and the chance to try multiple looks within a single booking.</p>
+<p>The ideal window for maternity photography is weeks 28 to 36, when the bump is beautifully pronounced and the expectant mother still has full energy for a session. We recommend booking at week 25 to ensure your Ajman slot falls perfectly within this window. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+  {
+    slug: "engagement-photographer-ajman-2026",
+    title: "Engagement Photographer in Ajman — Couple Portrait Sessions",
+    metaTitle: "Engagement Photographer Ajman | Couple Photography Sessions 2026",
+    metaDescription: "Professional engagement photography in Ajman for couples celebrating their engagement. Corniche, beach, and studio sessions. Book your Ajman engagement shoot with Backyard Studio Official.",
+    keywords: ["engagement photographer ajman", "couple photography ajman", "engagement shoot ajman", "pre-wedding photos ajman", "couple portraits ajman", "ajman engagement session"],
+    category: "Photography Guide",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1525328437458-0be9b83cd1b4?w=1200&q=80",
+    excerpt: "Beautiful engagement photography in Ajman for couples. Corniche sunset sessions, Al Zorah backdrops, and studio portraits. Celebrate your engagement with professional images.",
+    author: "Backyard Studio Official",
+    faqs: [
+      { question: "What are the best locations for engagement photography in Ajman?", answer: "The Ajman Corniche is our most popular engagement location — the waterfront setting, the golden-hour light, and the open space make it ideal for couple photography. Al Zorah Natural Reserve offers lush mangrove backgrounds for a more nature-focused feel. The old Ajman fishing harbour provides authentic UAE character and architectural texture. We can also organise desert and mountain sessions for couples who want dramatic landscape backgrounds." },
+      { question: "How long is an engagement session in Ajman?", answer: "Standard engagement sessions run 2 hours, giving us time to cover 2 to 3 locations and capture a wide variety of images — close portraits, environmental couple shots, and candid interaction moments. You receive 30 to 50 edited images delivered via a private gallery. Extended 3-hour sessions are available for couples who want to cover more locations or have a longer creative session." },
+      { question: "Can we do a sunset engagement session in Ajman?", answer: "Yes, and we highly recommend it. Ajman's waterfront locations are particularly beautiful at golden hour — the hour before sunset when the light is warm, directional, and flattering. We plan every outdoor engagement session to conclude around sunset for this reason. For the best light, we begin sessions approximately 90 minutes before the scheduled sunset time at your chosen Ajman location." },
+      { question: "Is Ajman a good backdrop for engagement photography?", answer: "Ajman offers genuinely distinctive engagement photography backdrops that differ from what is available in Dubai or Abu Dhabi. The Corniche has a more intimate scale, Al Zorah is a protected natural reserve unlike anything in Dubai, and the old harbour and fishing quarter provide authentic Emirati architectural character. Couples who want something different from the typical Dubai engagement shoot often find Ajman's variety particularly appealing." },
+      { question: "Do you photograph engagement sessions for all nationalities in Ajman?", answer: "Yes. We photograph engagement and couple sessions for couples of all nationalities, cultures, and backgrounds across the UAE. Our team understands the visual traditions and preferences of diverse communities — South Asian, Arab, Emirati, European, and international couples — and we adapt our approach to the couple in front of us rather than applying a single template to every session." },
+    ],
+    relatedSlugs: ["engagement-photographer-dubai-2026", "engagement-photographer-abu-dhabi-2026", "engagement-photographer-ras-al-khaimah-2026"],
+    content: `
+<h2>Engagement Photography in Ajman</h2>
+<p>An engagement session is the first professional photography most couples have done together — a chance to build confidence in front of the camera, to see how you look and feel as a couple in images, and to create beautiful portraits that document this particular chapter before the wedding arrives. It is also an opportunity to explore what kind of photography you connect with before the wedding day itself.</p>
+<p>Backyard Studio Official provides <a href="/locations/ajman/engagement-photography">engagement photography in Ajman</a> for couples across the emirate and the wider Northern Emirates. We work at Ajman's most photogenic locations — the Corniche waterfront, Al Zorah Natural Reserve, the historic harbour area — and at our Dubai studio for couples who prefer a controlled setting.</p>
+<h2>Ajman's Best Engagement Photography Locations</h2>
+<p>Ajman's geography is more varied than many couples realise. The Ajman Corniche offers waterfront golden-hour light and open horizons that produce beautiful couple portraits with a coastal character. Al Zorah Natural Reserve — a protected mangrove and wildlife area on the emirate's western coast — provides lush, green, nature-focused backgrounds that are completely different in character from anything available in Dubai's urban landscape. The old fishing harbour brings authentic Emirati architectural texture and a sense of place that makes images feel specific and real rather than generic.</p>
+<h2>Planning Your Ajman Engagement Session</h2>
+<p>We begin every engagement session with a consultation to understand the couple's aesthetic preferences, discuss location options, and plan the session timing around the best natural light. Most outdoor sessions are timed to conclude at sunset — the golden-hour light along Ajman's waterfront is particularly warm and flattering for couple photography.</p>
+<p>Sessions run 2 hours and produce 30 to 50 edited images covering a range of setups and moods. You receive a private online gallery within 5 to 7 business days. To book your Ajman engagement session, contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+  {
+    slug: "headshot-photographer-fujairah-2026",
+    title: "Headshot Photographer in Fujairah — Professional Corporate Portraits",
+    metaTitle: "Headshot Photographer Fujairah | Corporate Portrait Photography 2026",
+    metaDescription: "Professional headshot photography in Fujairah for executives, professionals, and corporate teams. LinkedIn portraits and business headshots. Book your Fujairah session today.",
+    keywords: ["headshot photographer fujairah", "professional headshots fujairah", "corporate portraits fujairah", "linkedin photo fujairah", "executive headshot fujairah", "fujairah photography"],
+    category: "Photography Guide",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=1200&q=80",
+    excerpt: "Professional headshot photography in Fujairah for executives and corporate teams. LinkedIn portraits and business headshots serving all Fujairah businesses and professionals.",
+    author: "Backyard Studio Official",
+    faqs: [
+      { question: "Do you travel to Fujairah for headshot sessions?", answer: "Yes. We travel throughout Fujairah for headshot sessions — to your office in Fujairah City, the Free Zone, or any location across the emirate. Corporate team day bookings are particularly efficient in Fujairah, where we set up at your premises and photograph the full team in succession. Travel from Dubai to Fujairah is included in our Northern Emirates pricing for group bookings." },
+      { question: "How long does a headshot session in Fujairah take?", answer: "Individual headshot sessions run 60 to 90 minutes. Corporate team days are planned based on team size — typically 15 to 20 minutes per person for a consistent, efficient rotation. We deliver 5 to 10 edited images per individual and send all images within 3 to 5 business days of the session via a shared private gallery." },
+      { question: "What makes a good headshot for LinkedIn?", answer: "A good LinkedIn headshot shows a clear, well-lit face with a natural expression that is both approachable and professional. The background should be simple and not compete with your face. The crop should centre the face with some space above the head. The clothing should match the professional context you are operating in — a tech entrepreneur and a banking executive will have different appropriate wardrobe choices for the same platform." },
+      { question: "Can you do outdoor headshots in Fujairah?", answer: "Yes. Fujairah's dramatic mountain and coastline scenery makes it one of the most visually interesting UAE emirates for outdoor professional photography. We can incorporate the Hajar Mountains, Fujairah's historic fort, the marina, or the beach as environmental backdrops for executive portraits that look distinctive and grounded in place. Outdoor options are particularly popular with tourism, hospitality, and adventure industry professionals based in Fujairah." },
+      { question: "How much do headshots cost in Fujairah?", answer: "Individual headshot sessions in Fujairah start from AED 1,400 including the session fee, travel, and 5 edited images. Corporate team bookings are priced per person with group rates for teams of five or more. Contact us for a customised quote for your Fujairah team — we can design a full-day programme that photographs your entire organisation in a single efficient session." },
+    ],
+    relatedSlugs: ["headshot-photography-dubai-2026", "headshot-photographer-abu-dhabi-2026", "headshot-photographer-ajman-2026"],
+    content: `
+<h2>Professional Headshot Photography in Fujairah</h2>
+<p>Fujairah's professional community is growing steadily — the Free Zone, the port, the tourism and hospitality sector, and the financial services industry that has followed. As more businesses and professionals establish themselves in Fujairah, the need for professional headshot photography has grown correspondingly. A high-quality professional portrait communicates credibility and professionalism before any conversation begins.</p>
+<p>Backyard Studio Official provides <a href="/locations/fujairah/headshot-photography">headshot photography in Fujairah</a> for individual executives and full corporate teams. We travel to your location throughout the emirate — offices in Fujairah City and the Free Zone, hotels and hospitality venues, outdoor locations against the emirate's distinctive mountain and coastal scenery.</p>
+<h2>Corporate Team Headshots in Fujairah</h2>
+<p>Consistent, high-quality team photography is one of the most visible aspects of a company's professional presentation. We photograph corporate teams in Fujairah using a structured rotation system — each team member allocated a dedicated slot, photographed efficiently against a consistent background, and delivered images that form a unified gallery. The result transforms the 'About Us' or 'Our Team' pages of websites from an afterthought into a genuine asset.</p>
+<h2>Environmental Portraits in Fujairah</h2>
+<p>Fujairah offers environmental backdrop options unlike any other UAE emirate: the Hajar Mountains, the historic fort, the coastline and marina, the rugged terrain that makes Fujairah visually distinct from the urban landscape of Dubai or Abu Dhabi. For professionals in industries connected to the outdoors, tourism, adventure, or the maritime sector, environmental portraits that incorporate Fujairah's landscape can be more powerful and distinctive than conventional studio headshots.</p>
+<p>To book a headshot session in Fujairah — individual or corporate team — contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+  {
+    slug: "newborn-photographer-fujairah-2026",
+    title: "Newborn Photographer in Fujairah — Baby Photography Sessions",
+    metaTitle: "Newborn Photographer Fujairah | Baby Photography Sessions 2026",
+    metaDescription: "Professional newborn photography in Fujairah for babies in their first weeks. In-home and studio sessions available. Safe, gentle, and beautifully documented. Book your Fujairah session.",
+    keywords: ["newborn photographer fujairah", "baby photography fujairah", "newborn photos fujairah", "infant photography fujairah", "newborn session fujairah", "baby photographer fujairah"],
+    category: "Photography Guide",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=1200&q=80",
+    excerpt: "Gentle, professional newborn photography in Fujairah. In-home sessions across the emirate and studio options for families in their first weeks with a new baby.",
+    author: "Backyard Studio Official",
+    faqs: [
+      { question: "Do you travel to Fujairah for newborn photography sessions?", answer: "Yes. We travel throughout Fujairah for in-home newborn photography sessions — to Fujairah City, Dibba Al Fujairah, Khor Fakkan, Kalba, and all areas of the emirate. We bring our complete kit of props, wraps, and equipment to your home. Travel is included in our standard Northern Emirates newborn session pricing for in-home bookings." },
+      { question: "What is included in a Fujairah newborn session?", answer: "Each newborn session includes: pre-shoot consultation and preparation guidance, the full session at your home or our studio, all props and fabrics, 20 to 30 fully retouched high-resolution images delivered via private online gallery, and print release for personal use. We are available by WhatsApp throughout the planning process to answer any questions you have before your Fujairah session." },
+      { question: "How do you keep the baby safe during the session?", answer: "Safety is the governing principle of everything we do in a newborn session. The room temperature is maintained at a level comfortable for the baby. All fabrics and props are sanitised before each session. We work slowly, gently, and never rush between setups. No pose is forced — if a baby resists a position, we move on. Parents remain present and involved throughout every session, and we stop immediately whenever the baby needs attention." },
+      { question: "What age is best for newborn photography in Fujairah?", answer: "The optimal window is days 5 to 14 after birth — when babies still sleep deeply and can be gently settled into classic newborn poses. After 3 weeks, babies become more alert and some classic poses become more difficult to achieve safely. We use a flexible due-date booking system that holds a provisional date and adjusts when your baby arrives, ensuring your Fujairah slot falls within the ideal window." },
+      { question: "Can siblings and parents be included in the newborn session?", answer: "Yes, and sibling and family images are among the most emotionally significant images from a newborn session. We include family and sibling images in every session as standard. These are typically photographed towards the beginning of the session when the baby first settles, or at the end when everyone is more relaxed. The natural interaction between siblings and the new baby — the curiosity, the wonder, the first holding — produces some of the most beautiful images of the day." },
+    ],
+    relatedSlugs: ["newborn-photographer-dubai-2026", "newborn-photographer-abu-dhabi-2026", "newborn-photographer-ajman-2026"],
+    content: `
+<h2>Newborn Photography in Fujairah</h2>
+<p>The window for newborn photography is brief and specific — the first two weeks of life when a baby still sleeps with the depth and completeness of the womb, when the details of new human existence are at their most extraordinary, and when the story of a new family is just beginning to be written. Professional newborn photography captures this window with the precision and care that camera phone images simply cannot achieve.</p>
+<p>Backyard Studio Official provides <a href="/locations/fujairah/newborn-photography">newborn photography in Fujairah</a> for families throughout the emirate. We travel to homes in Fujairah City, Dibba, Khor Fakkan, and across the emirate, bringing our complete photography kit and working within your home at your family's pace.</p>
+<h2>In-Home Newborn Photography in Fujairah</h2>
+<p>Fujairah's families often live in homes and villas that have particular character — properties with natural light from multiple directions, outdoor spaces, and a sense of place that is specific to the emirate. In-home newborn photography documents the baby not just as a subject but in context: the nursery the family prepared, the home where family life is beginning, the specific environment that will be part of this baby's earliest memories.</p>
+<p>We arrive with everything needed for a complete newborn session — wraps in a range of neutral tones, wooden props, baskets, fabric backgrounds — and work through the session slowly, responding to what the baby needs rather than working to a fixed schedule. The goal is 20 to 30 finished images that form a complete record: posed setups, detail shots of tiny hands and feet, and natural family moments.</p>
+<h2>Booking Your Fujairah Newborn Session</h2>
+<p>We recommend booking during your second trimester and scheduling a provisional session date in the first two weeks after your due date. Our flexible system adjusts when your baby arrives so your Fujairah slot always falls in the ideal window. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to begin the booking process.</p>
+`,
+  },
+  {
+    slug: "headshot-photographer-umm-al-quwain-2026",
+    title: "Headshot Photographer in Umm Al Quwain — Professional Portraits",
+    metaTitle: "Headshot Photographer Umm Al Quwain | Corporate Portraits 2026",
+    metaDescription: "Professional headshot photography in Umm Al Quwain for executives and corporate teams. LinkedIn portraits and business headshots. Book your UAQ session with Backyard Studio Official.",
+    keywords: ["headshot photographer umm al quwain", "headshots uaq", "corporate portraits umm al quwain", "linkedin photo uaq", "professional photographer umm al quwain", "uaq photography"],
+    category: "Photography Guide",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=1200&q=80",
+    excerpt: "Professional headshot photography in Umm Al Quwain for executives, professionals, and teams. LinkedIn and corporate portraits serving UAQ businesses.",
+    author: "Backyard Studio Official",
+    faqs: [
+      { question: "Do you photograph headshots in Umm Al Quwain?", answer: "Yes. We travel throughout Umm Al Quwain for professional headshot and corporate portrait sessions. We can photograph at your UAQ office or business premises, at outdoor locations along the emirate's lagoon and waterfront, or arrange sessions at our Dubai studio for clients who prefer a more accessible location. Travel to UAQ is factored into our Northern Emirates pricing for group bookings." },
+      { question: "What types of headshots do you produce in UAQ?", answer: "We produce the full range of professional portrait types for UAQ clients: clean corporate headshots on neutral backgrounds for company directories and press use, LinkedIn-optimised portraits sized and cropped for professional networking, environmental portraits that incorporate the UAQ setting, and team headshots that create a consistent visual identity across an organisation's public-facing photography." },
+      { question: "How quickly do we receive our headshot images?", answer: "Edited images from your UAQ headshot session are delivered within 3 to 5 business days via a private online gallery. Each image is fully retouched — colour corrected, skin smoothed where appropriate, and optimised for both digital and print use. We also provide the images in web-optimised sizes for direct upload to LinkedIn and company websites without any additional resizing." },
+      { question: "Can you photograph a small team in UAQ in one session?", answer: "Yes. We regularly photograph small teams of 3 to 10 people in a single efficiently structured session. For teams in UAQ, we typically set up at your office and photograph each person in a rotation, ensuring consistent backgrounds and lighting across the full team. This is the most efficient approach for small businesses and professional practices in the Northern Emirates." },
+      { question: "Do you photograph professionals in UAQ's Free Trade Zone?", answer: "Yes. The UAQ Free Trade Zone community is one of the primary audiences for professional headshots in the emirate, and we have experience photographing both individual professionals and teams based in the Free Zone. We can photograph at the Free Zone premises, at nearby UAE locations, or at our Dubai studio depending on what is most practical for your team's schedule." },
+    ],
+    relatedSlugs: ["headshot-photography-dubai-2026", "headshot-photographer-ajman-2026", "headshot-photographer-sharjah-2026"],
+    content: `
+<h2>Professional Headshot Photography in Umm Al Quwain</h2>
+<p>Umm Al Quwain's professional community — centred around the Free Trade Zone, the marine and hospitality sector, and the businesses that serve a growing emirate — has the same need for high-quality professional headshots as the larger UAE emirates. A professional portrait communicates competence and credibility, and the quality of that image reflects directly on the individual and the organisation they represent.</p>
+<p>Backyard Studio Official provides <a href="/locations/umm-al-quwain/headshot-photography">headshot photography in Umm Al Quwain</a> for individual professionals and corporate teams throughout the emirate. We travel to your UAQ location and set up a professional photography environment wherever you need us — whether that is a boardroom, an office space, or an outdoor setting along UAQ's distinctive lagoon waterfront.</p>
+<h2>Individual Professional Portraits</h2>
+<p>Individual headshot sessions are designed around the professional's specific needs. We discuss the platform and context the images will be used for — LinkedIn profile, company website, conference materials, press use — and adapt the lighting, background, and composition accordingly. A financial professional and a tourism executive will project themselves differently, and their headshots should reflect that difference.</p>
+<h2>Team Headshot Days in UAQ</h2>
+<p>For UAQ businesses, a team headshot day is one of the most efficient professional investments available. We arrive at your premises, set up a consistent lighting and background configuration, and photograph each team member in succession — typically 15 to 20 minutes per person. The result is a cohesive set of professional portraits that works as a gallery on your website and across your marketing materials.</p>
+<p>UAQ's Free Trade Zone businesses in particular benefit from consistent team photography: the FTZ business environment has an international dimension that makes professional presentation more visible. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to book your UAQ headshot session.</p>
+`,
+  },
+  {
+    slug: "newborn-photographer-umm-al-quwain-2026",
+    title: "Newborn Photographer in Umm Al Quwain — Baby Photography Sessions",
+    metaTitle: "Newborn Photographer Umm Al Quwain | Baby Photography 2026",
+    metaDescription: "Professional newborn photography in Umm Al Quwain for babies in their first weeks. In-home sessions throughout UAQ. Safe, gentle, beautifully documented. Book your session today.",
+    keywords: ["newborn photographer umm al quwain", "baby photography uaq", "newborn photos uaq", "infant photography umm al quwain", "newborn session uaq", "baby photographer uaq"],
+    category: "Photography Guide",
+    date: "June 23, 2026",
+    dateISO: "2026-06-23",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=1200&q=80",
+    excerpt: "Gentle, professional newborn photography in Umm Al Quwain. In-home sessions throughout UAQ for families in the precious first weeks with a new baby.",
+    author: "Backyard Studio Official",
+    faqs: [
+      { question: "Do you travel to Umm Al Quwain for newborn photography?", answer: "Yes. We travel throughout Umm Al Quwain for in-home newborn photography sessions, covering UAQ City, Al Salam City, and all residential areas of the emirate. We bring our complete newborn photography kit — props, wraps, fabrics, backgrounds — and work within your home at your family's pace. Travel to Umm Al Quwain is included in our Northern Emirates newborn session pricing." },
+      { question: "What is the best time to book a newborn session in UAQ?", answer: "Book during your second trimester — we recommend around week 20 to 25. We use a flexible due-date booking system that schedules a provisional session in the first two weeks after your due date and adjusts automatically when your baby arrives. This ensures your UAQ slot always falls within the ideal 5 to 14 day window when newborn photography is most effective." },
+      { question: "How do you approach in-home newborn sessions in UAQ?", answer: "We arrive at your UAQ home with everything needed for a complete session and work entirely at the baby's pace. We have no fixed agenda and no rushed schedule — we move through setups slowly, stopping whenever the baby needs feeding, settling, or comfort. The session typically runs 2 to 3 hours and produces 20 to 30 finished images covering posed setups, detail shots, and natural family moments." },
+      { question: "Can we have maternity and newborn photography as a package?", answer: "Yes. Our maternity and newborn bundle packages are popular with UAQ families who want to document the complete journey from pregnancy to the baby's arrival. You receive a maternity session in weeks 30 to 36, a newborn session in the first two weeks after birth, and a combined gallery that tells the story of your family's transition. Contact us for bundle pricing for UAQ families." },
+      { question: "Are newborn photography props safe for such young babies?", answer: "All props used in our newborn sessions are specifically designed and selected for safety with very young infants. Wraps are soft, breathable, and sized appropriately. Surfaces are padded and temperature-controlled. We never use props that require an unsafe position or that could compromise the baby in any way. Every setup is reviewed with safety as the primary criterion, and parents are involved in approving each pose and prop choice." },
+    ],
+    relatedSlugs: ["newborn-photographer-dubai-2026", "newborn-photographer-abu-dhabi-2026", "newborn-photographer-ajman-2026"],
+    content: `
+<h2>Newborn Photography in Umm Al Quwain</h2>
+<p>The newborn phase is the most fleeting and most photographically extraordinary period in a child's life. The specific smallness of a brand-new baby, the way they sleep with complete abandon in the first two weeks, the tiny details of fingers and toes and eyelashes — these are things that only exist in this window. Professional newborn photography documents them with a quality and intentionality that preserves them permanently.</p>
+<p>Backyard Studio Official provides <a href="/locations/umm-al-quwain/newborn-photography">newborn photography in Umm Al Quwain</a> for families throughout the emirate. We travel to your home in UAQ City and the surrounding communities, bringing a complete professional photography setup and working entirely within your environment and at your family's rhythm.</p>
+<h2>In-Home Newborn Photography in UAQ</h2>
+<p>In-home lifestyle newborn sessions are particularly well-suited to the residential character of Umm Al Quwain, where many families live in villas and apartments that provide natural light and personal spaces meaningful to the family. We photograph the baby in the nursery, in the family living spaces, and in the specific moments that define these first weeks — parents holding the baby, siblings meeting the new arrival, the ordinary and extraordinary details of the beginning of this person's life.</p>
+<p>Sessions are slow, patient, and completely unrushed. We work until we have the images we need rather than to a fixed clock, and we pause whenever the baby needs attention. The goal is 20 to 30 finished images: a posed gallery, detail documentation, and family moments that together form a complete record of this specific baby in their first days.</p>
+<h2>Booking Your UAQ Newborn Session</h2>
+<p>We recommend booking during your second trimester. Our due-date booking system holds your UAQ slot and adjusts when your baby arrives, ensuring the session falls within the ideal 5 to 14 day window. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to begin planning your Umm Al Quwain newborn session.</p>
+`,
+  },
+
 ];
 export function getBlogPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
