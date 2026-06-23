@@ -371,4 +371,34 @@ URLS = [
     f"https://{HOST}/locations/sharjah/fashion-photography",
     f"https://{HOST}/locations/sharjah/social-media-content",
     f"https://{HOST}/locations/sharjah/birthday-photography",
-    f"https://{HOST}/loc
+    f"https://{HOST}/locations/sharjah/kids-photography",
+    f"https://{HOST}/locations/sharjah/engagement-photography",
+    # Sprint 17: Ajman location sub-pages (2026-06-23)
+    f"https://{HOST}/locations/ajman/headshot-photography",
+    f"https://{HOST}/locations/ajman/newborn-photography",
+    f"https://{HOST}/locations/ajman/maternity-photography",
+    f"https://{HOST}/locations/ajman/fashion-photography",
+    f"https://{HOST}/locations/ajman/social-media-content",
+    f"https://{HOST}/locations/ajman/birthday-photography",
+    f"https://{HOST}/locations/ajman/kids-photography",
+    f"https://{HOST}/locations/ajman/engagement-photography",
+]
+
+payload = {
+    "host": HOST,
+    "key": API_KEY,
+    "keyLocation": KEY_LOCATION,
+    "urlList": URLS,
+}
+
+req = urllib.request.Request(
+    "https://api.indexnow.org/indexnow",
+    data=json.dumps(payload).encode("utf-8"),
+    headers={"Content-Type": "application/json; charset=utf-8"},
+    method="POST",
+)
+
+with urllib.request.urlopen(req) as resp:
+    print(f"Status: {resp.status}")
+    print(f"URLs submitted: {len(URLS)}")
+    print("Done.")

@@ -261,5 +261,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/zh/blog/meishi-paizhao-dubai-2026",                  lastModified: now, changeFrequency: "monthly", priority: 0.75 },
   ];
 
-  return [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...services, ...locations, ...industries, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
+  // Sprint 17: Ajman location sub-pages (2026-06-23)
+  const ajmanSubPages: MetadataRoute.Sitemap = [
+    { url: BASE + "/locations/ajman/headshot-photography",           lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/ajman/newborn-photography",            lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/ajman/maternity-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/ajman/fashion-photography",            lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/ajman/social-media-content",           lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/ajman/birthday-photography",           lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/ajman/kids-photography",               lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: BASE + "/locations/ajman/engagement-photography",         lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+  ];
+
+
+  return [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...ajmanSubPages, ...services, ...locations, ...industries, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
 }

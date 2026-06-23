@@ -1225,6 +1225,249 @@ const PAGES: Record<string, ServicePage> = {
     ],
   },
 
+  // ── AJMAN ─────────────────────────────────────────────────────────────────
+
+  "ajman/headshot-photography": {
+    title: "Headshot Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Professional headshot photographer in Ajman — LinkedIn profiles, corporate portraits, executive headshots at Ajman Corniche and Free Zone. 48-hour delivery. From AED 750.",
+    h1: "Headshot Photography in Ajman",
+    subtitle: "Ajman Corniche. Free Zone. Museum Quarter. Professional headshots, precisely delivered.",
+    category: "HEADSHOT PHOTOGRAPHY",
+    intro: [
+      "Ajman's professional landscape spans the Ajman Free Zone — one of the UAE's most active SME and manufacturing hubs — along with government institutions, healthcare facilities, and a growing community of entrepreneurs and independent professionals. For every professional in this environment, a credible headshot is the first layer of trust that prospective clients, employers, and partners encounter. Backyard Studio Official produces professional headshots in Ajman that hold up at every scale — LinkedIn profiles, corporate directories, press features, and website team pages.",
+      "We shoot along the Ajman Corniche for open waterfront backgrounds, use the Ajman Museum quarter for heritage context, set up portable studio backgrounds at Free Zone offices, and work at Al Zorah for natural surroundings. Every session begins with a brief conversation about how the images will be used, what wardrobe the client is planning, and what quality of result they actually need — because those answers shape every decision we make on set.",
+    ],
+    highlights: [
+      { heading: "Ajman Free Zone Corporate Headshots", body: "Ajman Free Zone hosts thousands of registered businesses across manufacturing, trading, and services. We travel to your office and set up a portable studio on-site to photograph full teams in a single coordinated day, delivering consistent professional headshots for your company website and directory listings." },
+      { heading: "Ajman Corniche Locations", body: "The Ajman Corniche provides a clean, open waterfront backdrop with the Gulf as background — professional without the visual congestion of Dubai's skyline, and immediately recognisable to UAE regional audiences." },
+      { heading: "Museum Quarter Context", body: "Ajman Museum's historic fort and surrounding quarter provides sandstone architecture and heritage context for headshots where a sense of place and professional credibility both matter." },
+      { heading: "48-Hour Delivery", body: "Standard edited delivery in 48 hours. Rush next-day or same-day delivery available for press appearances, conference deadlines, or immediate website updates." },
+    ],
+    pricing: [
+      { pkg: "Individual Headshot", detail: "90 min / 1–2 looks / 10–15 edited images", price: "From AED 750" },
+      { pkg: "Executive Session", detail: "2 hrs / 2 locations / 20 final images", price: "From AED 1,400" },
+      { pkg: "Team Day (per person)", detail: "On-site portable studio / consistent images", price: "From AED 350 / person" },
+      { pkg: "Personal Brand Package", detail: "3 hrs / 3 looks / 40 images / social media ready", price: "From AED 2,200" },
+    ],
+    faqs: [
+      { q: "Where do you shoot headshots in Ajman?", a: "Ajman Corniche for open waterfront backgrounds, Ajman Museum quarter for heritage context, Al Zorah Nature Reserve for natural surroundings, and our portable studio setup for clean seamless-background corporate portraits at your Free Zone or city office." },
+      { q: "Can you photograph our full company team in Ajman?", a: "Yes. We travel to your Ajman Free Zone office or facility, set up a portable studio on-site, and photograph your entire team in a single coordinated day. Final images are delivered with consistent lighting, background, and colour grade across all team members." },
+      { q: "How much does a professional headshot cost in Ajman?", a: "Individual sessions start from AED 750 for a 90-minute shoot with 10 to 15 edited images. Executive sessions from AED 1,400. Team days at AED 350 per person. Personal brand packages from AED 2,200." },
+      { q: "How quickly will I receive my headshot images?", a: "Standard delivery is within 48 hours. Rush same-day and next-day options are available for conference deadlines, press submissions, or urgent website requirements." },
+    ],
+  },
+
+  "ajman/newborn-photography": {
+    title: "Newborn Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Newborn photographer in Ajman — safe posed and lifestyle newborn sessions for families. Home visits, studio setups and Al Zorah natural sessions. From AED 1,400.",
+    h1: "Newborn Photography in Ajman",
+    subtitle: "Al Zorah. Ajman Corniche. Your home. Safe, gentle newborn photography.",
+    category: "NEWBORN PHOTOGRAPHY",
+    intro: [
+      "The first two weeks of a newborn's life pass faster than any parent expects. The particular way a newborn curls, the texture of their skin, the weight of them in a parent's arms — these are details that belong to a narrow window of days. Backyard Studio Official produces professional newborn photography in Ajman that captures these fleeting details honestly and gently, creating images that genuinely reflect the experience of those first days rather than a performed version of it.",
+      "We work within Ajman's family communities with full understanding of the cultural norms that matter to new parents here. Sessions are unhurried and led by the baby's readiness rather than a fixed schedule. We offer home visits across Ajman — Al Rashidiya, Al Nuaimiya, Al Rawda, and surrounding areas — as well as outdoor lifestyle sessions at Al Zorah Nature Reserve, and portable studio setups for families who prefer controlled backgrounds.",
+    ],
+    highlights: [
+      { heading: "Safe Posing Practice", body: "Every pose we use is specifically designed for newborns and executed with the safety of the baby as the primary consideration. No pose, prop, or position is used that creates any risk — always safety first, aesthetics second." },
+      { heading: "Home Visit Sessions", body: "We bring our equipment to your Ajman home and photograph the newborn in the environment where they actually live — in the bassinet, in a parent's arms on the sofa, in the nursery. These images have an intimacy and authenticity that studio images often lack." },
+      { heading: "Al Zorah Nature Sessions", body: "Al Zorah Nature Reserve's mangroves and waterside environments provide a beautifully natural backdrop for family and newborn lifestyle photography — open, calm, and distinctly different from urban studio settings." },
+      { heading: "Culturally Aware Sessions", body: "We are experienced working with Ajman's diverse family communities and understand the preferences around privacy, modesty, and session conduct that matter to families here. All requirements are welcomed and respected." },
+    ],
+    pricing: [
+      { pkg: "Lifestyle Home Session", detail: "2 hrs at your home / 30–40 images", price: "From AED 1,400" },
+      { pkg: "Posed Studio Session", detail: "3 hrs / wraps and props / 40 images", price: "From AED 1,800" },
+      { pkg: "Family Welcome Session", detail: "Newborn + siblings + parents / 50 images", price: "From AED 2,200" },
+      { pkg: "Al Zorah Outdoor Session", detail: "2 hrs nature setting / 35 images", price: "From AED 1,600" },
+    ],
+    faqs: [
+      { q: "When is the best time to photograph a newborn in Ajman?", a: "Between 5 and 14 days after birth. Newborns in this window sleep deeply and curl naturally into the gentle poses that define newborn photography. After two weeks, the baby becomes more alert and less comfortable with extended handling." },
+      { q: "Do you come to our home in Ajman?", a: "Yes. We offer home visit sessions across Ajman — Al Rashidiya, Al Nuaimiya, Al Rawda, and surrounding neighbourhoods. We bring all equipment needed for both lifestyle and posed sessions. Home sessions have a natural intimacy that studio images rarely replicate." },
+      { q: "Is newborn photography safe?", a: "Safety is the first and non-negotiable consideration in every session. All poses are specifically designed for newborns and executed with care. We never rush, never force, and never place a baby in any position that could cause discomfort or risk." },
+      { q: "How much does newborn photography in Ajman cost?", a: "Lifestyle home sessions start from AED 1,400. Posed studio sessions from AED 1,800. Family welcome sessions from AED 2,200. Al Zorah outdoor sessions from AED 1,600." },
+    ],
+  },
+
+  "ajman/maternity-photography": {
+    title: "Maternity Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Maternity photographer in Ajman — elegant bump sessions at Al Zorah Nature Reserve, Ajman Corniche and home visits. Culturally respectful. From AED 1,200.",
+    h1: "Maternity Photography in Ajman",
+    subtitle: "Al Zorah Nature Reserve. Ajman Corniche. Your home. Maternity photography with presence.",
+    category: "MATERNITY PHOTOGRAPHY",
+    intro: [
+      "Pregnancy is one of the most significant chapters of a woman's life, and the physical reality of late pregnancy — the shape, the light, the emotional weight of what is about to change — deserves to be documented with intention. Backyard Studio Official produces maternity photography in Ajman that is both genuinely beautiful and deeply authentic, creating images that mothers return to for decades rather than ones that simply exist to be posted once and forgotten.",
+      "We work across Ajman's most beautiful natural and architectural settings — Al Zorah Nature Reserve for verdant, mangrove-surrounded landscapes, the Ajman Corniche for golden-hour waterfront sessions, and the Al Rashidiya and Al Nuaimiya residential areas for home visits. We are experienced with all cultural and modesty requirements that matter to expectant mothers in Ajman's community, and we approach every conversation about wardrobe, style, and session boundaries with full respect and without assumption.",
+    ],
+    highlights: [
+      { heading: "Al Zorah Nature Reserve", body: "Ajman's most visually distinctive natural setting — mangroves, waterways, and open sky create a genuinely beautiful environment for maternity photography that feels different from any Dubai or Sharjah location." },
+      { heading: "Ajman Corniche Golden Hour", body: "The Ajman Corniche at golden hour provides soft waterfront light and Gulf views — a warm, open environment that flatters maternity photography naturally and produces images with real warmth and depth." },
+      { heading: "Home Visit Sessions", body: "For expectant mothers who prefer privacy and comfort, we offer home visit sessions throughout Ajman. Photographing in the family home creates intimate, personal images that capture the domestic reality of the pregnancy." },
+      { heading: "Culturally Sensitive Approach", body: "Modest styling, covered arms and shoulders, abaya-inclusive sessions, and family inclusion are all accommodated without hesitation. We discuss styling and comfort preferences in detail before every session." },
+    ],
+    pricing: [
+      { pkg: "Corniche Sunset Session", detail: "90 min / 1 outfit / 30 images", price: "From AED 1,200" },
+      { pkg: "Al Zorah Nature Session", detail: "2 hrs / 2 outfits / 40 images", price: "From AED 1,600" },
+      { pkg: "Home Lifestyle Session", detail: "2 hrs at your home / 35 images", price: "From AED 1,400" },
+      { pkg: "Full Maternity Collection", detail: "3 hrs / 3 locations / 60 images / print-ready files", price: "From AED 2,800" },
+    ],
+    faqs: [
+      { q: "When should I book my maternity photoshoot in Ajman?", a: "The ideal window is between 28 and 34 weeks of pregnancy. The bump is fully defined and prominent, you are typically still comfortable and mobile, and there is enough time before the due date for a relaxed session. We recommend booking at around 24 weeks to secure your preferred time and location." },
+      { q: "What are the best locations for maternity photography in Ajman?", a: "Al Zorah Nature Reserve for natural mangrove and waterside settings, the Ajman Corniche at golden hour for waterfront light, and home visit sessions for intimate documentary-style images. We recommend the session location based on the style of images the expectant mother wants." },
+      { q: "Do you accommodate modest clothing in maternity sessions?", a: "Yes, fully. Abaya sessions, covered arms and shoulders, modest dress requirements, and family inclusion are all accommodated without any adjustment to the quality of the images we produce. These sessions are a regular part of how we work." },
+      { q: "How much does maternity photography cost in Ajman?", a: "Corniche sessions start from AED 1,200. Al Zorah nature sessions from AED 1,600. Home lifestyle sessions from AED 1,400. Full maternity collections from AED 2,800." },
+    ],
+  },
+
+  "ajman/fashion-photography": {
+    title: "Fashion Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Fashion photographer in Ajman — editorial shoots, modest fashion, lookbook and e-commerce photography. Al Zorah, Ajman Museum and studio. From AED 1,600.",
+    h1: "Fashion Photography in Ajman",
+    subtitle: "Al Zorah. Ajman Museum. Studio. Fashion photography for modest and editorial markets.",
+    category: "FASHION PHOTOGRAPHY",
+    intro: [
+      "Ajman's fashion photography market is shaped by the emirate's character — a strong tradition of modesty, a growing community of independent designers and boutique retailers, and proximity to Sharjah's major fashion institutions and markets. Backyard Studio Official produces fashion photography in Ajman for brands, designers, independent stylists, and e-commerce retailers who need imagery that communicates clearly, converts effectively, and represents their aesthetic with precision.",
+      "We work across Ajman's most visually interesting environments — Al Zorah Nature Reserve for editorial campaigns set against natural backdrops, Ajman Museum's heritage architecture for shoots with cultural and contextual depth, and our portable studio setup for clean, controlled e-commerce and lookbook photography. We are particularly experienced with modest fashion photography, including abaya collections, covered fashion, and culturally specific styling requirements.",
+    ],
+    highlights: [
+      { heading: "Modest Fashion Specialists", body: "Abaya collections, modest dress, covered fashion, and Islamic modest wear are a substantial part of our fashion photography work in Ajman. We understand these garments, how they move, how they should be styled, and how to photograph them with the same technical excellence we bring to any fashion project." },
+      { heading: "Al Zorah Editorial Campaigns", body: "Al Zorah Nature Reserve's mangrove environments, waterways, and open natural light create a distinctive editorial backdrop for fashion campaigns that want a natural, organic aesthetic clearly distinct from studio or urban imagery." },
+      { heading: "Ajman Museum Heritage Shoots", body: "The historic fort and surrounding heritage architecture at Ajman Museum provides sandstone textures, traditional Emirati architectural context, and a strong sense of place for fashion shoots requiring cultural depth and visual character." },
+      { heading: "E-Commerce Catalogue Photography", body: "Consistent, clean product-focused fashion photography for online retailers — multiple looks, consistent lighting, and efficient turnaround for catalogue shooting that drives actual conversion." },
+    ],
+    pricing: [
+      { pkg: "Lookbook Session", detail: "3 hrs / 1 model / 3 looks / 30 images", price: "From AED 1,600" },
+      { pkg: "Editorial Campaign", detail: "Full day / creative direction / 60 final images", price: "From AED 3,500" },
+      { pkg: "E-Commerce Catalogue", detail: "Per look / clean backgrounds / product focus", price: "From AED 250 / look" },
+      { pkg: "Modest Fashion Collection", detail: "Half day / abaya and modest wear focus / 40 images", price: "From AED 2,200" },
+    ],
+    faqs: [
+      { q: "Do you photograph abaya and modest fashion collections in Ajman?", a: "Yes. Modest fashion photography is a significant part of our work in Ajman and across the Northern Emirates. We photograph abaya collections, modest dress lines, covered fashion, and Islamic modest wear with full creative and technical attention." },
+      { q: "What are the best fashion photography locations in Ajman?", a: "Al Zorah Nature Reserve for natural editorial backdrops, Ajman Museum for heritage architectural context, and our portable studio for clean e-commerce and lookbook photography. Location is chosen based on the brand's aesthetic and the collection's requirements." },
+      { q: "Can you provide models for fashion shoots in Ajman?", a: "Yes. We work with a network of professional models in the UAE across all sizes, ethnicities, and styling requirements, including modest fashion models. Model procurement is coordinated as part of our full production service." },
+      { q: "How much does fashion photography cost in Ajman?", a: "Lookbook sessions start from AED 1,600. Editorial campaigns from AED 3,500. E-commerce catalogue photography from AED 250 per look. Modest fashion collection packages from AED 2,200." },
+    ],
+  },
+
+  "ajman/social-media-content": {
+    title: "Social Media Content Creation in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Social media content creator in Ajman — reels, photos, UGC and brand content for Instagram, TikTok and LinkedIn. Ajman businesses and creators. From AED 1,800.",
+    h1: "Social Media Content Creation in Ajman",
+    subtitle: "Reels. Photos. Brand content. Social media production for Ajman businesses.",
+    category: "SOCIAL MEDIA CONTENT",
+    intro: [
+      "Ajman's business community — spanning the Free Zone, retail, hospitality, food and beverage, healthcare, and professional services — faces the same content pressure as every business across the UAE: social media requires consistent, high-quality visual content to remain relevant and attract clients. The difference between businesses that grow their social media presence and those that stagnate is almost always the quality and consistency of their content. Backyard Studio Official produces professional social media content for Ajman businesses that is built to perform on the platforms that matter to their specific audience.",
+      "We produce reels for Instagram and TikTok, product and service photography for e-commerce and promotional posts, behind-the-scenes content that humanises brands and builds trust, and content packages designed for consistent publishing schedules. We work across all of Ajman's business sectors and understand the tonal and cultural requirements that resonate with both local Emirati audiences and the emirate's significant South Asian and Arab expat communities.",
+    ],
+    highlights: [
+      { heading: "Reels and Short-Form Video", body: "Professionally shot and edited reels for Instagram and TikTok — scripted to your brief, filmed on location or in studio, edited with captions, music, and transitions that match your brand's established style and tone." },
+      { heading: "Monthly Content Packages", body: "Ongoing monthly content production — a set number of posts, reels, and stories delivered on a rolling schedule — so your social media presence runs consistently without requiring daily attention from you or your team." },
+      { heading: "Product and Service Content", body: "Clean, high-quality photography and video for products, services, menus, and offerings — shot to perform in feed posts, stories, and paid promotions across Instagram, TikTok, and Facebook." },
+      { heading: "UGC-Style Content", body: "Authentic user-generated-content-style posts that build trust and social proof — shot to feel native to the platform and genuine to your audience rather than produced and staged." },
+    ],
+    pricing: [
+      { pkg: "Content Day (Photo)", detail: "4 hrs / 30 edited images / platform-ready", price: "From AED 1,800" },
+      { pkg: "Reels Package", detail: "3 reels / shot + edited / captions included", price: "From AED 2,200" },
+      { pkg: "Monthly Retainer", detail: "8 posts + 4 reels / monthly / strategy included", price: "From AED 3,500 / month" },
+      { pkg: "Brand Content Day", detail: "Full day / photo + video / 60 images + 5 reels", price: "From AED 4,500" },
+    ],
+    faqs: [
+      { q: "What social media platforms do you create content for in Ajman?", a: "Instagram, TikTok, LinkedIn, Facebook, and YouTube Shorts. We tailor the format, dimensions, pacing, and style of every piece of content to the platform it is designed for — a reel for TikTok requires a different approach than a LinkedIn carousel post or an Instagram story." },
+      { q: "Do you offer ongoing monthly content packages for Ajman businesses?", a: "Yes. Monthly retainer packages include a fixed number of posts, reels, and stories delivered on a consistent schedule. These packages are structured to keep your presence active and professional without requiring your direct involvement in production." },
+      { q: "Can you create content for food and beverage businesses in Ajman?", a: "Yes. Food and beverage social media content is a significant part of our work. We photograph dishes, drinks, restaurant environments, and team stories in ways that are visually compelling enough to drive foot traffic and delivery orders." },
+      { q: "How much does social media content creation cost in Ajman?", a: "Content day photography from AED 1,800. Reels packages from AED 2,200. Monthly retainer packages from AED 3,500 per month. Full brand content days from AED 4,500." },
+    ],
+  },
+
+  "ajman/birthday-photography": {
+    title: "Birthday Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Birthday photographer in Ajman — kids birthday parties, milestone birthdays and celebration photography at home, venues and Ajman Corniche. From AED 850.",
+    h1: "Birthday Photography in Ajman",
+    subtitle: "Your home. Ajman venues. Corniche. Birthday photography that captures the real celebration.",
+    category: "BIRTHDAY PHOTOGRAPHY",
+    intro: [
+      "Birthday parties in Ajman happen across the full range of settings — home celebrations in Al Rashidiya and Al Nuaimiya, venue events at Ajman hotels and event spaces, outdoor parties along the Corniche, and milestone birthday gatherings that bring extended families together. Backyard Studio Official photographs birthday celebrations in Ajman with the aim of capturing the real experience of the event — the expressions, the interactions, the moments of genuine joy — rather than producing a set of posed shots that sit disconnected from what actually happened.",
+      "We cover children's birthday parties with the energy and movement they require, milestone birthdays — 30th, 40th, 50th — where the gathering has real emotional weight, and family birthday celebrations where the priority is capturing the group together. We work quickly and unobtrusively enough that the celebration continues naturally around us rather than pausing for the camera.",
+    ],
+    highlights: [
+      { heading: "Kids Birthday Parties", body: "Children's birthday parties require a photographer who can work at the pace of the event — moving with the kids, anticipating the moments before they happen, and capturing genuine reactions rather than stiff posed groups." },
+      { heading: "Milestone Birthday Celebrations", body: "30th, 40th, 50th, and 60th birthdays hold real emotional significance, and the gatherings that mark them deserve to be documented properly. We treat milestone birthday photography with the same care we bring to wedding coverage." },
+      { heading: "Home and Venue Coverage", body: "We cover birthday celebrations across all Ajman settings — residential homes, hotel function rooms, event venues, garden spaces, and outdoor locations. Coverage adapts to the environment rather than requiring the environment to adapt to us." },
+      { heading: "Same-Day Highlight Preview", body: "A selection of 10 to 15 preview images delivered same-day for sharing on social media, with the full edited gallery following within 5 working days." },
+    ],
+    pricing: [
+      { pkg: "2-Hour Birthday Coverage", detail: "2 hrs / 60–80 images / online gallery", price: "From AED 850" },
+      { pkg: "Half-Day Coverage", detail: "4 hrs / 120–150 images / full event", price: "From AED 1,500" },
+      { pkg: "Full-Day Milestone", detail: "8 hrs / unlimited images / same-day previews", price: "From AED 2,500" },
+      { pkg: "Kids Party Package", detail: "2 hrs / + 15 min cake smash / 80 images", price: "From AED 1,100" },
+    ],
+    faqs: [
+      { q: "Do you photograph children's birthday parties in Ajman?", a: "Yes. Children's birthday parties are a significant part of our event photography work in Ajman. We work quickly, stay out of the way, and capture genuine moments — the expressions, the interactions, the cake moment — rather than stopping the party to set up posed shots." },
+      { q: "How far in advance should I book birthday photography in Ajman?", a: "For weekend birthday parties, book 3 to 4 weeks in advance. For large milestone events at Ajman venues, 6 to 8 weeks is recommended. Last-minute bookings are sometimes possible on weekdays — contact us to check availability." },
+      { q: "Can you photograph a birthday party at a specific venue in Ajman?", a: "Yes. We cover birthday parties at all Ajman venues — hotel function rooms, event spaces, garden venues, private clubs, and residential settings. We visit the venue in advance for larger events to plan coverage." },
+      { q: "How much does birthday photography cost in Ajman?", a: "Two-hour coverage starts from AED 850. Half-day coverage from AED 1,500. Full-day milestone coverage from AED 2,500. Kids party packages from AED 1,100." },
+    ],
+  },
+
+  "ajman/kids-photography": {
+    title: "Kids Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Children's photographer in Ajman — portraits, milestone sessions, school photos and family portraits at Al Zorah, Ajman Corniche and your home. From AED 900.",
+    h1: "Kids Photography in Ajman",
+    subtitle: "Al Zorah. Ajman Corniche. Your home. Children's photography built around the child.",
+    category: "KIDS PHOTOGRAPHY",
+    intro: [
+      "Children grow faster than parents expect, and the particular quality of a child at a specific age — how they hold themselves, what they find funny, how they move — belongs to a narrow window that does not return. Backyard Studio Official produces professional children's photography in Ajman that captures these moments honestly: the personality that is emerging, the relationship with parents and siblings, the genuine expressions that happen when a child is at ease rather than performing for a camera.",
+      "We are experienced working with children across all ages and temperaments in Ajman — toddlers who run, school-age children who are self-conscious in front of a camera, and teenagers who need a different approach entirely. We build the session around the child's pace and comfort rather than imposing a structure on them, and we use Al Zorah Nature Reserve, the Ajman Corniche, Al Rashidiya parks, and home environments depending on what will produce the best results for each individual family.",
+    ],
+    highlights: [
+      { heading: "Al Zorah Nature Sessions", body: "Al Zorah Nature Reserve's open natural environment — mangroves, waterways, and large sky — gives children room to move and be themselves while creating beautiful, naturally lit images that feel authentic rather than staged." },
+      { heading: "Milestone Portrait Sessions", body: "First birthday, third birthday, school starting, 10th birthday — milestone portrait sessions document the child at a specific moment in their development with the intention of creating images that remain meaningful for decades." },
+      { heading: "Sibling and Family Portraits", body: "Children photographed with their siblings and parents create the kind of images that become genuinely important over time. We photograph the relationship — how the children interact with each other and with their parents — not just how they look in a frame." },
+      { heading: "School and Nursery Photography", body: "We offer school photography services to Ajman nurseries, primary schools, and educational institutions — consistent, high-quality individual and class portraits with an efficient session format." },
+    ],
+    pricing: [
+      { pkg: "Mini Portrait Session", detail: "45 min / 1 child / 15 images", price: "From AED 900" },
+      { pkg: "Full Portrait Session", detail: "90 min / 2 looks / 30 images", price: "From AED 1,500" },
+      { pkg: "Siblings Session", detail: "90 min / multiple children / 35 images", price: "From AED 1,700" },
+      { pkg: "Family Portrait Session", detail: "2 hrs / full family / 40 images / 2 locations", price: "From AED 2,000" },
+    ],
+    faqs: [
+      { q: "What are the best locations for children's photography in Ajman?", a: "Al Zorah Nature Reserve for open natural environments where children can move freely, the Ajman Corniche for waterfront and beach sessions, Al Rashidiya parks and open spaces, and home sessions for intimate family portraits. Location is chosen based on the child's age, personality, and what kind of images the parents want." },
+      { q: "How do you get children to relax in front of the camera?", a: "We build the session around the child rather than imposing a structure on them. For younger children, we follow their lead and capture them as they play. For older children, we keep the session informal and low-pressure. The objective is natural expressions — genuine smiles happen when a child is comfortable, not when they are told to smile." },
+      { q: "What age children do you photograph in Ajman?", a: "All ages — newborns through to teenagers. Each age group requires a different approach, and we are experienced across the full range. Toddlers, school-age children, and teenagers all need the session structured differently to produce natural results." },
+      { q: "How much does children's photography cost in Ajman?", a: "Mini portrait sessions start from AED 900. Full portrait sessions from AED 1,500. Sibling sessions from AED 1,700. Family portrait sessions from AED 2,000." },
+    ],
+  },
+
+  "ajman/engagement-photography": {
+    title: "Engagement Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Engagement photographer in Ajman for couple shoots, proposal photography and pre-wedding sessions. Al Zorah Nature Reserve, Ajman Corniche and Ajman Museum. From AED 1,600.",
+    h1: "Engagement Photography in Ajman",
+    subtitle: "Al Zorah Nature Reserve. Ajman Corniche. Ajman Museum. Engagement photography with real depth.",
+    category: "ENGAGEMENT PHOTOGRAPHY",
+    intro: [
+      "Ajman's engagement photography locations offer a quiet, genuine quality that the more commercially developed emirates often lack. Al Zorah Nature Reserve — with its mangroves, flamingos, and open waterways — provides a natural environment for couple photography that is genuinely distinctive. The Ajman Corniche at golden hour delivers soft waterfront light and Gulf views. The Ajman Museum quarter's sandstone architecture and heritage courtyards provide cultural depth and authenticity. These are real environments that produce real images.",
+      "We work with couples across all backgrounds and nationalities in Ajman, and we are experienced with the cultural and modesty requirements that matter in the Northern Emirates. Before every session, we spend time with the couple to understand what they actually want — the aesthetic they are drawn to, how at ease they are in front of a camera, what they want the images to communicate — and build the entire session around helping them feel genuinely comfortable rather than posed and directed.",
+    ],
+    highlights: [
+      { heading: "Al Zorah Nature Reserve", body: "One of the UAE's most distinctive natural settings for couple photography. Mangroves, open waterways, flamingos, and the quality of light in this environment create images that look unlike anything produced in Dubai or Sharjah." },
+      { heading: "Ajman Corniche Golden Hour", body: "The Ajman Corniche at sunset — warm Gulf light, open beach access, and the absence of the visual congestion of Dubai's more crowded coastal spots — produces naturally beautiful couple photography with a genuinely relaxed atmosphere." },
+      { heading: "Ajman Museum Heritage Quarter", body: "The historic fort and heritage architecture surrounding Ajman Museum provides sandstone texture, traditional courtyard settings, and authentic Emirati context for engagement photography where cultural depth matters." },
+      { heading: "Proposal Photography", body: "We position covertly at the chosen proposal location ahead of the moment to capture the genuine reaction — coordinating closely with the proposing partner in advance on timing, positioning, and any specific requirements." },
+    ],
+    pricing: [
+      { pkg: "1-Location Session", detail: "90 min / 1 outfit / 30–40 edited images", price: "From AED 1,600" },
+      { pkg: "2-Location Session", detail: "2.5 hrs / 2 outfits / 50 images", price: "From AED 2,500" },
+      { pkg: "Al Zorah Sunset Session", detail: "2 hrs / nature reserve / 40 images", price: "From AED 2,000" },
+      { pkg: "Proposal Photography", detail: "Covert coverage / full edited gallery", price: "From AED 2,000" },
+    ],
+    faqs: [
+      { q: "What are the best engagement photography locations in Ajman?", a: "Al Zorah Nature Reserve at golden hour for natural mangrove and waterside environments; the Ajman Corniche for beach and waterfront light; Ajman Museum for heritage architecture and sandstone backgrounds; and our studio for weather-independent portrait sessions. We advise based on the couple's aesthetic preferences and the session time." },
+      { q: "Do you photograph proposals in Ajman?", a: "Yes. We position covertly at the proposal location in advance to capture the genuine moment and immediate reaction. All timing and positioning is coordinated through close communication with the proposing partner before the day." },
+      { q: "Are you experienced with culturally sensitive engagement photography in Ajman?", a: "Yes. We regularly work with couples who have specific cultural, religious, or family requirements around their photography sessions in Ajman and across the Northern Emirates. These conversations are always welcome before booking — we want the session to be comfortable, dignified, and genuinely enjoyable." },
+      { q: "How much does engagement photography cost in Ajman?", a: "Single-location sessions start from AED 1,600. Two-location sessions from AED 2,500. Al Zorah sunset sessions from AED 2,000. Proposal photography from AED 2,000." },
+    ],
+  },
+
+
 };
 
 // ─── Static params ────────────────────────────────────────────────────────────
