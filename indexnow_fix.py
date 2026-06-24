@@ -427,6 +427,15 @@ URLS = [
     f"https://{HOST}/blog/newborn-photographer-fujairah-2026",
     f"https://{HOST}/blog/headshot-photographer-umm-al-quwain-2026",
     f"https://{HOST}/blog/newborn-photographer-umm-al-quwain-2026",
+    # Sprint 24: Remaining city+service blog posts (2026-06-24)
+    f"https://{HOST}/blog/maternity-photography-sharjah-2026",
+    f"https://{HOST}/blog/engagement-photographer-sharjah-2026",
+    f"https://{HOST}/blog/headshot-photographer-ras-al-khaimah-2026",
+    f"https://{HOST}/blog/newborn-photographer-ras-al-khaimah-2026",
+    f"https://{HOST}/blog/maternity-photography-fujairah-2026",
+    f"https://{HOST}/blog/engagement-photographer-fujairah-2026",
+    f"https://{HOST}/blog/maternity-photography-umm-al-quwain-2026",
+    f"https://{HOST}/blog/engagement-photographer-umm-al-quwain-2026",
 ]
 
 payload = {

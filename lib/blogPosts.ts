@@ -8413,6 +8413,262 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>We recommend booking during your second trimester. Our due-date booking system holds your UAQ slot and adjusts when your baby arrives, ensuring the session falls within the ideal 5 to 14 day window. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to begin planning your Umm Al Quwain newborn session.</p>
 `,
   },
+  {
+    slug: "maternity-photography-sharjah-2026",
+    title: "Maternity Photographer in Sharjah — Pregnancy Portrait Sessions",
+    metaTitle: "Maternity Photography Sharjah | Pregnancy Portraits 2026",
+    metaDescription: "Professional maternity photography in Sharjah for expectant mothers and families. Al Noor Island and studio sessions celebrating pregnancy beautifully. Book with Backyard Studio Official.",
+    keywords: ["maternity photography sharjah", "pregnancy photographer sharjah", "maternity shoot sharjah", "bump photos sharjah", "pregnancy portraits sharjah", "maternity session sharjah"],
+    category: "Photography Guide",
+    date: "June 24, 2026",
+    dateISO: "2026-06-24",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1584467735871-8e85353a8413?w=1200&q=80",
+    excerpt: "Professional maternity photography in Sharjah for expectant mothers. Studio and outdoor sessions that beautifully capture your pregnancy journey in the UAE's cultural capital.",
+    author: "Backyard Studio Official",
+    faqs: [
+      { question: "Do you offer maternity photography in Sharjah?", answer: "Yes. We provide professional maternity photography throughout Sharjah, including sessions at Al Noor Island, the Sharjah Waterfront, and indoor studio setups. We travel to your preferred Sharjah location and bring appropriate backdrops, lighting, and styling guidance for your session." },
+      { question: "When is the best time for maternity photography in Sharjah?", answer: "Weeks 30 to 36 of pregnancy are optimal. By this stage the bump is beautifully round and prominent, while the mother remains comfortable and mobile enough for varied poses. We adjust timing based on your individual comfort and pregnancy progression — please contact us so we can plan the right session for your stage." },
+      { question: "What should I wear for a maternity photoshoot in Sharjah?", answer: "We provide wardrobe guidance tailored to your Sharjah session. For outdoor sessions at Sharjah's cultural and coastal landmarks, we have flowing maternity gowns that photograph beautifully and respect the emirate's cultural context. For indoor studio sessions, we offer more variety including wrap styles and elegant fitted looks. You are also welcome to bring your own clothing." },
+      { question: "Can we include family members in the maternity session?", answer: "Yes. Partner and sibling inclusion is available in all our Sharjah maternity sessions at no additional charge. Family moments — partners cradling the bump, children interacting with mum's growing belly — often become the most treasured images from the session. Please let us know who will be joining so we can plan time and poses accordingly." },
+      { question: "How long does a maternity session in Sharjah take?", answer: "A standard Sharjah maternity session runs 60 to 90 minutes. This allows time for multiple looks, location variety if we are shooting outdoors, and the natural pace that ensures you are comfortable throughout. We never rush — the goal is beautiful, relaxed images that reflect how you genuinely look and feel during this phase of your life." },
+    ],
+    relatedSlugs: ["maternity-photography-dubai-2026", "maternity-photography-abu-dhabi-2026", "maternity-photography-ajman-2026"],
+    content: `
+<h2>Maternity Photography in Sharjah</h2>
+<p>Pregnancy is among the most transformative chapters in a person's life, and the visual record of it matters. The specific way you look and move and feel during this period is temporary — documenting it with professional care creates images that genuinely last. Backyard Studio Official provides <a href="/locations/sharjah/maternity-photography">maternity photography in Sharjah</a> for expectant mothers throughout the emirate, with sessions designed around your comfort, cultural preferences, and the aesthetic that resonates with you.</p>
+<p>Sharjah's identity as the UAE's cultural capital gives it a distinct character that informs how we approach photography here. Whether you prefer the natural beauty of Al Noor Island, the waterfront settings along the Khalid Lagoon, or a controlled indoor studio environment, we have experience with locations and approaches suited to the emirate's unique atmosphere.</p>
+<h2>Sharjah Maternity Session Locations and Styles</h2>
+<p>For outdoor sessions, Al Noor Island and the Sharjah Waterfront offer lush, visually rich backdrops that photograph beautifully during the golden hours of early morning and late afternoon. For families who prefer indoor privacy, our studio setup provides complete control over lighting and background, with a wardrobe selection of flowing gowns and wrap styles in neutral and complementary tones.</p>
+<p>Sessions at weeks 30 to 36 of pregnancy tend to produce the most striking images — the silhouette is at its most beautiful, and most mothers are still comfortable in varied positions and with gentle movement. We build every Sharjah session around the mother's comfort and the family's cultural preferences, adjusting poses, wardrobe, and location accordingly.</p>
+<h2>Booking Your Sharjah Maternity Session</h2>
+<p>We recommend booking four to six weeks before your planned session date to secure your preferred slot and allow time for planning. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to begin planning your Sharjah maternity photography session.</p>
+`,
+  },
+  {
+    slug: "engagement-photographer-sharjah-2026",
+    title: "Engagement Photographer in Sharjah — Couple Portrait Sessions",
+    metaTitle: "Engagement Photography Sharjah | Couple Portraits 2026",
+    metaDescription: "Professional engagement photography in Sharjah capturing your love story. Al Qasba, waterfront, and heritage area sessions for couples across the UAE. Book Backyard Studio Official.",
+    keywords: ["engagement photographer sharjah", "couple photography sharjah", "engagement photos sharjah", "pre-wedding photographer sharjah", "couple portraits sharjah", "engagement shoot sharjah"],
+    category: "Photography Guide",
+    date: "June 24, 2026",
+    dateISO: "2026-06-24",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=1200&q=80",
+    excerpt: "Engagement photography in Sharjah capturing genuine couple moments. Sessions at Al Qasba, the Sharjah Waterfront, and heritage locations across the UAE's cultural capital.",
+    author: "Backyard Studio Official",
+    faqs: [
+      { question: "Where do you recommend for engagement photography in Sharjah?", answer: "Al Qasba is our most popular Sharjah engagement location — the canal setting, Eye of the Emirates wheel, and surrounding gardens provide visual variety and a romantic atmosphere. The Sharjah Heritage Area with its traditional wind towers and souqs offers a culturally distinctive backdrop. The Corniche and Khalid Lagoon waterfront work beautifully at golden hour. We recommend the location based on the look you want to achieve." },
+      { question: "Are engagement sessions appropriate in Sharjah's cultural context?", answer: "Yes. We are experienced shooting engagement and couple photography in Sharjah and respect the emirate's cultural context in how we approach sessions. We select locations where photography is welcome, advise on appropriate wardrobe for outdoor cultural settings, and approach the session in a way that is comfortable for both partners. All editing and content is handled with your cultural preferences in mind." },
+      { question: "How long does an engagement photoshoot in Sharjah take?", answer: "Most engagement sessions in Sharjah run 60 to 90 minutes, which allows for two or three location variations within the same area — for example, the canal at Al Qasba plus the surrounding gardens and café strip. This timeframe is comfortable for couples and produces enough variety for a complete gallery of 30 to 50 images." },
+      { question: "Can we use these photos for wedding invitations?", answer: "Absolutely. Engagement session images are commonly used for wedding invitation inserts, save-the-date cards, and wedding website hero images. Let us know about this intended use when booking and we will ensure the gallery includes the horizontal and portrait orientations most useful for print and digital design." },
+      { question: "Do you offer packages combining engagement and wedding photography?", answer: "Yes. Our engagement and wedding photography bundles are popular with couples who want consistent visual style across their engagement, wedding, and portrait phases. Booking both together typically offers better value and guarantees your wedding photographer already knows you and how you photograph before the wedding day." },
+    ],
+    relatedSlugs: ["engagement-photographer-dubai-2026", "engagement-photographer-abu-dhabi-2026", "engagement-photographer-ajman-2026"],
+    content: `
+<h2>Engagement Photography in Sharjah</h2>
+<p>An engagement session is an opportunity to document the relationship before the formality of the wedding — the way you are with each other when the day is just about the two of you. Professional engagement photography translates that into images that exist permanently, and it gives couples a chance to experience working with a photographer in a low-stakes setting before the wedding day.</p>
+<p>Backyard Studio Official provides <a href="/locations/sharjah/engagement-photography">engagement photography in Sharjah</a> for couples across the emirate and the wider UAE. Sharjah's position as the cultural capital of the UAE gives it a distinctive visual character that sets engagement images shot here apart from those taken elsewhere in the country.</p>
+<h2>Sharjah's Best Engagement Photography Locations</h2>
+<p>Al Qasba is the location couples most frequently choose for Sharjah engagement sessions — the canal, the Eye of the Emirates wheel, and the surrounding gardens and dining strip combine architecture, greenery, and water in a setting that photographs beautifully at any time of day. The Heritage Area, with its traditional Emirati wind towers and carefully preserved souqs, provides an alternative visual story for couples who want something distinctly local and cultural.</p>
+<p>Waterfront sessions along the Khalid Lagoon at golden hour are among our most striking Sharjah engagement galleries. The combination of calm water, warm light, and the Sharjah skyline in the background creates a natural elegance that requires very little staging. We work with natural light wherever possible and supplement with portable lighting when conditions require it.</p>
+<h2>Booking Your Sharjah Engagement Session</h2>
+<p>Most Sharjah engagement sessions run 60 to 90 minutes and produce galleries of 30 to 50 finished images. Sessions are best booked four to six weeks in advance to allow time for planning and location confirmation. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to begin.</p>
+`,
+  },
+  {
+    slug: "headshot-photographer-ras-al-khaimah-2026",
+    title: "Headshot Photographer in Ras Al Khaimah — Professional Portrait Sessions",
+    metaTitle: "Headshot Photography Ras Al Khaimah | Professional Portraits 2026",
+    metaDescription: "Professional headshot photography in Ras Al Khaimah for executives, teams, and professionals. On-location and studio sessions across RAK. Book Backyard Studio Official today.",
+    keywords: ["headshot photographer ras al khaimah", "professional portraits rak", "corporate headshots rak", "linkedin photos ras al khaimah", "business headshots rak", "executive portraits rak"],
+    category: "Photography Guide",
+    date: "June 24, 2026",
+    dateISO: "2026-06-24",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80",
+    excerpt: "Professional headshot photography in Ras Al Khaimah for executives, entrepreneurs, and corporate teams. On-location sessions across RAK with same-day turnaround available.",
+    author: "Backyard Studio Official",
+    faqs: [
+      { question: "Do you travel to Ras Al Khaimah for headshot sessions?", answer: "Yes. We travel throughout Ras Al Khaimah for professional headshot sessions, covering RAK City, Al Marjan Island, the RAK Free Zone, and all business districts across the emirate. We bring a portable professional lighting and backdrop setup to your office or preferred location, so your team does not need to travel. Travel to Ras Al Khaimah is included in our Northern Emirates headshot pricing." },
+      { question: "How long does a headshot session in RAK take?", answer: "Individual headshot sessions in Ras Al Khaimah run 20 to 30 minutes per person. For team sessions, we typically schedule 15 to 20 minutes per person after the initial setup, which takes approximately 30 minutes. A team of 10 people is typically completed in 3 to 4 hours including setup and transitions. We provide your finished retouched images within 48 hours of the session." },
+      { question: "What backgrounds and styles work best for RAK business headshots?", answer: "For RAK's professional market, we recommend clean neutral backgrounds — white, grey, or light seamless — that work across all professional platforms including LinkedIn, company websites, and printed materials. We can also create environmental headshots in your RAK office or at outdoor locations that reflect your industry. Both approaches are available and we can produce both in a single session." },
+      { question: "Can you do a team headshot day at our RAK office?", answer: "Yes. Corporate team headshot days are one of our most popular services in Ras Al Khaimah. We arrive at your office, set up a consistent background and lighting configuration, and photograph each team member in succession. The result is a cohesive professional gallery that works across your website, LinkedIn profiles, and marketing materials. Advance scheduling ensures minimal disruption to your team's workday." },
+      { question: "What should I wear for professional headshots in RAK?", answer: "We recommend dressing as you would for an important business meeting or client presentation. For most RAK professionals this means business formal or smart business casual — well-fitted clothing in solid or subtle patterns, avoiding very bright colours or complex prints that distract from your face. We provide a full wardrobe briefing document when you book so you arrive prepared." },
+    ],
+    relatedSlugs: ["headshot-photographer-dubai-2026", "headshot-photographer-abu-dhabi-2026", "headshot-photographer-ajman-2026"],
+    content: `
+<h2>Headshot Photography in Ras Al Khaimah</h2>
+<p>The professional headshot is the most frequently seen professional representation a person has. Your LinkedIn profile, company website, business card, and speaking engagements all use a single image to represent you — and the quality of that image communicates something about how you approach your work. For professionals in Ras Al Khaimah's growing business landscape, a quality headshot is a fundamental professional investment.</p>
+<p>Backyard Studio Official provides <a href="/locations/ras-al-khaimah/headshot-photography">headshot photography in Ras Al Khaimah</a> for executives, entrepreneurs, and corporate teams throughout the emirate. We bring a professional studio setup to your RAK office or location, so there is no need for your team to travel.</p>
+<h2>Corporate and Executive Headshots Across RAK</h2>
+<p>Ras Al Khaimah's business environment spans the RAK Free Trade Zone — one of the UAE's most active business registration hubs — Al Marjan Island's hospitality and tourism sector, and a growing number of technology and manufacturing businesses. Each context has its own professional presentation expectations. We work with executives and teams to understand their industry, audience, and brand, and produce headshots that fit that context precisely.</p>
+<p>Team headshot days are particularly efficient for RAK businesses. We arrive at your premises, configure a consistent lighting and background setup, and move through your team in succession — typically 15 to 20 minutes per person — producing a cohesive professional gallery in a single session. The consistency of lighting, angle, and background makes the result look polished when displayed as a team on your website.</p>
+<h2>Booking Your RAK Headshot Session</h2>
+<p>Individual and team headshot sessions in Ras Al Khaimah are available with 48-hour image delivery. For team sessions we recommend scheduling four to seven days in advance. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to schedule your RAK headshot session.</p>
+`,
+  },
+  {
+    slug: "newborn-photographer-ras-al-khaimah-2026",
+    title: "Newborn Photographer in Ras Al Khaimah — Baby Photography Sessions",
+    metaTitle: "Newborn Photographer Ras Al Khaimah | Baby Photography 2026",
+    metaDescription: "Professional newborn photography in Ras Al Khaimah for babies in their first weeks. In-home sessions across RAK City, Al Nakheel, and surrounding communities. Book today.",
+    keywords: ["newborn photographer ras al khaimah", "baby photography rak", "newborn photos rak", "infant photography ras al khaimah", "newborn session rak", "baby photographer rak"],
+    category: "Photography Guide",
+    date: "June 24, 2026",
+    dateISO: "2026-06-24",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=1200&q=80",
+    excerpt: "Gentle, professional newborn photography in Ras Al Khaimah. In-home sessions across RAK for families in the precious first weeks with a new baby.",
+    author: "Backyard Studio Official",
+    faqs: [
+      { question: "Do you travel to Ras Al Khaimah for newborn photography?", answer: "Yes. We travel throughout Ras Al Khaimah for in-home newborn photography sessions, covering RAK City, Al Nakheel, Al Hamra, and all residential communities across the emirate. We bring a complete professional newborn photography kit including wraps, props, fabrics, and backgrounds. Travel to Ras Al Khaimah is included in our Northern Emirates newborn session pricing." },
+      { question: "When should I book a newborn session in RAK?", answer: "Book during your second trimester — ideally around week 20 to 25. We use a flexible due-date booking system that holds a provisional session in the first two weeks after your due date and adjusts automatically when your baby arrives, ensuring your RAK slot always falls within the ideal 5 to 14 day window for newborn photography." },
+      { question: "How do you approach in-home newborn sessions?", answer: "We arrive at your RAK home with everything needed for a complete session and work entirely at the baby's pace. Sessions have no fixed schedule — we move slowly, pause whenever the baby needs attention, and continue until we have the images we came for. Sessions typically run 2 to 3 hours and produce 20 to 30 finished images covering posed setups, detail shots, and family moments." },
+      { question: "Is newborn photography safe?", answer: "Safety is our absolute priority in every newborn session. All props, wraps, and surfaces are specifically selected for use with very young infants — soft, temperature-appropriate, and structurally safe. We never place a baby in an unsafe position or use props that could cause discomfort. Parents are present and involved throughout, and every pose is approved before we photograph it." },
+      { question: "What if my baby won't settle during the session?", answer: "This is completely normal and expected — we build settling time directly into our session planning. Newborns need feeding, changing, and comforting during sessions, and we treat each of those moments as part of the process rather than an interruption. The unhurried pace of our sessions means these moments don't cause stress. We continue working until we have what we need regardless of how much time it takes." },
+    ],
+    relatedSlugs: ["newborn-photographer-dubai-2026", "newborn-photographer-abu-dhabi-2026", "newborn-photographer-ajman-2026"],
+    content: `
+<h2>Newborn Photography in Ras Al Khaimah</h2>
+<p>The first two weeks of a baby's life are unlike any other period in their development. The specific smallness, the way they curl and sleep with complete trust, the details that change week by week — these are things that only exist in this window. Professional newborn photography preserves them with the quality and care they deserve.</p>
+<p>Backyard Studio Official provides <a href="/locations/ras-al-khaimah/newborn-photography">newborn photography in Ras Al Khaimah</a> for families throughout the emirate. We travel to your home in RAK City, Al Nakheel, Al Hamra, and surrounding communities, bringing our complete professional setup and working entirely within your environment.</p>
+<h2>In-Home Newborn Sessions Across RAK</h2>
+<p>In-home lifestyle newborn photography in Ras Al Khaimah allows us to document your baby in the actual spaces that will define their early life — the nursery you prepared, the light in your living room, the way the family comes together around this new person. These contextual details become as meaningful as the posed portraits over time, because they place the baby in the real story of your family's life.</p>
+<p>RAK's residential communities — particularly the villa-heavy areas of Al Nakheel and Al Hamra — provide generous natural light and comfortable spaces for newborn sessions. We arrive with props and equipment but rely primarily on the quality of light and environment in your home, supplementing with portable lighting when needed.</p>
+<h2>Booking Your RAK Newborn Session</h2>
+<p>Booking during your second trimester ensures you have a confirmed slot in the ideal newborn window. Our due-date system adjusts automatically when your baby arrives. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to begin planning your Ras Al Khaimah newborn photography session.</p>
+`,
+  },
+  {
+    slug: "maternity-photography-fujairah-2026",
+    title: "Maternity Photographer in Fujairah — Pregnancy Portrait Sessions",
+    metaTitle: "Maternity Photography Fujairah | Pregnancy Portraits 2026",
+    metaDescription: "Professional maternity photography in Fujairah against the backdrop of the Hajar Mountains and East Coast beaches. Celebrating pregnancy beautifully. Book Backyard Studio Official.",
+    keywords: ["maternity photography fujairah", "pregnancy photographer fujairah", "maternity shoot fujairah", "bump photos fujairah", "pregnancy portraits fujairah", "maternity session fujairah"],
+    category: "Photography Guide",
+    date: "June 24, 2026",
+    dateISO: "2026-06-24",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1561128290-006bff2a7095?w=1200&q=80",
+    excerpt: "Maternity photography in Fujairah against the stunning backdrop of the Hajar Mountains and East Coast beaches. Celebrating your pregnancy in the UAE's most scenic emirate.",
+    author: "Backyard Studio Official",
+    faqs: [
+      { question: "Do you offer maternity photography in Fujairah?", answer: "Yes. We travel to Fujairah for maternity photography sessions, covering Fujairah City, Al Aqah, Khor Fakkan, and the broader East Coast. Fujairah offers some of the UAE's most striking natural photography settings — mountain and beach combinations that are unavailable anywhere on the West Coast — and we plan sessions specifically to take advantage of this unique landscape." },
+      { question: "What makes Fujairah different for maternity photography?", answer: "Fujairah is the only UAE emirate entirely on the East Coast, giving it mountain ranges, clear Indian Ocean water, and a visual character completely unlike Dubai or Abu Dhabi. Maternity sessions here can incorporate the Hajar Mountains backdrop, East Coast beaches at Al Aqah, and the ancient Fujairah Fort as visual elements that place your pregnancy in a truly distinctive UAE setting." },
+      { question: "When is the best time for outdoor maternity photography in Fujairah?", answer: "Golden hour — the first hour after sunrise and the hour before sunset — provides the most beautiful natural light for outdoor maternity photography in Fujairah. The East Coast's orientation means sunrise sessions along the beach are particularly stunning. For comfort during pregnancy, we recommend morning sessions as temperatures are gentler. November through April offers the most comfortable outdoor conditions." },
+      { question: "Can we combine maternity and newborn photography in Fujairah?", answer: "Yes. Maternity and newborn bundle packages are available for Fujairah families who want to document both phases. Your maternity session at weeks 30 to 36 and your newborn session in the first two weeks after birth are booked together, with combined gallery pricing. Contact us for bundle details specific to Fujairah." },
+      { question: "How should I prepare for an outdoor maternity session in Fujairah?", answer: "We provide a complete session preparation guide when you book, covering wardrobe, what to bring, timing, and how to make the most of Fujairah's landscape. We recommend light, flowing fabrics in neutral or earth tones that complement the mountain and beach backdrops. We select session timing to ensure comfortable temperatures and the most flattering natural light for your bump and your portraits." },
+    ],
+    relatedSlugs: ["maternity-photography-dubai-2026", "maternity-photography-abu-dhabi-2026", "maternity-photography-sharjah-2026"],
+    content: `
+<h2>Maternity Photography in Fujairah</h2>
+<p>Fujairah sits on the UAE's East Coast, facing the Indian Ocean rather than the Arabian Gulf. This geographic distinction gives the emirate a visual identity unlike any other part of the UAE — the Hajar Mountains descend to clear turquoise water, and the landscape shifts between ancient fort towns, mountain wadis, and stretches of beach that see far fewer visitors than the West Coast. For maternity photography, this setting produces images of a distinctly different quality.</p>
+<p>Backyard Studio Official provides <a href="/locations/fujairah/maternity-photography">maternity photography in Fujairah</a> for expectant mothers and families across the emirate and the wider East Coast. We travel to Fujairah City, Al Aqah, and Khor Fakkan, planning sessions around the natural landscape that makes this emirate so visually distinctive.</p>
+<h2>East Coast Maternity Sessions</h2>
+<p>The combination of mountain and sea available in Fujairah is genuinely rare in the UAE. A maternity session at Al Aqah Beach at golden hour, with the Hajar Mountains rising immediately behind the shoreline, produces images with a depth and drama unavailable elsewhere in the country. The ancient Fujairah Fort and the traditional village context of the Heritage District offer alternative settings for families who want something more culturally rooted.</p>
+<p>Sessions at weeks 30 to 36 of pregnancy capture the silhouette at its most beautiful. We build every session around the mother's comfort, choosing timing for optimal light and temperature and adjusting pace throughout so the experience is unhurried and genuinely enjoyable rather than physically taxing.</p>
+<h2>Booking Your Fujairah Maternity Session</h2>
+<p>We recommend booking four to six weeks before your intended session date. Early morning sessions along the East Coast are particularly popular and book quickly in the cooler months. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to begin planning your Fujairah maternity photography session.</p>
+`,
+  },
+  {
+    slug: "engagement-photographer-fujairah-2026",
+    title: "Engagement Photographer in Fujairah — Couple Portrait Sessions",
+    metaTitle: "Engagement Photography Fujairah | Couple Portraits 2026",
+    metaDescription: "Professional engagement photography in Fujairah with the Hajar Mountains and East Coast beaches as your backdrop. Capturing your love story in the UAE's most scenic emirate.",
+    keywords: ["engagement photographer fujairah", "couple photography fujairah", "engagement photos fujairah", "pre-wedding photographer fujairah", "couple portraits fujairah", "engagement shoot fujairah"],
+    category: "Photography Guide",
+    date: "June 24, 2026",
+    dateISO: "2026-06-24",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1530042888-9751e4a6a5f2?w=1200&q=80",
+    excerpt: "Engagement photography in Fujairah against the Hajar Mountains and East Coast beaches. Capture your couple story in one of the UAE's most visually stunning locations.",
+    author: "Backyard Studio Official",
+    faqs: [
+      { question: "Where do you recommend for engagement photography in Fujairah?", answer: "Al Aqah Beach is our most recommended location for Fujairah engagement sessions — the combination of clear turquoise water and the Hajar Mountains immediately behind the shoreline is genuinely unique in the UAE. Khor Fakkan's bay and the old Fujairah Fort are excellent alternatives. For couples who want mountain scenery, Wadi Wurayah provides a dramatic highland backdrop. We recommend the location based on the visual story you want to tell." },
+      { question: "Is a Fujairah engagement session worth the travel from Dubai?", answer: "Many of our Dubai and Abu Dhabi couples specifically travel to Fujairah for their engagement sessions because the East Coast landscape is so different from what is available on the West Coast. The drive from Dubai is approximately 90 minutes to Al Aqah, and the visual results — mountain-meets-ocean settings that do not exist anywhere in the wider Dubai metropolitan area — are genuinely worth the journey for couples who want distinctive images." },
+      { question: "What is the best time of day for engagement photography on the East Coast?", answer: "Sunrise sessions along Fujairah's beaches are among the most beautiful we photograph. The East Coast orientation means the sun rises directly over the Indian Ocean, producing extraordinary golden light across the water and the mountains simultaneously. Late afternoon sessions work well at inland locations like the Fujairah Fort. We plan session timing for optimal light based on your chosen location." },
+      { question: "Can we include our pets in the engagement session?", answer: "Yes. Pets are welcome in engagement sessions at appropriate Fujairah locations. Al Aqah Beach and open natural areas work well for couples who want to include their dogs in their portraits. Please let us know when booking so we can select and confirm a suitable location and advise on timing." },
+      { question: "How far in advance should we book for a Fujairah engagement session?", answer: "We recommend booking four to six weeks in advance for Fujairah engagement sessions. Sunrise sessions along the East Coast beaches book fastest, particularly in the October to April season when temperatures are most comfortable. If you have a specific date in mind, earlier booking is always better. Contact us to check availability and begin planning." },
+    ],
+    relatedSlugs: ["engagement-photographer-dubai-2026", "engagement-photographer-abu-dhabi-2026", "engagement-photographer-sharjah-2026"],
+    content: `
+<h2>Engagement Photography in Fujairah</h2>
+<p>Fujairah provides one of the most visually distinctive engagement photography settings in the UAE. On the East Coast, where the Hajar Mountains meet the Indian Ocean, you have a landscape that simply does not exist on the West Coast — mountain ridges dropping to clear turquoise water, ancient forts set against desert rock, and beaches where the light changes hour by hour in ways that produce extraordinary images.</p>
+<p>Backyard Studio Official provides <a href="/locations/fujairah/engagement-photography">engagement photography in Fujairah</a> for couples across the UAE, including those making the trip from Dubai and Abu Dhabi specifically for the East Coast backdrop. We plan sessions to maximise the visual potential of this unique landscape while ensuring the experience is relaxed and enjoyable for both partners.</p>
+<h2>Fujairah Engagement Session Locations</h2>
+<p>Al Aqah Beach is our most frequently requested Fujairah location — the combination of clear water, volcanic rock formations at the shoreline, and the Hajar Mountains rising immediately behind creates a natural backdrop with extraordinary depth. Sunrise sessions here, as the sun comes up directly over the Indian Ocean, produce some of the most visually striking engagement images available in the UAE.</p>
+<p>The historic Fujairah Fort, one of the oldest in the UAE, provides an entirely different visual register for couples who want something with cultural depth and architectural character. Khor Fakkan, the Sharjah enclave on Fujairah's coast, adds another option with its calm bay and traditional fishing village backdrop.</p>
+<h2>Booking Your Fujairah Engagement Session</h2>
+<p>Sessions run 60 to 90 minutes and produce galleries of 30 to 50 finished images. We recommend booking four to six weeks in advance, and earlier for sunrise beach sessions in the peak October to April season. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to begin planning.</p>
+`,
+  },
+  {
+    slug: "maternity-photography-umm-al-quwain-2026",
+    title: "Maternity Photographer in Umm Al Quwain — Pregnancy Portrait Sessions",
+    metaTitle: "Maternity Photography Umm Al Quwain | Pregnancy Portraits 2026",
+    metaDescription: "Professional maternity photography in Umm Al Quwain. Lagoon and mangrove settings celebrating pregnancy in UAQ. Gentle, beautiful sessions for expectant families. Book today.",
+    keywords: ["maternity photography umm al quwain", "pregnancy photographer uaq", "maternity shoot uaq", "bump photos umm al quwain", "pregnancy portraits uaq", "maternity session uaq"],
+    category: "Photography Guide",
+    date: "June 24, 2026",
+    dateISO: "2026-06-24",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1584468455892-7f0eb42ff1c0?w=1200&q=80",
+    excerpt: "Maternity photography in Umm Al Quwain. Lagoon and nature-rich settings to beautifully celebrate your pregnancy in the UAE's most tranquil emirate.",
+    author: "Backyard Studio Official",
+    faqs: [
+      { question: "Do you offer maternity photography in Umm Al Quwain?", answer: "Yes. We travel throughout Umm Al Quwain for maternity photography sessions, covering UAQ City, the Corniche, and the surrounding areas including the mangrove and lagoon settings that make this emirate visually distinct. Travel to Umm Al Quwain is included in our Northern Emirates maternity session pricing." },
+      { question: "What makes UAQ a good location for maternity photography?", answer: "Umm Al Quwain's character as the UAE's quietest emirate is an asset for maternity photography. The lagoon waterfront, the mangrove-lined shores, and the traditional fishing village atmosphere provide natural, uncrowded settings that feel genuinely different from the urban photography environments of Dubai or Sharjah. For expectant mothers who want something peaceful and close to nature, UAQ is an excellent choice." },
+      { question: "When is the best time for maternity photography in UAQ?", answer: "Weeks 30 to 36 of pregnancy capture the silhouette at its most beautiful while the mother remains comfortable in varied positions. For outdoor sessions in Umm Al Quwain, early morning golden hour is ideal — the lagoon catches the morning light in ways that produce naturally beautiful photographs. November through March offers the most pleasant outdoor temperatures." },
+      { question: "Can we include siblings or partners in the maternity session?", answer: "Yes. Family involvement is welcome and common in our UAQ maternity sessions. Partners, existing children, and other family members can participate at no additional charge. We plan time and poses for family members alongside the individual maternity portraits so the gallery includes both intimate and family moments." },
+      { question: "How many images do we receive from a maternity session in UAQ?", answer: "A standard maternity session in Umm Al Quwain produces 30 to 50 finished, retouched images delivered in high resolution via a private online gallery. Images are suitable for print at any size and formatted for all social media and digital sharing platforms. Delivery is typically within 5 to 7 business days of your session date." },
+    ],
+    relatedSlugs: ["maternity-photography-dubai-2026", "maternity-photography-abu-dhabi-2026", "maternity-photography-sharjah-2026"],
+    content: `
+<h2>Maternity Photography in Umm Al Quwain</h2>
+<p>Umm Al Quwain is the UAE's quietest emirate — a place where the pace genuinely slows down and the landscape retains a natural character that development has not yet overwhelmed. The lagoon waterfront, the mangrove-rich coastline, and the traditional fishing community atmosphere create a setting for maternity photography that feels genuinely peaceful and distinct from the busy urban environments available elsewhere in the country.</p>
+<p>Backyard Studio Official provides <a href="/locations/umm-al-quwain/maternity-photography">maternity photography in Umm Al Quwain</a> for expectant mothers and families throughout the emirate. We travel to UAQ for sessions, planning the timing and location to take full advantage of the natural beauty this emirate quietly offers.</p>
+<h2>UAQ Maternity Session Settings</h2>
+<p>The UAQ lagoon at golden hour produces some of the most naturally beautiful photographs available in the Northern Emirates. The calm water, the traditional dhow silhouettes, and the gentle light that comes off the lagoon in the early morning create a setting that requires very little staging to produce extraordinary images. For families who want something more enclosed and private, we can work within residential settings where UAQ's villa homes offer natural light and personal context.</p>
+<p>Sessions at weeks 30 to 36 of pregnancy are optimal — the silhouette is at its most pronounced and beautiful, and the mother typically remains comfortable enough for varied positions both standing and seated. We work at a completely unhurried pace, and the session runs as long as needed to achieve the gallery both partners will value for years.</p>
+<h2>Booking Your UAQ Maternity Session</h2>
+<p>We recommend booking four to six weeks before your intended session date. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to discuss your preferred UAQ location and begin planning your maternity photography session.</p>
+`,
+  },
+  {
+    slug: "engagement-photographer-umm-al-quwain-2026",
+    title: "Engagement Photographer in Umm Al Quwain — Couple Portrait Sessions",
+    metaTitle: "Engagement Photography Umm Al Quwain | Couple Portraits 2026",
+    metaDescription: "Professional engagement photography in Umm Al Quwain. Lagoon, mangrove, and waterfront sessions capturing your couple story in the UAE's most serene emirate. Book today.",
+    keywords: ["engagement photographer umm al quwain", "couple photography uaq", "engagement photos uaq", "pre-wedding photographer uaq", "couple portraits umm al quwain", "engagement shoot uaq"],
+    category: "Photography Guide",
+    date: "June 24, 2026",
+    dateISO: "2026-06-24",
+    readTime: "5 min read",
+    image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80",
+    excerpt: "Engagement photography in Umm Al Quwain. Lagoon and mangrove settings capturing genuine couple moments in the UAE's most serene and naturally beautiful emirate.",
+    author: "Backyard Studio Official",
+    faqs: [
+      { question: "Where do you recommend for engagement photography in Umm Al Quwain?", answer: "The UAQ lagoon waterfront is our primary recommendation for engagement sessions in Umm Al Quwain. The calm water, traditional fishing dhows, and open sky create a genuinely beautiful natural setting. The mangrove-lined shores north of UAQ City are excellent for couples who want something more enclosed and organic. The UAQ Corniche offers a clean waterfront backdrop at sunset. We recommend the specific location based on the visual style you are after." },
+      { question: "Is UAQ a good location for engagement photography?", answer: "UAQ is excellent for couples who value a natural, uncrowded setting. While Dubai offers urban glamour and Abu Dhabi offers architectural scale, Umm Al Quwain offers something rarer in the UAE: genuine quiet and natural beauty. Lagoon and mangrove engagement sessions here produce images with a serenity and authenticity that is difficult to achieve in the busier emirates." },
+      { question: "How long does an engagement session in UAQ take?", answer: "Most engagement sessions in Umm Al Quwain run 60 to 90 minutes. This allows time for the couple to settle into the experience, for two or three location variations within the same area, and for a variety of poses and moments that produce a complete gallery. We never rush — the most genuine moments tend to happen when couples have relaxed into the session." },
+      { question: "What should we wear for a UAQ engagement session?", answer: "For UAQ's natural and waterfront settings, we recommend relaxed but polished clothing — coordinated without being too matching, in tones that complement the natural environment rather than competing with it. Earth tones, soft blues, whites, and neutral palettes tend to work beautifully against UAQ's lagoon and natural backdrops. We provide a wardrobe guide when you book." },
+      { question: "Do you offer engagement and wedding photography packages for UAQ couples?", answer: "Yes. Our engagement and wedding photography bundles are available for couples in Umm Al Quwain and throughout the Northern Emirates. Booking both phases together provides better value and ensures complete visual consistency across your engagement gallery and your wedding day coverage. Contact us for bundle pricing details." },
+    ],
+    relatedSlugs: ["engagement-photographer-dubai-2026", "engagement-photographer-abu-dhabi-2026", "engagement-photographer-sharjah-2026"],
+    content: `
+<h2>Engagement Photography in Umm Al Quwain</h2>
+<p>There is a quality to Umm Al Quwain that is increasingly rare in the UAE: genuine stillness. The lagoon waterfront, the mangrove coastline, the traditional fishing village pace — UAQ offers a natural environment for couple photography that stands apart from the urban and architectural backdrops most couples default to. For engagement sessions, this translates into images with a quieter, more organic character.</p>
+<p>Backyard Studio Official provides <a href="/locations/umm-al-quwain/engagement-photography">engagement photography in Umm Al Quwain</a> for couples across the emirate and those travelling from the wider UAE for the distinctive setting. We plan sessions around the natural beauty of UAQ's waterfront and mangrove environment, timing for optimal light and minimum crowds.</p>
+<h2>UAQ Engagement Session Locations</h2>
+<p>The lagoon waterfront in UAQ City is our most frequently booked engagement location in the emirate. The combination of calm water, traditional wooden dhows at anchor, and the wide open sky produces a natural, romantic backdrop that requires no additional staging. Sessions at golden hour — the 45 minutes before sunset when the lagoon turns gold — produce consistently beautiful results.</p>
+<p>For couples who want something more enclosed and organic, the mangrove stands along UAQ's northern coast provide a green, forest-like setting unlike anything available in the main UAE cities. These locations feel genuinely private and produce images with a lush, natural quality. We scout and assess all locations ahead of your session to ensure you have the best possible setting for the look you are after.</p>
+<h2>Booking Your UAQ Engagement Session</h2>
+<p>Sessions typically run 60 to 90 minutes and deliver 30 to 50 finished images within 5 to 7 business days. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to check availability and begin planning your Umm Al Quwain engagement session.</p>
+`,
+  },
 
 ];
 export function getBlogPost(slug: string): BlogPost | undefined {
