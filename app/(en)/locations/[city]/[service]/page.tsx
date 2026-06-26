@@ -2197,6 +2197,1221 @@ const PAGES: Record<string, ServicePage> = {
   },
 
 
+
+  // ── SHARJAH — Sprint 25 commercial services ────────────────────────────────
+
+  "sharjah/wedding-photography": {
+    title: "Wedding Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Professional wedding photography in Sharjah — Al Qasba, Expo Centre Sharjah, cultural venues, Arabic & Indian weddings. All-female crews available. From AED 4,000.",
+    h1: "Wedding Photography in Sharjah",
+    subtitle: "Al Qasba. Heritage Area. Expo Centre. Sharjah weddings, beautifully documented.",
+    category: "WEDDING PHOTOGRAPHY",
+    intro: [
+      "Sharjah's wedding market is among the most culturally rich in the UAE. The emirate's deep Emirati heritage, its strong South Asian community, and its position as the UAE's cultural capital create a wedding landscape defined by tradition, ceremony, and a formality that requires photographers who understand both cultural protocol and the technical demands of diverse wedding formats.",
+      "Backyard Studio Official photographs weddings throughout Sharjah — at Al Qasba canal-side venues, heritage area settings, Expo Centre Sharjah events, hotel ballrooms, and private villas across the emirate. Our Sharjah wedding teams include both male and female photographers, and we provide fully all-female crews for ladies-only ceremonies at no compromise in quality.",
+    ],
+    highlights: [
+      { heading: "Al Qasba Venue Weddings", body: "Sharjah's most photographically versatile wedding corridor. The canal, Eye of the Emirates wheel, and surrounding venues combine architecture, water, and lighting conditions that reward professional photography at every time of day." },
+      { heading: "Heritage & Cultural Venues", body: "The Sharjah Heritage Area, traditional majlis settings, and the emirate's historic districts provide an authentically Emirati backdrop unavailable anywhere else in the UAE." },
+      { heading: "All-Female Photography Crews", body: "For ladies-only ceremony halls and gender-separated Sharjah weddings, we provide fully all-female photography and videography crews operating at the same professional level as our main teams." },
+      { heading: "Arabic & South Asian Weddings", body: "Experienced across every Sharjah wedding format — Arabic multi-day celebrations, Pakistani and Indian ceremonies, and mixed-nationality weddings — with same-day Teaser reel delivery." },
+    ],
+    pricing: [
+      { pkg: "Nikah / Ceremony Only", detail: "1 photographer / 4 hrs / digital gallery", price: "From AED 2,500" },
+      { pkg: "Wedding Day", detail: "2 photographers / 10 hrs / full gallery", price: "From AED 5,500" },
+      { pkg: "Photo + Video", detail: "2 photographers + 1 videographer / full day", price: "From AED 10,000" },
+      { pkg: "Multi-Day Package", detail: "Mehendi + Sangeet + Reception / full team", price: "From AED 16,000" },
+    ],
+    faqs: [
+      { q: "Which wedding venues in Sharjah does Backyard Studio Official cover?", a: "We cover all major Sharjah wedding venues including Al Qasba event spaces, Expo Centre Sharjah, Sharjah Grand Hotel, Mövenpick Hotel Sharjah, and private villas across the emirate. We also photograph traditional Emirati weddings in heritage area settings and majlis environments." },
+      { q: "Do you provide all-female wedding photography crews in Sharjah?", a: "Yes. For Arabic weddings and events requiring gender-separated coverage in Sharjah, Backyard Studio Official provides fully all-female photography and videography crews. This is a standard part of our Sharjah wedding offering, not an additional service." },
+      { q: "How much does wedding photography cost in Sharjah?", a: "Wedding photography in Sharjah starts from AED 2,500 for ceremony-only coverage and AED 5,500 for a full wedding day with two photographers. Multi-day packages from AED 16,000. We provide exact quotes within 2 hours." },
+      { q: "Do you shoot Pakistani and Indian weddings in Sharjah?", a: "Yes. Sharjah has one of the UAE's largest South Asian communities and we have extensive experience covering Pakistani and Indian weddings across the emirate — Mehendi, Sangeet, Barat, and Reception — with same-day Teaser delivery and 48-hour full gallery turnaround." },
+    ],
+  },
+
+  "sharjah/corporate-video": {
+    title: "Corporate Video Production in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Corporate video production in Sharjah — Sharjah Media City, SAIF Zone, government entities, brand films, company profiles. Bilingual Arabic-English delivery. From AED 6,000.",
+    h1: "Corporate Video Production in Sharjah",
+    subtitle: "Sharjah Media City. SAIF Zone. Government sector. The UAE's cultural capital, on camera.",
+    category: "CORPORATE VIDEO",
+    intro: [
+      "Sharjah has built a corporate media ecosystem centred on Sharjah Media City (Shams) — one of the UAE's fastest-growing free zones, home to hundreds of media, marketing, and content businesses. SAIF Zone adds an industrial and logistics dimension that generates its own corporate video requirements. And Sharjah's government sector, including the Sharjah Investment and Development Authority (Shurooq), produces institutional content at a scale that rivals the other emirates.",
+      "Backyard Studio Official produces corporate video in Sharjah for the emirate's diverse business landscape: media and creative companies in Shams, manufacturing and logistics firms in SAIF Zone, government entity communications, hotel and hospitality brands, and the retail and education sectors that define Sharjah's commercial character.",
+    ],
+    highlights: [
+      { heading: "Sharjah Media City (Shams)", body: "Brand films, company profiles, and content marketing productions for Shams-based media and digital agencies — created with the production quality the media industry itself demands." },
+      { heading: "Government & Institutional", body: "Sharjah government entities, Shurooq investment authority, and cultural institution communications content produced with appropriate Arabic-language delivery and institutional visual standards." },
+      { heading: "SAIF Zone Manufacturing", body: "Industrial brand films, facility documentation, and corporate profiles for SAIF Zone manufacturers and logistics companies — content that communicates operational scale and professional capability." },
+      { heading: "Bilingual Production", body: "Arabic and English versions as standard for Sharjah's bilingual market — narrated, subtitled, and formatted for the UAE's dual-language communication environment." },
+    ],
+    pricing: [
+      { pkg: "Corporate Profile", detail: "1 filming day / 3–5 min film / 2 revisions", price: "From AED 6,000" },
+      { pkg: "Government / Institutional", detail: "Multi-day / Arabic + English delivery", price: "From AED 14,000" },
+      { pkg: "Event + Brand Film", detail: "Event coverage + brand story edit", price: "From AED 9,000" },
+      { pkg: "Monthly Retainer", detail: "2 filming days/month / social + long-form", price: "From AED 7,500 / mo" },
+    ],
+    faqs: [
+      { q: "Do you produce corporate video for Sharjah Media City (Shams) companies?", a: "Yes. We produce brand films, company profiles, and content marketing videos for Shams-based media and digital businesses. Our Sharjah corporate video production meets the quality standards that media industry clients demand from their own production partners." },
+      { q: "Can you produce bilingual Arabic-English corporate video in Sharjah?", a: "Yes. Bilingual production is standard for our Sharjah corporate video work. We deliver Arabic and English versions with professional narration, and can subtitle either language for the other. Our Sharjah team includes native Arabic-speaking production coordinators." },
+      { q: "How much does corporate video production cost in Sharjah?", a: "Corporate video production in Sharjah starts from AED 6,000 for a single-day shoot producing a 3–5 minute company profile film with two rounds of revision. Government and institutional productions with multi-day filming are quoted individually. We respond to briefs within 2 hours." },
+      { q: "Do you cover Sharjah filming permit requirements for corporate shoots?", a: "Yes. Backyard Studio Official manages Sharjah filming permits as part of our standard service, including Sharjah City Municipality permits, Shurooq property approvals, and free zone facility access coordination for SAIF Zone and Shams shoots." },
+    ],
+  },
+
+  "sharjah/event-photography": {
+    title: "Event Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Professional event photography in Sharjah — Expo Centre Sharjah, Al Qasba, cultural events, corporate conferences, government galas. Same-day delivery available. From AED 2,800.",
+    h1: "Event Photography in Sharjah",
+    subtitle: "Expo Centre. Al Qasba. Cultural venues. Sharjah events, professionally documented.",
+    category: "EVENT PHOTOGRAPHY",
+    intro: [
+      "Sharjah is the UAE's most culturally active emirate. The Sharjah Art Foundation, Expo Centre Sharjah, Al Qasba, and a packed calendar of government-hosted events make the emirate one of the busiest event photography markets in the Northern Emirates. Add corporate conferences at Sharjah's business hotels, brand activations in the emirate's retail corridors, and the steady rhythm of educational and community events, and you have a market that demands consistent professional photography coverage.",
+      "Backyard Studio Official covers Sharjah events across every format — trade shows and conferences at Expo Centre Sharjah, cultural exhibitions and openings at the Sharjah Art Foundation, government ceremonies, corporate launches, and hospitality events across the emirate's hotels and venues. We provide same-day social media delivery when required.",
+    ],
+    highlights: [
+      { heading: "Expo Centre Sharjah", body: "Sharjah's primary exhibition and conference venue. We cover multi-day trade shows, product launches, and government-organized conferences with teams scaled to the event size." },
+      { heading: "Cultural & Arts Events", body: "Sharjah Art Foundation openings, Sharjah International Book Fair (one of the world's largest), and cultural programme events — photography that matches the calibre of the content." },
+      { heading: "Al Qasba Events", body: "Canal-side activations, family events, brand launches, and cultural programming in Sharjah's most visually dynamic public space." },
+      { heading: "Same-Day Social Delivery", body: "For launches and activations where social momentum matters, we deliver 20–30 edited images within 2–3 hours of the event ending." },
+    ],
+    pricing: [
+      { pkg: "Half Day (4 hrs)", detail: "1 photographer / 50 edited images", price: "From AED 2,800" },
+      { pkg: "Full Day (8–10 hrs)", detail: "1 photographer / 100 edited images", price: "From AED 4,500" },
+      { pkg: "Conference Package", detail: "2 photographers / multi-day / same-day delivery", price: "From AED 7,500 / day" },
+      { pkg: "Photo + Video", detail: "Photographer + videographer / highlight reel", price: "From AED 6,500" },
+    ],
+    faqs: [
+      { q: "Do you cover events at Expo Centre Sharjah?", a: "Yes. We cover trade shows, conferences, product launches, and government events at Expo Centre Sharjah with teams scaled to the size of each event — from single photographers to multi-person crews for large multi-hall exhibitions." },
+      { q: "Do you photograph events at the Sharjah Art Foundation?", a: "Yes. We cover cultural events, exhibition openings, and arts programming at the Sharjah Art Foundation and related cultural institutions across the emirate. Our photographers understand the specific requirements of arts and cultural event documentation." },
+      { q: "How much does event photography cost in Sharjah?", a: "Event photography in Sharjah starts from AED 2,800 for a 4-hour half-day session. Full-day coverage starts from AED 4,500. Multi-day conference packages are quoted per day. Same-day social media delivery is available at an additional fee." },
+      { q: "Can you deliver event photos on the same day in Sharjah?", a: "Yes. We operate a real-time editing workflow for Sharjah events requiring same-day social content, delivering a curated selection of edited images within 2–3 hours of the event ending." },
+    ],
+  },
+
+  "sharjah/real-estate-photography": {
+    title: "Real Estate Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Professional real estate photography in Sharjah — Aljada, Tilal City, waterfront properties, developer campaigns, aerial drone. Interior & exterior photography. From AED 1,000.",
+    h1: "Real Estate Photography in Sharjah",
+    subtitle: "Aljada. Tilal City. Sharjah Waterfront. Every development, professionally presented.",
+    category: "REAL ESTATE PHOTOGRAPHY",
+    intro: [
+      "Sharjah's real estate market has undergone significant transformation in recent years, led by Arada's Aljada development — the emirate's largest mixed-use community — and Tilal City, along with growing demand for waterfront properties along the Khalid Lagoon and Corniche. The emirate's affordability relative to Dubai has drawn significant investor interest, creating demand for professional property photography that can present Sharjah developments to a sophisticated audience.",
+      "Backyard Studio Official produces real estate photography for Sharjah developers, property agencies, and landlords across unit photography, show apartment campaigns, project launch content, and aerial drone documentation. We are GCAA licensed for drone operations in Sharjah's development zones and coordinate all necessary airspace permissions.",
+    ],
+    highlights: [
+      { heading: "Aljada & Major Developments", body: "Photography for Arada's Aljada and other major Sharjah developments — show apartments, community lifestyle, aerial masterplan documentation, and investor-facing campaign content." },
+      { heading: "Waterfront & Lagoon Properties", body: "Khalid Lagoon and Sharjah waterfront properties photographed to maximise the water views and setting that are key selling points for the emirate's premium units." },
+      { heading: "GCAA-Licensed Aerial Drone", body: "Legal aerial documentation of Sharjah developments with all GCAA and local authority permissions managed as standard. Same-day drone footage delivery available." },
+      { heading: "Property Agency Packages", body: "High-volume listing photography for Sharjah's property agencies — consistent quality, fast turnaround, and formats ready for Bayut, Property Finder, and developer portals." },
+    ],
+    pricing: [
+      { pkg: "Unit Photography", detail: "Up to 3 units / interior & exterior / 30 images", price: "From AED 1,000" },
+      { pkg: "Show Apartment", detail: "Full-day shoot / hero shots + detail images", price: "From AED 2,800" },
+      { pkg: "Aerial + Ground Package", detail: "Drone + interior / licensed GCAA pilot", price: "From AED 3,800" },
+      { pkg: "Developer Launch Package", detail: "Multi-day / full photo + video campaign", price: "From AED 12,000" },
+    ],
+    faqs: [
+      { q: "Do you produce real estate photography for Sharjah developers like Arada?", a: "Yes. We produce real estate photography and videography for Sharjah property developers, including show apartment campaigns, community lifestyle photography, aerial site documentation, and investor-facing content. We are experienced with the briefing and approval processes that major developers operate." },
+      { q: "Can you photograph Sharjah waterfront and lagoon properties?", a: "Yes. Khalid Lagoon and Sharjah Corniche waterfront properties are among our most common Sharjah real estate assignments. We shoot interior and exterior photography that maximises the visual impact of water views and the surrounding setting." },
+      { q: "How much does real estate photography cost in Sharjah?", a: "Unit photography in Sharjah starts from AED 1,000 for up to 3 units with 30 images. Show apartment campaigns start from AED 2,800. Aerial drone packages start from AED 2,000. Developer launch packages are quoted individually." },
+      { q: "Are you licensed for drone photography over Sharjah real estate?", a: "Yes. We hold a GCAA commercial drone licence and manage all local authority permissions for Sharjah aerial photography. Most Sharjah locations can be permitted within 48 to 72 hours." },
+    ],
+  },
+
+  "sharjah/drone-videography": {
+    title: "Drone Videography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "GCAA-licensed drone videography in Sharjah — Khalid Lagoon, Al Qasba, Expo Centre, waterfront developments. Aerial photography & 4K video. From AED 2,000.",
+    h1: "Drone Videography in Sharjah",
+    subtitle: "GCAA licensed. Khalid Lagoon. Al Qasba. Sharjah from above, legally and beautifully.",
+    category: "DRONE VIDEOGRAPHY",
+    intro: [
+      "Drone videography in Sharjah opens up a city of extraordinary visual character from above — the crescent of the Khalid Lagoon, the dense heritage geometry of the old town, Al Qasba's canal and wheel, and the development corridors of Aljada and the new city districts spreading inland. The emirate's compact urban density and waterfront setting make it one of the most rewarding aerial photography environments in the Northern Emirates.",
+      "Backyard Studio Official holds full GCAA commercial drone licences and manages all Sharjah municipal and airspace permissions as standard. We produce aerial content for Sharjah's real estate developers, tourism operators, event organizers, government communications teams, and commercial advertising clients in 4K with cinema colour grading.",
+    ],
+    highlights: [
+      { heading: "Khalid Lagoon & Corniche", body: "The lagoon from above reveals Sharjah's distinctive crescent waterfront — one of the most recognizable aerial views in the Northern Emirates. Dawn and golden hour aerials produce extraordinary results." },
+      { heading: "Al Qasba & Heritage Area", body: "The canal geometry of Al Qasba and the dense rooftop patterns of the Heritage Area create compelling drone compositions unavailable on the ground." },
+      { heading: "Development Site Documentation", body: "Aerial progress documentation for Aljada, Tilal City, and other Sharjah development projects — GCAA licensed, with all municipal permissions coordinated." },
+      { heading: "Real Estate & Tourism Content", body: "Drone footage for Sharjah property marketing, tourism campaigns, and destination content in 4K with professional colour grading." },
+    ],
+    pricing: [
+      { pkg: "Drone Session (2 hrs)", detail: "GCAA pilot / 4K footage / basic edit", price: "From AED 2,000" },
+      { pkg: "Half Day Aerial", detail: "4 hrs / multiple locations / colour-graded edit", price: "From AED 3,500" },
+      { pkg: "Drone + Ground Package", detail: "Aerial + ground camera team / full edit", price: "From AED 5,500" },
+      { pkg: "Real Estate Aerial", detail: "Development documentation / licensed GCAA", price: "From AED 2,800" },
+    ],
+    faqs: [
+      { q: "Is drone videography legal in Sharjah and do you have the required permits?", a: "Yes. Drone operations in Sharjah require a GCAA commercial operator certificate and Sharjah municipal coordination. Backyard Studio Official holds all required licences and manages every permit application as standard. We do not fly without complete legal clearance." },
+      { q: "Can you fly a drone over the Khalid Lagoon and Sharjah waterfront?", a: "Yes. The Khalid Lagoon and Sharjah Corniche are accessible for commercial drone operations with appropriate municipal coordination, which we manage. These are among our most frequently requested Sharjah aerial locations." },
+      { q: "How much does drone videography cost in Sharjah?", a: "Drone sessions in Sharjah start from AED 2,000 for a 2-hour session. Half-day packages from AED 3,500. Combined drone and ground camera packages from AED 5,500." },
+      { q: "Do you produce drone content for Sharjah real estate developers?", a: "Yes. Aerial documentation for Sharjah real estate is one of our most common drone briefs — development site progress, masterplan aerials, show apartment launch footage, and investor-facing community overview films." },
+    ],
+  },
+
+  "sharjah/food-photography": {
+    title: "Food Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Professional food photography in Sharjah — restaurant menus, Al Qasba cafes, hotel F&B, social media content. Same-day Instagram content available. From AED 1,500.",
+    h1: "Food Photography in Sharjah",
+    subtitle: "Al Qasba cafes. Heritage area restaurants. Hotel dining. Your dishes, professionally photographed.",
+    category: "FOOD PHOTOGRAPHY",
+    intro: [
+      "Sharjah's restaurant scene is diverse and growing — from heritage area dining that leans on Emirati and Levantine cuisine, to the international F&B strip along Al Qasba, to hotel restaurants serving the emirate's conference and tourism market. In this competitive landscape, professional food photography is what separates restaurants with packed reservations from those competing on price alone.",
+      "Backyard Studio Official produces food photography for Sharjah restaurants, hotel F&B outlets, and cloud kitchens that need content to perform across delivery platforms, Instagram, and printed menus. We understand the visual standards of the UAE's food photography market and produce imagery that works across every platform your restaurant needs to appear on.",
+    ],
+    highlights: [
+      { heading: "Restaurant Menu Photography", body: "Every dish photographed for printed menus, digital QR menus, Talabat and Deliveroo listings, and restaurant websites — consistent quality across all formats." },
+      { heading: "Al Qasba & Waterfront Venues", body: "Food photography incorporating the canal-side setting — atmospheric context shots that sell not just the dish but the dining experience." },
+      { heading: "Social Media Content Production", body: "Instagram Reels, TikTok content, and story-format video of plating moments, chef action, and hero dishes — the format that drives new reservations." },
+      { heading: "Hotel F&B Photography", body: "Professional photography for Sharjah hotel restaurants and room service menus, meeting the visual standards of international hotel groups." },
+    ],
+    pricing: [
+      { pkg: "Menu Shoot (20 dishes)", detail: "3 hrs / styled / all formats", price: "From AED 1,500" },
+      { pkg: "Full Menu (50 dishes)", detail: "6 hrs / interior + food / digital delivery", price: "From AED 2,800" },
+      { pkg: "Social Content Package", detail: "Food + Reels + Stories / monthly", price: "From AED 2,200 / mo" },
+      { pkg: "Restaurant Launch", detail: "Full day / menu + interior + brand film", price: "From AED 5,500" },
+    ],
+    faqs: [
+      { q: "Do you produce food photography for Sharjah restaurants?", a: "Yes. Backyard Studio Official produces food and menu photography for restaurants, cafés, and F&B outlets throughout Sharjah, including Al Qasba venues, heritage area dining, and hotel restaurants. We work within operational hours to minimise disruption to service." },
+      { q: "Can you create social media content for my Sharjah restaurant?", a: "Yes. In addition to still food photography, we produce Instagram Reels and TikTok content — plating videos, chef action, and atmosphere shots — in vertical format for all major social platforms." },
+      { q: "How much does food photography cost in Sharjah?", a: "Food photography in Sharjah starts from AED 1,500 for a 3-hour session covering 20 dishes. Full menu shoots from AED 2,800. Monthly social content packages from AED 2,200 per month." },
+      { q: "How quickly do you deliver food photography content?", a: "Standard delivery is 2–4 business days from the shoot date. Rush 24-hour delivery is available. Social media Reels are typically delivered within 48 hours." },
+    ],
+  },
+
+  "sharjah/product-photography": {
+    title: "Product Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Professional product photography in Sharjah — e-commerce, Amazon UAE, Noon, brand campaigns. SAIF Zone businesses welcome. Studio & lifestyle options. From AED 800.",
+    h1: "Product Photography in Sharjah",
+    subtitle: "E-commerce. Amazon UAE. Brand campaigns. Sharjah products, professionally presented.",
+    category: "PRODUCT PHOTOGRAPHY",
+    intro: [
+      "Sharjah has a substantial SME and manufacturing sector concentrated in SAIF Zone and the emirate's industrial areas. Many of these businesses sell across UAE e-commerce platforms — Amazon UAE, Noon, and Shopify — and need product photography that meets marketplace technical requirements while also delivering brand-quality imagery for advertising and social media.",
+      "Backyard Studio Official produces product photography for Sharjah businesses across all product categories — from consumer goods and packaged products to industrial components and specialty manufacturing outputs. We deliver content ready for Amazon UAE and Noon requirements as standard.",
+    ],
+    highlights: [
+      { heading: "E-Commerce & Marketplace Photography", body: "White-background product shots meeting Amazon UAE and Noon technical requirements — delivered upload-ready." },
+      { heading: "SAIF Zone & Industrial Products", body: "Product photography for SAIF Zone manufacturers and industrial suppliers — professional presentation of technical products for B2B catalogues and commercial marketing." },
+      { heading: "Lifestyle & Context Photography", body: "Products in use, in environment, with models — the content that drives purchase intent on social media and differentiates brands from marketplace competitors." },
+      { heading: "Packaging & Brand Campaigns", body: "Product launch photography covering packaging hero shots, lifestyle imagery, and advertising-ready deliverables for Sharjah brands." },
+    ],
+    pricing: [
+      { pkg: "Starter (10 SKUs)", detail: "White bg / 3 angles per product / 2 days", price: "From AED 800" },
+      { pkg: "Standard (30 SKUs)", detail: "White bg + lifestyle / 3 angles / styled", price: "From AED 2,200" },
+      { pkg: "Premium Campaign", detail: "20 products + model + lifestyle context", price: "From AED 4,500" },
+      { pkg: "Catalogue (100+ SKUs)", detail: "Custom quote / priority processing", price: "On request" },
+    ],
+    faqs: [
+      { q: "Do you produce Amazon UAE and Noon compliant product photography in Sharjah?", a: "Yes. We produce product photography meeting Amazon UAE and Noon technical requirements — pure white background, correct dimensions, appropriate angle coverage — with files ready for direct upload." },
+      { q: "Do you work with SAIF Zone businesses in Sharjah?", a: "Yes. We produce product photography for SAIF Zone manufacturers, wholesalers, and exporters, including B2B catalogue photography, product launch imagery, and e-commerce content for businesses with UAE market distribution." },
+      { q: "How much does product photography cost in Sharjah?", a: "Product photography in Sharjah starts from AED 800 for 10 SKUs on white background. Standard lifestyle packages from AED 2,200. Large catalogue shoots quoted individually." },
+      { q: "How quickly do you deliver product photography?", a: "Standard delivery is 2–4 business days. Rush 24-hour delivery available. We can prioritise hero shots for same-day delivery when product launch timing requires it." },
+    ],
+  },
+
+  "sharjah/personal-branding-photography": {
+    title: "Personal Branding Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Personal branding photography in Sharjah — professionals, entrepreneurs, executives, coaches. LinkedIn profiles, speaker photos, website portraits. Al Qasba & studio locations. From AED 1,200.",
+    h1: "Personal Branding Photography in Sharjah",
+    subtitle: "Sharjah professionals. Executives. Entrepreneurs. Your brand, visually established.",
+    category: "PERSONAL BRANDING",
+    intro: [
+      "Sharjah's professional community spans government, education, media, manufacturing, and a growing entrepreneurial class. In a market where LinkedIn and personal websites are primary business development tools, the quality of your professional image directly affects how potential clients, partners, and employers perceive your credibility before any conversation begins.",
+      "Backyard Studio Official produces personal branding photography for Sharjah professionals — executives, entrepreneurs, coaches, consultants, and public figures — that translates expertise and personality into images optimised for LinkedIn, speaker profiles, website About pages, and media kits. We run a pre-session brief aligned to your positioning and audience, not just your appearance.",
+    ],
+    highlights: [
+      { heading: "Al Qasba & Canal Locations", body: "Sharjah's most photographically versatile outdoor professional setting — waterfront context that communicates seriousness and accessibility simultaneously." },
+      { heading: "Heritage & Cultural Context", body: "For Sharjah-based professionals who want to signal local roots and cultural depth, the Heritage Area and traditional architecture provide an authentically Emirati backdrop." },
+      { heading: "Studio Headshots", body: "Clean, controlled studio environments for LinkedIn and corporate profiles — professional, consistent, and immediately credible." },
+      { heading: "Full Brand Day Sessions", body: "Multiple looks and locations delivering a complete content bank for a quarter of LinkedIn and social media posting." },
+    ],
+    pricing: [
+      { pkg: "Executive Headshots", detail: "1.5 hrs / 1 location / 20 final images", price: "From AED 1,200" },
+      { pkg: "Personal Brand Session", detail: "3 hrs / 2 looks / 2 locations / 50 images", price: "From AED 2,500" },
+      { pkg: "Full Brand Day", detail: "6 hrs / 4 looks / 3 locations / 100 images", price: "From AED 4,500" },
+      { pkg: "Brand Day + Social Video", detail: "Photos + 3 x LinkedIn video clips", price: "From AED 5,800" },
+    ],
+    faqs: [
+      { q: "Where do you shoot personal branding photography in Sharjah?", a: "Popular Sharjah personal branding locations include Al Qasba for waterfront professional context, the Heritage Area for cultural depth, and studio environments for clean LinkedIn headshots. We help you select the right location based on your brand positioning during the pre-session brief." },
+      { q: "What is included in a personal branding session in Sharjah?", a: "Every session includes a pre-session brief to align on brand, audience, and visual goals. The shoot covers agreed locations and outfit changes. Delivery includes edited images in formats ready for LinkedIn, website, and social media use." },
+      { q: "How much does personal branding photography cost in Sharjah?", a: "Personal branding photography in Sharjah starts from AED 1,200 for an executive headshot session. Full personal brand sessions from AED 2,500. All-day sessions from AED 4,500." },
+      { q: "How long does it take to receive personal branding photos after the shoot?", a: "Delivery is typically 3–5 business days. Rush 48-hour delivery is available. We deliver an online gallery for selection and final images in web and print-ready formats." },
+    ],
+  },
+
+
+  // ── AJMAN — Sprint 25 commercial services ──────────────────────────────────
+
+  "ajman/wedding-photography": {
+    title: "Wedding Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Professional wedding photography in Ajman — Corniche venues, Kempinski Hotel Ajman, beach settings, Arabic & South Asian weddings. All-female crews available. From AED 2,500.",
+    h1: "Wedding Photography in Ajman",
+    subtitle: "Ajman Corniche. Kempinski. Beach venues. Intimate weddings, professionally documented.",
+    category: "WEDDING PHOTOGRAPHY",
+    intro: [
+      "Ajman offers a wedding photography environment unlike anywhere else in the Northern Emirates — the Corniche's open beach frontage, the landmark Kempinski Hotel Ajman, and a compact, intimate emirate where venues are within minutes of each other and logistics rarely become the obstacle they can be in larger cities.",
+      "Backyard Studio Official covers weddings throughout Ajman — Corniche hotel venues, private beach settings, traditional Emirati ceremonies, and South Asian weddings for Ajman's large Indian and Pakistani community. We provide all-female photography crews for ladies-only ceremony halls as standard.",
+    ],
+    highlights: [
+      { heading: "Kempinski Hotel Ajman", body: "The emirate's flagship luxury wedding venue, with a beach setting that produces exceptional ceremony and portrait photography in both golden hour and evening conditions." },
+      { heading: "Ajman Corniche & Beach", body: "Open beach wedding photography with the Arabian Gulf as backdrop — outdoor ceremonies, sunset portraits, and beach receptions in Ajman's most scenic setting." },
+      { heading: "South Asian Weddings", body: "Extensive experience covering Pakistani and Indian weddings in Ajman — Mehendi, Baraat, and Reception photography with same-day Teaser delivery." },
+      { heading: "All-Female Crews Available", body: "Fully all-female photography and videography teams for ladies-only ceremony halls and gender-separated events across Ajman venues." },
+    ],
+    pricing: [
+      { pkg: "Nikah / Ceremony Only", detail: "1 photographer / 4 hrs / digital gallery", price: "From AED 2,500" },
+      { pkg: "Wedding Day", detail: "2 photographers / 10 hrs / full gallery", price: "From AED 5,500" },
+      { pkg: "Photo + Video", detail: "2 photographers + 1 videographer / full day", price: "From AED 9,500" },
+      { pkg: "Multi-Day Package", detail: "Mehendi + Baraat + Reception", price: "From AED 14,000" },
+    ],
+    faqs: [
+      { q: "Do you photograph weddings at Kempinski Hotel Ajman?", a: "Yes. Kempinski Hotel Ajman is one of our most frequently photographed Ajman wedding venues. The combination of beach setting, architectural elegance, and the ballroom's light makes it an excellent photography environment." },
+      { q: "How far is Ajman from Dubai or Sharjah for your team?", a: "Our teams are based in Dubai and Sharjah, so Ajman is typically a 20–45 minute drive depending on traffic. We factor travel time into our scheduling and always arrive 30–45 minutes before the scheduled start." },
+      { q: "How much does wedding photography cost in Ajman?", a: "Wedding photography in Ajman starts from AED 2,500 for ceremony-only coverage and AED 5,500 for a full wedding day. Multi-day South Asian wedding packages from AED 14,000." },
+      { q: "Do you provide all-female photography crews in Ajman?", a: "Yes. For weddings with ladies-only ceremony halls in Ajman, we provide fully all-female photography and videography crews operating at the same professional standard as our main teams." },
+    ],
+  },
+
+  "ajman/corporate-video": {
+    title: "Corporate Video Production in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Corporate video production in Ajman — Ajman Free Zone, business profiles, brand films, government sector content. Bilingual Arabic-English delivery. From AED 5,500.",
+    h1: "Corporate Video Production in Ajman",
+    subtitle: "Ajman Free Zone. SME sector. Brand films. Ajman business, professionally on camera.",
+    category: "CORPORATE VIDEO",
+    intro: [
+      "Ajman's business landscape is defined by its free zone — Ajman Free Zone is home to over 9,000 companies and is one of the UAE's most cost-effective licensing environments for SMEs. The emirate also has a growing manufacturing and trading sector, and government entities at the Ajman level generate a steady need for institutional video communications.",
+      "Backyard Studio Official produces corporate video for Ajman's business community — company profiles, brand films, product demonstrations, and institutional content for Ajman Free Zone companies, manufacturing businesses, and government entities across the emirate.",
+    ],
+    highlights: [
+      { heading: "Ajman Free Zone Company Profiles", body: "Corporate profile videos for the thousands of SMEs based in Ajman Free Zone — professional company introductions that work for investor relations, sales meetings, and tender submissions." },
+      { heading: "Manufacturing & Industrial Sector", body: "Corporate films for Ajman's manufacturing and trading businesses, covering facility documentation, process videos, and B2B brand content." },
+      { heading: "Government Entity Content", body: "Institutional video for Ajman government departments and public sector bodies, with appropriate Arabic-language standards and official visual protocols." },
+      { heading: "Cost-Effective Production Packages", body: "Ajman's SME market demands efficient production value. We offer fixed-price corporate packages designed for businesses investing in professional video for the first time." },
+    ],
+    pricing: [
+      { pkg: "Corporate Profile", detail: "1 filming day / 3–5 min film / 2 revisions", price: "From AED 5,500" },
+      { pkg: "Brand Film", detail: "Multi-day / 5–8 min / Arabic + English", price: "From AED 11,000" },
+      { pkg: "Product Demo Video", detail: "Half day / 60–90 sec / social-ready", price: "From AED 3,500" },
+      { pkg: "Monthly Retainer", detail: "2 filming days/month / mixed formats", price: "From AED 6,500 / mo" },
+    ],
+    faqs: [
+      { q: "Do you produce corporate videos for Ajman Free Zone companies?", a: "Yes. Many Ajman Free Zone companies require professional corporate videos for investor relations, partnership presentations, and e-tendering. We produce company profile films, facility tours, and brand introduction videos for free zone-based businesses." },
+      { q: "How much does corporate video production cost in Ajman?", a: "Corporate video production in Ajman starts from AED 5,500 for a single-day shoot producing a 3–5 minute company profile. Product demo videos from AED 3,500. We provide quotes within 2 hours." },
+      { q: "Do you cover permits for filming in Ajman?", a: "Yes. We coordinate filming permissions for Ajman commercial shoots, including facility access approvals and any municipal coordination required for outdoor filming locations." },
+      { q: "Can you produce Arabic-English bilingual corporate videos for Ajman?", a: "Yes. Bilingual Arabic-English delivery is available for all Ajman corporate video productions — narrated, subtitled, or title-card formatted for each language version." },
+    ],
+  },
+
+  "ajman/event-photography": {
+    title: "Event Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Professional event photography in Ajman — corporate conferences, government events, hotel galas, brand activations. Same-day social delivery available. From AED 2,500.",
+    h1: "Event Photography in Ajman",
+    subtitle: "Hotel venues. Ajman events. Brand activations. Your event, professionally documented.",
+    category: "EVENT PHOTOGRAPHY",
+    intro: [
+      "Ajman's event market is served by its Corniche hotels — Kempinski, Fairmont, and a number of business hotels with conference and banquet facilities — alongside government-organized events and community activations that the emirate's compact size makes easily navigable.",
+      "Backyard Studio Official covers events throughout Ajman — corporate conferences, government ceremonies, hotel galas, product launches, and community events. Our rapid same-day social delivery workflow ensures your Ajman event content reaches your audience while the event is still happening.",
+    ],
+    highlights: [
+      { heading: "Hotel Conference & Gala Coverage", body: "Professional event photography at Ajman's major hotel venues — Kempinski, Fairmont, and business conference centres — with experience in both intimate boardroom sessions and large gala formats." },
+      { heading: "Government & Institutional Events", body: "Event coverage for Ajman government departments, free zone authority events, and official ceremonies with appropriate protocol documentation." },
+      { heading: "Brand Activations & Launches", body: "Product launches and brand activation photography in Ajman's retail and hospitality spaces — content delivered same-day for immediate social media distribution." },
+      { heading: "Same-Day Social Delivery", body: "20–30 edited event images delivered within 2–3 hours of the event close for brands that need social momentum during the event news cycle." },
+    ],
+    pricing: [
+      { pkg: "Half Day (4 hrs)", detail: "1 photographer / 50 edited images", price: "From AED 2,500" },
+      { pkg: "Full Day (8 hrs)", detail: "1 photographer / 100 edited images", price: "From AED 4,200" },
+      { pkg: "Corporate Event Package", detail: "2 photographers / same-day delivery", price: "From AED 6,500 / day" },
+      { pkg: "Photo + Video", detail: "Photographer + videographer / highlight reel", price: "From AED 6,000" },
+    ],
+    faqs: [
+      { q: "Do you cover events at Kempinski Hotel Ajman?", a: "Yes. Kempinski Ajman is one of our regular event venues in the emirate. We cover conferences, galas, corporate awards nights, and product launches at Kempinski and other major Ajman hotel venues." },
+      { q: "How much does event photography cost in Ajman?", a: "Event photography in Ajman starts from AED 2,500 for a 4-hour session. Full-day coverage from AED 4,200. Same-day social delivery is available as an add-on." },
+      { q: "Can you deliver event photos the same day in Ajman?", a: "Yes. We operate a same-day editing workflow for Ajman events where social media timing is critical — delivering 20–30 edited images within 2–3 hours of the event ending." },
+      { q: "How far is Ajman from your base for events?", a: "Our teams reach Ajman in 20–45 minutes from Dubai or Sharjah. We always build travel buffer into event scheduling to ensure on-time arrival at all Ajman venues." },
+    ],
+  },
+
+  "ajman/real-estate-photography": {
+    title: "Real Estate Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Professional real estate photography in Ajman — Ajman One, waterfront properties, investment units, property agencies, aerial drone. From AED 800.",
+    h1: "Real Estate Photography in Ajman",
+    subtitle: "Ajman One. Waterfront. Investment units. Ajman real estate, professionally photographed.",
+    category: "REAL ESTATE PHOTOGRAPHY",
+    intro: [
+      "Ajman's real estate market is one of the UAE's most affordably priced, drawing investor interest from across the country and internationally. Developments like Ajman One, waterfront towers on the Corniche, and the emirate's growing residential stock represent a market where professional photography can meaningfully shift listing performance.",
+      "Backyard Studio Official produces real estate photography for Ajman developers, property agencies, and individual landlords — unit photography, show apartment campaigns, aerial drone documentation, and listing imagery formatted for Bayut and Property Finder.",
+    ],
+    highlights: [
+      { heading: "Investment Property Photography", body: "Interior and exterior photography for Ajman's investment apartment market — units photographed to attract UAE-wide and international buyer interest at an achievable price point." },
+      { heading: "Waterfront & Corniche Properties", body: "Ajman's Corniche waterfront towers and lagoon-facing properties photographed to capture views and setting — the key differentiators in the emirate's most desirable addresses." },
+      { heading: "GCAA-Licensed Aerial Drone", body: "Licensed aerial photography for Ajman properties and development sites with all permit coordination managed as standard." },
+      { heading: "Agency High-Volume Packages", body: "Regular property photography packages for Ajman agencies managing portfolios of rental and sales listings — consistent quality, fast turnaround." },
+    ],
+    pricing: [
+      { pkg: "Unit Photography", detail: "Up to 3 units / interior & exterior / 25 images", price: "From AED 800" },
+      { pkg: "Show Apartment", detail: "Full day / hero shots + detail images", price: "From AED 2,500" },
+      { pkg: "Aerial + Ground Package", detail: "Drone + interior / licensed GCAA pilot", price: "From AED 3,500" },
+      { pkg: "Developer Launch", detail: "Multi-day / photo + video campaign", price: "From AED 10,000" },
+    ],
+    faqs: [
+      { q: "Do you produce real estate photography for Ajman property agencies?", a: "Yes. We produce listing photography for Ajman property agencies at volumes suited to active sales and rental portfolios — consistent quality and a 2-day turnaround as standard." },
+      { q: "Can you photograph waterfront and Corniche properties in Ajman?", a: "Yes. Ajman's Corniche and waterfront properties are a regular part of our real estate photography work in the emirate — we capture interior spaces and the surrounding views that define the listing's core appeal." },
+      { q: "How much does real estate photography cost in Ajman?", a: "Unit photography in Ajman starts from AED 800 for up to 3 units. Show apartment campaigns from AED 2,500. Aerial drone packages from AED 2,000." },
+      { q: "Are you licensed for drone photography over Ajman properties?", a: "Yes. We hold full GCAA commercial drone licences and coordinate all local Ajman authority permissions as standard." },
+    ],
+  },
+
+  "ajman/drone-videography": {
+    title: "Drone Videography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "GCAA-licensed drone videography in Ajman — Corniche, waterfront developments, aerial photography, 4K drone footage. Licensed pilot. From AED 1,800.",
+    h1: "Drone Videography in Ajman",
+    subtitle: "GCAA licensed. Ajman Corniche. Waterfront. Ajman from above, legally cleared.",
+    category: "DRONE VIDEOGRAPHY",
+    intro: [
+      "Ajman from the air reveals a compact coastal emirate defined by its Corniche, the creek mouth, and the lagoon — a visual landscape that reads as distinct and beautiful in drone footage but is rarely seen because legal aerial operations in the emirate require proper licensing and coordination.",
+      "Backyard Studio Official holds full GCAA commercial drone licences and manages Ajman municipal permissions for every shoot. We produce aerial content for the emirate's real estate developers, hospitality properties, event organizers, and tourism content in 4K with professional colour grading.",
+    ],
+    highlights: [
+      { heading: "Ajman Corniche & Coastline", body: "The stretch of Ajman's Corniche from above, including the creek entrance and Gulf coastline — compelling aerial compositions for tourism, hospitality, and destination marketing." },
+      { heading: "Property & Development Aerial", body: "GCAA-licensed aerial documentation for Ajman's waterfront towers, residential developments, and investment property campaigns." },
+      { heading: "Coastal & Marine Content", body: "Aerial coverage of Ajman's fishing port, traditional dhow yards, and the emirate's coastal character — authentic content rare in UAE drone footage." },
+      { heading: "4K Cinema Output", body: "All aerial footage delivered in 4K with professional colour grading — suitable for broadcast, social media, and marketing campaigns." },
+    ],
+    pricing: [
+      { pkg: "Drone Session (2 hrs)", detail: "GCAA pilot / 4K footage / basic edit", price: "From AED 1,800" },
+      { pkg: "Half Day Aerial", detail: "4 hrs / multiple locations / colour-graded", price: "From AED 3,200" },
+      { pkg: "Drone + Ground Package", detail: "Aerial + ground camera team / full edit", price: "From AED 5,000" },
+      { pkg: "Real Estate Aerial", detail: "Development documentation / licensed", price: "From AED 2,500" },
+    ],
+    faqs: [
+      { q: "Is commercial drone operation licensed in Ajman?", a: "Yes, and all commercial drone operations in Ajman require GCAA licencing and local authority coordination. Backyard Studio Official holds a full GCAA commercial operator certificate and manages all permit applications for every Ajman drone shoot." },
+      { q: "Can you fly over the Ajman Corniche and waterfront?", a: "Yes, with appropriate permits. We coordinate Ajman municipality and GCAA approvals for Corniche and waterfront aerial shoots, which are among our most common Ajman drone assignments." },
+      { q: "How much does drone videography cost in Ajman?", a: "Drone sessions in Ajman start from AED 1,800 for a 2-hour session. Half-day packages from AED 3,200. Combined drone and ground packages from AED 5,000." },
+      { q: "How quickly can you permit a drone shoot in Ajman?", a: "Standard permits for most Ajman locations take 48–72 hours. Restricted zone locations near Ajman Airport require longer processing. We advise on timelines during booking." },
+    ],
+  },
+
+  "ajman/food-photography": {
+    title: "Food Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Professional food photography in Ajman — restaurant menus, Corniche dining, Talabat listings, hotel F&B, social media content. From AED 1,400.",
+    h1: "Food Photography in Ajman",
+    subtitle: "Corniche restaurants. Hotel dining. Delivery platforms. Your food, professionally photographed.",
+    category: "FOOD PHOTOGRAPHY",
+    intro: [
+      "Ajman's restaurant scene serves a local population with a high preference for home delivery alongside dine-in options — Talabat and Deliveroo listings are critical revenue channels for most Ajman F&B businesses. Professional food photography that meets the visual standards of these platforms while also performing on Instagram determines which restaurants attract the order volume.",
+      "Backyard Studio Official produces food photography for Ajman restaurants, café chains, hotel F&B outlets, and cloud kitchens — menu content ready for delivery platforms, social media, and printed materials.",
+    ],
+    highlights: [
+      { heading: "Delivery Platform Photography", body: "Menu photography formatted and styled for Talabat, Deliveroo, and noon Food — the platforms driving the majority of Ajman restaurant revenue." },
+      { heading: "Corniche Dining", body: "Food photography incorporating Ajman's Corniche waterfront setting — context shots that communicate the dine-in experience alongside the dish itself." },
+      { heading: "Social Media Content", body: "Instagram and TikTok food content — Reels, vertical video, and story formats produced alongside still photography in a single session." },
+      { heading: "Cloud Kitchen & Delivery Brands", body: "Specialized photography for Ajman cloud kitchen operators — consistent, platform-ready content at a volume and price point that suits delivery-only brands." },
+    ],
+    pricing: [
+      { pkg: "Menu Shoot (20 dishes)", detail: "3 hrs / styled / all formats", price: "From AED 1,400" },
+      { pkg: "Full Menu (50 dishes)", detail: "6 hrs / food + context / digital delivery", price: "From AED 2,600" },
+      { pkg: "Social Content Package", detail: "Food + Reels + Stories / monthly", price: "From AED 2,000 / mo" },
+      { pkg: "Restaurant Launch", detail: "Full day / menu + interior + Reel", price: "From AED 5,000" },
+    ],
+    faqs: [
+      { q: "Do you produce food photography for Ajman restaurants?", a: "Yes. We produce menu and food photography for restaurants, cafés, and food delivery brands throughout Ajman, including content formatted for Talabat, Deliveroo, and social media platforms." },
+      { q: "How much does food photography cost in Ajman?", a: "Food photography in Ajman starts from AED 1,400 for a 3-hour menu shoot covering 20 dishes. Full menu photography from AED 2,600. Monthly social content packages from AED 2,000." },
+      { q: "Can you photograph food at our Ajman restaurant during opening hours?", a: "Yes. We work around your service schedule to minimize disruption. The optimal photography window is 90 minutes before service, but we're flexible to your operational timing." },
+      { q: "Do you create food Reels and TikTok content for Ajman restaurants?", a: "Yes. Alongside still photography, we produce short-form video content — plating Reels, chef action clips, and atmosphere content in vertical format for Instagram and TikTok." },
+    ],
+  },
+
+  "ajman/product-photography": {
+    title: "Product Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Professional product photography in Ajman — e-commerce, Amazon UAE, Noon, Ajman Free Zone businesses. Studio and lifestyle options. Fast turnaround. From AED 750.",
+    h1: "Product Photography in Ajman",
+    subtitle: "E-commerce. Amazon UAE. Brand campaigns. Ajman products, professionally photographed.",
+    category: "PRODUCT PHOTOGRAPHY",
+    intro: [
+      "Ajman Free Zone's 9,000+ registered companies include a large proportion of trading and import/export businesses whose products are sold through UAE e-commerce platforms. Professional product photography is the single highest-impact marketing investment many of these businesses can make — the difference between a listing that converts and one that doesn't often comes down to image quality alone.",
+      "Backyard Studio Official produces product photography for Ajman-based businesses from e-commerce white-background shots to lifestyle campaigns, with delivery formats ready for Amazon UAE, Noon, Shopify, and social media platforms.",
+    ],
+    highlights: [
+      { heading: "Amazon UAE & Noon Compliant", body: "White-background product photography meeting marketplace technical requirements — delivered upload-ready with correct dimensions and file specifications." },
+      { heading: "Ajman Free Zone Trading Companies", body: "High-volume product photography for import/export and trading businesses in Ajman Free Zone — catalogue-scale production at competitive prices." },
+      { heading: "Lifestyle & Usage Photography", body: "Products in environment and in use — the lifestyle imagery that drives purchase intent on social media and premium marketplace positions." },
+      { heading: "Fast Turnaround", body: "2-day standard delivery on all Ajman product photography, with same-day rush available for time-sensitive launches." },
+    ],
+    pricing: [
+      { pkg: "Starter (10 SKUs)", detail: "White bg / 3 angles / 2-day delivery", price: "From AED 750" },
+      { pkg: "Standard (30 SKUs)", detail: "White bg + lifestyle / 4 angles", price: "From AED 2,000" },
+      { pkg: "Premium (50 SKUs)", detail: "Full e-commerce suite / model available", price: "From AED 3,800" },
+      { pkg: "Catalogue (100+ SKUs)", detail: "Custom quote / priority processing", price: "On request" },
+    ],
+    faqs: [
+      { q: "Do you produce e-commerce product photography for Ajman businesses?", a: "Yes. We produce Amazon UAE and Noon-compliant product photography for Ajman businesses — white background, correct dimensions, and upload-ready file delivery. Many of our clients are Ajman Free Zone trading companies with large SKU catalogues." },
+      { q: "How much does product photography cost in Ajman?", a: "Product photography in Ajman starts from AED 750 for 10 SKUs on white background. Standard packages including lifestyle imagery from AED 2,000. Large catalogues quoted individually." },
+      { q: "How quickly do you deliver product photography from Ajman?", a: "Standard delivery is 2 business days. Rush 24-hour delivery is available for an additional fee." },
+      { q: "Do you come to our Ajman premises or do products need to come to your studio?", a: "Both options are available. We can photograph at your Ajman premises or factory, or you can ship products to our Dubai studio. On-location shoots are priced to include travel time." },
+    ],
+  },
+
+  "ajman/personal-branding-photography": {
+    title: "Personal Branding Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Personal branding photography in Ajman — professionals, entrepreneurs, executives, coaches. LinkedIn profiles, speaker photos, business portraits. Corniche & studio settings. From AED 1,100.",
+    h1: "Personal Branding Photography in Ajman",
+    subtitle: "Ajman professionals. Entrepreneurs. Executives. Your personal brand, on camera.",
+    category: "PERSONAL BRANDING",
+    intro: [
+      "Ajman's business community includes thousands of free zone entrepreneurs, SME owners, and professionals across the education, manufacturing, and government sectors. For this community, a professional personal brand supported by strong photography represents significant competitive advantage — particularly on LinkedIn, where first impressions are built before any conversation takes place.",
+      "Backyard Studio Official produces personal branding photography for Ajman professionals — headshots, LinkedIn profiles, business portrait sessions, and full personal brand days — at Ajman Corniche locations and in studio environments.",
+    ],
+    highlights: [
+      { heading: "Ajman Corniche Portraits", body: "Ajman's Corniche waterfront provides a clean, professional outdoor setting for personal branding sessions that communicates both professionalism and personality." },
+      { heading: "Free Zone Entrepreneur Packages", body: "Personal branding sessions designed for the Ajman Free Zone entrepreneur community — professional imagery for LinkedIn, websites, and pitch decks." },
+      { heading: "Executive Headshots", body: "Studio and on-location executive headshots for Ajman's corporate sector — fast, efficient sessions with same-week delivery." },
+      { heading: "Full Brand Day", body: "All-day sessions delivering a complete content bank across multiple looks and settings — LinkedIn, website About page, social media, and press kit all covered in one day." },
+    ],
+    pricing: [
+      { pkg: "Executive Headshots", detail: "1.5 hrs / 1 location / 20 final images", price: "From AED 1,100" },
+      { pkg: "Personal Brand Session", detail: "3 hrs / 2 looks / 2 locations / 50 images", price: "From AED 2,200" },
+      { pkg: "Full Brand Day", detail: "6 hrs / 4 looks / 3 locations / 100 images", price: "From AED 4,200" },
+      { pkg: "Brand Day + LinkedIn Video", detail: "Photos + 3 x LinkedIn video clips", price: "From AED 5,200" },
+    ],
+    faqs: [
+      { q: "Where do you shoot personal branding photography in Ajman?", a: "Popular Ajman personal branding locations include the Corniche waterfront for open, professional outdoor settings, Ajman Free Zone business environments for enterprise context, and our Dubai studio for controlled headshot work. We help you choose the right setting during pre-session briefing." },
+      { q: "How much does personal branding photography cost in Ajman?", a: "Personal branding sessions in Ajman start from AED 1,100 for executive headshots. Full personal brand sessions from AED 2,200. All-day brand sessions from AED 4,200." },
+      { q: "I'm an Ajman Free Zone business owner — what personal branding photos do I need?", a: "The core set is: LinkedIn profile headshot, professional headshot for website, a few working/in-context shots for your About page, and a speaker photo if you present at industry events. A 3-hour session typically delivers all of these." },
+      { q: "How quickly do you deliver personal branding photos?", a: "Delivery is 3–5 business days. Rush 48-hour delivery is available. We deliver an online selection gallery and final files in web and print-ready formats." },
+    ],
+  },
+
+
+  // ── RAS AL KHAIMAH — Sprint 25 commercial services ────────────────────────
+
+  "ras-al-khaimah/wedding-photography": {
+    title: "Wedding Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Professional wedding photography in Ras Al Khaimah — Waldorf Astoria RAK, Jebel Jais, Al Marjan Island, beach weddings, Arabic ceremonies. All-female crews available. From AED 3,500.",
+    h1: "Wedding Photography in Ras Al Khaimah",
+    subtitle: "Waldorf Astoria. Jebel Jais. Al Marjan Island. RAK weddings in extraordinary settings.",
+    category: "WEDDING PHOTOGRAPHY",
+    intro: [
+      "Ras Al Khaimah has quietly become one of the UAE's most desirable wedding destinations. The Waldorf Astoria Ras Al Khaimah with its mountain backdrop, the emerging Al Marjan Island resort strip, Jebel Jais as a dramatic portrait location, and the emirate's long coastline create a wedding photography environment unlike anything available in Dubai or Abu Dhabi.",
+      "Backyard Studio Official photographs weddings in Ras Al Khaimah — at the Waldorf Astoria, InterContinental Mina Al Arab, Al Marjan Island properties, private beach venues, and traditional Emirati ceremony settings across the emirate. The distance from Dubai means RAK weddings deserve a team that treats the journey as standard, not exceptional.",
+    ],
+    highlights: [
+      { heading: "Waldorf Astoria RAK", body: "The UAE's most cinematically dramatic luxury wedding venue — a desert mountain fortress with the Hajar range as backdrop. Photography here practically shoots itself, but execution still matters." },
+      { heading: "Al Marjan Island & Resort Beach", body: "RAK's growing island resort strip, with beach ceremony settings and luxury hotel venues whose visual quality rivals anything in the UAE." },
+      { heading: "Jebel Jais Mountain Portraits", body: "Post-ceremony portrait sessions at altitude — Jebel Jais delivers backgrounds and lighting conditions unavailable anywhere else in the country for wedding photography." },
+      { heading: "Traditional Emirati Ceremonies", body: "RAK has a strong Emirati cultural wedding tradition, and we photograph traditional ceremonies with the respect and protocol awareness they require — including all-female crews for ladies-only events." },
+    ],
+    pricing: [
+      { pkg: "Ceremony Only", detail: "1 photographer / 4 hrs / digital gallery", price: "From AED 3,500" },
+      { pkg: "Full Wedding Day", detail: "2 photographers / 12 hrs / full gallery", price: "From AED 7,500" },
+      { pkg: "Photo + Video", detail: "2 photographers + 1 videographer / full day", price: "From AED 12,500" },
+      { pkg: "Destination Wedding Package", detail: "2-day coverage / pre-session + ceremony", price: "From AED 16,000" },
+    ],
+    faqs: [
+      { q: "Do you photograph weddings at the Waldorf Astoria Ras Al Khaimah?", a: "Yes. The Waldorf Astoria RAK is one of our signature wedding venue assignments. The mountain-fortress architecture, the surrounding Hajar landscape, and the property's lighting environment require photographic skill that matches the venue's ambition — which is exactly what our RAK wedding teams deliver." },
+      { q: "Do you travel from Dubai to Ras Al Khaimah for weddings?", a: "Yes. RAK is approximately 1.5 hours from Dubai, and we include travel to RAK as standard for all wedding bookings. We typically stay for the duration rather than commuting, particularly for full-day coverage." },
+      { q: "How much does wedding photography cost in Ras Al Khaimah?", a: "Wedding photography in RAK starts from AED 3,500 for ceremony-only coverage. Full wedding day packages from AED 7,500. The higher RAK rates reflect travel and the typically longer shooting days in the emirate's larger venue settings." },
+      { q: "Can you do portrait sessions at Jebel Jais during a RAK wedding?", a: "Yes, but it requires advance planning. Jebel Jais is around 40 minutes from RAK city and the Waldorf Astoria — we can incorporate it into post-ceremony portrait time with the right schedule. We recommend building this into the day plan from the start." },
+    ],
+  },
+
+  "ras-al-khaimah/corporate-video": {
+    title: "Corporate Video Production in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Corporate video production in Ras Al Khaimah — Rakez free zone, manufacturing sector, tourism brands, government entities. Bilingual delivery. From AED 6,000.",
+    h1: "Corporate Video Production in Ras Al Khaimah",
+    subtitle: "Rakez. Manufacturing. Tourism brands. RAK corporate video, produced professionally.",
+    category: "CORPORATE VIDEO",
+    intro: [
+      "Ras Al Khaimah's economy has two distinct corporate video markets: the industrial and manufacturing sector anchored by Rakez (Ras Al Khaimah Economic Zone) — one of the UAE's most significant free zone and industrial zone complexes — and the rapidly growing tourism and hospitality sector led by luxury hotels and adventure tourism operators.",
+      "Backyard Studio Official produces corporate video for both dimensions of RAK's economy — industrial brand films and facility documentation for Rakez businesses, and hospitality and destination content for RAK Tourism and the emirate's luxury hotel properties.",
+    ],
+    highlights: [
+      { heading: "Rakez Industrial Films", body: "Brand films, facility tours, and corporate profiles for Rakez-based manufacturers and industrial businesses — content that communicates operational scale and investment-readiness." },
+      { heading: "Tourism & Hospitality Content", body: "Destination videos, hotel brand films, and tourism campaign content for RAK's growing visitor economy — Jebel Jais, Al Marjan Island, and adventure tourism operators." },
+      { heading: "Government & Institutional", body: "Institutional video content for RAK government entities, the Ras Al Khaimah Chamber of Commerce, and public sector communications." },
+      { heading: "Manufacturing Process Documentation", body: "Technical corporate videos documenting manufacturing processes, quality standards, and operational procedures for RAK's industrial sector B2B marketing." },
+    ],
+    pricing: [
+      { pkg: "Corporate Profile", detail: "1 filming day / 3–5 min film / 2 revisions", price: "From AED 6,000" },
+      { pkg: "Industrial Brand Film", detail: "Multi-day / facility + corporate / bilingual", price: "From AED 15,000" },
+      { pkg: "Tourism Content Package", detail: "2 days / drone + ground / 3 deliverables", price: "From AED 18,000" },
+      { pkg: "Monthly Retainer", detail: "2 filming days/month / social + long-form", price: "From AED 8,000 / mo" },
+    ],
+    faqs: [
+      { q: "Do you produce corporate video for Rakez (Ras Al Khaimah Economic Zone) companies?", a: "Yes. Rakez has hundreds of manufacturing and industrial tenants, many of whom require professional corporate video for investor relations, trade show presentations, and B2B marketing. We produce facility documentation, company profiles, and brand films for Rakez businesses." },
+      { q: "Do you produce tourism and hospitality video content for RAK?", a: "Yes. We produce destination films, hotel brand content, adventure tourism videos (Jebel Jais, zip line, etc.), and seasonal campaign content for RAK Tourism and the emirate's hospitality properties." },
+      { q: "How much does corporate video cost in Ras Al Khaimah?", a: "Corporate video production in RAK starts from AED 6,000. Industrial brand films from AED 15,000 due to multi-day requirements. Tourism packages from AED 18,000. All rates include travel to RAK." },
+      { q: "Do you manage drone permits for aerial corporate footage in RAK?", a: "Yes. GCAA licensing and RAK local authority approvals for aerial footage are managed as standard for all our RAK corporate video projects." },
+    ],
+  },
+
+  "ras-al-khaimah/event-photography": {
+    title: "Event Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Professional event photography in Ras Al Khaimah — Waldorf Astoria events, Al Marjan Island activations, Rakez conferences, corporate dinners. Same-day delivery available. From AED 3,200.",
+    h1: "Event Photography in Ras Al Khaimah",
+    subtitle: "Waldorf Astoria. Rakez. Al Marjan Island. RAK events, professionally documented.",
+    category: "EVENT PHOTOGRAPHY",
+    intro: [
+      "Ras Al Khaimah's event market splits between the emirate's growing hospitality sector — luxury hotel events at Waldorf Astoria, Intercontinental Mina Al Arab, and other property — and the corporate and institutional events tied to Rakez, RAK Chamber, and government entities.",
+      "Backyard Studio Official covers events throughout RAK — corporate conferences, hotel galas, product launches on Al Marjan Island, government ceremonies, and adventure tourism activations. We build RAK travel time into our event scheduling as standard, so you receive the same punctual, professional service as Dubai clients.",
+    ],
+    highlights: [
+      { heading: "Waldorf Astoria RAK Events", body: "The emirate's most prestigious event venue, with the Hajar mountain backdrop making every event photograph extraordinary. We cover corporate gatherings, charity galas, and product launches at the Waldorf." },
+      { heading: "Rakez Business Events", body: "Corporate events, investor roadshows, and business conferences in Rakez and the RAK Chamber — formal event photography with efficient delivery for tight corporate publishing schedules." },
+      { heading: "Al Marjan Island Activations", body: "Brand launches and commercial activations on RAK's island resort strip, including outdoor event photography in the emirate's coastal setting." },
+      { heading: "Adventure Tourism Event Content", body: "Photography for Jebel Jais events — the world's longest zip line, mountain adventure activations, and tourism campaigns that require photographers comfortable in challenging locations." },
+    ],
+    pricing: [
+      { pkg: "Half Day (4 hrs)", detail: "1 photographer / 50 edited images", price: "From AED 3,200" },
+      { pkg: "Full Day (8 hrs)", detail: "1 photographer / 100 edited images", price: "From AED 5,000" },
+      { pkg: "Corporate Event Package", detail: "2 photographers / same-day delivery", price: "From AED 8,500 / day" },
+      { pkg: "Photo + Video", detail: "Photographer + videographer / highlight reel", price: "From AED 7,500" },
+    ],
+    faqs: [
+      { q: "Do you cover events at the Waldorf Astoria Ras Al Khaimah?", a: "Yes. The Waldorf Astoria RAK is a venue we cover regularly for corporate galas, product launches, and hospitality events. The property's setting makes event photography here among the most visually impactful in the UAE." },
+      { q: "Do you travel from Dubai for events in Ras Al Khaimah?", a: "Yes. We include RAK travel time (approximately 1.5 hours from Dubai) in our event rate structure. Our teams arrive 45 minutes before the event start — the same standard we apply to every location." },
+      { q: "How much does event photography cost in Ras Al Khaimah?", a: "Event photography in RAK starts from AED 3,200 for a 4-hour half-day. Full-day coverage from AED 5,000. Rates are slightly higher than Dubai/Sharjah to account for travel to the emirate." },
+      { q: "Can you photograph events at Jebel Jais in Ras Al Khaimah?", a: "Yes. We photograph adventure tourism events and activations at Jebel Jais — including the zip line and mountain activities. Our photographers are experienced in outdoor and challenging environment event coverage." },
+    ],
+  },
+
+  "ras-al-khaimah/real-estate-photography": {
+    title: "Real Estate Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Professional real estate photography in Ras Al Khaimah — Al Marjan Island, Mina Al Arab, Waldorf Residences, waterfront properties, aerial drone. From AED 1,200.",
+    h1: "Real Estate Photography in Ras Al Khaimah",
+    subtitle: "Al Marjan Island. Mina Al Arab. Waldorf Residences. RAK real estate, professionally presented.",
+    category: "REAL ESTATE PHOTOGRAPHY",
+    intro: [
+      "Ras Al Khaimah's real estate market has accelerated significantly, driven by Al Marjan Island's transformation into a resort and residential destination — anchored by Wynn Al Marjan Island which is generating extraordinary investor demand — and Mina Al Arab's mature waterfront community. The emirate's property story is becoming one of the UAE's most compelling investment narratives.",
+      "Backyard Studio Official produces real estate photography for RAK developers, luxury hotel residences, and property agencies — capturing the mountain-meets-sea landscape that defines the emirate's unique property proposition and producing aerial drone documentation at the quality investors expect.",
+    ],
+    highlights: [
+      { heading: "Al Marjan Island Properties", body: "Waterfront and island-facing unit photography and aerial documentation for Al Marjan's rapidly developing resort and residential community." },
+      { heading: "Mina Al Arab Community", body: "Established waterfront community photography — show apartments, unit listings, and community lifestyle content for one of RAK's premium residential addresses." },
+      { heading: "Luxury Residences & Hotel Apartments", body: "Photography for RAK's branded residences and hotel-connected apartment developments — visual content meeting the standards of international hotel brands and luxury property marketing." },
+      { heading: "Mountain & Coastal Aerial", body: "GCAA-licensed aerial photography capturing RAK's unique mountain-and-sea setting — content that communicates the lifestyle proposition unavailable in other UAE emirate property markets." },
+    ],
+    pricing: [
+      { pkg: "Unit Photography", detail: "Up to 3 units / interior & exterior / 30 images", price: "From AED 1,200" },
+      { pkg: "Show Apartment", detail: "Full day / hero shots + detail images", price: "From AED 3,200" },
+      { pkg: "Aerial + Ground Package", detail: "Drone + interior / licensed GCAA pilot", price: "From AED 4,500" },
+      { pkg: "Developer Launch Package", detail: "Multi-day / full photo + video campaign", price: "From AED 16,000" },
+    ],
+    faqs: [
+      { q: "Do you produce real estate photography for Al Marjan Island developments?", a: "Yes. Al Marjan Island is one of our most active RAK real estate photography locations — show apartments, unit listings, community aerial documentation, and investor-facing campaign content for the island's rapidly growing development pipeline." },
+      { q: "Can you produce aerial photography for Ras Al Khaimah property developments?", a: "Yes. We hold GCAA commercial drone licences and coordinate all RAK municipal and GCAA permissions for aerial real estate photography. RAK's mountain-and-sea aerial photography is among the most distinctive in the UAE." },
+      { q: "How much does real estate photography cost in Ras Al Khaimah?", a: "Real estate photography in RAK starts from AED 1,200 for unit photography, slightly higher than Dubai/Sharjah to account for travel. Show apartments from AED 3,200. Developer launch packages from AED 16,000." },
+      { q: "Do you produce Mina Al Arab property photography?", a: "Yes. Mina Al Arab is a regular real estate photography assignment for us in RAK — unit listings, show apartment campaigns, and community lifestyle photography for agents and developers in the development." },
+    ],
+  },
+
+  "ras-al-khaimah/drone-videography": {
+    title: "Drone Videography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "GCAA-licensed drone videography in Ras Al Khaimah — Jebel Jais, Al Marjan Island, Hajar Mountains, Mina Al Arab, 4K aerial photography. From AED 2,500.",
+    h1: "Drone Videography in Ras Al Khaimah",
+    subtitle: "Jebel Jais. Al Marjan Island. Hajar Mountains. The UAE's most dramatic aerial backdrop.",
+    category: "DRONE VIDEOGRAPHY",
+    intro: [
+      "Ras Al Khaimah is arguably the most spectacular drone videography location in the UAE. Jebel Jais — the country's highest peak — provides mountain aerial compositions unavailable anywhere else in the country. Al Marjan Island's expanding resort frontage reads as extraordinary from altitude. The transition from green mountain to desert plain to Gulf coast in a single drone flight is a uniquely RAK visual sequence.",
+      "Backyard Studio Official is GCAA licensed for commercial drone operations in Ras Al Khaimah and manages all RAK local authority approvals for mountain, coastal, and development site shoots. We produce aerial content for RAK Tourism, luxury hotels, real estate developers, event organizers, and commercial clients in 4K with cinema colour grading.",
+    ],
+    highlights: [
+      { heading: "Jebel Jais Mountain Aerials", body: "The UAE's highest peak from altitude — mountain landscape, cloud formations, the zip line corridor, and the Hajar range extending into Oman. Drone footage here is unmatched anywhere in the country." },
+      { heading: "Al Marjan Island Resort Strip", body: "The expanding crescent of Al Marjan Island resort development from above — a visual that communicates the emirate's investment story instantly." },
+      { heading: "Coastal & Desert Transitions", body: "RAK's unique geography from altitude — mangroves, coastline, creek, desert, and mountain in a single sequence that no other UAE emirate can offer." },
+      { heading: "Tourism & Commercial Campaigns", body: "Destination marketing aerial content for RAK Tourism, adventure operators, and commercial campaigns requiring the emirate's exceptional landscape as backdrop." },
+    ],
+    pricing: [
+      { pkg: "Drone Session (2 hrs)", detail: "GCAA pilot / 4K footage / basic edit", price: "From AED 2,500" },
+      { pkg: "Half Day Aerial", detail: "4 hrs / multiple locations / colour-graded", price: "From AED 4,500" },
+      { pkg: "Full Day Mountain + Coast", detail: "8 hrs / Jebel Jais + Al Marjan / full edit", price: "From AED 8,000" },
+      { pkg: "Real Estate Aerial Campaign", detail: "Development + community / licensed GCAA", price: "From AED 3,800" },
+    ],
+    faqs: [
+      { q: "Can you fly a drone on Jebel Jais in Ras Al Khaimah?", a: "Yes, with appropriate permits. Commercial drone operations on Jebel Jais require GCAA clearance and RAK Tourism/mountain authority coordination, which we manage as standard. Processing typically takes 3–5 business days for Jebel Jais locations." },
+      { q: "Is drone videography in RAK significantly different from Dubai?", a: "Yes — it's dramatically different. The Hajar Mountains, Jebel Jais altitude, and the mountain-desert-coast transition give RAK aerial footage a visual character unlike any other UAE emirate. It's also generally less congested airspace than Dubai, allowing for cleaner permit processing." },
+      { q: "How much does drone videography cost in Ras Al Khaimah?", a: "Drone sessions in RAK start from AED 2,500. Half-day aerial packages from AED 4,500. Full-day mountain and coast shoots from AED 8,000. Rates include travel to RAK." },
+      { q: "Do you produce aerial content for RAK Tourism and hospitality brands?", a: "Yes. We are an active production partner for destination marketing content in Ras Al Khaimah — tourism campaign aerials, hotel property overviews, and adventure tourism documentation for RAK's growing visitor market." },
+    ],
+  },
+
+  "ras-al-khaimah/food-photography": {
+    title: "Food Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Professional food photography in Ras Al Khaimah — Waldorf Astoria dining, Al Marjan restaurants, hotel F&B, menus, social media content. From AED 1,800.",
+    h1: "Food Photography in Ras Al Khaimah",
+    subtitle: "Waldorf dining. Al Marjan restaurants. Hotel F&B. RAK food, beautifully photographed.",
+    category: "FOOD PHOTOGRAPHY",
+    intro: [
+      "Ras Al Khaimah's food photography market is increasingly driven by its hospitality sector — luxury hotel restaurants at the Waldorf Astoria, InterContinental Mina Al Arab, and the growing number of resort-quality F&B outlets on Al Marjan Island set the visual standard that the emirate's independent restaurants aspire to match.",
+      "Backyard Studio Official produces food photography in RAK for luxury hotel F&B operations, Al Marjan resort restaurants, independent dining establishments, and delivery platform businesses across the emirate — producing content that meets the premium visual standards RAK's tourism positioning demands.",
+    ],
+    highlights: [
+      { heading: "Luxury Hotel F&B Photography", body: "Food photography for Waldorf Astoria RAK, InterContinental Mina Al Arab, and other premium RAK hotel F&B operations — visual content meeting international luxury hotel brand standards." },
+      { heading: "Al Marjan Island Restaurants", body: "Resort-quality food photography for the growing dining scene on Al Marjan Island, incorporating the waterfront setting where appropriate." },
+      { heading: "Menu Photography", body: "Complete menu documentation for RAK restaurants — every dish photographed for printed menus, QR digital menus, and delivery platform listings." },
+      { heading: "Social Media & Campaign Content", body: "Instagram and TikTok food content for RAK restaurants competing for the emirate's growing tourism visitor market." },
+    ],
+    pricing: [
+      { pkg: "Menu Shoot (20 dishes)", detail: "3 hrs / styled / all formats", price: "From AED 1,800" },
+      { pkg: "Full Menu (50 dishes)", detail: "6 hrs / food + context / digital delivery", price: "From AED 3,200" },
+      { pkg: "Social Content Package", detail: "Food + Reels + Stories / monthly", price: "From AED 2,500 / mo" },
+      { pkg: "Restaurant Launch", detail: "Full day / menu + interior + brand film", price: "From AED 6,500" },
+    ],
+    faqs: [
+      { q: "Do you produce food photography for hotels in Ras Al Khaimah?", a: "Yes. We produce F&B photography for RAK hotel restaurants — Waldorf Astoria, InterContinental Mina Al Arab, and other properties — to the visual standard that international luxury hotel brands require for their own marketing materials." },
+      { q: "How much does food photography cost in Ras Al Khaimah?", a: "Food photography in RAK starts from AED 1,800 for a 20-dish menu shoot. The slight premium over Dubai/Sharjah rates reflects travel to the emirate. Full menu shoots from AED 3,200." },
+      { q: "Do you photograph food for delivery platforms in RAK?", a: "Yes. Talabat and Deliveroo-formatted food photography is available for RAK restaurants. We deliver files in the dimensions and specifications each platform requires." },
+      { q: "Can you combine food photography with a restaurant interior shoot in RAK?", a: "Yes. Most RAK clients combine food photography with interior and ambience photography in a single full-day session — delivering a complete visual suite for website, social media, and delivery platforms." },
+    ],
+  },
+
+  "ras-al-khaimah/product-photography": {
+    title: "Product Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Professional product photography in Ras Al Khaimah — e-commerce, Rakez manufacturers, Amazon UAE, Noon, brand campaigns. Studio and on-location. From AED 1,000.",
+    h1: "Product Photography in Ras Al Khaimah",
+    subtitle: "Rakez businesses. E-commerce. Brand campaigns. RAK products, professionally presented.",
+    category: "PRODUCT PHOTOGRAPHY",
+    intro: [
+      "Ras Al Khaimah's manufacturing sector — among the most significant in the Northern Emirates — produces goods that are exported globally. Many Rakez-based manufacturers also sell domestically through UAE e-commerce platforms and need product photography that meets marketplace requirements while serving B2B catalogue needs simultaneously.",
+      "Backyard Studio Official produces product photography for RAK's manufacturing and business community — e-commerce photography for domestic platform listings, B2B catalogue content for export-facing sales, and brand campaign imagery for businesses building direct-to-consumer presences.",
+    ],
+    highlights: [
+      { heading: "Rakez Manufacturer Photography", body: "Product photography for Rakez-based manufacturers — B2B catalogue content, industrial product documentation, and export-facing marketing imagery." },
+      { heading: "E-Commerce & Marketplace Ready", body: "Amazon UAE and Noon compliant white-background photography for RAK businesses selling through UAE domestic e-commerce platforms." },
+      { heading: "Industrial & Technical Products", body: "Photography for technical and industrial product categories — precise, accurate representation of products where specification detail matters as much as visual appeal." },
+      { heading: "On-Location Studio Setup", body: "For RAK businesses with large or heavy products, we bring portable studio equipment to your RAK premises rather than requiring shipping to Dubai." },
+    ],
+    pricing: [
+      { pkg: "Starter (10 SKUs)", detail: "White bg / 3 angles / 3-day delivery", price: "From AED 1,000" },
+      { pkg: "Standard (30 SKUs)", detail: "White bg + lifestyle / 4 angles", price: "From AED 2,500" },
+      { pkg: "Industrial Catalogue", detail: "50+ products / on-location / B2B spec", price: "From AED 5,000" },
+      { pkg: "Brand Campaign", detail: "Hero products + lifestyle + social", price: "From AED 4,500" },
+    ],
+    faqs: [
+      { q: "Do you produce product photography for Rakez manufacturers in RAK?", a: "Yes. Rakez-based manufacturers are a core part of our RAK product photography work — B2B catalogue documentation, export marketing content, and UAE e-commerce photography for businesses across the Rakez free zone and industrial zones." },
+      { q: "Can you bring a studio setup to our RAK premises?", a: "Yes. For heavy or large products, we bring portable studio lighting and background equipment to your RAK premises. This avoids the logistics and cost of shipping large items to our Dubai studio." },
+      { q: "How much does product photography cost in Ras Al Khaimah?", a: "Product photography in RAK starts from AED 1,000 for 10 SKUs. On-location sessions at RAK premises include travel. Standard 30-SKU packages from AED 2,500." },
+      { q: "How quickly do you deliver product photography from RAK shoots?", a: "Standard delivery is 3 business days from the shoot date. Rush 48-hour delivery available for priority items." },
+    ],
+  },
+
+  "ras-al-khaimah/personal-branding-photography": {
+    title: "Personal Branding Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Personal branding photography in Ras Al Khaimah — professionals, executives, entrepreneurs, tourism personalities. Jebel Jais, Al Marjan Island, studio settings. From AED 1,400.",
+    h1: "Personal Branding Photography in Ras Al Khaimah",
+    subtitle: "RAK professionals. Executives. Entrepreneurs. Extraordinary landscapes. Your brand on camera.",
+    category: "PERSONAL BRANDING",
+    intro: [
+      "Ras Al Khaimah offers personal branding photography locations unlike anywhere else in the UAE. The Hajar Mountains, Jebel Jais altitude, Al Marjan Island's waterfront, and the emirate's dramatic desert and coastal landscapes give RAK-based professionals access to backdrops that create genuinely distinctive brand photography.",
+      "Backyard Studio Official produces personal branding photography for RAK professionals — executives and entrepreneurs in the emirate's business community, hospitality leaders, tourism personalities, and public figures who want imagery that reflects RAK's unique landscape alongside their professional positioning.",
+    ],
+    highlights: [
+      { heading: "Jebel Jais Mountain Sessions", body: "For RAK professionals who want brand photography that is genuinely distinctive — mountain-altitude sessions at the UAE's highest accessible peak, producing imagery available nowhere else in the country." },
+      { heading: "Al Marjan Island Waterfront", body: "Resort-quality personal branding sessions on Al Marjan Island — combining coastal setting, resort architecture, and professional photography in a premium environment." },
+      { heading: "Hajar Desert & Landscape Sessions", body: "RAK's desert and mountain landscape as the backdrop for bold personal branding photography — particularly effective for adventure, tourism, and resilience-oriented brand narratives." },
+      { heading: "Corporate Headshots for RAK Executives", body: "Classic executive headshots and LinkedIn profiles produced at RAK business venues or studio environments — professional, credible, efficiently delivered." },
+    ],
+    pricing: [
+      { pkg: "Executive Headshots", detail: "1.5 hrs / 1 location / 20 final images", price: "From AED 1,400" },
+      { pkg: "Personal Brand Session", detail: "3 hrs / 2 looks / 2 locations / 50 images", price: "From AED 2,800" },
+      { pkg: "Full Brand Day", detail: "6 hrs / 4 looks / 3 RAK locations / 100 images", price: "From AED 5,500" },
+      { pkg: "Mountain Brand Session", detail: "Jebel Jais altitude session / 3 hrs", price: "From AED 3,500" },
+    ],
+    faqs: [
+      { q: "Can I have my personal branding photography done on Jebel Jais?", a: "Yes. We offer dedicated Jebel Jais mountain personal branding sessions — one of the most distinctive settings for professional photography in the UAE. Sessions are scheduled for golden hour and require advance planning for mountain access coordination." },
+      { q: "How much does personal branding photography cost in Ras Al Khaimah?", a: "Personal branding sessions in RAK start from AED 1,400 for executive headshots. Full sessions from AED 2,800. Jebel Jais mountain sessions from AED 3,500. Rates are slightly higher than Dubai to account for travel." },
+      { q: "I'm a RAK hospitality executive — what locations work for my brand photography?", a: "For hospitality leaders in RAK, we recommend sessions that incorporate your property or its landscape context — Waldorf Astoria grounds, Al Marjan Island waterfront, or Jebel Jais depending on your brand narrative. We advise on location selection during the pre-session brief." },
+      { q: "Do you travel from Dubai to shoot personal branding sessions in RAK?", a: "Yes. RAK personal branding sessions include travel from our Dubai base. We typically combine multiple RAK bookings on the same day to offer competitive rates." },
+    ],
+  },
+
+
+  // ── FUJAIRAH — Sprint 25 commercial services ──────────────────────────────
+
+  "fujairah/wedding-photography": {
+    title: "Wedding Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Professional wedding photography in Fujairah — Al Aqah Beach, Le Méridien, Rotana, East Coast beach ceremonies, Arabic weddings. All-female crews available. From AED 3,500.",
+    h1: "Wedding Photography in Fujairah",
+    subtitle: "Al Aqah Beach. Le Méridien. East Coast mountains. Fujairah weddings on the Indian Ocean.",
+    category: "WEDDING PHOTOGRAPHY",
+    intro: [
+      "Fujairah is the UAE's only emirate on the Indian Ocean coast, and its wedding photography environment reflects this — East Coast beaches with the Hajar Mountains as backdrop, luxury beach resorts including Le Méridien Al Aqah Beach Resort and Rotana Fujairah, and a natural landscape that makes wedding photography here unlike anywhere else in the country.",
+      "Backyard Studio Official photographs weddings in Fujairah — at Al Aqah beach resorts, Fujairah city venues, traditional Emirati ceremonies in the emirate's mountain villages, and beach weddings on the East Coast. We cover Fujairah as a destination wedding location and as a home ceremony market for the emirate's own community.",
+    ],
+    highlights: [
+      { heading: "Al Aqah Beach Weddings", body: "Le Méridien Al Aqah Beach Resort and the surrounding beach wedding venues offer Indian Ocean sunsets, mountain reflections in the water, and the East Coast's distinctive light — some of the most dramatic wedding photography conditions in the UAE." },
+      { heading: "East Coast Mountain & Beach", body: "Post-ceremony portrait sessions incorporating the Hajar Mountains descending to the sea — a geographic combination available only on the Fujairah coast." },
+      { heading: "Traditional Emirati Ceremonies", body: "Fujairah has preserved Emirati wedding traditions to a degree uncommon in larger emirates. We photograph these ceremonies with the understanding of protocol and cultural sensitivity they require." },
+      { heading: "Destination Wedding Photography", body: "Coverage of weddings where the couple has chosen Fujairah specifically for its landscape — resort beach ceremonies and adventure portraits in the Hajar Mountains." },
+    ],
+    pricing: [
+      { pkg: "Ceremony Only", detail: "1 photographer / 4 hrs / digital gallery", price: "From AED 3,500" },
+      { pkg: "Full Wedding Day", detail: "2 photographers / 12 hrs / full gallery", price: "From AED 7,500" },
+      { pkg: "Photo + Video", detail: "2 photographers + 1 videographer / full day", price: "From AED 13,000" },
+      { pkg: "Destination Package", detail: "2-day coverage / pre-session + ceremony", price: "From AED 17,000" },
+    ],
+    faqs: [
+      { q: "Do you photograph weddings at Le Méridien Al Aqah Beach Resort?", a: "Yes. Le Méridien Al Aqah is one of our signature Fujairah wedding assignments. The combination of beach ceremony setting, Indian Ocean horizon, and the Hajar Mountains behind the property produces exceptional wedding photography unlike any other UAE venue." },
+      { q: "How long does it take to travel from Dubai to Fujairah for a wedding?", a: "Dubai to Fujairah city is approximately 1.5 hours, and to Al Aqah in the north approximately 2 hours. We factor this into scheduling and always arrive well before the ceremony begins." },
+      { q: "How much does wedding photography cost in Fujairah?", a: "Wedding photography in Fujairah starts from AED 3,500 for ceremony-only coverage. Full wedding day packages from AED 7,500. Destination packages for beach resort weddings from AED 17,000." },
+      { q: "Can you photograph traditional Emirati weddings in Fujairah?", a: "Yes. Fujairah's Emirati community maintains strong wedding traditions, and we are experienced in covering traditional Emirati ceremonies with appropriate cultural sensitivity, including all-female crews for ladies-only celebrations." },
+    ],
+  },
+
+  "fujairah/corporate-video": {
+    title: "Corporate Video Production in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Corporate video production in Fujairah — Fujairah Free Zone, port sector, government entities, oil & maritime industry, bilingual content. From AED 6,000.",
+    h1: "Corporate Video Production in Fujairah",
+    subtitle: "Fujairah Free Zone. Port Authority. Maritime sector. Fujairah business, on camera.",
+    category: "CORPORATE VIDEO",
+    intro: [
+      "Fujairah's corporate economy centres on its port — Port of Fujairah is one of the world's busiest bunkering hubs and handles significant container and bulk commodity traffic. The free zone and the emirate's oil storage and bunkering sector represent a corporate video market with specific industrial requirements alongside the institutional communications needs of Fujairah's government entities.",
+      "Backyard Studio Official produces corporate video for Fujairah's business community — port sector companies, Fujairah Free Zone businesses, maritime and oil industry operators, government entities, and the hospitality businesses serving the emirate's East Coast tourism market.",
+    ],
+    highlights: [
+      { heading: "Port & Maritime Industry Films", body: "Corporate video for Port of Fujairah-connected businesses and maritime operators — facility documentation, operational overview films, and corporate profiles for the UAE's East Coast maritime hub." },
+      { heading: "Fujairah Free Zone Corporate Content", body: "Company profiles, brand films, and investor-facing video for businesses operating in Fujairah Free Zone." },
+      { heading: "Government & Institutional", body: "Institutional video for Fujairah government entities and the Fujairah Emirate Media Office, meeting Arabic-language standards and official visual protocols." },
+      { heading: "East Coast Tourism Content", body: "Video production for Fujairah's tourism operators, diving centres, and adventure tourism businesses — destination content for the UAE's East Coast hospitality market." },
+    ],
+    pricing: [
+      { pkg: "Corporate Profile", detail: "1 filming day / 3–5 min film / 2 revisions", price: "From AED 6,000" },
+      { pkg: "Maritime / Industrial Film", detail: "Multi-day / facility + aerial / bilingual", price: "From AED 16,000" },
+      { pkg: "Tourism Content Package", detail: "2 days / drone + ground / 3 deliverables", price: "From AED 15,000" },
+      { pkg: "Monthly Retainer", detail: "2 filming days/month / mixed formats", price: "From AED 8,000 / mo" },
+    ],
+    faqs: [
+      { q: "Do you produce corporate video for Port of Fujairah companies?", a: "Yes. We produce corporate video for port-connected businesses, maritime operators, and bunkering sector companies based in Fujairah — including facility documentation, company profile films, and operational overview content for their B2B marketing and investor relations." },
+      { q: "Can you produce bilingual Arabic-English corporate video in Fujairah?", a: "Yes. Bilingual production is standard for all our Fujairah corporate video work, with Arabic and English versions delivered as narrated or subtitled films." },
+      { q: "How much does corporate video production cost in Fujairah?", a: "Corporate video in Fujairah starts from AED 6,000. Maritime and industrial films from AED 16,000. Tourism packages from AED 15,000. All rates include travel to Fujairah." },
+      { q: "Do you manage filming permits for Fujairah commercial shoots?", a: "Yes. We coordinate Fujairah municipal and port authority filming permissions as standard for commercial shoots in the emirate, including GCAA drone permits for aerial footage." },
+    ],
+  },
+
+  "fujairah/event-photography": {
+    title: "Event Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Professional event photography in Fujairah — resort galas, government events, Al Aqah Beach, corporate conferences, Fujairah Museum, East Coast activations. From AED 3,200.",
+    h1: "Event Photography in Fujairah",
+    subtitle: "East Coast resorts. Government events. Brand activations. Fujairah, professionally documented.",
+    category: "EVENT PHOTOGRAPHY",
+    intro: [
+      "Fujairah's event market is concentrated around its resort hospitality sector and government-organized events. The East Coast resort strip around Al Aqah hosts corporate retreats, incentive events, and gala dinners with the Indian Ocean as backdrop. Fujairah city generates institutional events through its government departments and port authority.",
+      "Backyard Studio Official covers events throughout Fujairah — resort galas, government ceremonies, corporate team-building events, diving and adventure tourism activations, and conference coverage at Fujairah venues. We treat Fujairah as a full event market, not a distant outpost.",
+    ],
+    highlights: [
+      { heading: "East Coast Resort Events", body: "Corporate retreats and gala dinners at Al Aqah Beach resorts — photography that captures both the event content and the extraordinary East Coast setting that makes these events memorable." },
+      { heading: "Government & Port Authority Events", body: "Official ceremony coverage for Fujairah government entities and Port Authority events — appropriate protocol documentation with Arabic-language event programmes." },
+      { heading: "Adventure Tourism Activations", body: "Photography for diving, mountain biking, and outdoor adventure event activations on Fujairah's East Coast — outdoor and action event coverage requiring photographers comfortable in challenging environments." },
+      { heading: "Corporate Retreat Documentation", body: "Multi-day corporate retreat photography covering team activities, formal sessions, and social events — a comprehensive documentary record of team events at Fujairah venues." },
+    ],
+    pricing: [
+      { pkg: "Half Day (4 hrs)", detail: "1 photographer / 50 edited images", price: "From AED 3,200" },
+      { pkg: "Full Day (8 hrs)", detail: "1 photographer / 100 edited images", price: "From AED 5,000" },
+      { pkg: "Corporate Retreat Package", detail: "Multi-day / 2 photographers / full documentation", price: "From AED 8,000 / day" },
+      { pkg: "Photo + Video", detail: "Photographer + videographer / highlight reel", price: "From AED 7,500" },
+    ],
+    faqs: [
+      { q: "Do you cover corporate events at Al Aqah Beach resorts in Fujairah?", a: "Yes. Corporate retreats, incentive events, and gala dinners at Le Méridien Al Aqah and other East Coast resorts are among our Fujairah event photography assignments. The setting produces event photography that participants genuinely want to keep." },
+      { q: "How much does event photography cost in Fujairah?", a: "Event photography in Fujairah starts from AED 3,200 for a 4-hour session. Full-day coverage from AED 5,000. Rates are comparable to Ras Al Khaimah and include travel to Fujairah." },
+      { q: "Can you cover multi-day corporate retreats in Fujairah?", a: "Yes. Multi-day retreat documentation is something we do regularly for Fujairah resort events — covering formal sessions, team activities, and social events across the retreat programme." },
+      { q: "Do you photograph events at Fujairah government venues?", a: "Yes. We cover official events, ceremonies, and conferences at Fujairah government venues with appropriate protocol documentation and bilingual event programme coverage." },
+    ],
+  },
+
+  "fujairah/real-estate-photography": {
+    title: "Real Estate Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Professional real estate photography in Fujairah — East Coast properties, beach villas, Fujairah developments, aerial drone, GCAA licensed. From AED 1,200.",
+    h1: "Real Estate Photography in Fujairah",
+    subtitle: "East Coast villas. Beach properties. Fujairah developments. Photographed at their best.",
+    category: "REAL ESTATE PHOTOGRAPHY",
+    intro: [
+      "Fujairah's real estate market is defined by its landscape — East Coast beachfront properties, mountain-facing villas, and the unique proposition of being the only emirate on the Indian Ocean. Properties here compete on lifestyle appeal, and professional photography that captures the sea, mountains, and natural environment is essential for achieving premium positioning in this market.",
+      "Backyard Studio Official produces real estate photography for Fujairah developers, property agencies, and private sellers — beach villas, resort properties, development site documentation, and aerial content that captures the East Coast landscape that defines the emirate's property appeal.",
+    ],
+    highlights: [
+      { heading: "East Coast Beach Property", body: "Beachfront and sea-facing property photography that captures Fujairah's Indian Ocean views and coastline — the key selling proposition for the emirate's premium real estate." },
+      { heading: "Mountain & Landscape Setting", body: "Hajar Mountain-facing properties and inland villas photographed to show the dramatic natural landscape context unavailable in other UAE property markets." },
+      { heading: "GCAA-Licensed Coastal Aerial", body: "Licensed aerial drone photography of Fujairah's coastline and East Coast properties — spectacular views that convey the location's appeal instantly." },
+      { heading: "Development Site Documentation", body: "Progress photography and aerial site documentation for Fujairah property developments — investor-facing content tracking construction milestones." },
+    ],
+    pricing: [
+      { pkg: "Unit Photography", detail: "Up to 3 units / interior & exterior / 30 images", price: "From AED 1,200" },
+      { pkg: "Villa / Beach Property", detail: "Full day / interior + exterior + context", price: "From AED 3,500" },
+      { pkg: "Aerial + Ground Package", detail: "Drone + interior / licensed GCAA pilot", price: "From AED 4,500" },
+      { pkg: "Developer Campaign", detail: "Multi-day / photo + video / coast + aerial", price: "From AED 16,000" },
+    ],
+    faqs: [
+      { q: "Do you produce real estate photography for East Coast beach properties in Fujairah?", a: "Yes. East Coast beach and sea-view properties are our most common Fujairah real estate photography assignment — interior photography, exterior beach settings, and aerial documentation that captures the Indian Ocean backdrop central to these properties' appeal." },
+      { q: "Can you produce aerial photography of Fujairah's coastline?", a: "Yes. GCAA-licensed coastal aerial photography in Fujairah captures the East Coast from altitude — the beach frontage, the Hajar Mountains backdrop, and the Indian Ocean — in 4K footage and high-resolution stills." },
+      { q: "How much does real estate photography cost in Fujairah?", a: "Real estate photography in Fujairah starts from AED 1,200 for unit photography. Beach villa packages from AED 3,500. Aerial plus ground packages from AED 4,500." },
+      { q: "Do you work with Fujairah property agencies?", a: "Yes. We produce listing photography for Fujairah property agencies managing East Coast residential portfolios — consistent quality and 3-day turnaround as standard." },
+    ],
+  },
+
+  "fujairah/drone-videography": {
+    title: "Drone Videography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "GCAA-licensed drone videography in Fujairah — East Coast coastline, Hajar Mountains, beach resorts, real estate, tourism campaigns. 4K aerial footage. From AED 2,500.",
+    h1: "Drone Videography in Fujairah",
+    subtitle: "GCAA licensed. Indian Ocean coast. Hajar Mountains. Fujairah from above.",
+    category: "DRONE VIDEOGRAPHY",
+    intro: [
+      "Fujairah offers drone videography conditions unlike anywhere on the UAE's western coast. The East Coast's Indian Ocean horizon, the Hajar Mountains descending directly to the sea, ancient forts on hillsides, and the distinctive coastal character of a landscape that separates the UAE from the rest of the world in a single flight make aerial photography here uniquely compelling.",
+      "Backyard Studio Official holds full GCAA commercial drone licences and coordinates all Fujairah municipal and airspace permissions for coastal, mountain, and resort aerial shoots. We produce destination marketing content, real estate aerial campaigns, tourism films, and corporate aerial documentation in 4K with cinema colour grading.",
+    ],
+    highlights: [
+      { heading: "East Coast Indian Ocean Aerials", body: "The Fujairah coastline from altitude — beach, reef, mountains, and ocean in a single frame. Aerial footage here conveys the East Coast's distinctive character in seconds." },
+      { heading: "Hajar Mountain Aerial Footage", body: "Mountain valleys, wadi systems, and ancient fortifications seen from above — the Hajar landscape accessed by drone reveals geological and cultural features invisible from the ground." },
+      { heading: "Beach Resort Aerial Documentation", body: "Resort property overviews, Al Aqah beach frontage, and hospitality venue aerials for Fujairah's hotel and tourism operators." },
+      { heading: "Coastal Real Estate Campaigns", body: "Licensed aerial documentation for Fujairah's beachfront and sea-view property developments — the aerial context that transforms a property listing." },
+    ],
+    pricing: [
+      { pkg: "Drone Session (2 hrs)", detail: "GCAA pilot / 4K footage / basic edit", price: "From AED 2,500" },
+      { pkg: "Half Day Aerial", detail: "4 hrs / coast + inland / colour-graded", price: "From AED 4,500" },
+      { pkg: "Full Day Mountain + Coast", detail: "8 hrs / Hajar + East Coast / full edit", price: "From AED 7,500" },
+      { pkg: "Tourism Campaign Package", detail: "2 days / drone + ground / 4 deliverables", price: "From AED 14,000" },
+    ],
+    faqs: [
+      { q: "Can you fly a drone along Fujairah's East Coast?", a: "Yes, with appropriate GCAA and local authority permits, which we manage as standard. Coastal drone flights in Fujairah require coordination that we handle — most standard East Coast locations permit within 48–72 hours." },
+      { q: "Is Fujairah significantly different for drone work compared to the West Coast UAE?", a: "Yes — dramatically so. The East Coast's Indian Ocean horizon, mountain-to-sea geography, and the absence of the sand haze common on the West Coast create aerial footage with a distinctly different visual character. The Hajar Mountains as backdrop are available nowhere on the UAE's western coast." },
+      { q: "How much does drone videography cost in Fujairah?", a: "Drone sessions in Fujairah start from AED 2,500. Half-day coastal packages from AED 4,500. Full-day mountain and coast packages from AED 7,500. All rates include travel." },
+      { q: "Do you produce drone content for Fujairah tourism campaigns?", a: "Yes. We produce destination marketing aerial content for Fujairah Tourism and East Coast hospitality operators — the kind of aerial sequences that make viewers immediately want to visit." },
+    ],
+  },
+
+  "fujairah/food-photography": {
+    title: "Food Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Professional food photography in Fujairah — East Coast restaurants, Al Aqah resort dining, seafood, hotel F&B, menus, social media content. From AED 1,800.",
+    h1: "Food Photography in Fujairah",
+    subtitle: "East Coast dining. Beach restaurants. Resort F&B. Fujairah food, beautifully captured.",
+    category: "FOOD PHOTOGRAPHY",
+    intro: [
+      "Fujairah's food scene is defined by its coastline — seafood restaurants, beach resort dining, and the East Coast's tradition of fresh catch from the Indian Ocean. The emirate's F&B market spans luxury resort restaurants at Le Méridien and other Al Aqah properties through to local seafood favourites serving the emirate's community and day visitors from Dubai and Sharjah.",
+      "Backyard Studio Official produces food photography for Fujairah's restaurant market — resort hotel F&B, seafood specialists, delivery platform operators, and East Coast dining establishments that need professional visual content to attract the emirate's tourism visitors and local community.",
+    ],
+    highlights: [
+      { heading: "Seafood & East Coast Cuisine", body: "Photography for Fujairah's seafood restaurants and East Coast cuisine specialists — fresh catch, traditional preparations, and the coastal dining context that gives Fujairah food photography its distinctive character." },
+      { heading: "Resort Hotel F&B", body: "Food photography for Al Aqah beach resort restaurants meeting the visual standards of luxury hospitality brands." },
+      { heading: "Beach Dining Context", body: "Food photography incorporating the East Coast beach setting — contextual shots where the Indian Ocean and mountain backdrop become part of the composition." },
+      { heading: "Social Media & Delivery Content", body: "Instagram and TikTok food content for Fujairah restaurants, plus delivery platform photography for Talabat and Deliveroo listings." },
+    ],
+    pricing: [
+      { pkg: "Menu Shoot (20 dishes)", detail: "3 hrs / styled / all formats", price: "From AED 1,800" },
+      { pkg: "Full Menu (50 dishes)", detail: "6 hrs / food + context / digital delivery", price: "From AED 3,200" },
+      { pkg: "Social Content Package", detail: "Food + Reels + Stories / monthly", price: "From AED 2,500 / mo" },
+      { pkg: "Restaurant Launch", detail: "Full day / menu + interior + brand film", price: "From AED 6,500" },
+    ],
+    faqs: [
+      { q: "Do you photograph seafood restaurants in Fujairah?", a: "Yes. Fujairah's seafood and East Coast cuisine restaurants are a key part of our food photography market in the emirate. We capture both the food and the coastal dining context that makes these restaurants distinctive." },
+      { q: "How much does food photography cost in Fujairah?", a: "Food photography in Fujairah starts from AED 1,800 for a 20-dish menu shoot. Full menu shoots from AED 3,200. Social content packages from AED 2,500 per month." },
+      { q: "Do you include restaurant interior photography alongside food photography in Fujairah?", a: "Yes. Most Fujairah food photography sessions combine dish photography with interior ambience and setting shots — the East Coast context is often as compelling as the food itself for social media." },
+      { q: "Can you produce food photography during service hours at Fujairah restaurants?", a: "Yes. We work around your kitchen and service schedule. Early morning or late afternoon shoots before the evening service are the most productive windows, but we adapt to your operational timing." },
+    ],
+  },
+
+  "fujairah/product-photography": {
+    title: "Product Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Professional product photography in Fujairah — e-commerce, Fujairah Free Zone businesses, Amazon UAE, Noon, brand campaigns. On-location and studio. From AED 1,000.",
+    h1: "Product Photography in Fujairah",
+    subtitle: "E-commerce. Free Zone businesses. Brand campaigns. Fujairah products, professionally presented.",
+    category: "PRODUCT PHOTOGRAPHY",
+    intro: [
+      "Fujairah's product photography market is served by its free zone business community and the emirate's trading companies, many of whom sell through UAE domestic e-commerce platforms while also serving export markets through the Port of Fujairah.",
+      "Backyard Studio Official produces product photography for Fujairah-based businesses — e-commerce photography meeting Amazon UAE and Noon requirements, B2B catalogue content for trading and export-oriented businesses, and lifestyle imagery for brands with direct-to-consumer ambitions.",
+    ],
+    highlights: [
+      { heading: "E-Commerce Marketplace Ready", body: "Amazon UAE and Noon compliant product photography for Fujairah businesses selling through UAE domestic platforms — delivered upload-ready." },
+      { heading: "East Coast Lifestyle Photography", body: "Products photographed in Fujairah's coastal and natural settings — for brands whose lifestyle story aligns with the emirate's outdoor and adventure character." },
+      { heading: "On-Location Shoots in Fujairah", body: "For businesses with large product ranges or premises-based manufacturing, we bring studio equipment to your Fujairah location." },
+      { heading: "Export-Facing Catalogue Content", body: "B2B catalogue photography for Fujairah Free Zone businesses selling to international markets through the port — product documentation that travels as effectively as the goods themselves." },
+    ],
+    pricing: [
+      { pkg: "Starter (10 SKUs)", detail: "White bg / 3 angles / 3-day delivery", price: "From AED 1,000" },
+      { pkg: "Standard (30 SKUs)", detail: "White bg + lifestyle / 4 angles", price: "From AED 2,500" },
+      { pkg: "On-Location Shoot", detail: "At your Fujairah premises / full day", price: "From AED 4,500" },
+      { pkg: "Catalogue (50+ SKUs)", detail: "Custom quote / B2B spec", price: "On request" },
+    ],
+    faqs: [
+      { q: "Do you produce product photography for Fujairah Free Zone businesses?", a: "Yes. We produce e-commerce and B2B catalogue product photography for Fujairah Free Zone companies, with delivery formats suitable for both UAE domestic platforms and international export marketing." },
+      { q: "Can you shoot at our Fujairah premises?", a: "Yes. For on-location shoots at Fujairah businesses or warehouses, we bring portable studio equipment and handle all photography at your premises. Travel to Fujairah is included in the on-location rate." },
+      { q: "How much does product photography cost in Fujairah?", a: "Product photography in Fujairah starts from AED 1,000 for 10 SKUs. On-location shoots at Fujairah premises from AED 4,500 including travel." },
+      { q: "How quickly do you deliver product photos from Fujairah shoots?", a: "Standard delivery is 3 business days from the shoot. Rush 48-hour delivery available for priority launches." },
+    ],
+  },
+
+  "fujairah/personal-branding-photography": {
+    title: "Personal Branding Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Personal branding photography in Fujairah — professionals, executives, entrepreneurs, tourism personalities. East Coast beach, Hajar Mountains, resort settings. From AED 1,400.",
+    h1: "Personal Branding Photography in Fujairah",
+    subtitle: "East Coast professionals. Resort executives. Entrepreneurs. Your brand on the Indian Ocean.",
+    category: "PERSONAL BRANDING",
+    intro: [
+      "Fujairah's East Coast landscape gives professionals here access to personal branding photography locations that are genuinely unique in the UAE — Indian Ocean horizons, Hajar Mountain backdrops, ancient fortifications, and coastal outdoor settings that produce imagery with a character unavailable in Dubai or Abu Dhabi.",
+      "Backyard Studio Official produces personal branding photography for Fujairah professionals — hospitality executives at East Coast resorts, government and port sector leaders, entrepreneurs and business owners in the free zone community, and individuals whose personal brand is tied to the emirate's outdoor and coastal lifestyle.",
+    ],
+    highlights: [
+      { heading: "East Coast Beach Sessions", body: "Personal branding photography on Fujairah's Indian Ocean coastline — a setting that communicates adventure, freedom, and distinctiveness while maintaining professional gravity." },
+      { heading: "Hajar Mountain Landscape", body: "Brand photography incorporating the Hajar mountain backdrop — for professionals whose identity aligns with resilience, exploration, or natural leadership." },
+      { heading: "Resort & Hotel Executive Sessions", body: "Professional headshots and personal brand photography for hospitality executives at Fujairah's East Coast properties." },
+      { heading: "Full Brand Days", body: "Multi-location brand days covering Fujairah's diverse landscape — beach, mountains, and resort settings in a single day's photography." },
+    ],
+    pricing: [
+      { pkg: "Executive Headshots", detail: "1.5 hrs / 1 location / 20 final images", price: "From AED 1,400" },
+      { pkg: "Personal Brand Session", detail: "3 hrs / 2 looks / beach + resort / 50 images", price: "From AED 2,800" },
+      { pkg: "Full Brand Day", detail: "6 hrs / 4 looks / coast + mountain / 100 images", price: "From AED 5,500" },
+      { pkg: "East Coast Brand Session", detail: "Beach + Hajar Mountains / 4 hrs", price: "From AED 3,500" },
+    ],
+    faqs: [
+      { q: "Can you produce personal branding photography on Fujairah's East Coast?", a: "Yes. Fujairah's East Coast beach and mountain settings are among the most distinctive personal branding photography locations in the UAE. We plan sessions for golden hour or early morning to maximize the East Coast light." },
+      { q: "How much does personal branding photography cost in Fujairah?", a: "Personal branding sessions in Fujairah start from AED 1,400 for executive headshots. Full sessions from AED 2,800. East Coast location-specific sessions from AED 3,500." },
+      { q: "I'm a resort executive in Fujairah — what locations work for my brand photography?", a: "For resort and hospitality executives, sessions incorporating your property — beach frontage, resort architecture, F&B settings — are typically the most powerful. We also offer East Coast landscape sessions and Hajar Mountain settings depending on your brand narrative." },
+      { q: "Do you travel from Dubai to shoot personal branding in Fujairah?", a: "Yes. Fujairah personal branding sessions include travel from our Dubai base. We combine Fujairah bookings where possible to keep rates competitive." },
+    ],
+  },
+
+
+  // ── UMM AL QUWAIN — Sprint 25 commercial services ─────────────────────────
+
+  "umm-al-quwain/wedding-photography": {
+    title: "Wedding Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Professional wedding photography in Umm Al Quwain — UAQ lagoon, mangrove settings, Emirati traditions, intimate ceremonies, all-female crews available. From AED 2,500.",
+    h1: "Wedding Photography in Umm Al Quwain",
+    subtitle: "UAQ lagoon. Mangrove backdrops. Intimate settings. Umm Al Quwain weddings, beautifully documented.",
+    category: "WEDDING PHOTOGRAPHY",
+    intro: [
+      "Umm Al Quwain is the UAE's smallest emirate, and its weddings reflect the community's intimacy and the emirate's commitment to tradition. The UAQ lagoon, mangrove edges, and the old town's historic character provide wedding photography settings with a quiet authenticity that larger, more developed emirates cannot replicate.",
+      "Backyard Studio Official photographs weddings throughout Umm Al Quwain — traditional Emirati ceremonies, South Asian community weddings, and intimate celebrations that choose UAQ for its character rather than its scale. We provide all-female photography crews for ladies-only ceremonies as standard.",
+    ],
+    highlights: [
+      { heading: "UAQ Lagoon & Creek Settings", body: "Umm Al Quwain's defining geographical feature — the lagoon and creek offer wedding portrait settings with water, mangroves, and the quiet of an emirate that hasn't been overtaken by development." },
+      { heading: "Traditional Emirati Weddings", body: "UAQ maintains strong Emirati wedding traditions. We photograph these ceremonies with cultural sensitivity and protocol awareness, and always have all-female crew options available." },
+      { heading: "Intimate Community Weddings", body: "UAQ's tight-knit community means weddings here are often deeply personal family events — we approach these with a documentary warmth that formal, production-heavy photography would undermine." },
+      { heading: "Old Town & Heritage Settings", body: "The old town of Umm Al Quwain, with its fort and traditional architecture, provides a distinctively Emirati backdrop for pre-ceremony portrait sessions." },
+    ],
+    pricing: [
+      { pkg: "Nikah / Ceremony Only", detail: "1 photographer / 4 hrs / digital gallery", price: "From AED 2,500" },
+      { pkg: "Full Wedding Day", detail: "2 photographers / 10 hrs / full gallery", price: "From AED 5,500" },
+      { pkg: "Photo + Video", detail: "2 photographers + 1 videographer / full day", price: "From AED 9,500" },
+      { pkg: "Multi-Day Package", detail: "Multi-day traditional ceremony", price: "From AED 14,000" },
+    ],
+    faqs: [
+      { q: "Do you photograph weddings in Umm Al Quwain?", a: "Yes. We cover weddings throughout UAQ — traditional Emirati ceremonies, community weddings, and intimate celebrations at lagoon-side and heritage settings across the emirate. Distance from Dubai is not an obstacle; UAQ is approximately 45–60 minutes by highway." },
+      { q: "What wedding locations are available in Umm Al Quwain?", a: "UAQ's best wedding photography locations include the lagoon and creek waterfront, the old town fort setting, mangrove-edge locations, and private villas within the emirate. We scout and advise on the right setting during consultation." },
+      { q: "How much does wedding photography cost in Umm Al Quwain?", a: "Wedding photography in UAQ starts from AED 2,500 for ceremony-only coverage and AED 5,500 for a full wedding day. Pricing is comparable to Ajman." },
+      { q: "Do you provide all-female wedding photography crews in UAQ?", a: "Yes. For ladies-only ceremonies and gender-separated Emirati weddings in Umm Al Quwain, we provide fully all-female photography and videography crews." },
+    ],
+  },
+
+  "umm-al-quwain/corporate-video": {
+    title: "Corporate Video Production in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Corporate video production in Umm Al Quwain — UAQ Free Trade Zone, business profiles, government content, brand films. Bilingual Arabic-English. From AED 5,500.",
+    h1: "Corporate Video Production in Umm Al Quwain",
+    subtitle: "UAQ Free Trade Zone. Government. Business profiles. UAQ on camera.",
+    category: "CORPORATE VIDEO",
+    intro: [
+      "Umm Al Quwain's corporate economy centres on UAQ Free Trade Zone — one of the UAE's more affordable licensing destinations, with a growing community of small and medium businesses. The emirate's government entities, its fishing and marine sector, and its developing commercial district generate corporate video requirements across institutional and commercial formats.",
+      "Backyard Studio Official produces corporate video for UAQ's business community — company profiles for free zone businesses, institutional content for government entities, and brand films for commercial enterprises operating in the emirate.",
+    ],
+    highlights: [
+      { heading: "UAQ Free Trade Zone Profiles", body: "Professional company profile videos for UAQ FTZ-based businesses — investor relations content, partner introduction films, and trade presentation material." },
+      { heading: "Government & Institutional", body: "Institutional video for UAQ government departments and official bodies, produced to Arabic-language standards with bilingual delivery." },
+      { heading: "Marine & Fishing Sector", body: "Corporate video for UAQ's fishing industry, marine businesses, and related sectors — production that captures the emirate's maritime character and operational expertise." },
+      { heading: "SME Brand Films", body: "Cost-effective brand film packages for UAQ's small and medium business community — professional quality at a price point suited to growing businesses." },
+    ],
+    pricing: [
+      { pkg: "Corporate Profile", detail: "1 filming day / 3–5 min film / 2 revisions", price: "From AED 5,500" },
+      { pkg: "Brand Film", detail: "Multi-day / 5–8 min / Arabic + English", price: "From AED 11,000" },
+      { pkg: "Social Media Pack", detail: "Half day / 3 x 60-sec social videos", price: "From AED 3,500" },
+      { pkg: "Monthly Retainer", detail: "2 filming days/month / mixed formats", price: "From AED 6,500 / mo" },
+    ],
+    faqs: [
+      { q: "Do you produce corporate video for UAQ Free Trade Zone companies?", a: "Yes. UAQ FTZ businesses — particularly those in trading, manufacturing, and services — regularly need professional company profile videos. We produce company introductions, brand films, and product demonstrations for UAQ free zone-based businesses." },
+      { q: "How much does corporate video production cost in Umm Al Quwain?", a: "Corporate video in UAQ starts from AED 5,500 for a single-day shoot. Social media packs from AED 3,500. Rates include travel from Dubai, approximately 45 minutes." },
+      { q: "Can you produce Arabic-English bilingual corporate video in UAQ?", a: "Yes. Bilingual production is standard for all UAQ corporate video work, with Arabic and English narrated or subtitled versions delivered simultaneously." },
+      { q: "How do you manage logistics for filming in Umm Al Quwain?", a: "UAQ is well within standard UAE travel distance — approximately 45 minutes from Dubai on the E11 highway. We include travel in our standard rates and manage any UAQ municipal filming coordination required." },
+    ],
+  },
+
+  "umm-al-quwain/event-photography": {
+    title: "Event Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Professional event photography in Umm Al Quwain — government events, UAQ FTZ, Dreamland Aqua Park, community events, corporate gatherings. From AED 2,500.",
+    h1: "Event Photography in Umm Al Quwain",
+    subtitle: "Government events. UAQ FTZ. Community celebrations. UAQ events, professionally documented.",
+    category: "EVENT PHOTOGRAPHY",
+    intro: [
+      "Umm Al Quwain's event market is modest in scale but genuine in character — government ceremonies, UAQ Free Trade Zone business events, community celebrations, and activations at Dreamland Aqua Park make up the emirate's event photography landscape. The intimacy of UAQ means events here have a warmth and authenticity that larger emirates' event photography often lacks.",
+      "Backyard Studio Official covers events throughout Umm Al Quwain — official government ceremonies, business conferences, community events, and outdoor venue activations — with the same professionalism we bring to events in the UAE's major cities.",
+    ],
+    highlights: [
+      { heading: "Government & Official Ceremonies", body: "Event coverage for Umm Al Quwain government entities — official ceremonies, national day events, and institutional gatherings with appropriate documentation standards." },
+      { heading: "UAQ Free Trade Zone Events", body: "Business networking events, investor road shows, and corporate gatherings at UAQ FTZ — professional event photography for the business community." },
+      { heading: "Outdoor & Community Events", body: "Community events, outdoor activations, and family gatherings in UAQ's parks and public spaces — documentary-style event photography that captures the emirate's community character." },
+      { heading: "Same-Day Social Delivery", body: "For events requiring immediate social media coverage, we deliver 20–30 edited images within 2–3 hours of the event ending." },
+    ],
+    pricing: [
+      { pkg: "Half Day (4 hrs)", detail: "1 photographer / 50 edited images", price: "From AED 2,500" },
+      { pkg: "Full Day (8 hrs)", detail: "1 photographer / 100 edited images", price: "From AED 4,000" },
+      { pkg: "Event Package", detail: "2 photographers / same-day delivery", price: "From AED 6,000 / day" },
+      { pkg: "Photo + Video", detail: "Photographer + videographer / highlight reel", price: "From AED 5,500" },
+    ],
+    faqs: [
+      { q: "Do you cover events in Umm Al Quwain?", a: "Yes. We cover events throughout UAQ — government ceremonies, business events, community gatherings, and corporate activations. UAQ's proximity to Dubai (approximately 45 minutes) means travel is never an issue for our teams." },
+      { q: "How much does event photography cost in Umm Al Quwain?", a: "Event photography in UAQ starts from AED 2,500 for a 4-hour half-day session. Full-day coverage from AED 4,000. Pricing is competitive with Ajman and Sharjah." },
+      { q: "Can you photograph events at Dreamland Aqua Park in UAQ?", a: "Yes. Dreamland Aqua Park is a popular UAQ outdoor event venue. We cover outdoor activations, brand events, and community events at Dreamland and other UAQ outdoor locations." },
+      { q: "Do you provide same-day event photo delivery in UAQ?", a: "Yes. Same-day social delivery of 20–30 edited images within 2–3 hours of the event close is available for UAQ events — the same service we offer across all UAE locations." },
+    ],
+  },
+
+  "umm-al-quwain/real-estate-photography": {
+    title: "Real Estate Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Professional real estate photography in Umm Al Quwain — waterfront villas, lagoon properties, UAQ developments, aerial drone, investment units. From AED 800.",
+    h1: "Real Estate Photography in Umm Al Quwain",
+    subtitle: "UAQ lagoon. Waterfront villas. Investment properties. Professionally photographed.",
+    category: "REAL ESTATE PHOTOGRAPHY",
+    intro: [
+      "Umm Al Quwain's real estate market is attracting growing investor attention, driven by the emirate's affordability, its lagoon waterfront properties, and infrastructure developments that are gradually connecting UAQ more firmly to the greater UAE property market. Properties here compete on value and a distinctive natural character — the lagoon, mangroves, and the unhurried pace of the emirate.",
+      "Backyard Studio Official produces real estate photography for UAQ properties — lagoon-facing villas, investment units, residential developments, and properties for agencies managing portfolio listings in the emirate.",
+    ],
+    highlights: [
+      { heading: "Lagoon & Waterfront Property", body: "UAQ's defining real estate asset — lagoon-facing properties and waterfront villas photographed to maximise the water and natural landscape context." },
+      { heading: "Mangrove & Natural Setting", body: "Properties backing on UAQ's mangrove ecosystem photographed to show the natural environment that is an increasingly valuable differentiator in UAE property." },
+      { heading: "GCAA-Licensed Aerial", body: "Licensed aerial drone photography of UAQ's distinctive lagoon geography — overhead shots that reveal the emirate's water-and-land character instantly." },
+      { heading: "Investment Unit Photography", body: "Affordable, consistent property photography for UAQ's investment apartment and villa market — quality imagery that performs on Bayut and Property Finder." },
+    ],
+    pricing: [
+      { pkg: "Unit Photography", detail: "Up to 3 units / interior & exterior / 25 images", price: "From AED 800" },
+      { pkg: "Villa / Lagoon Property", detail: "Full day / interior + exterior + context", price: "From AED 2,500" },
+      { pkg: "Aerial + Ground Package", detail: "Drone + interior / licensed GCAA pilot", price: "From AED 3,500" },
+      { pkg: "Development Campaign", detail: "Multi-unit / photo + video / aerial", price: "From AED 9,000" },
+    ],
+    faqs: [
+      { q: "Do you photograph lagoon and waterfront properties in UAQ?", a: "Yes. UAQ's lagoon-facing properties are our most common real estate assignment in the emirate — interior photography, exterior settings, and aerial drone documentation that captures the lagoon context central to these properties' value." },
+      { q: "Can you produce aerial photography over UAQ's lagoon?", a: "Yes, with GCAA permits and local coordination that we manage as standard. UAQ's lagoon geography from altitude is one of the most distinctive real estate aerial compositions in the UAE." },
+      { q: "How much does real estate photography cost in Umm Al Quwain?", a: "Real estate photography in UAQ starts from AED 800 for unit photography. Lagoon villa packages from AED 2,500. Aerial plus ground packages from AED 3,500." },
+      { q: "Do you work with UAQ property agencies?", a: "Yes. We produce listing photography for UAQ property agencies at a pace and price suited to active residential portfolios — consistent quality and 2-day turnaround as standard." },
+    ],
+  },
+
+  "umm-al-quwain/drone-videography": {
+    title: "Drone Videography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "GCAA-licensed drone videography in Umm Al Quwain — UAQ lagoon, mangroves, coastline, real estate, 4K aerial photography. Licensed pilot. From AED 1,800.",
+    h1: "Drone Videography in Umm Al Quwain",
+    subtitle: "GCAA licensed. UAQ lagoon. Mangroves. The UAE's most tranquil aerial landscape.",
+    category: "DRONE VIDEOGRAPHY",
+    intro: [
+      "Umm Al Quwain from above reveals something rare in the UAE — an emirate largely unchanged from how the Gulf coast looked before the development era. The lagoon's branching channels, the mangrove islands, the fishing village patterns, and the calm of an emirate without a major city horizon make drone footage here quietly extraordinary.",
+      "Backyard Studio Official holds GCAA commercial drone licences and manages all UAQ authority permissions as standard. We produce aerial content for UAQ's real estate sector, government communications, tourism content, and commercial clients who want the emirate's distinctive aerial character in 4K with cinema colour grading.",
+    ],
+    highlights: [
+      { heading: "UAQ Lagoon & Channel Aerials", body: "The branching lagoon channels and mangrove islands from altitude — a natural aerial geometry that produces footage unlike any other UAE emirate." },
+      { heading: "Mangrove Ecosystem", body: "UAQ has some of the UAE's best-preserved mangrove areas. Aerial footage over the mangroves is ecologically compelling and visually beautiful — rare in commercial UAE drone work." },
+      { heading: "Coastline & Creek Aerials", body: "The old town creek, the Gulf coastline, and the emirate's traditional fishing port from altitude — authentic Gulf coast imagery becoming increasingly scarce in the UAE." },
+      { heading: "Real Estate & Tourism Aerial", body: "Licensed aerial documentation for UAQ properties, lagoon developments, and tourism destination content." },
+    ],
+    pricing: [
+      { pkg: "Drone Session (2 hrs)", detail: "GCAA pilot / 4K footage / basic edit", price: "From AED 1,800" },
+      { pkg: "Half Day Aerial", detail: "4 hrs / lagoon + coast / colour-graded", price: "From AED 3,000" },
+      { pkg: "Drone + Ground Package", detail: "Aerial + ground camera team / full edit", price: "From AED 4,500" },
+      { pkg: "Real Estate Aerial", detail: "Lagoon properties / licensed GCAA", price: "From AED 2,500" },
+    ],
+    faqs: [
+      { q: "Can you fly drones over UAQ's lagoon and mangroves?", a: "Yes, with GCAA permits and UAQ authority coordination that we manage as standard. UAQ's lagoon and mangrove areas are accessible for commercial drone operations with appropriate clearance, which we handle for every shoot." },
+      { q: "Is Umm Al Quwain distinctive for drone videography?", a: "Very much so. UAQ's preserved lagoon system, mangrove channels, and relatively undeveloped coastline create aerial footage with a natural character that is increasingly rare in the UAE. For clients wanting authentic Gulf coast aerial imagery, UAQ is often the answer." },
+      { q: "How much does drone videography cost in UAQ?", a: "Drone sessions in UAQ start from AED 1,800. Half-day lagoon and coast packages from AED 3,000. Combined drone and ground packages from AED 4,500." },
+      { q: "Do you produce drone content for UAQ tourism and real estate?", a: "Yes. We produce aerial documentation for UAQ lagoon properties and destination tourism content — the emirate's unique aerial character is a significant asset for both markets." },
+    ],
+  },
+
+  "umm-al-quwain/food-photography": {
+    title: "Food Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Professional food photography in Umm Al Quwain — restaurants, seafood, local cuisine, delivery platforms, social media content. From AED 1,400.",
+    h1: "Food Photography in Umm Al Quwain",
+    subtitle: "UAQ restaurants. Seafood. Local cuisine. Delivery platforms. Your menu, professionally photographed.",
+    category: "FOOD PHOTOGRAPHY",
+    intro: [
+      "Umm Al Quwain's restaurant scene is modest in scale but genuine in offering — local seafood, traditional Emirati cuisine, South Asian community restaurants, and a developing café culture that is growing with the emirate's increasing connectivity to the wider Northern Emirates market.",
+      "Backyard Studio Official produces food photography for UAQ's restaurant market — menu photography for delivery platform listings, social media content for emerging café and restaurant brands, and launch photography for new F&B businesses entering the emirate.",
+    ],
+    highlights: [
+      { heading: "Seafood & Local Cuisine", body: "UAQ's seafood and local Emirati cuisine photographed to showcase the freshness and authenticity that defines the emirate's food offering." },
+      { heading: "Delivery Platform Photography", body: "Talabat and Deliveroo-formatted food photography for UAQ restaurants competing on the delivery platforms that drive the Northern Emirates' F&B revenue." },
+      { heading: "Social Media Content", body: "Instagram and TikTok food content for UAQ restaurants and cafés — Reels, vertical video, and story formats produced alongside still photography." },
+      { heading: "Restaurant Launch Packages", body: "Full launch photography packages for new UAQ F&B openings — menu photography, interior shots, and social media content all captured in a single day." },
+    ],
+    pricing: [
+      { pkg: "Menu Shoot (15 dishes)", detail: "2.5 hrs / styled / all formats", price: "From AED 1,400" },
+      { pkg: "Full Menu (40 dishes)", detail: "5 hrs / food + context / digital delivery", price: "From AED 2,500" },
+      { pkg: "Social Content Package", detail: "Food + Reels / monthly", price: "From AED 1,800 / mo" },
+      { pkg: "Restaurant Launch", detail: "Full day / menu + interior + social content", price: "From AED 4,500" },
+    ],
+    faqs: [
+      { q: "Do you photograph restaurants and menus in Umm Al Quwain?", a: "Yes. We produce menu and food photography for restaurants and cafés in UAQ, including delivery platform-formatted content for Talabat and Deliveroo and social media content for Instagram and TikTok." },
+      { q: "How much does food photography cost in Umm Al Quwain?", a: "Food photography in UAQ starts from AED 1,400 for a 15-dish menu shoot. Full menu shoots from AED 2,500. Monthly social content packages from AED 1,800." },
+      { q: "Can you photograph seafood at UAQ restaurants?", a: "Yes. UAQ's seafood restaurants and traditional local cuisine are among the most authentic F&B subjects in the Northern Emirates. We photograph seafood dishes in a way that captures freshness and the coastal character of the emirate." },
+      { q: "How quickly do you deliver food photography in UAQ?", a: "Standard delivery is 2–3 business days from the shoot date. Rush 24-hour delivery available for time-sensitive restaurant launches." },
+    ],
+  },
+
+  "umm-al-quwain/product-photography": {
+    title: "Product Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Professional product photography in Umm Al Quwain — e-commerce, UAQ Free Trade Zone businesses, Amazon UAE, Noon, brand campaigns. On-location and studio. From AED 750.",
+    h1: "Product Photography in Umm Al Quwain",
+    subtitle: "E-commerce. UAQ FTZ businesses. Brand campaigns. UAQ products, professionally photographed.",
+    category: "PRODUCT PHOTOGRAPHY",
+    intro: [
+      "Umm Al Quwain's business community includes a number of product-based SMEs and trading businesses operating through UAQ Free Trade Zone. Many of these businesses sell through UAE e-commerce platforms and need product photography that works for both domestic marketplace listings and export-facing catalogue content.",
+      "Backyard Studio Official produces product photography for UAQ-based businesses at competitive rates — e-commerce compliant photography for Amazon UAE and Noon, lifestyle imagery for social media campaigns, and B2B catalogue content for businesses selling to regional and international buyers.",
+    ],
+    highlights: [
+      { heading: "Amazon UAE & Noon Ready", body: "White-background product photography meeting marketplace technical requirements — delivered upload-ready for direct platform submission." },
+      { heading: "UAQ FTZ Business Packages", body: "Cost-effective product photography packages for small and medium businesses in UAQ FTZ — professional quality without enterprise pricing." },
+      { heading: "On-Location UAQ Shoots", body: "We bring studio equipment to your UAQ premises for large or heavy products — eliminating shipping costs and disruption." },
+      { heading: "Natural Setting Lifestyle", body: "Products photographed in UAQ's natural lagoon and coastal settings for brands whose lifestyle story benefits from the emirate's distinctive character." },
+    ],
+    pricing: [
+      { pkg: "Starter (10 SKUs)", detail: "White bg / 3 angles / 2-day delivery", price: "From AED 750" },
+      { pkg: "Standard (25 SKUs)", detail: "White bg + lifestyle / 3 angles", price: "From AED 1,800" },
+      { pkg: "On-Location UAQ Shoot", detail: "At your premises / portable studio / full day", price: "From AED 3,800" },
+      { pkg: "E-Commerce Catalogue", detail: "50+ SKUs / custom quote / B2B spec", price: "On request" },
+    ],
+    faqs: [
+      { q: "Do you produce product photography for UAQ Free Trade Zone businesses?", a: "Yes. We produce e-commerce and catalogue product photography for UAQ FTZ businesses — white background shots, lifestyle imagery, and B2B content at rates that work for SME budgets." },
+      { q: "How much does product photography cost in UAQ?", a: "Product photography in UAQ starts from AED 750 for 10 SKUs. Standard lifestyle packages from AED 1,800. On-location UAQ shoots from AED 3,800." },
+      { q: "Can you photograph products at our UAQ premises?", a: "Yes. We bring a portable studio setup to your UAQ location — ideal for large, heavy, or high-volume product ranges where shipping to our Dubai studio isn't practical." },
+      { q: "How quickly do you turn around product photography from UAQ?", a: "Standard delivery is 2–3 business days. Rush 24-hour delivery available for time-sensitive requirements." },
+    ],
+  },
+
+  "umm-al-quwain/personal-branding-photography": {
+    title: "Personal Branding Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Personal branding photography in Umm Al Quwain — professionals, entrepreneurs, executives, coaches. UAQ lagoon, mangrove settings, portrait sessions. From AED 1,100.",
+    h1: "Personal Branding Photography in Umm Al Quwain",
+    subtitle: "UAQ professionals. Entrepreneurs. The lagoon. Your brand, authentically photographed.",
+    category: "PERSONAL BRANDING",
+    intro: [
+      "Umm Al Quwain's lagoon setting and natural environment offer personal branding photography that is genuinely different from any urban UAE location. For professionals whose brand story centres on authenticity, nature, or a distinctively non-corporate identity, UAQ's mangroves, lagoon channels, and traditional townscape provide a backdrop that communicates exactly that.",
+      "Backyard Studio Official produces personal branding photography for UAQ professionals — business owners, government professionals, coaches, and individuals who want brand imagery that stands out rather than fitting into the generic corporate portrait landscape.",
+    ],
+    highlights: [
+      { heading: "UAQ Lagoon Sessions", body: "Personal branding photography on the lagoon — water, mangrove channels, and the quiet of one of the UAE's most distinctive natural settings as your professional backdrop." },
+      { heading: "Old Town & Heritage", body: "UAQ's fort and traditional townscape for professionals wanting an authentically Emirati heritage context in their brand photography." },
+      { heading: "Natural & Outdoor Brand Stories", body: "For professionals in wellness, coaching, sustainability, or creative industries — UAQ's natural setting communicates authenticity in a way no studio or urban backdrop can." },
+      { heading: "Executive Headshots", body: "Professional headshots and LinkedIn portraits for UAQ business professionals — clean, competent, and efficiently delivered." },
+    ],
+    pricing: [
+      { pkg: "Executive Headshots", detail: "1.5 hrs / 1 location / 20 final images", price: "From AED 1,100" },
+      { pkg: "Personal Brand Session", detail: "3 hrs / 2 looks / lagoon + heritage / 50 images", price: "From AED 2,200" },
+      { pkg: "Full Brand Day", detail: "6 hrs / 4 looks / 3 UAQ locations / 100 images", price: "From AED 4,200" },
+      { pkg: "Lagoon Brand Session", detail: "2 hrs / lagoon + mangrove / 30 images", price: "From AED 1,800" },
+    ],
+    faqs: [
+      { q: "Can I have my personal branding photography done at the UAQ lagoon?", a: "Yes. The UAQ lagoon is one of our most distinctive personal branding locations — the water, channels, and mangroves create brand photography that is genuinely different from anything available in Dubai or the other larger emirates." },
+      { q: "How much does personal branding photography cost in UAQ?", a: "Personal branding sessions in UAQ start from AED 1,100 for executive headshots. Full personal brand sessions from AED 2,200. Lagoon-specific sessions from AED 1,800." },
+      { q: "Who is UAQ personal branding photography best suited for?", a: "UAQ is particularly suited to professionals in wellness, coaching, sustainability, creative industries, or any brand that benefits from natural, authentic setting over corporate or urban imagery. The lagoon creates a genuinely different visual statement." },
+      { q: "How long does it take to travel from Dubai to UAQ for a photography session?", a: "UAQ is approximately 45–60 minutes from Dubai on the E11 highway. We factor travel time into session scheduling and typically pair UAQ sessions with nearby emirate bookings for efficiency." },
+    ],
+  },
+
 };
 
 // ─── Static params ────────────────────────────────────────────────────────────
