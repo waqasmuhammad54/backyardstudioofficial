@@ -3486,19 +3486,36 @@ export default function CityServicePage({
   const localBizSchema = data
     ? {
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
+        "@type": ["LocalBusiness", "ProfessionalService"],
         name: "Backyard Studio Official",
         image: "https://www.backyardstudioofficial.com/og-image.jpg",
-        url: "https://www.backyardstudioofficial.com",
+        url: `https://www.backyardstudioofficial.com/locations/${params.city}/${params.service}`,
         telephone: "+971585882685",
-        areaServed: cityLabel,
+        email: "hello@backyardstudioofficial.com",
+        serviceType: data.category,
+        areaServed: {
+          "@type": "City",
+          name: cityLabel,
+          addressRegion: "UAE",
+        },
         address: {
           "@type": "PostalAddress",
           addressLocality: "Dubai",
+          addressRegion: "Dubai",
           addressCountry: "AE",
         },
-        priceRange: "AED 1,000 – AED 50,000",
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: 25.2048,
+          longitude: 55.2708,
+        },
+        priceRange: data.pricing[0]?.price ?? "AED 1,000 – AED 50,000",
         description: data.metaDescription,
+        sameAs: [
+          "https://www.instagram.com/backyardstudioofficial",
+          "https://www.facebook.com/backyardstudioofficial",
+          "https://www.linkedin.com/company/backyardstudioofficial",
+        ],
       }
     : null;
 
