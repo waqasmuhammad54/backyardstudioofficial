@@ -485,23 +485,16 @@ URLS = [
     f"https://{HOST}/locations/umm-al-quwain/food-photography",
     f"https://{HOST}/locations/umm-al-quwain/product-photography",
     f"https://{HOST}/locations/umm-al-quwain/personal-branding-photography",
-]
 
-payload = {
-    "host": HOST,
-    "key": API_KEY,
-    "keyLocation": KEY_LOCATION,
-    "urlList": URLS,
-}
-
-req = urllib.request.Request(
-    "https://api.indexnow.org/indexnow",
-    data=json.dumps(payload).encode("utf-8"),
-    headers={"Content-Type": "application/json; charset=utf-8"},
-    method="POST",
-)
-
-with urllib.request.urlopen(req) as resp:
-    print(f"Status: {resp.status}")
-    print(f"URLs submitted: {len(URLS)}")
-    print("Done.")
+    # Sprint 27 — zh pages (now indexed), expanded service + AR/RU pages
+    f"https://{HOST}/zh",
+    f"https://{HOST}/zh/services",
+    f"https://{HOST}/zh/pricing",
+    f"https://{HOST}/zh/about",
+    f"https://{HOST}/zh/contact",
+    f"https://{HOST}/zh/blog",
+    f"https://{HOST}/zh/portfolio",
+    f"https://{HOST}/zh/testimonials",
+    f"https://{HOST}/zh/locations",
+    f"https://{HOST}/zh/blog/hunli-sheying-dubai-2026",
+    f"https://{HOST}/zh/bl
