@@ -137,6 +137,47 @@ export default function ArContactPage() {
           </div>
         </div>
       </section>
+    
+      <section style={{ padding: "5rem 2rem", background: "#111" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "var(--font-arabic, 'Tajawal', sans-serif)", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "2rem", textAlign: "center", direction: "rtl" }}>
+            خدماتنا الرئيسية في دبي والإمارات
+          </h2>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "1.25rem", direction: "rtl" }}>
+            {[
+              { title: "تصوير الأفراح والزفاف", desc: "تغطية احترافية كاملة للأعراس في دبي وأبوظبي والشارقة وسائر إمارات الدولة. باقات تبدأ من 3,500 درهم تشمل المصور الفوتوغرافي والمصور الفيديو وطيار الدرون.", icon: "💍" },
+              { title: "إنتاج الفيديو المؤسسي", desc: "أفلام الشركات وفيديوهات الهوية البصرية والإعلانات التجارية ومقاطع التحرير الإبداعي. تُسلَّم وفق أعلى المعايير الاحترافية خلال 7 إلى 14 يوم عمل.", icon: "🎬" },
+              { title: "التصوير الجوي بالدرون", desc: "تصوير جوي احترافي بترخيص رسمي من الهيئة العامة للطيران المدني (GCAA). نغطي دبي وجميع إمارات الدولة السبع. الأسعار تبدأ من 2,500 درهم.", icon: "✈️" },
+              { title: "تصوير وسائل التواصل الاجتماعي", desc: "محتوى احترافي لإنستغرام وتيك توك ويوتيوب يُستهدف به الجمهور الخليجي والعربي. باقة يوم تصوير كامل تبدأ من 3,500 درهم.", icon: "📱" },
+              { title: "تصوير العقارات", desc: "صور ومقاطع فيديو احترافية للوحدات السكنية والتجارية والفنادق في دبي. تسليم خلال 24 ساعة. أسعار تبدأ من 1,500 درهم.", icon: "🏠" },
+              { title: "تصوير الفعاليات والمؤتمرات", desc: "تغطية فوتوغرافية وفيديوية متكاملة للمؤتمرات وحفلات التخرج والمناسبات الخاصة والمهرجانات في دبي وأبوظبي والإمارات.", icon: "🎭" },
+            ].map((item) => (
+              <div key={item.title} style={{ background: "#0a0a0a", border: "1px solid rgba(212,175,55,0.15)", borderRadius: "4px", padding: "1.5rem" }}>
+                <div style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}>{item.icon}</div>
+                <h3 style={{ fontFamily: "var(--font-arabic, 'Tajawal', sans-serif)", color: "var(--gold)", fontWeight: 700, fontSize: "0.95rem", marginBottom: "0.5rem" }}>{item.title}</h3>
+                <p style={{ fontFamily: "var(--font-arabic, 'Tajawal', sans-serif)", color: "rgba(245,240,225,0.65)", fontSize: "0.82rem", lineHeight: 1.8, margin: 0 }}>{item.desc}</p>
+              </div>
+            ))}
+          </div>
+          <div style={{ marginTop: "3rem", padding: "2rem", background: "#0a0a0a", border: "1px solid rgba(212,175,55,0.2)", borderRadius: "4px", textAlign: "center" }}>
+            <h3 style={{ fontFamily: "var(--font-arabic, 'Tajawal', sans-serif)", color: "var(--cream)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "1rem", direction: "rtl" }}>
+              أسئلة شائعة حول التواصل معنا
+            </h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "1rem", textAlign: "right", direction: "rtl" }}>
+              {[
+                { q: "ما هي أوقات الدوام لديكم؟", a: "نعمل من الاثنين إلى السبت من الساعة 9 صباحاً حتى 8 مساءً بتوقيت الإمارات. نرد على رسائل واتساب خلال ساعتين خلال أوقات الدوام." },
+                { q: "هل تعملون في جميع إمارات الدولة؟", a: "نعم، نغطي الإمارات السبع: دبي وأبوظبي والشارقة وعجمان ورأس الخيمة والفجيرة وأم القيوين. لا توجد رسوم إضافية للتنقل داخل الإمارات في معظم الحالات." },
+                { q: "كم يستغرق الرد على استفساري؟", a: "في أوقات الدوام، نرد على رسائل واتساب خلال ساعتين ونقدم عروض الأسعار الأولية خلال نفس اليوم. عروض الأسعار التفصيلية تُرسَل خلال 24 ساعة." },
+              ].map((faq) => (
+                <div key={faq.q} style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "0.75rem" }}>
+                  <p style={{ fontFamily: "var(--font-arabic, 'Tajawal', sans-serif)", color: "var(--cream)", fontWeight: 700, fontSize: "0.9rem", marginBottom: "0.3rem" }}>{faq.q}</p>
+                  <p style={{ fontFamily: "var(--font-arabic, 'Tajawal', sans-serif)", color: "rgba(245,240,225,0.65)", fontSize: "0.85rem", margin: 0, lineHeight: 1.8 }}>{faq.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

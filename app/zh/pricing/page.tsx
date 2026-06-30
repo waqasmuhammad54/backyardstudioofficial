@@ -125,6 +125,100 @@ export default function ZhPricingPage() {
           免费咨询
         </a>
       </section>
+    
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "婚礼拍摄收费是多少？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "我们的婚礼摄影套餐起价 AED 3,500（单摄影师4小时，含200张精修照片，5个工作日内交付）。婚礼摄影+摄像综合套餐起价 AED 7,500（含摄影师 + 摄像师 + 5分钟婚礼集锦）。含无人机航拍的完整豪华套餐起价 AED 15,000。我们也可以根据您的具体需求制定定制套餐。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "企业视频制作费用大概是多少？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "企业视频制作费用根据规模而定：单地点高管访谈（含后期制作）起价 AED 3,500；标准企业宣传片（2-3分钟，单拍摄日）起价 AED 15,000；品牌纪录片（多拍摄日，完整后期）起价 AED 35,000起。我们建议通过 WhatsApp 发送项目简介获取精准报价。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "无人机航拍单独定价是多少？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "独立无人机航拍任务起价 AED 2,500（2小时飞行，4K素材交付，基础剪辑）。结合地面拍摄的综合套餐（房地产摄影+无人机）起价 AED 4,500。活动无人机附加服务起价 AED 1,800。所有无人机拍摄均持GCAA执照，合规作业。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "社交媒体内容制作套餐如何定价？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "社交媒体内容拍摄日套餐起价 AED 3,500（半天拍摄，交付10-15个内容素材，包含Reels视频和摄影）。全天拍摄套餐起价 AED 6,500（交付6-10条Reels视频 + 25-30张照片）。月度内容制作套餐起价 AED 6,500（含每月一次拍摄日和编辑服务）。"
+                }
+              },
+        ],
+      }) }} />
+
+      <section style={{ padding: "4rem 2rem 5rem", background: "#0d0d0d" }}>
+        <div style={{ maxWidth: "780px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "2rem", textAlign: "center" }}>
+            常见问题解答
+          </h2>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                婚礼拍摄收费是多少？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                我们的婚礼摄影套餐起价 AED 3,500（单摄影师4小时，含200张精修照片，5个工作日内交付）。婚礼摄影+摄像综合套餐起价 AED 7,500（含摄影师 + 摄像师 + 5分钟婚礼集锦）。含无人机航拍的完整豪华套餐起价 AED 15,000。我们也可以根据您的具体需求制定定制套餐。
+              </p>
+            </div>
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                企业视频制作费用大概是多少？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                企业视频制作费用根据规模而定：单地点高管访谈（含后期制作）起价 AED 3,500；标准企业宣传片（2-3分钟，单拍摄日）起价 AED 15,000；品牌纪录片（多拍摄日，完整后期）起价 AED 35,000起。我们建议通过 WhatsApp 发送项目简介获取精准报价。
+              </p>
+            </div>
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                无人机航拍单独定价是多少？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                独立无人机航拍任务起价 AED 2,500（2小时飞行，4K素材交付，基础剪辑）。结合地面拍摄的综合套餐（房地产摄影+无人机）起价 AED 4,500。活动无人机附加服务起价 AED 1,800。所有无人机拍摄均持GCAA执照，合规作业。
+              </p>
+            </div>
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                社交媒体内容制作套餐如何定价？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                社交媒体内容拍摄日套餐起价 AED 3,500（半天拍摄，交付10-15个内容素材，包含Reels视频和摄影）。全天拍摄套餐起价 AED 6,500（交付6-10条Reels视频 + 25-30张照片）。月度内容制作套餐起价 AED 6,500（含每月一次拍摄日和编辑服务）。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style={{ padding: "3rem 2rem", background: "#111", textAlign: "center" }}>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", marginBottom: "0.5rem", fontSize: "0.9rem" }}>
+          还有疑问？我们提供中文服务，随时为您解答。
+        </p>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "1rem" }}>
+          WhatsApp: +971 58 588 2685 · 工作日2小时内回复
+        </p>
+        <a href="/zh/contact" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.75rem 2rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700, fontSize: "0.95rem" }}>
+          获取免费报价
+        </a>
+      </section>
     </>
   );
 }

@@ -153,6 +153,100 @@ export default function ZhServicesPage() {
           立即咨询
         </a>
       </section>
+    
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "你们的企业视频制作服务包括哪些内容？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "我们的企业视频服务包括：品牌宣传片、CEO及高管访谈、公司文化展示视频、产品发布视频、投资者路演视频、年度报告视频以及政府及半政府机构影片。服务范围从创意策划、脚本撰写到现场拍摄和后期制作，提供一站式全流程服务。企业视频起价 AED 15,000。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "婚礼拍摄套餐有哪些选择？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "我们提供三个婚礼拍摄套餐：基础套餐（婚礼单机位摄影，含200张精修照片，AED 3,500起）；标准套餐（双摄影师 + 单摄像，含400张精修照片及5分钟婚礼短片，AED 7,500起）；豪华套餐（完整摄影摄像团队 + 无人机航拍 + 完整婚礼纪录片，AED 15,000起）。所有套餐均包含婚礼前视频彩排和婚礼后10天内交付。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "你们提供无人机航拍服务吗？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "是的，我们持有GCAA（阿联酋民航总局）颁发的商业无人机拍摄执照，可在迪拜及阿联酋全境合法执行无人机拍摄任务。我们使用 DJI Inspire 2 和 DJI Mavic 3 Cine 系列专业航拍设备，支持4K高清航拍。每次任务前均提前申报飞行计划，确保100%合规作业。独立航拍任务起价 AED 2,000。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "你们是否提供社交媒体内容制作？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "是的，这是我们增长最快的服务之一。我们为品牌、餐厅、酒店、房地产公司和个人创作者提供专业的Instagram Reels、TikTok短视频和社交媒体摄影内容。每次拍摄日通常产出6至10条Reels视频以及20至30张摄影素材，足够支撑4至6周的内容日历。社交媒体内容拍摄日套餐起价 AED 3,500。"
+                }
+              },
+        ],
+      }) }} />
+
+      <section style={{ padding: "4rem 2rem 5rem", background: "#0d0d0d" }}>
+        <div style={{ maxWidth: "780px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "2rem", textAlign: "center" }}>
+            常见问题解答
+          </h2>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                你们的企业视频制作服务包括哪些内容？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                我们的企业视频服务包括：品牌宣传片、CEO及高管访谈、公司文化展示视频、产品发布视频、投资者路演视频、年度报告视频以及政府及半政府机构影片。服务范围从创意策划、脚本撰写到现场拍摄和后期制作，提供一站式全流程服务。企业视频起价 AED 15,000。
+              </p>
+            </div>
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                婚礼拍摄套餐有哪些选择？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                我们提供三个婚礼拍摄套餐：基础套餐（婚礼单机位摄影，含200张精修照片，AED 3,500起）；标准套餐（双摄影师 + 单摄像，含400张精修照片及5分钟婚礼短片，AED 7,500起）；豪华套餐（完整摄影摄像团队 + 无人机航拍 + 完整婚礼纪录片，AED 15,000起）。所有套餐均包含婚礼前视频彩排和婚礼后10天内交付。
+              </p>
+            </div>
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                你们提供无人机航拍服务吗？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                是的，我们持有GCAA（阿联酋民航总局）颁发的商业无人机拍摄执照，可在迪拜及阿联酋全境合法执行无人机拍摄任务。我们使用 DJI Inspire 2 和 DJI Mavic 3 Cine 系列专业航拍设备，支持4K高清航拍。每次任务前均提前申报飞行计划，确保100%合规作业。独立航拍任务起价 AED 2,000。
+              </p>
+            </div>
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                你们是否提供社交媒体内容制作？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                是的，这是我们增长最快的服务之一。我们为品牌、餐厅、酒店、房地产公司和个人创作者提供专业的Instagram Reels、TikTok短视频和社交媒体摄影内容。每次拍摄日通常产出6至10条Reels视频以及20至30张摄影素材，足够支撑4至6周的内容日历。社交媒体内容拍摄日套餐起价 AED 3,500。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style={{ padding: "3rem 2rem", background: "#111", textAlign: "center" }}>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", marginBottom: "0.5rem", fontSize: "0.9rem" }}>
+          还有疑问？我们提供中文服务，随时为您解答。
+        </p>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "1rem" }}>
+          WhatsApp: +971 58 588 2685 · 工作日2小时内回复
+        </p>
+        <a href="/zh/contact" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.75rem 2rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700, fontSize: "0.95rem" }}>
+          获取免费报价
+        </a>
+      </section>
     </>
   );
 }

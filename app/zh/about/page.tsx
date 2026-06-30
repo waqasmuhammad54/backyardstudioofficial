@@ -124,6 +124,100 @@ export default function ZhAboutPage() {
           立即联系我们
         </a>
       </section>
+    
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Backyard Studio Official 是哪里的公司？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "我们是一家在迪拜注册运营的专业影视制作公司，总部位于阿联酋迪拜（UAE）。自2019年创立以来，我们已完成超过2,400个项目，覆盖阿联酋全境七个酋长国，包括迪拜、阿布扎比、沙迦、阿治曼、哈伊马角、富查伊拉和乌姆盖万。我们的团队拥有完整的GCAA商业无人机拍摄执照，可在全国范围内合法执行任何商业航拍任务。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "你们提供哪些拍摄服务？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "我们提供全套影视制作服务：企业宣传片与品牌视频制作、婚礼摄影与摄像、活动与颁奖典礼拍摄、无人机航拍（GCAA持证）、社交媒体内容制作（Instagram Reels、TikTok）、产品与电商摄影、房地产摄影与视频、美食摄影、时装大片、企业形象照及商业广告片等。我们的服务覆盖从创意策划到后期制作的整个生产流程。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Fahad Iqbal Butt 是谁？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Fahad Iqbal Butt 是 Backyard Studio Official 的创始人兼创意总监，毕业于巴基斯坦国立艺术学院影视制作专业。他专注于电影制作与时尚摄影领域，以其对光线的精准掌控和叙事能力著称。Syed Mazhar Zaidi 担任摄影总监，拥有超过20年从业经验，持有大众传播硕士学位，其 IMDB 档案编号为 nm14029494，已完成逾50部音乐视频和商业广告作品。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "如何预约拍摄？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "最快的联系方式是通过 WhatsApp 发送信息至 +971 58 588 2685，我们的团队通常在2小时内回复并提供免费报价。您也可以通过电子邮件 info@backyardstudioofficial.com 联系我们，或填写官网联系表单。我们提供中文服务，确保沟通顺畅高效。"
+                }
+              },
+        ],
+      }) }} />
+
+      <section style={{ padding: "4rem 2rem 5rem", background: "#0d0d0d" }}>
+        <div style={{ maxWidth: "780px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "2rem", textAlign: "center" }}>
+            常见问题解答
+          </h2>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                Backyard Studio Official 是哪里的公司？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                我们是一家在迪拜注册运营的专业影视制作公司，总部位于阿联酋迪拜（UAE）。自2019年创立以来，我们已完成超过2,400个项目，覆盖阿联酋全境七个酋长国，包括迪拜、阿布扎比、沙迦、阿治曼、哈伊马角、富查伊拉和乌姆盖万。我们的团队拥有完整的GCAA商业无人机拍摄执照，可在全国范围内合法执行任何商业航拍任务。
+              </p>
+            </div>
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                你们提供哪些拍摄服务？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                我们提供全套影视制作服务：企业宣传片与品牌视频制作、婚礼摄影与摄像、活动与颁奖典礼拍摄、无人机航拍（GCAA持证）、社交媒体内容制作（Instagram Reels、TikTok）、产品与电商摄影、房地产摄影与视频、美食摄影、时装大片、企业形象照及商业广告片等。我们的服务覆盖从创意策划到后期制作的整个生产流程。
+              </p>
+            </div>
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                Fahad Iqbal Butt 是谁？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                Fahad Iqbal Butt 是 Backyard Studio Official 的创始人兼创意总监，毕业于巴基斯坦国立艺术学院影视制作专业。他专注于电影制作与时尚摄影领域，以其对光线的精准掌控和叙事能力著称。Syed Mazhar Zaidi 担任摄影总监，拥有超过20年从业经验，持有大众传播硕士学位，其 IMDB 档案编号为 nm14029494，已完成逾50部音乐视频和商业广告作品。
+              </p>
+            </div>
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                如何预约拍摄？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                最快的联系方式是通过 WhatsApp 发送信息至 +971 58 588 2685，我们的团队通常在2小时内回复并提供免费报价。您也可以通过电子邮件 info@backyardstudioofficial.com 联系我们，或填写官网联系表单。我们提供中文服务，确保沟通顺畅高效。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style={{ padding: "3rem 2rem", background: "#111", textAlign: "center" }}>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", marginBottom: "0.5rem", fontSize: "0.9rem" }}>
+          还有疑问？我们提供中文服务，随时为您解答。
+        </p>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "1rem" }}>
+          WhatsApp: +971 58 588 2685 · 工作日2小时内回复
+        </p>
+        <a href="/zh/contact" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.75rem 2rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700, fontSize: "0.95rem" }}>
+          获取免费报价
+        </a>
+      </section>
     </>
   );
 }

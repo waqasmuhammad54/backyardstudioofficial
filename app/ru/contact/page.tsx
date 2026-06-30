@@ -136,6 +136,48 @@ export default function RuContactPage() {
           </div>
         </div>
       </section>
+    
+      <section style={{ padding: "5rem 2rem", background: "#111" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "2rem", textAlign: "center" }}>
+            Наши основные услуги в Дубае и ОАЭ
+          </h2>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "1.25rem" }}>
+            {[
+              { title: "Свадебная фото и видеосъёмка", desc: "Полная профессиональная съёмка свадеб в Дубае, Абу-Даби, Шардже и других эмиратах. Пакеты от AED 3 500 включают фотографа, видеографа и дроновую съёмку.", icon: "💍" },
+              { title: "Корпоративное видеопроизводство", desc: "Корпоративные ролики, имиджевые фильмы, рекламные видео и брендинговые материалы. Доставка в течение 7–14 рабочих дней по международным стандартам.", icon: "🎬" },
+              { title: "Аэросъёмка дроном (лицензия GCAA)", desc: "Профессиональная аэросъёмка с лицензией GCAA по всем 7 эмиратам ОАЭ. Цены от AED 2 500 за сессию 4K видео и фото.", icon: "✈️" },
+              { title: "Контент для соцсетей", desc: "Профессиональный контент для Instagram, TikTok и YouTube, ориентированный на аудиторию ОАЭ. Полный съёмочный день от AED 3 500: 6–10 Reels и 20–30 фото.", icon: "📱" },
+              { title: "Фотосъёмка недвижимости", desc: "Профессиональные фото и видео туры для жилой и коммерческой недвижимости и отелей в Дубае. Доставка за 24 часа, от AED 1 500.", icon: "🏠" },
+              { title: "Съёмка мероприятий", desc: "Фото и видеосъёмка конференций, корпоративных вечеринок, выпускных и частных мероприятий по всему Дубаю и ОАЭ.", icon: "🎭" },
+            ].map((item) => (
+              <div key={item.title} style={{ background: "#0a0a0a", border: "1px solid rgba(212,175,55,0.15)", borderRadius: "4px", padding: "1.5rem" }}>
+                <div style={{ fontSize: "1.5rem", marginBottom: "0.5rem" }}>{item.icon}</div>
+                <h3 style={{ fontFamily: "Inter, sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "0.95rem", marginBottom: "0.5rem" }}>{item.title}</h3>
+                <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.65)", fontSize: "0.82rem", lineHeight: 1.7, margin: 0 }}>{item.desc}</p>
+              </div>
+            ))}
+          </div>
+          <div style={{ marginTop: "3rem", padding: "2rem", background: "#0a0a0a", border: "1px solid rgba(212,175,55,0.2)", borderRadius: "4px" }}>
+            <h3 style={{ fontFamily: "Inter, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "1.5rem" }}>
+              Часто задаваемые вопросы
+            </h3>
+            <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+              {[
+                { q: "Какой у вас режим работы?", a: "Мы работаем с понедельника по субботу с 9:00 до 20:00 по времени ОАЭ. Отвечаем на WhatsApp в течение 2 часов в рабочее время." },
+                { q: "Работаете ли вы по всему ОАЭ?", a: "Да, мы охватываем все 7 эмиратов: Дубай, Абу-Даби, Шарджу, Аджман, Рас-эль-Хайму, Фуджейру и Умм-эль-Кайвайн. Дополнительные транспортные расходы за пределами Дубая уточняются при расчёте стоимости." },
+                { q: "Как быстро вы отвечаете на запросы?", a: "В рабочее время мы отвечаем на сообщения WhatsApp в течение 2 часов и предоставляем предварительный расчёт в тот же день. Детальное коммерческое предложение — в течение 24 часов." },
+                { q: "Есть ли минимальный бюджет для заказа?", a: "Минимальная стоимость фотосессии — AED 1 200 (2-часовая портретная или хедшот-сессия). Видеопроизводство — от AED 3 500. Свадебная фотография — от AED 3 500. Корпоративное видео — от AED 7 500." },
+              ].map((faq) => (
+                <div key={faq.q} style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "0.75rem" }}>
+                  <p style={{ fontFamily: "Inter, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "0.9rem", marginBottom: "0.3rem" }}>{faq.q}</p>
+                  <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.65)", fontSize: "0.85rem", margin: 0, lineHeight: 1.7 }}>{faq.a}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

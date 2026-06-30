@@ -100,6 +100,100 @@ export default function ZhPortfolioPage() {
           </div>
         </div>
       </section>
+    
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "你们做过哪些类型的项目？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "我们的作品集涵盖婚礼影片、企业品牌视频、无人机航拍、时装大片、美食摄影、活动纪录片、社交媒体短视频（Reels/TikTok）、房地产视频漫游、产品电商摄影以及广告商业片等类别。每个项目类别都有专属的创作团队和制作流程。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "你们有在迪拜拍摄的实际案例吗？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "是的。我们在迪拜完成了数百个项目，包括迪拜世界贸易中心举行的大型企业活动、棕榈岛豪华婚礼、迪拜市中心商业广告、哈利法塔周边无人机航拍以及各大五星级酒店的品牌宣传内容。我们熟悉迪拜的每一个主要拍摄地点、拍摄许可要求和最佳拍摄时机。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "项目交付时间是多久？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "拍摄当天可交付60秒社交媒体精华片段（同日交付版）；标准活动集锦视频和摄影作品集于48小时内完成；婚礼纪录片在14至21个工作日内交付；企业宣传片通常在7至14个工作日内完成。如有紧急需求，我们也提供加急交付服务，请提前告知。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "你们如何保证视频质量？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "我们使用好莱坞级专业设备，包括 ARRI 电影摄影机、Sony Cinema Line 系列、DaVinci Resolve 调色系统及专业音频设备。后期制作由资深剪辑师和调色师完成，确保每个项目达到国际广播级标准。所有项目均包含两轮修改，直至客户100%满意为止。"
+                }
+              },
+        ],
+      }) }} />
+
+      <section style={{ padding: "4rem 2rem 5rem", background: "#0d0d0d" }}>
+        <div style={{ maxWidth: "780px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "2rem", textAlign: "center" }}>
+            常见问题解答
+          </h2>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                你们做过哪些类型的项目？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                我们的作品集涵盖婚礼影片、企业品牌视频、无人机航拍、时装大片、美食摄影、活动纪录片、社交媒体短视频（Reels/TikTok）、房地产视频漫游、产品电商摄影以及广告商业片等类别。每个项目类别都有专属的创作团队和制作流程。
+              </p>
+            </div>
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                你们有在迪拜拍摄的实际案例吗？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                是的。我们在迪拜完成了数百个项目，包括迪拜世界贸易中心举行的大型企业活动、棕榈岛豪华婚礼、迪拜市中心商业广告、哈利法塔周边无人机航拍以及各大五星级酒店的品牌宣传内容。我们熟悉迪拜的每一个主要拍摄地点、拍摄许可要求和最佳拍摄时机。
+              </p>
+            </div>
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                项目交付时间是多久？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                拍摄当天可交付60秒社交媒体精华片段（同日交付版）；标准活动集锦视频和摄影作品集于48小时内完成；婚礼纪录片在14至21个工作日内交付；企业宣传片通常在7至14个工作日内完成。如有紧急需求，我们也提供加急交付服务，请提前告知。
+              </p>
+            </div>
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                你们如何保证视频质量？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                我们使用好莱坞级专业设备，包括 ARRI 电影摄影机、Sony Cinema Line 系列、DaVinci Resolve 调色系统及专业音频设备。后期制作由资深剪辑师和调色师完成，确保每个项目达到国际广播级标准。所有项目均包含两轮修改，直至客户100%满意为止。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style={{ padding: "3rem 2rem", background: "#111", textAlign: "center" }}>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", marginBottom: "0.5rem", fontSize: "0.9rem" }}>
+          还有疑问？我们提供中文服务，随时为您解答。
+        </p>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "1rem" }}>
+          WhatsApp: +971 58 588 2685 · 工作日2小时内回复
+        </p>
+        <a href="/zh/contact" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.75rem 2rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700, fontSize: "0.95rem" }}>
+          获取免费报价
+        </a>
+      </section>
     </>
   );
 }

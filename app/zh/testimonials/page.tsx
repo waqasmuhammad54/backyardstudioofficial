@@ -130,6 +130,100 @@ export default function ZhTestimonialsPage() {
           立即预约
         </a>
       </section>
+    
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "客户对Backyard Studio的评价怎样？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "我们在Google、Instagram和行业平台上收到超过127条评价，平均评分4.9/5星。我们的中文客户特别提到沟通便利和理解需求准确是选择我们的主要原因。大多数客户在第一个项目完成后会再次委托我们进行后续拍摄。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "你们服务过哪些类型的客户？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "我们的客户涵盖各类规模的企业和个人：大型跨国公司（财富500强企业的迪拜分部）、政府及半政府机构、中小型企业、酒店及餐厅、时尚和奢侈品牌、房地产开发商、新人夫妇、个人内容创作者以及华人社区企业。我们在迪拜的中资企业客户中口碑良好。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "首次合作如何开始？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "通过 WhatsApp（+971 58 588 2685）发送您的项目需求，包括：拍摄类型（视频/摄影/两者兼顾）、计划拍摄日期、预算范围、拍摄地点及任何特殊要求。我们将在2小时内回复并安排免费创意咨询电话，通过中文或英文与您详细讨论项目需求。"
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "如何保证最终效果符合预期？",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "我们的制作流程包含明确的创意确认节点：项目启动前提供详细的创意方案和拍摄计划供客户审核；拍摄完成后在交付前提供初剪预览；所有项目包含两轮免费修改。我们的目标是让每位客户对最终交付成果100%满意。"
+                }
+              },
+        ],
+      }) }} />
+
+      <section style={{ padding: "4rem 2rem 5rem", background: "#0d0d0d" }}>
+        <div style={{ maxWidth: "780px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "2rem", textAlign: "center" }}>
+            常见问题解答
+          </h2>
+          <div style={{ display: "flex", flexDirection: "column" }}>
+
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                客户对Backyard Studio的评价怎样？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                我们在Google、Instagram和行业平台上收到超过127条评价，平均评分4.9/5星。我们的中文客户特别提到沟通便利和理解需求准确是选择我们的主要原因。大多数客户在第一个项目完成后会再次委托我们进行后续拍摄。
+              </p>
+            </div>
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                你们服务过哪些类型的客户？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                我们的客户涵盖各类规模的企业和个人：大型跨国公司（财富500强企业的迪拜分部）、政府及半政府机构、中小型企业、酒店及餐厅、时尚和奢侈品牌、房地产开发商、新人夫妇、个人内容创作者以及华人社区企业。我们在迪拜的中资企业客户中口碑良好。
+              </p>
+            </div>
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                首次合作如何开始？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                通过 WhatsApp（+971 58 588 2685）发送您的项目需求，包括：拍摄类型（视频/摄影/两者兼顾）、计划拍摄日期、预算范围、拍摄地点及任何特殊要求。我们将在2小时内回复并安排免费创意咨询电话，通过中文或英文与您详细讨论项目需求。
+              </p>
+            </div>
+            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
+              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
+                如何保证最终效果符合预期？
+              </h3>
+              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
+                我们的制作流程包含明确的创意确认节点：项目启动前提供详细的创意方案和拍摄计划供客户审核；拍摄完成后在交付前提供初剪预览；所有项目包含两轮免费修改。我们的目标是让每位客户对最终交付成果100%满意。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section style={{ padding: "3rem 2rem", background: "#111", textAlign: "center" }}>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", marginBottom: "0.5rem", fontSize: "0.9rem" }}>
+          还有疑问？我们提供中文服务，随时为您解答。
+        </p>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "1rem" }}>
+          WhatsApp: +971 58 588 2685 · 工作日2小时内回复
+        </p>
+        <a href="/zh/contact" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.75rem 2rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700, fontSize: "0.95rem" }}>
+          获取免费报价
+        </a>
+      </section>
     </>
   );
 }
