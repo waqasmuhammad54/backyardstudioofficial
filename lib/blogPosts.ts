@@ -9005,6 +9005,301 @@ export const BLOG_POSTS: BlogPost[] = [
     relatedSlugs: ["product-photography-ajman-free-zone-2026"],
   },
 
+  {
+    slug: "commercial-photography-dubai-2026",
+    title: "Commercial Photography Dubai 2026 — Complete Guide for UAE Brands",
+    metaTitle: "Commercial Photography Dubai 2026 | Brand & Advertising Shoots UAE",
+    metaDescription: "Professional commercial photography in Dubai for advertising, e-commerce, and brand campaigns. Studio & location shoots. GCAA drone licensed. Quote in 2 hours.",
+    keywords: ["commercial photography Dubai", "advertising photography Dubai", "brand photography UAE", "product photography Dubai studio", "commercial photographer Dubai 2026"],
+    category: "Commercial Photography",
+    date: "June 15, 2026",
+    dateISO: "2026-06-15",
+    readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1200&q=80",
+    excerpt: "Everything UAE brands need to know about commissioning commercial photography in Dubai — from brief to final delivery, including pricing, studio options, and what separates average from exceptional.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "What is commercial photography in Dubai?", answer: "Commercial photography in Dubai refers to photography produced for business purposes — advertising campaigns, e-commerce product images, brand lifestyle shoots, corporate headshots, and any imagery used to sell a product, service, or organisation." },
+      { question: "How much does commercial photography cost in Dubai?", answer: "Commercial photography in Dubai starts at AED 1,500 for a basic product session and ranges to AED 80,000+ for a full advertising campaign. Most brand lifestyle shoots fall in the AED 8,000–AED 25,000 range. E-commerce product photography is priced per SKU at AED 80–AED 250 per product." },
+      { question: "How do I book a commercial photographer in Dubai?", answer: "To book a commercial photographer in Dubai, contact Backyard Studio Official at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685. We respond within 2 hours and can mobilise a full production team within 24–48 hours across all UAE emirates." },
+      { question: "What types of commercial photography does Backyard Studio offer?", answer: "Backyard Studio Official provides advertising photography, product photography (studio and on-location), brand lifestyle shoots, e-commerce imagery, corporate headshots, real estate photography, food and F&B photography, fashion and beauty campaigns, and automotive photography across Dubai and the UAE." },
+    ],
+    tags: ["commercial photography", "dubai photography", "brand photography", "advertising photography"],
+    relatedSlugs: ["product-videography-dubai-2026", "food-photography-dubai-2026", "brand-film-production-dubai-2026"],
+    content: `
+<h2>Why Commercial Photography in Dubai Is a Brand Growth Investment</h2>
+<p>Dubai's visual economy is the most competitive in the MENA region. Brands competing for attention on social media, e-commerce platforms, and out-of-home advertising are judged in fractions of a second — and the brands winning that attention share one thing: exceptional commercial photography. In a market where consumers regularly interact with global luxury brands, aspirational lifestyle imagery, and world-class creative output, average photography does not just underperform; it actively signals that a brand is not ready to be taken seriously.</p>
+<p>Commercial photography in Dubai encompasses a broad range of services: advertising campaigns for billboards, digital platforms and print; product photography for e-commerce listings on Amazon UAE, Noon, and brand-owned channels; brand lifestyle shoots that place products in aspirational contexts; and corporate headshots that position leadership teams as credible and professional. What unites all of these is the requirement for technical excellence, creative direction, and deep understanding of the UAE market's visual language.</p>
+<p>Backyard Studio Official is a Dubai-based production company delivering commercial photography across all 7 UAE emirates. We have produced campaigns for FMCG brands, luxury property developers, hospitality groups, fashion labels, F&B concepts, and technology companies. Our team includes experienced commercial photographers, art directors, stylists, and post-production specialists — everything required to take a brief from concept to final deliverable.</p>
+
+<h2>Commercial Photography Pricing in Dubai 2026</h2>
+<p>Pricing for commercial photography in Dubai varies significantly by scope, deliverables, and production complexity. As a general guide for 2026 budgets: e-commerce product photography starts at AED 80 per SKU for white-background single-product shots, with full catalogue sessions for 30+ SKUs typically quoted at AED 2,500–AED 6,000 depending on product complexity. Brand lifestyle shoots with talent, location scouting, and styling range from AED 8,000 to AED 30,000 for a full-day production. Full advertising campaigns requiring multiple locations, cast talent, and creative direction typically range from AED 30,000 to AED 150,000+.</p>
+<p>Corporate headshots in Dubai are priced at AED 350–AED 600 per person with group rates available for teams of 10+. For annual brand photography retainers, Backyard Studio provides monthly content packages from AED 5,000 per month covering regular product, lifestyle, and social content needs.</p>
+<p>Backyard Studio Official provides detailed quotes within 2 hours. WhatsApp +971 58 588 2685 or email info@backyardstudioofficial.com.</p>
+
+<h2>The Commercial Photography Process: Brief to Delivery</h2>
+<p>A successful commercial photography project begins with a clear brief. The strongest briefs define the intended use of the imagery (platform, format, audience), the visual reference or mood, the campaign message, and the practical constraints (timeline, budget, product availability). During discovery we ask about your competitors' visual positioning — because a great brief tells us not just what you want, but what you want to look different from.</p>
+<p>Pre-production covers location scouting or studio booking, talent casting and agency coordination, prop sourcing and styling, permit applications (required for some Dubai locations), and shot list planning. This phase prevents expensive surprises on shoot day and ensures we arrive on set with every element confirmed. For product shoots, we arrange advance delivery of products to our Dubai studio so we can plan lighting setups and identify any special handling requirements before the shoot date.</p>
+<p>On production day, our crew handles all technical direction while keeping the shoot on schedule and on brief. Post-production includes colour grading, skin retouching (for people), background replacement where required, and delivery in platform-specific formats. Standard delivery is 5 business days; rush delivery within 48 hours is available.</p>
+
+<h2>Dubai Commercial Photography: Key Sectors and Specialisations</h2>
+<p>Backyard Studio Official serves commercial photography clients across Dubai's major industries. In real estate, we produce property marketing photography for off-plan launches, luxury villa listings, and hotel room imagery — with GCAA-licensed drone photography available for aerial establishing shots. For F&B brands, we provide menu photography, hero dish shots, and restaurant lifestyle imagery that drives appetite and reservations. Fashion and beauty clients commission campaign photography, lookbook shoots, and UGC-style content designed specifically for Instagram and TikTok performance.</p>
+<p>E-commerce photography is a growing specialism — as more UAE brands launch on Amazon UAE, Noon, and proprietary platforms, the demand for high-volume product photography that converts has grown dramatically. Backyard Studio offers both studio-based white-background product photography and lifestyle context shots in the same session, enabling brands to cover all platform requirements efficiently. Our product photography studio in Dubai is equipped for seamless, ghost mannequin, flat lay, and tabletop shooting with next-day delivery capability.</p>
+`,
+  },
+  {
+    slug: "product-videography-dubai-2026",
+    title: "Product Videography Dubai 2026 — Video That Converts for UAE E-Commerce",
+    metaTitle: "Product Videography Dubai 2026 | E-Commerce & Brand Video UAE",
+    metaDescription: "Product videography in Dubai for Amazon UAE, Noon, Instagram and brand campaigns. Short-form ads, hero videos, unboxing content. Quote in 2 hours.",
+    keywords: ["product videography Dubai", "product video Dubai", "e-commerce video Dubai", "product video production UAE", "Amazon product video Dubai"],
+    category: "Video Production",
+    date: "June 15, 2026",
+    dateISO: "2026-06-15",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=1200&q=80",
+    excerpt: "Product video is now table stakes for UAE brands selling on Amazon, Noon, and Instagram. Here is what you need to know to produce product videography in Dubai that actually drives sales.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "What is product videography in Dubai?", answer: "Product videography in Dubai covers all forms of video produced to showcase, sell, or promote a physical product — including hero product videos, unboxing films, tutorial and how-to content, social media ads, and lifestyle product videos featuring the product in use." },
+      { question: "How much does product video production cost in Dubai?", answer: "Product videography in Dubai starts from AED 2,500 for a simple studio product hero video (30 seconds, one product). Lifestyle product videos with talent and location start from AED 6,000. Social media ad packages covering 3 product videos start from AED 10,000." },
+      { question: "How long does product video production take in Dubai?", answer: "A standard product hero video in Dubai takes 1 shoot day and 2–3 business days post-production, for a total turnaround of 3–5 business days from brief sign-off. Rush 48-hour delivery is available for urgent product launches." },
+      { question: "Can Backyard Studio produce Amazon-compliant product videos?", answer: "Yes. Backyard Studio produces product videos meeting Amazon UAE technical requirements, including correct aspect ratios, file formats, minimum resolution, and content guidelines. We can produce both primary listing videos and supplementary lifestyle videos in a single shoot day." },
+    ],
+    tags: ["product video", "videography Dubai", "e-commerce video", "product marketing"],
+    relatedSlugs: ["commercial-photography-dubai-2026", "brand-film-production-dubai-2026", "food-photography-dubai-2026"],
+    content: `
+<h2>Product Video Is No Longer Optional for UAE Brands</h2>
+<p>In 2026, UAE consumers expect video before they buy. Amazon UAE's internal data shows product listings with video convert at significantly higher rates than photo-only listings. Instagram Reels and TikTok have trained entire generations of UAE shoppers to expect dynamic, engaging product content before making a purchase decision. And on DTC brand websites, hero product videos on landing pages consistently outperform static images in both time-on-page and conversion rate. The brands winning in UAE e-commerce and social commerce understand that product videography is not a premium extra — it is foundational marketing infrastructure.</p>
+<p>Product videography encompasses a range of formats serving different buyer journey stages. Studio product hero videos show the product clearly and confidently in a controlled environment, communicating quality and attention to detail. Lifestyle product videos place the product in aspirational context — a skincare product being used in a sun-lit bathroom, a luxury watch on a wrist in a Dubai rooftop setting, a piece of fitness equipment in a premium gym. Social media ad content cuts the product message to 15–30 second formats optimised for auto-play and no-sound viewing. Tutorial and how-to videos support post-purchase satisfaction and reduce returns. Unboxing content, increasingly popular in the UAE market, generates organic content and builds brand equity.</p>
+<p>Backyard Studio Official produces all of these formats for UAE brands across all categories. Our product videography studio in Dubai is equipped for studio tabletop work, ghost mannequin video for fashion, 360-degree rotating product footage, and macro detail shots. For lifestyle product videos, we have a network of Dubai locations and a roster of UAE-based talent available for casting.</p>
+
+<h2>Product Video Pricing Dubai 2026</h2>
+<p><strong>Studio product hero video (30 seconds, single product):</strong> from AED 2,500. Includes 1 shoot day, basic styling, colour grade, and delivery in 3 formats (landscape, portrait, square).</p>
+<p><strong>Lifestyle product video (with talent and location):</strong> AED 8,000–AED 20,000. Location scouting, talent casting, permit, full post-production, delivered within 5 working days.</p>
+<p><strong>Social media ad package (3 product hero videos + 6 cut-downs):</strong> AED 12,000. All platform formats, motion graphics, licensed music, delivered within 48 hours of shoot completion.</p>
+<p>For ongoing brand content needs, monthly retainer packages start from AED 6,000 per month covering 2 shoot days and 8–12 product video deliverables. Contact Backyard Studio at +971 58 588 2685 for a custom quote.</p>
+
+<h2>Platform-Specific Product Video Formats for UAE</h2>
+<p>Different platforms in the UAE have different requirements and audience expectations for product video. Amazon UAE requires listing videos to be at minimum 1280x720 pixels, in MP4 or MOV format, between 6 and 45 seconds, and free of third-party content including brand logos, URLs, and promotional text overlays. Backyard Studio produces Amazon-compliant videos by default, avoiding common rejection reasons and ensuring your listing video goes live immediately upon upload.</p>
+<p>For Instagram Reels and TikTok, the priority is hook-in-the-first-2-seconds. Dubai audiences on these platforms scroll fast; product videos that do not establish relevance immediately — through visual impact, sound design, or direct on-screen text — lose the viewer before the product is even visible. Backyard Studio's social content team scripts and shoots product Reels with algorithm performance as the primary creative objective, not aesthetics alone.</p>
+`,
+  },
+  {
+    slug: "corporate-video-production-abu-dhabi-2026",
+    title: "Corporate Video Production Abu Dhabi 2026 — DVCs, Brand Films & Events",
+    metaTitle: "Corporate Video Production Abu Dhabi 2026 | DVCs & Brand Films UAE",
+    metaDescription: "Professional corporate video production in Abu Dhabi for DVCs, brand films, event coverage and investor presentations. GCAA drone licensed. Quote in 2 hours.",
+    keywords: ["corporate video production Abu Dhabi", "corporate video Abu Dhabi", "DVC Abu Dhabi", "brand film Abu Dhabi", "corporate videography Abu Dhabi 2026"],
+    category: "Corporate Video",
+    date: "June 15, 2026",
+    dateISO: "2026-06-15",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1200&q=80",
+    excerpt: "Abu Dhabi's corporate sector demands world-class video production. This guide covers DVCs, brand films, event coverage, and what UAE corporations need to know before commissioning video production in the capital.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "What corporate video services does Backyard Studio provide in Abu Dhabi?", answer: "Backyard Studio provides DVCs (Digital Video Commercials), corporate brand films, executive interview series, investor presentation videos, event coverage, internal communications video, and CEO thought leadership content for Abu Dhabi corporations and government entities." },
+      { question: "How much does corporate video production cost in Abu Dhabi?", answer: "Corporate video production in Abu Dhabi starts at AED 5,000 for a single-day event coverage package. DVCs and brand films range from AED 15,000 to AED 120,000+ depending on production scope, cast, locations, and animation requirements. Multi-day corporate productions are quoted per project." },
+      { question: "Does Backyard Studio work with Abu Dhabi government entities?", answer: "Yes. Backyard Studio Official has experience working with UAE government entities, semi-government organisations, and large corporations in Abu Dhabi. We understand the approval processes, brand guidelines, and formal production requirements specific to the government sector." },
+      { question: "How far in advance should I book corporate video production in Abu Dhabi?", answer: "For standard corporate productions, we recommend booking 2–3 weeks in advance. For large-scale events, product launches, or multi-day productions in Abu Dhabi, 4–6 weeks allows sufficient pre-production time. For urgent productions, WhatsApp +971 58 588 2685 — we can mobilise within 24–48 hours." },
+    ],
+    tags: ["corporate video", "abu dhabi video production", "DVC Abu Dhabi", "brand film"],
+    relatedSlugs: ["brand-film-production-dubai-2026", "commercial-photography-dubai-2026", "product-videography-dubai-2026"],
+    content: `
+<h2>Corporate Video Production in Abu Dhabi: The Capital Standard</h2>
+<p>Abu Dhabi's corporate landscape operates at an international standard. The capital is home to sovereign wealth funds, multinational headquarters, government ministries, financial institutions, and a growing ecosystem of technology and innovation companies — all of which require video production that reflects their scale and credibility. Corporate video production in Abu Dhabi, whether for investor relations, internal communications, public-facing brand content, or event documentation, must meet a quality bar consistent with the organisations it represents.</p>
+<p>Backyard Studio Official brings Dubai's most experienced production crews to Abu Dhabi projects on a regular basis, with no travel surcharge within the UAE. Our Abu Dhabi corporate video work has included government entity brand films, Yas Island hospitality productions, Saadiyat cultural institution coverage, ADGM corporate communications, and investor presentation videos for property developers. We understand the Abu Dhabi market's formal tone requirements, Arabic language integration, and the specific visual grammar expected by decision-makers in the capital.</p>
+
+<h2>DVC Production in Abu Dhabi</h2>
+<p>A Digital Video Commercial (DVC) is the cornerstone corporate video format in the UAE: a 60-to-180-second brand film designed for broadcast, digital display, and social media distribution. An effective Abu Dhabi DVC blends cinematic visuals of the capital's architecture and landscapes with clear brand messaging, compelling voice-over, and music that positions the organisation appropriately. Backyard Studio produces DVCs from script development through final delivery, including Arabic and English versioning, licensed soundtrack selection, motion graphics integration, and platform-specific format exports.</p>
+<p>A production-ready DVC for an Abu Dhabi corporation typically requires 1–2 pre-production days (scripting, storyboarding, location permits, cast coordination), 1–2 shoot days, and 5–7 days post-production. Drone footage of Abu Dhabi landmarks — Corniche, Yas Marina, ADGM, Al Reem — is available with our GCAA-licensed operators. Final delivery includes broadcast-quality master, compressed web version, and social media cut-downs at 15, 30, and 60 seconds.</p>
+
+<h2>Event Coverage and Corporate Documentation Abu Dhabi</h2>
+<p>Abu Dhabi's events calendar — from ADIPEC and GITEX to private board meetings, product launches, and annual general assemblies — generates constant demand for professional event video coverage. Backyard Studio deploys multi-camera crews with cinema-grade cameras and audio capture to document events in real time, delivering same-day highlight reels when required. Our event packages include full event documentation for archive, a 2–3 minute highlights film for social and internal distribution, and cutdowns of keynote speakers for individual distribution.</p>
+<p>For Abu Dhabi corporations hosting leadership summits, investor days, or international conferences, we also provide live switching and streaming services, enabling real-time broadcast to remote audiences. Executive interview setups can be deployed within any Abu Dhabi venue with a 2-hour setup time.</p>
+`,
+  },
+  {
+    slug: "brand-film-production-dubai-2026",
+    title: "Brand Film Production Dubai 2026 — Cinematic Storytelling for UAE Brands",
+    metaTitle: "Brand Film Production Dubai 2026 | Cinematic Brand Films UAE",
+    metaDescription: "Brand film production in Dubai for UAE corporations, luxury brands, and government entities. Cinematic storytelling that positions your brand for the global market.",
+    keywords: ["brand film production Dubai", "brand film Dubai", "corporate brand film UAE", "cinematic brand film Dubai", "brand storytelling UAE"],
+    category: "Brand Films",
+    date: "June 16, 2026",
+    dateISO: "2026-06-16",
+    readTime: "8 min",
+    image: "https://images.unsplash.com/photo-1524712245354-2c4e5e7121c0?w=1200&q=80",
+    excerpt: "A brand film is the highest-stakes piece of video content a UAE brand can commission. This guide covers what separates great brand films from forgettable ones — and how to brief the right production partner in Dubai.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "What is a brand film?", answer: "A brand film is a cinematic video of 2–10 minutes that communicates a brand's identity, values, story, and position. Unlike a DVC or product ad, a brand film is not primarily about driving immediate purchase — it builds long-term brand equity, investor confidence, and employer brand appeal." },
+      { question: "How much does a brand film cost in Dubai?", answer: "Brand film production in Dubai ranges from AED 20,000 for a focused single-location film to AED 300,000+ for a multi-location, cast, cinematic production. The typical UAE brand film for a mid-size corporation runs AED 40,000–AED 100,000, covering scripting, 2 shoot days, talent, and full post-production." },
+      { question: "How long does brand film production take?", answer: "A standard brand film in Dubai takes 3–5 weeks from brief to final delivery: 1 week pre-production (script, storyboard, casting, locations), 1–2 shoot days, and 2–3 weeks post-production including colour grade, music licensing, VFX, and versioning. Rush timelines are possible for launch-critical projects." },
+      { question: "What makes a brand film successful?", answer: "Successful brand films have a clear emotional core — a human story, a tension and resolution, or a vision of the future. They respect the audience's intelligence, show rather than tell, and leave a lasting impression. The production quality must be consistent with the brand's positioning — a luxury brand that delivers an average-looking film actively damages its perception." },
+    ],
+    tags: ["brand film", "dubai video production", "brand storytelling", "cinematic film"],
+    relatedSlugs: ["corporate-video-production-abu-dhabi-2026", "commercial-photography-dubai-2026", "product-videography-dubai-2026"],
+    content: `
+<h2>Why Brand Films Matter for UAE Businesses in 2026</h2>
+<p>In the UAE's hyper-competitive brand environment, products and services are increasingly difficult to differentiate on features alone. Prices equalise. Capabilities converge. What endures — and what commands premium positioning — is brand story. A brand film is the primary vehicle for communicating that story: who you are, what you believe, what makes you different, and why that difference matters to the people you serve. Executed with cinematic craft and strategic clarity, a brand film becomes a brand's most versatile and durable asset — used in investor presentations, recruitment, flagship events, and across digital channels for years.</p>
+<p>The UAE market presents specific opportunities and challenges for brand film production. Dubai's visual landscape — futuristic skylines, desert vistas, cosmopolitan communities — offers extraordinary production backdrops that no other city can match. But that same spectacular scenery can overwhelm a brand film that lacks a clear human story at its centre. The best Dubai brand films use the city's visual power in service of the narrative rather than as decoration.</p>
+<p>Backyard Studio Official has produced brand films for Dubai's luxury property sector, hospitality groups, technology companies, government-linked entities, and international brands entering the UAE market. Our approach begins with the question: what do we want the audience to feel at the end of this film, and what story most honestly and compellingly creates that feeling?</p>
+
+<h2>The Brand Film Production Process in Dubai</h2>
+<p>Phase one is discovery and strategy. This is where we establish the film's emotional objective, the primary audience, the distribution channels, and the brand position the film must reinforce. We conduct stakeholder interviews where required, review existing brand documentation, and develop a creative brief that all subsequent creative decisions serve.</p>
+<p>Phase two is creative development: script, storyboard, and visual reference development. For brands with strong existing visual identity, we work within established guidelines. For brands using the film to define or evolve their visual identity, this phase involves more exploratory creative work — developing visual references, testing approaches, and arriving at a creative direction that feels both authentic and aspirational.</p>
+<p>Production — the shoot — is the shortest phase. One to three days, depending on scope. Backyard Studio brings cinema-grade cameras (RED, ARRI), experienced directors, DPs, and production managers. Post-production covers edit, colour grade, original score or licensed music, motion graphics integration, voice-over recording, and delivery in all required formats. Arabic versioning with professional voice-over talent is available as standard.</p>
+
+<h2>Brand Film Pricing in Dubai 2026</h2>
+<p>Focused single-location brand films (1 shoot day, limited cast): AED 20,000–AED 40,000. Standard multi-location brand films (2 shoot days, professional cast, licensed score): AED 40,000–AED 100,000. Flagship cinematic brand films (3+ shoot days, aerial, animation elements, original score): AED 100,000–AED 300,000+. All packages include full post-production, Arabic versioning, and distribution format delivery. Contact Backyard Studio at +971 58 588 2685 for a project-specific quote within 2 hours.</p>
+`,
+  },
+  {
+    slug: "food-photography-dubai-2026",
+    title: "Food Photography Dubai 2026 — Restaurant, Menu & F&B Campaign Shoots",
+    metaTitle: "Food Photography Dubai 2026 | Restaurant & Menu Photography UAE",
+    metaDescription: "Professional food photography in Dubai for restaurants, hotels, cafes and F&B brands. Menu shoots, hero dishes, social media content. Quote in 2 hours.",
+    keywords: ["food photography Dubai", "restaurant photography Dubai", "menu photography Dubai", "food photographer Dubai 2026", "F&B photography UAE"],
+    category: "Commercial Photography",
+    date: "June 16, 2026",
+    dateISO: "2026-06-16",
+    readTime: "6 min",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80",
+    excerpt: "Dubai's F&B market is the most Instagram-influenced in the world. Here is what restaurant owners and hospitality groups need to know about commissioning food photography that drives covers and reservations.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does food photography cost in Dubai?", answer: "Food photography in Dubai starts at AED 1,500 for a half-day session covering 8–12 dishes. Full menu sessions for restaurants covering 30–60 dishes typically cost AED 4,000–AED 8,000. Lifestyle F&B campaigns with talent, props, and location start from AED 10,000." },
+      { question: "How many dishes can be photographed in a food shoot?", answer: "In a standard half-day food photography session in Dubai (4 hours), Backyard Studio typically photographs 8–15 dishes depending on complexity. A full day (8 hours) covers 20–35 dishes. For large menu requirements, we recommend splitting across 2 shoot days to maintain food quality and shoot pace." },
+      { question: "Do I need a food stylist for my restaurant photography in Dubai?", answer: "For hero dishes, social media flagship content, and advertising use, a professional food stylist significantly improves results. For standard menu documentation, experienced food photographers can manage basic food presentation. Backyard Studio can arrange professional food stylists for Dubai shoots on request." },
+      { question: "What time of day is best for food photography in Dubai?", answer: "This depends on your venue and content goals. Natural light from morning to early afternoon produces the warmest, most organic food imagery. Evening shoots with controlled studio lighting can produce dramatic, moody imagery suited to fine dining brands. We visit your venue in advance to assess the light situation and recommend the optimal shoot time." },
+    ],
+    tags: ["food photography", "restaurant photography", "Dubai F&B", "menu photography"],
+    relatedSlugs: ["commercial-photography-dubai-2026", "product-videography-dubai-2026", "brand-film-production-dubai-2026"],
+    content: `
+<h2>Food Photography in Dubai: The F&B Market Visual Standard</h2>
+<p>Dubai has one of the world's highest concentrations of restaurants per capita, and competition for diners' attention is fought primarily on Instagram, Google My Business, delivery platform thumbnails, and digital menus. In this environment, food photography is not a luxury — it is the primary driver of first impressions and reservation decisions. A potential diner discovering your restaurant on Instagram decides whether to save, share, or scroll past based on the quality of your food imagery, often before reading a single word of copy. The same applies to delivery platforms like Deliveroo, Talabat, and Careem — studies consistently show that high-quality hero dish photography increases order click-through rates by 30–60% compared to average or missing images.</p>
+<p>The specific demands of Dubai's F&B market make food photography a specialist discipline. The city's cosmopolitan, visually sophisticated dining community sets a high bar. The most successful restaurant social media accounts in Dubai share certain characteristics: consistent colour palette, recognisable visual style, high technical quality, and — increasingly — short-form video content alongside stills. Backyard Studio provides both food photography and food videography for Dubai restaurants, enabling a consistent content library across still and moving image formats.</p>
+
+<h2>Types of Food Photography for Dubai Restaurants</h2>
+<p>Menu documentation photography covers every dish across the menu in a consistent, clean style — the practical foundation of a restaurant's digital presence. These images appear on delivery platforms, digital menus, and the restaurant's website. The goal is accurate, appetising representation that sets realistic expectations and looks professional across every touchpoint.</p>
+<p>Hero dish photography elevates 8–15 signature dishes to campaign level — the imagery used on Instagram, in advertising, on covers of menu design, and as the visual identity of the brand. Hero dish shoots involve more preparation time per dish, props, surface selection, and potentially food styling to achieve maximal visual impact. These are the images that define a restaurant's visual identity and drive social sharing.</p>
+<p>Lifestyle F&B photography incorporates people — guests, chefs, baristas, bartenders — in the imagery, creating warmth and aspiration. This content performs particularly well on Instagram Stories, Google profile photos, and reservation platform pages. It communicates ambience as well as food quality, which is critical for restaurants where the dining experience is a key part of the proposition.</p>
+
+<h2>Food Photography Pricing Dubai 2026</h2>
+<p>Half-day session (4 hours, 8–15 dishes, Dubai studio or on-location): AED 1,500–AED 2,500 including basic food styling. Full day (8 hours, 20–35 dishes): AED 3,500–AED 5,500. Hero dish campaign shoot (10 dishes, full styling, props, food stylist, advanced retouching): AED 5,000–AED 10,000. Full menu + social content package (2 shoot days, all dishes + lifestyle): AED 10,000–AED 18,000.</p>
+<p>Delivery platforms require images in specific resolutions and formats. Backyard Studio delivers all images in platform-ready formats for Talabat, Deliveroo, Careem, and Noon Food alongside full-resolution masters. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
+`,
+  },
+  {
+    slug: "fashion-videography-dubai-2026",
+    title: "Fashion Videography Dubai 2026 — Campaign & Lookbook Video Production UAE",
+    metaTitle: "Fashion Videography Dubai 2026 | Campaign & Lookbook Video UAE",
+    metaDescription: "Fashion videography in Dubai for brand campaigns, lookbooks, Instagram Reels, and TikTok content. International-standard fashion video production in the UAE.",
+    keywords: ["fashion videography Dubai", "fashion video production Dubai", "fashion campaign video UAE", "lookbook video Dubai", "fashion Reels Dubai"],
+    category: "Fashion & Beauty",
+    date: "June 16, 2026",
+    dateISO: "2026-06-16",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1200&q=80",
+    excerpt: "Dubai's fashion scene demands video production at an international standard. From campaign films to Reels-optimised content, here is what UAE fashion brands need to know about fashion videography in Dubai.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "What types of fashion videography does Backyard Studio produce?", answer: "Backyard Studio produces fashion campaign films, lookbook videos, runway and show coverage, behind-the-scenes content, Instagram Reels, TikTok fashion content, brand launch films, and fashion editorial video for UAE and international fashion brands." },
+      { question: "How much does fashion video production cost in Dubai?", answer: "Fashion videography in Dubai starts at AED 5,000 for a short-form Reels content session (3–5 short-form videos). Campaign films with professional cast and full production range from AED 20,000 to AED 100,000+ depending on scope. Lookbook video packages typically range from AED 8,000 to AED 25,000." },
+      { question: "What locations are available for fashion videography in Dubai?", answer: "Backyard Studio uses a range of Dubai fashion shoot locations: our controlled studio with seamless backdrops and professional lighting, rooftop locations with skyline views, historic Al Fahidi District, the Dubai Frame, desert dunes near Dubai, luxury hotel settings, and urban environments across the city. Location permits are handled by our production team." },
+      { question: "Can Backyard Studio handle casting for fashion video shoots in Dubai?", answer: "Yes. Backyard Studio has an established network of UAE-based modelling agencies and can coordinate full casting for fashion videography projects, including UAE-specific casting requirements, talent negotiations, and model release agreements." },
+    ],
+    tags: ["fashion video", "Dubai fashion", "lookbook video", "fashion campaign"],
+    relatedSlugs: ["commercial-photography-dubai-2026", "brand-film-production-dubai-2026", "product-videography-dubai-2026"],
+    content: `
+<h2>Fashion Videography in Dubai: An International Market Demands International Standards</h2>
+<p>Dubai's fashion market is uniquely positioned between the Middle East's traditional aesthetic sensibilities and the global fashion industry's most progressive creative standards. The UAE is home to international fashion retailers, homegrown luxury brands, abaya and modest fashion labels, streetwear concepts, and beauty brands spanning the full price spectrum. What they share is an audience that is deeply visually literate, highly social-media engaged, and accustomed to international-level production quality — because they follow the same global fashion accounts as consumers in Paris, London, and New York.</p>
+<p>Fashion videography in Dubai therefore cannot be treated as a regional market concession — brands that produce fashion content at anything less than international standard simply lose audience attention to the global brands setting the pace. Short-form fashion content on TikTok and Instagram Reels is especially unforgiving: the algorithm shows UAE fashion audiences the best content in the world, and a locally produced video must compete directly with global campaign content from Zara, H&M, and Gucci.</p>
+<p>Backyard Studio Official produces fashion videography at international standard for UAE brands, international brands with UAE campaigns, and agencies producing fashion content for Dubai clients. Our fashion video team includes experienced directors of photography who have worked on international campaigns, alongside Dubai-based creative directors, stylists, hair and makeup artists, and post-production specialists with fashion editing experience.</p>
+
+<h2>Fashion Videography Formats for UAE Brands</h2>
+<p>Campaign films (60–180 seconds) are the flagship fashion video format — cinematic, music-led, and designed for maximum emotional impact. They define a season's visual identity and are used across website, social media, and paid advertising. Backyard Studio produces fashion campaign films from concept development through final delivery, including director's cut and platform-optimised edits.</p>
+<p>Lookbook videos translate a season's collection into a navigable visual format — typically 3–10 minutes of model movement, hero shots, and atmospheric footage that allows audiences to experience the collection without a physical showroom. For UAE e-commerce fashion brands, lookbook videos reduce return rates by setting accurate expectations of fit, drape, and movement.</p>
+<p>Short-form fashion content — Instagram Reels (15–30 seconds) and TikTok videos — is where most UAE fashion brands see the fastest return from video investment. A well-produced set of 5–10 Reels from a single shoot day can sustain a brand's social content calendar for 6–8 weeks, driving organic reach, follower growth, and direct traffic to e-commerce. Backyard Studio optimises fashion Reels specifically for Dubai's TikTok and Instagram audience, including trend-informed edit rhythm, sound selection, and format variants for Stories, Reels, and feed posts.</p>
+
+<h2>Fashion Videography Pricing Dubai 2026</h2>
+<p>Short-form social content package (1 shoot day, 5 Reels-format videos, 1 talent): AED 5,000–AED 8,000. Lookbook video (half-day shoot, 1–2 talent, 3–5 minute edit): AED 8,000–AED 15,000. Campaign film (full production, 1–2 shoot days, casting, location, full post): AED 20,000–AED 60,000. Season content retainer (2 shoot days per month, 10–15 monthly deliverables): from AED 8,000/month. Contact Backyard Studio at +971 58 588 2685 for a custom quote within 2 hours.</p>
+`,
+  },
+  {
+    slug: "real-estate-architecture-photography-dubai-2026",
+    title: "Real Estate & Architecture Photography Dubai 2026 — Property Marketing Visuals",
+    metaTitle: "Real Estate Photography Dubai 2026 | Property & Architecture Shoots UAE",
+    metaDescription: "Real estate and architecture photography in Dubai for property developers, luxury listings, and hotel photography. GCAA drone licensed. Same-day delivery available.",
+    keywords: ["real estate photography Dubai", "architecture photography Dubai", "property photography Dubai", "real estate photographer Dubai 2026", "luxury property photography UAE"],
+    category: "Real Estate Photography",
+    date: "June 16, 2026",
+    dateISO: "2026-06-16",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80",
+    excerpt: "Dubai's property market runs on visual confidence. Here is everything developers, real estate agents, and interior architects need to know about commissioning real estate photography that sells.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does real estate photography cost in Dubai?", answer: "Real estate photography in Dubai starts at AED 750 for a standard apartment shoot covering 10–15 images. Luxury villa photography with twilight and drone starts from AED 3,500. Off-plan developer campaigns covering multiple units and rendered interiors are quoted per project, typically AED 8,000–AED 40,000 depending on scope." },
+      { question: "Does Backyard Studio offer drone real estate photography in Dubai?", answer: "Yes. Backyard Studio has GCAA-licensed drone operators and provides aerial real estate photography and videography across Dubai and all UAE emirates. We handle all GCAA permit applications for controlled airspace locations including Palm Jumeirah, Dubai Marina, and Downtown Dubai." },
+      { question: "How quickly can Backyard Studio shoot and deliver real estate photography?", answer: "Standard real estate photography in Dubai is delivered within 48 hours of the shoot. Rush same-day delivery is available for listings going live immediately. Twilight and night photography requires scheduling around sunset — typically within 3 days of booking." },
+      { question: "What is twilight real estate photography?", answer: "Twilight photography is captured at the golden hour immediately after sunset — the 20–30 minute window when the sky is a deep blue and interior lights glow warmly through windows. It is the most impactful real estate photography style for luxury properties, creating aspirational imagery that outperforms standard daylight shots in terms of engagement and perceived property value." },
+    ],
+    tags: ["real estate photography", "architecture photography", "Dubai property", "luxury property photography"],
+    relatedSlugs: ["commercial-photography-dubai-2026", "brand-film-production-dubai-2026", "automotive-photography-dubai-2026"],
+    content: `
+<h2>Real Estate Photography in Dubai: Visual Standards in the World's Most Competitive Property Market</h2>
+<p>Dubai's property market operates at a scale and pace that makes visual excellence non-negotiable. In a market where an off-plan launch can generate AED 1 billion in reservations in a single weekend event, and where global investors are making seven-figure purchasing decisions based on digital content, the quality of real estate photography directly influences sales velocity, price achievement, and investor confidence. The difference between a professionally photographed luxury development and one with average photography is measurable in enquiry volume, conversion rate, and ultimately price per square foot.</p>
+<p>Architecture photography in Dubai presents unique challenges that require specialised expertise. The city's scale — tower blocks, mega-developments, master-planned communities — demands wide-angle work that avoids the distortion and perspective errors that expose amateur photography. Interior real estate photography in Dubai requires flawless HDR blending or off-camera flash techniques to handle the extreme dynamic range between UAE outdoor brightness and interior shadow. Drone photography requires GCAA licensing and — in controlled airspace zones covering much of Dubai — advance permits from GCAA and relevant authorities.</p>
+<p>Backyard Studio Official provides real estate and architecture photography for Dubai's leading property developers, international real estate agencies operating in the UAE, luxury residential listing agents, and interior architecture firms seeking portfolio documentation. Our team includes dedicated real estate photographers with 5+ years of Dubai market experience, GCAA-licensed drone pilots, and post-production specialists in architectural retouching and sky replacement.</p>
+
+<h2>Real Estate Photography Services in Dubai</h2>
+<p>Residential real estate photography covers apartments, villas, townhouses, and penthouses for listing purposes. Our standard residential package includes full interior coverage in natural and mixed light, exterior front elevation, building or community photography, and 48-hour delivery. For off-market luxury listings requiring discretion and premium presentation, we offer appointment-only shoots with same-day rush delivery.</p>
+<p>Off-plan developer photography supports the sales gallery and launch marketing for projects under construction. This may include fully furnished show home photography, CGI-integrated photography (placing rendered furniture in raw units), architectural model photography, and site progress documentation. Backyard Studio provides full off-plan photography packages for Dubai developers, with experience across Downtown, Dubai Creek Harbour, Business Bay, Jumeirah Village, and Palm Jumeirah projects.</p>
+<p>Twilight and night photography is the premium tier of residential real estate imagery — capturing properties during the golden blue hour when interior warmth meets exterior dusk creates imagery of exceptional emotional impact. We recommend twilight photography for all luxury villa listings and high-value penthouse units. Aerial drone photography provides the site context, community, and scale that ground-level photography cannot communicate — essential for master-planned development marketing and large-scale villa and golf community listings.</p>
+
+<h2>Real Estate Photography Pricing Dubai 2026</h2>
+<p>Standard apartment (10–15 images, 2 hours): AED 750. Full villa/townhouse (25–35 images, half day): AED 1,800. Luxury villa with twilight + drone (50+ images): AED 3,500–AED 5,500. Developer campaign (multiple units, drone, video walkthrough): from AED 8,000. Contact Backyard Studio at +971 58 588 2685 for same-day availability.</p>
+`,
+  },
+  {
+    slug: "automotive-photography-dubai-2026",
+    title: "Automotive Photography Dubai 2026 — Car Campaigns & Dealership Shoots UAE",
+    metaTitle: "Automotive Photography Dubai 2026 | Car & Dealership Shoots UAE",
+    metaDescription: "Professional automotive photography in Dubai for dealerships, car launches, brand campaigns, and luxury vehicle content. Desert, urban, and studio backdrops available.",
+    keywords: ["automotive photography Dubai", "car photography Dubai", "automotive photographer UAE", "car campaign photography Dubai", "luxury car photography Dubai 2026"],
+    category: "Automotive Photography",
+    date: "June 16, 2026",
+    dateISO: "2026-06-16",
+    readTime: "7 min",
+    image: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1200&q=80",
+    excerpt: "Dubai is one of the world's great automotive markets. Here is what car brands, dealerships, and private sellers need to know about automotive photography in Dubai — from pricing to location choices.",
+    author: "Backyard Studio Editorial",
+    faqs: [
+      { question: "How much does automotive photography cost in Dubai?", answer: "Automotive photography in Dubai starts at AED 1,200 for a 2-hour single vehicle shoot covering 15–20 images. Dealership campaigns covering multiple vehicles start from AED 4,000 per day. Full automotive campaign productions with hero locations, rolling shots, and motion blur photography range from AED 15,000 to AED 80,000+." },
+      { question: "What locations are available for automotive photography in Dubai?", answer: "Backyard Studio uses a range of Dubai automotive photography locations: Dubai desert dunes (Al Qudra, Lehbab road), Hatta mountain roads, Dubai creek and harbour for reflections, Dubai Motor City, Downtown Dubai, Dubai Marina and JBR promenade, and controlled studio environments for showroom-quality imagery." },
+      { question: "Does Backyard Studio produce automotive video as well as photography?", answer: "Yes. Backyard Studio produces automotive photography and videography as integrated packages, covering static hero shots, dynamic rolling footage, interior detail shots, and social media content. Campaign packages covering both photo and video in a single production day offer significant cost efficiency." },
+      { question: "Can Backyard Studio shoot confidential pre-launch vehicle photography in Dubai?", answer: "Yes. Backyard Studio operates under NDA for confidential pre-launch automotive photography and maintains strict content embargo protocols for unreleased vehicles. We have produced pre-launch photography for international automotive brands entering the UAE market." },
+    ],
+    tags: ["automotive photography", "car photography Dubai", "dealership photography", "luxury car content"],
+    relatedSlugs: ["commercial-photography-dubai-2026", "brand-film-production-dubai-2026", "real-estate-architecture-photography-dubai-2026"],
+    content: `
+<h2>Automotive Photography in Dubai: The World's Most Ambitious Car Market</h2>
+<p>Dubai is consistently ranked among the world's top 5 automotive markets by per-capita luxury vehicle ownership. Rolls-Royce, Bugatti, Lamborghini, Ferrari, and every major premium brand maintain strong UAE presences, and the market for customised, limited-edition, and collector vehicles is significant and growing. This context sets the visual bar for automotive photography in Dubai: imagery must communicate the aspiration, performance, and design excellence that the UAE automotive audience demands — because they are comparing your photography directly to the world's best automotive content from brands like Porsche, BMW, and Mercedes.</p>
+<p>Beyond the luxury segment, Dubai's mainstream automotive market — dealerships, pre-owned vehicle platforms, and regional automotive brands — has undergone a significant visual quality upgrade in recent years. The move to digital-first automotive retail has made high-quality photography and video the primary differentiator between vehicles that generate enquiries and those that scroll past. Platforms like Dubicars, YallaMotor, and manufacturer-direct e-commerce sites display multiple competing vehicles side by side, and photographic quality directly influences click-through rates.</p>
+<p>Backyard Studio Official provides automotive photography for Dubai dealerships, international automotive brands, luxury and collector vehicle owners, and agencies producing automotive campaigns. Our automotive photographers are experienced with the specific technical requirements of car photography: reflection control on highly polished surfaces, perspective correction for wheel arch distortion, exposure management in high-contrast outdoor conditions, and the golden-hour timing that makes exterior automotive shots sing.</p>
+
+<h2>Automotive Photography Services Dubai</h2>
+<p>Dealership and showroom photography provides consistent, high-quality images of inventory vehicles for listing platforms and the dealership's own digital channels. We photograph vehicles in showroom, on location, or in controlled outdoor studio settings, delivering web-ready images in 24–48 hours. For high-volume dealerships, we offer ongoing retainer arrangements covering weekly or monthly inventory photography at fixed rates.</p>
+<p>Campaign and launch photography covers hero imagery for new model introductions, seasonal campaigns, and limited edition releases. These productions involve location scouting, permit applications, lighting rigs for hero shots, and motion photography for dynamic imagery. Dubai's desert landscape provides iconic backgrounds for SUV and 4WD campaigns; the Marina and Downtown environments provide aspirational urban backdrops for sports cars and luxury saloons. Hatta mountain roads offer dramatic terrain for adventure vehicle shoots.</p>
+<p>Interior detail photography — dashboard, stitching, materials, infotainment systems — requires specialised macro and controlled lighting work. These images are critical for pre-owned luxury vehicle listings, where condition detail drives buyer confidence, and for brand communications emphasising craftsmanship and material quality. Backyard Studio's automotive interior photography is delivered with consistent white balance, corrected window exposure, and full retouching.</p>
+
+<h2>Automotive Photography Pricing Dubai 2026</h2>
+<p>Single vehicle exterior (2 hours, 15–20 images, urban or desert location): AED 1,200–AED 2,000. Full dealership day (multiple vehicles, showroom + exterior): AED 4,000–AED 7,000. Campaign production (1–2 shoot days, hero location, full post-production): AED 15,000–AED 50,000. Monthly dealership retainer (inventory photography, same-week delivery): from AED 3,000/month. Contact Backyard Studio at +971 58 588 2685 or info@backyardstudioofficial.com for a quote within 2 hours.</p>
+`,
+  },
 ];
 export function getBlogPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);

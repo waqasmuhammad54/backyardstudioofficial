@@ -497,4 +497,45 @@ URLS = [
     f"https://{HOST}/zh/testimonials",
     f"https://{HOST}/zh/locations",
     f"https://{HOST}/zh/blog/hunli-sheying-dubai-2026",
-    f"https://{HOST}/zh/bl
+    f"https://{HOST}/zh/blog/wurenji-hangpai-dubai-2026",
+    f"https://{HOST}/zh/blog/chanpin-sheying-dubai-2026",
+    f"https://{HOST}/zh/blog/qiye-shipin-dubai-2026",
+    f"https://{HOST}/zh/blog/qiye-shipin-zhizuo-dubai-2026",
+    f"https://{HOST}/zh/blog/meishi-paizhao-dubai-2026",
+    f"https://{HOST}/zh/blog/shejiao-meiti-neirong-dubai-2026",
+    f"https://{HOST}/zh/blog/huodong-paizhao-dubai-2026",
+    f"https://{HOST}/zh/blog/fangchan-paizhao-dubai-2026",
+    # Sprint 27: 5 new commercial service blog posts (missing from indexnow)
+    f"https://{HOST}/blog/commercial-photography-dubai-2026",
+    f"https://{HOST}/blog/product-videography-dubai-2026",
+    f"https://{HOST}/blog/corporate-video-production-abu-dhabi-2026",
+    f"https://{HOST}/blog/fashion-videography-dubai-2026",
+    f"https://{HOST}/blog/real-estate-architecture-photography-dubai-2026",
+]
+
+
+def submit_to_indexnow(urls, batch_size=50):
+    for i in range(0, len(urls), batch_size):
+        batch = urls[i:i + batch_size]
+        payload = json.dumps({
+            "host": HOST,
+            "key": API_KEY,
+            "keyLocation": KEY_LOCATION,
+            "urlList": batch,
+        }).encode("utf-8")
+        req = urllib.request.Request(
+            "https://api.indexnow.org/indexnow",
+            data=payload,
+            headers={"Content-Type": "application/json; charset=utf-8"},
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                print(f"Batch {i // batch_size + 1}: {resp.status} {resp.reason} ({len(batch)} URLs)")
+        except Exception as e:
+            print(f"Batch {i // batch_size + 1} error: {e}")
+
+
+if __name__ == "__main__":
+    print(f"Submitting {len(URLS)} URLs to IndexNow...")
+    submit_to_indexnow(URLS)
