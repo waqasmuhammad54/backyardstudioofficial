@@ -97,7 +97,7 @@ export function buildVideoObjectSchema(project: PortfolioProject) {
       "@type": "Organization",
       name: "Backyard Studio Official",
       url: "https://www.backyardstudioofficial.com",
-      logo: { "@type": "ImageObject", url: "https://www.backyardstudioofficial.com/images/logo.webp" },
+      logo: { "@type": "ImageObject", url: "https://www.backyardstudioofficial.com/logo-black.png", width: 400, height: 400 },
     },
     productionCompany: {
       "@type": "Organization",
@@ -125,7 +125,4 @@ export function buildPortfolioItemListSchema() {
       "@type": "ListItem",
       position: i + 1,
       url: `https://www.backyardstudioofficial.com/portfolio/${p.slug}`,
-      name: p.title,
-    })),
-  };
-}
+      name: p.

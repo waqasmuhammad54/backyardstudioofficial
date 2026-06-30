@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Inter, Bebas_Neue, Playfair_Display, DM_Serif_Display } from "next/font/google";
+import { headers } from "next/headers";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -33,9 +34,5 @@ const dmSerif = DM_Serif_Display({
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const fontVars = `${inter.variable} ${bebasNeue.variable} ${playfair.variable} ${dmSerif.variable}`;
-  return (
-    <html lang="en" className={fontVars}>
-      <body>{children}</body>
-    </html>
-  );
-}
+  const headersList = headers();
+  const pathname = headersLis
