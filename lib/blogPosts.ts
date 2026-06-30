@@ -9300,6 +9300,358 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Single vehicle exterior (2 hours, 15–20 images, urban or desert location): AED 1,200–AED 2,000. Full dealership day (multiple vehicles, showroom + exterior): AED 4,000–AED 7,000. Campaign production (1–2 shoot days, hero location, full post-production): AED 15,000–AED 50,000. Monthly dealership retainer (inventory photography, same-week delivery): from AED 3,000/month. Contact Backyard Studio at +971 58 588 2685 or info@backyardstudioofficial.com for a quote within 2 hours.</p>
 `,
   },
+  {
+    slug: "instagram-reels-production-dubai-2026",
+    title: "Instagram Reels Production Dubai 2026: Short-Form Video for UAE Brands",
+    excerpt: "Professional Instagram Reels production in Dubai. Cinematic short-form content for UAE brands, restaurants, hotels, and e-commerce. Fast turnaround, trending formats.",
+    date: "2026-06-28",
+    category: "Social Media",
+    tags: ["Instagram Reels", "Social Media", "Short-Form Video", "Dubai", "Content Creation"],
+    relatedPosts: ["tiktok-content-creator-dubai-2026", "social-media-content-creator-dubai-2026", "fashion-videography-dubai-2026"],
+    content: `<h2>Instagram Reels Production in Dubai: Why Brands Are Prioritising Short-Form Video</h2>
+<p>Instagram Reels now account for over 30% of total time spent on Instagram globally. In the UAE, where Instagram penetration is among the highest in the world, Reels are the single most effective format for reaching new audiences — outperforming static posts, Stories, and carousels in organic reach by a significant margin. Yet most Dubai businesses are producing Reels on smartphones with no strategy, no professional lighting, and no editing structure. Backyard Studio changes that.</p>
+<p>We produce Instagram Reels that are designed from the first frame to perform: hook within 0.5 seconds, narrative arc across 15–30 seconds, and a visual quality that matches your brand's premium positioning. Contact us at +971 58 588 2685 or info@backyardstudioofficial.com for a 2-hour response.</p>
+
+<h2>What Makes a High-Performing Reel in 2026</h2>
+<p>The Instagram algorithm in 2026 prioritises Reels that retain viewers beyond the first three seconds, trigger replays, and generate saves — not just likes. This means professional production values are directly tied to reach. A Reel with cinematic colour grading and clean audio will replay more than one shot on a shaky phone. A Reel with a clear narrative hook — a question, a reveal, a transformation — generates saves. Backyard Studio's Reels production methodology is built around these mechanics.</p>
+<p><strong>Hook design:</strong> We write and shoot hooks that work — a bold visual, a surprising cut, a direct question, or a before/after reveal that stops the scroll in the first half-second.</p>
+<p><strong>Pacing and editing:</strong> Reels need fast cuts but not chaotic ones. We cut to music beats, use jump cuts strategically, and ensure each edit adds information or energy rather than just reducing length.</p>
+<p><strong>Audio strategy:</strong> Original audio from your brand builds recognition over time. Trending audio boosts initial distribution. We advise on which approach fits your goals and produce both options when needed.</p>
+<p><strong>Text overlays and captions:</strong> Over 60% of Reels are watched without sound. We add burned-in captions and text overlays that maintain narrative coherence in silent mode.</p>
+<p><strong>Brand consistency:</strong> Your Reels must look like you. We match colour grading to your brand palette, use your fonts and colours in motion graphics, and maintain a visual signature across your entire Reels library.</p>
+
+<h2>Reels Content Formats We Produce for Dubai Brands</h2>
+<p><strong>Product showcase Reels:</strong> 15–30 second product reveals with hero lighting, motion, and lifestyle context. Ideal for e-commerce brands, fashion labels, and beauty products. We shoot in our studio or on location across Dubai.</p>
+<p><strong>Behind-the-scenes Reels:</strong> BTS content from your kitchen, production facility, boutique, or office. These perform exceptionally well for restaurants, hotels, and artisan brands — audiences are fascinated by process.</p>
+<p><strong>Transformation Reels:</strong> Before and after content for interior designers, renovation companies, beauty salons, clinics, and fitness brands. High replay value and strong save rates.</p>
+<p><strong>Educational / tips Reels:</strong> 30-second micro-tutorials position your brand as expert and generate high save rates. Works especially well for F&B brands (cooking tips), fitness brands (workout form), and professional services.</p>
+<p><strong>Brand story Reels:</strong> 30–60 second narrative pieces that introduce your brand, founder, or values. Used as evergreen content and pinned to your profile grid.</p>
+<p><strong>Event and occasion Reels:</strong> Fast-turnaround coverage of product launches, Ramadan promotions, National Day activations, or brand partnerships — delivered within 24 hours of the event.</p>
+<p><strong>Testimonial Reels:</strong> Authentic client testimonials produced with proper framing, lighting, and editing. Significantly more credible than written reviews and highly shareable.</p>
+
+<h2>The Backyard Studio Reels Production Process</h2>
+<p><strong>Brief and concept:</strong> We start with a 30-minute briefing call to understand your brand, target audience, posting frequency, and content objectives. From this we develop a content brief and shot list.</p>
+<p><strong>Content calendar planning:</strong> For monthly retainers, we plan a full month of Reels in advance — themes, formats, seasonal hooks, and posting dates. This prevents last-minute scrambles and ensures consistent publishing.</p>
+<p><strong>Production day:</strong> A typical half-day Reels shoot produces 4–8 final Reels depending on format. We bring lighting, lenses, audio equipment, and a gimbal for smooth movement shots. Location can be your premises or Dubai-based studio hire.</p>
+<p><strong>Editing and delivery:</strong> Reels are edited to 9:16 vertical format (1080×1920), colour graded, captioned, and delivered as MP4 files ready for direct upload. Delivery within 48–72 hours of shoot day.</p>
+<p><strong>Posting schedule support:</strong> We provide caption drafts and hashtag strategies for each Reel. On retainer packages, we also advise on optimal posting times based on your account analytics.</p>
+
+<h2>Industries We Serve with Reels Production in Dubai</h2>
+<p><strong>Restaurants and F&B:</strong> Food visuals, chef features, ambiance tours, menu reveals, and behind-the-scenes kitchen content. Instagram Reels drive reservations and foot traffic for Dubai restaurants more effectively than almost any other digital channel.</p>
+<p><strong>Hotels and hospitality:</strong> Room reveals, pool aerials (drone integrated), spa experiences, dining showcases, and Ramadan/festive season packages. We work with boutique hotels through to 5-star luxury properties.</p>
+<p><strong>Fashion and lifestyle brands:</strong> Lookbook Reels, new season drops, styling content, and influencer-style produces that compete with professional creator content.</p>
+<p><strong>Clinics and wellness:</strong> Before/after transformation content (skin, fitness, dental), educational health tips, and patient story features — all produced within medical content guidelines for UAE platforms.</p>
+<p><strong>Real estate:</strong> Property walk-through Reels, developer project reveals, and neighbourhood guides. Short-form video is increasingly the first touchpoint for property buyers in Dubai.</p>
+<p><strong>Retail and e-commerce:</strong> Product unboxing, styling, and usage Reels that replicate the influencer format but are owned by your brand entirely.</p>
+
+<h2>Instagram Reels Production Pricing Dubai 2026</h2>
+<p><strong>Single Reel production (studio or location):</strong> AED 800–AED 1,500 per Reel. Includes concept, shoot, edit, captions, and delivery. Minimum 2 Reels per booking.</p>
+<p><strong>Half-day shoot (4–6 Reels):</strong> AED 3,500–AED 6,000. Most popular option for brands launching a new Reels strategy or refreshing their content library.</p>
+<p><strong>Monthly content retainer (8 Reels/month):</strong> AED 7,000–AED 12,000/month. Includes content calendar, monthly shoot day, editing, and posting schedule. Ideal for active brands publishing 2+ Reels per week.</p>
+<p><strong>Monthly retainer (16 Reels/month):</strong> AED 14,000–AED 22,000/month. For high-frequency publishers — F&B chains, hotels, fashion brands — who need a consistent weekly publishing cadence.</p>
+<p>Contact Backyard Studio at +971 58 588 2685 or info@backyardstudioofficial.com. We respond within 2 hours and serve all 7 UAE emirates.</p>
+
+<h2>Frequently Asked Questions — Instagram Reels Dubai</h2>
+<p><strong>How long does it take to produce a Reel?</strong> A standard Reel from shoot to delivery takes 48–72 hours. Rush delivery (same day or next day) is available for an additional fee. For event coverage, we can deliver a first cut within 6 hours.</p>
+<p><strong>Do you handle posting and scheduling?</strong> We deliver final video files and caption drafts. Actual posting to your account is done by you or your social media manager, as we never require access to your Instagram credentials. On managed packages we provide scheduling guidance and optimal timing recommendations.</p>
+<p><strong>Can you match our existing Reels style?</strong> Yes. Share your existing Reels and brand guidelines and we'll match your colour grading, font style, and pacing — or recommend improvements while staying on-brand.</p>
+<p><strong>What equipment do you use?</strong> We shoot Reels on Sony FX3, Canon R5, or DJI Osmo systems depending on the format, with professional LEDs, gimbals, and audio capture. All footage is shot in log format for maximum colour grade flexibility.</p>`,
+  },
+  {
+    slug: "tiktok-content-creator-dubai-2026",
+    title: "TikTok Content Creator Dubai 2026: Professional TikTok Video Production UAE",
+    excerpt: "Professional TikTok video production in Dubai. Trending content formats, fast turnaround, brand-safe strategy for UAE businesses. 2+ million UAE TikTok users reached.",
+    date: "2026-06-28",
+    category: "Social Media",
+    tags: ["TikTok", "Social Media", "Content Creation", "Dubai", "Short-Form Video"],
+    relatedPosts: ["instagram-reels-production-dubai-2026", "social-media-content-creator-dubai-2026", "personal-branding-photographer-dubai-2026"],
+    content: `<h2>TikTok Video Production Dubai: The UAE Platform You Cannot Ignore</h2>
+<p>TikTok has over 2 million active users in the UAE and is the fastest-growing content platform in the region. For brands targeting 18–35 year olds — which includes the largest segment of Dubai's consumer base — TikTok is now the primary discovery channel, outranking Google Search and Instagram for product and restaurant discovery among younger demographics. Backyard Studio produces professional TikTok content that is creative, brand-safe, and optimised to reach the UAE market. Call us at +971 58 588 2685 or email info@backyardstudioofficial.com.</p>
+<p>Unlike Reels, TikTok rewards authentic, slightly raw energy — but "authentic" does not mean low production value. The highest-performing brand TikTok accounts combine strong storytelling instincts with professional audio, lighting, and editing. That balance is what we deliver.</p>
+
+<h2>How TikTok's Algorithm Works in 2026</h2>
+<p>TikTok's For You Page algorithm distributes content based on completion rate, re-watches, comments, shares, and follows triggered by a single video. This means a single high-performing video can reach hundreds of thousands of UAE users — even for an account with zero existing followers. This is fundamentally different from Instagram or LinkedIn, where existing follower counts determine initial reach. On TikTok, content quality alone determines distribution.</p>
+<p>Key factors our production process optimises for: hook strength (the first 0.5–1 second), completion rate through narrative pacing, comment-bait elements (questions, controversial takes, relatable moments), and share triggers (value, entertainment, or emotion). We build all of these into every TikTok we produce.</p>
+
+<h2>TikTok Content Formats We Produce for UAE Brands</h2>
+<p><strong>Trending format adaptations:</strong> We monitor TikTok trends daily and adapt them for UAE brand contexts. A trending audio or video format can generate 10× more views than original content when executed well. We identify which trends are brand-appropriate and produce rapid adaptations.</p>
+<p><strong>Educational content (TikTok "Learn"):</strong> Step-by-step tutorials, industry insight, and expert tips. These are consistently among the highest-performing content types in the UAE market. Works for clinics, F&B brands, real estate agents, and professional services.</p>
+<p><strong>Day-in-the-life content:</strong> Behind-the-scenes look at your team, premises, or process. Humanises brands in a way that polished advertising cannot. Extremely effective for restaurants, hotels, and artisan businesses.</p>
+<p><strong>Product reveal and demonstration:</strong> Fast-paced product TikToks with clear benefit communication and strong visual hooks. Drives direct sales via TikTok Shop integration (available in UAE).</p>
+<p><strong>Challenge content:</strong> Branded challenges are high-risk but high-reward. We develop and produce branded challenge TikToks with proper hooks and clear participation mechanics.</p>
+<p><strong>Duet and stitch setups:</strong> Producing content specifically designed to be stitched or duetted by other users — a powerful organic reach strategy for B2C brands in the UAE.</p>
+<p><strong>TikTok Live support:</strong> Pre-production content for TikTok Live sessions — graphics, intro sequences, overlay templates, and recorded segment inserts.</p>
+
+<h2>TikTok Content Strategy for UAE Brands</h2>
+<p>Before shooting a single video, we develop a TikTok content strategy that answers five questions: Who is your specific UAE audience on TikTok? What existing trends are active in your category? What are your 3 content pillars? What is your publishing frequency? How will you measure success? This strategy document guides all production and ensures every video has a purpose beyond just filling a posting schedule.</p>
+<p><strong>Localisation:</strong> UAE TikTok content performs best when it reflects local culture — references to UAE events, Arabic language moments, Ramadan and EID content, and Dubai-specific visuals. We build this into your content calendar so your brand feels local rather than imported.</p>
+<p><strong>Brand safety:</strong> TikTok in the UAE operates under UAE media regulations. We ensure all content is compliant with UAE broadcasting standards and TikTok's community guidelines — including appropriate music licensing, no restricted content, and culturally appropriate messaging.</p>
+
+<h2>TikTok Production Pricing Dubai 2026</h2>
+<p><strong>Single TikTok video:</strong> AED 700–AED 1,200. Includes concept development, shoot, edit to 9:16 vertical, sound design, and delivery.</p>
+<p><strong>Half-day content shoot (5–8 TikToks):</strong> AED 3,000–AED 5,500. Batch production for brands launching their TikTok presence or refreshing their content bank.</p>
+<p><strong>Monthly TikTok retainer (12 videos/month):</strong> AED 8,000–AED 14,000/month. Includes strategy, trend monitoring, content calendar, monthly shoot, editing, and posting schedule. Ideal for brands targeting consistent 3-per-week publishing.</p>
+<p><strong>TikTok ad creative production:</strong> AED 2,500–AED 6,000 per video. Optimised for TopView, In-Feed Ads, and Branded Hashtag Challenge formats. Includes multiple aspect ratio exports and platform-optimised specs.</p>
+<p>Contact us at +971 58 588 2685 or info@backyardstudioofficial.com for a quote within 2 hours. We serve all 7 UAE emirates.</p>
+
+<h2>Frequently Asked Questions — TikTok Production Dubai</h2>
+<p><strong>Can you help with TikTok if we have zero followers?</strong> Yes. TikTok's algorithm distributes content based on quality, not follower count. Many accounts we have worked with gained their first 10,000 followers within 30 days of launching with professional content. We can also advise on initial account setup, bio optimisation, and first-video strategy.</p>
+<p><strong>Do you manage the TikTok account for us?</strong> We produce the content. Account management (posting, comment responses, analytics review) is a separate service we offer on retainer packages. Ask about our full social media management add-on.</p>
+<p><strong>Is TikTok suitable for B2B brands in the UAE?</strong> Yes, but the approach is different. B2B TikTok focuses on thought leadership, behind-the-scenes content, employee culture, and industry education. LinkedIn remains stronger for pure B2B lead generation, but TikTok builds brand recognition and talent attraction for B2B companies effectively.</p>`,
+  },
+  {
+    slug: "social-media-content-creator-dubai-2026",
+    title: "Social Media Content Creator Dubai 2026: Brand Content for UAE Businesses",
+    excerpt: "Professional social media content creation in Dubai. Strategy, photography, video, and copy for Instagram, TikTok, LinkedIn, and more. Serving all 7 UAE emirates.",
+    date: "2026-06-28",
+    category: "Social Media",
+    tags: ["Social Media", "Content Creation", "Dubai", "Instagram", "UAE Brands"],
+    relatedPosts: ["instagram-reels-production-dubai-2026", "tiktok-content-creator-dubai-2026", "personal-branding-photographer-dubai-2026"],
+    content: `<h2>Social Media Content Creation in Dubai: What Professional Looks Like</h2>
+<p>Scroll through the social media accounts of most Dubai businesses and you will see two categories: brands with high-quality, consistent, visually compelling content — and brands posting blurry product photos with stock images and generic captions. The gap between these two categories is not budget. It is process. Professional social media content creation in Dubai is more accessible than most business owners realise. Backyard Studio is a Dubai-based content studio producing social media content for UAE brands across all industries. Contact us at +971 58 588 2685 or info@backyardstudioofficial.com for a quote within 2 hours.</p>
+
+<h2>What Is a Social Media Content Creator (and Why It Is Not the Same as an Influencer)</h2>
+<p>A social media content creator for brands is a professional who produces photo, video, and written content for a brand's own social media accounts. This is different from an influencer, who creates content for their own following. A brand content creator works behind the scenes — you own all the content, post it on your channels, and build your brand's audience rather than renting someone else's.</p>
+<p>Backyard Studio produces brand-owned social media content: photography, Reels, TikToks, Stories, carousels, and captions — all created to your brief, in your brand voice, and delivered as files you own permanently. No licensing restrictions, no influencer fees, no reliance on someone else's audience.</p>
+
+<h2>Social Media Platforms We Produce Content For</h2>
+<p><strong>Instagram:</strong> Feed posts (single image and carousel), Reels (short-form video), Stories (interactive and promotional), and IGTV / long-form video. We produce content optimised for each format's specific dimensions, pacing requirements, and audience behaviour.</p>
+<p><strong>TikTok:</strong> Trending format adaptations, educational content, product demonstrations, and brand story videos. All produced in 9:16 vertical for maximum TikTok compatibility.</p>
+<p><strong>LinkedIn:</strong> Professional brand photography, executive portraits, company culture content, and thought leadership video. LinkedIn's UAE audience skews professional and high-income — content quality matters more here than on any other platform.</p>
+<p><strong>YouTube:</strong> Long-form brand video, product demonstrations, event recaps, and educational content. YouTube is the second-largest search engine — content here drives SEO as well as direct views.</p>
+<p><strong>Snapchat:</strong> Still significant in the UAE particularly for reaching younger Arab audiences. We produce vertical Stories content optimised for Snapchat's format and audience expectations.</p>
+<p><strong>X (Twitter):</strong> Video clips, behind-the-scenes content, and event moments. Short and punchy formats perform best.</p>
+
+<h2>Our Social Media Content Production Process</h2>
+<p><strong>Discovery and strategy:</strong> We start with a comprehensive briefing covering your brand, target audience, competitors, existing content performance, and goals. From this we build a content strategy defining your content pillars, formats, frequency, and visual direction.</p>
+<p><strong>Content calendar:</strong> A monthly content calendar mapping out every post: topic, format, platform, posting date, and caption angle. Approved before any shooting begins. This eliminates last-minute content scrambles and ensures consistent publishing.</p>
+<p><strong>Production:</strong> Shoot days are planned around the content calendar. We bring all equipment to your location or shoot in our studio. A typical half-day shoot produces 1–2 months of content for most brands — static images, Reels, TikToks, and Stories all shot in one session.</p>
+<p><strong>Editing and delivery:</strong> All content is edited, colour graded, captioned, and formatted for each platform. Delivered via Google Drive or WeTransfer as platform-ready files with a naming convention that makes scheduling easy.</p>
+<p><strong>Caption writing:</strong> We write captions in your brand voice for every piece of content — including hashtag strategy, call to action, and any required disclosures (paid partnership, location tags, etc.).</p>
+
+<h2>Types of Brands We Work With</h2>
+<p><strong>Restaurants and cafes:</strong> Food photography, ambiance videos, chef features, menu reveals, and Ramadan/EID campaign content. F&B is one of our strongest verticals — Dubai's restaurant scene is intensely social media-driven and visual content quality directly impacts reservation volume.</p>
+<p><strong>Hotels and serviced apartments:</strong> Room photography, pool and lobby visuals, dining experience videos, seasonal campaign content, and influencer-ready imagery for the hotel's own channels.</p>
+<p><strong>Fashion and beauty:</strong> Lookbook photography, product launch Reels, seasonal campaign shoots, and tutorial content. We work with independent designers, established UAE labels, and international brands with UAE presence.</p>
+<p><strong>Clinics and medical:</strong> Educational content, before/after photography (with proper patient consent), team introductions, and thought leadership video — all produced within UAE Health Authority content guidelines.</p>
+<p><strong>Real estate and property:</strong> Developer content, project launch campaigns, lifestyle imagery, and short-form video for property showcase. Social media is a primary lead generation channel for Dubai real estate.</p>
+<p><strong>Professional services:</strong> Law firms, consultancies, and financial services brands need LinkedIn-optimised content that positions leadership expertise. Executive photography and thought leadership video are our primary deliverables for this sector.</p>
+<p><strong>Retail and e-commerce:</strong> Product photography in lifestyle and studio settings, unboxing content, and social commerce formats for Instagram Shopping and TikTok Shop.</p>
+
+<h2>Social Media Content Packages Dubai 2026</h2>
+<p><strong>Starter (monthly, 12 posts):</strong> 1 shoot day, 8 photography posts, 4 short-form videos, captions for all posts — AED 5,500/month. Suitable for small businesses posting 3× per week on one platform.</p>
+<p><strong>Growth (monthly, 24 posts):</strong> 2 shoot days, 16 photography posts, 8 Reels/TikToks, captions and hashtag strategy, content calendar — AED 9,500/month. Suitable for active brands running Instagram and TikTok simultaneously.</p>
+<p><strong>Scale (monthly, 40 posts):</strong> 3 shoot days, 24 photography posts, 16 short-form videos, content calendar, full caption writing, monthly analytics report — AED 16,000/month. For brands treating social media as a primary marketing channel.</p>
+<p><strong>One-time content bank shoot:</strong> Full day shoot producing 60–80 content assets (mix of photography and video) — AED 12,000–AED 18,000. 3–4 months of content in a single session. Ideal for brands launching or refreshing their social presence.</p>
+<p>Contact Backyard Studio at +971 58 588 2685 or info@backyardstudioofficial.com. We respond within 2 hours and serve all 7 UAE emirates.</p>`,
+  },
+  {
+    slug: "personal-branding-photographer-dubai-2026",
+    title: "Personal Branding Photographer Dubai 2026: Professional Brand Photography UAE",
+    excerpt: "Personal branding photography in Dubai for executives, entrepreneurs, coaches, and consultants. Build authority and attract clients with professional brand imagery.",
+    date: "2026-06-28",
+    category: "Photography Guide",
+    tags: ["Personal Branding", "Photography", "Dubai", "Executive", "Professional"],
+    relatedPosts: ["headshot-photographer-dubai-2026", "social-media-content-creator-dubai-2026", "instagram-reels-production-dubai-2026"],
+    content: `<h2>Personal Branding Photography in Dubai: Why Your Image Is Your Business</h2>
+<p>In Dubai's competitive professional landscape, your personal brand is the difference between being found and being overlooked. Executives, entrepreneurs, coaches, consultants, and professional service providers who invest in professional personal branding photography consistently outperform those who rely on outdated headshots or casual phone photos. The reason is simple: people buy from people. High-quality professional imagery signals competence, confidence, and credibility before a single word is read. Backyard Studio specialises in personal branding photography for Dubai's professional community. Contact us at +971 58 588 2685 or info@backyardstudioofficial.com for a quote within 2 hours.</p>
+
+<h2>What Is Personal Branding Photography?</h2>
+<p>Personal branding photography goes beyond a headshot. A headshot is a single portrait. Personal branding photography is a library of images that tell your professional story: you in your workspace, you speaking or presenting, you with clients or collaborators, you using the tools of your trade, lifestyle images that communicate your values and approach. These images power your LinkedIn profile, your website, your speaker bio, your book cover, your media appearances, and your social media content for months or years.</p>
+<p>A typical personal branding session with Backyard Studio produces 40–80 edited images across multiple looks, locations, and scenarios — everything you need to maintain a consistent, polished visual presence across all your professional touchpoints.</p>
+
+<h2>Who Personal Branding Photography Is For</h2>
+<p><strong>Executives and C-suite leaders:</strong> Your image appears in press releases, board presentations, LinkedIn thought leadership posts, and speaking invitations. A single outdated or low-quality photo across all these channels undermines the authority you have earned. Backyard Studio produces executive portraiture that communicates leadership, confidence, and professionalism.</p>
+<p><strong>Entrepreneurs and business owners:</strong> When you are the face of your business, your personal brand and your business brand are inseparable. We help entrepreneurs develop a visual identity that works across their personal LinkedIn, their company website, their pitch decks, and their media appearances.</p>
+<p><strong>Coaches and consultants:</strong> Coaches sell trust. Personal branding photography establishes that trust before a discovery call ever happens. Warm, approachable imagery with professional quality signals that you are both credible and human — the exact combination that drives coaching client conversions.</p>
+<p><strong>Speakers and thought leaders:</strong> Speaking bureaus, event organisers, and podcast hosts select speakers partly on the quality of their media assets. High-quality speaking photography and professional portraits are prerequisites for accessing premium speaking opportunities in the UAE.</p>
+<p><strong>Real estate agents:</strong> Dubai's real estate market is relationship-driven. Agents with strong personal brand photography on their listings, business cards, and social media build trust and recognition that converts browsers into clients.</p>
+<p><strong>Medical and wellness professionals:</strong> Doctors, therapists, and wellness practitioners who communicate warmth and expertise through professional imagery attract and retain clients more effectively than those who rely on generic medical stock photography.</p>
+
+<h2>What a Personal Branding Session Includes</h2>
+<p><strong>Pre-session consultation:</strong> A 30-minute call or meeting to discuss your brand positioning, target audience, colour palette, clothing choices, and the range of images you need. We review your existing visual assets and identify gaps. We also provide a shot list template and wardrobe guidance so you arrive prepared.</p>
+<p><strong>Location planning:</strong> We scout and plan locations that match your brand. Options include your office or workspace (ideal for consultants and executives), Dubai landmark locations (Downtown, Marina, Business Bay), curated studio sets, or a combination across multiple locations in one session.</p>
+<p><strong>The shoot:</strong> A typical personal branding session runs 2–4 hours. We capture multiple wardrobe looks, multiple locations, and multiple expressions — from formal authority poses to approachable conversational moments. We direct throughout, so you don't need to know how to pose.</p>
+<p><strong>Editing and delivery:</strong> 40–80 fully retouched, colour-graded images delivered via private gallery within 5–7 business days. You receive high-resolution files for print and web-optimised exports for digital use. LinkedIn, website, and social media formats are all included.</p>
+
+<h2>Personal Branding Session Packages Dubai 2026</h2>
+<p><strong>Essential (2 hours, 1 location, 1 look, 25 images):</strong> AED 2,200. Best for professionals who need an updated headshot and a small library of professional images for LinkedIn and basic website use.</p>
+<p><strong>Professional (3 hours, 2 locations, 2 looks, 45 images):</strong> AED 3,800. Our most popular personal branding package. Covers executives, entrepreneurs, and professionals who need images across multiple contexts.</p>
+<p><strong>Premium (4–5 hours, 3+ locations, 3+ looks, 70 images):</strong> AED 5,500–AED 7,000. Full personal brand image library. Includes lifestyle images, workspace shots, detail images, and multiple portrait styles. Suitable for authors, speakers, coaches with high content demands.</p>
+<p><strong>Video add-on:</strong> Personal brand video — 60–90 second professional introduction video produced on the same day — available from AED 1,800 added to any package.</p>
+<p>Contact us at +971 58 588 2685 or info@backyardstudioofficial.com. Backyard Studio serves all 7 UAE emirates with 2-hour response guaranteed.</p>
+
+<h2>Frequently Asked Questions — Personal Branding Photography Dubai</h2>
+<p><strong>What should I wear to a personal branding session?</strong> Wear what your ideal client expects to see you in — not necessarily your most formal outfit, but what communicates your brand positioning. For corporate executives, a well-fitted suit or professional separates. For creative entrepreneurs, something that reflects your brand personality. We provide a detailed wardrobe guide at booking with specific guidance for your brand type.</p>
+<p><strong>How long until I receive my images?</strong> Edited images are delivered within 5–7 business days. Rush delivery within 48 hours is available for an additional fee.</p>
+<p><strong>Can I use the images for press and media?</strong> Yes. All images are delivered as high-resolution files you own completely. There are no licensing restrictions on your use of the images for any professional purpose including press, publications, advertising, and social media.</p>
+<p><strong>Do you photograph in Arabic or Russian?</strong> We serve clients across the UAE's multinational community. Our team communicates in English and we work with Arabic and Russian-speaking clients regularly. Session direction is in English but we accommodate language preferences for consultations.</p>`,
+  },
+  {
+    slug: "wedding-film-dubai-2026",
+    title: "Wedding Film Dubai 2026: Cinematic Wedding Videography for UAE Couples",
+    excerpt: "Professional wedding film and videography in Dubai. Cinematic storytelling, same-day edits, highlight reels, and full documentary films for UAE weddings.",
+    date: "2026-06-29",
+    category: "Wedding Guide",
+    tags: ["Wedding Film", "Wedding Videography", "Dubai", "Cinematic", "UAE Weddings"],
+    relatedPosts: ["fashion-videography-dubai-2026", "wedding-photography-abu-dhabi-2026", "real-estate-architecture-photography-dubai-2026"],
+    content: `<h2>Wedding Films in Dubai: Cinematic Storytelling for Your Most Important Day</h2>
+<p>A wedding photograph captures a moment. A wedding film captures the day — the laughter, the whispered vows, the speeches that made the room cry, the music, the movement, the feeling of being surrounded by everyone you love. In Dubai's diverse wedding scene — from intimate garden ceremonies in Jumeirah to grand ballroom celebrations for 500 guests in the Atlantis — Backyard Studio produces wedding films that match the scale, emotion, and cinematic quality your celebration deserves. Contact us at +971 58 588 2685 or info@backyardstudioofficial.com to check availability for your date.</p>
+
+<h2>What Makes a Cinematic Wedding Film</h2>
+<p>Cinematic wedding filmmaking is a discipline distinct from event videography. Where event video documents everything, cinematic wedding film selects and shapes — choosing the moments that carry emotional weight, building a narrative arc from morning preparation through to the last dance, scoring the film with music that amplifies what you felt rather than just accompanying the footage. Backyard Studio's wedding films are produced using cinematic cameras, professional audio capture, and a non-linear narrative editing style that creates a film you will want to watch again and again — not just once to check who was there.</p>
+<p>Key elements of a Backyard Studio wedding film: Sony cinema camera system with prime lenses, professional audio capture of vows and speeches, dedicated audio team for large ceremonies, drone aerials of venue and outdoor moments (where permitted), colour grading in a cinematic style matched to your wedding's aesthetic, and music licensing for all films.</p>
+
+<h2>Wedding Film Packages Dubai 2026</h2>
+<p><strong>Highlight film (3–5 minutes):</strong> The best moments of your day compressed into a cinematic short film set to music. Designed for sharing on social media and replaying at family gatherings. Coverage of ceremony, reception highlights, and key moments. Delivered within 6–8 weeks. From AED 6,500.</p>
+<p><strong>Feature film (20–40 minutes):</strong> Full documentary coverage of your day from preparations through to the last dance. Complete ceremony in full, all speeches, first dance, and key reception moments. Includes a 3–5 minute highlight film. Delivered within 8–10 weeks. From AED 12,000.</p>
+<p><strong>Cinema package (highlight + feature + trailer):</strong> Everything in the feature film plus a 60–90 second social media trailer optimised for Instagram and TikTok. Ideal for couples who want to share their day on social media immediately and also have a complete film for keepsake. From AED 16,000.</p>
+<p><strong>Same-day edit:</strong> A 3–5 minute highlight film produced and screened at your reception the same evening. Extraordinary as a wedding gift shown during dinner or the first dance. Available as an add-on to any package from AED 5,500 additional.</p>
+<p><strong>Multi-day wedding coverage:</strong> For multi-day celebrations (Mehndi, Nikah, Walima, or multi-event Western weddings), we offer extended coverage packages from AED 22,000. Ask about our multi-day packages when enquiring.</p>
+
+<h2>What We Cover in a Dubai Wedding Film</h2>
+<p><strong>Bridal preparations:</strong> Getting ready footage — hair, makeup, dressing, final details, quiet moments with family before the ceremony begins. Often the most emotionally resonant footage in the entire film.</p>
+<p><strong>Groom preparations:</strong> Suits, accessories, first look moments with family, and the quiet pre-ceremony anticipation that many wedding films miss.</p>
+<p><strong>Ceremony:</strong> Full ceremony coverage from multiple angles. Audio capture of vows, readings, blessings, and music via professional lapel microphone and camera-mounted audio. We never miss a word of your vows.</p>
+<p><strong>Reception:</strong> Entrance, first dance, father-daughter and mother-son dances, speeches and toasts, cake cutting, and general celebration. We capture both the formal milestones and the spontaneous moments between guests.</p>
+<p><strong>Venue and detail:</strong> Flowers, table settings, decor details, venue architecture, and the styling that you and your vendor team spent months creating. These shots provide visual context in the final edit.</p>
+<p><strong>Drone aerials:</strong> Aerial footage of outdoor venues, garden settings, beachfront ceremonies, and Dubai landmark backdrops. Subject to venue and authority permissions which we confirm in advance.</p>
+
+<h2>Venues We Regularly Film At in Dubai and the UAE</h2>
+<p>We have filmed at Atlantis The Palm, Jumeirah Beach Hotel, One&Only Royal Mirage, Four Seasons Dubai, The Westin Dubai, Sofitel Downtown, Palazzo Versace, Address Downtown, Fairmont The Palm, and dozens of private villa and garden venues across Dubai, Abu Dhabi, and Sharjah. We are familiar with lighting conditions, access logistics, and ceremony protocols at all major UAE wedding venues.</p>
+
+<h2>Multi-Cultural Wedding Coverage</h2>
+<p>Dubai's wedding scene is one of the most diverse in the world. We film Indian weddings, Pakistani weddings, Arab weddings, Lebanese weddings, Western weddings, and multi-cultural ceremonies combining traditions from multiple backgrounds. Our team understands the ceremony structure, key moments, and cultural nuances of each tradition — ensuring we are in position for every critical moment regardless of how the day is structured.</p>
+
+<h2>Frequently Asked Questions — Wedding Films Dubai</h2>
+<p><strong>How far in advance should I book?</strong> Popular dates — particularly in the UAE wedding season (October–April) and around Eid holidays — book 6–12 months in advance. We recommend enquiring as soon as you have confirmed your venue and date. Contact us at +971 58 588 2685 to check availability.</p>
+<p><strong>Can you also photograph our wedding?</strong> Yes. Backyard Studio offers combined wedding photography and videography packages that bring one coordinated team to your wedding rather than two separate vendors who have never worked together. Combined packages start from AED 15,000.</p>
+<p><strong>What if our venue has filming restrictions?</strong> We liaise with your venue coordinator in advance to understand any restrictions and plan our setup accordingly. Most Dubai venues are accustomed to professional film crews and accommodate professional equipment without issues.</p>
+<p><strong>Do you film destination weddings?</strong> Yes. We travel across the UAE and internationally for destination weddings. Travel costs are quoted separately based on location. Contact us to discuss your destination requirements.</p>`,
+  },
+  {
+    slug: "fashion-videography-dubai-2026",
+    title: "Fashion Videography Dubai 2026: Lookbook and Campaign Video Production UAE",
+    excerpt: "Professional fashion videography in Dubai. Lookbook films, campaign videos, runway coverage, and editorial fashion content for UAE brands and designers.",
+    date: "2026-06-29",
+    category: "Fashion & Beauty",
+    tags: ["Fashion", "Videography", "Dubai", "Lookbook", "Campaign"],
+    relatedPosts: ["instagram-reels-production-dubai-2026", "personal-branding-photographer-dubai-2026", "food-photography-dubai-2026"],
+    content: `<h2>Fashion Videography in Dubai: Where Craft Meets the Camera</h2>
+<p>Fashion video is the dominant format for clothing, accessory, and lifestyle brand marketing in 2026. Still photography remains essential, but video captures movement — the way fabric flows, the way a heel sounds on marble, the feeling of wearing something that makes you stand taller. For Dubai's fashion scene — from independent Emirati designers to international luxury brands with UAE flagship stores — Backyard Studio produces fashion video content that is visually distinctive, editorially sharp, and platform-ready. Contact us at +971 58 588 2685 or info@backyardstudioofficial.com to discuss your project.</p>
+
+<h2>Fashion Video Formats We Produce</h2>
+<p><strong>Lookbook films:</strong> Seasonal collection films presenting your designs in motion. Typically 60–3 minutes, shot in locations that complement the collection's aesthetic. Dubai's architectural variety — from the geometric lines of Downtown to the organic textures of Al Quoz — provides an exceptional visual range for fashion film backdrops.</p>
+<p><strong>Campaign videos:</strong> Brand campaign films that tell a story beyond the clothes — a mood, a world, a lifestyle. These are the films that define how your brand is perceived at an emotional level. We develop creative concepts, handle all casting and location scouting, and produce end-to-end.</p>
+<p><strong>Social media fashion content:</strong> Instagram Reels, TikTok videos, and Stories content optimised for fashion brands. Fast-paced, visually led, and designed to stop the scroll. We batch-produce monthly social content from a single shoot day.</p>
+<p><strong>Runway and presentation coverage:</strong> Professional multi-camera coverage of runway shows, fashion presentations, and collection launches. Includes wide shots, close-up details, backstage, and audience reactions. Delivered as raw footage, highlight reel, and social media cuts.</p>
+<p><strong>E-commerce video:</strong> Product video for online stores — models wearing your pieces with clear front, back, and detail coverage. Increases conversion rates significantly versus static product photography alone. Delivered in standardised formats for Shopify, Namshi, Ounass, and other e-commerce platforms.</p>
+<p><strong>Brand story films:</strong> Designer profile pieces, brand history films, and atelier documentary content. These build emotional connection with your audience and are extremely effective for PR and editorial placement.</p>
+
+<h2>Fashion Film Locations in Dubai</h2>
+<p>Dubai offers remarkable location diversity for fashion film. Downtown Dubai provides aspirational urban backdrops — the Burj Khalifa, the fountain, the reflective glass towers. Al Quoz and the creative district offer industrial textures with creative energy. Jumeirah and the Palm provide the contrast of blue water and luxury architecture. The desert — reachable within 45 minutes from central Dubai — offers minimalist drama unlike any urban backdrop in the world. Backyard Studio scouts and permits all locations in advance, managing the logistics so you can focus on the creative.</p>
+
+<h2>What We Bring to a Fashion Video Production</h2>
+<p><strong>Creative direction:</strong> We develop mood boards, shot lists, and reference films in collaboration with your team before any camera is picked up. This alignment at the concept stage prevents expensive reshoots and ensures the final film matches your vision.</p>
+<p><strong>Casting:</strong> We work with UAE-based model agencies and our own network of diverse talent to cast models appropriate for your brand's aesthetic and target audience. We brief and direct talent on set.</p>
+<p><strong>Styling coordination:</strong> We work alongside your stylist and wardrobe team, advising on how garments translate on camera and helping sequence looks for the shoot schedule.</p>
+<p><strong>Cinematography:</strong> Sony and Canon cinema camera systems with prime lenses, anamorphic options for cinematic widescreen, gimbal stabilisation, and professional lighting rigs. We shoot in log format for maximum post-production flexibility.</p>
+<p><strong>Post-production:</strong> Colour grading is a critical stage in fashion film — the grade determines the mood, the skin tone rendering, and the overall aesthetic. Our colourist works specifically in fashion and lifestyle content and understands the difference between a warm golden editorial grade and a cool desaturated editorial grade and when each is appropriate.</p>
+<p><strong>Music licensing:</strong> All films are delivered with licensed music appropriate for your platform use (social media, YouTube, brand website, trade shows). We advise on music selection and handle all licensing.</p>
+
+<h2>Fashion Videography Pricing Dubai 2026</h2>
+<p><strong>Social media fashion shoot (half day, 4–6 Reels/TikToks):</strong> AED 4,500–AED 7,000. Includes 1–2 looks, 1 location, editing, and platform-ready delivery.</p>
+<p><strong>Lookbook film (full day, 2–3 minute film):</strong> AED 12,000–AED 22,000. Includes concept development, casting, 2–4 looks, 1–2 locations, full post-production and grade.</p>
+<p><strong>Campaign film (2 days, 60–90 second brand film):</strong> AED 25,000–AED 55,000. Full production including concept, casting, styling coordination, 2 shoot days, full post-production, music licensing, and delivery in all required formats.</p>
+<p><strong>E-commerce product video (studio, per look):</strong> AED 600–AED 1,000 per look. Standardised format, white or seamless background, delivered per platform specifications.</p>
+<p>Contact us at +971 58 588 2685 or info@backyardstudioofficial.com. We serve all UAE emirates with 2-hour quote response.</p>`,
+  },
+  {
+    slug: "food-photography-restaurant-dubai-2026",
+    title: "Food Photography Dubai 2026: Restaurant & Menu Photography UAE",
+    excerpt: "Professional food photography in Dubai for restaurants, cafes, hotels, and F&B brands. Menu photography, social media content, and campaign shoots. Fast delivery.",
+    date: "2026-06-29",
+    category: "Commercial Photography",
+    tags: ["Food Photography", "Restaurant", "Dubai", "Menu Photography", "F&B"],
+    relatedPosts: ["commercial-photography-dubai-2026", "instagram-reels-production-dubai-2026", "social-media-content-creator-dubai-2026"],
+    content: `<h2>Food Photography in Dubai: Why Great Visuals Drive Restaurant Revenue</h2>
+<p>Research consistently shows that restaurants with professional food photography on their menus and social media receive more orders, attract more reservations, and convert more online browsers into in-person guests than restaurants relying on DIY phone photos. In Dubai's hyper-competitive restaurant scene — with thousands of restaurants competing for attention across Instagram, Google, and delivery apps — professional food photography is not a luxury. It is a baseline requirement for any F&B business serious about growth. Backyard Studio produces food photography for Dubai restaurants, cafes, hotels, F&B brands, and delivery concepts. Contact us at +971 58 588 2685 or info@backyardstudioofficial.com for a quote within 2 hours.</p>
+
+<h2>What Professional Food Photography Involves</h2>
+<p>Exceptional food photography is a combination of culinary styling, lighting design, and technical camera craft. Each element is equally important: the most beautiful light cannot save a dish that is not styled correctly, and perfect styling is wasted under flat, harsh light. Backyard Studio brings an understanding of all three elements to every food photography brief.</p>
+<p><strong>Food styling:</strong> We work with your kitchen team or bring our own food stylist to ensure every dish looks its absolute best on camera. This includes sauce placement, garnish positioning, steam effects, moisture maintenance, height and texture enhancement, and colour balance. What looks natural in person often needs adjustment to photograph correctly.</p>
+<p><strong>Lighting:</strong> We use a combination of natural light and professional LED systems depending on your venue and the mood of the shots. Natural light from large windows creates warmth and authenticity. Studio-quality LED lighting creates the precision needed for packaged goods and delivery app photography.</p>
+<p><strong>Props and surfaces:</strong> We carry a library of surfaces, linens, cutlery, glassware, and props that complement different food styles — from rustic Arabic mezze to minimalist Japanese-inspired fine dining. Props are selected to support the food, not compete with it.</p>
+<p><strong>Composition:</strong> Food photography composition follows specific principles — negative space management, angle selection (overhead, 45-degree, hero close-up), layering, and the rule of threes — that create appetising, shareable images.</p>
+
+<h2>Food Photography Services We Offer</h2>
+<p><strong>Menu photography:</strong> Complete menu shoot covering every dish — starters, mains, desserts, beverages. Delivered with consistent lighting and styling so the entire menu looks cohesive. We provide images optimised for print menus, QR digital menus, and delivery app listings (Talabat, Deliveroo, Careem Food).</p>
+<p><strong>Social media food content:</strong> Monthly or quarterly shoot producing Instagram feed images, Reels B-roll, and Stories content. Styled with lifestyle props and settings for maximum shareability. Delivered as ready-to-post files with suggested captions.</p>
+<p><strong>Launch and campaign shoots:</strong> New menu launch photography, seasonal campaign shots (Ramadan, Eid, Summer, Christmas), and food brand campaign production. These shoots often combine food photography with ambiance and lifestyle imagery.</p>
+<p><strong>Delivery app optimisation:</strong> Photography specifically designed for Talabat, Deliveroo, and Careem Food listings. Clean backgrounds, bright lighting, appetite-triggering composition. Studies show delivery apps with professional photography generate 30%+ more orders than those with phone photos.</p>
+<p><strong>Packaged goods and products:</strong> Photography for food products, condiments, confectionery, and beverages — in-studio product photography suitable for retail packaging, e-commerce listings, and trade presentations.</p>
+<p><strong>Hotel F&B photography:</strong> Comprehensive hotel food and beverage photography covering multiple outlets — all-day dining, specialty restaurants, pool bar, room service. We work in 5-star hotel environments and understand the visual standards required.</p>
+
+<h2>We Shoot at Your Location or in Studio</h2>
+<p>Most restaurant food photography is shot on location — in your restaurant during off-peak hours (typically early morning before opening). Shooting on location captures your actual interior ambiance, your real dishes, and your authentic brand environment. This creates images that feel true to the experience guests will have when they visit.</p>
+<p>For packaged goods, delivery-optimised photography, or brands without a physical location, we shoot in our Dubai-based studio with full lighting control and a comprehensive surface and prop library.</p>
+
+<h2>Food Photography Pricing Dubai 2026</h2>
+<p><strong>Delivery app menu shoot (up to 20 dishes):</strong> AED 2,500–AED 4,000. Consistent lighting, clean background or contextual setting, Talabat/Deliveroo-formatted images, 24-hour delivery.</p>
+<p><strong>Social media food content package (monthly, 20 images):</strong> AED 3,500–AED 6,000/month. Includes monthly shoot, styling, editing, and caption suggestions. Delivered as Instagram-ready files.</p>
+<p><strong>Full menu shoot (20–50 dishes):</strong> AED 5,000–AED 12,000. Full day or multi-day shoot covering the complete menu in multiple styles (hero shots, lifestyle, close-up details). Suitable for restaurant websites, print menus, and social media.</p>
+<p><strong>Campaign / launch shoot (half day):</strong> AED 4,500–AED 8,000. New menu launch, seasonal campaign, or brand campaign photography. Includes prop sourcing, food styling, and full editing.</p>
+<p>Contact Backyard Studio at +971 58 588 2685 or info@backyardstudioofficial.com. We serve Dubai, Abu Dhabi, Sharjah, and all 7 UAE emirates.</p>
+
+<h2>Frequently Asked Questions — Food Photography Dubai</h2>
+<p><strong>How long does a restaurant food photography shoot take?</strong> A full menu shoot (30–50 dishes) typically takes 6–8 hours. A social media content shoot (15–20 images) takes 3–4 hours. We schedule during your restaurant's off-peak hours to minimise disruption — typically from 8am to 12pm before lunch service.</p>
+<p><strong>Do we need to prepare fresh dishes for each shot?</strong> Yes. Food must be freshly prepared for each shot — we cannot photograph dishes that have been sitting for extended periods. We provide a shoot schedule in advance so your kitchen can prepare dishes in the correct order with minimal waste.</p>
+<p><strong>Can you make the food look better than it actually does?</strong> We make food look its best — not something it isn't. Professional styling and lighting will make your dishes look significantly more appetising than they do under restaurant lighting or in casual photos. But we photograph your actual food, not substitutes.</p>`,
+  },
+  {
+    slug: "headshot-photographer-dubai-2026",
+    title: "Headshot Photographer Dubai 2026: Professional Corporate Headshots UAE",
+    excerpt: "Professional headshot photography in Dubai for corporates, executives, and teams. LinkedIn headshots, corporate portraits, and team photography across UAE.",
+    date: "2026-06-29",
+    category: "Photography Guide",
+    tags: ["Headshots", "Corporate Photography", "Dubai", "LinkedIn", "Professional Portrait"],
+    relatedPosts: ["personal-branding-photographer-dubai-2026", "social-media-content-creator-dubai-2026", "commercial-photography-dubai-2026"],
+    content: `<h2>Professional Headshots in Dubai: Your Most Important Professional Image</h2>
+<p>Your headshot is the most viewed image of you in the professional world. It appears on your LinkedIn profile (viewed by every recruiter, client, and business contact who searches your name), your company website's team page, your business card, your email signature, your speaker bio, and your press coverage. A poor headshot — poorly lit, outdated, or casually snapped — communicates something about your standards before you have said a word. A professional headshot communicates confidence, competence, and attention to detail. Backyard Studio produces professional headshots for individuals, teams, and corporates across Dubai and the UAE. Contact us at +971 58 588 2685 or info@backyardstudioofficial.com for pricing and availability.</p>
+
+<h2>Types of Headshot Sessions We Offer</h2>
+<p><strong>Individual LinkedIn headshot:</strong> Our most popular session. A 45–60 minute dedicated headshot session producing 10–15 final edited images in multiple backgrounds and expressions. Ideal for professionals updating their LinkedIn profile, job seekers, executives joining new organisations, and entrepreneurs launching a new venture. From AED 800.</p>
+<p><strong>Corporate team headshots (on-location):</strong> We visit your office and photograph your entire team in a single day. Each person receives 3–5 edited headshots with consistent background, lighting, and style. This creates a cohesive look across your company's website and team communications. Ideal for teams of 5–50+ people. From AED 350 per person (minimum 5 people).</p>
+<p><strong>Executive portraits:</strong> Extended session for C-suite executives, board members, and public figures requiring a premium portrait for press, annual reports, and high-profile communications. Includes multiple looks, multiple backgrounds, and extensive retouching. Delivered with a range from formal boardroom portraits to approachable conversational poses. From AED 2,200.</p>
+<p><strong>Professional profile package:</strong> Headshot session combined with 2–3 environmental portraits (taken in your workspace or a Dubai location) and a 60-second personal introduction video. Everything you need to build a strong professional online presence. From AED 3,200.</p>
+
+<h2>What to Expect at Your Headshot Session</h2>
+<p><strong>Studio or on-location:</strong> We offer headshot sessions at our Dubai studio (with controlled lighting, multiple background options, and a relaxed environment) or at your office or a location of your choice. On-location sessions are available across all Dubai districts and throughout the UAE.</p>
+<p><strong>Multiple background options:</strong> We offer white, grey, dark grey, black, and textured backgrounds in studio. On location, we use your office environment, plain walls, blurred outdoor settings, or Dubai landmark backdrops. Most clients choose 2 backgrounds per session to create variety for different uses.</p>
+<p><strong>Direction throughout:</strong> Many people feel uncomfortable in front of a camera. Our photographers actively direct throughout the session — posture, expression, angle, and timing — so you do not need to know how to pose. We show you each image as we shoot so you can see progress and relax into the session.</p>
+<p><strong>Quick delivery:</strong> Headshots are delivered within 3–5 business days. Rush 24-hour delivery is available for an additional fee. Corporate team sessions are delivered as a complete gallery within 5 business days of the shoot day.</p>
+
+<h2>LinkedIn Headshot Best Practices</h2>
+<p>LinkedIn research shows that profiles with professional headshots receive 21 times more views and 9 times more connection requests than profiles without photos or with casual images. The platform's algorithm also favours profiles with complete, high-quality imagery. Your LinkedIn headshot should: fill 60% of the frame with your face, use appropriate background contrast so your face separates clearly, communicate your industry (a lawyer looks different from a creative director), show a natural, confident expression rather than a stiff formal one, and be updated every 2–3 years to reflect your current appearance.</p>
+<p>Backyard Studio's individual headshot session is specifically designed around LinkedIn requirements. We discuss your industry positioning and audience before shooting so the expression, background, and styling communicate the right professional message for your specific context.</p>
+
+<h2>Corporate Team Headshots: Logistics and Planning</h2>
+<p>We make corporate team headshot days straightforward. Prior to your session, we provide a scheduling template so your HR or operations team can book each person's 10-minute slot throughout the day. We set up at one location in your office — typically a meeting room or large area near a window — and work through the list efficiently. People spend 10 minutes with us and receive high-quality, consistent results. For teams under 20 people, a single day is typically sufficient. For larger teams, we plan a two-day schedule.</p>
+<p>We have photographed teams at DIFC financial firms, JLT consultancies, Dubai Marina hotels, JBR retail brands, Healthcare City clinics, and across UAE free zones. We understand corporate environments and work efficiently and professionally within them.</p>
+
+<h2>Headshot Photography Pricing Dubai 2026</h2>
+<p><strong>Individual LinkedIn headshot session:</strong> AED 800. 45–60 minutes, 10–15 edited images, 2 backgrounds, delivered within 3–5 business days.</p>
+<p><strong>Corporate team (5–15 people, on-location):</strong> AED 350 per person. Half-day on-site session, 3–5 images per person, consistent background and lighting, gallery delivery within 5 business days.</p>
+<p><strong>Corporate team (16–50+ people):</strong> AED 280 per person. Full-day on-site session. Contact us for pricing on teams above 50 people.</p>
+<p><strong>Executive portrait session:</strong> AED 2,200. 90 minutes, multiple looks and backgrounds, extensive retouching, 25+ final images, delivered within 5 business days.</p>
+<p>Contact Backyard Studio at +971 58 588 2685 or info@backyardstudioofficial.com. We provide a 2-hour response and serve all 7 UAE emirates including Abu Dhabi, Sharjah, and the Northern Emirates.</p>
+
+<h2>Frequently Asked Questions — Headshot Photography Dubai</h2>
+<p><strong>How many outfit changes can I bring?</strong> We recommend 2–3 outfit options for individual sessions. Bring both formal and business casual if you use both styles professionally. For corporate team sessions, we recommend one consistent dress code across the team for a cohesive result.</p>
+<p><strong>Can you photograph our team in different Dubai locations?</strong> Yes. We can photograph team members in different offices or locations on the same day if required, with travel between locations included in on-location packages covering the same district. Cross-city travel is quoted separately.</p>
+<p><strong>Is retouching included?</strong> Yes. All headshots are professionally retouched — skin smoothing, eye enhancement, background cleaning, and colour correction are standard. We retouch to look professional and natural, not heavily filtered or unrecognisable.</p>
+<p><strong>Can we use the headshots commercially?</strong> Yes. All images are delivered as files you own completely. You may use them for any professional or commercial purpose including advertising, press, and publications. No licensing fees.</p>`,
+  },
 ];
 export function getBlogPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
