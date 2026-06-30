@@ -76,6 +76,23 @@ export default function LocationsPage() {
           We shoot across all 7 UAE emirates — every city, every community, every vision.
         </p>
       </div>
+
+      {/* UAE-wide intro */}
+      <section className="py-12 border-b border-[#2a2a2a]" style={{ background: "#0f0f0f" }}>
+        <div className="container-xl max-w-4xl mx-auto px-4">
+          <h2 className="font-display text-3xl text-white mb-6 text-center">PRODUCTION ACROSS ALL 7 EMIRATES</h2>
+          <p className="text-[#a0a0a0] text-sm leading-relaxed mb-4">
+            Backyard Studio Official operates production crews across all seven UAE emirates — not as a logistical workaround, but as a core part of our service model. Most Dubai-based studios will quote for shoots in Abu Dhabi or Sharjah but lack ground-level knowledge of those markets: the right permit contacts, the best scout locations, the local crew networks that make productions run smoothly. We do not subcontract or improvise. We have producers, cinematographers, and drone operators who work regularly across every emirate, bringing genuine local production intelligence to every brief.
+          </p>
+          <p className="text-[#a0a0a0] text-sm leading-relaxed mb-4">
+            This matters practically. A real estate developer building in Ras Al Khaimah needs a crew that knows Jebel Jais, Al Hamra Village, and Mina Al Arab — not a team flying in from Dubai Marina who spend the first hour getting oriented. A hospitality brand on the East Coast needs someone who understands Fujairah&apos;s coastal light, the mountain permit process, and the optimal season for shooting the Hajar range. A government entity in Abu Dhabi needs a studio familiar with ADGM, Yas Island, and Saadiyat. We provide that contextual production intelligence as part of every project.
+          </p>
+          <p className="text-[#a0a0a0] text-sm leading-relaxed">
+            Our UAE-wide production services include corporate video and brand films, event and conference coverage, wedding and social celebration filming, product photography and e-commerce content, DVC and broadcast-standard commercial production, aerial drone videography (GCAA licensed for all emirates), Instagram Reels and TikTok content, architectural and real estate photography, and fashion and editorial campaigns. No travel fees. No subcontracting surprises. Free quote within two hours from anywhere in the UAE.
+          </p>
+        </div>
+      </section>
+
       <section className="section-pad bg-[#0a0a0a]">
         <div className="container-xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {EMIRATES.map((e) => (
@@ -94,6 +111,29 @@ export default function LocationsPage() {
               </div>
             </Link>
           ))}
+        </div>
+      </section>
+
+
+      {/* Services section */}
+      <section className="py-12 border-t border-[#2a2a2a]" style={{ background: "#111" }}>
+        <div className="container-xl max-w-4xl mx-auto px-4">
+          <h2 className="font-display text-3xl text-white mb-8 text-center">WHAT WE PRODUCE ACROSS THE UAE</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+            {[
+              { title: "Event Videography & Photography", desc: "Multi-camera event coverage for corporate galas, product launches, award ceremonies, conferences, and exhibitions across all UAE venues and convention centres." },
+              { title: "Wedding & Social Celebration Films", desc: "Cinematic wedding films and social celebration coverage for Emirati, South Asian, Western, and destination weddings across Dubai, Abu Dhabi, and every UAE emirate." },
+              { title: "DVC & Brand Films", desc: "Digital video commercials and brand films produced to international broadcast standard. From full scriptwriting and location scouting to post-production, colour grade, and multi-platform delivery." },
+              { title: "Aerial Drone Videography", desc: "GCAA-licensed drone operations across all 7 UAE emirates. Cinematic aerials for real estate launches, construction progress, events, tourism, and landscape content." },
+              { title: "Product & Commercial Photography", desc: "Commercial product photography for e-commerce, advertising, and brand campaigns. Shot in our Dubai studio or on location anywhere in the UAE with full art direction included." },
+              { title: "Social Media Content Creation", desc: "Instagram Reels, TikTok videos, YouTube Shorts, and short-form social content created for UAE audiences and optimised for platform discovery algorithms." },
+            ].map((s) => (
+              <div key={s.title} className="p-5 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm">
+                <h3 className="text-[#e8c547] font-semibold text-sm mb-2">{s.title}</h3>
+                <p className="text-[#a0a0a0] text-xs leading-relaxed">{s.desc}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

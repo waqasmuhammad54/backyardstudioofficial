@@ -40,6 +40,18 @@ const CONTACT_FAQS = [
   {
     question: "What information should I include in my production brief?",
     answer: "To get the most accurate quote, include: your shoot date (or approximate timeline), location preference, type of content needed (video/photography/both), approximate duration or deliverables, and any reference content or mood boards you have. The more detail you provide, the faster we can respond with a tailored proposal.",
+  },,
+  {
+    question: "What is Backyard Studio's minimum project budget?",
+    answer: "Backyard Studio Official works with projects across a wide range of budgets. A social media shoot or product photography session starts from AED 1,500. A full DVC or corporate brand film typically ranges from AED 15,000 to AED 200,000 depending on scope, crew size, locations, and post-production requirements. We provide detailed, transparent quotes within 2 hours of receiving your brief.",
+  },
+  {
+    question: "Do you offer same-day or urgent production services in Dubai?",
+    answer: "Yes. Backyard Studio Official maintains standby crews in Dubai for urgent same-day productions. Whether you need an emergency event shoot, a last-minute product photography session, or a quick social media content day, contact us via WhatsApp at +971 58 588 2685 for immediate scheduling. Urgent booking fees may apply depending on crew availability and equipment requirements.",
+  },
+  {
+    question: "Can Backyard Studio handle both video and photography for the same project?",
+    answer: "Yes. Backyard Studio Official is a full-service production house that handles video and photography simultaneously within the same shoot. This is more cost-efficient than hiring separate video and photography crews, and ensures visual consistency across all your deliverables — same lighting setup, same locations, same art direction, delivered together.",
   },
 ];
 
@@ -59,6 +71,30 @@ export default function ContactPage() {
           Send us your brief and we&apos;ll respond within 2 hours. Let&apos;s make something cinematic.
         </p>
       </div>
+
+
+      {/* What to expect section */}
+      <section className="py-12 border-b border-[#2a2a2a]" style={{ background: "#0f0f0f" }}>
+        <div className="container-xl max-w-4xl mx-auto px-4">
+          <h2 className="font-display text-3xl text-white mb-8 text-center">WHAT HAPPENS WHEN YOU GET IN TOUCH</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            {[
+              { step: "01", title: "You Send Your Brief", desc: "Fill in the form below, WhatsApp us, or email. Tell us what you need, when you need it, and where. The more detail, the faster we can quote." },
+              { step: "02", title: "We Respond in 2 Hours", desc: "A senior producer reviews your brief and sends a detailed quote within 2 hours — including crew structure, equipment, timeline, and a clear breakdown of costs." },
+              { step: "03", title: "We Get to Work", desc: "Once you confirm, we handle everything from pre-production planning and permits to shoot day execution and final delivery. One contact. Zero chasing." },
+            ].map((s) => (
+              <div key={s.step} className="p-5 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm">
+                <div className="text-[#e8c547] font-display text-3xl mb-3">{s.step}</div>
+                <h3 className="text-white font-semibold text-sm mb-2">{s.title}</h3>
+                <p className="text-[#a0a0a0] text-xs leading-relaxed">{s.desc}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-[#a0a0a0] text-sm leading-relaxed text-center max-w-2xl mx-auto">
+            We work with corporate clients, government entities, hospitality groups, real estate developers, fashion brands, F&B operators, social media creators, and individuals across all 7 UAE emirates. No project is too large or too small — every brief gets the same 2-hour response commitment and the same professional attention.
+          </p>
+        </div>
+      </section>
 
       <ContactSection />
 

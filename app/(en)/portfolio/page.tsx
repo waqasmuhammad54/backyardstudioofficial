@@ -50,6 +50,23 @@ export default function PortfolioPage() {
         </p>
       </div>
 
+
+      {/* About the portfolio */}
+      <section className="py-12 border-b border-white/5" style={{ background: "var(--black-2)" }}>
+        <div className="container-xl max-w-4xl mx-auto px-4">
+          <h2 className="font-display text-3xl text-cream text-center mb-6">500+ PROJECTS. ONE STUDIO.</h2>
+          <p className="text-silver/60 text-sm leading-relaxed mb-4 text-center max-w-3xl mx-auto">
+            Every project in this portfolio was produced entirely in-house by Backyard Studio Official. No subcontracting, no freelance patchwork — the same core team that takes your brief shoots, edits, grades, and delivers your content. This is why clients across Dubai, Abu Dhabi, and all seven UAE emirates come back.
+          </p>
+          <p className="text-silver/60 text-sm leading-relaxed mb-4 text-center max-w-3xl mx-auto">
+            Our portfolio spans five categories: Events (corporate galas, product launches, award ceremonies, conferences), Creative (fashion campaigns, editorial shoots, music videos, brand films), Products (luxury goods, e-commerce, cosmetics, lifestyle), Weddings (cinematic destination and cultural celebrations), and Corporate (brand films, DVCs, testimonials, internal communications). Each project begins with a commercial brief and ends with content that performs — on social media, in boardroom presentations, on broadcast, and in digital advertising campaigns.
+          </p>
+          <p className="text-silver/60 text-sm leading-relaxed text-center max-w-3xl mx-auto">
+            The projects shown are a curated selection from our full catalogue. Many client works remain confidential under NDA. Use the filters below to browse by category, or click any project to view the full case, including Vimeo embed, production notes, and deliverables breakdown.
+          </p>
+        </div>
+      </section>
+
       {/* Sticky filter bar */}
       <div className="sticky top-[68px] z-30 border-b" style={{ background: "rgba(5,5,5,0.97)", backdropFilter: "blur(20px)", borderColor: "var(--border)" }}>
         <div className="container-xl py-4 flex flex-wrap gap-2">
@@ -103,6 +120,25 @@ export default function PortfolioPage() {
               </Link>
             ))}
           </div>
+
+
+          {/* What makes our work */}
+          <section className="mt-20 pt-12 border-t border-white/5">
+            <h2 className="font-display text-3xl text-cream text-center mb-8">WHAT GOES INTO EVERY PROJECT</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-12">
+              {[
+                { title: "Creative Direction", desc: "Every shoot has a concept, not just a shot list. We art direct for the specific audience and platform the content is destined for." },
+                { title: "Cinema-Grade Equipment", desc: "RED, ARRI, and Sony cinema cameras. Zeiss and Sigma prime lenses. Ronin gimbals. DJI Inspire drones. Professional lighting everywhere." },
+                { title: "Post-Production", desc: "In-house colour grading on DaVinci Resolve, Dolby-calibrated sound mixing, and motion graphics in After Effects — all under one roof." },
+                { title: "Fast Turnaround", desc: "Standard delivery is 48–72 hours. Rush 24-hour delivery available. Footage from your shoot day available for review the same evening." },
+              ].map((s) => (
+                <div key={s.title} className="p-5 border rounded-sm" style={{ background: "rgba(255,255,255,0.02)", borderColor: "rgba(212,160,23,0.12)" }}>
+                  <h3 className="text-gold font-semibold text-sm mb-2">{s.title}</h3>
+                  <p className="text-silver/50 text-xs leading-relaxed">{s.desc}</p>
+                </div>
+              ))}
+            </div>
+          </section>
 
           <div className="mt-16 text-center">
             <p className="text-silver/40 text-sm mb-6">Showing {filtered.length} of 500+ projects</p>

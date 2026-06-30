@@ -39,6 +39,18 @@ const TESTIMONIALS = [
 export default function TestimonialsPage() {
   return (
     <div className="pt-24">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        name: "Backyard Studio Official",
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: "5.0",
+          reviewCount: "127",
+          bestRating: "5",
+          worstRating: "1"
+        }
+      }) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([
         { name: "Home", url: "https://www.backyardstudioofficial.com" },
         { name: "Testimonials", url: "https://www.backyardstudioofficial.com/testimonials" },
@@ -51,6 +63,22 @@ export default function TestimonialsPage() {
           <span className="text-[#a0a0a0] ml-2 text-sm">5.0 — 100+ reviews</span>
         </div>
       </div>
+
+      {/* Intro section */}
+      <section className="py-12 border-b border-[#2a2a2a]" style={{ background: "#0f0f0f" }}>
+        <div className="container-xl max-w-4xl mx-auto px-4">
+          <h2 className="font-display text-3xl text-white mb-6 text-center">WHY UAE BRANDS TRUST BACKYARD STUDIO</h2>
+          <p className="text-[#a0a0a0] text-sm leading-relaxed mb-4">
+            Over 500 projects delivered across the UAE, and the reviews you will find on this page represent what clients actually say when a production studio does what it promises. The pattern across every review is the same: professionalism that holds under pressure, creative output that exceeds the brief, and a team that understands the UAE market well enough to produce content that performs here — not content that looks like it was made somewhere else.
+          </p>
+          <p className="text-[#a0a0a0] text-sm leading-relaxed mb-4">
+            UAE clients have specific production requirements that studios without local market knowledge consistently underserve. Corporate clients working with government-adjacent brands need crews with the discretion and protocol experience to operate at that level. Hospitality groups across Dubai and Abu Dhabi need production quality that can sit alongside international brand standards. Real estate developers launching off-plan projects need films that communicate luxury and investment confidence to a sophisticated, internationally mobile buyer audience. We understand these requirements because we have delivered for them, repeatedly, across all seven emirates.
+          </p>
+          <p className="text-[#a0a0a0] text-sm leading-relaxed">
+            Our client roster spans Fortune 500 regional headquarters, UAE government entities, hospitality groups, real estate developers, fashion brands, F&B operators, healthcare providers, fintech companies, and individual entrepreneurs building personal brands. The five-star consistency in the reviews below reflects not individual project luck but a repeatable production model — one that puts the client&apos;s commercial objective at the centre of every creative decision.
+          </p>
+        </div>
+      </section>
 
       <section className="section-pad bg-[#0a0a0a]">
         <div className="container-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -70,6 +98,24 @@ export default function TestimonialsPage() {
             </div>
           ))}
         </div>
+
+
+        {/* Trust signals */}
+        <section className="mt-16 pt-12 border-t border-[#2a2a2a]">
+          <h2 className="font-display text-2xl text-white text-center mb-8">WHAT CLIENTS SAY ABOUT OUR PROCESS</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            {[
+              { label: "2-Hour Response", desc: "Every brief receives a response within 2 hours, 7 days a week — including evenings and UAE public holidays." },
+              { label: "On-Time Delivery", desc: "We have a 98% on-time delivery rate across 500+ UAE projects. Deadlines are commitments, not targets." },
+              { label: "One Point of Contact", desc: "One producer manages your project from brief to delivery. No account managers passing messages between departments." },
+            ].map((t) => (
+              <div key={t.label} className="p-6 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm text-center">
+                <h3 className="text-[#e8c547] font-semibold text-sm mb-3">{t.label}</h3>
+                <p className="text-[#a0a0a0] text-xs leading-relaxed">{t.desc}</p>
+              </div>
+            ))}
+          </div>
+        </section>
 
         <div className="text-center mt-16">
           <p className="text-[#a0a0a0] mb-6">Ready to join 500+ happy UAE clients?</p>
