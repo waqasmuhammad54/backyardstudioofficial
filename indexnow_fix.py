@@ -511,6 +511,11 @@ URLS = [
     f"https://{HOST}/blog/corporate-video-production-abu-dhabi-2026",
     f"https://{HOST}/blog/fashion-videography-dubai-2026",
     f"https://{HOST}/blog/real-estate-architecture-photography-dubai-2026",
+    # Sprint 29: 4 new blog posts
+    f"https://{HOST}/blog/instagram-reels-production-dubai-2026",
+    f"https://{HOST}/blog/tiktok-content-creator-dubai-2026",
+    f"https://{HOST}/blog/wedding-film-dubai-2026",
+    f"https://{HOST}/blog/food-photography-restaurant-dubai-2026",
 ]
 
 
