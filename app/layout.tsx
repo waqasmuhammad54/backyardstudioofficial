@@ -35,4 +35,15 @@ const dmSerif = DM_Serif_Display({
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const fontVars = `${inter.variable} ${bebasNeue.variable} ${playfair.variable} ${dmSerif.variable}`;
   const headersList = headers();
-  const pathname = headersLis
+  const pathname = headersList.get("x-pathname") || "";
+  const lang = pathname.startsWith("/ar") ? "ar"
+    : pathname.startsWith("/ru") ? "ru"
+    : pathname.startsWith("/zh") ? "zh"
+    : "en";
+  const dir = lang === "ar" ? "rtl" : "ltr";
+  return (
+    <html lang={lang} dir={dir} className={fontVars}>
+      <body>{children}</body>
+    </html>
+  );
+}

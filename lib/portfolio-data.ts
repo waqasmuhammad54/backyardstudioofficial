@@ -125,4 +125,7 @@ export function buildPortfolioItemListSchema() {
       "@type": "ListItem",
       position: i + 1,
       url: `https://www.backyardstudioofficial.com/portfolio/${p.slug}`,
-      name: p.
+      name: p.title,
+    })),
+  };
+}
