@@ -511,11 +511,11 @@ URLS = [
     f"https://{HOST}/blog/corporate-video-production-abu-dhabi-2026",
     f"https://{HOST}/blog/fashion-videography-dubai-2026",
     f"https://{HOST}/blog/real-estate-architecture-photography-dubai-2026",
-    # Sprint 29: 4 new blog posts
-    f"https://{HOST}/blog/instagram-reels-production-dubai-2026",
-    f"https://{HOST}/blog/tiktok-content-creator-dubai-2026",
-    f"https://{HOST}/blog/wedding-film-dubai-2026",
-    f"https://{HOST}/blog/food-photography-restaurant-dubai-2026",
+    # Sprint 30: 4 pillar/gap blog posts
+    f"https://{HOST}/blog/best-production-studio-dubai-2026",
+    f"https://{HOST}/blog/cost-video-production-dubai-2026",
+    f"https://{HOST}/blog/how-to-choose-production-company-uae-2026",
+    f"https://{HOST}/blog/wedding-photography-abu-dhabi-2026",
 ]
 
 
@@ -536,11 +536,4 @@ def submit_to_indexnow(urls, batch_size=50):
         )
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
-                print(f"Batch {i // batch_size + 1}: {resp.status} {resp.reason} ({len(batch)} URLs)")
-        except Exception as e:
-            print(f"Batch {i // batch_size + 1} error: {e}")
-
-
-if __name__ == "__main__":
-    print(f"Submitting {len(URLS)} URLs to IndexNow...")
-    submit_to_indexnow(URLS)
+             
