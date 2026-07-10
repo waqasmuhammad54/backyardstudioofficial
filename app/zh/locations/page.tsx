@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "服务地区 | 阿联酋七大酋长国全覆盖 — Backyard Studio Official",
-  description: "Backyard Studio Official服务覆盖阿联酋全境七个酋长国：迪拜、阿布扎比、沙迦、阿治曼、哈伊马角、富吉拉、乌姆盖万。无额外差旅费，48小时上门服务。",
+  title: "阿联酋拍摄地点 | 覆盖全部7个酋长国 — Backyard Studio",
+  description: "覆盖阿联酋全部7个酋长国的视频和摄影服务。迪拜、阿布扎比、沙迦、阿治曼、哈伊马角、富查伊拉和乌姆盖万。无出行费用。2小时免费报价。",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/zh/locations",
     languages: {
@@ -14,210 +14,93 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "服务地区 | 阿联酋七大酋长国 — Backyard Studio Official",
-    description: "迪拜、阿布扎比及阿联酋全境摄影摄像服务。48小时上门，无额外差旅费。",
+    title: "阿联酋全境视频制作 | Backyard Studio Official",
+    description: "迪拜、阿布扎比、沙迦、阿治曼、哈伊马角、富查伊拉和乌姆盖万专业视频摄影服务。无出行费用。2小时免费报价。",
     url: "https://www.backyardstudioofficial.com/zh/locations",
-    siteName: "Backyard Studio Official",
-    locale: "zh_CN",
+    locale: "zh_AE",
     type: "website",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "阿联酋摄影摄像服务地区 — Backyard Studio" }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "服务地区 — 阿联酋七大酋长国",
-    description: "迪拜·阿布扎比·沙迦及全境。48小时上门服务。",
-    images: ["/og-image.jpg"],
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "阿联酋视频制作 — Backyard Studio Official" }],
   },
 };
 
-const LOCATIONS = [
-  {
-    city: "迪拜",
-    en: "Dubai",
-    desc: "总部所在地。服务区域涵盖迪拜商湾、迪拜码头、棕榈岛、老城区、迪拜溪港、迪拜市中心等所有区域。",
-    icon: "🏙️",
-  },
-  {
-    city: "阿布扎比",
-    en: "Abu Dhabi",
-    desc: "覆盖阿布扎比岛、萨迪亚特岛、亚斯岛、阿布扎比CBD及阿布扎比机场区域。",
-    icon: "🕌",
-  },
-  {
-    city: "沙迦",
-    en: "Sharjah",
-    desc: "沙迦全境摄影摄像服务，包括沙迦海滨、布海拉湖、沙迦文化广场等标志地点。",
-    icon: "🌊",
-  },
-  {
-    city: "阿治曼",
-    en: "Ajman",
-    desc: "阿治曼海滨、阿治曼商业区及周边区域专业拍摄服务。",
-    icon: "⛵",
-  },
-  {
-    city: "哈伊马角",
-    en: "Ras Al Khaimah",
-    desc: "哈伊马角山地、海滩及度假村摄影摄像，无人机航拍一览壮阔山海。",
-    icon: "⛰️",
-  },
-  {
-    city: "富吉拉",
-    en: "Fujairah",
-    desc: "东海岸海滩、富吉拉堡、瓦迪活动摄影全覆盖。",
-    icon: "🏖️",
-  },
-  {
-    city: "乌姆盖万",
-    en: "Umm Al Quwain",
-    desc: "乌姆盖万滨海区域及周边摄影摄像服务。",
-    icon: "🌅",
-  },
+const LOCATIONS_FAQS = [
+  { q: "Backyard Studio 覆盖阿联酋全部7个酋长国吗？", a: "是的。Backyard Studio Official 在阿联酋全部7个酋长国提供专业视频和摄影服务：迪拜、阿布扎比、沙迦、阿治曼、哈伊马角、富查伊拉和乌姆盖万。我们可在24至48小时内将摄制团队部署至任何酋长国。" },
+  { q: "迪拜以外的拍摄需要额外收取出行费用吗？", a: "不需要。Backyard Studio Official 在阿联酋境内拍摄不收取出行费用。无论拍摄地点在迪拜、阿布扎比还是哈伊马角，交通费用均已包含在制作报价中。" },
+  { q: "在阿联酋全境提供哪些类型的制作服务？", a: "我们在所有酋长国提供完整的制作服务：活动摄像、婚礼摄影、DVC数字视频广告、Instagram Reels和TikTok内容、企业影片、GCAA认证无人机航拍、客户证言视频和广告拍摄。" },
+];
+
+const EMIRATES = [
+  { name: "迪拜",    slug: "dubai",          image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80", areas: 25, desc: "Downtown市中心、Marina、JBR、DIFC、棕榈岛、商业湾、JLT等。" },
+  { name: "阿布扎比", slug: "abu-dhabi",      image: "https://images.unsplash.com/photo-1526495124232-a04e1849168c?w=800&q=80", areas: 10, desc: "亚斯岛、萨迪亚特岛、海滨大道、里姆岛、ADGM等。" },
+  { name: "沙迦",    slug: "sharjah",         image: "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=800&q=80", areas: 5,  desc: "Al Majaz、Al Qasba、沙迦滨水区、Al Khan。" },
+  { name: "阿治曼",  slug: "ajman",           image: "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8e?w=800&q=80", areas: 4,  desc: "阿治曼海滨大道、Al Jurf、Al Rashidiya。" },
+  { name: "哈伊马角", slug: "ras-al-khaimah", image: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=800&q=80", areas: 4,  desc: "哈伊马角市区、Al Hamra村、杰贝尔贾伊斯山。" },
+  { name: "富查伊拉", slug: "fujairah",       image: "https://images.unsplash.com/photo-1590004987778-bece5c9adab6?w=800&q=80", areas: 3,  desc: "富查伊拉市区、迪巴、霍尔法坎海岸线。" },
+  { name: "乌姆盖万", slug: "umm-al-quwain",  image: "https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?w=800&q=80", areas: 2,  desc: "乌姆盖万市区、梦幻乐园水上公园区域。" },
 ];
 
 export default function ZhLocationsPage() {
-  return (
-    <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org", "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "首页", "item": "https://www.backyardstudioofficial.com/zh" },
-          { "@type": "ListItem", "position": 2, "name": "服务地区", "item": "https://www.backyardstudioofficial.com/zh/locations" },
-        ],
-      }) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org", "@type": "ItemList",
-        "name": "阿联酋摄影摄像服务地区 — Backyard Studio Official",
-        "itemListElement": LOCATIONS.map((loc, i) => ({
-          "@type": "ListItem", "position": i + 1,
-          "name": `${loc.city} (${loc.en})`,
-          "url": `https://www.backyardstudioofficial.com/locations/${loc.en.toLowerCase().replace(/ /g, "-")}`,
-        })),
-      }) }} />
-      <section style={{ background: "#111", padding: "4rem 2rem 3rem", textAlign: "center" }}>
-        <h1 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>
-          服务地区
-        </h1>
-        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", maxWidth: "500px", margin: "0 auto", lineHeight: 1.8 }}>
-          覆盖阿联酋全境七个酋长国，随时为您提供专业摄影摄像服务。
-        </p>
-      </section>
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": LOCATIONS_FAQS.map((f) => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a },
+    })),
+  };
 
-      <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "1.5rem" }}>
-          {LOCATIONS.map((loc) => (
-            <div key={loc.city} style={{ background: "#111", border: "1px solid rgba(212,175,55,0.15)", borderRadius: "4px", padding: "1.75rem" }}>
-              <div style={{ fontSize: "2rem", marginBottom: "0.75rem" }}>{loc.icon}</div>
-              <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.125rem", marginBottom: "0.25rem" }}>{loc.city}</h2>
-              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(212,175,55,0.6)", fontSize: "0.8rem", marginBottom: "0.75rem" }}>{loc.en}</p>
-              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.65)", lineHeight: 1.8, fontSize: "0.875rem" }}>{loc.desc}</p>
-            </div>
+  return (
+    <div style={{ fontFamily: "'Noto Sans SC', sans-serif", paddingTop: "6rem" }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+
+      {/* Hero */}
+      <div style={{ background: "#111", padding: "4rem 2rem", textAlign: "center" as const, borderBottom: "1px solid #2a2a2a" }}>
+        <p style={{ color: "rgba(212,175,55,0.8)", fontSize: "0.7rem", letterSpacing: "0.3em", marginBottom: "0.75rem", textTransform: "uppercase" as const }}>全国覆盖</p>
+        <h1 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "clamp(2.5rem,8vw,5rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>阿联酋全境服务</h1>
+        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.5)", maxWidth: "480px", margin: "0 auto", lineHeight: 1.8, fontSize: "0.9rem" }}>
+          覆盖阿联酋全部7个酋长国——每座城市、每个社区、每一种创意愿景。
+        </p>
+      </div>
+
+      {/* Grid */}
+      <section style={{ padding: "4rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "1200px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "1.25rem" }}>
+          {EMIRATES.map((e) => (
+            <a key={e.slug} href={`/locations/${e.slug}`} style={{ display: "block", border: "1px solid #2a2a2a", borderRadius: "2px", overflow: "hidden", background: "#1a1a1a", textDecoration: "none" }}>
+              <div style={{ position: "relative", aspectRatio: "16/9", overflow: "hidden" }}>
+                <img src={e.image} alt={`${e.name}视频制作`} style={{ width: "100%", height: "100%", objectFit: "cover" as const, display: "block" }} loading="lazy" />
+                <div style={{ position: "absolute", inset: 0, background: "rgba(0,0,0,0.4)" }} />
+                <div style={{ position: "absolute", bottom: "0.75rem", left: "0.75rem" }}>
+                  <span style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "0.65rem", fontWeight: 700, color: "var(--gold)", background: "rgba(0,0,0,0.7)", padding: "0.2rem 0.5rem", borderRadius: "2px" }}>{e.areas}+ 区域</span>
+                </div>
+              </div>
+              <div style={{ padding: "1rem" }}>
+                <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, marginBottom: "0.4rem", fontSize: "0.95rem" }}>{e.name}</h2>
+                <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.4)", fontSize: "0.75rem", lineHeight: 1.6, margin: 0 }}>{e.desc}</p>
+              </div>
+            </a>
           ))}
         </div>
       </section>
 
-      <section style={{ background: "#111", padding: "4rem 2rem", textAlign: "center" }}>
-        <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "1.25rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1rem" }}>
-          您的项目在哪里？我们来找您
-        </h2>
-        <a href="/zh/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700 }}>
-          预约上门拍摄
-        </a>
-      </section>
-    
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "你们覆盖阿联酋哪些地区？",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "我们为阿联酋全部七个酋长国提供拍摄服务：迪拜（Dubai）、阿布扎比（Abu Dhabi）、沙迦（Sharjah）、阿治曼（Ajman）、哈伊马角（Ras Al Khaimah）、富查伊拉（Fujairah）和乌姆盖万（Umm Al Quwain）。我们熟悉每个酋长国的主要拍摄地点、许可要求和最佳拍摄条件。"
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "迪拜最佳摄影摄像地点有哪些？",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "迪拜提供无与伦比的拍摄背景选择：哈利法塔和迪拜市中心为城市大片提供标志性天际线；棕榈岛和蓝水岛为海滨拍摄提供奢华背景；迪拜溪畔和历史城区为文化类内容提供地道的阿拉伯氛围；沙漠地区（Al Qudra）在金黄日落下提供梦幻沙漠背景；迪拜设计区（d3）和DIFC为时尚和企业拍摄提供现代建筑背景。"
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "在阿联酋拍摄需要获得许可吗？",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "是的，在迪拜的某些公共区域拍摄需要获得相关部门的许可，包括迪拜旅游局（DTCM）和迪拜媒体城等机构的拍摄许可。无人机拍摄必须获得GCAA的飞行计划批准。我们作为专业制作公司，会处理所有必要的拍摄许可申请，让您无需操心行政手续。"
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "你们是否为海湾地区以外的项目提供服务？",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "我们主要在阿联酋及海湾合作委员会（GCC）国家运营，包括沙特阿拉伯、科威特、卡塔尔、巴林和阿曼。对于阿联酋以外的项目，我们可以提供完整的外景拍摄服务，差旅和住宿费用根据项目情况另行报价。"
-                }
-              },
-        ],
-      }) }} />
-
-      <section style={{ padding: "4rem 2rem 5rem", background: "#0d0d0d" }}>
-        <div style={{ maxWidth: "780px", margin: "0 auto" }}>
-          <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "2rem", textAlign: "center" }}>
-            常见问题解答
-          </h2>
-          <div style={{ display: "flex", flexDirection: "column" }}>
-
-            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
-              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
-                你们覆盖阿联酋哪些地区？
-              </h3>
-              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
-                我们为阿联酋全部七个酋长国提供拍摄服务：迪拜（Dubai）、阿布扎比（Abu Dhabi）、沙迦（Sharjah）、阿治曼（Ajman）、哈伊马角（Ras Al Khaimah）、富查伊拉（Fujairah）和乌姆盖万（Umm Al Quwain）。我们熟悉每个酋长国的主要拍摄地点、许可要求和最佳拍摄条件。
-              </p>
-            </div>
-            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
-              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
-                迪拜最佳摄影摄像地点有哪些？
-              </h3>
-              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
-                迪拜提供无与伦比的拍摄背景选择：哈利法塔和迪拜市中心为城市大片提供标志性天际线；棕榈岛和蓝水岛为海滨拍摄提供奢华背景；迪拜溪畔和历史城区为文化类内容提供地道的阿拉伯氛围；沙漠地区（Al Qudra）在金黄日落下提供梦幻沙漠背景；迪拜设计区（d3）和DIFC为时尚和企业拍摄提供现代建筑背景。
-              </p>
-            </div>
-            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
-              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
-                在阿联酋拍摄需要获得许可吗？
-              </h3>
-              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
-                是的，在迪拜的某些公共区域拍摄需要获得相关部门的许可，包括迪拜旅游局（DTCM）和迪拜媒体城等机构的拍摄许可。无人机拍摄必须获得GCAA的飞行计划批准。我们作为专业制作公司，会处理所有必要的拍摄许可申请，让您无需操心行政手续。
-              </p>
-            </div>
-            <div style={{ borderBottom: "1px solid rgba(212,175,55,0.1)", paddingBottom: "1.5rem", marginBottom: "1.5rem" }}>
-              <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem", cursor: "pointer" }}>
-                你们是否为海湾地区以外的项目提供服务？
-              </h3>
-              <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.9rem", margin: 0 }}>
-                我们主要在阿联酋及海湾合作委员会（GCC）国家运营，包括沙特阿拉伯、科威特、卡塔尔、巴林和阿曼。对于阿联酋以外的项目，我们可以提供完整的外景拍摄服务，差旅和住宿费用根据项目情况另行报价。
-              </p>
-            </div>
+      {/* FAQ */}
+      <section style={{ padding: "4rem 2rem", borderTop: "1px solid #2a2a2a", background: "var(--ink)" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "clamp(1.5rem,4vw,2.5rem)", fontWeight: 900, color: "var(--cream)", textAlign: "center" as const, marginBottom: "2.5rem" }}>服务覆盖常见问题</h2>
+          <div style={{ display: "flex", flexDirection: "column" as const, gap: "1.25rem" }}>
+            {LOCATIONS_FAQS.map((faq) => (
+              <div key={faq.q} style={{ borderBottom: "1px solid #2a2a2a", paddingBottom: "1.25rem" }}>
+                <h3 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "0.9rem", marginBottom: "0.5rem" }}>{faq.q}</h3>
+                <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.55)", fontSize: "0.85rem", lineHeight: 1.8, margin: 0 }}>{faq.a}</p>
+              </div>
+            ))}
+          </div>
+          <div style={{ textAlign: "center" as const, marginTop: "2.5rem" }}>
+            <a href="/zh/contact" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700, borderRadius: "2px", textDecoration: "none", fontSize: "0.9rem" }}>获取全阿联酋报价 →</a>
           </div>
         </div>
       </section>
-
-      <section style={{ padding: "3rem 2rem", background: "#111", textAlign: "center" }}>
-        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", marginBottom: "0.5rem", fontSize: "0.9rem" }}>
-          还有疑问？我们提供中文服务，随时为您解答。
-        </p>
-        <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "1rem" }}>
-          WhatsApp: +971 58 588 2685 · 工作日2小时内回复
-        </p>
-        <a href="/zh/contact" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.75rem 2rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700, fontSize: "0.95rem" }}>
-          获取免费报价
-        </a>
-      </section>
-    </>
+    </div>
   );
 }
