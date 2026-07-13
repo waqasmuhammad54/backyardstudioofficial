@@ -516,6 +516,38 @@ URLS = [
     f"https://{HOST}/blog/cost-video-production-dubai-2026",
     f"https://{HOST}/blog/how-to-choose-production-company-uae-2026",
     f"https://{HOST}/blog/wedding-photography-abu-dhabi-2026",
+
+    # Sprint 31E: AR/RU/ZH services/[slug] pages (29 slugs x 3 languages)
+    *[f"https://{HOST}/ar/services/{s}" for s in [
+        "event-shoots","event-video-editing","dvcs","reels","photo-shoots",
+        "social-media-content","testimonial-videos","ads-shooting","aerial-drone","corporate-films",
+        "social-media-shoots","automotive","real-estate","corporate-videography","podcast",
+        "youtube-content","event-videography","food","product-shoots","fashion-shoots",
+        "travel-lifestyle","tv-commercials","car-commercials","corporate-brand-films","documentary",
+        "hotel-photography","reels-production","brand-events","pre-post-production",
+    ]],
+    *[f"https://{HOST}/ru/services/{s}" for s in [
+        "event-shoots","event-video-editing","dvcs","reels","photo-shoots",
+        "social-media-content","testimonial-videos","ads-shooting","aerial-drone","corporate-films",
+        "social-media-shoots","automotive","real-estate","corporate-videography","podcast",
+        "youtube-content","event-videography","food","product-shoots","fashion-shoots",
+        "travel-lifestyle","tv-commercials","car-commercials","corporate-brand-films","documentary",
+        "hotel-photography","reels-production","brand-events","pre-post-production",
+    ]],
+    *[f"https://{HOST}/zh/services/{s}" for s in [
+        "event-shoots","event-video-editing","dvcs","reels","photo-shoots",
+        "social-media-content","testimonial-videos","ads-shooting","aerial-drone","corporate-films",
+        "social-media-shoots","automotive","real-estate","corporate-videography","podcast",
+        "youtube-content","event-videography","food","product-shoots","fashion-shoots",
+        "travel-lifestyle","tv-commercials","car-commercials","corporate-brand-films","documentary",
+        "hotel-photography","reels-production","brand-events","pre-post-production",
+    ]],
+
+    # Sprint 32A: Wedding pricing update (EN + AR + RU + ZH pricing pages)
+    f"https://{HOST}/pricing",
+    f"https://{HOST}/ar/pricing",
+    f"https://{HOST}/ru/pricing",
+    f"https://{HOST}/zh/pricing",
 ]
 
 
@@ -536,4 +568,11 @@ def submit_to_indexnow(urls, batch_size=50):
         )
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
-             
+                print(f"Batch {i // batch_size + 1}: {resp.status} {resp.reason} ({len(batch)} URLs)")
+        except Exception as e:
+            print(f"Batch {i // batch_size + 1} error: {e}")
+
+
+if __name__ == "__main__":
+    print(f"Submitting {len(URLS)} URLs to IndexNow...")
+    submit_to_indexnow(URLS)

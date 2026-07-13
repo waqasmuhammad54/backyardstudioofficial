@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Clock, ArrowRight } from "lucide-react";
 import { BLOG_POSTS, CATEGORY_SLUGS, CATEGORY_META } from "@/lib/blogPosts";
+import { getDynamicPosts } from "@/lib/dynamicPosts";
 import { breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
@@ -43,8 +44,9 @@ const HUB_CATEGORIES = CATEGORY_SLUGS.map((slug) => ({
 }));
 
 export default function BlogPage() {
-  const featured = BLOG_POSTS[0];
-  const rest = BLOG_POSTS.slice(1);
+  const allPosts = [...getDynamicPosts().reverse(), ...BLOG_POSTS];
+  const featured = allPosts[0];
+  const rest = allPosts.slice(1);
 
   return (
     <div className="pt-24">

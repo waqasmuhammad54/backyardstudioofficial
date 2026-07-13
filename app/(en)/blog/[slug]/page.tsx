@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Clock, Calendar, Share2 } from "lucide-react";
 import { BLOG_POSTS, getBlogPost, getRelatedPosts } from "@/lib/blogPosts";
+import { getDynamicPost, getDynamicPosts } from "@/lib/dynamicPosts";
 import { faqSchema, articleSchema, breadcrumbSchema, speakableSchema } from "@/lib/structuredData";
 
 const BASE = "https://www.backyardstudioofficial.com";
@@ -47,9 +48,9 @@ const UAE_CITIES = [
   { slug: "umm-al-quwain",   label: "Umm Al Quwain" },
 ];
 
-
 export function generateStaticParams() {
-  return BLOG_POSTS.map((post) => ({ slug: post.slug }));
+  const dynamic = getDynamicPosts();
+  return [...BLOG_POSTS, ...dynamic].map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({
@@ -57,7 +58,7 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
-  const post = getBlogPost(params.slug);
+  const post = getBlogPost(params.slug) ?? getDynamicPost(params.slug);
   if (!post) return { title: "Article Not Found" };
   // Enforce ≤55 char title: use first segment before " | ", add brand if fits
   const firstSeg = post.metaTitle.split(" | ")[0];
@@ -90,7 +91,7 @@ export async function generateMetadata({
 }
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = getBlogPost(params.slug);
+  const post = getBlogPost(params.slug) ?? getDynamicPost(params.slug);
   if (!post) notFound();
 
   const related = getRelatedPosts(post.relatedSlugs);
@@ -246,7 +247,6 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   </div>
                 </div>
               )}
-
 
               {locationServiceSlug && (
                 <div className="p-6 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm">
