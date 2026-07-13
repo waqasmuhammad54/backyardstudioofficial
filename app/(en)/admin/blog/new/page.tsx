@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 const INPUT: React.CSSProperties = {
   width: "100%", boxSizing: "border-box", padding: "10px 14px",
@@ -86,6 +86,8 @@ export default function BlogNewPage() {
   const [faqs, setFaqs] = useState<FAQ[]>([{ question: "", answer: "" }]);
   const [status, setStatus] = useState<"idle" | "loading" | "ok" | "err">("idle");
   const [msg, setMsg] = useState("");
+  const [uploading, setUploading] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   // Check auth on mount by pinging an existing admin API
   useState(() => {
@@ -101,6 +103,42 @@ export default function BlogNewPage() {
     updated[i] = { ...updated[i], [field]: val };
     setFaqs(updated);
   };
+
+  async function handleImageUpload(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    setUploading(true);
+    setMsg("");
+
+    const base64 = await new Promise<string>((resolve) => {
+      const reader = new FileReader();
+      reader.onload = () => {
+        const result = reader.result as string;
+        resolve(result.split(",")[1]);
+      };
+      reader.readAsDataURL(file);
+    });
+
+    const res = await fetch("/api/admin/upload-image", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ filename: file.name, content: base64 }),
+    });
+
+    setUploading(false);
+    if (fileInputRef.current) fileInputRef.current.value = "";
+
+    if (res.ok) {
+      const { path } = await res.json();
+      setImage(path);
+      setStatus("ok");
+      setMsg(`✓ Image uploaded — path set to ${path}. It will appear on the post after Vercel rebuilds (~60s).`);
+    } else {
+      const body = await res.json().catch(() => ({}));
+      setStatus("err");
+      setMsg(body.error || "Image upload failed. Check GITHUB_TOKEN in Vercel.");
+    }
+  }
 
   async function handlePublish() {
     if (!title || !metaTitle || !metaDesc || !content) {
@@ -206,11 +244,46 @@ export default function BlogNewPage() {
         ))}
       </div>
 
-      {/* Image */}
+      {/* Hero Image */}
       <div style={F}>
-        <label style={LABEL}>Hero Image Path</label>
-        <input style={INPUT} value={image} onChange={(e) => setImage(e.target.value)} placeholder="/images/creative/creative-04.webp" />
-        <p style={{ fontSize: 11, color: "#555", marginTop: 4 }}>Use an existing /images/ path. Default works fine if unsure.</p>
+        <label style={LABEL}>Hero Image</label>
+        <div style={{ display: "flex", gap: 8, alignItems: "stretch" }}>
+          <input
+            style={{ ...INPUT, flex: 1 }}
+            value={image}
+            onChange={(e) => setImage(e.target.value)}
+            placeholder="/images/blog/my-photo.webp"
+          />
+          <button
+            type="button"
+            onClick={() => fileInputRef.current?.click()}
+            disabled={uploading}
+            style={{
+              padding: "10px 18px",
+              background: uploading ? "#1a1a1a" : "#e8c547",
+              border: "none",
+              borderRadius: 4,
+              color: uploading ? "#555" : "#0a0a0a",
+              cursor: uploading ? "not-allowed" : "pointer",
+              fontSize: 13,
+              fontWeight: 700,
+              whiteSpace: "nowrap",
+              flexShrink: 0,
+            }}
+          >
+            {uploading ? "Uploading…" : "Upload Image"}
+          </button>
+        </div>
+        <input
+          ref={fileInputRef}
+          type="file"
+          accept="image/webp,image/jpeg,image/jpg,image/png"
+          style={{ display: "none" }}
+          onChange={handleImageUpload}
+        />
+        <p style={{ fontSize: 11, color: "#555", marginTop: 6 }}>
+          Upload a new image (WebP or JPEG · 1200×630px · under 300KB) — or type an existing /images/ path.
+        </p>
       </div>
 
       {/* Excerpt */}
@@ -230,49 +303,4 @@ export default function BlogNewPage() {
           value={content} onChange={(e) => setContent(e.target.value)}
           placeholder={"## Introduction\n\nWrite your intro paragraph here.\n\n## Section 2\n\nNext section."}
         />
-        <p style={{ fontSize: 11, color: "#555", marginTop: 4 }}>{content.split(/\s+/).filter(Boolean).length} words</p>
-      </div>
-
-      {/* FAQs */}
-      <div style={F}>
-        <label style={{ ...LABEL, marginBottom: 12 }}>FAQs</label>
-        {faqs.map((faq, i) => (
-          <div key={i} style={{ background: "#111", border: "1px solid #2a2a2a", borderRadius: 4, padding: 16, marginBottom: 12 }}>
-            <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 8 }}>
-              <span style={{ fontSize: 11, color: "#555", fontWeight: 700 }}>FAQ {i + 1}</span>
-              {faqs.length > 1 && <button onClick={() => removeFaq(i)} style={{ background: "none", border: "none", color: "#e55", cursor: "pointer", fontSize: 12 }}>Remove</button>}
-            </div>
-            <input style={{ ...INPUT, marginBottom: 8 }} value={faq.question} onChange={(e) => updateFaq(i, "question", e.target.value)} placeholder="Question" />
-            <textarea style={{ ...INPUT, resize: "vertical", minHeight: 60 }} value={faq.answer} onChange={(e) => updateFaq(i, "answer", e.target.value)} placeholder="Answer" />
-          </div>
-        ))}
-        <button onClick={addFaq}
-          style={{ background: "none", border: "1px solid #333", color: "#888", padding: "8px 16px", borderRadius: 4, cursor: "pointer", fontSize: 13 }}>
-          + Add FAQ
-        </button>
-      </div>
-
-      {/* Status message */}
-      {msg && (
-        <div style={{
-          padding: "12px 16px", borderRadius: 4, marginBottom: 20,
-          background: status === "ok" ? "#0a2a0a" : status === "err" ? "#2a0a0a" : "#1a1a0a",
-          border: `1px solid ${status === "ok" ? "#1a5a1a" : status === "err" ? "#5a1a1a" : "#3a3a0a"}`,
-          color: status === "ok" ? "#4caf50" : status === "err" ? "#e55" : "#e8c547", fontSize: 13,
-        }}>
-          {msg}
-        </div>
-      )}
-
-      {/* Publish */}
-      <button onClick={handlePublish} disabled={status === "loading"}
-        style={{
-          width: "100%", padding: "14px 0", background: "#e8c547", color: "#0a0a0a",
-          border: "none", borderRadius: 4, fontWeight: 700, fontSize: 15,
-          cursor: status === "loading" ? "not-allowed" : "pointer", opacity: status === "loading" ? 0.7 : 1,
-        }}>
-        {status === "loading" ? "Publishing..." : "Publish Post →"}
-      </button>
-    </div>
-  );
-}
+        <p style={{ fontSi
