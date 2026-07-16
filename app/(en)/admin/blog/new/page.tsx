@@ -363,9 +363,12 @@ export default function BlogNewPage() {
       reader.readAsDataURL(file);
     });
 
+    const uploadHeaders: Record<string, string> = { "Content-Type": "application/json" };
+    if (authedToken) uploadHeaders["Authorization"] = `Bearer ${authedToken}`;
     const res = await fetch("/api/admin/upload-image", {
       method: "POST",
-      headers: { "Content-Type": "application/json", Authorization: `Bearer ${authedToken}` },
+      credentials: "include",
+      headers: uploadHeaders,
       body: JSON.stringify({ filename: file.name, content: base64 }),
     });
 
