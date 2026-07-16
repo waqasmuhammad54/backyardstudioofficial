@@ -11,7 +11,7 @@ import BlogPreview from "@/components/home/BlogPreview";
 import GalleryStrip from "@/components/home/GalleryStrip";
 import ContactSection from "@/components/home/ContactSection";
 import Link from "next/link";
-import { faqSchema, itemListSchema, personSchema, organizationSchema, localBusinessSchema } from "@/lib/structuredData";
+import { faqSchema, itemListSchema, personSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Best Production Company in Dubai | Backyard Studio Official",
@@ -108,15 +108,6 @@ const HOME_SERVICES_LIST = [
 export default function HomePage() {
   return (
     <>
-      {/* LocalBusiness + Organization — Knowledge Panel + AI Overview entity signals */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema()) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema()) }}
-      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(HOME_FAQS)) }}

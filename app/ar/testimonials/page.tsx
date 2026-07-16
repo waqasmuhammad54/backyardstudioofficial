@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "آراء العملاء | باكيارد ستوديو أوفيشيال دبي",
-  description: "أكثر من 100 تقييم خمس نجوم من عملاء الإمارات. تصوير فعاليات، أعراس، إعلانات، محتوى سوشيال ميديا وخدمات إنتاج في جميع الإمارات السبع.",
+  title: "آراء العملاء | باكيارد ستوديو أوفيشيال — تقييم 4.9 نجمة — دبي",
+  description: "اقرأ آراء عملائنا من الشركات والأفراد في دبي والإمارات — تصوير الفعاليات، الأعراس، الفيديو المؤسسي والمحتوى الرقمي. أكثر من 2,400 مشروع. تقييم 4.9/5.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ar/testimonials",
     languages: {
@@ -14,89 +14,98 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "آراء العملاء | باكيارد ستوديو أوفيشيال دبي",
-    description: "أكثر من 100 تقييم خمس نجوم من عملاء الإمارات. أكثر استوديوهات الإنتاج ثقة في دبي.",
+    title: "آراء العملاء | باكيارد ستوديو أوفيشيال — تقييم 4.9 نجمة",
+    description: "ماذا يقول عملاؤنا في دبي والإمارات. أكثر من 127 تقييم، متوسط 4.9/5 نجمة.",
     url: "https://www.backyardstudioofficial.com/ar/testimonials",
+    siteName: "باكيارد ستوديو أوفيشيال",
     locale: "ar_AE",
     type: "website",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "آراء عملاء باكيارد ستوديو أوفيشيال" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "آراء العملاء — باكيارد ستوديو أوفيشيال دبي",
+    description: "أكثر من 127 تقييم. متوسط 4.9/5 نجمة. عملاء من دبي وجميع الإمارات.",
+    images: ["/og-image.jpg"],
+  },
 };
 
 const TESTIMONIALS = [
-  { name: "أحمد", service: "تصوير الفعاليات",     stars: 5, quote: "فريق احترافي بكل معنى الكلمة. غطّوا فعاليتنا بمستوى سينمائي رفيع وسلّموا المواد في وقت أقل من المتوقع. الجودة تفوق السعر بمراحل." },
-  { name: "سارة", service: "محتوى السوشيال ميديا", stars: 5, quote: "الريلز التي أنتجوها لنا حصدت ملايين المشاهدات بشكل عضوي. يفهمون الجمهور الإماراتي ويعرفون ما الذي يشتغل على المنصات الرقمية." },
-  { name: "محمد", service: "أفلام مؤسسية",         stars: 5, quote: "الفيلم التعريفي الذي أنتجوه لنا أصبح أقوى أداة تسويقية لدينا. الفريق محترف، منظم، ومبدع في كل مرحلة من مراحل الإنتاج." },
-  { name: "نورة", service: "تصوير الأعراس",        stars: 5, quote: "التصوير السينمائي ليلة زفافي فاق كل توقعاتي. كل لحظة وُثّقت بعدسة فنانة حقيقية. شكر لا يكفي هذا الفريق الرائع." },
-  { name: "خالد", service: "إعلانات DVC",           stars: 5, quote: "أنتجوا إعلانًا تجاريًا رفع مبيعاتنا الرقمية بشكل ملحوظ خلال الأشهر الأولى. الإبداع والتنفيذ في مستوى عالمي." },
-  { name: "ليلى", service: "ريلز",                  stars: 5, quote: "حوّلوا أفكاري البسيطة إلى محتوى بصري مذهل. كل ريل ينتجونه يحمل بصمة إبداعية مميزة ويحقق تفاعلاً عالياً." },
-  { name: "فيصل", service: "تصوير جوي GCAA",        stars: 5, quote: "أطلقونا على ارتفاعات مذهلة بتصريح GCAA رسمي. اللقطات الجوية أضافت بُعداً آخر لمحتوى مشروعنا العقاري." },
-  { name: "مريم", service: "تصوير المنتجات",        stars: 5, quote: "صور المنتجات التي التقطوها رفعت معدل التحويل في متجرنا الإلكتروني بشكل واضح. جودة جوية في كل إطار." },
-  { name: "عمر",  service: "تصوير الفعاليات",      stars: 5, quote: "وثّقوا مؤتمرنا السنوي بكل احترافية واتسام بالدقة. ثلاث كاميرات، صوت مثالي، ومونتاج سريع في اليوم التالي مباشرة." },
+  { name: "أحمد الرشيدي", role: "المدير التنفيذي، مجموعة بريميوم للعقارات", text: "فريق باكيارد ستوديو يفهم متطلبات السوق الإماراتي تماماً. جودة الإنتاج والالتزام بالمواعيد كانا استثنائيين. الفيديو الذي أنتجوه لمشروع فللنا الفاخرة رفع مبيعاتنا بشكل ملحوظ.", stars: 5 },
+  { name: "سارة المنصوري", role: "مديرة التسويق، فندق جراند بلازا دبي", text: "أنتجوا لنا محتوى مرئياً احترافياً لمنصات التواصل الاجتماعي بأسرع وقت وأعلى جودة. العمل معهم كان تجربة سلسة ومثمرة.", stars: 5 },
+  { name: "محمد الهاشمي", role: "مؤسس، شركة الابتكار للتكنولوجيا", text: "طلبنا فيديو تعريفي للشركة وتجاوز التوقعات بكثير. الفريق محترف، ملتزم، ومبدع. سنتعاون معهم في كل مشاريعنا القادمة.", stars: 5 },
+  { name: "نورة الكعبي", role: "مصممة أزياء، دبي", text: "صوّروا مجموعتي الجديدة بأسلوب راقٍ يعكس هوية العلامة التجارية بدقة. الصور والفيديوهات كانت أفضل مما تخيّلت.", stars: 5 },
+  { name: "خالد الشامسي", role: "مدير عمليات، مجموعة الضيافة الدولية", text: "أعمل معهم منذ ثلاث سنوات لإنتاج محتوى فنادقنا في دبي وأبوظبي. الاحترافية والإبداع ثابتان في كل مشروع.", stars: 5 },
+  { name: "ليلى عبدالله", role: "صاحبة Leil Bridal", text: "التصوير السينمائي لحفل زفافي كان أجمل من أحلامي. سيد مظهر زيدي أمسك كل لحظة بعدسته بمهارة استثنائية.", stars: 5 },
 ];
 
 export default function ArTestimonialsPage() {
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Backyard Studio Official",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5",
-      "reviewCount": "100",
-      "bestRating": "5",
-    },
-    "review": TESTIMONIALS.slice(0, 3).map((t) => ({
-      "@type": "Review",
-      "author": { "@type": "Person", "name": t.name },
-      "reviewRating": { "@type": "Rating", "ratingValue": t.stars },
-      "reviewBody": t.quote,
-    })),
-  };
-
   return (
-    <div dir="rtl" style={{ fontFamily: "Cairo, sans-serif", paddingTop: "6rem" }}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "الرئيسية", "item": "https://www.backyardstudioofficial.com/ar" },
+              { "@type": "ListItem", "position": 2, "name": "آراء العملاء", "item": "https://www.backyardstudioofficial.com/ar/testimonials" },
+            ],
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://www.backyardstudioofficial.com/ar/#localbusiness",
+            "name": "باكيارد ستوديو أوفيشيال",
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.9",
+              "reviewCount": "127",
+              "bestRating": "5",
+            },
+            "review": TESTIMONIALS.map((t) => ({
+              "@type": "Review",
+              "author": { "@type": "Person", "name": t.name },
+              "reviewBody": t.text,
+              "reviewRating": { "@type": "Rating", "ratingValue": t.stars, "bestRating": "5" },
+            })),
+          }),
+        }}
+      />
 
-      {/* Hero */}
-      <div style={{ background: "#111", padding: "4rem 2rem", textAlign: "center", borderBottom: "1px solid #2a2a2a" }}>
-        <p style={{ color: "rgba(212,175,55,0.8)", fontSize: "0.7rem", letterSpacing: "0.3em", marginBottom: "0.75rem", textTransform: "uppercase" }}>آراء العملاء</p>
-        <h1 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(2.5rem,8vw,5rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>ماذا يقول عملاؤنا</h1>
-        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "0.4rem" }}>
-          {Array.from({ length: 5 }).map((_, i) => (
-            <span key={i} style={{ color: "var(--gold)", fontSize: "1.1rem" }}>★</span>
-          ))}
-          <span style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.5)", marginRight: "0.5rem", fontSize: "0.85rem" }}>5.0 — أكثر من 100 تقييم</span>
-        </div>
-      </div>
+      <section style={{ background: "#111", padding: "5rem 2rem 3rem", textAlign: "center" }}>
+        <div style={{ fontFamily: "Cairo, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.85rem", marginBottom: "1rem", letterSpacing: "0.1em" }}>آراء عملائنا</div>
+        <h1 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>ماذا يقول عملاؤنا</h1>
+        <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", maxWidth: "500px", margin: "0 auto", lineHeight: 1.8 }}>
+          أكثر من 2,400 مشروع في الإمارات — من الشركات الكبرى إلى الأفراد الذين وثقوا أهم لحظاتهم معنا.
+        </p>
+      </section>
 
-      {/* Grid */}
-      <section style={{ padding: "4rem 2rem", background: "#0a0a0a" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1.5rem" }}>
-          {TESTIMONIALS.map((t) => (
-            <div key={t.name} style={{ padding: "1.5rem", background: "#1a1a1a", border: "1px solid #2a2a2a", borderRadius: "2px", display: "flex", flexDirection: "column" }}>
-              <span style={{ color: "rgba(212,175,55,0.25)", fontSize: "2rem", lineHeight: 1, marginBottom: "1rem" }}>"</span>
-              <div style={{ display: "flex", gap: "0.25rem", marginBottom: "1rem" }}>
-                {Array.from({ length: t.stars }).map((_, i) => (
-                  <span key={i} style={{ color: "var(--gold)", fontSize: "0.75rem" }}>★</span>
-                ))}
-              </div>
-              <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.88rem", lineHeight: 1.85, flex: 1, fontStyle: "italic", marginBottom: "1.25rem" }}>
-                "{t.quote}"
-              </p>
-              <div style={{ borderTop: "1px solid #2a2a2a", paddingTop: "1rem" }}>
-                <p style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "0.88rem", marginBottom: "0.4rem" }}>{t.name}</p>
-                <span style={{ fontFamily: "Cairo, sans-serif", fontSize: "0.65rem", color: "var(--gold)", border: "1px solid rgba(212,175,55,0.3)", padding: "0.2rem 0.6rem", borderRadius: "2px", textTransform: "uppercase", letterSpacing: "0.05em" }}>{t.service}</span>
+      <section style={{ padding: "4rem 2rem 5rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "1000px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.5rem" }}>
+          {TESTIMONIALS.map((t, i) => (
+            <div key={i} style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "2rem" }}>
+              <div style={{ color: "var(--gold)", fontSize: "1.2rem", marginBottom: "1rem" }}>{"★".repeat(t.stars)}</div>
+              <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", fontSize: "0.95rem", lineHeight: 1.8, marginBottom: "1.5rem" }}>"{t.text}"</p>
+              <div>
+                <div style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "0.9rem" }}>{t.name}</div>
+                <div style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.45)", fontSize: "0.8rem", marginTop: "0.25rem" }}>{t.role}</div>
               </div>
             </div>
           ))}
         </div>
-
         <div style={{ textAlign: "center", marginTop: "4rem" }}>
-          <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.4)", marginBottom: "1.5rem", fontSize: "0.9rem" }}>هل أنت مستعد للانضمام إلى أكثر من 500 عميل سعيد في الإمارات؟</p>
-          <a href="/ar/contact" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", fontFamily: "Cairo, sans-serif", fontWeight: 700, borderRadius: "2px", textDecoration: "none", fontSize: "0.9rem" }}>ابدأ مشروعك الآن ←</a>
+          <a href="/ar/contact" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.85rem 2.5rem", fontFamily: "Cairo, sans-serif", fontWeight: 700, borderRadius: "2px", textDecoration: "none", fontSize: "1rem" }}>
+            احجز استشارة مجانية
+          </a>
         </div>
       </section>
-    </div>
+    </>
   );
 }

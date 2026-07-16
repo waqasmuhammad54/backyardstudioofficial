@@ -7,7 +7,9 @@ export function getDynamicPosts(): BlogPost[] {
     const filePath = path.join(process.cwd(), "content", "posts.json");
     if (!fs.existsSync(filePath)) return [];
     const raw = fs.readFileSync(filePath, "utf-8");
-    return JSON.parse(raw) as BlogPost[];
+    const all = JSON.parse(raw) as (BlogPost & { status?: string })[];
+    // Filter out drafts and archived posts from public listing
+    return all.filter((p) => !p.status || p.status === "published");
   } catch {
     return [];
   }

@@ -14,6 +14,7 @@ const counterColor = (len: number, max: number) =>
   len > max ? "#e55" : len >= max * 0.85 ? "#e8c547" : "#666";
 
 type FAQ = { question: string; answer: string };
+type PublishStatus = "published" | "draft";
 
 function slugify(str: string) {
   return str.toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -36,9 +37,6 @@ function textToHtml(raw: string): string {
   return html;
 }
 
-// Parse a Markdown file -- supports YAML frontmatter OR no-frontmatter format.
-// Extracts FAQs from ### Q + paragraph pairs inside FAQ section.
-// Strips schema blocks and publishing checklists from the body.
 function parseMdFile(text: string): {
   title: string; metaTitle: string; metaDesc: string; keywords: string;
   category: string; author: string; readTime: string; image: string;
@@ -54,7 +52,6 @@ function parseMdFile(text: string): {
   const meta: Record<string, string> = {};
   let bodyText = "";
 
-  // Path A: YAML frontmatter
   const fmMatch = text.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
   if (fmMatch) {
     const fmRaw = fmMatch[1];
@@ -67,7 +64,6 @@ function parseMdFile(text: string): {
       meta[key] = val;
     }
   } else {
-    // Path B: No frontmatter -- extract from H1 and bottom meta section
     bodyText = text.trim();
     const h1 = bodyText.match(/^#\s+(.+)$/m);
     if (h1) meta.title = h1[1].trim();
@@ -77,7 +73,6 @@ function parseMdFile(text: string): {
     if (md2) meta.metaDescription = md2[1].trim();
   }
 
-  // FAQ extraction: ### Q\nA pattern inside a FAQ section
   const faqs: FAQ[] = [];
   const faqSecMatch = bodyText.match(/##\s*(?:FAQ|Frequently Asked Questions)[^\n]*\n([\s\S]*?)(?=\n---|\n##\s[^#]|$)/i);
   if (faqSecMatch) {
@@ -91,7 +86,6 @@ function parseMdFile(text: string): {
     }
   }
 
-  // Strip non-content sections from body
   const cleanBody = bodyText
     .replace(/\n##\s*SCHEMA MARKUP[\s\S]*$/i, "")
     .replace(/\n###?\s*(?:Title\s*\/|Meta)\s*Options[\s\S]*$/i, "")
@@ -149,6 +143,50 @@ function LoginScreen({ onLogin }: { onLogin: () => void }) {
   );
 }
 
+/* ── Preview Modal ───────────────────────────────────────────────── */
+function PreviewModal({ title, metaTitle, metaDesc, excerpt, content, image, onClose }: {
+  title: string; metaTitle: string; metaDesc: string; excerpt: string;
+  content: string; image: string; onClose: () => void;
+}) {
+  const html = textToHtml(content);
+  return (
+    <div style={{
+      position: "fixed", inset: 0, background: "rgba(0,0,0,0.85)", zIndex: 9999,
+      overflowY: "auto", padding: "24px 16px",
+    }} onClick={(e) => e.target === e.currentTarget && onClose()}>
+      <div style={{ maxWidth: 780, margin: "0 auto", background: "#fff", borderRadius: 8, overflow: "hidden" }}>
+        {/* Toolbar */}
+        <div style={{ background: "#111", padding: "12px 20px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+          <span style={{ color: "#e8c547", fontSize: 11, fontWeight: 700, letterSpacing: "0.3em" }}>PREVIEW — How it will look</span>
+          <button onClick={onClose} style={{ background: "none", border: "1px solid #444", color: "#aaa", padding: "4px 14px", borderRadius: 4, cursor: "pointer", fontSize: 13 }}>✕ Close</button>
+        </div>
+        {/* SEO meta preview */}
+        <div style={{ background: "#f8f8f8", borderBottom: "1px solid #eee", padding: "16px 24px" }}>
+          <p style={{ color: "#1a0dab", fontSize: 18, fontWeight: 500, margin: "0 0 2px", lineHeight: 1.3 }}>{metaTitle || title}</p>
+          <p style={{ color: "#006621", fontSize: 13, margin: "0 0 4px" }}>https://backyardstudioofficial.com/blog/{slugify(title)}-2026</p>
+          <p style={{ color: "#545454", fontSize: 14, margin: 0, lineHeight: 1.4 }}>{metaDesc || excerpt}</p>
+        </div>
+        {/* Hero */}
+        {image && (
+          <div style={{ background: "#000", maxHeight: 300, overflow: "hidden" }}>
+            <img src={image} alt={title} style={{ width: "100%", objectFit: "cover", maxHeight: 300, opacity: 0.85 }} onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }} />
+          </div>
+        )}
+        {/* Content */}
+        <div style={{ padding: "32px 36px", color: "#222", fontFamily: "Georgia, serif", lineHeight: 1.7 }}>
+          <h1 style={{ fontSize: 28, fontWeight: 700, margin: "0 0 12px", lineHeight: 1.3, color: "#111" }}>{title}</h1>
+          {excerpt && <p style={{ color: "#555", fontSize: 16, margin: "0 0 24px", fontStyle: "italic" }}>{excerpt}</p>}
+          <div
+            dangerouslySetInnerHTML={{ __html: html }}
+            style={{ fontSize: 16 }}
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ── Main Page ───────────────────────────────────────────────────── */
 export default function BlogNewPage() {
   const [authed, setAuthed] = useState<boolean | null>(null);
   const [title, setTitle] = useState("");
@@ -162,10 +200,14 @@ export default function BlogNewPage() {
   const [excerpt, setExcerpt] = useState("");
   const [content, setContent] = useState("");
   const [faqs, setFaqs] = useState<FAQ[]>([{ question: "", answer: "" }]);
-  const [status, setStatus] = useState<"idle" | "loading" | "ok" | "err">("idle");
+
+  // State machine: idle | loading | published | draft_saved | error
+  const [uiState, setUiState] = useState<"idle" | "loading" | "published" | "draft_saved" | "error">("idle");
   const [msg, setMsg] = useState("");
+  const [liveSlug, setLiveSlug] = useState("");
   const [uploading, setUploading] = useState(false);
   const [mdLoaded, setMdLoaded] = useState(false);
+  const [showPreview, setShowPreview] = useState(false);
 
   const fileInputRef = useRef<HTMLInputElement>(null);
   const mdInputRef = useRef<HTMLInputElement>(null);
@@ -186,6 +228,14 @@ export default function BlogNewPage() {
     setFaqs(updated);
   };
 
+  function resetForm() {
+    setTitle(""); setMetaTitle(""); setMetaDesc(""); setKeywords("");
+    setCategory("Photography"); setAuthor("Backyard Studio Team"); setReadTime("6 min read");
+    setImage("/images/creative/creative-04.webp"); setExcerpt(""); setContent("");
+    setFaqs([{ question: "", answer: "" }]); setMdLoaded(false);
+    setUiState("idle"); setMsg(""); setLiveSlug("");
+  }
+
   function handleMdUpload(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
     if (!file) return;
@@ -205,8 +255,8 @@ export default function BlogNewPage() {
       setContent(parsed.body);
       if (parsed.faqs.length > 0) setFaqs(parsed.faqs);
       setMdLoaded(true);
-      setStatus("idle");
-      setMsg(`Loaded: "${file.name}" -- review fields below then click Publish.`);
+      setUiState("idle");
+      setMsg(`✓ Loaded "${file.name}" — review fields below, then Publish or Save as Draft.`);
     };
     reader.readAsText(file);
     if (mdInputRef.current) mdInputRef.current.value = "";
@@ -240,22 +290,22 @@ export default function BlogNewPage() {
     if (res.ok) {
       const { path } = await res.json();
       setImage(path);
-      setStatus("ok");
-      setMsg("Image uploaded to " + path + " (live after Vercel rebuilds ~60s)");
+      setMsg("✓ Image uploaded to " + path);
     } else {
       const body = await res.json().catch(() => ({}));
-      setStatus("err");
+      setUiState("error");
       setMsg(body.error || "Image upload failed.");
     }
   }
 
-  async function handlePublish() {
+  async function handleSubmit(publishStatus: PublishStatus) {
     if (!title || !metaTitle || !metaDesc || !content) {
       setMsg("Fill in title, meta title, meta description, and content."); return;
     }
     if (metaTitle.length > 55) { setMsg("Meta title must be 55 characters or fewer."); return; }
     if (metaDesc.length > 155) { setMsg("Meta description must be 155 characters or fewer."); return; }
-    setStatus("loading"); setMsg("");
+
+    setUiState("loading"); setMsg("");
 
     const today = new Date();
     const post = {
@@ -274,18 +324,52 @@ export default function BlogNewPage() {
       content: textToHtml(content),
       faqs: faqs.filter((f) => f.question && f.answer),
       relatedSlugs: [],
+      status: publishStatus,
     };
 
     const res = await fetch("/api/admin/publish", {
       method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(post),
     });
+
+    const body = await res.json().catch(() => ({}));
+
+    if (res.status === 409 && body.duplicate) {
+      // Duplicate slug — ask to overwrite
+      const confirmed = window.confirm(
+        `A post with this URL already exists:\n/blog/${slug}\n\nDo you want to overwrite (update) it?`
+      );
+      if (confirmed) {
+        const res2 = await fetch("/api/admin/publish", {
+          method: "POST", headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ ...post, overwrite: true }),
+        });
+        if (res2.ok) {
+          setLiveSlug(slug);
+          setUiState(publishStatus === "published" ? "published" : "draft_saved");
+          setMsg(publishStatus === "published"
+            ? "✓ Updated & live at /blog/" + slug
+            : "✓ Draft updated.");
+        } else {
+          const b2 = await res2.json().catch(() => ({}));
+          setUiState("error");
+          setMsg(b2.error || "Update failed.");
+        }
+      } else {
+        setUiState("idle");
+        setMsg("Not overwritten. Change the post title to create a different URL.");
+      }
+      return;
+    }
+
     if (res.ok) {
-      setStatus("ok");
-      setMsg("Published! Live at /blog/" + slug + " after Vercel deploys (~60 seconds).");
+      setLiveSlug(slug);
+      setUiState(publishStatus === "published" ? "published" : "draft_saved");
+      setMsg(publishStatus === "published"
+        ? `✓ Done — live at /blog/${slug} after Vercel deploys (~60s).`
+        : `✓ Saved as draft. Won't appear on blog until published.`);
     } else {
-      const body = await res.json().catch(() => ({}));
-      setStatus("err");
-      setMsg(body.error || "Publish failed. Check your GITHUB_TOKEN in Vercel env vars.");
+      setUiState("error");
+      setMsg(body.error || "Failed. Check GITHUB_TOKEN in Vercel env vars.");
     }
   }
 
@@ -293,221 +377,287 @@ export default function BlogNewPage() {
   if (authed === null) return <div style={{ minHeight: "100vh", background: "#0a0a0a" }} />;
 
   const F: React.CSSProperties = { marginBottom: 24 };
+  const isLocked = uiState === "published" || uiState === "draft_saved";
 
   return (
-    <div style={{ maxWidth: 820, margin: "0 auto", padding: "40px 24px 80px", background: "#0a0a0a", minHeight: "100vh" }}>
-
-      {/* Header */}
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 32 }}>
-        <div>
-          <p style={{ color: "#e8c547", fontSize: 11, fontWeight: 700, letterSpacing: "0.4em", margin: "0 0 4px" }}>BLOG ADMIN</p>
-          <h1 style={{ margin: 0, fontSize: 24, fontWeight: 700, color: "#fff" }}>New Blog Post</h1>
-        </div>
-        <a href="/admin" style={{ color: "#888", fontSize: 13, textDecoration: "none" }}>Back to CRM</a>
-      </div>
-
-      {/* QUICK UPLOAD SECTION */}
-      <div style={{
-        background: "#111", border: "1px solid #2a2a2a", borderRadius: 6,
-        padding: 24, marginBottom: 36,
-      }}>
-        <p style={{ color: "#e8c547", fontSize: 11, fontWeight: 700, letterSpacing: "0.3em", margin: "0 0 4px" }}>QUICK UPLOAD</p>
-        <p style={{ color: "#aaa", fontSize: 13, margin: "0 0 20px" }}>
-          Upload a <code style={{ color: "#e8c547" }}>.md</code> file + hero image to auto-fill the form, then click Publish.
-        </p>
-
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
-          {/* MD Upload */}
-          <div style={{ background: "#0a0a0a", border: "1px solid #333", borderRadius: 4, padding: 20, textAlign: "center" }}>
-            <div style={{ fontSize: 28, marginBottom: 8 }}>MD</div>
-            <p style={{ color: "#fff", fontSize: 13, fontWeight: 600, margin: "0 0 4px" }}>Upload .md File</p>
-            <p style={{ color: "#555", fontSize: 11, margin: "0 0 14px" }}>Auto-fills all text fields</p>
-            <button
-              type="button"
-              onClick={() => mdInputRef.current?.click()}
-              style={{
-                padding: "8px 20px", background: mdLoaded ? "#1a3a1a" : "#e8c547",
-                border: mdLoaded ? "1px solid #2a5a2a" : "none",
-                borderRadius: 4, color: mdLoaded ? "#4caf50" : "#0a0a0a",
-                cursor: "pointer", fontSize: 13, fontWeight: 700,
-              }}
-            >
-              {mdLoaded ? "MD Loaded" : "Choose .md File"}
-            </button>
-            <input ref={mdInputRef} type="file" accept=".md,.markdown" style={{ display: "none" }} onChange={handleMdUpload} />
-          </div>
-
-          {/* Image Upload */}
-          <div style={{ background: "#0a0a0a", border: "1px solid #333", borderRadius: 4, padding: 20, textAlign: "center" }}>
-            <div style={{ fontSize: 28, marginBottom: 8 }}>IMG</div>
-            <p style={{ color: "#fff", fontSize: 13, fontWeight: 600, margin: "0 0 4px" }}>Upload Hero Image</p>
-            <p style={{ color: "#555", fontSize: 11, margin: "0 0 14px" }}>WebP/JPEG, 1200x630px, under 300KB</p>
-            <button
-              type="button"
-              onClick={() => imageInputRef.current?.click()}
-              disabled={uploading}
-              style={{
-                padding: "8px 20px",
-                background: uploading ? "#1a1a1a" : "#333",
-                border: "1px solid #444",
-                borderRadius: 4, color: uploading ? "#555" : "#fff",
-                cursor: uploading ? "not-allowed" : "pointer", fontSize: 13, fontWeight: 700,
-              }}
-            >
-              {uploading ? "Uploading..." : "Choose Image"}
-            </button>
-            <input ref={imageInputRef} type="file" accept="image/webp,image/jpeg,image/jpg,image/png" style={{ display: "none" }} onChange={handleImageUpload} />
-          </div>
-        </div>
-
-        {/* MD format hint */}
-        <details style={{ marginTop: 16 }}>
-          <summary style={{ color: "#555", fontSize: 11, cursor: "pointer" }}>What should my .md file look like?</summary>
-          <pre style={{
-            marginTop: 10, padding: 14, background: "#0a0a0a", borderRadius: 4,
-            color: "#888", fontSize: 11, lineHeight: 1.7, overflowX: "auto",
-            border: "1px solid #222",
-          }}>{"---\ntitle: Event Videography UAE -- Pricing 2026\nmetaTitle: Event Videography UAE | Pricing 2026\nmetaDescription: Event videography in UAE costs AED 6,000-20,000.\nkeywords: event videography uae, event videography dubai\ncategory: Videography\nauthor: Backyard Studio Team\nreadTime: 8 min read\nexcerpt: Short preview for the blog listing page.\n---\n\n# Title Here\n\n## Quick Answer\n\nDirect answer paragraph here.\n\n## Section\n\nContent here.\n\n## Frequently Asked Questions\n\n### Question here?\n\nFull paragraph answer here.\n\n## Book Now\n\nCall +971 58 588 2685"}</pre>
-        </details>
-      </div>
-
-      {/* FORM FIELDS */}
-      <div style={{ borderTop: "1px solid #1a1a1a", paddingTop: 32 }}>
-        <p style={{ color: "#555", fontSize: 11, fontWeight: 700, letterSpacing: "0.3em", marginBottom: 24 }}>OR FILL MANUALLY</p>
-
-        {/* Title */}
-        <div style={F}>
-          <label style={LABEL}>Post Title</label>
-          <input style={INPUT} value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Best Production Companies in Dubai 2026" />
-          {title && <p style={{ fontSize: 12, color: "#555", marginTop: 4 }}>Slug: <code style={{ color: "#e8c547" }}>/blog/{slug}</code></p>}
-        </div>
-
-        {/* Meta Title */}
-        <div style={F}>
-          <label style={LABEL}>Meta Title (55 chars max)</label>
-          <input
-            style={{ ...INPUT, borderColor: metaTitle.length > 55 ? "#e55" : "#333" }}
-            value={metaTitle} onChange={(e) => setMetaTitle(e.target.value)}
-            placeholder="Production Companies Dubai 2026 | Backyard" maxLength={60}
-          />
-          <p style={{ fontSize: 11, color: counterColor(metaTitle.length, 55), textAlign: "right", marginTop: 4 }}>{metaTitle.length} / 55</p>
-        </div>
-
-        {/* Meta Description */}
-        <div style={F}>
-          <label style={LABEL}>Meta Description (155 chars max)</label>
-          <textarea
-            style={{ ...INPUT, resize: "vertical", minHeight: 72 }}
-            value={metaDesc} onChange={(e) => setMetaDesc(e.target.value)}
-            placeholder="Discover the top video production companies in Dubai for 2026..." maxLength={160}
-          />
-          <p style={{ fontSize: 11, color: counterColor(metaDesc.length, 155), textAlign: "right", marginTop: 4 }}>{metaDesc.length} / 155</p>
-        </div>
-
-        {/* Keywords */}
-        <div style={F}>
-          <label style={LABEL}>Keywords (comma-separated)</label>
-          <input style={INPUT} value={keywords} onChange={(e) => setKeywords(e.target.value)} placeholder="production company dubai, video production uae" />
-        </div>
-
-        {/* Category / Author / Read Time */}
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 16, marginBottom: 24 }}>
-          {[
-            { label: "Category", val: category, set: setCategory, ph: "Photography" },
-            { label: "Author", val: author, set: setAuthor, ph: "Backyard Studio Team" },
-            { label: "Read Time", val: readTime, set: setReadTime, ph: "6 min read" },
-          ].map(({ label, val, set, ph }) => (
-            <div key={label}>
-              <label style={LABEL}>{label}</label>
-              <input style={INPUT} value={val} onChange={(e) => set(e.target.value)} placeholder={ph} />
-            </div>
-          ))}
-        </div>
-
-        {/* Hero Image path */}
-        <div style={F}>
-          <label style={LABEL}>Hero Image Path</label>
-          <div style={{ display: "flex", gap: 8 }}>
-            <input style={{ ...INPUT, flex: 1 }} value={image} onChange={(e) => setImage(e.target.value)} placeholder="/images/blog/my-photo.webp" />
-            <button
-              type="button"
-              onClick={() => fileInputRef.current?.click()}
-              disabled={uploading}
-              style={{
-                padding: "10px 14px", background: uploading ? "#1a1a1a" : "#222",
-                border: "1px solid #444", borderRadius: 4,
-                color: uploading ? "#555" : "#e8c547",
-                cursor: uploading ? "not-allowed" : "pointer", fontSize: 12, fontWeight: 700, whiteSpace: "nowrap",
-              }}
-            >
-              {uploading ? "..." : "Upload"}
-            </button>
-          </div>
-          <input ref={fileInputRef} type="file" accept="image/webp,image/jpeg,image/jpg,image/png" style={{ display: "none" }} onChange={handleImageUpload} />
-          <p style={{ fontSize: 11, color: "#555", marginTop: 4 }}>Path auto-fills when you use Quick Upload above.</p>
-        </div>
-
-        {/* Excerpt */}
-        <div style={F}>
-          <label style={LABEL}>Excerpt (blog listing preview)</label>
-          <textarea style={{ ...INPUT, resize: "vertical", minHeight: 56 }} value={excerpt} onChange={(e) => setExcerpt(e.target.value)} />
-        </div>
-
-        {/* Content */}
-        <div style={F}>
-          <label style={LABEL}>Content</label>
-          <p style={{ fontSize: 11, color: "#555", margin: "0 0 6px" }}>
-            Plain text. <code style={{ color: "#e8c547" }}>## Heading</code> for H2. Blank line = new paragraph.
-          </p>
-          <textarea
-            style={{ ...INPUT, resize: "vertical", minHeight: 340, lineHeight: 1.8, fontSize: 13 }}
-            value={content} onChange={(e) => setContent(e.target.value)}
-            placeholder={"## Introduction\n\nWrite your intro paragraph here.\n\n## Section 2\n\nNext section."}
-          />
-          <p style={{ fontSize: 11, color: "#555", marginTop: 4 }}>{content.split(/\s+/).filter(Boolean).length} words</p>
-        </div>
-
-        {/* FAQs */}
-        <div style={F}>
-          <label style={{ ...LABEL, marginBottom: 12 }}>FAQs</label>
-          {faqs.map((faq, i) => (
-            <div key={i} style={{ background: "#111", border: "1px solid #2a2a2a", borderRadius: 4, padding: 16, marginBottom: 12 }}>
-              <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 8 }}>
-                <span style={{ fontSize: 11, color: "#555", fontWeight: 700 }}>FAQ {i + 1}</span>
-                {faqs.length > 1 && <button onClick={() => removeFaq(i)} style={{ background: "none", border: "none", color: "#e55", cursor: "pointer", fontSize: 12 }}>Remove</button>}
-              </div>
-              <input style={{ ...INPUT, marginBottom: 8 }} value={faq.question} onChange={(e) => updateFaq(i, "question", e.target.value)} placeholder="Question" />
-              <textarea style={{ ...INPUT, resize: "vertical", minHeight: 60 }} value={faq.answer} onChange={(e) => updateFaq(i, "answer", e.target.value)} placeholder="Answer" />
-            </div>
-          ))}
-          <button onClick={addFaq}
-            style={{ background: "none", border: "1px solid #333", color: "#888", padding: "8px 16px", borderRadius: 4, cursor: "pointer", fontSize: 13 }}>
-            + Add FAQ
-          </button>
-        </div>
-      </div>
-
-      {/* Status message */}
-      {msg && (
-        <div style={{
-          padding: "12px 16px", borderRadius: 4, marginBottom: 20,
-          background: status === "ok" ? "#0a2a0a" : status === "err" ? "#2a0a0a" : "#1a1a0a",
-          border: `1px solid ${status === "ok" ? "#1a5a1a" : status === "err" ? "#5a1a1a" : "#3a3a0a"}`,
-          color: status === "ok" ? "#4caf50" : status === "err" ? "#e55" : "#e8c547", fontSize: 13,
-        }}>
-          {msg}
-        </div>
+    <>
+      {showPreview && (
+        <PreviewModal
+          title={title} metaTitle={metaTitle} metaDesc={metaDesc}
+          excerpt={excerpt} content={content} image={image}
+          onClose={() => setShowPreview(false)}
+        />
       )}
 
-      {/* Publish */}
-      <button onClick={handlePublish} disabled={status === "loading"}
-        style={{
-          width: "100%", padding: "14px 0", background: "#e8c547", color: "#0a0a0a",
-          border: "none", borderRadius: 4, fontWeight: 700, fontSize: 15,
-          cursor: status === "loading" ? "not-allowed" : "pointer", opacity: status === "loading" ? 0.7 : 1,
-        }}>
-        {status === "loading" ? "Publishing..." : "Publish Post"}
-      </button>
-    </div>
+      <div style={{ maxWidth: 820, margin: "0 auto", padding: "40px 24px 80px", background: "#0a0a0a", minHeight: "100vh" }}>
+
+        {/* Header */}
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 32 }}>
+          <div>
+            <p style={{ color: "#e8c547", fontSize: 11, fontWeight: 700, letterSpacing: "0.4em", margin: "0 0 4px" }}>BLOG ADMIN</p>
+            <h1 style={{ margin: 0, fontSize: 24, fontWeight: 700, color: "#fff" }}>New Blog Post</h1>
+          </div>
+          <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
+            {title && (
+              <button
+                onClick={() => setShowPreview(true)}
+                style={{ padding: "8px 18px", background: "none", border: "1px solid #444", borderRadius: 4, color: "#aaa", cursor: "pointer", fontSize: 13, fontWeight: 600 }}>
+                👁 Preview
+              </button>
+            )}
+            <a href="/admin" style={{ color: "#888", fontSize: 13, textDecoration: "none" }}>Back to CRM</a>
+          </div>
+        </div>
+
+        {/* SUCCESS STATE */}
+        {isLocked && (
+          <div style={{
+            background: uiState === "published" ? "#0a2a0a" : "#1a1a08",
+            border: `1px solid ${uiState === "published" ? "#2a6a2a" : "#4a4a10"}`,
+            borderRadius: 8, padding: 28, marginBottom: 32, textAlign: "center",
+          }}>
+            <div style={{ fontSize: 48, marginBottom: 12 }}>{uiState === "published" ? "✅" : "📝"}</div>
+            <p style={{
+              color: uiState === "published" ? "#4caf50" : "#e8c547",
+              fontSize: 20, fontWeight: 700, margin: "0 0 8px",
+            }}>
+              {uiState === "published" ? "Done — Post is Live!" : "Saved as Draft"}
+            </p>
+            <p style={{ color: "#aaa", fontSize: 14, margin: "0 0 20px" }}>{msg}</p>
+            {uiState === "published" && liveSlug && (
+              <a
+                href={`/blog/${liveSlug}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "inline-block", padding: "10px 24px", background: "#1a3a1a",
+                  border: "1px solid #2a6a2a", borderRadius: 4, color: "#4caf50",
+                  textDecoration: "none", fontSize: 14, fontWeight: 600, marginRight: 12,
+                }}
+              >
+                View Live Post →
+              </a>
+            )}
+            <button
+              onClick={resetForm}
+              style={{
+                display: "inline-block", padding: "10px 24px", background: "#e8c547",
+                border: "none", borderRadius: 4, color: "#0a0a0a",
+                cursor: "pointer", fontSize: 14, fontWeight: 700,
+              }}
+            >
+              + Publish Another Post
+            </button>
+          </div>
+        )}
+
+        {/* QUICK UPLOAD SECTION */}
+        {!isLocked && (
+          <div style={{ background: "#111", border: "1px solid #2a2a2a", borderRadius: 6, padding: 24, marginBottom: 36 }}>
+            <p style={{ color: "#e8c547", fontSize: 11, fontWeight: 700, letterSpacing: "0.3em", margin: "0 0 4px" }}>QUICK UPLOAD</p>
+            <p style={{ color: "#aaa", fontSize: 13, margin: "0 0 20px" }}>
+              Upload a <code style={{ color: "#e8c547" }}>.md</code> file + hero image to auto-fill the form.
+            </p>
+
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
+              {/* MD Upload */}
+              <div style={{ background: "#0a0a0a", border: "1px solid #333", borderRadius: 4, padding: 20, textAlign: "center" }}>
+                <div style={{ fontSize: 28, marginBottom: 8 }}>MD</div>
+                <p style={{ color: "#fff", fontSize: 13, fontWeight: 600, margin: "0 0 4px" }}>Upload .md File</p>
+                <p style={{ color: "#555", fontSize: 11, margin: "0 0 14px" }}>Auto-fills all text fields</p>
+                <button type="button" onClick={() => mdInputRef.current?.click()}
+                  style={{
+                    padding: "8px 20px", background: mdLoaded ? "#1a3a1a" : "#e8c547",
+                    border: mdLoaded ? "1px solid #2a5a2a" : "none",
+                    borderRadius: 4, color: mdLoaded ? "#4caf50" : "#0a0a0a",
+                    cursor: "pointer", fontSize: 13, fontWeight: 700,
+                  }}>
+                  {mdLoaded ? "✓ MD Loaded" : "Choose .md File"}
+                </button>
+                <input ref={mdInputRef} type="file" accept=".md,.markdown" style={{ display: "none" }} onChange={handleMdUpload} />
+              </div>
+
+              {/* Image Upload */}
+              <div style={{ background: "#0a0a0a", border: "1px solid #333", borderRadius: 4, padding: 20, textAlign: "center" }}>
+                <div style={{ fontSize: 28, marginBottom: 8 }}>IMG</div>
+                <p style={{ color: "#fff", fontSize: 13, fontWeight: 600, margin: "0 0 4px" }}>Upload Hero Image</p>
+                <p style={{ color: "#555", fontSize: 11, margin: "0 0 14px" }}>WebP/JPEG, 1200×630px, under 300KB</p>
+                <button type="button" onClick={() => imageInputRef.current?.click()} disabled={uploading}
+                  style={{
+                    padding: "8px 20px", background: uploading ? "#1a1a1a" : "#333",
+                    border: "1px solid #444", borderRadius: 4,
+                    color: uploading ? "#555" : "#fff",
+                    cursor: uploading ? "not-allowed" : "pointer", fontSize: 13, fontWeight: 700,
+                  }}>
+                  {uploading ? "Uploading..." : "Choose Image"}
+                </button>
+                <input ref={imageInputRef} type="file" accept="image/webp,image/jpeg,image/jpg,image/png" style={{ display: "none" }} onChange={handleImageUpload} />
+              </div>
+            </div>
+
+            <details style={{ marginTop: 16 }}>
+              <summary style={{ color: "#555", fontSize: 11, cursor: "pointer" }}>What should my .md file look like?</summary>
+              <pre style={{ marginTop: 10, padding: 14, background: "#0a0a0a", borderRadius: 4, color: "#888", fontSize: 11, lineHeight: 1.7, overflowX: "auto", border: "1px solid #222" }}>
+                {"---\ntitle: Event Videography UAE -- Pricing 2026\nmetaTitle: Event Videography UAE | Pricing 2026\nmetaDescription: Event videography in UAE costs AED 3,000-20,000.\nkeywords: event videography uae, event videography dubai\ncategory: Videography\nauthor: Backyard Studio Team\nreadTime: 8 min read\nexcerpt: Short preview for the blog listing page.\n---\n\n# Title Here\n\n## Quick Answer\n\nParagraph...\n\n## Frequently Asked Questions\n\n### Question?\n\nAnswer paragraph."}
+              </pre>
+            </details>
+          </div>
+        )}
+
+        {/* Notification bar (not locked success state) */}
+        {msg && !isLocked && (
+          <div style={{
+            padding: "12px 16px", borderRadius: 4, marginBottom: 24,
+            background: uiState === "error" ? "#2a0a0a" : "#1a1a08",
+            border: `1px solid ${uiState === "error" ? "#5a1a1a" : "#3a3a10"}`,
+            color: uiState === "error" ? "#e55" : "#e8c547", fontSize: 13,
+          }}>
+            {msg}
+          </div>
+        )}
+
+        {/* FORM FIELDS */}
+        <div style={{ borderTop: "1px solid #1a1a1a", paddingTop: 32, opacity: isLocked ? 0.4 : 1, pointerEvents: isLocked ? "none" : "auto" }}>
+          <p style={{ color: "#555", fontSize: 11, fontWeight: 700, letterSpacing: "0.3em", marginBottom: 24 }}>OR FILL MANUALLY</p>
+
+          <div style={F}>
+            <label style={LABEL}>Post Title</label>
+            <input style={INPUT} value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Best Production Companies in Dubai 2026" />
+            {title && <p style={{ fontSize: 12, color: "#555", marginTop: 4 }}>Slug: <code style={{ color: "#e8c547" }}>/blog/{slug}</code></p>}
+          </div>
+
+          <div style={F}>
+            <label style={LABEL}>Meta Title (55 chars max)</label>
+            <input
+              style={{ ...INPUT, borderColor: metaTitle.length > 55 ? "#e55" : "#333" }}
+              value={metaTitle} onChange={(e) => setMetaTitle(e.target.value)}
+              placeholder="Production Companies Dubai 2026 | Backyard" maxLength={60}
+            />
+            <p style={{ fontSize: 11, color: counterColor(metaTitle.length, 55), textAlign: "right", marginTop: 4 }}>{metaTitle.length} / 55</p>
+          </div>
+
+          <div style={F}>
+            <label style={LABEL}>Meta Description (155 chars max)</label>
+            <textarea
+              style={{ ...INPUT, resize: "vertical", minHeight: 72 }}
+              value={metaDesc} onChange={(e) => setMetaDesc(e.target.value)}
+              placeholder="Discover the top video production companies in Dubai for 2026..." maxLength={160}
+            />
+            <p style={{ fontSize: 11, color: counterColor(metaDesc.length, 155), textAlign: "right", marginTop: 4 }}>{metaDesc.length} / 155</p>
+          </div>
+
+          <div style={F}>
+            <label style={LABEL}>Keywords (comma-separated)</label>
+            <input style={INPUT} value={keywords} onChange={(e) => setKeywords(e.target.value)} placeholder="production company dubai, video production uae" />
+          </div>
+
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 16, marginBottom: 24 }}>
+            {[
+              { label: "Category", val: category, set: setCategory, ph: "Photography" },
+              { label: "Author", val: author, set: setAuthor, ph: "Backyard Studio Team" },
+              { label: "Read Time", val: readTime, set: setReadTime, ph: "6 min read" },
+            ].map(({ label, val, set, ph }) => (
+              <div key={label}>
+                <label style={LABEL}>{label}</label>
+                <input style={INPUT} value={val} onChange={(e) => set(e.target.value)} placeholder={ph} />
+              </div>
+            ))}
+          </div>
+
+          <div style={F}>
+            <label style={LABEL}>Hero Image Path</label>
+            <div style={{ display: "flex", gap: 8 }}>
+              <input style={{ ...INPUT, flex: 1 }} value={image} onChange={(e) => setImage(e.target.value)} placeholder="/images/blog/my-photo.webp" />
+              <button type="button" onClick={() => fileInputRef.current?.click()} disabled={uploading}
+                style={{ padding: "10px 14px", background: uploading ? "#1a1a1a" : "#222", border: "1px solid #444", borderRadius: 4, color: uploading ? "#555" : "#e8c547", cursor: uploading ? "not-allowed" : "pointer", fontSize: 12, fontWeight: 700, whiteSpace: "nowrap" }}>
+                {uploading ? "..." : "Upload"}
+              </button>
+            </div>
+            <input ref={fileInputRef} type="file" accept="image/webp,image/jpeg,image/jpg,image/png" style={{ display: "none" }} onChange={handleImageUpload} />
+          </div>
+
+          <div style={F}>
+            <label style={LABEL}>Excerpt (blog listing preview)</label>
+            <textarea style={{ ...INPUT, resize: "vertical", minHeight: 56 }} value={excerpt} onChange={(e) => setExcerpt(e.target.value)} />
+          </div>
+
+          <div style={F}>
+            <label style={LABEL}>Content</label>
+            <p style={{ fontSize: 11, color: "#555", margin: "0 0 6px" }}>
+              Plain text. <code style={{ color: "#e8c547" }}>## Heading</code> for H2. Blank line = new paragraph.
+            </p>
+            <textarea
+              style={{ ...INPUT, resize: "vertical", minHeight: 340, lineHeight: 1.8, fontSize: 13 }}
+              value={content} onChange={(e) => setContent(e.target.value)}
+              placeholder={"## Quick Answer\n\nWrite your answer here.\n\n## Section\n\nNext section."}
+            />
+            <p style={{ fontSize: 11, color: "#555", marginTop: 4 }}>{content.split(/\s+/).filter(Boolean).length} words</p>
+          </div>
+
+          <div style={F}>
+            <label style={{ ...LABEL, marginBottom: 12 }}>FAQs</label>
+            {faqs.map((faq, i) => (
+              <div key={i} style={{ background: "#111", border: "1px solid #2a2a2a", borderRadius: 4, padding: 16, marginBottom: 12 }}>
+                <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 8 }}>
+                  <span style={{ fontSize: 11, color: "#555", fontWeight: 700 }}>FAQ {i + 1}</span>
+                  {faqs.length > 1 && <button onClick={() => removeFaq(i)} style={{ background: "none", border: "none", color: "#e55", cursor: "pointer", fontSize: 12 }}>Remove</button>}
+                </div>
+                <input style={{ ...INPUT, marginBottom: 8 }} value={faq.question} onChange={(e) => updateFaq(i, "question", e.target.value)} placeholder="Question" />
+                <textarea style={{ ...INPUT, resize: "vertical", minHeight: 60 }} value={faq.answer} onChange={(e) => updateFaq(i, "answer", e.target.value)} placeholder="Answer" />
+              </div>
+            ))}
+            <button onClick={addFaq} style={{ background: "none", border: "1px solid #333", color: "#888", padding: "8px 16px", borderRadius: 4, cursor: "pointer", fontSize: 13 }}>
+              + Add FAQ
+            </button>
+          </div>
+        </div>
+
+        {/* ACTION BUTTONS */}
+        {!isLocked && (
+          <div style={{ display: "flex", gap: 12, marginTop: 8 }}>
+            {/* Save as Draft */}
+            <button
+              onClick={() => handleSubmit("draft")}
+              disabled={uiState === "loading"}
+              style={{
+                flex: 1, padding: "14px 0", background: "none",
+                border: "1px solid #444", borderRadius: 4, color: "#aaa",
+                fontWeight: 700, fontSize: 15,
+                cursor: uiState === "loading" ? "not-allowed" : "pointer",
+                opacity: uiState === "loading" ? 0.7 : 1,
+              }}>
+              {uiState === "loading" ? "Saving..." : "Save as Draft"}
+            </button>
+
+            {/* Preview */}
+            <button
+              onClick={() => setShowPreview(true)}
+              disabled={!title}
+              style={{
+                padding: "14px 24px", background: "none",
+                border: "1px solid #555", borderRadius: 4, color: "#888",
+                fontWeight: 700, fontSize: 15,
+                cursor: title ? "pointer" : "not-allowed",
+                opacity: title ? 1 : 0.4,
+              }}>
+              👁 Preview
+            </button>
+
+            {/* Publish */}
+            <button
+              onClick={() => handleSubmit("published")}
+              disabled={uiState === "loading"}
+              style={{
+                flex: 2, padding: "14px 0", background: "#e8c547", color: "#0a0a0a",
+                border: "none", borderRadius: 4, fontWeight: 700, fontSize: 15,
+                cursor: uiState === "loading" ? "not-allowed" : "pointer",
+                opacity: uiState === "loading" ? 0.7 : 1,
+              }}>
+              {uiState === "loading" ? "Publishing..." : "Publish Post →"}
+            </button>
+          </div>
+        )}
+      </div>
+    </>
   );
 }

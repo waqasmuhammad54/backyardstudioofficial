@@ -89,16 +89,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/locations/abu-dhabi/birthday-photography",         lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: BASE + "/locations/abu-dhabi/kids-photography",             lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: BASE + "/locations/abu-dhabi/engagement-photography",       lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-
-    // Sprint 16: Sharjah location sub-pages (2026-06-22)
-    { url: BASE + "/locations/sharjah/headshot-photography",           lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/sharjah/newborn-photography",            lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/sharjah/maternity-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/sharjah/fashion-photography",            lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/sharjah/social-media-content",           lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/sharjah/birthday-photography",           lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/sharjah/kids-photography",               lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/sharjah/engagement-photography",         lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 
   const services: MetadataRoute.Sitemap = SERVICES.map((slug) => ({
@@ -261,54 +251,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/zh/blog/meishi-paizhao-dubai-2026",                  lastModified: now, changeFrequency: "monthly", priority: 0.75 },
   ];
 
-  // Sprint 17: Ajman location sub-pages (2026-06-23)
-  const ajmanSubPages: MetadataRoute.Sitemap = [
-    { url: BASE + "/locations/ajman/headshot-photography",           lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/ajman/newborn-photography",            lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/ajman/maternity-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/ajman/fashion-photography",            lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/ajman/social-media-content",           lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/ajman/birthday-photography",           lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/ajman/kids-photography",               lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/ajman/engagement-photography",         lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-  ];
-
-  // Sprint 18: Ras Al Khaimah location sub-pages (2026-06-23)
-  const rakSubPages: MetadataRoute.Sitemap = [
-    { url: BASE + "/locations/ras-al-khaimah/headshot-photography",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/ras-al-khaimah/newborn-photography",   lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/ras-al-khaimah/maternity-photography", lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/ras-al-khaimah/fashion-photography",   lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/ras-al-khaimah/social-media-content",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/ras-al-khaimah/birthday-photography",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/ras-al-khaimah/kids-photography",      lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/ras-al-khaimah/engagement-photography",lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-  ];
-
-  // Sprint 19: Fujairah location sub-pages (2026-06-23)
-  const fujairSubPages: MetadataRoute.Sitemap = [
-    { url: BASE + "/locations/fujairah/headshot-photography",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/fujairah/newborn-photography",   lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/fujairah/maternity-photography", lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/fujairah/fashion-photography",   lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/fujairah/social-media-content",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/fujairah/birthday-photography",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/fujairah/kids-photography",      lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/fujairah/engagement-photography",lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-  ];
-
-  // Sprint 20: Umm Al Quwain location sub-pages (2026-06-23)
-  const uaqSubPages: MetadataRoute.Sitemap = [
-    { url: BASE + "/locations/umm-al-quwain/headshot-photography",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/umm-al-quwain/newborn-photography",   lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/umm-al-quwain/maternity-photography", lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/umm-al-quwain/fashion-photography",   lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/umm-al-quwain/social-media-content",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/umm-al-quwain/birthday-photography",  lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/umm-al-quwain/kids-photography",      lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-    { url: BASE + "/locations/umm-al-quwain/engagement-photography",lastModified: now, changeFrequency: "monthly", priority: 0.8 },
-  ];
-
-
-  return [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...ajmanSubPages, ...rakSubPages, ...fujairSubPages, ...uaqSubPages, ...services, ...locations, ...industries, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
+  return [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...services, ...locations, ...industries, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
 }

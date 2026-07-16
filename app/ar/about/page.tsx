@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "عن باكيارد ستوديو أوفيشيال | فهد إقبال بط وسيد مظهر زيدي — دبي",
   description: "تعرّف على استوديو باكيارد أوفيشيال — شركة الإنتاج الإبداعي الرائدة في دبي. تأسست عام 2019 على يد فهد إقبال بط وسيد مظهر زيدي. أكثر من 2,400 مشروع ورخصة GCAA.",
-  keywords: ["فهد إقبال بط", "سيد مظهر زيدي", "شركة إنتاج دبي", "فريق باكيارد ستوديو", "قصة الاستوديو", "أفضل استوديو تصوير دبي"],
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ar/about",
     languages: {
@@ -31,195 +30,165 @@ export const metadata: Metadata = {
   },
 };
 
-const TEAM_AR = [
-  { name: "فهد إقبال بط", role: "المؤسس والرئيس التنفيذي", photo: "/images/team/fahad.webp", bio: "مُخرج سينمائي ورائد أعمال إبداعي، درس السينما والتلفزيون في الكلية الوطنية للفنون بلاهور، ويحمل بكالوريوس في تصميم الأزياء. أسّس الاستوديو عام 2019 برؤية تمزج العاطفة بالحرفية والسرد السينمائي." },
-  { name: "سيد مظهر زيدي", role: "المؤسس المشارك ورئيس الإبداع", photo: "/images/team/mazhar.webp", bio: "مخرج سينمائي ومصوّر وثائقي بخبرة تتجاوز 20 عاماً. وثّق أكثر من 900 قصة لضحايا التقسيم و84 معبداً سيخياً. مدير تصوير في 50+ فيديو موسيقي. تعاون مع 40+ علامة تجارية دولية.", link: { label: "ملف IMDB", href: "https://www.imdb.com/name/nm14029494/" } },
-  { name: "شبانة بشير", role: "مديرة الفن والهوية البصرية", photo: "/images/team/shabana.webp", bio: "تقود الهوية البصرية والتوجيه الإبداعي في جميع إنتاجات الاستوديو، مضمونةً الاتساق والرقيّ في كل لقطة." },
-  { name: "بهرام شاهد", role: "مدير المبيعات", photo: "/images/team/behram.webp", bio: "يقود استراتيجية المبيعات واستقطاب العملاء في السوق الإماراتي، بانياً شراكات طويلة الأمد مع العلامات التجارية والوكالات." },
-  { name: "وقاص محمد", role: "مدير الاستراتيجية", photo: "/images/team/waqas.webp", bio: "يرسم خارطة نمو الاستوديو — من التموضع في السوق والاستراتيجية الرقمية إلى الأطر التشغيلية التي تدعم 2,400+ مشروع منجز." },
-  { name: "ريم", role: "مدير تطوير الأعمال", photo: "/images/team/reem.webp", bio: "تقود الشراكات مع العملاء وتطوير الأعمال في السوق الإماراتي، مربطةً العلامات التجارية بقدرات الإنتاج السينمائية للاستوديو." },
-  { name: "رجاء", role: "مدير تطوير الأعمال", photo: "/images/team/rajaa.webp", bio: "تفتح فرص أعمال جديدة وتبني علاقات استراتيجية، تُمكّن العلامات التجارية عبر الإمارات السبع من الوصول لخدمات الإنتاج العالمية." },
-];
-
-const MILESTONES_AR = [
-  { year: "2019", event: "التأسيس في لاهور — أفلام موسيقية وتصوير أزياء وإعلانات تجارية" },
-  { year: "2021", event: "التوسّع نحو المحتوى المؤسسي والعلامات التجارية عبر باكستان" },
-  { year: "2023", event: "انطلاق العمليات في الإمارات — المقرّ الرئيسي في دبي" },
-  { year: "2024", event: "الحصول على رخصة GCAA للتصوير الجوي التجاري" },
-  { year: "2025", event: "أكثر من 2,400 مشروع منجز عبر إمارات الدولة السبع" },
-  { year: "2026", event: "التوجّه نحو الأسواق الدولية — أوروبا وآسيا" },
-];
-
 export default function ArAboutPage() {
-  const personSchemaFahad = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Fahad Iqbal Butt",
-    "jobTitle": "المؤسس والرئيس التنفيذي",
-    "url": "https://www.backyardstudioofficial.com/ar/about",
-    "image": "https://www.backyardstudioofficial.com/images/team/fahad.webp",
-    "worksFor": { "@type": "Organization", "name": "باكيارد ستوديو أوفيشيال" },
-    "alumniOf": [{ "@type": "EducationalOrganization", "name": "National College of Arts, Lahore" }],
-  };
-  const personSchemaMazhar = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Syed Mazhar Zaidi",
-    "jobTitle": "المؤسس المشارك ورئيس الإبداع",
-    "url": "https://www.backyardstudioofficial.com/ar/about",
-    "image": "https://www.backyardstudioofficial.com/images/team/mazhar.webp",
-    "sameAs": ["https://www.imdb.com/name/nm14029494/"],
-    "worksFor": { "@type": "Organization", "name": "باكيارد ستوديو أوفيشيال" },
-  };
-
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchemaFahad) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchemaMazhar) }} />
+      {/* BreadcrumbList */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "الرئيسية", "item": "https://www.backyardstudioofficial.com/ar" },
+              { "@type": "ListItem", "position": 2, "name": "عن الاستوديو", "item": "https://www.backyardstudioofficial.com/ar/about" },
+            ],
+          }),
+        }}
+      />
+      {/* Person schemas — Fahad & Syed */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "@id": "https://www.backyardstudioofficial.com/ar/about#fahad",
+              "name": "فهد إقبال بط",
+              "alternateName": "Fahad Iqbal Butt",
+              "jobTitle": "المدير الإبداعي ومؤسس الاستوديو",
+              "worksFor": { "@type": "Organization", "name": "باكيارد ستوديو أوفيشيال" },
+              "description": "مخرج سينمائي ومصور أزياء، خريج كلية الفنون الوطنية — لاهور. مؤسس باكيارد ستوديو أوفيشيال عام 2019.",
+              "url": "https://www.backyardstudioofficial.com/ar/about",
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "@id": "https://www.backyardstudioofficial.com/ar/about#syed",
+              "name": "سيد مظهر زيدي",
+              "alternateName": "Syed Mazhar Zaidi",
+              "jobTitle": "مدير التصوير ورئيس ما بعد الإنتاج",
+              "worksFor": { "@type": "Organization", "name": "باكيارد ستوديو أوفيشيال" },
+              "description": "مخرج سينمائي ومصور وثائقي بخبرة 20+ عاماً. ماجستير في الاتصال الجماهيري. أكثر من 50 كليب وإعلان ووثائقي.",
+              "sameAs": ["https://www.imdb.com/name/nm14029494/"],
+              "url": "https://www.backyardstudioofficial.com/ar/about",
+            },
+          ]),
+        }}
+      />
 
-      {/* HERO */}
-      <section style={{ minHeight: "60vh", display: "flex", alignItems: "center", background: "linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%)", padding: "6rem 2rem 4rem", position: "relative", overflow: "hidden" }}>
-        <div style={{ position: "absolute", inset: 0, background: "radial-gradient(ellipse at 30% 50%, rgba(212,175,55,0.07) 0%, transparent 60%)" }} />
-        <div style={{ position: "relative", maxWidth: "900px", margin: "0 auto" }}>
-          <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.85rem", letterSpacing: "0.1em", marginBottom: "1.5rem" }}>قصتنا</p>
-          <h1 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(2.5rem, 7vw, 5rem)", fontWeight: 900, color: "var(--cream)", lineHeight: 1.15, marginBottom: "2rem" }}>
-            بُنينا على<br /><span style={{ color: "var(--gold)" }}>الرؤية.</span><br />تحرّكنا بالإتقان.
-          </h1>
-          <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.65)", fontSize: "1.1rem", lineHeight: 1.8, maxWidth: "680px" }}>
-            تأسّس باكيارد ستوديو أوفيشيال عام 2019 على يد المخرج ومصوّر الأزياء فهد إقبال بط، وتطوّر من استوديو إبداعي في لاهور إلى أحد أبرز بيوت الإنتاج في دبي — يخدم العلامات التجارية والفنانين والشركات عبر إمارات الدولة السبع.
+      <section style={{ background: "#111", padding: "4rem 2rem 3rem", textAlign: "center" }}>
+        <h1 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>
+          عن استوديو باكيارد أوفيشيال
+        </h1>
+        <p style={{ fontFamily: "Cairo, sans-serif", color: "var(--gold)", fontSize: "1rem" }}>دبي، الإمارات العربية المتحدة — منذ 2019</p>
+      </section>
+
+      <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.75rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1.5rem" }}>قصتنا</h2>
+          <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "1rem", marginBottom: "1.5rem" }}>
+            تأسس استوديو باكيارد أوفيشيال عام 2019 في لاهور، باكستان، على يد <strong style={{color:"var(--cream)"}}>فهد إقبال بط</strong>،
+            المخرج السينمائي ومصور الأزياء الذي درس الفيلم والتلفزيون في الكلية الوطنية للفنون. انتقلنا إلى دبي عام 2023، ومنذ ذلك الحين أصبحنا واحدة من أبرز شركات الإنتاج الإبداعي في الإمارات.
+          </p>
+          <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "1rem", marginBottom: "1.5rem" }}>
+            يترأس فريق ما بعد الإنتاج لدينا <strong style={{color:"var(--cream)"}}>سيد مظهر زيدي</strong>،
+            المخرج السينمائي والمصور الوثائقي بخبرة تتجاوز 20 عاماً. حاصل على الماجستير في الاتصال الجماهيري من جامعة GC، وأنجز أكثر من 50 مقطع موسيقي وإعلاناً تجارياً وفيلماً وثائقياً.
+            يمكنك الاطلاع على ملفه في IMDB:{" "}
+            <a href="https://www.imdb.com/name/nm14029494/" target="_blank" rel="noopener noreferrer" style={{ color: "var(--gold)" }}>nm14029494</a>.
+          </p>
+          <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "1rem" }}>
+            أنجزنا حتى اليوم أكثر من <strong style={{color:"var(--cream)"}}>2,400 مشروع</strong> عبر جميع إمارات الدولة السبع.
+            نحمل رخصة <strong style={{color:"var(--cream)"}}>GCAA</strong> للتصوير الجوي التجاري، ونلتزم بمعايير الإنتاج السينمائي العالمية في كل مشروع.
           </p>
         </div>
       </section>
 
-      {/* FAHAD SECTION */}
-      <section style={{ padding: "5rem 2rem", background: "#111" }}>
-        <div style={{ maxWidth: "1000px", margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4rem", alignItems: "center" }}>
-          <div>
-            <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.85rem", letterSpacing: "0.1em", marginBottom: "1rem" }}>المؤسّس</p>
-            <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(2rem, 4vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "2rem", lineHeight: 1.1 }}>فهد إقبال بط</h2>
-            <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-              <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.7)", lineHeight: 1.85, fontSize: "0.95rem" }}>
-                فهد إقبال بط رائد أعمال إبداعي ومُخرج سينمائي ومصوّر أزياء يجمع بين التدريب الأكاديمي الرفيع في مجالَي الأزياء والإنتاج السينمائي. يحمل بكالوريوس في تصميم الأزياء بإشراف مجلس UK Excel، وأتمّ دراساته المتخصصة في السينما والتلفزيون في الكلية الوطنية للفنون (NCA) بلاهور — من أعرق المؤسسات الإبداعية في باكستان.
-              </p>
-              <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.7)", lineHeight: 1.85, fontSize: "0.95rem" }}>
-                أسّس فهد استوديو باكيارد في لاهور عام 2019 برؤية واضحة: إنتاج محتوى بصري مؤثّر يوازن بين الإبداع والعاطفة وأسلوب السرد الحديث. عمل الاستوديو على أفلام موسيقية وإعلانات تجارية وأفلام قصيرة ومحتوى مؤسسي وتصوير أعراس وعلامات تجارية.
-              </p>
-              <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.7)", lineHeight: 1.85, fontSize: "0.95rem" }}>
-                إلى جانب الإخراج، بنى فهد خبرة واسعة في تصوير الأزياء، متعاوناً مع مصوّري المجلات والمختصين الإبداعيين في صناعة الموضة. اليوم، يواصل تجسيد أفكاره السينمائية للعلامات التجارية والشركات والفنانين والمبدعين في الإمارات.
-              </p>
-            </div>
-            <div style={{ display: "flex", gap: "1rem", marginTop: "2rem", flexWrap: "wrap" }}>
-              <a href="/ar/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.85rem 2rem", fontFamily: "Cairo, sans-serif", fontWeight: 700, borderRadius: "2px", textDecoration: "none" }}>تواصل معنا</a>
-              <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer" style={{ border: "1px solid rgba(212,175,55,0.5)", color: "var(--gold)", padding: "0.85rem 2rem", fontFamily: "Cairo, sans-serif", fontWeight: 600, borderRadius: "2px", textDecoration: "none" }}>واتساب فهد</a>
-            </div>
-          </div>
-          <div style={{ position: "relative", aspectRatio: "3/4", overflow: "hidden", border: "1px solid rgba(212,175,55,0.2)", borderRadius: "4px", maxWidth: "400px" }}>
-            <img src="/images/team/fahad.webp" alt="فهد إقبال بط — المؤسس والرئيس التنفيذي لباكيارد ستوديو أوفيشيال دبي" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
-            <div style={{ position: "absolute", bottom: 0, insetInline: 0, padding: "1.5rem", background: "linear-gradient(to top, rgba(5,5,5,0.95) 0%, transparent 100%)" }}>
-              <p style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.2rem", fontWeight: 900, color: "var(--cream)", margin: 0 }}>فهد إقبال بط</p>
-              <p style={{ fontFamily: "Cairo, sans-serif", color: "var(--gold)", fontSize: "0.75rem", letterSpacing: "0.2em", marginTop: "0.25rem" }}>المؤسس والرئيس التنفيذي</p>
-            </div>
-          </div>
-        </div>
+      {/* STUDIO BTS IMAGE */}
+      <section style={{ padding: "0", background: "#111" }}>
+        <img src="/images/team/studio-bts.webp" alt="استوديو باكيارد أوفيشيال — خلف الكواليس" style={{ width: "100%", height: "380px", objectFit: "cover", display: "block" }} loading="lazy" />
       </section>
 
-      {/* MAZHAR SECTION */}
-      <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
-        <div style={{ maxWidth: "1000px", margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4rem", alignItems: "center" }}>
-          <div style={{ position: "relative", aspectRatio: "3/4", overflow: "hidden", border: "1px solid rgba(212,175,55,0.2)", borderRadius: "4px", maxWidth: "400px" }}>
-            <img src="/images/team/mazhar.webp" alt="سيد مظهر زيدي — المؤسس المشارك ورئيس الإبداع لباكيارد ستوديو دبي" style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
-            <div style={{ position: "absolute", bottom: 0, insetInline: 0, padding: "1.5rem", background: "linear-gradient(to top, rgba(5,5,5,0.95) 0%, transparent 100%)" }}>
-              <p style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.2rem", fontWeight: 900, color: "var(--cream)", margin: 0 }}>سيد مظهر زيدي</p>
-              <p style={{ fontFamily: "Cairo, sans-serif", color: "var(--gold)", fontSize: "0.75rem", letterSpacing: "0.2em", marginTop: "0.25rem" }}>المؤسس المشارك ورئيس الإبداع</p>
-            </div>
-          </div>
-          <div>
-            <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.85rem", letterSpacing: "0.1em", marginBottom: "1rem" }}>المؤسس المشارك</p>
-            <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(2rem, 4vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "2rem", lineHeight: 1.1 }}>سيد مظهر زيدي</h2>
-            <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-              <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.7)", lineHeight: 1.85, fontSize: "0.95rem" }}>
-                سيد مظهر زيدي مخرج سينمائي ومصوّر وثائقي ومُنتج إبداعي بخبرة تمتد لعقدَين عبر باكستان ومنطقة الخليج. درس في الكلية الوطنية للفنون (NCA) بلاهور وحصل على ماجستير الاتصال الجماهيري من جامعة GC — من أعرق المؤسسات الأكاديمية في باكستان.
-              </p>
-              <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.7)", lineHeight: 1.85, fontSize: "0.95rem" }}>
-                يُعدّ أبرز أعماله مشروعه الوثائقي الاستثنائي الذي وثّق فيه أكثر من 900 قصة لضحايا التقسيم الهندي الباكستاني، وغطّى 84 معبداً سيخياً (غوردوارا) عبر أرجاء باكستان — أحد أعمق مشاريع التوثيق الثقافي في تاريخ السينما الجنوب آسيوية.
-              </p>
-              <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.7)", lineHeight: 1.85, fontSize: "0.95rem" }}>
-                عمل مازهر مديراً للتصوير ومحرّراً وملوّناً في أكثر من 50 فيديو موسيقي وإعلاناً تجارياً، وتعاون مع أكثر من 40 علامة تجارية محلية ودولية. أعماله المعتمدة على IMDB تمتد لتشمل إعلانات تجارية وأفلام قصيرة وأفلام موسيقية ومحتوى وثائقي ذا علامة تجارية.
-              </p>
-            </div>
-            <a href="https://www.imdb.com/name/nm14029494/" target="_blank" rel="noreferrer" style={{ display: "inline-block", border: "1px solid rgba(212,175,55,0.5)", color: "var(--gold)", padding: "0.85rem 2rem", fontFamily: "Cairo, sans-serif", fontWeight: 600, borderRadius: "2px", textDecoration: "none", marginTop: "2rem" }}>عرض ملف IMDB ←</a>
-          </div>
-        </div>
-      </section>
-
-      {/* TIMELINE */}
+      {/* Founders detail */}
       <section style={{ padding: "5rem 2rem", background: "#111" }}>
         <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-          <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.85rem", letterSpacing: "0.1em", marginBottom: "1rem" }}>مسيرتنا</p>
-          <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(2rem, 4vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "3rem" }}>المحطات الرئيسية</h2>
-          <div style={{ display: "flex", flexDirection: "column", gap: "1.75rem" }}>
-            {MILESTONES_AR.map((m, i) => (
-              <div key={i} style={{ display: "flex", gap: "2rem", alignItems: "flex-start" }}>
-                <div style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.5rem", fontWeight: 900, color: "var(--gold)", minWidth: "56px", lineHeight: 1 }}>{m.year}</div>
-                <div style={{ flex: 1, paddingTop: "0.2rem" }}>
-                  <div style={{ width: "100%", height: "1px", background: "rgba(212,175,55,0.15)", marginBottom: "0.75rem" }} />
-                  <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.7)", lineHeight: 1.7, margin: 0, fontSize: "0.95rem" }}>{m.event}</p>
-                </div>
+          <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.75rem", fontWeight: 700, color: "var(--cream)", marginBottom: "2.5rem", textAlign: "center" }}>فريق القيادة</h2>
+
+          <div style={{ marginBottom: "3rem" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "120px 1fr", gap: "1.5rem", alignItems: "flex-start", marginBottom: "1.5rem" }}>
+              <img src="/images/team/fahad.webp" alt="فهد إقبال بط — المدير الإبداعي" style={{ width: "120px", height: "120px", objectFit: "cover", borderRadius: "4px", border: "2px solid rgba(212,175,55,0.3)", display: "block" }} loading="lazy" />
+              <div>
+                <h3 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.3rem", fontWeight: 700, color: "var(--gold)", marginBottom: "0.5rem" }}>فهد إقبال بط — المدير الإبداعي ومؤسس الاستوديو</h3>
+            <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1rem" }}>
+              درس فهد إقبال بط الفيلم والتلفزيون في الكلية الوطنية للفنون (NCA) بلاهور، إحدى أعرق مؤسسات الفنون في جنوب آسيا. بعد سنوات من العمل في مجالَي الأزياء والسينما، أسس استوديو باكيارد أوفيشيال عام 2019 برؤية واضحة: تقديم محتوى بصري بمستوى عالمي يخدم السوق الخليجية.
+            </p>
+            <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem" }}>
+              منذ انتقال الاستوديو إلى دبي عام 2023، قاد فهد أكثر من 800 مشروع في الإمارات — من أفلام العلامات التجارية الكبرى في وسط المدينة، إلى جلسات التصوير في بيئات الصحراء والخليج. يؤمن فهد أن كل لقطة يجب أن تخدم قصة واضحة، ولهذا السبب نبدأ كل مشروع بفهم عميق لهوية العميل ورسالته قبل أي تصوير.
+            </p>
               </div>
-            ))}
+            </div>
+          </div>
+
+          <div style={{ marginBottom: "1rem" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "120px 1fr", gap: "1.5rem", alignItems: "flex-start" }}>
+              <img src="/images/team/mazhar.webp" alt="سيد مظهر زيدي — مدير التصوير" style={{ width: "120px", height: "120px", objectFit: "cover", borderRadius: "4px", border: "2px solid rgba(212,175,55,0.3)", display: "block" }} loading="lazy" />
+              <div>
+                <h3 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.3rem", fontWeight: 700, color: "var(--gold)", marginBottom: "0.5rem" }}>سيد مظهر زيدي — مدير التصوير ورئيس ما بعد الإنتاج</h3>
+            <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1rem" }}>
+              يحمل سيد مظهر زيدي ماجستير في الاتصال الجماهيري من جامعة GC، وخبرة تتجاوز عشرين عاماً في مجال الإخراج السينمائي والتصوير الوثائقي. أنجز أكثر من 50 مقطعاً موسيقياً وإعلاناً تجارياً وفيلماً وثائقياً خلال مسيرته، ويمكنك الاطلاع على سجله المهني في قاعدة بيانات IMDB (رقم: nm14029494).
+            </p>
+            <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem" }}>
+              في باكيارد ستوديو، يشرف مظهر على مرحلة ما بعد الإنتاج بأكملها — التحرير، تصحيح الألوان، المونتاج الصوتي، والتصميم الحركي. هذا المستوى من الخبرة في ما بعد الإنتاج هو ما يُحوِّل لقطات جيدة إلى محتوى استثنائي. نؤمن أن التصوير هو نصف العمل فقط، والنصف الآخر يُصنع في غرفة المونتاج.
+            </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* TEAM GRID */}
+      {/* Approach + Stats */}
       <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
-          <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.85rem", letterSpacing: "0.1em", marginBottom: "1rem" }}>الفريق</p>
-          <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(2rem, 4vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "3rem" }}>تعرّف على فريقنا</h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "1.5rem" }}>
-            {TEAM_AR.map((member) => (
-              <div key={member.name} style={{ border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", overflow: "hidden", background: "rgba(255,255,255,0.02)" }}>
-                <div style={{ aspectRatio: "3/4", overflow: "hidden", position: "relative" }}>
-                  <img src={member.photo} alt={member.name + " — " + member.role + " — باكيارد ستوديو دبي"} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} loading="lazy" />
-                </div>
-                <div style={{ padding: "1.25rem" }}>
-                  <h3 style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "0.95rem", marginBottom: "0.25rem" }}>{member.name}</h3>
-                  <p style={{ fontFamily: "Cairo, sans-serif", color: "var(--gold)", fontSize: "0.7rem", letterSpacing: "0.1em", marginBottom: "0.75rem" }}>{member.role}</p>
-                  <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.55)", fontSize: "0.8rem", lineHeight: 1.7, margin: 0 }}>{member.bio}</p>
-                  {member.link && (
-                    <a href={member.link.href} target="_blank" rel="noreferrer" style={{ display: "inline-block", color: "var(--gold)", fontSize: "0.72rem", marginTop: "0.75rem", textDecoration: "none" }}>{member.link.label} ←</a>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
+        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.75rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1.5rem" }}>منهجنا في العمل</h2>
+          <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1.5rem" }}>
+            نعمل بنظام الاستوديو الكامل الخدمات (Full-Service): نبدأ بجلسة إحاطة تفصيلية لفهم أهداف المشروع، ثم ننتقل إلى مرحلة ما قبل الإنتاج (سيناريو، لوحة القصة، اختيار الطاقم والمواقع)، ثم يوم أو أيام التصوير، وأخيراً ما بعد الإنتاج الكامل. نُسلِّم المشروع النهائي بتنسيقات متعددة تناسب جميع المنصات الرقمية والبث التلفزيوني.
+          </p>
+          <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem", marginBottom: "1.5rem" }}>
+            نغطي جميع إمارات الدولة السبع: دبي، أبوظبي، الشارقة، عجمان، رأس الخيمة، الفجيرة، وأم القيوين. تبدأ أعمالنا في المدن الساحلية والمراكز التجارية، وتمتد إلى مخيمات الصحراء وشواطئ المحيط الهندي. نحمل رخصة GCAA المعتمدة التي تتيح لنا التصوير الجوي التجاري في جميع مناطق الدولة.
+          </p>
+          <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 1.9, fontSize: "0.95rem" }}>
+            نحرص على الشفافية الكاملة في التسعير — لا رسوم خفية ولا مفاجآت. نُقدِّم عرض سعر مفصلاً خلال ساعتين من الاستفسار، يوضح كل بند من بنود التكلفة. وبعد التعاقد، يحصل كل عميل على مدير مشروع مخصص يتابعه من أول رسالة حتى تسليم الملفات النهائية.
+          </p>
         </div>
       </section>
 
-      {/* STATS */}
-      <section style={{ padding: "3.5rem 2rem", background: "#111", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)" }}>
-        <div style={{ maxWidth: "900px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))", gap: "2rem", textAlign: "center" }}>
+      {/* Stats */}
+      <section style={{ padding: "3rem 2rem", background: "#111", borderTop: "1px solid rgba(212,175,55,0.1)", borderBottom: "1px solid rgba(212,175,55,0.1)" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))", gap: "2rem", textAlign: "center" }}>
           {[
             { num: "2,400+", label: "مشروع منجز" },
-            { num: "7", label: "إمارات تغطيتنا" },
-            { num: "6+", label: "سنوات خبرة" },
-            { num: "2 ساعة", label: "ضمان الاستجابة" },
+            { num: "7", label: "إمارات" },
+            { num: "8+", label: "سنوات خبرة" },
+            { num: "ساعتان", label: "وقت الاستجابة" },
           ].map((s) => (
             <div key={s.label}>
-              <div style={{ fontFamily: "Cairo, sans-serif", fontSize: "2.5rem", fontWeight: 900, color: "var(--gold)", lineHeight: 1 }}>{s.num}</div>
-              <div style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.55)", fontSize: "0.85rem", marginTop: "0.5rem" }}>{s.label}</div>
+              <div style={{ fontFamily: "Cairo, sans-serif", fontSize: "2.25rem", fontWeight: 900, color: "var(--gold)", lineHeight: 1 }}>{s.num}</div>
+              <div style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.875rem", marginTop: "0.4rem" }}>{s.label}</div>
             </div>
           ))}
         </div>
       </section>
 
-      {/* CTA */}
-      <section style={{ padding: "5rem 2rem", background: "#0a0a0a", textAlign: "center" }}>
-        <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.85rem", letterSpacing: "0.1em", marginBottom: "1rem" }}>✦ لنبدع معاً</p>
-        <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(2rem, 5vw, 3.5rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "2rem" }}>ابدأ مشروعك<br /><span style={{ color: "var(--gold)" }}>معنا اليوم</span></h2>
-        <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
-          <a href="/ar/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", fontFamily: "Cairo, sans-serif", fontWeight: 700, borderRadius: "2px", textDecoration: "none", fontSize: "1rem" }}>احصل على عرض سعر مجاني</a>
-          <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer" style={{ border: "1px solid rgba(212,175,55,0.5)", color: "var(--gold)", padding: "0.9rem 2.5rem", fontFamily: "Cairo, sans-serif", fontWeight: 600, borderRadius: "2px", textDecoration: "none", fontSize: "1rem" }}>واتساب فهد</a>
+      <section style={{ padding: "4rem 2rem", background: "#111", textAlign: "center" }}>
+        <div style={{ maxWidth: "700px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1rem" }}>
+            هل تريد العمل معنا؟
+          </h2>
+          <a href="/ar/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", borderRadius: "2px", textDecoration: "none", fontFamily: "Cairo, sans-serif", fontWeight: 700 }}>
+            تواصل مع فريقنا
+          </a>
         </div>
       </section>
     </>

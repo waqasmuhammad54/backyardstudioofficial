@@ -99,39 +99,6 @@ export default function CaseStudiesIndexPage() {
         </div>
       </section>
 
-
-      {/* How we work section */}
-      <section style={{ padding: "4rem 2rem", background: "#111", borderTop: "1px solid rgba(212,175,55,0.08)", borderBottom: "1px solid rgba(212,175,55,0.08)" }}>
-        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
-          <h2 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1rem", textAlign: "center" }}>
-            How Backyard Studio Creates Measurable Outcomes
-          </h2>
-          <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", lineHeight: 1.8, fontSize: "0.95rem", marginBottom: "1.25rem" }}>
-            The case studies on this page document real commercial outcomes — property reservations made, organic views earned, impressions generated, and conversion rates improved. These are not estimates or projections. They are reported results from clients who tracked the performance of production work we created for them.
-          </p>
-          <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", lineHeight: 1.8, fontSize: "0.95rem", marginBottom: "1.25rem" }}>
-            Every project Backyard Studio delivers begins with a production brief that defines the commercial objective, not just the creative deliverable. Whether a client needs a real estate film to drive off-plan reservations at a launch event, a hotel brand video to reduce OTA dependency, or a social media content series to build an organic following in the UAE market, we structure the production — the narrative, the format, the platform targeting — around that specific business outcome from the start.
-          </p>
-          <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", lineHeight: 1.8, fontSize: "0.95rem", marginBottom: "2rem" }}>
-            Our production model integrates strategy, filming, and post-production under one roof. Clients working with Backyard Studio do not manage a director, a separate editor, a motion graphics freelancer, and a colour grader — they deal with one studio that handles everything from initial brief to final deliverable, with a single point of contact and a guaranteed 2-hour response to every communication throughout the project.
-          </p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "1rem" }}>
-            {[
-              { step: "01", label: "Brief & Strategy", desc: "Commercial objective defined before any creative begins" },
-              { step: "02", label: "Pre-Production", desc: "Scriptwriting, storyboarding, location scouting, casting" },
-              { step: "03", label: "Production", desc: "Multi-camera filming with professional crew across UAE" },
-              { step: "04", label: "Post & Delivery", desc: "Edit, grade, sound mix, and platform-optimised delivery" },
-            ].map((s) => (
-              <div key={s.step} style={{ background: "rgba(212,175,55,0.04)", border: "1px solid rgba(212,175,55,0.15)", borderRadius: "4px", padding: "1.25rem" }}>
-                <div style={{ fontFamily: "Inter, sans-serif", color: "var(--gold)", fontSize: "1.5rem", fontWeight: 800, marginBottom: "0.4rem" }}>{s.step}</div>
-                <div style={{ fontFamily: "Inter, sans-serif", color: "var(--cream)", fontSize: "0.85rem", fontWeight: 700, marginBottom: "0.4rem" }}>{s.label}</div>
-                <div style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.5)", fontSize: "0.75rem", lineHeight: 1.5 }}>{s.desc}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Case study cards */}
       <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "2rem" }}>

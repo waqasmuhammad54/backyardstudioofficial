@@ -485,94 +485,23 @@ URLS = [
     f"https://{HOST}/locations/umm-al-quwain/food-photography",
     f"https://{HOST}/locations/umm-al-quwain/product-photography",
     f"https://{HOST}/locations/umm-al-quwain/personal-branding-photography",
-
-    # Sprint 27 — zh pages (now indexed), expanded service + AR/RU pages
-    f"https://{HOST}/zh",
-    f"https://{HOST}/zh/services",
-    f"https://{HOST}/zh/pricing",
-    f"https://{HOST}/zh/about",
-    f"https://{HOST}/zh/contact",
-    f"https://{HOST}/zh/blog",
-    f"https://{HOST}/zh/portfolio",
-    f"https://{HOST}/zh/testimonials",
-    f"https://{HOST}/zh/locations",
-    f"https://{HOST}/zh/blog/hunli-sheying-dubai-2026",
-    f"https://{HOST}/zh/blog/wurenji-hangpai-dubai-2026",
-    f"https://{HOST}/zh/blog/chanpin-sheying-dubai-2026",
-    f"https://{HOST}/zh/blog/qiye-shipin-dubai-2026",
-    f"https://{HOST}/zh/blog/qiye-shipin-zhizuo-dubai-2026",
-    f"https://{HOST}/zh/blog/meishi-paizhao-dubai-2026",
-    f"https://{HOST}/zh/blog/shejiao-meiti-neirong-dubai-2026",
-    f"https://{HOST}/zh/blog/huodong-paizhao-dubai-2026",
-    f"https://{HOST}/zh/blog/fangchan-paizhao-dubai-2026",
-    # Sprint 27: 5 new commercial service blog posts (missing from indexnow)
-    f"https://{HOST}/blog/commercial-photography-dubai-2026",
-    f"https://{HOST}/blog/product-videography-dubai-2026",
-    f"https://{HOST}/blog/corporate-video-production-abu-dhabi-2026",
-    f"https://{HOST}/blog/fashion-videography-dubai-2026",
-    f"https://{HOST}/blog/real-estate-architecture-photography-dubai-2026",
-    # Sprint 30: 4 pillar/gap blog posts
-    f"https://{HOST}/blog/best-production-studio-dubai-2026",
-    f"https://{HOST}/blog/cost-video-production-dubai-2026",
-    f"https://{HOST}/blog/how-to-choose-production-company-uae-2026",
-    f"https://{HOST}/blog/wedding-photography-abu-dhabi-2026",
-
-    # Sprint 31E: AR/RU/ZH services/[slug] pages (29 slugs x 3 languages)
-    *[f"https://{HOST}/ar/services/{s}" for s in [
-        "event-shoots","event-video-editing","dvcs","reels","photo-shoots",
-        "social-media-content","testimonial-videos","ads-shooting","aerial-drone","corporate-films",
-        "social-media-shoots","automotive","real-estate","corporate-videography","podcast",
-        "youtube-content","event-videography","food","product-shoots","fashion-shoots",
-        "travel-lifestyle","tv-commercials","car-commercials","corporate-brand-films","documentary",
-        "hotel-photography","reels-production","brand-events","pre-post-production",
-    ]],
-    *[f"https://{HOST}/ru/services/{s}" for s in [
-        "event-shoots","event-video-editing","dvcs","reels","photo-shoots",
-        "social-media-content","testimonial-videos","ads-shooting","aerial-drone","corporate-films",
-        "social-media-shoots","automotive","real-estate","corporate-videography","podcast",
-        "youtube-content","event-videography","food","product-shoots","fashion-shoots",
-        "travel-lifestyle","tv-commercials","car-commercials","corporate-brand-films","documentary",
-        "hotel-photography","reels-production","brand-events","pre-post-production",
-    ]],
-    *[f"https://{HOST}/zh/services/{s}" for s in [
-        "event-shoots","event-video-editing","dvcs","reels","photo-shoots",
-        "social-media-content","testimonial-videos","ads-shooting","aerial-drone","corporate-films",
-        "social-media-shoots","automotive","real-estate","corporate-videography","podcast",
-        "youtube-content","event-videography","food","product-shoots","fashion-shoots",
-        "travel-lifestyle","tv-commercials","car-commercials","corporate-brand-films","documentary",
-        "hotel-photography","reels-production","brand-events","pre-post-production",
-    ]],
-
-    # Sprint 32A: Wedding pricing update (EN + AR + RU + ZH pricing pages)
-    f"https://{HOST}/pricing",
-    f"https://{HOST}/ar/pricing",
-    f"https://{HOST}/ru/pricing",
-    f"https://{HOST}/zh/pricing",
 ]
 
+payload = {
+    "host": HOST,
+    "key": API_KEY,
+    "keyLocation": KEY_LOCATION,
+    "urlList": URLS,
+}
 
-def submit_to_indexnow(urls, batch_size=50):
-    for i in range(0, len(urls), batch_size):
-        batch = urls[i:i + batch_size]
-        payload = json.dumps({
-            "host": HOST,
-            "key": API_KEY,
-            "keyLocation": KEY_LOCATION,
-            "urlList": batch,
-        }).encode("utf-8")
-        req = urllib.request.Request(
-            "https://api.indexnow.org/indexnow",
-            data=payload,
-            headers={"Content-Type": "application/json; charset=utf-8"},
-            method="POST",
-        )
-        try:
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                print(f"Batch {i // batch_size + 1}: {resp.status} {resp.reason} ({len(batch)} URLs)")
-        except Exception as e:
-            print(f"Batch {i // batch_size + 1} error: {e}")
+req = urllib.request.Request(
+    "https://api.indexnow.org/indexnow",
+    data=json.dumps(payload).encode("utf-8"),
+    headers={"Content-Type": "application/json; charset=utf-8"},
+    method="POST",
+)
 
-
-if __name__ == "__main__":
-    print(f"Submitting {len(URLS)} URLs to IndexNow...")
-    submit_to_indexnow(URLS)
+with urllib.request.urlopen(req) as resp:
+    print(f"Status: {resp.status}")
+    print(f"URLs submitted: {len(URLS)}")
+    print("Done.")

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "مناطق التصوير في الإمارات | جميع الإمارات السبع — باكيارد ستوديو",
-  description: "تصوير فيديو واحترافي في جميع الإمارات السبع. دبي، أبوظبي، الشارقة، عجمان، رأس الخيمة، الفجيرة وأم القيوين. بدون رسوم تنقل. عرض سعر مجاني في ساعتين.",
+  title: "مواقع التصوير في الإمارات السبع | باكيارد ستوديو أوفيشيال",
+  description: "باكيارد ستوديو يصوّر في جميع الإمارات السبع — دبي، أبوظبي، الشارقة، عجمان، رأس الخيمة، الفجيرة وأم القيوين. بدون رسوم تنقل. عرض سعر مجاني خلال ساعتين.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ar/locations",
     languages: {
@@ -14,103 +14,102 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "تصوير فيديو في جميع الإمارات السبع | باكيارد ستوديو أوفيشيال",
-    description: "تصوير فيديو وفوتوغرافي احترافي في دبي، أبوظبي، الشارقة، عجمان، رأس الخيمة، الفجيرة وأم القيوين. بدون رسوم تنقل. عرض سعر في ساعتين.",
+    title: "مواقع التصوير في الإمارات السبع | باكيارد ستوديو أوفيشيال",
+    description: "تصوير احترافي في جميع الإمارات السبع. بدون رسوم تنقل. نصل إليك في 48 ساعة.",
     url: "https://www.backyardstudioofficial.com/ar/locations",
+    siteName: "باكيارد ستوديو أوفيشيال",
     locale: "ar_AE",
     type: "website",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "تصوير في الإمارات السبع — باكيارد ستوديو" }],
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "مواقع التصوير في الإمارات — باكيارد ستوديو" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "مواقع التصوير في الإمارات السبع",
+    description: "دبي، أبوظبي، الشارقة وجميع الإمارات. بدون رسوم تنقل.",
+    images: ["/og-image.jpg"],
   },
 };
 
-const LOCATIONS_FAQS = [
-  { q: "هل يغطي باكيارد ستوديو جميع الإمارات السبع؟", a: "نعم. يوفر باكيارد ستوديو أوفيشيال خدمات تصوير فيديو وفوتوغرافي احترافية في جميع الإمارات السبع: دبي، أبوظبي، الشارقة، عجمان، رأس الخيمة، الفجيرة، وأم القيوين. يمكننا تجهيز فريق في أي إمارة خلال 24-48 ساعة." },
-  { q: "هل هناك رسوم تنقل خارج دبي؟", a: "لا يتقاضى باكيارد ستوديو أوفيشيال رسوم تنقل للتصوير داخل الإمارات. سواء كانت مهمة التصوير في دبي أو أبوظبي أو رأس الخيمة، تشمل تكلفة الإنتاج المتفق عليها التنقل." },
-  { q: "ما خدمات التصوير المتاحة في جميع أنحاء الإمارات؟", a: "نقدم كامل خدماتنا الإنتاجية في جميع الإمارات: تصوير الفعاليات، الأعراس، إعلانات DVC، محتوى إنستغرام والريلز، أفلام مؤسسية، تصوير جوي بطائرة مسيّرة بترخيص GCAA، فيديوهات الشهادات والإعلانات التجارية." },
-];
-
 const EMIRATES = [
-  { name: "دبي",        slug: "dubai",          image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80", areas: 25, desc: "داون تاون، مارينا، JBR، DIFC، النخلة، بيزنس باي، JLT وأكثر." },
-  { name: "أبوظبي",    slug: "abu-dhabi",       image: "https://images.unsplash.com/photo-1526495124232-a04e1849168c?w=800&q=80", areas: 10, desc: "جزيرة ياس، السعديات، الكورنيش، الريم، ADGM وأكثر." },
-  { name: "الشارقة",   slug: "sharjah",         image: "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=800&q=80", areas: 5,  desc: "المجاز، القصباء، الواجهة المائية، الخان." },
-  { name: "عجمان",     slug: "ajman",           image: "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8e?w=800&q=80", areas: 4,  desc: "كورنيش عجمان، الجرف، الراشدية." },
-  { name: "رأس الخيمة", slug: "ras-al-khaimah", image: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=800&q=80", areas: 4,  desc: "مدينة رأس الخيمة، قرية الحمراء، جبل جيس." },
-  { name: "الفجيرة",   slug: "fujairah",        image: "https://images.unsplash.com/photo-1590004987778-bece5c9adab6?w=800&q=80", areas: 3,  desc: "مدينة الفجيرة، دبا، كورنيش خورفكان." },
-  { name: "أم القيوين", slug: "umm-al-quwain",  image: "https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?w=800&q=80", areas: 2,  desc: "مدينة أم القيوين، منطقة دريملاند." },
+  { name: "دبي", slug: "dubai", image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=600&q=80", desc: "وسط المدينة، المارينا، نخلة جميرا، DIFC، Business Bay وأكثر من 25 منطقة." },
+  { name: "أبوظبي", slug: "abu-dhabi", image: "https://images.unsplash.com/photo-1526495124232-a04e1849168c?w=600&q=80", desc: "جزيرة ياس، جزيرة السعديات، الكورنيش، الريم، ADGM وأكثر." },
+  { name: "الشارقة", slug: "sharjah", image: "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=600&q=80", desc: "الماجاز، القصباء، واجهة الشارقة المائية، الخان." },
+  { name: "عجمان", slug: "ajman", image: "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8e?w=600&q=80", desc: "كورنيش عجمان، الجرف، الراشدية." },
+  { name: "رأس الخيمة", slug: "ras-al-khaimah", image: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=600&q=80", desc: "مدينة RAK، قرية الحمراء، جبل جيس." },
+  { name: "الفجيرة", slug: "fujairah", image: "https://images.unsplash.com/photo-1590004987778-bece5c9adab6?w=600&q=80", desc: "مدينة الفجيرة، دبا، شاطئ خورفاكان." },
+  { name: "أم القيوين", slug: "umm-al-quwain", image: "https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?w=600&q=80", desc: "مدينة UAQ، منطقة دريملاند أكوا بارك." },
 ];
 
 export default function ArLocationsPage() {
-  const breadcrumb = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "الرئيسية", "item": "https://www.backyardstudioofficial.com/ar" },
-      { "@type": "ListItem", "position": 2, "name": "مناطق التصوير", "item": "https://www.backyardstudioofficial.com/ar/locations" },
-    ],
-  };
-
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": LOCATIONS_FAQS.map((f) => ({
-      "@type": "Question",
-      "name": f.q,
-      "acceptedAnswer": { "@type": "Answer", "text": f.a },
-    })),
-  };
-
   return (
-    <div dir="rtl" style={{ fontFamily: "Cairo, sans-serif", paddingTop: "6rem" }}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "الرئيسية", "item": "https://www.backyardstudioofficial.com/ar" },
+              { "@type": "ListItem", "position": 2, "name": "المواقع", "item": "https://www.backyardstudioofficial.com/ar/locations" },
+            ],
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "مواقع التصوير في الإمارات — باكيارد ستوديو أوفيشيال",
+            "itemListElement": EMIRATES.map((e, i) => ({
+              "@type": "ListItem",
+              "position": i + 1,
+              "name": e.name,
+              "url": `https://www.backyardstudioofficial.com/locations/${e.slug}`,
+            })),
+          }),
+        }}
+      />
 
-      {/* Hero */}
-      <div style={{ background: "#111", padding: "4rem 2rem", textAlign: "center", borderBottom: "1px solid #2a2a2a" }}>
-        <p style={{ color: "rgba(212,175,55,0.8)", fontSize: "0.7rem", letterSpacing: "0.3em", marginBottom: "0.75rem", textTransform: "uppercase" }}>تغطية شاملة</p>
-        <h1 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(2.5rem,8vw,5rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>التغطية في الإمارات</h1>
-        <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.5)", maxWidth: "480px", margin: "0 auto", lineHeight: 1.8, fontSize: "0.9rem" }}>
-          نصوّر في جميع الإمارات السبع — كل مدينة، كل حي، كل رؤية إبداعية.
+      <section style={{ background: "#111", padding: "5rem 2rem 3rem", textAlign: "center" }}>
+        <div style={{ fontFamily: "Cairo, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.85rem", marginBottom: "1rem", letterSpacing: "0.1em" }}>تغطية وطنية</div>
+        <h1 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>مواقع التصوير في الإمارات</h1>
+        <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", maxWidth: "550px", margin: "0 auto", lineHeight: 1.8 }}>
+          نصوّر في جميع الإمارات السبع — بدون رسوم تنقل داخل الدولة. نصل إليك أينما كنت.
         </p>
-      </div>
+      </section>
 
-      {/* Emirates grid */}
-      <section style={{ padding: "4rem 2rem", background: "#0a0a0a" }}>
-        <div style={{ maxWidth: "1200px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "1.25rem" }}>
+      <section style={{ padding: "4rem 2rem 5rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "900px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: "1.25rem" }}>
           {EMIRATES.map((e) => (
-            <a key={e.slug} href={`/locations/${e.slug}`} style={{ display: "block", border: "1px solid #2a2a2a", borderRadius: "2px", overflow: "hidden", background: "#1a1a1a", textDecoration: "none" }}>
-              <div style={{ position: "relative", aspectRatio: "16/9", overflow: "hidden" }}>
-                <img src={e.image} alt={`تصوير فيديو في ${e.name}`} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} loading="lazy" />
-                <div style={{ position: "absolute", inset: 0, background: "rgba(0,0,0,0.4)" }} />
-                <div style={{ position: "absolute", bottom: "0.75rem", right: "0.75rem" }}>
-                  <span style={{ fontFamily: "Cairo, sans-serif", fontSize: "0.65rem", fontWeight: 700, color: "var(--gold)", background: "rgba(0,0,0,0.7)", padding: "0.2rem 0.5rem", borderRadius: "2px" }}>{e.areas}+ منطقة</span>
-                </div>
+            <a key={e.slug} href={`/locations/${e.slug}`}
+              style={{ display: "block", background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", overflow: "hidden", textDecoration: "none" }}>
+              <div style={{ height: "180px", overflow: "hidden" }}>
+                <img src={e.image} alt={`تصوير احترافي في ${e.name}`} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} loading="lazy" />
               </div>
-              <div style={{ padding: "1rem" }}>
-                <h2 style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontWeight: 700, marginBottom: "0.4rem", fontSize: "0.95rem" }}>{e.name}</h2>
-                <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.4)", fontSize: "0.75rem", lineHeight: 1.6, margin: 0 }}>{e.desc}</p>
+              <div style={{ padding: "1.25rem" }}>
+                <h2 style={{ fontFamily: "Cairo, sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1.1rem", marginBottom: "0.5rem" }}>{e.name}</h2>
+                <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.85rem", lineHeight: 1.7, marginBottom: "0.75rem" }}>{e.desc}</p>
+                <span style={{ fontFamily: "Cairo, sans-serif", color: "var(--gold)", fontSize: "0.8rem" }}>تفاصيل المنطقة ←</span>
               </div>
             </a>
           ))}
         </div>
-      </section>
 
-      {/* FAQ */}
-      <section style={{ padding: "4rem 2rem", borderTop: "1px solid #2a2a2a", background: "var(--ink)" }}>
-        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
-          <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(1.5rem,4vw,2.5rem)", fontWeight: 900, color: "var(--cream)", textAlign: "center", marginBottom: "2.5rem" }}>أسئلة شائعة عن التغطية</h2>
-          <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
-            {LOCATIONS_FAQS.map((faq) => (
-              <div key={faq.q} style={{ borderBottom: "1px solid #2a2a2a", paddingBottom: "1.25rem" }}>
-                <h3 style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "0.9rem", marginBottom: "0.5rem" }}>{faq.q}</h3>
-                <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.55)", fontSize: "0.85rem", lineHeight: 1.8, margin: 0 }}>{faq.a}</p>
-              </div>
-            ))}
-          </div>
-          <div style={{ textAlign: "center", marginTop: "2.5rem" }}>
-            <a href="/ar/contact" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", fontFamily: "Cairo, sans-serif", fontWeight: 700, borderRadius: "2px", textDecoration: "none", fontSize: "0.9rem" }}>احصل على عرض سعر لجميع الإمارات ←</a>
-          </div>
+        <div style={{ textAlign: "center", marginTop: "3rem", padding: "2.5rem 2rem", background: "rgba(212,175,55,0.04)", border: "1px solid rgba(212,175,55,0.15)", borderRadius: "6px", maxWidth: "600px", margin: "3rem auto 0" }}>
+          <h3 style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.3rem", marginBottom: "0.75rem" }}>
+            هل تحتاج تصوير في موقع محدد؟
+          </h3>
+          <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", marginBottom: "1.5rem", lineHeight: 1.7, fontSize: "0.9rem" }}>
+            تواصل معنا وسنصل إليك في أي مكان في الإمارات. نعمل في المواقع الخارجية، الداخلية، والجوية بطائرات مسيّرة مرخصة من هيئة الطيران المدني.
+          </p>
+          <a href="/ar/contact" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.85rem 2rem", fontFamily: "Cairo, sans-serif", fontWeight: 700, borderRadius: "2px", textDecoration: "none" }}>
+            احصل على عرض سعر
+          </a>
         </div>
       </section>
-    </div>
+    </>
   );
 }
