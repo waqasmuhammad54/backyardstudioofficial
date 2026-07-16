@@ -683,4 +683,164 @@ export default function BlogNewPage() {
 
               <div style={F}>
                 <label style={LABEL}>Keywords (comma-separated)</label>
-                <input style={INPUT} value={keywords} onChange={(e) => setKeywords(e.target.value)} pla
+                <input style={INPUT} value={keywords} onChange={(e) => setKeywords(e.target.value)} placeholder="production company dubai, video production uae" />
+              </div>
+
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 16, marginBottom: 24 }}>
+                {[
+                  { label: "Category", val: category, set: setCategory, ph: "Photography" },
+                  { label: "Author", val: author, set: setAuthor, ph: "Backyard Studio Team" },
+                  { label: "Read Time", val: readTime, set: setReadTime, ph: "6 min read" },
+                ].map(({ label, val, set, ph }) => (
+                  <div key={label}>
+                    <label style={LABEL}>{label}</label>
+                    <input style={INPUT} value={val} onChange={(e) => set(e.target.value)} placeholder={ph} />
+                  </div>
+                ))}
+              </div>
+
+              <div style={F}>
+                <label style={LABEL}>Hero Image Path</label>
+                <div style={{ display: "flex", gap: 8 }}>
+                  <input style={{ ...INPUT, flex: 1 }} value={image} onChange={(e) => setImage(e.target.value)} placeholder="/images/blog/my-photo.webp" />
+                  <button type="button" onClick={() => fileInputRef.current?.click()} disabled={uploading}
+                    style={{ padding: "10px 14px", background: uploading ? "#1a1a1a" : "#222", border: "1px solid #444", borderRadius: 4, color: uploading ? "#555" : "#e8c547", cursor: uploading ? "not-allowed" : "pointer", fontSize: 12, fontWeight: 700, whiteSpace: "nowrap" }}>
+                    {uploading ? "..." : "Upload"}
+                  </button>
+                </div>
+                <input ref={fileInputRef} type="file" accept="image/webp,image/jpeg,image/jpg,image/png" style={{ display: "none" }} onChange={handleImageUpload} />
+              </div>
+
+              <div style={F}>
+                <label style={LABEL}>Excerpt (blog listing preview)</label>
+                <textarea style={{ ...INPUT, resize: "vertical", minHeight: 56 }} value={excerpt} onChange={(e) => setExcerpt(e.target.value)} />
+              </div>
+
+              <div style={F}>
+                <label style={LABEL}>Content</label>
+                <p style={{ fontSize: 11, color: "#555", margin: "0 0 6px" }}>
+                  Plain text. <code style={{ color: "#e8c547" }}>## Heading</code> for H2. Blank line = new paragraph.
+                </p>
+                <textarea
+                  style={{ ...INPUT, resize: "vertical", minHeight: 340, lineHeight: 1.8, fontSize: 13 }}
+                  value={content} onChange={(e) => setContent(e.target.value)}
+                  placeholder={"## Quick Answer\n\nWrite your answer here.\n\n## Section\n\nNext section."}
+                />
+                <p style={{ fontSize: 11, color: "#555", marginTop: 4 }}>{content.split(/\s+/).filter(Boolean).length} words</p>
+              </div>
+
+              <div style={F}>
+                <label style={{ ...LABEL, marginBottom: 12 }}>FAQs</label>
+                {faqs.map((faq, i) => (
+                  <div key={i} style={{ background: "#111", border: "1px solid #2a2a2a", borderRadius: 4, padding: 16, marginBottom: 12 }}>
+                    <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 8 }}>
+                      <span style={{ fontSize: 11, color: "#555", fontWeight: 700 }}>FAQ {i + 1}</span>
+                      {faqs.length > 1 && <button onClick={() => removeFaq(i)} style={{ background: "none", border: "none", color: "#e55", cursor: "pointer", fontSize: 12 }}>Remove</button>}
+                    </div>
+                    <input style={{ ...INPUT, marginBottom: 8 }} value={faq.question} onChange={(e) => updateFaq(i, "question", e.target.value)} placeholder="Question" />
+                    <textarea style={{ ...INPUT, resize: "vertical", minHeight: 60 }} value={faq.answer} onChange={(e) => updateFaq(i, "answer", e.target.value)} placeholder="Answer" />
+                  </div>
+                ))}
+                <button onClick={addFaq} style={{ background: "none", border: "1px solid #333", color: "#888", padding: "8px 16px", borderRadius: 4, cursor: "pointer", fontSize: 13 }}>
+                  + Add FAQ
+                </button>
+              </div>
+            </div>
+
+            {/* ACTION BUTTONS */}
+            {!isLocked && (
+              <div style={{ display: "flex", gap: 12, marginTop: 8 }}>
+                <button
+                  onClick={() => handleSubmit("draft")}
+                  disabled={uiState === "loading"}
+                  style={{ flex: 1, padding: "14px 0", background: "none", border: "1px solid #444", borderRadius: 4, color: "#aaa", fontWeight: 700, fontSize: 15, cursor: uiState === "loading" ? "not-allowed" : "pointer", opacity: uiState === "loading" ? 0.7 : 1 }}>
+                  {uiState === "loading" ? "Saving..." : "Save as Draft"}
+                </button>
+                <button
+                  onClick={() => setShowPreview(true)}
+                  disabled={!title}
+                  style={{ padding: "14px 24px", background: "none", border: "1px solid #555", borderRadius: 4, color: "#888", fontWeight: 700, fontSize: 15, cursor: title ? "pointer" : "not-allowed", opacity: title ? 1 : 0.4 }}>
+                  Preview
+                </button>
+                <button
+                  onClick={() => handleSubmit("published")}
+                  disabled={uiState === "loading"}
+                  style={{ flex: 2, padding: "14px 0", background: "#e8c547", color: "#0a0a0a", border: "none", borderRadius: 4, fontWeight: 700, fontSize: 15, cursor: uiState === "loading" ? "not-allowed" : "pointer", opacity: uiState === "loading" ? 0.7 : 1 }}>
+                  {uiState === "loading" ? "Publishing..." : "Publish Post"}
+                </button>
+              </div>
+            )}
+          </>
+        )}
+
+        {/* POST LIST TABS */}
+        {activeTab !== "new" && (
+          <div>
+            {postsMsg && (
+              <div style={{ padding: "12px 16px", borderRadius: 4, marginBottom: 20, background: "#2a0a0a", border: "1px solid #5a1a1a", color: "#e55", fontSize: 13 }}>
+                {postsMsg}
+              </div>
+            )}
+            {postsLoading ? (
+              <p style={{ color: "#555", textAlign: "center", padding: "60px 20px", fontSize: 14 }}>Loading posts...</p>
+            ) : currentList.length === 0 ? (
+              <div style={{ textAlign: "center", padding: "80px 20px" }}>
+                <p style={{ fontSize: 16, color: "#555", margin: 0 }}>
+                  {activeTab === "bin" ? "Bin is empty" : activeTab === "drafts" ? "No drafts yet" : "No published posts found"}
+                </p>
+              </div>
+            ) : (
+              <div>
+                <div style={{ padding: "0 4px 10px", borderBottom: "1px solid #1a1a1a", marginBottom: 8 }}>
+                  <span style={{ fontSize: 11, color: "#444", fontWeight: 700 }}>
+                    {currentList.length} {activeTab === "bin" ? "DELETED" : activeTab === "drafts" ? "DRAFT" : "PUBLISHED"} POST{currentList.length !== 1 ? "S" : ""}
+                  </span>
+                </div>
+                {currentList.map((post) => (
+                  <div key={post.slug} style={{ background: "#111", border: "1px solid #2a2a2a", borderRadius: 6, padding: "14px 18px", marginBottom: 10, display: "flex", justifyContent: "space-between", alignItems: "center", gap: 16 }}>
+                    <div style={{ flex: 1, minWidth: 0 }}>
+                      <p style={{ color: "#f0f0f0", fontWeight: 600, fontSize: 14, margin: "0 0 4px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                        {post.title || post.slug}
+                      </p>
+                      <p style={{ color: "#444", fontSize: 11, margin: 0 }}>
+                        /blog/{post.slug}
+                        {post.date && <span style={{ color: "#555" }}> · {post.date}</span>}
+                        {post.deletedAt && <span style={{ color: "#c44" }}> · Deleted</span>}
+                      </p>
+                    </div>
+                    <div style={{ display: "flex", gap: 8, flexShrink: 0 }}>
+                      {activeTab !== "bin" ? (
+                        <>
+                          <a href={"/blog/" + post.slug} target="_blank" rel="noopener noreferrer"
+                            style={{ padding: "7px 14px", background: "none", border: "1px solid #2a2a2a", borderRadius: 4, color: "#666", fontSize: 12, textDecoration: "none", fontWeight: 600 }}>
+                            View
+                          </a>
+                          <button onClick={() => moveToBin(post.slug, post.title || post.slug)}
+                            style={{ padding: "7px 14px", background: "none", border: "1px solid #4a1a1a", borderRadius: 4, color: "#c44", fontSize: 12, cursor: "pointer", fontWeight: 600 }}>
+                            Move to Bin
+                          </button>
+                        </>
+                      ) : (
+                        <>
+                          <button onClick={() => restorePost(post.slug)}
+                            style={{ padding: "7px 16px", background: "#0d2a0d", border: "1px solid #1a5a1a", borderRadius: 4, color: "#4caf50", fontSize: 12, cursor: "pointer", fontWeight: 700 }}>
+                            Restore
+                          </button>
+                          <button onClick={() => permanentDelete(post.slug, post.title || post.slug)}
+                            style={{ padding: "7px 14px", background: "#2a0808", border: "1px solid #6a1a1a", borderRadius: 4, color: "#e55", fontSize: 12, cursor: "pointer", fontWeight: 700 }}>
+                            Delete Forever
+                          </button>
+                        </>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
+      </div>
+    </>
+  );
+}

@@ -77,9 +77,7 @@ export async function POST(req: NextRequest) {
   }
 
   const body = await req.json().catch(() => null);
-  if (!body?.slug) {
-    return NextResponse.json({ error: "Invalid post data" }, { status: 400 });
-  }
+  if (!body?.slug) return NextResponse.json({ error: "Invalid post data" }, { status: 400 });
 
   const overwrite: boolean = body.overwrite === true;
   const newPost = { ...body };
@@ -94,19 +92,14 @@ export async function POST(req: NextRequest) {
     sha = result.sha;
   }
 
-  // Duplicate slug check
   const duplicateIndex = existingPosts.findIndex((p) => p.slug === newPost.slug);
   if (duplicateIndex !== -1 && !overwrite) {
     return NextResponse.json(
-      {
-        error: `A post with slug "${newPost.slug}" already exists. Pass overwrite: true to replace it.`,
-        duplicate: true,
-      },
+      { error: `A post with slug "${newPost.slug}" already exists. Pass overwrite: true to replace it.`, duplicate: true },
       { status: 409 }
     );
   }
 
-  // Build updated posts array
   let updatedPosts: Record<string, unknown>[];
   if (overwrite && duplicateIndex !== -1) {
     updatedPosts = [...existingPosts];
@@ -148,4 +141,54 @@ export async function PATCH(req: NextRequest) {
   if (idx === -1) return NextResponse.json({ error: "Post not found" }, { status: 404 });
 
   const targetStatus = restoreTo ?? "published";
-  const restored
+  const restored = { ...posts[idx], status: targetStatus } as Record<string, unknown>;
+  delete restored.deletedAt;
+  posts[idx] = restored;
+
+  const ok = await writePostsToGitHub(GITHUB_TOKEN, posts, sha, `blog: restore "${slug}" to ${targetStatus}`);
+  if (!ok) return NextResponse.json({ error: "GitHub commit failed" }, { status: 502 });
+
+  return NextResponse.json({ ok: true, slug, status: targetStatus });
+}
+
+/* ── DELETE — soft delete (bin) or permanent delete ─────────────── */
+export async function DELETE(req: NextRequest) {
+  if (!authCheck(req)) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
+  const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+  if (!GITHUB_TOKEN) return NextResponse.json({ error: "GITHUB_TOKEN not set" }, { status: 500 });
+
+  const { slug, permanent } = await req.json().catch(() => ({})) as {
+    slug?: string;
+    permanent?: boolean;
+  };
+  if (!slug) return NextResponse.json({ error: "slug required" }, { status: 400 });
+
+  const result = await readPostsFromGitHub(GITHUB_TOKEN);
+  if (!result) return NextResponse.json({ error: "Failed to read posts.json" }, { status: 502 });
+
+  const { posts, sha } = result;
+  const idx = posts.findIndex((p) => p.slug === slug);
+  if (idx === -1) return NextResponse.json({ error: "Post not found" }, { status: 404 });
+
+  let updatedPosts: Record<string, unknown>[];
+  let message: string;
+
+  if (permanent) {
+    updatedPosts = posts.filter((p) => p.slug !== slug);
+    message = `blog: permanently delete "${slug}"`;
+  } else {
+    updatedPosts = [...posts];
+    updatedPosts[idx] = {
+      ...updatedPosts[idx],
+      status: "deleted",
+      deletedAt: new Date().toISOString(),
+    };
+    message = `blog: move "${slug}" to bin`;
+  }
+
+  const ok = await writePostsToGitHub(GITHUB_TOKEN, updatedPosts, sha, message);
+  if (!ok) return NextResponse.json({ error: "GitHub commit failed" }, { status: 502 });
+
+  return NextResponse.json({ ok: true, slug, permanent: !!permanent });
+}
