@@ -5,13 +5,71 @@ const GITHUB_OWNER = "waqasmuhammad54";
 const GITHUB_REPO = "backyardstudioofficial";
 const CONTENT_FILE = "content/posts.json";
 
-export async function POST(req: NextRequest) {
-  // Auth check
+/* ── Shared helpers ─────────────────────────────────────────────── */
+
+function authCheck(req: NextRequest): boolean {
   const sessionCookie = req.cookies.get("bso_session")?.value;
   const expectedToken = process.env.ADMIN_SESSION_TOKEN ?? process.env.ADMIN_PASSWORD;
-  if (!sessionCookie || sessionCookie !== expectedToken) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
+  return !!(sessionCookie && sessionCookie === expectedToken);
+}
+
+async function readPostsFromGitHub(token: string): Promise<{
+  posts: Record<string, unknown>[];
+  sha: string;
+} | null> {
+  const apiBase = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${CONTENT_FILE}`;
+  const res = await fetch(apiBase, {
+    headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" },
+    cache: "no-store",
+  });
+  if (!res.ok) return null;
+  const data = await res.json();
+  return {
+    sha: data.sha,
+    posts: JSON.parse(Buffer.from(data.content, "base64").toString("utf-8")),
+  };
+}
+
+async function writePostsToGitHub(
+  token: string,
+  posts: Record<string, unknown>[],
+  sha: string,
+  message: string
+): Promise<boolean> {
+  const apiBase = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${CONTENT_FILE}`;
+  const res = await fetch(apiBase, {
+    method: "PUT",
+    headers: {
+      Authorization: `Bearer ${token}`,
+      Accept: "application/vnd.github+json",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      message,
+      content: Buffer.from(JSON.stringify(posts, null, 2)).toString("base64"),
+      branch: "main",
+      sha,
+    }),
+  });
+  return res.ok;
+}
+
+/* ── GET — list all posts (for admin panel) ─────────────────────── */
+export async function GET(req: NextRequest) {
+  if (!authCheck(req)) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
+  const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+  if (!GITHUB_TOKEN) return NextResponse.json({ error: "GITHUB_TOKEN not set" }, { status: 500 });
+
+  const result = await readPostsFromGitHub(GITHUB_TOKEN);
+  if (!result) return NextResponse.json({ error: "Failed to read posts.json from GitHub" }, { status: 502 });
+
+  return NextResponse.json({ posts: result.posts });
+}
+
+/* ── POST — publish or update a post ───────────────────────────── */
+export async function POST(req: NextRequest) {
+  if (!authCheck(req)) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
   if (!GITHUB_TOKEN) {
@@ -25,129 +83,69 @@ export async function POST(req: NextRequest) {
 
   const overwrite: boolean = body.overwrite === true;
   const newPost = { ...body };
-  delete newPost.overwrite; // don't store this flag in the post
+  delete newPost.overwrite;
 
-  const apiBase = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${CONTENT_FILE}`;
-
-  // 1. Fetch current file (to get SHA + existing posts)
-  const fetchRes = await fetch(apiBase, {
-    headers: {
-      Authorization: `Bearer ${GITHUB_TOKEN}`,
-      Accept: "application/vnd.github+json",
-    },
-  });
-
+  const result = await readPostsFromGitHub(GITHUB_TOKEN);
   let existingPosts: Record<string, unknown>[] = [];
-  let sha: string | undefined;
+  let sha = "";
 
-  if (fetchRes.ok) {
-    const data = await fetchRes.json();
-    sha = data.sha;
-    const decoded = Buffer.from(data.content, "base64").toString("utf-8");
-    existingPosts = JSON.parse(decoded);
-  } else if (fetchRes.status !== 404) {
-    return NextResponse.json({ error: "Failed to read posts.json from GitHub" }, { status: 502 });
+  if (result) {
+    existingPosts = result.posts;
+    sha = result.sha;
   }
 
-  // 2. Duplicate slug check
+  // Duplicate slug check
   const duplicateIndex = existingPosts.findIndex((p) => p.slug === newPost.slug);
   if (duplicateIndex !== -1 && !overwrite) {
     return NextResponse.json(
-      { error: `A post with slug "${newPost.slug}" already exists. Pass overwrite: true to replace it.`, duplicate: true },
+      {
+        error: `A post with slug "${newPost.slug}" already exists. Pass overwrite: true to replace it.`,
+        duplicate: true,
+      },
       { status: 409 }
     );
   }
 
-  // 3. Build updated posts array
+  // Build updated posts array
   let updatedPosts: Record<string, unknown>[];
   if (overwrite && duplicateIndex !== -1) {
-    // Replace the existing post in-place (preserve position)
     updatedPosts = [...existingPosts];
     updatedPosts[duplicateIndex] = newPost;
   } else {
-    // Prepend new post (newest first)
     updatedPosts = [newPost, ...existingPosts];
   }
 
-  const newContent = Buffer.from(JSON.stringify(updatedPosts, null, 2)).toString("base64");
+  const message = overwrite
+    ? `blog: update "${newPost.title}" [${newPost.slug}]`
+    : newPost.status === "draft"
+    ? `blog: save draft "${newPost.title}" [${newPost.slug}]`
+    : `blog: add "${newPost.title}" [${newPost.slug}]`;
 
-  // 4. Commit updated file
-  const commitBody: Record<string, unknown> = {
-    message: overwrite
-      ? `blog: update "${newPost.title}" [${newPost.slug}]`
-      : newPost.status === "draft"
-      ? `blog: save draft "${newPost.title}" [${newPost.slug}]`
-      : `blog: add "${newPost.title}" [${newPost.slug}]`,
-    content: newContent,
-    branch: "main",
-  };
-  if (sha) commitBody.sha = sha;
-
-  const commitRes = await fetch(apiBase, {
-    method: "PUT",
-    headers: {
-      Authorization: `Bearer ${GITHUB_TOKEN}`,
-      Accept: "application/vnd.github+json",
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify(commitBody),
-  });
-
-  if (!commitRes.ok) {
-    const errBody = await commitRes.json().catch(() => ({}));
-    return NextResponse.json({ error: "GitHub commit failed", detail: errBody }, { status: 502 });
-  }
+  const ok = await writePostsToGitHub(GITHUB_TOKEN, updatedPosts, sha, message);
+  if (!ok) return NextResponse.json({ error: "GitHub commit failed" }, { status: 502 });
 
   return NextResponse.json({ ok: true, slug: newPost.slug, status: newPost.status ?? "published" });
 }
 
-// DELETE — remove a post by slug
-export async function DELETE(req: NextRequest) {
-  const sessionCookie = req.cookies.get("bso_session")?.value;
-  const expectedToken = process.env.ADMIN_SESSION_TOKEN ?? process.env.ADMIN_PASSWORD;
-  if (!sessionCookie || sessionCookie !== expectedToken) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-  }
+/* ── PATCH — restore a post from bin ───────────────────────────── */
+export async function PATCH(req: NextRequest) {
+  if (!authCheck(req)) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-  if (!GITHUB_TOKEN) {
-    return NextResponse.json({ error: "GITHUB_TOKEN not set" }, { status: 500 });
-  }
+  if (!GITHUB_TOKEN) return NextResponse.json({ error: "GITHUB_TOKEN not set" }, { status: 500 });
 
-  const { slug } = await req.json().catch(() => ({})) as { slug?: string };
+  const { slug, restoreTo } = await req.json().catch(() => ({})) as {
+    slug?: string;
+    restoreTo?: string;
+  };
   if (!slug) return NextResponse.json({ error: "slug required" }, { status: 400 });
 
-  const apiBase = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${CONTENT_FILE}`;
+  const result = await readPostsFromGitHub(GITHUB_TOKEN);
+  if (!result) return NextResponse.json({ error: "Failed to read posts.json" }, { status: 502 });
 
-  const fetchRes = await fetch(apiBase, {
-    headers: { Authorization: `Bearer ${GITHUB_TOKEN}`, Accept: "application/vnd.github+json" },
-  });
-  if (!fetchRes.ok) return NextResponse.json({ error: "Failed to read posts.json" }, { status: 502 });
+  const { posts, sha } = result;
+  const idx = posts.findIndex((p) => p.slug === slug);
+  if (idx === -1) return NextResponse.json({ error: "Post not found" }, { status: 404 });
 
-  const data = await fetchRes.json();
-  const sha = data.sha;
-  const existingPosts: Record<string, unknown>[] = JSON.parse(Buffer.from(data.content, "base64").toString("utf-8"));
-
-  const filtered = existingPosts.filter((p) => p.slug !== slug);
-  if (filtered.length === existingPosts.length) {
-    return NextResponse.json({ error: "Post not found" }, { status: 404 });
-  }
-
-  const commitRes = await fetch(apiBase, {
-    method: "PUT",
-    headers: {
-      Authorization: `Bearer ${GITHUB_TOKEN}`,
-      Accept: "application/vnd.github+json",
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      message: `blog: remove "${slug}"`,
-      content: Buffer.from(JSON.stringify(filtered, null, 2)).toString("base64"),
-      branch: "main",
-      sha,
-    }),
-  });
-
-  if (!commitRes.ok) return NextResponse.json({ error: "GitHub commit failed" }, { status: 502 });
-  return NextResponse.json({ ok: true, removed: slug, remaining: filtered.length });
-}
+  const targetStatus = restoreTo ?? "published";
+  const restored

@@ -1,5 +1,5 @@
 "use client";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 const INPUT: React.CSSProperties = {
   width: "100%", boxSizing: "border-box", padding: "10px 14px",
@@ -15,6 +15,16 @@ const counterColor = (len: number, max: number) =>
 
 type FAQ = { question: string; answer: string };
 type PublishStatus = "published" | "draft";
+type PostStatus = "published" | "draft" | "deleted";
+type PostRecord = {
+  slug: string;
+  title?: string;
+  status?: PostStatus;
+  date?: string;
+  dateISO?: string;
+  deletedAt?: string;
+};
+type ActiveTab = "new" | "published" | "drafts" | "bin";
 
 function slugify(str: string) {
   return str.toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
@@ -176,10 +186,7 @@ function PreviewModal({ title, metaTitle, metaDesc, excerpt, content, image, onC
         <div style={{ padding: "32px 36px", color: "#222", fontFamily: "Georgia, serif", lineHeight: 1.7 }}>
           <h1 style={{ fontSize: 28, fontWeight: 700, margin: "0 0 12px", lineHeight: 1.3, color: "#111" }}>{title}</h1>
           {excerpt && <p style={{ color: "#555", fontSize: 16, margin: "0 0 24px", fontStyle: "italic" }}>{excerpt}</p>}
-          <div
-            dangerouslySetInnerHTML={{ __html: html }}
-            style={{ fontSize: 16 }}
-          />
+          <div dangerouslySetInnerHTML={{ __html: html }} style={{ fontSize: 16 }} />
         </div>
       </div>
     </div>
@@ -189,6 +196,8 @@ function PreviewModal({ title, metaTitle, metaDesc, excerpt, content, image, onC
 /* ── Main Page ───────────────────────────────────────────────────── */
 export default function BlogNewPage() {
   const [authed, setAuthed] = useState<boolean | null>(null);
+
+  // New post form state
   const [title, setTitle] = useState("");
   const [metaTitle, setMetaTitle] = useState("");
   const [metaDesc, setMetaDesc] = useState("");
@@ -201,7 +210,7 @@ export default function BlogNewPage() {
   const [content, setContent] = useState("");
   const [faqs, setFaqs] = useState<FAQ[]>([{ question: "", answer: "" }]);
 
-  // State machine: idle | loading | published | draft_saved | error
+  // UI state for form
   const [uiState, setUiState] = useState<"idle" | "loading" | "published" | "draft_saved" | "error">("idle");
   const [msg, setMsg] = useState("");
   const [liveSlug, setLiveSlug] = useState("");
@@ -209,14 +218,20 @@ export default function BlogNewPage() {
   const [mdLoaded, setMdLoaded] = useState(false);
   const [showPreview, setShowPreview] = useState(false);
 
+  // Tab + post list state
+  const [activeTab, setActiveTab] = useState<ActiveTab>("new");
+  const [posts, setPosts] = useState<PostRecord[]>([]);
+  const [postsLoading, setPostsLoading] = useState(false);
+  const [postsMsg, setPostsMsg] = useState("");
+
   const fileInputRef = useRef<HTMLInputElement>(null);
   const mdInputRef = useRef<HTMLInputElement>(null);
   const imageInputRef = useRef<HTMLInputElement>(null);
 
   // Check auth on mount
-  useState(() => {
+  useEffect(() => {
     fetch("/api/admin/leads?status=new").then((r) => setAuthed(r.ok || r.status !== 401));
-  });
+  }, []);
 
   const slug = slugify(title) + (title.toLowerCase().endsWith("-2026") ? "" : "-2026");
 
@@ -236,6 +251,72 @@ export default function BlogNewPage() {
     setUiState("idle"); setMsg(""); setLiveSlug("");
   }
 
+  /* ── Post list helpers ─────────────────────────────────────────── */
+  const fetchPosts = async () => {
+    setPostsLoading(true); setPostsMsg("");
+    const res = await fetch("/api/admin/publish");
+    if (res.ok) {
+      const data = await res.json();
+      setPosts(data.posts || []);
+    } else {
+      setPostsMsg("Failed to load posts. Check GitHub token.");
+    }
+    setPostsLoading(false);
+  };
+
+  const switchTab = (tab: ActiveTab) => {
+    setActiveTab(tab);
+    if (tab !== "new") fetchPosts();
+  };
+
+  const moveToBin = async (postSlug: string, postTitle: string) => {
+    if (!window.confirm(`Move "${postTitle}" to bin?`)) return;
+    setPostsMsg("");
+    const res = await fetch("/api/admin/publish", {
+      method: "DELETE",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ slug: postSlug }),
+    });
+    if (res.ok) {
+      fetchPosts();
+    } else {
+      const b = await res.json().catch(() => ({}));
+      setPostsMsg(b.error || "Failed to move to bin.");
+    }
+  };
+
+  const restorePost = async (postSlug: string) => {
+    setPostsMsg("");
+    const res = await fetch("/api/admin/publish", {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ slug: postSlug }),
+    });
+    if (res.ok) {
+      fetchPosts();
+    } else {
+      const b = await res.json().catch(() => ({}));
+      setPostsMsg(b.error || "Failed to restore post.");
+    }
+  };
+
+  const permanentDelete = async (postSlug: string, postTitle: string) => {
+    if (!window.confirm(`PERMANENTLY delete "${postTitle}"?\n\nThis cannot be undone.`)) return;
+    setPostsMsg("");
+    const res = await fetch("/api/admin/publish", {
+      method: "DELETE",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ slug: postSlug, permanent: true }),
+    });
+    if (res.ok) {
+      fetchPosts();
+    } else {
+      const b = await res.json().catch(() => ({}));
+      setPostsMsg(b.error || "Failed to permanently delete.");
+    }
+  };
+
+  /* ── MD + Image upload ─────────────────────────────────────────── */
   function handleMdUpload(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
     if (!file) return;
@@ -298,6 +379,7 @@ export default function BlogNewPage() {
     }
   }
 
+  /* ── Publish/draft submit ──────────────────────────────────────── */
   async function handleSubmit(publishStatus: PublishStatus) {
     if (!title || !metaTitle || !metaDesc || !content) {
       setMsg("Fill in title, meta title, meta description, and content."); return;
@@ -334,7 +416,6 @@ export default function BlogNewPage() {
     const body = await res.json().catch(() => ({}));
 
     if (res.status === 409 && body.duplicate) {
-      // Duplicate slug — ask to overwrite
       const confirmed = window.confirm(
         `A post with this URL already exists:\n/blog/${slug}\n\nDo you want to overwrite (update) it?`
       );
@@ -379,6 +460,23 @@ export default function BlogNewPage() {
   const F: React.CSSProperties = { marginBottom: 24 };
   const isLocked = uiState === "published" || uiState === "draft_saved";
 
+  /* ── Derived post lists ─────────────────────────────────────────── */
+  const publishedPosts = posts.filter((p) => !p.status || p.status === "published");
+  const draftPosts = posts.filter((p) => p.status === "draft");
+  const binPosts = posts.filter((p) => p.status === "deleted");
+
+  const tabCounts: Record<ActiveTab, number | null> = {
+    new: null,
+    published: postsLoading ? null : publishedPosts.length,
+    drafts: postsLoading ? null : draftPosts.length,
+    bin: postsLoading ? null : binPosts.length,
+  };
+
+  const currentList =
+    activeTab === "published" ? publishedPosts :
+    activeTab === "drafts" ? draftPosts :
+    activeTab === "bin" ? binPosts : [];
+
   return (
     <>
       {showPreview && (
@@ -392,13 +490,13 @@ export default function BlogNewPage() {
       <div style={{ maxWidth: 820, margin: "0 auto", padding: "40px 24px 80px", background: "#0a0a0a", minHeight: "100vh" }}>
 
         {/* Header */}
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 32 }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 24 }}>
           <div>
             <p style={{ color: "#e8c547", fontSize: 11, fontWeight: 700, letterSpacing: "0.4em", margin: "0 0 4px" }}>BLOG ADMIN</p>
-            <h1 style={{ margin: 0, fontSize: 24, fontWeight: 700, color: "#fff" }}>New Blog Post</h1>
+            <h1 style={{ margin: 0, fontSize: 24, fontWeight: 700, color: "#fff" }}>Blog Manager</h1>
           </div>
           <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
-            {title && (
+            {activeTab === "new" && title && (
               <button
                 onClick={() => setShowPreview(true)}
                 style={{ padding: "8px 18px", background: "none", border: "1px solid #444", borderRadius: 4, color: "#aaa", cursor: "pointer", fontSize: 13, fontWeight: 600 }}>
@@ -409,255 +507,180 @@ export default function BlogNewPage() {
           </div>
         </div>
 
-        {/* SUCCESS STATE */}
-        {isLocked && (
-          <div style={{
-            background: uiState === "published" ? "#0a2a0a" : "#1a1a08",
-            border: `1px solid ${uiState === "published" ? "#2a6a2a" : "#4a4a10"}`,
-            borderRadius: 8, padding: 28, marginBottom: 32, textAlign: "center",
-          }}>
-            <div style={{ fontSize: 48, marginBottom: 12 }}>{uiState === "published" ? "✅" : "📝"}</div>
-            <p style={{
-              color: uiState === "published" ? "#4caf50" : "#e8c547",
-              fontSize: 20, fontWeight: 700, margin: "0 0 8px",
-            }}>
-              {uiState === "published" ? "Done — Post is Live!" : "Saved as Draft"}
-            </p>
-            <p style={{ color: "#aaa", fontSize: 14, margin: "0 0 20px" }}>{msg}</p>
-            {uiState === "published" && liveSlug && (
-              <a
-                href={`/blog/${liveSlug}`}
-                target="_blank"
-                rel="noopener noreferrer"
+        {/* ── Tab Bar ── */}
+        <div style={{ display: "flex", borderBottom: "1px solid #2a2a2a", marginBottom: 32 }}>
+          {([
+            { id: "new" as ActiveTab, label: "📝 New Post" },
+            { id: "published" as ActiveTab, label: "✅ Published" },
+            { id: "drafts" as ActiveTab, label: "🗒 Drafts" },
+            { id: "bin" as ActiveTab, label: "🗑 Bin" },
+          ]).map(({ id, label }) => {
+            const count = tabCounts[id];
+            return (
+              <button key={id} onClick={() => switchTab(id)}
                 style={{
-                  display: "inline-block", padding: "10px 24px", background: "#1a3a1a",
-                  border: "1px solid #2a6a2a", borderRadius: 4, color: "#4caf50",
-                  textDecoration: "none", fontSize: 14, fontWeight: 600, marginRight: 12,
-                }}
-              >
-                View Live Post →
-              </a>
-            )}
-            <button
-              onClick={resetForm}
-              style={{
-                display: "inline-block", padding: "10px 24px", background: "#e8c547",
-                border: "none", borderRadius: 4, color: "#0a0a0a",
-                cursor: "pointer", fontSize: 14, fontWeight: 700,
-              }}
-            >
-              + Publish Another Post
-            </button>
-          </div>
-        )}
-
-        {/* QUICK UPLOAD SECTION */}
-        {!isLocked && (
-          <div style={{ background: "#111", border: "1px solid #2a2a2a", borderRadius: 6, padding: 24, marginBottom: 36 }}>
-            <p style={{ color: "#e8c547", fontSize: 11, fontWeight: 700, letterSpacing: "0.3em", margin: "0 0 4px" }}>QUICK UPLOAD</p>
-            <p style={{ color: "#aaa", fontSize: 13, margin: "0 0 20px" }}>
-              Upload a <code style={{ color: "#e8c547" }}>.md</code> file + hero image to auto-fill the form.
-            </p>
-
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
-              {/* MD Upload */}
-              <div style={{ background: "#0a0a0a", border: "1px solid #333", borderRadius: 4, padding: 20, textAlign: "center" }}>
-                <div style={{ fontSize: 28, marginBottom: 8 }}>MD</div>
-                <p style={{ color: "#fff", fontSize: 13, fontWeight: 600, margin: "0 0 4px" }}>Upload .md File</p>
-                <p style={{ color: "#555", fontSize: 11, margin: "0 0 14px" }}>Auto-fills all text fields</p>
-                <button type="button" onClick={() => mdInputRef.current?.click()}
-                  style={{
-                    padding: "8px 20px", background: mdLoaded ? "#1a3a1a" : "#e8c547",
-                    border: mdLoaded ? "1px solid #2a5a2a" : "none",
-                    borderRadius: 4, color: mdLoaded ? "#4caf50" : "#0a0a0a",
-                    cursor: "pointer", fontSize: 13, fontWeight: 700,
+                  padding: "10px 20px", background: "none", border: "none",
+                  borderBottom: activeTab === id ? "2px solid #e8c547" : "2px solid transparent",
+                  color: activeTab === id ? "#e8c547" : "#666",
+                  cursor: "pointer", fontSize: 13, fontWeight: 700, marginBottom: -1,
+                  display: "flex", alignItems: "center", gap: 6,
+                }}>
+                {label}
+                {count !== null && (
+                  <span style={{
+                    background: activeTab === id ? "#2a2000" : "#1a1a1a",
+                    color: activeTab === id ? "#e8c547" : "#555",
+                    fontSize: 10, fontWeight: 700, borderRadius: 10,
+                    padding: "1px 6px", minWidth: 18, textAlign: "center",
                   }}>
-                  {mdLoaded ? "✓ MD Loaded" : "Choose .md File"}
-                </button>
-                <input ref={mdInputRef} type="file" accept=".md,.markdown" style={{ display: "none" }} onChange={handleMdUpload} />
-              </div>
-
-              {/* Image Upload */}
-              <div style={{ background: "#0a0a0a", border: "1px solid #333", borderRadius: 4, padding: 20, textAlign: "center" }}>
-                <div style={{ fontSize: 28, marginBottom: 8 }}>IMG</div>
-                <p style={{ color: "#fff", fontSize: 13, fontWeight: 600, margin: "0 0 4px" }}>Upload Hero Image</p>
-                <p style={{ color: "#555", fontSize: 11, margin: "0 0 14px" }}>WebP/JPEG, 1200×630px, under 300KB</p>
-                <button type="button" onClick={() => imageInputRef.current?.click()} disabled={uploading}
-                  style={{
-                    padding: "8px 20px", background: uploading ? "#1a1a1a" : "#333",
-                    border: "1px solid #444", borderRadius: 4,
-                    color: uploading ? "#555" : "#fff",
-                    cursor: uploading ? "not-allowed" : "pointer", fontSize: 13, fontWeight: 700,
-                  }}>
-                  {uploading ? "Uploading..." : "Choose Image"}
-                </button>
-                <input ref={imageInputRef} type="file" accept="image/webp,image/jpeg,image/jpg,image/png" style={{ display: "none" }} onChange={handleImageUpload} />
-              </div>
-            </div>
-
-            <details style={{ marginTop: 16 }}>
-              <summary style={{ color: "#555", fontSize: 11, cursor: "pointer" }}>What should my .md file look like?</summary>
-              <pre style={{ marginTop: 10, padding: 14, background: "#0a0a0a", borderRadius: 4, color: "#888", fontSize: 11, lineHeight: 1.7, overflowX: "auto", border: "1px solid #222" }}>
-                {"---\ntitle: Event Videography UAE -- Pricing 2026\nmetaTitle: Event Videography UAE | Pricing 2026\nmetaDescription: Event videography in UAE costs AED 3,000-20,000.\nkeywords: event videography uae, event videography dubai\ncategory: Videography\nauthor: Backyard Studio Team\nreadTime: 8 min read\nexcerpt: Short preview for the blog listing page.\n---\n\n# Title Here\n\n## Quick Answer\n\nParagraph...\n\n## Frequently Asked Questions\n\n### Question?\n\nAnswer paragraph."}
-              </pre>
-            </details>
-          </div>
-        )}
-
-        {/* Notification bar (not locked success state) */}
-        {msg && !isLocked && (
-          <div style={{
-            padding: "12px 16px", borderRadius: 4, marginBottom: 24,
-            background: uiState === "error" ? "#2a0a0a" : "#1a1a08",
-            border: `1px solid ${uiState === "error" ? "#5a1a1a" : "#3a3a10"}`,
-            color: uiState === "error" ? "#e55" : "#e8c547", fontSize: 13,
-          }}>
-            {msg}
-          </div>
-        )}
-
-        {/* FORM FIELDS */}
-        <div style={{ borderTop: "1px solid #1a1a1a", paddingTop: 32, opacity: isLocked ? 0.4 : 1, pointerEvents: isLocked ? "none" : "auto" }}>
-          <p style={{ color: "#555", fontSize: 11, fontWeight: 700, letterSpacing: "0.3em", marginBottom: 24 }}>OR FILL MANUALLY</p>
-
-          <div style={F}>
-            <label style={LABEL}>Post Title</label>
-            <input style={INPUT} value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Best Production Companies in Dubai 2026" />
-            {title && <p style={{ fontSize: 12, color: "#555", marginTop: 4 }}>Slug: <code style={{ color: "#e8c547" }}>/blog/{slug}</code></p>}
-          </div>
-
-          <div style={F}>
-            <label style={LABEL}>Meta Title (55 chars max)</label>
-            <input
-              style={{ ...INPUT, borderColor: metaTitle.length > 55 ? "#e55" : "#333" }}
-              value={metaTitle} onChange={(e) => setMetaTitle(e.target.value)}
-              placeholder="Production Companies Dubai 2026 | Backyard" maxLength={60}
-            />
-            <p style={{ fontSize: 11, color: counterColor(metaTitle.length, 55), textAlign: "right", marginTop: 4 }}>{metaTitle.length} / 55</p>
-          </div>
-
-          <div style={F}>
-            <label style={LABEL}>Meta Description (155 chars max)</label>
-            <textarea
-              style={{ ...INPUT, resize: "vertical", minHeight: 72 }}
-              value={metaDesc} onChange={(e) => setMetaDesc(e.target.value)}
-              placeholder="Discover the top video production companies in Dubai for 2026..." maxLength={160}
-            />
-            <p style={{ fontSize: 11, color: counterColor(metaDesc.length, 155), textAlign: "right", marginTop: 4 }}>{metaDesc.length} / 155</p>
-          </div>
-
-          <div style={F}>
-            <label style={LABEL}>Keywords (comma-separated)</label>
-            <input style={INPUT} value={keywords} onChange={(e) => setKeywords(e.target.value)} placeholder="production company dubai, video production uae" />
-          </div>
-
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 16, marginBottom: 24 }}>
-            {[
-              { label: "Category", val: category, set: setCategory, ph: "Photography" },
-              { label: "Author", val: author, set: setAuthor, ph: "Backyard Studio Team" },
-              { label: "Read Time", val: readTime, set: setReadTime, ph: "6 min read" },
-            ].map(({ label, val, set, ph }) => (
-              <div key={label}>
-                <label style={LABEL}>{label}</label>
-                <input style={INPUT} value={val} onChange={(e) => set(e.target.value)} placeholder={ph} />
-              </div>
-            ))}
-          </div>
-
-          <div style={F}>
-            <label style={LABEL}>Hero Image Path</label>
-            <div style={{ display: "flex", gap: 8 }}>
-              <input style={{ ...INPUT, flex: 1 }} value={image} onChange={(e) => setImage(e.target.value)} placeholder="/images/blog/my-photo.webp" />
-              <button type="button" onClick={() => fileInputRef.current?.click()} disabled={uploading}
-                style={{ padding: "10px 14px", background: uploading ? "#1a1a1a" : "#222", border: "1px solid #444", borderRadius: 4, color: uploading ? "#555" : "#e8c547", cursor: uploading ? "not-allowed" : "pointer", fontSize: 12, fontWeight: 700, whiteSpace: "nowrap" }}>
-                {uploading ? "..." : "Upload"}
+                    {count}
+                  </span>
+                )}
               </button>
-            </div>
-            <input ref={fileInputRef} type="file" accept="image/webp,image/jpeg,image/jpg,image/png" style={{ display: "none" }} onChange={handleImageUpload} />
-          </div>
-
-          <div style={F}>
-            <label style={LABEL}>Excerpt (blog listing preview)</label>
-            <textarea style={{ ...INPUT, resize: "vertical", minHeight: 56 }} value={excerpt} onChange={(e) => setExcerpt(e.target.value)} />
-          </div>
-
-          <div style={F}>
-            <label style={LABEL}>Content</label>
-            <p style={{ fontSize: 11, color: "#555", margin: "0 0 6px" }}>
-              Plain text. <code style={{ color: "#e8c547" }}>## Heading</code> for H2. Blank line = new paragraph.
-            </p>
-            <textarea
-              style={{ ...INPUT, resize: "vertical", minHeight: 340, lineHeight: 1.8, fontSize: 13 }}
-              value={content} onChange={(e) => setContent(e.target.value)}
-              placeholder={"## Quick Answer\n\nWrite your answer here.\n\n## Section\n\nNext section."}
-            />
-            <p style={{ fontSize: 11, color: "#555", marginTop: 4 }}>{content.split(/\s+/).filter(Boolean).length} words</p>
-          </div>
-
-          <div style={F}>
-            <label style={{ ...LABEL, marginBottom: 12 }}>FAQs</label>
-            {faqs.map((faq, i) => (
-              <div key={i} style={{ background: "#111", border: "1px solid #2a2a2a", borderRadius: 4, padding: 16, marginBottom: 12 }}>
-                <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 8 }}>
-                  <span style={{ fontSize: 11, color: "#555", fontWeight: 700 }}>FAQ {i + 1}</span>
-                  {faqs.length > 1 && <button onClick={() => removeFaq(i)} style={{ background: "none", border: "none", color: "#e55", cursor: "pointer", fontSize: 12 }}>Remove</button>}
-                </div>
-                <input style={{ ...INPUT, marginBottom: 8 }} value={faq.question} onChange={(e) => updateFaq(i, "question", e.target.value)} placeholder="Question" />
-                <textarea style={{ ...INPUT, resize: "vertical", minHeight: 60 }} value={faq.answer} onChange={(e) => updateFaq(i, "answer", e.target.value)} placeholder="Answer" />
-              </div>
-            ))}
-            <button onClick={addFaq} style={{ background: "none", border: "1px solid #333", color: "#888", padding: "8px 16px", borderRadius: 4, cursor: "pointer", fontSize: 13 }}>
-              + Add FAQ
-            </button>
-          </div>
+            );
+          })}
         </div>
 
-        {/* ACTION BUTTONS */}
-        {!isLocked && (
-          <div style={{ display: "flex", gap: 12, marginTop: 8 }}>
-            {/* Save as Draft */}
-            <button
-              onClick={() => handleSubmit("draft")}
-              disabled={uiState === "loading"}
-              style={{
-                flex: 1, padding: "14px 0", background: "none",
-                border: "1px solid #444", borderRadius: 4, color: "#aaa",
-                fontWeight: 700, fontSize: 15,
-                cursor: uiState === "loading" ? "not-allowed" : "pointer",
-                opacity: uiState === "loading" ? 0.7 : 1,
+        {/* ══ NEW POST TAB ══════════════════════════════════════════ */}
+        {activeTab === "new" && (
+          <>
+            {/* SUCCESS STATE */}
+            {isLocked && (
+              <div style={{
+                background: uiState === "published" ? "#0a2a0a" : "#1a1a08",
+                border: `1px solid ${uiState === "published" ? "#2a6a2a" : "#4a4a10"}`,
+                borderRadius: 8, padding: 28, marginBottom: 32, textAlign: "center",
               }}>
-              {uiState === "loading" ? "Saving..." : "Save as Draft"}
-            </button>
+                <div style={{ fontSize: 48, marginBottom: 12 }}>{uiState === "published" ? "✅" : "📝"}</div>
+                <p style={{
+                  color: uiState === "published" ? "#4caf50" : "#e8c547",
+                  fontSize: 20, fontWeight: 700, margin: "0 0 8px",
+                }}>
+                  {uiState === "published" ? "Done — Post is Live!" : "Saved as Draft"}
+                </p>
+                <p style={{ color: "#aaa", fontSize: 14, margin: "0 0 20px" }}>{msg}</p>
+                {uiState === "published" && liveSlug && (
+                  <a
+                    href={`/blog/${liveSlug}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      display: "inline-block", padding: "10px 24px", background: "#1a3a1a",
+                      border: "1px solid #2a6a2a", borderRadius: 4, color: "#4caf50",
+                      textDecoration: "none", fontSize: 14, fontWeight: 600, marginRight: 12,
+                    }}
+                  >
+                    View Live Post →
+                  </a>
+                )}
+                <button
+                  onClick={resetForm}
+                  style={{
+                    display: "inline-block", padding: "10px 24px", background: "#e8c547",
+                    border: "none", borderRadius: 4, color: "#0a0a0a",
+                    cursor: "pointer", fontSize: 14, fontWeight: 700,
+                  }}
+                >
+                  + Publish Another Post
+                </button>
+              </div>
+            )}
 
-            {/* Preview */}
-            <button
-              onClick={() => setShowPreview(true)}
-              disabled={!title}
-              style={{
-                padding: "14px 24px", background: "none",
-                border: "1px solid #555", borderRadius: 4, color: "#888",
-                fontWeight: 700, fontSize: 15,
-                cursor: title ? "pointer" : "not-allowed",
-                opacity: title ? 1 : 0.4,
-              }}>
-              👁 Preview
-            </button>
+            {/* QUICK UPLOAD SECTION */}
+            {!isLocked && (
+              <div style={{ background: "#111", border: "1px solid #2a2a2a", borderRadius: 6, padding: 24, marginBottom: 36 }}>
+                <p style={{ color: "#e8c547", fontSize: 11, fontWeight: 700, letterSpacing: "0.3em", margin: "0 0 4px" }}>QUICK UPLOAD</p>
+                <p style={{ color: "#aaa", fontSize: 13, margin: "0 0 20px" }}>
+                  Upload a <code style={{ color: "#e8c547" }}>.md</code> file + hero image to auto-fill the form.
+                </p>
 
-            {/* Publish */}
-            <button
-              onClick={() => handleSubmit("published")}
-              disabled={uiState === "loading"}
-              style={{
-                flex: 2, padding: "14px 0", background: "#e8c547", color: "#0a0a0a",
-                border: "none", borderRadius: 4, fontWeight: 700, fontSize: 15,
-                cursor: uiState === "loading" ? "not-allowed" : "pointer",
-                opacity: uiState === "loading" ? 0.7 : 1,
+                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
+                  {/* MD Upload */}
+                  <div style={{ background: "#0a0a0a", border: "1px solid #333", borderRadius: 4, padding: 20, textAlign: "center" }}>
+                    <div style={{ fontSize: 28, marginBottom: 8 }}>MD</div>
+                    <p style={{ color: "#fff", fontSize: 13, fontWeight: 600, margin: "0 0 4px" }}>Upload .md File</p>
+                    <p style={{ color: "#555", fontSize: 11, margin: "0 0 14px" }}>Auto-fills all text fields</p>
+                    <button type="button" onClick={() => mdInputRef.current?.click()}
+                      style={{
+                        padding: "8px 20px", background: mdLoaded ? "#1a3a1a" : "#e8c547",
+                        border: mdLoaded ? "1px solid #2a5a2a" : "none",
+                        borderRadius: 4, color: mdLoaded ? "#4caf50" : "#0a0a0a",
+                        cursor: "pointer", fontSize: 13, fontWeight: 700,
+                      }}>
+                      {mdLoaded ? "✓ MD Loaded" : "Choose .md File"}
+                    </button>
+                    <input ref={mdInputRef} type="file" accept=".md,.markdown" style={{ display: "none" }} onChange={handleMdUpload} />
+                  </div>
+
+                  {/* Image Upload */}
+                  <div style={{ background: "#0a0a0a", border: "1px solid #333", borderRadius: 4, padding: 20, textAlign: "center" }}>
+                    <div style={{ fontSize: 28, marginBottom: 8 }}>IMG</div>
+                    <p style={{ color: "#fff", fontSize: 13, fontWeight: 600, margin: "0 0 4px" }}>Upload Hero Image</p>
+                    <p style={{ color: "#555", fontSize: 11, margin: "0 0 14px" }}>WebP/JPEG, 1200×630px, under 300KB</p>
+                    <button type="button" onClick={() => imageInputRef.current?.click()} disabled={uploading}
+                      style={{
+                        padding: "8px 20px", background: uploading ? "#1a1a1a" : "#333",
+                        border: "1px solid #444", borderRadius: 4,
+                        color: uploading ? "#555" : "#fff",
+                        cursor: uploading ? "not-allowed" : "pointer", fontSize: 13, fontWeight: 700,
+                      }}>
+                      {uploading ? "Uploading..." : "Choose Image"}
+                    </button>
+                    <input ref={imageInputRef} type="file" accept="image/webp,image/jpeg,image/jpg,image/png" style={{ display: "none" }} onChange={handleImageUpload} />
+                  </div>
+                </div>
+
+                <details style={{ marginTop: 16 }}>
+                  <summary style={{ color: "#555", fontSize: 11, cursor: "pointer" }}>What should my .md file look like?</summary>
+                  <pre style={{ marginTop: 10, padding: 14, background: "#0a0a0a", borderRadius: 4, color: "#888", fontSize: 11, lineHeight: 1.7, overflowX: "auto", border: "1px solid #222" }}>
+                    {"---\ntitle: Event Videography UAE -- Pricing 2026\nmetaTitle: Event Videography UAE | Pricing 2026\nmetaDescription: Event videography in UAE costs AED 3,000-20,000.\nkeywords: event videography uae, event videography dubai\ncategory: Videography\nauthor: Backyard Studio Team\nreadTime: 8 min read\nexcerpt: Short preview for the blog listing page.\n---\n\n# Title Here\n\n## Quick Answer\n\nParagraph...\n\n## Frequently Asked Questions\n\n### Question?\n\nAnswer paragraph."}
+                  </pre>
+                </details>
+              </div>
+            )}
+
+            {/* Notification bar */}
+            {msg && !isLocked && (
+              <div style={{
+                padding: "12px 16px", borderRadius: 4, marginBottom: 24,
+                background: uiState === "error" ? "#2a0a0a" : "#1a1a08",
+                border: `1px solid ${uiState === "error" ? "#5a1a1a" : "#3a3a10"}`,
+                color: uiState === "error" ? "#e55" : "#e8c547", fontSize: 13,
               }}>
-              {uiState === "loading" ? "Publishing..." : "Publish Post →"}
-            </button>
-          </div>
-        )}
-      </div>
-    </>
-  );
-}
+                {msg}
+              </div>
+            )}
+
+            {/* FORM FIELDS */}
+            <div style={{ borderTop: "1px solid #1a1a1a", paddingTop: 32, opacity: isLocked ? 0.4 : 1, pointerEvents: isLocked ? "none" : "auto" }}>
+              <p style={{ color: "#555", fontSize: 11, fontWeight: 700, letterSpacing: "0.3em", marginBottom: 24 }}>OR FILL MANUALLY</p>
+
+              <div style={F}>
+                <label style={LABEL}>Post Title</label>
+                <input style={INPUT} value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Best Production Companies in Dubai 2026" />
+                {title && <p style={{ fontSize: 12, color: "#555", marginTop: 4 }}>Slug: <code style={{ color: "#e8c547" }}>/blog/{slug}</code></p>}
+              </div>
+
+              <div style={F}>
+                <label style={LABEL}>Meta Title (55 chars max)</label>
+                <input
+                  style={{ ...INPUT, borderColor: metaTitle.length > 55 ? "#e55" : "#333" }}
+                  value={metaTitle} onChange={(e) => setMetaTitle(e.target.value)}
+                  placeholder="Production Companies Dubai 2026 | Backyard" maxLength={60}
+                />
+                <p style={{ fontSize: 11, color: counterColor(metaTitle.length, 55), textAlign: "right", marginTop: 4 }}>{metaTitle.length} / 55</p>
+              </div>
+
+              <div style={F}>
+                <label style={LABEL}>Meta Description (155 chars max)</label>
+                <textarea
+                  style={{ ...INPUT, resize: "vertical", minHeight: 72 }}
+                  value={metaDesc} onChange={(e) => setMetaDesc(e.target.value)}
+                  placeholder="Discover the top video production companies in Dubai for 2026..." maxLength={160}
+                />
+                <p style={{ fontSize: 11, color: counterColor(metaDesc.length, 155), textAlign: "right", marginTop: 4 }}>{metaDesc.length} / 155</p>
+              </div>
+
+              <div style={F}>
+                <label style={LABEL}>Keywords (comma-separated)</label>
+                <input style={INPUT} value={keywords} onChange={(e) => setKeywords(e.target.value)} pla
