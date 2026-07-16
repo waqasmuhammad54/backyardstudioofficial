@@ -230,7 +230,7 @@ export default function BlogNewPage() {
 
   // Check auth on mount
   useEffect(() => {
-    fetch("/api/admin/leads?status=new").then((r) => setAuthed(r.ok || r.status !== 401));
+    fetch("/api/admin/publish").then((r) => setAuthed(r.status !== 401));
   }, []);
 
   const slug = slugify(title) + (title.toLowerCase().endsWith("-2026") ? "" : "-2026");
