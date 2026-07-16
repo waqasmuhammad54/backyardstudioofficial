@@ -5,13 +5,9 @@ const GITHUB_OWNER = "waqasmuhammad54";
 const GITHUB_REPO = "backyardstudioofficial";
 
 export async function POST(req: NextRequest) {
-  const expectedToken = process.env.ADMIN_SESSION_TOKEN ?? process.env.ADMIN_PASSWORD;
-  if (!expectedToken) return NextResponse.json({ error: "Server misconfigured" }, { status: 500 });
-  const authHeader = req.headers.get("Authorization");
-  const bearerToken = authHeader?.startsWith("Bearer ") ? authHeader.slice(7) : null;
   const sessionCookie = req.cookies.get("bso_session")?.value;
-  const isAuthed = (bearerToken && bearerToken === expectedToken) || (sessionCookie && sessionCookie === expectedToken);
-  if (!isAuthed) {
+  const expectedToken = process.env.ADMIN_SESSION_TOKEN ?? process.env.ADMIN_PASSWORD;
+  if (!sessionCookie || sessionCookie !== expectedToken) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 

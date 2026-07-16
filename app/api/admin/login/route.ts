@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
   }
 
   const token = process.env.ADMIN_SESSION_TOKEN ?? ADMIN_PASSWORD;
-  const res = NextResponse.json({ ok: true, token });
+  const res = NextResponse.json({ ok: true });
   res.cookies.set("bso_session", token, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",

@@ -232,11 +232,9 @@ export default function BlogNewPage() {
   // Check auth on mount (cookie fallback)
   useEffect(() => {
     fetch("/api/admin/publish").then((r) => {
-      if (r.status === 401) { setAuthed(false); } else {
-        // Authed via cookie — but we need a Bearer token too (for upload etc.)
-        const saved = typeof sessionStorage !== "undefined" ? sessionStorage.getItem("bso_token") : null;
-        if (saved) { setAuthedToken(saved); setAuthed(true); } else { setAuthed(false); }
-      }
+      if (r.status === 401) { setAuthed(false); return; }
+      const saved = typeof window !== "undefined" ? window.sessionStorage.getItem("bso_token") : "";
+      if (saved) { setAuthedToken(saved); setAuthed(true); } else { setAuthed(false); }
     });
   }, []);
 
@@ -834,4 +832,20 @@ export default function BlogNewPage() {
                             Restore
                           </button>
                           <button onClick={() => permanentDelete(post.slug, post.title || post.slug)}
-                            style={{ padding: "7px 14px", background: "#2a0808", border: "1px solid #6
+                            style={{ padding: "7px 14px", background: "#2a0808", border: "1px solid #6a1a1a", borderRadius: 4, color: "#e55", fontSize: 12, cursor: "pointer", fontWeight: 700 }}>
+                            Delete Forever
+                          </button>
+                        </>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+
+      </div>
+    </>
+  );
+}
