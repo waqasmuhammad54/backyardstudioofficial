@@ -13,8 +13,8 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const token = process.env.ADMIN_SESSION_TOKEN ?? ADMIN_PASSWORD;
-  const res = NextResponse.json({ ok: true });
+  const token = process.env.ADMIN_SESSION_TOKEN || ADMIN_PASSWORD;
+  const res = NextResponse.json({ ok: true, token });
   res.cookies.set("bso_session", token, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
