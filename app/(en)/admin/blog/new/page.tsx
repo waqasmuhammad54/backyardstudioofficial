@@ -130,7 +130,7 @@ function LoginScreen({ onLogin }: { onLogin: (token: string) => void }) {
       body: JSON.stringify({ password: pw }),
     });
     setLoading(false);
-    if (res.ok) { const d = await res.json(); onLogin(d.token || ""); } else setErr("Invalid password.");
+    if (res.ok) { const d = await res.json(); const tk = d.token || ""; if (tk && typeof sessionStorage !== "undefined") sessionStorage.setItem("bso_token", tk); onLogin(tk); } else setErr("Invalid password.");
   };
 
   return (
@@ -231,7 +231,13 @@ export default function BlogNewPage() {
 
   // Check auth on mount (cookie fallback)
   useEffect(() => {
-    fetch("/api/admin/publish").then((r) => { if (r.status === 401) setAuthed(false); else setAuthed(true); });
+    fetch("/api/admin/publish").then((r) => {
+      if (r.status === 401) { setAuthed(false); } else {
+        // Authed via cookie — but we need a Bearer token too (for upload etc.)
+        const saved = typeof sessionStorage !== "undefined" ? sessionStorage.getItem("bso_token") : null;
+        if (saved) { setAuthedToken(saved); setAuthed(true); } else { setAuthed(false); }
+      }
+    });
   }, []);
 
   const slug = slugify(title) + (title.toLowerCase().endsWith("-2026") ? "" : "-2026");
@@ -828,20 +834,4 @@ export default function BlogNewPage() {
                             Restore
                           </button>
                           <button onClick={() => permanentDelete(post.slug, post.title || post.slug)}
-                            style={{ padding: "7px 14px", background: "#2a0808", border: "1px solid #6a1a1a", borderRadius: 4, color: "#e55", fontSize: 12, cursor: "pointer", fontWeight: 700 }}>
-                            Delete Forever
-                          </button>
-                        </>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        )}
-
-      </div>
-    </>
-  );
-}
+                            style={{ padding: "7px 14px", background: "#2a0808", border: "1px solid #6
