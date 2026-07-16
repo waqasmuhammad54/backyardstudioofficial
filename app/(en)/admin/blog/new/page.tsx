@@ -118,7 +118,7 @@ function parseMdFile(text: string): {
   };
 }
 
-function LoginScreen({ onLogin }: { onLogin: () => void }) {
+function LoginScreen({ onLogin }: { onLogin: (token: string) => void }) {
   const [pw, setPw] = useState("");
   const [err, setErr] = useState("");
   const [loading, setLoading] = useState(false);
@@ -130,7 +130,7 @@ function LoginScreen({ onLogin }: { onLogin: () => void }) {
       body: JSON.stringify({ password: pw }),
     });
     setLoading(false);
-    if (res.ok) onLogin(); else setErr("Invalid password.");
+    if (res.ok) { const d = await res.json(); onLogin(d.token || ""); } else setErr("Invalid password.");
   };
 
   return (
@@ -196,6 +196,7 @@ function PreviewModal({ title, metaTitle, metaDesc, excerpt, content, image, onC
 /* ── Main Page ───────────────────────────────────────────────────── */
 export default function BlogNewPage() {
   const [authed, setAuthed] = useState<boolean | null>(null);
+  const [authedToken, setAuthedToken] = useState("");
 
   // New post form state
   const [title, setTitle] = useState("");
@@ -228,9 +229,9 @@ export default function BlogNewPage() {
   const mdInputRef = useRef<HTMLInputElement>(null);
   const imageInputRef = useRef<HTMLInputElement>(null);
 
-  // Check auth on mount
+  // Check auth on mount (cookie fallback)
   useEffect(() => {
-    fetch("/api/admin/publish").then((r) => setAuthed(r.status !== 401));
+    fetch("/api/admin/publish").then((r) => { if (r.status === 401) setAuthed(false); else setAuthed(true); });
   }, []);
 
   const slug = slugify(title) + (title.toLowerCase().endsWith("-2026") ? "" : "-2026");
@@ -254,7 +255,7 @@ export default function BlogNewPage() {
   /* ── Post list helpers ─────────────────────────────────────────── */
   const fetchPosts = async () => {
     setPostsLoading(true); setPostsMsg("");
-    const res = await fetch("/api/admin/publish");
+    const res = await fetch("/api/admin/publish", { headers: { Authorization: `Bearer ${authedToken}` } });
     if (res.ok) {
       const data = await res.json();
       setPosts(data.posts || []);
@@ -274,7 +275,7 @@ export default function BlogNewPage() {
     setPostsMsg("");
     const res = await fetch("/api/admin/publish", {
       method: "DELETE",
-      headers: { "Content-Type": "application/json" },
+      headers: { "Content-Type": "application/json", Authorization: `Bearer ${authedToken}` },
       body: JSON.stringify({ slug: postSlug }),
     });
     if (res.ok) {
@@ -289,7 +290,7 @@ export default function BlogNewPage() {
     setPostsMsg("");
     const res = await fetch("/api/admin/publish", {
       method: "PATCH",
-      headers: { "Content-Type": "application/json" },
+      headers: { "Content-Type": "application/json", Authorization: `Bearer ${authedToken}` },
       body: JSON.stringify({ slug: postSlug }),
     });
     if (res.ok) {
@@ -305,7 +306,7 @@ export default function BlogNewPage() {
     setPostsMsg("");
     const res = await fetch("/api/admin/publish", {
       method: "DELETE",
-      headers: { "Content-Type": "application/json" },
+      headers: { "Content-Type": "application/json", Authorization: `Bearer ${authedToken}` },
       body: JSON.stringify({ slug: postSlug, permanent: true }),
     });
     if (res.ok) {
@@ -360,7 +361,7 @@ export default function BlogNewPage() {
 
     const res = await fetch("/api/admin/upload-image", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: { "Content-Type": "application/json", Authorization: `Bearer ${authedToken}` },
       body: JSON.stringify({ filename: file.name, content: base64 }),
     });
 
@@ -410,7 +411,7 @@ export default function BlogNewPage() {
     };
 
     const res = await fetch("/api/admin/publish", {
-      method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(post),
+      method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${authedToken}` }, body: JSON.stringify(post),
     });
 
     const body = await res.json().catch(() => ({}));
@@ -421,7 +422,7 @@ export default function BlogNewPage() {
       );
       if (confirmed) {
         const res2 = await fetch("/api/admin/publish", {
-          method: "POST", headers: { "Content-Type": "application/json" },
+          method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${authedToken}` },
           body: JSON.stringify({ ...post, overwrite: true }),
         });
         if (res2.ok) {
@@ -454,7 +455,7 @@ export default function BlogNewPage() {
     }
   }
 
-  if (authed === false) return <LoginScreen onLogin={() => setAuthed(true)} />;
+  if (authed === false) return <LoginScreen onLogin={(tk) => { setAuthedToken(tk); setAuthed(true); }} />;
   if (authed === null) return <div style={{ minHeight: "100vh", background: "#0a0a0a" }} />;
 
   const F: React.CSSProperties = { marginBottom: 24 };

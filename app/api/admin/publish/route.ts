@@ -8,8 +8,16 @@ const CONTENT_FILE = "content/posts.json";
 /* ── Shared helpers ─────────────────────────────────────────────── */
 
 function authCheck(req: NextRequest): boolean {
-  const sessionCookie = req.cookies.get("bso_session")?.value;
   const expectedToken = process.env.ADMIN_SESSION_TOKEN ?? process.env.ADMIN_PASSWORD;
+  if (!expectedToken) return false;
+  // Accept Bearer token from Authorization header (in-memory auth)
+  const authHeader = req.headers.get("Authorization");
+  if (authHeader?.startsWith("Bearer ")) {
+    const token = authHeader.slice(7);
+    if (token === expectedToken) return true;
+  }
+  // Fall back to session cookie
+  const sessionCookie = req.cookies.get("bso_session")?.value;
   return !!(sessionCookie && sessionCookie === expectedToken);
 }
 
