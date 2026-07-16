@@ -616,7 +616,7 @@ export default function BlogNewPage() {
                   <div style={{ background: "#0a0a0a", border: "1px solid #333", borderRadius: 4, padding: 20, textAlign: "center" }}>
                     <div style={{ fontSize: 28, marginBottom: 8 }}>IMG</div>
                     <p style={{ color: "#fff", fontSize: 13, fontWeight: 600, margin: "0 0 4px" }}>Upload Hero Image</p>
-                    <p style={{ color: "#555", fontSize: 11, margin: "0 0 14px" }}>WebP/JPEG, 1200×630px, under 300KB</p>
+                    <p style={{ color: "#555", fontSize: 11, margin: "0 0 14px" }}>JPEG, WebP, PNG — any size or resolution</p>
                     <button type="button" onClick={() => imageInputRef.current?.click()} disabled={uploading}
                       style={{
                         padding: "8px 20px", background: uploading ? "#1a1a1a" : "#333",
@@ -626,7 +626,7 @@ export default function BlogNewPage() {
                       }}>
                       {uploading ? "Uploading..." : "Choose Image"}
                     </button>
-                    <input ref={imageInputRef} type="file" accept="image/webp,image/jpeg,image/jpg,image/png" style={{ display: "none" }} onChange={handleImageUpload} />
+                    <input ref={imageInputRef} type="file" accept="image/*" style={{ display: "none" }} onChange={handleImageUpload} />
                   </div>
                 </div>
 
@@ -708,7 +708,7 @@ export default function BlogNewPage() {
                     {uploading ? "..." : "Upload"}
                   </button>
                 </div>
-                <input ref={fileInputRef} type="file" accept="image/webp,image/jpeg,image/jpg,image/png" style={{ display: "none" }} onChange={handleImageUpload} />
+                <input ref={fileInputRef} type="file" accept="image/*" style={{ display: "none" }} onChange={handleImageUpload} />
               </div>
 
               <div style={F}>
