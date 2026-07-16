@@ -231,11 +231,9 @@ export default function BlogNewPage() {
 
   // Check auth on mount (cookie fallback)
   useEffect(() => {
-    fetch("/api/admin/publish").then((r) => {
-      if (r.status === 401) { setAuthed(false); return; }
-      const saved = typeof window !== "undefined" ? window.sessionStorage.getItem("bso_token") : "";
-      if (saved) { setAuthedToken(saved); setAuthed(true); } else { setAuthed(false); }
-    });
+    fetch("/api/admin/login", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ password: "__check__" }) })
+      .then((r) => { setAuthed(false); })
+      .catch(() => { setAuthed(false); });
   }, []);
 
   const slug = slugify(title) + (title.toLowerCase().endsWith("-2026") ? "" : "-2026");
