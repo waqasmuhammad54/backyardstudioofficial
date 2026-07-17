@@ -1,13 +1,13 @@
-import fs from "fs";
-import path from "path";
 import type { BlogPost } from "./blogPosts";
+// Use static JSON import so the file is bundled by the compiler and available
+// both during SSG (generateStaticParams) and at runtime on Vercel serverless.
+// fs.readFileSync with process.cwd() is NOT bundled by @vercel/nft and fails
+// at runtime on Vercel — this import approach resolves that.
+import postsData from "../content/posts.json";
 
 export function getDynamicPosts(): BlogPost[] {
   try {
-    const filePath = path.join(process.cwd(), "content", "posts.json");
-    if (!fs.existsSync(filePath)) return [];
-    const raw = fs.readFileSync(filePath, "utf-8");
-    const all = JSON.parse(raw) as (BlogPost & { status?: string })[];
+    const all = postsData as unknown as (BlogPost & { status?: string })[];
     // Filter out drafts and archived posts from public listing
     return all.filter((p) => !p.status || p.status === "published");
   } catch {
