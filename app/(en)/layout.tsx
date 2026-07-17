@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { headers } from "next/headers";
 import "../globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -13,11 +14,11 @@ const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "G-MES1TPW4VC";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.backyardstudioofficial.com"),
   title: {
-    default: "Best Production Studio in Dubai 2026 | Backyard Studio",
+    default: "Video Production Company Dubai | Backyard Studio",
     template: "%s | Backyard Studio",
   },
   description:
-    "Dubai's best production company for video, events, weddings & social media shoots. DVCs, Instagram Reels, TikTok content, corporate films, wedding photography & drone production across all 7 UAE emirates. 2,400+ projects. GCAA licensed.",
+    "Dubai production studio for commercial video, events, weddings, photography and social content across all seven UAE emirates. 2,400+ projects; GCAA licensed.",
   keywords: [
     "best production company in Dubai",
     "top production companies in Dubai",
@@ -46,14 +47,14 @@ export const metadata: Metadata = {
     locale:      "en_AE",
     url:         "https://www.backyardstudioofficial.com",
     siteName:    "Backyard Studio Official",
-    title:       "Backyard Studio Official | UAE's #1 Creative Production Studio 2026",
-    description: "Event shoots, DVCs, Reels, TikTok, Ads & cinematic brand films — crafted for ambitious brands across Dubai, Abu Dhabi & all 7 UAE emirates. 2,400+ projects. GCAA licensed.",
+    title:       "Video Production Company Dubai | Backyard Studio",
+    description: "Commercial video, events, weddings, social content, photography and GCAA-licensed aerial production across all seven UAE emirates.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Backyard Studio Official — UAE Creative Production Studio" }],
   },
   twitter: {
     card:        "summary_large_image",
-    title:       "Backyard Studio Official | UAE #1 Production Studio",
-    description: "Dubai's premier cinematic production studio. Reels, DVCs, Events, Drone & more.",
+    title:       "Video Production Company Dubai | Backyard Studio",
+    description: "Commercial video, events, weddings, photography, social content and aerial production across the UAE.",
     images:      ["/og-image.jpg"],
   },
   robots: {
@@ -81,21 +82,15 @@ export const metadata: Metadata = {
 };
 
 export default function EnglishLayout({ children }: { children: React.ReactNode }) {
+  const pathname = headers().get("x-pathname") || "";
+
+  // Admin screens are private application UI, not marketing pages. Keeping
+  // them outside GA4 and global marketing schema prevents internal activity
+  // from inflating acquisition and engagement reports.
+  if (pathname.startsWith("/admin")) return <>{children}</>;
+
   return (
     <>
-      {/* Speakable schema */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", "h2", ".speakable"] },
-            "url": "https://www.backyardstudioofficial.com",
-          }),
-        }}
-      />
-
       {/* Organization schema */}
       <script
         type="application/ld+json"
@@ -108,25 +103,6 @@ export default function EnglishLayout({ children }: { children: React.ReactNode 
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema()) }}
       />
 
-      {/* BreadcrumbList */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home",      "item": "https://www.backyardstudioofficial.com" },
-              { "@type": "ListItem", "position": 2, "name": "Services",  "item": "https://www.backyardstudioofficial.com/services" },
-              { "@type": "ListItem", "position": 3, "name": "Portfolio", "item": "https://www.backyardstudioofficial.com/portfolio" },
-              { "@type": "ListItem", "position": 4, "name": "Pricing",   "item": "https://www.backyardstudioofficial.com/pricing" },
-              { "@type": "ListItem", "position": 5, "name": "Blog",      "item": "https://www.backyardstudioofficial.com/blog" },
-              { "@type": "ListItem", "position": 6, "name": "Contact",   "item": "https://www.backyardstudioofficial.com/contact" },
-            ],
-          }),
-        }}
-      />
-
       {/* WebSite schema with SearchAction — enables Google Sitelinks Search Box + LLM site context */}
       <script
         type="application/ld+json"
@@ -137,7 +113,7 @@ export default function EnglishLayout({ children }: { children: React.ReactNode 
             "@id": "https://www.backyardstudioofficial.com/#website",
             name: "Backyard Studio Official",
             url: "https://www.backyardstudioofficial.com",
-            description: "Dubai's best production company — video, events, weddings & social media across all 7 UAE emirates. GCAA licensed. 2,400+ projects.",
+            description: "Dubai production studio for commercial video, events, weddings, photography, social media and aerial production across all seven UAE emirates.",
             publisher: {
               "@id": "https://www.backyardstudioofficial.com/#organization",
             },

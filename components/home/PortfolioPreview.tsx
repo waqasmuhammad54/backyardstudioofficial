@@ -133,7 +133,7 @@ export default function PortfolioPreview() {
 
         <div className="mt-12 flex items-center gap-6">
           <Link href="/portfolio" className="btn-gold"><span>View All Work</span><ArrowUpRight size={13} /></Link>
-          <p className="text-silver/65 text-xs font-light">500+ projects delivered across the UAE</p>
+          <p className="text-silver/65 text-xs font-light">2,400+ projects delivered across UAE and international markets</p>
         </div>
       </div>
     </section>

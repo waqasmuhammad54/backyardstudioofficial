@@ -63,12 +63,6 @@ const LOCAL_BUSINESS_AR = {
   "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm Al Quwain"],
   "description":
     "شركة الإنتاج الإبداعي الرائدة في دبي. تصوير فيديو احترافي، تصوير الأعراس، محتوى وسائل التواصل الاجتماعي، تصوير بالطائرة المسيّرة GCAA.",
-  "aggregateRating": {
-    "@type":       "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "127",
-    "bestRating":  "5",
-  },
   "sameAs": [
     "https://www.instagram.com/backyardstudioofficial",
     "https://www.facebook.com/backyardstudioofficial",
@@ -93,7 +87,7 @@ const ORGANIZATION_AR = {
     "width":  512,
     "height": 512,
   },
-  "foundingDate": "2016",
+  "foundingDate": "2019",
   "contactPoint": {
     "@type":             "ContactPoint",
     "telephone":         "+971585882685",

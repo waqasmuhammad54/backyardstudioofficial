@@ -67,12 +67,6 @@ const LOCAL_BUSINESS_RU = {
     { "@type": "City",              "name": "Шарджа"  },
     { "@type": "AdministrativeArea","name": "ОАЭ"     },
   ],
-  "aggregateRating": {
-    "@type":       "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "127",
-    "bestRating":  "5",
-  },
   "sameAs": [
     "https://www.instagram.com/backyardstudioofficial",
     "https://www.youtube.com/@backyardstudioofficial",
@@ -96,7 +90,7 @@ const ORGANIZATION_RU = {
     "width":  512,
     "height": 512,
   },
-  "foundingDate": "2016",
+  "foundingDate": "2019",
   "contactPoint": {
     "@type":             "ContactPoint",
     "telephone":         "+971585882685",

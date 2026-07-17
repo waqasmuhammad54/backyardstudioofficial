@@ -63,12 +63,6 @@ const LOCAL_BUSINESS_ZH = {
   "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm Al Quwain"],
   "description":
     "迪拜专业影视制作公司。企业视频、婚礼摄影、无人机航拍（GCAA执照）、社交媒体内容制作。",
-  "aggregateRating": {
-    "@type":       "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "127",
-    "bestRating":  "5",
-  },
   "sameAs": [
     "https://www.instagram.com/backyardstudioofficial",
     "https://www.facebook.com/backyardstudioofficial",
@@ -93,7 +87,7 @@ const ORGANIZATION_ZH = {
     "width":  512,
     "height": 512,
   },
-  "foundingDate": "2016",
+  "foundingDate": "2019",
   "contactPoint": {
     "@type":             "ContactPoint",
     "telephone":         "+971585882685",

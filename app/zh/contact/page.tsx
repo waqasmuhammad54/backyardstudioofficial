@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import LocalizedContactForm from "@/components/contact/LocalizedContactForm";
 
 export const metadata: Metadata = {
   title: "联系我们 | Backyard Studio Official 迪拜 — 免费报价",
@@ -60,34 +61,7 @@ export default function ZhContactPage() {
           {/* Form */}
           <div>
             <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1.5rem" }}>发送项目简报</h2>
-            <form style={{ display: "flex", flexDirection: "column" as const, gap: "1rem" }}>
-              {[
-                { label: "姓名", type: "text", placeholder: "您的姓名" },
-                { label: "电子邮箱", type: "email", placeholder: "您的邮箱地址" },
-                { label: "电话 / WhatsApp", type: "tel", placeholder: "+971 5X XXX XXXX" },
-              ].map((f) => (
-                <div key={f.label}>
-                  <label style={{ display: "block", fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.78rem", marginBottom: "0.4rem" }}>{f.label}</label>
-                  <input type={f.type} placeholder={f.placeholder} style={{ width: "100%", background: "#111", border: "1px solid rgba(255,255,255,0.1)", color: "var(--cream)", padding: "0.75rem 1rem", fontFamily: "'Noto Sans SC', sans-serif", fontSize: "0.9rem", outline: "none", borderRadius: "2px", boxSizing: "border-box" as const }} />
-                </div>
-              ))}
-              <div>
-                <label style={{ display: "block", fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.78rem", marginBottom: "0.4rem" }}>服务类型</label>
-                <select style={{ width: "100%", background: "#111", border: "1px solid rgba(255,255,255,0.1)", color: "var(--cream)", padding: "0.75rem 1rem", fontFamily: "'Noto Sans SC', sans-serif", fontSize: "0.9rem", outline: "none", borderRadius: "2px", boxSizing: "border-box" as const }}>
-                  <option value="">选择服务</option>
-                  {["婚礼摄影","活动摄影","社交媒体内容","Reels / TikTok","DVC广告","企业影片","GCAA无人机航拍","产品摄影","房产摄影","其他服务"].map((s) => (
-                    <option key={s} value={s}>{s}</option>
-                  ))}
-                </select>
-              </div>
-              <div>
-                <label style={{ display: "block", fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.78rem", marginBottom: "0.4rem" }}>项目详情</label>
-                <textarea rows={5} placeholder="告诉我们您的项目——日期、地点、所需交付物..." style={{ width: "100%", background: "#111", border: "1px solid rgba(255,255,255,0.1)", color: "var(--cream)", padding: "0.75rem 1rem", fontFamily: "'Noto Sans SC', sans-serif", fontSize: "0.9rem", outline: "none", borderRadius: "2px", resize: "vertical" as const, boxSizing: "border-box" as const }} />
-              </div>
-              <button type="submit" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2rem", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700, fontSize: "0.9rem", border: "none", borderRadius: "2px", cursor: "pointer", letterSpacing: "0.05em" }}>
-                提交简报
-              </button>
-            </form>
+            <LocalizedContactForm locale="zh" />
           </div>
 
           {/* Info */}

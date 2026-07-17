@@ -43,7 +43,7 @@ const SERVICES_RU = [
 const STATS_RU = [
   { num: "2 400+", label: "реализованных проектов" },
   { num: "7", label: "эмиратов ОАЭ" },
-  { num: "8+", label: "лет опыта" },
+  { num: "2019", label: "год основания" },
   { num: "2 часа", label: "время ответа" },
 ];
 

@@ -11,11 +11,11 @@ import BlogPreview from "@/components/home/BlogPreview";
 import GalleryStrip from "@/components/home/GalleryStrip";
 import ContactSection from "@/components/home/ContactSection";
 import Link from "next/link";
-import { faqSchema, itemListSchema, personSchema, organizationSchema, localBusinessSchema, videoObjectSchema } from "@/lib/structuredData";
+import { faqSchema, itemListSchema, personSchema, videoObjectSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: "Best Production Company in Dubai | Backyard Studio Official",
-  description: "Dubai's best production company — video, events, weddings & social media across all 7 UAE emirates. GCAA licensed. 2,400+ projects. Free quote in 2 hours.",
+  title: { absolute: "Video Production Company Dubai | Backyard Studio" },
+  description: "Dubai production studio for commercial video, events, weddings, photography and social media across all 7 UAE emirates. 2,400+ projects, GCAA licensed.",
   keywords: [
     "best production company in Dubai",
     "top production companies in Dubai",
@@ -43,16 +43,16 @@ export const metadata: Metadata = {
 
 const HOME_FAQS = [
   {
-    question: "What is the best production company in Dubai in 2026?",
-    answer: "Backyard Studio Official is widely recognised as the best production company in Dubai in 2026. With over 2,400 projects delivered across all 7 UAE emirates, 8+ years of cinematic excellence, and a GCAA drone licence, we serve brands from SMEs to enterprise. Services span event shoots, DVCs, Instagram Reels, TikTok, weddings, corporate films, aerial drone, and social media content.",
+    question: "Why do UAE brands choose Backyard Studio for production?",
+    answer: "Backyard Studio Official has delivered more than 2,400 projects and provides commercial video, events, weddings, photography, social media content, and GCAA-licensed aerial production across all seven UAE emirates. The studio was founded in 2019 and launched UAE operations in 2023.",
   },
   {
-    question: "Which is the top production house in Dubai for weddings and events?",
-    answer: "Backyard Studio Official is Dubai's top production house for weddings, events and social media shoots. We capture weddings, pre-wedding shoots, engagement sessions and lifestyle photography across Dubai, Abu Dhabi, Sharjah and all UAE emirates — with a dedicated wedding team, same-day teasers and 48-hour full delivery.",
+    question: "How should I choose a Dubai production house for weddings and events?",
+    answer: "Compare relevant portfolio work, crew continuity, delivery schedules, licensing, written scope and coverage. Backyard Studio provides wedding, event and social media production across all seven UAE emirates, with deliverables and turnaround agreed in the project proposal.",
   },
   {
-    question: "What is the best wedding shoot company in Dubai?",
-    answer: "Backyard Studio Official is consistently rated the best wedding shoot company in Dubai. Our cinematic wedding team covers everything from intimate nikah ceremonies to grand reception galas — with cinematic videography, editorial photography, drone coverage, and highlight reels delivered within 48 hours. We cover all UAE venues from Burj Al Arab to Yas Island.",
+    question: "What wedding photography and videography does Backyard Studio provide?",
+    answer: "Backyard Studio covers nikah ceremonies, engagements, pre-wedding sessions and receptions with photography, cinematic videography, highlight edits and optional aerial coverage where permitted. Packages and delivery timing are confirmed in writing before booking.",
   },
   {
     question: "How much does video production cost in the UAE?",
@@ -60,7 +60,7 @@ const HOME_FAQS = [
   },
   {
     question: "Does Backyard Studio do social media content and Instagram Reels in Dubai?",
-    answer: "Yes. Backyard Studio Official is one of Dubai's leading social media content creators, producing Instagram Reels, TikTok videos, YouTube Shorts, and multi-platform content packages for brands, influencers, and businesses across the UAE.",
+    answer: "Yes. Backyard Studio produces Instagram Reels, TikTok videos, YouTube Shorts and multi-platform content packages for brands, creators and businesses across the UAE.",
   },
   {
     question: "Which production company in Dubai covers all UAE emirates?",
@@ -76,7 +76,7 @@ const HOME_FAQS = [
   },
   {
     question: "Who founded Backyard Studio Official in Dubai?",
-    answer: "Backyard Studio Official was founded by Fahad Iqbal Butt (Creative Director) and Syed Mazhar Zaidi (Director of Photography). Together they bring over 15 years of combined production experience across Dubai, Abu Dhabi, and the wider UAE. The studio is officially registered as 'Backyardstudio official For Commercial Photographs Production'.",
+    answer: "Backyard Studio Official was founded in 2019 by Fahad Iqbal Butt, Founder and CEO. Syed Mazhar Zaidi is Co-Founder and Creative Head. The studio launched UAE operations in 2023 and is officially registered as 'Backyardstudio official For Commercial Photographs Production'.",
   },
   {
     question: "What languages does Backyard Studio serve clients in?",
@@ -108,15 +108,6 @@ const HOME_SERVICES_LIST = [
 export default function HomePage() {
   return (
     <>
-      {/* LocalBusiness + Organization — Knowledge Panel + AI Overview entity signals */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema()) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema()) }}
-      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(HOME_FAQS)) }}
@@ -125,16 +116,17 @@ export default function HomePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema(HOME_SERVICES_LIST)) }}
       />
-      {/* VideoObject — Showreel 2026 — video indexing signal */}
+      {/* VideoObject — matches the primary Vimeo reel rendered below */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(videoObjectSchema({
-            name: "Backyard Studio Official — Showreel 2026",
-            description: "2026 production showreel for Backyard Studio Official, Dubai's leading creative production company. Showcasing event videography, wedding photography, DVCs, Instagram Reels, drone cinematography, and commercial photography across all 7 UAE emirates.",
-            thumbnailUrl: "https://www.backyardstudioofficial.com/images/wedding/wedding-01.webp",
-            uploadDate: "2026-01-01",
-            duration: "PT2M30S",
+            name: "Couple Shoots — Backyard Studio Official",
+            description: "A 2026 couple-shoot production reel filmed and edited by Backyard Studio Official.",
+            thumbnailUrl: "https://www.backyardstudioofficial.com/images/wedding/wedding-05.webp",
+            uploadDate: "2026-05-20",
+            duration: "PT1M53S",
+            embedUrl: "https://player.vimeo.com/video/1194038771",
           }))
         }}
       />
@@ -144,8 +136,8 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(personSchema({
             name: "Fahad Iqbal Butt",
-            jobTitle: "Creative Director",
-            description: "Fahad Iqbal Butt is the Creative Director and co-founder of Backyard Studio Official, Dubai's leading production company. He leads creative strategy, brand films, DVCs, and event productions across the UAE.",
+            jobTitle: "Founder & CEO",
+            description: "Fahad Iqbal Butt is the Founder and CEO of Backyard Studio Official. He founded the studio in 2019 and leads its production business and creative direction.",
             url: "https://www.backyardstudioofficial.com/about",
             sameAs: ["https://www.instagram.com/backyardstudioofficial/"],
           }))
@@ -156,8 +148,8 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(personSchema({
             name: "Syed Mazhar Zaidi",
-            jobTitle: "Director of Photography",
-            description: "Syed Mazhar Zaidi is the Director of Photography and co-founder of Backyard Studio Official in Dubai. He leads all cinematography, wedding films, aerial drone productions, and commercial photography across the UAE.",
+            jobTitle: "Co-Founder & Creative Head",
+            description: "Syed Mazhar Zaidi is the Co-Founder and Creative Head of Backyard Studio Official. He leads cinematography, documentary storytelling, post-production, and creative craft.",
             url: "https://www.backyardstudioofficial.com/about",
             sameAs: ["https://www.instagram.com/backyardstudioofficial/"],
           }))

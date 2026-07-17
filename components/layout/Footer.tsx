@@ -119,7 +119,7 @@ export default function Footer() {
 
             {/* Credentials */}
             <div className="flex flex-col gap-2 mb-6">
-              {["GCAA Licensed Drone Operator", "8+ Years in UAE Production", "2,400+ Projects Delivered", "All 7 Emirates Covered"].map((badge) => (
+              {["GCAA Licensed Drone Operator", "UAE Operations Since 2023", "2,400+ Projects Delivered", "All 7 Emirates Covered"].map((badge) => (
                 <div key={badge} className="flex items-center gap-2">
                   <div className="w-1 h-1 rounded-full shrink-0" style={{ background: "var(--gold)" }} />
                   <span className="text-xs" style={{ color: "var(--silver)" }}>{badge}</span>

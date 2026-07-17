@@ -43,6 +43,7 @@ export default function ContactSection() {
   const inView = useInView(ref, { once: true, margin: "-80px" });
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [submitError, setSubmitError] = useState("");
   const [form, setForm] = useState({
     name: "", email: "", phone: "", service: "", budget: "", message: "",
   });
@@ -54,13 +55,29 @@ export default function ContactSection() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    await fetch("/api/contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(form),
-    });
-    setLoading(false);
-    setSubmitted(true);
+    setSubmitError("");
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+
+      if (!response.ok) throw new Error("Lead submission failed");
+
+      window.gtag?.("event", "generate_lead", {
+        lead_source: "website_contact_form",
+        service: form.service || "not_selected",
+        budget_range: form.budget || "not_selected",
+        page_path: window.location.pathname,
+      });
+      setSubmitted(true);
+    } catch {
+      setSubmitError("We couldn't send your brief. Please try again or contact us on WhatsApp.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -293,6 +310,11 @@ export default function ContactSection() {
                   <p className="text-center text-xs mt-4" style={{ color: "var(--muted)" }}>
                     We respond within 2 hours · Your info is kept confidential
                   </p>
+                  {submitError && (
+                    <p role="alert" className="text-center text-sm mt-3" style={{ color: "#f87171" }}>
+                      {submitError}
+                    </p>
+                  )}
                 </div>
               </form>
             )}

@@ -7,11 +7,11 @@ import { personSchema, breadcrumbSchema } from "@/lib/structuredData";
 export const metadata: Metadata = {
   title: { absolute: "About Backyard Studio | Dubai Production Company" },
   description:
-    "Meet Fahad Iqbal Butt & Syed Mazhar Zaidi — founders of Dubai's best production studio. 2,400+ projects, GCAA licensed, all 7 UAE emirates.",
+    "Meet Backyard Studio founders Fahad Iqbal Butt and Syed Mazhar Zaidi. Founded in 2019, with UAE operations since 2023 and coverage across all seven emirates.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/about" },
   openGraph: {
     title: "About Backyard Studio Official — Fahad Iqbal Butt & Syed Mazhar Zaidi",
-    description: "Meet the founders of Dubai's best production studio. 2,400+ projects, GCAA licensed, all 7 UAE emirates.",
+    description: "Meet the founders and creative team behind Backyard Studio's video and photography production work across the UAE.",
     url: "https://www.backyardstudioofficial.com/about",
     siteName: "Backyard Studio Official",
     locale: "en_AE",
@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Backyard Studio Official | Dubai's Best Production Studio",
-    description: "Meet Fahad Iqbal Butt & Syed Mazhar Zaidi — founders of Dubai's top production studio. 2,400+ projects.",
+    title: "About Backyard Studio Official | Dubai Production Studio",
+    description: "Meet Fahad Iqbal Butt and Syed Mazhar Zaidi, the founders behind Backyard Studio's UAE production work.",
     images: ["/og-image.jpg"],
   },
 };

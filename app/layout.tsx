@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Inter, Bebas_Neue, Playfair_Display, DM_Serif_Display } from "next/font/google";
 import { headers } from "next/headers";
+import ContactIntentTracker from "@/components/analytics/ContactIntentTracker";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -43,7 +44,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const dir = lang === "ar" ? "rtl" : "ltr";
   return (
     <html lang={lang} dir={dir} className={fontVars}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <ContactIntentTracker />
+      </body>
     </html>
   );
 }

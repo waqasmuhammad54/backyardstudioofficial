@@ -53,7 +53,6 @@ export function toISODateTime(input: string | Date): string {
   const hour = parts.hour === "24" ? "00" : parts.hour;
   return `${parts.year}-${parts.month}-${parts.day}T${hour}:${parts.minute}:${parts.second}+04:00`;
 }
-
 export function organizationSchema() {
   return {
     "@context": "https://schema.org",
@@ -61,7 +60,7 @@ export function organizationSchema() {
     "@id": `${BRAND.url}/#organization`,
     name: BRAND.name,
     legalName: BRAND.legalName,
-    alternateName: ["Backyard Studio", "Backyard Studio UAE", "BSO Dubai", "Best Production Company Dubai", "Top Production House Dubai"],
+    alternateName: ["Backyard Studio", "Backyard Studio UAE", "BSO Dubai"],
     url: BRAND.url,
     logo: {
       "@type": "ImageObject",
@@ -71,8 +70,8 @@ export function organizationSchema() {
     },
     image: BRAND.og,
     description:
-      "Backyard Studio Official is the best production company in Dubai. We are a top production house in the UAE specialising in event shoots, wedding photography, DVCs, Instagram Reels, TikTok content, social media shoots, aerial drone, testimonial videos, ads, and corporate films across all 7 UAE emirates. Over 2,400 projects delivered with a 2-hour response guarantee.",
-    foundingDate: "2016",
+      "Backyard Studio Official is a UAE creative production studio specialising in commercial video, corporate films, events, weddings, social media content, photography, and GCAA-licensed aerial production across all seven UAE emirates.",
+    foundingDate: "2019",
     numberOfEmployees: { "@type": "QuantitativeValue", minValue: 10, maxValue: 50 },
     knowsAbout: [
       "Best Production Company Dubai",
@@ -132,25 +131,18 @@ export function organizationSchema() {
         name: "General Civil Aviation Authority UAE",
       },
     },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "127",
-      bestRating: "5",
-      worstRating: "1",
-    },
   };
 }
 
 export function localBusinessSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "VideoProductionCompany"],
+    "@type": ["LocalBusiness", "ProfessionalService"],
     "@id": `${BRAND.url}/#localbusiness`,
     name: BRAND.name,
     legalName: BRAND.legalName,
     description:
-      "Dubai's #1 creative video production studio. We deliver event shoots, DVCs, Instagram Reels, TikTok content, testimonials, ads, aerial drone, and corporate films across all UAE emirates. Response within 2 hours guaranteed.",
+      "Creative video, photography, event, wedding, social media, and GCAA-licensed aerial production services across all seven UAE emirates.",
     url: BRAND.url,
     telephone: BRAND.phone,
     email: BRAND.email,
@@ -190,12 +182,6 @@ export function localBusinessSchema() {
         { "@type": "Offer", itemOffered: { "@type": "Service", name: "Testimonial Videos Dubai", description: "Client testimonial video production across UAE", areaServed: "UAE" } },
         { "@type": "Offer", itemOffered: { "@type": "Service", name: "Ads Shooting Dubai", description: "Meta, TikTok, YouTube and OOH ad production in UAE", areaServed: "UAE" } },
       ],
-    },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "127",
-      bestRating: "5",
     },
   };
 }
@@ -405,26 +391,5 @@ export function itemListSchema(items: { name: string; url: string; description?:
       url: item.url,
       ...(item.description ? { description: item.description } : {}),
     })),
-  };
-}
-
-// ─── AggregateRating Schema ───────────────────────────────────────────────────
-export function aggregateRatingSchema(opts: {
-  ratingValue: number;
-  reviewCount: number;
-  bestRating?: number;
-}) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": `${BRAND.url}/#localbusiness`,
-    name: BRAND.name,
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: opts.ratingValue,
-      reviewCount: opts.reviewCount,
-      bestRating: opts.bestRating ?? 5,
-      worstRating: 1,
-    },
   };
 }
