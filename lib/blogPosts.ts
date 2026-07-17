@@ -8156,7 +8156,6 @@ export const BLOG_POSTS: BlogPost[] = [
 `,
   },
 
-,
   {
     slug: "commercial-photography-dubai-2026",
     title: "Commercial Photography Dubai 2026 — Complete Guide for UAE Brands",
