@@ -17,6 +17,8 @@ const BRAND = {
     "https://www.instagram.com/backyardstudioofficial/",
     "https://www.facebook.com/Backyardstudioofficial/",
     "https://www.tiktok.com/@backyardstudio_official5",
+    "https://www.youtube.com/@backyardstudioofficial",
+    "https://www.imdb.com/name/nm14029494/",
   ],
 };
 
@@ -420,9 +422,4 @@ export function aggregateRatingSchema(opts: {
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: opts.ratingValue,
-      reviewCount: opts.reviewCount,
-      bestRating: opts.bestRating ?? 5,
-      worstRating: 1,
-    },
-  };
-}
+      reviewC

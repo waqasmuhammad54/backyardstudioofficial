@@ -11,7 +11,7 @@ import BlogPreview from "@/components/home/BlogPreview";
 import GalleryStrip from "@/components/home/GalleryStrip";
 import ContactSection from "@/components/home/ContactSection";
 import Link from "next/link";
-import { faqSchema, itemListSchema, personSchema, organizationSchema, localBusinessSchema } from "@/lib/structuredData";
+import { faqSchema, itemListSchema, personSchema, organizationSchema, localBusinessSchema, videoObjectSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
   title: "Best Production Company in Dubai | Backyard Studio Official",
@@ -124,6 +124,19 @@ export default function HomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema(HOME_SERVICES_LIST)) }}
+      />
+      {/* VideoObject — Showreel 2026 — video indexing signal */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(videoObjectSchema({
+            name: "Backyard Studio Official — Showreel 2026",
+            description: "2026 production showreel for Backyard Studio Official, Dubai's leading creative production company. Showcasing event videography, wedding photography, DVCs, Instagram Reels, drone cinematography, and commercial photography across all 7 UAE emirates.",
+            thumbnailUrl: "https://www.backyardstudioofficial.com/images/wedding/wedding-01.webp",
+            uploadDate: "2026-01-01",
+            duration: "PT2M30S",
+          }))
+        }}
       />
       {/* Person schemas — GEO/LLM entity signals for founders */}
       <script
@@ -255,25 +268,4 @@ export default function HomePage() {
                   ["Sports Production UAE", "/industries/sports"],
                   ["Automotive Production UAE", "/industries/automotive"],
                   ["Healthcare Content UAE", "/industries/healthcare"],
-                  ["Tech Video Production UAE", "/industries/technology"],
-                  ["Education Video UAE", "/industries/education"],
-                  ["All UAE Locations", "/locations"],
-                ].map(([label, href]) => (
-                  <li key={href}>
-                    <Link href={href} className="text-xs opacity-70 hover:opacity-100 transition-opacity" style={{ color: "var(--silver)" }}>
-                      {label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-          </div>
-        </div>
-      </section>
-      {/* ══ END INTERNAL LINKS ══════════════════════════════════════ */}
-
-      <ContactSection />
-    </>
-  );
-}
+                  ["Tech Video P
