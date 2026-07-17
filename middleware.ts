@@ -2,10 +2,12 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
 export function middleware(request: NextRequest) {
-  const response = NextResponse.next();
-  // Pass the pathname as a header so root layout can read it
-  response.headers.set("x-pathname", request.nextUrl.pathname);
-  return response;
+  const requestHeaders = new Headers(request.headers);
+  requestHeaders.set("x-pathname", request.nextUrl.pathname);
+
+  // Server layouts read this request header to set language/direction and to
+  // keep admin screens out of marketing analytics and structured data.
+  return NextResponse.next({ request: { headers: requestHeaders } });
 }
 
 export const config = {

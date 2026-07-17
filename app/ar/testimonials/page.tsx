@@ -36,28 +36,8 @@ const TESTIMONIALS = [
 ];
 
 export default function ArTestimonialsPage() {
-  const reviewSchema = {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Backyard Studio Official",
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5",
-      "reviewCount": "100",
-      "bestRating": "5",
-    },
-    "review": TESTIMONIALS.slice(0, 3).map((t) => ({
-      "@type": "Review",
-      "author": { "@type": "Person", "name": t.name },
-      "reviewRating": { "@type": "Rating", "ratingValue": t.stars },
-      "reviewBody": t.quote,
-    })),
-  };
-
   return (
     <div dir="rtl" style={{ fontFamily: "Cairo, sans-serif", paddingTop: "6rem" }}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
-
       {/* Hero */}
       <div style={{ background: "#111", padding: "4rem 2rem", textAlign: "center", borderBottom: "1px solid #2a2a2a" }}>
         <p style={{ color: "rgba(212,175,55,0.8)", fontSize: "0.7rem", letterSpacing: "0.3em", marginBottom: "0.75rem", textTransform: "uppercase" }}>آراء العملاء</p>

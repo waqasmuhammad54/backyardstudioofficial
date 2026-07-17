@@ -1291,7 +1291,6 @@ export default function SubIndustryPage({
       url: "https://www.backyardstudioofficial.com",
       telephone: "+971-58-588-2685",
       address: { "@type": "PostalAddress", addressLocality: "Dubai", addressCountry: "AE" },
-      aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "127", bestRating: "5" },
     },
     areaServed: { "@type": "Country", name: "United Arab Emirates" },
     url: `https://www.backyardstudioofficial.com/industries/${params.industry}/${params.slug}`,

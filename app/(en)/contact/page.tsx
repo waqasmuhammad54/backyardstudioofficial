@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Contact Backyard Studio Official | Free Quote in 2 Hours",
-    description: "Dubai's best production studio. WhatsApp +971-58-588-2685. Free quote in 2 hours.",
+    description: "Request a Dubai production quote by form, WhatsApp or email. Commercial video, events, weddings, photography and social content.",
     images: ["/og-image.jpg"],
   },
 };
@@ -31,7 +31,7 @@ const CONTACT_FAQS = [
   },
   {
     question: "How quickly does Backyard Studio respond to enquiries?",
-    answer: "Backyard Studio Official guarantees a response to all project briefs within 2 hours — including evenings and weekends. For urgent same-day shoots, call or WhatsApp us directly at +971-58-588-2685.",
+    answer: "Backyard Studio aims to respond to project briefs within 2 hours. For urgent or same-day requirements, call or WhatsApp +971-58-588-2685 directly.",
   },
   {
     question: "Where is Backyard Studio based in Dubai?",

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import LocalizedContactForm from "@/components/contact/LocalizedContactForm";
 
 export const metadata: Metadata = {
   title: "Контакты | Backyard Studio Official Дубай — Бесплатный расчёт",
@@ -60,34 +61,7 @@ export default function RuContactPage() {
           {/* Form */}
           <div>
             <h2 style={{ fontFamily: "Inter, sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1.5rem", textTransform: "uppercase" }}>Отправить бриф</h2>
-            <form style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-              {[
-                { label: "Полное имя", type: "text", placeholder: "Ваше полное имя" },
-                { label: "Электронная почта", type: "email", placeholder: "Ваш email" },
-                { label: "Телефон / WhatsApp", type: "tel", placeholder: "+971 5X XXX XXXX" },
-              ].map((f) => (
-                <div key={f.label}>
-                  <label style={{ display: "block", fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.78rem", marginBottom: "0.4rem" }}>{f.label}</label>
-                  <input type={f.type} placeholder={f.placeholder} style={{ width: "100%", background: "#111", border: "1px solid rgba(255,255,255,0.1)", color: "var(--cream)", padding: "0.75rem 1rem", fontFamily: "Inter, sans-serif", fontSize: "0.9rem", outline: "none", borderRadius: "2px", boxSizing: "border-box" as const }} />
-                </div>
-              ))}
-              <div>
-                <label style={{ display: "block", fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.78rem", marginBottom: "0.4rem" }}>Тип услуги</label>
-                <select style={{ width: "100%", background: "#111", border: "1px solid rgba(255,255,255,0.1)", color: "var(--cream)", padding: "0.75rem 1rem", fontFamily: "Inter, sans-serif", fontSize: "0.9rem", outline: "none", borderRadius: "2px", boxSizing: "border-box" as const }}>
-                  <option value="">Выберите услугу</option>
-                  {["Свадебная съёмка","Съёмка мероприятий","Контент для соцсетей","Reels / TikTok","DVC реклама","Корпоративные фильмы","Аэросъёмка GCAA","Съёмка продуктов","Съёмка недвижимости","Другое"].map((s) => (
-                    <option key={s} value={s}>{s}</option>
-                  ))}
-                </select>
-              </div>
-              <div>
-                <label style={{ display: "block", fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.78rem", marginBottom: "0.4rem" }}>Детали проекта</label>
-                <textarea rows={5} placeholder="Расскажите о проекте — дата, локация, желаемые материалы..." style={{ width: "100%", background: "#111", border: "1px solid rgba(255,255,255,0.1)", color: "var(--cream)", padding: "0.75rem 1rem", fontFamily: "Inter, sans-serif", fontSize: "0.9rem", outline: "none", borderRadius: "2px", resize: "vertical" as const, boxSizing: "border-box" as const }} />
-              </div>
-              <button type="submit" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2rem", fontFamily: "Inter, sans-serif", fontWeight: 700, fontSize: "0.9rem", border: "none", borderRadius: "2px", cursor: "pointer", textTransform: "uppercase" as const, letterSpacing: "0.1em" }}>
-                Отправить бриф
-              </button>
-            </form>
+            <LocalizedContactForm locale="ru" />
           </div>
 
           {/* Info */}

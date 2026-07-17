@@ -57,7 +57,7 @@ const SERVICES_AR = [
 const STATS_AR = [
   { num: "2,400+", label: "مشروع منجز" },
   { num: "7", label: "إمارات نعمل فيها" },
-  { num: "8+", label: "سنوات من الخبرة" },
+  { num: "2019", label: "سنة التأسيس" },
   { num: "2 ساعة", label: "وقت الاستجابة" },
 ];
 

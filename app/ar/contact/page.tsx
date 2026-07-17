@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import LocalizedContactForm from "@/components/contact/LocalizedContactForm";
 
 export const metadata: Metadata = {
   title: "تواصل معنا | باكيارد ستوديو أوفيشيال دبي — عرض سعر مجاني",
@@ -70,34 +71,7 @@ export default function ArContactPage() {
           {/* Form */}
           <div>
             <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1.5rem" }}>أرسل موجزك</h2>
-            <form style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-              {[
-                { label: "الاسم الكامل", type: "text", placeholder: "اسمك الكامل" },
-                { label: "البريد الإلكتروني", type: "email", placeholder: "بريدك الإلكتروني" },
-                { label: "رقم الهاتف / واتساب", type: "tel", placeholder: "+971 5X XXX XXXX" },
-              ].map((f) => (
-                <div key={f.label}>
-                  <label style={{ display: "block", fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.78rem", marginBottom: "0.4rem" }}>{f.label}</label>
-                  <input type={f.type} placeholder={f.placeholder} style={{ width: "100%", background: "#111", border: "1px solid rgba(255,255,255,0.1)", color: "var(--cream)", padding: "0.75rem 1rem", fontFamily: "Cairo, sans-serif", fontSize: "0.9rem", outline: "none", borderRadius: "2px", boxSizing: "border-box" }} />
-                </div>
-              ))}
-              <div>
-                <label style={{ display: "block", fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.78rem", marginBottom: "0.4rem" }}>نوع الخدمة</label>
-                <select style={{ width: "100%", background: "#111", border: "1px solid rgba(255,255,255,0.1)", color: "var(--cream)", padding: "0.75rem 1rem", fontFamily: "Cairo, sans-serif", fontSize: "0.9rem", outline: "none", borderRadius: "2px", boxSizing: "border-box" }}>
-                  <option value="">اختر الخدمة</option>
-                  {["تصوير الأعراس","تصوير الفعاليات","محتوى السوشيال ميديا","ريلز","إعلانات DVC","أفلام مؤسسية","تصوير جوي GCAA","تصوير المنتجات","تصوير العقارات","خدمات أخرى"].map((s) => (
-                    <option key={s} value={s}>{s}</option>
-                  ))}
-                </select>
-              </div>
-              <div>
-                <label style={{ display: "block", fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.78rem", marginBottom: "0.4rem" }}>تفاصيل المشروع</label>
-                <textarea rows={5} placeholder="أخبرنا عن مشروعك — التاريخ، الموقع، المخرجات المطلوبة..." style={{ width: "100%", background: "#111", border: "1px solid rgba(255,255,255,0.1)", color: "var(--cream)", padding: "0.75rem 1rem", fontFamily: "Cairo, sans-serif", fontSize: "0.9rem", outline: "none", borderRadius: "2px", resize: "vertical", boxSizing: "border-box" }} />
-              </div>
-              <button type="submit" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2rem", fontFamily: "Cairo, sans-serif", fontWeight: 700, fontSize: "0.9rem", border: "none", borderRadius: "2px", cursor: "pointer", textTransform: "uppercase", letterSpacing: "0.1em" }}>
-                إرسال الموجز
-              </button>
-            </form>
+            <LocalizedContactForm locale="ar" />
           </div>
 
           {/* Info */}

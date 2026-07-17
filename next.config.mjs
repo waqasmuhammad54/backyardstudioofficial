@@ -42,9 +42,7 @@ const nextConfig = {
         permanent: true,
       },
       // Dead service pages — 301 to nearest live equivalent
-      { source: "/services/affordable-wedding-photography", destination: "/services/wedding-photography", permanent: true },
       { source: "/services/luxury-lifestyle-photography",   destination: "/services/wedding-photography", permanent: true },
-      { source: "/services/testimonial-videos",             destination: "/services/corporate-films",     permanent: true },
       { source: "/services/documentary-production",         destination: "/services/corporate-films",     permanent: true },
     ];
   },

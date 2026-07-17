@@ -26,7 +26,7 @@ export default function ProcessSection() {
             </h2>
           </div>
           <p className="text-silver/70 max-w-xs text-sm font-light leading-relaxed">
-            A process refined over 8+ years and 500+ productions across the UAE — built for speed without sacrificing craft.
+            A process refined since 2019 through 2,400+ productions across the UAE and international markets — built for speed without sacrificing craft.
           </p>
         </div>
 
