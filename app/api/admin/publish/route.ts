@@ -4,6 +4,7 @@ import type { NextRequest } from "next/server";
 const GITHUB_OWNER = "waqasmuhammad54";
 const GITHUB_REPO = "backyardstudioofficial";
 const CONTENT_FILE = "content/posts.json";
+const DYNAMIC_POSTS_FILE = "lib/dynamicPosts.ts";
 
 /* ── Shared helpers ─────────────────────────────────────────────── */
 
@@ -21,45 +22,115 @@ function authCheck(req: NextRequest): boolean {
   return !!(sessionCookie && sessionCookie === expectedToken);
 }
 
+async function ghGet(token: string, path: string) {
+  const res = await fetch(
+    `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`,
+    {
+      headers: {
+        Authorization: `Bearer ${token}`,
+        Accept: "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+      },
+      cache: "no-store",
+    }
+  );
+  if (!res.ok) return null;
+  const data = await res.json();
+  return {
+    sha: data.sha as string,
+    content: Buffer.from(data.content as string, "base64").toString("utf-8"),
+  };
+}
+
+async function ghPut(
+  token: string,
+  path: string,
+  content: string,
+  sha: string,
+  message: string
+): Promise<boolean> {
+  const res = await fetch(
+    `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}`,
+    {
+      method: "PUT",
+      headers: {
+        Authorization: `Bearer ${token}`,
+        Accept: "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        message,
+        content: Buffer.from(content).toString("base64"),
+        branch: "main",
+        sha,
+      }),
+    }
+  );
+  return res.ok;
+}
+
 async function readPostsFromGitHub(token: string): Promise<{
   posts: Record<string, unknown>[];
   sha: string;
 } | null> {
-  const apiBase = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${CONTENT_FILE}`;
-  const res = await fetch(apiBase, {
-    headers: { Authorization: `Bearer ${token}`, Accept: "application/vnd.github+json" },
-    cache: "no-store",
-  });
-  if (!res.ok) return null;
-  const data = await res.json();
+  const result = await ghGet(token, CONTENT_FILE);
+  if (!result) return null;
   return {
-    sha: data.sha,
-    posts: JSON.parse(Buffer.from(data.content, "base64").toString("utf-8")),
+    sha: result.sha,
+    posts: JSON.parse(result.content),
   };
 }
 
-async function writePostsToGitHub(
+/** Regenerate lib/dynamicPosts.ts with inline post data so Vercel bundles it. */
+function buildDynamicPostsTs(posts: Record<string, unknown>[]): string {
+  const now = new Date().toISOString();
+  return (
+    `// ⚠️ AUTO-GENERATED — DO NOT EDIT MANUALLY\n` +
+    `// Updated automatically by the admin publish API on every post publish.\n` +
+    `// Last updated: ${now}\n` +
+    `// Source of truth: ${CONTENT_FILE} (committed to GitHub by admin API)\n` +
+    `import type { BlogPost } from "./blogPosts";\n` +
+    `\n` +
+    `// prettier-ignore\n` +
+    `export const DYNAMIC_POSTS_DATA: (BlogPost & { status?: string })[] =\n` +
+    JSON.stringify(posts, null, 2) +
+    `;\n` +
+    `\n` +
+    `export function getDynamicPosts(): BlogPost[] {\n` +
+    `  return DYNAMIC_POSTS_DATA.filter((p) => !p.status || p.status === "published");\n` +
+    `}\n` +
+    `\n` +
+    `export function getDynamicPost(slug: string): BlogPost | undefined {\n` +
+    `  return getDynamicPosts().find((p) => p.slug === slug);\n` +
+    `}\n`
+  );
+}
+
+async function writePostsAndRebuild(
   token: string,
   posts: Record<string, unknown>[],
-  sha: string,
+  jsonSha: string,
   message: string
 ): Promise<boolean> {
-  const apiBase = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${CONTENT_FILE}`;
-  const res = await fetch(apiBase, {
-    method: "PUT",
-    headers: {
-      Authorization: `Bearer ${token}`,
-      Accept: "application/vnd.github+json",
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      message,
-      content: Buffer.from(JSON.stringify(posts, null, 2)).toString("base64"),
-      branch: "main",
-      sha,
-    }),
-  });
-  return res.ok;
+  // 1. Commit posts.json
+  const jsonOk = await ghPut(token, CONTENT_FILE, JSON.stringify(posts, null, 2), jsonSha, message);
+  if (!jsonOk) return false;
+
+  // 2. Fetch current dynamicPosts.ts SHA (need it to update)
+  const dynResult = await ghGet(token, DYNAMIC_POSTS_FILE);
+  if (!dynResult) return false;
+
+  // 3. Commit regenerated dynamicPosts.ts (inline data, no JSON import)
+  const dynContent = buildDynamicPostsTs(posts);
+  const dynOk = await ghPut(
+    token,
+    DYNAMIC_POSTS_FILE,
+    dynContent,
+    dynResult.sha,
+    `chore: regenerate dynamicPosts.ts — ${message}`
+  );
+  return dynOk;
 }
 
 /* ── GET — list all posts (for admin panel) ─────────────────────── */
@@ -122,7 +193,7 @@ export async function POST(req: NextRequest) {
     ? `blog: save draft "${newPost.title}" [${newPost.slug}]`
     : `blog: add "${newPost.title}" [${newPost.slug}]`;
 
-  const ok = await writePostsToGitHub(GITHUB_TOKEN, updatedPosts, sha, message);
+  const ok = await writePostsAndRebuild(GITHUB_TOKEN, updatedPosts, sha, message);
   if (!ok) return NextResponse.json({ error: "GitHub commit failed" }, { status: 502 });
 
   return NextResponse.json({ ok: true, slug: newPost.slug, status: newPost.status ?? "published" });
@@ -153,7 +224,7 @@ export async function PATCH(req: NextRequest) {
   delete restored.deletedAt;
   posts[idx] = restored;
 
-  const ok = await writePostsToGitHub(GITHUB_TOKEN, posts, sha, `blog: restore "${slug}" to ${targetStatus}`);
+  const ok = await writePostsAndRebuild(GITHUB_TOKEN, posts, sha, `blog: restore "${slug}" to ${targetStatus}`);
   if (!ok) return NextResponse.json({ error: "GitHub commit failed" }, { status: 502 });
 
   return NextResponse.json({ ok: true, slug, status: targetStatus });
@@ -195,7 +266,7 @@ export async function DELETE(req: NextRequest) {
     message = `blog: move "${slug}" to bin`;
   }
 
-  const ok = await writePostsToGitHub(GITHUB_TOKEN, updatedPosts, sha, message);
+  const ok = await writePostsAndRebuild(GITHUB_TOKEN, updatedPosts, sha, message);
   if (!ok) return NextResponse.json({ error: "GitHub commit failed" }, { status: 502 });
 
   return NextResponse.json({ ok: true, slug, permanent: !!permanent });
