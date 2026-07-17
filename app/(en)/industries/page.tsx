@@ -61,7 +61,7 @@ const INDUSTRIES_ITEM_LIST = [
   { name: "Sports Video Production Dubai", url: "https://www.backyardstudioofficial.com/industries/sports", description: "Event coverage, athlete branding and highlight reels for UAE sporting events." },
   { name: "Automotive Video Production Dubai", url: "https://www.backyardstudioofficial.com/industries/automotive", description: "Car launch films, dealership campaigns and dynamic on-road shoots in UAE." },
   { name: "Healthcare Video Production Dubai", url: "https://www.backyardstudioofficial.com/industries/healthcare", description: "Hospital photography, doctor profiles and patient testimonials in UAE." },
-  { name: "Technology Video Production Dubai", url: "https://www.backyardstudioofficial.com/industries/technology", description: "Product demos, startup brand films and tech event coverage in Dubai." },
+  { name: "Technology Video Production Dubai", url: "https://www.backyardstudioofficial.com/industries/tech", description: "Product demos, startup brand films and tech event coverage in Dubai." },
   { name: "Music & Entertainment Production Dubai", url: "https://www.backyardstudioofficial.com/industries/music-entertainment", description: "Music videos, artist branding and concert coverage in UAE." },
   { name: "Fitness & Wellness Video Dubai", url: "https://www.backyardstudioofficial.com/industries/fitness-wellness", description: "Gym branding, trainer content and supplement campaigns in Dubai." },
   { name: "E-Commerce Photography Dubai", url: "https://www.backyardstudioofficial.com/industries/ecommerce-retail", description: "Product photography, Amazon UAE shoots and social commerce content." },

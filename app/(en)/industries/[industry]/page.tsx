@@ -283,7 +283,7 @@ const INDUSTRY_DATA: Record<string, {
       { q: "How long does automotive post-production take?", a: "Social Reels are typically delivered within 24 hours of shoot completion. A 60-second commercial edit takes 3 to 5 working days. Broadcast-standard productions with full colour grade and sound mix take 5 to 10 working days. We provide clear timelines at briefing stage and honour them contractually." },
     ],
     relatedLocations: [{ label: "Dubai Car Shoots", href: "/locations/dubai" },{ label: "Abu Dhabi Automotive", href: "/locations/abu-dhabi" },{ label: "Hatta Mountain Road", href: "/locations/dubai" }],
-    relatedPosts: [{ title: "Car Commercial Production Dubai 2026", href: "/blog/car-commercial-production-dubai-2026" },{ title: "Drone Photography Guide UAE 2026", href: "/blog/drone-photography-dubai-2026" }],
+    relatedPosts: [{ title: "Car Commercial Production Dubai 2026", href: "/blog/car-commercial-dubai-2026" },{ title: "Drone Photography Guide UAE 2026", href: "/blog/drone-photography-dubai-2026" }],
     specialisations: [
       { name: "Car Launch Campaigns", href: "/industries/automotive/car-launch", desc: "Full launch production for new model reveals — from commercial films to dealership events and social campaigns." },
       { name: "Dealership Photography", href: "/industries/automotive/dealership", desc: "Ongoing stock photography and marketing content for UAE car dealerships. Monthly programmes available." },

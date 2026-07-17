@@ -224,7 +224,7 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
         { label: "Abu Dhabi Launch Events", href: "/locations/abu-dhabi" },
       ],
       relatedPosts: [
-        { title: "Car Commercial Production Dubai 2026", href: "/blog/car-commercial-production-dubai-2026" },
+        { title: "Car Commercial Production Dubai 2026", href: "/blog/car-commercial-dubai-2026" },
         { title: "Automotive Production UAE", href: "/industries/automotive" },
       ],
     },
@@ -273,7 +273,7 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
         { label: "Sharjah Auto Market", href: "/locations/sharjah" },
       ],
       relatedPosts: [
-        { title: "Car Commercial Production Dubai 2026", href: "/blog/car-commercial-production-dubai-2026" },
+        { title: "Car Commercial Production Dubai 2026", href: "/blog/car-commercial-dubai-2026" },
         { title: "Automotive Production UAE", href: "/industries/automotive" },
       ],
     },
