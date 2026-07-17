@@ -8205,7 +8205,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Full advertising campaign:</strong> AED 30,000–AED 100,000+. Multi-day, models, locations, full art direction, retouching, and usage rights.</p>
 <p><strong>Corporate headshots:</strong> AED 350–AED 600 per person. Group rates available for teams of 10+.</p>
 <p>Backyard Studio Official provides detailed quotes within 2 hours. WhatsApp +971 58 588 2685 or email info@backyardstudioofficial.com.</p>
-    \`,
+    `,
   },
   {
     slug: "product-videography-dubai-2026",
@@ -8295,7 +8295,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Corporate brand film (multi-location, 3–5 minutes):</strong> AED 40,000–AED 80,000. Multiple Abu Dhabi locations, executive interviews, B-roll, aerial drone footage, full post-production.</p>
 <p><strong>Government entity production:</strong> AED 60,000–AED 200,000+. Priced on scope. Includes all protocol compliance, Arabic primary deliverable, official approval support.</p>
 <p><strong>Event production (full day, Abu Dhabi):</strong> AED 12,000–AED 25,000. Multi-camera event coverage, same-day social edit, full edited highlights film.</p>
-    \`,
+    `,
   },
   {
     slug: "brand-film-production-dubai-2026",
@@ -8341,8 +8341,8 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Founder story / origin film (1–2 locations, 2–3 minutes):</strong> AED 25,000–AED 40,000. Script, 1–2 shoot days, full post-production, 3 format exports.</p>
 <p><strong>Brand narrative film (multi-location, 3–5 minutes):</strong> AED 50,000–AED 100,000. Full pre-production, talent, aerial drone, advanced grade, motion graphics, platform delivery pack.</p>
 <p><strong>Cinematic brand documentary (5–10 minutes):</strong> AED 100,000–AED 300,000+. Multi-day production, original score, broadcast-quality finish, international distribution master.</p>
-    \`,
-  },,
+    `,
+  },
   {
     slug: "food-photography-dubai-2026",
     title: "Food Photography Dubai 2026 — Restaurant, F&B & Menu Photography UAE",
@@ -8386,8 +8386,8 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Hero dish editorial (5–8 dishes):</strong> AED 6,000–AED 10,000. Full art direction, custom props, premium styling, multiple setups per dish, retouching, web and print delivery.</p>
 <p><strong>Social media food content day:</strong> AED 5,500. Half day, 6–8 Reels and motion clips, 20–30 social statics, all platform formats, 48-hour delivery.</p>
 <p><strong>Full F&amp;B campaign (photography + video):</strong> AED 18,000–AED 40,000. Multi-day production covering menus, hero dishes, venue, and social content in one cohesive package.</p>
-    \`,
-  },,
+    `,
+  },
   {
     slug: "fashion-videography-dubai-2026",
     title: "Fashion Videography Dubai 2026 — Campaign & Lookbook Video Production UAE",
@@ -8431,8 +8431,8 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Campaign film (2 days, multiple locations):</strong> AED 40,000–AED 80,000. Full pre-production, director, 2–3 models, permit locations, music, full post-production.</p>
 <p><strong>E-commerce video package (30 SKUs):</strong> AED 9,000. Studio, 1 model, all 30 garments in motion clips, 3 format exports per clip, 48-hour delivery.</p>
 <p><strong>Full seasonal campaign (photography + video):</strong> AED 60,000–AED 150,000. Combined photo and video production across 2–3 days, all formats delivered in one cohesive visual language.</p>
-    \`,
-  },,
+    `,
+  },
   {
     slug: "real-estate-architecture-photography-dubai-2026",
     title: "Real Estate & Architecture Photography Dubai 2026 — Off-Plan & Luxury Property UAE",
@@ -8477,8 +8477,8 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Architectural photography (building exterior):</strong> AED 5,000–AED 15,000. Multiple angles, golden hour and twilight shots, drone aerials, architectural retouching.</p>
 <p><strong>Interior design portfolio shoot:</strong> AED 3,500–AED 8,000 per project. Full space documentation, detail shots, material close-ups, editorial edit.</p>
 <p><strong>Add-on: Drone aerial photography:</strong> AED 2,000–AED 4,000. Includes GCAA permit processing, 10–15 aerial stills and a 2-minute aerial video.</p>
-    \`,
-  },,
+    `,
+  },
   {
     slug: "automotive-photography-dubai-2026",
     title: "Automotive Photography Dubai 2026 — Car Brand, Dealer & Campaign Shoots UAE",
@@ -8523,7 +8523,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Urban campaign shoot (1 day):</strong> AED 15,000–AED 30,000. Downtown or landmark locations, permit handling, full crew, 100+ edited images, drone aerials.</p>
 <p><strong>Full automotive campaign (2–3 days):</strong> AED 40,000–AED 100,000+. Desert plus urban plus studio, photography and video, full crew, motion shots, all platform formats.</p>
 <p><strong>Motion video (car-to-car tracking shots):</strong> AED 12,000–AED 25,000 per day. Specialist tracking vehicle, licensed route, professional driver, 90-second to 3-minute cut included.</p>
-    \`,
+    `,
   },
 ];
 export function getBlogPost(slug: string): BlogPost | undefined {
