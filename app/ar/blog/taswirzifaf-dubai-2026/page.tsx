@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ar/blog/taswirzifaf-dubai-2026",
     languages: {
-      en: "https://www.backyardstudioofficial.com/blog/wedding-photography-dubai-2026",
+      en: "https://www.backyardstudioofficial.com/blog/best-wedding-photographers-dubai-2026",
       ar: "https://www.backyardstudioofficial.com/ar/blog/taswirzifaf-dubai-2026",
     },
   },

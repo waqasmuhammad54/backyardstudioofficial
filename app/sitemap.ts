@@ -28,6 +28,8 @@ const CITIES = [
 
 const INDUSTRIES = [
   "hospitality", "real-estate", "fashion", "food-beverage", "corporate",
+  "sports", "automotive", "healthcare", "tech", "music-entertainment",
+  "fitness-wellness", "ecommerce-retail", "education",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

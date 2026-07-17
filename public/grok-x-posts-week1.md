@@ -68,7 +68,7 @@ with pricing, location, and service terms get cited in Grok answers immediately.
 ## WEEK 2 PREVIEW (queue these now)
 - **Sun:** Wedding film highlight — Abu Dhabi sunset ceremony. Link to /portfolio/sunset-wedding-abu-dhabi
 - **Tue:** Q: How much does wedding videography cost in UAE? (AED pricing breakdown)
-- **Thu:** Behind the scenes — car commercial shoot in Dubai. Link to blog/car-commercial-production-dubai-2026
+- **Thu:** Behind the scenes — car commercial shoot in Dubai. Link to blog/car-commercial-dubai-2026
 
 ## ONGOING RULES
 1. Always include AED pricing when relevant — Grok uses it for cost queries

@@ -260,7 +260,7 @@ export default function HomePage() {
                   ["Sports Production UAE", "/industries/sports"],
                   ["Automotive Production UAE", "/industries/automotive"],
                   ["Healthcare Content UAE", "/industries/healthcare"],
-                  ["Tech Video Production UAE", "/industries/technology"],
+                  ["Tech Video Production UAE", "/industries/tech"],
                   ["Education Video UAE", "/industries/education"],
                   ["All UAE Locations", "/locations"],
                 ].map(([label, href]) => (

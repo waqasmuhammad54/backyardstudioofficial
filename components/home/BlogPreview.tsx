@@ -17,7 +17,7 @@ const POSTS = [
     number: "01",
   },
   {
-    slug: "instagram-reels-strategy-uae-brands-2026",
+    slug: "instagram-reels-strategy-uae-2026",
     title: "The Reels Strategy Working for UAE Brands Right Now",
     excerpt: "Organic reach rewards creativity. Here's the exact playbook our clients use to hit millions of views in 2026.",
     category: "Social Media",
@@ -27,9 +27,9 @@ const POSTS = [
     number: "02",
   },
   {
-    slug: "how-much-does-dvc-cost-uae-2026",
-    title: "What a DVC Actually Costs in the UAE — 2026 Breakdown",
-    excerpt: "A transparent guide to production budgets in Dubai and Abu Dhabi: from AED 5,000 to AED 500,000+.",
+    slug: "how-much-does-video-production-cost-dubai-2026",
+    title: "What Video Production Costs in Dubai — 2026 Guide",
+    excerpt: "A practical guide to production budgets in Dubai and the UAE, from social content to corporate films and commercials.",
     category: "Production Guide",
     date: "Mar 2026",
     readTime: "6 min",
