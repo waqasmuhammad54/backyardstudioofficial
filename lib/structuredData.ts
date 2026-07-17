@@ -422,4 +422,9 @@ export function aggregateRatingSchema(opts: {
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: opts.ratingValue,
-      reviewC
+      reviewCount: opts.reviewCount,
+      bestRating: opts.bestRating ?? 5,
+      worstRating: 1,
+    },
+  };
+}

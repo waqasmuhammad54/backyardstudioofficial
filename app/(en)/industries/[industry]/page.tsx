@@ -789,4 +789,3 @@ export default function IndustryPage({ params }: { params: { industry: string } 
     </>
   );
 }
-                        
