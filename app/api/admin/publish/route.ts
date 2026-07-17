@@ -217,4 +217,57 @@ export async function PATCH(req: NextRequest) {
 
   const { posts, sha } = result;
   const idx = posts.findIndex((p) => p.slug === slug);
-  if (idx === -1) return Nex
+  if (idx === -1) return NextResponse.json({ error: "Post not found" }, { status: 404 });
+
+  const targetStatus = restoreTo ?? "published";
+  const restored = { ...posts[idx], status: targetStatus } as Record<string, unknown>;
+  delete restored.deletedAt;
+  posts[idx] = restored;
+
+  const ok = await writePostsAndRebuild(GITHUB_TOKEN, posts, sha, `blog: restore "${slug}" to ${targetStatus}`);
+  if (!ok) return NextResponse.json({ error: "GitHub commit failed" }, { status: 502 });
+
+  return NextResponse.json({ ok: true, slug, status: targetStatus });
+}
+
+/* ── DELETE — soft delete (bin) or permanent delete ─────────────── */
+export async function DELETE(req: NextRequest) {
+  if (!authCheck(req)) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
+  const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+  if (!GITHUB_TOKEN) return NextResponse.json({ error: "GITHUB_TOKEN not set" }, { status: 500 });
+
+  const { slug, permanent } = await req.json().catch(() => ({})) as {
+    slug?: string;
+    permanent?: boolean;
+  };
+  if (!slug) return NextResponse.json({ error: "slug required" }, { status: 400 });
+
+  const result = await readPostsFromGitHub(GITHUB_TOKEN);
+  if (!result) return NextResponse.json({ error: "Failed to read posts.json" }, { status: 502 });
+
+  const { posts, sha } = result;
+  const idx = posts.findIndex((p) => p.slug === slug);
+  if (idx === -1) return NextResponse.json({ error: "Post not found" }, { status: 404 });
+
+  let updatedPosts: Record<string, unknown>[];
+  let message: string;
+
+  if (permanent) {
+    updatedPosts = posts.filter((p) => p.slug !== slug);
+    message = `blog: permanently delete "${slug}"`;
+  } else {
+    updatedPosts = [...posts];
+    updatedPosts[idx] = {
+      ...updatedPosts[idx],
+      status: "deleted",
+      deletedAt: new Date().toISOString(),
+    };
+    message = `blog: move "${slug}" to bin`;
+  }
+
+  const ok = await writePostsAndRebuild(GITHUB_TOKEN, updatedPosts, sha, message);
+  if (!ok) return NextResponse.json({ error: "GitHub commit failed" }, { status: 502 });
+
+  return NextResponse.json({ ok: true, slug, permanent: !!permanent });
+}
