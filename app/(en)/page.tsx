@@ -268,4 +268,25 @@ export default function HomePage() {
                   ["Sports Production UAE", "/industries/sports"],
                   ["Automotive Production UAE", "/industries/automotive"],
                   ["Healthcare Content UAE", "/industries/healthcare"],
-                  ["Tech Video P
+                  ["Tech Video Production UAE", "/industries/technology"],
+                  ["Education Video UAE", "/industries/education"],
+                  ["All UAE Locations", "/locations"],
+                ].map(([label, href]) => (
+                  <li key={href}>
+                    <Link href={href} className="text-xs opacity-70 hover:opacity-100 transition-opacity" style={{ color: "var(--silver)" }}>
+                      {label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      {/* ══ END INTERNAL LINKS ══════════════════════════════════════ */}
+
+      <ContactSection />
+    </>
+  );
+}

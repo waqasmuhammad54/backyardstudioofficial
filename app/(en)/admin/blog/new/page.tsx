@@ -19,6 +19,17 @@ type PostStatus = "published" | "draft" | "deleted";
 type PostRecord = {
   slug: string;
   title?: string;
+  metaTitle?: string;
+  metaDescription?: string;
+  keywords?: string[];
+  category?: string;
+  author?: string;
+  readTime?: string;
+  image?: string;
+  excerpt?: string;
+  content?: string;
+  faqs?: FAQ[];
+  relatedSlugs?: string[];
   status?: PostStatus;
   date?: string;
   dateISO?: string;
@@ -45,6 +56,26 @@ function textToHtml(raw: string): string {
   }
   flush();
   return html;
+}
+
+function htmlToEditorText(html: string): string {
+  if (!html) return "";
+
+  const withStructure = html
+    .replace(/<h1[^>]*>([\s\S]*?)<\/h1>/gi, "# $1\n\n")
+    .replace(/<h2[^>]*>([\s\S]*?)<\/h2>/gi, "## $1\n\n")
+    .replace(/<h3[^>]*>([\s\S]*?)<\/h3>/gi, "### $1\n\n")
+    .replace(/<h4[^>]*>([\s\S]*?)<\/h4>/gi, "### $1\n\n")
+    .replace(/<strong[^>]*>([\s\S]*?)<\/strong>/gi, "**$1**")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<li[^>]*>([\s\S]*?)<\/li>/gi, "- $1\n")
+    .replace(/<hr\s*\/?>/gi, "\n---\n")
+    .replace(/<\/p>/gi, "\n\n")
+    .replace(/<[^>]+>/g, "");
+
+  const decoder = document.createElement("textarea");
+  decoder.innerHTML = withStructure;
+  return decoder.value.replace(/\n{3,}/g, "\n\n").trim();
 }
 
 function parseMdFile(text: string): {
@@ -218,6 +249,8 @@ export default function BlogNewPage() {
   const [uploading, setUploading] = useState(false);
   const [mdLoaded, setMdLoaded] = useState(false);
   const [showPreview, setShowPreview] = useState(false);
+  const [editingPost, setEditingPost] = useState<PostRecord | null>(null);
+  const [editingContentSnapshot, setEditingContentSnapshot] = useState("");
 
   // Tab + post list state
   const [activeTab, setActiveTab] = useState<ActiveTab>("new");
@@ -252,6 +285,7 @@ export default function BlogNewPage() {
     setImage("/images/creative/creative-04.webp"); setExcerpt(""); setContent("");
     setFaqs([{ question: "", answer: "" }]); setMdLoaded(false);
     setUiState("idle"); setMsg(""); setLiveSlug("");
+    setEditingPost(null); setEditingContentSnapshot("");
   }
 
   /* ── Post list helpers ─────────────────────────────────────────── */
@@ -270,6 +304,28 @@ export default function BlogNewPage() {
   const switchTab = (tab: ActiveTab) => {
     setActiveTab(tab);
     if (tab !== "new") fetchPosts();
+  };
+
+  const startEditing = (post: PostRecord) => {
+    const editorContent = htmlToEditorText(post.content || "");
+    setEditingPost(post);
+    setEditingContentSnapshot(editorContent);
+    setTitle(post.title || "");
+    setMetaTitle(post.metaTitle || post.title || "");
+    setMetaDesc(post.metaDescription || "");
+    setKeywords((post.keywords || []).join(", "));
+    setCategory(post.category || "Photography");
+    setAuthor(post.author || "Backyard Studio Team");
+    setReadTime(post.readTime || "6 min read");
+    setImage(post.image || "/images/creative/creative-04.webp");
+    setExcerpt(post.excerpt || "");
+    setContent(editorContent);
+    setFaqs(post.faqs?.length ? post.faqs : [{ question: "", answer: "" }]);
+    setMdLoaded(false);
+    setUiState("idle");
+    setMsg(`Editing “${post.title || post.slug}”. Update any field or replace the image, then publish changes.`);
+    setActiveTab("new");
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const moveToBin = async (postSlug: string, postTitle: string) => {
@@ -396,23 +452,28 @@ export default function BlogNewPage() {
     setUiState("loading"); setMsg("");
 
     const today = new Date();
+    const postSlug = editingPost?.slug || slug;
+    const savedContent = editingPost && content === editingContentSnapshot
+      ? editingPost.content || ""
+      : textToHtml(content);
     const post = {
-      slug,
+      slug: postSlug,
       title,
       metaTitle,
       metaDescription: metaDesc,
       keywords: keywords.split(",").map((k) => k.trim()).filter(Boolean),
       category,
-      date: today.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }),
-      dateISO: today.toISOString().split("T")[0],
+      date: editingPost?.date || today.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" }),
+      dateISO: editingPost?.dateISO || today.toISOString().split("T")[0],
       readTime,
       image,
       excerpt: excerpt || metaDesc.substring(0, 120),
       author,
-      content: textToHtml(content),
+      content: savedContent,
       faqs: faqs.filter((f) => f.question && f.answer),
-      relatedSlugs: [],
+      relatedSlugs: editingPost?.relatedSlugs || [],
       status: publishStatus,
+      ...(editingPost ? { overwrite: true } : {}),
     };
 
     const res = await fetch("/api/admin/publish", {
@@ -423,7 +484,7 @@ export default function BlogNewPage() {
 
     if (res.status === 409 && body.duplicate) {
       const confirmed = window.confirm(
-        `A post with this URL already exists:\n/blog/${slug}\n\nDo you want to overwrite (update) it?`
+        `A post with this URL already exists:\n/blog/${postSlug}\n\nDo you want to overwrite (update) it?`
       );
       if (confirmed) {
         const res2 = await fetch("/api/admin/publish", {
@@ -431,10 +492,10 @@ export default function BlogNewPage() {
           body: JSON.stringify({ ...post, overwrite: true }),
         });
         if (res2.ok) {
-          setLiveSlug(slug);
+          setLiveSlug(postSlug);
           setUiState(publishStatus === "published" ? "published" : "draft_saved");
           setMsg(publishStatus === "published"
-            ? "✓ Updated & live at /blog/" + slug
+            ? "✓ Updated & live at /blog/" + postSlug
             : "✓ Draft updated.");
         } else {
           const b2 = await res2.json().catch(() => ({}));
@@ -449,10 +510,10 @@ export default function BlogNewPage() {
     }
 
     if (res.ok) {
-      setLiveSlug(slug);
+      setLiveSlug(postSlug);
       setUiState(publishStatus === "published" ? "published" : "draft_saved");
       setMsg(publishStatus === "published"
-        ? `✓ Done — live at /blog/${slug} after Vercel deploys (~60s).`
+        ? `✓ ${editingPost ? "Updated" : "Done"} — live at /blog/${postSlug} after Vercel deploys (~60s).`
         : `✓ Saved as draft. Won't appear on blog until published.`);
     } else {
       setUiState("error");
@@ -499,7 +560,9 @@ export default function BlogNewPage() {
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 24 }}>
           <div>
             <p style={{ color: "#e8c547", fontSize: 11, fontWeight: 700, letterSpacing: "0.4em", margin: "0 0 4px" }}>BLOG ADMIN</p>
-            <h1 style={{ margin: 0, fontSize: 24, fontWeight: 700, color: "#fff" }}>Blog Manager</h1>
+            <h1 style={{ margin: 0, fontSize: 24, fontWeight: 700, color: "#fff" }}>
+              {editingPost ? "Edit Blog Post" : "Blog Manager"}
+            </h1>
           </div>
           <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
             {activeTab === "new" && title && (
@@ -772,7 +835,7 @@ export default function BlogNewPage() {
                   onClick={() => handleSubmit("published")}
                   disabled={uiState === "loading"}
                   style={{ flex: 2, padding: "14px 0", background: "#e8c547", color: "#0a0a0a", border: "none", borderRadius: 4, fontWeight: 700, fontSize: 15, cursor: uiState === "loading" ? "not-allowed" : "pointer", opacity: uiState === "loading" ? 0.7 : 1 }}>
-                  {uiState === "loading" ? "Publishing..." : "Publish Post"}
+                  {uiState === "loading" ? "Publishing..." : editingPost ? "Publish Changes" : "Publish Post"}
                 </button>
               </div>
             )}
@@ -821,6 +884,10 @@ export default function BlogNewPage() {
                             style={{ padding: "7px 14px", background: "none", border: "1px solid #2a2a2a", borderRadius: 4, color: "#666", fontSize: 12, textDecoration: "none", fontWeight: 600 }}>
                             View
                           </a>
+                          <button onClick={() => startEditing(post)}
+                            style={{ padding: "7px 14px", background: "#241e08", border: "1px solid #6b5510", borderRadius: 4, color: "#e8c547", fontSize: 12, cursor: "pointer", fontWeight: 700 }}>
+                            Edit
+                          </button>
                           <button onClick={() => moveToBin(post.slug, post.title || post.slug)}
                             style={{ padding: "7px 14px", background: "none", border: "1px solid #4a1a1a", borderRadius: 4, color: "#c44", fontSize: 12, cursor: "pointer", fontWeight: 600 }}>
                             Move to Bin

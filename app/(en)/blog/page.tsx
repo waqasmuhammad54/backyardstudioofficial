@@ -44,7 +44,11 @@ const HUB_CATEGORIES = CATEGORY_SLUGS.map((slug) => ({
 }));
 
 export default function BlogPage() {
-  const allPosts = [...getDynamicPosts().reverse(), ...BLOG_POSTS];
+  const allPosts = [...getDynamicPosts(), ...BLOG_POSTS].sort((a, b) => {
+    const aTime = Date.parse(a.dateISO || a.date);
+    const bTime = Date.parse(b.dateISO || b.date);
+    return (Number.isNaN(bTime) ? 0 : bTime) - (Number.isNaN(aTime) ? 0 : aTime);
+  });
   const featured = allPosts[0];
   const rest = allPosts.slice(1);
 
