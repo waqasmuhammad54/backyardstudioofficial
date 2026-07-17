@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Отзывы клиентов | Рейтинг 4.9★ — Backyard Studio Official Дубай",
-  description: "Отзывы клиентов Backyard Studio Official из Дубая и ОАЭ. Более 2,400 реализованных проектов, средний рейтинг 4.9/5 — корпоративное видео, свадьбы, мероприятия, недвижимость.",
+  title: "Отзывы клиентов | Backyard Studio Official Дубай",
+  description: "100+ отзывов с оценкой 5 звёзд от брендов ОАЭ. Съёмка мероприятий, DVC, Reels, контент для соцсетей и производственные услуги по всем 7 эмиратам.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru/testimonials",
     languages: {
@@ -14,82 +14,88 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Отзывы клиентов — Backyard Studio Official Дубай | 4.9★",
-    description: "127+ отзывов, средний рейтинг 4.9/5. Клиенты из Дубая, Абу-Даби и всех ОАЭ.",
+    title: "Отзывы клиентов | Backyard Studio Official Дубай",
+    description: "100+ отзывов с оценкой 5 звёзд. Самая доверенная продакшн-студия Дубая для мероприятий, DVC, соцсетей и фотосъёмки.",
     url: "https://www.backyardstudioofficial.com/ru/testimonials",
-    siteName: "Backyard Studio Official",
     locale: "ru_RU",
     type: "website",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Отзывы клиентов — Backyard Studio Official Дубай" }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Отзывы клиентов — Backyard Studio Official Дубай",
-    description: "127+ отзывов, рейтинг 4.9/5. 2 400+ проектов по ОАЭ.",
-    images: ["/og-image.jpg"],
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Отзывы клиентов — Backyard Studio Official" }],
   },
 };
 
 const TESTIMONIALS = [
-  { name: "Наталья Соколова", role: "Директор по маркетингу, Dubai Luxury Realty", text: "Backyard Studio создали для нас видео-туры по нашим объектам премиум-класса. Результат превзошёл все ожидания — качество съёмки и монтажа на уровне международных стандартов. Конверсия с видео выросла вдвое.", stars: 5 },
-  { name: "Михаил Ершов", role: "Генеральный директор, Emirates Tech Solutions", text: "Заказывали корпоративный фильм для презентации инвесторам. Команда профессионально разобралась в нашей нише, написала сценарий и сняла материал за два дня. Результат использовали на Expo Dubai.", stars: 5 },
-  { name: "Анна и Дмитрий Петровы", role: "Молодожёны", text: "Свадьба в Дубае — мечта. Сид Мазхар Заиди снял её так, что мы пересматриваем видео снова и снова. Каждый момент, каждая эмоция пойманы. Рекомендуем от всей души.", stars: 5 },
-  { name: "Екатерина Волкова", role: "Основатель, Kate.Style Dubai", text: "Снимали look-book для моей коллекции. Студия нашла идеальные локации в Дубае, свет был безупречен, монтаж сделали быстро. Клиенты спрашивают, где снимали — это лучший комплимент.", stars: 5 },
-  { name: "Владимир Захаров", role: "Владелец, Zakharov Hospitality Group", text: "Работаем с Backyard Studio уже два года для фотосъёмки наших ресторанов. Качество стабильное, сроки соблюдаются, цены разумные для Дубая. Это именно то, что нужно бизнесу.", stars: 5 },
-  { name: "Ирина Морозова", role: "PR-директор, Al Barsha Hotel", text: "Backyard Studio сняли наш ролик для социальных сетей и рекламной кампании. Сид Мазхар Заиди лично руководил съёмкой. Профессионализм на каждом этапе — от брифинга до финального монтажа.", stars: 5 },
+  { name: "Александра", service: "Съёмка мероприятий",    stars: 5, quote: "Backyard Studio сняли наше корпоративное мероприятие с таким кинематографическим качеством, что весь зал был в восторге. Профессионализм на каждом шагу — от подготовки до финального монтажа." },
+  { name: "Дмитрий",    service: "Контент для соцсетей",  stars: 5, quote: "Reels-кампания, которую они сделали для нашего бренда, набрала миллионы просмотров органически. Они понимают, что работает для аудитории в ОАЭ, лучше кого-либо ещё." },
+  { name: "Наталья",    service: "Корпоративные фильмы",  stars: 5, quote: "Корпоративный фильм, который они произвели для нас, стал нашим лучшим маркетинговым инструментом. Команда полностью погрузилась в наш бренд и передала его суть идеально." },
+  { name: "Михаил",     service: "DVC реклама",            stars: 5, quote: "Производство нашей DVC было безупречным — от выбора локации до финальной цветокоррекции. Backyard Studio играют в другой лиге. Каждый дирхам вложен с умом." },
+  { name: "Елена",      service: "Свадебная съёмка",       stars: 5, quote: "Кинематографическая съёмка нашей свадьбы превзошла все ожидания. Каждый момент запечатлён с такой нежностью и мастерством. Это настоящее искусство, а не просто видео." },
+  { name: "Андрей",     service: "Reels / TikTok",         stars: 5, quote: "Наш аккаунт в TikTok вырос многократно за 3 месяца после партнёрства с Backyard Studio. Их подход к короткому видеоконтенту исключительный и результативный." },
+  { name: "Ирина",      service: "Аэросъёмка GCAA",        stars: 5, quote: "Аэросъёмка добавила совершенно другое измерение к нашему контенту. Всё организовано юридически грамотно, с разрешениями GCAA. Результат превзошёл ожидания." },
+  { name: "Сергей",     service: "Съёмка продуктов",       stars: 5, quote: "Фотографии продуктов, которые они сделали, подняли конверсию нашего интернет-магазина на заметный уровень. Качество — журнальный уровень при разумной цене." },
+  { name: "Ольга",      service: "Съёмка мероприятий",     stars: 5, quote: "Работала с ними на нескольких мероприятиях в Дубае и Абу-Даби. Стабильное качество, креативный подход и пунктуальность в каждом проекте — это их визитная карточка." },
 ];
 
 export default function RuTestimonialsPage() {
+  const reviewSchema = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Backyard Studio Official",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "100",
+      "bestRating": "5",
+    },
+    "review": TESTIMONIALS.slice(0, 3).map((t) => ({
+      "@type": "Review",
+      "author": { "@type": "Person", "name": t.name },
+      "reviewRating": { "@type": "Rating", "ratingValue": t.stars },
+      "reviewBody": t.quote,
+    })),
+  };
+
   return (
-    <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org", "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://www.backyardstudioofficial.com/ru" },
-          { "@type": "ListItem", "position": 2, "name": "Отзывы клиентов", "item": "https://www.backyardstudioofficial.com/ru/testimonials" },
-        ],
-      }) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "@id": "https://www.backyardstudioofficial.com/ru/#localbusiness",
-        "name": "Backyard Studio Official",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "127", "bestRating": "5" },
-        "review": TESTIMONIALS.map((t) => ({
-          "@type": "Review",
-          "author": { "@type": "Person", "name": t.name },
-          "reviewBody": t.text,
-          "reviewRating": { "@type": "Rating", "ratingValue": t.stars, "bestRating": "5" },
-        })),
-      }) }} />
+    <div style={{ fontFamily: "Inter, sans-serif", paddingTop: "6rem" }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }} />
 
-      <section style={{ background: "#111", padding: "5rem 2rem 3rem", textAlign: "center" }}>
-        <div style={{ fontFamily: "Inter, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.85rem", marginBottom: "1rem", letterSpacing: "0.1em" }}>ОТЗЫВЫ КЛИЕНТОВ</div>
-        <h1 style={{ fontFamily: "Inter, sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 800, color: "var(--cream)", marginBottom: "1rem" }}>Что говорят наши клиенты</h1>
-        <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.6)", maxWidth: "500px", margin: "0 auto", lineHeight: 1.8 }}>
-          Более 2 400 проектов по всем ОАЭ — от крупных корпораций до частных клиентов, доверивших нам важнейшие моменты своей жизни.
-        </p>
-      </section>
+      {/* Hero */}
+      <div style={{ background: "#111", padding: "4rem 2rem", textAlign: "center" as const, borderBottom: "1px solid #2a2a2a" }}>
+        <p style={{ color: "rgba(212,175,55,0.8)", fontSize: "0.7rem", letterSpacing: "0.3em", marginBottom: "0.75rem", textTransform: "uppercase" as const }}>Отзывы клиентов</p>
+        <h1 style={{ fontFamily: "Inter, sans-serif", fontSize: "clamp(2.5rem,8vw,5rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem", textTransform: "uppercase" as const }}>Что говорят клиенты</h1>
+        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: "0.4rem" }}>
+          {Array.from({ length: 5 }).map((_, i) => (
+            <span key={i} style={{ color: "var(--gold)", fontSize: "1.1rem" }}>★</span>
+          ))}
+          <span style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.5)", marginLeft: "0.5rem", fontSize: "0.85rem" }}>5.0 — 100+ отзывов</span>
+        </div>
+      </div>
 
-      <section style={{ padding: "4rem 2rem 5rem", background: "#0a0a0a" }}>
-        <div style={{ maxWidth: "1000px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "1.5rem" }}>
-          {TESTIMONIALS.map((t, i) => (
-            <div key={i} style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "2rem" }}>
-              <div style={{ color: "var(--gold)", fontSize: "1.2rem", marginBottom: "1rem" }}>{"★".repeat(t.stars)}</div>
-              <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.75)", fontSize: "0.95rem", lineHeight: 1.8, marginBottom: "1.5rem" }}>«{t.text}»</p>
-              <div>
-                <div style={{ fontFamily: "Inter, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "0.9rem" }}>{t.name}</div>
-                <div style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.45)", fontSize: "0.8rem", marginTop: "0.25rem" }}>{t.role}</div>
+      {/* Grid */}
+      <section style={{ padding: "4rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "1200px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1.5rem" }}>
+          {TESTIMONIALS.map((t) => (
+            <div key={t.name} style={{ padding: "1.5rem", background: "#1a1a1a", border: "1px solid #2a2a2a", borderRadius: "2px", display: "flex", flexDirection: "column" as const }}>
+              <span style={{ color: "rgba(212,175,55,0.25)", fontSize: "2rem", lineHeight: 1, marginBottom: "1rem" }}>"</span>
+              <div style={{ display: "flex", gap: "0.25rem", marginBottom: "1rem" }}>
+                {Array.from({ length: t.stars }).map((_, i) => (
+                  <span key={i} style={{ color: "var(--gold)", fontSize: "0.75rem" }}>★</span>
+                ))}
+              </div>
+              <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.88rem", lineHeight: 1.85, flex: 1, fontStyle: "italic", marginBottom: "1.25rem" }}>
+                "{t.quote}"
+              </p>
+              <div style={{ borderTop: "1px solid #2a2a2a", paddingTop: "1rem" }}>
+                <p style={{ fontFamily: "Inter, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "0.88rem", marginBottom: "0.4rem" }}>{t.name}</p>
+                <span style={{ fontFamily: "Inter, sans-serif", fontSize: "0.65rem", color: "var(--gold)", border: "1px solid rgba(212,175,55,0.3)", padding: "0.2rem 0.6rem", borderRadius: "2px", textTransform: "uppercase" as const, letterSpacing: "0.05em" }}>{t.service}</span>
               </div>
             </div>
           ))}
         </div>
-        <div style={{ textAlign: "center", marginTop: "4rem" }}>
-          <a href="/ru/contact" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.85rem 2.5rem", fontFamily: "Inter, sans-serif", fontWeight: 700, borderRadius: "2px", textDecoration: "none", fontSize: "1rem" }}>
-            Получить бесплатную консультацию →
-          </a>
+        <div style={{ textAlign: "center" as const, marginTop: "4rem" }}>
+          <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.4)", marginBottom: "1.5rem", fontSize: "0.9rem" }}>Готовы присоединиться к 500+ довольным клиентам в ОАЭ?</p>
+          <a href="/ru/contact" style={{ display: "inline-block", background: "var(--gold)", color: "#000", padding: "0.9rem 2.5rem", fontFamily: "Inter, sans-serif", fontWeight: 700, borderRadius: "2px", textDecoration: "none", fontSize: "0.9rem", textTransform: "uppercase" as const }}>Начать проект →</a>
         </div>
       </section>
-    </>
+    </div>
   );
 }

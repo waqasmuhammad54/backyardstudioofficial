@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "تواصل مع باكيارد ستوديو أوفيشيال | دبي — واتساب +971 58 588 2685",
-  description: "تواصل مع باكيارد ستوديو في دبي لحجز تصوير الفعاليات والأعراس والإعلانات في جميع أنحاء الإمارات. نرد خلال ساعتين. واتساب: +971 58 588 2685.",
+  title: "تواصل معنا | باكيارد ستوديو أوفيشيال دبي — عرض سعر مجاني",
+  description: "احصل على عرض سعر مجاني خلال ساعتين. تصوير فعاليات، أعراس، إعلانات، ريلز، أفلام مؤسسية، طائرة مسيّرة. جميع إمارات الدولة. واتساب: +971 58 588 2685.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ar/contact",
     languages: {
@@ -14,129 +14,151 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "تواصل مع باكيارد ستوديو أوفيشيال — دبي",
-    description: "احجز تصوير الفعاليات والأعراس والإعلانات في الإمارات. نرد خلال ساعتين. واتساب: +971 58 588 2685.",
+    title: "تواصل مع باكيارد ستوديو أوفيشيال | عرض سعر مجاني — دبي الإمارات",
+    description: "احصل على عرض سعر مجاني خلال ساعتين. فعاليات، أعراس، إعلانات، ريلز، أفلام مؤسسية وتصوير جوي في جميع إمارات الدولة. واتساب متاح.",
     url: "https://www.backyardstudioofficial.com/ar/contact",
     siteName: "باكيارد ستوديو أوفيشيال",
     locale: "ar_AE",
     type: "website",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "تواصل مع باكيارد ستوديو — دبي" }],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "تواصل مع باكيارد ستوديو أوفيشيال — دبي",
-    description: "نرد خلال ساعتين. واتساب +971 58 588 2685.",
-    images: ["/og-image.jpg"],
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "تواصل مع باكيارد ستوديو — دبي الإمارات" }],
   },
 };
 
 const CONTACT_FAQS = [
-  { q: "ما هو رقم واتساب باكيارد ستوديو في دبي؟", a: "يمكنك التواصل معنا عبر واتساب على الرقم +971 58 588 2685. نرد على جميع الاستفسارات خلال ساعتين، 7 أيام في الأسبوع." },
-  { q: "كيف أحصل على عرض سعر لتصوير مشروعي؟", a: "تواصل معنا عبر واتساب أو البريد الإلكتروني info@backyardstudioofficial.com مع وصف موجز للمشروع وتاريخ التصوير المطلوب. نرد بعرض سعر مخصص خلال ساعتين." },
-  { q: "هل تغطون مناطق خارج دبي؟", a: "نعم. نعمل في جميع إمارات الدولة السبع: دبي، أبوظبي، الشارقة، عجمان، رأس الخيمة، الفجيرة، وأم القيوين." },
-  { q: "ما هي مدة التسليم لمشاريع التصوير؟", a: "تُسلَّم هايلايت الأعراس والفعاليات في غضون 48 ساعة. الأفلام المؤسسية والإعلانات الكاملة تُسلَّم خلال 7-14 يوم عمل حسب تعقيد المشروع." },
+  { q: "كيف أحصل على عرض سعر من باكيارد ستوديو في دبي؟", a: "يمكنك الحصول على عرض سعر مجاني بثلاث طرق: ملء نموذج التواصل في هذه الصفحة، أو إرسال رسالة واتساب على +971 58 588 2685، أو البريد الإلكتروني info@backyardstudioofficial.com. نرد خلال ساعتين 7 أيام في الأسبوع." },
+  { q: "ما مدة استجابة باكيارد ستوديو للاستفسارات؟", a: "نضمن الرد على جميع الاستفسارات خلال ساعتين بما فيها المساء وعطل نهاية الأسبوع. للتصوير العاجل في نفس اليوم، اتصل بنا أو تواصل عبر واتساب مباشرة على +971 58 588 2685." },
+  { q: "أين يقع باكيارد ستوديو في دبي؟", a: "يتمركز باكيارد ستوديو أوفيشيال في دبي ويغطي جميع الإمارات السبع: دبي، أبوظبي، الشارقة، عجمان، رأس الخيمة، الفجيرة، وأم القيوين. يمكننا تجهيز فريق التصوير في أي إمارة خلال 24-48 ساعة." },
+  { q: "ما المعلومات التي أحتاج لتضمينها في موجز مشروعي؟", a: "للحصول على أدق عرض سعر، أرسل: تاريخ التصوير المطلوب أو الجدول الزمني التقريبي، الموقع المفضل، نوع المحتوى (فيديو/تصوير فوتوغرافي/كليهما)، المدة التقريبية أو المخرجات المطلوبة، وأي مراجع أو مزاج بصري لديك." },
 ];
 
 export default function ArContactPage() {
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": CONTACT_FAQS.map((f) => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a },
+    })),
+  };
+
+  const breadcrumb = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "الرئيسية", "item": "https://www.backyardstudioofficial.com/ar" },
+      { "@type": "ListItem", "position": 2, "name": "تواصل معنا", "item": "https://www.backyardstudioofficial.com/ar/contact" },
+    ],
+  };
+
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "الرئيسية", "item": "https://www.backyardstudioofficial.com/ar" },
-              { "@type": "ListItem", "position": 2, "name": "تواصل معنا", "item": "https://www.backyardstudioofficial.com/ar/contact" },
-            ],
-          }),
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": CONTACT_FAQS.map((f) => ({
-              "@type": "Question",
-              "name": f.q,
-              "acceptedAnswer": { "@type": "Answer", "text": f.a },
-            })),
-          }),
-        }}
-      />
+    <div dir="rtl" style={{ fontFamily: "Cairo, sans-serif", paddingTop: "6rem" }}>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
 
-      <section style={{ background: "#111", padding: "4rem 2rem 3rem", textAlign: "center" }}>
-        <h1 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(2rem, 5vw, 3rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>
-          تواصل معنا
-        </h1>
-        <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", maxWidth: "500px", margin: "0 auto" }}>
-          نرد على جميع الاستفسارات خلال ساعتين، 7 أيام في الأسبوع.
-        </p>
-      </section>
+      {/* Hero */}
+      <div style={{ background: "#111", padding: "4rem 2rem", textAlign: "center", borderBottom: "1px solid #2a2a2a" }}>
+        <p style={{ color: "rgba(212,175,55,0.8)", fontSize: "0.7rem", letterSpacing: "0.3em", marginBottom: "0.75rem", textTransform: "uppercase" }}>تواصل معنا</p>
+        <h1 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(2.5rem,8vw,5rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem" }}>احجز مشروعك</h1>
+        <p style={{ color: "rgba(245,240,225,0.5)", maxWidth: "480px", margin: "0 auto", lineHeight: 1.8, fontSize: "0.9rem" }}>أرسل لنا موجزك وسنرد خلال ساعتين. دعنا نصنع شيئاً سينمائياً معاً.</p>
+      </div>
 
-      <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
-        <div style={{ maxWidth: "800px", margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "3rem" }}>
+      {/* Contact grid */}
+      <section style={{ padding: "4rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: "4rem" }}>
+
+          {/* Form */}
           <div>
-            <h2 style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.25rem", marginBottom: "2rem" }}>معلومات التواصل</h2>
-            <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
+            <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1.5rem" }}>أرسل موجزك</h2>
+            <form style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
               {[
-                { icon: "📞", label: "الهاتف وواتساب", val: "+971 58 588 2685", href: "tel:+971585882685" },
-                { icon: "✉️", label: "البريد الإلكتروني", val: "info@backyardstudioofficial.com", href: "mailto:info@backyardstudioofficial.com" },
-                { icon: "📍", label: "الموقع", val: "دبي، الإمارات العربية المتحدة", href: null },
-                { icon: "⏰", label: "وقت الاستجابة", val: "خلال ساعتين", href: null },
-              ].map((item) => (
-                <div key={item.label} style={{ display: "flex", gap: "1rem", alignItems: "flex-start" }}>
-                  <span style={{ fontSize: "1.25rem" }}>{item.icon}</span>
+                { label: "الاسم الكامل", type: "text", placeholder: "اسمك الكامل" },
+                { label: "البريد الإلكتروني", type: "email", placeholder: "بريدك الإلكتروني" },
+                { label: "رقم الهاتف / واتساب", type: "tel", placeholder: "+971 5X XXX XXXX" },
+              ].map((f) => (
+                <div key={f.label}>
+                  <label style={{ display: "block", fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.78rem", marginBottom: "0.4rem" }}>{f.label}</label>
+                  <input type={f.type} placeholder={f.placeholder} style={{ width: "100%", background: "#111", border: "1px solid rgba(255,255,255,0.1)", color: "var(--cream)", padding: "0.75rem 1rem", fontFamily: "Cairo, sans-serif", fontSize: "0.9rem", outline: "none", borderRadius: "2px", boxSizing: "border-box" }} />
+                </div>
+              ))}
+              <div>
+                <label style={{ display: "block", fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.78rem", marginBottom: "0.4rem" }}>نوع الخدمة</label>
+                <select style={{ width: "100%", background: "#111", border: "1px solid rgba(255,255,255,0.1)", color: "var(--cream)", padding: "0.75rem 1rem", fontFamily: "Cairo, sans-serif", fontSize: "0.9rem", outline: "none", borderRadius: "2px", boxSizing: "border-box" }}>
+                  <option value="">اختر الخدمة</option>
+                  {["تصوير الأعراس","تصوير الفعاليات","محتوى السوشيال ميديا","ريلز","إعلانات DVC","أفلام مؤسسية","تصوير جوي GCAA","تصوير المنتجات","تصوير العقارات","خدمات أخرى"].map((s) => (
+                    <option key={s} value={s}>{s}</option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label style={{ display: "block", fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.78rem", marginBottom: "0.4rem" }}>تفاصيل المشروع</label>
+                <textarea rows={5} placeholder="أخبرنا عن مشروعك — التاريخ، الموقع، المخرجات المطلوبة..." style={{ width: "100%", background: "#111", border: "1px solid rgba(255,255,255,0.1)", color: "var(--cream)", padding: "0.75rem 1rem", fontFamily: "Cairo, sans-serif", fontSize: "0.9rem", outline: "none", borderRadius: "2px", resize: "vertical", boxSizing: "border-box" }} />
+              </div>
+              <button type="submit" style={{ background: "var(--gold)", color: "#000", padding: "0.9rem 2rem", fontFamily: "Cairo, sans-serif", fontWeight: 700, fontSize: "0.9rem", border: "none", borderRadius: "2px", cursor: "pointer", textTransform: "uppercase", letterSpacing: "0.1em" }}>
+                إرسال الموجز
+              </button>
+            </form>
+          </div>
+
+          {/* Info */}
+          <div style={{ display: "flex", flexDirection: "column", gap: "2rem" }}>
+            <div>
+              <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "1.5rem", fontWeight: 700, color: "var(--cream)", marginBottom: "1.5rem" }}>معلومات التواصل</h2>
+              {[
+                { icon: "📱", label: "واتساب", value: "+971 58 588 2685", href: "https://wa.me/971585882685" },
+                { icon: "📧", label: "البريد الإلكتروني", value: "info@backyardstudioofficial.com", href: "mailto:info@backyardstudioofficial.com" },
+                { icon: "📍", label: "المقر الرئيسي", value: "دبي، الإمارات العربية المتحدة", href: null },
+              ].map((c) => (
+                <div key={c.label} style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginBottom: "1.25rem" }}>
+                  <span style={{ fontSize: "1.25rem" }}>{c.icon}</span>
                   <div>
-                    <div style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.5)", fontSize: "0.8rem", marginBottom: "0.2rem" }}>{item.label}</div>
-                    {item.href ? (
-                      <a href={item.href} style={{ fontFamily: "Cairo, sans-serif", color: "var(--gold)", textDecoration: "none", fontWeight: 500 }}>{item.val}</a>
+                    <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.7rem", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "0.2rem" }}>{c.label}</p>
+                    {c.href ? (
+                      <a href={c.href} style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontSize: "0.9rem", textDecoration: "none" }}>{c.value}</a>
                     ) : (
-                      <span style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontWeight: 500 }}>{item.val}</span>
+                      <p style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontSize: "0.9rem", margin: 0 }}>{c.value}</p>
                     )}
                   </div>
                 </div>
               ))}
             </div>
-          </div>
-          <div>
-            <h2 style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.25rem", marginBottom: "2rem" }}>تواصل فوري</h2>
-            <div style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
-              <a href="https://wa.me/971585882685" target="_blank" rel="noopener noreferrer"
-                style={{ background: "#25D366", color: "#fff", padding: "1rem 1.5rem", borderRadius: "4px", textDecoration: "none", fontFamily: "Cairo, sans-serif", fontWeight: 700, textAlign: "center", fontSize: "1rem" }}>
-                💬 واتساب — ابدأ محادثة الآن
-              </a>
-              <a href="mailto:info@backyardstudioofficial.com"
-                style={{ background: "rgba(212,175,55,0.1)", border: "1px solid rgba(212,175,55,0.3)", color: "var(--gold)", padding: "1rem 1.5rem", borderRadius: "4px", textDecoration: "none", fontFamily: "Cairo, sans-serif", fontWeight: 600, textAlign: "center" }}>
-                ✉️ أرسل بريداً إلكترونياً
-              </a>
+
+            <div style={{ padding: "1.5rem", border: "1px solid var(--gold)", background: "#111", borderRadius: "4px" }}>
+              <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.7rem", letterSpacing: "0.15em", textTransform: "uppercase", marginBottom: "0.5rem" }}>وقت الاستجابة</p>
+              <p style={{ fontFamily: "Cairo, sans-serif", fontSize: "2rem", fontWeight: 900, color: "var(--cream)", marginBottom: "0.25rem" }}>ساعتان</p>
+              <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.45)", fontSize: "0.8rem", margin: 0 }}>نضمن الرد على جميع الاستفسارات 7 أيام في الأسبوع</p>
             </div>
-            <div style={{ marginTop: "2rem", fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.5)", fontSize: "0.875rem", lineHeight: 1.6 }}>
-              نغطي جميع الإمارات السبع: دبي، أبوظبي، الشارقة، عجمان، رأس الخيمة، الفجيرة، وأم القيوين.
+
+            <div style={{ padding: "1.5rem", border: "1px solid rgba(255,255,255,0.08)", background: "#111", borderRadius: "4px" }}>
+              <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(212,175,55,0.7)", fontSize: "0.7rem", letterSpacing: "0.15em", textTransform: "uppercase", marginBottom: "0.75rem" }}>نغطي جميع الإمارات</p>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
+                {["دبي", "أبوظبي", "الشارقة", "عجمان", "رأس الخيمة", "الفجيرة", "أم القيوين"].map((e) => (
+                  <span key={e} style={{ fontFamily: "Cairo, sans-serif", fontSize: "0.75rem", color: "rgba(245,240,225,0.55)", padding: "0.25rem 0.65rem", border: "1px solid rgba(255,255,255,0.1)", borderRadius: "2px" }}>{e}</span>
+                ))}
+              </div>
             </div>
+
+            <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer" style={{ display: "block", textAlign: "center", background: "#25D366", color: "#fff", padding: "1rem 2rem", fontFamily: "Cairo, sans-serif", fontWeight: 700, borderRadius: "2px", textDecoration: "none", fontSize: "0.9rem" }}>
+              تواصل عبر واتساب الآن →
+            </a>
           </div>
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section style={{ padding: "5rem 2rem", background: "#111" }}>
-        <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-          <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(1.5rem, 3.5vw, 2rem)", fontWeight: 700, color: "var(--cream)", textAlign: "center", marginBottom: "3rem" }}>
-            أسئلة شائعة
-          </h2>
+      {/* FAQ */}
+      <section style={{ padding: "4rem 2rem", borderTop: "1px solid #2a2a2a", background: "var(--ink)" }}>
+        <div style={{ maxWidth: "760px", margin: "0 auto" }}>
+          <h2 style={{ fontFamily: "Cairo, sans-serif", fontSize: "clamp(1.5rem,4vw,2.5rem)", fontWeight: 900, color: "var(--cream)", textAlign: "center", marginBottom: "2.5rem" }}>أسئلة شائعة</h2>
           <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
-            {CONTACT_FAQS.map((f) => (
-              <div key={f.q} style={{ background: "rgba(255,255,255,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: "4px", padding: "1.5rem" }}>
-                <h3 style={{ fontFamily: "Cairo, sans-serif", color: "var(--gold)", fontWeight: 700, fontSize: "1rem", marginBottom: "0.75rem" }}>{f.q}</h3>
-                <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.7)", fontSize: "0.9rem", lineHeight: 1.7, margin: 0 }}>{f.a}</p>
+            {CONTACT_FAQS.map((faq) => (
+              <div key={faq.q} style={{ borderBottom: "1px solid #2a2a2a", paddingBottom: "1.25rem" }}>
+                <h3 style={{ fontFamily: "Cairo, sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "0.9rem", marginBottom: "0.5rem" }}>{faq.q}</h3>
+                <p style={{ fontFamily: "Cairo, sans-serif", color: "rgba(245,240,225,0.55)", fontSize: "0.85rem", lineHeight: 1.8, margin: 0 }}>{faq.a}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

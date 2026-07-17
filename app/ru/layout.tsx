@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "../globals.css";
+import CinematicIntro from "@/components/shared/CinematicIntro";
+import CustomCursor from "@/components/shared/CustomCursor";
 import WhatsAppButton from "@/components/shared/WhatsAppButton";
+import RuNavbar from "@/components/layout/RuNavbar";
+import RuFooter from "@/components/layout/RuFooter";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "G-MES1TPW4VC";
 
@@ -16,119 +20,101 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru",
     languages: {
-      "en": "https://www.backyardstudioofficial.com",
-      "ar": "https://www.backyardstudioofficial.com/ar",
-      "ru": "https://www.backyardstudioofficial.com/ru",
-      "zh": "https://www.backyardstudioofficial.com/zh",
+      "en":        "https://www.backyardstudioofficial.com",
+      "ar":        "https://www.backyardstudioofficial.com/ar",
+      "ru":        "https://www.backyardstudioofficial.com/ru",
+      "zh":        "https://www.backyardstudioofficial.com/zh",
       "x-default": "https://www.backyardstudioofficial.com",
     },
   },
   openGraph: {
-    title: "Лучшая студия видеопроизводства в Дубае | Backyard Studio Official",
-    description: "Профессиональная видеосъёмка в Дубае и ОАЭ. Корпоративное видео, свадьбы, аэросъёмка GCAA. Более 2,400 проектов. Фахад Икбал Батт и Сайед Мазхар Зайди.",
-    url: "https://www.backyardstudioofficial.com/ru",
-    siteName: "Backyard Studio Official",
-    locale: "ru_RU",
-    type: "website",
+    title:       "Лучшая студия видеопроизводства в Дубае | Backyard Studio Official",
+    description: "Профессиональная видеосъёмка в Дубае и ОАЭ. Корпоративное видео, свадьбы, аэросъёмка GCAA. Более 2,400 проектов.",
+    url:         "https://www.backyardstudioofficial.com/ru",
+    siteName:    "Backyard Studio Official",
+    locale:      "ru_RU",
+    type:        "website",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Backyard Studio Official — видеопроизводство в Дубае" }],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Backyard Studio Official — видеопроизводство в Дубае",
+    card:        "summary_large_image",
+    title:       "Backyard Studio Official — видеопроизводство в Дубае",
     description: "Корпоративное видео, свадьбы, аэросъёмка (лицензия GCAA). 2,400+ проектов по всем ОАЭ.",
-    images: ["/og-image.jpg"],
+    images:      ["/og-image.jpg"],
   },
   robots: { index: true, follow: true },
 };
 
-function RuNavbar() {
-  return (
-    <nav
-      style={{
-        position: "fixed",
-        top: 0,
-        right: 0,
-        left: 0,
-        zIndex: 50,
-        padding: "1rem 2rem",
-        display: "flex",
-        justifyContent: "space-between",
-        alignItems: "center",
-        background: "rgba(10,10,10,0.92)",
-        backdropFilter: "blur(12px)",
-        borderBottom: "1px solid rgba(212,175,55,0.15)",
-      }}
-    >
-      <a href="/ru" style={{ display: "flex", alignItems: "center", gap: "0.5rem", textDecoration: "none" }}>
-        <span style={{ fontFamily: "Inter, sans-serif", fontWeight: 700, fontSize: "1.1rem", color: "var(--gold)", letterSpacing: "0.05em" }}>
-          BACKYARD STUDIO
-        </span>
-      </a>
-      <div style={{ display: "flex", gap: "1.5rem", alignItems: "center" }}>
-        <a href="/ru/services" style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem" }}>Услуги</a>
-        <a href="/ru/pricing"  style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem" }}>Цены</a>
-        <a href="/ru/blog"     style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem" }}>Блог</a>
-        <a href="/ru/about"    style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem" }}>О нас</a>
-        <a href="/ru/contact"
-          style={{
-            background: "var(--gold)",
-            color: "#000",
-            padding: "0.4rem 1rem",
-            borderRadius: "2px",
-            textDecoration: "none",
-            fontSize: "0.875rem",
-            fontWeight: 600,
-          }}
-        >Связаться</a>
-        <a href="/" style={{ color: "rgba(212,175,55,0.6)", fontSize: "0.75rem", textDecoration: "none" }}>EN</a>
-        <a href="/ar" style={{ color: "rgba(212,175,55,0.6)", fontSize: "0.75rem", textDecoration: "none" }}>AR</a>
-      </div>
-    </nav>
-  );
-}
+const LOCAL_BUSINESS_RU = {
+  "@context":     "https://schema.org",
+  "@type":        "LocalBusiness",
+  "@id":          "https://www.backyardstudioofficial.com/ru/#localbusiness",
+  "name":         "Backyard Studio Official",
+  "alternateName":"Бэкъярд Студио",
+  "url":          "https://www.backyardstudioofficial.com/ru",
+  "telephone":    "+971585882685",
+  "email":        "info@backyardstudioofficial.com",
+  "address": {
+    "@type":           "PostalAddress",
+    "addressLocality": "Дубай",
+    "addressCountry":  "AE",
+  },
+  "description":
+    "Профессиональная видеосъёмка и фотография в Дубае. Корпоративное видео, свадебная съёмка, контент для соцсетей, аэросъёмка дроном. Лицензия GCAA.",
+  "areaServed": [
+    { "@type": "City",              "name": "Дубай"   },
+    { "@type": "City",              "name": "Абу-Даби" },
+    { "@type": "City",              "name": "Шарджа"  },
+    { "@type": "AdministrativeArea","name": "ОАЭ"     },
+  ],
+  "aggregateRating": {
+    "@type":       "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "127",
+    "bestRating":  "5",
+  },
+  "sameAs": [
+    "https://www.instagram.com/backyardstudioofficial",
+    "https://www.youtube.com/@backyardstudioofficial",
+  ],
+  "founder": [
+    { "@type": "Person", "name": "Фахад Икбал Батт",   "jobTitle": "Директор и главный фотограф" },
+    { "@type": "Person", "name": "Сайед Мазхар Зайди",  "jobTitle": "Директор постпродакшна",      "sameAs": "https://www.imdb.com/name/nm14029494/" },
+  ],
+};
 
-function RuFooter() {
-  return (
-    <footer
-      style={{
-        background: "#0a0a0a",
-        borderTop: "1px solid rgba(212,175,55,0.15)",
-        padding: "3rem 2rem 2rem",
-      }}
-    >
-      <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "2rem", marginBottom: "2rem" }}>
-          <div>
-            <h3 style={{ color: "var(--gold)", fontWeight: 700, fontSize: "1.125rem", marginBottom: "0.75rem" }}>Backyard Studio Official</h3>
-            <p style={{ color: "rgba(245,240,225,0.6)", fontSize: "0.875rem", lineHeight: "1.6" }}>
-              Ведущая творческая продакшн-студия Дубая и ОАЭ.
-              Более 2,400 реализованных проектов. Лицензия GCAA на съёмку дронами.
-            </p>
-          </div>
-          <div>
-            <h4 style={{ color: "var(--cream)", fontWeight: 600, marginBottom: "0.75rem", fontSize: "0.9rem" }}>Навигация</h4>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
-              {[["Услуги", "/ru/services"], ["Цены", "/ru/pricing"], ["О нас", "/ru/about"], ["Блог", "/ru/blog"], ["Контакты", "/ru/contact"]].map(([label, href]) => (
-                <a key={href} href={href} style={{ color: "rgba(245,240,225,0.6)", textDecoration: "none", fontSize: "0.875rem" }}>{label}</a>
-              ))}
-            </div>
-          </div>
-          <div>
-            <h4 style={{ color: "var(--cream)", fontWeight: 600, marginBottom: "0.75rem", fontSize: "0.9rem" }}>Контакты</h4>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem", color: "rgba(245,240,225,0.6)", fontSize: "0.875rem" }}>
-              <span>📞 <a href="tel:+971585882685" style={{ color: "rgba(245,240,225,0.6)", textDecoration: "none" }}>+971 58 588 2685</a></span>
-              <span>✉️ <a href="mailto:info@backyardstudioofficial.com" style={{ color: "rgba(245,240,225,0.6)", textDecoration: "none" }}>info@backyardstudioofficial.com</a></span>
-              <span>📍 Дубай, ОАЭ</span>
-            </div>
-          </div>
-        </div>
-        <div style={{ borderTop: "1px solid rgba(212,175,55,0.1)", paddingTop: "1.5rem", textAlign: "center", color: "rgba(245,240,225,0.35)", fontSize: "0.8rem" }}>
-          © {new Date().getFullYear()} Backyard Studio Official. Все права защищены.
-        </div>
-      </div>
-    </footer>
-  );
-}
+const ORGANIZATION_RU = {
+  "@context":     "https://schema.org",
+  "@type":        "Organization",
+  "@id":          "https://www.backyardstudioofficial.com/#organization",
+  "name":         "Backyard Studio Official",
+  "alternateName":"Бэкъярд Студио — продакшн Дубай",
+  "url":          "https://www.backyardstudioofficial.com/ru",
+  "logo": {
+    "@type":  "ImageObject",
+    "url":    "https://www.backyardstudioofficial.com/logo-black.png",
+    "width":  512,
+    "height": 512,
+  },
+  "foundingDate": "2016",
+  "contactPoint": {
+    "@type":             "ContactPoint",
+    "telephone":         "+971585882685",
+    "contactType":       "customer service",
+    "availableLanguage": ["Russian", "English", "Arabic", "Urdu"],
+    "areaServed":        "AE",
+  },
+  "sameAs": [
+    "https://www.instagram.com/backyardstudioofficial",
+    "https://www.facebook.com/backyardstudioofficial",
+    "https://www.tiktok.com/@backyardstudioofficial",
+    "https://youtube.com/@backyardstudioofficial",
+  ],
+  "founder": [
+    { "@type": "Person", "name": "Фахад Икбал Батт",  "jobTitle": "Директор и главный фотограф" },
+    { "@type": "Person", "name": "Сайед Мазхар Зайди", "jobTitle": "Директор постпродакшна"      },
+  ],
+};
 
 export default function RussianLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -141,56 +127,20 @@ export default function RussianLayout({ children }: { children: React.ReactNode 
         rel="stylesheet"
       />
 
+      {/* LocalBusiness schema */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "@id": "https://www.backyardstudioofficial.com/ru/#localbusiness",
-            "name": "Backyard Studio Official",
-            "alternateName": "Бэкъярд Студио",
-            "url": "https://www.backyardstudioofficial.com/ru",
-            "telephone": "+971585882685",
-            "email": "info@backyardstudioofficial.com",
-            "address": {
-              "@type": "PostalAddress",
-              "addressLocality": "Дубай",
-              "addressCountry": "AE",
-            },
-            "description": "Профессиональная видеосъёмка и фотография в Дубае. Корпоративное видео, свадебная съёмка, контент для соцсетей, аэросъёмка дроном. Лицензия GCAA.",
-            "areaServed": [
-              { "@type": "City", "name": "Дубай" },
-              { "@type": "City", "name": "Абу-Даби" },
-              { "@type": "City", "name": "Шарджа" },
-              { "@type": "AdministrativeArea", "name": "ОАЭ" },
-            ],
-            "aggregateRating": {
-              "@type": "AggregateRating",
-              "ratingValue": "4.9",
-              "reviewCount": "127",
-              "bestRating": "5",
-            },
-            "sameAs": [
-              "https://www.instagram.com/backyardstudioofficial",
-              "https://www.youtube.com/@backyardstudioofficial",
-            ],
-            "founder": [
-              {
-                "@type": "Person",
-                "name": "Фахад Икбал Батт",
-                "jobTitle": "Директор и главный фотограф",
-              },
-              {
-                "@type": "Person",
-                "name": "Сайед Мазхар Зайди",
-                "jobTitle": "Директор постпродакшна",
-                "sameAs": "https://www.imdb.com/name/nm14029494/",
-              },
-            ],
-          }),
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(LOCAL_BUSINESS_RU) }}
       />
+
+      {/* Organization schema — Knowledge Panel + AI Overview entity */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(ORGANIZATION_RU) }}
+      />
+
+      <CinematicIntro />
+      <CustomCursor />
 
       <div style={{ fontFamily: "Inter, sans-serif", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
         <RuNavbar />
@@ -202,10 +152,18 @@ export default function RussianLayout({ children }: { children: React.ReactNode 
 
       {GA_ID && (
         <>
-          <Script src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID} strategy="afterInteractive" />
-          <Script id="ga4-ru" strategy="afterInteractive"
+          <Script
+            src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID}
+            strategy="afterInteractive"
+          />
+          <Script
+            id="ga4-ru"
+            strategy="afterInteractive"
             dangerouslySetInnerHTML={{
-              __html: "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','" + GA_ID + "',{page_path:window.location.pathname,anonymize_ip:true});",
+              __html:
+                "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','" +
+                GA_ID +
+                "',{page_path:window.location.pathname,anonymize_ip:true});",
             }}
           />
         </>

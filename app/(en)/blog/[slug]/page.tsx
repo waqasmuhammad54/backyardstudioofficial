@@ -4,12 +4,53 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Clock, Calendar, Share2 } from "lucide-react";
 import { BLOG_POSTS, getBlogPost, getRelatedPosts } from "@/lib/blogPosts";
+import { getDynamicPost, getDynamicPosts } from "@/lib/dynamicPosts";
 import { faqSchema, articleSchema, breadcrumbSchema, speakableSchema } from "@/lib/structuredData";
 
 const BASE = "https://www.backyardstudioofficial.com";
 
+// Maps blog post category → location service slug for UAE Locations sidebar
+const CATEGORY_SERVICE_MAP: Record<string, string> = {
+  "Wedding Photography":      "wedding-photography",
+  "Wedding":                  "wedding-photography",
+  "Wedding Guide":            "wedding-photography",
+  "Wedding Videography":      "wedding-photography",
+  "Real Estate":              "real-estate-photography",
+  "Aerial Production":        "drone-videography",
+  "Corporate":                "corporate-video",
+  "Corporate Guide":          "corporate-video",
+  "Video Production":         "corporate-video",
+  "Video":                    "corporate-video",
+  "Videography Guide":        "corporate-video",
+  "Videography":              "corporate-video",
+  "Production Guide":         "corporate-video",
+  "Events":                   "event-photography",
+  "Event Guide":              "event-photography",
+  "Product Photography":      "product-photography",
+  "Ecommerce Photography":    "product-photography",
+  "Product":                  "product-photography",
+  "Brand Production":         "personal-branding-photography",
+  "Portrait Photography":     "headshot-photography",
+  "Hospitality":              "food-photography",
+  "Social Media":             "social-media-content",
+  "Social Media Video":       "social-media-content",
+  "Social Media Production":  "social-media-content",
+  "Commercial Photography":   "event-photography",
+};
+
+const UAE_CITIES = [
+  { slug: "dubai",           label: "Dubai" },
+  { slug: "abu-dhabi",       label: "Abu Dhabi" },
+  { slug: "sharjah",         label: "Sharjah" },
+  { slug: "ajman",           label: "Ajman" },
+  { slug: "ras-al-khaimah",  label: "Ras Al Khaimah" },
+  { slug: "fujairah",        label: "Fujairah" },
+  { slug: "umm-al-quwain",   label: "Umm Al Quwain" },
+];
+
 export function generateStaticParams() {
-  return BLOG_POSTS.map((post) => ({ slug: post.slug }));
+  const dynamic = getDynamicPosts();
+  return [...BLOG_POSTS, ...dynamic].map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({
@@ -17,7 +58,7 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
-  const post = getBlogPost(params.slug);
+  const post = getBlogPost(params.slug) ?? getDynamicPost(params.slug);
   if (!post) return { title: "Article Not Found" };
   // Enforce ≤55 char title: use first segment before " | ", add brand if fits
   const firstSeg = post.metaTitle.split(" | ")[0];
@@ -50,7 +91,7 @@ export async function generateMetadata({
 }
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = getBlogPost(params.slug);
+  const post = getBlogPost(params.slug) ?? getDynamicPost(params.slug);
   if (!post) notFound();
 
   const related = getRelatedPosts(post.relatedSlugs);
@@ -69,6 +110,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     url: `${BASE}/blog/${post.slug}`,
   });
   const blogSpeakable = speakableSchema(`${BASE}/blog/${post.slug}`, ["h1", "h2", "h3", ".speakable"]);
+  const locationServiceSlug = CATEGORY_SERVICE_MAP[post.category] ?? null;
 
   const sidebarServices = [
     { label: "Event Videography", slug: "event-videography" },
@@ -202,6 +244,24 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                         <p className="text-[#666] text-[10px] mt-1">{rp.readTime} read</p>
                       </Link>
                     ))}
+                  </div>
+                </div>
+              )}
+
+              {locationServiceSlug && (
+                <div className="p-6 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm">
+                  <p className="text-[#e8c547] text-xs tracking-[0.3em] uppercase font-semibold mb-4">UAE LOCATIONS</p>
+                  <div className="space-y-2">
+                    {UAE_CITIES.map((c) => (
+                      <Link key={c.slug} href={`/locations/${c.slug}/${locationServiceSlug}`}
+                        className="flex items-center gap-2 text-[#a0a0a0] hover:text-[#e8c547] transition-colors text-xs">
+                        <span className="text-[#e8c547]">&#8594;</span> {c.label}
+                      </Link>
+                    ))}
+                    <Link href="/locations"
+                      className="flex items-center gap-2 text-[#e8c547] text-xs font-semibold mt-3 pt-3 border-t border-[#2a2a2a] hover:underline">
+                      All Locations
+                    </Link>
                   </div>
                 </div>
               )}

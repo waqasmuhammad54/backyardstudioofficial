@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "../globals.css";
+import CinematicIntro from "@/components/shared/CinematicIntro";
+import CustomCursor from "@/components/shared/CustomCursor";
 import WhatsAppButton from "@/components/shared/WhatsAppButton";
+import ZhNavbar from "@/components/layout/ZhNavbar";
+import ZhFooter from "@/components/layout/ZhFooter";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "G-MES1TPW4VC";
 
@@ -16,129 +20,124 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/zh",
     languages: {
-      "en": "https://www.backyardstudioofficial.com",
-      "ar": "https://www.backyardstudioofficial.com/ar",
-      "ru": "https://www.backyardstudioofficial.com/ru",
-      "zh": "https://www.backyardstudioofficial.com/zh",
+      "en":        "https://www.backyardstudioofficial.com",
+      "ar":        "https://www.backyardstudioofficial.com/ar",
+      "ru":        "https://www.backyardstudioofficial.com/ru",
+      "zh":        "https://www.backyardstudioofficial.com/zh",
       "x-default": "https://www.backyardstudioofficial.com",
     },
   },
   openGraph: {
-    title: "迪拜最佳影视制作公司 | Backyard Studio Official",
+    title:       "迪拜最佳影视制作公司 | Backyard Studio Official",
     description: "迪拜及阿联酋领先的影视制作公司。超过2,400个项目。GCAA无人机商业执照。2小时内免费报价。",
-    url: "https://www.backyardstudioofficial.com/zh",
-    locale: "zh_CN",
-    type: "website",
-    siteName: "Backyard Studio Official",
+    url:         "https://www.backyardstudioofficial.com/zh",
+    locale:      "zh_CN",
+    type:        "website",
+    siteName:    "Backyard Studio Official",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Backyard Studio Official — 迪拜影视制作" }],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "迪拜最佳影视制作公司 | Backyard Studio Official",
+    card:        "summary_large_image",
+    title:       "迪拜最佳影视制作公司 | Backyard Studio Official",
     description: "迪拜领先制作公司。超过2,400个项目。GCAA执照。",
-    images: ["/og-image.jpg"],
+    images:      ["/og-image.jpg"],
   },
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
 };
 
-function ZhNavbar() {
-  return (
-    <nav style={{
-      position: "fixed", top: 0, right: 0, left: 0, zIndex: 50,
-      padding: "1rem 2rem", display: "flex", justifyContent: "space-between", alignItems: "center",
-      background: "rgba(10,10,10,0.92)", backdropFilter: "blur(12px)",
-      borderBottom: "1px solid rgba(212,175,55,0.15)",
-    }}>
-      <a href="/zh" style={{ textDecoration: "none" }}>
-        <span style={{ fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700, fontSize: "1.1rem", color: "var(--gold)", letterSpacing: "0.05em" }}>
-          BACKYARD STUDIO
-        </span>
-      </a>
-      <div style={{ display: "flex", gap: "1.5rem", alignItems: "center" }}>
-        <a href="/zh/services"    style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem", fontFamily: "'Noto Sans SC', sans-serif" }}>服务</a>
-        <a href="/zh/pricing"     style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem", fontFamily: "'Noto Sans SC', sans-serif" }}>报价</a>
-        <a href="/zh/portfolio"   style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem", fontFamily: "'Noto Sans SC', sans-serif" }}>作品集</a>
-        <a href="/zh/blog"        style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem", fontFamily: "'Noto Sans SC', sans-serif" }}>博客</a>
-        <a href="/zh/about"       style={{ color: "var(--cream)", textDecoration: "none", fontSize: "0.875rem", fontFamily: "'Noto Sans SC', sans-serif" }}>关于我们</a>
-        <a href="/zh/contact" style={{
-          background: "var(--gold)", color: "#000", padding: "0.4rem 1rem",
-          borderRadius: "2px", textDecoration: "none", fontSize: "0.875rem",
-          fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 600,
-        }}>联系我们</a>
-        <a href="/" style={{ color: "rgba(212,175,55,0.6)", fontSize: "0.75rem", textDecoration: "none" }}>EN</a>
-        <a href="/ar" style={{ color: "rgba(212,175,55,0.6)", fontSize: "0.75rem", textDecoration: "none" }}>AR</a>
-        <a href="/ru" style={{ color: "rgba(212,175,55,0.6)", fontSize: "0.75rem", textDecoration: "none" }}>RU</a>
-      </div>
-    </nav>
-  );
-}
+const LOCAL_BUSINESS_ZH = {
+  "@context":     "https://schema.org",
+  "@type":        "LocalBusiness",
+  "@id":          "https://www.backyardstudioofficial.com/zh/#localbusiness",
+  "name":         "Backyard Studio Official",
+  "alternateName":"巴克亚德工作室",
+  "url":          "https://www.backyardstudioofficial.com/zh",
+  "telephone":    "+971585882685",
+  "email":        "info@backyardstudioofficial.com",
+  "address": {
+    "@type":           "PostalAddress",
+    "addressLocality": "迪拜",
+    "addressRegion":   "Dubai",
+    "addressCountry":  "AE",
+  },
+  "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm Al Quwain"],
+  "description":
+    "迪拜专业影视制作公司。企业视频、婚礼摄影、无人机航拍（GCAA执照）、社交媒体内容制作。",
+  "aggregateRating": {
+    "@type":       "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "127",
+    "bestRating":  "5",
+  },
+  "sameAs": [
+    "https://www.instagram.com/backyardstudioofficial",
+    "https://www.facebook.com/backyardstudioofficial",
+    "https://www.tiktok.com/@backyardstudioofficial",
+  ],
+  "founder": [
+    { "@type": "Person", "name": "Fahad Iqbal Butt",  "jobTitle": "Creative Director"      },
+    { "@type": "Person", "name": "Syed Mazhar Zaidi", "jobTitle": "Director of Photography" },
+  ],
+};
 
-function ZhFooter() {
-  return (
-    <footer style={{ background: "#0a0a0a", borderTop: "1px solid rgba(212,175,55,0.15)", padding: "3rem 2rem 2rem" }}>
-      <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "2rem", marginBottom: "2rem" }}>
-          <div>
-            <h3 style={{ color: "var(--gold)", fontWeight: 700, fontSize: "1.125rem", marginBottom: "0.75rem", fontFamily: "'Noto Sans SC', sans-serif" }}>Backyard Studio Official</h3>
-            <p style={{ color: "rgba(245,240,225,0.6)", fontSize: "0.875rem", lineHeight: "1.7", fontFamily: "'Noto Sans SC', sans-serif" }}>
-              迪拜及阿联酋领先的创意制作公司。超过2,400个完成项目。持有GCAA无人机商业执照。
-            </p>
-          </div>
-          <div>
-            <h4 style={{ color: "var(--cream)", fontWeight: 600, marginBottom: "0.75rem", fontSize: "0.9rem", fontFamily: "'Noto Sans SC', sans-serif" }}>快速导航</h4>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
-              {[["服务", "/zh/services"], ["报价", "/zh/pricing"], ["作品集", "/zh/portfolio"], ["博客", "/zh/blog"], ["客户评价", "/zh/testimonials"], ["拍摄地点", "/zh/locations"], ["关于我们", "/zh/about"], ["联系我们", "/zh/contact"]].map(([label, href]) => (
-                <a key={href} href={href} style={{ color: "rgba(245,240,225,0.6)", textDecoration: "none", fontSize: "0.875rem", fontFamily: "'Noto Sans SC', sans-serif" }}>{label}</a>
-              ))}
-            </div>
-          </div>
-          <div>
-            <h4 style={{ color: "var(--cream)", fontWeight: 600, marginBottom: "0.75rem", fontSize: "0.9rem", fontFamily: "'Noto Sans SC', sans-serif" }}>联系方式</h4>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem", color: "rgba(245,240,225,0.6)", fontSize: "0.875rem", fontFamily: "'Noto Sans SC', sans-serif" }}>
-              <span>📞 <a href="tel:+971585882685" style={{ color: "rgba(245,240,225,0.6)", textDecoration: "none" }}>+971 58 588 2685</a></span>
-              <span>✉️ <a href="mailto:info@backyardstudioofficial.com" style={{ color: "rgba(245,240,225,0.6)", textDecoration: "none" }}>info@backyardstudioofficial.com</a></span>
-              <span>📍 迪拜，阿联酋</span>
-            </div>
-          </div>
-        </div>
-        <div style={{ borderTop: "1px solid rgba(212,175,55,0.1)", paddingTop: "1.5rem", textAlign: "center", color: "rgba(245,240,225,0.35)", fontSize: "0.8rem", fontFamily: "'Noto Sans SC', sans-serif" }}>
-          © {new Date().getFullYear()} Backyard Studio Official. 版权所有。
-        </div>
-      </div>
-    </footer>
-  );
-}
+const ORGANIZATION_ZH = {
+  "@context":     "https://schema.org",
+  "@type":        "Organization",
+  "@id":          "https://www.backyardstudioofficial.com/#organization",
+  "name":         "Backyard Studio Official",
+  "alternateName":"巴克亚德工作室 迪拜影视制作",
+  "url":          "https://www.backyardstudioofficial.com/zh",
+  "logo": {
+    "@type":  "ImageObject",
+    "url":    "https://www.backyardstudioofficial.com/logo-black.png",
+    "width":  512,
+    "height": 512,
+  },
+  "foundingDate": "2016",
+  "contactPoint": {
+    "@type":             "ContactPoint",
+    "telephone":         "+971585882685",
+    "contactType":       "customer service",
+    "availableLanguage": ["Chinese", "English", "Arabic", "Russian", "Urdu"],
+    "areaServed":        "AE",
+  },
+  "sameAs": [
+    "https://www.instagram.com/backyardstudioofficial",
+    "https://www.facebook.com/backyardstudioofficial",
+    "https://www.tiktok.com/@backyardstudioofficial",
+    "https://youtube.com/@backyardstudioofficial",
+  ],
+  "founder": [
+    { "@type": "Person", "name": "Fahad Iqbal Butt",  "jobTitle": "Creative Director"      },
+    { "@type": "Person", "name": "Syed Mazhar Zaidi", "jobTitle": "Director of Photography" },
+  ],
+};
 
 export default function ChineseLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
+      {/* Noto Sans SC for Chinese */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet"
+      />
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "@id": "https://www.backyardstudioofficial.com/zh/#localbusiness",
-        "name": "Backyard Studio Official",
-        "alternateName": "巴克亚德工作室",
-        "url": "https://www.backyardstudioofficial.com/zh",
-        "telephone": "+971585882685",
-        "email": "info@backyardstudioofficial.com",
-        "address": { "@type": "PostalAddress", "addressLocality": "迪拜", "addressRegion": "Dubai", "addressCountry": "AE" },
-        "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm Al Quwain"],
-        "description": "迪拜专业影视制作公司。企业视频、婚礼摄影、无人机航拍（GCAA执照）、社交媒体内容制作。",
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "127", "bestRating": "5" },
-        "sameAs": [
-          "https://www.instagram.com/backyardstudioofficial",
-          "https://www.facebook.com/backyardstudioofficial",
-          "https://www.tiktok.com/@backyardstudioofficial",
-        ],
-        "founder": [
-          { "@type": "Person", "name": "Fahad Iqbal Butt", "jobTitle": "Creative Director" },
-          { "@type": "Person", "name": "Syed Mazhar Zaidi", "jobTitle": "Director of Photography" },
-        ],
-      }) }} />
+      {/* LocalBusiness schema */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(LOCAL_BUSINESS_ZH) }}
+      />
+
+      {/* Organization schema — Knowledge Panel + AI Overview entity */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(ORGANIZATION_ZH) }}
+      />
+
+      <CinematicIntro />
+      <CustomCursor />
 
       <div style={{ fontFamily: "'Noto Sans SC', sans-serif", minHeight: "100vh", display: "flex", flexDirection: "column" }}>
         <ZhNavbar />
@@ -150,8 +149,20 @@ export default function ChineseLayout({ children }: { children: React.ReactNode 
 
       {GA_ID && (
         <>
-          <Script src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID} strategy="afterInteractive" />
-          <Script id="ga4-zh" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}',{page_path:window.location.pathname,anonymize_ip:true});` }} />
+          <Script
+            src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID}
+            strategy="afterInteractive"
+          />
+          <Script
+            id="ga4-zh"
+            strategy="afterInteractive"
+            dangerouslySetInnerHTML={{
+              __html:
+                "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','" +
+                GA_ID +
+                "',{page_path:window.location.pathname,anonymize_ip:true});",
+            }}
+          />
         </>
       )}
     </>

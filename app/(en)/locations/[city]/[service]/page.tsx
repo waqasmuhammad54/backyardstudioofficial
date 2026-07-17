@@ -983,6 +983,1220 @@ const PAGES: Record<string, ServicePage> = {
     ],
   },
 
+  // ── SHARJAH ───────────────────────────────────────────────────────────────
+
+  "sharjah/headshot-photography": {
+    title: "Headshot Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Professional headshot photographer in Sharjah — LinkedIn profiles, corporate team days, executive portraits, Al Majaz and University City locations. 48-hour delivery. From AED 800.",
+    h1: "Headshot Photography in Sharjah",
+    subtitle: "Al Majaz Waterfront. University City. Heart of Sharjah. Credibility, photographed.",
+    category: "HEADSHOT PHOTOGRAPHY",
+    intro: [
+      "Sharjah's professional community spans government ministries, University City academia, healthcare institutions, financial services firms along Al Majaz, and a growing cohort of SME founders and entrepreneurs. Across all of these sectors, the credibility gap between a poor LinkedIn photo and a professional headshot is visible and costly. Backyard Studio Official produces professional headshots in Sharjah that accurately represent the seriousness and competence of your professional brand.",
+      "We shoot at Al Majaz Waterfront for an open cityscape background, University City locations for academic professionals, the Heart of Sharjah for heritage context, and our portable studio setup for clean seamless-background corporate portraits. We brief every client before the session on wardrobe, grooming, and what the images will be used for — because those factors directly determine how we shoot.",
+    ],
+    highlights: [
+      { heading: "Al Majaz Waterfront", body: "Sharjah's main promenade along Khalid Lagoon provides an open, modern backdrop for headshots with a distinctive Sharjah character — different from Dubai's glass-tower environment and immediately recognisable to regional professional audiences." },
+      { heading: "University City Sessions", body: "Sharjah is home to the UAE's most concentrated academic cluster. We produce professional headshots for academics, researchers, and administrative staff across University City institutions — meeting the specific visual communication standards of higher education." },
+      { heading: "Corporate Team Days", body: "We set up a portable studio at your Sharjah office or facility and photograph your full team in a single coordinated day, delivering consistent professional headshots for websites, directories, and internal communications." },
+      { heading: "48-Hour Delivery", body: "Standard headshot delivery in 48 hours. Rush same-day or next-day delivery available for conference deadlines, press requirements, or urgent media appearances." },
+    ],
+    pricing: [
+      { pkg: "Individual Headshot", detail: "90 min / 1–2 looks / 10–15 edited images", price: "From AED 800" },
+      { pkg: "Executive Session", detail: "2 hrs / 2 locations / 20 final images", price: "From AED 1,500" },
+      { pkg: "Team Day (per person)", detail: "On-site portable studio / consistent images", price: "From AED 400 / person" },
+      { pkg: "Personal Brand Package", detail: "3 hrs / 3 looks / 40 images / social media ready", price: "From AED 2,500" },
+    ],
+    faqs: [
+      { q: "Where do you shoot professional headshots in Sharjah?", a: "We shoot at Al Majaz Waterfront for open cityscape backgrounds, University City for academic and institutional contexts, the Heart of Sharjah heritage quarter for culturally distinctive imagery, and portable studio setups at your office location for seamless-background corporate portraits." },
+      { q: "Do you photograph corporate team headshots in Sharjah?", a: "Yes. We set up a portable studio at your Sharjah office and photograph your full team systematically in a single day, delivering consistent professional images for websites, LinkedIn, and internal staff directories. Government and semi-government entities in Sharjah are a regular part of our team headshot work." },
+      { q: "How quickly are Sharjah headshots delivered?", a: "Standard delivery is 48 hours from the shoot date. Rush delivery within 24 hours is available for urgent conference, media, or press deadlines at an additional fee." },
+      { q: "How much does a professional headshot cost in Sharjah?", a: "Individual headshot sessions start from AED 800. Executive sessions with two locations from AED 1,500. Corporate team days from AED 400 per person with a session minimum. Personal brand packages from AED 2,500." },
+    ],
+  },
+
+  "sharjah/newborn-photography": {
+    title: "Newborn Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Newborn photographer in Sharjah — posed studio sessions and in-home lifestyle photography for UAE families. Safe, gentle, experienced. From AED 1,500.",
+    h1: "Newborn Photography in Sharjah",
+    subtitle: "The first days. Before they change.",
+    category: "NEWBORN PHOTOGRAPHY",
+    intro: [
+      "Newborn photography documents the very specific physical reality of the first two weeks of life — the natural curl of a sleeping baby, the extraordinary smallness of their hands, the particular softness that parents cannot hold onto with memory alone. Backyard Studio Official produces newborn photography in Sharjah in both posed studio and in-home lifestyle formats, with safety and the baby's comfort as the absolute first principle of every session.",
+      "Sharjah has one of the UAE's most family-oriented communities. Many of the families we work with in Sharjah are building their lives here while extended family remains in their home countries — professional newborn photography gives those relatives abroad their first meaningful connection to a new child. We understand the weight of that and bring the same care to the session itself as to the images we produce.",
+    ],
+    highlights: [
+      { heading: "Posed Studio Sessions (5–14 Days)", body: "Classic posed newborn photography in wraps and props, professional studio lighting, neutral and warm backgrounds. We work entirely at the baby's pace with no time pressure and unlimited breaks for feeding and settling." },
+      { heading: "In-Home Lifestyle Sessions", body: "We travel to your Sharjah home and document your baby in the environment you have prepared — the nursery, the natural light of your space, your family together. Documentary imagery that no studio can replicate." },
+      { heading: "Safety First", body: "All sessions follow established safe posing protocols. A parent is present throughout. We never compromise a baby's comfort or safety for a photograph." },
+      { heading: "Sibling and Family Portraits", body: "We include parents and existing children within the same session at no extra charge — the interactions between older siblings and a new baby consistently produce some of the most meaningful images in the session." },
+    ],
+    pricing: [
+      { pkg: "Studio Newborn", detail: "2–4 hrs / wraps + props / 20 edited images", price: "From AED 1,500" },
+      { pkg: "Premium Studio", detail: "Full session / family + siblings / 35 images", price: "From AED 2,500" },
+      { pkg: "In-Home Lifestyle", detail: "90 min / natural light / 25 images", price: "From AED 1,800" },
+      { pkg: "Studio + In-Home Combo", detail: "Both sessions / complete documentation", price: "From AED 3,200" },
+    ],
+    faqs: [
+      { q: "When should I book a newborn photographer in Sharjah?", a: "Book during your second trimester to hold dates around your due date. We confirm the session once the baby arrives. The ideal window for posed sessions is 5 to 14 days after birth — when babies sleep most deeply and curl most naturally." },
+      { q: "Is newborn photography safe for my baby in Sharjah?", a: "Yes, when performed by trained photographers following safe posing protocols, which is our consistent practice. We never attempt composite or unsafe poses. A parent is present throughout every session, and temperature and environment are actively managed." },
+      { q: "How long does a newborn session take in Sharjah?", a: "Studio sessions run 2 to 4 hours, working entirely at the baby's pace with no time pressure. In-home lifestyle sessions run 90 minutes to 2 hours." },
+      { q: "How much does newborn photography cost in Sharjah?", a: "Studio newborn sessions start from AED 1,500 delivering 20 edited images. Premium sessions with siblings and family from AED 2,500. In-home lifestyle sessions from AED 1,800. Studio and in-home combination packages from AED 3,200." },
+    ],
+  },
+
+  "sharjah/maternity-photography": {
+    title: "Maternity Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Maternity photographer in Sharjah for elegant bump shoots, Al Majaz Waterfront, Al Noor Island and studio sessions. Modest maternity photography available. From AED 1,200.",
+    h1: "Maternity Photography in Sharjah",
+    subtitle: "Al Majaz. Al Noor Island. Heart of Sharjah. Your bump, beautifully documented.",
+    category: "MATERNITY PHOTOGRAPHY",
+    intro: [
+      "Sharjah offers maternity photography environments that feel genuinely different from Dubai. Al Majaz Waterfront along Khalid Lagoon at golden hour produces warm, open coastal imagery with Sharjah's characteristic skyline. Al Noor Island's botanical gardens and butterfly house give a lush, intimate natural backdrop unusual for the UAE. The Heart of Sharjah's heritage architecture provides cultural depth and warmth. These are distinct environments that produce a different aesthetic to the glass-tower or beach-resort imagery associated with Dubai.",
+      "We are experienced with modest maternity photography in Sharjah — sessions designed for families who prefer covered clothing, elegant draping, and beautiful compositions that respect cultural and religious preferences without any compromise in photographic quality. We are happy to discuss your specific requirements before booking.",
+    ],
+    highlights: [
+      { heading: "Al Majaz Waterfront", body: "Sharjah's most popular public promenade along Khalid Lagoon — open water views, the fountain, the city skyline, and consistently beautiful golden-hour light that makes this a standout location for maternity photography." },
+      { heading: "Al Noor Island", body: "Sharjah's botanical island features lush tropical gardens and unique architectural elements that create intimate, green-framed maternity imagery unlike anything else available in the UAE." },
+      { heading: "Heart of Sharjah", body: "The restored heritage quarter provides warm sandstone architecture, courtyard settings, and a cultural depth that works beautifully for families wanting imagery rooted in the region's identity." },
+      { heading: "Modest Maternity Photography", body: "We are experienced shooting elegant covered and draped maternity sessions for families who prefer modest clothing options — equal in quality to any of our standard maternity work." },
+    ],
+    pricing: [
+      { pkg: "Outdoor Session", detail: "90 min / 1 location / 20–25 edited images", price: "From AED 1,200" },
+      { pkg: "Studio Session", detail: "90 min / controlled light / gown options", price: "From AED 1,500" },
+      { pkg: "Premium Outdoor", detail: "2.5 hrs / 2 locations / outfit change / 40 images", price: "From AED 2,200" },
+      { pkg: "Al Noor Island Session", detail: "Golden hour / 2 hrs / 35 images", price: "From AED 2,000" },
+    ],
+    faqs: [
+      { q: "What are the best maternity photography locations in Sharjah?", a: "Al Majaz Waterfront for golden-hour lagoon imagery; Al Noor Island for lush botanical garden sessions; the Heart of Sharjah for heritage architecture backdrops; and our studio for controlled indoor portrait work. We advise on location based on your aesthetic and cultural preferences." },
+      { q: "Do you provide modest maternity photography in Sharjah?", a: "Yes. We are experienced shooting elegant maternity sessions for families who prefer covered or draped clothing options that respect religious and cultural preferences. Equal in creative quality and photographic care to any of our maternity work." },
+      { q: "When is the best time for a maternity shoot in Sharjah?", a: "28 to 34 weeks of pregnancy. Book during your second trimester to secure preferred outdoor slots. Cooler months from October through April are ideal for outdoor sessions. Summer sunrise sessions from 5:30am are available for early risers." },
+      { q: "How much does maternity photography cost in Sharjah?", a: "Outdoor sessions from AED 1,200. Studio sessions from AED 1,500. Al Noor Island golden-hour sessions from AED 2,000. Premium outdoor sessions with two locations from AED 2,200." },
+    ],
+  },
+
+  "sharjah/fashion-photography": {
+    title: "Fashion Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Fashion photographer in Sharjah for editorial shoots, e-commerce, modest fashion and brand campaigns. Al Majaz, Heart of Sharjah, Al Noor Island and studio. From AED 3,000.",
+    h1: "Fashion Photography in Sharjah",
+    subtitle: "Heart of Sharjah. Al Noor Island. Al Majaz. UAE fashion photography with cultural depth.",
+    category: "FASHION PHOTOGRAPHY",
+    intro: [
+      "Sharjah offers fashion photography environments that communicate a distinctly different visual identity from Dubai. The Heart of Sharjah's restored heritage architecture — sandstone buildings, courtyard spaces, traditional geometric motifs — provides a backdrop of cultural depth and authenticity that is increasingly sought after in regional and international fashion editorial. Al Noor Island's botanical gardens and striking geometric structures offer an unusual combination of natural beauty and architectural interest. These locations produce fashion content that stands apart from the glass-and-steel aesthetic that dominates Dubai fashion production.",
+      "Sharjah is also the UAE's primary hub for modest fashion brands. Backyard Studio Official produces fashion photography for abaya designers, modest fashion labels, and regional brands targeting audiences who want photography that is simultaneously elegant, aspirational, and culturally resonant. We work with model agencies in both Sharjah and Dubai and manage full production from brief to delivery.",
+    ],
+    highlights: [
+      { heading: "Heart of Sharjah Heritage", body: "Restored heritage architecture, traditional courtyard spaces, and authentic sandstone settings that produce fashion imagery with genuine cultural weight — a visual angle that Dubai's modern architecture cannot replicate." },
+      { heading: "Al Noor Island", body: "Botanical gardens, the butterfly house, and distinctive architectural structures on the water create fashion photography locations that feel editorial and distinctive." },
+      { heading: "Modest Fashion Specialists", body: "Experienced producing fashion content for abaya designers, modest fashion brands, and regional labels — understanding the visual language that resonates with culturally conservative audiences while maintaining high production values." },
+      { heading: "Full Production Management", body: "Brief to delivery: model sourcing from Sharjah and Dubai agencies, styling coordination, location management, photography, and post-production retouching as a single integrated service." },
+    ],
+    pricing: [
+      { pkg: "Half-Day Shoot", detail: "Photographer + assistant / 1 location", price: "From AED 3,000" },
+      { pkg: "Full Production Day", detail: "Crew / location / post-production included", price: "From AED 5,500" },
+      { pkg: "E-Commerce Day Rate", detail: "Model photography / per-outfit pricing", price: "From AED 4,500 / day" },
+      { pkg: "Campaign Production", detail: "Multi-day / full crew / model + styling", price: "On request" },
+    ],
+    faqs: [
+      { q: "What fashion photography locations are available in Sharjah?", a: "The Heart of Sharjah heritage quarter for authentic cultural architecture; Al Noor Island for botanical gardens and distinctive structures; Al Majaz Waterfront for open contemporary imagery; and studio environments for clean e-commerce fashion photography. Location is selected based on the brand aesthetic and collection type." },
+      { q: "Do you produce modest fashion photography in Sharjah?", a: "Yes. Modest fashion and abaya brand photography is a core part of our Sharjah production work. We understand the visual language of modest fashion — elegant draping, cultural authenticity, sophisticated styling — and produce images that work for both regional and international modest fashion audiences." },
+      { q: "Can you source models for fashion shoots in Sharjah?", a: "Yes. We work with modelling agencies in both Sharjah and Dubai and source appropriate talent for your campaign brief. Model bookings, fees, and scheduling are managed as part of our full production service." },
+      { q: "How much does fashion photography cost in Sharjah?", a: "Half-day shoots start from AED 3,000. Full production days from AED 5,500. E-commerce model photography from AED 4,500 per day. Campaign productions with full crew and styling are quoted per project." },
+    ],
+  },
+
+  "sharjah/social-media-content": {
+    title: "Social Media Content Creation in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Social media content production in Sharjah — Instagram Reels, TikTok, LinkedIn video, modest fashion brands and F&B businesses. Monthly packages available. From AED 2,000.",
+    h1: "Social Media Content Creation in Sharjah",
+    subtitle: "Instagram. TikTok. LinkedIn. Sharjah brands, consistently visible.",
+    category: "SOCIAL MEDIA CONTENT",
+    intro: [
+      "Sharjah's business and cultural landscape is generating real demand for professional social media content. Government entities, University City institutions, family businesses in the heritage quarter, F&B brands across Al Majaz and Rolla, modest fashion labels, and an active community of Sharjah-based content creators all need a consistent flow of professional photography and video for Instagram, TikTok, and LinkedIn.",
+      "Backyard Studio Official produces social media content for Sharjah businesses and creators — delivering photo and video content in the same sessions, working in formats native to each platform, and providing monthly retainer packages for businesses that need consistent output without the overhead of managing individual production shoots every few weeks.",
+    ],
+    highlights: [
+      { heading: "Instagram & TikTok Reels", body: "Short-form vertical video shot natively for Instagram Reels and TikTok — we direct on-camera talent, shoot in vertical format, and deliver platform-ready files with fast turnaround for posting while content is timely." },
+      { heading: "Modest Fashion & Lifestyle Content", body: "A significant share of our Sharjah content work covers modest fashion brands, abaya designers, and lifestyle creators producing content for audiences who expect elegant, culturally resonant imagery." },
+      { heading: "F&B and Heritage Quarter", body: "Restaurant and café social content across Al Majaz, Rolla, and the Heart of Sharjah — food photography, chef reels, atmosphere content, and seasonal campaign material for Sharjah's growing dining culture." },
+      { heading: "Monthly Content Retainers", body: "Regular shoot sessions producing a rolling bank of content for Sharjah businesses who need consistent social media output without managing individual shoot days each month." },
+    ],
+    pricing: [
+      { pkg: "Half-Day Content Shoot", detail: "Photo + Reels / 1–2 platforms", price: "From AED 2,000" },
+      { pkg: "Full-Day Content Sprint", detail: "Multi-platform / photo + video / 3+ deliverables", price: "From AED 3,800" },
+      { pkg: "Creator Monthly Retainer", detail: "2 sessions / month / consistent content bank", price: "From AED 2,000 / mo" },
+      { pkg: "Brand Monthly Retainer", detail: "4 sessions / month / multi-platform / strategy", price: "From AED 3,500 / mo" },
+    ],
+    faqs: [
+      { q: "What social media content do you produce in Sharjah?", a: "Instagram Reels, TikTok videos, YouTube Shorts, LinkedIn video content, Instagram static posts and carousels, Stories content, and brand campaign material. We produce both photography and video in the same sessions to maximise what each shoot day produces." },
+      { q: "Do you offer monthly social media content packages in Sharjah?", a: "Yes. Monthly retainer packages cover 2 to 4 shoot sessions per month, producing a rolling content bank. Creator retainers start from AED 2,000 per month. Brand retainers covering multi-platform output start from AED 3,500 per month." },
+      { q: "Do you produce modest fashion content in Sharjah?", a: "Yes. Modest fashion and lifestyle content is a core area of our Sharjah social media work. We understand the aesthetic and audience expectations of this segment and produce Instagram and TikTok content that resonates with modest fashion communities." },
+      { q: "How much does social media content creation cost in Sharjah?", a: "Half-day content shoots from AED 2,000. Full-day multi-platform sprints from AED 3,800. Monthly creator retainers from AED 2,000 per month. Brand retainers from AED 3,500 per month." },
+    ],
+  },
+
+  "sharjah/birthday-photography": {
+    title: "Birthday Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Birthday photographer in Sharjah for kids parties, milestone birthdays, private celebrations. Al Majaz, Al Noor Island, private venues across Sharjah. From AED 1,000.",
+    h1: "Birthday Photography in Sharjah",
+    subtitle: "Kids parties. Milestone birthdays. Family celebrations. Sharjah moments, documented.",
+    category: "BIRTHDAY PHOTOGRAPHY",
+    intro: [
+      "Birthday photography in Sharjah covers both party event documentation and styled milestone sessions. For birthday parties — kids events at Al Majaz venues, private villa celebrations, community spaces, or home parties across Sharjah's residential areas — we provide event coverage that captures the real moments: the setup before guests arrive, the energy of the celebration, the cake, the genuine interactions that parents want to hold onto. For milestone birthdays, we produce styled photography sessions at Sharjah's most distinctive outdoor locations.",
+      "Sharjah is one of the UAE's most family-oriented communities, and birthday photography here often involves large extended family gatherings, cultural celebrations, and multi-generational moments that require a photographer comfortable with busy, layered events. We are experienced with the full range of birthday event formats and family dynamics in Sharjah.",
+    ],
+    highlights: [
+      { heading: "Kids Party Coverage", body: "We arrive early to document setup and cover the full arc of the celebration, capturing the genuine moments that make children's birthday documentation meaningful — the expressions, the interactions, the energy of the room." },
+      { heading: "Milestone Birthday Sessions", body: "Styled photography sessions for landmark birthdays at Al Majaz Waterfront at golden hour, Al Noor Island's gardens, or the Heart of Sharjah's heritage architecture. Sessions with outfit changes and location variety." },
+      { heading: "Family & Cultural Celebrations", body: "Experienced with large extended family birthday gatherings, Arabic and South Asian cultural celebration formats, and multi-generational events that require both documentary coverage and formal portrait work." },
+      { heading: "Same-Day Sneak Peek", body: "15 highlight images delivered within 6 hours of the event for immediate social media sharing. Full gallery in 3 to 5 business days." },
+    ],
+    pricing: [
+      { pkg: "Party Coverage", detail: "2 hrs / 50–80 edited images / digital gallery", price: "From AED 1,000" },
+      { pkg: "Full Event Coverage", detail: "3–4 hrs / setup to celebration", price: "From AED 1,600" },
+      { pkg: "Milestone Birthday Shoot", detail: "90 min / styled / 2 locations / 30 images", price: "From AED 1,400" },
+      { pkg: "Party + Same-Day Sneak Peek", detail: "Coverage + 15 highlights within 6 hrs", price: "From AED 1,600" },
+    ],
+    faqs: [
+      { q: "Do you photograph kids birthday parties in Sharjah?", a: "Yes. We photograph children's birthday parties at Al Majaz venues, private villas, home parties, community hall events, and celebrations across Sharjah. We are experienced with the fast-moving, unpredictable nature of children's parties and focus on capturing genuine moments rather than staged setups." },
+      { q: "Can you do a milestone birthday shoot in Sharjah?", a: "Yes. We produce styled milestone birthday photography sessions at Al Majaz Waterfront at golden hour, Al Noor Island's botanical gardens, and the Heart of Sharjah heritage quarter. Sessions run 90 minutes with outfit changes and up to 2 locations." },
+      { q: "How quickly do you deliver birthday photos in Sharjah?", a: "Standard delivery is 3 to 5 business days. Same-day sneak peek of 15 highlights within 6 hours is available as an add-on. Rush full delivery in 24 hours available at additional cost." },
+      { q: "How much does a birthday photographer cost in Sharjah?", a: "Party coverage starts from AED 1,000 for 2 hours. Full event coverage from AED 1,600. Milestone birthday shoots from AED 1,400. Same-day sneak peek add-on from AED 300." },
+    ],
+  },
+
+  "sharjah/kids-photography": {
+    title: "Kids Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Children's photographer in Sharjah for family portraits, kids sessions, sibling photography and newborn-to-toddler documentation. Al Majaz, Al Noor Island and studio. From AED 1,000.",
+    h1: "Kids Photography in Sharjah",
+    subtitle: "Toddlers to teens. Genuine moments, not forced poses.",
+    category: "KIDS PHOTOGRAPHY",
+    intro: [
+      "Children's photography in Sharjah requires patience, genuine warmth with young subjects, and a session approach built around the child rather than a fixed production schedule. Backyard Studio Official photographs children of all ages across Sharjah — from newborns through to teenagers — with a consistent philosophy: we work with the child's natural behaviour and energy rather than trying to make them perform. The best children's photographs are always the unguarded, spontaneous moments, and creating the conditions for those to happen is where we focus our attention.",
+      "Sharjah's outdoor environments work exceptionally well for children's photography. Al Noor Island provides botanical gardens and natural spaces that give children room to move freely. Al Majaz Waterfront offers open lagoon views that work beautifully for family sessions. The Heart of Sharjah adds cultural texture for families who want imagery rooted in the region's identity. We use all of these alongside our studio for families wanting a range of imagery styles.",
+    ],
+    highlights: [
+      { heading: "Al Noor Island Sessions", body: "Botanical gardens, open green spaces, and distinctive island architecture give children room to move naturally and produce spontaneous, relaxed photography that feels genuinely playful — unlike any environment in Dubai." },
+      { heading: "Al Majaz Waterfront", body: "Open lagoon views, the iconic fountain, and warm golden-hour light along Sharjah's main promenade provide a beautiful backdrop for family and children's sessions." },
+      { heading: "Patient, Child-Led Approach", body: "We spend the first part of every session building real rapport before we start photographing. Sessions adapt to the child's pace and mood. We never force expressions or rush moments." },
+      { heading: "Family & Sibling Sessions", body: "Parents and siblings included at no additional charge for groups up to 4. We structure the session around getting the best from young children — active outdoor phases first, then quieter portrait moments." },
+    ],
+    pricing: [
+      { pkg: "Kids Session", detail: "60 min / outdoor / 20–30 edited images", price: "From AED 1,000" },
+      { pkg: "Family Session", detail: "90 min / kids + parents / 35 images", price: "From AED 1,600" },
+      { pkg: "Studio Portrait", detail: "60 min / studio / 15 final images", price: "From AED 1,200" },
+      { pkg: "Al Noor Island Premium", detail: "90 min / 2 areas / 30 images", price: "From AED 1,800" },
+    ],
+    faqs: [
+      { q: "What are the best kids photography locations in Sharjah?", a: "Al Noor Island for botanical garden environments that children love to explore naturally; Al Majaz Waterfront for open lagoon and fountain backdrops; the Heart of Sharjah for cultural heritage settings; and our studio for weather-independent controlled portrait work." },
+      { q: "How do you get young children to cooperate for photos in Sharjah?", a: "We don't try to make children perform. We spend the opening part of every session playing and building a genuine connection before we start shooting. Once children are relaxed and comfortable with us, the real moments — the expressions, the energy, the interactions — emerge naturally." },
+      { q: "Can you photograph newborns through older children in the same family session?", a: "Yes. Multi-age family sessions with children spanning a wide age range are common in our Sharjah work. We structure the session to serve each age group — active outdoor phases for energetic children, quieter portrait time for younger ones and parents." },
+      { q: "How much does children's photography cost in Sharjah?", a: "Outdoor kids sessions start from AED 1,000. Family sessions from AED 1,600. Studio portrait sessions from AED 1,200. Al Noor Island premium outdoor sessions from AED 1,800." },
+    ],
+  },
+
+  "sharjah/engagement-photography": {
+    title: "Engagement Photography in Sharjah 2026 | Backyard Studio Official",
+    metaDescription: "Engagement photographer in Sharjah for couple shoots, proposal photography and pre-wedding sessions. Al Majaz Waterfront, Heart of Sharjah and Al Noor Island. From AED 1,800.",
+    h1: "Engagement Photography in Sharjah",
+    subtitle: "Al Majaz Waterfront. Heart of Sharjah. Al Noor Island. Couple photography with depth.",
+    category: "ENGAGEMENT PHOTOGRAPHY",
+    intro: [
+      "Sharjah's engagement photography locations offer a visual and cultural depth that is distinctly its own. Al Majaz Waterfront along Khalid Lagoon at golden hour produces warm, cinematic couple photography with the Sharjah skyline and fountain as a backdrop. The Heart of Sharjah's restored heritage quarter provides sandstone architecture, courtyard settings, and authentic cultural context that make for stunning images unlike anything produced in Dubai. Al Noor Island combines botanical gardens with striking waterside architecture. These are genuine environments with real character.",
+      "We work with couples across all nationalities and backgrounds in Sharjah, and we are experienced with culturally sensitive session requirements. We take time before every session to understand what the couple wants — the aesthetic, the mood, how comfortable they are in front of a camera — and build the session around helping them feel genuinely at ease rather than directed into rigid poses.",
+    ],
+    highlights: [
+      { heading: "Al Majaz Waterfront", body: "Sharjah's most iconic promenade setting — Khalid Lagoon, the fountain, the cityscape at golden hour. One of the most romantic and visually distinctive engagement photography locations in the UAE." },
+      { heading: "Heart of Sharjah Heritage", body: "Authentic sandstone architecture, intimate courtyards, and heritage setting provide a cultural backdrop for couple photography that feels genuinely rooted in the region's identity." },
+      { heading: "Al Noor Island", body: "Botanical gardens, distinctive architectural structures, and island light create a naturally beautiful and intimate setting for couple and engagement sessions." },
+      { heading: "Proposal Photography", body: "We position covertly at the chosen proposal location ahead of time to capture the genuine moment and immediate reaction — coordinating closely with the proposing partner on timing and position." },
+    ],
+    pricing: [
+      { pkg: "1-Location Session", detail: "90 min / 1 outfit / 30–40 edited images", price: "From AED 1,800" },
+      { pkg: "2-Location Session", detail: "2.5 hrs / 2 outfits / 50 images", price: "From AED 2,800" },
+      { pkg: "Al Majaz Golden Hour", detail: "2 hrs / sunset / 40 images", price: "From AED 2,200" },
+      { pkg: "Proposal Photography", detail: "Covert coverage / full edited gallery", price: "From AED 2,200" },
+    ],
+    faqs: [
+      { q: "What are the best engagement photography locations in Sharjah?", a: "Al Majaz Waterfront at golden hour for the Khalid Lagoon and fountain backdrop; Heart of Sharjah for heritage architecture and cultural depth; Al Noor Island for botanical garden environments; and our studio for weather-independent portrait sessions. We advise based on the couple's aesthetic preferences and session timing." },
+      { q: "Do you photograph proposals in Sharjah?", a: "Yes. We position covertly at the proposal location in advance to capture the genuine moment and the immediate reaction. All timing and positioning is coordinated through close communication with the proposing partner before the day." },
+      { q: "Are you experienced with culturally sensitive engagement photography in Sharjah?", a: "Yes. We regularly work with couples who have specific cultural, religious, or family requirements around their photography sessions. These conversations are always welcome before booking — we want to ensure the session is comfortable, dignified, and genuinely enjoyable for both partners." },
+      { q: "How much does engagement photography cost in Sharjah?", a: "Single-location sessions start from AED 1,800. Two-location sessions from AED 2,800. Al Majaz golden-hour sessions from AED 2,200. Proposal photography from AED 2,200." },
+    ],
+  },
+
+  // ── AJMAN ─────────────────────────────────────────────────────────────────
+
+  "ajman/headshot-photography": {
+    title: "Headshot Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Professional headshot photographer in Ajman — LinkedIn profiles, corporate portraits, executive headshots at Ajman Corniche and Free Zone. 48-hour delivery. From AED 750.",
+    h1: "Headshot Photography in Ajman",
+    subtitle: "Ajman Corniche. Free Zone. Museum Quarter. Professional headshots, precisely delivered.",
+    category: "HEADSHOT PHOTOGRAPHY",
+    intro: [
+      "Ajman's professional landscape spans the Ajman Free Zone — one of the UAE's most active SME and manufacturing hubs — along with government institutions, healthcare facilities, and a growing community of entrepreneurs and independent professionals. For every professional in this environment, a credible headshot is the first layer of trust that prospective clients, employers, and partners encounter. Backyard Studio Official produces professional headshots in Ajman that hold up at every scale — LinkedIn profiles, corporate directories, press features, and website team pages.",
+      "We shoot along the Ajman Corniche for open waterfront backgrounds, use the Ajman Museum quarter for heritage context, set up portable studio backgrounds at Free Zone offices, and work at Al Zorah for natural surroundings. Every session begins with a brief conversation about how the images will be used, what wardrobe the client is planning, and what quality of result they actually need — because those answers shape every decision we make on set.",
+    ],
+    highlights: [
+      { heading: "Ajman Free Zone Corporate Headshots", body: "Ajman Free Zone hosts thousands of registered businesses across manufacturing, trading, and services. We travel to your office and set up a portable studio on-site to photograph full teams in a single coordinated day, delivering consistent professional headshots for your company website and directory listings." },
+      { heading: "Ajman Corniche Locations", body: "The Ajman Corniche provides a clean, open waterfront backdrop with the Gulf as background — professional without the visual congestion of Dubai's skyline, and immediately recognisable to UAE regional audiences." },
+      { heading: "Museum Quarter Context", body: "Ajman Museum's historic fort and surrounding quarter provides sandstone architecture and heritage context for headshots where a sense of place and professional credibility both matter." },
+      { heading: "48-Hour Delivery", body: "Standard edited delivery in 48 hours. Rush next-day or same-day delivery available for press appearances, conference deadlines, or immediate website updates." },
+    ],
+    pricing: [
+      { pkg: "Individual Headshot", detail: "90 min / 1–2 looks / 10–15 edited images", price: "From AED 750" },
+      { pkg: "Executive Session", detail: "2 hrs / 2 locations / 20 final images", price: "From AED 1,400" },
+      { pkg: "Team Day (per person)", detail: "On-site portable studio / consistent images", price: "From AED 350 / person" },
+      { pkg: "Personal Brand Package", detail: "3 hrs / 3 looks / 40 images / social media ready", price: "From AED 2,200" },
+    ],
+    faqs: [
+      { q: "Where do you shoot headshots in Ajman?", a: "Ajman Corniche for open waterfront backgrounds, Ajman Museum quarter for heritage context, Al Zorah Nature Reserve for natural surroundings, and our portable studio setup for clean seamless-background corporate portraits at your Free Zone or city office." },
+      { q: "Can you photograph our full company team in Ajman?", a: "Yes. We travel to your Ajman Free Zone office or facility, set up a portable studio on-site, and photograph your entire team in a single coordinated day. Final images are delivered with consistent lighting, background, and colour grade across all team members." },
+      { q: "How much does a professional headshot cost in Ajman?", a: "Individual sessions start from AED 750 for a 90-minute shoot with 10 to 15 edited images. Executive sessions from AED 1,400. Team days at AED 350 per person. Personal brand packages from AED 2,200." },
+      { q: "How quickly will I receive my headshot images?", a: "Standard delivery is within 48 hours. Rush same-day and next-day options are available for conference deadlines, press submissions, or urgent website requirements." },
+    ],
+  },
+
+  "ajman/newborn-photography": {
+    title: "Newborn Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Newborn photographer in Ajman — safe posed and lifestyle newborn sessions for families. Home visits, studio setups and Al Zorah natural sessions. From AED 1,400.",
+    h1: "Newborn Photography in Ajman",
+    subtitle: "Al Zorah. Ajman Corniche. Your home. Safe, gentle newborn photography.",
+    category: "NEWBORN PHOTOGRAPHY",
+    intro: [
+      "The first two weeks of a newborn's life pass faster than any parent expects. The particular way a newborn curls, the texture of their skin, the weight of them in a parent's arms — these are details that belong to a narrow window of days. Backyard Studio Official produces professional newborn photography in Ajman that captures these fleeting details honestly and gently, creating images that genuinely reflect the experience of those first days rather than a performed version of it.",
+      "We work within Ajman's family communities with full understanding of the cultural norms that matter to new parents here. Sessions are unhurried and led by the baby's readiness rather than a fixed schedule. We offer home visits across Ajman — Al Rashidiya, Al Nuaimiya, Al Rawda, and surrounding areas — as well as outdoor lifestyle sessions at Al Zorah Nature Reserve, and portable studio setups for families who prefer controlled backgrounds.",
+    ],
+    highlights: [
+      { heading: "Safe Posing Practice", body: "Every pose we use is specifically designed for newborns and executed with the safety of the baby as the primary consideration. No pose, prop, or position is used that creates any risk — always safety first, aesthetics second." },
+      { heading: "Home Visit Sessions", body: "We bring our equipment to your Ajman home and photograph the newborn in the environment where they actually live — in the bassinet, in a parent's arms on the sofa, in the nursery. These images have an intimacy and authenticity that studio images often lack." },
+      { heading: "Al Zorah Nature Sessions", body: "Al Zorah Nature Reserve's mangroves and waterside environments provide a beautifully natural backdrop for family and newborn lifestyle photography — open, calm, and distinctly different from urban studio settings." },
+      { heading: "Culturally Aware Sessions", body: "We are experienced working with Ajman's diverse family communities and understand the preferences around privacy, modesty, and session conduct that matter to families here. All requirements are welcomed and respected." },
+    ],
+    pricing: [
+      { pkg: "Lifestyle Home Session", detail: "2 hrs at your home / 30–40 images", price: "From AED 1,400" },
+      { pkg: "Posed Studio Session", detail: "3 hrs / wraps and props / 40 images", price: "From AED 1,800" },
+      { pkg: "Family Welcome Session", detail: "Newborn + siblings + parents / 50 images", price: "From AED 2,200" },
+      { pkg: "Al Zorah Outdoor Session", detail: "2 hrs nature setting / 35 images", price: "From AED 1,600" },
+    ],
+    faqs: [
+      { q: "When is the best time to photograph a newborn in Ajman?", a: "Between 5 and 14 days after birth. Newborns in this window sleep deeply and curl naturally into the gentle poses that define newborn photography. After two weeks, the baby becomes more alert and less comfortable with extended handling." },
+      { q: "Do you come to our home in Ajman?", a: "Yes. We offer home visit sessions across Ajman — Al Rashidiya, Al Nuaimiya, Al Rawda, and surrounding neighbourhoods. We bring all equipment needed for both lifestyle and posed sessions. Home sessions have a natural intimacy that studio images rarely replicate." },
+      { q: "Is newborn photography safe?", a: "Safety is the first and non-negotiable consideration in every session. All poses are specifically designed for newborns and executed with care. We never rush, never force, and never place a baby in any position that could cause discomfort or risk." },
+      { q: "How much does newborn photography in Ajman cost?", a: "Lifestyle home sessions start from AED 1,400. Posed studio sessions from AED 1,800. Family welcome sessions from AED 2,200. Al Zorah outdoor sessions from AED 1,600." },
+    ],
+  },
+
+  "ajman/maternity-photography": {
+    title: "Maternity Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Maternity photographer in Ajman — elegant bump sessions at Al Zorah Nature Reserve, Ajman Corniche and home visits. Culturally respectful. From AED 1,200.",
+    h1: "Maternity Photography in Ajman",
+    subtitle: "Al Zorah Nature Reserve. Ajman Corniche. Your home. Maternity photography with presence.",
+    category: "MATERNITY PHOTOGRAPHY",
+    intro: [
+      "Pregnancy is one of the most significant chapters of a woman's life, and the physical reality of late pregnancy — the shape, the light, the emotional weight of what is about to change — deserves to be documented with intention. Backyard Studio Official produces maternity photography in Ajman that is both genuinely beautiful and deeply authentic, creating images that mothers return to for decades rather than ones that simply exist to be posted once and forgotten.",
+      "We work across Ajman's most beautiful natural and architectural settings — Al Zorah Nature Reserve for verdant, mangrove-surrounded landscapes, the Ajman Corniche for golden-hour waterfront sessions, and the Al Rashidiya and Al Nuaimiya residential areas for home visits. We are experienced with all cultural and modesty requirements that matter to expectant mothers in Ajman's community, and we approach every conversation about wardrobe, style, and session boundaries with full respect and without assumption.",
+    ],
+    highlights: [
+      { heading: "Al Zorah Nature Reserve", body: "Ajman's most visually distinctive natural setting — mangroves, waterways, and open sky create a genuinely beautiful environment for maternity photography that feels different from any Dubai or Sharjah location." },
+      { heading: "Ajman Corniche Golden Hour", body: "The Ajman Corniche at golden hour provides soft waterfront light and Gulf views — a warm, open environment that flatters maternity photography naturally and produces images with real warmth and depth." },
+      { heading: "Home Visit Sessions", body: "For expectant mothers who prefer privacy and comfort, we offer home visit sessions throughout Ajman. Photographing in the family home creates intimate, personal images that capture the domestic reality of the pregnancy." },
+      { heading: "Culturally Sensitive Approach", body: "Modest styling, covered arms and shoulders, abaya-inclusive sessions, and family inclusion are all accommodated without hesitation. We discuss styling and comfort preferences in detail before every session." },
+    ],
+    pricing: [
+      { pkg: "Corniche Sunset Session", detail: "90 min / 1 outfit / 30 images", price: "From AED 1,200" },
+      { pkg: "Al Zorah Nature Session", detail: "2 hrs / 2 outfits / 40 images", price: "From AED 1,600" },
+      { pkg: "Home Lifestyle Session", detail: "2 hrs at your home / 35 images", price: "From AED 1,400" },
+      { pkg: "Full Maternity Collection", detail: "3 hrs / 3 locations / 60 images / print-ready files", price: "From AED 2,800" },
+    ],
+    faqs: [
+      { q: "When should I book my maternity photoshoot in Ajman?", a: "The ideal window is between 28 and 34 weeks of pregnancy. The bump is fully defined and prominent, you are typically still comfortable and mobile, and there is enough time before the due date for a relaxed session. We recommend booking at around 24 weeks to secure your preferred time and location." },
+      { q: "What are the best locations for maternity photography in Ajman?", a: "Al Zorah Nature Reserve for natural mangrove and waterside settings, the Ajman Corniche at golden hour for waterfront light, and home visit sessions for intimate documentary-style images. We recommend the session location based on the style of images the expectant mother wants." },
+      { q: "Do you accommodate modest clothing in maternity sessions?", a: "Yes, fully. Abaya sessions, covered arms and shoulders, modest dress requirements, and family inclusion are all accommodated without any adjustment to the quality of the images we produce. These sessions are a regular part of how we work." },
+      { q: "How much does maternity photography cost in Ajman?", a: "Corniche sessions start from AED 1,200. Al Zorah nature sessions from AED 1,600. Home lifestyle sessions from AED 1,400. Full maternity collections from AED 2,800." },
+    ],
+  },
+
+  "ajman/fashion-photography": {
+    title: "Fashion Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Fashion photographer in Ajman — editorial shoots, modest fashion, lookbook and e-commerce photography. Al Zorah, Ajman Museum and studio. From AED 1,600.",
+    h1: "Fashion Photography in Ajman",
+    subtitle: "Al Zorah. Ajman Museum. Studio. Fashion photography for modest and editorial markets.",
+    category: "FASHION PHOTOGRAPHY",
+    intro: [
+      "Ajman's fashion photography market is shaped by the emirate's character — a strong tradition of modesty, a growing community of independent designers and boutique retailers, and proximity to Sharjah's major fashion institutions and markets. Backyard Studio Official produces fashion photography in Ajman for brands, designers, independent stylists, and e-commerce retailers who need imagery that communicates clearly, converts effectively, and represents their aesthetic with precision.",
+      "We work across Ajman's most visually interesting environments — Al Zorah Nature Reserve for editorial campaigns set against natural backdrops, Ajman Museum's heritage architecture for shoots with cultural and contextual depth, and our portable studio setup for clean, controlled e-commerce and lookbook photography. We are particularly experienced with modest fashion photography, including abaya collections, covered fashion, and culturally specific styling requirements.",
+    ],
+    highlights: [
+      { heading: "Modest Fashion Specialists", body: "Abaya collections, modest dress, covered fashion, and Islamic modest wear are a substantial part of our fashion photography work in Ajman. We understand these garments, how they move, how they should be styled, and how to photograph them with the same technical excellence we bring to any fashion project." },
+      { heading: "Al Zorah Editorial Campaigns", body: "Al Zorah Nature Reserve's mangrove environments, waterways, and open natural light create a distinctive editorial backdrop for fashion campaigns that want a natural, organic aesthetic clearly distinct from studio or urban imagery." },
+      { heading: "Ajman Museum Heritage Shoots", body: "The historic fort and surrounding heritage architecture at Ajman Museum provides sandstone textures, traditional Emirati architectural context, and a strong sense of place for fashion shoots requiring cultural depth and visual character." },
+      { heading: "E-Commerce Catalogue Photography", body: "Consistent, clean product-focused fashion photography for online retailers — multiple looks, consistent lighting, and efficient turnaround for catalogue shooting that drives actual conversion." },
+    ],
+    pricing: [
+      { pkg: "Lookbook Session", detail: "3 hrs / 1 model / 3 looks / 30 images", price: "From AED 1,600" },
+      { pkg: "Editorial Campaign", detail: "Full day / creative direction / 60 final images", price: "From AED 3,500" },
+      { pkg: "E-Commerce Catalogue", detail: "Per look / clean backgrounds / product focus", price: "From AED 250 / look" },
+      { pkg: "Modest Fashion Collection", detail: "Half day / abaya and modest wear focus / 40 images", price: "From AED 2,200" },
+    ],
+    faqs: [
+      { q: "Do you photograph abaya and modest fashion collections in Ajman?", a: "Yes. Modest fashion photography is a significant part of our work in Ajman and across the Northern Emirates. We photograph abaya collections, modest dress lines, covered fashion, and Islamic modest wear with full creative and technical attention." },
+      { q: "What are the best fashion photography locations in Ajman?", a: "Al Zorah Nature Reserve for natural editorial backdrops, Ajman Museum for heritage architectural context, and our portable studio for clean e-commerce and lookbook photography. Location is chosen based on the brand's aesthetic and the collection's requirements." },
+      { q: "Can you provide models for fashion shoots in Ajman?", a: "Yes. We work with a network of professional models in the UAE across all sizes, ethnicities, and styling requirements, including modest fashion models. Model procurement is coordinated as part of our full production service." },
+      { q: "How much does fashion photography cost in Ajman?", a: "Lookbook sessions start from AED 1,600. Editorial campaigns from AED 3,500. E-commerce catalogue photography from AED 250 per look. Modest fashion collection packages from AED 2,200." },
+    ],
+  },
+
+  "ajman/social-media-content": {
+    title: "Social Media Content Creation in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Social media content creator in Ajman — reels, photos, UGC and brand content for Instagram, TikTok and LinkedIn. Ajman businesses and creators. From AED 1,800.",
+    h1: "Social Media Content Creation in Ajman",
+    subtitle: "Reels. Photos. Brand content. Social media production for Ajman businesses.",
+    category: "SOCIAL MEDIA CONTENT",
+    intro: [
+      "Ajman's business community — spanning the Free Zone, retail, hospitality, food and beverage, healthcare, and professional services — faces the same content pressure as every business across the UAE: social media requires consistent, high-quality visual content to remain relevant and attract clients. The difference between businesses that grow their social media presence and those that stagnate is almost always the quality and consistency of their content. Backyard Studio Official produces professional social media content for Ajman businesses that is built to perform on the platforms that matter to their specific audience.",
+      "We produce reels for Instagram and TikTok, product and service photography for e-commerce and promotional posts, behind-the-scenes content that humanises brands and builds trust, and content packages designed for consistent publishing schedules. We work across all of Ajman's business sectors and understand the tonal and cultural requirements that resonate with both local Emirati audiences and the emirate's significant South Asian and Arab expat communities.",
+    ],
+    highlights: [
+      { heading: "Reels and Short-Form Video", body: "Professionally shot and edited reels for Instagram and TikTok — scripted to your brief, filmed on location or in studio, edited with captions, music, and transitions that match your brand's established style and tone." },
+      { heading: "Monthly Content Packages", body: "Ongoing monthly content production — a set number of posts, reels, and stories delivered on a rolling schedule — so your social media presence runs consistently without requiring daily attention from you or your team." },
+      { heading: "Product and Service Content", body: "Clean, high-quality photography and video for products, services, menus, and offerings — shot to perform in feed posts, stories, and paid promotions across Instagram, TikTok, and Facebook." },
+      { heading: "UGC-Style Content", body: "Authentic user-generated-content-style posts that build trust and social proof — shot to feel native to the platform and genuine to your audience rather than produced and staged." },
+    ],
+    pricing: [
+      { pkg: "Content Day (Photo)", detail: "4 hrs / 30 edited images / platform-ready", price: "From AED 1,800" },
+      { pkg: "Reels Package", detail: "3 reels / shot + edited / captions included", price: "From AED 2,200" },
+      { pkg: "Monthly Retainer", detail: "8 posts + 4 reels / monthly / strategy included", price: "From AED 3,500 / month" },
+      { pkg: "Brand Content Day", detail: "Full day / photo + video / 60 images + 5 reels", price: "From AED 4,500" },
+    ],
+    faqs: [
+      { q: "What social media platforms do you create content for in Ajman?", a: "Instagram, TikTok, LinkedIn, Facebook, and YouTube Shorts. We tailor the format, dimensions, pacing, and style of every piece of content to the platform it is designed for — a reel for TikTok requires a different approach than a LinkedIn carousel post or an Instagram story." },
+      { q: "Do you offer ongoing monthly content packages for Ajman businesses?", a: "Yes. Monthly retainer packages include a fixed number of posts, reels, and stories delivered on a consistent schedule. These packages are structured to keep your presence active and professional without requiring your direct involvement in production." },
+      { q: "Can you create content for food and beverage businesses in Ajman?", a: "Yes. Food and beverage social media content is a significant part of our work. We photograph dishes, drinks, restaurant environments, and team stories in ways that are visually compelling enough to drive foot traffic and delivery orders." },
+      { q: "How much does social media content creation cost in Ajman?", a: "Content day photography from AED 1,800. Reels packages from AED 2,200. Monthly retainer packages from AED 3,500 per month. Full brand content days from AED 4,500." },
+    ],
+  },
+
+  "ajman/birthday-photography": {
+    title: "Birthday Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Birthday photographer in Ajman — kids birthday parties, milestone birthdays and celebration photography at home, venues and Ajman Corniche. From AED 850.",
+    h1: "Birthday Photography in Ajman",
+    subtitle: "Your home. Ajman venues. Corniche. Birthday photography that captures the real celebration.",
+    category: "BIRTHDAY PHOTOGRAPHY",
+    intro: [
+      "Birthday parties in Ajman happen across the full range of settings — home celebrations in Al Rashidiya and Al Nuaimiya, venue events at Ajman hotels and event spaces, outdoor parties along the Corniche, and milestone birthday gatherings that bring extended families together. Backyard Studio Official photographs birthday celebrations in Ajman with the aim of capturing the real experience of the event — the expressions, the interactions, the moments of genuine joy — rather than producing a set of posed shots that sit disconnected from what actually happened.",
+      "We cover children's birthday parties with the energy and movement they require, milestone birthdays — 30th, 40th, 50th — where the gathering has real emotional weight, and family birthday celebrations where the priority is capturing the group together. We work quickly and unobtrusively enough that the celebration continues naturally around us rather than pausing for the camera.",
+    ],
+    highlights: [
+      { heading: "Kids Birthday Parties", body: "Children's birthday parties require a photographer who can work at the pace of the event — moving with the kids, anticipating the moments before they happen, and capturing genuine reactions rather than stiff posed groups." },
+      { heading: "Milestone Birthday Celebrations", body: "30th, 40th, 50th, and 60th birthdays hold real emotional significance, and the gatherings that mark them deserve to be documented properly. We treat milestone birthday photography with the same care we bring to wedding coverage." },
+      { heading: "Home and Venue Coverage", body: "We cover birthday celebrations across all Ajman settings — residential homes, hotel function rooms, event venues, garden spaces, and outdoor locations. Coverage adapts to the environment rather than requiring the environment to adapt to us." },
+      { heading: "Same-Day Highlight Preview", body: "A selection of 10 to 15 preview images delivered same-day for sharing on social media, with the full edited gallery following within 5 working days." },
+    ],
+    pricing: [
+      { pkg: "2-Hour Birthday Coverage", detail: "2 hrs / 60–80 images / online gallery", price: "From AED 850" },
+      { pkg: "Half-Day Coverage", detail: "4 hrs / 120–150 images / full event", price: "From AED 1,500" },
+      { pkg: "Full-Day Milestone", detail: "8 hrs / unlimited images / same-day previews", price: "From AED 2,500" },
+      { pkg: "Kids Party Package", detail: "2 hrs / + 15 min cake smash / 80 images", price: "From AED 1,100" },
+    ],
+    faqs: [
+      { q: "Do you photograph children's birthday parties in Ajman?", a: "Yes. Children's birthday parties are a significant part of our event photography work in Ajman. We work quickly, stay out of the way, and capture genuine moments — the expressions, the interactions, the cake moment — rather than stopping the party to set up posed shots." },
+      { q: "How far in advance should I book birthday photography in Ajman?", a: "For weekend birthday parties, book 3 to 4 weeks in advance. For large milestone events at Ajman venues, 6 to 8 weeks is recommended. Last-minute bookings are sometimes possible on weekdays — contact us to check availability." },
+      { q: "Can you photograph a birthday party at a specific venue in Ajman?", a: "Yes. We cover birthday parties at all Ajman venues — hotel function rooms, event spaces, garden venues, private clubs, and residential settings. We visit the venue in advance for larger events to plan coverage." },
+      { q: "How much does birthday photography cost in Ajman?", a: "Two-hour coverage starts from AED 850. Half-day coverage from AED 1,500. Full-day milestone coverage from AED 2,500. Kids party packages from AED 1,100." },
+    ],
+  },
+
+  "ajman/kids-photography": {
+    title: "Kids Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Children's photographer in Ajman — portraits, milestone sessions, school photos and family portraits at Al Zorah, Ajman Corniche and your home. From AED 900.",
+    h1: "Kids Photography in Ajman",
+    subtitle: "Al Zorah. Ajman Corniche. Your home. Children's photography built around the child.",
+    category: "KIDS PHOTOGRAPHY",
+    intro: [
+      "Children grow faster than parents expect, and the particular quality of a child at a specific age — how they hold themselves, what they find funny, how they move — belongs to a narrow window that does not return. Backyard Studio Official produces professional children's photography in Ajman that captures these moments honestly: the personality that is emerging, the relationship with parents and siblings, the genuine expressions that happen when a child is at ease rather than performing for a camera.",
+      "We are experienced working with children across all ages and temperaments in Ajman — toddlers who run, school-age children who are self-conscious in front of a camera, and teenagers who need a different approach entirely. We build the session around the child's pace and comfort rather than imposing a structure on them, and we use Al Zorah Nature Reserve, the Ajman Corniche, Al Rashidiya parks, and home environments depending on what will produce the best results for each individual family.",
+    ],
+    highlights: [
+      { heading: "Al Zorah Nature Sessions", body: "Al Zorah Nature Reserve's open natural environment — mangroves, waterways, and large sky — gives children room to move and be themselves while creating beautiful, naturally lit images that feel authentic rather than staged." },
+      { heading: "Milestone Portrait Sessions", body: "First birthday, third birthday, school starting, 10th birthday — milestone portrait sessions document the child at a specific moment in their development with the intention of creating images that remain meaningful for decades." },
+      { heading: "Sibling and Family Portraits", body: "Children photographed with their siblings and parents create the kind of images that become genuinely important over time. We photograph the relationship — how the children interact with each other and with their parents — not just how they look in a frame." },
+      { heading: "School and Nursery Photography", body: "We offer school photography services to Ajman nurseries, primary schools, and educational institutions — consistent, high-quality individual and class portraits with an efficient session format." },
+    ],
+    pricing: [
+      { pkg: "Mini Portrait Session", detail: "45 min / 1 child / 15 images", price: "From AED 900" },
+      { pkg: "Full Portrait Session", detail: "90 min / 2 looks / 30 images", price: "From AED 1,500" },
+      { pkg: "Siblings Session", detail: "90 min / multiple children / 35 images", price: "From AED 1,700" },
+      { pkg: "Family Portrait Session", detail: "2 hrs / full family / 40 images / 2 locations", price: "From AED 2,000" },
+    ],
+    faqs: [
+      { q: "What are the best locations for children's photography in Ajman?", a: "Al Zorah Nature Reserve for open natural environments where children can move freely, the Ajman Corniche for waterfront and beach sessions, Al Rashidiya parks and open spaces, and home sessions for intimate family portraits. Location is chosen based on the child's age, personality, and what kind of images the parents want." },
+      { q: "How do you get children to relax in front of the camera?", a: "We build the session around the child rather than imposing a structure on them. For younger children, we follow their lead and capture them as they play. For older children, we keep the session informal and low-pressure. The objective is natural expressions — genuine smiles happen when a child is comfortable, not when they are told to smile." },
+      { q: "What age children do you photograph in Ajman?", a: "All ages — newborns through to teenagers. Each age group requires a different approach, and we are experienced across the full range. Toddlers, school-age children, and teenagers all need the session structured differently to produce natural results." },
+      { q: "How much does children's photography cost in Ajman?", a: "Mini portrait sessions start from AED 900. Full portrait sessions from AED 1,500. Sibling sessions from AED 1,700. Family portrait sessions from AED 2,000." },
+    ],
+  },
+
+  "ajman/engagement-photography": {
+    title: "Engagement Photography in Ajman 2026 | Backyard Studio Official",
+    metaDescription: "Engagement photographer in Ajman for couple shoots, proposal photography and pre-wedding sessions. Al Zorah Nature Reserve, Ajman Corniche and Ajman Museum. From AED 1,600.",
+    h1: "Engagement Photography in Ajman",
+    subtitle: "Al Zorah Nature Reserve. Ajman Corniche. Ajman Museum. Engagement photography with real depth.",
+    category: "ENGAGEMENT PHOTOGRAPHY",
+    intro: [
+      "Ajman's engagement photography locations offer a quiet, genuine quality that the more commercially developed emirates often lack. Al Zorah Nature Reserve — with its mangroves, flamingos, and open waterways — provides a natural environment for couple photography that is genuinely distinctive. The Ajman Corniche at golden hour delivers soft waterfront light and Gulf views. The Ajman Museum quarter's sandstone architecture and heritage courtyards provide cultural depth and authenticity. These are real environments that produce real images.",
+      "We work with couples across all backgrounds and nationalities in Ajman, and we are experienced with the cultural and modesty requirements that matter in the Northern Emirates. Before every session, we spend time with the couple to understand what they actually want — the aesthetic they are drawn to, how at ease they are in front of a camera, what they want the images to communicate — and build the entire session around helping them feel genuinely comfortable rather than posed and directed.",
+    ],
+    highlights: [
+      { heading: "Al Zorah Nature Reserve", body: "One of the UAE's most distinctive natural settings for couple photography. Mangroves, open waterways, flamingos, and the quality of light in this environment create images that look unlike anything produced in Dubai or Sharjah." },
+      { heading: "Ajman Corniche Golden Hour", body: "The Ajman Corniche at sunset — warm Gulf light, open beach access, and the absence of the visual congestion of Dubai's more crowded coastal spots — produces naturally beautiful couple photography with a genuinely relaxed atmosphere." },
+      { heading: "Ajman Museum Heritage Quarter", body: "The historic fort and heritage architecture surrounding Ajman Museum provides sandstone texture, traditional courtyard settings, and authentic Emirati context for engagement photography where cultural depth matters." },
+      { heading: "Proposal Photography", body: "We position covertly at the chosen proposal location ahead of the moment to capture the genuine reaction — coordinating closely with the proposing partner in advance on timing, positioning, and any specific requirements." },
+    ],
+    pricing: [
+      { pkg: "1-Location Session", detail: "90 min / 1 outfit / 30–40 edited images", price: "From AED 1,600" },
+      { pkg: "2-Location Session", detail: "2.5 hrs / 2 outfits / 50 images", price: "From AED 2,500" },
+      { pkg: "Al Zorah Sunset Session", detail: "2 hrs / nature reserve / 40 images", price: "From AED 2,000" },
+      { pkg: "Proposal Photography", detail: "Covert coverage / full edited gallery", price: "From AED 2,000" },
+    ],
+    faqs: [
+      { q: "What are the best engagement photography locations in Ajman?", a: "Al Zorah Nature Reserve at golden hour for natural mangrove and waterside environments; the Ajman Corniche for beach and waterfront light; Ajman Museum for heritage architecture and sandstone backgrounds; and our studio for weather-independent portrait sessions. We advise based on the couple's aesthetic preferences and the session time." },
+      { q: "Do you photograph proposals in Ajman?", a: "Yes. We position covertly at the proposal location in advance to capture the genuine moment and immediate reaction. All timing and positioning is coordinated through close communication with the proposing partner before the day." },
+      { q: "Are you experienced with culturally sensitive engagement photography in Ajman?", a: "Yes. We regularly work with couples who have specific cultural, religious, or family requirements around their photography sessions in Ajman and across the Northern Emirates. These conversations are always welcome before booking — we want the session to be comfortable, dignified, and genuinely enjoyable." },
+      { q: "How much does engagement photography cost in Ajman?", a: "Single-location sessions start from AED 1,600. Two-location sessions from AED 2,500. Al Zorah sunset sessions from AED 2,000. Proposal photography from AED 2,000." },
+    ],
+  },
+
+
+  // ── RAS AL KHAIMAH ────────────────────────────────────────────────────────
+
+  "ras-al-khaimah/headshot-photography": {
+    title: "Headshot Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Professional headshot photographer in Ras Al Khaimah — corporate portraits, LinkedIn headshots, executive photography at Jebel Jais, Al Hamra and RAK Corniche. From AED 750.",
+    h1: "Headshot Photography in Ras Al Khaimah",
+    subtitle: "Al Hamra Village. RAK Corniche. Jebel Jais foothills. Headshots that mean business.",
+    category: "HEADSHOT PHOTOGRAPHY",
+    intro: [
+      "Ras Al Khaimah's economy spans a growing tourism sector anchored by Jebel Jais and the emirate's beach resort strip, a substantial manufacturing and free zone business community, real estate development around Mina Al Arab and Al Hamra, and an expanding professional services sector. For every professional and business owner in this environment, a credible headshot is the baseline of digital trust — the image that appears before any conversation begins. Backyard Studio Official produces professional headshots in Ras Al Khaimah that reflect the seriousness and competence of your work.",
+      "We shoot at Al Hamra Village and Marina for open waterfront backgrounds with resort-quality surroundings, along the RAK Corniche for classic Gulf-facing portraits, in the Jebel Jais foothills for dramatic mountain backdrops unique to RAK, and with a portable studio setup for clean, seamless-background corporate headshots at offices across RAK City and the free zones.",
+    ],
+    highlights: [
+      { heading: "Al Hamra Marina and Village", body: "Al Hamra's marina and resort environment provides a polished, resort-quality backdrop for headshots that communicates professionalism with a distinctly RAK character — open water, clean architecture, and excellent natural light." },
+      { heading: "Jebel Jais Mountain Backdrops", body: "RAK's most distinctive natural feature — the UAE's highest mountain — provides dramatic rocky terrain and elevated landscape backdrops that no other emirate can offer. For professionals who want to communicate ambition and distinctiveness, Jebel Jais headshots are genuinely memorable." },
+      { heading: "Free Zone Corporate Teams", body: "RAK Economic Zone and RAK Free Trade Zone host thousands of businesses across manufacturing, trading, and services. We travel to your office and photograph your full team in a single coordinated day with a portable studio setup for consistent, professional team headshots." },
+      { heading: "48-Hour Delivery", body: "Standard edited delivery in 48 hours. Rush same-day and next-day delivery available for press deadlines, conference requirements, or urgent website and directory updates." },
+    ],
+    pricing: [
+      { pkg: "Individual Headshot", detail: "90 min / 1–2 looks / 10–15 edited images", price: "From AED 750" },
+      { pkg: "Executive Session", detail: "2 hrs / 2 locations / 20 final images", price: "From AED 1,400" },
+      { pkg: "Team Day (per person)", detail: "On-site portable studio / consistent images", price: "From AED 350 / person" },
+      { pkg: "Jebel Jais Mountain Session", detail: "3 hrs / mountain backdrop / 25 images", price: "From AED 1,800" },
+    ],
+    faqs: [
+      { q: "Where do you shoot headshots in Ras Al Khaimah?", a: "Al Hamra Marina and Village for resort-quality waterfront backgrounds, the RAK Corniche for Gulf-facing portraits, Jebel Jais foothills for mountain backdrops, and portable studio setups at your office or free zone facility for clean seamless-background corporate portraits." },
+      { q: "Can you photograph our team at our RAK office or free zone?", a: "Yes. We travel to your RAK Economic Zone or RAK Free Trade Zone office, set up a portable studio on-site, and photograph your full team in one coordinated day. Images are delivered with consistent lighting, background, and colour across all team members." },
+      { q: "How much does a headshot cost in Ras Al Khaimah?", a: "Individual sessions from AED 750 for 90 minutes with 10 to 15 edited images. Executive sessions from AED 1,400. Team days from AED 350 per person. Jebel Jais mountain sessions from AED 1,800." },
+      { q: "Do you travel to Ras Al Khaimah from Dubai?", a: "Yes. We regularly travel to RAK for client sessions. Travel is included in the session fee for bookings above AED 1,400. For individual headshot sessions, a travel supplement applies — confirmed at the time of booking." },
+    ],
+  },
+
+  "ras-al-khaimah/newborn-photography": {
+    title: "Newborn Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Newborn photographer in Ras Al Khaimah — safe posed and lifestyle newborn sessions, home visits and outdoor sessions at Al Hamra Beach and Mina Al Arab. From AED 1,400.",
+    h1: "Newborn Photography in Ras Al Khaimah",
+    subtitle: "Al Hamra Beach. Mina Al Arab. Your home. Safe, unhurried newborn photography.",
+    category: "NEWBORN PHOTOGRAPHY",
+    intro: [
+      "The first two weeks after a baby is born pass faster than any parent is prepared for. The way a newborn curls, the texture of their skin, the particular sound of their breathing — these belong to a window of days that do not return. Backyard Studio Official produces newborn photography in Ras Al Khaimah that captures this window honestly: the real experience of those first days, not a performed version of it.",
+      "We work with families across RAK — from Al Hamra and Mina Al Arab to RAK City and the surrounding residential areas — offering home visit sessions, outdoor lifestyle sessions at Al Hamra Beach and along the Corniche, and portable studio setups for families who prefer controlled backgrounds. Sessions are led entirely by the baby's readiness and are never rushed.",
+    ],
+    highlights: [
+      { heading: "Home Visit Sessions", body: "We come to your RAK home with all equipment needed for both posed and lifestyle sessions. Newborns photographed in their own environment — in the bassinet, in a parent's arms, in the nursery — have an intimacy and authenticity that studio images rarely achieve." },
+      { heading: "Al Hamra Beach Lifestyle Sessions", body: "Al Hamra's beach and resort environment provides a beautiful natural backdrop for newborn lifestyle photography with the natural softness that comes from open sky and water light." },
+      { heading: "Safe Posing Practice", body: "Every pose we use has been specifically designed for newborns and is executed with the baby's safety as the only non-negotiable consideration. No position, prop, or handling is ever rushed or forced." },
+      { heading: "Mina Al Arab Waterfront Sessions", body: "Mina Al Arab's waterfront development and natural surroundings provide clean, open outdoor settings for newborn and family lifestyle sessions with excellent natural light." },
+    ],
+    pricing: [
+      { pkg: "Lifestyle Home Session", detail: "2 hrs at your home / 30–40 images", price: "From AED 1,400" },
+      { pkg: "Posed Studio Session", detail: "3 hrs / wraps and props / 40 images", price: "From AED 1,800" },
+      { pkg: "Family Welcome Session", detail: "Newborn + siblings + parents / 50 images", price: "From AED 2,200" },
+      { pkg: "Al Hamra Beach Lifestyle", detail: "2 hrs outdoor / 35 images", price: "From AED 1,600" },
+    ],
+    faqs: [
+      { q: "When should I book newborn photography in Ras Al Khaimah?", a: "Between 5 and 14 days after birth. In this window newborns sleep deeply and curl naturally into the gentle poses that define newborn photography. After two weeks the baby becomes more alert and less comfortable with extended posed handling." },
+      { q: "Do you offer home visit newborn sessions in RAK?", a: "Yes. We offer home visit sessions across Ras Al Khaimah — Al Hamra, Mina Al Arab, RAK City, and surrounding residential areas. We bring all equipment needed for both lifestyle and posed sessions. Home sessions produce images with a natural intimacy that studio setups rarely replicate." },
+      { q: "Is newborn photography safe?", a: "Safety is the absolute first consideration. All poses are designed specifically for newborns and executed with care. We never rush, never force any position, and never place a baby in any pose that could cause discomfort or risk of any kind." },
+      { q: "How much does newborn photography cost in Ras Al Khaimah?", a: "Lifestyle home sessions from AED 1,400. Posed studio sessions from AED 1,800. Family welcome sessions from AED 2,200. Al Hamra beach lifestyle sessions from AED 1,600." },
+    ],
+  },
+
+  "ras-al-khaimah/maternity-photography": {
+    title: "Maternity Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Maternity photographer in Ras Al Khaimah — beach bump sessions at Al Hamra and Mina Al Arab, mountain backdrops at Jebel Jais and home visits. Culturally respectful. From AED 1,400.",
+    h1: "Maternity Photography in Ras Al Khaimah",
+    subtitle: "Al Hamra Beach. Jebel Jais. Mina Al Arab. Maternity photography with real presence.",
+    category: "MATERNITY PHOTOGRAPHY",
+    intro: [
+      "Ras Al Khaimah offers maternity photography settings that no other emirate can match. Al Hamra Beach at golden hour — warm light, open water, and the kind of uncluttered horizon that Dubai's coastline rarely provides. The Jebel Jais mountain foothills for dramatic elevation and rocky terrain that communicates something bold and unconventional. Mina Al Arab's waterfront development for cleaner, more architectural outdoor settings. These are genuinely distinctive environments for documenting pregnancy.",
+      "We work with expectant mothers across all communities in RAK and approach every session with full understanding of the cultural and modesty requirements that matter here. From abaya sessions to beach-side maternity shoots in flowing gowns, we adapt the session to what the expectant mother actually wants rather than what we assume she should want. Wardrobe, styling, and comfort preferences are all discussed in advance.",
+    ],
+    highlights: [
+      { heading: "Al Hamra Beach Golden Hour", body: "One of the most beautiful maternity photography settings in the UAE — warm late-afternoon light, open water, and uncluttered beach with resort-quality surroundings. Beach maternity sessions at Al Hamra produce images with a cinematic quality that is difficult to achieve in more urban settings." },
+      { heading: "Jebel Jais Mountain Sessions", body: "Dramatic rocky mountain terrain at the UAE's highest peak creates a powerful and visually distinctive backdrop for maternity photography. For expectant mothers who want something genuinely different, Jebel Jais produces images unlike anything possible elsewhere in the UAE." },
+      { heading: "Mina Al Arab Waterfront", body: "Mina Al Arab's waterfront architecture and natural surroundings provide a clean, modern outdoor setting with excellent natural light — particularly at golden hour when the water light is at its softest." },
+      { heading: "Home Visit Sessions", body: "Intimate, unhurried home visits across RAK for expectant mothers who prefer the comfort and privacy of their own environment for their maternity photography session." },
+    ],
+    pricing: [
+      { pkg: "Al Hamra Beach Session", detail: "90 min / 1 outfit / 30 images", price: "From AED 1,400" },
+      { pkg: "Jebel Jais Mountain Session", detail: "2.5 hrs / dramatic backdrop / 35 images", price: "From AED 2,000" },
+      { pkg: "Home Lifestyle Session", detail: "2 hrs at your home / 35 images", price: "From AED 1,400" },
+      { pkg: "Full Maternity Collection", detail: "3 hrs / 3 locations / 60 images / print-ready files", price: "From AED 3,000" },
+    ],
+    faqs: [
+      { q: "When should I book my maternity session in Ras Al Khaimah?", a: "Between 28 and 34 weeks of pregnancy. The bump is fully defined, you are typically still comfortable and mobile, and there is enough time before the due date to choose your location and prepare. Book at around 24 weeks to secure your preferred time and setting." },
+      { q: "What are the best locations for maternity photography in Ras Al Khaimah?", a: "Al Hamra Beach at golden hour for warm waterfront light, Jebel Jais foothills for dramatic mountain terrain, Mina Al Arab waterfront for clean architectural outdoor settings, and home visit sessions for intimate documentary-style images. We advise based on the aesthetic the expectant mother wants." },
+      { q: "Can you do a Jebel Jais maternity session?", a: "Yes. Jebel Jais mountain sessions are available and produce genuinely distinctive maternity images. We plan these sessions carefully for the best light and the safest, most comfortable experience at altitude. Morning sessions offer cooler temperatures and exceptional soft light." },
+      { q: "How much does maternity photography cost in Ras Al Khaimah?", a: "Al Hamra beach sessions from AED 1,400. Jebel Jais mountain sessions from AED 2,000. Home lifestyle sessions from AED 1,400. Full maternity collections from AED 3,000." },
+    ],
+  },
+
+  "ras-al-khaimah/fashion-photography": {
+    title: "Fashion Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Fashion photographer in Ras Al Khaimah — editorial and lookbook shoots at Jebel Jais, Al Hamra Beach and heritage sites. Modest fashion and activewear specialists. From AED 1,800.",
+    h1: "Fashion Photography in Ras Al Khaimah",
+    subtitle: "Jebel Jais. Al Hamra Beach. Dhayah Fort. Fashion photography with genuine character.",
+    category: "FASHION PHOTOGRAPHY",
+    intro: [
+      "Ras Al Khaimah offers fashion photographers something the more developed emirates cannot — raw, diverse, and visually striking environments that have not been photographed into visual cliché. Jebel Jais's rocky mountain terrain for activewear and outdoor fashion campaigns. Al Hamra's resort beaches for luxury fashion and resort wear. Dhayah Fort's ancient hilltop fortification for heritage-influenced editorial work. These are locations where fashion photography can feel genuinely original.",
+      "We produce fashion photography in RAK for brands, independent designers, boutique retailers, e-commerce businesses, and individual stylists who need imagery that communicates clearly and converts effectively. We are experienced with modest fashion and activewear photography — two categories that find their most compelling settings in RAK's landscape — as well as standard lookbook and e-commerce catalogue production.",
+    ],
+    highlights: [
+      { heading: "Jebel Jais Activewear and Outdoor Fashion", body: "The UAE's highest peak provides dramatic mountain terrain for activewear campaigns, outdoor fashion editorials, and adventure lifestyle photography that cannot be replicated in any flatland UAE emirate. The mountain environment is a genuine creative asset." },
+      { heading: "Al Hamra Resort Beach Fashion", body: "Al Hamra's beach and resort environment produces luxury fashion and resort wear photography with warm waterfront light, open water backgrounds, and resort-quality surroundings — naturally aspirational without needing to be constructed." },
+      { heading: "Dhayah Fort Heritage Location", body: "RAK's ancient hilltop fort provides stone architecture, elevated panoramic views, and a sense of historical depth that brings genuine character to heritage-influenced editorial fashion photography." },
+      { heading: "Modest Fashion and Activewear", body: "Abaya collections, modest sportswear, covered fashion, and activewear are all areas where we have specific production experience. RAK's varied landscapes create natural, compelling environments for these categories." },
+    ],
+    pricing: [
+      { pkg: "Lookbook Session", detail: "3 hrs / 1 model / 3 looks / 30 images", price: "From AED 1,800" },
+      { pkg: "Editorial Campaign", detail: "Full day / creative direction / 60 final images", price: "From AED 3,800" },
+      { pkg: "E-Commerce Catalogue", detail: "Per look / clean backgrounds / product focus", price: "From AED 250 / look" },
+      { pkg: "Jebel Jais Adventure Campaign", detail: "Full day / mountain location / 50 images", price: "From AED 4,500" },
+    ],
+    faqs: [
+      { q: "What makes Ras Al Khaimah unique for fashion photography?", a: "RAK offers environments that other UAE emirates cannot — Jebel Jais mountain terrain for activewear and outdoor fashion, Al Hamra's undeveloped beach stretches for resort wear, and Dhayah Fort for heritage-influenced editorial work. These locations are visually distinctive and have not been photographed into cliché." },
+      { q: "Do you photograph activewear and outdoor fashion brands at Jebel Jais?", a: "Yes. Jebel Jais is an exceptional location for activewear campaigns, outdoor fashion editorials, and adventure lifestyle photography. We plan mountain sessions carefully for light, safety, and logistics — morning sessions are typically best for light quality and cooler temperatures." },
+      { q: "Can you provide models for fashion shoots in Ras Al Khaimah?", a: "Yes. We work with a network of professional models across the UAE for all categories — including modest fashion models and activewear specialists. Model procurement is coordinated as part of our full production service." },
+      { q: "How much does fashion photography cost in Ras Al Khaimah?", a: "Lookbook sessions from AED 1,800. Editorial campaigns from AED 3,800. E-commerce catalogue from AED 250 per look. Jebel Jais adventure campaigns from AED 4,500." },
+    ],
+  },
+
+  "ras-al-khaimah/social-media-content": {
+    title: "Social Media Content Creation in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Social media content creator in Ras Al Khaimah — reels, photos and brand content for hospitality, tourism, real estate and F&B businesses. From AED 1,800.",
+    h1: "Social Media Content Creation in Ras Al Khaimah",
+    subtitle: "Reels. Brand content. Photography. Social media production for RAK businesses.",
+    category: "SOCIAL MEDIA CONTENT",
+    intro: [
+      "Ras Al Khaimah's business community is growing rapidly across hospitality, real estate, tourism, food and beverage, and retail — and every business in these sectors faces the same challenge: social media demands consistent, high-quality visual content to attract clients and remain relevant. The gap between businesses that grow their digital presence and those that stagnate comes down almost entirely to content quality and consistency. Backyard Studio Official produces professional social media content for RAK businesses built to perform on the platforms that actually drive bookings and enquiries.",
+      "We understand RAK's specific audience mix — the growing expat community, the resort tourism market, the UAE-wide audience that RAK is actively trying to attract with its adventure and nature positioning, and the local Emirati community. Content is built around what resonates with these specific audiences rather than generic social media templates.",
+    ],
+    highlights: [
+      { heading: "Hospitality and Tourism Content", body: "Hotels, resorts, tour operators, and adventure tourism businesses in RAK need content that captures the emirate's unique appeal — Jebel Jais, the beaches, the heritage. We produce photography and video content that communicates what makes RAK different from Dubai and Sharjah." },
+      { heading: "Reels and Short-Form Video", body: "Professionally shot and edited Instagram and TikTok reels — scripted to your brief, filmed at RAK's most visually compelling locations, edited with music, captions, and pacing that drives real engagement rather than passive scrolling." },
+      { heading: "Real Estate Content", body: "Mina Al Arab, Al Hamra, and the growing RAK residential and resort property market needs photography and video content that communicates quality, lifestyle, and investment value to both local and international buyers." },
+      { heading: "Monthly Content Packages", body: "Ongoing monthly content production for RAK businesses — a consistent volume of posts, reels, and stories delivered on a rolling schedule so your social presence runs without requiring your direct daily involvement." },
+    ],
+    pricing: [
+      { pkg: "Content Day (Photo)", detail: "4 hrs / 30 edited images / platform-ready", price: "From AED 1,800" },
+      { pkg: "Reels Package", detail: "3 reels / shot + edited / captions included", price: "From AED 2,200" },
+      { pkg: "Monthly Retainer", detail: "8 posts + 4 reels / monthly / strategy included", price: "From AED 3,500 / month" },
+      { pkg: "Tourism Content Campaign", detail: "Full day / photo + video / Jebel Jais or beach", price: "From AED 5,000" },
+    ],
+    faqs: [
+      { q: "What industries do you create social media content for in Ras Al Khaimah?", a: "Hospitality and hotels, adventure tourism, real estate, food and beverage, retail, professional services, and personal brands. RAK's growing tourism positioning means a significant portion of our RAK content work is for businesses that want to attract visitors from Dubai and Abu Dhabi." },
+      { q: "Can you create content that showcases Ras Al Khaimah's unique locations?", a: "Yes — Jebel Jais, Al Hamra Beach, Dhayah Fort, Mina Al Arab, and the RAK Corniche all feature in our content production. Showcasing RAK's distinctive environment is one of the strongest content strategies available to businesses in the emirate." },
+      { q: "Do you offer monthly content packages for RAK businesses?", a: "Yes. Monthly retainer packages include a fixed volume of posts, reels, and stories delivered on a consistent schedule. These are particularly suitable for hospitality and tourism businesses that need a constant stream of high-quality content across peak and off-peak seasons." },
+      { q: "How much does social media content creation cost in Ras Al Khaimah?", a: "Content day photography from AED 1,800. Reels packages from AED 2,200. Monthly retainers from AED 3,500 per month. Tourism content campaigns from AED 5,000." },
+    ],
+  },
+
+  "ras-al-khaimah/birthday-photography": {
+    title: "Birthday Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Birthday photographer in Ras Al Khaimah — kids parties, milestone celebrations and family birthdays at Al Hamra, hotel venues and your home. From AED 850.",
+    h1: "Birthday Photography in Ras Al Khaimah",
+    subtitle: "Al Hamra venues. Your home. RAK hotels. Birthday photography that captures the day.",
+    category: "BIRTHDAY PHOTOGRAPHY",
+    intro: [
+      "Birthday celebrations in Ras Al Khaimah happen across a full range of settings — home parties in Al Nakheel and Al Hamra residential areas, venue events at RAK's hotel and resort spaces, beach parties along the Corniche, and outdoor celebrations that take advantage of the emirate's natural environments. Backyard Studio Official photographs birthday celebrations in RAK with the aim of capturing what actually happened — the genuine interactions, the expressions, the moments of real joy — rather than a set of staged portraits that sit beside the event rather than inside it.",
+      "We cover children's birthday parties with the pace and energy they require, milestone birthdays at RAK's resort venues where the gathering deserves documentary treatment, and family celebrations where capturing the group together is the priority.",
+    ],
+    highlights: [
+      { heading: "Resort and Hotel Venue Coverage", body: "RAK's growing hotel and resort sector hosts many of the emirate's significant birthday events. We cover celebrations at Al Hamra, Rixos, InterContinental, and other RAK venues with experience navigating the lighting conditions and logistics of hotel function rooms and outdoor resort spaces." },
+      { heading: "Kids Birthday Parties", body: "Children's parties require a photographer who moves with the event rather than stopping it. We anticipate the moments — the cake arrival, the games, the interactions — and capture them without directing the children away from what they are actually doing." },
+      { heading: "Milestone Birthday Coverage", body: "30th, 40th, 50th, and 60th milestone birthdays deserve the same serious documentary approach as a wedding. These gatherings have real emotional significance and the photography should reflect that." },
+      { heading: "Same-Day Preview Gallery", body: "A selection of 10 to 15 preview images delivered same-day for social media sharing, with the full edited gallery following within 5 working days." },
+    ],
+    pricing: [
+      { pkg: "2-Hour Birthday Coverage", detail: "2 hrs / 60–80 images / online gallery", price: "From AED 850" },
+      { pkg: "Half-Day Coverage", detail: "4 hrs / 120–150 images / full event", price: "From AED 1,500" },
+      { pkg: "Full-Day Milestone", detail: "8 hrs / unlimited images / same-day previews", price: "From AED 2,500" },
+      { pkg: "Kids Party Package", detail: "2 hrs / + cake smash add-on option / 80 images", price: "From AED 1,100" },
+    ],
+    faqs: [
+      { q: "Do you travel to Ras Al Khaimah for birthday photography?", a: "Yes. We cover birthday celebrations throughout RAK — home parties, hotel and resort venues, outdoor beach celebrations, and garden events. Travel to RAK is included for bookings above AED 1,400." },
+      { q: "Can you photograph at a specific RAK hotel or resort?", a: "Yes. We are experienced working at Al Hamra, Rixos Bab Al Bahr, InterContinental RAK, and other RAK resort and hotel venues. For larger events we visit the venue in advance to plan the coverage." },
+      { q: "How far in advance should I book birthday photography in Ras Al Khaimah?", a: "For home birthday parties, 2 to 3 weeks in advance is typically sufficient. For large resort or hotel events, book 6 to 8 weeks ahead to secure the date. Last-minute bookings are sometimes available on weekdays." },
+      { q: "How much does birthday photography cost in Ras Al Khaimah?", a: "Two-hour coverage from AED 850. Half-day coverage from AED 1,500. Full-day milestone coverage from AED 2,500. Kids party packages from AED 1,100." },
+    ],
+  },
+
+  "ras-al-khaimah/kids-photography": {
+    title: "Kids Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Children's photographer in Ras Al Khaimah — family portraits, milestone sessions and kids photography at Jebel Jais, Al Hamra Beach and your home. From AED 900.",
+    h1: "Kids Photography in Ras Al Khaimah",
+    subtitle: "Al Hamra Beach. Jebel Jais. Your home. Children's photography built around the child.",
+    category: "KIDS PHOTOGRAPHY",
+    intro: [
+      "Children in Ras Al Khaimah grow up in one of the UAE's most naturally rich environments — open beaches, mountain trails, open spaces that give children room to actually be children. Professional photography that captures your child in these environments, in the particular way they exist at a specific age, creates something genuinely irreplaceable. Backyard Studio Official produces children's photography in RAK that documents who your child actually is right now: their personality, their relationships, their way of being in the world.",
+      "We are experienced working with children across all ages and temperaments, and we build every session around the child's pace and comfort rather than imposing a structure on them. Al Hamra Beach, Jebel Jais, the RAK Corniche, local parks, and family homes are all settings where we produce natural, authentic images — the kind that parents look back at for decades.",
+    ],
+    highlights: [
+      { heading: "Al Hamra Beach Sessions", body: "Open beach, clean water, and warm natural light create an environment where children naturally relax and play — producing authentic, joyful images that feel genuinely documentary rather than posed." },
+      { heading: "Jebel Jais Adventure Sessions", body: "For older children and teenagers who want something genuinely different — mountain terrain, elevation, and dramatic landscape create children's portraits that are distinctive and memorable." },
+      { heading: "Milestone Portrait Sessions", body: "First birthday, school starting, 10th birthday, teenage portraits — milestone sessions document your child at a specific moment in their development with images intended to remain meaningful for decades." },
+      { heading: "Home and Lifestyle Sessions", body: "Photographing children in their own home produces images with an intimacy and authenticity that outdoor sessions often cannot achieve — the relationship with siblings, the family dog, the particular corners of a childhood home." },
+    ],
+    pricing: [
+      { pkg: "Mini Portrait Session", detail: "45 min / 1 child / 15 images", price: "From AED 900" },
+      { pkg: "Full Portrait Session", detail: "90 min / 2 looks / 30 images", price: "From AED 1,500" },
+      { pkg: "Siblings Session", detail: "90 min / multiple children / 35 images", price: "From AED 1,700" },
+      { pkg: "Family Portrait Session", detail: "2 hrs / full family / 40 images / 2 locations", price: "From AED 2,000" },
+    ],
+    faqs: [
+      { q: "What are the best locations for children's photography in Ras Al Khaimah?", a: "Al Hamra Beach for natural outdoor sessions where children can play freely, Jebel Jais foothills for older children and distinctive mountain backdrops, the RAK Corniche for waterfront portraits, and home sessions for intimate family and sibling photography." },
+      { q: "How do you work with young children who are nervous about cameras?", a: "We build the session around the child rather than imposing a structure on them. For young children we follow their lead and photograph them as they play and explore. Natural expressions happen when a child is comfortable — not when they are told to perform for a camera." },
+      { q: "Do you travel to residential areas across RAK for children's photography?", a: "Yes. We cover sessions across RAK — Al Hamra, Mina Al Arab, Al Nakheel, RAK City, and surrounding residential areas. Home visits are available throughout the emirate." },
+      { q: "How much does children's photography cost in Ras Al Khaimah?", a: "Mini portrait sessions from AED 900. Full portrait sessions from AED 1,500. Sibling sessions from AED 1,700. Family portrait sessions from AED 2,000." },
+    ],
+  },
+
+  "ras-al-khaimah/engagement-photography": {
+    title: "Engagement Photography in Ras Al Khaimah 2026 | Backyard Studio Official",
+    metaDescription: "Engagement photographer in Ras Al Khaimah — couple shoots and proposal photography at Jebel Jais, Al Hamra Beach and Dhayah Fort. Culturally respectful. From AED 1,800.",
+    h1: "Engagement Photography in Ras Al Khaimah",
+    subtitle: "Jebel Jais. Al Hamra Beach. Dhayah Fort. Engagement photography with genuine character.",
+    category: "ENGAGEMENT PHOTOGRAPHY",
+    intro: [
+      "Ras Al Khaimah's engagement photography settings are among the most visually diverse and distinctive in the UAE. Jebel Jais — the UAE's highest mountain — provides dramatic rocky terrain and elevated panoramic views for couple photography that is genuinely unlike anything possible in Dubai or Abu Dhabi. Al Hamra Beach at golden hour delivers warm Gulf light, open water, and undeveloped beach stretches with resort surroundings. Dhayah Fort — the UAE's only hilltop fort — combines ancient stone architecture with 360-degree views across the emirate. These are real environments with real character.",
+      "We work with couples across all nationalities and backgrounds in RAK, and we are experienced with the cultural and sensitivity requirements that matter across the Northern Emirates. Before every session, we spend time understanding what the couple actually wants — the aesthetic, the atmosphere, how comfortable they are in front of a camera — and build the entire session around making them feel genuinely at ease.",
+    ],
+    highlights: [
+      { heading: "Jebel Jais Mountain Sessions", body: "The UAE's highest peak provides dramatic, rugged mountain terrain for couple photography that no other emirate can offer. Sunrise sessions on Jebel Jais produce spectacular engagement images with extraordinary light and elevation — genuinely unforgettable as a backdrop." },
+      { heading: "Al Hamra Beach Golden Hour", body: "Al Hamra's undeveloped beach at golden hour — warm light, open water, and the kind of undisturbed beach space that Dubai's overcrowded coastline cannot offer. Beach engagement sessions here have a naturally cinematic quality." },
+      { heading: "Dhayah Fort Heritage Sessions", body: "The UAE's only surviving hilltop fort provides ancient stone walls, elevated viewpoints, and a depth of historical context that brings real character to engagement photography for couples who want something culturally rooted and visually distinctive." },
+      { heading: "Proposal Photography", body: "We position covertly at your chosen RAK proposal location — Jebel Jais viewpoint, Al Hamra waterfront, Dhayah Fort hilltop — to capture the genuine moment and immediate reaction. All timing and positioning is coordinated closely with the proposing partner in advance." },
+    ],
+    pricing: [
+      { pkg: "1-Location Session", detail: "90 min / 1 outfit / 30–40 edited images", price: "From AED 1,800" },
+      { pkg: "2-Location Session", detail: "2.5 hrs / 2 outfits / 50 images", price: "From AED 2,800" },
+      { pkg: "Jebel Jais Sunrise Session", detail: "3 hrs / mountain / 45 images", price: "From AED 3,000" },
+      { pkg: "Proposal Photography", detail: "Covert coverage / full edited gallery", price: "From AED 2,200" },
+    ],
+    faqs: [
+      { q: "What are the best engagement photography locations in Ras Al Khaimah?", a: "Jebel Jais for dramatic mountain terrain and elevation — unique in the UAE; Al Hamra Beach at golden hour for warm waterfront light and open beach; Dhayah Fort for hilltop views and heritage architecture; Mina Al Arab waterfront for cleaner modern outdoor settings. We recommend based on the couple's aesthetic preferences." },
+      { q: "Can we do a sunrise engagement shoot on Jebel Jais?", a: "Yes. Jebel Jais sunrise sessions are logistically more involved but produce spectacular results — extraordinary light, cooler temperatures, and the mountain largely to yourselves. We plan these sessions in advance with full logistics coordination." },
+      { q: "Do you photograph proposals in Ras Al Khaimah?", a: "Yes. We position covertly at the proposal location in advance to capture the genuine moment and immediate reaction. All timing and positioning is coordinated through close communication with the proposing partner before the day. RAK's scenic locations — Jebel Jais, Dhayah Fort, Al Hamra waterfront — make for genuinely spectacular proposal photography." },
+      { q: "How much does engagement photography cost in Ras Al Khaimah?", a: "Single-location sessions from AED 1,800. Two-location sessions from AED 2,800. Jebel Jais sunrise sessions from AED 3,000. Proposal photography from AED 2,200." },
+    ],
+  },
+
+
+  // ── FUJAIRAH ──────────────────────────────────────────────────────────────
+
+  "fujairah/headshot-photography": {
+    title: "Headshot Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Professional headshot photographer in Fujairah — corporate portraits, LinkedIn headshots and executive photography at Fujairah Corniche, Al Aqah Beach and city centre. From AED 750.",
+    h1: "Headshot Photography in Fujairah",
+    subtitle: "Fujairah Corniche. Al Aqah Beach. City Centre. Headshots that make the right first impression.",
+    category: "HEADSHOT PHOTOGRAPHY",
+    intro: [
+      "Fujairah sits on the Gulf of Oman — the UAE's only emirate entirely on the east coast — and its business community reflects this distinct geography. Government and public sector institutions, a growing port and logistics sector anchored by the Port of Fujairah, tourism built around the emirate's beaches and mountain landscapes, and a professional community that serves both local and wider UAE markets. For every professional operating in this environment, a credible headshot is the most immediate statement of professional intent. Backyard Studio Official produces headshots in Fujairah that communicate exactly that.",
+      "We photograph at the Fujairah Corniche for waterfront Gulf of Oman portraits unlike any available on the west coast, at Al Aqah Beach for resort-quality natural backdrops, in the city centre for clean urban environments, and with portable studio setups for teams at government offices and business premises across the emirate.",
+    ],
+    highlights: [
+      { heading: "Gulf of Oman Waterfront Portraits", body: "Fujairah's Corniche along the Gulf of Oman provides a genuinely distinctive backdrop — different in colour, character, and light from the Arabian Gulf coastline of Dubai or Abu Dhabi. East-coast light is softer in the morning, making the Corniche an exceptional headshot location." },
+      { heading: "Al Aqah Beach Resort Setting", body: "Al Aqah's beach and resort environment produces headshots with a clean, aspirational quality — open water, natural beach, and the Hajar Mountains visible inland. For professionals who want a distinctive natural backdrop, Al Aqah offers something genuinely unique." },
+      { heading: "Government and Public Sector Teams", body: "Fujairah's public sector and government institutions represent a significant professional community. We offer on-site portable studio headshot days for government departments and semi-government entities — consistent, formal portraits with quick delivery." },
+      { heading: "48-Hour Standard Delivery", body: "Edited headshots delivered in 48 hours as standard. Rush delivery available for press, conference, or directory requirements." },
+    ],
+    pricing: [
+      { pkg: "Individual Headshot", detail: "90 min / 1–2 looks / 10–15 edited images", price: "From AED 750" },
+      { pkg: "Executive Session", detail: "2 hrs / 2 locations / 20 final images", price: "From AED 1,400" },
+      { pkg: "Team Day (per person)", detail: "On-site portable studio / consistent images", price: "From AED 350 / person" },
+      { pkg: "Al Aqah Beach Session", detail: "2 hrs / resort location / 20 images", price: "From AED 1,600" },
+    ],
+    faqs: [
+      { q: "Where do you shoot headshots in Fujairah?", a: "The Fujairah Corniche for Gulf of Oman waterfront portraits, Al Aqah Beach for resort-quality natural settings, the city centre for clean urban environments, and portable studio setups for government offices, business premises, and team days across the emirate." },
+      { q: "Do you travel to Fujairah from Dubai for headshots?", a: "Yes. We regularly travel to Fujairah for headshot sessions. Travel is included in the session fee for bookings above AED 1,400. For smaller individual bookings, a travel supplement applies — confirmed at booking." },
+      { q: "Can you photograph government and public sector teams in Fujairah?", a: "Yes. We offer on-site portable studio headshot days for government departments, semi-government entities, and large business teams across Fujairah. We set up a consistent studio environment on-site and photograph teams efficiently in a single day." },
+      { q: "How much does a headshot cost in Fujairah?", a: "Individual sessions from AED 750. Executive sessions from AED 1,400. Team days from AED 350 per person. Al Aqah beach sessions from AED 1,600." },
+    ],
+  },
+
+  "fujairah/newborn-photography": {
+    title: "Newborn Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Newborn photographer in Fujairah — home visits, lifestyle sessions and beach newborn photography at Al Aqah and Fujairah Corniche. Safe, unhurried. From AED 1,400.",
+    h1: "Newborn Photography in Fujairah",
+    subtitle: "Al Aqah Beach. Your home. Fujairah Corniche. Safe, unhurried newborn photography.",
+    category: "NEWBORN PHOTOGRAPHY",
+    intro: [
+      "The first two weeks of a newborn's life pass in a way that parents consistently describe as simultaneously overwhelming and fleeting. The particular way a baby curls in those first days, the expressions, the way they fit in a parent's arms — these belong to a window that does not return. Backyard Studio Official produces newborn photography in Fujairah that captures this window honestly and carefully: the real texture of those first days, not a performed version of them.",
+      "We work with families across the emirate — from Fujairah City and Dibba to Al Aqah and the coastal communities — offering home visit sessions, lifestyle sessions, and outdoor sessions at Al Aqah Beach where the natural light and the Hajar Mountain backdrop create a setting unlike anything available in the more densely developed emirates.",
+    ],
+    highlights: [
+      { heading: "Home Visit Sessions", body: "We come to your Fujairah home with full equipment for posed and lifestyle newborn photography. Newborns in their own environment — in the bassinet, in a parent's arms, in the nursery — produce images with an intimacy that studio setups rarely achieve." },
+      { heading: "Al Aqah Beach Lifestyle Sessions", body: "Al Aqah's beach at golden hour — with the Hajar Mountains visible behind and the Gulf of Oman ahead — creates a uniquely beautiful setting for newborn lifestyle sessions. The combination of mountain and sea is specific to Fujairah's east coast." },
+      { heading: "Safe Posing Practice", body: "Every pose is designed specifically for newborns and executed with safety as the absolute first consideration. Sessions are never rushed and no position is ever forced or uncomfortable for the baby." },
+      { heading: "Dibba and North Fujairah Coverage", body: "We cover all of Fujairah emirate including Dibba Al Fujairah in the north and the surrounding residential communities. Home visits are available throughout the emirate." },
+    ],
+    pricing: [
+      { pkg: "Lifestyle Home Session", detail: "2 hrs at your home / 30–40 images", price: "From AED 1,400" },
+      { pkg: "Posed Studio Session", detail: "3 hrs / wraps and props / 40 images", price: "From AED 1,800" },
+      { pkg: "Family Welcome Session", detail: "Newborn + siblings + parents / 50 images", price: "From AED 2,200" },
+      { pkg: "Al Aqah Beach Lifestyle", detail: "2 hrs / mountain + sea backdrop / 35 images", price: "From AED 1,600" },
+    ],
+    faqs: [
+      { q: "When should I book newborn photography in Fujairah?", a: "Between 5 and 14 days after birth. This is when newborns sleep most deeply and curl naturally into the gentle poses that define newborn photography. Book in advance — ideally during pregnancy — to secure your preferred date." },
+      { q: "Do you offer home visits for newborn photography in Fujairah?", a: "Yes. Home visits are available across Fujairah City, Dibba, Al Aqah, and surrounding residential areas. We bring all equipment needed for both lifestyle and posed sessions." },
+      { q: "What is unique about newborn photography in Fujairah?", a: "Al Aqah Beach with the Hajar Mountains as a backdrop creates a setting for outdoor newborn lifestyle photography that is genuinely specific to Fujairah's east coast geography — mountain and sea together in one frame." },
+      { q: "How much does newborn photography cost in Fujairah?", a: "Lifestyle home sessions from AED 1,400. Posed studio sessions from AED 1,800. Family welcome sessions from AED 2,200. Al Aqah beach sessions from AED 1,600." },
+    ],
+  },
+
+  "fujairah/maternity-photography": {
+    title: "Maternity Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Maternity photographer in Fujairah — bump sessions at Al Aqah Beach, Wadi Wurayah and Fujairah Corniche. Culturally respectful. From AED 1,400.",
+    h1: "Maternity Photography in Fujairah",
+    subtitle: "Al Aqah Beach. Wadi Wurayah. Fujairah Corniche. Maternity photography with real character.",
+    category: "MATERNITY PHOTOGRAPHY",
+    intro: [
+      "Fujairah's maternity photography settings are defined by the emirate's unique geography: the east coast on the Gulf of Oman, the Hajar Mountains rising directly from the coastal plain, and wadis cutting through dramatic rocky terrain. Al Aqah Beach with the mountains behind it. The Fujairah Corniche at sunset. Wadi Wurayah — the UAE's only freshwater waterfall — for lush green canyon settings found nowhere else in the country. These are environments that produce maternity photography with a character entirely distinct from what is possible in Dubai or Abu Dhabi.",
+      "We work with expectant mothers across all backgrounds and communities in Fujairah, with full respect for cultural and modesty requirements. Every session begins with a conversation about what the expectant mother actually wants — the aesthetic, the atmosphere, the wardrobe, the degree of comfort in front of the camera — and the session is built entirely around her preferences.",
+    ],
+    highlights: [
+      { heading: "Al Aqah Beach Golden Hour", body: "Al Aqah at golden hour — warm east-coast light, Gulf of Oman water, Hajar Mountains as a backdrop — creates maternity photography with a cinematic, naturally dramatic quality that no west-coast UAE beach can replicate." },
+      { heading: "Wadi Wurayah Green Canyon", body: "The UAE's only freshwater waterfall sits in Wadi Wurayah, accessible from Fujairah. Lush green canyon walls, flowing water, and deep shade create maternity photography settings found nowhere else in the UAE — dramatic, cool, and genuinely unique." },
+      { heading: "Fujairah Corniche at Sunset", body: "The Corniche along the Gulf of Oman provides a long, open waterfront for maternity portraits with east-coast sunset light — distinct in colour and quality from the Arabian Gulf light of Dubai." },
+      { heading: "Cultural Sensitivity", body: "We approach every maternity session with full understanding of the modesty and cultural requirements that matter to families in Fujairah. Abaya sessions, fully covered sessions, and more open-style beach sessions are all handled with equal care and respect." },
+    ],
+    pricing: [
+      { pkg: "Al Aqah Beach Session", detail: "90 min / 1 outfit / 30 images", price: "From AED 1,400" },
+      { pkg: "Wadi Session", detail: "2.5 hrs / canyon backdrop / 35 images", price: "From AED 1,800" },
+      { pkg: "Home Lifestyle Session", detail: "2 hrs at your home / 35 images", price: "From AED 1,400" },
+      { pkg: "Full Maternity Collection", detail: "3 hrs / 3 locations / 60 images", price: "From AED 3,000" },
+    ],
+    faqs: [
+      { q: "When should I book my maternity session in Fujairah?", a: "Between 28 and 34 weeks of pregnancy. Book at 24 weeks to secure your preferred location and time, particularly for Al Aqah beach and wadi sessions where golden-hour timing matters." },
+      { q: "What makes maternity photography in Fujairah different?", a: "Fujairah's east-coast geography — Al Aqah Beach with the Hajar Mountains behind it, Wadi Wurayah's green canyon and waterfall, and the Corniche along the Gulf of Oman — creates maternity photography settings that are genuinely distinctive from anything available in Dubai or Abu Dhabi." },
+      { q: "Can you do a Wadi Wurayah maternity session?", a: "Yes. Wadi Wurayah sessions require planning for access and timing, but the results — lush green canyon walls and the UAE's only freshwater waterfall — produce genuinely extraordinary maternity photography. We coordinate all logistics in advance." },
+      { q: "How much does maternity photography cost in Fujairah?", a: "Al Aqah beach sessions from AED 1,400. Wadi sessions from AED 1,800. Home lifestyle sessions from AED 1,400. Full maternity collections from AED 3,000." },
+    ],
+  },
+
+  "fujairah/fashion-photography": {
+    title: "Fashion Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Fashion photographer in Fujairah — editorial shoots at Al Aqah Beach, Hajar Mountains, Wadi Wurayah and heritage forts. Modest fashion and activewear specialists. From AED 1,800.",
+    h1: "Fashion Photography in Fujairah",
+    subtitle: "Al Aqah Beach. Hajar Mountains. Wadi Wurayah. Fashion photography with genuine terrain.",
+    category: "FASHION PHOTOGRAPHY",
+    intro: [
+      "Fujairah offers fashion photographers something the western UAE emirates structurally cannot — east-coast light, mountain terrain, wadis, ancient forts, and beach environments that have not been photographed into creative exhaustion. Al Aqah Beach for resort fashion with the Hajar Mountains as backdrop. Wadi Wurayah's green canyon for lush, unexpected fashion editorial work. Fujairah Fort and the Bithnah Fort area for heritage-rooted editorial with ancient stone architecture. Hajar Mountain trails for activewear campaigns in genuinely dramatic terrain.",
+      "We produce fashion photography in Fujairah for brands, designers, e-commerce businesses, and independent stylists who need images that are visually distinctive and perform commercially. Modest fashion and activewear are two categories that find particularly strong environments in Fujairah's varied landscape.",
+    ],
+    highlights: [
+      { heading: "Al Aqah Beach Resort Fashion", body: "Al Aqah's beach with the Hajar Mountains rising behind it creates fashion photography with a dramatically different visual character from Dubai's beach environments. For resort wear, modest swimwear, and luxury fashion, Al Aqah produces images that stand out." },
+      { heading: "Hajar Mountain Activewear", body: "Mountain terrain, rocky ridgelines, and dramatic elevation create activewear and outdoor fashion photography with authentic character — the kind that can only be created in real mountain environments, not approximated in studio." },
+      { heading: "Wadi and Heritage Fashion", body: "Wadi Wurayah's lush canyon and Fujairah's ancient forts provide fashion settings with depth, texture, and historical resonance. For heritage-influenced editorial work or fashion that wants to reference the natural world, these are extraordinary environments." },
+      { heading: "Modest Fashion Expertise", body: "We have specific experience photographing abaya collections, modest sportswear, covered fashion, and modest swimwear in outdoor environments that suit these garments naturally. Fujairah's mountain and beach settings are ideal for this category." },
+    ],
+    pricing: [
+      { pkg: "Lookbook Session", detail: "3 hrs / 1 model / 3 looks / 30 images", price: "From AED 1,800" },
+      { pkg: "Editorial Campaign", detail: "Full day / creative direction / 60 final images", price: "From AED 3,800" },
+      { pkg: "E-Commerce Catalogue", detail: "Per look / clean backgrounds / product focus", price: "From AED 250 / look" },
+      { pkg: "Mountain Adventure Campaign", detail: "Full day / Hajar terrain / 50 images", price: "From AED 4,200" },
+    ],
+    faqs: [
+      { q: "What makes Fujairah unique for fashion photography?", a: "East-coast light, Hajar Mountain terrain, Wadi Wurayah's green canyon, Al Aqah Beach with mountain backdrop, and ancient fort architecture — Fujairah offers fashion photography settings with genuine visual character that are unavailable in Dubai or the western emirates." },
+      { q: "Do you photograph modest fashion in Fujairah?", a: "Yes. Modest fashion, abaya collections, covered activewear, and modest swimwear are categories we photograph regularly. Fujairah's outdoor environments — mountain trails, beach, wadi — provide natural, compelling settings for these garments." },
+      { q: "Can you provide models for fashion shoots in Fujairah?", a: "Yes. We work with a network of professional models across the UAE including modest fashion and activewear specialists. Model procurement is coordinated as part of our full production service." },
+      { q: "How much does fashion photography cost in Fujairah?", a: "Lookbook sessions from AED 1,800. Editorial campaigns from AED 3,800. E-commerce catalogue from AED 250 per look. Mountain adventure campaigns from AED 4,200." },
+    ],
+  },
+
+  "fujairah/social-media-content": {
+    title: "Social Media Content Creation in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Social media content creator in Fujairah — reels, photos and brand content for hospitality, tourism, real estate and F&B businesses. From AED 1,800.",
+    h1: "Social Media Content Creation in Fujairah",
+    subtitle: "Reels. Brand content. Photography. Social media production for Fujairah businesses.",
+    category: "SOCIAL MEDIA CONTENT",
+    intro: [
+      "Fujairah's economy is growing across tourism, hospitality, port and logistics, real estate, and retail — and every business in these sectors faces the same content challenge: social media demands consistent, high-quality visual output to attract customers and remain competitive. The businesses in Fujairah that are building a real digital presence are the ones investing in professional content. Backyard Studio Official produces social media content for Fujairah businesses that is built to perform — photography and video that communicates quality, attracts the right audience, and drives actual enquiries.",
+      "Fujairah has a content angle that many UAE businesses haven't fully exploited: the east coast story. The Gulf of Oman, the Hajar Mountains, the wadis, the heritage sites — this is visually distinct from Dubai content and resonates with audiences who are specifically interested in the less-developed, more authentic side of the UAE. We help businesses tell that story.",
+    ],
+    highlights: [
+      { heading: "Tourism and Hospitality Content", body: "Hotels, beach resorts, dive centres, adventure tourism operators, and tour companies in Fujairah need content that communicates the emirate's unique natural appeal. We produce photography and video that shows what makes Fujairah different." },
+      { heading: "Reels and Short-Form Video", body: "Professionally shot and edited Instagram and TikTok reels — scripted to your brief, filmed at Fujairah's most compelling locations, edited with music, captions, and pacing that drives engagement rather than passive scrolling." },
+      { heading: "East Coast Brand Positioning", body: "Fujairah's east coast story — Gulf of Oman, mountains, wadis, heritage — is a genuine content differentiator. We help businesses use this geography as a brand asset, creating content that positions Fujairah businesses as distinctive rather than competing directly with Dubai on Dubai's own terms." },
+      { heading: "Monthly Content Packages", body: "Ongoing monthly content production for Fujairah businesses — a consistent volume of posts, reels, and stories on a rolling schedule so your social presence runs without requiring your daily attention." },
+    ],
+    pricing: [
+      { pkg: "Content Day (Photo)", detail: "4 hrs / 30 edited images / platform-ready", price: "From AED 1,800" },
+      { pkg: "Reels Package", detail: "3 reels / shot + edited / captions included", price: "From AED 2,200" },
+      { pkg: "Monthly Retainer", detail: "8 posts + 4 reels / monthly / strategy included", price: "From AED 3,500 / month" },
+      { pkg: "East Coast Campaign", detail: "Full day / photo + video / beach or mountain", price: "From AED 4,500" },
+    ],
+    faqs: [
+      { q: "What types of businesses do you create social media content for in Fujairah?", a: "Hospitality and hotels, dive and water sports operators, adventure tourism, real estate, food and beverage, retail, and professional services. Fujairah's east coast setting and growing tourism market makes it particularly strong for hospitality and tourism content." },
+      { q: "Can you help us use Fujairah's natural settings in our brand content?", a: "Yes — using Fujairah's geography as a brand asset is one of the strongest content strategies available to businesses here. Al Aqah Beach, the Hajar Mountains, wadis, and heritage sites create content that stands out from generic Dubai-style production." },
+      { q: "Do you offer monthly content packages for Fujairah businesses?", a: "Yes. Monthly retainer packages cover a fixed volume of posts, reels, and stories on a consistent schedule — particularly suitable for tourism and hospitality businesses that need constant high-quality content across seasons." },
+      { q: "How much does social media content creation cost in Fujairah?", a: "Content day photography from AED 1,800. Reels packages from AED 2,200. Monthly retainers from AED 3,500 per month. East coast campaign from AED 4,500." },
+    ],
+  },
+
+  "fujairah/birthday-photography": {
+    title: "Birthday Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Birthday photographer in Fujairah — kids parties, milestone celebrations and family birthdays at Al Aqah resorts, home events and Fujairah venues. From AED 850.",
+    h1: "Birthday Photography in Fujairah",
+    subtitle: "Al Aqah resorts. Your home. Fujairah venues. Birthday photography that captures the real day.",
+    category: "BIRTHDAY PHOTOGRAPHY",
+    intro: [
+      "Birthday celebrations in Fujairah range from home parties in Fujairah City's residential neighbourhoods to resort events at Al Aqah Beach Hotels, beach parties along the Corniche, and family gatherings that take full advantage of the emirate's outdoor spaces. Backyard Studio Official photographs birthday events in Fujairah with the priority of capturing what actually happened — the genuine expressions, the interactions between people who matter to each other, the moments of real joy — rather than arranging everything for the camera and missing the actual event.",
+      "We cover children's birthday parties with the pace and energy they demand, milestone birthdays at resort venues where the occasion deserves documentary coverage, and family celebrations where capturing the group together and the authentic atmosphere of the day is the goal.",
+    ],
+    highlights: [
+      { heading: "Al Aqah Resort Venue Coverage", body: "Al Aqah's beach resort hotels host celebrations in remarkable settings — we cover birthday events at Rotana, Le Meridien, and Sandy Beach with experience navigating the lighting and logistics of resort function spaces and beach party settings." },
+      { heading: "Home Birthday Parties", body: "Home parties across Fujairah City, Dibba, and surrounding residential areas. We cover the arrival energy, the cake moment, the games, and the family interactions that make home parties genuinely meaningful." },
+      { heading: "Milestone Birthday Coverage", body: "30th, 40th, 50th, and 60th milestone birthdays at Fujairah's venues and outdoor spaces deserve documentary coverage with the same serious attention as a wedding. These events matter and the photography should reflect that." },
+      { heading: "Same-Day Preview Gallery", body: "10 to 15 preview images delivered same-day for social media, with the full edited gallery following within 5 working days." },
+    ],
+    pricing: [
+      { pkg: "2-Hour Birthday Coverage", detail: "2 hrs / 60–80 images / online gallery", price: "From AED 850" },
+      { pkg: "Half-Day Coverage", detail: "4 hrs / 120–150 images / full event", price: "From AED 1,500" },
+      { pkg: "Full-Day Milestone", detail: "8 hrs / unlimited images / same-day previews", price: "From AED 2,500" },
+      { pkg: "Kids Party Package", detail: "2 hrs / + cake smash add-on option / 80 images", price: "From AED 1,100" },
+    ],
+    faqs: [
+      { q: "Do you travel to Fujairah for birthday photography?", a: "Yes. We cover birthday events throughout Fujairah — home parties, resort venue events at Al Aqah, outdoor celebrations along the Corniche, and garden events. Travel to Fujairah is included for bookings above AED 1,400." },
+      { q: "Which Al Aqah resort hotels do you work at?", a: "We are experienced working at Rotana Beach Resort, Le Meridien Al Aqah, Sandy Beach Hotel, and other Al Aqah resort properties. For larger events we visit the venue in advance to plan coverage." },
+      { q: "How far in advance should I book birthday photography in Fujairah?", a: "Home parties: 2 to 3 weeks typically sufficient. Resort and venue events: 6 to 8 weeks ahead. Last-minute weekday bookings are sometimes available." },
+      { q: "How much does birthday photography cost in Fujairah?", a: "Two-hour coverage from AED 850. Half-day from AED 1,500. Full-day milestone from AED 2,500. Kids party packages from AED 1,100." },
+    ],
+  },
+
+  "fujairah/kids-photography": {
+    title: "Kids Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Children's photographer in Fujairah — family portraits, milestone sessions and kids photography at Al Aqah Beach, Wadi Wurayah and your home. From AED 900.",
+    h1: "Kids Photography in Fujairah",
+    subtitle: "Al Aqah Beach. Wadi Wurayah. Your home. Children's photography built around the child.",
+    category: "KIDS PHOTOGRAPHY",
+    intro: [
+      "Fujairah gives children an environment unlike any other in the UAE — open east-coast beaches, wadis with running water, mountain trails, and outdoor spaces where children can genuinely play and explore rather than navigate urban density. Professional photography that captures your child in these environments, at a specific age, documents something irreplaceable. Backyard Studio Official produces children's photography in Fujairah that is built around who your child actually is right now: their personality, their relationships, their natural way of being in the world.",
+      "We are experienced working with children across all ages and temperaments, and we build every session around the child's pace rather than imposing adult photographic structure on them. The natural settings available in Fujairah — beach, wadi, mountain — are environments where children relax and behave naturally, which is where the best children's photography happens.",
+    ],
+    highlights: [
+      { heading: "Al Aqah Beach Sessions", body: "Open east-coast beach, clean Gulf of Oman water, and soft natural light create an environment where children naturally play, explore, and be themselves — producing authentic, joyful images that are genuinely documentary rather than performed." },
+      { heading: "Wadi Wurayah Nature Sessions", body: "The UAE's only freshwater waterfall and its surrounding green canyon creates an extraordinary children's photography setting — lush, cool, and naturally engaging for children who will explore and play without needing to be directed." },
+      { heading: "Milestone Portrait Sessions", body: "First birthday, starting school, 10th birthday — milestone sessions document your child at a specific moment in their development, with images created to remain meaningful for decades." },
+      { heading: "Home and Lifestyle Sessions", body: "Photographing children in their own home produces images with an intimacy that outdoor sessions cannot achieve — the relationship with siblings, pets, the particular corners of a childhood home that belong only to that time." },
+    ],
+    pricing: [
+      { pkg: "Mini Portrait Session", detail: "45 min / 1 child / 15 images", price: "From AED 900" },
+      { pkg: "Full Portrait Session", detail: "90 min / 2 looks / 30 images", price: "From AED 1,500" },
+      { pkg: "Siblings Session", detail: "90 min / multiple children / 35 images", price: "From AED 1,700" },
+      { pkg: "Family Portrait Session", detail: "2 hrs / full family / 40 images / 2 locations", price: "From AED 2,000" },
+    ],
+    faqs: [
+      { q: "What are the best locations for children's photography in Fujairah?", a: "Al Aqah Beach for natural outdoor sessions with open water and east-coast light, Wadi Wurayah for lush canyon nature sessions, the Fujairah Corniche for waterfront portraits, and home sessions for intimate family and sibling photography." },
+      { q: "Can you photograph children at Wadi Wurayah?", a: "Yes. Wadi Wurayah is an exceptional setting for children's photography — the green canyon, running water, and natural surroundings create an environment where children naturally explore and play. We plan wadi sessions for the best light and accessibility." },
+      { q: "How do you work with children who are shy or reluctant in front of cameras?", a: "We follow the child's lead entirely. For younger children we photograph them as they play and explore — natural expressions appear when a child is comfortable, not when they are posed and instructed. Sessions are always at the child's pace." },
+      { q: "How much does children's photography cost in Fujairah?", a: "Mini sessions from AED 900. Full portrait sessions from AED 1,500. Sibling sessions from AED 1,700. Family portrait sessions from AED 2,000." },
+    ],
+  },
+
+  "fujairah/engagement-photography": {
+    title: "Engagement Photography in Fujairah 2026 | Backyard Studio Official",
+    metaDescription: "Engagement photographer in Fujairah — couple shoots and proposal photography at Al Aqah Beach, Wadi Wurayah and Hajar Mountain backdrops. Culturally respectful. From AED 1,800.",
+    h1: "Engagement Photography in Fujairah",
+    subtitle: "Al Aqah Beach. Wadi Wurayah. Hajar Mountains. Engagement photography with real depth.",
+    category: "ENGAGEMENT PHOTOGRAPHY",
+    intro: [
+      "Fujairah's engagement photography settings offer something fundamentally different from the rest of the UAE. Al Aqah Beach at golden hour — east-coast light, Gulf of Oman water, Hajar Mountains as backdrop — creates couple photography with a cinematic quality that no west-coast UAE location can replicate. Wadi Wurayah's lush green canyon with running water. Mountain terrain in the Hajar range for dramatic elevation and rocky backdrops. Fujairah Fort for heritage architecture and elevated views. These are environments with genuine character.",
+      "We work with couples of all backgrounds and nationalities in Fujairah and approach every session with full awareness of cultural requirements and sensitivities. Before every session we take time to understand what the couple actually wants — the aesthetic, the atmosphere, how comfortable they are being photographed — and build the entire session to make them feel genuinely at ease rather than performatively posed.",
+    ],
+    highlights: [
+      { heading: "Al Aqah Beach Golden Hour", body: "Al Aqah at golden hour — east-coast sunset light, open water, and the Hajar Mountains visible behind the beach — creates engagement photography with a naturally dramatic, cinematic quality unlike any UAE west-coast beach." },
+      { heading: "Wadi Wurayah Green Canyon", body: "The UAE's only freshwater waterfall and its surrounding green canyon walls create engagement photography settings that are genuinely extraordinary and unavailable anywhere else in the country. Lush, cool, and visually remarkable." },
+      { heading: "Hajar Mountain Sessions", body: "Mountain terrain and rocky ridgelines in the Hajar range create engagement photography with dramatic natural backdrops — distinctive from resort or urban UAE couple photography and naturally striking." },
+      { heading: "Proposal Photography", body: "We position covertly at your chosen Fujairah location — Al Aqah beach, wadi viewpoint, mountain trail, or heritage site — to capture the genuine moment and immediate reaction. All timing and positioning coordinated in advance with the proposing partner." },
+    ],
+    pricing: [
+      { pkg: "1-Location Session", detail: "90 min / 1 outfit / 30–40 edited images", price: "From AED 1,800" },
+      { pkg: "2-Location Session", detail: "2.5 hrs / 2 outfits / 50 images", price: "From AED 2,800" },
+      { pkg: "Al Aqah Beach Sunset Session", detail: "2 hrs / east-coast golden hour / 45 images", price: "From AED 2,400" },
+      { pkg: "Proposal Photography", detail: "Covert coverage / full edited gallery", price: "From AED 2,200" },
+    ],
+    faqs: [
+      { q: "What are the best engagement photography locations in Fujairah?", a: "Al Aqah Beach at golden hour for east-coast sunset light with mountain backdrop, Wadi Wurayah for green canyon and waterfall settings, Hajar Mountain terrain for dramatic elevated backdrops, and Fujairah Fort for heritage architecture and elevated views." },
+      { q: "What makes engagement photography in Fujairah different from Dubai?", a: "East-coast light, Gulf of Oman water, mountain terrain, and wadi environments create couple photography with a fundamentally different visual character from Dubai. The natural settings are more dramatic, less developed, and more visually distinctive." },
+      { q: "Do you photograph proposals in Fujairah?", a: "Yes. We position covertly at the proposal location to capture the genuine moment. Al Aqah beach, Wadi Wurayah viewpoints, and mountain trails all make spectacular proposal backdrops. All logistics are coordinated closely with the proposing partner in advance." },
+      { q: "How much does engagement photography cost in Fujairah?", a: "Single-location sessions from AED 1,800. Two-location sessions from AED 2,800. Al Aqah beach sunset sessions from AED 2,400. Proposal photography from AED 2,200." },
+    ],
+  },
+
+
+  // ── UMM AL QUWAIN ─────────────────────────────────────────────────────────
+
+  "umm-al-quwain/headshot-photography": {
+    title: "Headshot Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Professional headshot photographer in Umm Al Quwain — corporate portraits, LinkedIn headshots and team photography at UAQ Corniche, Dreamland and Al Sinniyah. From AED 750.",
+    h1: "Headshot Photography in Umm Al Quwain",
+    subtitle: "UAQ Corniche. Al Sinniyah Island. Dreamland. Headshots in the UAE's most relaxed emirate.",
+    category: "HEADSHOT PHOTOGRAPHY",
+    intro: [
+      "Umm Al Quwain is the UAE's least developed emirate — which, for professional photography, is a genuine advantage. The UAQ Corniche runs along open mangroves and lagoon waters without the urban density of Dubai or Sharjah. Al Sinniyah Island sits in the lagoon as a natural reserve. The pace is slower, the light is cleaner, and the backgrounds are uncluttered. For professionals and business owners in UAQ — across the growing leisure and tourism sector, the free zone business community, fishing and maritime industries, and professional services — a credible headshot is still the most important piece of professional identity. Backyard Studio Official produces headshots in Umm Al Quwain that deliver that credibility.",
+      "We shoot at the UAQ Corniche for open lagoon-facing portraits with mangrove and water backgrounds, at the UAQ Marina area for maritime character, and with portable studio setups for clean seamless-background headshots at offices and free zone facilities across the emirate.",
+    ],
+    highlights: [
+      { heading: "UAQ Corniche and Lagoon", body: "Umm Al Quwain's Corniche runs alongside one of the UAE's largest lagoon and mangrove systems — providing open, natural waterfront backgrounds that are genuinely uncrowded and visually distinct from anything available in Dubai or Sharjah." },
+      { heading: "Uncluttered Natural Backdrops", body: "UAQ's undeveloped character means fewer visual distractions. Clean horizon lines, natural water and mangrove settings, and uncrowded outdoor spaces give headshots a clarity and simplicity that more urban settings struggle to achieve." },
+      { heading: "Free Zone Team Days", body: "UAQ Free Trade Zone hosts a diverse international business community. We travel to your UAQ free zone office with a portable studio setup to photograph your full team in a single coordinated day — consistent lighting, backgrounds, and colour across all images." },
+      { heading: "48-Hour Delivery", body: "Standard edited delivery in 48 hours. Rush same-day and next-day delivery available for urgent requirements." },
+    ],
+    pricing: [
+      { pkg: "Individual Headshot", detail: "90 min / 1–2 looks / 10–15 edited images", price: "From AED 750" },
+      { pkg: "Executive Session", detail: "2 hrs / 2 locations / 20 final images", price: "From AED 1,400" },
+      { pkg: "Team Day (per person)", detail: "On-site portable studio / consistent images", price: "From AED 350 / person" },
+      { pkg: "UAQ Lagoon Session", detail: "90 min / waterfront / 20 images", price: "From AED 1,200" },
+    ],
+    faqs: [
+      { q: "Where do you shoot headshots in Umm Al Quwain?", a: "The UAQ Corniche and lagoon waterfront for natural open backgrounds, the marina area for maritime character, and on-site portable studio setups for offices and free zone facilities. The emirate's undeveloped character provides clean, uncluttered backgrounds." },
+      { q: "Do you travel to Umm Al Quwain for headshots?", a: "Yes. We travel to UAQ for headshot sessions. Travel is included for bookings above AED 1,200. For smaller sessions, a travel supplement applies — confirmed at booking." },
+      { q: "Can you photograph our team at the UAQ Free Trade Zone?", a: "Yes. We set up a portable studio at your UAQ free zone office and photograph your full team in a single day. Images delivered with consistent lighting and background across all team members." },
+      { q: "How much does a headshot cost in Umm Al Quwain?", a: "Individual sessions from AED 750. Executive sessions from AED 1,400. Team days from AED 350 per person. UAQ lagoon sessions from AED 1,200." },
+    ],
+  },
+
+  "umm-al-quwain/newborn-photography": {
+    title: "Newborn Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Newborn photographer in Umm Al Quwain — home visits, lifestyle sessions and lagoon-side newborn photography. Safe, unhurried. From AED 1,400.",
+    h1: "Newborn Photography in Umm Al Quwain",
+    subtitle: "Your home. UAQ Corniche. Lagoon waterfront. Safe, unhurried newborn photography.",
+    category: "NEWBORN PHOTOGRAPHY",
+    intro: [
+      "The first two weeks of a newborn's life pass faster than any parent expects. The way a baby curls, their expressions, the way they sleep in a parent's arms — these belong to a window of days that does not come back. Backyard Studio Official produces newborn photography in Umm Al Quwain that captures this window honestly: the real experience of those first days, documented carefully and without rush.",
+      "We work with families across UAQ — from the main town to the surrounding residential communities — offering home visit sessions, lifestyle sessions at the UAQ Corniche's peaceful waterfront, and portable studio setups for families who want clean, posed images. The emirate's quiet character makes it well-suited to the unhurried pace that good newborn photography requires.",
+    ],
+    highlights: [
+      { heading: "Home Visit Sessions", body: "We come to your UAQ home with all equipment for both posed and lifestyle sessions. Newborns photographed in their own environment produce images with an intimacy and authenticity that studio setups rarely match." },
+      { heading: "UAQ Corniche Lifestyle Sessions", body: "The Corniche alongside UAQ's lagoon and mangroves provides a peaceful, uncrowded outdoor setting for newborn lifestyle photography — open water light, natural surroundings, and no crowds." },
+      { heading: "Safe Posing Practice", body: "All poses are designed specifically for newborns. Safety is the absolute first consideration. Sessions are never rushed and no position is ever forced or uncomfortable." },
+      { heading: "Quiet, Unhurried Environment", body: "UAQ's relaxed pace is genuinely suited to newborn photography. Home sessions in particular benefit from the emirate's quieter residential character." },
+    ],
+    pricing: [
+      { pkg: "Lifestyle Home Session", detail: "2 hrs at your home / 30–40 images", price: "From AED 1,400" },
+      { pkg: "Posed Studio Session", detail: "3 hrs / wraps and props / 40 images", price: "From AED 1,800" },
+      { pkg: "Family Welcome Session", detail: "Newborn + siblings + parents / 50 images", price: "From AED 2,200" },
+      { pkg: "UAQ Corniche Lifestyle", detail: "2 hrs / lagoon waterfront / 35 images", price: "From AED 1,500" },
+    ],
+    faqs: [
+      { q: "When should I book newborn photography in Umm Al Quwain?", a: "Between 5 and 14 days after birth — when newborns sleep most deeply and curl naturally for gentle posed photography. Book during pregnancy to secure your preferred date and time." },
+      { q: "Do you come to homes in Umm Al Quwain for newborn sessions?", a: "Yes. Home visits are available across UAQ. We bring all equipment needed for both lifestyle and posed sessions. UAQ's quiet residential character is well-suited to the calm environment that newborn photography requires." },
+      { q: "How much does newborn photography cost in Umm Al Quwain?", a: "Lifestyle home sessions from AED 1,400. Posed studio sessions from AED 1,800. Family welcome sessions from AED 2,200. UAQ Corniche lifestyle sessions from AED 1,500." },
+      { q: "Is travel to Umm Al Quwain included?", a: "Travel is included for bookings above AED 1,400. For smaller bookings, a travel supplement applies — confirmed at the time of booking." },
+    ],
+  },
+
+  "umm-al-quwain/maternity-photography": {
+    title: "Maternity Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Maternity photographer in Umm Al Quwain — bump sessions at UAQ Corniche, lagoon waterfront and home visits. Culturally respectful. From AED 1,400.",
+    h1: "Maternity Photography in Umm Al Quwain",
+    subtitle: "UAQ Corniche. Lagoon waterfront. Your home. Maternity photography away from the crowds.",
+    category: "MATERNITY PHOTOGRAPHY",
+    intro: [
+      "Umm Al Quwain's maternity photography environment is defined by what it lacks: crowds, construction, and visual clutter. The UAQ Corniche along the lagoon. The mangrove edges at low tide. Open water stretches with clean horizon lines. For expectant mothers who want maternity photography that feels genuinely natural and unhurried — away from the construction noise and population density of Dubai and Sharjah — UAQ's undeveloped character is a real advantage.",
+      "We approach every maternity session in UAQ with full understanding of the cultural requirements and modesty preferences that matter here. The session is built entirely around what the expectant mother actually wants, and we discuss wardrobe, aesthetic preferences, and comfort levels in advance.",
+    ],
+    highlights: [
+      { heading: "UAQ Corniche at Sunset", body: "The Corniche along the lagoon provides a long, uncrowded waterfront with mangrove edges and open water. At sunset, the light over the lagoon is soft and warm — a genuinely peaceful outdoor maternity setting without the weekend crowds of Dubai beaches." },
+      { heading: "Mangrove and Lagoon Backgrounds", body: "UAQ's mangrove system is one of the most intact in the UAE. Mangrove edges and lagoon water create natural, organic backgrounds for maternity photography that are specific to this emirate's character." },
+      { heading: "Home Lifestyle Sessions", body: "Intimate home visit sessions across UAQ for expectant mothers who prefer the privacy and comfort of their own space for maternity photography." },
+      { heading: "Culturally Respectful Approach", body: "Every maternity session is approached with full sensitivity to modesty and cultural requirements. From fully covered abaya sessions to more open beach-style shoots, we adapt entirely to what the expectant mother wants." },
+    ],
+    pricing: [
+      { pkg: "UAQ Corniche Session", detail: "90 min / 1 outfit / 30 images", price: "From AED 1,400" },
+      { pkg: "Extended Outdoor Session", detail: "2.5 hrs / 2 looks / 40 images", price: "From AED 1,800" },
+      { pkg: "Home Lifestyle Session", detail: "2 hrs at your home / 35 images", price: "From AED 1,400" },
+      { pkg: "Full Maternity Collection", detail: "3 hrs / 2 locations / 55 images", price: "From AED 2,800" },
+    ],
+    faqs: [
+      { q: "When should I book my maternity session in Umm Al Quwain?", a: "Between 28 and 34 weeks of pregnancy. Book at around 24 weeks to secure your preferred time and location, particularly for golden-hour outdoor sessions at the Corniche." },
+      { q: "What makes UAQ different for maternity photography?", a: "The Corniche and lagoon waterfront is genuinely uncrowded — a significant difference from Dubai's beaches. The natural mangrove and water settings, clean horizon lines, and relaxed pace create a maternity photography environment that feels real and unhurried rather than constructed." },
+      { q: "How much does maternity photography cost in Umm Al Quwain?", a: "UAQ Corniche sessions from AED 1,400. Extended outdoor sessions from AED 1,800. Home lifestyle sessions from AED 1,400. Full maternity collections from AED 2,800." },
+      { q: "Is travel to UAQ included in the session fee?", a: "Travel is included for maternity session bookings above AED 1,400. A travel supplement applies for smaller bookings — confirmed at the time of booking." },
+    ],
+  },
+
+  "umm-al-quwain/fashion-photography": {
+    title: "Fashion Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Fashion photographer in Umm Al Quwain — editorial shoots at UAQ lagoon, mangroves and heritage sites. Modest fashion and outdoor brand specialists. From AED 1,800.",
+    h1: "Fashion Photography in Umm Al Quwain",
+    subtitle: "UAQ Lagoon. Mangroves. Heritage sites. Fashion photography without the crowds.",
+    category: "FASHION PHOTOGRAPHY",
+    intro: [
+      "Umm Al Quwain offers fashion photographers access to environments that are genuinely difficult to find elsewhere in the UAE: intact mangrove systems, open lagoon water, uncrowded heritage sites, and natural coastal settings that haven't been photographed into visual cliché. For brands and designers who want fashion photography that looks different from the generic Dubai content that saturates the market, UAQ's undeveloped character is a real creative asset.",
+      "We produce fashion photography in UAQ for brands, independent designers, e-commerce businesses, and stylists who need images that communicate clearly and stand out. Modest fashion and outdoor lifestyle categories find particularly strong environments in UAQ's natural settings.",
+    ],
+    highlights: [
+      { heading: "Mangrove and Lagoon Locations", body: "UAQ's mangrove coastline and lagoon create fashion photography backdrops with organic texture, deep green tones, and reflected water light — environments with visual character that styled studio sets cannot approximate." },
+      { heading: "Uncrowded Heritage Sites", body: "UAQ's old town and heritage structures provide traditional architecture and historical context for fashion editorial work, without the crowds that make heritage photography difficult in Dubai and Sharjah." },
+      { heading: "Modest Fashion in Natural Settings", body: "UAQ's outdoor environments — mangroves, lagoon waterfront, natural coastal settings — create genuinely compelling backgrounds for abaya collections, modest sportswear, and covered fashion." },
+      { heading: "Exclusive Location Feel", body: "UAQ's undeveloped character means fewer people, fewer distractions, and a sense of exclusivity that more developed UAE emirates genuinely cannot offer for outdoor fashion shoots." },
+    ],
+    pricing: [
+      { pkg: "Lookbook Session", detail: "3 hrs / 1 model / 3 looks / 30 images", price: "From AED 1,800" },
+      { pkg: "Editorial Campaign", detail: "Full day / creative direction / 60 final images", price: "From AED 3,500" },
+      { pkg: "E-Commerce Catalogue", detail: "Per look / clean backgrounds / product focus", price: "From AED 250 / look" },
+      { pkg: "Mangrove Campaign", detail: "Full day / lagoon + mangrove / 50 images", price: "From AED 3,800" },
+    ],
+    faqs: [
+      { q: "What makes UAQ unique for fashion photography?", a: "Intact mangrove systems, open lagoon, uncrowded heritage sites, and natural coastal settings without construction or crowds. UAQ's undeveloped character gives fashion photography a visual distinctiveness that busy Dubai locations cannot match." },
+      { q: "Do you photograph modest fashion in Umm Al Quwain?", a: "Yes. UAQ's natural outdoor environments — mangroves, lagoon, coastal — provide genuine, organic settings for abaya collections, covered fashion, and modest sportswear." },
+      { q: "Can you provide models for fashion shoots in UAQ?", a: "Yes. We work with a network of professional models across the UAE. Model procurement is coordinated as part of our full production service." },
+      { q: "How much does fashion photography cost in Umm Al Quwain?", a: "Lookbook sessions from AED 1,800. Editorial campaigns from AED 3,500. E-commerce catalogue from AED 250 per look. Mangrove campaigns from AED 3,800." },
+    ],
+  },
+
+  "umm-al-quwain/social-media-content": {
+    title: "Social Media Content Creation in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Social media content creator in Umm Al Quwain — reels, photos and brand content for hospitality, tourism and F&B businesses in UAQ. From AED 1,800.",
+    h1: "Social Media Content Creation in Umm Al Quwain",
+    subtitle: "Reels. Brand content. Photography. Social media production for UAQ businesses.",
+    category: "SOCIAL MEDIA CONTENT",
+    intro: [
+      "Umm Al Quwain's business community — spanning leisure tourism around Dreamland Aqua Park, waterfront hospitality, the UAQ Free Trade Zone, fishing and maritime industries, and retail — faces the same challenge as businesses everywhere: social media demands consistent, professional visual content to remain competitive and attract customers. For UAQ businesses in particular, the opportunity is to use the emirate's distinctive natural character as a content asset rather than competing with Dubai on Dubai's visual terms.",
+      "We produce social media content for UAQ businesses that is built around what makes this emirate genuinely different: the uncrowded lagoon, the mangroves, the relaxed pace, and the authentic atmosphere that the northern emirates offer. This is a real content differentiator for businesses that know how to use it.",
+    ],
+    highlights: [
+      { heading: "Leisure and Tourism Content", body: "Dreamland Aqua Park, UAQ's waterfront restaurants, boat trip operators, and lagoon leisure businesses need content that communicates the emirate's relaxed appeal. We produce photography and video built around what makes UAQ's leisure scene distinct." },
+      { heading: "Reels and Short-Form Video", body: "Professionally shot and edited Instagram and TikTok reels — scripted to your brief, filmed at UAQ's best locations, edited with music and captions that drive real engagement." },
+      { heading: "Monthly Retainer Packages", body: "Ongoing monthly content production for UAQ businesses — a consistent volume of posts, reels, and stories so your social presence runs without your daily involvement." },
+      { heading: "The UAQ Content Angle", body: "UAQ's 'escape from Dubai' positioning is a genuine content angle for businesses in the emirate. Relaxed, natural, uncrowded, authentic — these are real differentiators that resonate with the UAE's increasingly saturated social media audience." },
+    ],
+    pricing: [
+      { pkg: "Content Day (Photo)", detail: "4 hrs / 30 edited images / platform-ready", price: "From AED 1,800" },
+      { pkg: "Reels Package", detail: "3 reels / shot + edited / captions included", price: "From AED 2,200" },
+      { pkg: "Monthly Retainer", detail: "8 posts + 4 reels / monthly / strategy included", price: "From AED 3,500 / month" },
+      { pkg: "Full Brand Day", detail: "Full day / photo + video / full brand content set", price: "From AED 4,000" },
+    ],
+    faqs: [
+      { q: "What types of businesses do you create social media content for in UAQ?", a: "Leisure and tourism, waterfront restaurants and cafes, adventure and water sports, retail, professional services, and the free zone business community. UAQ's natural settings create particularly strong content for hospitality and tourism businesses." },
+      { q: "Can you help us use UAQ's natural settings in our brand content?", a: "Yes — the lagoon, mangroves, uncrowded waterfront, and relaxed character of UAQ are genuine content assets. We help businesses build content that positions them distinctively against more crowded Dubai competitors." },
+      { q: "Do you offer monthly content packages for UAQ businesses?", a: "Yes. Monthly retainer packages cover a fixed volume of posts and reels on a consistent schedule — suitable for any UAQ business that needs regular social media content without managing production in-house." },
+      { q: "How much does social media content creation cost in Umm Al Quwain?", a: "Content day photography from AED 1,800. Reels packages from AED 2,200. Monthly retainers from AED 3,500 per month. Full brand day from AED 4,000." },
+    ],
+  },
+
+  "umm-al-quwain/birthday-photography": {
+    title: "Birthday Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Birthday photographer in Umm Al Quwain — kids parties, milestone celebrations and family birthdays at home events and UAQ venues. From AED 850.",
+    h1: "Birthday Photography in Umm Al Quwain",
+    subtitle: "Your home. UAQ venues. Waterfront settings. Birthday photography that captures the day.",
+    category: "BIRTHDAY PHOTOGRAPHY",
+    intro: [
+      "Birthday celebrations in Umm Al Quwain happen most often at home — in the residential neighbourhoods of UAQ city, at the Corniche waterfront for outdoor parties, and at the emirate's leisure venues including Dreamland Aqua Park for children's events. Backyard Studio Official photographs birthday celebrations in UAQ with the priority of capturing what actually happened: the real expressions, the interactions between family members and friends, the genuine moments of joy — not a set of posed group photographs that sit beside the event rather than inside it.",
+      "We cover children's parties with the energy and pace they require, milestone birthdays at any UAQ venue or outdoor setting, and family gatherings where the priority is documenting the people and the atmosphere authentically.",
+    ],
+    highlights: [
+      { heading: "Home Birthday Parties", body: "Home parties across UAQ city and surrounding residential areas. We move with the energy of the event — cake arrivals, games, family interactions — and capture it all as it happens." },
+      { heading: "Dreamland Aqua Park Events", body: "Dreamland is UAQ's signature leisure venue and hosts many children's birthday events. We are experienced photographing in the Dreamland environment with the logistics and lighting it involves." },
+      { heading: "Waterfront Birthday Sessions", body: "The UAQ Corniche waterfront provides a naturally beautiful outdoor setting for birthday photography — open lagoon views, clean light, and no crowds." },
+      { heading: "Same-Day Preview Gallery", body: "10 to 15 preview images delivered same-day for social media, with the full edited gallery within 5 working days." },
+    ],
+    pricing: [
+      { pkg: "2-Hour Birthday Coverage", detail: "2 hrs / 60–80 images / online gallery", price: "From AED 850" },
+      { pkg: "Half-Day Coverage", detail: "4 hrs / 120–150 images / full event", price: "From AED 1,500" },
+      { pkg: "Full-Day Milestone", detail: "8 hrs / unlimited images / same-day previews", price: "From AED 2,500" },
+      { pkg: "Kids Party Package", detail: "2 hrs / + cake smash add-on option / 80 images", price: "From AED 1,100" },
+    ],
+    faqs: [
+      { q: "Do you travel to Umm Al Quwain for birthday photography?", a: "Yes. We cover birthday events across UAQ — home parties, Dreamland events, Corniche waterfront celebrations, and venue events. Travel is included for bookings above AED 1,200." },
+      { q: "Can you photograph at Dreamland Aqua Park?", a: "Yes. Dreamland is a popular venue for children's birthday events in UAQ. We are experienced photographing in the park environment and can coordinate coverage with venue logistics." },
+      { q: "How far in advance should I book birthday photography in UAQ?", a: "Home parties: 2 to 3 weeks typically sufficient. Venue events: 4 to 6 weeks ahead. Last-minute bookings are sometimes available on weekdays." },
+      { q: "How much does birthday photography cost in Umm Al Quwain?", a: "Two-hour coverage from AED 850. Half-day from AED 1,500. Full-day milestone from AED 2,500. Kids party packages from AED 1,100." },
+    ],
+  },
+
+  "umm-al-quwain/kids-photography": {
+    title: "Kids Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Children's photographer in Umm Al Quwain — family portraits, milestone sessions and kids photography at UAQ lagoon, mangroves and your home. From AED 900.",
+    h1: "Kids Photography in Umm Al Quwain",
+    subtitle: "UAQ Lagoon. Mangroves. Your home. Children's photography in UAQ's natural settings.",
+    category: "KIDS PHOTOGRAPHY",
+    intro: [
+      "Umm Al Quwain gives children access to natural environments that the more developed UAE emirates have largely lost to construction: open lagoon beaches, mangrove edges where children can explore, fishing harbour atmosphere, and outdoor spaces without crowds. Photography that captures your child in these environments — at a specific age, with their particular personality — creates images with a character and authenticity that posed studio portraits cannot achieve. Backyard Studio Official produces children's photography in UAQ that documents who your child actually is right now.",
+      "We follow the child's pace and comfort entirely. For young children, natural expressions happen when they are allowed to explore and play rather than posed and directed. UAQ's natural outdoor settings — lagoon, mangrove edge, open waterfront — create the kind of relaxed environment where children actually behave like themselves.",
+    ],
+    highlights: [
+      { heading: "UAQ Lagoon and Waterfront Sessions", body: "The lagoon waterfront and Corniche provide open, natural outdoor settings where children can play freely — producing authentic, joyful images without the crowds and distractions of more popular UAE photography locations." },
+      { heading: "Mangrove Nature Sessions", body: "UAQ's mangrove system is one of the UAE's most intact. The mangrove edge creates a naturally engaging exploration environment for children — textures, water, wildlife — and photography backdrops with real organic character." },
+      { heading: "Milestone Portrait Sessions", body: "First birthday, starting school, 10th birthday — milestone sessions at a specific moment in your child's development, with images that will remain meaningful for decades." },
+      { heading: "Home and Lifestyle Sessions", body: "Intimate home sessions across UAQ for images with the authenticity that outdoor settings often cannot match — the relationship with siblings, pets, the particular corners of childhood." },
+    ],
+    pricing: [
+      { pkg: "Mini Portrait Session", detail: "45 min / 1 child / 15 images", price: "From AED 900" },
+      { pkg: "Full Portrait Session", detail: "90 min / 2 looks / 30 images", price: "From AED 1,500" },
+      { pkg: "Siblings Session", detail: "90 min / multiple children / 35 images", price: "From AED 1,700" },
+      { pkg: "Family Portrait Session", detail: "2 hrs / full family / 40 images / 2 locations", price: "From AED 2,000" },
+    ],
+    faqs: [
+      { q: "What are the best locations for children's photography in Umm Al Quwain?", a: "The UAQ lagoon and Corniche waterfront for open natural outdoor sessions, the mangrove edge for nature exploration sessions, and home visits for intimate family and sibling photography across UAQ residential areas." },
+      { q: "Can you photograph children in UAQ's mangroves?", a: "Yes. The mangrove edge in UAQ creates an outstanding environment for children's photography — the natural texture, water, and exploration opportunities produce authentic, animated images that differ from typical beach or park sessions." },
+      { q: "How do you work with children who are reluctant in front of cameras?", a: "We follow the child's pace entirely. For young children we photograph them as they play rather than posing them — natural expressions happen when children are comfortable and engaged with their environment, not when they are told to perform for a camera." },
+      { q: "How much does children's photography cost in Umm Al Quwain?", a: "Mini sessions from AED 900. Full portrait sessions from AED 1,500. Sibling sessions from AED 1,700. Family portrait sessions from AED 2,000." },
+    ],
+  },
+
+  "umm-al-quwain/engagement-photography": {
+    title: "Engagement Photography in Umm Al Quwain 2026 | Backyard Studio Official",
+    metaDescription: "Engagement photographer in Umm Al Quwain — couple shoots and proposal photography at UAQ lagoon, mangroves and Corniche. Culturally respectful. From AED 1,800.",
+    h1: "Engagement Photography in Umm Al Quwain",
+    subtitle: "UAQ Lagoon. Mangroves. Corniche. Engagement photography away from the crowds.",
+    category: "ENGAGEMENT PHOTOGRAPHY",
+    intro: [
+      "Umm Al Quwain's engagement photography settings offer couples something increasingly difficult to find in the UAE: genuine privacy, natural surroundings, and a sense of space that crowded Dubai and Sharjah locations rarely provide. The UAQ Corniche runs alongside the lagoon without weekend crowds. The mangrove coastline provides green, organic settings with reflected water light. The lagoon at golden hour offers waterfront couple photography with warm light and open space. For couples who want engagement photography that feels intimate and natural rather than performed in front of crowds, UAQ is a real alternative.",
+      "We are experienced working with couples of all nationalities and backgrounds in the northern emirates, and we approach every session with full sensitivity to cultural and privacy requirements. The session structure is built around making the couple feel genuinely comfortable — not around producing images that look a certain way at the expense of the people in them.",
+    ],
+    highlights: [
+      { heading: "UAQ Lagoon at Golden Hour", body: "The lagoon waterfront at sunset — open water, soft golden light, no crowds — creates engagement photography with a naturally intimate character. The absence of background noise and visual clutter from urban development makes UAQ's waterfront sessions feel genuinely private." },
+      { heading: "Mangrove Romantic Settings", body: "The mangrove edge creates couple photography with organic green tones, reflected water, and natural texture — a romantic and visually distinctive setting unavailable in any more developed UAE emirate." },
+      { heading: "Private, Uncrowded Locations", body: "One of UAQ's genuine advantages for engagement photography is the absence of crowds. The locations that are beautiful in Dubai are often overcrowded on weekends. In UAQ, the same calibre of natural waterfront and outdoor setting is available without the audience." },
+      { heading: "Proposal Photography", body: "We position covertly at your chosen UAQ location to capture the genuine proposal moment and immediate reaction. All timing and positioning coordinated in advance with the proposing partner." },
+    ],
+    pricing: [
+      { pkg: "1-Location Session", detail: "90 min / 1 outfit / 30–40 edited images", price: "From AED 1,800" },
+      { pkg: "2-Location Session", detail: "2.5 hrs / 2 outfits / 50 images", price: "From AED 2,800" },
+      { pkg: "Golden Hour Lagoon Session", detail: "2 hrs / sunset / 40 images", price: "From AED 2,200" },
+      { pkg: "Proposal Photography", detail: "Covert coverage / full edited gallery", price: "From AED 2,000" },
+    ],
+    faqs: [
+      { q: "What are the best engagement photography locations in Umm Al Quwain?", a: "The UAQ lagoon waterfront at golden hour for open water and sunset light, the mangrove edge for green organic romantic settings, and the Corniche for uncrowded outdoor portraits. We recommend locations based on the couple's preferred aesthetic." },
+      { q: "Why choose UAQ for engagement photography over Dubai?", a: "Privacy and natural settings. UAQ's lagoon and mangrove locations provide the same quality of outdoor waterfront environment as Dubai's best spots but without crowds. The sense of space and intimacy is genuinely different." },
+      { q: "Do you photograph proposals in Umm Al Quwain?", a: "Yes. The lagoon waterfront and mangrove settings make beautiful proposal backdrops. We position covertly in advance to capture the moment authentically. All logistics are coordinated with the proposing partner before the day." },
+      { q: "How much does engagement photography cost in Umm Al Quwain?", a: "Single-location sessions from AED 1,800. Two-location sessions from AED 2,800. Golden hour lagoon sessions from AED 2,200. Proposal photography from AED 2,000." },
+    ],
+  },
+
+
 };
 
 // ─── Static params ────────────────────────────────────────────────────────────
