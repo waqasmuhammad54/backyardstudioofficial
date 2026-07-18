@@ -4,9 +4,9 @@ import { Check, ArrowRight, Phone } from "lucide-react";
 import { faqSchema, breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: { absolute: "Production Pricing Dubai 2026 | Costs & Packages" },
+  title: { absolute: "Video Production Pricing Dubai | 2026 Packages & Costs" },
   description:
-    "2026 production pricing for Dubai. Wedding from AED 7,500, DVCs from AED 15,000, Reels from AED 2,500, corporate films from AED 15,000. GCAA licensed.",
+    "Compare Dubai video production, photography, wedding, event, DVC, Reels and corporate film packages. See inclusions and request an itemised quote.",
   keywords: [
     "video production cost Dubai",
     "photography pricing Dubai UAE",
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "https://www.backyardstudioofficial.com/pricing" },
   openGraph: {
-    title: "Video & Photography Pricing Dubai 2026 | Backyard Studio Official",
-    description: "Transparent 2026 production pricing for Dubai. Wedding from AED 7,500, DVCs from AED 15,000, Reels from AED 2,500. Free quote in 2 hours.",
+    title: "Video Production Pricing Dubai | 2026 Packages & Costs",
+    description: "Compare video, photography, wedding, event, DVC, Reels and corporate film packages for Dubai and the UAE.",
     url: "https://www.backyardstudioofficial.com/pricing",
     siteName: "Backyard Studio Official",
     locale: "en_AE",
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Production Pricing Dubai UAE 2026 | Backyard Studio Official",
-    description: "Transparent pricing: weddings from AED 7,500, DVCs from AED 15,000, drone from AED 2,500. Free quote.",
+    title: "Video Production Pricing Dubai | 2026 Packages & Costs",
+    description: "Compare video, photography and production packages for Dubai and the UAE.",
     images: ["/og-image.jpg"],
   },
 };
@@ -390,9 +390,9 @@ export default function PricingPage() {
       {/* Header */}
       <div className="bg-[#111111] py-16 text-center border-b border-[#2a2a2a]">
         <p className="text-[#e8c547] text-xs tracking-[0.4em] uppercase font-semibold mb-3">TRANSPARENT PRICING</p>
-        <h1 className="font-display text-6xl md:text-7xl text-white">PRICING</h1>
+        <h1 className="font-display text-5xl md:text-7xl text-white">VIDEO PRODUCTION PRICING DUBAI</h1>
         <p className="text-[#a0a0a0] mt-4 max-w-xl mx-auto text-sm leading-relaxed">
-          Starting-point packages for every production type. All prices are in AED and exclude applicable VAT. Custom quotes within 2 hours.
+          Compare starting packages for video production, photography, weddings, events and brand content. Prices are in AED and exclude applicable VAT; final scope is confirmed in an itemised quote.
         </p>
         <div className="flex gap-4 justify-center mt-8">
           <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer" className="btn-gold">WhatsApp for Custom Quote</a>

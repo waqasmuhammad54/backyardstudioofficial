@@ -163,7 +163,7 @@ const SERVICE_PRICES: Record<string, string> = {
   "fashion-shoots": "2500",
   "hotel-photography": "3000",
   "brand-events": "5000",
-  "car-commercials": "8000",
+  "car-commercials": "25000",
   "tv-commercials": "25000",
   "corporate-brand-films": "15000",
 };
@@ -442,8 +442,8 @@ const SERVICE_DATA: Record<string, { title: string; description: string; include
     ],
   },
   "podcast": {
-    title: "Podcast Videography Dubai — Multi-Camera Studio Podcast Production UAE",
-    description: "Backyard Studio Official is Dubai's specialist podcast videography studio. We film multi-camera podcast episodes, video interview series, and long-form conversation content for YouTube, Spotify Video, LinkedIn, and social clip distribution — with broadcast-quality results at production-company speed.\n\nVideo podcasting has become one of the most powerful content formats for UAE businesses, thought leaders, and media brands. A well-produced video podcast builds authority, generates hours of evergreen content, and provides weeks of social media clips from a single recording session. Our podcast production packages are designed to maximise output while making your studio look as professional as any major media network.",
+    title: "Video Podcast Production Dubai — Multi-Camera Filming UAE",
+    description: "Backyard Studio Official produces multi-camera video podcasts, interview series, and long-form conversation content for YouTube, Spotify Video, LinkedIn, and social distribution. We film at client locations or partner studios in Dubai and handle cameras, audio, lighting, editing, and short-form clips.\n\nA well-produced video podcast can build authority and create weeks of reusable content from one recording session. Our podcast production packages are designed around each programme's format, publishing schedule, visual identity, and distribution needs.",
     includes: ["Multi-camera podcast setup (2–4 cameras)", "Professional broadcast audio (lavalier & condenser)", "Acoustic treatment & studio lighting", "Lower thirds, titles & branded graphics", "Full episode edit + social clip cuts", "Colour grade & audio mix", "Thumbnail photography", "Delivery within 48 hours"],
     faqs: [
       { q: "How many cameras do you use for podcast filming?", a: "Our standard podcast setup uses 3 cameras: a wide two-shot, and individual close-ups for each host/guest. For more complex setups with 3+ guests we add a fourth camera. Multi-angle footage gives you dynamic editing options and a professional broadcast feel." },
@@ -526,7 +526,7 @@ const SERVICE_DATA: Record<string, { title: string; description: string; include
     ],
   },
   "car-commercials": {
-    title: "Car Commercials Dubai — Automotive Brand Campaigns & Luxury Car Shoots UAE",
+    title: "Car Commercial Production Dubai — Cinematic Automotive Films UAE",
     description: "Backyard Studio Official produces high-impact car commercials and automotive brand campaigns for UAE dealerships, international automotive brands, and luxury car importers. From cinematic launch films for new model releases to performance-driving sequences in the Hatta mountains, and luxury car lifestyle campaigns that position vehicles as aspirational status symbols — our automotive commercial team understands what makes cars sell on screen.\n\nThe UAE is one of the world's most important automotive markets — and the visual standards expected by UAE car buyers are among the highest on the planet. Our car commercial productions are built to match that standard: cinematic, dynamic, and unmistakably premium.",
     includes: ["Automotive brand campaign concept & scripting", "Luxury car studio photography & video", "Dynamic on-road filming (camera car, drone, gimbal)", "GCAA drone aerial footage of vehicles", "Night and twilight car photography", "Performance driving sequence production", "Multi-format delivery (TVC, digital, social, OOH)", "Brand-compliant post-production & colour grade"],
     faqs: [
@@ -727,9 +727,9 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
     keywords: ["corporate videography Dubai", "corporate photography Dubai", "executive headshots Dubai", "business photography UAE", "corporate event photography Dubai", "LinkedIn video production Dubai"],
   },
   "podcast": {
-    title: "Podcast Videography Dubai | Multi-Camera Studio Podcast Production UAE — Backyard Studio",
-    description: "Professional podcast videography in Dubai. Multi-camera studio podcast filming, broadcast audio, social clip cutting, and full episode editing for UAE brands, creators and media companies.",
-    keywords: ["podcast videography Dubai", "podcast production Dubai", "video podcast studio Dubai", "podcast filming UAE", "multi-camera podcast Dubai", "podcast studio UAE"],
+    title: "Video Podcast Production Dubai | Multi-Camera Filming UAE",
+    description: "Multi-camera video podcast production in Dubai at your location or a partner studio, including professional audio, episode editing and social clips.",
+    keywords: ["video podcast production Dubai", "video podcast production UAE", "podcast videography Dubai", "podcast filming UAE", "multi-camera podcast Dubai", "podcast production company UAE"],
   },
   "youtube-content": {
     title: "YouTube Videography Dubai | Professional YouTube Video Production UAE — Backyard Studio",
@@ -767,9 +767,9 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
     keywords: ["TV commercial production Dubai", "TVC production Dubai", "brand commercial Dubai", "commercial ad production UAE", "TV advertisement Dubai", "broadcast production company Dubai"],
   },
   "car-commercials": {
-    title: "Car Commercials Dubai | Automotive Brand Campaigns & Luxury Car Shoots UAE — Backyard Studio",
-    description: "Cinematic car commercial production in Dubai. Automotive brand campaigns, luxury car shoots, dynamic on-road filming, and GCAA drone aerials for UAE dealerships and international auto brands.",
-    keywords: ["car commercial Dubai", "automotive commercial production UAE", "luxury car photography Dubai", "automotive brand campaign Dubai", "car shoot Dubai", "vehicle commercial production UAE"],
+    title: "Car Commercial Production Dubai | Automotive Films UAE",
+    description: "Cinematic car commercials and automotive campaign production in Dubai, including luxury car shoots, controlled driving sequences and multi-format brand films.",
+    keywords: ["car commercial production Dubai", "cinematic car commercial", "automotive commercial production UAE", "luxury car photography Dubai", "car launch film UAE", "vehicle commercial production UAE"],
   },
   "corporate-brand-films": {
     title: "Corporate Brand Films Dubai | Company Profile Videos & Office Branding UAE — Backyard Studio",
