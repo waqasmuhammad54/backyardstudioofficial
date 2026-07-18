@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Camera, Film, Star, MapPin, BookOpen, Globe } from "lucide-react";
-import { breadcrumbSchema, faqSchema, speakableSchema, itemListSchema } from "@/lib/structuredData";
+import { breadcrumbSchema, faqSchema, itemListSchema } from "@/lib/structuredData";
 
 const PAGE_URL = "https://www.backyardstudioofficial.com/weddings";
 
 export const metadata: Metadata = {
   title: { absolute: "Wedding Photography Dubai | Packages & Films" },
   description:
-    "Wedding photography and cinematic films from AED 1,799. Pre-wedding shoots, flying dress, packages across all 7 UAE emirates.",
+    "Wedding photography and cinematic films from AED 7,500. Pre-wedding shoots, flying dress, packages across all 7 UAE emirates.",
   keywords: [
     "wedding photography Dubai",
     "wedding videographer Dubai",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   alternates: { canonical: PAGE_URL },
   openGraph: {
     title: "Weddings — Dubai & UAE Wedding Photography & Films | Backyard Studio Official",
-    description: "Wedding photography, cinematic films, pre-wedding shoots & packages across all 7 UAE emirates. From AED 1,799.",
+    description: "Wedding photography, cinematic films, pre-wedding shoots & packages across all 7 UAE emirates. From AED 7,500.",
     url: PAGE_URL,
     siteName: "Backyard Studio Official",
     locale: "en_AE",
@@ -32,17 +32,17 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Weddings — Dubai & UAE | Backyard Studio Official",
-    description: "Photography, films, pre-wedding & packages across all 7 emirates. From AED 1,799.",
+    description: "Photography, films, pre-wedding & packages across all 7 emirates. From AED 7,500.",
     images: ["/images/wedding/wedding-01.webp"],
   },
 };
 
 const SERVICES = [
-  { icon: Camera, href: "/services/wedding-photography", title: "Wedding Photography Dubai", desc: "Packages from AED 1,799 — every tier from affordable photography to multi-day productions." },
-  { icon: Film, href: "/services/wedding-videography", title: "Wedding Videography", desc: "Cinematic films by a production house — cinema cameras, clean vow audio, GCAA drone." },
+  { icon: Camera, href: "/services/wedding-photography", title: "Wedding Photography Dubai", desc: "Packages from AED 7,500 — every tier from affordable photography to multi-day productions." },
+  { icon: Film, href: "/services/wedding-videography", title: "Wedding Videography", desc: "Coordinated wedding films with package-specific crew, edits and delivery terms." },
   { icon: Star, href: "/services/pre-wedding-shoot", title: "Pre-Wedding Shoots", desc: "Desert, Burj Khalifa & beach couple sessions from AED 1,500, planned around golden hour." },
   { icon: Star, href: "/services/flying-dress-photoshoot", title: "Flying Dress Photoshoot", desc: "Dubai's iconic flying dress experience from AED 1,499 — dress included." },
-  { icon: Camera, href: "/services/affordable-wedding-photography", title: "Affordable Wedding Photography", desc: "The Essential package: AED 1,799, studio standards, no hidden fees." },
+  { icon: Camera, href: "/services/affordable-wedding-photography", title: "Affordable Wedding Photography", desc: "The Essential package: AED 7,500, studio standards, no hidden fees." },
   { icon: MapPin, href: "/services/wedding-photography-abu-dhabi", title: "Wedding Photographer Abu Dhabi", desc: "Emirates Palace to Yas Island at Dubai prices — zero travel fees." },
   { icon: BookOpen, href: "/wedding-packages", title: "Wedding Packages & Prices 2026", desc: "Every package compared, with USD & INR conversions and add-on pricing." },
 ];
@@ -88,11 +88,11 @@ const INTL_GUIDES = [
 const FAQS = [
   {
     q: "What wedding services does Backyard Studio Official offer in the UAE?",
-    a: "We cover the complete wedding production stack: wedding photography (from AED 1,799), cinematic wedding videography, pre-wedding couple shoots, flying dress photoshoots, henna and mehndi night coverage, and GCAA-licensed drone aerials — across Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah, and Umm Al Quwain with no travel fees.",
+    a: "We cover wedding photography and videography, pre-wedding couple shoots, flying-dress photoshoots, henna and mehndi coverage across Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah and Umm Al Quwain. Any aerial or venue-permission requirements are confirmed for the specific location.",
   },
   {
     q: "How much does a wedding photographer cost in Dubai and the UAE?",
-    a: "Backyard Studio packages run from AED 1,799 (Essential — photography only) through AED 3,500 (Silver, photo + video), AED 8,500 (Gold full-day with drone and same-day teaser) to AED 18,000+ (Platinum multi-day). Prices are identical in every emirate.",
+    a: "Current combined photo and video packages are AED 7,500 for Essential, AED 15,500 for Silver, AED 22,500 for Gold and AED 65,000 for Platinum. The package page lists the current crew, hours, edits, albums and delivery terms.",
   },
   {
     q: "Do you serve couples who don't speak English?",
@@ -100,7 +100,7 @@ const FAQS = [
   },
   {
     q: "How fast do we get our wedding photos and film?",
-    a: "Same-day teaser on Gold and Platinum packages, and the complete edited gallery plus highlight film within 48 hours — contractually guaranteed in every emirate.",
+    a: "Essential, Silver and Gold currently list final delivery in 10–15 working days, with RAW data delivered the same day. Platinum timing is confirmed from the event duration and deliverables.",
   },
 ];
 
@@ -110,7 +110,6 @@ export default function WeddingsHubPage() {
     { name: "Weddings", url: PAGE_URL },
   ]);
   const faqs = faqSchema(FAQS.map((f) => ({ question: f.q, answer: f.a })));
-  const speakable = speakableSchema(PAGE_URL, ["h1", "h2", ".speakable"]);
   const servicesList = itemListSchema(
     SERVICES.map((s) => ({ name: s.title, url: "https://www.backyardstudioofficial.com" + s.href, description: s.desc }))
   );
@@ -119,7 +118,6 @@ export default function WeddingsHubPage() {
     <div className="pt-24">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqs) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakable) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesList) }} />
 
       {/* Hero */}
@@ -135,8 +133,8 @@ export default function WeddingsHubPage() {
       <section className="section-pad" style={{ background: "var(--black)" }}>
         <div className="container-xl">
           <div className="max-w-3xl space-y-5 mb-14">
-            <p className="text-silver/70 leading-relaxed text-base speakable">
-              This is everything Backyard Studio Official does for weddings in Dubai and across the UAE — photography from AED 1,799, cinematic films, pre-wedding shoots, the flying dress experience, transparent packages, and 20+ planning guides written by our team in four languages. Founders Fahad Iqbal Butt and Syed Mazhar Zaidi have led 2,400+ productions; weddings are the work we are proudest of.
+            <p className="text-silver/70 leading-relaxed text-base">
+              Explore Backyard Studio Official&apos;s wedding photography, videography, pre-wedding shoots, flying-dress experience, current packages and planning guides for Dubai and all seven UAE emirates.
             </p>
           </div>
 
@@ -154,8 +152,8 @@ export default function WeddingsHubPage() {
 
           {/* Emirates */}
           <h2 className="font-display text-4xl text-cream mb-3">WEDDING PHOTOGRAPHER IN EVERY EMIRATE</h2>
-          <p className="text-silver/60 text-sm mb-8 speakable">
-            Same packages, same 48-hour delivery, zero travel fees — dedicated coverage pages for each emirate:
+          <p className="text-silver/60 text-sm mb-8">
+            Explore dedicated coverage pages for each emirate; final travel, venue and permission requirements are confirmed in your written proposal:
           </p>
           <div className="flex flex-wrap gap-3 mb-16">
             <Link href="/services/wedding-photography" className="px-5 py-3 border text-sm text-silver/70 hover:text-gold hover:border-gold transition-colors" style={{ borderColor: "var(--gold)", background: "var(--black-2)" }}>

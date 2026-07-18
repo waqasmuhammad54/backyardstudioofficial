@@ -56,7 +56,7 @@ const HOME_FAQS = [
   },
   {
     question: "How much does video production cost in the UAE?",
-    answer: "Video production costs in the UAE range from AED 2,500 for social media reels to AED 500,000+ for high-end DVCs or brand films. Wedding photography and videography packages start from AED 3,500. Backyard Studio Official offers transparent pricing and a free quote within 2 hours.",
+    answer: "Video production costs in the UAE range from AED 2,500 for social media reels to AED 500,000+ for high-end DVCs or brand films. Wedding photography and videography packages currently start from AED 7,500. Backyard Studio Official confirms final scope in an itemised quote.",
   },
   {
     question: "Does Backyard Studio do social media content and Instagram Reels in Dubai?",
@@ -94,7 +94,7 @@ const HOME_FAQS = [
 
 const HOME_SERVICES_LIST = [
   { name: "Event Photography & Videography Dubai", url: "https://www.backyardstudioofficial.com/services/event-shoots", description: "Professional event photography and videography across Dubai and UAE from AED 2,000." },
-  { name: "Wedding Photography & Videography Dubai", url: "https://www.backyardstudioofficial.com/services/photo-shoots", description: "Cinematic wedding photography and videography packages from AED 3,500." },
+  { name: "Wedding Photography & Videography Dubai", url: "https://www.backyardstudioofficial.com/services/wedding-photography", description: "Wedding photography and videography packages from AED 7,500." },
   { name: "Digital Video Commercials (DVC) Dubai", url: "https://www.backyardstudioofficial.com/services/dvcs", description: "Professional DVC production in Dubai from AED 8,000. Social media, broadcast and digital." },
   { name: "Instagram Reels & TikTok Production Dubai", url: "https://www.backyardstudioofficial.com/services/reels", description: "Algorithm-first Reels and TikTok content for UAE brands from AED 2,500." },
   { name: "Social Media Content Creation Dubai", url: "https://www.backyardstudioofficial.com/services/social-media-content", description: "Full-service social media content creation for UAE brands from AED 2,500." },

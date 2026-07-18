@@ -3,14 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Check, ArrowUpRight } from "lucide-react";
 import VimeoEmbed from "@/components/shared/VimeoEmbed";
-import { breadcrumbSchema, faqSchema, servicePageSchema, speakableSchema } from "@/lib/structuredData";
+import { breadcrumbSchema, faqSchema, servicePageSchema } from "@/lib/structuredData";
 
 const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-videography";
 
 export const metadata: Metadata = {
   title: "Wedding Videographer Dubai | Cinematic Wedding Videography UAE — Backyard Studio Official",
   description:
-    "Dubai's best wedding videographer — a real production house, not a photographer with a camera. Cinematic wedding films from AED 3,500, GCAA drone aerials, same-day teaser, 48-hour delivery. Wedding videography across Dubai, Abu Dhabi & all UAE.",
+    "Wedding videography in Dubai with coordinated photography and video crews. Current combined packages start from AED 7,500, with scope confirmed in writing.",
   keywords: [
     "wedding videographer Dubai",
     "wedding videography UAE",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Wedding Videographer Dubai | Cinematic Wedding Films — Backyard Studio Official",
     description:
-      "Cinematic wedding films from AED 3,500 — cinema cameras, GCAA drone, same-day teaser, 48-hour delivery. Dubai, Abu Dhabi & all UAE.",
+      "Wedding videography and photography packages for Dubai and the UAE, with current crew, deliverables and delivery terms.",
     url: PAGE_URL,
     siteName: "Backyard Studio Official",
     locale: "en_AE",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Wedding Videographer Dubai — Backyard Studio Official",
-    description: "Cinematic wedding films, GCAA drone, 48-hour delivery. Dubai & all UAE.",
+    description: "Wedding videography and photography packages for Dubai and all UAE emirates.",
     images: ["/images/wedding/wedding-03.webp"],
   },
 };
@@ -45,19 +45,19 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: "How much does wedding videography cost in the UAE?",
-    a: "Wedding videography in the UAE costs between AED 2,000 and AED 30,000+ depending on crew, gear, and film length. Backyard Studio Official's packages start at AED 3,500 (videographer + photographer, 3-minute highlight film) and AED 8,500 for full-day coverage with 2 videographers, GCAA drone aerials, a 5–8 minute cinematic film, and a same-day teaser. Multi-day Indian and destination weddings start at AED 18,000.",
+    a: "Backyard Studio Official's combined wedding photography and videography packages currently start at AED 7,500. Silver is AED 15,500, Gold is AED 22,500 and Platinum is AED 65,000; the package page lists the current crew and deliverables for each tier.",
   },
   {
     q: "What makes Backyard Studio different from other wedding videographers in Dubai?",
-    a: "Most Dubai wedding videographers are photographers who added video. Backyard Studio Official is a production company first — the same team that delivers DVCs, TV commercials, and brand films for UAE businesses brings cinema cameras, professional audio, licensed drone pilots, and colour-graded post-production to your wedding. Founders Fahad Iqbal Butt and Syed Mazhar Zaidi have overseen 2,400+ productions.",
+    a: "Backyard Studio is a production company offering coordinated camera, audio and post-production for wedding films. Your proposal specifies the assigned crew, video outputs, revisions and delivery schedule before booking.",
   },
   {
     q: "Do your wedding videography packages include drone footage?",
-    a: "Yes. Gold (AED 8,500) and Platinum (AED 18,000+) packages include aerial drone cinematography, and our pilots are GCAA licensed — required by UAE law for commercial drone work. Many videographers fly unlicensed; if your venue asks for permits, an unlicensed operator cannot legally film your wedding aerials.",
+    a: "Aerial filming depends on the selected package, venue and permissions. Share the location when requesting a quote so the production team can confirm feasibility, permits and any additional cost in writing.",
   },
   {
     q: "How long until we receive our wedding film?",
-    a: "Your same-day teaser is ready for Instagram within hours of the event (Gold and Platinum). The full edited highlight film and complete footage are delivered within 48 hours — contractually guaranteed. The UAE industry standard is 4–8 weeks.",
+    a: "Essential, Silver and Gold currently list final delivery in 10–15 working days, with RAW data delivered the same day. Platinum timing is confirmed from the event duration and deliverables.",
   },
   {
     q: "What is included in a cinematic wedding highlight film?",
@@ -80,23 +80,23 @@ const FAQS = [
 const PACKAGES = [
   {
     name: "Silver",
-    price: "AED 3,500",
+    price: "AED 15,500",
     label: "Half-Day Film",
-    includes: ["1 videographer + 1 photographer", "4 hours of coverage", "3-minute highlight film", "150–200 edited photos", "Licensed music & colour grade", "48-hour delivery"],
+    includes: ["2 videographers + 2 photographers", "3 hours of coverage", "70–100 edited photos", "Full event edited video", "Event highlights edit", "10–15 working days delivery", "RAW data delivered same day"],
     featured: false,
   },
   {
     name: "Gold",
-    price: "AED 8,500",
+    price: "AED 22,500",
     label: "Full-Day Cinematic — Most Popular",
-    includes: ["2 videographers + 2 photographers", "10 hours of coverage", "Cinematic highlight film (5–8 min)", "GCAA drone aerials", "Same-day teaser clip", "Multi-camera ceremony + clean vow audio", "400–600 edited photos", "48-hour full delivery"],
+    includes: ["2 videographers + 2 photographers", "3 hours of coverage", "Full event video + highlights", "3 edited Reels", "Couple photo and song-video shoot", "Documentary story film + interview", "1 printed album with box", "10–15 working days delivery", "RAW data delivered same day"],
     featured: true,
   },
   {
     name: "Platinum",
-    price: "AED 18,000+",
+    price: "AED 65,000",
     label: "Multi-Day Feature Film",
-    includes: ["Full multi-day coverage", "3+ camera crew", "Full-length wedding film + highlights", "Same-day reel for social media", "Drone at every location", "Speeches & full ceremony edits", "1,000+ edited photos", "Pre-wedding shoot included"],
+    includes: ["3 photographers + 3 videographers", "Documentary interview film", "3–5 hours of coverage", "2 printed albums with boxes", "3–5 edited Reels", "Soft-copy USB", "Delivery confirmed from event duration"],
     featured: false,
   },
 ];
@@ -109,19 +109,17 @@ export default function WeddingVideographyPage() {
   ]);
   const service = servicePageSchema({
     name: "Wedding Videography Dubai",
-    description: "Cinematic wedding videography in Dubai and across the UAE — cinema cameras, GCAA drone aerials, same-day teaser, 48-hour delivery. From AED 3,500.",
+    description: "Wedding videography and photography packages in Dubai and across the UAE, with current combined packages from AED 7,500.",
     url: PAGE_URL,
-    price: "3500",
+    price: "7500",
   });
   const faqs = faqSchema(FAQS.map((f) => ({ question: f.q, answer: f.a })));
-  const speakable = speakableSchema(PAGE_URL, ["h1", "h2", ".speakable"]);
 
   return (
     <div className="pt-24">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(service) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqs) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakable) }} />
 
       {/* Hero */}
       <div className="relative h-[60vh] min-h-[420px] overflow-hidden">
@@ -131,7 +129,7 @@ export default function WeddingVideographyPage() {
           <Link href="/services" className="inline-flex items-center gap-2 text-silver/60 hover:text-gold transition-colors text-xs mb-4">
             <ArrowLeft size={14} /> All Services
           </Link>
-          <p className="eyebrow mb-3">A Production House for Your Wedding · GCAA Drone · 48-Hour Delivery</p>
+          <p className="eyebrow mb-3">Coordinated Photo + Video · Current Packages · UAE-Wide Coverage</p>
           <h1 className="font-display text-[clamp(2.5rem,7vw,6rem)] leading-none text-cream">WEDDING VIDEOGRAPHER DUBAI</h1>
         </div>
       </div>
@@ -139,8 +137,8 @@ export default function WeddingVideographyPage() {
       <section className="section-pad" style={{ background: "var(--black)" }}>
         <div className="container-xl grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-2 space-y-6">
-            <p className="text-silver/70 leading-relaxed text-base speakable">
-              Backyard Studio Official is the wedding videographer Dubai couples book when the film matters as much as the day itself. Wedding videography packages start at AED 3,500 and every film is shot on cinema cameras by a crew from a working production house — the same team behind 2,400+ commercial productions, DVCs, and brand films across the UAE. Same-day teaser, GCAA-licensed drone aerials, and your full cinematic film delivered in 48 hours.
+            <p className="text-silver/70 leading-relaxed text-base">
+              Backyard Studio Official provides coordinated wedding videography and photography across Dubai and all seven UAE emirates. Current combined packages start at AED 7,500, with crew size, coverage, video edits, albums and delivery timing listed before you enquire.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
               Here is the difference most couples discover too late: the majority of wedding videographers in Dubai are photographers who bought a second camera. We come from the other direction — film production first. That means multi-camera ceremony coverage with clean audio of your vows, colour-graded footage that matches from drone to dancefloor, and an editor who cuts story, not slideshows. We have filmed weddings we shot DVCs for the venue the week before — founders Fahad Iqbal Butt and Syed Mazhar Zaidi hold every wedding film to commercial standard.
@@ -149,8 +147,8 @@ export default function WeddingVideographyPage() {
             {/* Packages */}
             <div className="mt-12">
               <h2 className="font-display text-4xl text-cream mb-3">WEDDING VIDEOGRAPHY PACKAGES &amp; COST</h2>
-              <p className="text-silver/60 text-sm mb-8 speakable">
-                Wedding videography in the UAE from AED 3,500 — every package includes photography too, so one team covers your entire day. No travel fees in any emirate.
+              <p className="text-silver/60 text-sm mb-8">
+                Wedding videography in the UAE from AED 15,500 — every package includes photography too, so one team covers your entire day. No travel fees in any emirate.
               </p>
               <div className="grid md:grid-cols-3 gap-4">
                 {PACKAGES.map((pkg) => (
@@ -190,10 +188,10 @@ export default function WeddingVideographyPage() {
                 {[
                   ["Cinema cameras + backups", "Full-frame cinema bodies with backup gear on-site. A failed card or camera never costs you a moment."],
                   ["Clean vow audio", "Wireless lavaliers and a dedicated audio recorder — you hear your vows, not the air conditioning."],
-                  ["GCAA-licensed drone pilots", "Legal aerial cinematography at any UAE venue, with permits handled by us."],
+                  ["Permit-aware production planning", "Venue permissions and any aerial requirements are confirmed for the specific location before booking."],
                   ["Commercial-grade editing", "Colour grading, licensed music, and story-driven cuts from editors who deliver TV commercials weekly."],
                   ["Same-day teaser", "A 30–60 second edit ready for Instagram before your reception ends."],
-                  ["48-hour delivery", "Your full film and gallery in 2 days, contractually guaranteed — not 2 months."],
+                  ["Written delivery schedule", "Your proposal states the agreed delivery timeline and package-specific outputs before booking."],
                 ].map(([title, desc]) => (
                   <div key={title} className="p-5 border" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
                     <p className="text-cream font-semibold text-sm mb-1">{title}</p>
@@ -252,9 +250,9 @@ export default function WeddingVideographyPage() {
             </div>
             <div className="p-6 border" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
               <div className="w-2 h-2 rounded-full mb-3" style={{ background: "var(--gold)" }} />
-              <p className="text-[0.65rem] tracking-widest uppercase mb-1" style={{ color: "var(--gold)" }}>Productions Delivered</p>
-              <p className="font-display text-3xl text-cream">2,400+</p>
-              <p className="text-xs mt-1" style={{ color: "var(--muted)" }}>Weddings, DVCs, commercials &amp; films</p>
+              <p className="text-[0.65rem] tracking-widest uppercase mb-1" style={{ color: "var(--gold)" }}>Booking Clarity</p>
+              <p className="font-display text-2xl text-cream">WRITTEN SCOPE</p>
+              <p className="text-xs mt-1" style={{ color: "var(--muted)" }}>Crew, deliverables and timing confirmed before booking</p>
             </div>
             <div className="p-6 border" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
               <p className="text-[0.65rem] tracking-widest uppercase mb-3" style={{ color: "var(--muted)" }}>Related services</p>
@@ -262,7 +260,7 @@ export default function WeddingVideographyPage() {
                 <Link href="/services/wedding-photography" className="block text-silver/70 hover:text-gold transition-colors">Wedding Photography →</Link>
                 <Link href="/services/pre-wedding-shoot" className="block text-silver/70 hover:text-gold transition-colors">Pre-Wedding Shoots →</Link>
                 <Link href="/wedding-packages" className="block text-silver/70 hover:text-gold transition-colors">Wedding Packages &amp; Prices →</Link>
-                <Link href="/services/aerial-drone" className="block text-silver/70 hover:text-gold transition-colors">Aerial Drone (GCAA) →</Link>
+                <Link href="/services/aerial-drone" className="block text-silver/70 hover:text-gold transition-colors">Aerial Filming Options →</Link>
               </div>
             </div>
           </div>

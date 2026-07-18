@@ -34,7 +34,7 @@ const SERVICES_FAQS = [
   },
   {
     question: "What are the prices for production services in Dubai?",
-    answer: "Backyard Studio Official's production services start from AED 1,500 for product photography, AED 2,000 for event photography, AED 2,500 for Instagram Reels or drone sessions, AED 3,500 for wedding photography packages, AED 5,000 for corporate films, and AED 8,000+ for DVCs and TV commercials. We offer transparent pricing with free quotes within 2 hours.",
+    answer: "Backyard Studio Official's production services start from AED 1,500 for product photography, AED 2,000 for event photography, AED 2,500 for Instagram Reels or drone sessions, AED 7,500 for wedding photography and videography packages, AED 5,000 for corporate films, and AED 8,000+ for DVCs and TV commercials. Final scope is confirmed in an itemised quote.",
   },
   {
     question: "Is Backyard Studio licensed for drone filming across all UAE emirates?",
@@ -52,7 +52,7 @@ const SERVICES_FAQS = [
 
 const SERVICES_ITEM_LIST = [
   { name: "Event Videography & Photography Dubai", url: "https://www.backyardstudioofficial.com/services/event-videography", description: "Full event coverage across all UAE emirates." },
-  { name: "Wedding Photography & Videography Dubai", url: "https://www.backyardstudioofficial.com/services/photo-shoots", description: "Cinematic wedding shoots from AED 3,500." },
+  { name: "Wedding Photography & Videography Dubai", url: "https://www.backyardstudioofficial.com/services/wedding-photography", description: "Wedding photography and videography packages from AED 7,500." },
   { name: "DVCs Digital Video Commercials Dubai", url: "https://www.backyardstudioofficial.com/services/dvcs", description: "High-production DVCs from AED 8,000." },
   { name: "Instagram Reels Production Dubai", url: "https://www.backyardstudioofficial.com/services/reels-production", description: "Algorithm-optimised Reels from AED 2,500." },
   { name: "TikTok Content Creation Dubai", url: "https://www.backyardstudioofficial.com/services/social-media-content", description: "Monthly TikTok content packages for UAE brands." },
@@ -71,11 +71,11 @@ const SERVICES_ITEM_LIST = [
 
 const SERVICES = [
   // Weddings
-  { icon: Camera,       slug: "wedding-photography",     label: "Wedding Photography Dubai",              desc: "Wedding photoshoot packages from AED 1,799 — affordable to premium, photo + video, GCAA drone, 48-hour delivery." },
+  { icon: Camera,       slug: "wedding-photography",     label: "Wedding Photography Dubai",              desc: "Current photo and video packages from AED 7,500, with crew, deliverables and delivery terms listed clearly." },
   { icon: Film,         slug: "wedding-videography",     label: "Wedding Videography",                    desc: "Cinematic wedding films by a real production house — cinema cameras, clean vow audio, drone aerials across UAE." },
   { icon: Star,         slug: "pre-wedding-shoot",       label: "Pre-Wedding Shoots",                     desc: "Desert, Burj Khalifa, Madinat Jumeirah & beach pre-wedding photoshoots from AED 1,500 with golden-hour planning." },
   { icon: Image,        slug: "flying-dress-photoshoot", label: "Flying Dress Photoshoot",                desc: "Dubai's iconic flying dress experience from AED 1,499 — dress included, desert & beach locations, 48-hour delivery." },
-  { icon: Camera,       slug: "affordable-wedding-photography", label: "Affordable Wedding Photography",  desc: "Budget wedding photoshoots from AED 1,799 — studio standards, 100+ edited photos, no hidden fees." },
+  { icon: Camera,       slug: "affordable-wedding-photography", label: "Wedding Package Guide",  desc: "Compare the Essential package and learn what to check before choosing a lower-cost wedding production option." },
   { icon: MapPin,       slug: "wedding-photography-abu-dhabi",  label: "Wedding Photographer Abu Dhabi",  desc: "Emirates Palace, Saadiyat & Yas Island wedding coverage at Dubai prices — zero travel fees." },
   // Photography & Videography Verticals
   { icon: Camera,       slug: "event-videography",      label: "Event Videography & Photography",        desc: "Full-service event coverage — galas, conferences, brand launches, and weddings across all UAE emirates." },

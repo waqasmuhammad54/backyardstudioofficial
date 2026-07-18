@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Check, ArrowUpRight } from "lucide-react";
-import { breadcrumbSchema, faqSchema, speakableSchema, itemListSchema } from "@/lib/structuredData";
+import { breadcrumbSchema, faqSchema, itemListSchema } from "@/lib/structuredData";
 
 const PAGE_URL = "https://www.backyardstudioofficial.com/wedding-packages";
 
 export const metadata: Metadata = {
-  title: "Wedding Photoshoot Dubai Packages & Prices 2026 | From AED 1,799 — Backyard Studio Official",
+  title: "Wedding Photography Packages Dubai | Prices 2026",
   description:
-    "Wedding photoshoot in Dubai — packages & prices 2026. Affordable photography from AED 1,799 (≈ $490 / ₹41,000), photo + video from AED 3,500, full-day from AED 8,500. GCAA drone, same-day teaser, 48-hour delivery. Compare every wedding shoot package & add-ons.",
+    "Compare current Dubai wedding photography and videography packages from AED 7,500, including crew, coverage, edits, albums and delivery details.",
   keywords: [
     "wedding photoshoot in Dubai packages",
     "wedding photoshoot in Dubai price",
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: "Wedding Photoshoot Dubai — Packages & Prices 2026 | Backyard Studio Official",
+    title: "Wedding Photography Packages Dubai | Prices 2026",
     description:
-      "Wedding packages from AED 1,799 — affordable photography to multi-day productions. Full price tables, add-ons, INR/USD guide.",
+      "Compare current photo and video wedding packages from AED 7,500 to AED 65,000, with inclusions and delivery details.",
     url: PAGE_URL,
     siteName: "Backyard Studio Official",
     locale: "en_AE",
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Wedding Photoshoot Dubai Packages & Prices 2026",
-    description: "From AED 1,799 — affordable to multi-day, GCAA drone, 48-hour delivery.",
+    title: "Wedding Photography Packages Dubai | Prices 2026",
+    description: "Compare current photo and video wedding packages, inclusions and delivery details.",
     images: ["/images/wedding/wedding-08.webp"],
   },
 };
@@ -48,69 +48,75 @@ export const metadata: Metadata = {
 const PACKAGES = [
   {
     name: "Essential",
-    price: "AED 1,799",
-    intl: "≈ USD 490 · INR 41,000",
-    label: "Affordable Photography",
-    desc: "Our budget-friendly wedding photoshoot — professional photography for intimate ceremonies and court weddings.",
+    price: "AED 7,500",
+    intl: "Photography + videography",
+    label: "Intimate Coverage",
+    desc: "Professional photo and video coverage for intimate ceremonies and court weddings.",
     includes: [
       "1 professional photographer",
+      "1 videographer",
       "3 hours of coverage",
-      "100+ edited high-resolution photos",
-      "Online delivery gallery",
-      "48-hour delivery",
-      "Add videography from AED 1,200",
+      "30–40 edited photos",
+      "Online drive link for photos + RAW data",
+      "Full event edited video (1920×1080)",
+      "10–15 working days delivery",
+      "RAW data delivered same day",
     ],
     featured: false,
   },
   {
     name: "Silver",
-    price: "AED 3,500",
-    intl: "≈ USD 950 · INR 80,000",
+    price: "AED 15,500",
+    intl: "2 photographers + 2 videographers",
     label: "Half-Day Coverage",
-    desc: "Civil ceremonies, nikah ceremonies, court weddings, and intimate celebrations up to 4 hours.",
+    desc: "A coordinated four-person crew for civil ceremonies, nikahs and intimate celebrations.",
     includes: [
-      "1 photographer + 1 videographer",
-      "4 hours of coverage",
-      "150–200 edited high-resolution photos",
-      "3-minute highlight video",
-      "Online delivery gallery",
-      "48-hour delivery",
+      "2 professional photographers",
+      "2 videographers",
+      "3 hours of coverage",
+      "70–100 edited photos",
+      "Full event edited video (1920×1080)",
+      "Event highlights edit",
+      "10–15 working days delivery",
+      "RAW data delivered same day",
     ],
     featured: false,
   },
   {
     name: "Gold",
-    price: "AED 8,500",
-    intl: "≈ USD 2,300 · INR 195,000",
+    price: "AED 22,500",
+    intl: "Photo, video, album, Reels + couple shoot",
     label: "Full-Day Wedding — Most Popular",
-    desc: "Our most-booked package: full wedding day from bridal prep to reception send-off.",
+    desc: "A complete photo, video, album, highlights, Reels and couple-shoot package.",
     includes: [
-      "2 photographers + 2 videographers",
-      "10 hours of coverage",
-      "400–600 edited photos",
-      "Cinematic highlight film (5–8 min)",
-      "Aerial drone footage (GCAA licensed)",
-      "Same-day teaser clip for Instagram",
-      "48-hour full delivery",
-      "Pre-wedding consultation",
+      "2 professional photographers",
+      "2 videographers",
+      "3 hours of coverage",
+      "1 edited, designed and printed album with box",
+      "Full event video + event highlights",
+      "3 edited Reels",
+      "Couple photo and song-video shoot",
+      "Documentary-style story film + interview",
+      "10–15 working days delivery",
+      "RAW data delivered same day",
     ],
     featured: true,
   },
   {
     name: "Platinum",
-    price: "AED 18,000+",
-    intl: "≈ USD 4,900 · INR 4.1 lakh+",
+    price: "AED 65,000",
+    intl: "3 photographers + 3 videographers",
     label: "Premium Multi-Day",
-    desc: "Indian and Pakistani multi-day weddings, destination celebrations, and large productions.",
+    desc: "A premium production with dedicated portrait, album, candid, video and documentary coverage.",
     includes: [
-      "Full multi-day coverage (mehndi, baraat, walima)",
-      "3+ photographers & videographers",
-      "1,000+ edited photo gallery",
-      "Full-length wedding film + highlights",
-      "Same-day reel for social media",
-      "Aerial drone — all locations",
-      "Pre-wedding shoot included free",
-      "48-hour delivery guarantee",
+      "3 professional photographers: portrait, album and candid",
+      "3 videographers",
+      "Documentary-style interview film",
+      "3–5 hours of coverage",
+      "2 edited, designed and printed albums with boxes",
+      "3–5 edited Reels",
+      "Soft-copy USB",
+      "Delivery timeline confirmed from the event duration",
     ],
     featured: false,
   },
@@ -129,19 +135,19 @@ const ADDONS = [
 const FAQS = [
   {
     q: "How much does a wedding photoshoot in Dubai cost?",
-    a: "A wedding photoshoot in Dubai costs AED 1,500–25,000+ depending on coverage. At Backyard Studio Official: AED 1,799 for our affordable Essential package (photography only, 100+ edited photos), AED 3,500 for half-day photo + video, AED 8,500 for a full wedding day (2+2 crew, drone, same-day teaser), and AED 18,000+ for multi-day Indian/destination weddings.",
+    a: "Backyard Studio Official's current wedding photography and videography packages are AED 7,500 for Essential, AED 15,500 for Silver, AED 22,500 for Gold, and AED 65,000 for Platinum. The final written proposal confirms the crew, coverage, deliverables, VAT and any selected add-ons before booking.",
   },
   {
-    q: "Do you have a cheap or affordable wedding photoshoot package in Dubai?",
-    a: "Yes — our Essential package at AED 1,799 is built for couples who want professional wedding photography on a budget: 1 experienced photographer, 3 hours of coverage, 100+ edited high-resolution photos, and the same 48-hour delivery as our premium packages. It is affordable, not amateur — the same photographers who shoot our AED 18,000 weddings shoot Essential bookings. Videography can be added from AED 1,200.",
+    q: "What is included in the Essential wedding package?",
+    a: "The AED 7,500 Essential package includes one photographer, one videographer, three hours of coverage, 30–40 edited photos, a full event video, same-day RAW data and final delivery in 10–15 working days.",
   },
   {
-    q: "What is the wedding photoshoot in Dubai price in Indian rupees?",
-    a: "At 2026 exchange rates (1 AED ≈ ₹23), our Silver package (AED 3,500) is approximately ₹80,000, Gold (AED 8,500) is approximately ₹1.95 lakh, and Platinum (AED 18,000+) starts around ₹4.1 lakh. For comparison, a top-tier wedding photography team in Mumbai or Delhi typically charges ₹2–5 lakh per day — Dubai coverage with drone aerials is competitively priced for NRI and destination weddings.",
+    q: "Can you quote the package in another currency?",
+    a: "The contract and invoice are issued in AED. Your bank or card provider determines the conversion to USD, INR or another currency on the payment date, so we do not publish fixed exchange-rate estimates.",
   },
   {
-    q: "What is the difference between the Essential package and budget photographers charging AED 1,500?",
-    a: "Budget operators at AED 1,500 typically deliver in 3–6 weeks with no backup gear and no editing standards. Essential (AED 1,799) gets you a photographer from a 2,400+ production studio, backup camera bodies on-site, professionally edited photos, and guaranteed 48-hour delivery. From Silver upward, every package adds videography, larger crews, GCAA drone aerials, and same-day teasers — a wedding cannot be re-shot, so each tier removes more risk.",
+    q: "How should we compare wedding production packages?",
+    a: "Compare the confirmed crew size, coverage hours, photo count, video deliverables, album specifications, revision terms, delivery timing and any permit or travel costs. Backyard Studio provides these items in a written proposal before the date is secured.",
   },
   {
     q: "Do your wedding packages include both photography and videography?",
@@ -167,7 +173,6 @@ export default function WeddingPackagesPage() {
     { name: "Wedding Packages", url: PAGE_URL },
   ]);
   const faqs = faqSchema(FAQS.map((f) => ({ question: f.q, answer: f.a })));
-  const speakable = speakableSchema(PAGE_URL, ["h1", "h2", ".speakable"]);
   const packageList = itemListSchema(
     PACKAGES.map((p) => ({ name: `${p.name} Wedding Package — ${p.price}`, url: PAGE_URL + "#packages", description: p.desc }))
   );
@@ -176,7 +181,6 @@ export default function WeddingPackagesPage() {
     <div className="pt-24">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqs) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakable) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(packageList) }} />
 
       {/* Hero */}
@@ -192,11 +196,11 @@ export default function WeddingPackagesPage() {
       <section className="section-pad" style={{ background: "var(--black)" }}>
         <div className="container-xl">
           <div className="max-w-3xl space-y-5 mb-14">
-            <p className="text-silver/70 leading-relaxed text-base speakable">
-              Wedding photoshoot packages in Dubai at Backyard Studio Official start at AED 1,799 (≈ USD 490 / ₹41,000) for our affordable Essential photography package, AED 3,500 for half-day photo + video coverage, and AED 8,500 (≈ USD 2,300 / ₹1.95 lakh) for a full wedding day with drone and same-day teaser. From Silver upward every package includes both photography and videography, GCAA-licensed drone on Gold and above, and guaranteed 48-hour delivery on everything. These are the same transparent prices we quote on WhatsApp; no hidden fees, no travel charges anywhere in the UAE.
+            <p className="text-silver/70 leading-relaxed text-base">
+              Current Dubai wedding photography and videography packages start at AED 7,500 for Essential coverage and extend to AED 65,000 for a premium six-person production. Every tier below lists its crew, coverage, edits and delivery terms so couples can compare scope before requesting an itemised proposal.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
-              We have delivered 2,400+ productions across the UAE since founders Fahad Iqbal Butt and Syed Mazhar Zaidi started the studio — weddings at Burj Al Arab and Emirates Palace, multi-day Indian weddings, Emirati bridal halls, and intimate beach nikahs. Choose your package below, or send us your date for a tailored quote within 2 hours.
+              Package pricing was updated on 10 July 2026. Send your date, venue, ceremony schedule and guest count for a tailored quote; any venue permissions, travel requirements or optional add-ons will be confirmed in writing before booking.
             </p>
           </div>
 
@@ -239,11 +243,11 @@ export default function WeddingPackagesPage() {
             </div>
             <div>
               <h2 className="font-display text-4xl text-cream mb-6">HOW DO WE COMPARE?</h2>
-              <p className="text-silver/70 leading-relaxed text-base mb-4 speakable">
-                Cheap wedding photographers in Dubai charge AED 1,500–2,500 — usually one shooter, no backup gear, and 3–6 week delivery. Our Essential package (AED 1,799) competes in that range but with studio-grade editing and 48-hour delivery. Mid-market studios charge AED 4,000–8,000 for photo and video booked separately; our Silver and Gold packages include both in one coordinated crew, plus GCAA-licensed aerials and a same-day teaser from Gold up.
+              <p className="text-silver/70 leading-relaxed text-base mb-4">
+                Compare packages by production scope, not only the headline price. Ask every supplier to specify crew size, coverage hours, the number and format of final assets, album specifications, revision terms and the final delivery schedule.
               </p>
               <p className="text-silver/70 leading-relaxed text-base">
-                For international couples: our Gold package at AED 8,500 is roughly USD 2,300 or ₹1.95 lakh — below what an equivalent two-team setup costs in London, New York, Mumbai, or Delhi, with Dubai's skyline included.
+                Backyard Studio confirms these items in an itemised AED proposal. Currency conversions are left to the payment provider so the page does not publish exchange rates that quickly become inaccurate.
               </p>
               <div className="mt-6 p-6 border" style={{ borderColor: "var(--gold)", background: "var(--black-2)" }}>
                 <p className="text-cream font-semibold text-sm mb-2">Not sure which package fits?</p>

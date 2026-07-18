@@ -3,14 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Check, ArrowUpRight } from "lucide-react";
 import VimeoEmbed from "@/components/shared/VimeoEmbed";
-import { breadcrumbSchema, faqSchema, servicePageSchema, speakableSchema } from "@/lib/structuredData";
+import { breadcrumbSchema, faqSchema, servicePageSchema } from "@/lib/structuredData";
 
 const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photography";
 
 export const metadata: Metadata = {
-  title: "Wedding Photography Dubai | Packages from AED 1,799 — Backyard Studio Official",
+  title: "Wedding Photography Dubai | Photo & Video Packages",
   description:
-    "Dubai's best wedding photography studio. Affordable wedding photoshoot packages from AED 1,799, full photo + video from AED 3,500 with GCAA drone, same-day teaser & 48-hour delivery. Emirati, Arabic, Indian & Western weddings across all 7 UAE emirates.",
+    "Wedding photography and videography in Dubai from AED 7,500. Compare current crew, coverage, album, video and delivery options for UAE weddings.",
   keywords: [
     "wedding photography Dubai",
     "wedding photographer Dubai",
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: "Wedding Photography Dubai | Packages from AED 1,799 — Backyard Studio Official",
+    title: "Wedding Photography Dubai | Photo & Video Packages",
     description:
-      "Wedding photoshoot packages from AED 1,799 — photo + video options, GCAA drone, 48-hour delivery. All 7 UAE emirates.",
+      "Current wedding photography and videography packages from AED 7,500, with detailed crew, deliverables and delivery terms.",
     url: PAGE_URL,
     siteName: "Backyard Studio Official",
     locale: "en_AE",
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Wedding Photography Dubai | From AED 1,799 — Backyard Studio Official",
-    description: "Photographer + videographer, GCAA drone, same-day teaser, 48-hour delivery. All 7 UAE emirates.",
+    title: "Wedding Photography Dubai | From AED 7,500 — Backyard Studio Official",
+    description: "Current photo and video wedding packages from AED 7,500 across the UAE.",
     images: ["/images/wedding/wedding-01.webp"],
   },
 };
@@ -48,19 +48,19 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: "How much does wedding photography cost in Dubai?",
-    a: "Wedding photography in Dubai costs between AED 1,500 and AED 25,000+ depending on crew size, hours, and deliverables. Backyard Studio Official's wedding packages start at AED 1,799 for our affordable Essential photography package, AED 3,500 for half-day photo + video coverage, and AED 8,500 for our most popular full-day Gold package with 2 photographers, 2 videographers, GCAA-licensed drone, and 48-hour delivery.",
+    a: "Backyard Studio Official's current wedding photography and videography packages are AED 7,500, AED 15,500, AED 22,500 and AED 65,000. Each tier lists the crew, coverage, edits, albums and delivery terms; the final scope is confirmed in writing.",
   },
   {
     q: "Do you offer a cheap or affordable wedding photoshoot in Dubai?",
-    a: "Yes — our Essential package at AED 1,799 is built for budget-conscious couples: a professional photographer for 3 hours, 100+ edited high-resolution photos, an online gallery, and 48-hour delivery. The same photographers who shoot our premium weddings cover Essential bookings, so affordable never means amateur. Videography can be added from AED 1,200.",
+    a: "The Essential package is the lowest current tier at AED 7,500. It includes one photographer, one videographer, three hours of coverage, 30–40 edited photos, a full event video, same-day RAW data and final delivery in 10–15 working days.",
   },
   {
     q: "What is included in a wedding photoshoot package in Dubai?",
-    a: "Every Backyard Studio wedding package includes both photography and videography, edited high-resolution photos, a cinematic highlight video, an online delivery gallery, and 48-hour delivery. Gold and Platinum packages add aerial drone footage (we are GCAA licensed), a same-day teaser for social media, and a pre-wedding consultation. We never charge travel fees within the UAE.",
+    a: "Every current package includes photography and videography. Crew size, photo count, video edits, albums, Reels and delivery timing vary by tier and are listed on the wedding packages page.",
   },
   {
-    q: "Why choose Backyard Studio over a cheap wedding photographer in Dubai?",
-    a: "Budget photographers in Dubai (AED 1,500–2,500) typically send one shooter with no backup gear, no drone licence, and 2–4 week delivery. Backyard Studio Official has delivered 2,400+ productions; our wedding crews shoot on cinema cameras with backup bodies, our drone pilots are GCAA licensed, and we contractually guarantee 48-hour delivery with a same-day teaser. One wedding cannot be re-shot — founders Fahad Iqbal Butt and Syed Mazhar Zaidi built our packages so nothing is left to chance.",
+    q: "What should we compare before choosing a wedding photographer?",
+    a: "Compare the named crew, coverage hours, backup plan, photo count, video formats, album specifications, revision policy, delivery schedule and contract terms. We confirm these details in an itemised proposal before booking.",
   },
   {
     q: "Do you photograph Emirati, Arabic, Indian, and Western weddings?",
@@ -72,7 +72,7 @@ const FAQS = [
   },
   {
     q: "How fast do we receive our wedding photos?",
-    a: "You receive a same-day teaser (Gold and Platinum packages) for Instagram within hours of the event, and your complete edited gallery and highlight film within 48 hours. Most Dubai studios take 2–6 weeks; 48-hour delivery is our standard, contractually guaranteed.",
+    a: "Essential, Silver and Gold currently list final delivery in 10–15 working days, with RAW data delivered the same day. Platinum timing is confirmed from the event duration and final scope.",
   },
   {
     q: "Can we book a pre-wedding shoot with our wedding package?",
@@ -87,30 +87,30 @@ const FAQS = [
 const PACKAGES = [
   {
     name: "Essential",
-    price: "AED 1,799",
+    price: "AED 7,500",
     label: "Affordable Photography",
-    includes: ["1 professional photographer", "3 hours of coverage", "100+ edited photos", "Online delivery gallery", "48-hour delivery", "Add video from AED 1,200"],
+    includes: ["1 professional photographer", "1 videographer", "3 hours of coverage", "30–40 edited photos", "Full event edited video", "10–15 working days delivery", "RAW data delivered same day"],
     featured: false,
   },
   {
     name: "Silver",
-    price: "AED 3,500",
+    price: "AED 15,500",
     label: "Half-Day Coverage",
-    includes: ["1 photographer + 1 videographer", "4 hours of coverage", "150–200 edited photos", "3-minute highlight video", "Online delivery gallery", "48-hour delivery"],
+    includes: ["2 professional photographers", "2 videographers", "3 hours of coverage", "70–100 edited photos", "Full event edited video", "Event highlights edit", "10–15 working days delivery", "RAW data delivered same day"],
     featured: false,
   },
   {
     name: "Gold",
-    price: "AED 8,500",
+    price: "AED 22,500",
     label: "Full-Day Wedding — Most Popular",
-    includes: ["2 photographers + 2 videographers", "10 hours of coverage", "400–600 edited photos", "Cinematic highlight film (5–8 min)", "Aerial drone footage (GCAA)", "Same-day teaser clip", "48-hour full delivery", "Pre-wedding consultation"],
+    includes: ["2 photographers + 2 videographers", "3 hours of coverage", "1 printed album with box", "Full event video + highlights", "3 edited Reels", "Couple photo and song-video shoot", "Documentary story film + interview", "10–15 working days delivery", "RAW data delivered same day"],
     featured: true,
   },
   {
     name: "Platinum",
-    price: "AED 18,000+",
+    price: "AED 65,000",
     label: "Premium Multi-Day",
-    includes: ["Full multi-day coverage", "3+ photographers & videographers", "1,000+ edited photo gallery", "Full-length wedding film", "Same-day reel for social media", "Aerial drone — all locations", "Pre-wedding shoot included", "48-hour delivery guarantee"],
+    includes: ["3 professional photographers", "3 videographers", "Documentary interview film", "3–5 hours of coverage", "2 printed albums with boxes", "3–5 edited Reels", "Soft-copy USB", "Delivery confirmed from event duration"],
     featured: false,
   },
 ];
@@ -141,19 +141,17 @@ export default function WeddingPhotographyPage() {
   ]);
   const service = servicePageSchema({
     name: "Wedding Photography Dubai",
-    description: "Professional wedding photography and videography packages in Dubai and across all 7 UAE emirates, from AED 1,799.",
+    description: "Professional wedding photography and videography packages in Dubai and across all 7 UAE emirates, from AED 7,500.",
     url: PAGE_URL,
-    price: "1799",
+    price: "7500",
   });
   const faqs = faqSchema(FAQS.map((f) => ({ question: f.q, answer: f.a })));
-  const speakable = speakableSchema(PAGE_URL, ["h1", "h2", ".speakable"]);
 
   return (
     <div className="pt-24">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(service) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqs) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakable) }} />
 
       {/* Hero */}
       <div className="relative h-[60vh] min-h-[420px] overflow-hidden">
@@ -163,7 +161,7 @@ export default function WeddingPhotographyPage() {
           <Link href="/services" className="inline-flex items-center gap-2 text-silver/60 hover:text-gold transition-colors text-xs mb-4">
             <ArrowLeft size={14} /> All Services
           </Link>
-          <p className="eyebrow mb-3">Packages from AED 1,799 · All 7 Emirates · 48-Hour Delivery</p>
+          <p className="eyebrow mb-3">Packages from AED 7,500 · All 7 Emirates · 48-Hour Delivery</p>
           <h1 className="font-display text-[clamp(2.5rem,7vw,6rem)] leading-none text-cream">WEDDING PHOTOGRAPHY DUBAI</h1>
         </div>
       </div>
@@ -171,18 +169,18 @@ export default function WeddingPhotographyPage() {
       <section className="section-pad" style={{ background: "var(--black)" }}>
         <div className="container-xl grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-2 space-y-6">
-            <p className="text-silver/70 leading-relaxed text-base speakable">
-              Backyard Studio Official is Dubai&apos;s best wedding photography studio, with wedding photoshoot packages in Dubai starting at AED 1,799 for affordable professional photography and AED 3,500 for combined photo + video coverage — every package delivers edited high-resolution photos and guaranteed 48-hour delivery. We have shot weddings at the Burj Al Arab, Atlantis The Royal, Emirates Palace, Address Downtown, and private bridal halls across all 7 UAE emirates — over 2,400 productions delivered since our founding by Fahad Iqbal Butt and Syed Mazhar Zaidi.
+            <p className="text-silver/70 leading-relaxed text-base">
+              Backyard Studio Official provides coordinated wedding photography and videography across Dubai and all seven UAE emirates. Current combined packages start at AED 7,500 and list the assigned crew, coverage time, edited assets, albums and delivery schedule before you enquire.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
-              Affordable never means amateur here. Your wedding cannot be re-shot, so even our budget Essential package is covered by the same photographers who shoot our premium productions, with backup cinema cameras on-site. From Silver upward you get a coordinated photo + video crew, GCAA-licensed drone aerials, and a same-day teaser on Instagram before your guests have left the venue. Whether you are planning an intimate nikah, a multi-day Indian wedding, an Emirati bridal hall celebration, or a Western destination wedding on the beach, we build the coverage around your traditions.
+              Whether you are planning an intimate nikah, an Indian or Pakistani celebration, an Emirati bridal-hall event or a destination wedding, the final written proposal is tailored to the ceremony schedule, venue access and required deliverables.
             </p>
 
             {/* Packages */}
             <div className="mt-12">
               <h2 className="font-display text-4xl text-cream mb-3">WEDDING PHOTOSHOOT PACKAGES &amp; PRICES</h2>
-              <p className="text-silver/60 text-sm mb-8 speakable">
-                Wedding photography packages in Dubai from AED 1,799 (affordable photography) to AED 18,000+ (multi-day productions). Silver and above include photo + video. No travel fees anywhere in the UAE.
+              <p className="text-silver/60 text-sm mb-8">
+                Wedding photography packages in Dubai from AED 7,500 (affordable photography) to AED 65,000 (multi-day productions). Silver and above include photo + video. No travel fees anywhere in the UAE.
               </p>
               <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-4">
                 {PACKAGES.map((pkg) => (
