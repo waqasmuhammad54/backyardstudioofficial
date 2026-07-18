@@ -208,8 +208,8 @@ const INDUSTRY_DATA: Record<string, {
     name: "Sports",
     tagline: "UAE Sports Coverage — From Pitch to Podium",
     heroImage: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=1920&q=80",
-    metaTitle: "Sports Video and Photography Dubai | Backyard Studio",
-    metaDescription: "Sports video and photography for UAE events. Match coverage, athlete branding, sponsor reels and drone aerials. Formula 1, football, cricket, padel. Free quote.",
+    metaTitle: "Sports Video Production Dubai & UAE | Event Coverage",
+    metaDescription: "Sports video production and photography for UAE events, teams and athletes. Match coverage, same-day highlights, sponsor content and multi-format delivery.",
     keywords: ["sports video production Dubai","sports photography UAE","sports event coverage Dubai","athlete photography UAE","sports highlight reel Dubai","Formula 1 video production UAE","football event coverage Dubai","cricket photography UAE","horse racing photography Dubai","sports drone filming UAE","padel video Dubai","MMA event coverage UAE"],
     intro: "The UAE is one of the world's great sporting destinations. Yas Marina hosts Formula 1, Meydan hosts the Dubai World Cup — the richest horse race on the planet — and Dubai's calendar runs wall-to-wall with cricket, football, tennis, MMA, rugby, padel, cycling, and marathon events from October through April. For sports federations, clubs, sponsors, and lifestyle brands, the volume of production opportunity in UAE is extraordinary. The question is whether you can capture it fast enough to matter.\n\nBackyard Studio Official has produced sports content across every major sport in the Emirates. We cover live events with multi-camera rigs, deliver same-day social highlights before audiences scroll past, and produce season-long athlete branding content for UAE's most followed sports personalities. Our GCAA drone licence covers outdoor stadiums, race venues, and sporting complexes across all seven emirates.\n\nThe sports content market in UAE is growing rapidly because the audience is growing. UAE residents follow international sports as closely as any market in the world, and local leagues — particularly the Arabian Gulf League, UAE Pro League cricket, and the growing padel circuit — are building serious fan bases that consume content daily. Brands sponsoring events want activation content that works on Instagram, TikTok, and YouTube, not just logo placement on a backdrop.\n\nWe work with clubs, federations, event organisers, and sports brands on both one-off tournament productions and long-term seasonal arrangements. Standing partnerships get priority scheduling, dedicated crew, and reduced per-event rates.",
     challenge: "Sports content has the shortest shelf life of any content category, but the highest virality potential. A 90-second highlight reel posted within hours of a match can reach millions. A reel posted two days later reaches almost no one. The production challenge is not quality alone — it is speed, reliability, and the organisational ability to be in the right place with the right equipment on event day, every time, without exception.",
@@ -409,8 +409,8 @@ const INDUSTRY_DATA: Record<string, {
     name: "Fitness & Wellness",
     tagline: "Fitness Content That Builds Brands & Communities",
     heroImage: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=1920&q=80",
-    metaTitle: "Fitness Photography Dubai UAE | Backyard Studio",
-    metaDescription: "Fitness photography and wellness video for UAE gyms and brands. Gym branding, PT content, supplement campaigns and fitness reels. Free quote.",
+    metaTitle: "Fitness Video Production Dubai | Gym & Wellness Content",
+    metaDescription: "Fitness video production for UAE gyms and wellness brands, including launch campaigns, trainer profiles, facility photography and short-form social content.",
     keywords: ["fitness photography Dubai","gym video production UAE","personal trainer content Dubai","supplement brand video UAE","fitness brand film Dubai","wellness photography UAE","gym branding content Dubai","fitness social media UAE","workout video production Dubai","transformation video UAE"],
     intro: "Dubai's fitness and wellness industry has exploded — with world-class gyms, boutique fitness studios, wellness brands, and a community of health-conscious residents who consume fitness content at scale. Backyard Studio Official produces gym branding, personal trainer content, supplement campaigns, and fitness social media for UAE's most ambitious health and wellness brands.",
     challenge: "The UAE fitness content space is crowded — but most of it looks the same. Generic workout videos, forgettable supplement ads, and fitness content that disappears into algorithmic noise. Standing out requires a production quality and creative approach that matches the ambition of the brands themselves.",
@@ -622,18 +622,6 @@ export default function IndustryPage({ params }: { params: { industry: string } 
         </div>
       </section>
 
-      {/* ── RESULTS BAR ── */}
-      <section className="py-12 border-b" style={{ background: "var(--black)", borderColor: "var(--border)" }}>
-        <div className="container-xl grid grid-cols-2 md:grid-cols-4 gap-8">
-          {data.results.map((r) => (
-            <div key={r.label} className="text-center">
-              <p className="font-display text-4xl mb-1" style={{ color: "var(--gold)" }}>{r.stat}</p>
-              <p className="text-sm" style={{ color: "var(--muted)" }}>{r.label}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* ── INTRO + CHALLENGE / SOLUTION ── */}
       <section className="section-pad" style={{ background: "var(--black)" }}>
         <div className="container-xl max-w-4xl">
@@ -698,19 +686,6 @@ export default function IndustryPage({ params }: { params: { industry: string } 
           </div>
         </section>
       )}
-
-      {/* ── CASE STUDY ── */}
-      <section className="section-pad border-t" style={{ background: "rgba(212,160,23,0.03)", borderColor: "var(--border)" }}>
-        <div className="container-xl max-w-4xl">
-          <p className="eyebrow mb-4">Case Study</p>
-          <h2 className="font-display text-3xl mb-2" style={{ color: "var(--cream)" }}>{data.caseStudy.title}</h2>
-          <p className="text-sm mb-2" style={{ color: "var(--muted)" }}>{data.caseStudy.client}</p>
-          <div className="inline-block px-4 py-2 mb-8 border" style={{ borderColor: "var(--gold)", color: "var(--gold)" }}>
-            <p className="text-xs tracking-widest uppercase">Result: {data.caseStudy.result}</p>
-          </div>
-          <p className="text-base leading-relaxed" style={{ color: "var(--silver)" }}>{data.caseStudy.body}</p>
-        </div>
-      </section>
 
       {/* ── FAQ ── */}
       <section className="section-pad border-t" style={{ background: "var(--black)", borderColor: "var(--border)" }}>

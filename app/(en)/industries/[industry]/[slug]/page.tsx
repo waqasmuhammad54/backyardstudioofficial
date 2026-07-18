@@ -1062,8 +1062,8 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       name: "Fitness & Gym Photography",
       tagline: "Gym Content That Sells Memberships Before the First Workout",
       heroImage: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920&q=80",
-      metaTitle: "Fitness Photography Dubai UAE | Backyard Studio",
-      metaDescription: "Fitness photography and video for gyms, personal trainers, and wellness brands in Dubai and UAE. Launch content, trainer profiles, facility photography, and Instagram Reels.",
+      metaTitle: "Fitness Photographer Dubai | Gym & Personal Trainer Content",
+      metaDescription: "Fitness photography in Dubai for gyms, personal trainers and wellness brands, including facility images, trainer profiles, launch content and social video.",
       keywords: ["fitness photography Dubai","gym photography UAE","personal trainer video Dubai","fitness content UAE","gym launch video Dubai"],
       intro: "The fitness market in Dubai is one of the most competitive in the world. Boutique studios, big-box gyms, personal training brands, and wellness platforms all compete for the same audience — and increasingly, the content quality is what decides which brands attract premium members. Backyard Studio produces fitness photography and video for gyms, studios, personal trainers, and wellness brands across Dubai and the UAE.\n\nWe cover the full fitness content spectrum: launch campaigns that fill founding memberships before a studio opens, ongoing monthly social content that keeps your feed active, trainer profile videos that build personal brand and attract PT clients, and facility photography that earns Google Business views.",
       challenge: "Fitness brands in Dubai face a specific content challenge: the product is physical transformation and community, neither of which is easy to communicate in a static image. Generic gym photography — equipment shots, empty studios, stock-style models holding weights — does not differentiate a brand and does not earn engagement.",
@@ -1353,18 +1353,6 @@ export default function SubIndustryPage({
         </div>
       </section>
 
-      {/* ── RESULTS BAR ── */}
-      <section className="py-12 border-b" style={{ background: "var(--black)", borderColor: "var(--border)" }}>
-        <div className="container-xl grid grid-cols-2 md:grid-cols-4 gap-8">
-          {data.results.map((r) => (
-            <div key={r.label} className="text-center">
-              <p className="font-display text-4xl mb-1" style={{ color: "var(--gold)" }}>{r.stat}</p>
-              <p className="text-sm" style={{ color: "var(--muted)" }}>{r.label}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* ── INTRO + CHALLENGE / SOLUTION ── */}
       <section className="section-pad" style={{ background: "var(--black)" }}>
         <div className="container-xl max-w-4xl">
@@ -1407,21 +1395,6 @@ export default function SubIndustryPage({
               </Link>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* ── CASE STUDY ── */}
-      <section className="section-pad border-t" style={{ background: "rgba(212,160,23,0.03)", borderColor: "var(--border)" }}>
-        <div className="container-xl max-w-4xl">
-          <p className="eyebrow mb-4">Case Study</p>
-          <h2 className="font-display text-3xl mb-2" style={{ color: "var(--cream)" }}>{data.caseStudy.title}</h2>
-          <p className="text-sm mb-2" style={{ color: "var(--muted)" }}>{data.caseStudy.client}</p>
-          <div className="inline-block px-4 py-2 mb-8 border" style={{ borderColor: "var(--gold)", color: "var(--gold)" }}>
-            <p className="text-xs tracking-widest uppercase">Result: {data.caseStudy.result}</p>
-          </div>
-          <p className="text-base leading-relaxed whitespace-pre-line" style={{ color: "var(--silver)" }}>
-            {data.caseStudy.body}
-          </p>
         </div>
       </section>
 
