@@ -59,7 +59,6 @@ function buildEmailHTML(d: { name:string; email:string; phone:string; service:st
 }
 
 export async function POST(req: NextRequest) {
-  const resend = new Resend(process.env.RESEND_API_KEY);
   try {
     const body = await req.json();
     const { name, email, phone = "", service = "", budget = "", message = "" } = body;
@@ -70,6 +69,7 @@ export async function POST(req: NextRequest) {
 
     // 1. Save to Supabase
     let leadId: string | null = null;
+    let persisted = false;
     try {
       const { data, error } = await supabase
         .from("leads")
@@ -77,7 +77,10 @@ export async function POST(req: NextRequest) {
         .select("id")
         .single();
       if (error) console.error("Supabase error:", error);
-      else leadId = data?.id;
+      else {
+        leadId = data?.id;
+        persisted = true;
+      }
     } catch (dbErr) {
       console.error("DB error:", dbErr);
     }
@@ -85,20 +88,36 @@ export async function POST(req: NextRequest) {
     // 2. Send notification emails to all 4 recipients
     const subject = `New Lead: ${name} — ${service || "General Enquiry"} | Backyard Studio`;
     const emailHTML = buildEmailHTML({ name, email, phone, service, budget, message });
+    let notified = false;
+    let resend: Resend | null = null;
     try {
-      await resend.emails.send({
+      if (!process.env.RESEND_API_KEY) throw new Error("RESEND_API_KEY is not configured");
+      resend = new Resend(process.env.RESEND_API_KEY);
+      const notification = await resend.emails.send({
         from: "Backyard Studio Leads <noreply@backyardstudioofficial.com>",
         to: NOTIFY_EMAILS,
         subject,
         html: emailHTML,
-        replyTo: email,
+        reply_to: email,
       });
+      if (notification.error) console.error("Resend error:", notification.error);
+      else notified = true;
     } catch (emailErr) {
       console.error("Resend error:", emailErr);
     }
 
+    // Never show a success message or count a GA4 lead when the enquiry was
+    // neither saved nor delivered to the team.
+    if (!persisted && !notified) {
+      return NextResponse.json(
+        { error: "We could not deliver your enquiry. Please use WhatsApp or try again." },
+        { status: 503 },
+      );
+    }
+
     // 3. Auto-reply to the lead
     try {
+      if (!resend) throw new Error("Resend is not configured");
       await resend.emails.send({
         from: "Backyard Studio Official <info@backyardstudioofficial.com>",
         to: [email],

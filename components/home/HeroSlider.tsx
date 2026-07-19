@@ -45,6 +45,7 @@ const MARQUEE = ["EVENT SHOOTS","DVCs","INSTAGRAM REELS","TIKTOK CONTENT","VIDEO
 export default function HeroSlider() {
   const [current, setCurrent] = useState(0);
   const [transitioning, setTransitioning] = useState(false);
+  const [loadCarouselImages, setLoadCarouselImages] = useState(false);
 
   const next = useCallback(() => {
     setTransitioning(true);
@@ -55,16 +56,30 @@ export default function HeroSlider() {
   }, []);
 
   useEffect(() => {
-    const t = setInterval(next, 6000);
-    return () => clearInterval(t);
+    let rotation: ReturnType<typeof setInterval> | undefined;
+    const firstRotation = setTimeout(() => {
+      next();
+      rotation = setInterval(next, 6000);
+    }, 10000);
+    return () => {
+      clearTimeout(firstRotation);
+      if (rotation) clearInterval(rotation);
+    };
   }, [next]);
+
+  // The first hero is the only image needed for initial paint. Defer the other
+  // full-viewport slides until after LCP so they do not compete for bandwidth.
+  useEffect(() => {
+    const t = setTimeout(() => setLoadCarouselImages(true), 3500);
+    return () => clearTimeout(t);
+  }, []);
 
   const s = SLIDES[current];
 
   return (
     <section id="hero" className="relative h-screen min-h-[700px] overflow-hidden bg-ink">
 
-      {SLIDES.map((sl, i) => (
+      {(loadCarouselImages ? SLIDES : SLIDES.slice(0, 1)).map((sl, i) => (
         <div key={i} className={`absolute inset-0 transition-opacity duration-1000 ${i === current ? "opacity-100" : "opacity-0"}`}>
           <Image src={sl.image} alt={sl.eyebrow} fill priority={i === 0}
             className="object-cover scale-[1.04] img-cinematic"

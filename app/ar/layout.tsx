@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "../globals.css";
-import CinematicIntro from "@/components/shared/CinematicIntro";
 import CustomCursor from "@/components/shared/CustomCursor";
 import WhatsAppButton from "@/components/shared/WhatsAppButton";
 import ArNavbar from "@/components/layout/ArNavbar";
@@ -130,7 +129,6 @@ export default function ArabicLayout({ children }: { children: React.ReactNode }
         dangerouslySetInnerHTML={{ __html: JSON.stringify(ORGANIZATION_AR) }}
       />
 
-      <CinematicIntro />
       <CustomCursor />
 
       <div

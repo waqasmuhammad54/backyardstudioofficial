@@ -46,7 +46,7 @@ export default function VimeoEmbed({ vimeoId, poster, title, aspectRatio = "16/9
         alt={title}
         fill
         className="object-cover transition-transform duration-700 group-hover:scale-105 img-cinematic"
-        sizes="(max-width: 768px) 100vw, 50vw"
+        sizes="(max-width: 768px) 100vw, 33vw"
       />
       <div className="absolute inset-0 bg-black/40 group-hover:bg-black/55 transition-colors duration-300" />
       <div className="absolute inset-0 flex items-center justify-center">
