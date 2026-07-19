@@ -13,6 +13,7 @@ interface ServicePage {
   highlights: { heading: string; body: string }[];
   pricing: { pkg: string; detail: string; price: string }[];
   faqs: { q: string; a: string }[];
+  sources?: { title: string; url: string; note: string }[];
   category: string;
 }
 
@@ -1954,6 +1955,50 @@ const PAGES: Record<string, ServicePage> = {
     ],
   },
 
+  "fujairah/event-photography": {
+    title: "Event Photography Fujairah",
+    metaDescription: "Event photographer in Fujairah for conferences, corporate events, launches and resort functions. Edited galleries and same-day selects. Request a quote.",
+    h1: "Event Photography in Fujairah",
+    subtitle: "Conferences, corporate functions, launches and resort events covered by a UAE production team.",
+    category: "EVENT PHOTOGRAPHY",
+    intro: [
+      "Event photography in Fujairah has to do more than record who attended. The images need to show the scale of the room, the people driving the programme, the brand details sponsors paid for, and the interactions that make the event feel active. Backyard Studio Official covers conferences, government and corporate functions, hospitality events, product launches, awards, private celebrations, and multi-day programmes across Fujairah City and the East Coast.",
+      "Before the event, we turn the run of show into a practical shot plan: room and signage before guests arrive, registration, speakers, audience reactions, sponsor visibility, networking, awards, group photographs, and any moments marked as essential by the organiser. We also confirm venue rules, guest-consent requirements, delivery priorities, and whether a same-day selection is needed for press or social media.",
+      "Fujairah's venues range from city hotels and business facilities to coastal resorts around Al Aqah and Dibba. That changes the production plan. Outdoor functions need a weather and lighting fallback; conferences need quiet movement and dependable low-light coverage; resort events often need photography that balances people, branding, and the East Coast setting without interrupting the guest experience.",
+    ],
+    highlights: [
+      { heading: "Corporate and Conference Coverage", body: "Speaker, panel, audience, networking, branding, sponsor, award, and group photography planned from the event schedule rather than left to chance." },
+      { heading: "Resort and Hospitality Events", body: "Coverage for launches, dinners, activations, destination functions, and private events at Fujairah and East Coast properties, with indoor and outdoor lighting planned separately." },
+      { heading: "Same-Day Editorial Selects", body: "A priority selection can be prepared during the event for approved press, stakeholder, and social use. The delivery scope and deadline are agreed before the crew arrives." },
+      { heading: "Permissions and Guest Privacy", body: "We coordinate with the organiser and venue on access, restricted areas, speaker preferences, guest privacy, and any aerial request. Drone coverage is proposed only when the location and current approvals make it lawful and practical." },
+    ],
+    pricing: [
+      { pkg: "Event Photography", detail: "Single photographer / edited event gallery", price: "From AED 3,500" },
+      { pkg: "Photo + Social Selects", detail: "Event coverage / priority edited images", price: "Custom quote" },
+      { pkg: "Conference Coverage", detail: "Full-day or multi-day / scalable crew", price: "Custom quote" },
+      { pkg: "Photo + Video Team", detail: "Coordinated photography and highlight video", price: "Custom quote" },
+    ],
+    faqs: [
+      { q: "Do you cover corporate events and conferences in Fujairah?", a: "Yes. We cover conferences, panels, launches, awards, networking events, government and corporate functions, and multi-day programmes across Fujairah City, Al Aqah, Dibba, and the wider East Coast. Crew size is matched to the schedule and number of simultaneous spaces." },
+      { q: "Can you deliver event photographs on the same day?", a: "Yes. We can provide a pre-agreed selection of edited images for press, stakeholders, or social media during or shortly after the event. Tell us the required image count, format, approval contact, and deadline when booking so we can assign the right workflow." },
+      { q: "Can event photography include drone images?", a: "Potentially, but never automatically. Commercial drone photography depends on the current GCAA requirements, the exact flight area, venue permission, safety conditions, and any additional authority approval. We assess feasibility before including aerial coverage in a proposal." },
+      { q: "How much does event photography in Fujairah cost?", a: "Event photography starts from AED 3,500. The final quote depends on event length, crew size, simultaneous rooms, delivery speed, travel and access requirements, and whether video or aerial coverage is included." },
+      { q: "What should we send when requesting a quote?", a: "Send the date, venue, guest count, event schedule, number of rooms or stages, required deliverables, same-day deadlines, and examples of any photographs that are essential. A complete brief lets us recommend the right crew and avoid unnecessary cost." },
+    ],
+    sources: [
+      {
+        title: "Fujairah Tourism — official destination guide",
+        url: "https://tourism.fujairah.ae/",
+        note: "Official location and destination information for planning shoots in Fujairah.",
+      },
+      {
+        title: "UAE GCAA — UAS registration and operating rules",
+        url: "https://www.gcaa.gov.ae/en/pages/UASRegistration.aspx/",
+        note: "Current federal guidance for commercial drone operations, including photography.",
+      },
+    ],
+  },
+
 
   // ── UMM AL QUWAIN ─────────────────────────────────────────────────────────
 
@@ -2271,22 +2316,30 @@ export default function CityServicePage({
       }
     : null;
 
-  const localBizSchema = data
+  const serviceSchema = data
     ? {
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        name: "Backyard Studio Official",
-        image: "https://www.backyardstudioofficial.com/og-image.jpg",
-        url: "https://www.backyardstudioofficial.com",
-        telephone: "+971585882685",
-        areaServed: cityLabel,
-        address: {
-          "@type": "PostalAddress",
-          addressLocality: "Dubai",
-          addressCountry: "AE",
-        },
-        priceRange: "AED 1,000 – AED 50,000",
+        "@type": "Service",
+        "@id": `${pageUrl}#service`,
+        name: data.h1,
+        serviceType: data.h1,
+        url: pageUrl,
         description: data.metaDescription,
+        areaServed: {
+          "@type": "AdministrativeArea",
+          name: cityLabel,
+          containedInPlace: {
+            "@type": "Country",
+            name: "United Arab Emirates",
+          },
+        },
+        provider: {
+          "@type": "Organization",
+          "@id": "https://www.backyardstudioofficial.com/#organization",
+          name: "Backyard Studio Official",
+          url: "https://www.backyardstudioofficial.com",
+          telephone: "+971585882685",
+        },
       }
     : null;
 
@@ -2305,7 +2358,7 @@ export default function CityServicePage({
     <div className="pt-24">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
-      {localBizSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBizSchema) }} />}
+      {serviceSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />}
 
       {/* Hero */}
       <section className="py-20 bg-[#0a0a0a] border-b border-[#1a1a1a]">
@@ -2359,6 +2412,30 @@ export default function CityServicePage({
                 </div>
               ))}
             </div>
+
+            {data.sources && data.sources.length > 0 && (
+              <div className="mt-12 p-6 bg-[#111] border border-[#2a2a2a] rounded-sm">
+                <h2 className="font-display text-2xl text-white mb-2">OFFICIAL PLANNING REFERENCES</h2>
+                <p className="text-[#777] text-sm leading-relaxed mb-5">
+                  We check the current venue and authority requirements for each brief. These official resources are a useful starting point; final permissions depend on the exact event and location.
+                </p>
+                <ul className="space-y-4">
+                  {data.sources.map((source) => (
+                    <li key={source.url}>
+                      <a
+                        href={source.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[#e8c547] text-sm font-semibold hover:underline"
+                      >
+                        {source.title} ↗
+                      </a>
+                      <p className="text-[#777] text-xs leading-relaxed mt-1">{source.note}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
             {/* FAQ */}
             <h2 className="font-display text-3xl text-white mt-12 mb-6">FREQUENTLY ASKED QUESTIONS</h2>

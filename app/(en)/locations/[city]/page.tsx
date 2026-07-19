@@ -205,6 +205,7 @@ const CITY_SUB_PAGES: Record<string, { slug: string; name: string; desc: string 
     { slug: "engagement-photography",  name: "Engagement Photography", desc: "Engagement sessions at Jebel Jais, Dhayah Fort & Al Marjan" },
   ],
   "fujairah": [
+    { slug: "event-photography",       name: "Event Photography",     desc: "Conferences, launches, corporate functions & resort events" },
     { slug: "headshot-photography",    name: "Headshot Photography",  desc: "Professional headshots in Fujairah" },
     { slug: "newborn-photography",     name: "Newborn Photography",   desc: "Newborn portraits on the East Coast" },
     { slug: "maternity-photography",   name: "Maternity Photography", desc: "Maternity sessions against Hajar Mountains & East Coast beaches" },
