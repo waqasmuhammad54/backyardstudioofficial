@@ -57,6 +57,14 @@ const nextConfig = {
       { source: "/zh/blog/yewu-shipin-dubai-2026", destination: "/zh/blog/qiye-shipin-zhizuo-dubai-2026", permanent: true },
       { source: "/zh/blog/dubai-hunjia-sheying-2026", destination: "/zh/blog/hunli-sheying-dubai-2026", permanent: true },
       { source: "/zh/blog/dubai-qiye-shipin-2026", destination: "/zh/blog/qiye-shipin-dubai-2026", permanent: true },
+
+      // Blog URLs seen in GA4 before/while posts were being published.
+      // Keep real visitors and any acquired links instead of serving a 404.
+      { source: "/blog/comparing-video-production-agencies-in-the-uae-for-a-product-launch-2026-guide-2026", destination: "/blog/comparing-video-production-agencies-in-the-uae-for-a-product-launch-2026", permanent: true },
+      { source: "/blog/event-videography-uae-pricing-process-booking-guide-2026", destination: "/blog/event-videography-dubai-2026", permanent: true },
+      { source: "/blog/event-videography-uae-pricing-process-booking-guide-2026-2026", destination: "/blog/event-videography-dubai-2026", permanent: true },
+      { source: "/blog/newborn-photographer-ajman-2026", destination: "/locations/ajman/newborn-photography", permanent: true },
+      { source: "/blog/new", destination: "/blog", permanent: true },
     ];
   },
 };

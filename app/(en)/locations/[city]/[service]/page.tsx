@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 
@@ -2208,6 +2209,11 @@ export function generateStaticParams() {
   });
 }
 
+// Only URLs backed by a real, unique page should resolve. Previously arbitrary
+// city/service combinations returned a 200 "Coming Soon" page and inherited
+// the homepage canonical, creating duplicate-canonical exclusions in GSC.
+export const dynamicParams = false;
+
 // ─── Metadata ─────────────────────────────────────────────────────────────────
 
 export async function generateMetadata({
@@ -2217,12 +2223,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const key = `${params.city}/${params.service}`;
   const data = PAGES[key];
-  if (!data) {
-    return {
-      title: "Backyard Studio Official — UAE Production Company",
-      description: "Professional video & photography production across the UAE.",
-    };
-  }
+  if (!data) notFound();
   const pageUrl = `https://www.backyardstudioofficial.com/locations/${params.city}/${params.service}`;
   return {
     title: data.title,
@@ -2249,6 +2250,8 @@ export default function CityServicePage({
 }) {
   const key = `${params.city}/${params.service}`;
   const data = PAGES[key];
+
+  if (!data) notFound();
 
   const cityLabel = params.city
     .split("-")
@@ -2297,18 +2300,6 @@ export default function CityServicePage({
       { "@type": "ListItem", position: 4, name: data?.h1 ?? "Service", item: pageUrl },
     ],
   };
-
-  if (!data) {
-    return (
-      <div className="pt-24 section-pad text-center">
-        <h1 className="font-display text-4xl text-white mb-4">Coming Soon</h1>
-        <p className="text-[#a0a0a0]">This page is under construction.</p>
-        <Link href={`/locations/${params.city}`} className="btn-gold mt-8 inline-block">
-          ← Back to {cityLabel}
-        </Link>
-      </div>
-    );
-  }
 
   return (
     <div className="pt-24">

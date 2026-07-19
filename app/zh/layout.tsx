@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "../globals.css";
-import CinematicIntro from "@/components/shared/CinematicIntro";
 import CustomCursor from "@/components/shared/CustomCursor";
 import WhatsAppButton from "@/components/shared/WhatsAppButton";
 import ZhNavbar from "@/components/layout/ZhNavbar";
@@ -130,7 +129,6 @@ export default function ChineseLayout({ children }: { children: React.ReactNode 
         dangerouslySetInnerHTML={{ __html: JSON.stringify(ORGANIZATION_ZH) }}
       />
 
-      <CinematicIntro />
       <CustomCursor />
 
       <div style={{ fontFamily: "'Noto Sans SC', sans-serif", minHeight: "100vh", display: "flex", flexDirection: "column" }}>

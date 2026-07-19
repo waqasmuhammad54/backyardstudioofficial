@@ -6,7 +6,6 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/shared/WhatsAppButton";
 import CustomCursor from "@/components/shared/CustomCursor";
-import CinematicIntro from "@/components/shared/CinematicIntro";
 import { organizationSchema, localBusinessSchema } from "@/lib/structuredData";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "G-MES1TPW4VC";
@@ -130,7 +129,6 @@ export default function EnglishLayout({ children }: { children: React.ReactNode 
         }}
       />
 
-      <CinematicIntro />
       <CustomCursor />
       <Navbar />
       <main>{children}</main>

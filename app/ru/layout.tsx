@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import "../globals.css";
-import CinematicIntro from "@/components/shared/CinematicIntro";
 import CustomCursor from "@/components/shared/CustomCursor";
 import WhatsAppButton from "@/components/shared/WhatsAppButton";
 import RuNavbar from "@/components/layout/RuNavbar";
@@ -133,7 +132,6 @@ export default function RussianLayout({ children }: { children: React.ReactNode 
         dangerouslySetInnerHTML={{ __html: JSON.stringify(ORGANIZATION_RU) }}
       />
 
-      <CinematicIntro />
       <CustomCursor />
 
       <div style={{ fontFamily: "Inter, sans-serif", minHeight: "100vh", display: "flex", flexDirection: "column" }}>

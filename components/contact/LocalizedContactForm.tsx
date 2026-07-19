@@ -46,6 +46,10 @@ export default function LocalizedContactForm({ locale }: { locale: Locale }) {
   const submit = async (event: React.FormEvent) => {
     event.preventDefault();
     setState("sending");
+    window.gtag?.("event", "lead_submit_attempt", {
+      form_name: `website_contact_form_${locale}`,
+      page_path: window.location.pathname,
+    });
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
@@ -61,6 +65,10 @@ export default function LocalizedContactForm({ locale }: { locale: Locale }) {
       });
       setState("success");
     } catch {
+      window.gtag?.("event", "lead_submit_error", {
+        form_name: `website_contact_form_${locale}`,
+        page_path: window.location.pathname,
+      });
       setState("error");
     }
   };

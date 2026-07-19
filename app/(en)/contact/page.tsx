@@ -77,10 +77,14 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Map embed placeholder */}
-      <div className="h-72 bg-[#1a1a1a] border-t border-[#2a2a2a] flex items-center justify-center">
-        <p className="text-[#666] text-sm">📍 Google Maps embed — add your API key in .env.local</p>
-      </div>
+      <section className="py-14 bg-[#1a1a1a] border-t border-[#2a2a2a] text-center">
+        <p className="text-[#e8c547] text-xs tracking-[0.35em] uppercase mb-3">Dubai, United Arab Emirates</p>
+        <h2 className="font-display text-3xl text-white mb-3">PRODUCTION ACROSS ALL 7 EMIRATES</h2>
+        <p className="text-[#a0a0a0] text-sm mb-7">Dubai-based crews for projects throughout the UAE.</p>
+        <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer" className="btn-gold inline-block">
+          Ask About Your Location →
+        </a>
+      </section>
     </div>
   );
 }

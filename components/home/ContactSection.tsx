@@ -57,6 +57,11 @@ export default function ContactSection() {
     setLoading(true);
     setSubmitError("");
 
+    window.gtag?.("event", "lead_submit_attempt", {
+      form_name: "website_contact_form",
+      page_path: window.location.pathname,
+    });
+
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
@@ -74,6 +79,10 @@ export default function ContactSection() {
       });
       setSubmitted(true);
     } catch {
+      window.gtag?.("event", "lead_submit_error", {
+        form_name: "website_contact_form",
+        page_path: window.location.pathname,
+      });
       setSubmitError("We couldn't send your brief. Please try again or contact us on WhatsApp.");
     } finally {
       setLoading(false);

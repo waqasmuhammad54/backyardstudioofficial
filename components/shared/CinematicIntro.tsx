@@ -8,7 +8,10 @@ export default function CinematicIntro() {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
-    if (typeof sessionStorage !== "undefined" && sessionStorage.getItem("intro_seen")) return;
+    if (
+      (typeof sessionStorage !== "undefined" && sessionStorage.getItem("intro_seen")) ||
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) return;
     setVisible(true);
   }, []);
 
@@ -59,6 +62,7 @@ export default function CinematicIntro() {
             src="/logo-animation.mp4"
             muted
             playsInline
+            preload="metadata"
             onEnded={finish}
             onError={finish}
             style={{
