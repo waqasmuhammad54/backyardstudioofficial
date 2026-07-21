@@ -7,9 +7,9 @@ import { breadcrumbSchema, faqSchema, servicePageSchema, speakableSchema } from 
 const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photography-abu-dhabi";
 
 export const metadata: Metadata = {
-  title: "Wedding Photographer Abu Dhabi | Photo + Video from AED 1,799 — Backyard Studio Official",
+  title: "Wedding Photographer Abu Dhabi | Photo + Video from AED 7,500 — Backyard Studio Official",
   description:
-    "Wedding photographer in Abu Dhabi — photography & videography packages from AED 1,799 with no travel fees. Emirates Palace, Saadiyat, Yas Island & bridal hall coverage. GCAA drone, same-day teaser, 48-hour delivery. Emirati, Arabic, Indian & Western weddings.",
+    "Wedding photographer in Abu Dhabi — photography & videography packages from AED 7,500 with no travel fees. Emirates Palace, Saadiyat, Yas Island & bridal hall coverage. GCAA drone, same-day teaser, 48-hour delivery. Emirati, Arabic, Indian & Western weddings.",
   keywords: [
     "wedding photographer Abu Dhabi",
     "wedding photography Abu Dhabi",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: "Wedding Photographer Abu Dhabi | From AED 1,799 — Backyard Studio Official",
+    title: "Wedding Photographer Abu Dhabi | From AED 7,500 — Backyard Studio Official",
     description:
       "Photo + video wedding packages in Abu Dhabi with no travel fees — Emirates Palace, Saadiyat, Yas Island. GCAA drone, 48-hour delivery.",
     url: PAGE_URL,
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Wedding Photographer Abu Dhabi | From AED 1,799",
+    title: "Wedding Photographer Abu Dhabi | From AED 7,500",
     description: "Photo + video packages, no travel fees, GCAA drone, 48-hour delivery.",
     images: ["/images/wedding/wedding-09.webp"],
   },
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: "How much does a wedding photographer cost in Abu Dhabi?",
-    a: "Wedding photography in Abu Dhabi costs AED 1,500–25,000+ depending on coverage. Backyard Studio Official's packages are identical in Abu Dhabi and Dubai — Essential photography from AED 1,799, half-day photo + video from AED 3,500, full-day Gold from AED 8,500 with GCAA drone and same-day teaser — and we never charge travel fees anywhere in the UAE.",
+    a: "Wedding photography in Abu Dhabi costs AED 7,500–65,000+ depending on coverage. Backyard Studio Official's packages are identical in Abu Dhabi and Dubai — Essential photography from AED 7,500, half-day photo + video from AED 15,500, full-day Gold from AED 22,500 with GCAA drone and same-day teaser — and we never charge travel fees anywhere in the UAE.",
   },
   {
     q: "Do you charge extra to cover a wedding in Abu Dhabi?",
@@ -78,21 +78,21 @@ const VENUES = [
 const PACKAGES = [
   {
     name: "Essential",
-    price: "AED 1,799",
+    price: "AED 7,500",
     label: "Affordable Photography",
     includes: ["1 professional photographer", "3 hours of coverage", "100+ edited photos", "Online gallery", "48-hour delivery"],
     featured: false,
   },
   {
     name: "Gold",
-    price: "AED 8,500",
+    price: "AED 22,500",
     label: "Full-Day Wedding — Most Popular",
     includes: ["2 photographers + 2 videographers", "10 hours of coverage", "400–600 edited photos", "Cinematic highlight film (5–8 min)", "GCAA drone aerials", "Same-day teaser clip", "48-hour full delivery"],
     featured: true,
   },
   {
     name: "Platinum",
-    price: "AED 18,000+",
+    price: "AED 65,000+",
     label: "Premium Multi-Day",
     includes: ["Full multi-day coverage", "3+ photographers & videographers", "1,000+ edited photos", "Full-length wedding film", "Drone at all locations", "Pre-wedding shoot included"],
     featured: false,
@@ -107,7 +107,7 @@ export default function WeddingPhotographyAbuDhabiPage() {
   ]);
   const service = servicePageSchema({
     name: "Wedding Photography Abu Dhabi",
-    description: "Wedding photography and videography in Abu Dhabi — Emirates Palace, Saadiyat, Yas Island and bridal halls, with no travel fees. From AED 1,799.",
+    description: "Wedding photography and videography in Abu Dhabi — Emirates Palace, Saadiyat, Yas Island and bridal halls, with no travel fees. From AED 7,500.",
     url: PAGE_URL,
     price: "1799",
   });
@@ -138,7 +138,7 @@ export default function WeddingPhotographyAbuDhabiPage() {
         <div className="container-xl grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-2 space-y-6">
             <p className="text-silver/70 leading-relaxed text-base speakable">
-              Backyard Studio Official is a wedding photographer Abu Dhabi couples book at Dubai prices — packages from AED 1,799 for professional photography and AED 8,500 for a full wedding day with two photographers, two videographers, GCAA-licensed drone aerials, and a same-day teaser, with zero travel fees anywhere in the UAE. We shoot in Abu Dhabi multiple times a week: Emirates Palace ballrooms, Saadiyat beach ceremonies, Yas Island receptions, and private bridal halls across the capital.
+              Backyard Studio Official is a wedding photographer Abu Dhabi couples book at Dubai prices — packages from AED 7,500 for professional photography and AED 22,500 for a full wedding day with two photographers, two videographers, GCAA-licensed drone aerials, and a same-day teaser, with zero travel fees anywhere in the UAE. We shoot in Abu Dhabi multiple times a week: Emirates Palace ballrooms, Saadiyat beach ceremonies, Yas Island receptions, and private bridal halls across the capital.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
               Every Abu Dhabi wedding gets the same production standards founders Fahad Iqbal Butt and Syed Mazhar Zaidi set for our 2,400+ UAE productions — paired shooters with backup cinema gear, venue scouting before the day, drone permissions arranged in advance, and your complete gallery delivered within 48 hours. For Emirati weddings, all-female crews with privacy-first workflows are available for bridal halls and ladies&apos; receptions.
@@ -148,7 +148,7 @@ export default function WeddingPhotographyAbuDhabiPage() {
             <div className="mt-12">
               <h2 className="font-display text-4xl text-cream mb-3">ABU DHABI WEDDING PACKAGES &amp; PRICES</h2>
               <p className="text-silver/60 text-sm mb-8 speakable">
-                Wedding packages in Abu Dhabi from AED 1,799 — identical pricing to Dubai, no travel fees. Full tiers on our <Link href="/wedding-packages" className="underline hover:text-gold">wedding packages page</Link>.
+                Wedding packages in Abu Dhabi from AED 7,500 — identical pricing to Dubai, no travel fees. Full tiers on our <Link href="/wedding-packages" className="underline hover:text-gold">wedding packages page</Link>.
               </p>
               <div className="grid md:grid-cols-3 gap-4">
                 {PACKAGES.map((pkg) => (

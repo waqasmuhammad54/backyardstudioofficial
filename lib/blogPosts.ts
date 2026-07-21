@@ -172,7 +172,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h3>AED 3,500–AED 7,000: Professional Half-Day to Full-Day Coverage</h3>
 <p>At this level, you should expect a professional photographer using full-frame camera equipment, consistent editing quality, an online delivery gallery, print-ready files, and delivery within 2–4 weeks. This tier covers civil ceremonies, nikah ceremonies, engagement parties, and smaller wedding celebrations.</p>
-<p>Backyard Studio Official's Silver wedding package starts at AED 3,500 for a 4-hour civil ceremony coverage with 150–200 edited photos and a 3-minute highlight video.</p>
+<p>Backyard Studio Official's Essential wedding package starts at AED 7,500 and covers intimate ceremonies with photography plus a full edited event video; full tiers run up to AED 65,000 for premium multi-day productions.</p>
 
 <h3>AED 7,000–AED 15,000: Full-Service Wedding Photography + Videography</h3>
 <p>This is the most popular wedding production tier in Dubai. At this level, you get a combined photography and videography team — typically 2 photographers and 2 videographers — covering the full wedding day from preparation through reception. Deliverables include 400–600+ edited photos, a cinematic highlight film, drone footage, a same-day social teaser, and 48-hour delivery of the full gallery.</p>

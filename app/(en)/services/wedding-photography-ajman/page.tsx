@@ -7,9 +7,9 @@ import { breadcrumbSchema, faqSchema, servicePageSchema, speakableSchema } from 
 const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photography-ajman";
 
 export const metadata: Metadata = {
-  title: "Wedding Photographer Ajman | Beach Resort Weddings from AED 1,799 — Backyard Studio Official",
+  title: "Wedding Photographer Ajman | Beach Resort Weddings from AED 7,500 — Backyard Studio Official",
   description:
-    "Wedding photographer in Ajman — Ajman Saray, Fairmont Ajman & Al Zorah beach weddings, mangrove couple shoots. Photo + video from AED 1,799, female crews available, GCAA drone, no travel fees, 48-hour delivery.",
+    "Wedding photographer in Ajman — Ajman Saray, Fairmont Ajman & Al Zorah beach weddings, mangrove couple shoots. Photo + video from AED 7,500, female crews available, GCAA drone, no travel fees, 48-hour delivery.",
   keywords: [
     "wedding photographer Ajman",
     "wedding photography Ajman",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: "Wedding Photographer Ajman | From AED 1,799 — Backyard Studio Official",
+    title: "Wedding Photographer Ajman | From AED 7,500 — Backyard Studio Official",
     description: "Ajman Saray, Fairmont & Al Zorah mangroves. Photo + video, female crews, no travel fees, 48-hour delivery.",
     url: PAGE_URL,
     siteName: "Backyard Studio Official",
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     type: "website",
     images: [{ url: "/images/wedding/wedding-13.webp", width: 1200, height: 630, alt: "Wedding Photographer Ajman — Backyard Studio Official" }],
   },
-  twitter: { card: "summary_large_image", title: "Wedding Photographer Ajman | From AED 1,799", description: "Beach resorts & Al Zorah mangroves. Female crews available. 48-hour delivery.", images: ["/images/wedding/wedding-13.webp"] },
+  twitter: { card: "summary_large_image", title: "Wedding Photographer Ajman | From AED 7,500", description: "Beach resorts & Al Zorah mangroves. Female crews available. 48-hour delivery.", images: ["/images/wedding/wedding-13.webp"] },
 };
 
 const FAQS = [
   {
     q: "How much does a wedding photographer cost in Ajman?",
-    a: "Our Ajman pricing matches Dubai exactly: Essential photography AED 1,799, Silver photo + video AED 3,500, full-day Gold AED 8,500 with GCAA drone and same-day teaser, Platinum multi-day AED 18,000+. Ajman is 30 minutes from our Dubai base — travel is always free.",
+    a: "Our Ajman pricing matches Dubai exactly: Essential photography AED 7,500, Silver photo + video AED 15,500, full-day Gold AED 22,500 with GCAA drone and same-day teaser, Platinum multi-day AED 65,000+. Ajman is 30 minutes from our Dubai base — travel is always free.",
   },
   {
     q: "Which Ajman wedding venues do you cover?",
@@ -71,7 +71,7 @@ export default function WeddingPhotographyAjmanPage() {
   ]);
   const service = servicePageSchema({
     name: "Wedding Photography Ajman",
-    description: "Wedding photography and videography in Ajman — beach resorts and Al Zorah mangroves, from AED 1,799 with no travel fees.",
+    description: "Wedding photography and videography in Ajman — beach resorts and Al Zorah mangroves, from AED 7,500 with no travel fees.",
     url: PAGE_URL,
     price: "1799",
   });
@@ -101,7 +101,7 @@ export default function WeddingPhotographyAjmanPage() {
         <div className="container-xl grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-2 space-y-6">
             <p className="text-silver/70 leading-relaxed text-base speakable">
-              Backyard Studio Official photographs Ajman weddings at exactly our Dubai prices — from AED 1,799 with zero travel fees. The emirate punches far above its size for weddings: Ajman Saray and Fairmont beach ceremonies, the Oberoi at Al Zorah, and the mangrove channels that give couples a backdrop nowhere else in the UAE can match. Female crews are available for bridal halls, with the same privacy-first workflows we run in Sharjah. 2,400+ UAE productions; founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
+              Backyard Studio Official photographs Ajman weddings at exactly our Dubai prices — from AED 7,500 with zero travel fees. The emirate punches far above its size for weddings: Ajman Saray and Fairmont beach ceremonies, the Oberoi at Al Zorah, and the mangrove channels that give couples a backdrop nowhere else in the UAE can match. Female crews are available for bridal halls, with the same privacy-first workflows we run in Sharjah. 2,400+ UAE productions; founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
               Every package includes professionally edited photos and guaranteed 48-hour delivery; Gold and Platinum add GCAA drone aerials, a second crew pair, and a same-day teaser for Instagram. Compare every tier on the <Link href="/wedding-packages" className="underline hover:text-gold">wedding packages page</Link>.

@@ -4,16 +4,15 @@ import { Check, ArrowRight, Phone } from "lucide-react";
 import { faqSchema, breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: { absolute: "Video Production Pricing Dubai | 2026 Packages & Costs" },
+  title: { absolute: "Video Production Pricing Dubai 2026 | Packages From AED 2,500" },
   description:
-    "Compare Dubai video production, photography, wedding, event, DVC, Reels and corporate film packages. See inclusions and request an itemised quote.",
+    "Transparent 2026 pricing in Dubai — social content from AED 2,500, weddings from AED 7,500, DVCs from AED 15,000. Compare packages and get an itemised quote in 2 hours.",
   keywords: [
     "video production cost Dubai",
     "photography pricing Dubai UAE",
     "wedding photography price Dubai",
     "DVC cost UAE",
     "social media content creation price Dubai",
-    "drone videography cost Dubai",
     "production company rates Dubai",
     "how much does video production cost UAE",
     "wedding videographer price Dubai",
@@ -297,54 +296,6 @@ const PACKAGES = [
       },
     ],
   },
-  {
-    category: "Aerial Drone (GCAA Licensed)",
-    anchor: "drone",
-    intro: "Legally licensed drone videography across all UAE emirates. All shoots fully insured and authority-coordinated.",
-    plans: [
-      {
-        name: "Add-On",
-        price: "AED 2,000",
-        label: "Add to Any Shoot",
-        desc: "Add GCAA-licensed drone to any existing production booking.",
-        includes: ["2 hours of aerial coverage", "4K drone footage", "Colour-graded aerial cut", "Raw files included", "Same-day preview"],
-        cta: "Add to Quote",
-        featured: false,
-      },
-      {
-        name: "Standalone",
-        price: "AED 4,500",
-        label: "Dedicated Drone Day",
-        desc: "Full drone production day — ideal for real estate, events and brand campaigns.",
-        includes: [
-          "Full day aerial shoot",
-          "4K cinematic footage",
-          "All UAE permits coordinated",
-          "Colour-graded highlight cut",
-          "Raw 4K file delivery",
-          "24-hour delivery",
-        ],
-        cta: "Get Quote",
-        featured: true,
-      },
-      {
-        name: "Campaign",
-        price: "AED 12,000+",
-        label: "Multi-Location Aerial",
-        desc: "Multi-location drone campaign for real estate developers, tourism and film.",
-        includes: [
-          "Multi-day aerial schedule",
-          "Multiple UAE locations",
-          "Full permits coordination",
-          "4K + slow-mo footage",
-          "Colour-graded deliverable",
-          "Integration with ground crew",
-        ],
-        cta: "Get Quote",
-        featured: false,
-      },
-    ],
-  },
 ];
 
 const PRICE_FAQS = [
@@ -362,11 +313,6 @@ const PRICE_FAQS = [
     question: "How much does a DVC cost in the UAE?",
     answer:
       "A Digital Video Commercial (DVC) in the UAE costs between AED 15,000 for a streamlined social media commercial and AED 150,000+ for a fully produced TV-grade brand film. The primary cost drivers are shoot days, cast size, location complexity, post-production requirements (VFX, animation), and whether Arabic and English versions are required.",
-  },
-  {
-    question: "How much does drone videography cost in Dubai?",
-    answer:
-      "GCAA-licensed drone videography in Dubai starts from AED 2,000 as an add-on to an existing shoot, AED 4,500 for a dedicated drone day, and AED 12,000+ for multi-location drone campaigns. All our drone shoots include full GCAA permits, insurance, and colour-graded deliverables.",
   },
   {
     question: "How much does social media content creation cost in Dubai?",

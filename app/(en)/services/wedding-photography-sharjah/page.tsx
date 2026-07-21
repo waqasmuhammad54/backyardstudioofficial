@@ -7,9 +7,9 @@ import { breadcrumbSchema, faqSchema, servicePageSchema, speakableSchema } from 
 const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photography-sharjah";
 
 export const metadata: Metadata = {
-  title: "Wedding Photographer Sharjah | Photo + Video from AED 1,799 — Backyard Studio Official",
+  title: "Wedding Photographer Sharjah | Photo + Video from AED 7,500 — Backyard Studio Official",
   description:
-    "Wedding photographer in Sharjah — photography & videography packages from AED 1,799 with no travel fees. Ladies' hall coverage with female crews, Al Majaz & Khalid Lagoon shoots, GCAA drone, 48-hour delivery.",
+    "Wedding photographer in Sharjah — photography & videography packages from AED 7,500 with no travel fees. Ladies' hall coverage with female crews, Al Majaz & Khalid Lagoon shoots, GCAA drone, 48-hour delivery.",
   keywords: [
     "wedding photographer Sharjah",
     "wedding photography Sharjah",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: "Wedding Photographer Sharjah | From AED 1,799 — Backyard Studio Official",
+    title: "Wedding Photographer Sharjah | From AED 7,500 — Backyard Studio Official",
     description: "Photo + video wedding packages in Sharjah, female crews available, no travel fees. 48-hour delivery.",
     url: PAGE_URL,
     siteName: "Backyard Studio Official",
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     type: "website",
     images: [{ url: "/images/wedding/wedding-12.webp", width: 1200, height: 630, alt: "Wedding Photographer Sharjah — Backyard Studio Official" }],
   },
-  twitter: { card: "summary_large_image", title: "Wedding Photographer Sharjah | From AED 1,799", description: "Photo + video packages, female crews available, 48-hour delivery.", images: ["/images/wedding/wedding-12.webp"] },
+  twitter: { card: "summary_large_image", title: "Wedding Photographer Sharjah | From AED 7,500", description: "Photo + video packages, female crews available, 48-hour delivery.", images: ["/images/wedding/wedding-12.webp"] },
 };
 
 const FAQS = [
   {
     q: "How much does a wedding photographer cost in Sharjah?",
-    a: "Identical to our Dubai pricing: Essential photography from AED 1,799, Silver photo + video from AED 3,500, full-day Gold from AED 8,500 with GCAA drone and same-day teaser, and Platinum multi-day from AED 18,000. No travel fees apply anywhere in Sharjah — city, Khor Fakkan, or Kalba.",
+    a: "Identical to our Dubai pricing: Essential photography from AED 7,500, Silver photo + video from AED 15,500, full-day Gold from AED 22,500 with GCAA drone and same-day teaser, and Platinum multi-day from AED 65,000. No travel fees apply anywhere in Sharjah — city, Khor Fakkan, or Kalba.",
   },
   {
     q: "Do you provide female photographers for ladies' wedding halls in Sharjah?",
@@ -71,7 +71,7 @@ export default function WeddingPhotographySharjahPage() {
   ]);
   const service = servicePageSchema({
     name: "Wedding Photography Sharjah",
-    description: "Wedding photography and videography in Sharjah with female crews available — from AED 1,799, no travel fees.",
+    description: "Wedding photography and videography in Sharjah with female crews available — from AED 7,500, no travel fees.",
     url: PAGE_URL,
     price: "1799",
   });
@@ -101,7 +101,7 @@ export default function WeddingPhotographySharjahPage() {
         <div className="container-xl grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-2 space-y-6">
             <p className="text-silver/70 leading-relaxed text-base speakable">
-              Backyard Studio Official covers Sharjah weddings at the same prices as Dubai — photography from AED 1,799, full photo + video days from AED 8,500 — with zero travel fees anywhere in the emirate, including Khor Fakkan and Kalba. Sharjah is where our all-female crews work most: ladies' halls at Sharjah Ladies Club, bridal halls across the city, and Emirati weddings where privacy rules everything. 2,400+ UAE productions, founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
+              Backyard Studio Official covers Sharjah weddings at the same prices as Dubai — photography from AED 7,500, full photo + video days from AED 22,500 — with zero travel fees anywhere in the emirate, including Khor Fakkan and Kalba. Sharjah is where our all-female crews work most: ladies' halls at Sharjah Ladies Club, bridal halls across the city, and Emirati weddings where privacy rules everything. 2,400+ UAE productions, founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
               Every package includes professionally edited photos and 48-hour delivery; Gold and Platinum add a second crew pair, GCAA-licensed drone aerials (where venue permissions allow), and a same-day teaser. Couple sessions at Al Majaz Waterfront and Al Noor Island slot beautifully between the ceremony and reception. Compare every tier on the <Link href="/wedding-packages" className="underline hover:text-gold">wedding packages page</Link>.
