@@ -642,7 +642,7 @@ export function generateStaticParams() {
     // Original services
     "event-shoots", "event-video-editing", "dvcs", "reels",
     "photo-shoots", "social-media-content", "testimonial-videos",
-    "ads-shooting", "aerial-drone", "corporate-films",
+    "ads-shooting", "corporate-films",
     // Phase 2 — vertical-specific
     "social-media-shoots", "automotive", "real-estate",
     "corporate-videography", "podcast", "youtube-content",

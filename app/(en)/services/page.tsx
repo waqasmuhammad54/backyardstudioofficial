@@ -56,7 +56,6 @@ const SERVICES_ITEM_LIST = [
   { name: "DVCs Digital Video Commercials Dubai", url: "https://www.backyardstudioofficial.com/services/dvcs", description: "High-production DVCs from AED 8,000." },
   { name: "Instagram Reels Production Dubai", url: "https://www.backyardstudioofficial.com/services/reels-production", description: "Algorithm-optimised Reels from AED 2,500." },
   { name: "TikTok Content Creation Dubai", url: "https://www.backyardstudioofficial.com/services/social-media-content", description: "Monthly TikTok content packages for UAE brands." },
-  { name: "Aerial Drone Videography Dubai GCAA", url: "https://www.backyardstudioofficial.com/services/aerial-drone", description: "GCAA-licensed drone from AED 2,500." },
   { name: "Corporate Films Dubai", url: "https://www.backyardstudioofficial.com/services/corporate-films", description: "Brand films from AED 15,000." },
   { name: "Real Estate Photography & Videography Dubai", url: "https://www.backyardstudioofficial.com/services/real-estate", description: "Property content from AED 1,500." },
   { name: "Product Photography Dubai", url: "https://www.backyardstudioofficial.com/services/product-shoots", description: "E-commerce product photography from AED 1,500." },
@@ -107,7 +106,6 @@ const SERVICES = [
   { icon: Star,         slug: "brand-events",            label: "Brand Launch Events",                    desc: "Fashion events, corporate events, concert aftermovies — with same-day social media delivery." },
   { icon: MessageSquare,slug: "testimonial-videos",      label: "Testimonial Videos",                     desc: "Authentic client testimonials that build trust and drive conversion across UAE." },
   // Specialist
-  { icon: Plane,        slug: "aerial-drone",            label: "Aerial / Drone (GCAA Licensed)",         desc: "Legally licensed drone cinematography across all 7 UAE emirates — cinematic 4K aerials." },
   { icon: Settings,     slug: "pre-post-production",    label: "Pre & Post Production",                  desc: "Location scouting, casting, styling, video editing, colour grading, and retouching services." },
   { icon: Film,         slug: "event-video-editing",     label: "Event Video Editing",                    desc: "48-hour polished highlight reels from your raw footage — colour-graded and sound-designed." },
 ];
@@ -131,7 +129,7 @@ const CATEGORIES = [
   },
   {
     label: "Specialist Services",
-    slugs: ["aerial-drone","pre-post-production","event-video-editing"],
+    slugs: ["pre-post-production","event-video-editing"],
   },
 ];
 

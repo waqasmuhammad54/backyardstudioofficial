@@ -44,6 +44,9 @@ const nextConfig = {
       // Dead service pages — 301 to nearest live equivalent
       { source: "/services/luxury-lifestyle-photography",   destination: "/services/wedding-photography", permanent: true },
       { source: "/services/documentary-production",         destination: "/services/corporate-films",     permanent: true },
+      // Drone no longer offered as a service — 301 to related services (preserve link equity)
+      { source: "/services/aerial-drone",                   destination: "/services/real-estate",         permanent: true },
+      { source: "/locations/:city/drone-videography",       destination: "/locations/:city",              permanent: true },
 
       // Historical URLs reported by GSC — preserve relevance and link equity
       { source: "/blog/how-much-does-dvc-cost-uae-2026", destination: "/blog/how-much-does-video-production-cost-dubai-2026", permanent: true },
