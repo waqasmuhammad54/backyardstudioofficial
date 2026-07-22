@@ -46,7 +46,6 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
         { label: "Same-Day Social Highlights", href: "/services/event-video-editing", desc: "90-second vertical highlight reel delivered before the tournament ends — for Instagram and TikTok." },
         { label: "Sponsor Activation Reels", href: "/services/dvcs", desc: "Branded sponsor content from live tournament footage — delivered within 6 hours of final match." },
         { label: "Player Profile Photography", href: "/services/photo-shoots", desc: "Action photography, profile portraits, and sponsor integration content for padel players." },
-        { label: "Drone Aerial Coverage", href: "/services/aerial-drone", desc: "GCAA-licensed aerial overview of outdoor padel venues and event scale shots." },
         { label: "Season Content Packages", href: "/services/social-media-content", desc: "Long-term padel content packages for clubs, academies, and league organisers." },
       ],
       results: [
@@ -92,7 +91,6 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       solution: "Our cycling production team includes crew who ride competitively and understand race dynamics from the inside. We position cameras at the finish line, in the follow vehicle, at key technical sections, and at feed zones — all informed by knowledge of where the race's decisive moments are most likely to happen. Drone coverage adds the aerial perspective that shows the peloton's scale and the landscape context that makes UAE cycling content distinctive.",
       services: [
         { label: "Race Day Coverage", href: "/services/event-videography", desc: "Multi-camera race coverage with follow vehicles, finish line positions, and drone aerials." },
-        { label: "Peloton Drone Aerials", href: "/services/aerial-drone", desc: "GCAA-licensed drone coverage of peloton sequences, finish line aerials, and route overview." },
         { label: "Social Highlight Reels", href: "/services/reels-production", desc: "Same-day social highlights for race Instagram and TikTok — delivered before riders leave the venue." },
         { label: "Sponsor Activation Content", href: "/services/dvcs", desc: "Branded sponsor reels from race footage — logo visibility evidence and activation content." },
         { label: "Race Photography", href: "/services/photo-shoots", desc: "Action photography, finish line sequences, portrait sessions, and post-race social content." },
@@ -142,7 +140,6 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       services: [
         { label: "Finish Line Photography", href: "/services/photo-shoots", desc: "Professional finish line photography with participant tagging and same-day download access." },
         { label: "Race Video & Highlight Film", href: "/services/event-videography", desc: "Full race video coverage with highlight film for event brand channels and post-event marketing." },
-        { label: "Drone Aerials", href: "/services/aerial-drone", desc: "GCAA-licensed mass start aerials, route overview, and finish line aerial sequences." },
         { label: "Social Media Content", href: "/services/reels-production", desc: "Same-day highlight Reels, Instagram Stories, and TikTok content for event social channels." },
         { label: "Sponsor Activation Content", href: "/services/dvcs", desc: "Branded content for event title sponsors and category sponsors — delivered within 48 hours." },
         { label: "Running Brand Campaigns", href: "/services/corporate-brand-films", desc: "Brand film and photography for running footwear, apparel, and nutrition brands — UAE locations." },
@@ -199,7 +196,6 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
         { label: "Social Launch Campaign Content", href: "/services/reels-production", desc: "Teaser series, reveal reels, first-drive content, and post-launch social media assets." },
         { label: "Press Photography Package", href: "/services/photo-shoots", desc: "High-resolution press photography for media distribution — delivered within 24 hours of reveal." },
         { label: "Dealer Demo Video", href: "/services/dvcs", desc: "A 3 to 5 minute dealer presentation video for showroom screens and sales team presentations." },
-        { label: "Drone Aerials", href: "/services/aerial-drone", desc: "GCAA-licensed dramatic aerial sequences for the hero commercial and launch social content." },
       ],
       results: [
         { stat: "24h", label: "Press photography delivered post-reveal" },
@@ -603,7 +599,6 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       services: [
         { label: "Room & Suite Photography", href: "/services/photo-shoots", desc: "Professional room photography for OTAs, brand website, and marketing materials — all room categories." },
         { label: "Hotel Brand Film", href: "/services/corporate-brand-films", desc: "3 to 5 minute property film for website hero, brand channels, and trade presentations." },
-        { label: "Drone Aerial Photography & Video", href: "/services/aerial-drone", desc: "GCAA-licensed aerial photography showing the property, pool, beach, and location context." },
         { label: "Restaurant & F&B Photography", href: "/services/photo-shoots", desc: "Menu photography, restaurant interior photography, and food social media content." },
         { label: "Social Media Content Programme", href: "/services/reels-production", desc: "Monthly social content for hotel Instagram and TikTok — property features, offers, and seasonal content." },
         { label: "Hotel Opening Coverage", href: "/services/event-videography", desc: "Opening event coverage, pre-opening marketing content, and opening night same-day highlights." },
@@ -649,7 +644,6 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       challenge: "Most resort content shoots are treated as a single event. A crew arrives for two days, shoots everything they can reach, and delivers assets that date quickly and lack the depth needed for year-round marketing across OTA platforms, social channels, Google Business, and direct booking campaigns. The result is a content library that runs dry within six months.",
       solution: "We build resort content systems, not one-off shoots. Our standard resort package includes a phased shoot calendar: a flagship campaign shoot in the best seasonal light, followed by quarterly content top-ups that keep your library fresh. Assets are delivered by channel: horizontal hero cuts for OTA, vertical Reels for Instagram and TikTok, square crops for Google Business, and still galleries optimised for your booking engine.",
       services: [
-        { label: "Aerial Drone Tours", href: "/services/aerial-drone", desc: "GCAA-permitted drone footage of your resort from every angle — pool deck, beach access, gardens, and surroundings." },
         { label: "Room & Suite Photography", href: "/services/photo-shoots", desc: "Hero room stills and walk-through video for OTA listings, your website gallery, and print collateral." },
         { label: "F&B Venue Content", href: "/services/food-photography", desc: "Restaurant, bar, and pool bar photography and video — morning through evening light." },
         { label: "Spa & Wellness Video", href: "/services/corporate-films", desc: "Spa treatment photography and short-form video for Instagram, booking pages, and gift voucher campaigns." },
@@ -706,7 +700,6 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       services: [
         { label: "Architectural Photography", href: "/services/photo-shoots", desc: "Interior and exterior photography with professional lighting — twilight and golden hour sessions included." },
         { label: "Villa Walkthrough Video", href: "/services/corporate-films", desc: "Cinematic 2 to 4-minute villa walkthrough — stabilised gimbal, professional voice-over optional." },
-        { label: "Aerial Drone", href: "/services/aerial-drone", desc: "GCAA-permitted drone coverage — pool, garden, neighbourhood, and beach or golf course proximity." },
         { label: "Instagram Reels", href: "/services/reels", desc: "60 to 90-second vertical Reel optimised for discovery on Instagram and WhatsApp." },
         { label: "Twilight & Golden Hour", href: "/services/photo-shoots", desc: "Exterior twilight and pool photography during the 20-minute window that produces the most compelling hero image." },
         { label: "Branded Agency Video", href: "/services/corporate-films", desc: "Hero video delivered with your agency branding, logo, contact details, and DLD regulatory disclosures." },
@@ -755,7 +748,6 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       solution: "We work with developers across the full project lifecycle. Pre-launch, we produce CGI-integrated films blending architectural renders with Dubai lifestyle footage. At public launch, we deliver a hero launch film, a social package of 6 to 12 short-form videos, photography for press and brokers, and a drone survey of the site. During construction, we provide monthly or quarterly progress content packages. At handover, we produce unit walk-through videos and the official handover photography suite.",
       services: [
         { label: "CGI-Integrated Launch Films", href: "/services/corporate-films", desc: "Developer launch films combining architectural renders with UAE lifestyle footage — 90 seconds to 4 minutes." },
-        { label: "Site Drone Documentation", href: "/services/aerial-drone", desc: "GCAA-permitted construction site drone surveys and cinematic aerials at each project milestone." },
         { label: "Investor Presentation Video", href: "/services/corporate-films", desc: "60 to 90-second investor pitch video for private placements, roadshows, and broker networks." },
         { label: "Social Media Launch Package", href: "/services/social-media-content", desc: "6 to 12 short-form videos for Instagram, LinkedIn, and WhatsApp broadcast lists — timed to launch week." },
         { label: "Construction Progress Content", href: "/services/corporate-films", desc: "Monthly or quarterly on-site video and photography documenting build progress for buyer confidence updates." },
@@ -1022,7 +1014,6 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
         { label: "Match Photography", href: "/services/event-shoots", desc: "Pitch-side match photography — action, set pieces, celebrations, and player portraits. Delivered within 24 hours." },
         { label: "Same-Day Highlight Reels", href: "/services/event-videography", desc: "90-second Instagram and TikTok highlight reel delivered within 2 to 4 hours of the final whistle." },
         { label: "Multi-Camera Match Coverage", href: "/services/event-videography", desc: "4-camera match coverage for clubs requiring full match recordings, coach review footage, and broadcast-quality cuts." },
-        { label: "Aerial Stadium Footage", href: "/services/aerial-drone", desc: "GCAA-permitted drone coverage of stadiums and pitches — pre-match aerials, halftime crowd shots, and fly-through sequences." },
         { label: "Season Retainer Packages", href: "/services/event-videography", desc: "Season-long coverage packages for home fixtures — guaranteed crew, consistent quality, same-day delivery across all matches." },
         { label: "Player & Academy Portraits", href: "/services/photo-shoots", desc: "Club photography days for official player headshots, squad photos, and youth academy portraits." },
       ],

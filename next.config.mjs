@@ -47,6 +47,9 @@ const nextConfig = {
       // Drone no longer offered as a service — 301 to related services (preserve link equity)
       { source: "/services/aerial-drone",                   destination: "/services/real-estate",         permanent: true },
       { source: "/locations/:city/drone-videography",       destination: "/locations/:city",              permanent: true },
+      { source: "/ar/services/aerial-drone",                destination: "/ar/services",                  permanent: true },
+      { source: "/ru/services/aerial-drone",                destination: "/ru/services",                  permanent: true },
+      { source: "/zh/services/aerial-drone",                destination: "/zh/services",                  permanent: true },
 
       // Historical URLs reported by GSC — preserve relevance and link equity
       { source: "/blog/how-much-does-dvc-cost-uae-2026", destination: "/blog/how-much-does-video-production-cost-dubai-2026", permanent: true },

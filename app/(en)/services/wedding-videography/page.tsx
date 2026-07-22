@@ -260,7 +260,6 @@ export default function WeddingVideographyPage() {
                 <Link href="/services/wedding-photography" className="block text-silver/70 hover:text-gold transition-colors">Wedding Photography →</Link>
                 <Link href="/services/pre-wedding-shoot" className="block text-silver/70 hover:text-gold transition-colors">Pre-Wedding Shoots →</Link>
                 <Link href="/wedding-packages" className="block text-silver/70 hover:text-gold transition-colors">Wedding Packages &amp; Prices →</Link>
-                <Link href="/services/aerial-drone" className="block text-silver/70 hover:text-gold transition-colors">Aerial Filming Options →</Link>
               </div>
             </div>
           </div>

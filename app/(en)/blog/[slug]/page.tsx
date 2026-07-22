@@ -16,7 +16,6 @@ const CATEGORY_SERVICE_MAP: Record<string, string> = {
   "Wedding Guide":            "wedding-photography",
   "Wedding Videography":      "wedding-photography",
   "Real Estate":              "real-estate-photography",
-  "Aerial Production":        "drone-videography",
   "Corporate":                "corporate-video",
   "Corporate Guide":          "corporate-video",
   "Video Production":         "corporate-video",
@@ -117,7 +116,6 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     { label: "Wedding Photography", slug: "photo-shoots" },
     { label: "Social Media Content", slug: "social-media-shoots" },
     { label: "DVCs", slug: "dvcs" },
-    { label: "Drone / Aerial", slug: "aerial-drone" },
     { label: "Corporate Films", slug: "corporate-films" },
   ];
 
