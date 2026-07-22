@@ -70,7 +70,7 @@ export function organizationSchema() {
     },
     image: BRAND.og,
     description:
-      "Backyard Studio Official is a UAE creative production studio specialising in commercial video, corporate films, events, weddings, social media content, photography, and GCAA-licensed aerial production across all seven UAE emirates.",
+      "Backyard Studio Official is a UAE creative production studio specialising in commercial video, corporate films, events, weddings, social media content, and commercial photography across all seven UAE emirates.",
     foundingDate: "2019",
     numberOfEmployees: { "@type": "QuantitativeValue", minValue: 10, maxValue: 50 },
     knowsAbout: [
@@ -141,7 +141,7 @@ export function localBusinessSchema() {
     name: BRAND.name,
     legalName: BRAND.legalName,
     description:
-      "Creative video, photography, event, wedding, social media, and GCAA-licensed aerial production services across all seven UAE emirates.",
+      "Creative video, photography, event, wedding, and social media production services across all seven UAE emirates.",
     url: BRAND.url,
     telephone: BRAND.phone,
     email: BRAND.email,
