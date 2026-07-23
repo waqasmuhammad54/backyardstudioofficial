@@ -61,11 +61,11 @@ const LOCAL_BUSINESS_AR = {
   },
   "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm Al Quwain"],
   "description":
-    "شركة الإنتاج الإبداعي الرائدة في دبي. تصوير فيديو احترافي، تصوير الأعراس، محتوى وسائل التواصل الاجتماعي، تصوير بالطائرة المسيّرة GCAA.",
+    "شركة الإنتاج الإبداعي الرائدة في دبي. تصوير فيديو احترافي، تصوير الأعراس، محتوى وسائل التواصل الاجتماعي، تصوير الفعاليات والأفلام المؤسسية.",
   "sameAs": [
     "https://www.instagram.com/backyardstudioofficial",
-    "https://www.facebook.com/backyardstudioofficial",
-    "https://www.tiktok.com/@backyardstudioofficial",
+    "https://www.facebook.com/Backyardstudioofficial",
+    "https://www.tiktok.com/@backyardstudio_official5",
   ],
   "founder": [
     { "@type": "Person", "name": "فهد إقبال بط",   "jobTitle": "المدير الإبداعي"  },
@@ -96,9 +96,9 @@ const ORGANIZATION_AR = {
   },
   "sameAs": [
     "https://www.instagram.com/backyardstudioofficial",
-    "https://www.facebook.com/backyardstudioofficial",
-    "https://www.tiktok.com/@backyardstudioofficial",
-    "https://youtube.com/@backyardstudioofficial",
+    "https://www.facebook.com/Backyardstudioofficial",
+    "https://www.tiktok.com/@backyardstudio_official5",
+    "https://youtube.com/@BackyardStudioofficialuae",
   ],
   "founder": [
     { "@type": "Person", "name": "فهد إقبال بط",  "jobTitle": "المدير الإبداعي" },

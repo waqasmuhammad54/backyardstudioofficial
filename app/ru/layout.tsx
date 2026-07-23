@@ -68,7 +68,7 @@ const LOCAL_BUSINESS_RU = {
   ],
   "sameAs": [
     "https://www.instagram.com/backyardstudioofficial",
-    "https://www.youtube.com/@backyardstudioofficial",
+    "https://www.youtube.com/@BackyardStudioofficialuae",
   ],
   "founder": [
     { "@type": "Person", "name": "Фахад Икбал Батт",   "jobTitle": "Директор и главный фотограф" },
@@ -99,9 +99,9 @@ const ORGANIZATION_RU = {
   },
   "sameAs": [
     "https://www.instagram.com/backyardstudioofficial",
-    "https://www.facebook.com/backyardstudioofficial",
-    "https://www.tiktok.com/@backyardstudioofficial",
-    "https://youtube.com/@backyardstudioofficial",
+    "https://www.facebook.com/Backyardstudioofficial",
+    "https://www.tiktok.com/@backyardstudio_official5",
+    "https://youtube.com/@BackyardStudioofficialuae",
   ],
   "founder": [
     { "@type": "Person", "name": "Фахад Икбал Батт",  "jobTitle": "Директор и главный фотограф" },

@@ -64,8 +64,8 @@ const LOCAL_BUSINESS_ZH = {
     "迪拜专业影视制作公司。企业视频、婚礼摄影、无人机航拍（GCAA执照）、社交媒体内容制作。",
   "sameAs": [
     "https://www.instagram.com/backyardstudioofficial",
-    "https://www.facebook.com/backyardstudioofficial",
-    "https://www.tiktok.com/@backyardstudioofficial",
+    "https://www.facebook.com/Backyardstudioofficial",
+    "https://www.tiktok.com/@backyardstudio_official5",
   ],
   "founder": [
     { "@type": "Person", "name": "Fahad Iqbal Butt",  "jobTitle": "Creative Director"      },
@@ -96,9 +96,9 @@ const ORGANIZATION_ZH = {
   },
   "sameAs": [
     "https://www.instagram.com/backyardstudioofficial",
-    "https://www.facebook.com/backyardstudioofficial",
-    "https://www.tiktok.com/@backyardstudioofficial",
-    "https://youtube.com/@backyardstudioofficial",
+    "https://www.facebook.com/Backyardstudioofficial",
+    "https://www.tiktok.com/@backyardstudio_official5",
+    "https://youtube.com/@BackyardStudioofficialuae",
   ],
   "founder": [
     { "@type": "Person", "name": "Fahad Iqbal Butt",  "jobTitle": "Creative Director"      },

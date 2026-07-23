@@ -17,7 +17,8 @@ const BRAND = {
     "https://www.instagram.com/backyardstudioofficial/",
     "https://www.facebook.com/Backyardstudioofficial/",
     "https://www.tiktok.com/@backyardstudio_official5",
-    "https://www.youtube.com/@backyardstudioofficial",
+    "https://www.youtube.com/@BackyardStudioofficialuae",
+    "https://www.linkedin.com/in/backyard-studio-508532417/",
     "https://www.imdb.com/name/nm14029494/",
   ],
 };

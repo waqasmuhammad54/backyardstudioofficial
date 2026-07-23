@@ -36,7 +36,8 @@ const SOCIALS_AR = [
   { label: "IG", href: "https://www.instagram.com/backyardstudioofficial/",    aria: "Instagram"  },
   { label: "FB", href: "https://www.facebook.com/Backyardstudioofficial/",     aria: "Facebook"   },
   { label: "TT", href: "https://www.tiktok.com/@backyardstudio_official5",     aria: "TikTok"     },
-  { label: "YT", href: "https://youtube.com/@backyardstudioofficial",          aria: "YouTube"    },
+  { label: "YT", href: "https://www.youtube.com/@BackyardStudioofficialuae", aria: "YouTube"    },
+  { label: "LI", href: "https://www.linkedin.com/in/backyard-studio-508532417/", aria: "LinkedIn"  },
   { label: "WA", href: "https://wa.me/971585882685",                           aria: "WhatsApp"   },
 ];
 

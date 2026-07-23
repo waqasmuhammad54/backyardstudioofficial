@@ -141,9 +141,13 @@ export default function Footer() {
                 aria-label="TikTok" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
                 TT
               </a>
-              <a href="https://youtube.com/@backyardstudioofficial" target="_blank" rel="noreferrer"
+              <a href="https://youtube.com/@BackyardStudioofficialuae" target="_blank" rel="noreferrer"
                 aria-label="YouTube" className="footer-social w-9 h-9 flex items-center justify-center border">
                 <Youtube size={14} />
+              </a>
+              <a href="https://www.linkedin.com/in/backyard-studio-508532417/" target="_blank" rel="noreferrer"
+                aria-label="LinkedIn" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
+                LI
               </a>
               <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer"
                 aria-label="WhatsApp" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
