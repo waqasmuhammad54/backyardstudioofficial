@@ -111,9 +111,9 @@ export default function HeroSlider() {
           </div>
 
           <div className={`transition-all duration-700 delay-100 ${transitioning ? "opacity-0 translate-y-6" : "opacity-100 translate-y-0"}`}>
-            <h1 className="font-display leading-none">
-              <span className="block text-[clamp(3.5rem,10vw,9rem)] text-cream">{s.line1}</span>
-              <span className="block text-[clamp(3.5rem,10vw,9rem)] gold-text">{s.line2}</span>
+            <h1 className="font-display leading-none" aria-label={`${s.line1} ${s.line2} ${s.line3}`}>
+              <span className="block text-[clamp(3.5rem,10vw,9rem)] text-cream">{s.line1}</span>{" "}
+              <span className="block text-[clamp(3.5rem,10vw,9rem)] gold-text">{s.line2}</span>{" "}
               <span className="block text-[clamp(3.5rem,10vw,9rem)] text-stroke">{s.line3}</span>
             </h1>
           </div>

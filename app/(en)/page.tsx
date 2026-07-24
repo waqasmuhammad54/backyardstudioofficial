@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     "corporate video production Dubai",
     "film production company Dubai",
     "event videographer Dubai",
-    "drone videography Dubai",
+    "video production company Dubai UAE",
     "ads production company Dubai",
     "best production company UAE",
     "top production companies UAE",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
 const HOME_FAQS = [
   {
     question: "Why do UAE brands choose Backyard Studio for production?",
-    answer: "Backyard Studio Official has delivered more than 2,400 projects and provides commercial video, events, weddings, photography, social media content, and GCAA-licensed aerial production across all seven UAE emirates. The studio was founded in 2019 and launched UAE operations in 2023.",
+    answer: "Backyard Studio Official has delivered more than 2,400 projects and provides commercial video, events, weddings, photography, social media content, and commercial photography across all seven UAE emirates. The studio was founded in 2019 and launched UAE operations in 2023.",
   },
   {
     question: "How should I choose a Dubai production house for weddings and events?",
@@ -52,7 +52,7 @@ const HOME_FAQS = [
   },
   {
     question: "What wedding photography and videography does Backyard Studio provide?",
-    answer: "Backyard Studio covers nikah ceremonies, engagements, pre-wedding sessions and receptions with photography, cinematic videography, highlight edits and optional aerial coverage where permitted. Packages and delivery timing are confirmed in writing before booking.",
+    answer: "Backyard Studio covers nikah ceremonies, engagements, pre-wedding sessions and receptions with photography, cinematic videography, highlight edits. Packages and delivery timing are confirmed in writing before booking.",
   },
   {
     question: "How much does video production cost in the UAE?",
@@ -84,7 +84,7 @@ const HOME_FAQS = [
   },
   {
     question: "Does Backyard Studio handle large corporate events and government productions in Abu Dhabi?",
-    answer: "Yes. Backyard Studio Official regularly handles large-scale corporate events, government productions, brand activations, and summits in Abu Dhabi — including venues such as Yas Island, Saadiyat Island, ADNEC, and Etihad Towers. We deploy full multi-camera production teams with drone operators within 48 hours across all UAE.",
+    answer: "Yes. Backyard Studio Official regularly handles large-scale corporate events, government productions, brand activations, and summits in Abu Dhabi — including venues such as Yas Island, Saadiyat Island, ADNEC, and Etihad Towers. We deploy full multi-camera production teams within 48 hours across all UAE.",
   },
   {
     question: "Does Backyard Studio offer green screen and in-studio shoots in Dubai?",

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s | Backyard Studio",
   },
   description:
-    "Профессиональная видеосъёмка и фотография в Дубае и ОАЭ. Корпоративное видео, свадебная съёмка, контент для соцсетей, аэросъёмка дроном. Более 2,400 реализованных проектов. Лицензия GCAA.",
+    "Профессиональная видеосъёмка и фотография в Дубае и ОАЭ. Корпоративное видео, свадебная съёмка, съёмка мероприятий, контент для соцсетей. Более 2,400 реализованных проектов. Лицензия GCAA.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru",
     languages: {
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:       "Лучшая студия видеопроизводства в Дубае | Backyard Studio Official",
-    description: "Профессиональная видеосъёмка в Дубае и ОАЭ. Корпоративное видео, свадьбы, аэросъёмка GCAA. Более 2,400 проектов.",
+    description: "Профессиональная видеосъёмка в Дубае и ОАЭ. Корпоративное видео, свадьбы, съёмка мероприятий. Более 2,400 проектов.",
     url:         "https://www.backyardstudioofficial.com/ru",
     siteName:    "Backyard Studio Official",
     locale:      "ru_RU",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card:        "summary_large_image",
     title:       "Backyard Studio Official — видеопроизводство в Дубае",
-    description: "Корпоративное видео, свадьбы, аэросъёмка (лицензия GCAA). 2,400+ проектов по всем ОАЭ.",
+    description: "Корпоративное видео, свадьбы, съёмка мероприятий. 2,400+ проектов по всем ОАЭ. Лицензия GCAA.",
     images:      ["/og-image.jpg"],
   },
   robots: { index: true, follow: true },
@@ -59,7 +59,7 @@ const LOCAL_BUSINESS_RU = {
     "addressCountry":  "AE",
   },
   "description":
-    "Профессиональная видеосъёмка и фотография в Дубае. Корпоративное видео, свадебная съёмка, контент для соцсетей, аэросъёмка дроном. Лицензия GCAA.",
+    "Профессиональная видеосъёмка и фотография в Дубае. Корпоративное видео, свадебная съёмка, контент для соцсетей, съёмка мероприятий. Лицензия GCAA.",
   "areaServed": [
     { "@type": "City",              "name": "Дубай"   },
     { "@type": "City",              "name": "Абу-Даби" },

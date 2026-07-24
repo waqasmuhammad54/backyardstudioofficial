@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s | Backyard Studio Official",
   },
   description:
-    "迪拜及阿联酋领先的影视制作公司。专业视频拍摄、婚礼摄影、企业影片、社交媒体内容及无人机航拍。已完成超过2,400个项目。持有GCAA无人机商业执照。",
+    "迪拜及阿联酋领先的影视制作公司。专业视频拍摄、婚礼摄影、企业影片、活动拍摄、社交媒体内容。已完成超过2,400个项目。持有GCAA商业执照。",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/zh",
     languages: {
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:       "迪拜最佳影视制作公司 | Backyard Studio Official",
-    description: "迪拜及阿联酋领先的影视制作公司。超过2,400个项目。GCAA无人机商业执照。2小时内免费报价。",
+    description: "迪拜及阿联酋领先的影视制作公司。超过2,400个项目。持有GCAA执照。2小时内免费报价。",
     url:         "https://www.backyardstudioofficial.com/zh",
     locale:      "zh_CN",
     type:        "website",
@@ -61,7 +61,7 @@ const LOCAL_BUSINESS_ZH = {
   },
   "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm Al Quwain"],
   "description":
-    "迪拜专业影视制作公司。企业视频、婚礼摄影、无人机航拍（GCAA执照）、社交媒体内容制作。",
+    "迪拜专业影视制作公司。企业视频、婚礼摄影、活动拍摄、社交媒体内容制作。",
   "sameAs": [
     "https://www.instagram.com/backyardstudioofficial",
     "https://www.facebook.com/Backyardstudioofficial",
