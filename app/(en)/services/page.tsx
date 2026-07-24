@@ -38,7 +38,7 @@ const SERVICES_FAQS = [
   },
   {
     question: "Does Backyard Studio offer drone or aerial filming across the UAE?",
-    answer: "No. Aerial and drone filming is not offered as a bookable service. Backyard Studio Official holds a GCAA (General Civil Aviation Authority) drone operator licence as a credential, but drone work is not part of the current service catalogue. Production services cover events, weddings, corporate films, DVCs, social media content, and commercial photography across all 7 UAE emirates — Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah, and Umm Al Quwain.",
+    answer: "Yes — aerial coverage is available within our productions, such as real estate, resort, event and launch shoots, using GCAA-licensed pilots and the required permits. We provide it as part of a production rather than as a standalone drone booking. Backyard Studio Official holds a GCAA (General Civil Aviation Authority) drone operator licence and coordinates airspace approvals across all 7 UAE emirates — Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah, and Umm Al Quwain.",
   },
   {
     question: "How quickly does Backyard Studio deliver production content?",
