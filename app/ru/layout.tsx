@@ -101,6 +101,7 @@ const ORGANIZATION_RU = {
     "https://www.instagram.com/backyardstudioofficial",
     "https://www.facebook.com/Backyardstudioofficial",
     "https://www.tiktok.com/@backyardstudio_official5",
+    "https://www.linkedin.com/in/backyard-studio-508532417/",
     "https://youtube.com/@BackyardStudioofficialuae",
   ],
   "founder": [

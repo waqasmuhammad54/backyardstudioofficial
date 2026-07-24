@@ -66,6 +66,7 @@ const LOCAL_BUSINESS_ZH = {
     "https://www.instagram.com/backyardstudioofficial",
     "https://www.facebook.com/Backyardstudioofficial",
     "https://www.tiktok.com/@backyardstudio_official5",
+    "https://www.linkedin.com/in/backyard-studio-508532417/",
   ],
   "founder": [
     { "@type": "Person", "name": "Fahad Iqbal Butt",  "jobTitle": "Creative Director"      },
@@ -98,6 +99,7 @@ const ORGANIZATION_ZH = {
     "https://www.instagram.com/backyardstudioofficial",
     "https://www.facebook.com/Backyardstudioofficial",
     "https://www.tiktok.com/@backyardstudio_official5",
+    "https://www.linkedin.com/in/backyard-studio-508532417/",
     "https://youtube.com/@BackyardStudioofficialuae",
   ],
   "founder": [

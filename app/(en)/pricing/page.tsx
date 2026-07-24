@@ -326,6 +326,29 @@ const PRICE_FAQS = [
   },
 ];
 
+const PRICING_OFFER_CATALOG = {
+  "@context": "https://schema.org",
+  "@type": "OfferCatalog",
+  name: "Video & Photography Production Pricing — Dubai & UAE 2026",
+  url: "https://www.backyardstudioofficial.com/pricing",
+  provider: { "@type": "Organization", name: "Backyard Studio Official", url: "https://www.backyardstudioofficial.com" },
+  itemListElement: [
+    { "@type": "Offer", name: "Wedding photography & videography — Essential", priceCurrency: "AED", price: "7500", areaServed: "United Arab Emirates" },
+    { "@type": "Offer", name: "Wedding photography & videography — Silver", priceCurrency: "AED", price: "15500", areaServed: "United Arab Emirates" },
+    { "@type": "Offer", name: "Wedding photography & videography — Gold", priceCurrency: "AED", price: "22500", areaServed: "United Arab Emirates" },
+    { "@type": "Offer", name: "Wedding photography & videography — Platinum", priceCurrency: "AED", price: "65000", areaServed: "United Arab Emirates" },
+    { "@type": "Offer", name: "Social media content — Starter (half day)", priceCurrency: "AED", price: "2500", areaServed: "United Arab Emirates" },
+    { "@type": "Offer", name: "Social media content — Growth (full day)", priceCurrency: "AED", price: "5500", areaServed: "United Arab Emirates" },
+    { "@type": "Offer", name: "Social media content — Monthly retainer", priceCurrency: "AED", price: "8000", areaServed: "United Arab Emirates" },
+    { "@type": "Offer", name: "Event coverage — Essential (half day)", priceCurrency: "AED", price: "3000", areaServed: "United Arab Emirates" },
+    { "@type": "Offer", name: "Event coverage — Professional (full day)", priceCurrency: "AED", price: "7500", areaServed: "United Arab Emirates" },
+    { "@type": "Offer", name: "Event coverage — Large-scale production", priceCurrency: "AED", price: "20000", areaServed: "United Arab Emirates" },
+    { "@type": "Offer", name: "DVC / TV commercial — Digital", priceCurrency: "AED", price: "15000", areaServed: "United Arab Emirates" },
+    { "@type": "Offer", name: "DVC / TV commercial — Broadcast", priceCurrency: "AED", price: "45000", areaServed: "United Arab Emirates" },
+    { "@type": "Offer", name: "DVC / TV commercial — Premium brand film", priceCurrency: "AED", price: "150000", areaServed: "United Arab Emirates" },
+  ],
+};
+
 export default function PricingPage() {
   return (
     <div className="pt-24">
@@ -443,6 +466,10 @@ export default function PricingPage() {
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(PRICE_FAQS)) }}
+          />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(PRICING_OFFER_CATALOG) }}
           />
           <h2 className="font-display text-4xl text-white mb-10">PRICING FAQs</h2>
           <div className="space-y-4">
