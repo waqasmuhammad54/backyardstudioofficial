@@ -1,5 +1,6 @@
 import { MetadataRoute } from "next";
 import { BLOG_POSTS, CATEGORY_SLUGS } from "@/lib/blogPosts";
+import { getDynamicPosts } from "@/lib/dynamicPosts";
 import { CASE_STUDIES } from "@/lib/caseStudies";
 
 const BASE = "https://www.backyardstudioofficial.com";
@@ -122,7 +123,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
-  const blogPosts: MetadataRoute.Sitemap = BLOG_POSTS.map((post) => ({
+  // Static posts (lib/blogPosts.ts) + dynamic posts published via the admin panel
+  // (content/posts.json). Dynamic posts were previously missing from the sitemap,
+  // which made them undiscoverable to Google ("No referring sitemaps detected").
+  const dynamicPosts = getDynamicPosts();
+  const staticSlugs = new Set(BLOG_POSTS.map((p) => p.slug));
+  const allBlogPosts = [
+    ...BLOG_POSTS,
+    ...dynamicPosts.filter((p) => !staticSlugs.has(p.slug)),
+  ];
+
+  const blogPosts: MetadataRoute.Sitemap = allBlogPosts.map((post) => ({
     url: BASE + "/blog/" + post.slug,
     lastModified: new Date(post.dateISO),
     changeFrequency: "monthly" as const,
