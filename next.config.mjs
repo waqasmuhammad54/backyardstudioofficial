@@ -60,6 +60,9 @@ const nextConfig = {
       { source: "/blog/video-production-agency-dubai-2026", destination: "/blog/best-production-companies-dubai-2026", permanent: true },
       { source: "/blog/content-creation-agency-dubai-2026", destination: "/blog/social-media-content-creation-dubai-2026", permanent: true },
       { source: "/industries/technology", destination: "/industries/tech", permanent: true },
+      // GSC 404: Google discovered this city+service combo by pattern (it exists for
+      // Dubai and Abu Dhabi but was never built for Sharjah). Send it to the Sharjah hub.
+      { source: "/locations/sharjah/personal-branding-photography", destination: "/locations/sharjah", permanent: true },
       { source: "/zh/blog/yewu-shipin-dubai-2026", destination: "/zh/blog/qiye-shipin-zhizuo-dubai-2026", permanent: true },
       { source: "/zh/blog/dubai-hunjia-sheying-2026", destination: "/zh/blog/hunli-sheying-dubai-2026", permanent: true },
       { source: "/zh/blog/dubai-qiye-shipin-2026", destination: "/zh/blog/qiye-shipin-dubai-2026", permanent: true },
