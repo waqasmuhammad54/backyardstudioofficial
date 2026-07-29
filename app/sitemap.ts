@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { BLOG_POSTS, CATEGORY_SLUGS } from "@/lib/blogPosts";
 import { getDynamicPosts } from "@/lib/dynamicPosts";
+import { INDUSTRY_SUB_PAGES } from "@/lib/industrySubPages";
 import { CASE_STUDIES } from "@/lib/caseStudies";
 
 const BASE = "https://www.backyardstudioofficial.com";
@@ -122,6 +123,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly" as const,
     priority: 0.85,
   }));
+
+  // Industry sub-pages (/industries/{industry}/{slug}). These were previously
+  // absent from the sitemap entirely despite being fully built pages.
+  const industrySubPages: MetadataRoute.Sitemap = Object.entries(
+    INDUSTRY_SUB_PAGES
+  ).flatMap(([industry, slugs]) =>
+    slugs.map((slug) => ({
+      url: BASE + "/industries/" + industry + "/" + slug,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    }))
+  );
 
   // Static posts (lib/blogPosts.ts) + dynamic posts published via the admin panel
   // (content/posts.json). Dynamic posts were previously missing from the sitemap,
@@ -322,7 +336,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
 
-  const entries = [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...ajmanSubPages, ...rakSubPages, ...fujairSubPages, ...uaqSubPages, ...services, ...locations, ...industries, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
+  const entries = [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...ajmanSubPages, ...rakSubPages, ...fujairSubPages, ...uaqSubPages, ...services, ...locations, ...industries, ...industrySubPages, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
 
   return Array.from(
     new Map(
