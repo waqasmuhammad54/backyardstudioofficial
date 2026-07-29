@@ -3,6 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { Play, X } from "lucide-react";
 import VimeoEmbed from "@/components/shared/VimeoEmbed";
+import { CLIENT_NAMES } from "@/lib/clients";
 
 const VIDEOS = [
   {
@@ -77,9 +78,10 @@ export default function ShowreelSection() {
         {/* Marquee */}
         <div className="absolute bottom-0 inset-x-0 border-t border-white/5 py-2.5 overflow-hidden bg-ink/50 backdrop-blur-sm">
           <div className="marquee-track-rev">
-            {Array(10).fill("TRUSTED BY UAE'S FINEST BRANDS").map((t, i) => (
-              <span key={i} className="mx-8 font-display text-[0.6rem] tracking-[0.4em] text-gold/30">
-                {t} <span className="mx-4 text-gold/20">✦</span>
+            {/* Real, named clients — repeated twice so the marquee loops seamlessly. */}
+            {[...CLIENT_NAMES, ...CLIENT_NAMES].map((brand, i) => (
+              <span key={i} className="mx-8 font-display text-[0.6rem] tracking-[0.4em] text-gold/40 whitespace-nowrap">
+                {brand.toUpperCase()} <span className="mx-4 text-gold/20">✦</span>
               </span>
             ))}
           </div>

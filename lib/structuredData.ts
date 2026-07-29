@@ -5,6 +5,8 @@
  * GEO-optimised for Google AI Overviews, ChatGPT Search, Perplexity, Copilot
  */
 
+import { CLIENTS } from "./clients";
+
 const BRAND = {
   name: "Backyard Studio Official",
   legalName: "Backyardstudio official For Commercial Photographs Production",
@@ -122,6 +124,12 @@ export function organizationSchema() {
       },
     ],
     sameAs: BRAND.sameAs,
+    // Named client relationships. This is the strongest E-E-A-T signal available:
+    // verifiable brands, not anonymous "Fortune 500 client" claims.
+    client: CLIENTS.map((c) => ({
+      "@type": "Organization",
+      name: c.name,
+    })),
     hasCredential: {
       "@type": "EducationalOccupationalCredential",
       name: "GCAA Drone Operator License",
