@@ -8,10 +8,10 @@ export const INDUSTRY_SUB_PAGES: Record<string, string[]> = {
   "sports": ["padel", "cycling", "running", "cricket", "basketball", "badminton", "motorsport", "football", "fitness"],
   "automotive": ["car-launch", "dealership"],
   "tech": ["saas", "gitex", "startup", "fintech"],
-  "healthcare": ["dental"],
+  "healthcare": ["dental", "aesthetic-clinics", "medical-tourism"],
   "corporate": ["company-profile", "investor-pitch", "annual-report"],
   "hospitality": ["hotels", "resorts"],
-  "real-estate": ["luxury-villa", "off-plan"],
+  "real-estate": ["luxury-villa", "off-plan", "commercial-property"],
   "fashion": ["model-portfolio", "fashion-reels"],
   "food-beverage": ["restaurants", "menu-photography"],
 };
