@@ -199,6 +199,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/ar/blog/asear-video-sharkati-dubai-2026",    lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/taswir-zifaf-emirati-dubai-2026",    lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/taswir-zifaf-arabi-dubai-2026",      lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    // Arabic answer-first pricing page — counterpart to the EN wedding packages guide.
+    { url: BASE + "/ar/blog/baqat-taswir-zifaf-dubai-asaar-2026", lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: BASE + "/ar/blog/taswir-taaam-dubai-2026",            lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/taswir-muatamart-dubai-2026",        lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/tasjil-video-faaliyat-dubai-2026",   lastModified: now, changeFrequency: "monthly", priority: 0.75 },

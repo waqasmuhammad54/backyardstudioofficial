@@ -52,6 +52,17 @@ export function generateStaticParams() {
   return [...BLOG_POSTS, ...dynamic].map((post) => ({ slug: post.slug }));
 }
 
+/**
+ * EN blog slug → translated counterparts.
+ * Add an entry here whenever a post is translated so hreflang stays bidirectional.
+ */
+const TRANSLATED_POSTS: Record<string, Record<string, string>> = {
+  "wedding-photography-packages-in-dubai-real-2026-pricing-guide-2026": {
+    en: `${BASE}/blog/wedding-photography-packages-in-dubai-real-2026-pricing-guide-2026`,
+    ar: `${BASE}/ar/blog/baqat-taswir-zifaf-dubai-asaar-2026`,
+  },
+};
+
 export async function generateMetadata({
   params,
 }: {
@@ -71,7 +82,15 @@ export async function generateMetadata({
     title: { absolute: safeTitle },
     description: safeDesc,
     keywords: post.keywords,
-    alternates: { canonical: `${BASE}/blog/${post.slug}` },
+    alternates: {
+      canonical: `${BASE}/blog/${post.slug}`,
+      // Bidirectional hreflang for posts that have a translated counterpart.
+      // Google needs the link declared on BOTH sides to treat them as alternates
+      // rather than as competing duplicates.
+      ...(TRANSLATED_POSTS[post.slug]
+        ? { languages: { ...TRANSLATED_POSTS[post.slug], "x-default": `${BASE}/blog/${post.slug}` } }
+        : {}),
+    },
     openGraph: {
       title: safeTitle,
       description: safeDesc,
