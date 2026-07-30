@@ -713,6 +713,208 @@ const PAGES: Record<string, ServicePage> = {
     ],
   },
 
+  // ── DUBAI AREAS ───────────────────────────────────────────────────────────
+  // Area-level pages. These target "video production [area]" searches, which are
+  // higher-intent and far less contested than city-level "video production Dubai".
+
+  "dubai/dubai-marina": {
+    title: "Video Production in Dubai Marina 2026 | Backyard Studio Official",
+    metaDescription: "Video production and photography in Dubai Marina — events, corporate, real estate, weddings and social content. Marina Walk, JBR, Bluewaters. Free quote in 2 hours.",
+    h1: "Video Production in Dubai Marina",
+    subtitle: "Marina Walk. JBR. Bluewaters. The most filmed waterfront in the UAE.",
+    category: "DUBAI MARINA",
+    intro: [
+      "Dubai Marina is one of the densest and most visually distinctive districts in the UAE — a canyon of towers around a man-made waterway, with JBR beach on one side and Bluewaters Island across the water. For production, it is also one of the busiest: residents, restaurants, yacht operators, real estate brokerages, fitness studios and retail brands here all need content, and most of them need it monthly rather than once.",
+      "Backyard Studio Official covers Dubai Marina, JBR, Marina Walk, Bluewaters Island and Dubai Harbour. We produce restaurant and F&B content along Marina Walk and The Beach at JBR, property films for Marina towers and Bluewaters residences, yacht and charter content from Marina berths, event coverage at Marina hotels, and the ongoing social media content that Marina-based businesses run on.",
+      "The Marina rewards knowing it. Light moves fast between the towers, the waterfront changes character completely between morning and blue hour, and filming access varies significantly between the public promenade, private tower podiums, Bluewaters and Dubai Harbour — each with different permission requirements. We plan around all of that before the shoot day rather than discovering it on arrival.",
+    ],
+    highlights: [
+      { heading: "Marina Walk & JBR F&B", body: "Restaurant, café and lounge content along Marina Walk and The Beach at JBR — food, interiors, ambience and the short-form social content the F&B scene here runs on." },
+      { heading: "Marina Tower Property Films", body: "Apartment walkthroughs and building content across Marina towers, Bluewaters Residences and Dubai Harbour — including the water and skyline views that sell these units." },
+      { heading: "Yacht & Charter Content", body: "Yacht, charter and marine content shot from Marina berths and on the water — for charter operators, brokers and marine businesses." },
+      { heading: "Blue Hour Skyline", body: "The Marina's defining look is the 25-minute window after sunset when the towers light and the water reflects them. We schedule for it deliberately rather than hoping to catch it." },
+    ],
+    pricing: [
+      { pkg: "Social Content Day", detail: "Half-day shoot / photo + video / social cuts", price: "From AED 2,500" },
+      { pkg: "Property Film", detail: "Apartment or tower walkthrough + stills", price: "From AED 3,000" },
+      { pkg: "Event Coverage", detail: "Marina venue or hotel event coverage", price: "From AED 3,000" },
+      { pkg: "F&B Content Package", detail: "Food, interiors, ambience + reels", price: "From AED 3,500" },
+    ],
+    faqs: [
+      { q: "Do you cover Dubai Marina, JBR and Bluewaters?", a: "Yes. We cover the whole Marina district including Marina Walk, JBR and The Beach, Bluewaters Island and Dubai Harbour. These sit under different access and permission regimes — public promenade, private podium, and island management — so we confirm what is required for your specific location before the shoot." },
+      { q: "How much does video production in Dubai Marina cost?", a: "A half-day social content shoot starts from AED 2,500. Property films start from AED 3,000, event coverage from AED 3,000, and full F&B content packages from AED 3,500. Marina-based businesses on monthly retainers pay a lower per-shoot rate." },
+      { q: "Can you film restaurants and cafés on Marina Walk?", a: "Yes, and it is a large part of our Marina work. F&B content here needs to work for both the venue's own channels and delivery-platform listings, so we shoot food, interiors and ambience in one session and deliver both stills and short-form vertical video." },
+      { q: "Do you need a permit to film in Dubai Marina?", a: "It depends entirely on where you stand. The public promenade, a private tower podium, Bluewaters and Dubai Harbour each have different requirements, and commercial filming generally needs permission from the relevant authority or property management. We handle this as part of pre-production." },
+      { q: "Can you shoot yacht and boat content from the Marina?", a: "Yes. We produce yacht, charter and marine content both dockside and on the water for charter operators and brokers. On-water shoots need coordination with the operator on timing and route, which we arrange in advance." },
+      { q: "What is the best time of day to film in Dubai Marina?", a: "Blue hour — roughly 25 minutes after sunset — is the Marina's strongest look, when the towers light up and reflect on the water. Early morning is best for clean promenade shots without crowds. Midday is the weakest window because the towers cast harsh, contrasting shadows across the walkway." },
+    ],
+  },
+
+  "dubai/downtown-dubai": {
+    title: "Video Production in Downtown Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Video production and photography in Downtown Dubai — corporate films, events, hotels and Burj Khalifa backdrops. DIFC-adjacent, Dubai Mall, Boulevard. Free quote in 2 hours.",
+    h1: "Video Production in Downtown Dubai",
+    subtitle: "Burj Khalifa. The Boulevard. Dubai's most recognised backdrop.",
+    category: "DOWNTOWN DUBAI",
+    intro: [
+      "Downtown Dubai is the emirate's showcase district — Burj Khalifa, Dubai Mall, Dubai Opera, the Boulevard, and a concentration of five-star hotels and corporate headquarters. It is also the most photographed square kilometre in the Middle East, which creates a specific production problem: the obvious shots have all been taken.",
+      "Backyard Studio Official produces content across Downtown for corporate clients, hotels, restaurants, retail brands and private clients. We cover corporate films and executive content for Downtown-headquartered businesses, hotel and hospitality content across the district's properties, event coverage at Dubai Opera and hotel ballrooms, and the Burj Khalifa-backdrop work that clients specifically come to Downtown for.",
+      "The value of Downtown as a location is instant recognition — a single frame communicates Dubai to a global audience with no explanation needed. The cost is that it is crowded, heavily regulated and expensive to film in properly. Knowing which vantage points are accessible, which require permission, and which times of day are workable is most of the job here.",
+    ],
+    highlights: [
+      { heading: "Burj Khalifa Backdrops", body: "The shot clients come to Downtown for. We know the vantage points that are accessible, the ones that need permission, and the times of day the tower photographs best." },
+      { heading: "Corporate & Executive Content", body: "Executive interviews, corporate films and brand content for Downtown-headquartered businesses, filmed in-office or at hotel locations." },
+      { heading: "Hotel & Hospitality", body: "Property, F&B and event content across Downtown's five-star hotels — rooms, restaurants, ballrooms and rooftop venues." },
+      { heading: "Dubai Opera & Events", body: "Event coverage at Dubai Opera, hotel ballrooms and Boulevard venues, including multi-camera coverage for conferences and galas." },
+    ],
+    pricing: [
+      { pkg: "Corporate Film", detail: "Half-day corporate or executive content", price: "From AED 5,500" },
+      { pkg: "Event Coverage", detail: "Conference, gala or Opera event coverage", price: "From AED 3,000" },
+      { pkg: "Hotel Content Package", detail: "Rooms, F&B, facilities — photo + video", price: "From AED 6,500" },
+      { pkg: "Social Content Day", detail: "Half-day shoot / photo + video / social cuts", price: "From AED 2,500" },
+    ],
+    faqs: [
+      { q: "Can you film with the Burj Khalifa in the background?", a: "Yes, and it is one of the most requested shots in Dubai. Which vantage point we use depends on the look you want and what is accessible — some positions are public, others sit on hotel or private property and need permission. We arrange access as part of pre-production rather than turning up and hoping." },
+      { q: "How much does video production in Downtown Dubai cost?", a: "Corporate films start from AED 5,500 for a half-day. Event coverage starts from AED 3,000, hotel content packages from AED 6,500, and social content days from AED 2,500. Downtown shoots sometimes carry location or permit costs on top, which we identify upfront rather than after the fact." },
+      { q: "Do you need a permit to film in Downtown Dubai?", a: "Commercial filming in Downtown generally requires permission, and the Boulevard, Dubai Mall area and hotel properties each have their own process. Emaar manages much of the district. We handle permit applications in pre-production and build the lead time into the schedule." },
+      { q: "Do you cover events at Dubai Opera?", a: "Yes. We cover events at Dubai Opera, Downtown hotel ballrooms and Boulevard venues, typically with multi-camera coverage for conferences, galas and awards. Venue-specific rules on camera positions and lighting are confirmed with the venue before the event." },
+      { q: "Can you produce corporate video for Downtown-based companies?", a: "Yes. We produce executive interviews, corporate films, recruitment content and brand films for businesses headquartered in Downtown and the adjacent DIFC area — filmed either in your own offices or at a hotel or studio location." },
+      { q: "When is the best time to film in Downtown Dubai?", a: "Early morning gives the cleanest Boulevard and Burj Khalifa shots before crowds build. Blue hour is strongest for the tower and fountain. Midday is difficult — harsh overhead light, heavy footfall, and the hardest window for permits at busy locations." },
+    ],
+  },
+
+  "dubai/business-bay": {
+    title: "Video Production in Business Bay 2026 | Backyard Studio Official",
+    metaDescription: "Video production and photography in Business Bay Dubai — corporate films, office content, product shoots and social media for Business Bay companies. Free quote in 2 hours.",
+    h1: "Video Production in Business Bay",
+    subtitle: "Dubai's working district — where the corporate content actually gets made.",
+    category: "BUSINESS BAY",
+    intro: [
+      "Business Bay is where a very large share of Dubai's small and mid-sized businesses actually operate. It has none of Downtown's postcard recognition and all of its commercial density: thousands of companies across dozens of towers, from two-person consultancies to regional headquarters, plus a growing residential population and a canal-side F&B strip.",
+      "That makes Business Bay the single most productive district in Dubai for corporate content. Backyard Studio Official produces corporate films, executive interviews, recruitment content, product photography, office culture films and social media content for Business Bay companies — usually shot in the client's own office, which is faster and considerably cheaper than a studio hire.",
+      "We also cover the district's other content demand: canal-side restaurants and cafés, property content across Business Bay towers, and the co-working and business centre operators who need facility content to attract tenants.",
+    ],
+    highlights: [
+      { heading: "In-Office Corporate Films", body: "Executive interviews, company films and culture content shot in your own Business Bay office — no studio hire, minimal disruption, usually a half-day." },
+      { heading: "Product & E-commerce Photography", body: "Product photography for Business Bay-based brands and e-commerce sellers, shot on location or in studio depending on volume." },
+      { heading: "Office & Facility Content", body: "Office, co-working and business centre content for operators marketing space to tenants across Business Bay towers." },
+      { heading: "Canal-Side F&B", body: "Restaurant and café content along the Business Bay canal — food, interiors and short-form social." },
+    ],
+    pricing: [
+      { pkg: "Corporate Half-Day", detail: "In-office film / interviews / B-roll", price: "From AED 5,500" },
+      { pkg: "Social Content Day", detail: "Half-day shoot / photo + video / social cuts", price: "From AED 2,500" },
+      { pkg: "Product Photography", detail: "Studio or on-location product shoot", price: "From AED 2,500" },
+      { pkg: "Office & Facility Film", detail: "Office or business centre walkthrough", price: "From AED 4,500" },
+    ],
+    faqs: [
+      { q: "Can you film in our Business Bay office?", a: "Yes, and most of our Business Bay work is shot in the client's own office. We bring our own lighting and audio, work around the working day, and typically need a half-day. Some towers require building management notification for equipment access, which we sort in advance." },
+      { q: "How much does corporate video production cost in Business Bay?", a: "In-office corporate films start from AED 5,500 for a half-day, which usually covers executive interviews plus office B-roll. Social content days start from AED 2,500 and product photography from AED 2,500. Ongoing retainers are priced per shoot day at a lower rate." },
+      { q: "Do you produce content for co-working spaces and business centres?", a: "Yes. Facility content is what fills desks — prospective tenants want to see the actual meeting rooms, desk areas and common spaces rather than renders. We shoot these to feel occupied and functional rather than empty." },
+      { q: "Can you do product photography for Business Bay e-commerce brands?", a: "Yes. We shoot on white for marketplace listings and lifestyle for brand channels and ads, either on location or in studio depending on volume and setup requirements." },
+      { q: "Do you cover restaurants along the Business Bay canal?", a: "Yes. The canal-side F&B strip is an active part of our Business Bay work — food photography, interiors, ambience and the short-form vertical content restaurants need for social and delivery platforms." },
+      { q: "How quickly can you deliver corporate content?", a: "Standard delivery is 48 to 72 hours for a half-day corporate shoot. Faster turnaround is available when a deadline requires it and is arranged at booking so an editor is scheduled." },
+    ],
+  },
+
+  "dubai/palm-jumeirah": {
+    title: "Video Production on Palm Jumeirah 2026 | Backyard Studio Official",
+    metaDescription: "Video production and photography on Palm Jumeirah — luxury villas, resorts, weddings, events and property films. Atlantis, One&Only, Five Palm. Free quote in 2 hours.",
+    h1: "Video Production on Palm Jumeirah",
+    subtitle: "Villas, resorts and weddings on Dubai's most exclusive address.",
+    category: "PALM JUMEIRAH",
+    intro: [
+      "Palm Jumeirah concentrates more luxury inventory into one location than anywhere else in Dubai — Atlantis The Palm and Atlantis The Royal, One&Only, Waldorf Astoria, Five Palm, Anantara and W Dubai, alongside the Fronds' signature villas and the Palm's apartment buildings.",
+      "Backyard Studio Official covers Palm Jumeirah for luxury property content, resort and hospitality films, weddings, events and lifestyle production. Villa content on the Fronds is a particular specialism: these properties are marketed to an international buyer who will very likely never walk through before committing, so the film has to do the work a viewing normally would.",
+      "Filming on the Palm requires more planning than most of Dubai. Access to the Fronds is controlled, individual resorts have their own filming policies and rates, and aerial coverage over parts of the Palm sits in restricted airspace requiring specific approvals. All of this is arranged before the shoot day.",
+    ],
+    highlights: [
+      { heading: "Frond Villa Films", body: "Signature villa content — twilight exteriors, pool and beach frontage, interior walkthroughs — built for international buyers purchasing without a physical viewing." },
+      { heading: "Resort & Hospitality", body: "Rooms, suites, restaurants, spa and facilities content across the Palm's resorts, shot to each property's brand standard." },
+      { heading: "Palm Weddings", body: "Wedding coverage at Atlantis, One&Only, Waldorf Astoria, Five Palm and Anantara — venues we have worked repeatedly and know the logistics of." },
+      { heading: "Aerial Where Permitted", body: "Aerial coverage using GCAA-licensed pilots and the required approvals — parts of the Palm sit in restricted airspace, which we clear in advance." },
+    ],
+    pricing: [
+      { pkg: "Villa Film + Stills", detail: "Full villa film, twilight exteriors, photography", price: "From AED 5,500" },
+      { pkg: "Resort Content Package", detail: "Rooms, F&B, facilities — photo + video", price: "From AED 8,000" },
+      { pkg: "Wedding — Silver", detail: "2 photographers + 2 videographers / half day", price: "From AED 15,500" },
+      { pkg: "Event Coverage", detail: "Resort or private event coverage", price: "From AED 3,000" },
+    ],
+    faqs: [
+      { q: "Do you film luxury villas on Palm Jumeirah?", a: "Yes, Frond villa content is one of our specialisms. These properties are typically marketed to overseas buyers who will not view in person before committing, so we shoot a complete film — twilight exteriors, pool and beach frontage, full interior walkthrough — that answers what a viewing would." },
+      { q: "How much does video production on Palm Jumeirah cost?", a: "Villa films with stills start from AED 5,500. Resort content packages start from AED 8,000, event coverage from AED 3,000, and wedding packages from AED 15,500 for the Silver tier. Some resorts charge their own location fees, which are additional and confirmed upfront." },
+      { q: "Can you fly a drone over Palm Jumeirah?", a: "Aerial coverage is available within our productions using GCAA-licensed pilots and the required permits, but parts of the Palm fall within restricted airspace and some areas need additional clearance. We confirm what is achievable for your specific location before the shoot rather than assuming." },
+      { q: "Which Palm Jumeirah resorts do you cover for weddings?", a: "We cover weddings at Atlantis The Palm and The Royal, One&Only The Palm, Waldorf Astoria, Five Palm Jumeirah, Anantara and W Dubai. Each has its own supplier rules, timing constraints and preferred setups, which we work to as part of planning." },
+      { q: "Do you need permission to film on Palm Jumeirah?", a: "Usually yes. Access to the Fronds is controlled, resorts have their own filming policies and often charge location fees, and public areas may still require permission for commercial shoots. We handle these approvals in pre-production." },
+      { q: "What is the best time to film villas on the Palm?", a: "Twilight — the short window just after sunset — is the strongest look for villa exteriors, because interior lighting balances against the remaining sky and pools read beautifully. We usually pair a twilight exterior session with a daytime interior session on the same booking." },
+    ],
+  },
+
+  "dubai/difc": {
+    title: "Video Production in DIFC Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Video production and photography in DIFC — corporate films, executive portraits, finance sector content and events. Gate Village, Gate Avenue, ICD Brookfield. Free quote in 2 hours.",
+    h1: "Video Production in DIFC",
+    subtitle: "Dubai's financial district — corporate content held to a higher standard.",
+    category: "DIFC",
+    intro: [
+      "DIFC is the region's financial centre: banks, asset managers, law firms, family offices, fintech and professional services, concentrated across the Gate District, Gate Avenue, Gate Village, ICD Brookfield Place and Central Park Towers. It also holds a serious restaurant and gallery scene that operates alongside the business district.",
+      "Content expectations in DIFC are different from the rest of Dubai. The audience is institutional, often international, and frequently regulated — which means production values matter, but restraint matters more. Overproduced content actively damages credibility with this audience.",
+      "Backyard Studio Official produces corporate films, executive portraits and interviews, thought-leadership content, event coverage and recruitment films for DIFC firms. We also cover the district's F&B and gallery scene. Filming inside DIFC is managed by the DIFC Authority and requires permits for commercial work in public areas, which we handle in pre-production.",
+    ],
+    highlights: [
+      { heading: "Executive Portraits & Interviews", body: "Partner and executive headshots and interview films for finance, legal and professional services firms — consistent, restrained, and usable across LinkedIn, website and pitch materials." },
+      { heading: "Thought-Leadership Content", body: "Market commentary and insight films for asset managers, advisors and consultancies — built for LinkedIn where this audience actually is." },
+      { heading: "Corporate & Recruitment Films", body: "Firm films and recruitment content for DIFC businesses competing for regional talent." },
+      { heading: "DIFC Events & Galleries", body: "Conference, panel and event coverage across DIFC venues, plus content for the district's restaurants and art galleries." },
+    ],
+    pricing: [
+      { pkg: "Executive Portraits", detail: "Team headshot session in-office", price: "From AED 2,500" },
+      { pkg: "Corporate Half-Day", detail: "Interviews, B-roll, firm film", price: "From AED 5,500" },
+      { pkg: "Thought-Leadership Series", detail: "Batch-filmed insight films for LinkedIn", price: "From AED 6,500" },
+      { pkg: "Event Coverage", detail: "Conference, panel or gala coverage", price: "From AED 3,000" },
+    ],
+    faqs: [
+      { q: "Do you need a permit to film in DIFC?", a: "Commercial filming in DIFC public areas is managed by the DIFC Authority and requires a permit. Filming inside a firm's own leased office is generally straightforward, though building management may need notification for equipment access. We handle permits in pre-production and build the lead time in." },
+      { q: "How much does corporate video production cost in DIFC?", a: "Executive portrait sessions start from AED 2,500. Corporate half-days start from AED 5,500, thought-leadership series from AED 6,500, and event coverage from AED 3,000. Multi-partner portrait sessions and ongoing content programmes are quoted per engagement." },
+      { q: "Can you produce content for regulated financial firms?", a: "Yes. We work to the firm's own compliance and brand requirements, and expect content to go through internal review before publication. Practically, that means building in a review cycle and avoiding claims or comparative language in the edit, which we plan for from the brief stage." },
+      { q: "Do you shoot executive headshots for law firms and banks?", a: "Yes, and consistency is the whole point — partners photographed months apart need to look like they belong to the same firm. We use a repeatable lighting setup and shoot in-office so we can return and match earlier sessions exactly." },
+      { q: "Can you batch-film thought-leadership content?", a: "Yes, and it is the efficient way to do it. A single half-day with an executive can produce six to ten short insight films, which sustains a LinkedIn content programme for months. Filming one at a time is significantly more expensive per asset." },
+      { q: "Do you cover DIFC restaurants and galleries?", a: "Yes. Alongside corporate work we produce content for DIFC's restaurants and art galleries — F&B and interiors content for venues, and exhibition and opening coverage for galleries." },
+    ],
+  },
+
+  "dubai/al-quoz": {
+    title: "Video Production in Al Quoz Dubai 2026 | Backyard Studio Official",
+    metaDescription: "Video production and photography in Al Quoz — studio shoots, warehouse and industrial content, product photography and gallery coverage. Alserkal Avenue. Free quote in 2 hours.",
+    h1: "Video Production in Al Quoz",
+    subtitle: "Dubai's studio and warehouse district — where production actually happens.",
+    category: "AL QUOZ",
+    intro: [
+      "Al Quoz is Dubai's production district. It holds most of the city's film studios, equipment rental houses, post facilities, art galleries and creative warehouses, alongside a genuine industrial base of manufacturing, logistics and automotive businesses. Alserkal Avenue anchors the creative side; Al Quoz Industrial 1 through 4 anchors the working side.",
+      "Backyard Studio Official works across both. We produce studio-based content — product photography, controlled-set commercial shoots and interviews — as well as industrial and warehouse content for the manufacturing, logistics and automotive businesses based here, and gallery and exhibition coverage across Alserkal Avenue.",
+      "For clients, Al Quoz has a practical advantage: it is where the space is. Product shoots, set builds and vehicle shoots that would be impossible or ruinously expensive in Downtown are straightforward here, and studio and warehouse space is available at a fraction of the cost.",
+    ],
+    highlights: [
+      { heading: "Studio & Product Photography", body: "Controlled-set product photography and commercial shoots in Al Quoz studio space — white-background e-commerce through to full lifestyle sets." },
+      { heading: "Industrial & Warehouse Content", body: "Factory, warehouse and logistics content for Al Quoz industrial businesses — filmed with the lighting these low-lit, large-volume spaces require." },
+      { heading: "Alserkal Avenue & Galleries", body: "Exhibition, opening and artist content across Alserkal Avenue's galleries and creative spaces." },
+      { heading: "Automotive & Vehicle Shoots", body: "Vehicle photography and film in Al Quoz warehouse and studio space — the practical alternative to closing a road." },
+    ],
+    pricing: [
+      { pkg: "Product Photography", detail: "Studio session / white or lifestyle", price: "From AED 2,500" },
+      { pkg: "Industrial Film", detail: "Factory or warehouse film + stills", price: "From AED 5,500" },
+      { pkg: "Automotive Shoot", detail: "Vehicle photography and film in studio", price: "From AED 4,500" },
+      { pkg: "Gallery & Event Coverage", detail: "Exhibition or opening coverage", price: "From AED 3,000" },
+    ],
+    faqs: [
+      { q: "Do you have studio space in Al Quoz?", a: "We work with studio and warehouse space across Al Quoz depending on what the shoot needs — a small product setup and a full vehicle shoot have very different requirements. Studio hire is arranged as part of the booking and quoted transparently rather than marked up invisibly." },
+      { q: "How much does product photography cost in Al Quoz?", a: "Studio product photography starts from AED 2,500 for a session. Cost depends on product count, whether you need white-background e-commerce shots, lifestyle sets, or both, and how much set building is involved. High-volume catalogue work is priced per SKU." },
+      { q: "Can you film in warehouses and factories?", a: "Yes, and Al Quoz industrial businesses are a regular client base. Warehouses are technically demanding — large volumes, low ambient light, mixed colour temperature — so we bring lighting rather than relying on what is installed, and we work to the site's safety requirements." },
+      { q: "Do you cover Alserkal Avenue galleries and exhibitions?", a: "Yes. We cover exhibition openings, artist features and gallery content across Alserkal Avenue. Gallery work needs a light touch — minimal intrusion during openings and careful handling of artwork reproduction rights, which we confirm with the gallery." },
+      { q: "Can you do automotive shoots in Al Quoz?", a: "Yes. Al Quoz warehouse and studio space is the practical place to shoot vehicles in Dubai — full lighting control, no permits, no road closures, and no heat-haze problems. It is usually both better and cheaper than shooting on location." },
+      { q: "Why shoot in Al Quoz rather than Downtown or the Marina?", a: "Space and cost. Al Quoz has the studios, warehouses and equipment houses, no filming permit complexity for indoor work, and dramatically cheaper space. Anything that needs a controlled set — product, automotive, interviews, commercial — is better made here." },
+    ],
+  },
+
   "abu-dhabi/personal-branding-photography": {
     title: "Personal Branding Photography in Abu Dhabi 2026 | Backyard Studio Official",
     metaDescription: "Personal branding photography in Abu Dhabi — professionals, entrepreneurs, coaches, executives. LinkedIn, speaker profiles, website portraits. ADGM & Corniche locations. From AED 1,500.",

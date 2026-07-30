@@ -71,6 +71,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/locations/dubai/birthday-photography",         lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: BASE + "/locations/dubai/kids-photography",             lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: BASE + "/locations/dubai/engagement-photography",       lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    // Dubai area pages — higher-intent, lower-competition than city-level terms.
+    { url: BASE + "/locations/dubai/dubai-marina",                 lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/dubai/downtown-dubai",               lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/dubai/business-bay",                 lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/dubai/palm-jumeirah",                lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/dubai/difc",                         lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/dubai/al-quoz",                      lastModified: now, changeFrequency: "monthly", priority: 0.85 },
   ];
 
   // Sprint 11: Abu Dhabi location sub-pages (2026-06-22)
