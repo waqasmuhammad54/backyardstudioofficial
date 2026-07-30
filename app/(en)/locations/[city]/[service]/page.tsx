@@ -1187,6 +1187,140 @@ const PAGES: Record<string, ServicePage> = {
     ],
   },
 
+  // ── ABU DHABI AREAS ───────────────────────────────────────────────────────
+
+  "abu-dhabi/yas-island": {
+    title: "Video Production on Yas Island 2026 | Backyard Studio Official",
+    metaDescription: "Video production and photography on Yas Island Abu Dhabi — events at Etihad Arena, Yas Marina Circuit, theme parks, hotels and conferences. Free quote in 2 hours.",
+    h1: "Video Production on Yas Island",
+    subtitle: "Etihad Arena. Yas Marina Circuit. Abu Dhabi's entertainment engine.",
+    category: "YAS ISLAND",
+    intro: [
+      "Yas Island is the UAE's densest concentration of large-scale entertainment infrastructure: Yas Marina Circuit and the Abu Dhabi Grand Prix, Etihad Arena, Ferrari World, Warner Bros. World, Yas Waterworld, SeaWorld Abu Dhabi, Yas Mall and a full strip of hotels built to service them.",
+      "That makes it an events district first and foremost. Backyard Studio Official covers Yas Island for conference and exhibition coverage at Etihad Arena and the hotel ballrooms, motorsport and track content at Yas Marina Circuit, hospitality and F&B content across the island's hotels, and brand activations at the theme parks and Yas Bay waterfront.",
+      "Yas is also the most access-controlled district we work in. Every venue here — circuit, arena, parks, hotels — is a managed property with its own filming policy, accreditation process and often its own media rates. Nothing gets shot on Yas Island by turning up; it gets shot by arranging it properly in advance, which is exactly what we do in pre-production.",
+    ],
+    highlights: [
+      { heading: "Etihad Arena & Conferences", body: "Multi-camera coverage of conferences, exhibitions, awards and live events at Etihad Arena and Yas hotel ballrooms." },
+      { heading: "Yas Marina Circuit", body: "Track day, race weekend and motorsport content at the circuit, filmed within race control's permitted positions." },
+      { heading: "Hotel & Hospitality", body: "Rooms, F&B, facilities and event content across the Yas hotel cluster and Yas Bay waterfront venues." },
+      { heading: "Brand Activations", body: "Activation and campaign content at Ferrari World, Warner Bros. World, Yas Waterworld and Yas Mall, arranged through venue media teams." },
+    ],
+    pricing: [
+      { pkg: "Event Coverage", detail: "Conference, exhibition or arena event", price: "From AED 3,000" },
+      { pkg: "Multi-Camera Conference", detail: "3+ cameras, full-day, edited recap", price: "From AED 7,500" },
+      { pkg: "Hotel Content Package", detail: "Rooms, F&B, facilities — photo + video", price: "From AED 6,500" },
+      { pkg: "Motorsport Day", detail: "Trackside, pit and paddock coverage", price: "From AED 5,500" },
+    ],
+    faqs: [
+      { q: "Do you cover events at Etihad Arena?", a: "Yes. We cover conferences, exhibitions, awards nights and live events at Etihad Arena, typically with multi-camera coverage plus stills. Arena events require accreditation through the venue and the event organiser, which we arrange before the date — camera positions and rigging are agreed with the venue in advance." },
+      { q: "How much does video production on Yas Island cost?", a: "Event coverage starts from AED 3,000, full-day multi-camera conference coverage from AED 7,500, hotel content packages from AED 6,500, and motorsport days from AED 5,500. Yas venues sometimes charge their own media or location fees, which are additional and identified upfront." },
+      { q: "Can you film at Yas Marina Circuit?", a: "Yes, subject to the circuit's accreditation and safety process. Trackside access is tightly controlled and major events may carry exclusive broadcast rights that limit third-party filming, so we confirm permitted positions with race control and the organiser before the day." },
+      { q: "Do you need permission to film on Yas Island?", a: "Almost always, yes. Yas is made up of managed properties — the circuit, Etihad Arena, the theme parks, the hotels, Yas Mall — and each has its own filming policy and approval route. We handle these approvals in pre-production and build the lead time into the schedule." },
+      { q: "Can you cover theme park brand activations?", a: "Yes. Activations at Ferrari World, Warner Bros. World, Yas Waterworld and SeaWorld are arranged through each park's media and marketing team. Park filming usually has constraints on guest visibility and ride access, which we plan around." },
+      { q: "Do you cover Yas Bay and the waterfront venues?", a: "Yes. Yas Bay's restaurants, waterfront promenade and Etihad Arena precinct are all part of our Yas coverage — F&B content, venue films and event work." },
+    ],
+  },
+
+  "abu-dhabi/saadiyat-island": {
+    title: "Video Production on Saadiyat Island 2026 | Backyard Studio Official",
+    metaDescription: "Video production and photography on Saadiyat Island Abu Dhabi — Louvre Abu Dhabi district, luxury resorts, cultural venues, weddings and beach content. Free quote in 2 hours.",
+    h1: "Video Production on Saadiyat Island",
+    subtitle: "Louvre Abu Dhabi. Cultural District. The UAE's most architectural address.",
+    category: "SAADIYAT ISLAND",
+    intro: [
+      "Saadiyat Island is Abu Dhabi's cultural and luxury district — the Louvre Abu Dhabi, the Saadiyat Cultural District, NYU Abu Dhabi, Manarat Al Saadiyat, and a run of beachfront resorts including the St. Regis, Park Hyatt, Rixos, Jumeirah and Saadiyat Rotana, set against one of the last stretches of natural white-sand beach in the UAE.",
+      "Backyard Studio Official covers Saadiyat for luxury hospitality content, weddings, cultural and exhibition coverage, editorial and fashion shoots, and property content across the island's villa and apartment developments.",
+      "Saadiyat's defining production quality is architectural. The Louvre's dome, Manarat Al Saadiyat and the Cultural District buildings are among the most photogenic structures in the region, and the natural beach gives a genuinely different look from Dubai's engineered coastline. Filming near the cultural institutions requires their permission and is generally restricted around exhibitions, which we clear in advance.",
+    ],
+    highlights: [
+      { heading: "Luxury Resort Content", body: "Rooms, suites, beach, F&B and spa content across the St. Regis, Park Hyatt, Rixos, Jumeirah and Saadiyat Rotana properties." },
+      { heading: "Saadiyat Weddings", body: "Beach and resort wedding coverage on the island's white-sand frontage — including all-female crews for gender-separated ceremonies." },
+      { heading: "Cultural & Architectural", body: "Exhibition, gallery and architectural content around the Louvre Abu Dhabi district and Manarat Al Saadiyat, arranged with venue permission." },
+      { heading: "Editorial & Fashion", body: "Fashion and editorial shoots using the natural beach and Cultural District architecture — a genuinely distinct look from Dubai." },
+    ],
+    pricing: [
+      { pkg: "Resort Content Package", detail: "Rooms, F&B, beach, facilities", price: "From AED 8,000" },
+      { pkg: "Wedding — Silver", detail: "2 photographers + 2 videographers / half day", price: "From AED 15,500" },
+      { pkg: "Editorial / Fashion Shoot", detail: "Half-day shoot / location + studio", price: "From AED 4,500" },
+      { pkg: "Event Coverage", detail: "Resort or cultural venue event", price: "From AED 3,000" },
+    ],
+    faqs: [
+      { q: "Can you film at the Louvre Abu Dhabi?", a: "Filming at the Louvre Abu Dhabi requires the museum's own permission, and it is generally restricted — particularly inside galleries and around active exhibitions. Exterior and public-plaza filming may be possible with approval. We apply through the museum's media team in advance rather than assuming access." },
+      { q: "How much does video production on Saadiyat Island cost?", a: "Resort content packages start from AED 8,000, wedding coverage from AED 15,500 for the Silver package, editorial and fashion shoots from AED 4,500, and event coverage from AED 3,000. Resort location fees, where they apply, are additional and confirmed upfront." },
+      { q: "Do you cover weddings on Saadiyat beach?", a: "Yes. Saadiyat's natural white-sand beach and resort venues are among the strongest wedding locations in the UAE. We cover weddings at the St. Regis, Park Hyatt, Rixos, Jumeirah and Saadiyat Rotana, and can provide fully all-female crews for gender-separated ceremonies." },
+      { q: "Is Saadiyat better than Dubai for beach shoots?", a: "For a natural-coastline look, yes. Saadiyat has genuine undeveloped white-sand beach, whereas most of Dubai's accessible coastline is engineered and considerably busier. For editorial, wedding and lifestyle work where you want clean sand and open horizon, Saadiyat is the stronger choice." },
+      { q: "Do you need a permit to film on Saadiyat Island?", a: "It depends on location. Resort property requires the hotel's permission and sometimes a location fee. The Cultural District and museum areas require institutional approval. Public beach areas may still need permission for commercial filming. We establish which applies before the shoot." },
+      { q: "Can you shoot architectural content in the Cultural District?", a: "Yes, subject to approval. The Louvre's dome, Manarat Al Saadiyat and the district's buildings are exceptional architectural subjects. Exterior architectural work is generally more achievable than interior, and we arrange permissions through the relevant institution." },
+    ],
+  },
+
+  "abu-dhabi/al-maryah-island": {
+    title: "Video Production in Al Maryah Island & ADGM 2026 | Backyard Studio Official",
+    metaDescription: "Video production and photography on Al Maryah Island Abu Dhabi — ADGM financial district, corporate films, executive portraits, Galleria Mall and conference coverage.",
+    h1: "Video Production on Al Maryah Island",
+    subtitle: "ADGM. Abu Dhabi's financial centre — corporate content at institutional standard.",
+    category: "AL MARYAH ISLAND",
+    intro: [
+      "Al Maryah Island is Abu Dhabi's financial and business centre, home to Abu Dhabi Global Market (ADGM), the Abu Dhabi Securities Exchange, Cleveland Clinic Abu Dhabi, Rosewood and Four Seasons hotels, and The Galleria Al Maryah Island.",
+      "The client base here is institutional — banks, asset managers, sovereign-linked entities, law firms, healthcare and professional services. Content expectations follow: high production values, restrained presentation, and internal compliance review before anything publishes. Overproduced content actively costs credibility with this audience.",
+      "Backyard Studio Official produces corporate films, executive portraits and interviews, thought-leadership content, conference and event coverage, and healthcare content for Cleveland Clinic-adjacent practices. We also cover The Galleria's retail and F&B tenants and the island's hotel properties.",
+    ],
+    highlights: [
+      { heading: "Executive Portraits & Interviews", body: "Board and executive portraits and interview films for ADGM-registered firms, shot in-office to a repeatable standard." },
+      { heading: "Corporate & Institutional Films", body: "Firm films, annual review content and thought-leadership pieces for financial and professional services clients." },
+      { heading: "Conference & Event Coverage", body: "Multi-camera coverage of conferences, panels and institutional events at ADGM venues and island hotels." },
+      { heading: "Healthcare & Retail", body: "Healthcare content around the Cleveland Clinic cluster, plus retail and F&B content for Galleria tenants." },
+    ],
+    pricing: [
+      { pkg: "Executive Portraits", detail: "Team or board headshot session in-office", price: "From AED 2,500" },
+      { pkg: "Corporate Half-Day", detail: "Interviews, B-roll, firm film", price: "From AED 5,500" },
+      { pkg: "Conference Coverage", detail: "Multi-camera, full day, edited recap", price: "From AED 7,500" },
+      { pkg: "Thought-Leadership Series", detail: "Batch-filmed insight films", price: "From AED 6,500" },
+    ],
+    faqs: [
+      { q: "Do you produce content for ADGM-registered firms?", a: "Yes. We work with financial and professional services firms across ADGM on corporate films, executive portraits, thought-leadership content and event coverage. We expect content to pass through internal compliance review and plan for that cycle from the brief onward." },
+      { q: "How much does corporate video production cost on Al Maryah Island?", a: "Executive portrait sessions start from AED 2,500, corporate half-days from AED 5,500, thought-leadership series from AED 6,500, and full-day multi-camera conference coverage from AED 7,500." },
+      { q: "Can you work within financial-sector compliance requirements?", a: "Yes. Practically that means avoiding performance claims and comparative language in the edit, keeping disclaimers where required, and building a review cycle into the timeline. We are a production company rather than a compliance advisor, so your own compliance team signs off before publication." },
+      { q: "Do you shoot executive and board portraits?", a: "Yes, and consistency matters most here — executives photographed months apart must look like the same firm. We use a repeatable lighting setup, shoot in-office, and can return to match earlier sessions exactly as people join." },
+      { q: "Do you cover conferences at ADGM venues?", a: "Yes. We cover conferences, panels and institutional events with multi-camera setups, delivering both full-session recordings and edited recap films. Venue rules on positions, lighting and audio feed are confirmed in advance." },
+      { q: "Can you produce healthcare content near Cleveland Clinic?", a: "Yes. We produce healthcare and medical content for practices and providers in the Al Maryah cluster, working to patient-consent and health-advertising requirements as standard." },
+    ],
+  },
+
+  "abu-dhabi/corniche": {
+    title: "Video Production at Abu Dhabi Corniche 2026 | Backyard Studio Official",
+    metaDescription: "Video production and photography at Abu Dhabi Corniche — waterfront events, skyline content, running and cycling events, family shoots and city films. Free quote in 2 hours.",
+    h1: "Video Production at Abu Dhabi Corniche",
+    subtitle: "Eight kilometres of waterfront — Abu Dhabi's most accessible location.",
+    category: "CORNICHE",
+    intro: [
+      "The Corniche is Abu Dhabi's waterfront spine: eight kilometres of promenade, cycle track, public beach and park running along the western edge of the city, with the downtown skyline on one side and open Gulf water on the other.",
+      "Practically, it is the most usable location in Abu Dhabi. Unlike Yas or Saadiyat — where almost everything sits on managed private property — much of the Corniche is public space, which makes it far more workable for lifestyle, family, sports and city content, though commercial filming still requires permission from Abu Dhabi's authorities.",
+      "Backyard Studio Official covers the Corniche for waterfront event coverage, running and cycling event production, family and portrait sessions on the public beach, skyline and city films, and social content for the restaurants and cafés along the promenade.",
+    ],
+    highlights: [
+      { heading: "Running & Cycling Events", body: "Race coverage along the Corniche cycle track and promenade — mass starts, finish lines and participant content." },
+      { heading: "Skyline & City Films", body: "Abu Dhabi skyline content shot from the Corniche waterfront, including blue hour and sunrise city films." },
+      { heading: "Family & Portrait Sessions", body: "Beach and promenade family, maternity and portrait sessions on Abu Dhabi's public waterfront." },
+      { heading: "Waterfront F&B", body: "Restaurant and café content along the Corniche and Corniche Beach venues." },
+    ],
+    pricing: [
+      { pkg: "Portrait / Family Session", detail: "90 min / promenade or beach / edited gallery", price: "From AED 2,000" },
+      { pkg: "Event Coverage", detail: "Waterfront event or race coverage", price: "From AED 3,000" },
+      { pkg: "Social Content Day", detail: "Half-day shoot / photo + video / social cuts", price: "From AED 2,500" },
+      { pkg: "City Film", detail: "Skyline and city film — multi-location", price: "From AED 4,500" },
+    ],
+    faqs: [
+      { q: "Do you need a permit to film at Abu Dhabi Corniche?", a: "Commercial filming on the Corniche generally requires permission from the relevant Abu Dhabi authority, even though much of it is public space. Personal portrait sessions are usually more straightforward than commercial shoots with crew and lighting. We confirm and arrange what is required before the shoot." },
+      { q: "How much does photography at the Corniche cost?", a: "Portrait and family sessions start from AED 2,000, social content days from AED 2,500, event coverage from AED 3,000, and multi-location city films from AED 4,500." },
+      { q: "Can you cover running and cycling events on the Corniche?", a: "Yes. The Corniche cycle track and promenade host regular races and mass-participation events. We cover mass starts, finish lines, key course points and participant content, coordinating positions with the event organiser in advance." },
+      { q: "What is the best time to shoot at the Corniche?", a: "Sunrise for clean promenade and skyline shots with almost no footfall, and blue hour for the city skyline reflecting on the water. Midday is difficult for most of the year — harsh overhead light and, in summer, genuinely unworkable heat." },
+      { q: "Can you do family photography on Corniche Beach?", a: "Yes. Corniche Beach is one of the best family and portrait locations in Abu Dhabi — clean sand, calm water and an open horizon. We shoot in the cooler months and at golden hour, and advise on the quieter beach sections." },
+      { q: "Is the Corniche easier to film than Yas or Saadiyat?", a: "Generally yes, because much of it is public space rather than managed private property. Yas and Saadiyat locations almost always sit on a resort, circuit, arena or institution with its own approval process and often a location fee. The Corniche still needs permission for commercial work, but the process is simpler." },
+    ],
+  },
+
   // ── SHARJAH ───────────────────────────────────────────────────────────────
 
   "sharjah/headshot-photography": {

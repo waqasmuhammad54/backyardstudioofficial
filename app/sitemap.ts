@@ -83,6 +83,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Sprint 11: Abu Dhabi location sub-pages (2026-06-22)
   // Sprint 14: Additional Abu Dhabi sub-pages (2026-06-22)
   const abuDhabiSubPages: MetadataRoute.Sitemap = [
+    // Abu Dhabi area pages — higher-intent, lower-competition than city-level terms.
+    { url: BASE + "/locations/abu-dhabi/yas-island",                   lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/abu-dhabi/saadiyat-island",              lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/abu-dhabi/al-maryah-island",             lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/locations/abu-dhabi/corniche",                     lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: BASE + "/locations/abu-dhabi/wedding-photography",          lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: BASE + "/locations/abu-dhabi/corporate-video",              lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: BASE + "/locations/abu-dhabi/event-photography",            lastModified: now, changeFrequency: "monthly", priority: 0.85 },
