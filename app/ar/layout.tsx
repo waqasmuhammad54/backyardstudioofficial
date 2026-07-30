@@ -3,6 +3,7 @@ import Script from "next/script";
 import "../globals.css";
 import CustomCursor from "@/components/shared/CustomCursor";
 import WhatsAppButton from "@/components/shared/WhatsAppButton";
+import { CLIENTS } from "@/lib/clients";
 import ArNavbar from "@/components/layout/ArNavbar";
 import ArFooter from "@/components/layout/ArFooter";
 
@@ -106,6 +107,9 @@ const ORGANIZATION_AR = {
     { "@type": "Person", "name": "فهد إقبال بط",  "jobTitle": "المدير الإبداعي" },
     { "@type": "Person", "name": "سيد مظهر زيدي", "jobTitle": "مدير التصوير"    },
   ],
+  // Named clients — same entity data as the EN schema so Google and LLMs
+  // recognise one business across all language versions.
+  "client": CLIENTS.map((c) => ({ "@type": "Organization", "name": c.name })),
 };
 
 export default function ArabicLayout({ children }: { children: React.ReactNode }) {

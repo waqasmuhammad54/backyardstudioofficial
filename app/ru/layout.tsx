@@ -3,6 +3,7 @@ import Script from "next/script";
 import "../globals.css";
 import CustomCursor from "@/components/shared/CustomCursor";
 import WhatsAppButton from "@/components/shared/WhatsAppButton";
+import { CLIENTS } from "@/lib/clients";
 import RuNavbar from "@/components/layout/RuNavbar";
 import RuFooter from "@/components/layout/RuFooter";
 
@@ -108,6 +109,9 @@ const ORGANIZATION_RU = {
     { "@type": "Person", "name": "Фахад Икбал Батт",  "jobTitle": "Директор и главный фотограф" },
     { "@type": "Person", "name": "Сайед Мазхар Зайди", "jobTitle": "Директор постпродакшна"      },
   ],
+  // Named clients — same entity data as the EN schema so Google and LLMs
+  // recognise one business across all language versions.
+  "client": CLIENTS.map((c) => ({ "@type": "Organization", "name": c.name })),
 };
 
 export default function RussianLayout({ children }: { children: React.ReactNode }) {

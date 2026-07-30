@@ -3,6 +3,7 @@ import Script from "next/script";
 import "../globals.css";
 import CustomCursor from "@/components/shared/CustomCursor";
 import WhatsAppButton from "@/components/shared/WhatsAppButton";
+import { CLIENTS } from "@/lib/clients";
 import ZhNavbar from "@/components/layout/ZhNavbar";
 import ZhFooter from "@/components/layout/ZhFooter";
 
@@ -106,6 +107,9 @@ const ORGANIZATION_ZH = {
     { "@type": "Person", "name": "Fahad Iqbal Butt",  "jobTitle": "Creative Director"      },
     { "@type": "Person", "name": "Syed Mazhar Zaidi", "jobTitle": "Director of Photography" },
   ],
+  // Named clients — same entity data as the EN schema so Google and LLMs
+  // recognise one business across all language versions.
+  "client": CLIENTS.map((c) => ({ "@type": "Organization", "name": c.name })),
 };
 
 export default function ChineseLayout({ children }: { children: React.ReactNode }) {
