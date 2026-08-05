@@ -36,6 +36,34 @@ const INFO = [
   },
 ];
 
+type LeadForm = {
+  name: string; email: string; phone: string;
+  service: string; budget: string; message: string;
+};
+
+/**
+ * Turn whatever the visitor already typed into a one-click mailto and WhatsApp message.
+ * Used only when the POST to /api/contact fails — previously that path lost the enquiry
+ * completely, which is the worst possible outcome: the visitor believes they contacted us.
+ */
+function buildRecoveryLinks(f: LeadForm) {
+  const lines = [
+    `Name: ${f.name}`,
+    `Email: ${f.email}`,
+    f.phone ? `Phone: ${f.phone}` : "",
+    f.service ? `Service: ${f.service}` : "",
+    f.budget ? `Budget: ${f.budget}` : "",
+    "",
+    f.message || "(no additional details)",
+  ].filter(Boolean).join("\n");
+
+  const subject = `Project brief — ${f.name}${f.service ? ` (${f.service})` : ""}`;
+  return {
+    mailto: `mailto:info@backyardstudioofficial.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines)}`,
+    whatsapp: `https://wa.me/971585882685?text=${encodeURIComponent(`Hi Backyard Studio, here's my brief:\n\n${lines}`)}`,
+  };
+}
+
 const inputBase =
   "w-full bg-transparent border-b py-4 text-sm placeholder-[#444] focus:outline-none transition-colors duration-300 focus:border-current";
 
@@ -45,7 +73,8 @@ export default function ContactSection() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [submitError, setSubmitError] = useState("");
-  const [form, setForm] = useState({
+  const [recoveryLinks, setRecoveryLinks] = useState<{ mailto: string; whatsapp: string } | null>(null);
+  const [form, setForm] = useState<LeadForm>({
     name: "", email: "", phone: "", service: "", budget: "", message: "",
   });
 
@@ -84,7 +113,14 @@ export default function ContactSection() {
         form_name: "website_contact_form",
         page_path: window.location.pathname,
       });
-      setSubmitError("We couldn't send your brief. Please try again or contact us on WhatsApp.");
+      // Failing the POST used to lose the enquiry outright — the visitor had retyped
+      // everything into WhatsApp or give up. Build a pre-filled mailto and a pre-filled
+      // WhatsApp message from what they already typed so a backend outage costs a click,
+      // not the lead.
+      setRecoveryLinks(buildRecoveryLinks(form));
+      setSubmitError(
+        "We couldn't send your brief automatically. Your details are saved below — send them in one click and we'll reply within 2 hours.",
+      );
     } finally {
       setLoading(false);
     }
@@ -329,9 +365,31 @@ export default function ContactSection() {
                     We respond within 2 hours · Your info is kept confidential
                   </p>
                   {submitError && (
-                    <p role="alert" className="text-center text-sm mt-3" style={{ color: "#f87171" }}>
-                      {submitError}
-                    </p>
+                    <div role="alert" className="mt-4 p-5" style={{ background: "#1a1a1a", border: "1px solid rgba(248,113,113,0.35)" }}>
+                      <p className="text-sm mb-4" style={{ color: "#f87171" }}>{submitError}</p>
+                      {recoveryLinks && (
+                        <div className="flex flex-col sm:flex-row gap-3">
+                          <a
+                            href={recoveryLinks.whatsapp}
+                            target="_blank"
+                            rel="noreferrer"
+                            onClick={trackWhatsAppLead}
+                            className="flex-1 text-center py-3 px-4 text-xs font-semibold tracking-[0.15em] uppercase"
+                            style={{ background: "#25d366", color: "#fff" }}
+                          >
+                            Send via WhatsApp
+                          </a>
+                          <a
+                            href={recoveryLinks.mailto}
+                            onClick={trackEmailLead}
+                            className="flex-1 text-center py-3 px-4 text-xs font-semibold tracking-[0.15em] uppercase"
+                            style={{ background: "transparent", border: "1px solid var(--gold)", color: "var(--gold)" }}
+                          >
+                            Send via Email
+                          </a>
+                        </div>
+                      )}
+                    </div>
                   )}
                 </div>
               </form>
