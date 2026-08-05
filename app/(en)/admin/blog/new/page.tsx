@@ -41,6 +41,20 @@ function slugify(str: string) {
   return str.toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
+/**
+ * Single source of truth for the published slug.
+ *
+ * The year suffix must be checked on the SLUG, not the title. A title ending
+ * "... Coverage 2026" does not end with "-2026", but slugify() renders it as
+ * "...-coverage-2026" — the old title-based check appended a second year and shipped
+ * four live "-2026-2026" URLs. Both the SEO preview and the publish path use this.
+ */
+function buildSlug(title: string) {
+  const base = slugify(title);
+  if (!base) return "";
+  return base.endsWith("-2026") ? base : `${base}-2026`;
+}
+
 function textToHtml(raw: string): string {
   const lines = raw.split(/\n/);
   let html = "";
@@ -204,7 +218,7 @@ function PreviewModal({ title, metaTitle, metaDesc, excerpt, content, image, onC
         {/* SEO meta preview */}
         <div style={{ background: "#f8f8f8", borderBottom: "1px solid #eee", padding: "16px 24px" }}>
           <p style={{ color: "#1a0dab", fontSize: 18, fontWeight: 500, margin: "0 0 2px", lineHeight: 1.3 }}>{metaTitle || title}</p>
-          <p style={{ color: "#006621", fontSize: 13, margin: "0 0 4px" }}>https://backyardstudioofficial.com/blog/{slugify(title)}-2026</p>
+          <p style={{ color: "#006621", fontSize: 13, margin: "0 0 4px" }}>https://backyardstudioofficial.com/blog/{buildSlug(title)}</p>
           <p style={{ color: "#545454", fontSize: 14, margin: 0, lineHeight: 1.4 }}>{metaDesc || excerpt}</p>
         </div>
         {/* Hero */}
@@ -269,7 +283,7 @@ export default function BlogNewPage() {
       .catch(() => { setAuthed(false); });
   }, []);
 
-  const slug = slugify(title) + (title.toLowerCase().endsWith("-2026") ? "" : "-2026");
+  const slug = buildSlug(title);
 
   const addFaq = () => setFaqs([...faqs, { question: "", answer: "" }]);
   const removeFaq = (i: number) => setFaqs(faqs.filter((_, idx) => idx !== i));

@@ -488,6 +488,45 @@ export default function PricingPage() {
         </div>
       </section>
 
+      {/* Intent split. GSC shows this page ranking at ~11 for broad "video production
+          cost Dubai" style queries, where the searcher is still comparing rather than
+          buying. Route that visitor to the comparison assets instead of losing them. */}
+      <section className="py-14 bg-[#0a0a0a] border-t border-[#2a2a2a]">
+        <div className="container-xl max-w-3xl">
+          <p className="eyebrow mb-4">STILL COMPARING?</p>
+          <h2 className="font-display text-3xl md:text-4xl text-white mb-4">
+            These prices only mean something next to someone else&apos;s
+          </h2>
+          <p className="text-[#a0a0a0] text-sm leading-relaxed mb-7">
+            We publish our rates so you can benchmark them. If you are holding another
+            quote, these two will tell you whether it is a fair one — what the UAE market
+            actually charges, and what to check before you sign anything.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Link
+              href="/uae-video-production-cost-report-2026"
+              className="flex-1 p-5 border border-[#2a2a2a] bg-[#111111] hover:border-[#e8c547]/50 transition-colors group"
+            >
+              <p className="text-[#e8c547] text-[0.6rem] tracking-[0.3em] uppercase font-semibold mb-2">Data report</p>
+              <p className="text-white text-sm font-semibold mb-1 group-hover:text-[#e8c547] transition-colors">
+                UAE Video Production Cost Report 2026
+              </p>
+              <p className="text-[#666] text-xs">Rate bands by format, and where the money goes inside a budget.</p>
+            </Link>
+            <Link
+              href="/how-to-choose-a-production-company-in-dubai"
+              className="flex-1 p-5 border border-[#2a2a2a] bg-[#111111] hover:border-[#e8c547]/50 transition-colors group"
+            >
+              <p className="text-[#e8c547] text-[0.6rem] tracking-[0.3em] uppercase font-semibold mb-2">Buyer&apos;s guide</p>
+              <p className="text-white text-sm font-semibold mb-1 group-hover:text-[#e8c547] transition-colors">
+                How to Choose a Production Company in Dubai
+              </p>
+              <p className="text-[#666] text-xs">10-point checklist, red flags, and the questions to ask.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-20 bg-[#111111] text-center border-t border-[#2a2a2a]">
         <p className="eyebrow mb-4">READY TO START?</p>

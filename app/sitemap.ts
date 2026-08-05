@@ -3,6 +3,7 @@ import { BLOG_POSTS, CATEGORY_SLUGS } from "@/lib/blogPosts";
 import { getDynamicPosts } from "@/lib/dynamicPosts";
 import { INDUSTRY_SUB_PAGES } from "@/lib/industrySubPages";
 import { CASE_STUDIES } from "@/lib/caseStudies";
+import { RETIRED_BLOG_SLUGS } from "@/lib/retiredSlugs";
 
 const BASE = "https://www.backyardstudioofficial.com";
 
@@ -161,7 +162,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const allBlogPosts = [
     ...BLOG_POSTS,
     ...dynamicPosts.filter((p) => !staticSlugs.has(p.slug)),
-  ];
+  ]
+    // Cannibalisation consolidation: retired slugs now 301 elsewhere. Listing a
+    // redirect in the sitemap wastes crawl budget and signals a stale file.
+    .filter((p) => !RETIRED_BLOG_SLUGS.has(p.slug));
 
   const blogPosts: MetadataRoute.Sitemap = allBlogPosts.map((post) => ({
     url: BASE + "/blog/" + post.slug,

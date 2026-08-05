@@ -1,3 +1,4 @@
+import { RETIRED_BLOG_SLUGS } from "@/lib/retiredSlugs";
 /**
  * Blog post content library
  * Backyard Studio Official — backyardstudioofficial.com
@@ -739,52 +740,6 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2>Video Walkthroughs — The New Standard</h2>
 <p>Video walkthroughs have become an expected element of premium Dubai property listings. A well-produced property walkthrough — flowing smoothly through each space, with ambient music and thoughtful pacing — allows international buyers to experience the property in a way that still photographs cannot replicate. We produce Dubai property walkthrough videos in 60-second social media format, 2–3 minute portal listing format, and long-form YouTube format from a single shoot.</p>
-    `,
-  },
-  {
-    slug: "corporate-video-production-dubai-2026",
-    title: "Corporate Video Production Dubai 2026 — The Complete Brand Guide",
-    metaTitle: "Corporate Video Production Dubai 2026 | Brand Films & Company Videos UAE",
-    metaDescription: "Complete guide to corporate video production in Dubai — company profile videos, brand films, executive content, and culture videos. Costs, timelines, and what to expect from top UAE production studios.",
-    keywords: ["corporate video production Dubai", "company profile video Dubai", "corporate film production UAE", "brand video Dubai 2026", "corporate videographer Dubai", "business video production UAE"],
-    category: "Industry Guide",
-    date: "Apr 4, 2026",
-    dateISO: "2026-04-04",
-    readTime: "7 min",
-    image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1200&q=80",
-    excerpt: "Every UAE business needs a corporate video that tells its story compellingly. Here's a complete guide to commissioning, producing, and using corporate video content in 2026.",
-    author: "Backyard Studio Editorial",
-    faqs: [
-      { question: "How much does corporate video production cost in Dubai?", answer: "Corporate video production in Dubai ranges from AED 15,000 for a single-location company profile video to AED 100,000+ for a multi-day brand documentary. A standard company profile video — 2–5 minutes, single location, executive interviews and B-roll — typically costs AED 20,000–AED 40,000 including full post-production." },
-      { question: "How long does a corporate video take to produce in Dubai?", answer: "A standard 2–5 minute corporate video takes 3–5 weeks from brief to final delivery: approximately 1 week for scripting and pre-production approvals, 1–2 days of filming, and 2–3 weeks of post-production with revision rounds. Rush timelines (2 weeks) are available for time-sensitive launches or events." },
-      { question: "What is the most important corporate video every UAE business needs?", answer: "The company profile video (also called a brand film or about us video) is the single most important corporate video for any UAE business. It is used on your website homepage, in investor decks, at events, on LinkedIn, and in sales presentations. A compelling company profile video communicates your proposition, your team, and your culture in 2–3 minutes — and it works as a sales tool 24 hours a day." },
-    ],
-    relatedSlugs: ["how-much-does-video-production-cost-dubai-2026", "best-production-companies-dubai-2026", "best-social-media-content-creators-dubai-2026"],
-    content: `
-<h2>Why Corporate Video is Now Non-Negotiable for UAE Businesses</h2>
-<p>In 2026, a UAE business without a professional company video is increasingly at a disadvantage. Not because corporate video is a new phenomenon — but because the platforms and contexts where corporate video performs have multiplied dramatically, and the businesses that invested in high-quality video content 2–3 years ago are now reaping compound returns on that investment through organic search, LinkedIn engagement, and sales conversion.</p>
-<p>Your company profile video appears on your website homepage, in your LinkedIn company page, in your email signature links, in investor and partnership decks, at trade shows and conferences, and in your business development team's sales presentations. This single piece of content works across more channels than almost any other marketing asset you will ever produce.</p>
-
-<h2>The Types of Corporate Video UAE Businesses Need</h2>
-
-<h3>Company Profile Video (Brand Film)</h3>
-<p>The most fundamental corporate video: who you are, what you do, who you serve, and why you are exceptional at it. This should run 2–4 minutes for website use, with a 60-second social media cut. It should feature your leadership, your team, your work environment, and — most importantly — evidence of the results you deliver for clients.</p>
-<p>The most common mistake UAE businesses make with company profile videos: focusing exclusively on what the company does rather than communicating why it does it better than anyone else. Your company profile video is not a list of services — it is a persuasion tool. Every frame should be building the case for why a viewer should choose you.</p>
-
-<h3>Culture & Recruitment Video</h3>
-<p>In the UAE's talent-competitive market, culture video has become one of the most important recruiting tools available. A well-produced culture film — showing what it is genuinely like to work at your organisation, the people, the environment, and the opportunities — attracts better candidates and reduces time-to-hire significantly.</p>
-<p>The authenticity standard for culture video is higher than for commercial brand content. Highly produced, scripted culture videos feel inauthentic to the talent audience you are trying to reach. The best culture films mix structured interviews with candid observation — letting your team's personalities and genuine enthusiasm speak for themselves.</p>
-
-<h3>Executive Thought Leadership Video</h3>
-<p>LinkedIn video content from company founders and senior executives consistently outperforms brand-only company page content in reach and engagement. A 2–3 minute executive video — filmed professionally with good lighting, clean audio, and confident delivery — can generate more leads from LinkedIn than a month of standard company posts.</p>
-<p>Many UAE executives are initially reluctant about being on camera. The best corporate video production teams are skilled at pre-shoot preparation, on-camera coaching, and directing executives to appear natural and authoritative — producing results that surprise and delight even the most camera-shy leaders.</p>
-
-<h3>Client Testimonial Videos</h3>
-<p>Video testimonials are the most conversion-powerful element in most UAE B2B sales funnels. A compelling, authentic client testimonial — filmed properly, edited tightly, and focused on specific outcomes rather than generic praise — is often the piece of content that converts a late-stage prospect into a closed deal.</p>
-
-<h2>What Makes a Great Corporate Video</h2>
-<p>After producing corporate content for hundreds of UAE businesses, we have observed that the best corporate videos share three qualities regardless of the company's size or industry: they lead with a problem (not a product), they provide specific evidence of results (not just claims), and they end with a clear and compelling call to action that tells the viewer exactly what to do next.</p>
-<p>The production quality — good lighting, clean audio, professional editing — is the container for this story. But the story itself is what converts viewers into enquiries.</p>
     `,
   },
   {
@@ -1887,92 +1842,6 @@ export const BLOG_POSTS: BlogPost[] = [
 
   // ─── POST 35: Arabic Wedding Photography Dubai ────────────────────────────
   {
-    slug: "arabic-wedding-photography-dubai-2026",
-    title: "Arabic Wedding Photography Dubai 2026 — Prices, Traditions & Studios",
-    metaTitle: "Arabic Wedding Photography Dubai | Backyard Studio",
-    metaDescription: "Arabic wedding photography Dubai from AED 6,000. Lebanese, Gulf & Egyptian weddings. Culturally fluent photography with Arabic-speaking crew. Free quote.",
-    keywords: ["Arabic wedding photography Dubai", "Arabic wedding photographer Dubai", "Arab wedding photography UAE", "Lebanese wedding photographer Dubai", "Gulf wedding photography UAE"],
-    category: "Wedding Guide",
-    date: "June 5, 2026",
-    dateISO: "2026-06-05",
-    readTime: "6 min",
-    image: "https://images.unsplash.com/photo-1537633552985-df8429e8048b?w=1200&q=80",
-    excerpt: "Dubai's Arab diaspora brings Lebanese, Jordanian, Egyptian, Syrian, and Gulf wedding traditions together in one city. Each demands a photographer who understands the difference. Here is what to know.",
-    author: "Fahad Iqbal Butt",
-    faqs: [
-      { question: "What is Arabic wedding photography in Dubai?", answer: "Arabic wedding photography covers multi-cultural Arab weddings in the UAE — including Levantine (Lebanese, Jordanian, Syrian), North African (Egyptian), and Gulf Arab communities. Key moments include the zaffe (musical bridal entrance), dabke (circle dance), henna photography, and formal majlis family portraits. Each tradition has its own visual grammar and its own defining moments." },
-      { question: "How much does Arabic wedding photography cost in Dubai?", answer: "Arabic wedding photography in Dubai ranges from AED 6,000–10,000 for single-day coverage with 2 photographers and 400+ edited images, to AED 20,000–40,000 for a complete package covering the henna night, wedding day, wedding film, aerial photography, and a bilingual Arabic-English album." },
-      { question: "Do you cover Lebanese-style zaffe weddings?", answer: "Yes. Lebanese zaffe with live musicians and dabke dancers is something we have covered extensively at Backyard Studio. We know the timeline, the positions, and the energy — your entrance will be captured perfectly, not missed because the photographer was in the wrong position." },
-      { question: "Can you deliver same-day highlights for social media?", answer: "Yes. Our social highlights package delivers 10–15 edited preview images and a 60-second social reel within 4 hours of the reception ending — when your guests are still sharing and your hashtag is still trending." },
-      { question: "What Dubai venues are best for Arabic weddings?", answer: "Popular venues include Fairmont The Palm, Sofitel Downtown Dubai, JW Marriott Marquis, Atlantis The Palm, and Rixos Premium JBR for beach-access evening ceremonies. Each has specific access and lighting conditions our team knows well." },
-    ],
-    relatedSlugs: ["emirati-wedding-photography-dubai-2026", "wedding-photography-dubai", "hotel-photography-dubai-2026"],
-    content: `
-<h2>Why Arabic Wedding Photography in Dubai Is Its Own Genre</h2>
-<p>Dubai's Arab diaspora represents one of the most diverse and celebration-rich wedding markets in the world. Lebanese, Jordanian, Egyptian, Syrian, Palestinian, Iraqi, and Yemeni families living in the UAE bring their own specific traditions, music, and visual aesthetics to the wedding day — and each demands a photographer who understands the difference.</p>
-<p>Backyard Studio Official has covered Arabic weddings from all these backgrounds across Dubai, Sharjah, and Abu Dhabi. Fahad Iqbal Butt leads our Arabic wedding photography team with experience across Lebanese, Jordanian, and Gulf wedding traditions.</p>
-
-<h2>The Moments You Cannot Miss — and Cannot Fake</h2>
-<p>The zaffe (زفة) is the moment an Arabic wedding lives or dies on film. The bridal entrance with a live dabke group, the music, the energy in the room — it runs for three minutes and there is no second take. Syed Mazhar Zaidi positions two cameras for every zaffe we cover. If you have one camera operator moving between positions, you will miss something. We do not do that.</p>
-<p>Dabke (دبكة) is a different technical challenge. The traditional circle dance happens in reception lighting — coloured DJ spots, moving heads, dramatic contrast. We shoot with fast prime lenses at ISO 6400 because the alternative is a blurry frame of your guests' most joyful moment of the night. Sharpness in low light is not optional for this genre.</p>
-<p>Then there are the family portraits. Arabic families arrive in generations — grandparents, aunts, uncles, first cousins, second cousins. We photograph three to five different family configurations as standard, because we have learned that no matter how beautiful the candids are, the extended family group portrait is the image that gets printed, framed, and passed down. And the henna ceremony the night before — intimate, close female family, slower energy — gets the same care as the wedding itself. It is not a warm-up. It is part of the story.</p>
-
-<h2>Arabic Wedding Photography Costs in Dubai 2026</h2>
-<p>Single-day coverage — 2 photographers, 400+ edited images, 48-hour delivery — starts from <strong>AED 6,000–10,000</strong>. Adding a pre-wedding shoot, drone aerials at outdoor venues, and same-day social highlights brings the package to <strong>AED 10,000–20,000</strong>. A complete package covering the henna night, full wedding day, wedding film, aerial photography, and a bilingual Arabic-English album comes in at <strong>AED 20,000–40,000</strong>.</p>
-
-<h2>Arabic Wedding Film Production</h2>
-<p>We produce fully bilingual Arabic/English wedding films on request. For Levantine families sharing the film with family in Beirut, Amman, or Cairo, a film with Arabic title cards and narration carries a meaning that a generic English-language film simply does not. Contact us to discuss your specific requirements.</p>
-    `,
-  },
-
-  // ─── POST 36: Food Photography Dubai ──────────────────────────────────────
-  {
-    slug: "food-photography-dubai-2026",
-    title: "Food Photography Dubai 2026 — Costs, Studios & What Actually Sells",
-    metaTitle: "Food Photography Dubai 2026 | F&B UAE | Backyard Studio",
-    metaDescription: "Food photography Dubai from AED 1,500. Menu shoots, F&B campaigns, delivery platform content for restaurants and hotel chains across the UAE.",
-    keywords: ["food photography Dubai", "food photographer Dubai", "restaurant photography Dubai", "food photography UAE", "F&B photography Dubai", "restaurant photographer UAE"],
-    category: "Commercial Photography",
-    date: "June 5, 2026",
-    dateISO: "2026-06-05",
-    readTime: "6 min",
-    image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1200&q=80",
-    excerpt: "Dubai's restaurant market demands more than a clean dish shot. The best-performing F&B content uses moody lighting, action shots, and Arabic-first social formatting. Here is what food photography in Dubai actually costs and what makes it work.",
-    author: "Fahad Iqbal Butt",
-    faqs: [
-      { question: "How much does food photography cost in Dubai?", answer: "Food photography in Dubai costs from AED 1,500–3,000 for a half-day studio shoot covering 10–15 styled dishes, to AED 6,000–15,000 for a full campaign including menu photography, chef portraits, lifestyle dining shots, and social media reel content. For hotel F&B groups and multi-restaurant groups, Backyard Studio offers monthly retainer packages from AED 5,000/month." },
-      { question: "What makes good food photography in Dubai?", answer: "The best-performing Dubai restaurant social content uses moody atmospheric lighting (not just clean white backgrounds), action shots like cheese pulls, sauce pours, and cocktail garnish drops, styling that matches the restaurant's visual brand identity, and vertical-format cropping optimised for Instagram and Talabat listings. Action shots generate 3–5x more engagement than static dish photography across UAE F&B accounts." },
-      { question: "Do you shoot at the restaurant or in a studio?", answer: "Both. We regularly shoot in restaurant environments between service periods — early morning before lunch service or afternoon before dinner service. We also offer in-studio food photography for product campaigns, packaged food, and e-commerce content where full control of light and set design is required." },
-      { question: "How quickly do we receive the photos?", answer: "Standard turnaround is 48 hours for edited images. Social-ready preview images for immediate posting can be delivered within 24 hours. Rush same-day delivery is available for campaign launches and new restaurant openings." },
-      { question: "Can you produce video content alongside the food photography?", answer: "Yes. Combined photo and video packages are available covering dish presentation reels, chef feature videos, and social media content alongside still photography. Combined packages offer better value than booking separately and give your content calendar both formats from a single shoot day." },
-    ],
-    relatedSlugs: ["product-photography-dubai-2026", "hotel-photography-dubai-2026", "corporate-photography-dubai-2026"],
-    content: `
-<h2>Why Food Photography in Dubai Has Raised Its Game</h2>
-<p>Food photography in Dubai has evolved dramatically. The market now demands more than a clean white-background dish shot — the best-performing restaurant social content uses moody lighting, styled props, action shots like pours and pulls, and Arabic-first social formatting. If your menu photos still look like they were taken on a phone, you are losing customers before they walk through the door.</p>
-<p>Backyard Studio Official works with restaurants, hotel F&B outlets, delivery brands, and packaged food companies across Dubai and the UAE. Fahad Iqbal Butt has shot F&B campaigns for five-star hotel dining outlets and independent Dubai restaurants.</p>
-
-<h2>What Does Food Photography Cost in Dubai?</h2>
-<p><strong>AED 1,500–3,000:</strong> Half-day studio shoot (4 hours), 10–15 styled dishes, 2–3 hero shots, delivered within 48 hours.</p>
-<p><strong>AED 3,000–6,000:</strong> Full-day food shoot (8 hours), 25–40 dishes, full menu coverage, action shots included.</p>
-<p><strong>AED 6,000–15,000:</strong> Multi-day campaign — menu photography plus chef portraits plus lifestyle dining shots plus social media reel content.</p>
-<p>For hotel F&B outlets and multi-restaurant groups, we offer monthly retainer packages from AED 5,000/month covering ongoing content production across multiple outlets.</p>
-
-<h2>What Actually Makes Food Photography Sell in Dubai</h2>
-<p>The most common mistake restaurants make is ordering "clean product shots" and wondering why the content performs badly. Dubai's top-performing F&B Instagram accounts have almost universally moved away from the bright white studio aesthetic — they shoot moody, atmospheric, candlelit. Dramatic shadows. Rich colour. The feeling of sitting at the table, not inspecting the dish in a lab. We shoot to the aesthetic your brand already uses, not a default template we pull from a shelf.</p>
-<p>Action shots are the other thing most studios skip and most clients under-request. A cheese pull, a sauce pour mid-plate, a cocktail garnish dropped from above — these two-second moments generate three to five times more engagement than static dish photography across Dubai F&B Instagram accounts consistently. We include at least three action sequences in every food shoot as a baseline, not an upsell.</p>
-<p>Styling matters more than most clients realise before they see the difference. For campaign shoots and hero images, we bring props, linens, and surface materials calibrated to match your visual identity — the worn timber for a rustic concept, the marble and brass for a luxury Lebanese, the clean white stone for a Japanese minimalist. The dish alone does not make the image. The frame around it does.</p>
-
-<h2>Who Needs Food Photography in Dubai?</h2>
-<p><strong>New restaurant openings.</strong> Google Business Profile, Zomato, Talabat, and Instagram all index food photography in their discovery algorithms. Launching with professional shots means ranking faster and converting more viewers to customers.</p>
-<p><strong>Delivery brands.</strong> Talabat and Deliveroo listings with professional photos convert at measurably higher rates than phone photography. AED 3,000 in photography pays back in days at typical delivery order volumes.</p>
-<p><strong>Hotel F&B outlets.</strong> Five-star dining outlets need quarterly campaign photography for seasonal menu launches. We provide on-location hotel shoots with no disruption to service.</p>
-<p><strong>Packaged food and FMCG brands.</strong> E-commerce product photography for supermarket listings, packaging relaunches, and Amazon UAE storefronts.</p>
-    `,
-  },
-
-  // ─── POST 37: Conference Photographer Dubai ─────────────────────────────
-  {
     slug: "conference-photographer-dubai-2026",
     title: "Conference Photographer Dubai 2026 — Corporate Events, Galas & Exhibitions",
     metaTitle: "Conference Photographer Dubai | Events | Backyard Studio",
@@ -2057,145 +1926,6 @@ export const BLOG_POSTS: BlogPost[] = [
 
   // ─── POST 39: Music Video Production Dubai ────────────────────────────────
   {
-    slug: "music-video-production-dubai-2026",
-    title: "Music Video Production Dubai 2026 — Costs, Process & How to Choose a Director",
-    metaTitle: "Music Video Production Dubai | Backyard Studio UAE",
-    metaDescription: "Music video production Dubai from AED 8,000. Cinematic videos for UAE & GCC artists. Director treatment, permits, grade and delivery. Free quote.",
-    keywords: ["music video production Dubai", "music video director Dubai", "music video shoot Dubai", "music video company UAE", "Arabic music video production Dubai", "music video filming Dubai"],
-    category: "Video Production",
-    date: "June 5, 2026",
-    dateISO: "2026-06-05",
-    readTime: "7 min",
-    image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200&q=80",
-    excerpt: "Dubai is one of the fastest-growing music markets in the Arab world and South Asia. Its visual backdrop — from the Burj Khalifa to Al Fahidi to the desert — gives music videos a production value few cities can match. Here is everything about producing a music video in Dubai.",
-    author: "Syed Mazhar Zaidi",
-    faqs: [
-      { question: "How much does a music video cost in Dubai?", answer: "Music video production in Dubai costs AED 8,000–20,000 for a single-location concept video with 1 shoot day, colour grade, and one edit round. Multi-location narrative videos with 2 shoot days, art direction, and advanced colour grade cost AED 20,000–50,000. Full productions with storyboards, casting, multi-day shoots, licensed locations, drone aerials, and VFX cost AED 50,000–150,000+. Contact Backyard Studio with your track and concept for a detailed production quote." },
-      { question: "How long does a music video take to produce in Dubai?", answer: "From brief to delivery, a standard single-day music video takes 3–4 weeks: 1 week pre-production and location scouting, 1 shoot day, and 2 weeks post-production and colour grade. Rush timelines are available for artists with release deadlines." },
-      { question: "Can you film near the Burj Khalifa for a music video?", answer: "Yes, with permits. We handle all location permit applications including Emaar and Dubai Municipality authorisations. Burj Khalifa area filming requires 5–10 working days advance permit notice. We know exactly which positions, distances, and times of day are approved — and how to get the best cinematic result within those parameters." },
-      { question: "Do you produce Arabic music videos?", answer: "Yes. We produce music videos for Arabic-language artists and Khaleeji productions. Syed Mazhar Zaidi is experienced with the aesthetic conventions of Arabic and Gulf music video production — the colour temperature, the framing, the pacing, and the visual grammar that the Arabic music audience expects." },
-      { question: "Can you produce a music video in the Dubai desert?", answer: "Yes. Desert shoots at Al Qudra and the Dubai Desert Conservation Reserve are among our most-requested music video locations. We handle logistics, permits, and the specific equipment requirements for filming in UAE heat. With GCAA-licensed drone aerials, desert footage has a cinematic scale that no other Dubai location matches." },
-    ],
-    relatedSlugs: ["brand-film-production-dubai-2026", "social-media-content-creation-dubai-2026", "drone-photography-dubai-2026"],
-    content: `
-<h2>Why Dubai Is the Right City for Your Music Video</h2>
-<p>Dubai has become one of the fastest-growing music markets in the Arab world and South Asia. With a population drawn from 200 nationalities, demand for music video production spans Arabic pop, Khaleeji traditional, Bollywood-style Asian productions, hip-hop, electronic music, and multi-language crossover content. The city's visual backdrop — from the Burj Khalifa to Alserkal Avenue to the Dubai Creek heritage district — gives music videos a production value that few cities in the region can match.</p>
-<p>Backyard Studio Official produces music videos for independent artists, record labels, and brand-commissioned music content across Dubai and the wider GCC. Syed Mazhar Zaidi directs and writes every creative treatment personally.</p>
-
-<h2>How Much Does a Music Video Cost in Dubai?</h2>
-<p><strong>AED 8,000–20,000:</strong> Single-location concept video, 1 shoot day, basic wardrobe and styling, colour graded, 1 edit round, delivered in 10 business days.</p>
-<p><strong>AED 20,000–50,000:</strong> Multi-location narrative video, 2 shoot days, location fees, props and art direction, detailed VFX colour grade, 3 edit rounds.</p>
-<p><strong>AED 50,000–150,000+:</strong> Full production — director treatment, storyboards, casting, multi-day shoot, licensed locations, drone aerials, advanced VFX, and festival-grade colour grade.</p>
-
-<h2>How a Music Video Actually Gets Made With Us</h2>
-<p>Every music video Syed Mazhar Zaidi directs starts with a written treatment. Not a mood board, not a vague concept conversation — a written document: the visual concept, the colour palette, the narrative arc, the specific reference films, and the shot list broken down by location. This is the document that everyone on the crew reads before the shoot day so the director, the DP, the art department, and the artist are all working toward the same thing. Without it, shoot days become expensive improvisation sessions.</p>
-<p>Dubai's locations are genuinely spectacular for music video work, but many of the best ones require permits and most artists do not realise this until they are trying to shoot in front of the Burj Khalifa with a police officer explaining why they cannot. Fahad Iqbal Butt handles all permit coordination — Emaar authorisations for Downtown locations, Dubai Municipality permits for beaches and public spaces, heritage site access for Al Fahidi. We know which positions are cleared, which times of day work best for each location, and which requests get declined so we do not waste your budget pursuing them.</p>
-<p>On the technical side, we shoot on ARRI Alexa and RED for larger productions, BMPCC and Sony FX6 for agile single-day work. Everything is colour graded in DaVinci Resolve to the specific treatment — not a LUT applied in fifteen minutes. And we run live monitoring on every music video shoot so the artist can see exactly how they are looking in the actual location light, in real time, before committing 50 takes to a direction that is not working. On-set playback sounds like a detail. When you are spending AED 25,000 on a shoot day, it is not.</p>
-
-<h2>Best Dubai Locations for Music Videos</h2>
-<p>Dubai's visual range is unmatched in the region. The Burj Khalifa and Downtown Dubai skyline — permits required from Emaar, iconic result. Al Fahidi Historical District — wind towers, narrow alleys, golden heritage textures. Alserkal Avenue — industrial creative district, warehouse interiors, street murals. Jumeirah Beach and JBR — beachfront, sunset, modern resort aesthetic. The Dubai desert at Al Qudra — dune cinematography, traditional Gulf atmosphere, extraordinary aerial footage. Dubai Marina and Bluewaters Island — urban waterfront, yacht backdrop, glass architecture. Gold Souk and Deira Creekside — authentic old Dubai, Arabic heritage atmosphere.</p>
-
-<h2>Arabic and Emirati Music Video Production</h2>
-<p>Dubai is a hub for Arabic language music production across the Gulf. Khaleeji artists, Lebanese pop, Egyptian R&B, and cross-genre Arabic content all find their audience in the UAE. Backyard Studio has produced Arabic-language music videos with direction, subtitle titling, and colour grades calibrated to the Arabic music video aesthetic — warmer, more saturated, and more cinematic than Western pop equivalents. Our Arabic-speaking team handles every element of Arabic-language production in-house.</p>
-    `,
-  },
-
-
-  // ─── TIER 2: WEDDING NICHE POSTS ───────────────────────────────────────────
-
-  {
-    slug: "pakistani-wedding-photographer-dubai-2026",
-    title: "Pakistani Wedding Photographer Dubai 2026 — Shadi, Walima & Mehndi Coverage",
-    metaTitle: "Pakistani Wedding Photographer Dubai | Backyard Studio",
-    metaDescription: "Pakistani wedding photographer Dubai from AED 6,500. Mehndi, Nikah, Baraat & Walima coverage. Urdu-speaking crew, GCAA drone licence. Free quote.",
-    keywords: ["Pakistani wedding photographer Dubai", "Pakistani wedding photography Dubai", "shadi photographer Dubai", "walima photographer Dubai", "mehndi photographer Dubai", "Pakistani wedding videographer Dubai"],
-    category: "Wedding Photography",
-    date: "June 6, 2026",
-    dateISO: "2026-06-06",
-    readTime: "8 min",
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80",
-    excerpt: "Dubai is home to over 400,000 Pakistanis — one of the largest diaspora communities in the UAE. Pakistani weddings here blend South Asian tradition with Dubai's luxury venues: multi-day celebrations, elaborate Mehndi nights, grand Baraat processions, and Walima banquets that fill five-star ballrooms.",
-    author: "Fahad Iqbal Butt",
-    faqs: [
-      { question: "How much does a Pakistani wedding photographer cost in Dubai?", answer: "Pakistani wedding photography in Dubai starts at AED 6,500 for single-event coverage (Nikah or Walima). Full multi-day packages covering Mehndi, Nikah, Baraat, and Walima with cinematic videography range from AED 16,000 to AED 40,000. Backyard Studio provides detailed quotes based on the number of events, guest count, and venue." },
-      { question: "Do you cover all events of a Pakistani wedding in Dubai?", answer: "Yes. We cover the complete Pakistani wedding sequence: Dholki and Mehndi night, Nikah ceremony, Baraat procession, Reception, and Walima. Our packages are designed around the multi-day format standard to Pakistani weddings in Dubai." },
-      { question: "Do you have Urdu-speaking photographers?", answer: "Yes. Fahad Iqbal Butt and our core team are Urdu speakers. This makes communication with families, guests, and vendors significantly smoother — and means we understand the cultural context of every moment we are photographing." },
-      { question: "Which Dubai venues are best for Pakistani weddings?", answer: "Popular venues for Pakistani weddings in Dubai include Atlantis The Palm, JW Marriott Marquis, The Ritz-Carlton DIFC, Jumeirah Beach Hotel, and the Grand Hyatt. We have photographed events at all of these and know each venue's lighting and layout in detail." },
-      { question: "Do you offer same-day highlight reels for Pakistani weddings?", answer: "Yes. We offer same-day highlight reels as an add-on — a 90-second edit delivered within hours of the event closing, ideal for sharing on family WhatsApp groups and social media the same night." },
-    ],
-    relatedSlugs: ["indian-wedding-photographer-dubai-2026", "arabic-wedding-photography-dubai-2026", "emirati-wedding-photography-dubai-2026"],
-    content: `
-<h2>Why Pakistani Weddings in Dubai Are Unlike Anywhere Else</h2>
-<p>Over 400,000 Pakistanis live in Dubai — roughly 13% of the city's population — making it one of the largest Pakistani communities in the world outside Pakistan itself. When Pakistani families in Dubai celebrate a wedding, they do not scale back. They celebrate with the same extended-family grandeur as back home, but in venues that match Dubai's ambition: ballrooms at the Atlantis, garden terraces at the Ritz-Carlton JBR, and banquet halls that seat 800 guests with ease.</p>
-<p>Photographing a Pakistani wedding in Dubai is a full production in itself. Mehndi night is often as large as a Western wedding reception. Baraat processions bring out cousins from London, siblings from Toronto, and in-laws from Lahore — sometimes 200 people who need to be in the same frame without looking like a crowd. Walima the following day requires its own visual narrative. Fahad Iqbal Butt has photographed over 300 Pakistani weddings in Dubai since Backyard Studio was founded, and that experience is impossible to fake.</p>
-
-<h2>What a Pakistani Wedding Package With Backyard Studio Covers</h2>
-<p>Our standard multi-day Pakistani wedding package includes Mehndi night photography and videography, the Nikah ceremony, full Baraat coverage including procession and arrival, Reception, and Walima. We work with a team of at least two photographers and one videographer for multi-day events to ensure every simultaneous moment — the groom's arrival while the bride is being photographed, the children dancing while the family is on the stage — is covered.</p>
-<p>Drone aerials with our GCAA licence add a dimension that is especially powerful for outdoor Baraat processions — a top-down shot of the procession approaching the venue, with the Dubai skyline behind, is an image that guests share for years. We coordinate all venue permissions for drone use so the family does not need to manage that separately.</p>
-
-<h2>Mehndi Night Photography — Getting the Detail Right</h2>
-<p>Mehndi nights deserve serious photographic attention. The intricate henna patterns on the bride's hands, the circle of women singing, the moment the groom's mother applies the first mehndi — these are images that carry enormous emotional weight for Pakistani families. We bring macro lenses specifically for mehndi detail shots. Syed Mazhar Zaidi's videography team captures the musical performances and group dances in a way that feels alive rather than staged.</p>
-<p>Lighting at Mehndi nights is often warm and decorative — fairy lights, candles, coloured stage lighting. This is precisely where inexperienced photographers struggle, and where our team's experience in low-available-light photography makes a visible difference in the final album.</p>
-
-<h2>Dubai Venues We Know for Pakistani Weddings</h2>
-<p>Atlantis The Palm, Jumeirah Beach Hotel, JW Marriott Marquis, Grand Hyatt Dubai, Sofitel Downtown, Conrad Dubai, Waldorf Astoria DIFC, The Ritz-Carlton JBR — we have photographed Pakistani weddings in all of them. We know where the natural light is best at 7pm, which banquet halls have difficult overhead lighting that needs supplementing, and where the Baraat procession route gives the best aerial drone shot. This institutional knowledge is part of what you hire when you work with us.</p>
-
-<h2>How Much Does Pakistani Wedding Photography in Dubai Cost?</h2>
-<p><strong>AED 6,500–10,000:</strong> Single event (Walima or Nikah only) — one photographer, full coverage, edited album within 21 days.</p>
-<p><strong>AED 16,000–25,000:</strong> Two-event package (e.g., Mehndi + Walima) — two photographers, videographer, same-day highlight reel, 5-minute cinematic film.</p>
-<p><strong>AED 25,000–40,000:</strong> Full multi-day package — Mehndi, Nikah, Baraat, Walima — full crew, drone aerials, cinematic film, printed album, same-day highlights.</p>
-<p>All packages include a pre-wedding consultation, detailed event timeline, and post-production within the agreed window. Contact Fahad Iqbal Butt directly on WhatsApp for a custom quote based on your specific events and venue.</p>
-    `,
-  },
-
-  {
-    slug: "indian-wedding-photographer-dubai-2026",
-    title: "Indian Wedding Photographer Dubai 2026 — Hindu, Sikh & South Indian Coverage",
-    metaTitle: "Indian Wedding Photographer Dubai | Backyard Studio",
-    metaDescription: "Indian wedding photographer Dubai from AED 7,000. Hindu, Sikh & South Indian ceremonies. Multi-day coverage, GCAA drone licence. Bollywood-style reels available.",
-    keywords: ["Indian wedding photographer Dubai", "Indian wedding photography Dubai", "Hindu wedding photographer Dubai", "Sikh wedding photographer Dubai", "South Indian wedding Dubai", "Indian wedding videographer Dubai"],
-    category: "Wedding Photography",
-    date: "June 6, 2026",
-    dateISO: "2026-06-06",
-    readTime: "9 min",
-    image: "https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=1200&q=80",
-    excerpt: "Indians are the largest expat community in Dubai — over 3.5 million people from every state, religion, and tradition. A Gujarati Hindu wedding, a Punjabi Sikh Anand Karaj, a Tamil Brahmin ceremony, a Malayali Christian wedding — each is visually and culturally distinct, and each demands a photographer who understands the difference.",
-    author: "Fahad Iqbal Butt",
-    faqs: [
-      { question: "How much does an Indian wedding photographer cost in Dubai?", answer: "Indian wedding photography in Dubai starts at AED 7,000 for single-ceremony coverage. Full multi-day Hindu or Sikh wedding packages with videography, drone aerials, and cinematic film range from AED 18,000 to AED 45,000 depending on the number of ceremonies, guest count, and venue." },
-      { question: "Do you cover Hindu, Sikh, and South Indian weddings?", answer: "Yes. We have extensive experience with Hindu weddings (Gujarati, Punjabi, Marathi, Rajasthani), Sikh Anand Karaj ceremonies, Tamil and Malayali South Indian weddings, and cross-religious and cross-cultural Indian weddings. Each has distinct ceremonies and visual rhythms that we understand and know how to capture." },
-      { question: "Can you shoot Bollywood-style reels for our wedding?", answer: "Yes. We produce Bollywood-influenced cinematic reels — slow-motion entries, dramatic colour grades, choreographed sequences — as part of our premium wedding video packages. These are extremely popular for social sharing and have been viewed millions of times across our clients' accounts." },
-      { question: "Which Dubai venues host Indian weddings?", answer: "Popular Indian wedding venues in Dubai include Atlantis The Palm, Jumeirah Al Qasr, The Oberoi, Grand Hyatt, Sofitel The Palm, and the World Trade Club. We have full location knowledge and lighting notes for all major venues." },
-      { question: "How far in advance should we book for an Indian wedding?", answer: "For multi-day Indian weddings in Dubai's peak season (October to March), we recommend booking 8–12 months in advance. Large Sikh and Hindu weddings with 300+ guests tend to have complex logistics that benefit from early engagement with the photography team." },
-    ],
-    relatedSlugs: ["pakistani-wedding-photographer-dubai-2026", "desi-wedding-photographer-dubai-2026", "emirati-wedding-photography-dubai-2026"],
-    content: `
-<h2>Photographing the Most Visually Rich Weddings in Dubai</h2>
-<p>Indians are the largest expat community in Dubai — over 3.5 million people who between them represent every state, every religion, and every wedding tradition on the subcontinent. A Gujarati Hindu wedding in Dubai looks nothing like a Tamil Brahmin ceremony, which is entirely different from a Punjabi Sikh Anand Karaj, which in turn has its own visual world compared to a Malayali Christian wedding or a Hyderabadi Muslim nikah. Each has distinct colours, distinct rituals, distinct lighting conditions, and distinct emotional peaks that a good photographer needs to anticipate and be ready for.</p>
-<p>Backyard Studio has photographed over 450 Indian weddings in Dubai. That is not a generic number — it means we have spent time understanding the specific visual grammar of each community's celebrations, the moment in each ceremony that carries the most emotional weight, and the logistical realities of photographing in the venues where Dubai's Indian community celebrates its most important occasions.</p>
-
-<h2>Hindu Wedding Photography in Dubai — Mandap, Rituals and Colour</h2>
-<p>Hindu weddings are visually extravagant in ways that reward preparation. The mandap is often the most elaborately decorated structure in the venue — but it is also typically the most challenging lighting environment, with spot uplighting, candle flames, and warm decorative LEDs creating a multi-source scene that requires careful white balance management. We bring dedicated lighting setups to supplement mandap coverage because the standard venue lighting almost always needs support.</p>
-<p>Key moments we anticipate and position for: the bride's entry, Jaimala (garland exchange), Saptapadi (the seven steps), Mangalsutra tying, Sindoor ceremony, and the family group photographs that follow. We document the pre-ceremony getting-ready moments — the bride's makeup and jewellery, the haldi ceremony, mehndi application — with the same attention as the main event, because for many families these are the images they return to most often.</p>
-
-<h2>Sikh Wedding Photography — Anand Karaj at the Gurudwara and Beyond</h2>
-<p>Sikh Anand Karaj ceremonies in Dubai present a specific photographic challenge: the Gurudwara environment requires respectful, quiet photography with head covered, and the golden light of the Darbar Hall is both beautiful and technically demanding. Our team is experienced in this environment. We know how to move without disrupting the ceremony, which moments in the four Lavans (rounds) carry the most meaning, and how to work with the natural light in Dubai's main Gurudwara in Bur Dubai.</p>
-<p>Outside the Gurudwara, the reception celebrations for Sikh weddings in Dubai tend to be very large and very energetic. Bhangra, live music, and the full energy of a Punjabi celebration — we capture it all.</p>
-
-<h2>South Indian Wedding Photography — Intricate, Precise, and Beautiful</h2>
-<p>South Indian weddings — Tamil, Malayali, Telugu, Kannada — have ritual sequences that move quickly and require advance knowledge to photograph well. The Kashi Yatra, the exchange of garlands, the tying of the Thali (Mangalsutra), and the specific post-ceremony moments all happen in rapid succession. Our team prepares a ceremony timeline for every South Indian wedding we photograph so we are always in the right position before each moment begins, not chasing it after it is already over.</p>
-
-<h2>Bollywood-Style Wedding Reels for Social Media</h2>
-<p>One of the most-requested services for Indian weddings in Dubai is what families call "Bollywood reels" — cinematic video sequences with slow motion, dramatic colour grading, and carefully choreographed couple sequences, edited to the couple's favourite songs. These are produced as part of our premium video packages and typically run 3–5 minutes. They are consistently the most shared content from any wedding — the format that turns a private celebration into something the whole extended family watches and forwards across continents.</p>
-
-<h2>Indian Wedding Photography Pricing in Dubai 2026</h2>
-<p><strong>AED 7,000–12,000:</strong> Single-ceremony coverage (Nikah/Anand Karaj/Reception) with one photographer and edited album.</p>
-<p><strong>AED 18,000–30,000:</strong> Two-day package with two photographers, videographer, cinematic film, and drone aerials.</p>
-<p><strong>AED 30,000–45,000:</strong> Full multi-day package covering all pre-wedding functions, main ceremony, and reception — full crew, Bollywood-style reel, drone, same-day highlights, and printed album.</p>
-    `,
-  },
-
-  {
     slug: "desi-wedding-photographer-dubai-2026",
     title: "Desi Wedding Photographer Dubai 2026 — Pakistani & Indian Wedding Specialists",
     metaTitle: "Desi Wedding Photographer Dubai | Backyard Studio",
@@ -2270,45 +2000,6 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>AED 7,500–12,000:</strong> Single-day coverage with one photographer and one videographer, outfit change coverage, full edited album and highlight film.</p>
 <p><strong>AED 18,000–28,000:</strong> Full wedding package with two photographers, dedicated videographer, Amaria specialist positioning, same-day highlight, and cinematic film.</p>
 <p><strong>AED 28,000–38,000:</strong> Multi-day package covering Henna night, full wedding day, and morning-after — full crew with drone, printed album, and complete film.</p>
-    `,
-  },
-
-  {
-    slug: "russian-wedding-photographer-dubai-2026",
-    title: "Russian Wedding Photographer Dubai 2026 — European Style, UAE Luxury",
-    metaTitle: "Russian Wedding Photographer Dubai | Backyard Studio UAE",
-    metaDescription: "Russian wedding photographer Dubai from AED 6,000. Russian-speaking crew available, cinematic style, GCAA drone licence. European wedding aesthetic. Free quote.",
-    keywords: ["Russian wedding photographer Dubai", "Russian wedding photography Dubai", "Russian-speaking photographer Dubai", "European wedding photographer Dubai", "Russian wedding videographer Dubai", "CIS wedding photographer Dubai"],
-    category: "Wedding Photography",
-    date: "June 6, 2026",
-    dateISO: "2026-06-06",
-    readTime: "7 min",
-    image: "https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=1200&q=80",
-    excerpt: "Dubai's Russian and CIS community — Russians, Ukrainians, Kazakhs, Azerbaijanis — numbers in the hundreds of thousands and brings with it a wedding aesthetic that blends European luxury with Slavic tradition. Clean, cinematic, fashion-forward photography in Dubai's most spectacular venues.",
-    author: "Syed Mazhar Zaidi",
-    faqs: [
-      { question: "How much does a Russian wedding photographer cost in Dubai?", answer: "Russian wedding photography in Dubai starts at AED 6,000 for full-day coverage. Premium cinematic packages with drone aerials, same-day highlights, and fashion-style portraiture range from AED 14,000 to AED 30,000." },
-      { question: "Do you have Russian-speaking photographers?", answer: "We can provide Russian-speaking coordination for your wedding day. While not all of our photographers are native Russian speakers, we work with Russian-speaking coordinators and assistants to ensure seamless communication with the couple and their families throughout the day." },
-      { question: "What style of wedding photography is best for Russian weddings in Dubai?", answer: "Russian brides in Dubai tend to prefer a fashion-editorial style — clean, dramatic, high-contrast images with strong composition. We specialise in this aesthetic: Dubai's architectural lines and desert landscapes provide perfect backgrounds for the bold, cinematic images that work best for this style." },
-      { question: "Which Dubai locations work best for Russian wedding portraits?", answer: "The most popular locations for Russian wedding portraits in Dubai are the Dubai Frame for architectural symmetry, Burj Khalifa and Downtown for iconic skyline shots, JBR and Jumeirah beach for sunset portraits, and the Dubai Desert for dramatic natural landscapes with drone aerials." },
-    ],
-    relatedSlugs: ["british-western-wedding-photographer-dubai-2026", "moroccan-wedding-photographer-dubai-2026", "emirati-wedding-photography-dubai-2026"],
-    content: `
-<h2>Russian and CIS Weddings in Dubai — A Growing Market With Specific Tastes</h2>
-<p>Dubai has seen sustained growth in its Russian and CIS resident population — Russians, Ukrainians, Kazakhs, Azerbaijanis, Armenians, and other nationalities from the former Soviet space. Russian weddings in Dubai share a common aesthetic preference: they tend toward the clean and cinematic rather than the decorative and elaborate. Fashion-forward portraiture, dramatic light, bold use of Dubai's architectural landscape, and a European editorial sensibility in the final images.</p>
-<p>This does not mean simple. Russian and Ukrainian brides in Dubai invest significantly in photography — it is one of the most valued wedding elements in this community — and they come with clear visual references, specific poses they want recreated, and strong opinions on editing style. Our team respects this. We work from references, we share test shots during the session, and we do not deliver a finished album that looks nothing like the aesthetic the couple requested.</p>
-
-<h2>The Visual Aesthetic of Russian Wedding Photography</h2>
-<p>Russian wedding photography in the contemporary style — the style that has influenced wedding photography globally through platforms like Instagram — emphasises clean backgrounds, dramatic colour grading (often desaturated with lifted shadows), strong natural light, and a fashion-editorial approach to posing that makes the couple look like they belong in Vogue rather than a family album. Dubai's environment — the geometric architecture, the desert, the clean marina water — is genuinely suited to this aesthetic in a way that few other cities are.</p>
-<p>Syed Mazhar Zaidi's directorial background informs how we approach Russian wedding portraiture. We are not pointing a camera at a couple and asking them to smile — we are directing a session with specific light, specific framing, and specific compositions that match the brief we built in the pre-wedding consultation.</p>
-
-<h2>Best Dubai Locations for Russian Wedding Photography</h2>
-<p>Dubai Frame — the 150-metre picture frame structure — provides architectural symmetry and a Dubai-specific backdrop unlike anywhere else in the world. Downtown Dubai and the Burj Khalifa area provide the iconic skyline. Al Qudra desert gives cinematic natural landscapes with extraordinary aerial footage. Jumeirah beach at golden hour provides warm natural light and the Arabian Gulf. Dubai Marina provides urban waterfront geometry. We advise every couple based on their aesthetic preferences and the time of year — light quality varies significantly across Dubai's seasons.</p>
-
-<h2>Russian Wedding Photography Pricing in Dubai 2026</h2>
-<p><strong>AED 6,000–9,000:</strong> Full-day coverage with one photographer, 250+ edited images, online gallery delivered in 14 days.</p>
-<p><strong>AED 12,000–20,000:</strong> Two-photographer package with videographer, cinematic film, drone aerials, and same-day social highlights.</p>
-<p><strong>AED 20,000–30,000:</strong> Premium package including pre-wedding portrait session in Dubai, full wedding day, cinematic fashion-style film, drone, and printed album.</p>
     `,
   },
 
@@ -2517,54 +2208,6 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "interior-photography-dubai-2026",
-    title: "Interior Photography Dubai 2026 | Hotel, Real Estate & Showroom UAE",
-    metaTitle: "Interior Photography Dubai 2026",
-    metaDescription: "Interior photography Dubai for hotels, showrooms, and real estate from AED 1,500. Luxury, commercial, and residential interiors. 48-hour delivery.",
-    keywords: ["interior photography Dubai", "hotel photography Dubai", "real estate photography Dubai", "showroom photography Dubai", "property photography UAE", "interior photographer Dubai"],
-    category: "Photography",
-    dateISO: "2026-06-06",
-    readingTime: 7,
-    author: "Fahad Iqbal Butt",
-    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&q=80",
-    faqs: [
-      {
-        question: "How much does interior photography cost in Dubai?",
-        answer: "Single apartments and villas from AED 1,500–2,500. Commercial spaces (showrooms, restaurants, offices) from AED 3,500–6,000. Hotel suite and hospitality photography from AED 8,000. Pricing varies with square footage, shoot complexity, and turnaround requirements.",
-      },
-      {
-        question: "What time of day is best for interior photography in Dubai?",
-        answer: "For spaces with significant natural light, early morning (7–9am) or late afternoon (4–6pm) produces the softest, most photogenic window light in Dubai's climate. We advise on optimal timing after reviewing the property's orientation and the balance of natural and artificial light sources.",
-      },
-      {
-        question: "Can you photograph furnished show apartments and model villas?",
-        answer: "Yes. Show unit photography for UAE developers is a significant part of our work. We can also composite CGI furniture into unfurnished unit photography if required for off-plan developments — producing a complete visual asset before the physical fit-out is complete.",
-      },
-      {
-        question: "Do you cover both wide-angle and detail shots?",
-        answer: "Every interior shoot includes both overview shots (showing full rooms, space proportions, and the relationship between areas) and detail shots (materials, fixtures, design features). The detail images are often the most powerful for marketing purposes even though clients sometimes initially only request the wide shots.",
-      },
-    ],
-    relatedSlugs: ["architecture-photography-dubai-2026", "jewelry-photography-dubai-2026", "business-headshots-dubai-2026"],
-    content: `<p>Interior photography for commercial purposes in Dubai covers enormous range — a five-star hotel room, a luxury car showroom, a fitted kitchen in a Palm Jumeirah villa, an ADGM law firm's boardroom, a restaurant designed by a Michelin-star architect. What these have in common is that they represent a substantial design and financial investment, and the photography needs to show that investment accurately enough to drive booking, purchase, or leasing decisions.</p>
-<p>The technical challenge with interior photography in Dubai is specific: the climate means large-format floor-to-ceiling glass is near-universal, and the exterior light coming through that glass is both very bright and very warm in colour. Managing the contrast between window-lit spaces and interior lighting — while producing an image that looks like what the eye actually sees, rather than a silhouette in front of a blown-out window — requires specific technical skill and equipment.</p>
-
-<h2>Hotels, Showrooms, and Real Estate: Different Briefs, Same Standard</h2>
-<p><strong>Hotel and hospitality photography</strong> requires images that create desire — that make a viewer want to be in the space. The key images are typically the bedroom (showing linen quality, light, and view), the bathroom, the restaurant or lounge, and outdoor or pool areas. These need to feel aspirational without appearing dishonest.</p>
-<p><strong>Showroom photography</strong> is about presenting the product in its best possible context. A furniture brand, automotive showroom, or kitchen company needs images that convey quality to a prospective buyer who may be making a decision worth hundreds of thousands of dirhams based largely on what they see online.</p>
-<p><strong>Real estate interior photography</strong> for apartments, villas, and commercial properties needs to show accurate square footage, natural light quality, and the relationship between spaces — while making the property feel liveable and desirable. For off-plan and show unit photography, we add CGI compositing when required to show furnishing concepts for unfurnished spaces.</p>
-
-<h2>The Light Problem in Dubai Interiors</h2>
-<p>Most interior photography in Dubai requires HDR blending or supplementary flash fill to handle the exposure range between window light and interior artificial light. We use natural light management, LED panel supplementary lighting, and multiple-exposure blending in post-processing to produce images where the view through the window is visible, the interior details are clear, and the overall scene looks like what the eye experiences — not what a single camera exposure captures.</p>
-<p>Fahad Iqbal Butt handles the technical execution of every interior shoot, with a colour science background that ensures the warm tones of Dubai interiors — marble, wood, fabric, gold fixtures — are reproduced accurately rather than shifted by white balance errors.</p>
-
-<h2>Interior Photography Dubai 2026: Pricing</h2>
-<p><strong>AED 1,500–2,500:</strong> Single apartment or villa (up to 3 bedrooms), 15–20 hero images, 48-hour delivery. Ideal for real estate listings.</p>
-<p><strong>AED 3,500–6,000:</strong> Commercial space up to 500 sqm (showroom, restaurant, office), full coverage with 25–40 images, wide and detail shots.</p>
-<p><strong>AED 8,000–15,000:</strong> Hotel suite or full floor, brand-quality hospitality photography, full retouch to marketing standard, all digital usage rights.</p>`,
-  },
-
-  {
     slug: "architecture-photography-dubai-2026",
     title: "Architecture Photography Dubai 2026 | Buildings & Development UAE",
     metaTitle: "Architecture Photography Dubai 2026",
@@ -2663,106 +2306,6 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>AED 3,500–6,000:</strong> Collection of 20–40 pieces, e-commerce and lifestyle selects, full edit, 3–5 days delivery.</p>
 <p><strong>AED 8,000–15,000:</strong> Campaign shoot with model, styled environment, studio or location, full usage rights, 5–7 days delivery.</p>`,
   },
-
-  {
-    slug: "tvc-production-dubai-2026",
-    title: "TVC Production Dubai 2026 | TV Commercial Production UAE",
-    metaTitle: "TVC Production Dubai 2026",
-    metaDescription: "TV commercial production in Dubai from AED 45,000. Full TVC service: concept, scripting, production, and broadcast delivery. Trusted by UAE brands.",
-    keywords: ["TVC production Dubai", "TV commercial Dubai", "television commercial UAE", "TVC filming Dubai", "video production company Dubai", "commercial production UAE"],
-    category: "Video",
-    dateISO: "2026-06-06",
-    readingTime: 8,
-    author: "Syed Mazhar Zaidi",
-    image: "https://images.unsplash.com/photo-1597350584914-55bb62285896?w=1200&q=80",
-    faqs: [
-      {
-        question: "How much does a TV commercial cost to produce in Dubai?",
-        answer: "AED 45,000–80,000 for a single-location 30-second TVC with full post-production including colour grade, audio mix, and broadcast delivery. Multi-location and more complex productions range from AED 80,000 to AED 180,000. Large-scale regional campaigns with complex VFX and multi-market broadcast delivery start at AED 180,000.",
-      },
-      {
-        question: "How long does TVC production take from start to finish?",
-        answer: "Typically 6–10 weeks from brief to broadcast delivery: 2–4 weeks of pre-production (concept, scripting, casting, location, logistics), 1–3 days of shooting, and 2–3 weeks of post-production (edit, grade, audio, VFX, delivery). Rush timelines are possible with adjusted pre-production scope.",
-      },
-      {
-        question: "Can you handle format compliance and broadcast delivery?",
-        answer: "Yes. We deliver to all UAE broadcast specifications as standard, including MBC, beIN Sports, OSN, and Dubai TV requirements, as well as digital platform specs for YouTube, Instagram, and on-demand streaming. Format compliance is built into the post-production process, not an add-on.",
-      },
-      {
-        question: "Do you handle casting and location scouting in Dubai?",
-        answer: "Yes. Pre-production services include talent casting through our UAE talent network, location scouting and permit applications, wardrobe coordination, and full production logistics. We manage all GCAA permits for aerial elements and Dubai Film and Creative Cluster requirements for public location filming.",
-      },
-    ],
-    relatedSlugs: ["explainer-video-dubai-2026", "event-videography-dubai-2026", "music-video-production-dubai-2026"],
-    content: `<p>A television commercial produced in Dubai in 2026 is competing for attention in one of the most sophisticated advertising markets in the region. UAE consumers are exposed to production quality from international networks and streaming platforms. Local brands that produce TVCs at a genuine broadcast standard — with proper cinematography, direction, and post-production — stand clearly above those that don't.</p>
-<p>TVC production is one of the highest-value services at Backyard Studio Official. It requires a full production team, significant pre-production investment, and post-production work that includes colour grading, audio mix, and format-specific delivery for broadcast requirements. When executed well, a TVC is an asset that runs for months or years and generates returns that far exceed the production investment.</p>
-
-<h2>What Goes Into a TVC Production in Dubai</h2>
-<p><strong>Pre-production</strong> (typically 2–4 weeks) is where the commercial is actually made. It covers creative brief, concept development, storyboard, script, talent casting, location scouting and permits, production schedule, wardrobe, and props. Every hour spent in pre-production saves three hours on set.</p>
-<p><strong>Production</strong> (typically 1–3 days) involves the full crew: director, director of photography, camera team, lighting crew, art department, talent, and client representatives. Dubai filming locations — from Burj Khalifa precinct to private villa settings in Emirates Hills, from desert sequences near Al Qudra Lakes to controlled studio environments — are coordinated with full permit coverage.</p>
-<p><strong>Post-production</strong> (typically 2–3 weeks) includes offline edit, client review, online colour grade, VFX and motion graphics, audio composition and mix, and final delivery in broadcast specifications. UAE broadcast stations have specific delivery requirements; we handle format compliance as standard.</p>
-<p>Syed Mazhar Zaidi leads cinematography on our TVC projects, with a background in broadcast production for regional TV and international streaming. Production quality is built to play equally well on MBC, beIN Sports, OSN, and on-demand digital platforms.</p>
-
-<h2>Dubai as a TVC Location</h2>
-<p>Dubai offers a production advantage that few cities can match: world-class infrastructure, a deep talent pool both local and internationally sourced through the UAE's free zone system, extraordinary diverse locations within short distances of each other, and a government that has streamlined commercial filming permits through Dubai Film and Creative Cluster.</p>
-<p>A TVC that would require production across three countries in Europe can often be completed entirely within the UAE — desert, open sea, modern city skyline, and traditional souks all within an hour of each other. This compression of production logistics into a single location jurisdiction reduces cost, simplifies logistics, and keeps the full crew together throughout.</p>
-
-<h2>TVC Production Dubai 2026: Pricing</h2>
-<p><strong>AED 45,000–80,000:</strong> Single-location TVC (30 seconds), limited cast, 2-day shoot, full post-production including grade and audio mix, broadcast delivery.</p>
-<p><strong>AED 80,000–180,000:</strong> Multi-location TVC (45–60 seconds), professional talent, 3–5 day shoot, full VFX and grade, multi-format delivery for broadcast and digital.</p>
-<p><strong>AED 180,000+:</strong> Full-scale regional campaign commercial, drone sequences, international talent, complex VFX, and multi-market broadcast delivery.</p>`,
-  },
-
-  {
-    slug: "explainer-video-dubai-2026",
-    title: "Explainer Video Dubai 2026 | Animation & Live-Action Production UAE",
-    metaTitle: "Explainer Video Dubai 2026",
-    metaDescription: "Explainer video production Dubai from AED 8,000. Animation, live-action, and mixed formats for SaaS, tech startups, and UAE brands. 2-week delivery.",
-    keywords: ["explainer video Dubai", "explainer video production UAE", "animated video Dubai", "product explainer video UAE", "startup video Dubai", "SaaS explainer video Dubai"],
-    category: "Video",
-    dateISO: "2026-06-06",
-    readingTime: 7,
-    author: "Syed Mazhar Zaidi",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
-    faqs: [
-      {
-        question: "How long should an explainer video be?",
-        answer: "60–90 seconds is the optimal length for most purposes. Homepage explainers can run to 2 minutes if the product is genuinely complex and the audience is already engaged. Anything longer typically loses the viewer before the call-to-action. For social media cutdowns, 15–30 seconds is the working range.",
-      },
-      {
-        question: "How much does an explainer video cost in Dubai?",
-        answer: "Animated explainers from AED 8,000–15,000. Live-action with motion graphics from AED 15,000–30,000. Full campaign suites including master video, multiple social cuts, and Arabic and English versions from AED 30,000.",
-      },
-      {
-        question: "How long does it take to produce an explainer video?",
-        answer: "Typically 3–5 weeks from brief to delivery: 1 week for script and storyboard or shot list, 1 week for voiceover and animation or filming, 1–2 weeks for edit and client review cycles. Rush timelines of 10 working days are possible for animation-only projects.",
-      },
-      {
-        question: "Can you produce explainer videos in Arabic for the UAE market?",
-        answer: "Yes. Our scripts can be adapted for both Gulf Arabic and Modern Standard Arabic, with voiceover options from our UAE talent network. We produce bilingual versions (Arabic and English) within the same project for brands addressing both local and international audiences.",
-      },
-    ],
-    relatedSlugs: ["tvc-production-dubai-2026", "event-videography-dubai-2026", "music-video-production-dubai-2026"],
-    content: `<p>The explainer video is one of the most reliably useful marketing investments a Dubai business can make. A well-produced 90-second video that clearly explains what a product does, who it is for, and why it matters can do the work of a dozen sales conversations. For SaaS companies, fintech startups, and complex B2B services — industries all well-represented in DIFC, Tecom, and Dubai Internet City — the explainer video is often the single most-watched piece of content on the company website.</p>
-<p>The challenge is that most explainer videos are mediocre. Either the script runs too long and too technical, the animation is generic and interchangeable with any other company, or the live-action footage is clearly not professional quality. In Dubai's sophisticated market, a mediocre explainer does more damage than no video at all — it signals a company that invests in the form but not the standard.</p>
-
-<h2>Script: Where It Starts and Ends</h2>
-<p>Every explainer video starts with the script. The script determines structure, duration, animation style, voiceover tone, and ultimately whether the viewer stays or clicks away 15 seconds in. We work with clients on a problem-solution-proof-CTA framework that is short, specific, and customer-focused rather than company-focused.</p>
-<p>The most common script mistake we correct is opening with the company rather than the customer's problem. "Backyard Studio Official is a Dubai production company that..." is a script that has already lost the viewer. "Your product launch is in three weeks and you have no video content" has their attention immediately. The distinction sounds simple; applying it consistently throughout a 90-second script requires genuine discipline.</p>
-<p>For Arabic-speaking markets, scripts are adapted for both Gulf Arabic and Modern Standard Arabic with voiceover options from our UAE talent network.</p>
-
-<h2>Animation vs Live-Action vs Mixed Format</h2>
-<p><strong>2D animation</strong> works best for abstract products — software platforms, financial services, insurance products — where there is nothing physical to show and the story is entirely conceptual. The visual style range is broad: from clean corporate motion graphics to character-led narrative animation. We align every visual style to brand guidelines rather than defaulting to a generic template.</p>
-<p><strong>Live-action</strong> works best when the product or service has tangible, photogenic components — a physical product, a real workspace, a recognisable human interaction. Live-action communicates authenticity in a way animation cannot replicate, and it grounds an otherwise abstract proposition in something real.</p>
-<p><strong>Mixed format</strong> — live footage with motion graphics, callouts, and animated data overlays — often produces the most commercially effective results. It combines the authenticity of live footage with the explanatory clarity of animation for the parts that need diagrammatic treatment. This is the format we recommend most frequently for technology and professional services brands.</p>
-
-<h2>Explainer Video Dubai 2026: Pricing</h2>
-<p><strong>AED 8,000–15,000:</strong> Animated explainer (60–90 seconds), custom script, voiceover, branded motion graphics, licensed music, master file and social cuts.</p>
-<p><strong>AED 15,000–30,000:</strong> Live-action explainer with mixed motion graphics, 1-day shoot, full post-production, 60–90 second master, 15–30 second social cutdowns.</p>
-<p><strong>AED 30,000–60,000:</strong> Full campaign explainer suite — master video, 3 social cuts, Arabic and English versions, across multiple product lines or audience segments.</p>`,
-  },
-
-  // ─── TIER 3 ──────────────────────────────────────────────────────────────────
 
   {
     slug: "company-profile-video-dubai-2026",
@@ -3004,38 +2547,6 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>AED 2,500–5,000 + travel:</strong> Half-day corporate or product shoot, Abu Dhabi location, 40–80 edited images.</p>
 <p><strong>AED 4,500–9,000 + travel:</strong> Full-day event or commercial shoot, multiple locations, 100–200 edited images.</p>
 <p><strong>AED 8,000–20,000 (travel included):</strong> Multi-day Abu Dhabi production, accommodation coordinated, full pre-production and permit management.</p>`,
-  },
-
-  {
-    slug: "filipino-wedding-photographer-dubai-2026",
-    title: "Filipino Wedding Photographer Dubai 2026 | Philippine Wedding Photography UAE",
-    metaTitle: "Filipino Wedding Photographer Dubai 2026 | Philippine Wedding UAE",
-    metaDescription: "Filipino wedding photographer Dubai. Expert coverage of Filipino and Philippine-style weddings across UAE — church, civil, and traditional ceremonies. From AED 4,500.",
-    keywords: ["Filipino wedding photographer Dubai", "Philippine wedding photographer Dubai", "Filipino wedding photography UAE", "Filipino wedding Dubai", "Pinoy wedding photographer Dubai", "Filipino wedding videographer Dubai"],
-    category: "Wedding Photography",
-    dateISO: "2026-06-06",
-    readingTime: 6,
-    author: "Fahad Iqbal Butt",
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&q=80",
-    faqs: [
-      { question: "Do you have experience with Catholic church wedding ceremonies in Dubai?", answer: "Yes. Filipino weddings in Dubai frequently take place at the Catholic churches in Jebel Ali and other parishes across the UAE, followed by a reception at a hotel or venue. We understand the restrictions on photography during Catholic Mass, the moments that matter most in a Filipino church ceremony, and the lighting challenges of church interiors. We coordinate with the church beforehand to confirm photography protocols." },
-      { question: "Can you produce a same-day highlights video for our reception?", answer: "Yes. Same-day edit (SDE) highlight videos — typically 3–5 minutes, played at the reception dinner — are popular for Filipino weddings and we produce them regularly. The SDE team works during the reception to edit footage from the ceremony and pre-reception, delivering a completed video that can be screened at the event." },
-      { question: "Do you cover the traditional Filipino wedding customs?", answer: "We document traditional Filipino customs as part of comprehensive wedding coverage. The veil ceremony, cord ceremony, arras (thirteen coins), the role of ninong and ninang sponsors, and the reception's Filipino entertainment elements are all captured as part of our documentary approach to wedding photography." },
-      { question: "How much does Filipino wedding photography in Dubai cost?", answer: "Filipino wedding photography packages start from AED 4,500 for ceremony and reception coverage with a gallery of 400+ images. Photo and video combined packages are AED 8,500–15,000 including highlights film. Same-day edit addition is AED 3,500–5,000. Full-service wedding production including pre-wedding shoot is AED 12,000–22,000." },
-    ],
-    relatedSlugs: ["indian-wedding-photographer-dubai-2026", "pakistani-wedding-photographer-dubai-2026", "emirati-wedding-photography-dubai-2026"],
-    content: `<p>The Filipino community is one of the largest expatriate communities in the UAE, with an estimated 700,000 Filipinos living and working across the Emirates. Filipino weddings in Dubai reflect the depth and beauty of Philippine wedding traditions — the Catholic faith that runs through so many celebrations, the warmth and scale of Filipino family gatherings, and the distinctive customs of the ceremony. These are distinctly Philippine celebrations happening in a Dubai setting.</p>
-<p>At Backyard Studio Official, we approach Filipino wedding photography with the cultural knowledge and emotional attentiveness that these celebrations deserve. We document the traditions, capture the family connections, and produce photography and film that Filipino families — both in Dubai and back home in the Philippines — will treasure for generations.</p>
-<h2>The Filipino Church Wedding in Dubai</h2>
-<p>Many Filipino couples in Dubai marry in the UAE's Catholic churches. Catholic church wedding photography requires specific knowledge: the restricted zones and moments where photography is not permitted, the powerful moments that are — the exchange of vows, the ring ceremony, the veil and cord rituals, the arras, and the unity candle — and the technical approach to producing beautiful images in church lighting conditions.</p>
-<h2>Filipino Wedding Traditions We Document</h2>
-<p>A traditional Filipino Catholic wedding includes ceremonial elements that carry deep meaning: the yugal (veil ceremony), the cord ceremony symbolising the couple's union, the arras — thirteen coins representing the groom's commitment to provide — and the sponsors, the ninong and ninang, who play a significant role throughout. At the reception, we document the money dance, the cotillion de honor, and the distinctive Filipino family gatherings that make every Filipino reception feel like a homecoming.</p>
-<h2>Same-Day Edit: A Filipino Wedding Tradition</h2>
-<p>The same-day edit highlight video shown at the reception is a Filipino wedding tradition that has become an expectation at many celebrations. We produce SDEs from the ceremony and pre-reception footage, completing a polished 3–5 minute highlight film that screens at the dinner — giving guests the extraordinary experience of watching the wedding day's story together before the day is finished.</p>
-<h2>Filipino Wedding Photography Dubai: Pricing</h2>
-<p><strong>AED 4,500–7,000:</strong> Photography only, ceremony and reception, 400+ images, online gallery, 5-day delivery.</p>
-<p><strong>AED 8,500–15,000:</strong> Photo and video package, ceremony and reception, gallery + highlights film.</p>
-<p><strong>AED 12,000–22,000:</strong> Full-service including pre-wedding shoot, SDE, photo and video, same-day highlights reel.</p>`,
   },
 
   {
@@ -6449,81 +5960,6 @@ export const BLOG_POSTS: BlogPost[] = [
 
   // ─── Music Video Production Dubai 2026 ───────────────────────────────────
   {
-    slug: "music-video-production-dubai-2026",
-    title: "Music Video Production Dubai 2026",
-    metaTitle: "Music Video Production Dubai 2026 | Backyard Studio",
-    metaDescription: "Professional music video production in Dubai for Arabic, English and international artists. Concept, location scouting, full crew and post production. From AED 8,000.",
-    keywords: [
-      "music video production dubai",
-      "music video dubai",
-      "music video director dubai",
-      "arabic music video dubai",
-      "music video company dubai",
-      "music video shoot dubai",
-      "music video cinematographer dubai",
-    ],
-    category: "Video Production",
-    date: "June 18, 2026",
-    dateISO: "2026-06-18",
-    readTime: "7 min read",
-    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=1200&q=80",
-    excerpt: "Music video production in Dubai for Arabic, English and international artists — concept development, Dubai location scouting, full crew and cinematic post production from Backyard Studio.",
-    author: "Backyard Studio Editorial",
-    faqs: [
-      {
-        q: "How much does a music video cost in Dubai?",
-        a: "Music video production in Dubai ranges from AED 8,000 for a single-location performance video (one shoot day, small crew, basic edit) to AED 40,000-80,000 for a full narrative video with multiple locations, cast, wardrobe, production design, and high-end colour grade. The most common price range for a solid professional music video by an emerging regional artist is AED 15,000-35,000.",
-      },
-      {
-        q: "Do you handle concept development for music videos?",
-        a: "Yes — we offer full creative development for artists who want a music video but do not have a concept yet. Our director and creative team listen to the track, discuss the artist's image and target audience, develop two or three distinct concept directions, and present them with reference imagery and a brief treatment. Every treatment we develop is specific to the track and the artist.",
-      },
-      {
-        q: "What Dubai locations work well for music videos?",
-        a: "Dubai offers exceptional music video locations: the Dubai skyline at golden hour from Al Quoz rooftops, the desert dunes of Al Qudra and Lahbab (40 minutes from the city), Old Dubai and the Creek, Jumeirah Beach and the Palm for lifestyle content, industrial architecture of Dubai Industrial City and Jebel Ali, and ultra-modern interiors available through location agencies.",
-      },
-      {
-        q: "Can you produce Arabic language music videos?",
-        a: "Yes — we have produced music videos for Arabic artists across the Gulf region, including Emirati, Saudi, Egyptian, and Lebanese artists based in Dubai. We understand the cultural and aesthetic sensibilities of the regional market and have relationships with Arabic artist management and label contacts across the GCC.",
-      },
-      {
-        q: "What camera and equipment do you use for music videos?",
-        a: "Our standard music video setup uses cinema cameras (RED, ARRI, Sony Venice or Burano) with cinema lenses for the visual quality streaming platforms expect. We carry full grip and lighting packages — Technocrane for big moves, Ronin and MoVI Pro for dynamic gimbal work, and full lighting for controlling Dubai's sunlight or creating controlled night environments. Drone coverage with GCAA-licensed pilots is added for aerial sequences.",
-      },
-      {
-        q: "How long does music video production take?",
-        a: "A music video typically spans 3-5 weeks from first meeting to final delivery: 1 week for concept development and approval, 1 week for pre-production (location scouting, cast, wardrobe, permits), 1-2 shoot days, and 1-2 weeks for post production. The post timeline depends on VFX or CGI complexity.",
-      },
-    ],
-    relatedSlugs: [
-      "corporate-video-production-dubai-2026",
-      "post-production-dubai-2026",
-      "instagram-reels-videographer-dubai-2026",
-    ],
-    content: `
-<h2>Music Video Production in Dubai: The Complete Picture</h2>
-<p>Dubai has become a genuine production hub for regional music. The convergence of talent, infrastructure, climate, and location variety within a two-hour drive of the city makes it one of the most practical places in the world to produce a music video. The concentration of Arabic, South Asian, and international artists resident in or regularly visiting Dubai has created a real music video production market here. We have been shooting music videos in Dubai since 2017 across Arabic pop, Gulf hip-hop, South Asian urban, EDM, and English-language content from international artists using Dubai for its visual backdrop.</p>
-<h2>What Makes a Good Music Video in 2026</h2>
-<p>The question of what a music video needs to do has changed significantly. The traditional model — a 3-4 minute narrative or performance piece broadcast on a music channel — is only one of several formats now. A music video in 2026 also needs to provide content for Instagram Reels and TikTok clips, perform well on YouTube as both a full video and as clipped segments, work without sound for the first 2-3 seconds on mute autoplay, and provide still frames that work as album artwork, social posts, and press images.</p>
-<p>The best music video productions in 2026 are planned from the outset to produce all of this content simultaneously. We plan our music video productions around the full content output required — the shot list reflects what is needed for TikTok and Reels as much as for the 4-minute YouTube cut.</p>
-<h2>Dubai Locations for Music Videos</h2>
-<p>For urban and contemporary aesthetics: rooftops above Al Quoz's creative district give a full Dubai skyline backdrop at golden hour. The underpass and interchange architecture of Sheikh Zayed Road provides industrial-urban geometry. DIFC's glass towers and Gate Avenue give a financial-district luxury feel. Downtown Dubai and the Burj Khalifa area offer the globally recognised skyline but come with permitting requirements.</p>
-<p>For landscape and desert aesthetics: the Lahbab Red Dunes and Al Qudra desert areas 40 minutes south of the city give access to classic UAE desert scenery — undulating red dunes at sunset, clear night skies away from city light pollution — without requiring a remote expedition.</p>
-<p>For heritage aesthetics: Al Fahidi Historical Neighbourhood, Dubai Creek, and the Shindagha waterfront district give access to traditional Gulf architecture, wooden dhows, and the original Dubai aesthetic that contrasts strongly with the modern skyline.</p>
-<h2>Music Video Crew in Dubai</h2>
-<p>A professional music video requires a real crew. Our standard package includes: director, director of photography, camera operator, gaffer with full lighting package, key grip with rigging equipment, production manager for logistics and permits, makeup artist and hair stylist, wardrobe stylist for the artist and any cast, production assistant, and drone operator where required. Crew size scales with the production — a simple performance video might run with a five-person crew, while a narrative video with cast, wardrobe changes, and multiple locations needs twelve or more.</p>
-<h2>Pre-Production: Why It Determines Everything</h2>
-<p>The best thing we do on a music video is the week before the shoot. Location scouts confirm the spots look right on camera at the right time of day. Cast and wardrobe are confirmed and styled in advance. Shot lists are built scene by scene so the crew knows exactly what needs to happen at each location. Permits are sorted for any locations that require them — Dubai's permitting process for commercial shoots in public areas is navigable when you start early. The shoot day itself is largely about executing a plan that has already been validated.</p>
-<h2>Music Video Pricing — Dubai 2026</h2>
-<p>Performance video (single location, one shoot day, 3-minute edit): from AED 8,000. Standard production (1-2 locations, full crew, 1-2 shoot days): from AED 18,000. Full production (multi-location, concept-driven, narrative elements): from AED 35,000. High-end production (VFX, production design, large cast): from AED 65,000.</p>
-<p>All packages include concept development, pre-production, shoot, and post production. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
-`,
-  },
-
-  // ─── Sprint 7: Tier 2 Video Service Pages ────────────────────────────────
-
-  // ─── Timelapse Video Dubai 2026 ───────────────────────────────────────────
-  {
     slug: "timelapse-video-dubai-2026",
     title: "Timelapse Video Dubai 2026",
     metaTitle: "Timelapse Video Dubai 2026 | Backyard Studio",
@@ -7406,53 +6842,6 @@ export const BLOG_POSTS: BlogPost[] = [
 
   // 7. Product Photography Dubai
   {
-    slug: "product-photography-dubai-2026",
-    title: "Product Photography Dubai 2026 | E-commerce & Brand Product Shoot UAE",
-    metaTitle: "Product Photography Dubai 2026 | Backyard Studio",
-    metaDescription: "Product photographer Dubai for e-commerce, Amazon, Noon and brand campaigns. White background, lifestyle and creative product photography. From AED 120 per SKU.",
-    keywords: [
-      "product photographer dubai",
-      "product photography dubai",
-      "ecommerce photography dubai",
-      "amazon product photography uae",
-      "product photography uae",
-      "commercial product photographer dubai",
-    ],
-    category: "Photography",
-    date: "June 19, 2026",
-    dateISO: "2026-06-19",
-    readTime: "8 min read",
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&q=80",
-    excerpt: "Product photography in Dubai serves markets from Amazon.ae and Noon to regional luxury brand campaigns. Here is how we approach e-commerce product photography, lifestyle shoots, and creative product campaigns for UAE brands and importers.",
-    author: "Backyard Studio Editorial",
-    faqs: [
-      { question: "What types of product photography do you offer in Dubai?", answer: "We offer three main formats: white background e-commerce photography (clean, marketplace-compliant shots for Amazon, Noon, and website product listings), lifestyle product photography (products in context — on a model, in a home environment, or at a location that communicates the product's use case), and creative campaign photography (hero images for advertising, packaging, and brand marketing). Most clients use a combination of all three." },
-      { question: "Do you shoot Amazon-compliant product photography in Dubai?", answer: "Yes. Amazon's main image requirements specify a white or off-white background, the product occupying at least 85% of the frame, and no additional objects in the main image. We produce Amazon-compliant main images for all product categories, as well as the infographic and lifestyle secondary images that improve conversion rates on the product listing." },
-      { question: "What is your per-SKU pricing for product photography?", answer: "White background e-commerce photography starts from AED 120 per SKU for standard product categories (apparel, accessories, electronics, home goods) with a minimum of 10 SKUs per session. Pricing per SKU decreases with volume: 50+ SKUs are AED 85 per SKU, and 100+ SKUs are AED 65 per SKU. Lifestyle and campaign photography is quoted per project based on the number of products, locations, and complexity of setups required." },
-      { question: "Can you photograph products with models in Dubai?", answer: "Yes. We source models for product photography through our UAE talent network and handle the model booking and coordination as part of the production. Lifestyle and on-model product photography is particularly effective for apparel, jewellery, watches, beauty, and accessories. We can also source models of specific demographics (age, body type, skin tone) for products with specific target audiences." },
-      { question: "How quickly are product photography images delivered?", answer: "White background e-commerce images are delivered within 3 to 5 business days. For large volume sessions (100+ SKUs), delivery is typically 7 to 10 business days. Lifestyle and campaign images with more complex retouching are delivered within 7 business days. Rush delivery for urgent e-commerce listings or campaign launches is available for additional cost." },
-      { question: "Do you offer product photography for beauty and skincare brands?", answer: "Yes. Beauty and skincare product photography is one of our specialities. Reflective packaging (glass, chrome caps, metallised tubes) creates lighting challenges that generic product photography approaches handle poorly. We use specialised lighting setups and reflectors specifically designed for beauty packaging to produce clean, reflection-free images that communicate the product's premium positioning." },
-    ],
-    relatedSlugs: ["food-photography-dubai-2026", "lifestyle-photography-dubai-2026", "personal-branding-photography-dubai-2026"],
-    content: `
-<h2>Product Photography in Dubai's E-commerce and Retail Market</h2>
-<p>Dubai and the UAE e-commerce market is one of the fastest-growing in the world, driven by high smartphone penetration, a digitally literate population, and the regional dominance of platforms including Amazon.ae, Noon, Namshi, and Sivvi. Every product sold on these platforms competes primarily on two factors: reviews and imagery. A product with excellent photography consistently outperforms an identical product with weak imagery, regardless of other factors. This is not a hypothesis — it is the conclusion of every conversion rate study Amazon and comparable platforms have published.</p>
-<p>Beyond e-commerce platforms, Dubai's retail and brand landscape creates demand for product photography across a broad range of output types: campaign imagery for outdoor advertising, packaging photography for retail shelf presence, social media content for brand Instagram and TikTok channels, and press photography for media coverage and distributor presentations. We serve all of these categories and have experience across a wide range of product types including food and beverage, beauty and skincare, consumer electronics, fashion and accessories, furniture and homewares, industrial and B2B products, and luxury goods.</p>
-<h2>E-commerce Product Photography</h2>
-<p>The economics of e-commerce product photography in Dubai are driven by two competing pressures: the need for high-quality imagery that converts browsers to buyers, and the reality that most sellers have multiple SKUs to photograph simultaneously. Our per-SKU pricing model addresses this directly. Rather than quoting a day rate that makes budgeting uncertain, we price by deliverable — a fixed price per finished, retouched image delivered to marketplace specification. This makes the total investment predictable from the start.</p>
-<p>The technical requirements for marketplace-compliant product photography are well-defined by the platforms themselves. Amazon's main image specifications are the most prescriptive: white or off-white background (RGB 255,255,255), product filling at least 85% of the image frame, no additional objects, props, or watermarks, and the product shown fully in frame with no cropping of edges. We deliver Amazon-compliant main images as standard and document the exact settings and retouching approach for each product category so that reshoots of new SKUs match the existing catalogue precisely.</p>
-<p>Secondary images for Amazon and Noon listings are where significant conversion rate improvement is available. The second through sixth image slots can show the product in use, communicate key features through infographic overlays, show size and scale comparisons, and demonstrate care instructions or ingredients. We produce full secondary image sets including lifestyle and infographic images and can work with client-provided copy for infographic text or develop copy suggestions based on the product.</p>
-<h2>Lifestyle Product Photography</h2>
-<p>Lifestyle product photography shows a product in the context of its intended use. A coffee maker shot on a white background communicates the product's appearance. The same coffee maker on a morning kitchen counter with steam rising from a cup communicates the experience it delivers. For most consumer products, the lifestyle image is a more powerful sales tool than the product isolation because it allows buyers to project themselves into the image and visualise the product in their life.</p>
-<p>In Dubai, lifestyle product photography is produced in a range of settings depending on the brand positioning. Luxury and premium products are typically shot at high-end Dubai interiors — hotel lobbies, villa homes, marina-view apartments. Mid-range consumer products work well in relatable Dubai apartment settings. Outdoor and sports products benefit from Dubai's landscape assets: beach, desert, urban parks, and the visual drama of the city itself as a backdrop.</p>
-<h2>Specialised Product Categories</h2>
-<p>Certain product categories require specialised technical approach. Jewellery photography requires macro lenses, rail-focused shooting for depth of field at extreme close range, and lighting setups designed for highly reflective metal and gemstone surfaces. Watch photography is a recognised sub-speciality involving specific angling to hide the reflections of the camera and photographer in the caseback and crystal. Beauty and skincare packaging, particularly glass bottles with metallic caps, requires flag panels and specifically positioned reflectors to produce clean, reflection-free surfaces.</p>
-<p>We are experienced in all of these categories and bring the appropriate equipment and setup knowledge for each. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
-`,
-  },
-
-  // 8. Lifestyle Photography Dubai
-  {
     slug: "lifestyle-photography-dubai-2026",
     title: "Lifestyle Photography Dubai 2026 | Lifestyle Photographer UAE",
     metaTitle: "Lifestyle Photography Dubai 2026 | Backyard Studio",
@@ -7541,47 +6930,6 @@ export const BLOG_POSTS: BlogPost[] = [
   },
 
   {
-    slug: "newborn-photographer-dubai-2026",
-    title: "Newborn Photographer Dubai 2026 | Baby Photography UAE",
-    metaTitle: "Newborn Photographer Dubai 2026 | Backyard Studio",
-    metaDescription: "Newborn photographer in Dubai specialising in posed and lifestyle baby photography. Safe, gentle, studio and in-home sessions. UAE families welcome. From AED 1,800.",
-    keywords: [
-      "newborn photographer dubai",
-      "baby photography dubai",
-      "newborn photography dubai",
-      "newborn photos dubai",
-      "baby photoshoot dubai",
-      "infant photography dubai",
-    ],
-    category: "Photography",
-    date: "June 22, 2026",
-    dateISO: "2026-06-22",
-    readTime: "6 min read",
-    image: "https://images.unsplash.com/photo-1535572290543-960a8046f5af?w=1200&q=80",
-    excerpt: "Newborn photography captures the first days of a child's life before they change in ways that photographs cannot recover. Here is what a professional newborn session in Dubai looks like, when to book one, and what to expect.",
-    author: "Backyard Studio Editorial",
-    faqs: [
-      { question: "When is the best time to book a newborn photoshoot in Dubai?", answer: "The ideal window for posed newborn photography is 5 to 14 days after birth. During this period newborns sleep deeply and are curled in the flexed positions that produce the most natural, beautiful newborn poses. After two weeks babies become more alert and harder to settle for posed work. We recommend booking your newborn session during the second trimester of pregnancy to secure your preferred date around your due date." },
-      { question: "Is newborn photography safe for my baby?", answer: "Safety is the absolute first priority in our newborn sessions. We use only posing props and wraps appropriate for newborns, we never place babies in positions they cannot achieve naturally, we control room temperature throughout the session to keep the baby comfortable, and all composite poses are created safely with a parent present throughout. Our newborn photographers have completed specialist newborn posing training. A parent or guardian is present and involved at every step." },
-      { question: "How long does a newborn photoshoot take in Dubai?", answer: "Newborn sessions are designed to work at the baby's pace rather than a fixed schedule. Most sessions run between 2 and 4 hours, including feeding breaks, settling time, and outfit or prop changes. We never rush a newborn session. If a baby is unsettled and needs extra time, we accommodate that. Our studio is private and quiet, and we maintain a calm environment throughout." },
-      { question: "Do you offer in-home newborn photography in Dubai?", answer: "Yes. We offer both studio sessions at our Dubai studio and in-home lifestyle sessions where we come to your home and photograph your new baby in your family environment. In-home sessions capture the natural context of your baby's first days — the nursery, the natural light in your home, the family together — and produce a different style of imagery to studio posed sessions. Many families choose both." },
-      { question: "How much does newborn photography cost in Dubai?", answer: "Newborn photography in Dubai starts from AED 1,800 for a studio session delivering 20 edited images. Premium sessions including multiple setups, wraps, props, and sibling or family portraits within the same session start from AED 2,800. In-home lifestyle sessions start from AED 2,200. All sessions include an online gallery with high-resolution downloads." },
-    ],
-    relatedSlugs: ["maternity-photography-dubai-2026", "kids-photography-dubai-2026", "lifestyle-photography-dubai-2026"],
-    content: `
-<h2>The First Two Weeks</h2>
-<p>Newborn photography exists because the first days of a child's life change faster than memory can keep pace. Parents who intended to photograph their newborn on a phone discover two weeks later that the tiny curled shape they remember has already become something different — alert, open-eyed, growing visibly from one day to the next. Professional newborn photography captures the specific physical reality of those first days: the size of a baby's hand against a parent's, the way they curl naturally into the foetal position, the particular softness of that first fortnight.</p>
-<p>In Dubai, where expatriate families are often far from extended family networks who would otherwise photograph and witness these moments, professional newborn documentation takes on additional weight. The images we produce are frequently the first detailed record of a child that grandparents, siblings, and family members in other countries receive. We take that responsibility seriously in every aspect of how we design and run our sessions.</p>
-<h2>Studio vs In-Home Sessions</h2>
-<p>We offer two approaches to newborn photography in Dubai. Studio sessions at our Dubai studio produce the classic posed newborn images: sleeping baby in props and wraps, carefully controlled light, neutral backgrounds that keep attention on the baby. The studio environment allows us precise control over temperature, light, and the range of setups and props we use. For families who want the aesthetic of highly crafted newborn imagery, studio sessions are the right choice.</p>
-<p>In-home lifestyle sessions work differently. We come to your home and document your baby in the natural environment of your first days as a family — the nursery you prepared, the light in your living room, the way your other children interact with the new baby, parents holding and feeding. The imagery from in-home sessions is documentary rather than posed, and it captures something studio sessions cannot: the specific texture of your family's life in this first chapter. Many families choose to do both — a studio session for posed images and an in-home session for natural family documentation.</p>
-<h2>Safety First</h2>
-<p>The safety of your baby is never compromised for a photograph. Our newborn photographers follow established safe posing guidelines at all times. We do not attempt poses that require forced positions, we never leave a baby unattended in a prop, and all composite images are created with a parent present and obvious safety measures in place that are removed in post-production. The room temperature is maintained at a level comfortable for a newborn throughout the session, and we take as many breaks as the baby needs for feeding and settling.</p>
-<p>A parent or guardian is present throughout every session. We provide full guidance before the session on how to prepare your baby — including feed timing, what to bring, and how to keep the baby in the calm, sleepy state that produces the best posed newborn images. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to book your session.</p>
-`,
-  },
-
-  {
     slug: "maternity-photography-dubai-2026",
     title: "Maternity Photography Dubai 2026 | Pregnancy Photographer UAE",
     metaTitle: "Maternity Photography Dubai 2026 | Backyard Studio",
@@ -7619,47 +6967,6 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>Including Partners, Children, and Family</h2>
 <p>Many of our most meaningful maternity images include partners and existing children. The dynamic between a couple in the final weeks of pregnancy, or between a toddler and a mother's bump, produces images that pure individual maternity portraits cannot. We structure sessions to accommodate families naturally — starting with the most active participants (children) while their energy and patience are highest, then moving to couple portraits, then to individual maternity portraits, so that every person in the session has the best possible environment for their images.</p>
 <p>We are experienced working with children of all ages in photography sessions in Dubai, and we approach this aspect of the session with patience and flexibility rather than a fixed schedule. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
-`,
-  },
-
-  {
-    slug: "fashion-photography-dubai-2026",
-    title: "Fashion Photography Dubai 2026 | Fashion Photographer UAE",
-    metaTitle: "Fashion Photography Dubai 2026 | Backyard Studio",
-    metaDescription: "Fashion photographer in Dubai for editorial shoots, e-commerce, lookbooks, brand campaigns and model portfolios. DIFC, Downtown, desert locations. From AED 3,500.",
-    keywords: [
-      "fashion photographer dubai",
-      "fashion photography dubai",
-      "editorial fashion dubai",
-      "model photography dubai",
-      "fashion shoot uae",
-      "clothing brand photography dubai",
-    ],
-    category: "Photography",
-    date: "June 22, 2026",
-    dateISO: "2026-06-22",
-    readTime: "7 min read",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=80",
-    excerpt: "Fashion photography in Dubai operates at the intersection of international editorial standards and the city's specific visual context — the architecture, the light, the desert, the luxury hospitality environment. Here is how professional fashion photography works in Dubai in 2026.",
-    author: "Backyard Studio Editorial",
-    faqs: [
-      { question: "What types of fashion photography do you produce in Dubai?", answer: "Backyard Studio Official produces editorial fashion photography for magazines and digital media, e-commerce product photography on models for fashion retail brands and online stores, lookbook photography for seasonal collections and brand campaigns, model portfolio shoots for Dubai modelling agencies and individual models, and social media campaign content for fashion brands operating in the UAE market." },
-      { question: "Which locations do you use for fashion photography in Dubai?", answer: "Fashion photography locations in Dubai include architectural environments such as DIFC, Downtown Dubai, and the Dubai Frame area; desert and dune locations outside the city for editorial dramatic imagery; beach and coastal settings at JBR, Palm Jumeirah, and Jumeirah; luxury hotel interiors and pool environments; and studio settings for clean e-commerce photography. Location choice is determined by the brand aesthetic and the specific collection being photographed." },
-      { question: "Do you work with models for fashion photography in Dubai?", answer: "Yes. Backyard Studio Official has working relationships with Dubai's leading modelling agencies and can source models appropriate for your campaign brief. We work with models across all demographics, looks, and specialisms. For e-commerce clients, we regularly provide model casting alongside photography production. Alternatively, we work with models supplied by the client." },
-      { question: "What does fashion photography production in Dubai involve?", answer: "A fashion photography production in Dubai typically involves a pre-production phase covering creative brief, location scouting, styling brief, and model casting; a production day with photographer, assistant, stylist, and make-up artist; and a post-production phase covering image selection, colour grading, and retouching to the brand's standard. We manage the full production as a single deliverable rather than as separate services." },
-      { question: "How much does fashion photography cost in Dubai?", answer: "Fashion photography in Dubai starts from AED 3,500 for a half-day editorial or e-commerce session with a photographer and assistant. Full production days including photographer, assistant, and location start from AED 6,000. Campaign productions including model fees, styling, make-up, and location costs are quoted on a per-project basis. E-commerce model photography for fashion retail is available as a per-outfit or per-day rate starting from AED 5,000." },
-    ],
-    relatedSlugs: ["lifestyle-photography-dubai-2026", "personal-branding-photography-dubai-2026", "social-media-content-creator-dubai-2026"],
-    content: `
-<h2>Fashion Photography in Dubai: The Production Context</h2>
-<p>Dubai's fashion photography market has matured significantly over the past decade. What was once a relatively limited market — a handful of agencies producing local advertising content to regional standards — has become a competitive international production environment where fashion brands from across the world bring campaigns specifically to benefit from Dubai's visual assets, logistics infrastructure, and relatively efficient permit processes. The city's architecture, its desert proximity, its luxury hospitality environments, and its year-round shooting weather make it a compelling production location for international fashion campaigns.</p>
-<p>We produce fashion photography across this full spectrum: from international campaign shoots where Dubai is the backdrop to local brand e-commerce imagery where the volume and consistency of output is the priority. The production approach is different for each, but the underlying quality standard is consistent. Fashion imagery produced at Backyard Studio Official is benchmarked against international editorial standards rather than local market conventions.</p>
-<h2>Editorial vs Commercial Fashion Photography</h2>
-<p>Editorial fashion photography — the work produced for magazines, digital media, and fashion media brands — prioritises visual narrative and aesthetic ambition over commercial function. An editorial shoot in the Dubai desert dunes communicates something about the brand through the visual language of the image itself: the relationship between garments and landscape, the quality of light, the casting and direction of models. Commercial fashion photography for e-commerce and retail, by contrast, prioritises clarity, consistency, and volume: the garment needs to be clearly visible, accurately represented in colour and silhouette, and photographed in enough variations to support an online product listing.</p>
-<p>We produce both, and we are clear with clients about which approach serves which objective. Many fashion brands need both — editorial imagery for brand building and social media narrative, commercial e-commerce imagery for their online store. We structure our production approach and pricing differently for each use case.</p>
-<h2>Model Casting and Styling</h2>
-<p>Fashion photography in Dubai benefits from access to one of the most diverse modelling communities in the world. Dubai's modelling agencies represent talent from across Europe, the Middle East, Africa, Asia, and the Americas — a diversity of looks that few other markets can match. This is a genuine production advantage for brands producing content intended for international markets, and it is something we leverage through our established agency relationships in Dubai.</p>
-<p>Styling and make-up for fashion productions in Dubai is similarly accessible. We work with experienced stylists and make-up artists who understand the visual requirements of editorial and commercial fashion photography and whose work meets international standards. For full production days we coordinate the entire crew — photographer, assistant, stylist, make-up artist, and model management — as a single production service. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to discuss your project.</p>
 `,
   },
 
@@ -7785,48 +7092,6 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>For family sessions that include parents and younger children, we often split the session between an active outdoor environment and a brief studio phase for cleaner portrait imagery. This gives the family a full range of images: natural, active outdoor shots alongside polished portrait-quality images that work for wall prints and framed gifts. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to book a session.</p>
 `,
   },
-
-  {
-    slug: "engagement-photographer-dubai-2026",
-    title: "Engagement Photographer Dubai 2026 | Couple Photography UAE",
-    metaTitle: "Engagement Photographer Dubai 2026 | Backyard Studio",
-    metaDescription: "Engagement photographer in Dubai for pre-wedding couple shoots, proposal documentation, and anniversary sessions. Desert, beach, skyline, and heritage locations. From AED 2,000.",
-    keywords: [
-      "engagement photographer dubai",
-      "engagement photography dubai",
-      "engagement shoot dubai",
-      "pre wedding shoot dubai",
-      "couple photographer dubai",
-      "engagement photos dubai",
-    ],
-    category: "Photography",
-    date: "June 22, 2026",
-    dateISO: "2026-06-22",
-    readTime: "6 min read",
-    image: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=1200&q=80",
-    excerpt: "Engagement photography in Dubai offers access to some of the world's most visually dramatic couple photography environments. Here is how engagement sessions work in Dubai, what they cost, and how to make the most of the city's locations.",
-    author: "Backyard Studio Editorial",
-    faqs: [
-      { question: "What are the best locations for an engagement shoot in Dubai?", answer: "The most popular engagement photography locations in Dubai include the Dubai desert dunes at golden hour (the Al Qudra and Lahbab desert areas), beach environments at Jumeirah, JBR, and Palm Jumeirah, the Downtown Dubai area with Burj Khalifa views, Al Fahidi Heritage District for textured historic architecture, Dubai Marina and the Frame area for contemporary skyline imagery, and the Dubai Creek for traditional dhow boat sessions. We help couples choose locations that match their aesthetic preferences and the style of images they want." },
-      { question: "When should we book an engagement shoot in Dubai?", answer: "We recommend booking your engagement session 2 to 4 months in advance, particularly if you want a specific location or golden-hour desert time slot during Dubai's cooler months from October through April. The best golden-hour desert and beach slots — typically 5:00 to 7:00pm in October through March — are in high demand and fill well in advance. During the summer months, outdoor sessions are only practical at sunrise (5:30 to 7:00am) to avoid the heat." },
-      { question: "How long does an engagement shoot take in Dubai?", answer: "Most engagement sessions run for 90 minutes to 2.5 hours, covering 2 locations and 1 to 2 outfit changes. Sessions that include a desert location and a second urban or beach location may run slightly longer to account for travel time. We plan the session to make the most of golden light and to give the couple enough time to settle in and relax before the session produces its best images — the first 20 to 30 minutes are always a warm-up period." },
-      { question: "Do you photograph proposals in Dubai?", answer: "Yes. Proposal photography is one of the most memorable commission types we receive. We work covertly — positioned in advance at the proposal location without the partner knowing — to capture the genuine moment of the proposal and the immediate reaction. Proposal photography requires precise coordination of timing and positioning, which we manage through close communication with the proposing partner in the days before the event. Contact us well in advance as popular proposal locations book quickly." },
-      { question: "How much does an engagement photographer cost in Dubai?", answer: "Engagement photography in Dubai starts from AED 2,000 for a 90-minute session at one location delivering 30 to 40 edited images. Sessions covering 2 locations with 2 outfit changes start from AED 3,000. Golden-hour desert sessions with a driving time component are priced from AED 2,500. Full pre-wedding packages combining an engagement session with wedding day photography discounts are available upon request." },
-    ],
-    relatedSlugs: ["lifestyle-photography-dubai-2026", "headshot-photography-dubai-2026", "personal-branding-photography-dubai-2026"],
-    content: `
-<h2>Dubai as an Engagement Photography Location</h2>
-<p>Couples who are engaged in Dubai — or who choose to travel to Dubai specifically for an engagement shoot — have access to a visual range that is genuinely extraordinary. The desert landscape outside the city produces imagery that looks like nothing else: warm gold and red tones at sunset, dramatic scale, and a quality of light in the last hour before dark that makes ordinary couple photography look like a professional editorial commission. The beach environments offer water, sky, and a soft quality of light at sunrise and golden hour. The urban environments — Downtown Dubai, DIFC, the Marina — provide a contemporary architectural backdrop that communicates the specific energy of one of the world's most modern cities. We move between all of these environments depending on what the couple wants from their images.</p>
-<p>For expatriate couples living in Dubai, engagement photography has an additional dimension: it documents a specific chapter of life in a city that many couples will eventually leave. The images from a Dubai engagement shoot are not just engagement photos — they are a record of a particular period, in a particular place, at a particular stage of life. We approach this dimension with the seriousness it deserves.</p>
-<h2>How We Approach Couple Photography</h2>
-<p>The single most important factor in couple photography — more than location, more than light, more than equipment — is how comfortable the couple feels in front of the camera. Most people are not naturally comfortable being photographed as a couple. They feel self-conscious about how they look, uncertain about what to do with their hands, and aware of being watched. The images that result from this state of mind are visible immediately: the stiffness, the forced smiles, the absence of genuine connection between two people who are clearly in love when no one is watching.</p>
-<p>Our approach to managing this is based on direction rather than posing. We do not tell couples where to put their hands in the technical sense of a modelling pose. We give them things to do together — walk toward the light, whisper something to each other, hold this moment — and capture the genuine expressions and movements that result. The warmth between two people who are genuinely connected shows up in the images when we create the right conditions for it.</p>
-<h2>Desert and Golden Hour Shoots in Dubai</h2>
-<p>The Dubai desert at golden hour is among the most photographically spectacular environments in the world. The light in the 45 minutes before sunset turns the dune surfaces amber and copper, and the sky moves through a sequence of colours — orange through magenta through blue — that provides a changing backdrop over the course of the session. For couples who want images that are dramatic and visually ambitious, a desert golden-hour session at Al Qudra or Lahbab is the standout choice.</p>
-<p>Desert sessions require advance planning for access and timing. We manage the logistics — driving route, permit requirements where applicable, and precise timing to arrive with the couple at the dunes while the light is at its best. The shoot window is typically 45 to 60 minutes of optimal light, and we work efficiently within that window to cover multiple compositions and locations within the dune environment. For enquiries and bookings, contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685.</p>
-`,
-  },
-
 
   {
     slug: "headshot-photographer-abu-dhabi-2026",
@@ -8207,50 +7472,6 @@ export const BLOG_POSTS: BlogPost[] = [
     `,
   },
   {
-    slug: "product-videography-dubai-2026",
-    title: "Product Videography Dubai 2026 — E-Commerce & Advertising Video Production UAE",
-    metaTitle: "Product Videography Dubai 2026 | E-Commerce Video Production UAE",
-    metaDescription: "Professional product videography in Dubai for e-commerce, social media ads, and brand campaigns. Studio & location. 48-hour delivery. Free quote in 2 hours.",
-    keywords: ["product videography Dubai", "product video production Dubai", "e-commerce video Dubai", "product advertising video UAE", "product shoot Dubai 2026"],
-    category: "Video Production",
-    date: "June 15, 2026",
-    dateISO: "2026-06-15",
-    readTime: "7 min",
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200&q=80",
-    excerpt: "A complete guide to product videography in Dubai for e-commerce brands, retail, and advertising — covering formats, pricing, and what drives conversions on UAE platforms.",
-    author: "Backyard Studio Editorial",
-    faqs: [
-      { question: "What is product videography and why do Dubai brands need it?", answer: "Product videography is the production of short videos showcasing a physical product for e-commerce listings, social media advertising, or brand campaigns. Dubai brands need it because video consistently outperforms static imagery in conversion rates on Noon, Amazon.ae, and Instagram — often by 30–80% for the same product." },
-      { question: "How much does product video production cost in Dubai?", answer: "Product video production in Dubai starts at AED 3,500 for a simple studio shoot producing 3–5 product clips. A full e-commerce video package for 10–15 SKUs costs AED 12,000–AED 20,000. Social media advertising product videos with talent and location cost AED 8,000–AED 30,000 depending on complexity." },
-      { question: "What formats are produced in a product videography session?", answer: "A professional product videography session in Dubai typically produces: a 15–30 second hero video for the e-commerce product listing, a 6–9 second social media cut for Instagram and TikTok ads, a square format version for Facebook, and a 9:16 vertical version for Reels and Stories. All formats are included in Backyard Studio's product video packages." },
-      { question: "How quickly can product videos be delivered in Dubai?", answer: "Backyard Studio Official delivers product videography within 48 hours of shoot completion for standard packages. Rush 24-hour delivery is available. For large SKU volumes, we deliver in batches of 10–15 videos per day." },
-    ],
-    relatedSlugs: ["commercial-photography-dubai-2026", "food-photography-dubai-2026", "brand-film-production-dubai-2026"],
-    content: "\n<h2>Product Video Is No Longer Optional for UAE Brands</h2>\n\
-<p>The shift to video-first commerce in the UAE has been dramatic. Noon, Amazon.ae, and the major UAE retail platforms now prioritise product listings with video content in their search algorithms, placing video-enabled listings ahead of static image-only listings for identical products. On Instagram and TikTok, product Reels consistently outperform static posts by 40–80% in reach and engagement for consumer brands in the UAE market. For any brand selling physical products in the UAE, product videography is no longer a nice-to-have — it is a direct driver of sales performance.</p>\n\
-\n\
-<h2>Product Video Formats for UAE E-Commerce and Social Media</h2>\n\
-<p><strong>E-commerce listing video (15–30 seconds):</strong> The primary format for Noon, Amazon.ae, Namshi, and brand DTC websites. Shows the product from multiple angles, demonstrates key features or usage, and communicates scale and material quality that static images cannot convey. Shot in a studio environment with controlled lighting optimised for accurate colour reproduction.</p>\n\
-<p><strong>Social media advertising video (6–15 seconds):</strong> Short, high-impact cuts designed for Instagram Reels, TikTok, and Facebook advertising. Hook within the first 2 seconds. No sound dependence — visual storytelling that works on mute. Delivered in 1:1, 4:5, and 9:16 aspect ratios for all UAE platform placements.</p>\n\
-<p><strong>Lifestyle product video (30–60 seconds):</strong> Product shown in context — in use, in an aspirational environment, or with talent demonstrating its value. The format used for brand-level social media content rather than direct response advertising. Requires location, styling, and sometimes talent beyond the studio setup.</p>\n\
-<p><strong>Unboxing and feature showcase video:</strong> Highly effective for consumer electronics, beauty, and subscription boxes. Demonstrates the opening experience, the packaging quality, and the product features in a format that mirrors organic creator content — which is precisely why it converts well on UAE social platforms.</p>\n\
-\n\
-<h2>The Product Videography Process at Backyard Studio</h2>\n\
-<p>Every product video shoot at Backyard Studio Official follows a structured process designed to maximise output quality and delivery speed. We begin with a product brief reviewing your SKUs, your brand guidelines, your platform requirements, and your existing content so we can build on what is already working and fill the gaps. For new brands, we conduct a competitor content audit to understand what is performing in your specific product category in the UAE market.</p>\n\
-<p>Studio setup uses controlled LED lighting panels calibrated for accurate colour temperature, allowing us to shoot 15–25 SKUs per day without setup delays between products. For lifestyle product videos, we scout locations relevant to the product category — hospitality settings for food and beverage products, fitness environments for sporting goods, interior settings for home goods — and obtain all necessary permits before shoot day.</p>\n\
-<p>Post-production for product videography is handled entirely in-house. Colour grading matches your brand palette. Sound design (or music licensing) is included. Export in all required formats — 1:1, 4:5, 9:16, 16:9 — is standard in every package. No additional fees for format variations.</p>\n\
-\n\
-<h2>What Converts in UAE Product Videos</h2>\n\
-<p>After producing product videos for hundreds of UAE brands, the patterns that drive conversion are consistent: fast pacing in the first 2 seconds prevents scroll-past; product scale reference (hand, environment, or scale object) builds purchase confidence that dimensions alone cannot achieve; sound-off visual communication is essential because 85% of UAE social media video is watched muted; and social proof integration — reviews, user counts, or award callouts overlaid as text — measurably improves click-through rates for competitive product categories.</p>\n\
-\n\
-<h2>Product Videography Pricing Dubai 2026</h2>\n\
-<p><strong>Basic product studio package (5 SKUs):</strong> AED 3,500. Includes studio setup, 15–30 second clip per product, 3 format exports per clip, 48-hour delivery.</p>\n\
-<p><strong>Standard e-commerce package (15 SKUs):</strong> AED 9,000. Full day studio, 15–30 second clip per product, lifestyle hero video, all format exports, 48-hour delivery.</p>\n\
-<p><strong>Lifestyle product video (with talent and location):</strong> AED 8,000–AED 20,000. Location scouting, talent casting, permit, full post-production, delivered within 5 working days.</p>\n\
-<p><strong>Social media ad package (3 product hero videos + 6 cut-downs):</strong> AED 12,000. All platform formats, motion graphics, licensed music, delivered within 48 hours.</p>\n\
-    ",
-  },
-  {
     slug: "corporate-video-production-abu-dhabi-2026",
     title: "Corporate Video Production Abu Dhabi 2026 — Government & Enterprise Filming UAE",
     metaTitle: "Corporate Video Production Abu Dhabi 2026 | Government & Enterprise UAE",
@@ -8294,97 +7515,6 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Corporate brand film (multi-location, 3–5 minutes):</strong> AED 40,000–AED 80,000. Multiple Abu Dhabi locations, executive interviews, B-roll, aerial drone footage, full post-production.</p>
 <p><strong>Government entity production:</strong> AED 60,000–AED 200,000+. Priced on scope. Includes all protocol compliance, Arabic primary deliverable, official approval support.</p>
 <p><strong>Event production (full day, Abu Dhabi):</strong> AED 12,000–AED 25,000. Multi-camera event coverage, same-day social edit, full edited highlights film.</p>
-    `,
-  },
-  {
-    slug: "brand-film-production-dubai-2026",
-    title: "Brand Film Production Dubai 2026 — How to Commission a Film That Works",
-    metaTitle: "Brand Film Production Dubai 2026 | Corporate Brand Films UAE",
-    metaDescription: "Commission a brand film in Dubai that actually performs. Backyard Studio Official produces brand films for UAE companies, government entities, and international brands. Quote in 2 hours.",
-    keywords: ["brand film production Dubai", "brand film Dubai", "corporate brand film UAE", "company film Dubai 2026", "brand video production Dubai"],
-    category: "Brand Production",
-    date: "June 15, 2026",
-    dateISO: "2026-06-15",
-    readTime: "8 min",
-    image: "https://images.unsplash.com/photo-1585951237318-9ea5e175b891?w=1200&q=80",
-    excerpt: "A complete guide to commissioning a brand film in Dubai — what makes a brand film different from a corporate video, how to brief one effectively, and what to expect at each stage of production.",
-    author: "Backyard Studio Editorial",
-    faqs: [
-      { question: "What is a brand film and how is it different from a corporate video?", answer: "A brand film tells a story about who a company is, what it believes, and why it exists — rather than simply listing what it sells or does. Where a corporate video informs, a brand film connects emotionally. The best brand films are watched, shared, and remembered because they make the viewer feel something about the brand, not just know something about it." },
-      { question: "How much does a brand film cost in Dubai?", answer: "Brand film production in Dubai costs from AED 25,000 for a single-location 2-minute brand story to AED 300,000+ for a cinematic multi-day brand documentary with original music and international distribution quality. Most mid-market brand films in Dubai fall in the AED 40,000–AED 100,000 range for a 3–5 minute polished film." },
-      { question: "How long does it take to produce a brand film in Dubai?", answer: "A brand film in Dubai typically takes 3–6 weeks from brief to delivery: 1–2 weeks of pre-production (scriptwriting, storyboarding, casting, location scouting), 1–3 shoot days, and 1–2 weeks of post-production (editing, grade, sound, motion graphics). Rush productions are possible with adjusted timelines and an expedited crew." },
-      { question: "What makes a brand film effective in the UAE market?", answer: "Effective brand films in the UAE market balance visual ambition with cultural authenticity. The most successful UAE brand films have a clear emotional core — a human story or a credible purpose statement — rather than product or service listing. They are optimised for digital distribution: 3 minutes maximum for web and social, with a 60-second cut for social media and a 30-second cut for advertising." },
-    ],
-    relatedSlugs: ["corporate-video-production-abu-dhabi-2026", "commercial-photography-dubai-2026", "best-production-companies-dubai-2026"],
-    content: `
-<h2>What a Brand Film Actually Is — and Why It Matters in Dubai</h2>
-<p>The term brand film is used loosely enough in the Dubai market that it has started to lose meaning. Some studios use it to describe any corporate video with slightly better production values. In its proper sense, a brand film tells a story about who a company is, what it stands for, and why it exists — not what it sells. It operates through emotional connection rather than information transfer. The most effective brand films are watched, shared, and remembered because they make the viewer feel something about the brand, not just know something about it.</p>
-<p>This distinction matters practically. A corporate profile video that lists your services and shows your office runs three minutes and gets watched once in an investor meeting. A brand film with a genuine story at its centre gets shared by the people who work at the company, embedded in pitch decks, run as pre-roll on YouTube, and built into the brand's social media strategy. The production cost is often similar. The return is structurally different.</p>
-
-<h2>The Anatomy of an Effective Brand Film</h2>
-<p><strong>The hook (first 15 seconds):</strong> Every brand film lives or dies in its first 15 seconds. On YouTube, this is the skip threshold. On social media, it is the scroll window. The opening must communicate something unexpected, visually striking, or emotionally immediate enough to stop the viewer committing to the next 3 minutes. Generic establishing shots of your office or product do not achieve this.</p>
-<p><strong>The story (middle section):</strong> The best brand films in the UAE market are built around human stories — a founder's journey, a customer transformation, a team's pursuit of a difficult goal. Abstract brand values ("we care about quality") become invisible when stated directly; they become believable when demonstrated through specific, concrete human stories.</p>
-<p><strong>The world-building (visual language):</strong> A brand film is also a statement about visual taste. The locations, colour palette, pace, and music communicate something about the brand that goes beyond what the words say. A luxury real estate developer and a challenger fintech brand can both say they are "innovative" — their brand films must look and feel completely different to make that claim credible for their specific audience.</p>
-<p><strong>The call to action (resolution):</strong> Effective brand films do not end with a product pitch. They end with a statement that makes the viewer want to know more — and land in a visual and emotional place that makes the brand feel worth investing further attention in.</p>
-
-<h2>The Brand Film Production Process at Backyard Studio</h2>
-<p>Backyard Studio Official produces brand films through a six-stage process designed to eliminate the most common causes of disappointing results: unclear brief, insufficient pre-production, and post-production disconnected from the original creative intent.</p>
-<p><strong>Stage 1 — Discovery brief:</strong> We work with you to define the film's objective, its primary audience, the platforms it will live on, the key message hierarchy, and the emotional response you want to create. We review competitor content and identify opportunities to be distinctly different in your category.</p>
-<p><strong>Stage 2 — Script and storyboard:</strong> Our writers develop a script or narrative framework and a visual storyboard. You review and approve before any production resource is committed. This is the most important stage — changes here cost an hour; changes in post-production cost thousands.</p>
-<p><strong>Stage 3 — Pre-production:</strong> Location scouting and permit acquisition across UAE; cast and talent sourcing if required; styling and wardrobe; equipment preparation; shoot schedule and logistics. For complex productions involving government-adjacent locations or multiple emirates, pre-production may take 2 weeks.</p>
-<p><strong>Stage 4 — Production:</strong> Cinema-grade equipment, professional lighting, experienced crew. Every Backyard Studio brand film shoot is directed — not just operated — meaning creative decisions are made on the day within the framework of the approved storyboard.</p>
-<p><strong>Stage 5 — Post-production:</strong> Picture edit, colour grade, sound design, music licensing, motion graphics, and title design in-house. All in the same studio that shot the footage. Client review stage at rough-cut and fine-cut before final delivery.</p>
-<p><strong>Stage 6 — Delivery:</strong> Master file in broadcast quality plus platform-optimised exports: 16:9 master, 1:1 square, 9:16 vertical, and all social cut-downs in the agreed format pack. Distribution guidance on optimal release strategy included.</p>
-
-<h2>Brand Film Pricing Dubai 2026</h2>
-<p><strong>Founder story / origin film (1–2 locations, 2–3 minutes):</strong> AED 25,000–AED 40,000. Script, 1–2 shoot days, full post-production, 3 format exports.</p>
-<p><strong>Brand narrative film (multi-location, 3–5 minutes):</strong> AED 50,000–AED 100,000. Full pre-production, talent, aerial drone, advanced grade, motion graphics, platform delivery pack.</p>
-<p><strong>Cinematic brand documentary (5–10 minutes):</strong> AED 100,000–AED 300,000+. Multi-day production, original score, broadcast-quality finish, international distribution master.</p>
-    `,
-  },
-  {
-    slug: "food-photography-dubai-2026",
-    title: "Food Photography Dubai 2026 — Restaurant, F&B & Menu Photography UAE",
-    metaTitle: "Food Photography Dubai 2026 | Restaurant & Menu Photography UAE",
-    metaDescription: "Professional food photography in Dubai for restaurants, hotels, F&B brands, and delivery apps. Menu shoots, hero dish photography, social media content. Quote in 2 hours.",
-    keywords: ["food photography Dubai", "restaurant photography Dubai", "menu photography UAE", "F&B photography Dubai", "food photographer Dubai 2026"],
-    category: "Commercial Photography",
-    date: "June 15, 2026",
-    dateISO: "2026-06-15",
-    readTime: "7 min",
-    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80",
-    excerpt: "Everything Dubai restaurants, hotels, and F&B brands need to know about commissioning food photography — from menu shoots to social media campaigns, with 2026 pricing.",
-    author: "Backyard Studio Editorial",
-    faqs: [
-      { question: "How much does food photography cost in Dubai?", answer: "Food photography in Dubai starts at AED 150 per dish for a basic menu shoot and ranges to AED 8,000–AED 20,000 for a full hero campaign with styling, props, and lifestyle elements. Most Dubai restaurant menu packages for 30–50 dishes cost AED 6,000–AED 12,000 including food styling and editing." },
-      { question: "What is the best time to shoot food photography in Dubai?", answer: "For studio food photography in Dubai, any time works with controlled artificial lighting. For natural-light food photography, the best times are 7am–10am (soft morning light) or 3pm–6pm (warm afternoon). Avoid midday direct sunlight which creates harsh shadows and washed-out colour in food imagery." },
-      { question: "Do you provide food styling for restaurant photography in Dubai?", answer: "Yes. Backyard Studio Official provides professional food styling as part of our F&B photography packages. Our food stylists work with your kitchen team to present dishes at their best without altering the actual recipe — a critical distinction for restaurant photography where the image must accurately represent what customers will receive." },
-      { question: "How many dishes can you photograph in a day in Dubai?", answer: "A professional food photography session in Dubai can cover 25–40 dishes per day for standard menu photography. For hero dish shots with full styling and multiple angles, 8–15 dishes per day is typical. We work directly with your kitchen team to sequence dishes efficiently and minimise food waste." },
-    ],
-    relatedSlugs: ["commercial-photography-dubai-2026", "product-videography-dubai-2026", "real-estate-architecture-photography-dubai-2026"],
-    content: `
-<h2>Why Food Photography Drives Revenue in Dubai's F&B Market</h2>
-<p>Dubai's restaurant market is one of the most competitive on earth — over 13,000 food and beverage establishments competing for attention in a city where residents dine out 4–5 times per week on average and discovery happens almost entirely through visual content on Instagram, Zomato, Talabat, and Google. In this environment, food photography is not a marketing expense — it is a direct revenue driver. Restaurants with professional food photography receive measurably more Talabat orders for the same dishes. Google Business listings with high-quality food images receive more direction requests and reservation clicks. Instagram accounts with consistent professional food imagery build audiences that translate directly into covers.</p>
-<p>The Dubai F&B market has also developed a sophisticated visual palette. The city's residents are exposed to food content from the world's best restaurants and food accounts, and they calibrate their expectations accordingly. Amateur photography or poorly lit smartphone images communicate something specific about a restaurant's standards — and not in a positive direction.</p>
-
-<h2>Food Photography Categories for Dubai F&B Businesses</h2>
-<p><strong>Menu photography:</strong> The foundation. Every dish on your menu photographed cleanly and consistently for your printed menu, digital menu boards, delivery app listings, and website. Typically shot against a neutral or brand-aligned background with controlled studio lighting to ensure consistent colour across all dishes. This is the most cost-efficient format — 30–50 dishes can be photographed in a single day.</p>
-<p><strong>Hero dish photography:</strong> A smaller selection of signature dishes photographed with full art direction — custom backgrounds, props, garnish enhancement, multiple angles, and editorial-quality lighting. Used for advertising, social media hero content, press, and the primary website imagery. Hero dish photography turns a dish into a brand statement.</p>
-<p><strong>Venue and atmosphere photography:</strong> Interior imagery capturing the restaurant environment, bar setup, outdoor terrace, and the dining experience. Essential for Google Business, booking platforms, and brand communications. Good venue photography communicates the experience before the customer arrives.</p>
-<p><strong>Social media food content:</strong> A dedicated shoot producing Reels, Boomerangs, GIFs, and video content of dishes being plated, poured, sliced, or served — the motion content that performs on Instagram and TikTok. The pour shot, the cheese pull, the cross-section reveal: these are specific content formats with proven performance in the UAE market.</p>
-<p><strong>Campaign and advertising photography:</strong> Full art-directed food campaigns for brand advertising, Ramadan and Eid promotions, seasonal menus, and partnership activations. Involves full styling, models or talent, custom props, and location or studio production.</p>
-
-<h2>Food Styling in Dubai — Why It Matters</h2>
-<p>Food photography and food styling are two distinct skills that both need to be present on a professional shoot. The photographer controls light, composition, and lens choice. The food stylist ensures the dish looks its absolute best in front of the camera — which is not the same as how it looks when plated normally in a kitchen.</p>
-<p>Professional food styling in Dubai involves: strategic garnish placement that photographs well, sauce positioning that reads clearly on camera, portion adjustment for visual balance, temperature management to keep hot dishes looking fresh through a 20-minute shoot, and the specific knowledge of which kitchen preparations hold their appearance under studio lighting versus which deteriorate quickly. A dish that looks beautiful on a plate can photograph dully without styling. A skilled food stylist can make the same dish look extraordinary.</p>
-<p>Backyard Studio Official includes professional food styling in all F&B photography packages above our basic menu tier. We do not supplement with inedible styling tricks — our food stylists work within the constraints of actual preparation to produce images that accurately represent what your customers will receive.</p>
-
-<h2>Food Photography Pricing Dubai 2026</h2>
-<p><strong>Basic menu package (up to 30 dishes):</strong> AED 4,500. Standard studio setup, white or neutral background, 1 angle per dish, basic editing, delivered within 3 working days.</p>
-<p><strong>Full menu package (30–60 dishes):</strong> AED 8,000–AED 12,000. Full day, professional styling, 2–3 angles per dish, colour grading, all platform formats.</p>
-<p><strong>Hero dish editorial (5–8 dishes):</strong> AED 6,000–AED 10,000. Full art direction, custom props, premium styling, multiple setups per dish, retouching, web and print delivery.</p>
-<p><strong>Social media food content day:</strong> AED 5,500. Half day, 6–8 Reels and motion clips, 20–30 social statics, all platform formats, 48-hour delivery.</p>
-<p><strong>Full F&amp;B campaign (photography + video):</strong> AED 18,000–AED 40,000. Multi-day production covering menus, hero dishes, venue, and social content in one cohesive package.</p>
     `,
   },
   {
@@ -8478,52 +7608,6 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Add-on: Drone aerial photography:</strong> AED 2,000–AED 4,000. Includes GCAA permit processing, 10–15 aerial stills and a 2-minute aerial video.</p>
     `,
   },
-  {
-    slug: "automotive-photography-dubai-2026",
-    title: "Automotive Photography Dubai 2026 — Car Brand, Dealer & Campaign Shoots UAE",
-    metaTitle: "Automotive Photography Dubai 2026 | Car Brand & Dealer Shoots UAE",
-    metaDescription: "Professional automotive photography in Dubai for car brands, dealerships, and advertising campaigns. Desert, urban & studio shoots. GCAA drone licensed. Quote in 2 hours.",
-    keywords: ["automotive photography Dubai", "car photography Dubai", "automotive campaign UAE", "car shoot Dubai", "vehicle photography Dubai 2026"],
-    category: "Automotive",
-    date: "June 15, 2026",
-    dateISO: "2026-06-15",
-    readTime: "7 min",
-    image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=1200&q=80",
-    excerpt: "A complete guide to automotive photography in Dubai — what car brands and dealerships need to know about desert shoots, urban campaigns, studio setups, and pricing in 2026.",
-    author: "Backyard Studio Editorial",
-    faqs: [
-      { question: "What makes Dubai an ideal location for automotive photography?", answer: "Dubai offers automotive photography locations unavailable in most global markets: the Liwa desert's massive sand dunes for dramatic off-road shoots, the Jebel Jais mountain road in RAK for performance driving shots, the iconic Downtown Dubai skyline as an urban backdrop, the empty pre-dawn highways for motion shots, and the UAE's culture of automotive enthusiasm which provides authentic lifestyle context. Year-round shooting weather is an additional practical advantage." },
-      { question: "How much does automotive photography cost in Dubai?", answer: "Automotive photography in Dubai starts at AED 3,500 for a basic dealership inventory shoot (8–10 vehicles, white background or clean outdoor setting). A full brand automotive campaign with desert or urban locations costs AED 20,000–AED 80,000. Aerial drone automotive shoots add AED 3,000–AED 6,000 to any production." },
-      { question: "Do you use specialist automotive photography equipment?", answer: "Yes. Professional automotive photography in Dubai requires specialist equipment beyond standard photography gear: car-to-car rigs for motion shots, stabilised camera arms for tracking shots, colour-matched LED lighting panels for studio and garage environments, and GCAA-licensed drones for aerial automotive content. Backyard Studio Official maintains a full automotive production equipment package." },
-      { question: "Can you arrange desert locations for automotive shoots in Dubai?", answer: "Yes. Backyard Studio Official arranges all logistics for UAE desert automotive shoots — from the red dunes of Al Qudra near Dubai to the massive Liwa Oasis dunes in Abu Dhabi. We handle location scouting, drive timing for optimal light conditions, safety logistics including recovery vehicles for off-road shoots, and any required municipality or tourism authority permits." },
-    ],
-    relatedSlugs: ["commercial-photography-dubai-2026", "brand-film-production-dubai-2026", "fashion-videography-dubai-2026"],
-    content: `
-<h2>Automotive Photography in Dubai — Why This Market is Unique</h2>
-<p>Dubai has one of the highest rates of luxury vehicle ownership per capita in the world. The UAE's roads include a disproportionate concentration of Ferraris, Lamborghinis, Bentleys, Rolls-Royces, and high-performance SUVs that would be exceptional elsewhere but are genuinely commonplace in the market. This creates a sophisticated automotive audience that is visually literate about the category and responds to quality automotive photography with genuine knowledge of what great execution looks like.</p>
-<p>For international automotive brands with UAE distributors, Dubai is also a strategic shooting location. The combination of the desert landscape, the ultramodern urban environment, and the mountain roads of Ras Al Khaimah provides visual contrast unavailable in any single European or American location — and the shooting weather is reliable enough to plan months in advance without weather risk.</p>
-
-<h2>Automotive Photography Formats in Dubai</h2>
-<p><strong>Dealership inventory photography:</strong> Clean, consistent photography of vehicles for dealership websites, AutoTrader UAE, Dubizzle, and classified platforms. Typically 8–12 images per vehicle showing exterior from all angles, interior, dashboard, and engine bay on a neutral background or clean outdoor surface. The format that drives direct enquiries for car dealers.</p>
-<p><strong>Desert and dune photography:</strong> The most distinctly Dubai automotive photography format — vehicles photographed against the red desert dunes, typically at golden hour when the warm light enhances both the vehicle paint and the sand colour. The UAE's desert landscape communicates capability, adventure, and exclusivity in a way no other environment can. The Liwa Oasis in Abu Dhabi offers the most dramatic large dunes; the Al Qudra desert near Dubai offers faster logistics for shorter production schedules.</p>
-<p><strong>Urban campaign photography:</strong> Vehicles photographed against Dubai's architectural landmarks — the Burj Khalifa, Museum of the Future, DIFC towers, the marina skyline — for brand campaigns, advertising, and social media. The contrast of precision-engineered vehicles against precision-engineered architecture creates a visual pairing that communicates aspiration effectively to Dubai's market.</p>
-<p><strong>Mountain road and performance photography:</strong> Jebel Jais in Ras Al Khaimah — the UAE's highest point — offers the only mountain road environment in the country, providing dramatic elevation shots, hairpin bends, and valley views unavailable elsewhere in the UAE. Used for performance vehicle and adventure SUV campaigns. The road to Hatta in Dubai also offers dramatic landscape context.</p>
-<p><strong>Studio automotive photography:</strong> White or black infinity cove studio photography for catalogue imagery, colour swatch documentation, advertising template production, and situations where absolute control of light and background is required. Studio automotive photography eliminates weather and permit dependencies at the cost of the location context.</p>
-<p><strong>Aerial drone automotive:</strong> GCAA-licensed drone photography and videography of vehicles — aerial tracking shots, top-down angle statics, and flyover sequences. Particularly effective for off-road capable SUVs in desert environments and for conveying the scale of performance vehicles on mountain roads. Requires specific airspace clearances in some UAE locations.</p>
-
-<h2>Technical Considerations for Automotive Photography in Dubai</h2>
-<p>Great automotive photography is more technically demanding than most brands anticipate. Paint reflections require precise light control — a vehicle photographed in uncontrolled outdoor light typically shows sky reflection, ground reflection, and photographer reflection across the bodywork simultaneously. Professional automotive photographers use polarising filters, custom reflector rigs, and in some cases complete artificial lighting setups even for outdoor shoots to control these reflections.</p>
-<p>Tyre contact patch — the portion of the tyre touching the ground — must be correctly positioned in automotive photography. Incorrectly loaded tyres in a static shot communicate a vehicle sitting passively rather than dynamically. Motion blur, when used for dynamic effect, must be applied consistently across all four wheels at the same degree or the vehicle reads as out-of-balance. These details are invisible to non-specialists and immediately noticeable to the automotive industry and its enthusiast audience.</p>
-<p>In Dubai's climate, summer shooting (May–September) requires specific planning: pre-cooled vehicles to prevent heat haze on dark paint surfaces, early morning starts to avoid the shimmering heat distortion visible in ground-level shots after 8am, and shelter logistics for crew and equipment between setups.</p>
-
-<h2>Automotive Photography Pricing Dubai 2026</h2>
-<p><strong>Dealership inventory (10 vehicles):</strong> AED 4,500. 8–10 images per vehicle, clean background, consistent lighting, 24-hour delivery. Web and print formats.</p>
-<p><strong>Desert automotive shoot (half day):</strong> AED 8,000–AED 14,000. 1–2 vehicles, golden hour timing, 60+ edited statics, drone aerials included.</p>
-<p><strong>Urban campaign shoot (1 day):</strong> AED 15,000–AED 30,000. Downtown or landmark locations, permit handling, full crew, 100+ edited images, drone aerials.</p>
-<p><strong>Full automotive campaign (2–3 days):</strong> AED 40,000–AED 100,000+. Desert plus urban plus studio, photography and video, full crew, motion shots, all platform formats.</p>
-<p><strong>Motion video (car-to-car tracking shots):</strong> AED 12,000–AED 25,000 per day. Specialist tracking vehicle, licensed route, professional driver, 90-second to 3-minute cut included.</p>
-    `,
-  },
 ];
 export function getBlogPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
@@ -8531,6 +7615,9 @@ export function getBlogPost(slug: string): BlogPost | undefined {
 
 export function getRelatedPosts(slugs: string[]): BlogPost[] {
   return slugs
+    // Retired slugs 301 elsewhere; a "related article" link into a redirect wastes
+    // the click and the crawl. Drop them rather than shipping a stale recommendation.
+    .filter((s) => !RETIRED_BLOG_SLUGS.has(s))
     .map((s) => BLOG_POSTS.find((p) => p.slug === s))
     .filter(Boolean) as BlogPost[];
 }

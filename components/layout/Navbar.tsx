@@ -10,6 +10,10 @@ const NAV = [
   { label: "Industries", href: "/industries" },
   { label: "Work",       href: "/portfolio"  },
   { label: "Pricing",    href: "/pricing"    },
+  // Buyer's-guide layer. Sitewide nav placement because these two pages serve the
+  // "how do I choose / how much should this cost" intent that converts best and is
+  // the most likely to be cited by AI search engines.
+  { label: "Guides",     href: "/how-to-choose-a-production-company-in-dubai" },
   { label: "Journal",    href: "/blog"       },
   { label: "Locations",  href: "/locations"  },
   { label: "About",      href: "/about"      },

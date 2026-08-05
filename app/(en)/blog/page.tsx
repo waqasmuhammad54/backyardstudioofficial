@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Clock, ArrowRight } from "lucide-react";
 import { BLOG_POSTS, CATEGORY_SLUGS, CATEGORY_META } from "@/lib/blogPosts";
+import { RETIRED_BLOG_SLUGS } from "@/lib/retiredSlugs";
 import { getDynamicPosts } from "@/lib/dynamicPosts";
 import { breadcrumbSchema } from "@/lib/structuredData";
 
@@ -44,7 +45,11 @@ const HUB_CATEGORIES = CATEGORY_SLUGS.map((slug) => ({
 }));
 
 export default function BlogPage() {
-  const allPosts = [...getDynamicPosts(), ...BLOG_POSTS].sort((a, b) => {
+  // Retired slugs now 301 elsewhere — linking to them from the index would send both
+  // users and crawlers through a redirect and dilute the consolidation.
+  const allPosts = [...getDynamicPosts(), ...BLOG_POSTS]
+    .filter((p) => !RETIRED_BLOG_SLUGS.has(p.slug))
+    .sort((a, b) => {
     const aTime = Date.parse(a.dateISO || a.date);
     const bTime = Date.parse(b.dateISO || b.date);
     return (Number.isNaN(bTime) ? 0 : bTime) - (Number.isNaN(aTime) ? 0 : aTime);
