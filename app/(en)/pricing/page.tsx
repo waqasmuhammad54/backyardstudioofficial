@@ -4,9 +4,14 @@ import { Check, ArrowRight, Phone } from "lucide-react";
 import { faqSchema, breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: { absolute: "Video Production Pricing Dubai 2026 | Packages From AED 2,500" },
+  // CTR rebuild (Aug 2026). GSC: this page held position 10.9 on 1,435
+  // impressions but converted only 0.6% — roughly 4x below expected for that
+  // position. Price-intent searchers scan for numbers, so the range now leads
+  // the title, and the description is trimmed under 155 chars so it stops
+  // truncating mid-sentence in the SERP.
+  title: { absolute: "Video Production Pricing Dubai 2026 — AED 2,500–150,000" },
   description:
-    "Transparent 2026 pricing in Dubai — social content from AED 2,500, weddings from AED 7,500, DVCs from AED 15,000. Compare packages and get an itemised quote in 2 hours.",
+    "Every package priced in public. Social from AED 2,500, events AED 3,000, weddings AED 7,500, DVCs AED 15,000. Same price in all 7 emirates.",
   keywords: [
     "video production cost Dubai",
     "photography pricing Dubai UAE",
