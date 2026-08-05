@@ -104,6 +104,7 @@ const ORGANIZATION_RU = {
     "https://www.tiktok.com/@backyardstudio_official5",
     "https://www.linkedin.com/in/backyard-studio-508532417/",
     "https://youtube.com/@BackyardStudioofficialuae",
+    "https://www.trustpilot.com/review/backyardstudioofficial.com",
   ],
   "founder": [
     { "@type": "Person", "name": "Фахад Икбал Батт",  "jobTitle": "Директор и главный фотограф" },

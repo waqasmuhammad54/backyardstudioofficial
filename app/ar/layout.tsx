@@ -102,6 +102,7 @@ const ORGANIZATION_AR = {
     "https://www.tiktok.com/@backyardstudio_official5",
     "https://www.linkedin.com/in/backyard-studio-508532417/",
     "https://youtube.com/@BackyardStudioofficialuae",
+    "https://www.trustpilot.com/review/backyardstudioofficial.com",
   ],
   "founder": [
     { "@type": "Person", "name": "فهد إقبال بط",  "jobTitle": "المدير الإبداعي" },
