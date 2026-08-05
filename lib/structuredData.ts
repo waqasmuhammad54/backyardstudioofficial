@@ -74,6 +74,11 @@ export function organizationSchema() {
     image: BRAND.og,
     description:
       "Backyard Studio Official is a UAE creative production studio specialising in commercial video, corporate films, events, weddings, social media content, and commercial photography across all seven UAE emirates.",
+    // Entity fact — founded 2019 (Lahore), UAE operations since 2023.
+    // Must stay identical across EN/AR/RU/ZH schema, llms.txt, GBP, LinkedIn and
+    // every directory listing. LLMs cross-reference these; contradictions
+    // (this appeared as 2016/2017/2019/2023 in different places) destroy
+    // citation confidence.
     foundingDate: "2019",
     numberOfEmployees: { "@type": "QuantitativeValue", minValue: 10, maxValue: 50 },
     knowsAbout: [

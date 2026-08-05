@@ -41,7 +41,12 @@ const nextConfig = {
         destination: "https://www.backyardstudioofficial.com/:path*",
         permanent: true,
       },
-      // Dead service pages — 301 to nearest live equivalent
+      // Dead service pages — 301 to nearest live equivalent.
+      // NOTE: /services/wedding-photography, /wedding-videography, /pre-wedding-shoot,
+      // /flying-dress-photoshoot, /affordable-wedding-photography and the six
+      // /wedding-photography-<emirate> pages are REAL static route folders under
+      // app/(en)/services/ — they do NOT come from [slug]/generateStaticParams.
+      // Never add a redirect whose `source` is one of those, it would kill a live page.
       { source: "/services/luxury-lifestyle-photography",   destination: "/services/wedding-photography", permanent: true },
       { source: "/services/documentary-production",         destination: "/services/corporate-films",     permanent: true },
       // Drone no longer offered as a service — 301 to related services (preserve link equity)

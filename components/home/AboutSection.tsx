@@ -8,7 +8,7 @@ import { ArrowUpRight } from "lucide-react";
 const STATS = [
   { value: 500,  suffix: "+", label: "Projects Delivered", detail: "Across all UAE emirates" },
   { value: 7,    suffix: "",  label: "Emirates Covered",   detail: "Every city, every community" },
-  { value: 8,    suffix: "+", label: "Years in UAE",       detail: "Since 2017" },
+  { value: 7,    suffix: "+", label: "Years in Business",  detail: "Since 2019" },
   { value: 100,  suffix: "%", label: "Satisfaction",       detail: "100+ five-star reviews" },
 ];
 

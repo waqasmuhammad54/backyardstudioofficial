@@ -63,7 +63,7 @@ const FAQS = [
   },
   {
     q: "Is a pre-wedding shoot included in your wedding packages?",
-    a: "A pre-wedding photoshoot is included free in our Platinum wedding package (AED 18,000+) and can be added to Silver or Gold wedding packages from AED 1,500 — lower than booking it standalone.",
+    a: "A pre-wedding photoshoot is included free in our top-tier wedding package and can be added to any other wedding package from AED 1,500 — lower than booking it standalone. Current wedding package rates are published on our pricing page.",
   },
 ];
 

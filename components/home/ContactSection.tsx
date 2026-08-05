@@ -2,6 +2,7 @@
 import { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { Phone, Mail, MapPin, Send, CheckCircle, ArrowUpRight } from "lucide-react";
+import { trackWhatsAppLead, trackPhoneLead, trackEmailLead } from "@/lib/trackLead";
 
 const SERVICES_LIST = [
   "Event Shoots", "Event Video Editing", "DVCs", "Reels & Short Films",
@@ -165,6 +166,13 @@ export default function ContactSection() {
                     {href ? (
                       <a
                         href={href}
+                        onClick={
+                          href.startsWith("tel:")
+                            ? trackPhoneLead
+                            : href.startsWith("mailto:")
+                            ? trackEmailLead
+                            : undefined
+                        }
                         className="font-semibold text-base transition-colors duration-300 hover:text-current"
                         style={{ color: "var(--cream)" }}
                       >
@@ -200,6 +208,7 @@ export default function ContactSection() {
             <a
               href="https://wa.me/971585882685?text=Hi%20Backyard%20Studio%2C%20I%27m%20interested%20in%20your%20services"
               target="_blank" rel="noreferrer"
+              onClick={trackWhatsAppLead}
               className="group mt-12 inline-flex items-center gap-3 btn-gold px-8 py-4 font-display tracking-[0.15em] text-sm"
               style={{ background: "var(--gold)", color: "var(--black)" }}
             >

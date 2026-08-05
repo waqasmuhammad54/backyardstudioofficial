@@ -227,9 +227,36 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                 <p className="text-[#e8c547] text-xs tracking-[0.3em] uppercase font-semibold mb-4">ABOUT THE STUDIO</p>
                 <p className="text-[#a0a0a0] text-xs leading-relaxed mb-4">
                   Backyard Studio Official is Dubai&apos;s leading full-service production studio.
-                  2,400+ projects delivered across all 7 UAE emirates since 2016.
+                  2,400+ projects delivered across all 7 UAE emirates since 2019.
                 </p>
                 <Link href="/about" className="text-[#e8c547] text-xs font-semibold hover:underline">Learn more</Link>
+              </div>
+
+              {/* Reverse siloing: informational blog traffic is pushed into the
+                  two commercial-investigation guides, which in turn link into
+                  /pricing and the service pages. */}
+              <div className="p-6 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm">
+                <p className="text-[#e8c547] text-xs tracking-[0.3em] uppercase font-semibold mb-4">BUYER&apos;S GUIDES</p>
+                <div className="space-y-3">
+                  <Link href="/how-to-choose-a-production-company-in-dubai" className="block group">
+                    <p className="text-white text-xs font-semibold leading-snug group-hover:text-[#e8c547] transition-colors">
+                      How to Choose a Production Company in Dubai
+                    </p>
+                    <p className="text-[#666] text-[10px] mt-1">10-point checklist &amp; red flags</p>
+                  </Link>
+                  <Link href="/uae-video-production-cost-report-2026" className="block group">
+                    <p className="text-white text-xs font-semibold leading-snug group-hover:text-[#e8c547] transition-colors">
+                      UAE Video Production Cost Report 2026
+                    </p>
+                    <p className="text-[#666] text-[10px] mt-1">Rate bands &amp; budget breakdown</p>
+                  </Link>
+                  <Link href="/pricing" className="block group">
+                    <p className="text-white text-xs font-semibold leading-snug group-hover:text-[#e8c547] transition-colors">
+                      Our Published Pricing
+                    </p>
+                    <p className="text-[#666] text-[10px] mt-1">Every tier, what&apos;s included</p>
+                  </Link>
+                </div>
               </div>
 
               <div className="p-6 bg-[#111111] rounded-sm" style={{ border: "1px solid rgba(232,197,71,0.3)" }}>

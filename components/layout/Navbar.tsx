@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Menu, X, ArrowUpRight } from "lucide-react";
+import { trackWhatsAppLead } from "@/lib/trackLead";
 
 const NAV = [
   { label: "Services",   href: "/services"   },
@@ -67,6 +68,7 @@ export default function Navbar() {
           {/* CTA */}
           <div className="hidden lg:flex items-center gap-6">
             <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer"
+               onClick={trackWhatsAppLead}
                className="text-[0.6rem] tracking-[0.2em] text-silver hover:text-gold-light transition-colors duration-300 uppercase font-medium">
               WhatsApp
             </a>

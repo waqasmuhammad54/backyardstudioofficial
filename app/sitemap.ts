@@ -51,6 +51,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/wedding-packages", lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: BASE + "/weddings",         lastModified: now, changeFrequency: "weekly",  priority: 0.9 },
     { url: BASE + "/case-studies",     lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    // Commercial-investigation intent — the buyer's-guide layer between
+    // informational blog content and the transactional service/pricing pages.
+    { url: BASE + "/how-to-choose-a-production-company-in-dubai", lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: BASE + "/uae-video-production-cost-report-2026",       lastModified: now, changeFrequency: "monthly", priority: 0.9 },
   ];
 
   // Sprint 12: Dubai location sub-pages (2026-06-22)

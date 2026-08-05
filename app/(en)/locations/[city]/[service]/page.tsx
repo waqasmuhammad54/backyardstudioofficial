@@ -28,7 +28,7 @@ const PAGES: Record<string, ServicePage> = {
     subtitle: "Atlantis. Burj Al Arab. Palace Downtown. Dubai's most cinematic weddings, documented.",
     category: "WEDDING PHOTOGRAPHY",
     intro: [
-      "Dubai is the UAE's wedding capital — and Backyard Studio Official has been one of its leading wedding photography teams since 2016. Atlantis The Palm, Burj Al Arab, Armani Hotel Downtown, Palace Downtown, One&Only The Palm, W Dubai, Address Sky View, The Ritz-Carlton DIFC — we have produced weddings at every major venue in the city, and we know each one's permit requirements, best camera positions, and lighting conditions at every time of day.",
+      "Dubai is the UAE's wedding capital — and Backyard Studio Official has been one of its leading wedding photography teams since 2019. Atlantis The Palm, Burj Al Arab, Armani Hotel Downtown, Palace Downtown, One&Only The Palm, W Dubai, Address Sky View, The Ritz-Carlton DIFC — we have produced weddings at every major venue in the city, and we know each one's permit requirements, best camera positions, and lighting conditions at every time of day.",
       "We cover every wedding format in Dubai: Arabic weddings with gender-separated coverage and all-female crews for ladies-only ceremonies, Indian multi-day events spanning Mehendi through Reception, Western destination weddings with international guest lists, and intimate nikah ceremonies at mosques or private residences. Our Dubai wedding teams shoot on cinema-grade camera systems and deliver same-day Teaser reels that guests expect before the event ends.",
     ],
     highlights: [
@@ -89,7 +89,7 @@ const PAGES: Record<string, ServicePage> = {
     category: "EVENT PHOTOGRAPHY",
     intro: [
       "Dubai hosts more major events per square kilometre than almost any other city in the world. GITEX, Cityscape, Arabian Travel Market, Dubai Airshow, Art Dubai, Fashion Forward — the trade show and conference calendar alone generates thousands of photography requirements every year. Add corporate galas at Madinat Jumeirah, product launches at Coca-Cola Arena, brand activations at City Walk, and government ceremonies at Dubai World Trade Centre, and you have one of the world's most demanding event photography markets.",
-      "Backyard Studio Official has been covering Dubai events since 2016, with teams that scale from a single photographer at an intimate DIFC networking evening to a 6-person crew at a multi-day conference. We deliver same-day social media content for time-sensitive events and full image galleries within 24–48 hours.",
+      "Backyard Studio Official has been covering Dubai events since 2019, with teams that scale from a single photographer at an intimate DIFC networking evening to a 6-person crew at a multi-day conference. We deliver same-day social media content for time-sensitive events and full image galleries within 24–48 hours.",
     ],
     highlights: [
       { heading: "DWTC & Trade Shows", body: "Dubai World Trade Centre events require teams experienced in multi-hall navigation, VIP arrival protocol, and the specific logistics of covering conferences with hundreds of simultaneous sessions. We've covered GITEX, Arabian Travel Market, and dozens of DWTC events." },

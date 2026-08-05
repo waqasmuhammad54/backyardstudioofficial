@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Instagram, Youtube, ArrowUpRight } from "lucide-react";
 
+// Sitewide footer links = the strongest internal-link signal on the site.
+// Every href here must resolve 200 (no 404s, no redirect chains) and should point
+// at a commercial/money page. Verified against services generateStaticParams().
 const SERVICES = [
   { label: "Weddings",             href: "/weddings" },
   { label: "Wedding Photography",  href: "/services/wedding-photography" },
@@ -13,18 +16,27 @@ const SERVICES = [
   { label: "Social Media Content", href: "/services/social-media-content" },
   { label: "Testimonial Videos",   href: "/services/testimonial-videos" },
   { label: "Ads Shooting",         href: "/services/ads-shooting" },
-  { label: "Aerial / Drone",       href: "/services/aerial-drone" },
   { label: "Corporate Films",      href: "/services/corporate-films" },
+  { label: "Pricing",              href: "/pricing" },
 ];
 
 const COMPANY = [
   { label: "About Us",     href: "/about" },
   { label: "Portfolio",    href: "/portfolio" },
   { label: "Pricing",      href: "/pricing" },
+  { label: "Case Studies", href: "/case-studies" },
   { label: "Blog",         href: "/blog" },
   { label: "Testimonials", href: "/testimonials" },
   { label: "Locations",    href: "/locations" },
   { label: "Contact",      href: "/contact" },
+];
+
+// Buyer-intent guides. Sitewide links so these two pages accumulate internal
+// authority fast — they are the entry point for "how to choose" / "how much"
+// queries and the assets most likely to be cited by AI search engines.
+const GUIDES = [
+  { label: "How to Choose a Production Company", href: "/how-to-choose-a-production-company-in-dubai" },
+  { label: "UAE Production Cost Report 2026",     href: "/uae-video-production-cost-report-2026" },
 ];
 
 const INDUSTRIES = [
@@ -184,11 +196,22 @@ export default function Footer() {
             </ul>
 
             <h3 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>COMPANY</h3>
-            <ul className="space-y-2.5">
+            <ul className="space-y-2.5 mb-8">
               {COMPANY.map((c) => (
                 <li key={c.href}>
                   <Link href={c.href} className="text-xs transition-colors duration-200 hover:text-[var(--gold)]" style={{ color: "var(--muted)" }}>
                     {c.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
+            <h3 className="font-display text-sm tracking-[0.25em] mb-5" style={{ color: "var(--cream)" }}>GUIDES</h3>
+            <ul className="space-y-2.5">
+              {GUIDES.map((g) => (
+                <li key={g.href}>
+                  <Link href={g.href} className="text-xs transition-colors duration-200 hover:text-[var(--gold)]" style={{ color: "var(--muted)" }}>
+                    {g.label}
                   </Link>
                 </li>
               ))}
@@ -237,12 +260,14 @@ export default function Footer() {
             © {new Date().getFullYear()} Backyard Studio Official. All Rights Reserved. Dubai, UAE.
           </p>
           <div className="flex items-center gap-6">
+            {/* Link sculpting: utility/legal pages are nofollow so sitewide crawl
+                equity and crawl budget concentrate on commercial + content pages. */}
             {[
               { label: "Privacy Policy", href: "/privacy-policy" },
               { label: "Terms", href: "/terms" },
               { label: "Sitemap", href: "/sitemap.xml" },
             ].map((l) => (
-              <Link key={l.href} href={l.href} className="text-xs transition-colors hover:text-[var(--gold)]" style={{ color: "var(--muted)" }}>
+              <Link key={l.href} href={l.href} rel="nofollow" className="text-xs transition-colors hover:text-[var(--gold)]" style={{ color: "var(--muted)" }}>
                 {l.label}
               </Link>
             ))}

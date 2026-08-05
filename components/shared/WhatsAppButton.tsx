@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { trackWhatsAppLead } from "@/lib/trackLead";
 
 export default function WhatsAppButton() {
   const [visible, setVisible] = useState(false);
@@ -42,6 +43,7 @@ export default function WhatsAppButton() {
             target="_blank"
             rel="noreferrer"
             aria-label="WhatsApp Backyard Studio Official"
+            onClick={trackWhatsAppLead}
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
             className="relative w-14 h-14 flex items-center justify-center"
