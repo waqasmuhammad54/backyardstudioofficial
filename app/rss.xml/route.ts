@@ -1,4 +1,6 @@
 import { BLOG_POSTS } from "@/lib/blogPosts";
+import { getDynamicPosts } from "@/lib/dynamicPosts";
+import { RETIRED_BLOG_SLUGS } from "@/lib/retiredSlugs";
 
 const BASE = "https://www.backyardstudioofficial.com";
 
@@ -41,7 +43,18 @@ function esc(s: string) {
 }
 
 export async function GET() {
-  const en = BLOG_POSTS.map((p: { slug: string; title: string; excerpt?: string; date?: string }) => {
+  // Google reads this feed as a sitemap (467 URLs via sitemap.xml, 195 via this file),
+  // so it has to obey the same rules:
+  //   - admin-published posts (content/posts.json) belong here, they were missing entirely
+  //   - retired slugs must NOT be listed, they 301 elsewhere and advertising a redirect
+  //     wastes crawl budget and makes the feed look stale
+  const staticSlugs = new Set(BLOG_POSTS.map((p) => p.slug));
+  const feedPosts = [
+    ...BLOG_POSTS,
+    ...getDynamicPosts().filter((p) => !staticSlugs.has(p.slug)),
+  ].filter((p) => !RETIRED_BLOG_SLUGS.has(p.slug));
+
+  const en = feedPosts.map((p: { slug: string; title: string; excerpt?: string; date?: string }) => {
     const pub = p.date ? new Date(p.date) : new Date("2026-06-01");
     return `    <item>
       <title>${esc(p.title)}</title>
