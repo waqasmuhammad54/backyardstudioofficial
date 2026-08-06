@@ -9,7 +9,7 @@ const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photog
 export const metadata: Metadata = {
   title: "Wedding Photographer Abu Dhabi | Photo + Video from AED 7,500 — Backyard Studio Official",
   description:
-    "Wedding photographer in Abu Dhabi — photography & videography packages from AED 7,500 with no travel fees. Emirates Palace, Saadiyat, Yas Island & bridal hall coverage. GCAA drone, same-day teaser, 48-hour delivery. Emirati, Arabic, Indian & Western weddings.",
+    "Wedding photographer in Abu Dhabi — photography & videography packages from AED 7,500 with no travel fees. Emirates Palace, Saadiyat, Yas Island & bridal hall coverage. licensed aerial partners, same-day teaser, 48-hour delivery. Emirati, Arabic, Indian & Western weddings.",
   keywords: [
     "wedding photographer Abu Dhabi",
     "wedding photography Abu Dhabi",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Wedding Photographer Abu Dhabi | From AED 7,500 — Backyard Studio Official",
     description:
-      "Photo + video wedding packages in Abu Dhabi with no travel fees — Emirates Palace, Saadiyat, Yas Island. GCAA drone, 48-hour delivery.",
+      "Photo + video wedding packages in Abu Dhabi with no travel fees — Emirates Palace, Saadiyat, Yas Island. licensed aerial partners, 48-hour delivery.",
     url: PAGE_URL,
     siteName: "Backyard Studio Official",
     locale: "en_AE",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Wedding Photographer Abu Dhabi | From AED 7,500",
-    description: "Photo + video packages, no travel fees, GCAA drone, 48-hour delivery.",
+    description: "Photo + video packages, no travel fees, licensed aerial partners, 48-hour delivery.",
     images: ["/images/wedding/wedding-09.webp"],
   },
 };
@@ -58,7 +58,7 @@ const FAQS = [
   },
   {
     q: "Do your Abu Dhabi packages include drone footage?",
-    a: "Yes — Gold and Platinum packages include aerial drone cinematography, and our pilots are GCAA licensed. Note that some Abu Dhabi locations (Corniche, certain island venues) require additional permissions, which we arrange in advance as part of the package.",
+    a: "Yes — Gold and Platinum packages include aerial drone cinematography, and aerial work is flown by GCAA-licensed partner operators. Note that some Abu Dhabi locations (Corniche, certain island venues) require additional permissions, which we arrange in advance as part of the package.",
   },
   {
     q: "How fast is delivery for Abu Dhabi weddings?",
@@ -138,7 +138,7 @@ export default function WeddingPhotographyAbuDhabiPage() {
         <div className="container-xl grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-2 space-y-6">
             <p className="text-silver/70 leading-relaxed text-base speakable">
-              Backyard Studio Official is a wedding photographer Abu Dhabi couples book at Dubai prices — packages from AED 7,500 for professional photography and AED 22,500 for a full wedding day with two photographers, two videographers, GCAA-licensed drone aerials, and a same-day teaser, with zero travel fees anywhere in the UAE. We shoot in Abu Dhabi multiple times a week: Emirates Palace ballrooms, Saadiyat beach ceremonies, Yas Island receptions, and private bridal halls across the capital.
+              Backyard Studio Official is a wedding photographer Abu Dhabi couples book at Dubai prices — packages from AED 7,500 for professional photography and AED 22,500 for a full wedding day with two photographers, two videographers, drone aerials flown by GCAA-licensed partners, and a same-day teaser, with zero travel fees anywhere in the UAE. We shoot in Abu Dhabi multiple times a week: Emirates Palace ballrooms, Saadiyat beach ceremonies, Yas Island receptions, and private bridal halls across the capital.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
               Every Abu Dhabi wedding gets the same production standards founders Fahad Iqbal Butt and Syed Mazhar Zaidi set for our 2,400+ UAE productions — paired shooters with backup cinema gear, venue scouting before the day, drone permissions arranged in advance, and your complete gallery delivered within 48 hours. For Emirati weddings, all-female crews with privacy-first workflows are available for bridal halls and ladies&apos; receptions.

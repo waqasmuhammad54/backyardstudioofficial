@@ -131,7 +131,12 @@ export default function Footer() {
 
             {/* Credentials */}
             <div className="flex flex-col gap-2 mb-6">
-              {["GCAA Licensed Drone Operator", "UAE Operations Since 2023", "2,400+ Projects Delivered", "All 7 Emirates Covered"].map((badge) => (
+              {/* The old badge read "GCAA Licensed Drone Operator", which asserted that
+                  Backyard holds the licence. It does not — aerial is flown by GCAA-licensed
+                  partner operators. "GCAA-Approved Drone Service Available" keeps the
+                  commercial signal (the service exists and is properly licensed) without
+                  claiming the credential. Do not revert to the ownership wording. */}
+              {["GCAA-Approved Drone Service Available", "Pricing Published Openly", "UAE Operations Since 2023", "2,400+ Projects Delivered", "All 7 Emirates Covered"].map((badge) => (
                 <div key={badge} className="flex items-center gap-2">
                   <div className="w-1 h-1 rounded-full shrink-0" style={{ background: "var(--gold)" }} />
                   <span className="text-xs" style={{ color: "var(--silver)" }}>{badge}</span>

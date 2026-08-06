@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: "%s | Backyard Studio",
   },
   description:
-    "Dubai production studio for commercial video, events, weddings, photography and social content across all seven UAE emirates. 2,400+ projects; GCAA licensed.",
+    "Dubai production studio for commercial video, events, weddings, photography and social content across all seven UAE emirates. 2,400+ projects across all seven emirates.",
   keywords: [
     "best production company in Dubai",
     "top production companies in Dubai",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     "corporate video production Dubai",
     "event videographer Dubai",
     "aerial drone videography Dubai",
-    "GCAA licensed drone operator UAE",
+    "aerial via GCAA-licensed partners UAE",
     "backyard studio official",
     "best production company UAE",
   ],
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     url:         "https://www.backyardstudioofficial.com",
     siteName:    "Backyard Studio Official",
     // Kept in sync with the homepage metadata. The OG description used to lead with
-    // "GCAA-licensed aerial production", which read as the headline service and buried
+    // "aerial production via GCAA-licensed partners", which read as the headline service and buried
     // the actual differentiator. Aerial is a capability within productions, not the pitch.
     title:       "Video Production Company Dubai | Prices Published Upfront",
     description: "Dubai production studio with prices published, not quoted privately. Commercial video, events, weddings, social content and photography across all seven UAE emirates.",

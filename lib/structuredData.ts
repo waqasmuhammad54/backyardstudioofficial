@@ -140,15 +140,12 @@ export function organizationSchema() {
       "@type": "Organization",
       name: c.name,
     })),
-    hasCredential: {
-      "@type": "EducationalOccupationalCredential",
-      name: "GCAA Drone Operator License",
-      credentialCategory: "license",
-      recognizedBy: {
-        "@type": "Organization",
-        name: "General Civil Aviation Authority UAE",
-      },
-    },
+    // NOTE: hasCredential for a GCAA Drone Operator License was removed deliberately
+    // (6 Aug 2026, owner instruction). Aerial work is delivered through GCAA-licensed
+    // partner operators — Backyard does not hold the licence itself, and asserting an
+    // aviation credential in schema that the entity does not hold is both inaccurate
+    // and a regulatory risk. Do not re-add it without written confirmation that
+    // Backyard Studio Official is the named licence holder.
   };
 }
 

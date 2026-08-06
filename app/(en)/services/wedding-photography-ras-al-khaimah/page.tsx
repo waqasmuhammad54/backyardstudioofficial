@@ -9,7 +9,7 @@ const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photog
 export const metadata: Metadata = {
   title: "Wedding Photographer Ras Al Khaimah | Beach & Desert Weddings from AED 7,500 — Backyard Studio Official",
   description:
-    "Wedding photographer in Ras Al Khaimah — Waldorf Astoria, Ritz-Carlton Al Wadi desert weddings, Rixos Bab Al Bahr & Jebel Jais backdrops. Photo + video from AED 7,500, GCAA drone, no travel fees, 48-hour delivery.",
+    "Wedding photographer in Ras Al Khaimah — Waldorf Astoria, Ritz-Carlton Al Wadi desert weddings, Rixos Bab Al Bahr & Jebel Jais backdrops. Photo + video from AED 7,500, licensed aerial partners, no travel fees, 48-hour delivery.",
   keywords: [
     "wedding photographer Ras Al Khaimah",
     "wedding photography RAK",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   alternates: { canonical: PAGE_URL },
   openGraph: {
     title: "Wedding Photographer Ras Al Khaimah | From AED 7,500 — Backyard Studio Official",
-    description: "Beach & desert resort weddings — Waldorf, Ritz-Carlton Al Wadi, Rixos. GCAA drone, no travel fees, 48-hour delivery.",
+    description: "Beach & desert resort weddings — Waldorf, Ritz-Carlton Al Wadi, Rixos. licensed aerial partners, no travel fees, 48-hour delivery.",
     url: PAGE_URL,
     siteName: "Backyard Studio Official",
     locale: "en_AE",
@@ -42,7 +42,7 @@ const FAQS = [
   },
   {
     q: "Can you shoot drone footage at RAK beach and desert weddings?",
-    a: "Yes — our pilots are GCAA licensed and we arrange permissions in advance. RAK is one of the best emirates for aerials: Al Marjan Island coastline, Al Wadi desert dunes at sunset, and Jebel Jais mountain backdrops all photograph spectacularly from the air.",
+    a: "Yes — aerial work is flown by GCAA-licensed partner operators and we arrange permissions in advance. RAK is one of the best emirates for aerials: Al Marjan Island coastline, Al Wadi desert dunes at sunset, and Jebel Jais mountain backdrops all photograph spectacularly from the air.",
   },
   {
     q: "Do you cover destination weddings for couples flying into RAK?",
@@ -71,7 +71,7 @@ export default function WeddingPhotographyRAKPage() {
   ]);
   const service = servicePageSchema({
     name: "Wedding Photography Ras Al Khaimah",
-    description: "Beach and desert resort wedding photography in Ras Al Khaimah — from AED 7,500, GCAA drone, no travel fees.",
+    description: "Beach and desert resort wedding photography in Ras Al Khaimah — from AED 7,500, licensed aerial partners, no travel fees.",
     url: PAGE_URL,
     price: "1799",
   });
@@ -101,7 +101,7 @@ export default function WeddingPhotographyRAKPage() {
         <div className="container-xl grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-2 space-y-6">
             <p className="text-silver/70 leading-relaxed text-base speakable">
-              Ras Al Khaimah is the UAE&apos;s destination-wedding emirate, and Backyard Studio Official photographs it at Dubai prices — from AED 7,500 with zero travel fees. We shoot beach ceremonies at Waldorf Astoria and Rixos Bab Al Bahr, tented desert weddings at The Ritz-Carlton Al Wadi, and sunset couple sessions on Jebel Jais above the clouds — with GCAA-licensed drone aerials over the Al Marjan coastline. 2,400+ UAE productions; founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
+              Ras Al Khaimah is the UAE&apos;s destination-wedding emirate, and Backyard Studio Official photographs it at Dubai prices — from AED 7,500 with zero travel fees. We shoot beach ceremonies at Waldorf Astoria and Rixos Bab Al Bahr, tented desert weddings at The Ritz-Carlton Al Wadi, and sunset couple sessions on Jebel Jais above the clouds — with drone aerials flown by GCAA-licensed partners over the Al Marjan coastline. 2,400+ UAE productions; founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
               Half the couples we photograph in RAK fly in from abroad. We coordinate with your resort&apos;s events team, plan the timeline around golden hour, and deliver the complete gallery and highlight film within 48 hours — before most couples have left the resort. Compare every tier on the <Link href="/wedding-packages" className="underline hover:text-gold">wedding packages page</Link>.

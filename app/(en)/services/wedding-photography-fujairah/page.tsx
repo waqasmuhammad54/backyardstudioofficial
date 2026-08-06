@@ -9,7 +9,7 @@ const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photog
 export const metadata: Metadata = {
   title: "Wedding Photographer Fujairah | East Coast Beach Weddings from AED 7,500 — Backyard Studio Official",
   description:
-    "Wedding photographer in Fujairah — Le Méridien Al Aqah, Address Beach Resort, Snoopy Island & Hajar mountain backdrops. East coast beach weddings, photo + video from AED 7,500, GCAA drone, no travel fees, 48-hour delivery.",
+    "Wedding photographer in Fujairah — Le Méridien Al Aqah, Address Beach Resort, Snoopy Island & Hajar mountain backdrops. East coast beach weddings, photo + video from AED 7,500, licensed aerial partners, no travel fees, 48-hour delivery.",
   keywords: [
     "wedding photographer Fujairah",
     "wedding photography Fujairah",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   alternates: { canonical: PAGE_URL },
   openGraph: {
     title: "Wedding Photographer Fujairah | From AED 7,500 — Backyard Studio Official",
-    description: "East coast beach weddings — Al Aqah resorts, Snoopy Island, Hajar mountains. GCAA drone, no travel fees.",
+    description: "East coast beach weddings — Al Aqah resorts, Snoopy Island, Hajar mountains. licensed aerial partners, no travel fees.",
     url: PAGE_URL,
     siteName: "Backyard Studio Official",
     locale: "en_AE",
@@ -101,7 +101,7 @@ export default function WeddingPhotographyFujairahPage() {
         <div className="container-xl grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-2 space-y-6">
             <p className="text-silver/70 leading-relaxed text-base speakable">
-              Fujairah gives you what no other emirate can — a beach ceremony on the Gulf of Oman with the Hajar mountains rising behind your vows — and Backyard Studio Official photographs it at Dubai prices, from AED 7,500 with zero travel fees. We shoot at Le Méridien Al Aqah, Address Beach Resort, and the Sandy Beach stretch facing Snoopy Island, with GCAA-licensed drone aerials of the coastline. 2,400+ UAE productions; founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
+              Fujairah gives you what no other emirate can — a beach ceremony on the Gulf of Oman with the Hajar mountains rising behind your vows — and Backyard Studio Official photographs it at Dubai prices, from AED 7,500 with zero travel fees. We shoot at Le Méridien Al Aqah, Address Beach Resort, and the Sandy Beach stretch facing Snoopy Island, with drone aerials flown by GCAA-licensed partners of the coastline. 2,400+ UAE productions; founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
               East-coast light works differently: the sun rises over the sea here, so we build your timeline around sunrise couple portraits and late-afternoon mountain-shadow light. Every package includes 48-hour delivery; Gold adds the drone, a second crew pair, and a same-day teaser. Compare every tier on the <Link href="/wedding-packages" className="underline hover:text-gold">wedding packages page</Link>.

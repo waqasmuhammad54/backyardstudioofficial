@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 const INDUSTRIES_FAQS = [
   {
     question: "Which industries does Backyard Studio serve in Dubai and UAE?",
-    answer: "Backyard Studio Official produces content for 13 industries across the UAE: hospitality, real estate, fashion, food & beverage, corporate, sports, automotive, healthcare, technology, music & entertainment, fitness & wellness, e-commerce & retail, and education. We cover all 7 UAE emirates with a dedicated team and GCAA-licensed drone operators.",
+    answer: "Backyard Studio Official produces content for 13 industries across the UAE: hospitality, real estate, fashion, food & beverage, corporate, sports, automotive, healthcare, technology, music & entertainment, fitness & wellness, e-commerce & retail, and education. We cover all 7 UAE emirates with a dedicated team and GCAA-licensed partner drone operators.",
   },
   {
     question: "Does Backyard Studio do video production for hospitality brands in Dubai?",
@@ -137,7 +137,7 @@ const INDUSTRIES = [
         "Athlete Profile & Branding Shoots",
         "Sponsor Activation Content",
         "Multi-Camera Live Event Coverage",
-        "Drone Aerials (GCAA Licensed) — Stadium & Outdoor Events",
+        "Drone Aerials (GCAA-Licensed Partners) — Stadium & Outdoor Events",
         "Social Media Reels & TikTok Cuts",
         "Press Conference & Interview Coverage",
         "Sports Brand Campaign Production",
@@ -476,7 +476,7 @@ export default function IndustriesPage() {
               <p className="mb-6" style={{ color: "var(--silver)" }}>
                 From Formula 1 at Yas Marina to the Dubai Rugby Sevens, the Dubai Duty Free Tennis Championships
                 to UAE Pro League football — we cover every major sport in the Emirates with broadcast-quality
-                multi-camera rigs, GCAA-licensed drone aerials, and same-day social delivery.
+                multi-camera rigs, drone aerials flown by GCAA-licensed partners, and same-day social delivery.
               </p>
               <div className="flex flex-wrap gap-2 mb-8">
                 {["Formula 1", "Tennis", "Football", "Cricket", "Horse Racing", "Golf", "Rugby Sevens", "MMA & Boxing", "Padel", "Jiu-Jitsu"].map((s) => (

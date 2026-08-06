@@ -10,7 +10,7 @@ const PAGE_URL = "https://www.backyardstudioofficial.com/services/pre-wedding-sh
 export const metadata: Metadata = {
   title: "Pre-Wedding Photoshoot Dubai | Packages from AED 1,500 — Backyard Studio Official",
   description:
-    "Pre-wedding photoshoot in Dubai from AED 1,500 — desert sunset, Burj Khalifa, Madinat Jumeirah & beach locations. Couple shoots with cinematic photo + video, GCAA drone, 48-hour delivery. Top pre-wedding photographers in Dubai.",
+    "Pre-wedding photoshoot in Dubai from AED 1,500 — desert sunset, Burj Khalifa, Madinat Jumeirah & beach locations. Couple shoots with cinematic photo + video, licensed aerial partners, 48-hour delivery. Top pre-wedding photographers in Dubai.",
   keywords: [
     "pre wedding photoshoot Dubai",
     "pre wedding photoshoot Dubai price",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Pre-Wedding Photoshoot Dubai | From AED 1,500 — Backyard Studio Official",
     description:
-      "Desert, Burj Khalifa, Madinat Jumeirah & beach pre-wedding shoots. Photo + video, GCAA drone, 48-hour delivery.",
+      "Desert, Burj Khalifa, Madinat Jumeirah & beach pre-wedding shoots. Photo + video, licensed aerial partners, 48-hour delivery.",
     url: PAGE_URL,
     siteName: "Backyard Studio Official",
     locale: "en_AE",
@@ -51,7 +51,7 @@ const FAQS = [
   },
   {
     q: "Do we need a permit for a pre-wedding photoshoot in Dubai?",
-    a: "Public-space personal shoots are generally permitted, but some locations — hotel grounds, Madinat Jumeirah, certain Downtown spots, and any drone footage — require permissions or permits. Backyard Studio handles location permissions and our drone pilots are GCAA licensed, so your aerials are always legal.",
+    a: "Public-space personal shoots are generally permitted, but some locations — hotel grounds, Madinat Jumeirah, certain Downtown spots, and any drone footage — require permissions or permits. Backyard Studio handles location permissions and aerial work is flown by GCAA-licensed partner operators, so your aerials are always legal.",
   },
   {
     q: "What should we wear for a pre-wedding shoot in Dubai?",
@@ -108,7 +108,7 @@ export default function PreWeddingShootPage() {
   ]);
   const service = servicePageSchema({
     name: "Pre-Wedding Photoshoot Dubai",
-    description: "Pre-wedding and couple photoshoots in Dubai — desert, Burj Khalifa, beach and heritage locations with photo, cinematic video and GCAA drone. From AED 1,500.",
+    description: "Pre-wedding and couple photoshoots in Dubai — desert, Burj Khalifa, beach and heritage locations with photo, cinematic video and aerial via licensed partners. From AED 1,500.",
     url: PAGE_URL,
     price: "1500",
   });
@@ -143,7 +143,7 @@ export default function PreWeddingShootPage() {
         <div className="container-xl grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-2 space-y-6">
             <p className="text-silver/70 leading-relaxed text-base speakable">
-              A pre-wedding photoshoot in Dubai with Backyard Studio Official starts at AED 1,500 — and our most popular package (AED 3,000) covers 2–3 locations in one golden-hour-planned session with both photos and a cinematic film. We have shot couples on the Al Qudra dunes at sunset, under the Burj Khalifa at blue hour, and on Kite Beach as the Burj Al Arab lights up — with GCAA-licensed drone aerials and the full edited gallery delivered in 48 hours.
+              A pre-wedding photoshoot in Dubai with Backyard Studio Official starts at AED 1,500 — and our most popular package (AED 3,000) covers 2–3 locations in one golden-hour-planned session with both photos and a cinematic film. We have shot couples on the Al Qudra dunes at sunset, under the Burj Khalifa at blue hour, and on Kite Beach as the Burj Al Arab lights up — with drone aerials flown by GCAA-licensed partners and the full edited gallery delivered in 48 hours.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
               Half the couples we shoot fly into Dubai just for this — from India, the UK, Russia, and China. We plan everything around light and logistics: locations sequenced so you hit each one at its best hour, permissions handled in advance, and a styling guide sent before you pack. Founders Fahad Iqbal Butt and Syed Mazhar Zaidi built the same production discipline into pre-wedding shoots that runs our commercial sets.
