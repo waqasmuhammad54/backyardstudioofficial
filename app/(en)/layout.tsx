@@ -46,14 +46,17 @@ export const metadata: Metadata = {
     locale:      "en_AE",
     url:         "https://www.backyardstudioofficial.com",
     siteName:    "Backyard Studio Official",
-    title:       "Video Production Company Dubai | Backyard Studio",
-    description: "Commercial video, events, weddings, social content, photography and GCAA-licensed aerial production across all seven UAE emirates.",
+    // Kept in sync with the homepage metadata. The OG description used to lead with
+    // "GCAA-licensed aerial production", which read as the headline service and buried
+    // the actual differentiator. Aerial is a capability within productions, not the pitch.
+    title:       "Video Production Company Dubai | Prices Published Upfront",
+    description: "Dubai production studio with prices published, not quoted privately. Commercial video, events, weddings, social content and photography across all seven UAE emirates.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Backyard Studio Official — UAE Creative Production Studio" }],
   },
   twitter: {
     card:        "summary_large_image",
-    title:       "Video Production Company Dubai | Backyard Studio",
-    description: "Commercial video, events, weddings, photography, social content and aerial production across the UAE.",
+    title:       "Video Production Company Dubai | Prices Published Upfront",
+    description: "Dubai production studio with prices published, not quoted privately. Video, events, weddings, photography and social content across the UAE.",
     images:      ["/og-image.jpg"],
   },
   robots: {

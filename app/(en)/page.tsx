@@ -46,7 +46,19 @@ export const metadata: Metadata = {
     "best production company UAE",
     "top production companies UAE",
   ],
-  alternates: { canonical: "https://www.backyardstudioofficial.com" },
+  // The AR/RU/ZH layouts each declare all four language variants, but the EN homepage
+  // declared none — so the cluster was one-way and Google ignores one-way hreflang.
+  // This closes the loop: every locale now points at every other, x-default to EN.
+  alternates: {
+    canonical: "https://www.backyardstudioofficial.com",
+    languages: {
+      "en":        "https://www.backyardstudioofficial.com",
+      "ar":        "https://www.backyardstudioofficial.com/ar",
+      "ru":        "https://www.backyardstudioofficial.com/ru",
+      "zh":        "https://www.backyardstudioofficial.com/zh",
+      "x-default": "https://www.backyardstudioofficial.com",
+    },
+  },
 };
 
 const HOME_FAQS = [
