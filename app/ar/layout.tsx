@@ -104,6 +104,7 @@ const ORGANIZATION_AR = {
     "https://youtube.com/@BackyardStudioofficialuae",
     "https://www.trustpilot.com/review/backyardstudioofficial.com",
     "https://maps.google.com/?cid=5027158334939770142",
+    "https://clutch.co/profile/backyardstudio-official",
   ],
   "founder": [
     { "@type": "Person", "name": "فهد إقبال بط",  "jobTitle": "المدير الإبداعي" },

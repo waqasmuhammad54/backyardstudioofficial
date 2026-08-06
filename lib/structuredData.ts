@@ -24,6 +24,7 @@ const BRAND = {
     // Google Business Profile, referenced by CID — the stable identifier. Place URLs
     // with coordinates in them change; the CID does not.
     "https://maps.google.com/?cid=5027158334939770142",
+    "https://clutch.co/profile/backyardstudio-official",
     "https://www.linkedin.com/in/backyard-studio-508532417/",
     "https://www.imdb.com/name/nm14029494/",
   ],
