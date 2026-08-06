@@ -14,8 +14,16 @@ import Link from "next/link";
 import { faqSchema, itemListSchema, personSchema, videoObjectSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: { absolute: "Video Production Company Dubai | Backyard Studio" },
-  description: "Dubai production studio for commercial video, events, weddings, photography and social media across all 7 UAE emirates. 2,400+ projects, GCAA licensed.",
+  // SERP reverse-engineering, Aug 2026. Every organic winner for "video production
+  // company dubai" ranks with their HOMEPAGE, and each pairs the exact keyword with one
+  // differentiator (studio52 uses "48+ Years Expertise"). We had the keyword but no
+  // differentiator at all.
+  //
+  // Published pricing is the differentiator nobody else in this SERP has — most Dubai
+  // studios quote privately, and a paid competitor is already bidding on "Clear Pricing,
+  // No Hidden Costs", which proves the angle converts here. We actually publish ours.
+  title: { absolute: "Video Production Company Dubai | Prices Published Upfront" },
+  description: "Dubai production studio with prices published, not quoted privately. Social from AED 2,500, events AED 3,000, weddings AED 7,500. Same rates, all 7 emirates.",
   keywords: [
     "best production company in Dubai",
     "top production companies in Dubai",
