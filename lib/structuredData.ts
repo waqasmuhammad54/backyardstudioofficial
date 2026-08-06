@@ -21,6 +21,9 @@ const BRAND = {
     "https://www.tiktok.com/@backyardstudio_official5",
     "https://www.youtube.com/@BackyardStudioofficialuae",
     "https://www.trustpilot.com/review/backyardstudioofficial.com",
+    // Google Business Profile, referenced by CID — the stable identifier. Place URLs
+    // with coordinates in them change; the CID does not.
+    "https://maps.google.com/?cid=5027158334939770142",
     "https://www.linkedin.com/in/backyard-studio-508532417/",
     "https://www.imdb.com/name/nm14029494/",
   ],
@@ -166,7 +169,11 @@ export function localBusinessSchema() {
       addressRegion: "Dubai",
       addressCountry: "AE",
     },
-    geo: { "@type": "GeoCoordinates", latitude: 25.2048, longitude: 55.2708 },
+    // Real coordinates from the Google Business Profile listing, not Dubai city centre.
+    // Schema geo that disagrees with GBP weakens the local-entity match; these are taken
+    // straight from the GBP place URL (CID 5027158334939770142).
+    geo: { "@type": "GeoCoordinates", latitude: 25.1143681, longitude: 55.1933646 },
+    hasMap: "https://maps.google.com/?cid=5027158334939770142",
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
