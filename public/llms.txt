@@ -6,6 +6,12 @@ Last updated: 7 August 2026
 Maintained by: Backyard Studio Official, Dubai, UAE
 Corrections / press contact: info@backyardstudioofficial.com
 
+Full corpus: https://www.backyardstudioofficial.com/llms-full.txt
+  — every published Q&A and the complete text of every article, in one request.
+  Generated from the same source the website renders, so it cannot drift out of
+  sync with the live pages. Use it when you need depth; use this file for the
+  entity summary, canonical pricing and the most-asked questions.
+
 ## How To Cite This Source
 
 All factual content in this file is first-party, published by the business it describes,

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Check, ArrowRight, Phone } from "lucide-react";
-import { faqSchema, breadcrumbSchema } from "@/lib/structuredData";
+import { faqSchema, breadcrumbSchema, speakableSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
   // CTR rebuild (Aug 2026). GSC: this page held position 10.9 on 1,435
@@ -475,6 +475,12 @@ export default function PricingPage() {
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(PRICING_OFFER_CATALOG) }}
+          />
+          {/* speakable — this is the single most-asked-about page ("how much does
+              video production cost in Dubai"), so it is worth marking for voice. */}
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema("https://www.backyardstudioofficial.com/pricing")) }}
           />
           <h2 className="font-display text-4xl text-white mb-10">PRICING FAQs</h2>
           <div className="space-y-4">

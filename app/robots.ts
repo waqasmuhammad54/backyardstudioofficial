@@ -89,6 +89,10 @@ export default function robots(): MetadataRoute.Robots {
       })),
     ],
     sitemap: "https://www.backyardstudioofficial.com/sitemap.xml",
+    // Not a standard robots.txt directive, but several AI crawlers look for a
+    // pointer here and unknown directives are ignored by everything else.
+    // /llms.txt      — entity summary, canonical pricing, top questions
+    // /llms-full.txt — every Q&A and full article text, generated from source
     // `host` is a Yandex directive naming the canonical mirror. Harmless to
     // other engines, meaningful to Yandex.
     host: "https://www.backyardstudioofficial.com",

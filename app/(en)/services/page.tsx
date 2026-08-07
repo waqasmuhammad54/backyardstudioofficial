@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Camera, Film, Video, Smartphone, Megaphone, MessageSquare, Image, Plane, Building2, Clapperboard, Car, Home, Mic, Youtube, Utensils, Package, Users, Shirt, MapPin, Tv, BookOpen, Hotel, Play, Star, Settings } from "lucide-react";
-import { faqSchema, itemListSchema, breadcrumbSchema } from "@/lib/structuredData";
+import { faqSchema, itemListSchema, breadcrumbSchema, speakableSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
   title: { absolute: "Production Services Dubai | Backyard Studio" },
@@ -140,6 +140,9 @@ export default function ServicesPage() {
     <div className="pt-24">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema(SERVICES_FAQS)) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema(SERVICES_ITEM_LIST)) }} />
+      {/* speakable — marks which parts of the page a voice assistant should read
+          aloud. Low-cost, and this is a money page that answers "what do you do". */}
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakableSchema("https://www.backyardstudioofficial.com/services")) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema([
         { name: "Home", url: "https://www.backyardstudioofficial.com" },
         { name: "Services", url: "https://www.backyardstudioofficial.com/services" },
