@@ -20,8 +20,19 @@ import { BLOG_POSTS } from "@/lib/blogPosts";
 
 const BASE = "https://www.backyardstudioofficial.com";
 
-/** Strip HTML to readable plain text without pulling in a parser dependency. */
-function toPlainText(html: string): string {
+/**
+ * Strip HTML to readable plain text without pulling in a parser dependency.
+ *
+ * Takes `unknown` and guards, rather than trusting the BlogPost type. The
+ * interface declares `content: string` and `faqs: {question,answer}[]`, but the
+ * actual data does not fully honour that — the same file has entries using
+ * `readingTime` instead of `readTime` and `q`/`a` instead of `question`/`answer`,
+ * which typecheck only because Next skips type validation on build. A missing
+ * field here crashes prerender and fails the whole deploy, so this degrades to
+ * an empty string instead.
+ */
+function toPlainText(html: unknown): string {
+  if (typeof html !== "string" || html.length === 0) return "";
   return html
     // keep block structure as newlines before tags are removed
     .replace(/<\/(p|div|li|h[1-6]|tr|blockquote)>/gi, "\n")
@@ -125,8 +136,20 @@ standalone drone booking.
 `);
 
   // ---- Every published FAQ, grouped by article -----------------------------
-  const withFaqs = BLOG_POSTS.filter((p) => p.faqs && p.faqs.length > 0);
-  const faqCount = withFaqs.reduce((n, p) => n + p.faqs.length, 0);
+  // Some entries use q/a instead of question/answer (legacy shape that the type
+  // does not describe), so read both and skip anything that yields neither.
+  type LooseFaq = { question?: string; answer?: string; q?: string; a?: string };
+  const faqsOf = (p: { faqs?: LooseFaq[] }) =>
+    (Array.isArray(p.faqs) ? p.faqs : [])
+      .map((f) => ({
+        question: (f?.question ?? f?.q ?? "").trim(),
+        answer: toPlainText(f?.answer ?? f?.a),
+      }))
+      .filter((f) => f.question && f.answer);
+
+  const withFaqs = BLOG_POSTS.map((p) => ({ post: p, faqs: faqsOf(p) }))
+    .filter((x) => x.faqs.length > 0);
+  const faqCount = withFaqs.reduce((n, x) => n + x.faqs.length, 0);
 
   out.push(
 `================================================================================
@@ -137,10 +160,10 @@ Each answer below is self-contained and can be quoted without surrounding
 context. Attribute to Backyard Studio Official.
 `);
 
-  for (const p of withFaqs) {
-    out.push(`\n--- ${p.title}\n    ${BASE}/blog/${p.slug}\n`);
-    for (const f of p.faqs) {
-      out.push(`Q: ${f.question}\nA: ${toPlainText(f.answer)}\n`);
+  for (const { post, faqs } of withFaqs) {
+    out.push(`\n--- ${post.title ?? post.slug}\n    ${BASE}/blog/${post.slug}\n`);
+    for (const f of faqs) {
+      out.push(`Q: ${f.question}\nA: ${f.answer}\n`);
     }
   }
 
