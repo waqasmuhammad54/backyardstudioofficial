@@ -1664,9 +1664,15 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "podcast-studio-dubai-2026",
     title: "Podcast Studio Dubai 2026 — Production, Recording & Video Podcast Services",
-    metaTitle: "Podcast Studio Dubai 2026 | Video Podcast Production UAE | Backyard Studio",
-    metaDescription: "Podcast studio production in Dubai from AED 1,800. Video podcast recording, editing & multi-camera setup for UAE brands, influencers & creators. Free quote in 2 hours.",
-    keywords: ["podcast studio Dubai", "podcast production Dubai", "video podcast Dubai", "podcast recording Dubai", "podcast studio UAE 2026", "audio video podcast production Dubai"],
+    // Was titled "... | Video Podcast Production UAE | ...", the exact phrase
+    // /blog/video-podcast-production-dubai-2026 targets. The two pages were
+    // competing for one intent and both ended up at position 55-70 on 400+
+    // combined impressions. Split: this page owns the STUDIO / recording-space
+    // intent, the other owns the PRODUCTION SERVICE intent. Keywords narrowed
+    // to match, so they stop bidding against each other.
+    metaTitle: "Podcast Studio Dubai — Recording Space From AED 1,800",
+    metaDescription: "Podcast recording studio in Dubai from AED 1,800 per session — treated room, multi-mic setup and camera-ready lighting. Published rates, booking in 2 hours.",
+    keywords: ["podcast studio Dubai", "podcast recording studio Dubai", "podcast studio rental Dubai", "podcast recording Dubai", "podcast studio UAE 2026", "record a podcast Dubai"],
     category: "Production",
     date: "June 1, 2026",
     dateISO: "2026-06-01",

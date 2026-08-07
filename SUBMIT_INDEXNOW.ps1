@@ -42,11 +42,18 @@ try {
 
 # --- 2. Pull every URL out of the sitemap ---------------------------------
 Write-Host "[2/4] Reading sitemap ..." -NoNewline
-$xml  = [xml](Invoke-WebRequest -Uri $sitemapUrl -UseBasicParsing -TimeoutSec 60).Content
-$urls = @($xml.urlset.url | ForEach-Object { $_.loc } | Where-Object { $_ })
+# Regex rather than [xml] on purpose: the [xml] cast is namespace-sensitive and
+# silently yields zero rows if the sitemap namespace changes, which submits an
+# empty list and looks like success (Bing returns 200 for an empty urlList).
+$raw  = (Invoke-WebRequest -Uri $sitemapUrl -UseBasicParsing -TimeoutSec 90).Content
+$urls = @([regex]::Matches($raw, '<loc>(.*?)</loc>') | ForEach-Object { $_.Groups[1].Value } | Where-Object { $_ })
 Write-Host " $($urls.Count) URLs" -ForegroundColor Green
 
-if ($urls.Count -eq 0) { Write-Host "No URLs found. Aborting." -ForegroundColor Red; Read-Host; exit 1 }
+if ($urls.Count -eq 0) {
+    Write-Host "No URLs parsed from the sitemap. Aborting -- submitting an empty" -ForegroundColor Red
+    Write-Host "list returns HTTP 200 and looks like success while doing nothing." -ForegroundColor Red
+    Read-Host "Press Enter to exit"; exit 1
+}
 
 # --- 3. Submit in batches (IndexNow caps at 10,000 per request) -----------
 Write-Host "[3/4] Submitting to IndexNow ..."
@@ -58,19 +65,20 @@ $endpoints = @(
 $batchSize = 9000
 for ($i = 0; $i -lt $urls.Count; $i += $batchSize) {
     $batch = $urls[$i..([Math]::Min($i + $batchSize - 1, $urls.Count - 1))]
-    $body  = @{
+    $body  = [ordered]@{
         host        = $host_
         key         = $key
         keyLocation = $keyLocation
         urlList     = $batch
-    } | ConvertTo-Json -Depth 3
+    } | ConvertTo-Json -Depth 3 -Compress
 
     foreach ($ep in $endpoints) {
         $name = ([Uri]$ep).Host
         try {
-            $r = Invoke-WebRequest -Uri $ep -Method POST -Body $body `
+            $r = Invoke-WebRequest -Uri $ep -Method POST `
+                    -Body ([Text.Encoding]::UTF8.GetBytes($body)) `
                     -ContentType "application/json; charset=utf-8" `
-                    -UseBasicParsing -TimeoutSec 60
+                    -UseBasicParsing -TimeoutSec 120
             Write-Host ("      {0,-22} HTTP {1}  ({2} URLs)" -f $name, $r.StatusCode, $batch.Count) -ForegroundColor Green
         } catch {
             $code = $_.Exception.Response.StatusCode.value__
