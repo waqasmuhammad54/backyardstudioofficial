@@ -130,13 +130,13 @@ const PAGES: Record<string, ServicePage> = {
     pricing: [
       { pkg: "Unit Photography", detail: "Up to 3 units / interior & exterior / 30 images", price: "From AED 1,000" },
       { pkg: "Show Apartment", detail: "Full-day shoot / hero shots + detail images", price: "From AED 3,000" },
-      { pkg: "Aerial + Ground Package", detail: "Drone + interior / GCAA licensed", price: "From AED 4,000" },
+      { pkg: "Aerial + Ground Package", detail: "Drone + interior / GCAA-approved", price: "From AED 4,000" },
       { pkg: "Developer Launch Package", detail: "Multi-day / full photo + video campaign", price: "From AED 12,000" },
     ],
     faqs: [
       { q: "Do you produce real estate photography for Dubai developers like Emaar and DAMAC?", a: "Yes. Backyard Studio Official produces real estate photography for Dubai developers across project launch campaigns, show apartment shoots, unit photography for marketing materials, and aerial drone documentation. We work within developer briefing and approval processes." },
       { q: "How quickly do you deliver real estate photography in Dubai?", a: "Standard delivery for Dubai real estate photography is 24–48 hours. For agency listings requiring same-day turnaround, we offer rush delivery within 6–8 hours of the shoot for an additional fee. Drone footage delivery is within 24 hours of the aerial session." },
-      { q: "Are you GCAA licensed for drone photography over Dubai real estate sites?", a: "Yes. Backyard Studio Official holds a GCAA commercial drone licence and coordinates permits with Dubai Film and TV Commission, Emaar, Nakheel, and relevant property authorities for aerial photography over Dubai development sites, the Palm Jumeirah, Downtown Dubai, and JBR." },
+      { q: "Is drone photography over Dubai real estate GCAA-approved over Dubai real estate sites?", a: "Yes. Aerial work is flown under a GCAA commercial drone licence, with permits coordinated with Dubai Film and TV Commission, Emaar, Nakheel, and relevant property authorities for aerial photography over Dubai development sites, the Palm Jumeirah, Downtown Dubai, and JBR." },
       { q: "How much does real estate photography cost in Dubai?", a: "Unit photography starts from AED 1,000 for 3 units with 30 images. Show apartment shoots start from AED 3,000. Aerial drone packages from AED 2,000 for a 2-hour session. Full developer launch packages from AED 12,000. Exact quotes within 2 hours." },
     ],
   },
@@ -145,10 +145,10 @@ const PAGES: Record<string, ServicePage> = {
     title: "Drone Videography in Dubai 2026 | Backyard Studio Official",
     metaDescription: "GCAA-licensed drone videography in Dubai — Burj Khalifa, Palm Jumeirah, Marina, JBR, Downtown. 4K aerial photography & cinematic video. Legal, permitted, fast. From AED 2,000.",
     h1: "Drone Videography in Dubai",
-    subtitle: "GCAA licensed. Burj Khalifa district. Palm Jumeirah. Marina. Every zone covered legally.",
+    subtitle: "GCAA-approved drone service available. Burj Khalifa district. Palm Jumeirah. Marina. Every zone covered legally.",
     category: "DRONE VIDEOGRAPHY",
     intro: [
-      "Dubai produces more aerial video content than almost any other city in the world — and for good reason. The Burj Khalifa at golden hour, the Palm Jumeirah from altitude, the Dubai Marina skyline reflected in the Gulf at dusk — these are images that no ground-level camera can replicate. Backyard Studio Official holds full GCAA commercial drone licences and produces aerial video in Dubai's most photographed zones legally, with all permits coordinated before any camera leaves the ground.",
+      "Dubai produces more aerial video content than almost any other city in the world — and for good reason. The Burj Khalifa at golden hour, the Palm Jumeirah from altitude, the Dubai Marina skyline reflected in the Gulf at dusk — these are images that no ground-level camera can replicate. Backyard Studio Official produces aerial video under full GCAA commercial drone licences in Dubai's most photographed zones legally, with all permits coordinated before any camera leaves the ground.",
       "We produce drone videography for Dubai's real estate, tourism, events, construction documentation, wedding, and commercial advertising sectors. Our aerial team operates cinema-grade drone systems in 4K and 6K with cinema colour profiles, delivering footage that integrates seamlessly into broadcast, online, and social media productions.",
     ],
     highlights: [
@@ -166,7 +166,7 @@ const PAGES: Record<string, ServicePage> = {
     faqs: [
       { q: "Is drone flying legal in Dubai and do you have the required licences?", a: "Drone operations in Dubai require a GCAA commercial operator certificate and location-specific permits from the Dubai Film and TV Commission, relevant property authorities, and in some zones, Dubai Civil Aviation Authority. Backyard Studio Official holds all required licences and manages every permit before any flight. We do not operate without complete legal clearance." },
       { q: "Can you fly a drone near the Burj Khalifa in Dubai?", a: "Aerial filming in the Burj Khalifa district requires specific DTCM, Emaar, and Dubai Film Commission coordination. Backyard Studio Official has produced aerial content in the Downtown Dubai zone and manages the full permit process for Burj Khalifa-area shoots. Lead time is typically 3–5 business days for Downtown Dubai aerial permits." },
-      { q: "How much does drone videography cost in Dubai?", a: "Drone sessions in Dubai start from AED 2,000 for a 2-hour session with a GCAA-licensed pilot, 4K footage, and colour-graded edit. Half-day aerial packages with multiple locations start from AED 3,500. Combined drone and ground camera packages from AED 5,500." },
+      { q: "How much does drone videography cost in Dubai?", a: "Drone sessions in Dubai start from AED 2,000 for a 2-hour session under GCAA-licensed drone operation, 4K footage, and colour-graded edit. Half-day aerial packages with multiple locations start from AED 3,500. Combined drone and ground camera packages from AED 5,500." },
       { q: "Can you produce drone content for Dubai social media and advertising campaigns?", a: "Yes. Our Dubai drone team produces aerial content specifically formatted for social media: vertical Reels, square cuts, and horizontal widescreen — all from a single flight session. We can deliver same-day rough cuts for time-sensitive social media campaigns." },
     ],
   },
@@ -361,7 +361,7 @@ const PAGES: Record<string, ServicePage> = {
     category: "REAL ESTATE PHOTOGRAPHY",
     intro: [
       "Abu Dhabi's real estate market is one of the most dynamic in the world, driven by major developers including Aldar Properties, IMKAN, Modon, and a growing pipeline of international development names entering the UAE capital. Real estate photography in this market must satisfy two very different audiences: local and GCC buyers who know the Abu Dhabi landscape, and international investors from Europe, South Asia, and Asia who are evaluating Abu Dhabi property remotely.",
-      "Backyard Studio Official produces real estate photography and videography for Abu Dhabi's property sector across unit photography, show apartment campaigns, project launch content, aerial drone documentation, and lifestyle imagery that positions developments within their surrounding environment. We are GCAA licensed for drone operations across Abu Dhabi's development zones, including the Saadiyat Island cultural district, Yas Island, Al Reem Island, and Al Maryah Island.",
+      "Backyard Studio Official produces real estate photography and videography for Abu Dhabi's property sector across unit photography, show apartment campaigns, project launch content, aerial drone documentation, and lifestyle imagery that positions developments within their surrounding environment. Aerial work is flown under GCAA licence for drone operations across Abu Dhabi's development zones, including the Saadiyat Island cultural district, Yas Island, Al Reem Island, and Al Maryah Island.",
     ],
     highlights: [
       { heading: "Unit & Show Apartment Photography", body: "Precision interior photography of Abu Dhabi residential and commercial units, styled for developer marketing brochures, online listings, and international investor presentations." },
@@ -377,7 +377,7 @@ const PAGES: Record<string, ServicePage> = {
     ],
     faqs: [
       { q: "Do you produce real estate photography for Aldar Properties developments?", a: "Yes. Backyard Studio Official produces real estate photography and videography for Abu Dhabi developer projects including residential communities, show apartments, project launch campaigns, and aerial documentation. We work within the specific briefing and approval processes that major developers like Aldar operate." },
-      { q: "Are you licensed for drone photography over Abu Dhabi real estate developments?", a: "Yes. Backyard Studio Official holds a GCAA commercial drone licence and coordinates airspace permissions for Abu Dhabi locations including Saadiyat Island, Yas Island, Al Reem Island, and Al Maryah Island. Abu Dhabi Civil Aviation Authority (ADAC) coordination is managed by our team as part of the production service." },
+      { q: "Are you licensed for drone photography over Abu Dhabi real estate developments?", a: "Yes. Aerial work is flown under a GCAA commercial drone licence, with airspace permissions for Abu Dhabi locations including Saadiyat Island, Yas Island, Al Reem Island, and Al Maryah Island. Abu Dhabi Civil Aviation Authority (ADAC) coordination is managed by our team as part of the production service." },
       { q: "How much does real estate photography cost in Abu Dhabi?", a: "Unit photography in Abu Dhabi starts from AED 1,200 for up to 3 units with 30 images. Show apartment campaigns start from AED 3,500 for a full-day shoot. Aerial drone packages start from AED 2,500 for a 2-hour drone session. Developer launch packages covering multi-day photography and video are quoted individually." },
       { q: "Do you produce real estate content for international investor audiences?", a: "Yes. Backyard Studio Official produces Abu Dhabi real estate content calibrated for international investor audiences in Europe, South Asia, and Southeast Asia. This includes English-language video with international narration, photography formatted for international property portals, and developer brand films designed for investor roadshow use." },
     ],
@@ -387,10 +387,10 @@ const PAGES: Record<string, ServicePage> = {
     title: "Drone Videography in Abu Dhabi 2026 | Backyard Studio Official",
     metaDescription: "GCAA-licensed drone videography in Abu Dhabi — Sheikh Zayed Grand Mosque, Yas Island, Saadiyat, Corniche, ADGM. Aerial photography & 4K video. From AED 2,500.",
     h1: "Drone Videography in Abu Dhabi",
-    subtitle: "GCAA licensed. ADAC coordinated. Every zone in the capital covered legally.",
+    subtitle: "GCAA-approved drone service available. ADAC coordinated. Every zone in the capital covered legally.",
     category: "DRONE VIDEOGRAPHY",
     intro: [
-      "Drone videography in Abu Dhabi requires more than a camera in the sky. The UAE capital's airspace is among the most regulated in the region, with Abu Dhabi Civil Aviation Authority (ADAC) overseeing commercial drone operations and additional permissions required for filming near government buildings, sensitive zones, and the Sheikh Zayed Grand Mosque environs. Backyard Studio Official holds full GCAA commercial drone licences and manages all Abu Dhabi airspace coordination as a standard part of every aerial production.",
+      "Drone videography in Abu Dhabi requires more than a camera in the sky. The UAE capital's airspace is among the most regulated in the region, with Abu Dhabi Civil Aviation Authority (ADAC) overseeing commercial drone operations and additional permissions required for filming near government buildings, sensitive zones, and the Sheikh Zayed Grand Mosque environs. Backyard Studio Official flies under full GCAA commercial drone licences and manages all Abu Dhabi airspace coordination as a standard part of every aerial production.",
       "Our Abu Dhabi drone team captures the capital's extraordinary architecture — the Corniche skyline, the Louvre Abu Dhabi's perforated dome, the Yas Marina Circuit's race track curve, and the natural mangrove systems of Eastern Mangroves and Jubail Island. We produce aerial content for real estate developers, tourism campaigns, government communications, event documentation, and commercial advertising in 4K with cinema-grade colour grading.",
     ],
     highlights: [
@@ -831,7 +831,7 @@ const PAGES: Record<string, ServicePage> = {
       { heading: "Frond Villa Films", body: "Signature villa content — twilight exteriors, pool and beach frontage, interior walkthroughs — built for international buyers purchasing without a physical viewing." },
       { heading: "Resort & Hospitality", body: "Rooms, suites, restaurants, spa and facilities content across the Palm's resorts, shot to each property's brand standard." },
       { heading: "Palm Weddings", body: "Wedding coverage at Atlantis, One&Only, Waldorf Astoria, Five Palm and Anantara — venues we have worked repeatedly and know the logistics of." },
-      { heading: "Aerial Where Permitted", body: "Aerial coverage using GCAA-licensed pilots and the required approvals — parts of the Palm sit in restricted airspace, which we clear in advance." },
+      { heading: "Aerial Where Permitted", body: "Aerial coverage under GCAA-licensed drone operation and the required approvals — parts of the Palm sit in restricted airspace, which we clear in advance." },
     ],
     pricing: [
       { pkg: "Villa Film + Stills", detail: "Full villa film, twilight exteriors, photography", price: "From AED 5,500" },
@@ -842,7 +842,7 @@ const PAGES: Record<string, ServicePage> = {
     faqs: [
       { q: "Do you film luxury villas on Palm Jumeirah?", a: "Yes, Frond villa content is one of our specialisms. These properties are typically marketed to overseas buyers who will not view in person before committing, so we shoot a complete film — twilight exteriors, pool and beach frontage, full interior walkthrough — that answers what a viewing would." },
       { q: "How much does video production on Palm Jumeirah cost?", a: "Villa films with stills start from AED 5,500. Resort content packages start from AED 8,000, event coverage from AED 3,000, and wedding packages from AED 15,500 for the Silver tier. Some resorts charge their own location fees, which are additional and confirmed upfront." },
-      { q: "Can you fly a drone over Palm Jumeirah?", a: "Aerial coverage is available within our productions using GCAA-licensed pilots and the required permits, but parts of the Palm fall within restricted airspace and some areas need additional clearance. We confirm what is achievable for your specific location before the shoot rather than assuming." },
+      { q: "Can you fly a drone over Palm Jumeirah?", a: "Aerial coverage is available within our productions under GCAA-licensed drone operation and the required permits, but parts of the Palm fall within restricted airspace and some areas need additional clearance. We confirm what is achievable for your specific location before the shoot rather than assuming." },
       { q: "Which Palm Jumeirah resorts do you cover for weddings?", a: "We cover weddings at Atlantis The Palm and The Royal, One&Only The Palm, Waldorf Astoria, Five Palm Jumeirah, Anantara and W Dubai. Each has its own supplier rules, timing constraints and preferred setups, which we work to as part of planning." },
       { q: "Do you need permission to film on Palm Jumeirah?", a: "Usually yes. Access to the Fronds is controlled, resorts have their own filming policies and often charge location fees, and public areas may still require permission for commercial shoots. We handle these approvals in pre-production." },
       { q: "What is the best time to film villas on the Palm?", a: "Twilight — the short window just after sunset — is the strongest look for villa exteriors, because interior lighting balances against the remaining sky and pools read beautifully. We usually pair a twilight exterior session with a daytime interior session on the same booking." },

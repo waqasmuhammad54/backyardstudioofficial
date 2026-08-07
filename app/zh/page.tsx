@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "迪拜最佳视频制作公司 | Backyard Studio Official",
-    description: "超过2,400个项目。GCAA无人机执照。2小时免费报价。",
+    description: "超过2,400个项目。GCAA认可的无人机航拍。2小时免费报价。",
     images: ["/og-image.jpg"],
   },
 };
@@ -35,7 +35,7 @@ const SERVICES_ZH = [
   { icon: "🎬", title: "企业宣传片", desc: "从AED 15,000起——企业形象片、产品视频、投资人路演视频，专业展现您的品牌实力。" },
   { icon: "💍", title: "婚礼摄影摄像", desc: "电影级婚礼摄像与专业婚礼摄影，记录您最珍贵的时刻。48小时内交付精华剪辑。" },
   { icon: "🏙️", title: "房产拍摄", desc: "豪华别墅、公寓及开发商项目的专业视频与照片拍摄，助您更快成交。" },
-  { icon: "🚁", title: "无人机航拍", desc: "持有GCAA商业飞行许可证，可在迪拜及阿联酋全境合法进行商业航拍。" },
+  { icon: "🚁", title: "无人机航拍", desc: "航拍在GCAA商业飞行许可下执行，可在迪拜及阿联酋全境合法作业。" },
   { icon: "📱", title: "社交媒体内容", desc: "小红书、Instagram、TikTok、YouTube专业内容制作，算法友好，互动率高。" },
   { icon: "📺", title: "广告片制作", desc: "电视广告、品牌片、汽车广告，专业级别一站式制作，从创意到交付。" },
 ];
@@ -110,7 +110,7 @@ const BLOG_POSTS_ZH = [
 const FAQS_ZH = [
   {
     q: "迪拜最好的视频制作公司是哪家？",
-    a: "Backyard Studio Official是2026年迪拜领先的影视制作公司，已完成超过2,400个项目，覆盖阿联酋全境七个酋长国，持有GCAA无人机商业执照，全程提供中文服务。",
+    a: "Backyard Studio Official是2026年迪拜领先的影视制作公司，已完成超过2,400个项目，覆盖阿联酋全境七个酋长国，航拍均在GCAA商业执照下执行，全程提供中文服务。",
   },
   {
     q: "迪拜专业视频制作费用是多少？",
@@ -122,7 +122,7 @@ const FAQS_ZH = [
   },
   {
     q: "在迪拜商业无人机航拍是否需要许可证？",
-    a: "在迪拜进行商业无人机拍摄必须持有GCAA（阿联酋民用航空局）颁发的商业飞行执照。我们持有该执照，所有航拍均合法合规，并会为特定区域申请必要的飞行许可。",
+    a: "在迪拜进行商业无人机拍摄必须持有GCAA（阿联酋民用航空局）颁发的商业飞行执照。所有航拍均在GCAA许可下依法合规执行，并会为特定区域申请必要的飞行许可。",
   },
   {
     q: "你们覆盖阿联酋哪些地区？",
@@ -293,7 +293,7 @@ export default function ZhHomePage() {
               Backyard Studio Official 于2019年由<strong style={{ color: "var(--cream)" }}>Fahad Iqbal Butt</strong>创立，他曾就读于拉合尔国立艺术学院影视专业。今天，我们已成为迪拜最受认可的创意制作公司之一。
             </p>
             <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.7)", lineHeight: 1.9, marginBottom: "1.5rem", fontSize: "0.93rem" }}>
-              后期制作团队由<strong style={{ color: "var(--cream)" }}>Syed Mazhar Zaidi</strong>领导，拥有20年以上电影导演和纪录片拍摄经验。我们持有GCAA无人机商业执照，覆盖阿联酋全部七个酋长国。
+              后期制作团队由<strong style={{ color: "var(--cream)" }}>Syed Mazhar Zaidi</strong>领导，拥有20年以上电影导演和纪录片拍摄经验。我们航拍均在GCAA商业执照下执行，覆盖阿联酋全部七个酋长国。
             </p>
             <a href="/zh/about" style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--gold)", textDecoration: "none", fontWeight: 600, borderBottom: "1px solid var(--gold)", paddingBottom: "2px" }}>了解我们的故事 →</a>
           </div>

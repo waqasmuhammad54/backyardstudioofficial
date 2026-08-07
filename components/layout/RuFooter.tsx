@@ -120,7 +120,7 @@ export default function RuFooter() {
             {/* Credentials */}
             <div className="flex flex-col gap-2 mb-6">
               {[
-                "Лицензия GCAA на аэросъёмку дронами",
+                "Доступна аэросъёмка, одобренная GCAA",
                 "Работа в ОАЭ с 2023 года",
                 "Более 2,400 реализованных проектов",
                 "Все 7 эмиратов ОАЭ",

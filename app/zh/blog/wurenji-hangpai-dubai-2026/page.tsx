@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "迪拜无人机航拍指南2026：GCAA法规、价格与最佳地点 | Backyard Studio",
-  description: "在阿联酋拍摄无人机必须了解GCAA法规。本文详解迪拜合法航拍许可要求、费用（AED 2,000起）、禁飞区及最佳航拍地点。Backyard Studio持有GCAA商业航拍许可证。",
+  description: "在阿联酋拍摄无人机必须了解GCAA法规。本文详解迪拜合法航拍许可要求、费用（AED 2,000起）、禁飞区及最佳航拍地点。航拍作业均在GCAA商业许可下执行证。",
   alternates: { canonical: "https://www.backyardstudioofficial.com/zh/blog/wurenji-hangpai-dubai-2026" },
 };
 
@@ -27,7 +27,7 @@ export default function ZhBlogDronePage() {
           <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.95rem", marginBottom: "1.5rem" }}>
             在阿联酋进行商业无人机飞行，必须持有<strong style={{ color: "var(--cream)" }}>GCAA（阿联酋民航总局）颁发的商业无人机运营执照</strong>。
             无许可证进行商业航拍属违法行为，可能面临高额罚款甚至设备没收。
-            我们的团队持有有效GCAA商业无人机执照，可在迪拜及全阿联酋合法执行任何商业航拍任务。
+            所有商业航拍均在GCAA有效执照下执行，可在迪拜及全阿联酋合法执行任何商业航拍任务。
           </p>
 
           <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.375rem", marginBottom: "1rem" }}>

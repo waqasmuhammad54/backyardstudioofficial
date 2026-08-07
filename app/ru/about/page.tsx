@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "О нас — Backyard Studio Official | Фахад Икбал Батт и Сайед Мазар Зайди — Дубай",
-  description: "Узнайте о Backyard Studio Official — ведущей креативной продюсерской компании в Дубае. Основана в 2019 году Фахадом Икбалом Баттом и Саедом Мазаром Зайди. Более 2 400 проектов, лицензия GCAA.",
+  description: "Узнайте о Backyard Studio Official — ведущей креативной продюсерской компании в Дубае. Основана в 2019 году Фахадом Икбалом Баттом и Саедом Мазаром Зайди. Более 2 400 проектов. Аэросъёмка, одобренная GCAA.",
   keywords: ["Фахад Икбал Батт", "Сайед Мазар Зайди", "продюсерская компания Дубай", "команда Backyard Studio", "история студии", "лучшая фотостудия Дубай"],
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru/about",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "О нас — Backyard Studio Official | Дубай",
-    description: "Ведущая креативная продюсерская компания Дубая. Основана 2019. Более 2 400 проектов, лицензия GCAA, команда с опытом 20+ лет.",
+    description: "Ведущая креативная продюсерская компания Дубая. Основана 2019. Более 2 400 проектов, аэросъёмка одобрена GCAA, команда с опытом 20+ лет.",
     url: "https://www.backyardstudioofficial.com/ru/about",
     siteName: "Backyard Studio Official",
     locale: "ru_RU",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "О нас — Backyard Studio Official — Дубай",
-    description: "Основана в 2019 году Фахадом Икбалом Баттом. Более 2 400 проектов. Лицензия GCAA.",
+    description: "Основана в 2019 году Фахадом Икбалом Баттом. Более 2 400 проектов.. Аэросъёмка, одобренная GCAA.",
     images: ["/og-image.jpg"],
   },
 };
@@ -45,7 +45,7 @@ const MILESTONES_RU = [
   { year: "2019", event: "Основание в Лахоре — музыкальные клипы, фэшн-фильмы и рекламные ролики" },
   { year: "2021", event: "Расширение на корпоративный и брендированный контент по всему Пакистану" },
   { year: "2023", event: "Запуск операций в ОАЭ — штаб-квартира в Дубае" },
-  { year: "2024", event: "Получение лицензии GCAA на коммерческие аэросъёмки по всему ОАЭ" },
+  { year: "2024", event: "Добавлена аэросъёмка — сервис, одобренный GCAA, по всему ОАЭ" },
   { year: "2025", event: "Более 2 400 реализованных проектов по всем 7 эмиратам" },
   { year: "2026", event: "Выход на международные рынки — Европа и Азия" },
 ];

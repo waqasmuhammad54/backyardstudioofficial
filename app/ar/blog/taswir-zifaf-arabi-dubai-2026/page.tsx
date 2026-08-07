@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "تصوير حفلات الزفاف العربية في دبي | باكيارد ستوديو",
   description:
-    "تصوير الأعراس العربية في دبي من 6,000 درهم. خبرة في الأعراس اللبنانية والخليجية والمصرية. فريق يتحدث العربية، رخصة GCAA للطيران المسيّر. استشارة مجانية.",
+    "تصوير الأعراس العربية في دبي من 6,000 درهم. خبرة في الأعراس اللبنانية والخليجية والمصرية. فريق يتحدث العربية، تصوير جوي معتمد من GCAA. استشارة مجانية.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ar/blog/taswir-zifaf-arabi-dubai-2026",
     languages: {

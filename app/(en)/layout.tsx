@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     "corporate video production Dubai",
     "event videographer Dubai",
     "aerial drone videography Dubai",
-    "aerial via GCAA-licensed partners UAE",
+    "aerial via GCAA-licensed operation UAE",
     "backyard studio official",
     "best production company UAE",
   ],
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     url:         "https://www.backyardstudioofficial.com",
     siteName:    "Backyard Studio Official",
     // Kept in sync with the homepage metadata. The OG description used to lead with
-    // "aerial production via GCAA-licensed partners", which read as the headline service and buried
+    // "aerial production via GCAA-licensed operation", which read as the headline service and buried
     // the actual differentiator. Aerial is a capability within productions, not the pitch.
     title:       "Video Production Company Dubai | Prices Published Upfront",
     description: "Dubai production studio with prices published, not quoted privately. Commercial video, events, weddings, social content and photography across all seven UAE emirates.",
@@ -69,7 +69,28 @@ export const metadata: Metadata = {
     apple:   "/apple-touch-icon.png",
     shortcut:"/favicon-32x32.png",
   },
-  verification: { google: "gTxfmwhvhvy9X-uOewdWpTtYQsHAbst-wGFZgwLx4RE" },
+  // Site-ownership verification.
+  //
+  // Google is verified. To rank in Bing, Yandex and Baidu the site must also be
+  // registered in each engine's webmaster console — ranking there is not automatic
+  // just because Google indexes us. Once the owner registers, paste the code and
+  // uncomment the matching line; do NOT leave empty strings here, an empty meta tag
+  // is worse than an absent one.
+  //
+  //   Bing   → https://www.bing.com/webmasters   (also feeds Copilot + DuckDuckGo)
+  //   Yandex → https://webmaster.yandex.com      (RU market; /ru pages already exist)
+  //   Baidu  → https://ziyuan.baidu.com          (CN market; /zh pages already exist)
+  //
+  // Note: Bing verification also unlocks IndexNow, which pushes new URLs to Bing
+  // AND Yandex instantly rather than waiting to be crawled.
+  verification: {
+    google: "gTxfmwhvhvy9X-uOewdWpTtYQsHAbst-wGFZgwLx4RE",
+    // yandex: "PASTE_YANDEX_CODE_HERE",
+    other: {
+      // "msvalidate.01": "PASTE_BING_CODE_HERE",
+      // "baidu-site-verification": "PASTE_BAIDU_CODE_HERE",
+    },
+  },
   alternates: {
     canonical: "https://www.backyardstudioofficial.com",
     languages: {

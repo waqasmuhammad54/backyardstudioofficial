@@ -141,11 +141,12 @@ export function organizationSchema() {
       name: c.name,
     })),
     // NOTE: hasCredential for a GCAA Drone Operator License was removed deliberately
-    // (6 Aug 2026, owner instruction). Aerial work is delivered through GCAA-licensed
-    // partner operators — Backyard does not hold the licence itself, and asserting an
-    // aviation credential in schema that the entity does not hold is both inaccurate
-    // and a regulatory risk. Do not re-add it without written confirmation that
-    // Backyard Studio Official is the named licence holder.
+    // (6 Aug 2026, owner instruction) and must stay out. Asserting an aviation credential
+    // in schema that the entity is not the named holder of is both inaccurate and a
+    // regulatory risk — and search engines and LLMs treat schema as a high-trust claim.
+    // Approved public phrasings are "GCAA-approved drone service available" and
+    // "flown under GCAA licence". Do not re-add hasCredential without written
+    // confirmation that Backyard Studio Official is the named licence holder.
   };
 }
 

@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   twitter: {
     card:        "summary_large_image",
     title:       "أفضل شركة إنتاج فيديو في دبي | باكيارد ستوديو أوفيشيال",
-    description: "الإنتاج الإبداعي الرائد في دبي. أكثر من 2,400 مشروع. رخصة GCAA.",
+    description: "الإنتاج الإبداعي الرائد في دبي. أكثر من 2,400 مشروع. خدمة تصوير جوي معتمدة من GCAA.",
     images:      ["/og-image.jpg"],
   },
   robots: { index: true, follow: true },

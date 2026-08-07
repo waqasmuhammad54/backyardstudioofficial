@@ -42,7 +42,7 @@ const FAQS = [
   },
   {
     q: "Can you shoot drone footage at RAK beach and desert weddings?",
-    a: "Yes — aerial work is flown by GCAA-licensed partner operators and we arrange permissions in advance. RAK is one of the best emirates for aerials: Al Marjan Island coastline, Al Wadi desert dunes at sunset, and Jebel Jais mountain backdrops all photograph spectacularly from the air.",
+    a: "Yes — aerial work is flown by GCAA-licensed drone operation and we arrange permissions in advance. RAK is one of the best emirates for aerials: Al Marjan Island coastline, Al Wadi desert dunes at sunset, and Jebel Jais mountain backdrops all photograph spectacularly from the air.",
   },
   {
     q: "Do you cover destination weddings for couples flying into RAK?",
@@ -101,7 +101,7 @@ export default function WeddingPhotographyRAKPage() {
         <div className="container-xl grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-2 space-y-6">
             <p className="text-silver/70 leading-relaxed text-base speakable">
-              Ras Al Khaimah is the UAE&apos;s destination-wedding emirate, and Backyard Studio Official photographs it at Dubai prices — from AED 7,500 with zero travel fees. We shoot beach ceremonies at Waldorf Astoria and Rixos Bab Al Bahr, tented desert weddings at The Ritz-Carlton Al Wadi, and sunset couple sessions on Jebel Jais above the clouds — with drone aerials flown by GCAA-licensed partners over the Al Marjan coastline. 2,400+ UAE productions; founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
+              Ras Al Khaimah is the UAE&apos;s destination-wedding emirate, and Backyard Studio Official photographs it at Dubai prices — from AED 7,500 with zero travel fees. We shoot beach ceremonies at Waldorf Astoria and Rixos Bab Al Bahr, tented desert weddings at The Ritz-Carlton Al Wadi, and sunset couple sessions on Jebel Jais above the clouds — with drone aerials flown under GCAA licence over the Al Marjan coastline. 2,400+ UAE productions; founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
               Half the couples we photograph in RAK fly in from abroad. We coordinate with your resort&apos;s events team, plan the timeline around golden hour, and deliver the complete gallery and highlight film within 48 hours — before most couples have left the resort. Compare every tier on the <Link href="/wedding-packages" className="underline hover:text-gold">wedding packages page</Link>.

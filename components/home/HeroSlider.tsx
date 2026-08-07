@@ -11,7 +11,7 @@ const SLIDES = [
     line1: "Dubai's Best",
     line2: "Production",
     line3: "Company.",
-    sub: "2,400+ projects across all 7 UAE emirates. GCAA licensed. Free quote in 2 hours.",
+    sub: "2,400+ projects across all 7 UAE emirates. GCAA-approved drone service available. Free quote in 2 hours.",
   },
   {
     image: "/images/wedding/wedding-01.webp",

@@ -46,7 +46,7 @@ const FAQS = [
   },
   {
     q: "Can you fly a drone over UAQ beaches and the lagoon?",
-    a: "Yes — GCAA-licensed pilots, with permissions arranged in advance. Aerials over the Khor Al Beidah flats at low tide, with flamingos in winter season, are a signature UAQ shot.",
+    a: "Yes — GCAA-licensed drone operation, with permissions arranged in advance. Aerials over the Khor Al Beidah flats at low tide, with flamingos in winter season, are a signature UAQ shot.",
   },
   {
     q: "How fast is delivery?",

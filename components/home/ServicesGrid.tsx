@@ -17,7 +17,7 @@ const SERVICES = [
   { icon: Clapperboard,  slug: "dvcs",                    label: "DVCs & TV Commercials",                 num: "11", desc: "High-production digital video commercials that make UAE audiences stop, watch, and act." },
   { icon: Video,         slug: "reels",                   label: "Reels & Short Films",                   num: "12", desc: "Algorithm-optimised short-form content built for maximum organic reach on Instagram & TikTok." },
   { icon: Megaphone,     slug: "ads-shooting",            label: "Ads Shooting",                          num: "13", desc: "High-production ad content for Meta, TikTok, YouTube, OOH & broadcast campaigns." },
-  { icon: Plane,         slug: "aerial-drone",            label: "Aerial / Drone (GCAA Licensed)",        num: "14", desc: "GCAA-licensed partner drone cinematography across all 7 UAE emirates — from desert to coastline." },
+  { icon: Plane,         slug: "aerial-drone",            label: "Aerial / Drone (GCAA Licensed)",        num: "14", desc: "GCAA-licensed drone cinematography across all 7 UAE emirates — from desert to coastline." },
   { icon: Building2,     slug: "corporate-films",         label: "Corporate Films",                       num: "15", desc: "Brand documentaries, investor films, culture content & annual report videos." },
   { icon: MessageSquare, slug: "testimonial-videos",      label: "Testimonial Videos",                    num: "16", desc: "Authentic client testimonials that build instant trust and drive measurable conversion." },
   { icon: Film,          slug: "event-video-editing",     label: "Event Video Editing",                   num: "17", desc: "48-hour polished highlight reels from raw footage. Colour-graded, sound-designed, ready to post." },

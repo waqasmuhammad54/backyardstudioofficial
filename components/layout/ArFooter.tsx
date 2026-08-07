@@ -125,7 +125,7 @@ export default function ArFooter() {
             {/* Credentials */}
             <div className="flex flex-col gap-2 mb-6">
               {[
-                "رخصة GCAA للطائرات المسيّرة",
+                "خدمة تصوير جوي معتمدة من GCAA متاحة",
                 "عمليات في الإمارات منذ 2023",
                 "أكثر من 2,400 مشروع منجز",
                 "تغطية جميع الإمارات السبع",
