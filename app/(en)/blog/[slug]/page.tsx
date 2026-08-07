@@ -193,21 +193,40 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
 
               <div className="prose-article" dangerouslySetInnerHTML={{ __html: post.content }} />
 
-              {post.faqs.length > 0 && (
-                <div className="mt-12 pt-8 border-t border-[#2a2a2a]">
-                  <p className="text-[#e8c547] text-xs tracking-[0.3em] uppercase font-semibold mb-6">
-                    FREQUENTLY ASKED QUESTIONS
-                  </p>
-                  <div className="space-y-6">
-                    {post.faqs.map((faq, i) => (
-                      <div key={i} className="border border-[#2a2a2a] rounded-sm p-6 bg-[#1a1a1a]">
-                        <h3 className="text-white font-semibold text-sm mb-3">{faq.question}</h3>
-                        <p className="text-[#a0a0a0] text-sm leading-relaxed">{faq.answer}</p>
-                      </div>
-                    ))}
+              {/* 90 FAQ entries across 15 posts use `q`/`a` instead of
+                  `question`/`answer`. Reading only the documented fields rendered
+                  six empty bordered boxes on each of those pages. Normalise both
+                  shapes and drop anything still empty, so a malformed entry costs
+                  us one FAQ rather than a page of blank boxes. */}
+              {(() => {
+                const faqs = (post.faqs ?? [])
+                  .map((faq) => {
+                    const f = faq as { question?: string; answer?: string; q?: string; a?: string };
+                    return {
+                      question: (f.question ?? f.q ?? "").trim(),
+                      answer: (f.answer ?? f.a ?? "").trim(),
+                    };
+                  })
+                  .filter((f) => f.question && f.answer);
+
+                if (faqs.length === 0) return null;
+
+                return (
+                  <div className="mt-12 pt-8 border-t border-[#2a2a2a]">
+                    <p className="text-[#e8c547] text-xs tracking-[0.3em] uppercase font-semibold mb-6">
+                      FREQUENTLY ASKED QUESTIONS
+                    </p>
+                    <div className="space-y-6">
+                      {faqs.map((faq, i) => (
+                        <div key={i} className="border border-[#2a2a2a] rounded-sm p-6 bg-[#1a1a1a]">
+                          <h3 className="text-white font-semibold text-sm mb-3">{faq.question}</h3>
+                          <p className="text-[#a0a0a0] text-sm leading-relaxed">{faq.answer}</p>
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              )}
+                );
+              })()}
 
               <div className="mt-12 p-8 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm text-center">
                 <p className="text-[#e8c547] text-xs tracking-[0.4em] uppercase font-semibold mb-2">READY TO SHOOT?</p>

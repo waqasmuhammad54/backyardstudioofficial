@@ -205,11 +205,44 @@ export function localBusinessSchema() {
   };
 }
 
-export function faqSchema(faqs: { question: string; answer: string }[]) {
+/**
+ * FAQPage schema.
+ *
+ * Accepts both field shapes on purpose. 90 FAQ entries across 15 blog posts in
+ * lib/blogPosts.ts use `q`/`a` rather than `question`/`answer` — a legacy shape
+ * the BlogPost interface does not describe and which typechecking never caught
+ * because the build skips type validation. Reading only `.question`/`.answer`
+ * produced live schema like:
+ *
+ *   {"@type":"Question","acceptedAnswer":{"@type":"Answer"}}
+ *
+ * — six empty Question objects per affected page. Invalid FAQPage markup is not
+ * merely ignored; it can cause the whole structured-data payload on the page to
+ * be distrusted. So: read both shapes, and drop any entry that still resolves to
+ * nothing rather than emitting a hollow Question.
+ *
+ * Normalising here rather than editing 90 data entries means every current and
+ * future caller is fixed at once, and a new post written in either shape works.
+ */
+type FaqInput = {
+  question?: string;
+  answer?: string;
+  q?: string;
+  a?: string;
+};
+
+export function faqSchema(faqs: FaqInput[]) {
+  const entries = (Array.isArray(faqs) ? faqs : [])
+    .map((faq) => ({
+      question: (faq?.question ?? faq?.q ?? "").trim(),
+      answer: (faq?.answer ?? faq?.a ?? "").trim(),
+    }))
+    .filter((faq) => faq.question.length > 0 && faq.answer.length > 0);
+
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
+    mainEntity: entries.map((faq) => ({
       "@type": "Question",
       name: faq.question,
       acceptedAnswer: { "@type": "Answer", text: faq.answer },
