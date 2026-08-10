@@ -70,6 +70,14 @@ const nextConfig = {
       // GSC 404: Google discovered this city+service combo by pattern (it exists for
       // Dubai and Abu Dhabi but was never built for Sharjah). Send it to the Sharjah hub.
       { source: "/locations/sharjah/personal-branding-photography", destination: "/locations/sharjah", permanent: true },
+      // Ajman offers 8 photography sub-services; product-photography is not one
+      // of them (only Dubai and Abu Dhabi have it). Nothing on the site links
+      // here and it is not in the sitemap, but Google still re-crawled it on
+      // 7 Aug 2026 and logged a 404 — it is a URL from an older version of the
+      // site that Google has not forgotten. `dynamicParams = false` on the
+      // [service] route correctly 404s unknown combinations, and that stays.
+      // This just converts one known historical URL into a useful landing.
+      { source: "/locations/ajman/product-photography", destination: "/locations/ajman", permanent: true },
       { source: "/zh/blog/yewu-shipin-dubai-2026", destination: "/zh/blog/qiye-shipin-zhizuo-dubai-2026", permanent: true },
       { source: "/zh/blog/dubai-hunjia-sheying-2026", destination: "/zh/blog/hunli-sheying-dubai-2026", permanent: true },
       { source: "/zh/blog/dubai-qiye-shipin-2026", destination: "/zh/blog/qiye-shipin-dubai-2026", permanent: true },

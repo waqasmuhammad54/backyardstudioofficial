@@ -192,8 +192,19 @@ export default function CostReportPage() {
       {/* ── HERO ─────────────────────────────────────────────────────────── */}
       <section className="container-xl pt-14 pb-10" style={{ maxWidth: "72rem" }}>
         <p className="eyebrow mb-5">Data Report · Published 5 August 2026 · Free to cite</p>
-        <h1 className="font-display leading-[0.95] mb-7" style={{ fontSize: "clamp(2.4rem,6vw,4.5rem)" }}>
-          <span className="block text-cream">UAE VIDEO PRODUCTION</span>
+        {/* The {" "} between spans is load-bearing. Without it the h1's
+            textContent reads "UAE VIDEO PRODUCTIONCOST REPORT 2026" — the spans
+            are display:block so it looks right, but Google, screen readers and
+            LLMs all read textContent, not the rendered layout. The whitespace
+            node collapses to nothing visible between block elements, so this
+            costs no layout and fixes the machine-readable title. aria-label
+            makes the intended reading explicit. Do not remove either. */}
+        <h1
+          className="font-display leading-[0.95] mb-7"
+          style={{ fontSize: "clamp(2.4rem,6vw,4.5rem)" }}
+          aria-label="UAE Video Production Cost Report 2026"
+        >
+          <span className="block text-cream">UAE VIDEO PRODUCTION</span>{" "}
           <span className="block gold-text">COST REPORT 2026</span>
         </h1>
 

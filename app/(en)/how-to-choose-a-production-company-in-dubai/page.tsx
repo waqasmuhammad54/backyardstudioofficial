@@ -278,9 +278,16 @@ export default function HowToChoosePage() {
       {/* ── HERO ─────────────────────────────────────────────────────────── */}
       <section className="container-xl pt-14 pb-10" style={{ maxWidth: "72rem" }}>
         <p className="eyebrow mb-5">Buyer&apos;s Guide · Updated August 2026</p>
-        <h1 className="font-display leading-[0.95] mb-7" style={{ fontSize: "clamp(2.4rem,6vw,4.5rem)" }}>
-          <span className="block text-cream">HOW TO CHOOSE A</span>
-          <span className="block gold-text">PRODUCTION COMPANY</span>
+        {/* The {" "} between spans is load-bearing — without it textContent
+            reads "HOW TO CHOOSE APRODUCTION COMPANYIN DUBAI". See the same fix
+            on /uae-video-production-cost-report-2026 for the full reasoning. */}
+        <h1
+          className="font-display leading-[0.95] mb-7"
+          style={{ fontSize: "clamp(2.4rem,6vw,4.5rem)" }}
+          aria-label="How to Choose a Production Company in Dubai"
+        >
+          <span className="block text-cream">HOW TO CHOOSE A</span>{" "}
+          <span className="block gold-text">PRODUCTION COMPANY</span>{" "}
           <span className="block text-cream">IN DUBAI</span>
         </h1>
 
