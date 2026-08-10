@@ -2,7 +2,12 @@
 import { useState, useEffect, useCallback } from "react";
 import { Search, LogOut, RefreshCw, Phone, Mail, MessageSquare, ChevronDown, X } from "lucide-react";
 
-type Status = "new" | "contacted" | "qualified" | "closed" | "lost";
+// "intent" = visitor tapped WhatsApp / phone / email instead of using the form.
+// Written by /api/lead/intent. It is a real enquiry signal but NOT a completed
+// form submission — there is no name or contact detail, because none is known
+// at tap time. Kept as its own status so it can never be confused with a form
+// lead, and so the count is visible rather than buried.
+type Status = "new" | "intent" | "contacted" | "qualified" | "closed" | "lost";
 
 interface Lead {
   id: string;
@@ -18,8 +23,12 @@ interface Lead {
   source: string;
 }
 
+// Key order drives the filter row at the top of the dashboard, so form leads
+// ("New") stay first. WhatsApp green for intent — it reads instantly as "this
+// came from a tap, go look at your phone", which is the whole point.
 const STATUS_CONFIG: Record<Status, { label: string; color: string; bg: string }> = {
   new:       { label: "New",       color: "#e8c547", bg: "rgba(232,197,71,0.15)" },
+  intent:    { label: "Tapped",    color: "#25d366", bg: "rgba(37,211,102,0.15)"  },
   contacted: { label: "Contacted", color: "#60a5fa", bg: "rgba(96,165,250,0.15)" },
   qualified: { label: "Qualified", color: "#34d399", bg: "rgba(52,211,153,0.15)" },
   closed:    { label: "Closed",    color: "#a78bfa", bg: "rgba(167,139,250,0.15)" },
