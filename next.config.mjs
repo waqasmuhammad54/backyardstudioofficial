@@ -104,8 +104,21 @@ const nextConfig = {
       { source: "/blog/best-video-production-company-in-dubai-for-corporate-video-2026-guide-2026", destination: "/blog/corporate-video-production-dubai-2026", permanent: true },
       { source: "/blog/product-video-production-uae-pricing-process-guide-2026", destination: "/blog/product-videography-dubai-2026", permanent: true },
       { source: "/blog/video-podcast-production-dubai-uae-setup-pricing-full-guide-2026-2026", destination: "/blog/video-podcast-production-dubai-2026", permanent: true },
-      { source: "/blog/sports-production-company-in-the-uae-football-cricket-basketball-fight-night-coverage-2026-2026", destination: "/blog/sports-production-company-uae-2026", permanent: true },
-      { source: "/blog/sports-broadcast-production-uae-full-match-coverage-from-aed-25-000-2026-2026", destination: "/blog/sports-broadcast-production-uae-2026", permanent: true },
+      // These two were consolidated into blog posts during the cannibalisation
+      // cleanup, which was right at the time — the service was not active and the
+      // two pages were competing for one intent. Live multi-camera match coverage
+      // became an active service in Aug 2026, so the commercial intent behind
+      // these URLs now has a real service page to land on. Pointing them at
+      // /services/live-streaming rather than at blog posts, because someone
+      // searching "sports broadcast production UAE" wants to hire, not to read.
+      //
+      // Note the old slug advertised "from AED 25,000". Current published entry
+      // price is AED 20,000 — the destination page carries the correct figure,
+      // which is another reason not to leave these pointing at stale posts.
+      { source: "/blog/sports-production-company-in-the-uae-football-cricket-basketball-fight-night-coverage-2026-2026", destination: "/services/live-streaming", permanent: true },
+      { source: "/blog/sports-broadcast-production-uae-full-match-coverage-from-aed-25-000-2026-2026", destination: "/services/live-streaming", permanent: true },
+      { source: "/blog/sports-production-company-uae-2026", destination: "/services/live-streaming", permanent: true },
+      { source: "/blog/sports-broadcast-production-uae-2026", destination: "/services/live-streaming", permanent: true },
       { source: "/blog/car-commercial-production-studio-in-the-uae-full-capability-guide-2026-2026", destination: "/blog/car-commercial-production-uae-2026", permanent: true },
       // Group B — same-query duplicates merged into one winner.
       { source: "/blog/headshot-photography-dubai-2026", destination: "/blog/headshot-photographer-dubai-2026", permanent: true },

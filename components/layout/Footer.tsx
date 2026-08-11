@@ -9,6 +9,7 @@ const SERVICES = [
   { label: "Weddings",             href: "/weddings" },
   { label: "Wedding Photography",  href: "/services/wedding-photography" },
   { label: "Event Shoots",         href: "/services/event-shoots" },
+  { label: "Live Streaming",       href: "/services/live-streaming" },
   { label: "Event Video Editing",  href: "/services/event-video-editing" },
   { label: "DVCs",                 href: "/services/dvcs" },
   { label: "Reels & Short Films",  href: "/services/reels" },

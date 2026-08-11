@@ -20,6 +20,10 @@ const SERVICE_IMAGES: Record<string, { hero: string; gallery: string[] }> = {
     hero: "/images/events/event-01.webp",
     gallery: ["/images/events/event-02.webp", "/images/events/event-03.webp", "/images/events/event-04.webp", "/images/events/event-05.webp", "/images/events/event-06.webp"],
   },
+  "live-streaming": {
+    hero: "/images/events/event-05.webp",
+    gallery: ["/images/events/event-02.webp", "/images/events/event-04.webp", "/images/events/event-01.webp", "/images/events/event-06.webp"],
+  },
   "event-video-editing": {
     hero: "/images/events/event-03.webp",
     gallery: ["/images/events/event-01.webp", "/images/events/event-05.webp", "/images/events/event-06.webp"],
@@ -273,6 +277,39 @@ const SERVICE_HOWTO: Record<string, { name: string; description: string; totalTi
 };
 
 const SERVICE_DATA: Record<string, { title: string; description: string; includes: string[]; faqs: { q: string; a: string }[] }> = {
+  // Live streaming / multi-camera match coverage.
+  //
+  // Claims here are capability-only by owner instruction (10 Aug 2026): no
+  // venue, no partner and no tournament is named anywhere on this page. Delivery
+  // is a Backyard + partner arrangement, so the copy describes what is produced
+  // rather than asserting who contracts or who owns the equipment. Do not add
+  // stadium names, client names or "official broadcaster" style language without
+  // written confirmation — same rule as the GCAA wording in lib/structuredData.ts.
+  "live-streaming": {
+    title: "Live Streaming & Match Coverage",
+    description: "Backyard Studio Official produces live multi-camera coverage across the UAE — sport, conferences, awards, product launches and religious and community events. Vision mixing, replays, lower-thirds and commentary audio are handled on site, and the programme feed goes out to YouTube, Facebook, LinkedIn, Instagram or any custom RTMP destination you nominate.\n\nSports is where live production is least forgiving. A match has no second take: the run of play dictates the cut, the scoreboard and clock have to be right, and the stream has to hold for hours without a drop. We plan for that — redundant encoders, bonded connectivity where venue internet is unreliable, and a director calling the cut live rather than an unattended camera pointed at the pitch.\n\nEvery live production is also a content production. The same feed yields the full-match archive, a highlights package, and vertical cutdowns for Instagram and TikTok — so a single fixture becomes a week of social content rather than one broadcast that disappears when the stream ends.\n\nPricing starts at AED 20,000 and moves with three things: the number of cameras and how they are switched, the crew required on site, and the delivery format — a single-camera webinar and a multi-camera match day with replays and graphics are very different productions. Every quote is itemised in writing before booking.",
+    includes: [
+      "Multi-camera live switching with a director calling the cut",
+      "Live graphics — scoreboard, clock, lower-thirds, sponsor bugs",
+      "Instant replay for sport",
+      "Commentary and pitch-side audio capture",
+      "Redundant encoding and backup connectivity",
+      "Simultaneous output to YouTube, Facebook, LinkedIn or custom RTMP",
+      "Full-match archive recording",
+      "Post-match highlights package",
+      "Vertical cutdowns for Instagram and TikTok",
+      "On-site technical direction and rehearsal",
+    ],
+    faqs: [
+      { q: "How much does live streaming cost in Dubai and the UAE?", a: "Live streaming and match coverage from Backyard Studio Official starts at AED 20,000. The final figure depends on three things: how many cameras and how they are switched, the crew needed on site, and the delivery format — a single-camera webinar and a multi-camera match day with replays and graphics are very different productions. Every quote is itemised in writing before booking." },
+      { q: "Do you cover live sports and cricket matches?", a: "Yes. We produce live multi-camera coverage of cricket and other sport at UAE venues, including vision mixing, instant replay, scoreboard and clock graphics, and commentary audio. Match coverage is delivered together with a specialist broadcast partner, so a full match-day setup is available rather than a single locked-off camera." },
+      { q: "What happens if the venue internet fails mid-match?", a: "We plan for it rather than hope. Productions run redundant encoders and, where venue connectivity is unreliable, bonded cellular as a fallback. The match is also recorded locally in full, so even in a total connectivity failure you still receive the complete archive and the highlights package." },
+      { q: "Can you stream to more than one platform at the same time?", a: "Yes. The programme feed can go simultaneously to YouTube, Facebook, LinkedIn and Instagram, plus any custom RTMP destination such as a federation portal, an OTT platform or a client website player." },
+      { q: "Do we get anything besides the live stream?", a: "Yes, and this is usually where most of the value sits. Every live production also delivers the full-length archive, an edited highlights package, and vertical cutdowns for Instagram and TikTok — so one fixture becomes a week of social content instead of a broadcast that disappears when the stream ends." },
+      { q: "How far in advance should live coverage be booked?", a: "Two to four weeks for a standard multi-camera production, and earlier for peak season (October to April) or where venue accreditation and rigging access need arranging. A site visit before the fixture is standard on anything larger than a two-camera setup." },
+      { q: "Do you cover events outside Dubai?", a: "Yes — all seven emirates at the same rates, with no travel loading. Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah and Umm Al Quwain are all covered." },
+    ],
+  },
   "event-shoots": {
     title: "Event Shoots",
     description: "Backyard Studio Official captures your events with the same cinematic intensity we bring to major film productions. From intimate executive dinners to 5,000-person conferences in Dubai World Trade Centre, every moment is documented with purpose, precision, and a keen storytelling eye.\n\nOur event teams are UAE-native, meaning we know the venues, the light conditions, and the cultural nuances that make event coverage here different from anywhere else in the world. We operate with full redundancy, always two camera operators minimum, so nothing is ever missed.",
@@ -652,10 +689,30 @@ export function generateStaticParams() {
     "car-commercials", "corporate-brand-films", "documentary",
     "hotel-photography", "reels-production", "brand-events",
     "pre-post-production",
+    // Phase 4 — live production. Added Aug 2026 when live multi-camera match
+    // coverage became an active service. Two earlier sports-broadcast blog
+    // posts were retired during the cannibalisation cleanup; both now 301 here
+    // so the demand lands on one strong page instead of two competing ones.
+    "live-streaming",
   ].map((slug) => ({ slug }));
 }
 
 const SERVICE_METADATA: Record<string, { title: string; description: string; keywords: string[] }> = {
+  "live-streaming": {
+    // Leads with the price, like /pricing and the homepage. Published rates are
+    // the differentiator nobody else in this SERP offers, and live production is
+    // a category buyers expect to be quoted privately — so stating a number is
+    // the strongest possible signal here.
+    title: "Live Streaming Dubai & UAE | Match Coverage From AED 20,000",
+    description: "Live multi-camera streaming and match coverage across the UAE from AED 20,000 — vision mixing, instant replay, live graphics and commentary audio. Published rates, quote in 2 hours.",
+    keywords: [
+      "live streaming Dubai", "live streaming company Dubai", "live streaming services UAE",
+      "live match coverage UAE", "cricket live streaming UAE", "sports live streaming Dubai",
+      "multi camera live production Dubai", "event live streaming Dubai",
+      "webinar live streaming Dubai", "conference live streaming UAE",
+      "live broadcast production Dubai", "RTMP streaming Dubai",
+    ],
+  },
   "event-shoots": {
     title: "Event Shoots Dubai | Best Event Videographer & Photographer UAE — Backyard Studio",
     description: "Dubai's best event shoots company. Professional event photography and videography for corporate events, conferences, product launches, and weddings across all UAE emirates. 48-hour delivery guaranteed.",

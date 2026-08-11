@@ -22,6 +22,8 @@ const SERVICES = [
   "car-commercials", "corporate-brand-films", "documentary",
   "hotel-photography", "reels-production", "brand-events",
   "pre-post-production",
+  // Live production — added Aug 2026 with the live match coverage service.
+  "live-streaming",
 ];
 
 const CITIES = [
