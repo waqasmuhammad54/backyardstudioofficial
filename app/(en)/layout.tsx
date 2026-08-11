@@ -85,11 +85,15 @@ export const metadata: Metadata = {
   // AND Yandex instantly rather than waiting to be crawled.
   verification: {
     google: "gTxfmwhvhvy9X-uOewdWpTtYQsHAbst-wGFZgwLx4RE",
-    // yandex: "PASTE_YANDEX_CODE_HERE",
-    other: {
-      // "msvalidate.01": "PASTE_BING_CODE_HERE",
-      // "baidu-site-verification": "PASTE_BAIDU_CODE_HERE",
-    },
+    // Yandex — meta-tag method, taken from webmaster.yandex.com access-rights
+    // page 10 Aug 2026. Chosen over the DNS TXT record because DNS propagation
+    // can take 24h and this verifies in minutes. Do not remove after
+    // verification: Yandex re-checks periodically and drops the site if the tag
+    // disappears.
+    yandex: "7c30f5c64af6c8db",
+    // Bing is already verified via the Google Search Console import, so no
+    // msvalidate.01 tag is needed. Baidu is not registered — see the note in
+    // the multi-engine section of the handoff before adding it.
   },
   alternates: {
     canonical: "https://www.backyardstudioofficial.com",
