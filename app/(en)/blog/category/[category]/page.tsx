@@ -2,12 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import {
-  CATEGORY_SLUGS,
-  CATEGORY_META,
-  getPostsByCategory,
-  type CategorySlug,
-} from "@/lib/blogPosts";
+import { CATEGORY_SLUGS, CATEGORY_META, getPostsByCategory, type CategorySlug, postDate, postExcerpt } from "@/lib/blogPosts";
 
 const BASE = "https://www.backyardstudioofficial.com";
 
@@ -154,10 +149,10 @@ export default function CategoryPage({ params }: Props) {
                       {post.title}
                     </h2>
                     <p className="text-[#666] text-xs leading-relaxed line-clamp-2 mb-3">
-                      {post.excerpt}
+                      {postExcerpt(post)}
                     </p>
                     <div className="flex items-center gap-3 text-[10px] text-[#555]">
-                      <span>{post.date}</span>
+                      <span>{postDate(post)}</span>
                       <span>{post.readTime} read</span>
                     </div>
                   </div>

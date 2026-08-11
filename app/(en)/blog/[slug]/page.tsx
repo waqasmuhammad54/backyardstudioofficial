@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Clock, Calendar, Share2 } from "lucide-react";
-import { BLOG_POSTS, getBlogPost, getRelatedPosts } from "@/lib/blogPosts";
+import { BLOG_POSTS, getBlogPost, getRelatedPosts, postDate, postExcerpt } from "@/lib/blogPosts";
 import { getDynamicPost, getDynamicPosts } from "@/lib/dynamicPosts";
 import { faqSchema, articleSchema, breadcrumbSchema, speakableSchema } from "@/lib/structuredData";
 
@@ -175,7 +175,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           </Link>
 
           <div className="flex flex-wrap items-center gap-4 text-[#666] text-xs mb-6 pb-6 border-b border-[#2a2a2a]">
-            <span className="flex items-center gap-1"><Calendar size={11} /> {post.date}</span>
+            <span className="flex items-center gap-1"><Calendar size={11} /> {postDate(post)}</span>
             <span className="flex items-center gap-1"><Clock size={11} /> {post.readTime} read</span>
             <span className="text-[#a0a0a0]">By {post.author}</span>
             <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer"
@@ -188,7 +188,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
             <div className="flex-1 min-w-0">
               <p className="text-[#c0c0c0] text-lg leading-relaxed mb-8 pl-5 italic"
                 style={{ borderLeft: "2px solid #e8c547" }}>
-                {post.excerpt}
+                {postExcerpt(post)}
               </p>
 
               <div className="prose-article" dangerouslySetInnerHTML={{ __html: post.content }} />

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Clock, ArrowRight } from "lucide-react";
-import { BLOG_POSTS, CATEGORY_SLUGS, CATEGORY_META } from "@/lib/blogPosts";
+import { BLOG_POSTS, CATEGORY_SLUGS, CATEGORY_META, postDate, postExcerpt } from "@/lib/blogPosts";
 import { RETIRED_BLOG_SLUGS } from "@/lib/retiredSlugs";
 import { getDynamicPosts } from "@/lib/dynamicPosts";
 import { breadcrumbSchema } from "@/lib/structuredData";
@@ -50,8 +50,11 @@ export default function BlogPage() {
   const allPosts = [...getDynamicPosts(), ...BLOG_POSTS]
     .filter((p) => !RETIRED_BLOG_SLUGS.has(p.slug))
     .sort((a, b) => {
-    const aTime = Date.parse(a.dateISO || a.date);
-    const bTime = Date.parse(b.dateISO || b.date);
+    // `date` is optional (16 posts carry only dateISO), so coalesce to "" —
+    // Date.parse("") is NaN, which the guard below already handles by sorting
+    // the post last rather than throwing or landing it at epoch 0.
+    const aTime = Date.parse(a.dateISO || a.date || "");
+    const bTime = Date.parse(b.dateISO || b.date || "");
     return (Number.isNaN(bTime) ? 0 : bTime) - (Number.isNaN(aTime) ? 0 : aTime);
   });
   const featured = allPosts[0];
@@ -103,7 +106,7 @@ export default function BlogPage() {
               <h2 className="text-white font-bold text-2xl leading-snug mb-3 group-hover:text-[#e8c547] transition-colors">
                 {featured.title}
               </h2>
-              <p className="text-[#a0a0a0] text-sm leading-relaxed mb-6">{featured.excerpt}</p>
+              <p className="text-[#a0a0a0] text-sm leading-relaxed mb-6">{postExcerpt(featured)}</p>
               <span className="inline-flex items-center gap-1 text-[#e8c547] text-sm font-semibold">
                 Read Article <ArrowRight size={14} />
               </span>
@@ -139,12 +142,12 @@ export default function BlogPage() {
                 </div>
                 <div className="p-5">
                   <div className="flex items-center gap-2 text-[#666] text-xs mb-3">
-                    <span>{post.date}</span><span>&#183;</span><Clock size={10} /><span>{post.readTime}</span>
+                    <span>{postDate(post)}</span><span>&#183;</span><Clock size={10} /><span>{post.readTime}</span>
                   </div>
                   <h3 className="text-white font-semibold text-sm leading-snug mb-2 group-hover:text-[#e8c547] transition-colors line-clamp-2">
                     {post.title}
                   </h3>
-                  <p className="text-[#666] text-xs leading-relaxed line-clamp-2">{post.excerpt}</p>
+                  <p className="text-[#666] text-xs leading-relaxed line-clamp-2">{postExcerpt(post)}</p>
                 </div>
               </Link>
             ))}

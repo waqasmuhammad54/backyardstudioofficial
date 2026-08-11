@@ -5,6 +5,35 @@ import { RETIRED_BLOG_SLUGS } from "@/lib/retiredSlugs";
  * Each post is a self-contained SEO article targeting high-volume UAE keywords
  */
 
+/**
+ * A single FAQ entry.
+ *
+ * Two shapes exist in this file and both are load-bearing: 521 entries use
+ * `question`/`answer` and 90 use `q`/`a`. The type previously declared only the
+ * first, which meant 90 real entries were type errors that nobody saw — the
+ * Next build skips type validation, so they never failed CI.
+ *
+ * That silence had a cost. `faqSchema()` and the blog template read only
+ * `.question`/`.answer`, so those 90 rendered as empty bordered boxes to
+ * visitors and emitted `{"@type":"Question","acceptedAnswer":{"@type":"Answer"}}`
+ * — hollow FAQPage markup — on 15 live pages. Both now read either shape.
+ *
+ * Describing both here makes the type honest, so the remaining errors in this
+ * file are real signals rather than noise. Use the `faqQuestion` / `faqAnswer`
+ * helpers below rather than reading the fields directly.
+ */
+export type BlogFaq =
+  | { question: string; answer: string; q?: never; a?: never }
+  | { q: string; a: string; question?: never; answer?: never };
+
+export function faqQuestion(f: BlogFaq): string {
+  return ("question" in f ? f.question : f.q) ?? "";
+}
+
+export function faqAnswer(f: BlogFaq): string {
+  return ("answer" in f ? f.answer : f.a) ?? "";
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -12,15 +41,56 @@ export interface BlogPost {
   metaDescription: string;
   keywords: string[];
   category: string;
-  date: string;
   dateISO: string;
-  readTime: string;
+  /**
+   * `readTime` is the rendered field — a string like "8 min".
+   *
+   * 16 entries instead carry `readingTime` as a bare number (7, 6, …). Nothing
+   * in the codebase reads `readingTime`, so those 16 posts silently render no
+   * read time at all. Typed as `number` because that is what the data actually
+   * is; typing it `string` just moved the lie. Prefer `readTime` in new posts —
+   * `readingTime` is kept only so the existing data typechecks honestly, and is
+   * a candidate for a data migration later.
+   */
+  readTime?: string;
+  readingTime?: number;
   image: string;
-  excerpt: string;
+  /**
+   * `date` is the human string ("May 20, 2026"); `excerpt` is the card blurb.
+   *
+   * 16 posts have neither — they carry only `dateISO` and `metaDescription`.
+   * Because the old type declared both as required and the build skips type
+   * validation, nothing flagged it, and those 16 pages have been rendering a
+   * blank date and a blank excerpt on /blog, /blog/[slug] and the category
+   * hubs. Marked optional so the type is honest; read them through `postDate()`
+   * and `postExcerpt()` below, which derive from the fields that do exist.
+   */
+  date?: string;
+  excerpt?: string;
   author: string;
   content: string; // HTML content
-  faqs: { question: string; answer: string }[];
+  faqs: BlogFaq[];
   relatedSlugs: string[];
+}
+
+/**
+ * Display date. Falls back to formatting `dateISO`, which every post has.
+ * Never fabricates a date — if there is genuinely no date data, returns "".
+ */
+export function postDate(p: Pick<BlogPost, "date" | "dateISO">): string {
+  if (p.date) return p.date;
+  if (!p.dateISO) return "";
+  const d = new Date(p.dateISO);
+  if (Number.isNaN(d.getTime())) return "";
+  return d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+}
+
+/**
+ * Card / preview blurb. Falls back to `metaDescription`, which is written for
+ * exactly this purpose and which all 16 affected posts have.
+ */
+export function postExcerpt(p: Pick<BlogPost, "excerpt" | "metaDescription">): string {
+  return p.excerpt || p.metaDescription || "";
 }
 
 export const BLOG_POSTS: BlogPost[] = [
