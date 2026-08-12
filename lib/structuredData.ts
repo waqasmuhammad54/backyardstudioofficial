@@ -136,9 +136,16 @@ export function organizationSchema() {
     sameAs: BRAND.sameAs,
     // Named client relationships. This is the strongest E-E-A-T signal available:
     // verifiable brands, not anonymous "Fortune 500 client" claims.
+    //
+    // `url` is emitted where the client has a public site. That upgrades each
+    // entry from a bare string to a resolvable entity — search engines and LLMs
+    // can follow it, confirm the business exists, and connect the two entities.
+    // A name alone is an assertion; a name with a URL is checkable, which is the
+    // whole difference for E-E-A-T and for being cited by an answer engine.
     client: CLIENTS.map((c) => ({
       "@type": "Organization",
       name: c.name,
+      ...(c.website ? { url: c.website } : {}),
     })),
     // NOTE: hasCredential for a GCAA Drone Operator License was removed deliberately
     // (6 Aug 2026, owner instruction) and must stay out. Asserting an aviation credential

@@ -21,12 +21,72 @@ export type Client = {
     | "Industrial"
     | "Government"
     | "Automotive"
-    | "Technology";
+    | "Technology"
+    | "Legal"
+    | "Real Estate"
+    | "Sports & Fitness";
   /** Region the engagement sits in. */
   region: "UAE" | "International";
+  /**
+   * Client website, where one exists and the relationship is current.
+   *
+   * Only set this for clients happy to be linked. An agency linking to the
+   * clients whose work it produced is ordinary editorial practice — it is how a
+   * portfolio has always worked, and it is verifiable, which is exactly what
+   * makes it an E-E-A-T signal rather than an unsupported claim.
+   *
+   * The reciprocal credit link ("Video production by Backyard Studio Official")
+   * belongs on the CLIENT's site. That direction is attribution and is the one
+   * that carries weight here. Do not turn this into sitewide footer links in
+   * both directions across every page — a handful of contextual, relevant links
+   * reads as a real relationship; 400 boilerplate links reads as an exchange.
+   */
+  website?: string;
+  /** What was produced. Kept short and factual — no superlatives. */
+  work?: string;
 };
 
 export const CLIENTS: Client[] = [
+  // ── UAE — current production clients (linked) ────────────────
+  // These are live engagements where Backyard produces the video and web
+  // content. Linked because the work is real and verifiable; the corresponding
+  // "Video production by Backyard Studio Official" credit sits on their side.
+  {
+    name: "Dubai Legal Expert",
+    sector: "Legal",
+    region: "UAE",
+    website: "https://dubailegalexpert.com",
+    work: "Law firm brand film and practice-area video for a UAE firm handling arbitration, criminal defence, family, property and debt matters.",
+  },
+  {
+    name: "The Deedbox",
+    sector: "Legal",
+    region: "UAE",
+    website: "https://thedeedbox.com",
+    work: "Explainer and service video for a UAE wills and powers-of-attorney service.",
+  },
+  {
+    name: "Distress Property Finder",
+    sector: "Real Estate",
+    region: "UAE",
+    website: "https://distresspropertyfinder.com",
+    work: "Property listing photography and walkthrough video for distressed and off-plan resale stock in Dubai.",
+  },
+  {
+    name: "Judhur Al Bait",
+    sector: "Real Estate",
+    region: "UAE",
+    website: "https://judhuralbait.com",
+    work: "Listing photography and property video for luxury, residential and commercial sales and rentals.",
+  },
+  {
+    name: "DKing Combat",
+    sector: "Sports & Fitness",
+    region: "UAE",
+    website: "https://dkingcombat.com",
+    work: "Training and promotional video for a Dubai self-defence, Krav Maga and combat sports gym.",
+  },
+
   // ── UAE / Gulf ──────────────────────────────────────────────
   { name: "du",                      sector: "Telecom",          region: "UAE" },
   { name: "Etisalat",                sector: "Telecom",          region: "UAE" },

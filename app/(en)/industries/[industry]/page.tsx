@@ -93,6 +93,14 @@ const INDUSTRY_DATA: Record<string, {
       { q: "Can you shoot properties across all UAE emirates?", a: "Yes. We cover all 7 UAE emirates with our own crew and GCAA-licensed aerial coverage. We shoot regularly in Ras Al Khaimah, Fujairah, Ajman, and UAQ as well as the primary Dubai and Abu Dhabi markets. No travel premium for UAE locations." },
       { q: "Do you produce content for off-plan property launches?", a: "Yes. Off-plan developer content is a core part of our real estate production work. We produce render-integrated walkthrough videos, show apartment photography programmes, community lifestyle content, and investor event films. We work with developers throughout the build cycle — from launch to handover — providing consistent content as the project progresses." },
       { q: "Can you optimise photography for Bayut and Property Finder?", a: "Yes. We understand the specific image requirements and visual best practices that maximise listing performance on Bayut, Property Finder, and Rightmove Overseas. Main listing images, secondary images, and virtual tour sequences each have different requirements and we plan and deliver for all of them." },
+      // Partner reference. Editorial and topical: distressed and off-plan resale
+      // stock is a real segment of the Dubai market our property clients work in,
+      // and the question below is one agents actually ask. Placed in body content
+      // rather than a sitewide footer on purpose — a relevant in-context link is
+      // what search engines and LLMs read as a genuine relationship, whereas a
+      // boilerplate link repeated across 400+ pages reads as an exchange. Keep it
+      // to one link per topic and only where it genuinely helps the reader.
+      { q: "Do you shoot distressed, bank-owned or off-plan resale properties?", a: "Yes. Distressed and motivated-seller stock is a real segment of the Dubai market and it needs faster, leaner content than a standard listing — usually a same-day photo set and a short walkthrough rather than a full production, because these units move quickly and the marketing window is short. Specialist portals such as Distress Property Finder (distresspropertyfinder.com) track this end of the market, and agents working those listings typically want 24-hour turnaround. We price these as standard apartment or villa shoots with rush delivery rather than as a bespoke package." },
     ],
     relatedLocations: [{ label: "Dubai Properties", href: "/locations/dubai" },{ label: "Abu Dhabi Properties", href: "/locations/abu-dhabi" },{ label: "Sharjah Properties", href: "/locations/sharjah" }],
     relatedPosts: [{ title: "Real Estate Photography Guide Dubai 2026", href: "/blog/real-estate-photography-dubai-2026" },{ title: "Best Production Companies in Dubai 2026", href: "/blog/best-production-companies-dubai-2026" }],

@@ -308,6 +308,11 @@ const SERVICE_DATA: Record<string, { title: string; description: string; include
       { q: "Do we get anything besides the live stream?", a: "Yes, and this is usually where most of the value sits. Every live production also delivers the full-length archive, an edited highlights package, and vertical cutdowns for Instagram and TikTok — so one fixture becomes a week of social content instead of a broadcast that disappears when the stream ends." },
       { q: "How far in advance should live coverage be booked?", a: "Two to four weeks for a standard multi-camera production, and earlier for peak season (October to April) or where venue accreditation and rigging access need arranging. A site visit before the fixture is standard on anything larger than a two-camera setup." },
       { q: "Do you cover events outside Dubai?", a: "Yes — all seven emirates at the same rates, with no travel loading. Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah and Umm Al Quwain are all covered." },
+      // Partner reference. Combat sports is a genuine live-production category —
+      // fight cards need a different camera plan to field sport — and this is a
+      // real Dubai gym we can point people to. In body content, one link, where
+      // it answers the question being asked. Not a footer link.
+      { q: "Do you cover combat sports and fight nights?", a: "Yes, and it needs a different camera plan to field sport. A fight card is close-quarters and unpredictable: you want cage or ringside positions, a high wide for context, and a director who knows when a round is about to turn. We also cover the walkouts and corner work, which is usually the footage that performs best afterwards. Dubai has a growing grassroots scene around gyms such as DKing Combat (dkingcombat.com), and smaller shows benefit most from live coverage because it is what turns a local card into something a wider audience can follow." },
     ],
   },
   "event-shoots": {
