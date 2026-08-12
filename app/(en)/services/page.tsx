@@ -78,6 +78,12 @@ const SERVICES = [
   { icon: MapPin,       slug: "wedding-photography-abu-dhabi",  label: "Wedding Photographer Abu Dhabi",  desc: "Emirates Palace, Saadiyat & Yas Island wedding coverage at Dubai prices — zero travel fees." },
   // Photography & Videography Verticals
   { icon: Camera,       slug: "event-videography",      label: "Event Videography & Photography",        desc: "Full-service event coverage — galas, conferences, brand launches, and weddings across all UAE emirates." },
+  // GSC 12 Aug 2026: /services/live-streaming was "Discovered - currently not
+  // indexed" with no referring page detected. It was in the sitemap and in the
+  // footer, but missing from this hub — and a footer link alone is not enough
+  // signal for Google to spend crawl budget indexing a new page. This entry is
+  // the topical link that was missing.
+  { icon: Tv,           slug: "live-streaming",          label: "Live Streaming & Match Coverage",        desc: "Multi-camera live streaming and full match coverage across the UAE, from AED 20,000 depending on crew and format." },
   { icon: Image,        slug: "photo-shoots",            label: "Wedding & Photo Shoots",                 desc: "Dubai's best wedding shoot company. Pre-wedding, editorial, and lifestyle photography across UAE." },
   { icon: Smartphone,   slug: "social-media-shoots",     label: "Social Media Videography & Photography", desc: "Combined photo + video shoot days for Instagram, TikTok and YouTube — all assets in one session." },
   { icon: Car,          slug: "automotive",              label: "Automotive Videography & Photography",   desc: "Studio and on-road car shoots, dynamic footage, and GCAA drone aerials for UAE auto brands." },
@@ -113,7 +119,7 @@ const SERVICES = [
 const CATEGORIES = [
   {
     label: "Photography & Videography",
-    slugs: ["event-videography","photo-shoots","social-media-shoots","automotive","real-estate","corporate-videography","food","product-shoots","fashion-shoots","travel-lifestyle","hotel-photography"],
+    slugs: ["event-videography","live-streaming","photo-shoots","social-media-shoots","automotive","real-estate","corporate-videography","food","product-shoots","fashion-shoots","travel-lifestyle","hotel-photography"],
   },
   {
     label: "Commercial Production",
