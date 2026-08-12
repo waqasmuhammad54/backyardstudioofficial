@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowLeft, Check, ArrowUpRight } from "lucide-react";
 import VimeoEmbed from "@/components/shared/VimeoEmbed";
 import { breadcrumbSchema, faqSchema, servicePageSchema, howToSchema, speakableSchema } from "@/lib/structuredData";
+import { stripBrandSuffix, withBrand } from "@/lib/seoTitle";
 
 // Vimeo video embeds per service slug
 const SERVICE_VIDEOS: Record<string, { id: string; title: string; poster: string }> = {
@@ -870,12 +871,17 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const pageUrl = `https://www.backyardstudioofficial.com/services/${params.slug}`;
   if (custom) {
     return {
-      title: custom.title,
+      // SERVICE_METADATA titles were authored with the brand already appended,
+      // and the (en) layout template appends it again -> 99-char titles like
+      // "Event Shoots Dubai | ... UAE - Backyard Studio | Backyard Studio",
+      // truncated by Google at ~60. Strip here so the brand lands exactly once.
+      title: stripBrandSuffix(custom.title),
       description: custom.description,
       keywords: custom.keywords,
       alternates: { canonical: pageUrl },
       openGraph: {
-        title: custom.title,
+        // openGraph does not inherit the template, so add the brand explicitly.
+        title: withBrand(custom.title),
         description: custom.description,
         url: pageUrl,
         siteName: "Backyard Studio Official",
@@ -894,7 +900,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   const s = SERVICE_DATA[params.slug] || DEFAULT_SERVICE;
   const fmtSlug = params.slug.replace(/-/g, " ");
   return {
-    title: `${s.title} in Dubai UAE | Backyard Studio Official`,
+    title: `${s.title} in Dubai UAE`,
     description: `Professional ${fmtSlug} services across Dubai, Abu Dhabi and all UAE. ${s.description.substring(0, 120)}...`,
     alternates: { canonical: pageUrl },
     openGraph: {

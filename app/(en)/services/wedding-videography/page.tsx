@@ -8,7 +8,7 @@ import { breadcrumbSchema, faqSchema, servicePageSchema } from "@/lib/structured
 const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-videography";
 
 export const metadata: Metadata = {
-  title: "Wedding Videographer Dubai | Cinematic Wedding Videography UAE — Backyard Studio Official",
+  title: "Wedding Videographer Dubai | Cinematic Wedding Films",
   description:
     "Wedding videography in Dubai with coordinated photography and video crews. Current combined packages start from AED 7,500, with scope confirmed in writing.",
   keywords: [

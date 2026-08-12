@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Backyard Studio Official",
+  title: "Privacy Policy",
   description: "Privacy Policy for Backyard Studio Official — Dubai's leading production studio. How we collect, use, and protect your personal information.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/privacy-policy" },
   robots: { index: true, follow: true },

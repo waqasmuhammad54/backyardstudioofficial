@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { stripBrandSuffix, withBrand } from "@/lib/seoTitle";
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 
@@ -2606,12 +2607,15 @@ export async function generateMetadata({
   const data = PAGES[key];
   if (!data) notFound();
   const pageUrl = `https://www.backyardstudioofficial.com/locations/${params.city}/${params.service}`;
+  // Bare string -> the layout template appends " | Backyard Studio" exactly once.
+  const title = stripBrandSuffix(data.title);
   return {
-    title: data.title,
+    title,
     description: data.metaDescription,
     alternates: { canonical: pageUrl },
     openGraph: {
-      title: data.title,
+      // openGraph does NOT inherit the layout template, so the brand is added here.
+      title: withBrand(data.title),
       description: data.metaDescription,
       url: pageUrl,
       siteName: "Backyard Studio Official",

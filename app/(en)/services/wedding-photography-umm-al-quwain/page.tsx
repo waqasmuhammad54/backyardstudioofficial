@@ -7,7 +7,7 @@ import { breadcrumbSchema, faqSchema, servicePageSchema, speakableSchema } from 
 const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photography-umm-al-quwain";
 
 export const metadata: Metadata = {
-  title: "Wedding Photographer Umm Al Quwain | Intimate Beach Weddings from AED 7,500 — Backyard Studio Official",
+  title: "Wedding Photographer Umm Al Quwain | AED 7,500",
   description:
     "Wedding photographer in Umm Al Quwain — intimate beach ceremonies, mangrove lagoon couple shoots & family villa weddings. Photo + video from AED 7,500, licensed aerial partners, no travel fees, 48-hour delivery.",
   keywords: [

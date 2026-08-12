@@ -7,7 +7,7 @@ const BASE = "https://www.backyardstudioofficial.com";
 const PAGE_URL = `${BASE}/uae-video-production-cost-report-2026`;
 
 export const metadata: Metadata = {
-  title: "UAE Video Production Cost Report 2026 | Backyard Studio",
+  title: "UAE Video Production Cost Report 2026",
   description:
     "What video production actually costs in the UAE in 2026 — rate bands by format, where the money goes inside a budget, UAE-specific cost drivers, and seasonal pricing. Free to cite.",
   keywords: [

@@ -7,7 +7,7 @@ import { breadcrumbSchema, faqSchema, servicePageSchema, speakableSchema, itemLi
 const PAGE_URL = "https://www.backyardstudioofficial.com/services/flying-dress-photoshoot";
 
 export const metadata: Metadata = {
-  title: "Flying Dress Photoshoot Dubai | Desert & Beach from AED 1,499 — Backyard Studio Official",
+  title: "Flying Dress Photoshoot Dubai | From AED 1,499",
   description:
     "Flying dress photoshoot in Dubai from AED 1,499 — flowing dress included, desert dunes, Burj Khalifa & beach locations, golden-hour timing, 50+ edited photos in 48 hours. Dubai's iconic flying dress experience for tourists, brides & birthdays.",
   keywords: [

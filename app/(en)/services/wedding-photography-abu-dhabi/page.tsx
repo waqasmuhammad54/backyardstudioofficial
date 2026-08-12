@@ -7,7 +7,7 @@ import { breadcrumbSchema, faqSchema, servicePageSchema, speakableSchema } from 
 const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photography-abu-dhabi";
 
 export const metadata: Metadata = {
-  title: "Wedding Photographer Abu Dhabi | Photo + Video from AED 7,500 — Backyard Studio Official",
+  title: "Wedding Photographer Abu Dhabi | From AED 7,500",
   description:
     "Wedding photographer in Abu Dhabi — photography & videography packages from AED 7,500 with no travel fees. Emirates Palace, Saadiyat, Yas Island & bridal hall coverage. licensed aerial partners, same-day teaser, 48-hour delivery. Emirati, Arabic, Indian & Western weddings.",
   keywords: [

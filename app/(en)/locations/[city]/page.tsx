@@ -244,7 +244,9 @@ export async function generateMetadata({ params }: { params: { city: string } })
   const data = CITY_DATA[params.city] || DEFAULT_CITY(params.city);
   const pageUrl = `https://www.backyardstudioofficial.com/locations/${params.city}`;
   return {
-    title: `Video & Photography Production in ${data.name}, UAE | Backyard Studio Official`,
+    // Bare string: the (en) layout template appends " | Backyard Studio".
+    // Carrying the brand here too produced "... | Backyard Studio Official | Backyard Studio".
+    title: `Video & Photography Production in ${data.name}, UAE`,
     description: `Professional video production, event shoots, weddings, DVCs, Instagram Reels & drone in ${data.name}. Backyard Studio Official covers all areas of ${data.name} — fast turnaround, cinematic results. Free quote in 2 hours.`,
     keywords: [`video production ${data.name}`, `event videography ${data.name}`, `DVC ${data.name}`, `Instagram Reels ${data.name} UAE`, `wedding photography ${data.name}`, `production company ${data.name}`],
     alternates: { canonical: pageUrl },

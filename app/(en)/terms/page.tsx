@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | Backyard Studio Official",
+  title: "Terms & Conditions",
   description: "Terms and Conditions for Backyard Studio Official — Dubai production studio. Our service terms, payment, intellectual property, and cancellation policy.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/terms" },
   robots: { index: true, follow: true },
