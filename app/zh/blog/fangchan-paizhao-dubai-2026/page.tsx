@@ -42,7 +42,7 @@ export default function RealEstateZhPage() {
       },
       {
         "@type": "Question",
-        name: "你们有GCAA认证的无人机拍摄许可吗？",
+        name: "无人机航拍是否在GCAA许可下执行？",
         acceptedAnswer: {
           "@type": "Answer",
           text: "有。所有航拍作业均在GCAA（阿联酋民航局）认证下执行，所有航拍项目均依法合规操作。在迪拜进行无人机拍摄必须持有相关资质，选择未经认证的飞手存在法律风险，请务必向拍摄团队索取证件。",
@@ -148,7 +148,7 @@ export default function RealEstateZhPage() {
         <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem", marginBottom: "3rem" }}>
           {[
             { q: "迪拜房产摄影收费标准是多少？", a: "普通公寓从AED 2,500起，豪华别墅完整套餐在AED 7,500至AED 12,000之间。" },
-            { q: "有GCAA认证无人机拍摄资质吗？", a: "有。我们所有无人机拍摄均持GCAA认证，完全合法合规。" },
+            { q: "有GCAA认证无人机拍摄资质吗？", a: "有。航拍均在GCAA许可下执行，完全合法合规。" },
             { q: "多久能收到照片？", a: "标准48小时交付。急件可安排24小时加急，需额外收费。" },
             { q: "视频导览比照片更有效吗？", a: "两者结合效果最佳。数据显示附有视频的房源询盘量提升403%。" },
           ].map(({ q, a }) => (
