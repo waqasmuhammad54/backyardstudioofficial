@@ -526,7 +526,17 @@ export default function BlogNewPage() {
         (typeof body?.detail === "string" ? body.detail : "") ||
         `HTTP ${res.status}`;
       setUiState("error");
-      setMsg(`${body.error || "Image upload failed"} — ${detail}`);
+      // "Bad credentials" is GitHub's 401. It means the token expired or was
+      // revoked — nothing to do with this image — and publishing a post is
+      // broken too, so say that rather than leaving it to be rediscovered.
+      const isAuth = /bad credentials|401|expired|revoked/i.test(detail) || body?.status === 401;
+      setMsg(
+        isAuth
+          ? "GitHub rejected the access token (expired or revoked). Publishing posts is affected too, not just images. " +
+              "Fix: create a new GitHub token with 'Contents: Read and write' on this repo, replace GITHUB_TOKEN in Vercel → Settings → Environment Variables (Production), then redeploy. " +
+              "Check /api/health/github to confirm it is working."
+          : `${body.error || "Image upload failed"} — ${detail}`
+      );
     }
   }
 
