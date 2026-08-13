@@ -8,7 +8,7 @@ const SERVICES_AR = [
   { label: "إنتاج الإعلانات والDVC",      href: "/ar/services/dvcs"                },
   { label: "إنتاج ريلز انستقرام",         href: "/ar/services/reels"               },
   { label: "محتوى وسائل التواصل",         href: "/ar/services/social-media-content" },
-  { label: "تصوير جوي بالطائرة المسيّرة", href: "/ar/services/aerial-drone"        },
+  { label: "تصوير جوي بالطائرة المسيّرة", href: "/ar/services"                     },
   { label: "الأفلام المؤسسية",            href: "/ar/services/corporate-films"      },
   { label: "تصوير العقارات",             href: "/ar/services/real-estate"          },
   { label: "تصوير المنتجات",             href: "/ar/services/product-shoots"       },
@@ -125,7 +125,7 @@ export default function ArFooter() {
             {/* Credentials */}
             <div className="flex flex-col gap-2 mb-6">
               {[
-                "خدمة تصوير جوي معتمدة من GCAA متاحة",
+                "خدمة تصوير جوي متاحة",
                 "عمليات في الإمارات منذ 2023",
                 "أكثر من 2,400 مشروع منجز",
                 "تغطية جميع الإمارات السبع",

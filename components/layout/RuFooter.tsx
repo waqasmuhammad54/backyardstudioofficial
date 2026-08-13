@@ -8,7 +8,7 @@ const SERVICES_RU = [
   { label: "Видеореклама (DVC)",          href: "/ru/services/dvcs"                },
   { label: "Reels и короткое видео",      href: "/ru/services/reels"               },
   { label: "Контент для соцсетей",        href: "/ru/services/social-media-content" },
-  { label: "Аэросъёмка дроном (GCAA)",    href: "/ru/services/aerial-drone"        },
+  { label: "Аэросъёмка дроном",           href: "/ru/services"                     },
   { label: "Корпоративные фильмы",        href: "/ru/services/corporate-films"      },
   { label: "Фото и видео недвижимости",   href: "/ru/services/real-estate"          },
   { label: "Фотография продукции",        href: "/ru/services/product-shoots"       },
@@ -120,7 +120,7 @@ export default function RuFooter() {
             {/* Credentials */}
             <div className="flex flex-col gap-2 mb-6">
               {[
-                "Доступна аэросъёмка, одобренная GCAA",
+                "Доступна аэросъёмка",
                 "Работа в ОАЭ с 2023 года",
                 "Более 2,400 реализованных проектов",
                 "Все 7 эмиратов ОАЭ",

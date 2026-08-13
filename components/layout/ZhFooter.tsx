@@ -8,7 +8,7 @@ const SERVICES_ZH = [
   { label: "数字视频广告 (DVC)",      href: "/zh/services/dvcs"                },
   { label: "Instagram Reels制作",    href: "/zh/services/reels"               },
   { label: "社交媒体内容创作",        href: "/zh/services/social-media-content" },
-  { label: "无人机航拍 (GCAA认可的航拍服务)",   href: "/zh/services/aerial-drone"        },
+  { label: "无人机航拍",                      href: "/zh/services"                     },
   { label: "企业宣传片",             href: "/zh/services/corporate-films"      },
   { label: "房地产摄影与摄像",        href: "/zh/services/real-estate"          },
   { label: "产品摄影",               href: "/zh/services/product-shoots"       },
@@ -125,7 +125,7 @@ export default function ZhFooter() {
             {/* Credentials */}
             <div className="flex flex-col gap-2 mb-6">
               {[
-                "GCAA认可的无人机商业航拍",
+                "无人机商业航拍",
                 "8年以上阿联酋制作经验",
                 "已完成超过2,400个项目",
                 "覆盖阿联酋全七个酋长国",

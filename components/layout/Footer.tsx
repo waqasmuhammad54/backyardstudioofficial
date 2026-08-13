@@ -132,15 +132,14 @@ export default function Footer() {
 
             {/* Credentials */}
             <div className="flex flex-col gap-2 mb-6">
-              {/* The old badge read "GCAA Licensed Drone Operator", which asserted that
-                  Backyard itself holds the licence. Per owner instruction (6 Aug 2026) we do
-                  not make that claim. "GCAA-Approved Drone Service Available" keeps the
-                  commercial signal — the service exists and the flying is properly licensed —
-                  without asserting who the licence holder is. The approved phrasings site-wide
-                  are "GCAA-approved drone service available" and "flown under GCAA licence".
-                  Do NOT revert to ownership wording, and do NOT describe the arrangement as
-                  partner- or third-party-operated in public copy. */}
-              {["GCAA-Approved Drone Service Available", "Pricing Published Openly", "UAE Operations Since 2023", "2,400+ Projects Delivered", "All 7 Emirates Covered"].map((badge) => (
+              {/* Policy tightened twice. The badge first read "GCAA Licensed Drone Operator"
+                  (asserted a licence Backyard does not hold), then "GCAA-Approved Drone Service
+                  Available" (still named the regulator). Per owner instruction 13 Aug 2026 the
+                  aviation regulator is now NOT NAMED ANYWHERE in public copy, schema or metadata.
+                  Backyard has the facility to deliver aerial work — state the capability, never
+                  the credential. Do NOT reintroduce the regulator's name here or describe the
+                  arrangement as partner- or third-party-operated. */}
+              {["Aerial Coverage Available", "Pricing Published Openly", "UAE Operations Since 2023", "2,400+ Projects Delivered", "All 7 Emirates Covered"].map((badge) => (
                 <div key={badge} className="flex items-center gap-2">
                   <div className="w-1 h-1 rounded-full shrink-0" style={{ background: "var(--gold)" }} />
                   <span className="text-xs" style={{ color: "var(--silver)" }}>{badge}</span>

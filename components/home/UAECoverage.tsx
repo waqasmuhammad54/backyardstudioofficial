@@ -36,7 +36,7 @@ export default function UAECoverage() {
               From the golden-hour skyline of Downtown Dubai to the turquoise coastline of Fujairah — no location in the UAE is too far, too remote, or too complex for our crew.
             </p>
             <div className="flex flex-wrap gap-3">
-              {["GCAA Licensed","Fast Permits","Local Scouts","48hr Turnaround"].map(badge => (
+              {["Aerial Capable","Fast Permits","Local Scouts","48hr Turnaround"].map(badge => (
                 <span key={badge} className="text-[0.6rem] tracking-[0.25em] text-gold border border-gold/25 px-3 py-1.5 uppercase font-medium">{badge}</span>
               ))}
             </div>
