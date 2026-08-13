@@ -194,7 +194,7 @@ export default function VideoCostRuPage() {
             <h3 style={{ color: "var(--gold)", fontSize: "0.9rem", fontWeight: 700, marginBottom: "0.75rem" }}>+ Оплачивается отдельно</h3>
             <ul style={{ paddingLeft: "1rem", display: "flex", flexDirection: "column", gap: "0.4rem", fontSize: "0.875rem", color: "rgba(245,240,225,0.75)" }}>
               <li>Разрешения на съёмку в публичных местах</li>
-              <li>Аэросъёмка дроном (GCAA-лицензия)</li>
+ <li>Аэросъёмка дроном ( лицензия)</li>
               <li>Актёры, модели, дикторы</li>
               <li>Лицензионная музыка и анимация</li>
             </ul>

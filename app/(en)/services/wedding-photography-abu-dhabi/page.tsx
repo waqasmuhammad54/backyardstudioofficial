@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: "How much does a wedding photographer cost in Abu Dhabi?",
-    a: "Wedding photography in Abu Dhabi costs AED 7,500–65,000+ depending on coverage. Backyard Studio Official's packages are identical in Abu Dhabi and Dubai — Essential photography from AED 7,500, half-day photo + video from AED 15,500, full-day Gold from AED 22,500 with GCAA drone and same-day teaser — and we never charge travel fees anywhere in the UAE.",
+    a: "Wedding photography in Abu Dhabi costs AED 7,500–65,000+ depending on coverage. Backyard Studio Official's packages are identical in Abu Dhabi and Dubai — Essential photography from AED 7,500, half-day photo + video from AED 15,500, full-day Gold from AED 22,500 with drone aerials and same-day teaser — and we never charge travel fees anywhere in the UAE.",
   },
   {
     q: "Do you charge extra to cover a wedding in Abu Dhabi?",
@@ -58,7 +58,7 @@ const FAQS = [
   },
   {
     q: "Do your Abu Dhabi packages include drone footage?",
-    a: "Yes — Gold and Platinum packages include aerial drone cinematography, and aerial work is flown by GCAA-licensed drone operation. Note that some Abu Dhabi locations (Corniche, certain island venues) require additional permissions, which we arrange in advance as part of the package.",
+    a: "Yes — Gold and Platinum packages include aerial drone cinematography, and all aerial work is fully permitted. Note that some Abu Dhabi locations (Corniche, certain island venues) require additional permissions, which we arrange in advance as part of the package.",
   },
   {
     q: "How fast is delivery for Abu Dhabi weddings?",
@@ -87,7 +87,7 @@ const PACKAGES = [
     name: "Gold",
     price: "AED 22,500",
     label: "Full-Day Wedding — Most Popular",
-    includes: ["2 photographers + 2 videographers", "10 hours of coverage", "400–600 edited photos", "Cinematic highlight film (5–8 min)", "GCAA drone aerials", "Same-day teaser clip", "48-hour full delivery"],
+    includes: ["2 photographers + 2 videographers", "10 hours of coverage", "400–600 edited photos", "Cinematic highlight film (5–8 min)", "Drone aerials", "Same-day teaser clip", "48-hour full delivery"],
     featured: true,
   },
   {
@@ -138,7 +138,7 @@ export default function WeddingPhotographyAbuDhabiPage() {
         <div className="container-xl grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-2 space-y-6">
             <p className="text-silver/70 leading-relaxed text-base speakable">
-              Backyard Studio Official is a wedding photographer Abu Dhabi couples book at Dubai prices — packages from AED 7,500 for professional photography and AED 22,500 for a full wedding day with two photographers, two videographers, drone aerials flown under GCAA licence, and a same-day teaser, with zero travel fees anywhere in the UAE. We shoot in Abu Dhabi multiple times a week: Emirates Palace ballrooms, Saadiyat beach ceremonies, Yas Island receptions, and private bridal halls across the capital.
+              Backyard Studio Official is a wedding photographer Abu Dhabi couples book at Dubai prices — packages from AED 7,500 for professional photography and AED 22,500 for a full wedding day with two photographers, two videographers, drone aerials, and a same-day teaser, with zero travel fees anywhere in the UAE. We shoot in Abu Dhabi multiple times a week: Emirates Palace ballrooms, Saadiyat beach ceremonies, Yas Island receptions, and private bridal halls across the capital.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
               Every Abu Dhabi wedding gets the same production standards founders Fahad Iqbal Butt and Syed Mazhar Zaidi set for our 2,400+ UAE productions — paired shooters with backup cinema gear, venue scouting before the day, drone permissions arranged in advance, and your complete gallery delivered within 48 hours. For Emirati weddings, all-female crews with privacy-first workflows are available for bridal halls and ladies&apos; receptions.

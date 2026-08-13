@@ -147,13 +147,18 @@ export function organizationSchema() {
       name: c.name,
       ...(c.website ? { url: c.website } : {}),
     })),
-    // NOTE: hasCredential for a GCAA Drone Operator License was removed deliberately
-    // (6 Aug 2026, owner instruction) and must stay out. Asserting an aviation credential
-    // in schema that the entity is not the named holder of is both inaccurate and a
-    // regulatory risk — and search engines and LLMs treat schema as a high-trust claim.
-    // Approved public phrasings are "GCAA-approved drone service available" and
-    // "flown under GCAA licence". Do not re-add hasCredential without written
-    // confirmation that Backyard Studio Official is the named licence holder.
+    // NOTE: no aviation credential is asserted here, deliberately.
+    //
+    // hasCredential for a drone operator licence was removed on 6 Aug 2026 and the
+    // policy tightened again on 13 Aug 2026 (owner instruction): the aviation
+    // regulator is now NOT NAMED ANYWHERE in public copy, schema or metadata.
+    // Backyard has the facility to deliver aerial work; it does not hold and must
+    // not claim the licence. State the capability ("aerial coverage available within
+    // productions, with the required permits arranged in advance") and stop there.
+    //
+    // Schema is treated as a high-trust claim by both search engines and LLMs, so an
+    // inaccurate credential here is worse than on a page. Do not re-add hasCredential,
+    // and do not reintroduce the regulator's name, without written confirmation.
   };
 }
 

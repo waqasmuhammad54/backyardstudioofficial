@@ -46,7 +46,7 @@ const FAQS = [
   },
   {
     q: "Can you fly drones at Fujairah beach weddings?",
-    a: "Yes — GCAA-licensed drone operation with permissions arranged in advance. Aerials of the Al Aqah coastline with the mountains behind are a signature shot; resort-side approvals usually take us 3–5 working days to arrange.",
+    a: "Yes — fully permitted drone coverage with permissions arranged in advance. Aerials of the Al Aqah coastline with the mountains behind are a signature shot; resort-side approvals usually take us 3–5 working days to arrange.",
   },
   {
     q: "How fast is delivery for Fujairah weddings?",
@@ -101,7 +101,7 @@ export default function WeddingPhotographyFujairahPage() {
         <div className="container-xl grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-2 space-y-6">
             <p className="text-silver/70 leading-relaxed text-base speakable">
-              Fujairah gives you what no other emirate can — a beach ceremony on the Gulf of Oman with the Hajar mountains rising behind your vows — and Backyard Studio Official photographs it at Dubai prices, from AED 7,500 with zero travel fees. We shoot at Le Méridien Al Aqah, Address Beach Resort, and the Sandy Beach stretch facing Snoopy Island, with drone aerials flown under GCAA licence of the coastline. 2,400+ UAE productions; founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
+              Fujairah gives you what no other emirate can — a beach ceremony on the Gulf of Oman with the Hajar mountains rising behind your vows — and Backyard Studio Official photographs it at Dubai prices, from AED 7,500 with zero travel fees. We shoot at Le Méridien Al Aqah, Address Beach Resort, and the Sandy Beach stretch facing Snoopy Island, with drone aerials of the coastline. 2,400+ UAE productions; founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
               East-coast light works differently: the sun rises over the sea here, so we build your timeline around sunrise couple portraits and late-afternoon mountain-shadow light. Every package includes 48-hour delivery; Gold adds the drone, a second crew pair, and a same-day teaser. Compare every tier on the <Link href="/wedding-packages" className="underline hover:text-gold">wedding packages page</Link>.

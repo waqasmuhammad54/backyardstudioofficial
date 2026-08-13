@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "迪拜无人机航拍指南2026：GCAA法规、价格与最佳地点 | Backyard Studio",
-  description: "在阿联酋拍摄无人机必须了解GCAA法规。本文详解迪拜合法航拍许可要求、费用（AED 2,000起）、禁飞区及最佳航拍地点。航拍作业均在GCAA商业许可下执行证。",
+ title: "迪拜无人机航拍指南2026：法规、价格与最佳地点 | Backyard Studio",
+ description: "在阿联酋拍摄无人机必须了解法规。本文详解迪拜合法航拍许可要求、费用（AED 2,000起）、禁飞区及最佳航拍地点。航拍作业均在商业许可下执行证。",
   alternates: { canonical: "https://www.backyardstudioofficial.com/zh/blog/wurenji-hangpai-dubai-2026" },
 };
 
@@ -11,7 +11,7 @@ export default function ZhBlogDronePage() {
     <>
       <section style={{ background: "#111", padding: "4rem 2rem 3rem", textAlign: "center" }}>
         <h1 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "clamp(1.75rem, 4vw, 2.5rem)", fontWeight: 900, color: "var(--cream)", marginBottom: "1rem", maxWidth: "700px", margin: "0 auto 1rem" }}>
-          迪拜无人机航拍指南2026：GCAA法规、价格与最佳地点
+ 迪拜无人机航拍指南2026：法规、价格与最佳地点
         </h1>
         <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.4)", fontSize: "0.85rem" }}>
           2026年3月 · 7分钟阅读 · Backyard Studio Official
@@ -25,9 +25,9 @@ export default function ZhBlogDronePage() {
             在迪拜飞无人机需要什么许可？
           </h2>
           <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.95rem", marginBottom: "1.5rem" }}>
-            在阿联酋进行商业无人机飞行，必须持有<strong style={{ color: "var(--cream)" }}>GCAA（阿联酋民航总局）颁发的商业无人机运营执照</strong>。
+ 在阿联酋进行商业无人机飞行，必须持有<strong style={{ color: "var(--cream)" }}>（阿联酋民航总局）颁发的商业无人机运营执照</strong>。
             无许可证进行商业航拍属违法行为，可能面临高额罚款甚至设备没收。
-            所有商业航拍均在GCAA有效执照下执行，可在迪拜及全阿联酋合法执行任何商业航拍任务。
+ 所有商业航拍均在有效执照下执行，可在迪拜及全阿联酋合法执行任何商业航拍任务。
           </p>
 
           <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.375rem", marginBottom: "1rem" }}>
@@ -43,7 +43,7 @@ export default function ZhBlogDronePage() {
             <li>未经批准的居民区上方</li>
           </ul>
           <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.95rem", marginBottom: "1.5rem" }}>
-            我们每次任务前均会向GCAA申报飞行计划，确保100%合规作业。
+ 我们每次任务前均会向申报飞行计划，确保100%合规作业。
           </p>
 
           <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "var(--cream)", fontWeight: 700, fontSize: "1.375rem", marginBottom: "1rem" }}>
@@ -71,7 +71,7 @@ export default function ZhBlogDronePage() {
               预约迪拜无人机航拍
             </h3>
             <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.6)", fontSize: "0.9rem", marginBottom: "1.25rem" }}>
-              起价 AED 2,000 · GCAA合规 · 4K超清
+ 起价 AED 2,000 · 合规 · 4K超清
             </p>
             <a href="/zh/contact" style={{ background: "var(--gold)", color: "#000", padding: "0.8rem 2rem", borderRadius: "2px", textDecoration: "none", fontFamily: "'Noto Sans SC', sans-serif", fontWeight: 700 }}>
               立即咨询

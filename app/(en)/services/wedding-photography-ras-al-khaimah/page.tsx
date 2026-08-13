@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     type: "website",
     images: [{ url: "/images/wedding/wedding-15.webp", width: 1200, height: 630, alt: "Wedding Photographer Ras Al Khaimah — Backyard Studio Official" }],
   },
-  twitter: { card: "summary_large_image", title: "Wedding Photographer Ras Al Khaimah | From AED 7,500", description: "Beach & desert resort weddings with GCAA drone. 48-hour delivery.", images: ["/images/wedding/wedding-15.webp"] },
+  twitter: { card: "summary_large_image", title: "Wedding Photographer Ras Al Khaimah | From AED 7,500", description: "Beach & desert resort weddings with drone aerials. 48-hour delivery.", images: ["/images/wedding/wedding-15.webp"] },
 };
 
 const FAQS = [
   {
     q: "How much does a wedding photographer cost in Ras Al Khaimah?",
-    a: "The same as our Dubai pricing — Essential photography AED 7,500, Silver photo + video AED 15,500, full-day Gold AED 22,500 with GCAA drone and same-day teaser, Platinum multi-day AED 65,000+. RAK resort weddings incur zero travel fees; our crews drive up from Dubai weekly.",
+    a: "The same as our Dubai pricing — Essential photography AED 7,500, Silver photo + video AED 15,500, full-day Gold AED 22,500 with drone aerials and same-day teaser, Platinum multi-day AED 65,000+. RAK resort weddings incur zero travel fees; our crews drive up from Dubai weekly.",
   },
   {
     q: "Which Ras Al Khaimah wedding venues do you cover?",
@@ -42,7 +42,7 @@ const FAQS = [
   },
   {
     q: "Can you shoot drone footage at RAK beach and desert weddings?",
-    a: "Yes — aerial work is flown by GCAA-licensed drone operation and we arrange permissions in advance. RAK is one of the best emirates for aerials: Al Marjan Island coastline, Al Wadi desert dunes at sunset, and Jebel Jais mountain backdrops all photograph spectacularly from the air.",
+    a: "Yes — aerial work is fully permitted and we arrange permissions in advance. RAK is one of the best emirates for aerials: Al Marjan Island coastline, Al Wadi desert dunes at sunset, and Jebel Jais mountain backdrops all photograph spectacularly from the air.",
   },
   {
     q: "Do you cover destination weddings for couples flying into RAK?",
@@ -101,7 +101,7 @@ export default function WeddingPhotographyRAKPage() {
         <div className="container-xl grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-2 space-y-6">
             <p className="text-silver/70 leading-relaxed text-base speakable">
-              Ras Al Khaimah is the UAE&apos;s destination-wedding emirate, and Backyard Studio Official photographs it at Dubai prices — from AED 7,500 with zero travel fees. We shoot beach ceremonies at Waldorf Astoria and Rixos Bab Al Bahr, tented desert weddings at The Ritz-Carlton Al Wadi, and sunset couple sessions on Jebel Jais above the clouds — with drone aerials flown under GCAA licence over the Al Marjan coastline. 2,400+ UAE productions; founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
+              Ras Al Khaimah is the UAE&apos;s destination-wedding emirate, and Backyard Studio Official photographs it at Dubai prices — from AED 7,500 with zero travel fees. We shoot beach ceremonies at Waldorf Astoria and Rixos Bab Al Bahr, tented desert weddings at The Ritz-Carlton Al Wadi, and sunset couple sessions on Jebel Jais above the clouds — with drone aerials over the Al Marjan coastline. 2,400+ UAE productions; founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
               Half the couples we photograph in RAK fly in from abroad. We coordinate with your resort&apos;s events team, plan the timeline around golden hour, and deliver the complete gallery and highlight film within 48 hours — before most couples have left the resort. Compare every tier on the <Link href="/wedding-packages" className="underline hover:text-gold">wedding packages page</Link>.

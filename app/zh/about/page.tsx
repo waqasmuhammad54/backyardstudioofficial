@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "关于我们 — Backyard Studio Official | 法哈德·伊克巴尔·巴特与赛义德·马扎尔·扎伊迪 — 迪拜",
-  description: "了解Backyard Studio Official——迪拜领先的创意制作公司。2019年由法哈德·伊克巴尔·巴特与赛义德·马扎尔·扎伊迪创立。2,400+项目，GCAA认可的无人机航拍，20年+经验。",
+ description: "了解Backyard Studio Official——迪拜领先的创意制作公司。2019年由法哈德·伊克巴尔·巴特与赛义德·马扎尔·扎伊迪创立。2,400+项目，无人机航拍，20年+经验。",
   keywords: ["法哈德伊克巴尔巴特", "赛义德马扎尔扎伊迪", "迪拜制作公司", "Backyard Studio团队", "工作室故事", "迪拜最佳摄影工作室"],
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/zh/about",
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "关于我们 — Backyard Studio Official | 迪拜",
-    description: "迪拜领先创意制作公司。2019年创立，2,400+项目，GCAA认可的航拍服务，团队经验20年+。",
+ description: "迪拜领先创意制作公司。2019年创立，2,400+项目，航拍服务，团队经验20年+。",
     url: "https://www.backyardstudioofficial.com/zh/about",
     siteName: "Backyard Studio Official",
     locale: "zh_AE",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "关于我们 — Backyard Studio Official — 迪拜",
-    description: "2019年由法哈德·伊克巴尔·巴特创立。2,400+项目。GCAA认可的航拍服务。",
+ description: "2019年由法哈德·伊克巴尔·巴特创立。2,400+项目。航拍服务。",
     images: ["/og-image.jpg"],
   },
 };
@@ -45,7 +45,7 @@ const MILESTONES_ZH = [
   { year: "2019", event: "在拉合尔创立——音乐视频、时装影片与电视广告" },
   { year: "2021", event: "在巴基斯坦全境拓展企业与品牌内容业务" },
   { year: "2023", event: "启动阿联酋业务——迪拜总部正式运营" },
-  { year: "2024", event: "新增航拍服务 — GCAA认可，覆盖阿联酋全境" },
+ { year: "2024", event: "新增航拍服务，覆盖阿联酋全境" },
   { year: "2025", event: "在阿联酋七大酋长国完成2,400+项目交付" },
   { year: "2026", event: "迈向国际市场——欧洲与亚洲" },
 ];

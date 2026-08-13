@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Съёмка недвижимости Дубай 2026 | Backyard Studio",
-  description: "Съёмка недвижимости в Дубае от 2,500 AED. Видеотуры, аэросъёмка (GCAA), квартиры, виллы, элитные объекты и застройщики. Реальные цены 2026.",
+ description: "Съёмка недвижимости в Дубае от 2,500 AED. Видеотуры, аэросъёмка, квартиры, виллы, элитные объекты и застройщики. Реальные цены 2026.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/ru/blog/semka-nedvizhimosti-dubai-2026" },
   openGraph: {
     title: "Съёмка недвижимости в Дубае 2026 | Backyard Studio",
@@ -29,7 +29,7 @@ const faqSchema = {
       "name": "Нужна ли лицензия для аэросъёмки недвижимости в Дубае?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Да, коммерческая аэросъёмка в ОАЭ требует лицензии GCAA (Генеральное управление гражданской авиации). Для съёмки в центральных районах Дубая — Downtown, Palm Jumeirah, Marina — также требуется предварительное разрешение DCAA (Авиационное управление Дубая). Backyard Studio имеет полную коммерческую лицензию GCAA и берёт на себя оформление всех разрешений для каждого объекта."
+ "text": "Да, коммерческая аэросъёмка в ОАЭ требует лицензии (Генеральное управление гражданской авиации). Для съёмки в центральных районах Дубая — Downtown, Palm Jumeirah, Marina — также требуется предварительное разрешение DCAA (Авиационное управление Дубая). Backyard Studio имеет полную коммерческую необходимую лицензию и берёт на себя оформление всех разрешений для каждого объекта."
       }
     },
     {
@@ -97,7 +97,7 @@ export default function SemkaNedvizhimostiDubai2026() {
           <br /><span style={{ color: "var(--gold)" }}>Цены, форматы и аэросъёмка</span>
         </h1>
         <p style={{ fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.65)", maxWidth: "600px", margin: "0 auto 2rem", fontSize: "1rem", lineHeight: 1.75 }}>
-          От 2 500 AED: фото и видео для квартир, вилл и проектов застройщиков. Аэросъёмка с лицензией GCAA. Реальные цены и что входит в каждый пакет — опыт Backyard Studio из 2 400+ проектов.
+ От 2 500 AED: фото и видео для квартир, вилл и проектов застройщиков. Аэросъёмка. Реальные цены и что входит в каждый пакет — опыт Backyard Studio из 2 400+ проектов.
         </p>
         <div style={{ display: "flex", justifyContent: "center", gap: "2rem", fontFamily: "Inter, sans-serif", color: "rgba(245,240,225,0.45)", fontSize: "0.8rem" }}>
           <span>⏱ 8 мин. чтения</span>

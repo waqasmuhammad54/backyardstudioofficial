@@ -51,7 +51,7 @@ const FAQS = [
   },
   {
     q: "Do we need a permit for a pre-wedding photoshoot in Dubai?",
-    a: "Public-space personal shoots are generally permitted, but some locations — hotel grounds, Madinat Jumeirah, certain Downtown spots, and any drone footage — require permissions or permits. Backyard Studio handles location permissions and aerial work is flown by GCAA-licensed drone operation, so your aerials are always legal.",
+    a: "Public-space personal shoots are generally permitted, but some locations — hotel grounds, Madinat Jumeirah, certain Downtown spots, and any drone footage — require permissions or permits. Backyard Studio handles location permissions and all aerial work is fully permitted, so your aerials are always legal.",
   },
   {
     q: "What should we wear for a pre-wedding shoot in Dubai?",
@@ -79,7 +79,7 @@ const PACKAGES = [
     name: "Signature",
     price: "AED 3,000",
     label: "Multi-Location + Film — Most Popular",
-    includes: ["4-hour shoot, 2–3 locations", "Photographer + videographer", "100+ edited photos", "60–90 sec cinematic film", "GCAA drone aerials", "Golden-hour scheduling", "48-hour delivery"],
+    includes: ["4-hour shoot, 2–3 locations", "Photographer + videographer", "100+ edited photos", "60–90 sec cinematic film", "Drone aerials", "Golden-hour scheduling", "48-hour delivery"],
     featured: true,
   },
   {
@@ -108,7 +108,7 @@ export default function PreWeddingShootPage() {
   ]);
   const service = servicePageSchema({
     name: "Pre-Wedding Photoshoot Dubai",
-    description: "Pre-wedding and couple photoshoots in Dubai — desert, Burj Khalifa, beach and heritage locations with photo, cinematic video and aerial under GCAA licence. From AED 1,500.",
+    description: "Pre-wedding and couple photoshoots in Dubai — desert, Burj Khalifa, beach and heritage locations with photo, cinematic video and aerial coverage. From AED 1,500.",
     url: PAGE_URL,
     price: "1500",
   });
@@ -143,7 +143,7 @@ export default function PreWeddingShootPage() {
         <div className="container-xl grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-2 space-y-6">
             <p className="text-silver/70 leading-relaxed text-base speakable">
-              A pre-wedding photoshoot in Dubai with Backyard Studio Official starts at AED 1,500 — and our most popular package (AED 3,000) covers 2–3 locations in one golden-hour-planned session with both photos and a cinematic film. We have shot couples on the Al Qudra dunes at sunset, under the Burj Khalifa at blue hour, and on Kite Beach as the Burj Al Arab lights up — with drone aerials flown under GCAA licence and the full edited gallery delivered in 48 hours.
+              A pre-wedding photoshoot in Dubai with Backyard Studio Official starts at AED 1,500 — and our most popular package (AED 3,000) covers 2–3 locations in one golden-hour-planned session with both photos and a cinematic film. We have shot couples on the Al Qudra dunes at sunset, under the Burj Khalifa at blue hour, and on Kite Beach as the Burj Al Arab lights up — with drone aerials and the full edited gallery delivered in 48 hours.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
               Half the couples we shoot fly into Dubai just for this — from India, the UK, Russia, and China. We plan everything around light and logistics: locations sequenced so you hit each one at its best hour, permissions handled in advance, and a styling guide sent before you pack. Founders Fahad Iqbal Butt and Syed Mazhar Zaidi built the same production discipline into pre-wedding shoots that runs our commercial sets.

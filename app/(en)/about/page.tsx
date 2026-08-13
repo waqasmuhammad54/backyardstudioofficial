@@ -82,7 +82,7 @@ const MILESTONES = [
   { year: "2019", event: "Founded in Lahore — music videos, fashion films, TVCs" },
   { year: "2021", event: "Expanded into corporate & branded content across Pakistan" },
   { year: "2023", event: "Launched UAE operations — Dubai headquarters" },
-  { year: "2024", event: "GCAA-approved aerial coverage added — aerial production UAE-wide" },
+  { year: "2024", event: "Aerial coverage added — aerial production UAE-wide" },
   { year: "2025", event: "2,400+ projects delivered across all 7 UAE emirates" },
   { year: "2026", event: "Growing toward international market — Europe & Asia" },
 ];

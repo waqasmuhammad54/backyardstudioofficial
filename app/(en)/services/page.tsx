@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 const SERVICES_FAQS = [
   {
     question: "What video and photography services does Backyard Studio offer in Dubai?",
-    answer: "Backyard Studio Official offers 28+ production services in Dubai and UAE: event videography & photography, wedding photography & videography, DVCs (digital video commercials), TV commercials, Instagram Reels production, TikTok content creation, social media content, aerial drone (GCAA-approved), corporate films, corporate brand films, real estate photography & videography, product photography, fashion shoots, food photography, hotel photography, automotive video production, podcast videography, YouTube content production, testimonial videos, documentary films, brand launch events, ads shooting, pre & post production, and event video editing.",
+    answer: "Backyard Studio Official offers 28+ production services in Dubai and UAE: event videography & photography, wedding photography & videography, DVCs (digital video commercials), TV commercials, Instagram Reels production, TikTok content creation, social media content, aerial drone coverage, corporate films, corporate brand films, real estate photography & videography, product photography, fashion shoots, food photography, hotel photography, automotive video production, podcast videography, YouTube content production, testimonial videos, documentary films, brand launch events, ads shooting, pre & post production, and event video editing.",
   },
   {
     question: "Does Backyard Studio produce Instagram Reels and TikTok content in Dubai?",
@@ -38,7 +38,7 @@ const SERVICES_FAQS = [
   },
   {
     question: "Does Backyard Studio offer drone or aerial filming across the UAE?",
-    answer: "Yes — aerial coverage is available within our productions, such as real estate, resort, event and launch shoots, under GCAA-licensed drone operation and the required permits. We provide it as part of a production rather than as a standalone drone booking. Aerial work is flown under a GCAA (General Civil Aviation Authority) drone operator licence, with airspace approvals across all 7 UAE emirates — Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah, and Umm Al Quwain.",
+    answer: "Yes — aerial coverage is available within our productions, such as real estate, resort, event and launch shoots, with the required permits arranged in advance. We provide it as part of a production rather than as a standalone drone booking, across all 7 UAE emirates — Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah, and Umm Al Quwain.",
   },
   {
     question: "How quickly does Backyard Studio deliver production content?",
@@ -86,7 +86,7 @@ const SERVICES = [
   { icon: Tv,           slug: "live-streaming",          label: "Live Streaming & Match Coverage",        desc: "Multi-camera live streaming and full match coverage across the UAE, from AED 20,000 depending on crew and format." },
   { icon: Image,        slug: "photo-shoots",            label: "Wedding & Photo Shoots",                 desc: "Dubai's best wedding shoot company. Pre-wedding, editorial, and lifestyle photography across UAE." },
   { icon: Smartphone,   slug: "social-media-shoots",     label: "Social Media Videography & Photography", desc: "Combined photo + video shoot days for Instagram, TikTok and YouTube — all assets in one session." },
-  { icon: Car,          slug: "automotive",              label: "Automotive Videography & Photography",   desc: "Studio and on-road car shoots, dynamic footage, and GCAA drone aerials for UAE auto brands." },
+  { icon: Car,          slug: "automotive",              label: "Automotive Videography & Photography",   desc: "Studio and on-road car shoots, dynamic footage, and drone aerials for UAE auto brands." },
   { icon: Home,         slug: "real-estate",             label: "Real Estate Videography & Photography",  desc: "Property walkthroughs, architectural photography, and drone aerials for UAE listings and developers." },
   { icon: Users,        slug: "corporate-videography",  label: "Corporate Videography & Photography",    desc: "Executive headshots, team portraits, office shoots, and LinkedIn video content for UAE businesses." },
   { icon: Utensils,     slug: "food",                    label: "Food Videography & Photography",         desc: "Styled food photography and video for UAE restaurants, delivery apps, and F&B brands." },

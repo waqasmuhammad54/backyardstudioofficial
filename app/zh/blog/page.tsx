@@ -47,8 +47,8 @@ const BLOG_POSTS_ZH = [
   },
   {
     slug: "wurenji-hangpai-dubai-2026",
-    title: "迪拜无人机航拍：GCAA法规、费用与最佳拍摄地点",
-    excerpt: "在阿联酋进行无人机拍摄必须了解GCAA法规。本文为您梳理合法航拍要求、常见违规风险及专业航拍费用。",
+ title: "迪拜无人机航拍：法规、费用与最佳拍摄地点",
+ excerpt: "在阿联酋进行无人机拍摄必须了解法规。本文为您梳理合法航拍要求、常见违规风险及专业航拍费用。",
     date: "2026年3月",
     readTime: "7分钟",
   },
@@ -62,7 +62,7 @@ const BLOG_POSTS_ZH = [
   {
     slug: "fangchan-paizhao-dubai-2026",
     title: "迪拜房产摄影2026：价格、套餐与拍摄攻略",
-    excerpt: "从Marina公寓到Palm Jumeirah豪宅——专业房产摄影AED 2,500起，GCAA认证无人机航拍，48小时交付，提升房源点击率118%。",
+ excerpt: "从Marina公寓到Palm Jumeirah豪宅——专业房产摄影AED 2,500起，无人机航拍，48小时交付，提升房源点击率118%。",
     date: "2026年6月",
     readTime: "7分钟",
   },

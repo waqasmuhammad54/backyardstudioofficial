@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "迪拜房产摄影2026：价格、套餐与拍摄攻略",
   description:
-    "迪拜专业房产摄影AED 2,500起——公寓、别墅、开发商项目。GCAA认证无人机航拍，48小时交付。Backyard Studio专业团队为您服务。",
+ "迪拜专业房产摄影AED 2,500起——公寓、别墅、开发商项目。无人机航拍，48小时交付。Backyard Studio专业团队为您服务。",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/zh/blog/fangchan-paizhao-dubai-2026",
     languages: {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     locale: "zh_CN",
     title: "迪拜房产摄影2026 | Backyard Studio",
-    description: "迪拜专业房产摄影AED 2,500起，GCAA认证无人机，48小时交付。",
+ description: "迪拜专业房产摄影AED 2,500起，无人机，48小时交付。",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
   },
 };
@@ -42,10 +42,10 @@ export default function RealEstateZhPage() {
       },
       {
         "@type": "Question",
-        name: "无人机航拍是否在GCAA许可下执行？",
+ name: "无人机航拍是否在合法许可下执行？",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "有。所有航拍作业均在GCAA（阿联酋民航局）认证下执行，所有航拍项目均依法合规操作。在迪拜进行无人机拍摄必须持有相关资质，选择未经认证的飞手存在法律风险，请务必向拍摄团队索取证件。",
+ text: "有。所有航拍作业均在（阿联酋民航局）认证下执行，所有航拍项目均依法合规操作。在迪拜进行无人机拍摄必须持有相关资质，选择未经认证的飞手存在法律风险，请务必向拍摄团队索取证件。",
         },
       },
       {
@@ -87,7 +87,7 @@ export default function RealEstateZhPage() {
 
         <h1 style={{ fontSize: "clamp(1.8rem, 4vw, 2.6rem)", fontWeight: 800, color: "#fff", lineHeight: 1.35, marginBottom: "1rem" }}>
           迪拜房产摄影2026
-          <br /><span style={{ color: "var(--gold)" }}>价格透明 · 48小时交付 · GCAA认证航拍</span>
+ <br /><span style={{ color: "var(--gold)" }}>价格透明 · 48小时交付 · 航拍</span>
         </h1>
 
         <div style={{ display: "flex", gap: "1.5rem", fontSize: "0.85rem", color: "rgba(245,240,225,0.5)", marginBottom: "3rem", flexWrap: "wrap" }}>
@@ -116,7 +116,7 @@ export default function RealEstateZhPage() {
         <div style={{ display: "flex", flexDirection: "column", gap: "0.875rem", marginBottom: "2.5rem" }}>
           {[
             { item: "专业室内摄影", detail: "广角镜头、HDR合成、灯光调整，展现最佳室内空间感" },
-            { item: "GCAA认证无人机航拍", detail: "合法低空航拍，捕捉建筑外观、周边配套及海景/城景全貌" },
+ { item: "无人机航拍", detail: "合法低空航拍，捕捉建筑外观、周边配套及海景/城景全貌" },
             { item: "黄金时段拍摄", detail: "日出日落时段的外立面拍摄，呈现迪拜独特光线氛围" },
             { item: "房产视频导览", detail: "2-4分钟专业剪辑，配合背景音乐和字幕，适用于社交媒体推广" },
             { item: "虚拟布景（Virtual Staging）", detail: "空房通过AI布景提升视觉效果，费用远低于实体布置" },
@@ -148,7 +148,7 @@ export default function RealEstateZhPage() {
         <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem", marginBottom: "3rem" }}>
           {[
             { q: "迪拜房产摄影收费标准是多少？", a: "普通公寓从AED 2,500起，豪华别墅完整套餐在AED 7,500至AED 12,000之间。" },
-            { q: "有GCAA认证无人机拍摄资质吗？", a: "有。航拍均在GCAA许可下执行，完全合法合规。" },
+ { q: "有无人机拍摄资质吗？", a: "有。航拍均在合法许可下执行，完全合法合规。" },
             { q: "多久能收到照片？", a: "标准48小时交付。急件可安排24小时加急，需额外收费。" },
             { q: "视频导览比照片更有效吗？", a: "两者结合效果最佳。数据显示附有视频的房源询盘量提升403%。" },
           ].map(({ q, a }) => (

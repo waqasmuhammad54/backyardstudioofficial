@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 const INDUSTRIES_FAQS = [
   {
     question: "Which industries does Backyard Studio serve in Dubai and UAE?",
-    answer: "Backyard Studio Official produces content for 13 industries across the UAE: hospitality, real estate, fashion, food & beverage, corporate, sports, automotive, healthcare, technology, music & entertainment, fitness & wellness, e-commerce & retail, and education. We cover all 7 UAE emirates with a dedicated team and GCAA-licensed drone operation.",
+    answer: "Backyard Studio Official produces content for 13 industries across the UAE: hospitality, real estate, fashion, food & beverage, corporate, sports, automotive, healthcare, technology, music & entertainment, fitness & wellness, e-commerce & retail, and education. We cover all 7 UAE emirates with a dedicated team and in-house aerial capability.",
   },
   {
     question: "Does Backyard Studio do video production for hospitality brands in Dubai?",
@@ -36,11 +36,11 @@ const INDUSTRIES_FAQS = [
   },
   {
     question: "Which production company in UAE handles sports video production?",
-    answer: "Backyard Studio Official covers UAE sports events including Formula 1 at Yas Marina, the Dubai Duty Free Tennis Championships, Dubai Rugby Sevens, Meydan Horse Racing, UAE Pro League football, ICC Cricket, and major padel and jiu-jitsu championships. We provide multi-camera live coverage, GCAA drone aerials, athlete branding, and same-day social media cuts.",
+    answer: "Backyard Studio Official covers UAE sports events including Formula 1 at Yas Marina, the Dubai Duty Free Tennis Championships, Dubai Rugby Sevens, Meydan Horse Racing, UAE Pro League football, ICC Cricket, and major padel and jiu-jitsu championships. We provide multi-camera live coverage, drone aerials, athlete branding, and same-day social media cuts.",
   },
   {
     question: "Can Backyard Studio produce content for real estate developers in UAE?",
-    answer: "Yes. Backyard Studio Official is a specialist real estate production company in Dubai. We handle property photography, walkthrough videos, off-plan launch films, developer brand campaigns, aerial drone (GCAA-approved), and social media content for major UAE developers including Emaar, DAMAC, Aldar, and Sobha. Our real estate packages start from AED 1,500.",
+    answer: "Yes. Backyard Studio Official is a specialist real estate production company in Dubai. We handle property photography, walkthrough videos, off-plan launch films, developer brand campaigns, aerial drone coverage, and social media content for major UAE developers including Emaar, DAMAC, Aldar, and Sobha. Our real estate packages start from AED 1,500.",
   },
   {
     question: "Does Backyard Studio produce healthcare and medical content in Dubai?",
@@ -137,7 +137,7 @@ const INDUSTRIES = [
         "Athlete Profile & Branding Shoots",
         "Sponsor Activation Content",
         "Multi-Camera Live Event Coverage",
-        "Drone Aerials (GCAA-Licensed) — Stadium & Outdoor Events",
+        "Drone Aerials — Stadium & Outdoor Events",
         "Social Media Reels & TikTok Cuts",
         "Press Conference & Interview Coverage",
         "Sports Brand Campaign Production",
@@ -476,7 +476,7 @@ export default function IndustriesPage() {
               <p className="mb-6" style={{ color: "var(--silver)" }}>
                 From Formula 1 at Yas Marina to the Dubai Rugby Sevens, the Dubai Duty Free Tennis Championships
                 to UAE Pro League football — we cover every major sport in the Emirates with broadcast-quality
-                multi-camera rigs, drone aerials flown under GCAA licence, and same-day social delivery.
+                multi-camera rigs, drone aerials, and same-day social delivery.
               </p>
               <div className="flex flex-wrap gap-2 mb-8">
                 {["Formula 1", "Tennis", "Football", "Cricket", "Horse Racing", "Golf", "Rugby Sevens", "MMA & Boxing", "Padel", "Jiu-Jitsu"].map((s) => (

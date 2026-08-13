@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title:       "أفضل شركة إنتاج فيديو في دبي | باكيارد ستوديو أوفيشيال",
-    description: "شركة الإنتاج الإبداعي الرائدة في دبي والإمارات. تصوير فيديو احترافي، تصوير الأعراس، محتوى رقمي، طائرات مسيّرة GCAA. أكثر من 2,400 مشروع.",
+ description: "شركة الإنتاج الإبداعي الرائدة في دبي والإمارات. تصوير فيديو احترافي، تصوير الأعراس، محتوى رقمي، طائرات مسيّرة. أكثر من 2,400 مشروع.",
     url:         "https://www.backyardstudioofficial.com/ar",
     locale:      "ar_AE",
     type:        "website",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   twitter: {
     card:        "summary_large_image",
     title:       "أفضل شركة إنتاج فيديو في دبي | باكيارد ستوديو أوفيشيال",
-    description: "الإنتاج الإبداعي الرائد في دبي. أكثر من 2,400 مشروع. خدمة تصوير جوي معتمدة من GCAA.",
+ description: "الإنتاج الإبداعي الرائد في دبي. أكثر من 2,400 مشروع. خدمة تصوير جوي.",
     images:      ["/og-image.jpg"],
   },
   robots: { index: true, follow: true },

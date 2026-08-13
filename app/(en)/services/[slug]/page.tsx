@@ -202,13 +202,13 @@ const SERVICE_HOWTO: Record<string, { name: string; description: string; totalTi
     ],
   },
   "aerial-drone": {
-    name: "How to Get GCAA-Licensed Drone Footage in Dubai",
-    description: "How to commission legal, GCAA-licensed drone videography in Dubai and across the UAE with Backyard Studio Official.",
+    name: "How to Get Professional Drone Footage in Dubai",
+    description: "How to commission professional drone videography in Dubai and across the UAE with Backyard Studio Official.",
     totalTime: "P2D",
     steps: [
-      { name: "Confirm your location and requirements", text: "Share the shoot location, date, type of footage needed (event, real estate, landscape, automotive), and any specific angles or sequences. We confirm GCAA compliance for your location immediately." },
+      { name: "Confirm your location and requirements", text: "Share the shoot location, date, type of footage needed (event, real estate, landscape, automotive), and any specific angles or sequences. We confirm compliance for your location immediately." },
       { name: "Receive quote and permits confirmation", text: "We provide pricing and confirm any authority notifications needed for your specific location. Most standard UAE locations are pre-cleared in our network." },
-      { name: "Pre-flight planning", text: "The GCAA-licensed pilot plans the flight path, altitude, and shot sequence. We coordinate with venue or site management and handle all required notifications." },
+      { name: "Pre-flight planning", text: "The licensed pilot plans the flight path, altitude, and shot sequence. We coordinate with venue or site management and handle all required notifications." },
       { name: "Drone shoot day", text: "Our licensed pilot and support crew arrive on site. We capture all required aerial sequences in 4K, including dynamic tracking shots, establishing wides, and point-of-interest orbits." },
       { name: "Colour-graded delivery", text: "Edited aerial footage with professional colour grade delivered within 24 hours. Raw 4K files also provided. Integration with ground-level footage available same-day." },
     ],
@@ -234,7 +234,7 @@ const SERVICE_HOWTO: Record<string, { name: string; description: string; totalTi
       { name: "Share property details", text: "Provide the property address, type, size, and your specific requirements (photography only, video walkthrough, drone, virtual tour). We confirm availability and quote within 2 hours." },
       { name: "Schedule the shoot", text: "We schedule around the best natural light window for your property's orientation. Morning shoots for east-facing properties, afternoon for west-facing. Twilight shoots scheduled at dusk." },
       { name: "Pre-shoot preparation", text: "We share a property preparation checklist — decluttering, lighting setup, staging suggestions — to ensure your property photographs at its best." },
-      { name: "Professional shoot", text: "Our team arrives and sets up professional lighting to complement natural light. We systematically photograph every space, capture the walkthrough video, and coordinate the GCAA drone flight." },
+      { name: "Professional shoot", text: "Our team arrives and sets up professional lighting to complement natural light. We systematically photograph every space, capture the walkthrough video, and coordinate the drone flight." },
       { name: "Editing and delivery", text: "Edited photos delivered within 24 hours, edited video within 48 hours. All files delivered via private download link in web-ready and print-ready formats." },
     ],
   },
@@ -285,7 +285,7 @@ const SERVICE_DATA: Record<string, { title: string; description: string; include
   // is a Backyard + partner arrangement, so the copy describes what is produced
   // rather than asserting who contracts or who owns the equipment. Do not add
   // stadium names, client names or "official broadcaster" style language without
-  // written confirmation — same rule as the GCAA wording in lib/structuredData.ts.
+  // written confirmation — same rule as the aviation wording in lib/structuredData.ts.
   "live-streaming": {
     title: "Live Streaming & Match Coverage",
     description: "Backyard Studio Official produces live multi-camera coverage across the UAE — sport, conferences, awards, product launches and religious and community events. Vision mixing, replays, lower-thirds and commentary audio are handled on site, and the programme feed goes out to YouTube, Facebook, LinkedIn, Instagram or any custom RTMP destination you nominate.\n\nSports is where live production is least forgiving. A match has no second take: the run of play dictates the cut, the scoreboard and clock have to be right, and the stream has to hold for hours without a drop. We plan for that — redundant encoders, bonded connectivity where venue internet is unreliable, and a director calling the cut live rather than an unattended camera pointed at the pitch.\n\nEvery live production is also a content production. The same feed yields the full-match archive, a highlights package, and vertical cutdowns for Instagram and TikTok — so a single fixture becomes a week of social content rather than one broadcast that disappears when the stream ends.\n\nPricing starts at AED 20,000 and moves with three things: the number of cameras and how they are switched, the crew required on site, and the delivery format — a single-camera webinar and a multi-camera match day with replays and graphics are very different productions. Every quote is itemised in writing before booking.",
@@ -390,10 +390,10 @@ const SERVICE_DATA: Record<string, { title: string; description: string; include
   },
   "aerial-drone": {
     title: "Aerial Drone Videography Dubai & UAE",
-    description: "Backyard Studio Official operates under a full GCAA (General Civil Aviation Authority) drone operator licence, making us one of the only fully legal aerial drone production companies operating across all 7 UAE emirates. Every aerial shoot we undertake is compliant, insured, and coordinated with local authorities — so your brand is protected as well as beautifully filmed.\n\nOur drone team captures cinematic 4K aerial footage across every landscape the UAE offers: the downtown Dubai skyline, desert dunes in RAK and Al Ain, coastal resorts on the Palm, event venues in Abu Dhabi, and industrial facilities across the free zones. We cover events, weddings, real estate, tourism campaigns, documentaries, and brand films.\n\nAll clients receive raw 4K files plus a colour-graded aerial cut delivered within 24 hours of shoot completion.",
-    includes: ["GCAA-licensed operation across all UAE", "4K cinematic drone footage", "Pre-flight authority coordination & permits", "Full insurance coverage on all shoots", "Colour-graded aerial highlight cut", "Raw 4K file delivery", "Same-day preview clip", "Integration with ground-level production team"],
+    description: "Backyard Studio Official arranges fully permitted aerial coverage, making us one of the reliable aerial drone production companies operating across all 7 UAE emirates. Every aerial shoot we undertake is compliant, insured, and coordinated with local authorities — so your brand is protected as well as beautifully filmed.\n\nOur drone team captures cinematic 4K aerial footage across every landscape the UAE offers: the downtown Dubai skyline, desert dunes in RAK and Al Ain, coastal resorts on the Palm, event venues in Abu Dhabi, and industrial facilities across the free zones. We cover events, weddings, real estate, tourism campaigns, documentaries, and brand films.\n\nAll clients receive raw 4K files plus a colour-graded aerial cut delivered within 24 hours of shoot completion.",
+    includes: ["Aerial coverage across all UAE", "4K cinematic drone footage", "Pre-flight authority coordination & permits", "Full insurance coverage on all shoots", "Colour-graded aerial highlight cut", "Raw 4K file delivery", "Same-day preview clip", "Integration with ground-level production team"],
     faqs: [
-      { q: "Is your drone operation GCAA-approved?", a: "Yes. Aerial work is flown under GCAA licence, so it is authorised for commercial use across the UAE, and every flight is carried out by a GCAA-licensed pilot with full public liability insurance in place." },
+      { q: "Do you provide aerial and drone coverage?", a: "Yes, as part of a production. Every flight is fully permitted for commercial use across the UAE and carried out by a licensed pilot with public liability insurance in place." },
       { q: "Can you fly drones at weddings and private events in Dubai?", a: "Yes, subject to venue approvals. We handle all coordination with venue management and, where required, local authorities. Most major Dubai venues are pre-cleared in our network for fast turnarounds." },
       { q: "What drone equipment do you use?", a: "We operate DJI Inspire 2 and Mavic 3 Cine series platforms for the majority of shoots, delivering 4K up to 120fps for slow-motion aerials. For specialised requirements we source additional equipment from our trusted network." },
       { q: "Can you combine drone and ground-level filming?", a: "Absolutely. Most of our shoots combine aerial and ground-level crews seamlessly. Our drone team is coordinated by the same production director as the ground team, ensuring cinematic continuity between the two." },
@@ -451,9 +451,9 @@ const SERVICE_DATA: Record<string, { title: string; description: string; include
   "automotive": {
     title: "Automotive Videography & Photography Dubai — Car Shoots UAE",
     description: "Backyard Studio Official produces automotive videography and photography that makes vehicles come alive on screen. From sleek showroom campaigns for dealerships to cinematic launch films for new model releases, hero shots for online listings, and dynamic on-road content for social media — our UAE automotive production team understands what it takes to make metal, glass, and speed look extraordinary.\n\nWe work with automotive brands, dealerships, private sellers, car rental companies, and aftermarket businesses across Dubai and all 7 UAE emirates. Our shoots take full advantage of the UAE's unrivalled automotive backdrop: desert highways at sunrise, urban tunnels, coastal roads, and iconic city skylines.",
-    includes: ["Studio & on-location automotive shoots", "Exterior & interior detail photography", "Dynamic on-road video with camera car", "Drone aerial car footage (GCAA-approved)", "Paint & colour-accurate editing", "360° vehicle walkarounds", "Social media ready cuts (Reels/TikTok)", "Multi-format delivery for web & print"],
+    includes: ["Studio & on-location automotive shoots", "Exterior & interior detail photography", "Dynamic on-road video with camera car", "Drone aerial car footage", "Paint & colour-accurate editing", "360° vehicle walkarounds", "Social media ready cuts (Reels/TikTok)", "Multi-format delivery for web & print"],
     faqs: [
-      { q: "Do you offer dynamic (moving) car footage?", a: "Yes. We shoot moving vehicles using camera cars, tracking rigs, handheld gimbal passes, and GCAA-licensed drones for aerial perspective. We have experience capturing everything from slow lifestyle cruises to performance driving sequences." },
+      { q: "Do you offer dynamic (moving) car footage?", a: "Yes. We shoot moving vehicles using camera cars, tracking rigs, handheld gimbal passes, and drones for aerial perspective. We have experience capturing everything from slow lifestyle cruises to performance driving sequences." },
       { q: "Can you shoot in a studio or on location?", a: "Both. For showroom-quality studio shots we use controlled lighting setups that eliminate reflections and showcase the vehicle's design precisely. For lifestyle and brand content we use Dubai's incredible outdoor environments — desert roads, coastal routes, and urban backdrops." },
       { q: "Do you photograph car interiors?", a: "Yes. Interior detail photography is a core part of our automotive packages — dashboard, stitching, ambient lighting, tech displays, and seat textures all shot at the detail level that listings and brand campaigns demand." },
       { q: "Which UAE areas are best for car shoots?", a: "Popular UAE automotive shoot locations include: Al Qudra desert road, Dubai Hatta mountain road, Sheikh Zayed Road flyovers (night shots), Dubai Marina waterfront, Jebel Jais in RAK, and Corniche Abu Dhabi." },
@@ -462,10 +462,10 @@ const SERVICE_DATA: Record<string, { title: string; description: string; include
   },
   "real-estate": {
     title: "Real Estate Videography & Photography Dubai — Property Shoots UAE",
-    description: "Backyard Studio Official produces world-class real estate videography and photography for Dubai's most competitive property market. From DIFC penthouses and Palm Jumeirah villas to off-plan developer campaigns and commercial real estate portfolios — our property shoots combine architectural photography, walkthrough videography, and GCAA-licensed drone footage into a complete marketing asset package.\n\nIn Dubai's ultra-competitive real estate market, listing quality directly impacts price and time-on-market. Our real estate production team understands how to capture natural light, showcase space, and tell a lifestyle story that makes a buyer see themselves living in the property before they ever step inside.",
-    includes: ["Architectural interior & exterior photography", "Cinematic property walkthrough video", "Aerial drone footage (GCAA-approved)", "Twilight & golden-hour exterior shots", "Virtual tour ready stills", "Floor plan overlay graphics", "Social media cuts (Reels/TikTok)", "Same-day preview delivery"],
+    description: "Backyard Studio Official produces world-class real estate videography and photography for Dubai's most competitive property market. From DIFC penthouses and Palm Jumeirah villas to off-plan developer campaigns and commercial real estate portfolios — our property shoots combine architectural photography, walkthrough videography, and drone footage into a complete marketing asset package.\n\nIn Dubai's ultra-competitive real estate market, listing quality directly impacts price and time-on-market. Our real estate production team understands how to capture natural light, showcase space, and tell a lifestyle story that makes a buyer see themselves living in the property before they ever step inside.",
+    includes: ["Architectural interior & exterior photography", "Cinematic property walkthrough video", "Aerial drone footage", "Twilight & golden-hour exterior shots", "Virtual tour ready stills", "Floor plan overlay graphics", "Social media cuts (Reels/TikTok)", "Same-day preview delivery"],
     faqs: [
-      { q: "Do you do drone photography for real estate in Dubai?", a: "Yes. Aerial coverage is flown under GCAA licence, so it is legal over residential and commercial property across every Dubai district and UAE emirate. Aerial footage lifts listing engagement and is now expected on premium properties." },
+      { q: "Do you do drone photography for real estate in Dubai?", a: "Yes. Aerial coverage is fully permitted, so it is legal over residential and commercial property across every Dubai district and UAE emirate. Aerial footage lifts listing engagement and is now expected on premium properties." },
       { q: "What types of properties do you photograph?", a: "We photograph and film all property types: apartments, villas, townhouses, penthouses, commercial offices, retail spaces, hotels, serviced apartments, and off-plan development show apartments." },
       { q: "How quickly do you deliver real estate photos and video?", a: "Standard delivery is 24 hours for photography and 48 hours for edited video. Rush 12-hour delivery is available for time-sensitive listings." },
       { q: "Do you offer twilight shoots for real estate?", a: "Yes. Twilight and dusk exterior shoots are among the most effective real estate photography techniques, and we schedule them specifically around the optimal light window for each property's orientation." },
@@ -547,7 +547,7 @@ const SERVICE_DATA: Record<string, { title: string; description: string; include
   "travel-lifestyle": {
     title: "Travel & Lifestyle Campaigns Dubai — Hotel, Resort & Tourism Content UAE",
     description: "Backyard Studio Official produces travel and lifestyle campaigns for the UAE's world-leading hospitality industry. From five-star resort photography on Saadiyat Island to wellness retreat shoots in the Hatta mountains, city experience campaigns for Dubai Tourism, and international tourism board content — our travel and lifestyle production team creates imagery that makes destinations irresistible.\n\nThe UAE is consistently ranked among the world's top tourism destinations — and the brands that win here understand that content quality is inseparable from brand perception. Our hotel, resort, and lifestyle shoots deliver the premium visual standard that international travellers expect from UAE destinations.",
-    includes: ["Hotel & resort campaign photography and video", "Wellness and spa shoot production", "City experience and destination campaigns", "Lifestyle talent direction (models, couples, families)", "Drone aerials of resort and coastal locations (GCAA)", "Morning, golden hour, and twilight shoot scheduling", "Full social media asset suite", "Press-ready and OOH format delivery"],
+    includes: ["Hotel & resort campaign photography and video", "Wellness and spa shoot production", "City experience and destination campaigns", "Lifestyle talent direction (models, couples, families)", "Drone aerials of resort and coastal locations", "Morning, golden hour, and twilight shoot scheduling", "Full social media asset suite", "Press-ready and OOH format delivery"],
     faqs: [
       { q: "Do you shoot hotel and resort campaigns in Dubai and Abu Dhabi?", a: "Yes. Backyard Studio Official works with leading UAE hotel and resort groups on campaign photography, video content, social media assets, and OOH advertising materials. We cover Dubai, Abu Dhabi, RAK, and all UAE emirates." },
       { q: "Can you produce wellness and spa photography?", a: "Yes. Wellness, spa, and retreat photography is one of our most requested travel verticals. We understand the calm, aspirational visual language that wellness brands require — and how to achieve it on set efficiently without disrupting the guest experience." },
@@ -571,7 +571,7 @@ const SERVICE_DATA: Record<string, { title: string; description: string; include
   "car-commercials": {
     title: "Car Commercial Production Dubai — Cinematic Automotive Films UAE",
     description: "Backyard Studio Official produces high-impact car commercials and automotive brand campaigns for UAE dealerships, international automotive brands, and luxury car importers. From cinematic launch films for new model releases to performance-driving sequences in the Hatta mountains, and luxury car lifestyle campaigns that position vehicles as aspirational status symbols — our automotive commercial team understands what makes cars sell on screen.\n\nThe UAE is one of the world's most important automotive markets — and the visual standards expected by UAE car buyers are among the highest on the planet. Our car commercial productions are built to match that standard: cinematic, dynamic, and unmistakably premium.",
-    includes: ["Automotive brand campaign concept & scripting", "Luxury car studio photography & video", "Dynamic on-road filming (camera car, drone, gimbal)", "GCAA drone aerial footage of vehicles", "Night and twilight car photography", "Performance driving sequence production", "Multi-format delivery (TVC, digital, social, OOH)", "Brand-compliant post-production & colour grade"],
+    includes: ["Automotive brand campaign concept & scripting", "Luxury car studio photography & video", "Dynamic on-road filming (camera car, drone, gimbal)", "Drone aerial footage of vehicles", "Night and twilight car photography", "Performance driving sequence production", "Multi-format delivery (TVC, digital, social, OOH)", "Brand-compliant post-production & colour grade"],
     faqs: [
       { q: "Do you produce luxury car commercials in Dubai?", a: "Yes. Backyard Studio Official has produced automotive brand campaigns for luxury and performance car brands across Dubai and the UAE — capturing vehicles against the emirate's iconic urban, coastal, and desert backdrops with cinematic precision." },
       { q: "Can you shoot performance driving sequences?", a: "Yes. Our automotive team has experience producing performance driving sequences on closed roads, racetracks, and controlled environments across the UAE. We coordinate all required safety, permissions, and support vehicles." },
@@ -607,7 +607,7 @@ const SERVICE_DATA: Record<string, { title: string; description: string; include
   "hotel-photography": {
     title: "Hotel Photography Dubai — Resort Campaigns & Property Lifestyle Shoots UAE",
     description: "Backyard Studio Official is one of the UAE's premier hotel photography and resort campaign production studios. We produce complete hotel photography packages — from room and suite photography and F&B lifestyle imagery to spa and wellness content, pool and beach lifestyle shoots, and full resort campaign productions for international travel marketing.\n\nFor Dubai and Abu Dhabi's world-class hospitality market, imagery is everything. Our hotel photography team understands how to capture the specific visual language that luxury travellers respond to: aspirational but attainable, detailed but not clinical, premium but warm.",
-    includes: ["Full hotel room & suite photography", "F&B restaurant and bar lifestyle shoots", "Pool, beach & outdoor environment photography", "Spa and wellness content production", "Resort campaign photography and video", "Real estate video tours & property lifestyle shoots", "Drone aerials of resort and property (GCAA-approved)", "OTA-optimised image delivery (Booking.com, Expedia, etc.)"],
+    includes: ["Full hotel room & suite photography", "F&B restaurant and bar lifestyle shoots", "Pool, beach & outdoor environment photography", "Spa and wellness content production", "Resort campaign photography and video", "Real estate video tours & property lifestyle shoots", "Drone aerials of resort and property", "OTA-optimised image delivery (Booking.com, Expedia, etc.)"],
     faqs: [
       { q: "What does a hotel photography package include?", a: "Our standard hotel photography package covers rooms and suites (all categories), public areas, restaurants and bars, pool and recreation facilities, spa, and exterior property. We deliver OTA-ready formats, social media crops, and print-resolution files from a single shoot." },
       { q: "When do you shoot hotel interiors?", a: "Hotel interior photography is always shot in the early morning before guest activity, using natural light where possible and professional supplemental lighting where needed. Exterior and pool photography is timed around golden hour for the warmest, most aspirational results." },
@@ -751,8 +751,8 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
   },
   "aerial-drone": {
     title: "Aerial Drone Videography Dubai & UAE",
-    description: "GCAA-licensed drone videography across all 7 UAE emirates. Best aerial drone production company in Dubai for events, weddings, real estate and commercial shoots. 4K cinematic drone footage.",
-    keywords: ["aerial drone videography Dubai", "drone videographer Dubai", "GCAA-approved drone service UAE", "drone filming Dubai", "drone photography UAE", "aerial videography Dubai wedding"],
+    description: "Drone videography across all 7 UAE emirates. Best aerial drone production company in Dubai for events, weddings, real estate and commercial shoots. 4K cinematic drone footage.",
+    keywords: ["aerial drone videography Dubai", "drone videographer Dubai", "aerial drone service UAE", "drone filming Dubai", "drone photography UAE", "aerial videography Dubai wedding"],
   },
   "corporate-films": {
     title: "Corporate Film Production Dubai",
@@ -776,12 +776,12 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
   },
   "automotive": {
     title: "Automotive Photography & Video Dubai",
-    description: "Professional automotive videography and photography in Dubai. Studio and on-location car shoots, dynamic on-road filming, GCAA drone aerials, and social media content for UAE dealerships and auto brands.",
+    description: "Professional automotive videography and photography in Dubai. Studio and on-location car shoots, dynamic on-road filming, drone aerials, and social media content for UAE dealerships and auto brands.",
     keywords: ["automotive videography Dubai", "car photography Dubai", "automotive photography UAE", "car shoot Dubai", "dealership photography Dubai", "vehicle photography UAE"],
   },
   "real-estate": {
     title: "Real Estate Photography & Video Dubai",
-    description: "Top real estate videography and photography in Dubai. Property walkthroughs, architectural photography, GCAA drone aerials, and twilight shoots for UAE listings and developer campaigns. 24-hour delivery.",
+    description: "Top real estate videography and photography in Dubai. Property walkthroughs, architectural photography, drone aerials, and twilight shoots for UAE listings and developer campaigns. 24-hour delivery.",
     keywords: ["real estate videography Dubai", "property photography Dubai", "real estate photography UAE", "property walkthrough video Dubai", "drone real estate photography Dubai", "architectural photography UAE"],
   },
   "corporate-videography": {
@@ -846,7 +846,7 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
   },
   "hotel-photography": {
     title: "Hotel & Resort Photography Dubai",
-    description: "Professional hotel photography and resort campaign production in Dubai. Room photography, F&B lifestyle imagery, spa content, resort campaigns, real estate video tours, and GCAA drone aerials across UAE.",
+    description: "Professional hotel photography and resort campaign production in Dubai. Room photography, F&B lifestyle imagery, spa content, resort campaigns, real estate video tours, and drone aerials across UAE.",
     keywords: ["hotel photography Dubai", "resort photography UAE", "hospitality photography Dubai", "hotel campaign production UAE", "property lifestyle photography Dubai", "hotel videography UAE"],
   },
   "reels-production": {

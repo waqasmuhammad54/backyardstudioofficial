@@ -455,7 +455,7 @@ export default function HowToChoosePage() {
             {[
               "Licensed UAE production company with TRN on every invoice",
               "Permanent in-house crew — named on your scope before you sign",
-              "GCAA-authorised for aerial work",
+              "Authorised for aerial work",
               "Arabic-speaking and all-female crews available",
               "Itemised quotes with revision rounds stated",
               "48–72 hour delivery, same-day social cuts on events",

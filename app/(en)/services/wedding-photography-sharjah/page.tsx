@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: "How much does a wedding photographer cost in Sharjah?",
-    a: "Identical to our Dubai pricing: Essential photography from AED 7,500, Silver photo + video from AED 15,500, full-day Gold from AED 22,500 with GCAA drone and same-day teaser, and Platinum multi-day from AED 65,000. No travel fees apply anywhere in Sharjah — city, Khor Fakkan, or Kalba.",
+    a: "Identical to our Dubai pricing: Essential photography from AED 7,500, Silver photo + video from AED 15,500, full-day Gold from AED 22,500 with drone aerials and same-day teaser, and Platinum multi-day from AED 65,000. No travel fees apply anywhere in Sharjah — city, Khor Fakkan, or Kalba.",
   },
   {
     q: "Do you provide female photographers for ladies' wedding halls in Sharjah?",
@@ -104,7 +104,7 @@ export default function WeddingPhotographySharjahPage() {
               Backyard Studio Official covers Sharjah weddings at the same prices as Dubai — photography from AED 7,500, full photo + video days from AED 22,500 — with zero travel fees anywhere in the emirate, including Khor Fakkan and Kalba. Sharjah is where our all-female crews work most: ladies' halls at Sharjah Ladies Club, bridal halls across the city, and Emirati weddings where privacy rules everything. 2,400+ UAE productions, founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
-              Every package includes professionally edited photos and 48-hour delivery; Gold and Platinum add a second crew pair, drone aerials flown under GCAA licence (where venue permissions allow), and a same-day teaser. Couple sessions at Al Majaz Waterfront and Al Noor Island slot beautifully between the ceremony and reception. Compare every tier on the <Link href="/wedding-packages" className="underline hover:text-gold">wedding packages page</Link>.
+              Every package includes professionally edited photos and 48-hour delivery; Gold and Platinum add a second crew pair, drone aerials (where venue permissions allow), and a same-day teaser. Couple sessions at Al Majaz Waterfront and Al Noor Island slot beautifully between the ceremony and reception. Compare every tier on the <Link href="/wedding-packages" className="underline hover:text-gold">wedding packages page</Link>.
             </p>
 
             <div className="mt-12">

@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 const LOCATIONS_FAQS = [
   { q: "Backyard Studio 覆盖阿联酋全部7个酋长国吗？", a: "是的。Backyard Studio Official 在阿联酋全部7个酋长国提供专业视频和摄影服务：迪拜、阿布扎比、沙迦、阿治曼、哈伊马角、富查伊拉和乌姆盖万。我们可在24至48小时内将摄制团队部署至任何酋长国。" },
   { q: "迪拜以外的拍摄需要额外收取出行费用吗？", a: "不需要。Backyard Studio Official 在阿联酋境内拍摄不收取出行费用。无论拍摄地点在迪拜、阿布扎比还是哈伊马角，交通费用均已包含在制作报价中。" },
-  { q: "在阿联酋全境提供哪些类型的制作服务？", a: "我们在所有酋长国提供完整的制作服务：活动摄像、婚礼摄影、DVC数字视频广告、Instagram Reels和TikTok内容、企业影片、GCAA认证无人机航拍、客户证言视频和广告拍摄。" },
+ { q: "在阿联酋全境提供哪些类型的制作服务？", a: "我们在所有酋长国提供完整的制作服务：活动摄像、婚礼摄影、DVC数字视频广告、Instagram Reels和TikTok内容、企业影片、无人机航拍、客户证言视频和广告拍摄。" },
 ];
 
 const EMIRATES = [

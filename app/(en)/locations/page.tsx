@@ -35,7 +35,7 @@ const LOCATIONS_FAQS = [
   },
   {
     question: "What types of production does Backyard Studio offer across the UAE?",
-    answer: "We offer the full range of production services across all UAE emirates: event videography, wedding photography, DVCs (digital video commercials), Instagram Reels and TikTok content, corporate films, aerial drone footage (GCAA-approved), testimonial videos, and ads production.",
+    answer: "We offer the full range of production services across all UAE emirates: event videography, wedding photography, DVCs (digital video commercials), Instagram Reels and TikTok content, corporate films, aerial drone footage, testimonial videos, and ads production.",
   },
 ];
 

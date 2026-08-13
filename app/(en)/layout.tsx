@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     "corporate video production Dubai",
     "event videographer Dubai",
     "aerial drone videography Dubai",
-    "aerial via GCAA-licensed operation UAE",
+    "aerial videography UAE",
     "backyard studio official",
     "best production company UAE",
   ],

@@ -34,7 +34,7 @@ export const metadata: Metadata = {
 const FAQS = [
   {
     q: "How much does a wedding photographer cost in Ajman?",
-    a: "Our Ajman pricing matches Dubai exactly: Essential photography AED 7,500, Silver photo + video AED 15,500, full-day Gold AED 22,500 with GCAA drone and same-day teaser, Platinum multi-day AED 65,000+. Ajman is 30 minutes from our Dubai base — travel is always free.",
+    a: "Our Ajman pricing matches Dubai exactly: Essential photography AED 7,500, Silver photo + video AED 15,500, full-day Gold AED 22,500 with drone aerials and same-day teaser, Platinum multi-day AED 65,000+. Ajman is 30 minutes from our Dubai base — travel is always free.",
   },
   {
     q: "Which Ajman wedding venues do you cover?",
@@ -46,7 +46,7 @@ const FAQS = [
   },
   {
     q: "What is special about an Al Zorah mangrove shoot?",
-    a: "Golden-hour light through the mangrove channels, mirror-still water, and flamingos in season — a 30-minute couple session there between ceremony and reception produces some of the most distinctive wedding photos in the UAE. Drone aerials over the channels are GCAA-licensed and arranged in advance.",
+    a: "Golden-hour light through the mangrove channels, mirror-still water, and flamingos in season — a 30-minute couple session there between ceremony and reception produces some of the most distinctive wedding photos in the UAE. Drone aerials over the channels are fully permitted and arranged in advance.",
   },
   {
     q: "How fast do we receive our Ajman wedding photos?",
@@ -104,7 +104,7 @@ export default function WeddingPhotographyAjmanPage() {
               Backyard Studio Official photographs Ajman weddings at exactly our Dubai prices — from AED 7,500 with zero travel fees. The emirate punches far above its size for weddings: Ajman Saray and Fairmont beach ceremonies, the Oberoi at Al Zorah, and the mangrove channels that give couples a backdrop nowhere else in the UAE can match. Female crews are available for bridal halls, with the same privacy-first workflows we run in Sharjah. 2,400+ UAE productions; founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
-              Every package includes professionally edited photos and guaranteed 48-hour delivery; Gold and Platinum add GCAA drone aerials, a second crew pair, and a same-day teaser for Instagram. Compare every tier on the <Link href="/wedding-packages" className="underline hover:text-gold">wedding packages page</Link>.
+              Every package includes professionally edited photos and guaranteed 48-hour delivery; Gold and Platinum add drone aerials, a second crew pair, and a same-day teaser for Instagram. Compare every tier on the <Link href="/wedding-packages" className="underline hover:text-gold">wedding packages page</Link>.
             </p>
 
             <div className="mt-12">

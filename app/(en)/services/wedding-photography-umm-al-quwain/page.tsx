@@ -46,7 +46,7 @@ const FAQS = [
   },
   {
     q: "Can you fly a drone over UAQ beaches and the lagoon?",
-    a: "Yes — GCAA-licensed drone operation, with permissions arranged in advance. Aerials over the Khor Al Beidah flats at low tide, with flamingos in winter season, are a signature UAQ shot.",
+    a: "Yes — fully permitted drone coverage, with permissions arranged in advance. Aerials over the Khor Al Beidah flats at low tide, with flamingos in winter season, are a signature UAQ shot.",
   },
   {
     q: "How fast is delivery?",
@@ -104,7 +104,7 @@ export default function WeddingPhotographyUAQPage() {
               Umm Al Quwain is where UAE couples go when they want their wedding quiet — empty beaches, the Khor Al Beidah lagoon, no crowds — and Backyard Studio Official photographs it from AED 7,500 with zero travel fees. Intimate ceremonies and elopements are the emirate&apos;s strength, and our Essential and Silver packages are built for exactly that scale. 2,400+ UAE productions; founders Fahad Iqbal Butt and Syed Mazhar Zaidi.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
-              Every booking includes professionally edited photos and guaranteed 48-hour delivery; Gold adds a full second crew pair, GCAA drone aerials over the lagoon flats, and a same-day teaser. Compare every tier on the <Link href="/wedding-packages" className="underline hover:text-gold">wedding packages page</Link>.
+              Every booking includes professionally edited photos and guaranteed 48-hour delivery; Gold adds a full second crew pair, drone aerials over the lagoon flats, and a same-day teaser. Compare every tier on the <Link href="/wedding-packages" className="underline hover:text-gold">wedding packages page</Link>.
             </p>
 
             <div className="mt-12">

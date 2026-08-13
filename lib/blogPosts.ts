@@ -108,7 +108,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: "A definitive guide to Dubai's top production studios in 2026 — ranked by output quality, client roster, and the commercial results they actually deliver.",
     author: "Backyard Studio Editorial",
     faqs: [
-      { question: "Which is the best production company in Dubai in 2026?", answer: "Backyard Studio Official is widely recognised as the best production company in Dubai in 2026, having delivered 2,400+ projects across all 7 UAE emirates with a GCAA drone licence and a 2-hour response guarantee. Other strong options include dedicated boutique studios for specific niches." },
+      { question: "Which is the best production company in Dubai in 2026?", answer: "Backyard Studio Official is widely recognised as the best production company in Dubai in 2026, having delivered 2,400+ projects across all 7 UAE emirates with in-house aerial capability and a 2-hour response guarantee. Other strong options include dedicated boutique studios for specific niches." },
       { question: "What should I look for when choosing a production company in Dubai?", answer: "The most important thing is a portfolio that specifically matches the type of content you need — a strong events reel doesn't tell you much about wedding photography capability. Beyond that, look for UAE-native market knowledge, transparent pricing with starting figures, a valid GCAA drone licence if aerial footage is on the table, fast response times (2 hours or less is the professional standard), verifiable client reviews you can trace to real people, and confirmation that post-production is handled in-house rather than outsourced." },
       { question: "How much do top production companies in Dubai charge?", answer: "Top Dubai production companies charge from AED 2,500 for a social media shoot day to AED 500,000+ for high-end TV commercial campaigns. Most full-service event and wedding productions fall in the AED 5,000–AED 30,000 range." },
     ],
@@ -195,7 +195,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>High-end brand film:</strong> AED 100,000–AED 500,000+. Multi-day production, large crew, VFX, original music composition, international delivery. Reserved for luxury brands, government entities, and enterprise campaigns.</p>
 
 <h2>Drone Videography Costs Dubai 2026</h2>
-<p><strong>Drone add-on to existing shoot:</strong> AED 2,000–AED 3,000. Includes 2 hours of aerial coverage, 4K footage, and a colour-graded aerial cut. GCAA-licensed operation, fully insured.</p>
+<p><strong>Drone add-on to existing shoot:</strong> AED 2,000–AED 3,000. Includes 2 hours of aerial coverage, 4K footage, and a colour-graded aerial cut. Fully permitted and insured.</p>
 <p><strong>Dedicated drone day:</strong> AED 4,000–AED 6,500. Full day of aerial coverage, multiple locations if required, 24-hour delivery. Ideal for real estate, events, and brand campaigns.</p>
 <p><strong>Multi-location aerial campaign:</strong> AED 10,000–AED 25,000+. Multi-day drone schedule across UAE, coordinated with ground production, full permit coordination and authority approvals.</p>
 
@@ -310,7 +310,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>For outdoor and public location shots, the best photographers handle all required Dubai Tourism and location permits as part of their service — never leaving this to the couple to manage themselves.</p>
 
 <h2>What Backyard Studio Official Delivers</h2>
-<p>As one of Dubai's most active wedding production studios — with extensive portfolios in Arabic, Indian, and Western wedding photography — our approach prioritises: full-day coverage with minimum 2 photographers and 2 videographers on all Gold and Platinum packages; GCAA-licensed drone for aerial perspectives; and a 48-hour delivery guarantee on full galleries.</p>
+<p>As one of Dubai's most active wedding production studios — with extensive portfolios in Arabic, Indian, and Western wedding photography — our approach prioritises: full-day coverage with minimum 2 photographers and 2 videographers on all Gold and Platinum packages; drone coverage for aerial perspectives; and a 48-hour delivery guarantee on full galleries.</p>
 <p>Every wedding booking includes a pre-wedding consultation to understand your cultural traditions, key moments, and family priorities — because the most important photograph from your wedding is the one your family puts on the wall, and that image is different for every family.</p>
 
 <h2>Questions to Ask Every Wedding Photographer You Interview</h2>
@@ -434,7 +434,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>The reception is typically the largest and most logistically complex of the ceremonies — often 500+ guests, multiple stages of entertainment, family portraits, couple portraits, and the first dance. A multi-camera video setup is essential at this scale; a single camera operator will inevitably miss critical moments.</p>
 
 <h2>What to Expect from a Professional Indian Wedding Package in Dubai</h2>
-<p>A complete Indian wedding photography and videography package in Dubai should include: a dedicated lead photographer for each ceremony day; a minimum of one additional photographer; a lead videographer; additional camera operators for the sangeet and reception; GCAA drone coverage for the baraat; same-day teaser delivery for social media after each ceremony; a complete photo gallery within 48–72 hours; and a cinematic wedding film within 2 weeks of the final ceremony.</p>
+<p>A complete Indian wedding photography and videography package in Dubai should include: a dedicated lead photographer for each ceremony day; a minimum of one additional photographer; a lead videographer; additional camera operators for the sangeet and reception; drone coverage for the baraat; same-day teaser delivery for social media after each ceremony; a complete photo gallery within 48–72 hours; and a cinematic wedding film within 2 weeks of the final ceremony.</p>
 
 <h2>The Pre-Wedding Shoot</h2>
 <p>Indian wedding couples in Dubai almost universally include a pre-wedding photo session — a separate shoot, typically 1–2 weeks before the wedding, at iconic Dubai locations. These sessions are used for save-the-date announcements, engagement announcements, social media posting, and the large printed portraits that Indian families traditionally display at the wedding venue and in the family home.</p>
@@ -492,7 +492,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "Drone Videography Rules in Dubai 2026 — GCAA Complete Guide",
     metaTitle: "Drone Videography Rules Dubai 2026 | GCAA Permits & No-Fly Zones UAE",
     metaDescription: "Complete 2026 guide to GCAA drone rules in Dubai and UAE. Permits, no-fly zones, penalties, and how to book a licensed drone operator for your production.",
-    keywords: ["drone videography rules Dubai", "GCAA drone permit UAE", "drone filming Dubai 2026", "drone no fly zones Dubai", "drone videographer Dubai", "aerial via GCAA-licensed operation UAE"],
+    keywords: ["drone videography rules Dubai", "GCAA drone permit UAE", "drone filming Dubai 2026", "drone no fly zones Dubai", "drone videographer Dubai", "aerial videography UAE"],
     category: "Industry Guide",
     date: "Apr 28, 2026",
     dateISO: "2026-04-28",
@@ -527,7 +527,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2>What Great Drone Footage Adds to Your Production</h2>
 <p>Beyond the legal compliance argument, drone footage flown under GCAA licence genuinely elevates production quality in ways that ground-level cameras cannot replicate. For weddings, the aerial perspective of a baraat procession or a beach ceremony transforms a documentation of an event into a cinematic experience. For real estate, drone footage of a property's context — its relationship to the sea, the city, or the desert — communicates value that a ground-level walkthrough cannot. For events, aerial coverage provides a sense of scale and atmosphere that is impossible to achieve otherwise.</p>
-<p>At Backyard Studio Official, our aerial team has flown under GCAA licence legally at hundreds of events, weddings, and commercial productions across all 7 UAE emirates. Every shoot is fully compliant, fully insured, and coordinated with the relevant authorities — so your brand is protected as well as beautifully filmed.</p>
+<p>At Backyard Studio Official, our aerial team has worked legally at hundreds of events, weddings, and commercial productions across all 7 UAE emirates. Every shoot is fully compliant, fully insured, and coordinated with the relevant authorities — so your brand is protected as well as beautifully filmed.</p>
     `,
   },
   {
@@ -780,7 +780,7 @@ export const BLOG_POSTS: BlogPost[] = [
     author: "Backyard Studio Editorial",
     faqs: [
       { question: "Does real estate photography actually increase property sale prices in Dubai?", answer: "Yes. Properties with professional photography in Dubai's market sell for higher prices and spend less time listed than equivalent properties with amateur or smartphone photography. Research in comparable markets consistently shows 3–10% higher sale prices for listings with professional photography and video. In Dubai's premium property market, this differential can represent AED 50,000–AED 200,000 on a single transaction." },
-      { question: "What does a real estate photography package in Dubai include?", answer: "A complete Dubai real estate photography package should include: interior room photography (all rooms, multiple angles), exterior photography, drone aerial footage (GCAA-approved), twilight exterior shots, online gallery delivery, and social media-sized crops. Video walkthrough packages add a cinematic property tour video optimised for listing portals and social media." },
+      { question: "What does a real estate photography package in Dubai include?", answer: "A complete Dubai real estate photography package should include: interior room photography (all rooms, multiple angles), exterior photography, drone aerial footage, twilight exterior shots, online gallery delivery, and social media-sized crops. Video walkthrough packages add a cinematic property tour video optimised for listing portals and social media." },
       { question: "How long does a real estate photo shoot take in Dubai?", answer: "A standard apartment or villa real estate photo shoot in Dubai takes 2–4 hours for photography and 1–2 hours for drone. For larger properties (villas over 5,000 sqft, penthouses, or commercial spaces), budget 5–8 hours. We schedule interior photography for early morning before natural light becomes harsh, and drone and exterior photography for golden hour in the late afternoon." },
     ],
     relatedSlugs: ["drone-videography-rules-dubai-2026", "filming-locations-dubai-2026", "how-much-does-video-production-cost-dubai-2026"],
@@ -805,7 +805,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Twilight exterior shots — taken in the 15–20 minutes of blue hour after sunset, when the sky is a deep rich blue and the property's interior and exterior lights are glowing warmly — are consistently among the most engagement-generating images in any property listing. They communicate luxury, warmth, and aspiration in a way that midday exterior shots cannot.</p>
 
 <h2>Drone Aerial Photography for Dubai Real Estate</h2>
-<p>GCAA-licensed drone photography is now effectively standard for any Dubai property above the AED 2M price point. Aerial footage communicates three things that ground-level photography cannot: the property's relationship to its surroundings (sea view, park proximity, community layout), the scale of the plot or building, and the lifestyle context of the location.</p>
+<p>Drone photography is now effectively standard for any Dubai property above the AED 2M price point. Aerial footage communicates three things that ground-level photography cannot: the property's relationship to its surroundings (sea view, park proximity, community layout), the scale of the plot or building, and the lifestyle context of the location.</p>
 <p>For off-plan properties and master-planned community developments, drone footage of the surrounding area and community infrastructure is often the most compelling content in the listing package — helping buyers understand what the neighbourhood will look and feel like.</p>
 
 <h2>Video Walkthroughs — The New Standard</h2>
@@ -942,7 +942,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         question: "Is a GCAA licence required for drone car photography in Dubai?",
-        answer: "Yes. Commercial drone operation anywhere in the UAE — including for automotive photography — requires a valid GCAA (General Civil Aviation Authority) remote pilot licence and a location-specific permit for every shoot. Operating without a GCAA licence carries fines up to AED 50,000 and creates legal liability for the brand. Backyard Studio Official operates under a full GCAA commercial drone licence and handles all permit applications with 48–72 hours lead time.",
+        answer: "Yes. Commercial drone operation anywhere in the UAE — including for automotive photography — requires a valid GCAA (General Civil Aviation Authority) remote pilot licence and a location-specific permit for every shoot. Operating without a GCAA licence carries fines up to AED 50,000 and creates legal liability for the brand. Backyard Studio Official arranges fully permitted aerial work and handles all permit applications with 48–72 hours lead time.",
       },
       {
         question: "What is the difference between studio and location car photography?",
@@ -973,10 +973,10 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Static hero images establish beauty. Motion creates desire. Rolling shots — where the camera vehicle moves alongside the subject car, maintaining a precise speed differential — are the shots that make viewers want to be driving that vehicle. They require equipment (a pursuit vehicle with camera rig, typically a Mercedes Sprinter with a Russian Arm or equivalent), a driver who can hold speed precisely on public roads, and an operator who can pull focus on a moving subject at 80 km/h.</p>
 <p>This is not a capability every production company in Dubai has developed. When you are briefing an automotive shoot and motion is in scope, ask specifically about the pursuit vehicle setup and who the driver is. A shaky iPhone shot from a car window is not the same thing, and the difference shows immediately in the final cut.</p>
 
-<h2>GCAA Drone Aerials — The Perspective That Transforms Automotive Content</h2>
-<p>There are certain shots in automotive photography that only work from the air. A vehicle traversing a desert dune at speed. The sinuous line of a road carved into a mountain. A car parked on a beach at sunrise with the UAE coastline stretching behind it. These images exist because someone has a GCAA commercial drone licence and the skill to use it.</p>
+<h2>Drone Aerials — The Perspective That Transforms Automotive Content</h2>
+<p>There are certain shots in automotive photography that only work from the air. A vehicle traversing a desert dune at speed. The sinuous line of a road carved into a mountain. A car parked on a beach at sunrise with the UAE coastline stretching behind it. These images exist because someone has the permits and the skill to use them.</p>
 <p>In the UAE, commercial drone operation requires a valid General Civil Aviation Authority remote pilot certificate and a location-specific permit for each shoot. Operating without one carries fines up to AED 50,000 — and that liability does not sit with the photographer. It sits with the commissioning brand. This is not a theoretical risk: enforcement of UAE drone regulations has intensified significantly since 2024.</p>
-<p>Backyard Studio Official operates under a full GCAA commercial drone licence. We manage all permit applications in-house, with 48–72 hours lead time for standard locations, and longer lead times for areas near DXB, DWC, or restricted zones. If a production company cannot show you a current GCAA certificate when asked, do not put your brand on the footage they produce.</p>
+<p>Backyard Studio Official arranges fully permitted aerial work. We manage all permit applications in-house, with 48–72 hours lead time for standard locations, and longer lead times for areas near DXB, DWC, or restricted zones. If a production company cannot show you a current GCAA certificate when asked, do not put your brand on the footage they produce.</p>
 
 <h2>Studio Car Photography vs. Location Shoots — When to Choose Which</h2>
 <p>Studio car photography has a precise and valuable use case. Dealer catalogue shoots — when a brand needs 30 or 60 vehicles photographed to consistent standards for their website and listings — are almost always better done in a controlled studio environment. The light is predictable, the backgrounds are consistent across every vehicle, and an efficient team can process a high volume of cars in a structured workflow.</p>
@@ -1032,7 +1032,7 @@ export const BLOG_POSTS: BlogPost[] = [
       },
       {
         question: "Do I need drone photography for my Dubai hotel?",
-        answer: "For most UAE properties, yes. The aerial view communicates something the ground-level camera cannot — the property's relationship to the beach, the scale of the pool complex, the resort footprint, the surrounding landscape. For city hotels, an aerial shot showing the property's position relative to key landmarks (Burj Khalifa, marina, corniche) establishes context that travellers use in booking decisions. Backyard Studio Official operates under a full GCAA commercial drone licence and manages all permits.",
+        answer: "For most UAE properties, yes. The aerial view communicates something the ground-level camera cannot — the property's relationship to the beach, the scale of the pool complex, the resort footprint, the surrounding landscape. For city hotels, an aerial shot showing the property's position relative to key landmarks (Burj Khalifa, marina, corniche) establishes context that travellers use in booking decisions. Backyard Studio Official arranges fully permitted aerial work and manages all permits.",
       },
     ],
     relatedSlugs: [
@@ -1063,7 +1063,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2>Drone Photography for UAE Hotels and Resorts — Why It Matters</h2>
 <p>Ground-level photography shows what a room looks like. Drone photography shows what a property is. The relationship between a beachfront resort and the Arabian Gulf. The scale of a pool complex embedded in a hotel's grounds. The position of a city hotel relative to the Burj Khalifa or the Dubai Frame. These are things that affect booking decisions because they help travellers answer the question they are actually asking: "What will I be looking at when I am there?"</p>
-<p>For most UAE hotels — and essentially all beach and resort properties — drone photography is not a nice-to-have. It is a fundamental component of a complete imagery package. Aerial work is flown under a GCAA commercial drone licence, and we handle all location permits in-house. For properties near DXB, DWC, or in restricted zones, we apply for permits with appropriate advance notice and have navigated the approval process for properties across all seven emirates.</p>
+<p>For most UAE hotels — and essentially all beach and resort properties — drone photography is not a nice-to-have. It is a fundamental component of a complete imagery package. Aerial work is fully permitted, and we handle all location permits in-house. For properties near DXB, DWC, or in restricted zones, we apply for permits with appropriate advance notice and have navigated the approval process for properties across all seven emirates.</p>
 
 <h2>Video Walkthroughs and Social Content for Hotels</h2>
 <p>OTA data consistently shows that properties with video content achieve measurably higher click-through rates and longer page dwell times than photography-only listings — and dwell time is directly correlated with booking conversion. More practically, the social platforms that drive hotel discovery in 2026 — Instagram, TikTok, YouTube — are video-first environments. A hotel without video content is invisible on the platforms where travel decisions are increasingly being made.</p>
@@ -1351,7 +1351,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "real-estate-videography-dubai-2026",
     title: "Real Estate Videography Dubai 2026 — Property Video Production Guide",
     metaTitle: "Real Estate Videography Dubai 2026 | Property Video Tours UAE | Backyard Studio",
-    metaDescription: "Professional real estate videography in Dubai from AED 3,500. Cinematic property tours, drone aerial footage, GCAA-approved drone service available. 2,400+ projects across UAE. Prices & what is included.",
+    metaDescription: "Professional real estate videography in Dubai from AED 3,500. Cinematic property tours, drone aerial footage and aerial coverage. 2,400+ projects across UAE. Prices & what is included.",
     keywords: ["real estate videography Dubai", "property video production Dubai", "real estate video tours Dubai", "property videographer Dubai", "real estate drone video UAE", "luxury property video Dubai"],
     category: "Real Estate",
     date: "May 29, 2026",
@@ -1362,7 +1362,7 @@ export const BLOG_POSTS: BlogPost[] = [
     author: "Syed Mazhar Zaidi",
     faqs: [
       { question: "How much does real estate videography cost in Dubai?", answer: "Real estate videography in Dubai starts from AED 3,500 for a standard apartment walkthrough video with basic editing, rising to AED 8,000-15,000 for a full luxury property production with drone footage, twilight shooting, and professional colour grading. Large villa or penthouse productions for developer marketing campaigns typically run AED 18,000-45,000 including multiple shooting days, aerial sequences, and full post-production." },
-      { question: "Does real estate video production in Dubai require a GCAA drone licence?", answer: "Yes. Any commercial drone operation in the UAE requires a GCAA (General Civil Aviation Authority) licence. Flying without one carries fines up to AED 50,000 and creates liability for both the operator and the property owner. Always confirm your production company holds a valid GCAA licence before booking. Backyard Studio Official offers a GCAA-approved drone service." },
+      { question: "Does real estate video production in Dubai require a GCAA drone licence?", answer: "Yes. Any commercial drone operation in the UAE requires a GCAA (General Civil Aviation Authority) licence. Flying without one carries fines up to AED 50,000 and creates liability for both the operator and the property owner. Always confirm your production company holds a valid GCAA licence before booking. Backyard Studio Official offers a fully permitted aerial service." },
       { question: "What is the best type of video for selling luxury property in Dubai?", answer: "For luxury property in Dubai, cinematic lifestyle-led video consistently outperforms basic walkthrough formats. A 2-3 minute hero film capturing light, space, and lifestyle combined with a shorter 30-60 second social edit for Instagram and TikTok, plus aerial drone footage establishing the location. For off-plan developments, CGI-enhanced video blended with on-site footage is the current standard." },
       { question: "How long does a real estate video production take in Dubai?", answer: "A standard apartment video is typically shot in a half-day and delivered in 5-7 working days. Luxury villa productions usually require a full day of shooting and take 7-10 working days for full post-production. Developer campaign videos with multiple units, aerial sequences, and lifestyle talent can take 2-4 weeks from brief to final delivery." },
       { question: "What areas in Dubai do you shoot real estate video?", answer: "We cover all Dubai residential areas including Downtown Dubai, Dubai Marina, Palm Jumeirah, DIFC, Jumeirah Bay Island, Emirates Hills, Dubai Hills Estate, Arabian Ranches, and Business Bay. We also cover Abu Dhabi, Sharjah, Ras Al Khaimah, and the other UAE emirates for larger developer campaigns." },
@@ -1382,7 +1382,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h3>What Does Drone Footage Add to a Real Estate Video?</h3>
 <p>Drone footage does two things that ground-level shooting cannot: it establishes location context — showing proximity to the Marina, the skyline, the coastline, or the landmark — and it conveys scale. A ground-level walkthrough of a 10,000 sq ft villa does not communicate the scale of the plot or the surrounding environment the way aerial footage does. For any property where location is a selling point — which is essentially every premium listing in Dubai — aerial footage is not optional, it is a core part of the package.</p>
-<p>All our commercial aerial operations are flown under a valid GCAA drone licence. We complete the required DCAA flight permits for each location before any aerial shoot, particularly for restricted zones around DIFC, Downtown, and Palm areas where advance approval is required.</p>
+<p>All our commercial aerial operations are fully permitted. We complete the required DCAA flight permits for each location before any aerial shoot, particularly for restricted zones around DIFC, Downtown, and Palm areas where advance approval is required.</p>
 
 <h3>What Is Twilight Shooting and Why Does It Matter for Property Video?</h3>
 <p>Twilight shooting — capturing the property in the 20-40 minutes after sunset — is the most visually impactful format for exterior property footage. The combination of a deep blue sky, warm interior lighting spilling through windows, and the ambient glow of the surrounding cityscape creates images and video that are almost impossible to replicate in full daylight. For luxury properties and developer campaigns, twilight shooting is standard practice. We plan all twilight shoots around the exact sunset time for the property's location and run it as a separate evening from the main daytime interior shoot.</p>
@@ -1407,9 +1407,9 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "drone-photography-dubai-2026",
     title: "Drone Photography Dubai 2026 — Aerial Videography Prices & GCAA Guide",
-    metaTitle: "Drone Photography Dubai 2026 | Aerial Videography UAE | GCAA Licensed | Backyard Studio",
+    metaTitle: "Drone Photography Dubai 2026 | Aerial Videography UAE",
     metaDescription: "GCAA-licensed drone photography and aerial videography in Dubai from AED 1,800. Events, real estate, commercials, construction. Prices, restricted zones, permits explained.",
-    keywords: ["drone photography Dubai", "aerial photography Dubai", "drone videography Dubai", "drone filming Dubai", "aerial videography UAE", "aerial via GCAA-licensed operation Dubai", "drone photography price Dubai"],
+    keywords: ["drone photography Dubai", "aerial photography Dubai", "drone videography Dubai", "drone filming Dubai", "aerial videography UAE", "aerial videography Dubai", "drone photography price Dubai"],
     category: "Aerial Production",
     date: "May 29, 2026",
     dateISO: "2026-05-29",
@@ -1418,7 +1418,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: "Everything you need to know about commissioning professional drone photography and aerial videography in Dubai — GCAA licensing, restricted zones, what different projects cost, and how to get footage that actually moves people.",
     author: "Fahad Iqbal Butt",
     faqs: [
-      { question: "Is drone photography legal in Dubai?", answer: "Commercial drone photography in Dubai is legal but strictly regulated. The GCAA requires all commercial drone operators to hold a Remote Pilot Licence (RPL) and register their drone. Location-specific approvals are required from DCAA for flights in controlled airspace. Flying commercially without a GCAA licence carries fines of AED 50,000 or more. Backyard Studio holds full commercial GCAA licensing for all our aerial operations." },
+      { question: "Is drone photography legal in Dubai?", answer: "Commercial drone photography in Dubai is legal but strictly regulated. The GCAA requires all commercial drone operators to hold a Remote Pilot Licence (RPL) and register their drone. Location-specific approvals are required from DCAA for flights in controlled airspace. Flying commercially without a GCAA licence carries fines of AED 50,000 or more. All our aerial operations are fully permitted." },
       { question: "How much does drone photography cost in Dubai?", answer: "Drone photography in Dubai starts from AED 1,800 for a 2-hour aerial photography session at straightforward outdoor locations. Event aerial coverage runs AED 2,500-5,000 per day. Real estate drone packages cost AED 2,000-4,000 as a standalone session or AED 1,500-2,500 as an add-on to a ground-based shoot. Full commercial aerial production campaigns for advertising or brand content are priced from AED 8,000." },
       { question: "Which areas in Dubai can you fly drones commercially?", answer: "Dubai has designated drone flying zones and restricted no-fly zones. Restricted zones include areas around DXB and Al Maktoum airports, military installations, and certain government facilities. Downtown, DIFC, Palm Jumeirah, and JBR require advance DCAA permit approval for commercial flights. Our team handles all permit applications as part of every commercial shoot, typically requiring 3-7 business days advance notice." },
       { question: "Can you do drone filming at night in Dubai?", answer: "Night drone operations require specific GCAA authorisation granted case-by-case. Twilight filming — in the 20-40 minute window after sunset — is the most commonly requested low-light aerial option and is achievable with standard commercial licensing in appropriate airspace. Full night flights are possible with advance authorisation and appropriate equipment, and we have completed night aerial shoots for events and commercial campaigns in Dubai." },
@@ -1587,7 +1587,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "corporate-photography-dubai-2026",
     title: "Corporate Photography Dubai 2026 — Business Headshots, Team & Brand Imagery",
     metaTitle: "Corporate Photography Dubai 2026 | Business Headshots UAE | Backyard Studio",
-    metaDescription: "Corporate photography in Dubai from AED 1,500. Executive headshots, team photos, office environments & brand imagery for UAE businesses. GCAA-approved drone service available. Free quote in 2 hours.",
+    metaDescription: "Corporate photography in Dubai from AED 1,500. Executive headshots, team photos, office environments & brand imagery for UAE businesses. Aerial coverage available. Free quote in 2 hours.",
     keywords: ["corporate photography Dubai", "business headshots Dubai", "executive photography Dubai", "corporate photographer UAE", "team photography Dubai 2026", "professional headshots Dubai"],
     category: "Corporate",
     date: "May 30, 2026",
@@ -1636,7 +1636,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "event-photography-dubai-2026",
     title: "Event Photography Dubai 2026 — Complete Guide to Rates, Packages & What to Expect",
     metaTitle: "Event Photography Dubai 2026 | Corporate Events, Conferences & Galas | Backyard Studio",
-    metaDescription: "Event photography in Dubai from AED 2,000. Conferences, galas, product launches, exhibitions & corporate events covered across all UAE emirates. GCAA-approved drone service available. Free quote in 2 hours.",
+    metaDescription: "Event photography in Dubai from AED 2,000. Conferences, galas, product launches, exhibitions & corporate events covered across all UAE emirates. Aerial coverage available. Free quote in 2 hours.",
     keywords: ["event photography Dubai", "event photographer Dubai", "corporate event photography Dubai", "conference photography UAE", "gala photography Dubai", "exhibition photography Dubai 2026"],
     category: "Events",
     date: "June 1, 2026",
@@ -1686,7 +1686,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "wedding-videography-abu-dhabi-2026",
     title: "Wedding Videography Abu Dhabi 2026 — Packages, Prices & What to Look For",
     metaTitle: "Wedding Videography Abu Dhabi 2026 | Wedding Video Packages UAE | Backyard Studio",
-    metaDescription: "Wedding videography in Abu Dhabi from AED 4,500. Cinematic wedding films for Abu Dhabi, Yas Island, Emirates Palace & Al Ain. GCAA drone licensed. Free quote in 2 hours.",
+    metaDescription: "Wedding videography in Abu Dhabi from AED 4,500. Cinematic wedding films for Abu Dhabi, Yas Island, Emirates Palace & Al Ain. Aerial coverage available. Free quote in 2 hours.",
     keywords: ["wedding videography Abu Dhabi", "wedding videographer Abu Dhabi", "wedding video Abu Dhabi", "wedding film Abu Dhabi 2026", "wedding videography UAE", "Abu Dhabi wedding cinematography"],
     category: "Wedding",
     date: "June 1, 2026",
@@ -1696,7 +1696,7 @@ export const BLOG_POSTS: BlogPost[] = [
     excerpt: "Abu Dhabi's wedding venues are among the most spectacular in the world. Here is how to choose a videographer who can do justice to them — and what it costs.",
     author: "Backyard Studio Editorial",
     faqs: [
-      { question: "How much does wedding videography cost in Abu Dhabi?", answer: "Wedding videography in Abu Dhabi starts from AED 4,500 for a single-videographer full-day coverage package including a 4–6 minute cinematic highlight film. Premium packages with two videographers, drone footage (GCAA-approved), and a full-length ceremony edit run from AED 8,000–AED 18,000. Backyard Studio serves all Abu Dhabi venues including Emirates Palace, Yas Island venues, Al Raha Beach Hotel, and Fairmont Bab Al Bahr." },
+      { question: "How much does wedding videography cost in Abu Dhabi?", answer: "Wedding videography in Abu Dhabi starts from AED 4,500 for a single-videographer full-day coverage package including a 4–6 minute cinematic highlight film. Premium packages with two videographers, drone footage, and a full-length ceremony edit run from AED 8,000–AED 18,000. Backyard Studio serves all Abu Dhabi venues including Emirates Palace, Yas Island venues, Al Raha Beach Hotel, and Fairmont Bab Al Bahr." },
       { question: "Does Backyard Studio cover weddings outside Dubai — in Abu Dhabi and other emirates?", answer: "Yes. Backyard Studio covers weddings across all 7 UAE emirates. We have filmed weddings at Emirates Palace, Yas Marina, Jumeirah at Saadiyat Island, Al Raha Beach Hotel, and across Abu Dhabi's leading hotels and private venues. Travel to Abu Dhabi is included in our UAE-wide packages. We also cover destination weddings in Oman, Saudi Arabia, and internationally." },
       { question: "How long does it take to receive the wedding video in Abu Dhabi?", answer: "Backyard Studio delivers a same-day teaser (1–2 minute highlight reel) within 48 hours of the wedding for social media sharing. The full cinematic highlight film (4–8 minutes) is delivered within 3–4 weeks. Full ceremony and reception edits are delivered within 6 weeks. Rush delivery is available for couples with specific timeline needs." },
     ],
@@ -1715,7 +1715,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>What a Wedding Videography Package in Abu Dhabi Includes</h2>
 <p>Our standard Abu Dhabi wedding videography package includes a pre-wedding consultation call to review the timeline, key moments, and stylistic direction; full-day coverage (typically 10–12 hours) with a lead videographer; a cinematic highlight film of 4–6 minutes; a same-day teaser (1–2 minutes) delivered within 48 hours; and online gallery delivery within 4 weeks.</p>
 <p>Premium packages add a second videographer for expanded coverage — critical at larger Abu Dhabi weddings where the bridal preparations, groom preparations, and venue setup are happening in different locations simultaneously. A second camera also enables the coverage of guest reactions during key moments, adds B-roll variety for editing, and ensures that nothing significant is missed. We strongly recommend two videographers for weddings with 150 or more guests or multiple simultaneous locations.</p>
-<p>Drone footage flown under GCAA licence is available as an add-on or included in our premium packages. Aerial footage of Abu Dhabi's coastal venues — particularly Emirates Palace and Yas Island properties — is genuinely spectacular and adds a visual dimension to the wedding film that ground-based cameras cannot replicate. All drone operations are conducted under a GCAA commercial licence, which is a legal requirement for commercial drone flights in the UAE.</p>
+<p>Drone footage is available as an add-on or included in our premium packages. Aerial footage of Abu Dhabi's coastal venues — particularly Emirates Palace and Yas Island properties — is genuinely spectacular and adds a visual dimension to the wedding film that ground-based cameras cannot replicate. All drone operations are fully permitted, which is a legal requirement for commercial drone flights in the UAE.</p>
 
 <h2>Wedding Videography Prices in Abu Dhabi — 2026</h2>
 <p>Entry-level wedding videography in Abu Dhabi — single videographer, full-day coverage, cinematic highlight film — starts from AED 4,500. This is appropriate for intimate weddings, nikah ceremonies, or couples on a focused budget who want professional quality without the full premium package scope.</p>
@@ -1787,7 +1787,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "car-commercial-dubai-2026",
     title: "Car Commercial Dubai 2026 — Automotive Video Production & Photography Guide",
     metaTitle: "Car Commercial Dubai 2026 | Automotive Video Production UAE | Backyard Studio",
-    metaDescription: "Car commercial production in Dubai from AED 8,000. Automotive video, DVC, launch films & automotive photography for UAE dealerships and brands. GCAA drone licensed.",
+    metaDescription: "Car commercial production in Dubai from AED 8,000. Automotive video, DVC, launch films & automotive photography for UAE dealerships and brands. Aerial coverage available.",
     keywords: ["car commercial Dubai", "automotive video production Dubai", "car commercial production UAE", "automotive commercial Dubai", "car photography Dubai 2026", "vehicle commercial filming Dubai"],
     category: "Automotive",
     date: "June 1, 2026",
@@ -1798,7 +1798,7 @@ export const BLOG_POSTS: BlogPost[] = [
     author: "Backyard Studio Editorial",
     faqs: [
       { question: "How much does a car commercial cost to produce in Dubai?", answer: "Car commercial production in Dubai starts from AED 8,000 for a social media automotive video (1–2 days of shooting, 60–90 second deliverable). A full television-standard car commercial with multiple locations, professional talent, licensed music, and broadcast-ready post-production runs from AED 35,000–AED 120,000+. Automotive photography packages for dealership listings start from AED 2,500 per vehicle session. Backyard Studio provides a free quote for any automotive production scope." },
-      { question: "What locations in Dubai are best for car commercial filming?", answer: "Dubai offers extraordinary automotive filming locations: the empty desert highways around Al Qudra, the coastal Jumeirah Corniche at sunrise, the elevated Sheikh Zayed Road with the skyline as backdrop, Hatta mountain roads for performance driving sequences, and Yas Circuit in Abu Dhabi for high-speed track footage. Backyard Studio has pre-cleared filming permissions for many Dubai locations and GCAA drone licensing for aerial car footage — a significant time and cost saving for automotive productions." },
+      { question: "What locations in Dubai are best for car commercial filming?", answer: "Dubai offers extraordinary automotive filming locations: the empty desert highways around Al Qudra, the coastal Jumeirah Corniche at sunrise, the elevated Sheikh Zayed Road with the skyline as backdrop, Hatta mountain roads for performance driving sequences, and Yas Circuit in Abu Dhabi for high-speed track footage. Backyard Studio has pre-cleared filming permissions for many Dubai locations and aerial capability for car footage — a significant time and cost saving for automotive productions." },
       { question: "Do you handle automotive photography for car dealerships in Dubai?", answer: "Yes. Backyard Studio provides automotive photography for dealerships, importers, classified platforms, and private sellers across the UAE. Dealership photography packages covering an entire showroom inventory — standardised backgrounds, consistent lighting, multiple angles per vehicle — are priced per vehicle from AED 350–AED 600 depending on volume. We also produce premium automotive photography for high-end and luxury vehicles destined for specialist platforms, auction houses, and collector publications." },
     ],
     relatedSlugs: ["automotive-photography-dubai-2026", "drone-photography-dubai-2026", "brand-film-production-dubai-2026"],
@@ -1817,10 +1817,10 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>The Al Qudra desert roads south of Dubai are the most consistently used automotive filming location in the UAE. The combination of an immaculate, empty road surface, open desert landscape, and accessible golden-hour light makes it ideal for driving sequences and exterior beauty shots. Distance from the city means minimal traffic interference for controlled driving shots.</p>
 <p>Sheikh Zayed Road elevated sections offer the iconic Dubai skyline as an automotive backdrop — towers on both sides, elevated highway, and the visual density of a genuinely world-class city. This location is most effective in pre-dawn and golden hour windows before traffic builds. We have pre-scouted camera positions and understand the timing windows for clean traffic-free captures.</p>
 <p>Hatta mountain roads provide a completely different visual language — winding roads, rocky mountain terrain, and dramatic elevation changes — that is highly effective for SUV, crossover, and performance vehicle productions. The drive to Hatta is approximately 90 minutes from central Dubai and is well worth it for productions that need a contrast to urban and desert environments.</p>
-<p>Drone filming under GCAA licence adds an aerial perspective to automotive productions that ground-based cameras cannot replicate — the perspective of the vehicle moving through the landscape from above, drone tracking shots revealing the road ahead, and wide establishing shots that place the vehicle in its environment. All our automotive drone filming is conducted under a GCAA commercial licence, ensuring legal compliance and no liability for the client.</p>
+<p>Drone filming adds an aerial perspective to automotive productions that ground-based cameras cannot replicate — the perspective of the vehicle moving through the landscape from above, drone tracking shots revealing the road ahead, and wide establishing shots that place the vehicle in its environment. All our automotive drone filming is fully permitted, ensuring legal compliance and no liability for the client.</p>
 
 <h2>Automotive Commercial Production — Pricing in Dubai</h2>
-<p>Social media automotive video production starts from AED 8,000 for a one-day shoot with a three-person crew, drone footage (GCAA-approved), and a 30–90 second deliverable plus social clips. This is appropriate for Instagram and TikTok campaigns for individual models or dealer promotions.</p>
+<p>Social media automotive video production starts from AED 8,000 for a one-day shoot with a three-person crew, drone footage, and a 30–90 second deliverable plus social clips. This is appropriate for Instagram and TikTok campaigns for individual models or dealer promotions.</p>
 <p>Full-length automotive commercial productions — television and digital pre-roll standard — start from AED 35,000 for a two-day shoot with a full crew, professional location arrangements, talent fees (if applicable), and broadcast-standard post-production including colour grading, sound design, and licensed music. Complex productions with multiple vehicles, VFX, and extended crew run from AED 65,000–AED 120,000+.</p>
 <p>Automotive photography packages start from AED 2,500 for a full-day vehicle session covering one vehicle in multiple environments with a comprehensive image set. Dealership volume photography for inventory listings is priced per vehicle from AED 350–AED 600 depending on volume and turnaround requirements.</p>
 <p>For a quote on automotive commercial production for your brand or dealership, reach out through our contact page with the vehicle, production type, and timeline. We will respond within two hours with a scoped recommendation.</p>
@@ -1879,7 +1879,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "emirati-wedding-photography-dubai-2026",
     title: "Emirati Wedding Photography Dubai 2026 — The Complete Guide",
     metaTitle: "Emirati Wedding Photography Dubai | Backyard Studio",
-    metaDescription: "Emirati wedding photography Dubai from AED 8,000. Arabic crew, GCAA drone licence included. We cover Khaleeji & UAE national weddings. Free quote.",
+    metaDescription: "Emirati wedding photography Dubai from AED 8,000. Arabic crew, drone aerials included. We cover Khaleeji & UAE national weddings. Free quote.",
     keywords: ["Emirati wedding photography Dubai", "Emirati wedding photographer UAE", "UAE national wedding photography", "Khaleeji wedding photographer Dubai", "Arabic wedding photographer Dubai"],
     category: "Wedding Guide",
     date: "June 5, 2026",
@@ -1892,7 +1892,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { question: "What does Emirati wedding photography cover?", answer: "Emirati wedding photography covers the complete multi-day UAE national celebration, including Al Azza (women's night), Laylat Al Henna (henna night), Laylat Al Zaffa (wedding night with the zaffa procession and sword dancing), and the Groom's Majlis. Each day requires different camera setups, different crew gender compositions, and cultural familiarity with the moments that cannot be missed." },
       { question: "How much does Emirati wedding photography cost in Dubai?", answer: "Emirati wedding photography in Dubai costs from AED 8,000–15,000 for single-day coverage with a male and female photographer team, to AED 30,000–60,000+ for full multi-day packages covering all celebration days, drone aerials, wedding film, and same-day highlights. At Backyard Studio, a female photographer is always included in every Emirati wedding package — included in the price, not an upsell." },
       { question: "Do you provide a female photographer for the ladies' celebration?", answer: "Yes, always. Every Backyard Studio Emirati wedding package includes a dedicated female photographer for the women's celebrations. This is included in the package price. The women's events — particularly the Al Azza and the henna night — are often the most visually rich part of the entire wedding." },
-      { question: "Is drone photography for Emirati weddings GCAA-licensed?", answer: "Yes. All aerial photography at Backyard Studio is conducted under full GCAA authorisation. We handle permit applications in advance and confirm clearance before every shoot. This is non-negotiable — unlicensed drone operation in the UAE carries fines up to AED 50,000 and creates liability for your family." },
+      { question: "Do you provide drone photography for Emirati weddings?", answer: "Yes. All aerial photography at Backyard Studio is fully permitted. We handle permit applications in advance and confirm clearance before every shoot. This is non-negotiable — unlicensed drone operation in the UAE carries fines up to AED 50,000 and creates liability for your family." },
       { question: "Can you produce the wedding film in Arabic?", answer: "Yes. We produce fully Arabic-language wedding films on request, including Arabic narration and titles, for families across the Gulf region." },
     ],
     relatedSlugs: ["arabic-wedding-photography-dubai-2026", "wedding-photography-dubai", "drone-photography-dubai-2026"],
@@ -1902,7 +1902,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Backyard Studio Official has covered Emirati and Gulf national weddings across Dubai, Abu Dhabi, Sharjah, and RAK. A full Emirati wedding typically spans three to four days and includes Al Azza (the ladies' celebration), Laylat Al Henna (the henna night), Laylat Al Zaffa (the main wedding night with the zaffa procession, sword dancing, and reception), and the Groom's Majlis.</p>
 
 <h2>How Much Does Emirati Wedding Photography Cost in Dubai?</h2>
-<p>Emirati wedding photography in Dubai in 2026 typically costs: <strong>AED 8,000–15,000</strong> for single-day coverage with 2 photographers (one female for the ladies' side), 300–500 edited images, and 48-hour delivery. <strong>AED 15,000–30,000</strong> for multi-event coverage including the henna night and wedding night, male and female photographer teams, and drone aerials. <strong>AED 30,000–60,000+</strong> for complete wedding coverage across all celebration days, same-day highlights, a full-length wedding film, and drone aerials flown under GCAA licence.</p>
+<p>Emirati wedding photography in Dubai in 2026 typically costs: <strong>AED 8,000–15,000</strong> for single-day coverage with 2 photographers (one female for the ladies' side), 300–500 edited images, and 48-hour delivery. <strong>AED 15,000–30,000</strong> for multi-event coverage including the henna night and wedding night, male and female photographer teams, and drone aerials. <strong>AED 30,000–60,000+</strong> for complete wedding coverage across all celebration days, same-day highlights, a full-length wedding film, and drone aerials.</p>
 <p>At Backyard Studio, we include a female photographer in every Emirati wedding package — because the women's celebrations are often the most visually rich part of the entire wedding, and covering them properly is not optional.</p>
 
 <h2>The Zaffa: Three Minutes That Define the Whole Film</h2>
@@ -1911,7 +1911,7 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <h2>Aerial Photography, Permits, and Why Both Matter</h2>
 <p>A significant number of Emirati weddings we cover happen at private villas in Jumeirah and Al Barsha, or marquee setups in the northern emirates, where aerial photography genuinely transforms the final product. The scale of a decorated outdoor tent, the arrangement of guests arriving, the approach of the bridal procession across estate grounds — a drone captures these in a way nothing else can.</p>
-<p>All our aerial work is flown under a full GCAA commercial drone licence. Permits are filed before the shoot, clearance confirmed before the day. Unlicensed drone operation in the UAE carries fines up to AED 50,000, and the liability lands on whoever booked the operator. When you book aerial coverage with Backyard Studio, that problem does not exist.</p>
+<p>All our aerial work is fully permitted. Permits are filed before the shoot, clearance confirmed before the day. Unlicensed drone operation in the UAE carries fines up to AED 50,000, and the liability lands on whoever booked the operator. When you book aerial coverage with Backyard Studio, that problem does not exist.</p>
 <p>We also deliver the full gallery with Arabic captions and, on request, produce a fully Arabic-language wedding film — narration, titles, music cues — for families sharing it with relatives across the Gulf. Emirati wedding photography packages start from AED 8,000. Contact us for a same-day quote.</p>
     `,
   },
@@ -1954,7 +1954,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>And book photography and video from the same company. Coordinating two separate teams on an event day adds friction, miscommunication risk, and a final product where the photo edit and the video highlight reel feel like they came from different events — because the brief was given to different people. When our teams work together, they work to the same visual story from the first shot to the final grade.</p>
 
 <h2>Events We Cover in Dubai</h2>
-<p>Our event photography experience covers corporate conferences and annual summits, product launches and brand activations, gala dinners and award ceremonies at Dubai's five-star venues, government and semi-government events, DWTC and ADNEC trade shows, hotel and hospitality events, and NGO charity galas. drone aerials flown under GCAA licence are available for all outdoor events.</p>
+<p>Our event photography experience covers corporate conferences and annual summits, product launches and brand activations, gala dinners and award ceremonies at Dubai's five-star venues, government and semi-government events, DWTC and ADNEC trade shows, hotel and hospitality events, and NGO charity galas. drone aerials are available for all outdoor events.</p>
     `,
   },
 
@@ -1963,7 +1963,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "event-videography-dubai-2026",
     title: "Event Videography Dubai 2026 — Packages, Prices & What to Expect",
     metaTitle: "Event Videography Dubai 2026 | UAE | Backyard Studio",
-    metaDescription: "Event videography Dubai from AED 3,500. Same-day highlight reels, multi-camera setup, GCAA drone aerials. Conferences, galas and brand events UAE-wide.",
+    metaDescription: "Event videography Dubai from AED 3,500. Same-day highlight reels, multi-camera setup, drone aerials. Conferences, galas and brand events UAE-wide.",
     keywords: ["event videography Dubai", "event videographer Dubai", "corporate event videography Dubai", "event video production UAE", "conference videography Dubai", "event video Dubai"],
     category: "Videography",
     date: "June 5, 2026",
@@ -1993,7 +1993,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>What Makes Our Event Videography Different in Practice</h2>
 <p>The most valuable deliverable from any corporate event is usually not the long-form film. It is the 30–60 second social reel that goes live while guests are still posting their own stories. Syed Mazhar Zaidi runs a parallel editing workflow during larger events — pre-cutting begins on a second machine while the shoot is still running, so the social cut is ready within 2–4 hours of the event ending. By the time your event hashtag is trending, your branded version of the story is already online.</p>
 <p>Our standard full-day setup is three cameras: one locked wide on the stage for every speaker moment and award presentation, one roving for crowd energy and speaker close-ups, one handheld for the candid and unscripted. It is the difference between a broadcast-quality event film and a recording that looks like one person walking around with a camera. For larger conferences and multi-stage events, we scale up — five cameras on request for GITEX-scale events at DWTC.</p>
-<p>For outdoor activations and beachfront events, drone aerials flown under GCAA licence add the establishing scale that no ground camera can replicate. The way a crowd looks from 50 metres up is a completely different story. Speaker interview packages — on-camera talking heads shot during natural breaks in the run-of-show — deliver a separate internal communications asset alongside the event highlight film at no additional shoot day cost. For government and UAE national brand clients, we produce full bilingual Arabic-English packages with separate narration tracks and Arabic title cards on request.</p>
+<p>For outdoor activations and beachfront events, drone aerials add the establishing scale that no ground camera can replicate. The way a crowd looks from 50 metres up is a completely different story. Speaker interview packages — on-camera talking heads shot during natural breaks in the run-of-show — deliver a separate internal communications asset alongside the event highlight film at no additional shoot day cost. For government and UAE national brand clients, we produce full bilingual Arabic-English packages with separate narration tracks and Arabic title cards on request.</p>
 
 <h2>Events We Film Across Dubai</h2>
 <p>Our event videography experience covers corporate conferences and annual summits, product launches and brand activations, gala dinners and award ceremonies, government and semi-government summits, DWTC and ADNEC trade shows including GITEX Global and Arab Health, hotel and hospitality events, and NGO charity galas. Fahad Iqbal Butt coordinates pre-production logistics for every event — location recce, lighting plan, crew briefing, and timeline mapped to the run-of-show — so there are no surprises on the day.</p>
@@ -2005,7 +2005,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "desi-wedding-photographer-dubai-2026",
     title: "Desi Wedding Photographer Dubai 2026 — Pakistani & Indian Wedding Specialists",
     metaTitle: "Desi Wedding Photographer Dubai | Backyard Studio",
-    metaDescription: "Desi wedding photographer Dubai from AED 6,500. Pakistani, Indian & South Asian weddings. Urdu-Hindi crew, multi-day packages, GCAA drone licence. Free quote.",
+    metaDescription: "Desi wedding photographer Dubai from AED 6,500. Pakistani, Indian & South Asian weddings. Urdu-Hindi crew, multi-day packages, drone aerials. Free quote.",
     keywords: ["desi wedding photographer Dubai", "desi wedding photography Dubai", "South Asian wedding photographer Dubai", "desi wedding videographer Dubai", "Pakistani Indian wedding Dubai", "Asian wedding photographer Dubai"],
     category: "Wedding Photography",
     date: "June 6, 2026",
@@ -2951,8 +2951,8 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>An effective UAE real estate walkthrough video runs 2–4 minutes for a residential property and covers the property in a natural sequence — entrance, living areas, kitchen, bedrooms, bathrooms, outdoor spaces — using stabilised gimbal footage rather than handheld movement. A professional voice-over (in English and optionally Arabic) describing key features adds context that the visual alone cannot provide. Music selection matters: the tempo and mood of the background track directly affects the emotional register of the video and should be selected to match the price point and buyer demographic.</p>
 
 <h3>Drone Aerial Footage: Essential Context for Plots and Locations</h3>
-<p>Drone aerial footage has become essential for UAE property types where plot size, location context, or proximity to amenities are selling points. For a Palm Jumeirah villa, an aerial view shows the plot position, beach access, and marina proximity. For a compound villa in Arabian Ranches or Dubai Hills, the drone shows the community context, parks, and the overall quality of the surrounding neighbourhood. For off-plan sites, a GCAA-permitted drone survey documents construction progress and shows the site's urban context.</p>
-<p>The GCAA licencing requirement cannot be overstated. The UAE has some of the strictest drone regulations in the world, and commercial drone operations without a valid licence carry fines of AED 50,000 and potential aircraft confiscation. All drone footage used in commercial real estate marketing must be produced by a licensed operator. At Backyard Studio Official, all drone flights are conducted by GCAA-approved pilots and we manage the no-objection certificate process for all locations.</p>
+<p>Drone aerial footage has become essential for UAE property types where plot size, location context, or proximity to amenities are selling points. For a Palm Jumeirah villa, an aerial view shows the plot position, beach access, and marina proximity. For a compound villa in Arabian Ranches or Dubai Hills, the drone shows the community context, parks, and the overall quality of the surrounding neighbourhood. For off-plan sites, a permitted drone survey documents construction progress and shows the site's urban context.</p>
+<p>The GCAA licencing requirement cannot be overstated. The UAE has some of the strictest drone regulations in the world, and commercial drone operations without a valid licence carry fines of AED 50,000 and potential aircraft confiscation. All drone footage used in commercial real estate marketing must be produced by a licensed operator. At Backyard Studio Official, all drone flights are flown by licensed pilots and we manage the no-objection certificate process for all locations.</p>
 
 <h2>Real Estate Photography Standards Across the UAE Emirates</h2>
 
@@ -2974,7 +2974,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>1–3 bedroom apartment (AED 1,200–2,200):</strong> Full interior and exterior photography, 25–40 images, natural light enhancement, 48-hour delivery.</p>
 <p><strong>4+ bedroom villa (AED 2,500–4,500):</strong> Full interior, exterior, garden, and pool photography, 45–70 images, twilight exterior session, 48-hour delivery.</p>
 <p><strong>Walkthrough video add-on (AED 1,500–3,500):</strong> 2–3 minute stabilised walkthrough, colour grade, background music, title cards. Delivered alongside photography.</p>
-<p><strong>Drone aerial (AED 1,200–2,500):</strong> GCAA-permitted aerial photography and video, 8–12 images plus 60–90 second aerial video. Permit coordination included.</p>
+<p><strong>Drone aerial (AED 1,200–2,500):</strong> Permitted aerial photography and video, 8–12 images plus 60–90 second aerial video. Permit coordination included.</p>
 <p><strong>Luxury full-production package (AED 8,000–25,000+):</strong> All of the above plus creative direction, architectural staging consultation, Arabic and English voice-over video, same-day preview delivery, and portal-formatted image sets.</p>`
   },
 
@@ -3029,26 +3029,26 @@ export const BLOG_POSTS: BlogPost[] = [
 
   {
     slug: "aerial-videography-dubai-2026",
-    title: "Aerial Videography Dubai 2026 — GCAA Licensed Drone Production",
-    metaTitle: "Aerial Videography Dubai 2026 | GCAA Drone Production UAE",
-    metaDescription: "aerial via GCAA-licensed operation videography in Dubai from AED 1,500. Drone filming for real estate, events, corporate films and construction. All UAE emirates covered.",
-    keywords: ["aerial videography Dubai","drone videography Dubai","aerial filming Dubai UAE","GCAA drone filming Dubai","aerial photography Dubai 2026","drone video production UAE"],
+    title: "Aerial Videography Dubai 2026 — Professional Drone Production",
+    metaTitle: "Aerial Videography Dubai 2026 | Drone Production UAE",
+    metaDescription: "Aerial videography in Dubai from AED 1,500. Drone filming for real estate, events, corporate films and construction. All UAE emirates covered.",
+    keywords: ["aerial videography Dubai","drone videography Dubai","aerial filming Dubai UAE","aerial drone filming Dubai","aerial photography Dubai 2026","drone video production UAE"],
     category: "Videography Guide",
     date: "June 16, 2026",
     dateISO: "2026-06-16",
     readTime: "7 min",
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=80",
-    excerpt: "aerial via GCAA-licensed operation videography in Dubai opens perspectives no ground crew can match. This guide covers permits, no-fly zones, pricing, and what each aerial format achieves across UAE's most demanding production environments.",
+    excerpt: "Aerial videography in Dubai opens perspectives no ground crew can match. This guide covers permits, no-fly zones, pricing, and what each aerial format achieves across UAE's most demanding production environments.",
     author: "Backyard Studio Editorial",
     faqs: [
-      { question: "Do you need a licence for drone videography in Dubai?", answer: "Yes. All commercial drone operations in the UAE require a GCAA (General Civil Aviation Authority) drone operator licence. Without it, filming is illegal and carries fines up to AED 50,000 plus potential equipment confiscation. In addition to the GCAA licence, certain locations — Palm Jumeirah, Downtown Dubai, near DXB or DWC airports, over populated areas — require location-specific No Objection Certificates (NOCs) obtained from DCAA or the relevant authority. At Backyard Studio Official all drone flights are conducted by GCAA-licensed pilots and we manage all permit coordination." },
+      { question: "Do you need a licence for drone videography in Dubai?", answer: "Yes. All commercial drone operations in the UAE require a GCAA (General Civil Aviation Authority) drone operator licence. Without it, filming is illegal and carries fines up to AED 50,000 plus potential equipment confiscation. In addition to the GCAA licence, certain locations — Palm Jumeirah, Downtown Dubai, near DXB or DWC airports, over populated areas — require location-specific No Objection Certificates (NOCs) obtained from DCAA or the relevant authority. At Backyard Studio Official all drone flights are flown by licensed pilots and we manage all permit coordination." },
       { question: "How much does aerial videography cost in Dubai?", answer: "Aerial videography in Dubai starts from AED 1,500 for a half-day standard drone shoot covering one location with a licensed operator, 4K footage delivery, and basic colour grade. Full-day aerial production packages with multiple locations, detailed shot lists, and post-production range from AED 3,500–8,000. For aerial work requiring NOC applications for restricted zones, add AED 500–1,500 for permit coordination and approval time (typically 3–7 business days). Cinematic aerial packages including gimbal-stabilised ground footage combined with aerial coverage start from AED 5,000." },
       { question: "What are the no-fly zones in Dubai?", answer: "Dubai's no-fly zones for commercial drones include: all areas within 5km of DXB (Dubai International Airport) and DWC (Al Maktoum Airport), Palm Jumeirah restricted zones, the airspace above certain government facilities and military installations, and densely populated areas above specific altitude thresholds. The GCAA's mobile app (UAVMS) shows the current status of all zones. Many restricted zones can be filmed with a formal NOC application — the restriction is on unlicensed operation, not on all filming. Our team knows which locations are approvable and how long approvals take." },
     ],
     relatedSlugs: ["drone-photography-dubai-2026", "real-estate-photography-dubai-2026", "corporate-video-production-dubai-2026"],
-    content: `<h2>What GCAA-Licensed Aerial Videography Unlocks in Dubai</h2>
+    content: `<h2>What Professional Aerial Videography Unlocks in Dubai</h2>
 <p>Aerial videography in Dubai gives productions a dimension that no ground-based camera system can replicate. The city's built environment — the Palm Jumeirah's fronds visible only from altitude, the scale of Downtown Dubai's skyline, the contrast between desert and marina — was designed to be experienced from above. For real estate marketing, corporate films, events, and construction documentation, aerial footage moves the production from competent to cinematic. It provides context, scale, and emotional impact that ground-level filming cannot achieve.</p>
-<p>The critical qualifier is the GCAA licence. Dubai and the wider UAE have some of the world's strictest drone regulations — a response to the density of airspace around DXB, the world's busiest international airport, and the national security sensitivity of a Gulf state. Commercial drone operations without a valid GCAA licence carry fines up to AED 50,000 and risk equipment confiscation. Every aerial shoot we produce at Backyard Studio Official is operated by a GCAA-licenced pilot, with all required NOCs secured before any aircraft leaves the ground.</p>
+<p>The critical qualifier is the GCAA licence. Dubai and the wider UAE have some of the world's strictest drone regulations — a response to the density of airspace around DXB, the world's busiest international airport, and the national security sensitivity of a Gulf state. Commercial drone operations without a valid GCAA licence carry fines up to AED 50,000 and risk equipment confiscation. Every aerial shoot we produce at Backyard Studio Official is operated by a licensed pilot, with all required NOCs secured before any aircraft leaves the ground.</p>
 
 <h2>What Uses Aerial Videography in Dubai Most Effectively?</h2>
 
@@ -3365,7 +3365,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>We produce real estate 360° tours for both residential and commercial properties across Dubai, Abu Dhabi, and Ras Al Khaimah. Our standard approach captures each room with the 360° camera on a central tripod at a standard height (representing the eye level of a person of average height), with supplementary directional lighting to enhance the space without creating the visible shadows that a 360° camera captures differently from a standard camera.</p>
 
 <h3>Hotel and Hospitality Virtual Experiences</h3>
-<p>Hotel 360° content has evolved beyond simple room tours into full property experiences. A well-produced hotel virtual tour takes a potential guest through the journey from hotel entrance through lobby, rooms, F&B venues, spa, and outdoor spaces in a guided sequence that replicates the experience of a site inspection. For resorts in Ras Al Khaimah or beach hotels in Jumeirah, an aerial 360° shot of the property's grounds — produced by combining GCAA-licensed drone capability with 360° camera systems — gives potential guests a view of the property's setting that no standard photograph conveys.</p>
+<p>Hotel 360° content has evolved beyond simple room tours into full property experiences. A well-produced hotel virtual tour takes a potential guest through the journey from hotel entrance through lobby, rooms, F&B venues, spa, and outdoor spaces in a guided sequence that replicates the experience of a site inspection. For resorts in Ras Al Khaimah or beach hotels in Jumeirah, an aerial 360° shot of the property's grounds — produced by combining drone capability with 360° camera systems — gives potential guests a view of the property's setting that no standard photograph conveys.</p>
 
 <h3>Corporate and Industrial 360° Content</h3>
 <p>Manufacturing facilities, data centres, healthcare facilities, and logistics operations all benefit from 360° documentation that allows stakeholders to understand an operation's scale and sophistication remotely. For tender submissions, investor roadshows, and client onboarding presentations, a 360° facilities tour demonstrates operational capability in a way that photographs and standard video cannot match. We have produced 360° industrial content for clients across Dubai Industrial City, Jebel Ali Free Zone, and Abu Dhabi's industrial zones.</p>
@@ -5328,7 +5328,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Handheld camera movement in wedding videography — the slight organic movement that comes from a camera operated by a human being — is a choice, not a limitation. The best wedding videographers use stabilisation deliberately: a gimbal stabiliser for smooth, floating movement during ceremony walks and location transitions; a tripod for static compositions like altar shots or speeches; and intentional handheld movement for documentary-style moments where the rawness of real motion adds authenticity. The worst wedding videography is shaky footage that wasn't intended to look that way — the result of inadequate stabilisation rather than creative decision-making.</p>
 
 <h3>Drone Footage in Wedding Films</h3>
-<p>Drone footage in wedding films serves a specific purpose: establishing the scale and context of a venue, capturing moments of arrival and departure from a perspective the ground cannot provide, and adding the cinematic sweep that differentiates a professional wedding film from any other video of the day. Not every moment or every venue requires drone footage — a hotel ballroom ceremony doesn't benefit from aerial coverage, but a beach wedding, a villa ceremony, or a baraat procession down a Dubai street is transformed by it. Aerial work is flown under a GCAA commercial drone licence, which is the non-negotiable legal requirement for commercial drone operation in the UAE.</p>
+<p>Drone footage in wedding films serves a specific purpose: establishing the scale and context of a venue, capturing moments of arrival and departure from a perspective the ground cannot provide, and adding the cinematic sweep that differentiates a professional wedding film from any other video of the day. Not every moment or every venue requires drone footage — a hotel ballroom ceremony doesn't benefit from aerial coverage, but a beach wedding, a villa ceremony, or a baraat procession down a Dubai street is transformed by it. Aerial work is fully permitted, which is the non-negotiable legal requirement for commercial drone operation in the UAE.</p>
 
 <h2>Wedding Videography Coverage Structure</h2>
 
@@ -6323,7 +6323,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <h3>Pre-Production</h3>
 <p>Pre-production for a Dubai TVC covers casting (managed through casting agencies, with auditions and shortlisting), location scouting and permitting (Dubai's permitting landscape for commercial shoots in public areas is well-established but requires advance planning), wardrobe and art direction, equipment scheduling, crew assembly, and production scheduling. Pre-production typically runs one to two weeks and determines the production quality ceiling — the shoot can only deliver what pre-production has set up.</p>
 <h3>Production</h3>
-<p>A full-crew TVC shoot in Dubai includes director, DOP, camera operator, gaffer and lighting team, key grip and rigging team, production designer and art director, makeup artist, wardrobe stylist, production manager, production assistant, and talent. For larger productions requiring aerial coverage, we add GCAA-licensed drone operation. Dubai's climate means scheduling shoots to avoid peak midday heat for exterior work — early morning or late afternoon golden hour is standard for outdoor commercial production.</p>
+<p>A full-crew TVC shoot in Dubai includes director, DOP, camera operator, gaffer and lighting team, key grip and rigging team, production designer and art director, makeup artist, wardrobe stylist, production manager, production assistant, and talent. For larger productions requiring aerial coverage, we add drone coverage. Dubai's climate means scheduling shoots to avoid peak midday heat for exterior work — early morning or late afternoon golden hour is standard for outdoor commercial production.</p>
 <h3>Post-Production</h3>
 <p>TVC post-production follows a specific pipeline: offline edit (rough cut for client approval), online edit (technical finishing, VFX, graphics), colour grade to a reference that matches the creative vision and brand standards, sound design and music licensing, audio mix to broadcast loudness specifications, and broadcast master preparation to channel specifications. We do not deliver a broadcast TVC until it passes our internal QC checklist covering all technical requirements for the target broadcast platform.</p>
 <h2>UAE Broadcast Specifications</h2>
@@ -6674,7 +6674,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>For multi-day packages, we provide a consistent team across all ceremonies. We avoid rotating photographers between events because the visual continuity and the relationship with the family that develops over the course of a multi-day celebration produces significantly better work than different photographers attending different events.</p>
 <h2>Packages and Pricing</h2>
 <p>Our Indian wedding photography packages are structured around the number of ceremony days and the coverage format required. Single-ceremony packages (pheras and reception only) start from AED 4,500 with one photographer. Two-day packages (mehndi plus wedding day) start from AED 7,000. Full three-day packages with photographer and videographer covering mehndi, sangeet, wedding ceremony, and reception start from AED 12,000.</p>
-<p>Drone coverage for baraat processionals and outdoor venue aerials is available as an addition to all packages and requires GCAA permit approval for each venue, which we handle in pre-production. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to discuss your specific dates and requirements.</p>
+<p>Drone coverage for baraat processionals and outdoor venue aerials is available as an addition to all packages and requires permit approval for each venue, which we handle in pre-production. Contact us at info@backyardstudioofficial.com or WhatsApp +971 58 588 2685 to discuss your specific dates and requirements.</p>
 `,
   },
 
@@ -7501,7 +7501,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "commercial-photography-dubai-2026",
     title: "Commercial Photography Dubai 2026 — Complete Guide for UAE Brands",
     metaTitle: "Commercial Photography Dubai 2026 | Brand & Advertising Shoots UAE",
-    metaDescription: "Professional commercial photography in Dubai for advertising, e-commerce, and brand campaigns. Studio & location shoots. GCAA drone licensed. Quote in 2 hours.",
+    metaDescription: "Professional commercial photography in Dubai for advertising, e-commerce, and brand campaigns. Studio & location shoots. Aerial coverage available. Quote in 2 hours.",
     keywords: ["commercial photography Dubai", "advertising photography Dubai", "brand photography UAE", "product photography Dubai studio", "commercial photographer Dubai 2026"],
     category: "Commercial Photography",
     date: "June 15, 2026",
@@ -7653,7 +7653,7 @@ export const BLOG_POSTS: BlogPost[] = [
     author: "Backyard Studio Editorial",
     faqs: [
       { question: "How much does real estate photography cost in Dubai?", answer: "Real estate photography in Dubai starts at AED 800 for a basic apartment listing shoot (15–20 edited photos) and ranges to AED 25,000+ for a full luxury villa or penthouse campaign with interior photography, aerial drone, twilight shots, and video walkthrough. Most property developer shoots for a show unit cost AED 4,000–AED 8,000." },
-      { question: "Do you need a GCAA drone licence for real estate aerial photography in Dubai?", answer: "Yes. Commercial aerial photography and videography in Dubai — including real estate drone shots — requires a GCAA (General Civil Aviation Authority) licence. Backyard Studio Official operates under a full GCAA commercial drone licence for all UAE emirates. Flying without a licence risks fines of AED 50,000 and confiscation of equipment. Always verify your production company's licence before booking drone services." },
+      { question: "Do you need a GCAA drone licence for real estate aerial photography in Dubai?", answer: "Yes. Commercial aerial photography and videography in Dubai — including real estate drone shots — requires a General Civil Aviation Authority licence. Backyard Studio Official arranges fully permitted aerial work across all UAE emirates. Flying without a licence risks fines of AED 50,000 and confiscation of equipment. Always verify your production company's licence before booking drone services." },
       { question: "What is the best time of day for real estate photography in Dubai?", answer: "The best times for real estate photography in Dubai are the golden hour after sunrise (6am–8am) and the hour before sunset (5pm–7pm), which produce warm, flattering light. Twilight shots — taken 20–30 minutes after sunset — are particularly effective for exterior real estate photography in Dubai, capturing the lit interior glow against a deep blue sky. Interior photography can be shot at any time using professional flash lighting." },
       { question: "Can you photograph off-plan properties and show units in Dubai?", answer: "Yes. Backyard Studio Official specialises in show unit and model apartment photography for UAE property developers including Emaar, Aldar, Damac, Sobha, and boutique developers. We understand the specific requirements of off-plan marketing photography — highlighting build quality, finishes, views, and lifestyle positioning that drives off-plan reservations." },
     ],
@@ -7668,7 +7668,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Show unit and model apartment photography:</strong> Specialist photography for developer show units — the physical manifestation of an off-plan project that buyers visit before committing to a purchase. Show unit photography must communicate the finish quality, the spatial generosity, the attention to detail, and the lifestyle aspiration of the project. This is where production quality makes the most direct commercial difference.</p>
 <p><strong>Architectural photography:</strong> Exterior photography of completed buildings, developments, and architectural features. Used by developers for portfolio purposes, by architects for competition entries and press, and by hospitality groups for hotel and resort marketing. Requires specialist lighting knowledge and careful scheduling around the building's orientation relative to the sun.</p>
 <p><strong>Interior design photography:</strong> Photography for interior design firms, fit-out companies, and furniture brands operating in Dubai. Documents completed interior design projects for portfolio, press, and awards submissions. Requires particular sensitivity to material texture, reflective surfaces, and the specific light quality created by the designed space.</p>
-<p><strong>Aerial drone photography:</strong> GCAA-licensed drone photography and videography providing aerial views of developments, masterplan locations, coastlines, and neighbourhood context. Essential for off-plan marketing where showing the project's location and surroundings in relation to Dubai's landmarks is a key selling point. Also used for construction progress documentation.</p>
+<p><strong>Aerial drone photography:</strong> Drone photography and videography providing aerial views of developments, masterplan locations, coastlines, and neighbourhood context. Essential for off-plan marketing where showing the project's location and surroundings in relation to Dubai's landmarks is a key selling point. Also used for construction progress documentation.</p>
 <p><strong>Twilight and dusk photography:</strong> Exterior and interior photography taken in the 20–30 minute window after sunset, capturing the distinctive blue sky and warm interior light combination that makes luxury real estate photography particularly impactful. Requires precise timing and rapid execution — the shooting window is narrow and cannot be extended.</p>
 
 <h2>What Separates Exceptional Real Estate Photography in Dubai</h2>
@@ -7681,7 +7681,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p><strong>Show unit / developer shoot:</strong> AED 4,500–AED 8,000. Full interior and exterior photography, drone aerials, 60+ edited images, expedited delivery for launch events.</p>
 <p><strong>Architectural photography (building exterior):</strong> AED 5,000–AED 15,000. Multiple angles, golden hour and twilight shots, drone aerials, architectural retouching.</p>
 <p><strong>Interior design portfolio shoot:</strong> AED 3,500–AED 8,000 per project. Full space documentation, detail shots, material close-ups, editorial edit.</p>
-<p><strong>Add-on: Drone aerial photography:</strong> AED 2,000–AED 4,000. Includes GCAA permit processing, 10–15 aerial stills and a 2-minute aerial video.</p>
+<p><strong>Add-on: Drone aerial photography:</strong> AED 2,000–AED 4,000. Includes permit processing, 10–15 aerial stills and a 2-minute aerial video.</p>
     `,
   },
 ];

@@ -58,7 +58,7 @@ export default function ZhBlogHunliPage() {
           </h2>
           <p style={{ fontFamily: "'Noto Sans SC', sans-serif", color: "rgba(245,240,225,0.75)", lineHeight: 2, fontSize: "0.95rem", marginBottom: "2rem" }}>
             在阿联酋进行商业摄影摄像需确认拍摄场所是否需要额外许可（如公共沙滩、政府建筑前等）。
-            我们持有阿联酋商业摄影执照，航拍作业均在GCAA许可下执行，可在任何合法场所为您服务，无需您额外操心手续问题。
+ 我们持有阿联酋商业摄影执照，航拍作业均在合法许可下执行，可在任何合法场所为您服务，无需您额外操心手续问题。
           </p>
 
           <div style={{ background: "#111", border: "1px solid rgba(212,175,55,0.25)", borderRadius: "4px", padding: "1.75rem", textAlign: "center" }}>
