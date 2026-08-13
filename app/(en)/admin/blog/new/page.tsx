@@ -416,20 +416,88 @@ export default function BlogNewPage() {
     if (mdInputRef.current) mdInputRef.current.value = "";
   }
 
+  /**
+   * Downscale and re-encode an image in the browser before upload.
+   *
+   * WHY THIS EXISTS — the cause of "GitHub upload failed":
+   * a Vercel serverless function accepts a request body of at most 4.5 MB, and
+   * base64 inflates a file by about 33%. So anything over roughly 3.3 MB on disk
+   * was rejected by the platform BEFORE this app's route ever ran. A phone photo
+   * is routinely 3–8 MB, so uploads failed at random depending on the picture,
+   * which is exactly what it looked like from the outside.
+   *
+   * Resizing also fixes a second problem: a 6 MB hero image is terrible for Core
+   * Web Vitals. 1920px at quality 0.82 is indistinguishable on screen and lands
+   * around 200–400 KB.
+   */
+  async function compressImage(file: File): Promise<{ blobBase64: string; name: string; bytes: number }> {
+    const MAX_EDGE = 1920;
+    const QUALITY = 0.82;
+
+    const dataUrl = await new Promise<string>((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(reader.result as string);
+      reader.onerror = () => reject(new Error("Could not read the file"));
+      reader.readAsDataURL(file);
+    });
+
+    // SVGs and GIFs must not go through canvas — it would rasterise or drop animation.
+    if (/\.(svg|gif)$/i.test(file.name)) {
+      const raw = dataUrl.split(",")[1];
+      return { blobBase64: raw, name: file.name, bytes: Math.round((raw.length * 3) / 4) };
+    }
+
+    const img = await new Promise<HTMLImageElement>((resolve, reject) => {
+      const i = new window.Image();
+      i.onload = () => resolve(i);
+      i.onerror = () => reject(new Error("That file is not a readable image"));
+      i.src = dataUrl;
+    });
+
+    const scale = Math.min(1, MAX_EDGE / Math.max(img.width, img.height));
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.round(img.width * scale);
+    canvas.height = Math.round(img.height * scale);
+    const ctx = canvas.getContext("2d");
+    if (!ctx) throw new Error("Canvas is unavailable in this browser");
+    ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+
+    const out = canvas.toDataURL("image/jpeg", QUALITY).split(",")[1];
+    const name = file.name.replace(/\.[^.]+$/, "") + ".jpg";
+    return { blobBase64: out, name, bytes: Math.round((out.length * 3) / 4) };
+  }
+
   async function handleImageUpload(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
     if (!file) return;
     setUploading(true);
     setMsg("");
 
-    const base64 = await new Promise<string>((resolve) => {
-      const reader = new FileReader();
-      reader.onload = () => {
-        const result = reader.result as string;
-        resolve(result.split(",")[1]);
-      };
-      reader.readAsDataURL(file);
-    });
+    let payload: { blobBase64: string; name: string; bytes: number };
+    try {
+      payload = await compressImage(file);
+    } catch (err) {
+      setUploading(false);
+      setUiState("error");
+      setMsg(err instanceof Error ? err.message : "Could not process that image.");
+      return;
+    }
+
+    // Belt and braces: even after resizing, refuse to post something the platform
+    // will bounce, and say so in plain language rather than failing opaquely.
+    const LIMIT = 4_000_000;
+    if (payload.bytes > LIMIT) {
+      setUploading(false);
+      setUiState("error");
+      setMsg(
+        `That image is still ${(payload.bytes / 1_000_000).toFixed(1)} MB after resizing, ` +
+          `which is over the 4 MB upload limit. Please save it smaller and try again.`
+      );
+      return;
+    }
+
+    const originalKb = Math.round(file.size / 1024);
+    const finalKb = Math.round(payload.bytes / 1024);
 
     const uploadHeaders: Record<string, string> = { "Content-Type": "application/json" };
     if (authedToken) uploadHeaders["Authorization"] = `Bearer ${authedToken}`;
@@ -437,7 +505,7 @@ export default function BlogNewPage() {
       method: "POST",
       credentials: "include",
       headers: uploadHeaders,
-      body: JSON.stringify({ filename: file.name, content: base64 }),
+      body: JSON.stringify({ filename: payload.name, content: payload.blobBase64 }),
     });
 
     setUploading(false);
@@ -447,11 +515,18 @@ export default function BlogNewPage() {
     if (res.ok) {
       const { path } = await res.json();
       setImage(path);
-      setMsg("✓ Image uploaded to " + path);
+      setMsg(`✓ Uploaded to ${path} (${originalKb} KB → ${finalKb} KB)`);
     } else {
+      // Surface what actually went wrong. Previously every distinct cause — bad
+      // token, oversize body, GitHub outage — showed the same generic sentence,
+      // which made this impossible to diagnose from the admin panel.
       const body = await res.json().catch(() => ({}));
+      const detail =
+        body?.detail?.message ||
+        (typeof body?.detail === "string" ? body.detail : "") ||
+        `HTTP ${res.status}`;
       setUiState("error");
-      setMsg(body.error || "Image upload failed.");
+      setMsg(`${body.error || "Image upload failed"} — ${detail}`);
     }
   }
 

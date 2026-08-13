@@ -20,9 +20,30 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "GITHUB_TOKEN not configured" }, { status: 500 });
   }
 
-  const { filename, content } = await req.json();
+  // A Vercel serverless function rejects a body over 4.5 MB before this handler
+  // runs, so a huge image never reaches here at all — the client now downscales
+  // first. This guard catches anything that still slips through and names the
+  // reason instead of letting it surface as a generic failure.
+  let filename: string | undefined;
+  let content: string | undefined;
+  try {
+    ({ filename, content } = await req.json());
+  } catch {
+    return NextResponse.json(
+      { error: "Upload too large or malformed", detail: "The request body could not be read. Images must be under 4 MB after resizing." },
+      { status: 413 }
+    );
+  }
   if (!filename || !content) {
     return NextResponse.json({ error: "Missing filename or content" }, { status: 400 });
+  }
+
+  const approxBytes = Math.round((content.length * 3) / 4);
+  if (approxBytes > 4_000_000) {
+    return NextResponse.json(
+      { error: "Image too large", detail: `${(approxBytes / 1_000_000).toFixed(1)} MB exceeds the 4 MB limit.` },
+      { status: 413 }
+    );
   }
 
   // Sanitize filename
@@ -62,7 +83,26 @@ export async function POST(req: NextRequest) {
 
   if (!uploadRes.ok) {
     const err = await uploadRes.json().catch(() => ({}));
-    return NextResponse.json({ error: "GitHub upload failed", detail: err }, { status: 502 });
+    // Report the real cause. "GitHub upload failed" on its own is unactionable —
+    // a revoked token, a 409 SHA conflict and a GitHub outage all looked identical
+    // from the admin panel, which is why this took so long to pin down.
+    const reason =
+      uploadRes.status === 401 || uploadRes.status === 403
+        ? "GITHUB_TOKEN is invalid, expired, or lacks 'contents: write' on this repo"
+        : uploadRes.status === 409
+          ? "Conflict — the file changed between the read and the write. Try again."
+          : uploadRes.status === 422
+            ? "GitHub rejected the file (too large for the Contents API, or a bad path)"
+            : `GitHub returned HTTP ${uploadRes.status}`;
+    return NextResponse.json(
+      {
+        error: "GitHub upload failed",
+        status: uploadRes.status,
+        reason,
+        detail: { message: (err as { message?: string })?.message || reason },
+      },
+      { status: 502 }
+    );
   }
 
   return NextResponse.json({ ok: true, path: `/images/blog/${safeName}` });
