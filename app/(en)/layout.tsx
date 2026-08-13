@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     url:         "https://www.backyardstudioofficial.com",
     siteName:    "Backyard Studio Official",
     // Kept in sync with the homepage metadata. The OG description used to lead with
-    // "aerial production via GCAA-licensed operation", which read as the headline service and buried
+    // an aerial-led keyword, which read as the headline service and buried
     // the actual differentiator. Aerial is a capability within productions, not the pitch.
     title:       "Video Production Company Dubai | Prices Published Upfront",
     description: "Dubai production studio with prices published, not quoted privately. Commercial video, events, weddings, social content and photography across all seven UAE emirates.",

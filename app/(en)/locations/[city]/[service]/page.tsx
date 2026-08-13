@@ -2329,7 +2329,7 @@ const PAGES: Record<string, ServicePage> = {
         note: "Official location and destination information for planning shoots in Fujairah.",
       },
       {
-        title: "UAE GCAA — UAS registration and operating rules",
+        title: "UAE UAS registration and operating rules",
         url: "https://www.gcaa.gov.ae/en/pages/UASRegistration.aspx/",
         note: "Current federal guidance for commercial drone operations, including photography.",
       },

@@ -98,7 +98,7 @@ const UAE_DRIVERS = [
   },
   {
     h: "Aerial work carries an authorisation cost",
-    p: "Drone operations in the UAE require GCAA authorisation, and Dubai adds further clearance. Quotes that include aerials without referencing approvals are either absorbing an unbudgeted cost or planning to fly without one.",
+    p: "Drone operations in the UAE require aviation authorisation, and Dubai adds further clearance. Quotes that include aerials without referencing approvals are either absorbing an unbudgeted cost or planning to fly without one.",
   },
   {
     h: "Venue insurance is a gate, not an extra",
@@ -367,7 +367,7 @@ export default function CostReportPage() {
           <p className="text-silver/80 text-sm font-light leading-relaxed">
             <span className="text-cream font-medium">UAE cost drivers (Section 03)</span> describe regulatory and
             operational conditions applicable to commercial production in the Emirates, including permit
-            requirements and GCAA authorisation for aerial work. Buyers should confirm current requirements with
+            requirements and aviation authorisation for aerial work. Buyers should confirm current requirements with
             the relevant authority for their specific locations and dates.
           </p>
           <p className="text-silver/70 text-xs font-light leading-relaxed pt-2" style={{ borderTop: "1px solid #2a2a2a" }}>

@@ -132,9 +132,8 @@ export default function Footer() {
 
             {/* Credentials */}
             <div className="flex flex-col gap-2 mb-6">
-              {/* Policy tightened twice. The badge first read "GCAA Licensed Drone Operator"
-                  (asserted a licence Backyard does not hold), then "GCAA-Approved Drone Service
-                  Available" (still named the regulator). Per owner instruction 13 Aug 2026 the
+              {/* Policy tightened twice. The badge first named the regulator
+                  (asserted a licence Backyard does not hold), then softened it (but still named the regulator). Per owner instruction 13 Aug 2026 the
                   aviation regulator is now NOT NAMED ANYWHERE in public copy, schema or metadata.
                   Backyard has the facility to deliver aerial work — state the capability, never
                   the credential. Do NOT reintroduce the regulator's name here or describe the

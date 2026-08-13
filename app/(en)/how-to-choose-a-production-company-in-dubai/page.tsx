@@ -80,7 +80,7 @@ const CRITERIA = [
       "Filming in Dubai's public and semi-public spaces requires permits from the relevant authority — Dubai Film and TV Commission for most locations, plus separate approvals for malls, Downtown, DIFC, beaches, and hotel grounds.",
     body: [
       "Permit knowledge is the clearest signal of whether a supplier actually works in this market. A company that films here weekly will tell you, unprompted, which of your locations need lead time, which need an NOC from the property owner, and which will not be approved at all.",
-      "Aerial footage adds another layer: drone operations in the UAE require GCAA authorisation and, in Dubai, additional clearance. Anyone offering casual aerials with no mention of approvals is exposing you to a fine and a confiscated shoot.",
+      "Aerial footage adds another layer: drone operations in the UAE require aviation authorisation and, in Dubai, additional clearance. Anyone offering casual aerials with no mention of approvals is exposing you to a fine and a confiscated shoot.",
       "The practical test: name your locations and ask what the permit lead time is. Vague answers mean you will be the one absorbing the delay.",
     ],
   },
@@ -177,7 +177,7 @@ const RED_FLAGS = [
   "No trade licence number or TRN provided when asked directly.",
   "A single lump-sum price with no line items, no crew count, and no shoot-day count.",
   "Revision rounds not stated anywhere in the quote or contract.",
-  "Aerial footage offered with no mention of GCAA authorisation.",
+  "Aerial footage offered with no mention of aviation authorisation.",
   "Portfolio consists only of montage reels — no complete deliverable in your format.",
   "Full payment demanded upfront with no milestone structure.",
   "Music licensing not named, or 'we'll find something on YouTube'.",
@@ -214,11 +214,11 @@ const FAQS = [
   },
   {
     q: "Do I need a filming permit in Dubai?",
-    a: "Yes for most commercial filming in public and semi-public spaces in Dubai. Permits are issued via the Dubai Film and TV Commission, with additional approvals required for malls, Downtown, DIFC, beaches and hotel grounds, and separate GCAA authorisation for drone operations. A production company that works in Dubai regularly will handle applications and tell you the lead time per location upfront.",
+    a: "Yes for most commercial filming in public and semi-public spaces in Dubai. Permits are issued via the Dubai Film and TV Commission, with additional approvals required for malls, Downtown, DIFC, beaches and hotel grounds, and separate aviation authorisation for drone operations. A production company that works in Dubai regularly will handle applications and tell you the lead time per location upfront.",
   },
   {
     q: "What are the biggest red flags when hiring a production company in Dubai?",
-    a: "The clearest red flags are: no trade licence or TRN when asked, a lump-sum quote with no line items, revision rounds not stated anywhere, aerial footage offered with no mention of GCAA authorisation, a portfolio of montage reels with no complete deliverable in your format, and full payment demanded upfront with no milestones.",
+    a: "The clearest red flags are: no trade licence or TRN when asked, a lump-sum quote with no line items, revision rounds not stated anywhere, aerial footage offered with no mention of aviation authorisation, a portfolio of montage reels with no complete deliverable in your format, and full payment demanded upfront with no milestones.",
   },
   {
     q: "Who owns the video footage after production in Dubai?",

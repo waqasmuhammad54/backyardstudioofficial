@@ -130,8 +130,8 @@ Event coverage
 Identical in all seven emirates. Every project quoted itemised in writing before
 booking. Briefs answered within 2 hours.
 
-Aerial: GCAA-approved drone service available, delivered within productions and
-flown under GCAA licence with the required permits, rather than sold as a
+Aerial: aerial coverage available, delivered within productions and
+flown under commercial drone licence with the required permits, rather than sold as a
 standalone drone booking.
 `);
 
