@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { stripBrandSuffix, withBrand } from "@/lib/seoTitle";
 
 // ─── Data ────────────────────────────────────────────────────────────────────
@@ -2591,10 +2591,60 @@ export function generateStaticParams() {
   });
 }
 
-// Only URLs backed by a real, unique page should resolve. Previously arbitrary
-// city/service combinations returned a 200 "Coming Soon" page and inherited
-// the homepage canonical, creating duplicate-canonical exclusions in GSC.
-export const dynamicParams = false;
+/**
+ * Unbuilt city+service combinations REDIRECT rather than 404.
+ *
+ * ── The problem this solves ───────────────────────────────────────────────────
+ *
+ * Google discovers these URLs by pattern, not by following links. Dubai and Abu
+ * Dhabi have /locations/<city>/wedding-photography, so Googlebot tries it for
+ * every other emirate. There are 7 cities x ~20 services = ~140 possible combos
+ * and only 84 are built, so ~56 URLs are guessable and every one of them was
+ * returning 404.
+ *
+ * This has now broken the GSC "Not found (404)" validation three times in a row,
+ * each time on a different URL — /locations/ajman/product-photography,
+ * /locations/sharjah/personal-branding-photography, and most recently
+ * /locations/sharjah/wedding-photography (crawled 14 Aug 2026). Adding a
+ * one-off redirect each time is whack-a-mole; the supply of guessable URLs is
+ * larger than the number of pages we have.
+ *
+ * ── Why redirect and not build the pages ──────────────────────────────────────
+ *
+ * Building 56 more thin city+service pages is exactly the programmatic-SEO
+ * expansion that caused the cannibalisation problem in the first place. A
+ * redirect to the city hub is honest (we do cover that city, just without a
+ * dedicated page for that service) and useful to a visitor.
+ *
+ * `dynamicParams` must be true for this to work: with it false, Next 404s before
+ * any of our code runs. Unknown combos are cheap — they redirect immediately and
+ * never render.
+ */
+export const dynamicParams = true;
+
+/** Cities that have a real hub page to fall back to. */
+const KNOWN_CITIES = new Set(
+  Object.keys(PAGES).map((k) => k.split("/")[0])
+);
+
+/**
+ * Six emirates have a dedicated wedding page at /services/wedding-photography-<city>.
+ * Sending wedding traffic there beats the generic city hub: it is the same intent,
+ * and it consolidates signals onto the page that is actually built to rank.
+ */
+const WEDDING_CITY_PAGES = new Set([
+  "abu-dhabi", "sharjah", "ajman", "ras-al-khaimah", "fujairah", "umm-al-quwain",
+]);
+
+/** Where an unbuilt combination should go. `null` means genuinely 404. */
+function fallbackFor(city: string, service: string): string | null {
+  if (!KNOWN_CITIES.has(city)) return null;
+  if (service === "wedding-photography") {
+    if (city === "dubai") return "/services/wedding-photography";
+    if (WEDDING_CITY_PAGES.has(city)) return `/services/wedding-photography-${city}`;
+  }
+  return `/locations/${city}`;
+}
 
 // ─── Metadata ─────────────────────────────────────────────────────────────────
 
@@ -2605,7 +2655,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const key = `${params.city}/${params.service}`;
   const data = PAGES[key];
-  if (!data) notFound();
+  // Do NOT notFound() here. generateMetadata runs before the component, so a
+  // 404 thrown at this point would pre-empt the redirect below and put us back
+  // to serving 404s for guessable combos. Return nothing and let the component
+  // decide — the redirect response never uses this metadata anyway.
+  if (!data) return {};
   const pageUrl = `https://www.backyardstudioofficial.com/locations/${params.city}/${params.service}`;
   // Bare string -> the layout template appends " | Backyard Studio" exactly once.
   const title = stripBrandSuffix(data.title);
@@ -2636,7 +2690,14 @@ export default function CityServicePage({
   const key = `${params.city}/${params.service}`;
   const data = PAGES[key];
 
-  if (!data) notFound();
+  if (!data) {
+    // Guessed combination. Send it somewhere real instead of 404ing — see the
+    // note on `dynamicParams` above. permanentRedirect emits a 308, so the
+    // signal consolidates rather than the URL simply disappearing.
+    const target = fallbackFor(params.city, params.service);
+    if (target) permanentRedirect(target);
+    notFound();
+  }
 
   const cityLabel = params.city
     .split("-")
