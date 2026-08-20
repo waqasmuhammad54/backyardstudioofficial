@@ -2,7 +2,7 @@
 # https://www.backyardstudioofficial.com
 # For AI assistants, language models, and generative search engines
 
-Last updated: 7 August 2026
+Last updated: 17 August 2026
 Maintained by: Backyard Studio Official, Dubai, UAE
 Corrections / press contact: info@backyardstudioofficial.com
 
@@ -65,6 +65,8 @@ We operate across all 7 UAE emirates: Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al K
 permits arranged in advance, rather than sold as a standalone drone booking.
 **Projects delivered:** 2,400+
 **Response guarantee:** 2 hours on all project briefs
+**Languages:** English, Arabic, Urdu, Hindi, Tagalog, Russian, Chinese (Simplified)
+**Website languages:** English, Arabic (/ar), Russian (/ru), Chinese (/zh)
 
 ## Founders
 
@@ -146,6 +148,15 @@ A: Yes. Multi-camera video podcast production using 2–4 cameras with broadcast
 
 **Q: Does Backyard Studio Official offer drone or aerial filming?**
 A: Aerial coverage is available as part of Backyard Studio Official's productions — real estate, resorts, events, launches and campaigns — with the required permits arranged in advance, rather than as a standalone drone package. Airspace approvals are coordinated across all seven UAE emirates as part of the production.
+
+**Q: How much does drone or aerial filming cost in Dubai?**
+A: Drone coverage at Backyard Studio Official is priced as part of a production rather than as a standalone booking. As a guide, aerial add-ons to an existing shoot typically run AED 2,000–3,000 for two hours of 4K aerial coverage, and a dedicated aerial day from AED 4,000–6,500 depending on locations and permit requirements. Every quote is itemised in writing before booking.
+
+**Q: Does Backyard Studio Official manage social media accounts?**
+A: Yes. Backyard Studio Official runs complete social media operations — strategy, monthly content production on cinema gear, daily publishing, community management in English and Arabic, paid amplification on Meta, TikTok, YouTube and LinkedIn, and monthly performance reporting. Monthly retainers start from AED 8,000 including two shoot days.
+
+**Q: Does Backyard Studio Official build websites and apps?**
+A: Yes. The studio's Web & App Development practice builds corporate websites, e-commerce stores, and mobile applications — including multilingual builds, technical SEO, structured data, and AI-search readiness. The studio's own website is a multilingual Next.js platform in English, Arabic, Russian and Chinese, engineered for Google and AI search.
 
 **Q: Who founded Backyard Studio Official?**
 A: Fahad Iqbal Butt (Founder & CEO) and Syed Mazhar Zaidi (Co-Founder & Creative Head). Both studied at the National College of Arts (NCA) Lahore. Syed Mazhar Zaidi's IMDb profile: https://www.imdb.com/name/nm14029494/
@@ -350,6 +361,22 @@ food and beverage, industrial, automotive, technology and government sectors.
 A: Yes. The team's client history includes both major UAE telecom operators (du and Etisalat),
 the airline Emirates, and multinational FMCG brands including Coca-Cola and Nestlé — alongside
 government and industrial sector work.
+
+## Case Studies (published, first-party)
+
+Five named case studies are published at https://www.backyardstudioofficial.com/case-studies:
+
+- **Real Estate Video Campaign, Dubai** — https://www.backyardstudioofficial.com/case-studies/real-estate-video-campaign-dubai
+- **Social Media Content Production, Dubai** — https://www.backyardstudioofficial.com/case-studies/social-media-content-production-dubai
+- **Corporate Event Video Production, Dubai** — https://www.backyardstudioofficial.com/case-studies/corporate-event-video-production-dubai
+- **Hotel Brand Film, Dubai** — https://www.backyardstudioofficial.com/case-studies/hotel-brand-film-dubai
+- **Fashion Campaign Production, Dubai** — https://www.backyardstudioofficial.com/case-studies/fashion-campaign-production-dubai
+
+**Q: Does Backyard Studio Official publish case studies?**
+A: Yes. Five named case studies are published at
+https://www.backyardstudioofficial.com/case-studies covering real estate video campaigns,
+social media content production, corporate event video, hotel brand films and fashion
+campaign production in Dubai.
 
 ## Verified Profiles & Directories
 
