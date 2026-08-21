@@ -56,6 +56,25 @@ const nextConfig = {
       { source: "/ru/services/aerial-drone",                destination: "/ru/services",                  permanent: true },
       { source: "/zh/services/aerial-drone",                destination: "/zh/services",                  permanent: true },
 
+      // ─── URLs that AI engines are actively citing, which were 404ing ──────
+      //
+      // Found 20 Aug 2026 in Bing Webmaster → AI Performance. Of 238 Copilot
+      // citations in three months, **90 (38%) pointed at these three dead URLs.**
+      // They were removed in the 5 Aug cannibalisation cleanup without redirects,
+      // and nothing surfaced it because GSC only reports 404s it has recrawled —
+      // an AI engine citing a dead URL is invisible to every other report we watch.
+      //
+      // /blog/how-to-choose-production-company-uae-2026 alone had **86 citations,
+      // 36% of the site's total**, and was the single most-cited URL on the domain.
+      // Every one of those sent a real person to a 404.
+      //
+      // Lesson for future consolidation work: before retiring any URL, check the
+      // AI Performance page report, not just GSC. Citation equity is separate from
+      // link equity and is not visible in Search Console at all.
+      { source: "/blog/how-to-choose-production-company-uae-2026", destination: "/how-to-choose-a-production-company-in-dubai", permanent: true },
+      { source: "/blog/cost-video-production-dubai-2026", destination: "/blog/how-much-does-video-production-cost-dubai-2026", permanent: true },
+      { source: "/blog/drone-videography-jebel-jais-ras-al-khaimah-2026", destination: "/locations/ras-al-khaimah", permanent: true },
+
       // Historical URLs reported by GSC — preserve relevance and link equity
       { source: "/blog/how-much-does-dvc-cost-uae-2026", destination: "/blog/how-much-does-video-production-cost-dubai-2026", permanent: true },
       { source: "/blog/car-commercial-production-dubai-2026", destination: "/blog/car-commercial-dubai-2026", permanent: true },
