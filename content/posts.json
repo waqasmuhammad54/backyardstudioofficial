@@ -15,7 +15,8 @@
     "content": "<h2>Test</h2><p>Test content for debugging.</p>",
     "faqs": [],
     "relatedSlugs": [],
-    "status": "published"
+    "status": "deleted",
+    "deletedAt": "2026-08-24T17:21:21.619Z"
   },
   {
     "slug": "dvc-vs-tvc-what-s-the-difference-complete-uae-guide-2026",
