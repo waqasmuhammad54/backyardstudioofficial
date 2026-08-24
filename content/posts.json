@@ -1,5 +1,23 @@
 [
   {
+    "slug": "test-blog-post-delete-me-2026",
+    "title": "Test Blog Post Delete Me",
+    "metaTitle": "Test Blog Post Title",
+    "metaDescription": "This is a test meta description for debugging.",
+    "keywords": [],
+    "category": "Photography",
+    "date": "August 24, 2026",
+    "dateISO": "2026-08-24",
+    "readTime": "6 min read",
+    "image": "/images/creative/creative-04.webp",
+    "excerpt": "This is a test meta description for debugging.",
+    "author": "Backyard Studio Team",
+    "content": "<h2>Test</h2><p>Test content for debugging.</p>",
+    "faqs": [],
+    "relatedSlugs": [],
+    "status": "published"
+  },
+  {
     "slug": "dvc-vs-tvc-what-s-the-difference-complete-uae-guide-2026",
     "title": "DVC vs TVC — What's the Difference? Complete UAE Guide 2026",
     "metaTitle": "DVC vs TVC — What's the Difference? | Backyard",
