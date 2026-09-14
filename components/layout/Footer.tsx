@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Instagram, Youtube, ArrowUpRight } from "lucide-react";
+import { PROJECTS_DELIVERED_DISPLAY } from "@/lib/brandStats";
 
 // Sitewide footer links = the strongest internal-link signal on the site.
 // Every href here must resolve 200 (no 404s, no redirect chains) and should point
@@ -138,7 +139,7 @@ export default function Footer() {
                   Backyard has the facility to deliver aerial work — state the capability, never
                   the credential. Do NOT reintroduce the regulator's name here or describe the
                   arrangement as partner- or third-party-operated. */}
-              {["Aerial Coverage Available", "Pricing Published Openly", "UAE Operations Since 2023", "2,400+ Projects Delivered", "All 7 Emirates Covered"].map((badge) => (
+              {["Aerial Coverage Available", "Pricing Published Openly", "UAE Operations Since 2023", `${PROJECTS_DELIVERED_DISPLAY} Projects Delivered`, "All 7 Emirates Covered"].map((badge) => (
                 <div key={badge} className="flex items-center gap-2">
                   <div className="w-1 h-1 rounded-full shrink-0" style={{ background: "var(--gold)" }} />
                   <span className="text-xs" style={{ color: "var(--silver)" }}>{badge}</span>

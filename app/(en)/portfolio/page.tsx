@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Play, ArrowUpRight } from "lucide-react";
+import { PROJECTS_DELIVERED_DISPLAY } from "@/lib/brandStats";
 
 const CATS = ["All", "Events", "Creative", "Products", "Wedding", "Corporate"];
 
@@ -43,7 +44,7 @@ export default function PortfolioPage() {
       {/* Header */}
       <div className="relative py-24 text-center overflow-hidden" style={{ background: "var(--black-2)" }}>
         <div className="absolute inset-0 pointer-events-none" style={{ background: "radial-gradient(ellipse at 50% 0%, rgba(212,160,23,0.07) 0%, transparent 65%)" }} />
-        <p className="eyebrow mb-4">500+ Projects Delivered</p>
+        <p className="eyebrow mb-4">{PROJECTS_DELIVERED_DISPLAY} Projects Delivered</p>
         <h1 className="font-display text-[clamp(4rem,10vw,9rem)] leading-none text-cream">PORTFOLIO</h1>
         <p className="text-silver/60 mt-4 max-w-md mx-auto text-sm">
           Events, creative shoots, product campaigns & weddings — across all 7 UAE emirates.
@@ -105,7 +106,7 @@ export default function PortfolioPage() {
           </div>
 
           <div className="mt-16 text-center">
-            <p className="text-silver/40 text-sm mb-6">Showing {filtered.length} of 500+ projects</p>
+            <p className="text-silver/40 text-sm mb-6">Showing {filtered.length} of {PROJECTS_DELIVERED_DISPLAY} projects</p>
             <Link href="/contact" className="btn-gold inline-flex items-center gap-3">
               <span>Commission Your Project</span>
               <ArrowUpRight size={14} />

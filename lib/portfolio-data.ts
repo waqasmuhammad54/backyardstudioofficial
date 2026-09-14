@@ -1,3 +1,5 @@
+import { PROJECTS_DELIVERED_DISPLAY } from "@/lib/brandStats";
+
 /**
  * Portfolio project data — single source of truth.
  * VideoObject schema fields are ready for Google Video Search & AI engines.
@@ -118,7 +120,7 @@ export function buildPortfolioItemListSchema() {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "Backyard Studio Official — Portfolio",
-    description: "Award-winning video production and photography portfolio from Backyard Studio Official, Dubai UAE. 500+ projects across events, weddings, corporate, creative, and product categories.",
+    description: `Award-winning video production and photography portfolio from Backyard Studio Official, Dubai UAE. ${PROJECTS_DELIVERED_DISPLAY} projects across events, weddings, corporate, creative, and product categories.`,
     url: "https://www.backyardstudioofficial.com/portfolio",
     numberOfItems: ALL_PROJECTS.length,
     itemListElement: ALL_PROJECTS.map((p, i) => ({

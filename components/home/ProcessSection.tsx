@@ -1,5 +1,6 @@
 "use client";
 import { FileText, MapPin, Camera, Sparkles } from "lucide-react";
+import { PROJECTS_DELIVERED_DISPLAY } from "@/lib/brandStats";
 
 const STEPS = [
   { num:"01", icon:FileText,  title:"Brief & Discovery",  desc:"We deep-dive into your vision, KPIs, audience, and creative ambition — then architect a production strategy built for results." },
@@ -26,7 +27,7 @@ export default function ProcessSection() {
             </h2>
           </div>
           <p className="text-silver/70 max-w-xs text-sm font-light leading-relaxed">
-            A process refined since 2019 through 2,400+ productions across the UAE and international markets — built for speed without sacrificing craft.
+            A process refined since 2019 through {PROJECTS_DELIVERED_DISPLAY} productions across the UAE and international markets — built for speed without sacrificing craft.
           </p>
         </div>
 

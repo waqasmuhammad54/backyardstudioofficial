@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { buildPortfolioItemListSchema } from "@/lib/portfolio-data";
+import { formatProjectsDeliveredPhrase } from "@/lib/brandStats";
 
 const portfolioSchema = {
   ...buildPortfolioItemListSchema(),
   name: "Backyard Studio Official — Портфолио",
-  description: "Портфолио Backyard Studio — корпоративное видео, свадебная съёмка, недвижимость и контент для соцсетей в Дубае и ОАЭ. 500+ проектов.",
+  description: `Портфолио Backyard Studio — корпоративное видео, свадебная съёмка, недвижимость и контент для соцсетей в Дубае и ОАЭ. ${formatProjectsDeliveredPhrase("ru")}.`,
   url: "https://www.backyardstudioofficial.com/ru/portfolio",
   inLanguage: "ru",
 };
