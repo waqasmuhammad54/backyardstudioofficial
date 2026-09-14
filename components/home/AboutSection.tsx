@@ -86,7 +86,12 @@ export default function AboutSection() {
               {STATS.map((st) => (
                 <div key={st.label} className="group">
                   <p className="font-display text-4xl md:text-5xl gold-glow leading-none mb-1">
-                    {inView ? <CountUp end={st.value} duration={2.5} suffix={st.suffix} /> : `0${st.suffix}`}
+                    {/* SSR/crawlers must see final values (500+, 7, 7+, 100%). Animate only after inView. */}
+                    {inView ? (
+                      <CountUp end={st.value} duration={2.5} suffix={st.suffix} />
+                    ) : (
+                      `${st.value}${st.suffix}`
+                    )}
                   </p>
                   <p className="text-cream text-sm font-medium">{st.label}</p>
                   <p className="text-silver/65 text-xs mt-0.5">{st.detail}</p>

@@ -155,6 +155,17 @@ export default function WeddingsHubPage() {
           <p className="text-silver/60 text-sm mb-8">
             Explore dedicated coverage pages for each emirate; final travel, venue and permission requirements are confirmed in your written proposal:
           </p>
+          <div className="flex flex-wrap gap-3 mb-6">
+            <Link href="/pricing" className="px-5 py-3 border text-sm text-silver/70 hover:text-gold hover:border-gold transition-colors" style={{ borderColor: "var(--gold)", background: "var(--black-2)" }}>
+              Pricing →
+            </Link>
+            <Link href="/wedding-packages" className="px-5 py-3 border text-sm text-silver/70 hover:text-gold hover:border-gold transition-colors" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
+              Packages →
+            </Link>
+            <Link href="/" className="px-5 py-3 border text-sm text-silver/70 hover:text-gold hover:border-gold transition-colors" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
+              Home →
+            </Link>
+          </div>
           <div className="flex flex-wrap gap-3 mb-16">
             <Link href="/services/wedding-photography" className="px-5 py-3 border text-sm text-silver/70 hover:text-gold hover:border-gold transition-colors" style={{ borderColor: "var(--gold)", background: "var(--black-2)" }}>
               Dubai →

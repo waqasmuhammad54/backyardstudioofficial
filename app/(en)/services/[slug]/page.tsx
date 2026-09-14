@@ -354,7 +354,7 @@ const SERVICE_DATA: Record<string, { title: string; description: string; include
   },
   "reels": {
     title: "Instagram Reels & Short Film Production Dubai",
-    description: "Backyard Studio Official is Dubai's leading Instagram Reels and short-form content production studio. We create vertical-first, algorithm-aware content engineered to stop the scroll, drive saves and shares, and convert viewers into customers — across Instagram, TikTok, YouTube Shorts and Snapchat Spotlight.\n\nEvery Reel we produce is built on three pillars: a hook that grabs in under 1.5 seconds, a visual language native to the platform, and a CTA that feels natural rather than forced. Our social media shoots are some of the most-requested services in our portfolio, trusted by UAE brands ranging from homegrown F&B labels to global luxury retailers.",
+    description: "Backyard Studio Official produces Instagram Reels and short-form video in Dubai from AED 2,500 — vertical-first content for Instagram, TikTok, YouTube Shorts and Snapchat, with published packages on our pricing page.\n\nEvery Reel is built on three pillars: a hook in under 1.5 seconds, platform-native visuals, and a natural CTA. UAE brands from F&B labels to luxury retailers use our social shoots for reach and conversion.",
     includes: ["Pre-shoot creative brief & scripting", "Professional lighting & set dressing", "Talent direction & on-camera coaching", "Platform-native editing (vertical, fast-cut)", "Trending audio & caption strategy", "Colour grading optimised for mobile", "Reel + Stories + BTS cut-downs", "Up to 5 deliverables per shoot day"],
     faqs: [
       { q: "How many Reels can we shoot in a day?", a: "Typically 3 to 8 polished Reels per shoot day depending on locations, outfit changes, and complexity. We plan shoot days to maximise content output efficiently." },
@@ -362,6 +362,7 @@ const SERVICE_DATA: Record<string, { title: string; description: string; include
       { q: "Which platforms do you produce for?", a: "We produce for Instagram Reels, TikTok, YouTube Shorts, and Snapchat Spotlight. All content is delivered in the correct specs and aspect ratios for each platform." },
       { q: "Can you do regular monthly content packages?", a: "Absolutely. Our monthly retainer packages are our most popular offering for UAE brands — we plan, shoot, and deliver a full month of Reels content in one scheduled shoot day." },
       { q: "What makes Backyard Studio's Reels different?", a: "We approach every Reel with a performance lens, not just aesthetics. Our content consistently achieves above-average organic reach because we understand what the Instagram and TikTok algorithms reward in the UAE market." },
+      { q: "How much do Instagram Reels cost in Dubai?", a: "Instagram Reels and short-form packages at Backyard Studio Official start from AED 2,500 per shoot day. See the published social packages on our pricing page, or request an itemised quote within 2 hours." },
     ],
   },
   "social-media-content": {
@@ -450,7 +451,7 @@ const SERVICE_DATA: Record<string, { title: string; description: string; include
   },
   "automotive": {
     title: "Automotive Videography & Photography Dubai — Car Shoots UAE",
-    description: "Backyard Studio Official produces automotive videography and photography that makes vehicles come alive on screen. From sleek showroom campaigns for dealerships to cinematic launch films for new model releases, hero shots for online listings, and dynamic on-road content for social media — our UAE automotive production team understands what it takes to make metal, glass, and speed look extraordinary.\n\nWe work with automotive brands, dealerships, private sellers, car rental companies, and aftermarket businesses across Dubai and all 7 UAE emirates. Our shoots take full advantage of the UAE's unrivalled automotive backdrop: desert highways at sunrise, urban tunnels, coastal roads, and iconic city skylines.",
+    description: "Backyard Studio Official is an automotive videography and photography studio in Dubai. Car shoots start from AED 2,500 for studio and on-road work — showroom campaigns, launch films, listing heroes and social cuts — with examples in our portfolio.\n\nWe work with brands, dealerships, private sellers, rental fleets and aftermarket businesses across all seven UAE emirates, using desert highways, coastal roads and city skylines as production backdrops.",
     includes: ["Studio & on-location automotive shoots", "Exterior & interior detail photography", "Dynamic on-road video with camera car", "Drone aerial car footage", "Paint & colour-accurate editing", "360° vehicle walkarounds", "Social media ready cuts (Reels/TikTok)", "Multi-format delivery for web & print"],
     faqs: [
       { q: "Do you offer dynamic (moving) car footage?", a: "Yes. We shoot moving vehicles using camera cars, tracking rigs, handheld gimbal passes, and drones for aerial perspective. We have experience capturing everything from slow lifestyle cruises to performance driving sequences." },
@@ -458,6 +459,7 @@ const SERVICE_DATA: Record<string, { title: string; description: string; include
       { q: "Do you photograph car interiors?", a: "Yes. Interior detail photography is a core part of our automotive packages — dashboard, stitching, ambient lighting, tech displays, and seat textures all shot at the detail level that listings and brand campaigns demand." },
       { q: "Which UAE areas are best for car shoots?", a: "Popular UAE automotive shoot locations include: Al Qudra desert road, Dubai Hatta mountain road, Sheikh Zayed Road flyovers (night shots), Dubai Marina waterfront, Jebel Jais in RAK, and Corniche Abu Dhabi." },
       { q: "Do you work with dealerships and fleet operators?", a: "Yes. We offer bulk and retainer packages for dealerships, fleet operators and automotive marketplaces that need consistent, high-quality imagery across their vehicle inventory." },
+      { q: "How much does automotive photography cost in Dubai?", a: "Automotive photography and videography packages at Backyard Studio Official start from AED 2,500. Compare published packages on our pricing page, or browse recent car and product work in the portfolio." },
     ],
   },
   "real-estate": {
@@ -979,7 +981,7 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
           {/* Content column */}
           <div className="lg:col-span-2 space-y-6">
             {service.description.split("\n\n").map((para, i) => (
-              <p key={i} className="text-silver/70 leading-relaxed text-base">{para}</p>
+              <p key={i} className={`${i === 0 ? "text-cream/90 speakable" : "text-silver/70"} leading-relaxed text-base`}>{para}</p>
             ))}
 
             {/* Gallery grid */}
@@ -1076,6 +1078,20 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
               <p className="text-[0.65rem] tracking-widest uppercase mb-1" style={{ color: "var(--gold)" }}>Avg. Response</p>
               <p className="font-display text-3xl text-cream">2 HOURS</p>
               <p className="text-xs mt-1" style={{ color: "var(--muted)" }}>On all project briefs</p>
+            </div>
+            <div className="p-6 border" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
+              <p className="text-[0.65rem] tracking-widest uppercase mb-3" style={{ color: "var(--muted)" }}>Explore</p>
+              <div className="space-y-2 text-sm">
+                <Link href="/" className="block text-silver/70 hover:text-gold transition-colors">Home →</Link>
+                <Link href="/pricing" className="block text-silver/70 hover:text-gold transition-colors">Pricing →</Link>
+                <Link href="/portfolio" className="block text-silver/70 hover:text-gold transition-colors">Portfolio →</Link>
+                {params.slug === "reels" && (
+                  <Link href="/services/wedding-photography" className="block text-silver/70 hover:text-gold transition-colors">Wedding Photography →</Link>
+                )}
+                {params.slug === "automotive" && (
+                  <Link href="/industries/automotive" className="block text-silver/70 hover:text-gold transition-colors">Automotive Industry →</Link>
+                )}
+              </div>
             </div>
           </div>
 

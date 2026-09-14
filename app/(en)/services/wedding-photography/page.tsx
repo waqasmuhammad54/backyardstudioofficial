@@ -169,8 +169,8 @@ export default function WeddingPhotographyPage() {
       <section className="section-pad" style={{ background: "var(--black)" }}>
         <div className="container-xl grid lg:grid-cols-3 gap-16">
           <div className="lg:col-span-2 space-y-6">
-            <p className="text-silver/70 leading-relaxed text-base">
-              Backyard Studio Official provides coordinated wedding photography and videography across Dubai and all seven UAE emirates. Current combined packages start at AED 7,500 and list the assigned crew, coverage time, edited assets, albums and delivery schedule before you enquire.
+            <p className="text-cream/90 leading-relaxed text-base speakable">
+              Backyard Studio Official is a wedding photography and videography studio in Dubai. Combined photo+video packages start at AED 7,500 across all seven UAE emirates, with crew, coverage hours, edited assets and delivery listed before you enquire.
             </p>
             <p className="text-silver/70 leading-relaxed text-base">
               Whether you are planning an intimate nikah, an Indian or Pakistani celebration, an Emirati bridal-hall event or a destination wedding, the final written proposal is tailored to the ceremony schedule, venue access and required deliverables.
@@ -291,7 +291,9 @@ export default function WeddingPhotographyPage() {
               <div className="space-y-2 text-sm">
                 <Link href="/services/wedding-videography" className="block text-silver/70 hover:text-gold transition-colors">Wedding Videography →</Link>
                 <Link href="/services/pre-wedding-shoot" className="block text-silver/70 hover:text-gold transition-colors">Pre-Wedding Shoots →</Link>
+                <Link href="/pricing" className="block text-silver/70 hover:text-gold transition-colors">Full Pricing Guide →</Link>
                 <Link href="/wedding-packages" className="block text-silver/70 hover:text-gold transition-colors">Wedding Packages &amp; Prices →</Link>
+                <Link href="/" className="block text-silver/70 hover:text-gold transition-colors">Backyard Studio Home →</Link>
                 <Link href="/services/affordable-wedding-photography" className="block text-silver/70 hover:text-gold transition-colors">Affordable Packages →</Link>
                 <Link href="/services/flying-dress-photoshoot" className="block text-silver/70 hover:text-gold transition-colors">Flying Dress Photoshoot →</Link>
                 <Link href="/services/wedding-photography-abu-dhabi" className="block text-silver/70 hover:text-gold transition-colors">Wedding Photographer Abu Dhabi →</Link>
