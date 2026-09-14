@@ -118,30 +118,59 @@ const UAE_DRIVERS = [
   },
 ];
 
+/* Answer-first FAQs for exact AEO intents. Numbers below are only those
+   already published on /pricing and in the rate-band table on this page.
+   Schema text must stay plain (no JSX); visible HTML adds deep links. */
 const FAQS = [
   {
-    q: "How much does video production cost in the UAE in 2026?",
-    a: "In the UAE in 2026, social media content shoots run AED 2,500–8,000, event photography and videography AED 3,000–20,000+, wedding photography AED 7,500–65,000, and corporate films or DVCs AED 15,000–150,000+. Across the wider market, solo freelancers charge AED 800–3,000 per day and full-service agency campaigns run AED 80,000–500,000+.",
+    q: "How much does video production cost in Dubai in 2026?",
+    a: "Video production in Dubai in 2026 spans published bands of AED 2,500–8,000 for social media content shoots, AED 3,000–20,000+ for event photography and videography, AED 7,500–65,000 for wedding photography and videography, and AED 15,000–150,000+ for corporate films and DVCs. Those entry/mid/upper figures are Backyard Studio Official's listed rates on the pricing page — the same bands summarised in Section 01 of this report.",
+    links: [
+      { href: "/pricing", label: "Published pricing packages" },
+      { href: "/services/corporate-films", label: "Corporate films" },
+      { href: "/services/reels", label: "Reels / social content" },
+      { href: "/services/wedding-photography", label: "Wedding photography" },
+    ],
   },
   {
-    q: "How much does a corporate video cost in Dubai?",
-    a: "A corporate video in Dubai typically costs AED 15,000 for a single-day film with a small crew and standard post-production, AED 45,000 for a full brand DVC with cast, location and multi-day shooting, and AED 150,000+ for large-scale TVC work. Crew is usually 30–40% of the budget and post-production a further 20–30%.",
+    q: "What's included in a typical corporate / Reels / wedding video budget?",
+    a: "A typical corporate Digital DVC at AED 15,000 includes creative concept and script, one shoot day, professional talent, a 30-second hero ad plus 15-second cut-down, multi-format delivery (9:16, 16:9, 1:1), and two revision rounds. A Reels / social Starter day at AED 2,500 covers four hours of production, 3–4 edited Reels/TikToks, 20–30 photo selects, stories and feed formats, and 48-hour delivery. A wedding Essential package at AED 7,500 includes one photographer and one videographer, three hours of coverage, 30–40 edited photos, a full event edited video, and same-day RAW data. Mid and upper tiers add crew, shoot hours, albums, highlights, and multi-day commercial scope — see the pricing page for the full itemised lists.",
+    links: [
+      { href: "/pricing", label: "Full itemised packages on /pricing" },
+      { href: "/services/corporate-films", label: "Corporate / DVC budgets" },
+      { href: "/services/reels", label: "Reels budgets from AED 2,500" },
+      { href: "/services/wedding-photography", label: "Wedding budgets from AED 7,500" },
+    ],
   },
   {
-    q: "Where does the money go in a UAE video production budget?",
-    a: "In a typical UAE production budget, crew accounts for 30–40%, post-production 20–30%, equipment and rental 10–20%, location and permits 5–15%, talent and art direction 5–15%, and contingency 5–10%. Budgets without a contingency line overrun most often on permit delays and weather.",
+    q: "Why do quotes vary so widely (crew, shoot days, usage rights)?",
+    a: "Quotes move mainly with crew size and day count, then with what is included after the shoot. On a typical UAE production budget, crew is the largest line at 30–40%, followed by post-production at 20–30%. One shoot day versus two–three days (Digital AED 15,000 vs Broadcast AED 45,000) multiplies crew, kit and location cost. Permits, venue insurance, Arabic/English versioning, cast, and aerial authorisation are the UAE-specific lines most often missing from a thin quote. Usage and delivery rights also differ by channel — social-only cut-downs versus broadcast-ready TVC delivery — so two quotes that look similar on day rate can diverge once rights and versioning are specified.",
+    links: [
+      { href: "/pricing", label: "Compare published package scopes" },
+      { href: "/how-to-choose-a-production-company-in-dubai", label: "What to check before you sign" },
+    ],
   },
   {
-    q: "Is video production cheaper in Abu Dhabi or Sharjah than Dubai?",
-    a: "Crew and equipment rates are broadly consistent across the UAE because most suppliers are Dubai-based and travel. The differences show up in location and permit costs, and in travel and per-diem loading for shoots in the Northern Emirates. For most projects the delta is single-digit percentage, not a different price bracket.",
+    q: "What's a realistic starter budget vs a full commercial?",
+    a: "A realistic starter budget on published rates is AED 2,500 for a half-day Reels/social content shoot, AED 3,000 for essential event coverage, AED 7,500 for an Essential wedding photo+video package, or AED 15,000 for a Digital DVC / single-day corporate film. A full commercial sits higher: Broadcast DVC packages list at AED 45,000 (2–3 shoot days, casting, location scouting, Arabic + English versions), and Premium brand campaigns start at AED 150,000+ for multi-day UAE-wide production with larger cast and crew. Choose the band that matches shoot days and deliverables — not a single average day rate.",
+    links: [
+      { href: "/pricing", label: "Starter packages vs commercial tiers" },
+      { href: "/services/reels", label: "Reels starter from AED 2,500" },
+      { href: "/services/corporate-films", label: "DVC / commercial tiers" },
+    ],
   },
   {
-    q: "When is the cheapest time to shoot in the UAE?",
-    a: "July and August are the softest months for booking in the UAE. Heat limits outdoor daylight shooting windows, but crew and studio availability is at its widest and lead times are shortest. October through April is peak season for events, weddings and corporate production, when availability tightens.",
+    q: "How does Backyard's published pricing compare to getting a custom quote?",
+    a: "Published packages on the pricing page are fixed starting-point guides — the same AED bands used in this report — so you can benchmark another quote before you brief anyone. Most projects are still custom-quoted from your brief, dates and usage needs; Backyard Studio Official responds with an itemised quote within about two hours. Use the published card to check that crew, shoot days and deliverables are in the right band, then request a custom quote when scope, locations or rights sit outside a standard package.",
+    links: [
+      { href: "/pricing", label: "See published pricing" },
+      { href: "/contact", label: "Request a custom quote" },
+    ],
   },
   {
     q: "Can I cite this report?",
     a: "Yes. This report is free to cite and quote with attribution to Backyard Studio Official, linking to backyardstudioofficial.com. No permission request is needed. Journalists and researchers wanting additional detail can contact info@backyardstudioofficial.com.",
+    links: [],
   },
 ];
 
@@ -163,7 +192,7 @@ export default function CostReportPage() {
       "Published rate bands by production format, budget composition, UAE-specific cost drivers and seasonality for video production in the United Arab Emirates in 2026.",
     inLanguage: "en-AE",
     datePublished: "2026-08-05",
-    dateModified: "2026-08-05",
+    dateModified: "2026-09-14",
     mainEntityOfPage: { "@type": "WebPage", "@id": PAGE_URL },
     author: { "@type": "Organization", name: "Backyard Studio Official", url: BASE },
     publisher: {
@@ -240,8 +269,10 @@ export default function CostReportPage() {
         </h2>
         <p className="speakable text-silver/80 text-sm font-light mb-10 max-w-3xl leading-relaxed">
           Published rate bands for the four highest-volume production formats in the UAE. These are Backyard
-          Studio Official&apos;s own listed rates, verifiable on our pricing page, published here so buyers have a
-          fixed reference point to benchmark other quotes against.
+          Studio Official&apos;s own listed rates, verifiable on our{" "}
+          <Link href="/pricing" className="link-gold">pricing page</Link>
+          {" "}(Reels/social from AED 2,500, wedding packages from AED 7,500, corporate/DVC from AED 15,000), published
+          here so buyers have a fixed reference point to benchmark other quotes against.
         </p>
 
         <div className="overflow-x-auto">
@@ -403,16 +434,29 @@ export default function CostReportPage() {
 
       <div className="gold-line-full" />
 
-      {/* ── FAQ ──────────────────────────────────────────────────────────── */}
-      <section className="container-xl py-16" style={{ maxWidth: "72rem" }}>
-        <h2 className="font-display text-[clamp(2rem,5vw,3.2rem)] leading-none mb-10">
+      {/* ── FAQ — visible answer-first HTML; JSON-LD mirrors these Q&As only ─ */}
+      <section className="container-xl py-16" id="faq" style={{ maxWidth: "72rem" }}>
+        <h2 className="font-display text-[clamp(2rem,5vw,3.2rem)] leading-none mb-4">
           <span className="text-cream">REPORT</span> <span className="gold-text">FAQ</span>
         </h2>
+        <p className="text-silver/70 text-sm font-light mb-10 max-w-3xl leading-relaxed">
+          Straight answers to the questions buyers ask before they open a brief — with AED bands tied to our{" "}
+          <Link href="/pricing" className="link-gold">published pricing</Link>, not invented averages.
+        </p>
         <div className="space-y-5">
           {FAQS.map((f) => (
             <div key={f.q} className="p-6" style={{ background: "#1a1a1a", border: "1px solid #2a2a2a" }}>
               <h3 className="text-cream font-semibold text-base mb-3">{f.q}</h3>
               <p className="speakable text-silver/80 text-sm leading-relaxed font-light">{f.a}</p>
+              {f.links.length > 0 && (
+                <p className="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs">
+                  {f.links.map((l) => (
+                    <Link key={l.href + l.label} href={l.href} className="link-gold inline-flex items-center gap-1">
+                      {l.label} <ArrowUpRight size={11} />
+                    </Link>
+                  ))}
+                </p>
+              )}
             </div>
           ))}
         </div>
