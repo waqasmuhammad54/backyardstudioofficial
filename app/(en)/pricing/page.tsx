@@ -50,7 +50,7 @@ const PACKAGES = [
   {
     category: "Wedding Photography & Videography",
     anchor: "wedding",
-    intro: "Dubai's most requested wedding production packages — from affordable photography to premium multi-day productions. RAW data delivered same day on every package.",
+    intro: "Dubai's most requested wedding production packages — from affordable photography to premium multi-day productions. RAW data delivered same day on every package. Wedding budgets in this band also appear in the UAE Video Production Cost Report 2026.",
     plans: [
       {
         name: "Essential",
@@ -133,7 +133,7 @@ const PACKAGES = [
   {
     category: "Social Media Content",
     anchor: "social-media",
-    intro: "Monthly content packages and one-off social media shoots for UAE brands. Combined photo + video in every session.",
+    intro: "Monthly content packages and one-off social media shoots for UAE brands. Combined photo + video in every session. Reels starter budgets from AED 2,500 sit at the entry band covered in the UAE Video Production Cost Report 2026.",
     plans: [
       {
         name: "Starter",
@@ -307,12 +307,12 @@ const PRICE_FAQS = [
   {
     question: "How much does a wedding photographer cost in Dubai?",
     answer:
-      "Wedding photography and videography in Dubai ranges from AED 7,500 for Backyard Studio Official's Essential package (1 photographer, 1 videographer, 3hrs coverage, edited photos + full event video) to AED 65,000 for the Platinum premium production (3 photographers, 3 videographers, 2 albums, documentary film, 3–5 reels). Our most popular Gold package is AED 22,500 and includes 2 photographers, 2 videographers, 1 album, event highlights, 3 reels, couple shoot, and same-day RAW data delivery.",
+      "Wedding photography and videography in Dubai ranges from AED 7,500 for Backyard Studio Official's Essential package (1 photographer, 1 videographer, 3hrs coverage, edited photos + full event video) to AED 65,000 for the Platinum premium production (3 photographers, 3 videographers, 2 albums, documentary film, 3–5 reels). Our most popular Gold package is AED 22,500 and includes 2 photographers, 2 videographers, 1 album, event highlights, 3 reels, couple shoot, and same-day RAW data delivery. For how wedding budgets sit against other UAE production formats, see the UAE Video Production Cost Report 2026.",
   },
   {
     question: "How much does video production cost in Dubai UAE?",
     answer:
-      "Video production costs in Dubai range widely by type: social media Reels from AED 2,500 per shoot day; event coverage from AED 3,000; corporate films from AED 15,000; DVC production from AED 15,000 for digital-only to AED 150,000+ for high-end TV commercials. We provide free quotes within 2 hours for any project size.",
+      "Video production costs in Dubai range widely by type: social media Reels from AED 2,500 per shoot day; event coverage from AED 3,000; corporate films from AED 15,000; DVC production from AED 15,000 for digital-only to AED 150,000+ for high-end TV commercials. Full rate bands, budget splits and UAE cost drivers are published in the UAE Video Production Cost Report 2026. We provide free quotes within 2 hours for any project size.",
   },
   {
     question: "How much does a DVC cost in the UAE?",
@@ -322,7 +322,7 @@ const PRICE_FAQS = [
   {
     question: "How much does social media content creation cost in Dubai?",
     answer:
-      "Social media content shoots in Dubai start from AED 2,500 for a half-day shoot producing 3–4 Reels and 20–30 photos. Full-day content days are AED 5,500, delivering a full month of content across Instagram, TikTok, and YouTube Shorts. Monthly retainer packages start from AED 8,000 per month for 2 shoot days and 100+ deliverables.",
+      "Social media content shoots in Dubai start from AED 2,500 for a half-day shoot producing 3–4 Reels and 20–30 photos. Full-day content days are AED 5,500, delivering a full month of content across Instagram, TikTok, and YouTube Shorts. Monthly retainer packages start from AED 8,000 per month for 2 shoot days and 100+ deliverables. Reels budgets sit at the entry end of the UAE production bands summarised in the UAE Video Production Cost Report 2026.",
   },
   {
     question: "Do you offer custom quotes for projects not in your packages?",
@@ -406,7 +406,16 @@ export default function PricingPage() {
             <div className="container-xl">
               <p className="eyebrow mb-3">{`0${pi + 1}`}</p>
               <h2 className="font-display text-4xl md:text-5xl text-white mb-3">{pkg.category.toUpperCase()}</h2>
-              <p className="text-[#a0a0a0] text-sm mb-12 max-w-2xl">{pkg.intro}</p>
+              <p className="text-[#a0a0a0] text-sm max-w-2xl">{pkg.intro}</p>
+              {(pkg.anchor === "wedding" || pkg.anchor === "social-media") ? (
+                <p className="text-sm mb-12 mt-3 max-w-2xl">
+                  <Link href="/uae-video-production-cost-report-2026" className="text-[#e8c547] hover:underline">
+                    Compare this budget band in the UAE Cost Report 2026 →
+                  </Link>
+                </p>
+              ) : (
+                <div className="mb-12" />
+              )}
 
               <div className={`grid grid-cols-1 md:grid-cols-2 ${pkg.plans.length >= 4 ? "lg:grid-cols-4" : "lg:grid-cols-3"} gap-6`}>
                 {pkg.plans.map((plan) => (
@@ -502,6 +511,16 @@ export default function PricingPage() {
               <div key={i} className="p-6 bg-[#111111] border border-[#2a2a2a]">
                 <p className="text-white font-semibold text-sm mb-2">{faq.question}</p>
                 <p className="text-[#a0a0a0] text-sm leading-relaxed">{faq.answer}</p>
+                {faq.answer.includes("UAE Video Production Cost Report 2026") && (
+                  <p className="mt-3">
+                    <Link
+                      href="/uae-video-production-cost-report-2026"
+                      className="text-[#e8c547] text-xs hover:underline"
+                    >
+                      Read the UAE Video Production Cost Report 2026 →
+                    </Link>
+                  </p>
+                )}
               </div>
             ))}
           </div>
@@ -518,7 +537,8 @@ export default function PricingPage() {
             These prices only mean something next to someone else&apos;s
           </h2>
           <p className="text-[#a0a0a0] text-sm leading-relaxed mb-7">
-            We publish our rates so you can benchmark them. If you are holding another
+            We publish our rates so you can benchmark them — including Reels starter days
+            from AED 2,500 and wedding packages from AED 7,500. If you are holding another
             quote, these two will tell you whether it is a fair one — what the UAE market
             actually charges, and what to check before you sign anything.
           </p>
