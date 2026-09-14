@@ -274,6 +274,9 @@ export default function WeddingPackagesPage() {
 
           {/* Cross links */}
           <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            <Link href="/pricing" className="p-4 border text-sm text-silver/70 hover:text-gold transition-colors" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
+              Video Production Pricing Dubai →
+            </Link>
             <Link href="/services/wedding-photography" className="p-4 border text-sm text-silver/70 hover:text-gold transition-colors" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
               Wedding Photography Dubai →
             </Link>

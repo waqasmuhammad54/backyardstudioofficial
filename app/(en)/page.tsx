@@ -11,7 +11,7 @@ import BlogPreview from "@/components/home/BlogPreview";
 import GalleryStrip from "@/components/home/GalleryStrip";
 import ContactSection from "@/components/home/ContactSection";
 import Link from "next/link";
-import { faqSchema, itemListSchema, personSchema, videoObjectSchema } from "@/lib/structuredData";
+import { faqSchema, itemListSchema, personSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
   // SERP reverse-engineering, Aug 2026. Every organic winner for "video production
@@ -135,20 +135,7 @@ export default function HomePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema(HOME_SERVICES_LIST)) }}
       />
-      {/* VideoObject — matches the primary Vimeo reel rendered below */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(videoObjectSchema({
-            name: "Couple Shoots — Backyard Studio Official",
-            description: "A 2026 couple-shoot production reel filmed and edited by Backyard Studio Official.",
-            thumbnailUrl: "https://www.backyardstudioofficial.com/images/wedding/wedding-05.webp",
-            uploadDate: "2026-05-20",
-            duration: "PT1M53S",
-            embedUrl: "https://player.vimeo.com/video/1194038771",
-          }))
-        }}
-      />
+      {/* P4: homepage showreel is decorative — VideoObject reserved for /portfolio/[slug] watch pages */}
       {/* Person schemas — GEO/LLM entity signals for founders */}
       <script
         type="application/ld+json"
@@ -175,6 +162,24 @@ export default function HomePage() {
         }}
       />
       <HeroSlider />
+
+      {/* P3 — answer-first for "video production company in Dubai" (SSR HTML) */}
+      <section className="py-14 border-b" style={{ background: "var(--black-2)", borderColor: "var(--border)" }} aria-label="Video production company in Dubai">
+        <div className="container-xl max-w-4xl">
+          <p className="eyebrow mb-4">Video Production Company in Dubai</p>
+          <p className="text-cream text-lg md:text-xl leading-relaxed font-light speakable">
+            Backyard Studio Official is a video production company in Dubai producing commercial video, events, weddings, Reels, and photography across all seven UAE emirates — with published prices from AED 2,500 and quotes in about 2 hours.
+          </p>
+          <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm">
+            <Link href="/pricing" className="link-gold">Pricing →</Link>
+            <Link href="/services/reels" className="text-silver/70 hover:text-gold transition-colors">Reels →</Link>
+            <Link href="/services/wedding-photography" className="text-silver/70 hover:text-gold transition-colors">Weddings →</Link>
+            <Link href="/services/automotive" className="text-silver/70 hover:text-gold transition-colors">Automotive →</Link>
+            <Link href="/portfolio" className="text-silver/70 hover:text-gold transition-colors">Portfolio →</Link>
+          </div>
+        </div>
+      </section>
+
       <AboutSection />
       <ServicesGrid />
       <ShowreelSection />
@@ -184,6 +189,27 @@ export default function HomePage() {
       <UAECoverage />
       <TestimonialsSection />
       <BlogPreview />
+
+      {/* P3 — visible FAQs must match FAQPage JSON-LD above */}
+      <section className="section-pad border-t" style={{ background: "var(--black)", borderColor: "var(--border)" }} id="faqs">
+        <div className="container-xl max-w-4xl">
+          <p className="eyebrow mb-4">FAQs</p>
+          <h2 className="font-display text-[clamp(2rem,5vw,3.5rem)] leading-none text-cream mb-10">
+            VIDEO PRODUCTION<br /><span className="gold-text">IN DUBAI — FAQ</span>
+          </h2>
+          <div className="space-y-3">
+            {HOME_FAQS.map((faq) => (
+              <div key={faq.question} className="p-6 border" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
+                <p className="text-cream font-semibold text-sm mb-2">{faq.question}</p>
+                <p className="text-silver/60 text-sm leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+          <p className="mt-8 text-sm text-silver/60">
+            See published packages on our <Link href="/pricing" className="link-gold">pricing page</Link>.
+          </p>
+        </div>
+      </section>
 
       {/* ══════════════════════════════════════════════════════════════
           INTERNAL LINKS — Production Services Dubai & UAE
@@ -225,7 +251,7 @@ export default function HomePage() {
               <p className="text-[9px] tracking-widest uppercase mb-3 opacity-55" style={{ color: "var(--silver)" }}>Photography</p>
               <ul className="space-y-2">
                 {[
-                  ["Wedding Photography Dubai", "/services/photo-shoots"],
+                  ["Wedding Photography Dubai", "/services/wedding-photography"],
                   ["Event Photography Dubai", "/services/event-shoots"],
                   ["Product Photography Dubai", "/services/product-shoots"],
                   ["Fashion Photography Dubai", "/services/fashion-shoots"],
@@ -282,6 +308,7 @@ export default function HomePage() {
                   ["Tech Video Production UAE", "/industries/tech"],
                   ["Education Video UAE", "/industries/education"],
                   ["All UAE Locations", "/locations"],
+                  ["Video Production Pricing", "/pricing"],
                 ].map(([label, href]) => (
                   <li key={href}>
                     <Link href={href} className="text-xs opacity-70 hover:opacity-100 transition-opacity" style={{ color: "var(--silver)" }}>

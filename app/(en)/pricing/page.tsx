@@ -365,9 +365,23 @@ export default function PricingPage() {
       <div className="bg-[#111111] py-16 text-center border-b border-[#2a2a2a]">
         <p className="text-[#e8c547] text-xs tracking-[0.4em] uppercase font-semibold mb-3">TRANSPARENT PRICING</p>
         <h1 className="font-display text-5xl md:text-7xl text-white">VIDEO PRODUCTION PRICING DUBAI</h1>
-        <p className="text-[#a0a0a0] mt-4 max-w-xl mx-auto text-sm leading-relaxed">
-          Compare starting packages for video production, photography, weddings, events and brand content. Prices are in AED and exclude applicable VAT; final scope is confirmed in an itemised quote.
+        <p className="text-[#e8e8e8] mt-5 max-w-2xl mx-auto text-base leading-relaxed speakable">
+          Video production pricing in Dubai at Backyard Studio Official starts from AED 2,500 for social/Reels, AED 3,000 for events, AED 7,500 for wedding photo+video, and AED 15,000 for DVCs — same published rates across all seven UAE emirates.
         </p>
+        <p className="text-[#a0a0a0] mt-3 max-w-xl mx-auto text-sm leading-relaxed">
+          Compare starting packages below. Prices are in AED and exclude applicable VAT; final scope is confirmed in an itemised quote.
+        </p>
+        <div className="flex flex-wrap gap-3 justify-center mt-6 text-sm">
+          <Link href="/" className="text-[#a0a0a0] hover:text-[#e8c547] transition-colors">Home</Link>
+          <span className="text-[#2a2a2a]">·</span>
+          <Link href="/services/reels" className="text-[#a0a0a0] hover:text-[#e8c547] transition-colors">Reels</Link>
+          <span className="text-[#2a2a2a]">·</span>
+          <Link href="/services/wedding-photography" className="text-[#a0a0a0] hover:text-[#e8c547] transition-colors">Weddings</Link>
+          <span className="text-[#2a2a2a]">·</span>
+          <Link href="/services/automotive" className="text-[#a0a0a0] hover:text-[#e8c547] transition-colors">Automotive</Link>
+          <span className="text-[#2a2a2a]">·</span>
+          <Link href="/portfolio" className="text-[#a0a0a0] hover:text-[#e8c547] transition-colors">Portfolio</Link>
+        </div>
         <div className="flex gap-4 justify-center mt-8">
           <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer" className="btn-gold">WhatsApp for Custom Quote</a>
           <Link href="/contact" className="btn-outline">Request a Quote</Link>
