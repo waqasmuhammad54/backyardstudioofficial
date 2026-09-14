@@ -4,12 +4,13 @@ import Link from "next/link";
 import { useInView } from "react-intersection-observer";
 import CountUp from "react-countup";
 import { ArrowUpRight } from "lucide-react";
+import { PROJECTS_DELIVERED, PROJECTS_DELIVERED_DISPLAY } from "@/lib/brandStats";
 
 const STATS = [
-  { value: 500,  suffix: "+", label: "Projects Delivered", detail: "Across all UAE emirates" },
-  { value: 7,    suffix: "",  label: "Emirates Covered",   detail: "Every city, every community" },
-  { value: 7,    suffix: "+", label: "Years in Business",  detail: "Since 2019" },
-  { value: 100,  suffix: "%", label: "Satisfaction",       detail: "100+ five-star reviews" },
+  { value: PROJECTS_DELIVERED, suffix: "+", label: "Projects Delivered", detail: "Across all UAE emirates", display: PROJECTS_DELIVERED_DISPLAY, separator: "," },
+  { value: 7,    suffix: "",  label: "Emirates Covered",   detail: "Every city, every community", display: "7", separator: "" },
+  { value: 7,    suffix: "+", label: "Years in Business",  detail: "Since 2019", display: "7+", separator: "" },
+  { value: 100,  suffix: "%", label: "Satisfaction",       detail: "100+ five-star reviews", display: "100%", separator: "" },
 ];
 
 export default function AboutSection() {
@@ -86,11 +87,11 @@ export default function AboutSection() {
               {STATS.map((st) => (
                 <div key={st.label} className="group">
                   <p className="font-display text-4xl md:text-5xl gold-glow leading-none mb-1">
-                    {/* SSR/crawlers must see final values (500+, 7, 7+, 100%). Animate only after inView. */}
+                    {/* SSR/crawlers must see final values (2,400+, 7, 7+, 100%). Animate only after inView. */}
                     {inView ? (
-                      <CountUp end={st.value} duration={2.5} suffix={st.suffix} />
+                      <CountUp end={st.value} duration={2.5} suffix={st.suffix} separator={st.separator} />
                     ) : (
-                      `${st.value}${st.suffix}`
+                      st.display
                     )}
                   </p>
                   <p className="text-cream text-sm font-medium">{st.label}</p>

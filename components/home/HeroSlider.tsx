@@ -3,6 +3,7 @@ import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import { PROJECTS_DELIVERED_DISPLAY } from "@/lib/brandStats";
 
 const SLIDES = [
   {
@@ -11,7 +12,7 @@ const SLIDES = [
     line1: "Dubai's Best",
     line2: "Production",
     line3: "Company.",
-    sub: "2,400+ projects across all 7 UAE emirates. Aerial coverage available. Free quote in 2 hours.",
+    sub: `${PROJECTS_DELIVERED_DISPLAY} projects across all 7 UAE emirates. Aerial coverage available. Free quote in 2 hours.`,
   },
   {
     image: "/images/wedding/wedding-01.webp",
