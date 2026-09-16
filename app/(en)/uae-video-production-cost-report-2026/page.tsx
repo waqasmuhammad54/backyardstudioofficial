@@ -7,7 +7,8 @@ const BASE = "https://www.backyardstudioofficial.com";
 const PAGE_URL = `${BASE}/uae-video-production-cost-report-2026`;
 
 export const metadata: Metadata = {
-  title: "Video Production Cost in Dubai 2026 (AED)",
+  // absolute: avoid layout template " | Backyard Studio" (kept SERP at 59 > 55).
+  title: { absolute: "Video Production Cost in Dubai 2026 (AED)" },
   description:
     "How much does video production cost in Dubai in 2026? Published AED bands by format, budget splits, and UAE cost drivers. Free to cite.",
   keywords: [
