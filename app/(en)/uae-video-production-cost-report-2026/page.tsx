@@ -7,34 +7,34 @@ const BASE = "https://www.backyardstudioofficial.com";
 const PAGE_URL = `${BASE}/uae-video-production-cost-report-2026`;
 
 export const metadata: Metadata = {
-  title: "UAE Video Production Cost Report 2026",
+  title: "Video Production Cost in Dubai 2026 (AED)",
   description:
-    "What video production actually costs in the UAE in 2026 — rate bands by format, where the money goes inside a budget, UAE-specific cost drivers, and seasonal pricing. Free to cite.",
+    "How much does video production cost in Dubai in 2026? Published AED bands by format, budget splits, and UAE cost drivers. Free to cite.",
   keywords: [
+    "video production cost Dubai AED",
+    "video production cost in Dubai 2026",
+    "how much does video production cost in Dubai",
     "video production cost UAE 2026",
-    "video production cost Dubai",
-    "how much does a corporate video cost Dubai",
-    "UAE video production rates",
+    "UAE video production rates AED",
     "Dubai videographer day rate",
     "video production budget breakdown UAE",
     "Dubai filming permit cost",
-    "production company rates Abu Dhabi",
   ],
   alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: "UAE Video Production Cost Report 2026",
+    title: "Video Production Cost in Dubai 2026 (AED)",
     description:
-      "Rate bands by format, budget composition, UAE-specific cost drivers and seasonality. Published data, free to cite with attribution.",
+      "Published AED rate bands for video production in Dubai — by format, budget composition, and UAE cost drivers. Free to cite.",
     url: PAGE_URL,
     siteName: "Backyard Studio Official",
     locale: "en_AE",
     type: "article",
-    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "UAE Video Production Cost Report 2026" }],
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Video Production Cost in Dubai 2026 (AED)" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "UAE Video Production Cost Report 2026",
-    description: "Rate bands, budget composition and UAE-specific cost drivers. Free to cite.",
+    title: "Video Production Cost in Dubai 2026 (AED)",
+    description: "Published AED rate bands for Dubai video production — formats, budgets, UAE drivers. Free to cite.",
     images: ["/og-image.jpg"],
   },
   robots: { index: true, follow: true },
@@ -124,7 +124,7 @@ const UAE_DRIVERS = [
 const FAQS = [
   {
     q: "How much does video production cost in Dubai in 2026?",
-    a: "Video production in Dubai in 2026 spans published bands of AED 2,500–8,000 for social media content shoots, AED 3,000–20,000+ for event photography and videography, AED 7,500–65,000 for wedding photography and videography, and AED 15,000–150,000+ for corporate films and DVCs. Those entry/mid/upper figures are Backyard Studio Official's listed rates on the pricing page — the same bands summarised in Section 01 of this report.",
+    a: "AED ranges for video production cost in Dubai in 2026: AED 2,500–8,000 for social media content shoots, AED 3,000–20,000+ for event photography and videography, AED 7,500–65,000 for wedding photography and videography, and AED 15,000–150,000+ for corporate films and DVCs. Those entry/mid/upper figures are Backyard Studio Official's listed rates on the pricing page — the same bands summarised in Section 01 of this report.",
     links: [
       { href: "/pricing", label: "Published pricing packages" },
       { href: "/services/corporate-films", label: "Corporate films" },
@@ -177,7 +177,7 @@ const FAQS = [
 export default function CostReportPage() {
   const breadcrumb = breadcrumbSchema([
     { name: "Home", url: BASE },
-    { name: "UAE Video Production Cost Report 2026", url: PAGE_URL },
+    { name: "Video Production Cost in Dubai 2026 (AED)", url: PAGE_URL },
   ]);
   const faq = faqSchema(FAQS.map((f) => ({ question: f.q, answer: f.a })));
   const speakable = speakableSchema(PAGE_URL, ["h1", "h2", ".speakable"]);
@@ -186,13 +186,13 @@ export default function CostReportPage() {
     "@context": "https://schema.org",
     "@type": "Report",
     "@id": `${PAGE_URL}#report`,
-    headline: "UAE Video Production Cost Report 2026",
-    name: "UAE Video Production Cost Report 2026",
+    headline: "Video Production Cost in Dubai 2026 (AED)",
+    name: "Video Production Cost in Dubai 2026 (AED)",
     description:
-      "Published rate bands by production format, budget composition, UAE-specific cost drivers and seasonality for video production in the United Arab Emirates in 2026.",
+      "Published AED rate bands for video production cost in Dubai and the UAE in 2026 — by format, budget composition, and UAE-specific cost drivers.",
     inLanguage: "en-AE",
     datePublished: "2026-08-05",
-    dateModified: "2026-09-14",
+    dateModified: "2026-09-16",
     mainEntityOfPage: { "@type": "WebPage", "@id": PAGE_URL },
     author: { "@type": "Organization", name: "Backyard Studio Official", url: BASE },
     publisher: {
@@ -231,10 +231,10 @@ export default function CostReportPage() {
         <h1
           className="font-display leading-[0.95] mb-7"
           style={{ fontSize: "clamp(2.4rem,6vw,4.5rem)" }}
-          aria-label="UAE Video Production Cost Report 2026"
+          aria-label="Video Production Cost in Dubai 2026 (AED)"
         >
-          <span className="block text-cream">UAE VIDEO PRODUCTION</span>{" "}
-          <span className="block gold-text">COST REPORT 2026</span>
+          <span className="block text-cream">VIDEO PRODUCTION COST IN DUBAI</span>{" "}
+          <span className="block gold-text">2026 (AED)</span>
         </h1>
 
         <div
@@ -258,12 +258,21 @@ export default function CostReportPage() {
           format, how a budget divides internally, and which UAE-specific costs turn a cheap quote into an
           expensive project.
         </p>
+        <p className="mt-6 text-sm">
+          <Link href="/pricing" className="link-gold inline-flex items-center gap-1">
+            AED pricing bands on /pricing <ArrowUpRight size={12} />
+          </Link>
+          <span className="text-silver/40 mx-2">·</span>
+          <a href="#rate-bands" className="link-gold">
+            Jump to rate bands in this report
+          </a>
+        </p>
       </section>
 
       <div className="gold-line-full" />
 
       {/* ── SECTION 1: RATE BANDS ────────────────────────────────────────── */}
-      <section className="container-xl py-16" style={{ maxWidth: "72rem" }}>
+      <section id="rate-bands" className="container-xl py-16" style={{ maxWidth: "72rem" }}>
         <h2 className="font-display text-[clamp(2rem,5vw,3.2rem)] leading-none mb-3">
           <span className="text-cream">01 —</span> <span className="gold-text">RATE BANDS BY FORMAT</span>
         </h2>
@@ -426,7 +435,7 @@ export default function CostReportPage() {
             .
           </p>
           <div className="p-4 text-xs leading-relaxed font-mono" style={{ background: "#0a0a0a", border: "1px solid #2a2a2a", color: "var(--silver)" }}>
-            Backyard Studio Official (2026). <em>UAE Video Production Cost Report 2026</em>. Dubai, United Arab
+            Backyard Studio Official (2026). <em>Video Production Cost in Dubai 2026 (AED)</em>. Dubai, United Arab
             Emirates. Available at: https://www.backyardstudioofficial.com/uae-video-production-cost-report-2026
           </div>
         </div>
