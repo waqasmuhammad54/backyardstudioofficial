@@ -76,6 +76,8 @@ const nextConfig = {
       { source: "/blog/drone-videography-jebel-jais-ras-al-khaimah-2026", destination: "/locations/ras-al-khaimah", permanent: true },
 
       // Historical URLs reported by GSC — preserve relevance and link equity
+      // GSC 404 Sep 2026: year-renamed cost report (live page is 2026)
+      { source: "/uae-video-production-cost-report-2025", destination: "/uae-video-production-cost-report-2026", permanent: true },
       { source: "/blog/how-much-does-dvc-cost-uae-2026", destination: "/blog/how-much-does-video-production-cost-dubai-2026", permanent: true },
       { source: "/blog/car-commercial-production-dubai-2026", destination: "/blog/car-commercial-dubai-2026", permanent: true },
       { source: "/blog/instagram-reels-strategy-uae-brands-2026", destination: "/blog/instagram-reels-strategy-uae-2026", permanent: true },
