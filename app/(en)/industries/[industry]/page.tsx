@@ -291,7 +291,7 @@ const INDUSTRY_DATA: Record<string, {
     specialisations: [
       { name: "Car Launch Campaigns", href: "/industries/automotive/car-launch", desc: "Full launch production for new model reveals — from commercial films to dealership events and social campaigns." },
       { name: "Dealership Photography", href: "/industries/automotive/dealership", desc: "Ongoing stock photography and marketing content for UAE car dealerships. Monthly programmes available." },
-      { name: "Automotive Social Reels", href: "/industries/automotive/auto-reels", desc: "High-impact Instagram Reels and TikTok content for car brands, dealerships and collectors." },
+      { name: "Automotive Social Reels", href: "/services/reels-production", desc: "High-impact Instagram Reels and TikTok content for car brands, dealerships and collectors." },
     ],
   },
 

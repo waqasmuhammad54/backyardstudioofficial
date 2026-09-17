@@ -24,4 +24,14 @@ export const RETIRED_BLOG_SLUGS = new Set<string>([
   "best-social-media-content-creators-dubai-2026",
   "commercial-production-dubai-2026",
   "drone-photography-dubai-2026",
+  // ── MANUAL ADDITIONS — do not remove ──────────────────────────────────────
+  // These two are RENAME TARGETS of scripts/consolidate.mjs (the long malformed
+  // post slugs re-map to them), which is why the generator never adds them to
+  // this set: from consolidate.mjs's point of view they are survivors. They are
+  // NOT standalone articles — both permanently redirect to
+  // /services/live-streaming (next.config.mjs) — so the sitemap must not list
+  // them. Adding them here is a manual override of the generator's survivor
+  // classification, kept in comments so a regeneration cannot silently drop it.
+  "sports-production-company-uae-2026",
+  "sports-broadcast-production-uae-2026",
 ]);

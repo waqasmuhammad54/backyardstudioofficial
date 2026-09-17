@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { MapPin, Camera, ArrowRight } from "lucide-react";
 import { faqSchema, speakableSchema, breadcrumbSchema } from "@/lib/structuredData";
 
@@ -241,6 +242,9 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: { city: string } }): Promise<Metadata> {
+  // Only the 7 legitimate city hubs exist. Unknown cities must 404 genuinely
+  // instead of rendering the DEFAULT_CITY generic template.
+  if (!CITY_DATA[params.city]) notFound();
   const data = CITY_DATA[params.city] || DEFAULT_CITY(params.city);
   const pageUrl = `https://www.backyardstudioofficial.com/locations/${params.city}`;
   return {
@@ -269,6 +273,8 @@ export async function generateMetadata({ params }: { params: { city: string } })
 }
 
 export default function CityPage({ params }: { params: { city: string } }) {
+  // Same guard as generateMetadata: unknown cities produce a real HTTP 404.
+  if (!CITY_DATA[params.city]) notFound();
   const data = CITY_DATA[params.city] || DEFAULT_CITY(params.city);
   const SERVICES = ["Event Shoots", "DVCs", "Instagram Reels", "TikTok Content", "Testimonial Videos", "Ads Shooting", "Aerial Drone", "Corporate Films"];
   const pageUrl = `https://www.backyardstudioofficial.com/locations/${params.city}`;
@@ -353,10 +359,10 @@ export default function CityPage({ params }: { params: { city: string } }) {
             </div>
             <div className="p-5 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm">
               <p className="text-xs text-[#666] uppercase tracking-widest mb-3">Other Emirates</p>
-              {["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "RAK", "Fujairah", "UAQ"].map((c) => (
-                <Link key={c} href={`/locations/${c.toLowerCase().replace(/ /g, "-")}`}
+              {([{ label: "Dubai", slug: "dubai" }, { label: "Abu Dhabi", slug: "abu-dhabi" }, { label: "Sharjah", slug: "sharjah" }, { label: "Ajman", slug: "ajman" }, { label: "Ras Al Khaimah", slug: "ras-al-khaimah" }, { label: "Fujairah", slug: "fujairah" }, { label: "Umm Al Quwain", slug: "umm-al-quwain" }] as const).map((c) => (
+                <Link key={c.slug} href={`/locations/${c.slug}`}
                   className="flex items-center justify-between py-1.5 text-[#a0a0a0] text-sm hover:text-[#e8c547] transition-colors border-b border-[#2a2a2a] last:border-0">
-                  <span>{c}</span><ArrowRight size={12} />
+                  <span>{c.label}</span><ArrowRight size={12} />
                 </Link>
               ))}
             </div>

@@ -2875,10 +2875,10 @@ export default function CityServicePage({
             </div>
             <div className="p-5 bg-[#111] border border-[#2a2a2a] rounded-sm">
               <p className="text-xs text-[#555] uppercase tracking-widest mb-3">Other Emirates</p>
-              {["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "RAK", "Fujairah", "UAQ"].map((c) => (
-                <Link key={c} href={`/locations/${c.toLowerCase().replace(/ /g, "-")}`}
+              {([{ label: "Dubai", slug: "dubai" }, { label: "Abu Dhabi", slug: "abu-dhabi" }, { label: "Sharjah", slug: "sharjah" }, { label: "Ajman", slug: "ajman" }, { label: "Ras Al Khaimah", slug: "ras-al-khaimah" }, { label: "Fujairah", slug: "fujairah" }, { label: "Umm Al Quwain", slug: "umm-al-quwain" }] as const).map((c) => (
+                <Link key={c.slug} href={`/locations/${c.slug}`}
                   className="flex items-center justify-between py-1.5 text-[#a0a0a0] text-sm hover:text-[#e8c547] transition-colors border-b border-[#1a1a1a] last:border-0">
-                  <span>{c}</span><span className="text-[#555] text-xs">→</span>
+                  <span>{c.label}</span><span className="text-[#555] text-xs">→</span>
                 </Link>
               ))}
             </div>

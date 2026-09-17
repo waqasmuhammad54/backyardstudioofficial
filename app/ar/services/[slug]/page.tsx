@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 
 const SLUGS = [
   "event-shoots","event-video-editing","dvcs","reels","photo-shoots",
@@ -381,6 +382,8 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  // Unknown slugs must 404 genuinely — never render the DEFAULT_AR generic template.
+  if (!SLUGS.includes(params.slug)) notFound();
   const s = SERVICE_AR[params.slug] || DEFAULT_AR;
   const pageUrl = `https://www.backyardstudioofficial.com/ar/services/${params.slug}`;
   return {
@@ -408,6 +411,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 }
 
 export default function ArServicePage({ params }: { params: { slug: string } }) {
+  // Same guard as generateMetadata: unknown slugs produce a real HTTP 404.
+  if (!SLUGS.includes(params.slug)) notFound();
   const service = SERVICE_AR[params.slug] || { ...DEFAULT_AR, title: params.slug.replace(/-/g, " ") };
   const imgs = SERVICE_IMAGES[params.slug] || DEFAULT_IMAGES;
   const pageUrl = `https://www.backyardstudioofficial.com/ar/services/${params.slug}`;

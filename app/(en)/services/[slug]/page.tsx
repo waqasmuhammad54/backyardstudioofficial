@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { ArrowLeft, Check, ArrowUpRight } from "lucide-react";
 import VimeoEmbed from "@/components/shared/VimeoEmbed";
 import { breadcrumbSchema, faqSchema, servicePageSchema, howToSchema, speakableSchema } from "@/lib/structuredData";
@@ -682,8 +683,13 @@ const DEFAULT_SERVICE = {
   ],
 };
 
-export function generateStaticParams() {
-  return [
+// ─── Authoritative dynamic service slug list ─────────────────────────────────
+// Single source of truth for the EN dynamic service routes: generateStaticParams
+// below iterates it, and the notFound() guards in generateMetadata/ServicePage
+// use it to reject unknown slugs with a genuine HTTP 404 instead of rendering
+// the generic fallback template. The 11 static service folders
+// (app/(en)/services/<name>/) are separate routes and are NOT part of this set.
+const SERVICE_SLUGS = [
     // Original services
     "event-shoots", "event-video-editing", "dvcs", "reels",
     "photo-shoots", "social-media-content", "testimonial-videos",
@@ -702,7 +708,10 @@ export function generateStaticParams() {
     // posts were retired during the cannibalisation cleanup; both now 301 here
     // so the demand lands on one strong page instead of two competing ones.
     "live-streaming",
-  ].map((slug) => ({ slug }));
+] as const;
+
+export function generateStaticParams() {
+  return SERVICE_SLUGS.map((slug) => ({ slug }));
 }
 
 const SERVICE_METADATA: Record<string, { title: string; description: string; keywords: string[] }> = {
@@ -869,6 +878,8 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
 };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  // Unknown dynamic slugs must 404 genuinely — never render a generic shell.
+  if (!(SERVICE_SLUGS as readonly string[]).includes(params.slug)) notFound();
   const custom = SERVICE_METADATA[params.slug];
   const pageUrl = `https://www.backyardstudioofficial.com/services/${params.slug}`;
   if (custom) {
@@ -924,6 +935,8 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 }
 
 export default function ServicePage({ params }: { params: { slug: string } }) {
+  // Same guard as generateMetadata: unknown slugs produce a real HTTP 404.
+  if (!(SERVICE_SLUGS as readonly string[]).includes(params.slug)) notFound();
   const service = SERVICE_DATA[params.slug] || {
     ...DEFAULT_SERVICE,
     title: params.slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()),

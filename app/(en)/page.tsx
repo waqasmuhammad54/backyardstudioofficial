@@ -235,7 +235,6 @@ export default function HomePage() {
                   ["Corporate Brand Films", "/services/corporate-brand-films"],
                   ["Documentary Films", "/services/documentary"],
                   ["Event Video Editing", "/services/event-video-editing"],
-                  ["AI Video Production Dubai", "/services/ai-video"],
                 ].map(([label, href]) => (
                   <li key={href}>
                     <Link href={href} className="text-xs opacity-70 hover:opacity-100 transition-opacity" style={{ color: "var(--silver)" }}>
