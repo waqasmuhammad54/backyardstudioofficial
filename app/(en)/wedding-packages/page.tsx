@@ -247,7 +247,11 @@ export default function WeddingPackagesPage() {
                 Compare packages by production scope, not only the headline price. Ask every supplier to specify crew size, coverage hours, the number and format of final assets, album specifications, revision terms and the final delivery schedule.
               </p>
               <p className="text-silver/70 leading-relaxed text-base">
-                Backyard Studio confirms these items in an itemised AED proposal. Currency conversions are left to the payment provider so the page does not publish exchange rates that quickly become inaccurate.
+                Backyard Studio confirms these items in an itemised AED proposal. Currency conversions are left to the payment provider so the page does not publish exchange rates that quickly become inaccurate. Wedding AED bands (AED 7,500–65,000) also sit in the{" "}
+                <Link href="/uae-video-production-cost-report-2026#rate-bands" className="link-gold">
+                  UAE Video Production Cost Report 2026
+                </Link>
+                {" "}alongside social, event and corporate formats.
               </p>
               <div className="mt-6 p-6 border" style={{ borderColor: "var(--gold)", background: "var(--black-2)" }}>
                 <p className="text-cream font-semibold text-sm mb-2">Not sure which package fits?</p>
@@ -297,6 +301,9 @@ export default function WeddingPackagesPage() {
             </Link>
             <Link href="/blog/wedding-photographer-cost-dubai-2026" className="p-4 border text-sm text-silver/70 hover:text-gold transition-colors" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
               Full 2026 Cost Guide →
+            </Link>
+            <Link href="/uae-video-production-cost-report-2026#rate-bands" className="p-4 border text-sm text-silver/70 hover:text-gold transition-colors" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
+              UAE Cost Report 2026 — Wedding AED bands →
             </Link>
           </div>
         </div>

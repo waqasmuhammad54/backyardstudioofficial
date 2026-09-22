@@ -224,6 +224,9 @@ export default function WeddingVideographyPage() {
                 <Link href="/blog/wedding-photographer-cost-dubai-2026" className="p-4 border text-sm text-silver/70 hover:text-gold transition-colors" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
                   Wedding Photographer &amp; Videographer Cost in Dubai →
                 </Link>
+                <Link href="/uae-video-production-cost-report-2026#rate-bands" className="p-4 border text-sm text-silver/70 hover:text-gold transition-colors" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
+                  UAE Cost Report 2026 — Wedding AED rate bands →
+                </Link>
               </div>
             </div>
           </div>
@@ -260,6 +263,7 @@ export default function WeddingVideographyPage() {
                 <Link href="/services/wedding-photography" className="block text-silver/70 hover:text-gold transition-colors">Wedding Photography →</Link>
                 <Link href="/services/pre-wedding-shoot" className="block text-silver/70 hover:text-gold transition-colors">Pre-Wedding Shoots →</Link>
                 <Link href="/wedding-packages" className="block text-silver/70 hover:text-gold transition-colors">Wedding Packages &amp; Prices →</Link>
+                <Link href="/uae-video-production-cost-report-2026#faq" className="block text-silver/70 hover:text-gold transition-colors">Cost Report FAQ — AED wedding budgets →</Link>
               </div>
             </div>
           </div>
