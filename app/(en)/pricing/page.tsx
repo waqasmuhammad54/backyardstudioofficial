@@ -189,7 +189,7 @@ const PACKAGES = [
   {
     category: "DVCs & TV Commercials",
     anchor: "dvcs",
-    intro: "Broadcast-quality commercial production for UAE brands. Full creative service from brief to delivery.",
+    intro: "Broadcast-quality commercial production for UAE brands. Full creative service from brief to delivery. Digital/Broadcast/Premium DVC bands (AED 15,000 / 45,000 / 150,000+) are summarised in the UAE Video Production Cost Report 2026.",
     plans: [
       {
         name: "Digital",
@@ -248,7 +248,7 @@ const PACKAGES = [
   {
     category: "Event Coverage",
     anchor: "events",
-    intro: "Professional event photography and videography across all UAE emirates. Same-day social media delivery included.",
+    intro: "Professional event photography and videography across all UAE emirates. Same-day social media delivery included. Event coverage bands from AED 3,000–20,000+ sit in the UAE Video Production Cost Report 2026.",
     plans: [
       {
         name: "Essential",
@@ -381,6 +381,8 @@ export default function PricingPage() {
           <Link href="/services/automotive" className="text-[#a0a0a0] hover:text-[#e8c547] transition-colors">Automotive</Link>
           <span className="text-[#2a2a2a]">·</span>
           <Link href="/portfolio" className="text-[#a0a0a0] hover:text-[#e8c547] transition-colors">Portfolio</Link>
+          <span className="text-[#2a2a2a]">·</span>
+          <Link href="/uae-video-production-cost-report-2026#rate-bands" className="text-[#e8c547] hover:text-[#e8c547] transition-colors">AED Cost Report</Link>
         </div>
         <div className="flex gap-4 justify-center mt-8">
           <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer" className="btn-gold">WhatsApp for Custom Quote</a>
@@ -407,10 +409,10 @@ export default function PricingPage() {
               <p className="eyebrow mb-3">{`0${pi + 1}`}</p>
               <h2 className="font-display text-4xl md:text-5xl text-white mb-3">{pkg.category.toUpperCase()}</h2>
               <p className="text-[#a0a0a0] text-sm max-w-2xl">{pkg.intro}</p>
-              {(pkg.anchor === "wedding" || pkg.anchor === "social-media") ? (
+              {(pkg.anchor === "wedding" || pkg.anchor === "social-media" || pkg.anchor === "dvcs" || pkg.anchor === "events") ? (
                 <p className="text-sm mb-12 mt-3 max-w-2xl">
-                  <Link href="/uae-video-production-cost-report-2026" className="text-[#e8c547] hover:underline">
-                    Compare this budget band in the UAE Cost Report 2026 →
+                  <Link href="/uae-video-production-cost-report-2026#rate-bands" className="text-[#e8c547] hover:underline">
+                    Compare this AED budget band in the UAE Cost Report 2026 →
                   </Link>
                 </p>
               ) : (
@@ -514,10 +516,10 @@ export default function PricingPage() {
                 {faq.answer.includes("UAE Video Production Cost Report 2026") && (
                   <p className="mt-3">
                     <Link
-                      href="/uae-video-production-cost-report-2026"
+                      href="/uae-video-production-cost-report-2026#faq"
                       className="text-[#e8c547] text-xs hover:underline"
                     >
-                      Read the UAE Video Production Cost Report 2026 →
+                      Read the UAE Cost Report FAQ (AED bands) →
                     </Link>
                   </p>
                 )}
@@ -544,14 +546,14 @@ export default function PricingPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
-              href="/uae-video-production-cost-report-2026"
+              href="/uae-video-production-cost-report-2026#rate-bands"
               className="flex-1 p-5 border border-[#2a2a2a] bg-[#111111] hover:border-[#e8c547]/50 transition-colors group"
             >
-              <p className="text-[#e8c547] text-[0.6rem] tracking-[0.3em] uppercase font-semibold mb-2">Data report</p>
+              <p className="text-[#e8c547] text-[0.6rem] tracking-[0.3em] uppercase font-semibold mb-2">Data report · AED</p>
               <p className="text-white text-sm font-semibold mb-1 group-hover:text-[#e8c547] transition-colors">
                 UAE Video Production Cost Report 2026
               </p>
-              <p className="text-[#666] text-xs">Rate bands by format, and where the money goes inside a budget.</p>
+              <p className="text-[#666] text-xs">AED rate bands by format, and where the money goes inside a budget.</p>
             </Link>
             <Link
               href="/how-to-choose-a-production-company-in-dubai"

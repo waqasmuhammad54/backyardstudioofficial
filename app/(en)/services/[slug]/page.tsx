@@ -1060,6 +1060,13 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                   <div key={i} className="p-6 border" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
                     <p className="text-cream font-semibold text-sm mb-2">{faq.q}</p>
                     <p className="text-silver/60 text-sm leading-relaxed">{faq.a}</p>
+                    {params.slug === "reels" && faq.q.toLowerCase().includes("cost") && (
+                      <p className="mt-3">
+                        <Link href="/uae-video-production-cost-report-2026#faq" className="text-xs link-gold">
+                          Compare Reels AED bands in the UAE Cost Report FAQ →
+                        </Link>
+                      </p>
+                    )}
                   </div>
                 ))}
               </div>
@@ -1099,7 +1106,10 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                 <Link href="/pricing" className="block text-silver/70 hover:text-gold transition-colors">Pricing →</Link>
                 <Link href="/portfolio" className="block text-silver/70 hover:text-gold transition-colors">Portfolio →</Link>
                 {params.slug === "reels" && (
-                  <Link href="/services/wedding-photography" className="block text-silver/70 hover:text-gold transition-colors">Wedding Photography →</Link>
+                  <>
+                    <Link href="/uae-video-production-cost-report-2026#rate-bands" className="block text-silver/70 hover:text-gold transition-colors">AED Cost Report — Reels bands →</Link>
+                    <Link href="/services/wedding-photography" className="block text-silver/70 hover:text-gold transition-colors">Wedding Photography →</Link>
+                  </>
                 )}
                 {params.slug === "automotive" && (
                   <Link href="/industries/automotive" className="block text-silver/70 hover:text-gold transition-colors">Automotive Industry →</Link>

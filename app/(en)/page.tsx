@@ -172,6 +172,7 @@ export default function HomePage() {
           </p>
           <div className="mt-6 flex flex-wrap gap-x-5 gap-y-2 text-sm">
             <Link href="/pricing" className="link-gold">Pricing →</Link>
+            <Link href="/uae-video-production-cost-report-2026#rate-bands" className="text-silver/70 hover:text-gold transition-colors">AED cost report →</Link>
             <Link href="/services/reels" className="text-silver/70 hover:text-gold transition-colors">Reels →</Link>
             <Link href="/services/wedding-photography" className="text-silver/70 hover:text-gold transition-colors">Weddings →</Link>
             <Link href="/services/automotive" className="text-silver/70 hover:text-gold transition-colors">Automotive →</Link>
