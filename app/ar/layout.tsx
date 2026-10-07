@@ -4,6 +4,9 @@ import "../globals.css";
 import CustomCursor from "@/components/shared/CustomCursor";
 import WhatsAppButton from "@/components/shared/WhatsAppButton";
 import { CLIENTS } from "@/lib/clients";
+// Single source of truth. This file used to hold two hand-copied sameAs arrays
+// that had drifted out of sync with the EN site and with each other.
+import { BRAND_SAME_AS } from "@/lib/structuredData";
 import ArNavbar from "@/components/layout/ArNavbar";
 import ArFooter from "@/components/layout/ArFooter";
 
@@ -63,12 +66,7 @@ const LOCAL_BUSINESS_AR = {
   "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm Al Quwain"],
   "description":
     "شركة الإنتاج الإبداعي الرائدة في دبي. تصوير فيديو احترافي، تصوير الأعراس، محتوى وسائل التواصل الاجتماعي، تصوير الفعاليات والأفلام المؤسسية.",
-  "sameAs": [
-    "https://www.instagram.com/backyardstudioofficial",
-    "https://www.facebook.com/Backyardstudioofficial",
-    "https://www.tiktok.com/@backyardstudio_official5",
-    "https://www.linkedin.com/in/backyard-studio-508532417/",
-  ],
+  "sameAs": BRAND_SAME_AS,
   "founder": [
     { "@type": "Person", "name": "فهد إقبال بط",   "jobTitle": "المدير الإبداعي"  },
     { "@type": "Person", "name": "سيد مظهر زيدي",  "jobTitle": "مدير التصوير"     },
@@ -96,16 +94,7 @@ const ORGANIZATION_AR = {
     "availableLanguage": ["Arabic", "English", "Urdu", "Russian"],
     "areaServed":        "AE",
   },
-  "sameAs": [
-    "https://www.instagram.com/backyardstudioofficial",
-    "https://www.facebook.com/Backyardstudioofficial",
-    "https://www.tiktok.com/@backyardstudio_official5",
-    "https://www.linkedin.com/in/backyard-studio-508532417/",
-    "https://youtube.com/@BackyardStudioofficialuae",
-    "https://www.trustpilot.com/review/backyardstudioofficial.com",
-    "https://maps.google.com/?cid=5027158334939770142",
-    "https://clutch.co/profile/backyardstudio-official",
-  ],
+  "sameAs": BRAND_SAME_AS,
   "founder": [
     { "@type": "Person", "name": "فهد إقبال بط",  "jobTitle": "المدير الإبداعي" },
     { "@type": "Person", "name": "سيد مظهر زيدي", "jobTitle": "مدير التصوير"    },

@@ -25,10 +25,36 @@ const BRAND = {
     // with coordinates in them change; the CID does not.
     "https://maps.google.com/?cid=5027158334939770142",
     "https://clutch.co/profile/backyardstudio-official",
+    // LinkedIn is a PERSONAL profile path (/in/), not a company page (/company/).
+    // Confirmed with the owner 7 Oct 2026 that no company page exists. It still
+    // belongs here as a verifiable brand-controlled profile, but a LinkedIn
+    // company page would be a stronger Organization signal — if one is ever
+    // created, replace this URL rather than adding a second one.
     "https://www.linkedin.com/in/backyard-studio-508532417/",
     "https://www.imdb.com/name/nm14029494/",
+    // Added 7 Oct 2026. Both are actively publishing and were invisible to the
+    // entity graph until now. See SESSION_CLOSE.md for the Medium canonical
+    // issue, which is a separate and more serious problem than the missing
+    // sameAs entry: the articles self-canonicalise to Medium.
+    "https://medium.com/@backyardstudioofficialuae",
+    "https://www.reddit.com/user/backyardstudioUAE/",
   ],
 };
+
+/**
+ * The canonical list of brand-controlled profiles, exported so that the AR, RU
+ * and ZH layouts import it instead of keeping their own copies.
+ *
+ * Before 7 Oct 2026 this list existed in SIX places — once here and twice each in
+ * app/ar/layout.tsx, app/ru/layout.tsx and app/zh/layout.tsx — and all six had
+ * drifted apart. The ZH and AR short lists were missing YouTube, Trustpilot, the
+ * Google Business CID and Clutch entirely. For entity reconciliation that is
+ * actively harmful: an engine crawling /zh/ and / sees two different claims about
+ * which profiles belong to the same Organization.
+ *
+ * Never hand-copy this array again. Import it.
+ */
+export const BRAND_SAME_AS: readonly string[] = BRAND.sameAs;
 
 /**
  * Normalize any date-ish string to a Google-compliant ISO 8601 datetime with

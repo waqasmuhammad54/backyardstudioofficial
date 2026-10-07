@@ -4,6 +4,8 @@ import "../globals.css";
 import CustomCursor from "@/components/shared/CustomCursor";
 import WhatsAppButton from "@/components/shared/WhatsAppButton";
 import { CLIENTS } from "@/lib/clients";
+// Single source of truth — see the note on BRAND_SAME_AS in lib/structuredData.ts.
+import { BRAND_SAME_AS } from "@/lib/structuredData";
 import RuNavbar from "@/components/layout/RuNavbar";
 import RuFooter from "@/components/layout/RuFooter";
 
@@ -67,10 +69,7 @@ const LOCAL_BUSINESS_RU = {
     { "@type": "City",              "name": "Шарджа"  },
     { "@type": "AdministrativeArea","name": "ОАЭ"     },
   ],
-  "sameAs": [
-    "https://www.instagram.com/backyardstudioofficial",
-    "https://www.youtube.com/@BackyardStudioofficialuae",
-  ],
+  "sameAs": BRAND_SAME_AS,
   "founder": [
     { "@type": "Person", "name": "Фахад Икбал Батт",   "jobTitle": "Директор и главный фотограф" },
     { "@type": "Person", "name": "Сайед Мазхар Зайди",  "jobTitle": "Директор постпродакшна",      "sameAs": "https://www.imdb.com/name/nm14029494/" },
@@ -98,16 +97,7 @@ const ORGANIZATION_RU = {
     "availableLanguage": ["Russian", "English", "Arabic", "Urdu"],
     "areaServed":        "AE",
   },
-  "sameAs": [
-    "https://www.instagram.com/backyardstudioofficial",
-    "https://www.facebook.com/Backyardstudioofficial",
-    "https://www.tiktok.com/@backyardstudio_official5",
-    "https://www.linkedin.com/in/backyard-studio-508532417/",
-    "https://youtube.com/@BackyardStudioofficialuae",
-    "https://www.trustpilot.com/review/backyardstudioofficial.com",
-    "https://maps.google.com/?cid=5027158334939770142",
-    "https://clutch.co/profile/backyardstudio-official",
-  ],
+  "sameAs": BRAND_SAME_AS,
   "founder": [
     { "@type": "Person", "name": "Фахад Икбал Батт",  "jobTitle": "Директор и главный фотограф" },
     { "@type": "Person", "name": "Сайед Мазхар Зайди", "jobTitle": "Директор постпродакшна"      },

@@ -145,7 +145,7 @@ export default function WeddingPhotographyRAKPage() {
                 <Link href="/blog/british-western-wedding-photographer-dubai-2026" className="p-4 border text-sm text-silver/70 hover:text-gold transition-colors" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
                   Western Destination Weddings in the UAE →
                 </Link>
-                <Link href="/blog/drone-photography-dubai-2026" className="p-4 border text-sm text-silver/70 hover:text-gold transition-colors" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
+                <Link href="/blog/aerial-videography-dubai-2026" className="p-4 border text-sm text-silver/70 hover:text-gold transition-colors" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
                   Drone Photography in the UAE — Guide →
                 </Link>
               </div>

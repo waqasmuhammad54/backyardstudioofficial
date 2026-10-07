@@ -4,6 +4,8 @@ import "../globals.css";
 import CustomCursor from "@/components/shared/CustomCursor";
 import WhatsAppButton from "@/components/shared/WhatsAppButton";
 import { CLIENTS } from "@/lib/clients";
+// Single source of truth — see the note on BRAND_SAME_AS in lib/structuredData.ts.
+import { BRAND_SAME_AS } from "@/lib/structuredData";
 import ZhNavbar from "@/components/layout/ZhNavbar";
 import ZhFooter from "@/components/layout/ZhFooter";
 
@@ -63,12 +65,7 @@ const LOCAL_BUSINESS_ZH = {
   "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm Al Quwain"],
   "description":
     "迪拜专业影视制作公司。企业视频、婚礼摄影、活动拍摄、社交媒体内容制作。",
-  "sameAs": [
-    "https://www.instagram.com/backyardstudioofficial",
-    "https://www.facebook.com/Backyardstudioofficial",
-    "https://www.tiktok.com/@backyardstudio_official5",
-    "https://www.linkedin.com/in/backyard-studio-508532417/",
-  ],
+  "sameAs": BRAND_SAME_AS,
   "founder": [
     { "@type": "Person", "name": "Fahad Iqbal Butt",  "jobTitle": "Creative Director"      },
     { "@type": "Person", "name": "Syed Mazhar Zaidi", "jobTitle": "Director of Photography" },
@@ -96,16 +93,7 @@ const ORGANIZATION_ZH = {
     "availableLanguage": ["Chinese", "English", "Arabic", "Russian", "Urdu"],
     "areaServed":        "AE",
   },
-  "sameAs": [
-    "https://www.instagram.com/backyardstudioofficial",
-    "https://www.facebook.com/Backyardstudioofficial",
-    "https://www.tiktok.com/@backyardstudio_official5",
-    "https://www.linkedin.com/in/backyard-studio-508532417/",
-    "https://youtube.com/@BackyardStudioofficialuae",
-    "https://www.trustpilot.com/review/backyardstudioofficial.com",
-    "https://maps.google.com/?cid=5027158334939770142",
-    "https://clutch.co/profile/backyardstudio-official",
-  ],
+  "sameAs": BRAND_SAME_AS,
   "founder": [
     { "@type": "Person", "name": "Fahad Iqbal Butt",  "jobTitle": "Creative Director"      },
     { "@type": "Person", "name": "Syed Mazhar Zaidi", "jobTitle": "Director of Photography" },

@@ -70,6 +70,10 @@ const INDUSTRY_DATA: Record<string, {
     ],
     relatedLocations: [{ label: "Dubai Hotels", href: "/locations/dubai" },{ label: "Abu Dhabi Resorts", href: "/locations/abu-dhabi" },{ label: "Ras Al Khaimah", href: "/locations/ras-al-khaimah" }],
     relatedPosts: [{ title: "Hotel Photography Guide UAE 2026", href: "/blog/hotel-photography-dubai-2026" },{ title: "Best Production Companies in Dubai 2026", href: "/blog/best-production-companies-dubai-2026" }],
+    specialisations: [
+      { name: "Hotel Photography & Video", href: "/industries/hospitality/hotels", desc: "Rooms, suites, lobby, pool, spa and F&B — planned for OTA listings and brand channels in one shoot." },
+      { name: "Resort Production", href: "/industries/hospitality/resorts", desc: "Beach and destination resort content built to turn browsers into bookers." },
+    ],
   },
 
   /* ── REAL ESTATE ───────────────────────────────────────────────────── */
@@ -114,6 +118,11 @@ const INDUSTRY_DATA: Record<string, {
     ],
     relatedLocations: [{ label: "Dubai Properties", href: "/locations/dubai" },{ label: "Abu Dhabi Properties", href: "/locations/abu-dhabi" },{ label: "Sharjah Properties", href: "/locations/sharjah" }],
     relatedPosts: [{ title: "Real Estate Photography Guide Dubai 2026", href: "/blog/real-estate-photography-dubai-2026" },{ title: "Best Production Companies in Dubai 2026", href: "/blog/best-production-companies-dubai-2026" }],
+    specialisations: [
+      { name: "Luxury Villa Content", href: "/industries/real-estate/luxury-villa", desc: "Villa photography and walkthrough film that sells before the viewing." },
+      { name: "Off-Plan Launch Content", href: "/industries/real-estate/off-plan", desc: "Render-integrated walkthroughs, show apartment shoots and investor launch films." },
+      { name: "Commercial Property", href: "/industries/real-estate/commercial-property", desc: "Office, retail and industrial space marketed properly rather than photographed empty." },
+    ],
   },
 
   /* ── FASHION ───────────────────────────────────────────────────────── */
@@ -149,6 +158,10 @@ const INDUSTRY_DATA: Record<string, {
     ],
     relatedLocations: [{ label: "Dubai Fashion Shoots", href: "/locations/dubai" },{ label: "Abu Dhabi Fashion", href: "/locations/abu-dhabi" }],
     relatedPosts: [{ title: "Fashion Photography Guide Dubai 2026", href: "/blog/fashion-photography-dubai-2026" },{ title: "Best Production Companies in Dubai 2026", href: "/blog/best-production-companies-dubai-2026" }],
+    specialisations: [
+      { name: "Model Portfolio Shoots", href: "/industries/fashion/model-portfolio", desc: "Portfolio shoots built to open agency doors rather than fill a feed." },
+      { name: "Fashion Reels & Social", href: "/industries/fashion/fashion-reels", desc: "Vertical fashion content for Instagram Reels and TikTok that converts scrollers into shoppers." },
+    ],
   },
 
   /* ── FOOD & BEVERAGE ───────────────────────────────────────────────── */
@@ -183,6 +196,10 @@ const INDUSTRY_DATA: Record<string, {
     ],
     relatedLocations: [{ label: "Dubai Restaurants", href: "/locations/dubai" },{ label: "Abu Dhabi F&B", href: "/locations/abu-dhabi" }],
     relatedPosts: [{ title: "Food Photography Guide Dubai 2026", href: "/blog/food-photography-guide-dubai-2026" },{ title: "Best Production Companies in Dubai 2026", href: "/blog/best-production-companies-dubai-2026" }],
+    specialisations: [
+      { name: "Restaurant Production", href: "/industries/food-beverage/restaurants", desc: "Ambience, menu and lifestyle content for restaurants — built for tables and delivery queues alike." },
+      { name: "Menu Photography", href: "/industries/food-beverage/menu-photography", desc: "Dish-by-dish photography shot to platform spec for Talabat, Deliveroo and Noon Food." },
+    ],
   },
 
   /* ── CORPORATE ─────────────────────────────────────────────────────── */
@@ -217,6 +234,11 @@ const INDUSTRY_DATA: Record<string, {
     ],
     relatedLocations: [{ label: "Dubai Corporate", href: "/locations/dubai" },{ label: "Abu Dhabi ADGM", href: "/locations/abu-dhabi" }],
     relatedPosts: [{ title: "Corporate Video Production Guide Dubai 2026", href: "/blog/corporate-video-production-dubai-2026" },{ title: "Best Production Companies in Dubai 2026", href: "/blog/best-production-companies-dubai-2026" }],
+    specialisations: [
+      { name: "Company Profile Films", href: "/industries/corporate/company-profile", desc: "Profile films built to win tenders and survive a pitch-room screening." },
+      { name: "Investor Pitch Video", href: "/industries/corporate/investor-pitch", desc: "Founder and pitch content made for rooms where the decision gets made." },
+      { name: "Annual Report Content", href: "/industries/corporate/annual-report", desc: "Report photography and video that stakeholders actually open." },
+    ],
   },
 
   /* ── SPORTS ────────────────────────────────────────────────────────── */
@@ -264,6 +286,18 @@ const INDUSTRY_DATA: Record<string, {
       { name: "Padel Tournament Production", href: "/industries/sports/padel", desc: "Match coverage, drone aerials, sponsor reels and same-day social cuts for padel events across UAE." },
       { name: "Cycling Event Coverage", href: "/industries/sports/cycling", desc: "Multi-camera cycling event production with drone, finish line photography and social content." },
       { name: "Football & Team Sports", href: "/industries/sports/football", desc: "Match coverage, highlight reels, athlete branding and sponsor activation content." },
+      // Linked here on the day the page was created. The sports hub has carried
+      // MMA keywords since launch with nothing to land on, and an unlinked page
+      // is how the existing "Discovered - currently not indexed" set happened.
+      { name: "Boxing & Combat Sports", href: "/industries/sports/combat-sports", desc: "Ringside and cage-side coverage, same-night social cuts, walkout films and fighter brand content." },
+      // The six below were fully built pages with ZERO internal links anywhere on
+      // the site until 7 Oct 2026. See the note on the automotive block.
+      { name: "Cricket Production", href: "/industries/sports/cricket", desc: "Stadium and franchise cricket coverage built for the sub-continent audience." },
+      { name: "Motorsport Production", href: "/industries/sports/motorsport", desc: "Circuit and track-day coverage from Yas Marina to Dubai Autodrome." },
+      { name: "Running & Marathon Events", href: "/industries/sports/running", desc: "Race-day coverage, finish-line photography and same-day social cuts." },
+      { name: "Basketball Coverage", href: "/industries/sports/basketball", desc: "Indoor court coverage cut for highlight culture." },
+      { name: "Badminton Tournaments", href: "/industries/sports/badminton", desc: "The fastest racquet sport in the world, covered at the right shutter speed." },
+      { name: "Fitness & Gym Content", href: "/industries/sports/fitness", desc: "Gym launches, trainer profiles and monthly fitness social content." },
     ],
   },
 
@@ -302,7 +336,7 @@ const INDUSTRY_DATA: Record<string, {
       { q: "How long does automotive post-production take?", a: "Social Reels are typically delivered within 24 hours of shoot completion. A 60-second commercial edit takes 3 to 5 working days. Broadcast-standard productions with full colour grade and sound mix take 5 to 10 working days. We provide clear timelines at briefing stage and honour them contractually." },
     ],
     relatedLocations: [{ label: "Dubai Car Shoots", href: "/locations/dubai" },{ label: "Abu Dhabi Automotive", href: "/locations/abu-dhabi" },{ label: "Hatta Mountain Road", href: "/locations/dubai" }],
-    relatedPosts: [{ title: "Car Commercial Production Dubai 2026", href: "/blog/car-commercial-dubai-2026" },{ title: "Drone Photography Guide UAE 2026", href: "/blog/drone-photography-dubai-2026" }],
+    relatedPosts: [{ title: "Car Commercial Production Dubai 2026", href: "/blog/car-commercial-dubai-2026" },{ title: "Drone Photography Guide UAE 2026", href: "/blog/aerial-videography-dubai-2026" }],
     specialisations: [
       { name: "Car Launch Campaigns", href: "/industries/automotive/car-launch", desc: "Full launch production for new model reveals — from commercial films to dealership events and social campaigns." },
       { name: "Dealership Photography", href: "/industries/automotive/dealership", desc: "Ongoing stock photography and marketing content for UAE car dealerships. Monthly programmes available." },
@@ -343,6 +377,11 @@ const INDUSTRY_DATA: Record<string, {
     ],
     relatedLocations: [{ label: "Dubai Healthcare City", href: "/locations/dubai" },{ label: "Abu Dhabi Clinics", href: "/locations/abu-dhabi" }],
     relatedPosts: [{ title: "Corporate Photography Dubai 2026", href: "/blog/corporate-photography-dubai-2026" },{ title: "Best Production Companies Dubai 2026", href: "/blog/best-production-companies-dubai-2026" }],
+    specialisations: [
+      { name: "Dental Clinic Content", href: "/industries/healthcare/dental", desc: "Clinic photography and video built around patient trust rather than equipment tours." },
+      { name: "Aesthetic & Derma Clinics", href: "/industries/healthcare/aesthetic-clinics", desc: "Results-led content for Dubai's most competitive clinic category." },
+      { name: "Medical Tourism", href: "/industries/healthcare/medical-tourism", desc: "Content that convinces a patient to board a plane for treatment." },
+    ],
   },
 
   /* ── TECHNOLOGY ────────────────────────────────────────────────────── */
@@ -380,11 +419,14 @@ const INDUSTRY_DATA: Record<string, {
       { q: "How do you approach SaaS product demo videos?", a: "SaaS product demos require a different approach from brand films. We focus on a specific user problem in the first 10 seconds, show the resolution through the product in the middle section, and close with the tangible outcome. We integrate clean screen recordings with device mockup footage and live actor sequences where the human element reinforces the software's impact. Demos typically run 60 to 90 seconds for social distribution and 3 to 5 minutes for website and sales use." },
     ],
     relatedLocations: [{ label: "Dubai Tech Ecosystem", href: "/locations/dubai" },{ label: "Abu Dhabi Tech", href: "/locations/abu-dhabi" }],
-    relatedPosts: [{ title: "Corporate Video Production Dubai 2026", href: "/blog/corporate-video-production-dubai-2026" },{ title: "Social Media Content Dubai 2026", href: "/blog/social-media-content-creation-dubai-2026" }],
+    // Second internal link into a 301 source found 7 Oct 2026 — repointed at the
+    // surviving URL. /blog/social-media-content-creator-dubai-2026 redirects.
+    relatedPosts: [{ title: "Corporate Video Production Dubai 2026", href: "/blog/corporate-video-production-dubai-2026" },{ title: "Social Media Content Dubai 2026", href: "/blog/social-media-content-creator-dubai-2026" }],
     specialisations: [
       { name: "SaaS & App Demo Videos", href: "/industries/tech/saas", desc: "Product demo videos, app walkthroughs and launch campaigns for SaaS and mobile products in UAE." },
       { name: "GITEX Event Production", href: "/industries/tech/gitex", desc: "Booth content, live event coverage and same-day social cuts for GITEX Global and North Star." },
       { name: "Startup Investor Content", href: "/industries/tech/startup", desc: "Investor pitch videos, founder films and fundraising content for UAE startups." },
+      { name: "FinTech Production", href: "/industries/tech/fintech", desc: "Financial technology content for UAE and GCC markets, built for a regulated category." },
     ],
   },
 
@@ -420,7 +462,7 @@ const INDUSTRY_DATA: Record<string, {
       { q: "Can you cover concerts at Coca-Cola Arena and other Dubai venues?", a: "Yes. We have produced concert coverage content at major Dubai venues including Coca-Cola Arena, Expo City Dubai, and various hospitality venues. We coordinate with venue media teams for access and understand the technical requirements of live music environments." },
     ],
     relatedLocations: [{ label: "Dubai Entertainment", href: "/locations/dubai" },{ label: "Abu Dhabi Events", href: "/locations/abu-dhabi" }],
-    relatedPosts: [{ title: "Event Photography Dubai 2026", href: "/blog/event-photography-dubai-2026" },{ title: "Social Media Content UAE 2026", href: "/blog/social-media-content-creation-dubai-2026" }],
+    relatedPosts: [{ title: "Event Photography Dubai 2026", href: "/blog/event-photography-dubai-2026" },{ title: "Social Media Content UAE 2026", href: "/blog/social-media-content-creator-dubai-2026" }],
   },
 
   /* ── FITNESS & WELLNESS ────────────────────────────────────────────── */
@@ -455,7 +497,7 @@ const INDUSTRY_DATA: Record<string, {
       { q: "Do you produce supplement brand content for UAE brands?", a: "Yes. We produce product photography, lifestyle campaigns, and brand films for supplement and nutrition brands — including product flat lay photography, lifestyle model shoots, and social campaign content optimised for Instagram, TikTok, and Amazon UAE listings." },
     ],
     relatedLocations: [{ label: "Dubai Gyms & Studios", href: "/locations/dubai" },{ label: "Abu Dhabi Fitness", href: "/locations/abu-dhabi" }],
-    relatedPosts: [{ title: "Product Photography Dubai 2026", href: "/blog/product-photography-dubai-2026" },{ title: "Social Media Content UAE 2026", href: "/blog/social-media-content-creation-dubai-2026" }],
+    relatedPosts: [{ title: "Product Photography Dubai 2026", href: "/blog/product-photography-dubai-2026" },{ title: "Social Media Content UAE 2026", href: "/blog/social-media-content-creator-dubai-2026" }],
   },
 
   /* ── E-COMMERCE & RETAIL ───────────────────────────────────────────── */
@@ -490,7 +532,7 @@ const INDUSTRY_DATA: Record<string, {
       { q: "Can you produce content for Ramadan and Eid campaigns?", a: "Yes. We plan and shoot seasonal campaign content for Ramadan, Eid Al Fitr, Eid Al Adha, National Day, Dubai Shopping Festival, and other key UAE retail moments — with advance planning sessions typically 8–12 weeks before each key date." },
     ],
     relatedLocations: [{ label: "Dubai E-Commerce Brands", href: "/locations/dubai" },{ label: "UAE Retail Content", href: "/locations/abu-dhabi" }],
-    relatedPosts: [{ title: "Product Photography Dubai 2026", href: "/blog/product-photography-dubai-2026" },{ title: "Social Media Content UAE 2026", href: "/blog/social-media-content-creation-dubai-2026" }],
+    relatedPosts: [{ title: "Product Photography Dubai 2026", href: "/blog/product-photography-dubai-2026" },{ title: "Social Media Content UAE 2026", href: "/blog/social-media-content-creator-dubai-2026" }],
   },
 
   /* ── EDUCATION ─────────────────────────────────────────────────────── */

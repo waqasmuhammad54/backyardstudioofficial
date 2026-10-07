@@ -423,6 +423,85 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       ],
     },
 
+    /* ── COMBAT SPORTS ──────────────────────────────────────────────────
+       Added 7 Oct 2026. The sports hub has carried "MMA event coverage UAE"
+       in its keywords since launch with no page for that intent to land on,
+       and boxing/combat is the one sports niche we have repeat real footage
+       from. Evidence base: two combat sessions shot in collaboration with
+       D-King (Instagram reels DZZlZh7MFwT, DbqgbE8sLEw) and a Dubai
+       competition where medals were awarded (DbnwskpoBhB).
+
+       DELIBERATE OMISSIONS — do not "improve" these in:
+       no venue names, no promotion or tournament names, no governing body,
+       no sanctioning claim, no fighter names beyond the collaborator who
+       published jointly with us. We have written confirmation for none of
+       those, and combat sports is a licensing-sensitive category where an
+       unverifiable association is worse than a thinner page.
+    ---------------------------------------------------------------------- */
+    "combat-sports": {
+      parentSlug: "sports",
+      parentName: "Sports",
+      name: "Boxing & Combat Sports Production",
+      tagline: "Fight Night Coverage Built for the Rematch Announcement, Not the Archive",
+      heroImage: "https://images.unsplash.com/photo-1544717305-2782549b5136?w=1920&q=80",
+      metaTitle: "Boxing & MMA Videographer Dubai | Combat Sports Coverage UAE",
+      metaDescription: "Boxing, MMA and combat sports video production in Dubai and the UAE. Ringside and cage-side coverage, same-night social cuts, fighter walkout films and athlete brand content.",
+      keywords: [
+        "boxing videographer Dubai",
+        "MMA event coverage UAE",
+        "combat sports video production Dubai",
+        "fight night videographer UAE",
+        "boxing photography Dubai",
+        "martial arts video production UAE",
+        "fighter highlight reel Dubai",
+        "ringside photographer Dubai",
+        "jiu jitsu competition photography UAE",
+        "athlete walkout film Dubai",
+      ],
+      intro: "Combat sports is one of the fastest-growing spectator categories in the UAE, and one of the least well served by production crews. Boxing cards, MMA promotions, jiu jitsu and grappling competitions, Muay Thai and kickboxing events, and the academy and gym ecosystem underneath all of them now run most weekends somewhere between Dubai, Abu Dhabi and Sharjah. Backyard Studio Official shoots in this category regularly, including combat sessions produced jointly with fighters for their own channels.\n\nCombat sports is technically the hardest live sport to cover well, and the reason is specific. In football you have ninety minutes to find the moment. In a three-round fight you may have four seconds, you cannot ask for it again, and the lighting rig over a ring or a cage is built to look good from the seats and from the broadcast position — not from wherever a single operator happens to be standing. Shooting it properly means committing to positions before the first bell and accepting that some of them will give you nothing.\n\nThe other thing that makes this category different is who the content is for. A football club publishes to one audience. A fight card publishes to at least four at once: the promotion, each fighter's personal channel, the gym or academy they represent, and the sponsors on the canvas. Each of those wants a different cut of the same night, and each of them wants it before the result stops being news. We plan the shot list and the edit queue around all four from the start, because going back for a second pass is not an option in this sport.\n\nWe work with promoters, gyms and academies, and individual fighters building a personal brand. Fighter content in particular tends to run as an ongoing arrangement rather than event by event — camp footage, weigh-in, walkout, the fight itself, then the post-fight edit that sets up the next one.",
+      challenge: "Combat sports content is unforgiving in two directions at once. Technically, you are shooting fast, unpredictable movement under hard overhead light with heavy shadows, from a fixed position you chose before you knew what would happen, usually through a barrier — ropes or a cage — that was designed to keep you out. Most crews either shoot too wide and lose the detail that makes the moment land, or shoot too tight and miss the finish entirely.\n\nCommercially, the window is shorter than any other sport. A knockout clip posted the same night travels. The same clip posted the next afternoon is a record of something people have already seen, discussed and moved on from. And unlike a league fixture, there is no next week to make up for it — the card is the card.\n\nThe third problem is quieter and costs more. Fighters and promotions are often handed a single long highlight edit and nothing else, when what they needed was a set of separate cuts for separate channels. One good edit that only fits one platform is a fraction of the value of the night that was actually captured.",
+      solution: "We commit to covered angles rather than hoping for them. A typical card is shot from a fixed ringside or cage-side primary, a second operator working the corner and crowd for reaction, and stills throughout — because the still of the moment after a finish is frequently the asset that outperforms the video of the finish itself.\n\nThe edit starts during the event, not after it. Short vertical cuts are cleared for the promotion and for each fighter's own channel the same night, formatted for Instagram Reels, TikTok and YouTube Shorts rather than cropped down from a horizontal master. The full-length card film and the stills gallery follow within 48 hours.\n\nFor fighters on an ongoing arrangement we cover the whole arc rather than just the night itself — training camp footage, the weigh-in, the walkout, and the post-fight edit. In this sport the walkout film is routinely the most-watched thing a fighter publishes all year, and it is almost always the piece nobody planned for.\n\nFor gyms and academies, competition coverage doubles as the strongest membership marketing available: footage of your own members actually competing does more for enrolment than any facility tour.",
+      services: [
+        { label: "Fight Card Coverage", href: "/services/event-videography", desc: "Ringside and cage-side multi-camera coverage of boxing, MMA, Muay Thai and kickboxing cards, with stills throughout." },
+        { label: "Same-Night Social Cuts", href: "/services/event-video-editing", desc: "Vertical cuts cleared the same night for the promotion and for each fighter's own channels, shot vertical rather than cropped." },
+        { label: "Walkout & Camp Films", href: "/services/corporate-brand-films", desc: "Training camp footage, weigh-in coverage and the walkout film — usually a fighter's most-watched piece of the year." },
+        { label: "Fighter Brand Content", href: "/services/photo-shoots", desc: "Athlete portraits, sponsor activation content and personal brand campaigns, typically on a monthly arrangement." },
+        { label: "Grappling & Jiu Jitsu Competitions", href: "/services/event-shoots", desc: "Mat-side coverage of jiu jitsu, grappling and wrestling competitions, including podium and medal photography." },
+        { label: "Gym & Academy Content", href: "/services/social-media-content", desc: "Competition footage of your own members, plus class and coaching content for membership marketing." },
+      ],
+      results: [
+        { stat: "Same night", label: "vertical social cuts cleared before the result stops being news" },
+        { stat: "48h", label: "full card film and stills gallery delivered" },
+        { stat: "4 channels", label: "promotion, fighter, gym and sponsor cuts planned from one night" },
+        { stat: "Vertical", label: "shot vertical natively, not cropped from a horizontal master" },
+      ],
+      caseStudy: {
+        title: "Combat Sessions Shot for Both Sides of the Camera",
+        client: "Independent fighter collaboration, Dubai",
+        result: "Published jointly to both the fighter's channel and ours, which is the arrangement most combat content should use and rarely does",
+        body: "We have shot combat sessions in Dubai in direct collaboration with a fighter rather than as a hired crew behind a barrier, and the difference in what comes back is the point of this page.\n\nWorking with the athlete instead of around them changed the positions available. Shooting from inside the session rather than from a seat meant usable angles on footwork and distance management, close detail during pad and bag work, and reaction captured at the moment it happened rather than two seconds later from across the room.\n\nThe output was cut vertical for both the fighter's own channel and ours and published jointly. That co-publishing arrangement is worth naming because it is the structural thing most combat content gets wrong: the promotion commissions the coverage, keeps all of it, and the fighters — who have the most motivated audiences in the sport and will share anything that makes them look good — are given nothing they can post. Planning deliverables for the athletes alongside the promotion costs nothing extra on the night and roughly multiplies the reach of the same footage.\n\nWe have also covered a competition in Dubai through to the medal presentations, which is the other half of this category: for gyms and academies, footage of their own members on the podium is the single most effective enrolment asset they can publish.",
+      },
+      faqs: [
+        { q: "Do you shoot boxing and MMA events in Dubai?", a: "Yes. We cover boxing cards, MMA, Muay Thai, kickboxing, and grappling and jiu jitsu competitions across the UAE. Crew size scales with the card — the smallest setup is one operator shooting ringside with stills, and larger cards typically run a ringside primary, a second operator on corners and crowd, and a dedicated editor working through the night." },
+        { q: "How quickly can you deliver fight night content?", a: "Vertical social cuts are cleared the same night, before the result stops being news. The full card film and the stills gallery follow within 48 hours. If you need a specific finish cut and cleared within minutes rather than hours, tell us before the card and we will put a dedicated editor on standby for it." },
+        { q: "Can you shoot through a cage or ring ropes?", a: "Yes, and planning for it is most of the job. Barriers dictate which angles exist at all, so positions are committed before the first bell rather than found during the fight. Cage-side work in particular depends on securing the right apron positions in advance with the promotion — it is not something that can be improvised on the night." },
+        { q: "Do you work with individual fighters as well as promotions?", a: "Yes, and we would encourage it. Fighter content usually runs as an ongoing monthly arrangement covering camp footage, weigh-in, walkout and the post-fight edit, rather than event by event. Fighters have the most motivated audiences in the sport, and content built for their own channels tends to outperform the promotion's own posts." },
+        { q: "Why does the walkout film matter so much?", a: "Because it is reliably the most-watched thing a fighter publishes in a year, and it is almost always the piece nobody planned for. The walk is the only part of the night that is fully predictable — you know where it starts, where it ends, and roughly how long it lasts — which makes it the one sequence you can properly light, block and cover rather than react to." },
+        { q: "Can you cover jiu jitsu and grappling competitions?", a: "Yes. Mat-side coverage of jiu jitsu, grappling and wrestling competitions, including podium and medal photography. Competition days are long and run across multiple mats simultaneously, so we scope these by mat count and schedule rather than by hours." },
+        { q: "Do you produce content for combat gyms and academies?", a: "Yes. Competition footage of your own members is the strongest membership marketing a gym has — stronger than a facility tour, because it shows outcomes rather than equipment. We also produce class, coaching and technique content for gym social channels on monthly packages." },
+        { q: "What do you need from the promotion before the event?", a: "Confirmed ringside or cage-side positions, media accreditation for all crew, the bout order with approximate timings, and a named contact who can clear a cut for publishing on the night. The last one matters more than people expect — footage that cannot be approved until Monday has already lost most of its value." },
+      ],
+      relatedLocations: [
+        { label: "Combat Sports Coverage Dubai", href: "/locations/dubai" },
+        { label: "Fight Night Coverage Abu Dhabi", href: "/locations/abu-dhabi" },
+        { label: "Combat Sports Sharjah", href: "/locations/sharjah" },
+      ],
+      relatedPosts: [
+        { title: "Event Photography Dubai 2026", href: "/blog/event-photography-dubai-2026" },
+        { title: "Instagram Reels Strategy UAE 2026", href: "/blog/instagram-reels-strategy-uae-2026" },
+      ],
+    },
+
     "fitness": {
       parentSlug: "sports",
       parentName: "Sports",
@@ -469,7 +548,7 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       ],
       relatedPosts: [
         { title: "Event Photography Dubai 2026", href: "/blog/event-photography-dubai-2026" },
-        // Points at the surviving URL. /blog/social-media-content-creation-dubai-2026
+        // Points at the surviving URL. /blog/social-media-content-creator-dubai-2026
         // is a 301 source in next.config.mjs — linking to it internally wastes a hop.
         { title: "Social Media Content UAE 2026", href: "/blog/social-media-content-creator-dubai-2026" },
       ],
@@ -1235,7 +1314,7 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       ],
       relatedPosts: [
         { title: "Real Estate Photography Guide Dubai 2026", href: "/blog/real-estate-photography-dubai-2026" },
-        { title: "Drone Photography Guide UAE 2026", href: "/blog/drone-photography-dubai-2026" },
+        { title: "Drone Photography Guide UAE 2026", href: "/blog/aerial-videography-dubai-2026" },
       ],
     },
 
@@ -1438,7 +1517,7 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       ],
       relatedPosts: [
         { title: "Fashion Photography Guide Dubai 2026", href: "/blog/fashion-photography-dubai-2026" },
-        { title: "Social Media Content UAE 2026", href: "/blog/social-media-content-creation-dubai-2026" },
+        { title: "Social Media Content UAE 2026", href: "/blog/social-media-content-creator-dubai-2026" },
       ],
     },
 
