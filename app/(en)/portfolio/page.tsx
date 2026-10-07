@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Play, ArrowUpRight } from "lucide-react";
 import { PROJECTS_DELIVERED_DISPLAY } from "@/lib/brandStats";
+import VideoProofSection from "@/components/shared/VideoProofSection";
 
 const CATS = ["All", "Events", "Creative", "Products", "Wedding", "Corporate"];
 
@@ -68,6 +69,17 @@ export default function PortfolioPage() {
           ))}
         </div>
       </div>
+
+      {/* Showreel ahead of the grid — the grid is stills, so one moving piece
+          of work up front gives the page something a still cannot, and carries
+          VideoObject schema pointing at a publicly verifiable YouTube URL. */}
+      <VideoProofSection
+        videoKey="showreel"
+        eyebrow="Showreel"
+        heading="Start with the reel"
+        lead="Forty-six seconds across commercial, corporate, event and lifestyle work shot in the UAE. The grid below is the detail; this is the range."
+        background="var(--black)"
+      />
 
       {/* Grid */}
       <section className="section-pad" style={{ background: "var(--black)" }}>

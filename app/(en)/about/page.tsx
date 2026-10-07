@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Play } from "lucide-react";
 import { personSchema, breadcrumbSchema } from "@/lib/structuredData";
+import VideoProofSection from "@/components/shared/VideoProofSection";
 
 export const metadata: Metadata = {
   title: { absolute: "About Backyard Studio | Dubai Production Company" },
@@ -301,6 +302,17 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* The crew on set — real footage directly after the team grid, so the
+          names above are followed by evidence those people exist and work
+          together. This is the page's strongest E-E-A-T moment. */}
+      <VideoProofSection
+        videoKey="teamWork"
+        eyebrow="On Set"
+        heading="The crew, working"
+        lead="Reading a team page tells you who we say we are. This is thirty seconds of the same people on a UAE production — camera, lighting and direction moving as one unit on a live shoot day."
+        background="var(--black)"
+      />
 
       {/* Stats bar */}
       <section className="py-16 border-y" style={{ borderColor: "var(--border)", background: "var(--black)" }}>

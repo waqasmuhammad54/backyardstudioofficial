@@ -4,8 +4,30 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Check, ArrowUpRight } from "lucide-react";
 import VimeoEmbed from "@/components/shared/VimeoEmbed";
+import VideoProofSection from "@/components/shared/VideoProofSection";
+import type { VIDEOS } from "@/lib/videos";
 import { breadcrumbSchema, faqSchema, servicePageSchema, howToSchema, speakableSchema } from "@/lib/structuredData";
 import { stripBrandSuffix, withBrand } from "@/lib/seoTitle";
+
+/**
+ * Our own YouTube footage, placed on the service page it is evidence for.
+ *
+ * Separate from SERVICE_VIDEOS above (which is Vimeo showreel content) because
+ * these carry VideoObject schema and point at a public YouTube URL that Google
+ * and Bing can independently verify. Only add a slug here when the footage is
+ * genuinely that service — the schema asserts it is.
+ */
+const SERVICE_YOUTUBE: Record<
+  string,
+  { key: keyof typeof VIDEOS; heading: string; lead: string }
+> = {
+  "event-videography": {
+    key: "corporateGala",
+    heading: "A corporate gala, as we filmed it",
+    lead:
+      "Short highlight cut from a corporate gala dinner in Dubai. Awards nights and gala dinners are the hardest brief in event videography because the lighting is designed for the room rather than the sensor, and the moments that matter happen once. This is what our coverage of one looks like.",
+  },
+};
 
 // Vimeo video embeds per service slug
 const SERVICE_VIDEOS: Record<string, { id: string; title: string; poster: string }> = {
@@ -1120,6 +1142,15 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
 
         </div>
       </section>
+
+      {/* ── OUR OWN FOOTAGE FOR THIS SERVICE (schema-backed, zero new URLs) ── */}
+      {SERVICE_YOUTUBE[params.slug] && (
+        <VideoProofSection
+          videoKey={SERVICE_YOUTUBE[params.slug].key}
+          heading={SERVICE_YOUTUBE[params.slug].heading}
+          lead={SERVICE_YOUTUBE[params.slug].lead}
+        />
+      )}
     </div>
   );
 }

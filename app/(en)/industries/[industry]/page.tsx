@@ -3,6 +3,8 @@ import Link from "next/link";
 import { ArrowUpRight, ChevronDown } from "lucide-react";
 import { notFound } from "next/navigation";
 import { breadcrumbSchema, faqSchema } from "@/lib/structuredData";
+import VideoProofSection from "@/components/shared/VideoProofSection";
+import type { VIDEOS } from "@/lib/videos";
 
 /* ─── Industry Data ─────────────────────────────────────────────────── */
 
@@ -23,6 +25,14 @@ const INDUSTRY_DATA: Record<string, {
   relatedLocations: { label: string; href: string }[];
   relatedPosts: { title: string; href: string }[];
   specialisations?: { name: string; href: string; desc: string }[];
+  /**
+   * Optional: one of our own YouTube videos that is genuine evidence for this
+   * industry's claims. Keyed into lib/videos.ts so the video record (and its
+   * verified upload date) lives in exactly one place. Only set this where the
+   * footage really is from that industry — a video placed on the wrong page is
+   * a schema claim that does not match the content.
+   */
+  video?: { key: keyof typeof VIDEOS; heading: string; lead: string };
 }> = {
 
   /* ── HOSPITALITY ───────────────────────────────────────────────────── */
@@ -245,6 +255,11 @@ const INDUSTRY_DATA: Record<string, {
     ],
     relatedLocations: [{ label: "Dubai Sports Venues", href: "/locations/dubai" },{ label: "Abu Dhabi Yas Island", href: "/locations/abu-dhabi" },{ label: "Sharjah Stadium", href: "/locations/sharjah" }],
     relatedPosts: [{ title: "Event Videography Guide Dubai 2026", href: "/blog/event-photography-dubai-2026" },{ title: "Drone Filming Rules UAE 2026", href: "/blog/drone-videography-rules-dubai-2026" }],
+    video: {
+      key: "sportsReel",
+      heading: "Watch a same-day sports cut",
+      lead: "Everything above is a claim about speed and camera position. This is thirty seconds of the real thing — a short-form sports edit from a Backyard Studio Official shoot, cut vertical for the channels fans actually watch on. It is the quickest way to judge a sports videographer in Dubai before you brief one.",
+    },
     specialisations: [
       { name: "Padel Tournament Production", href: "/industries/sports/padel", desc: "Match coverage, drone aerials, sponsor reels and same-day social cuts for padel events across UAE." },
       { name: "Cycling Event Coverage", href: "/industries/sports/cycling", desc: "Multi-camera cycling event production with drone, finish line photography and social content." },
@@ -665,6 +680,15 @@ export default function IndustryPage({ params }: { params: { industry: string } 
           </div>
         </div>
       </section>
+
+      {/* ── OUR OWN FOOTAGE (only where it is genuinely from this industry) ── */}
+      {data.video && (
+        <VideoProofSection
+          videoKey={data.video.key}
+          heading={data.video.heading}
+          lead={data.video.lead}
+        />
+      )}
 
       {/* ── SPECIALISATIONS (only when data exists) ── */}
       {data.specialisations && data.specialisations.length > 0 && (

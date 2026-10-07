@@ -39,3 +39,5 @@ Thumbs.db
 # local build logs (npm run build is run detached to a file)
 build_out.txt
 tsc_out.txt
+
+build.log

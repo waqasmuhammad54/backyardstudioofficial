@@ -3,6 +3,8 @@ import Link from "next/link";
 import { ArrowUpRight, ChevronDown } from "lucide-react";
 import { notFound } from "next/navigation";
 import { breadcrumbSchema, faqSchema } from "@/lib/structuredData";
+import VideoProofSection from "@/components/shared/VideoProofSection";
+import type { VIDEOS } from "@/lib/videos";
 
 /* ─── Sub-Industry Data ──────────────────────────────────────────────── */
 
@@ -24,6 +26,8 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
   faqs: { q: string; a: string }[];
   relatedLocations: { label: string; href: string }[];
   relatedPosts: { title: string; href: string }[];
+  /** See the same field on INDUSTRY_DATA — only set where the footage is real. */
+  video?: { key: keyof typeof VIDEOS; heading: string; lead: string };
 }>> = {
 
   /* ── SPORTS ── */
@@ -465,8 +469,15 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       ],
       relatedPosts: [
         { title: "Event Photography Dubai 2026", href: "/blog/event-photography-dubai-2026" },
-        { title: "Social Media Content UAE 2026", href: "/blog/social-media-content-creation-dubai-2026" },
+        // Points at the surviving URL. /blog/social-media-content-creation-dubai-2026
+        // is a 301 source in next.config.mjs — linking to it internally wastes a hop.
+        { title: "Social Media Content UAE 2026", href: "/blog/social-media-content-creator-dubai-2026" },
       ],
+      video: {
+        key: "fitnessReel",
+        heading: "Shot inside a working gym",
+        lead: "This is a vertical cut from a Backyard Studio Official fitness shoot in the UAE — filmed during real training rather than posed between sets. If you are commissioning gym content production in Dubai, this is the specific difference worth checking for in any showreel you are sent.",
+      },
     },
   },
 
@@ -1721,6 +1732,15 @@ export default function SubIndustryPage({
           </div>
         </div>
       </section>
+
+      {/* ── OUR OWN FOOTAGE (only where it is genuinely from this niche) ── */}
+      {data.video && (
+        <VideoProofSection
+          videoKey={data.video.key}
+          heading={data.video.heading}
+          lead={data.video.lead}
+        />
+      )}
 
       {/* ── FAQ ── */}
       <section className="section-pad border-t" style={{ background: "var(--black)", borderColor: "var(--border)" }}>
