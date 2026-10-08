@@ -76,6 +76,12 @@ const SERVICES = [
   { icon: Image,        slug: "flying-dress-photoshoot", label: "Flying Dress Photoshoot",                desc: "Dubai's iconic flying dress experience from AED 1,499 — dress included, desert & beach locations, 48-hour delivery." },
   { icon: Camera,       slug: "affordable-wedding-photography", label: "Wedding Package Guide",  desc: "Compare the Essential package and learn what to check before choosing a lower-cost wedding production option." },
   { icon: MapPin,       slug: "wedding-photography-abu-dhabi",  label: "Wedding Photographer Abu Dhabi",  desc: "Emirates Palace, Saadiyat & Yas Island wedding coverage at Dubai prices — zero travel fees." },
+  // Life events — added 8 Oct 2026. Linked here on the same day the pages were
+  // created, so they are never orphans. See scripts/check-industry-slugs.mjs for
+  // why that matters: 22 pages sat unlinked and uncrawled for months.
+  { icon: Star,         slug: "engagement-photography",  label: "Engagement & Proposal Shoots",  desc: "Hidden-photographer surprise proposals and engagement portraits from AED 1,500 — signal planned, position scouted, fallback ready." },
+  { icon: Camera,       slug: "anniversary-photoshoot",  label: "Anniversary Photoshoots",       desc: "Milestone anniversaries, vow renewals and recreated wedding portraits from AED 1,500, family groups included." },
+  { icon: Image,        slug: "birthday-photography",    label: "Birthday Photography",          desc: "Parties, first birthdays and cake smash sessions from AED 1,500 — documentary coverage, not posed portraits." },
   // Photography & Videography Verticals
   { icon: Camera,       slug: "event-videography",      label: "Event Videography & Photography",        desc: "Full-service event coverage — galas, conferences, brand launches, and weddings across all UAE emirates." },
   // GSC 12 Aug 2026: /services/live-streaming was "Discovered - currently not

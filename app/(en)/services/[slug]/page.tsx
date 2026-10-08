@@ -169,6 +169,12 @@ const DEFAULT_IMAGES = {
 
 // ─── Starting prices per service (AED) ───────────────────────────────────────
 const SERVICE_PRICES: Record<string, string> = {
+  // Life-event niches anchor to the published photo-shoots entry price rather
+  // than inventing a new number. /pricing must never be contradicted by a
+  // service page.
+  "engagement-photography": "1500",
+  "anniversary-photoshoot": "1500",
+  "birthday-photography": "1500",
   "event-shoots": "2000",
   "event-videography": "2000",
   "event-video-editing": "800",
@@ -301,6 +307,95 @@ const SERVICE_HOWTO: Record<string, { name: string; description: string; totalTi
 };
 
 const SERVICE_DATA: Record<string, { title: string; description: string; includes: string[]; faqs: { q: string; a: string }[] }> = {
+
+  /* ── ENGAGEMENT & PROPOSALS ──────────────────────────────────────────
+     Written around the covert-logistics problem, because that is what
+     actually distinguishes this brief from a couples shoot. Do not rewrite
+     it into generic "romantic photography" copy. No venue is named: public
+     shooting rules differ per location and we are not asserting access we
+     have not confirmed. */
+  "engagement-photography": {
+    title: "Engagement & Proposal Photography",
+    description: "A proposal shoot is not a portrait session. It is a covert operation with one take, and the photography problem is almost entirely a logistics problem.\n\nThe couple shoot comes afterwards and is the easy part. The hard part is the ninety seconds before and after the question: the photographer has to be in position with a clear line of sight, far enough away not to give the surprise away, close enough that the frame is not a distant speck, and already shooting before anything happens. There is no rehearsal and no second attempt.\n\nSo we plan proposals the way we plan a live event. We agree a precise signal in advance — a phrase, a gesture, a pin drop — so nobody is guessing. We scout the position and the fallback position, because the spot you picked may be occupied by a tour group on the day. We work out the light for the exact time you have chosen, which in the UAE matters enormously: an outdoor proposal at 4pm in July and the same proposal at 6pm in January are completely different photographic problems. And we plan the reveal, because the best frames usually come in the minute after the yes, when nobody is performing any more.\n\nAfter the moment, we move into a proper engagement session while the two of you are still in the state the photographs want to catch. That is typically thirty to sixty minutes, and it is where most of the images you will actually print come from.\n\nWe also shoot straightforward engagement sessions with no surprise element — couples who are already engaged and want the portraits, families who want a formal engagement announcement, and couples shooting before a wedding abroad.\n\nPricing starts at AED 1,500 for a single-photographer session. A hidden proposal with a second shooter, a scouted location and a same-evening preview set costs more, and every quote is itemised before you book.",
+    includes: [
+      "Pre-agreed signal and timing plan so the surprise is not given away",
+      "Location scout plus a fallback position in case the spot is occupied",
+      "Covert shooting position from the approach through to the reveal",
+      "Engagement portrait session immediately after the moment",
+      "Fast preview set the same evening, so you can share it that night",
+      "Full edited gallery within 48 hours",
+      "Second shooter available for wider coverage and reaction angles",
+      "Optional video coverage of the proposal itself",
+    ],
+    faqs: [
+      { q: "How do you photograph a surprise proposal without being noticed?", a: "We agree a signal with you in advance, arrive early, and shoot from distance with a long lens from a position scouted beforehand. To anyone watching we look like someone photographing the view. The most common mistake is a photographer standing too close or arriving at the same time as the couple — both give it away immediately." },
+      { q: "What happens if the location is crowded on the day?", a: "We scout a fallback position as standard, because this happens often at popular spots. We confirm which position we are using before you arrive, so the plan is settled rather than improvised while you are trying to stay calm." },
+      { q: "What is the best time of day for a proposal shoot in Dubai?", a: "The hour before sunset, for most of the year. Light is warm and directional, and crowds are thinning. In summer the heat makes anything before late afternoon uncomfortable for everyone and visibly so in photographs. Blue hour just after sunset is beautiful but technically harder and leaves very little margin if timings slip." },
+      { q: "Can you photograph the proposal and then do an engagement session?", a: "Yes, and we recommend it. The thirty to sixty minutes straight after the yes is when couples are least self-conscious, and that is usually where the images you end up framing come from. It is included in the standard proposal booking." },
+      { q: "Do you cover proposals outside Dubai?", a: "Yes, across all seven emirates. Desert, mountain and coastal proposals outside Dubai are common and often better photographically because they are far less crowded. There is no travel premium within the UAE." },
+      { q: "How much does proposal photography cost in Dubai?", a: "From AED 1,500 for a single photographer covering the moment plus a short couple session. Adding a second shooter for reaction angles, video coverage, or a scouted premium location increases that. We quote in writing with the line items before you commit." },
+      { q: "How quickly do we get the photos?", a: "A small preview set the same evening so you can announce it that night, and the full edited gallery within 48 hours." },
+      { q: "Can you shoot a proposal on a yacht, in a restaurant or at a private venue?", a: "Yes, but these need permission from the operator in advance and that is the part people forget. Many venues allow it readily and some charge a fee or restrict where a photographer can stand. Tell us the venue early and we will tell you what it needs." },
+    ],
+  },
+
+  /* ── ANNIVERSARIES & VOW RENEWALS ────────────────────────────────────
+     Deliberately a different brief from engagement: older couples, often
+     with children present, frequently recreating existing photographs.
+     The creative problem is comfort in front of a camera, not surprise. */
+  "anniversary-photoshoot": {
+    title: "Anniversary & Vow Renewal Photography",
+    description: "Anniversary sessions are the opposite of engagement sessions in one important way: the couple has usually been photographed properly exactly once, at their wedding, and that was a long time ago.\n\nThat changes the job. People who have not been in front of a camera for ten or twenty years arrive self-conscious, often slightly reluctant, and frequently pushed into it by one partner or by their children. The first fifteen minutes of an anniversary shoot are spent getting past that, and a photographer who starts firing instructions immediately will get stiff, posed results for the whole session. We shoot these slowly and conversationally, and the usable frames start when people stop performing.\n\nThree versions of this come up repeatedly in the UAE. The first is the milestone portrait session — ten, twenty, twenty-five years — often with adult children and grandchildren included, which turns it into a family shoot with the couple at the centre. The second is recreating the wedding photographs: same poses, same framing, decades later. It is sentimental and it works, and it is worth bringing the original prints so we can match composition properly rather than approximately. The third is the vow renewal, which is a small event rather than a portrait session and is covered like one.\n\nThere is a practical UAE consideration worth planning around. Many couples here want their anniversary photographs with family who are visiting from abroad, which means the shoot is pinned to someone else's travel dates rather than to good light or good weather. Tell us that constraint early. It is workable, but it changes where we shoot and at what hour, and it is much easier to solve two weeks out than two days out.\n\nPricing starts at AED 1,500 for a couple session. Family groups, vow renewal coverage and multi-location sessions are quoted on scope.",
+    includes: [
+      "Unhurried session built around getting past camera self-consciousness",
+      "Couple portraits plus family and multi-generation groups where wanted",
+      "Recreation of original wedding photographs, matched from your prints",
+      "Vow renewal ceremony coverage where the anniversary is an event",
+      "Location guidance that works around visiting family's travel dates",
+      "Wardrobe and timing advice before the day",
+      "Full edited gallery within 48 hours",
+      "Print-ready files at full resolution, not just web versions",
+    ],
+    faqs: [
+      { q: "We have not been photographed since our wedding. Will it be awkward?", a: "For the first ten or fifteen minutes, usually yes, and that is normal. We plan for it rather than fight it: the session starts with the two of you simply walking and talking while we shoot from a distance, and the directed frames come later once that has worn off. Rushing straight into posing is what produces stiff anniversary photographs." },
+      { q: "Can you recreate our original wedding photos?", a: "Yes, and it is one of the most requested anniversary sessions we shoot. Bring the original prints or scans. Matching composition properly needs the reference in hand on the day — working from memory gets you close but not close enough for the two images to sit side by side convincingly." },
+      { q: "Can our children and grandchildren be in the shoot?", a: "Yes. Multi-generation anniversary sessions are common here, particularly when family have flown in. Tell us the group size in advance, because a session with eleven people needs a different location and a different amount of time than a session with two." },
+      { q: "Do you cover vow renewals?", a: "Yes. A vow renewal is an event rather than a portrait session, so it is covered like one — ceremony, guests, speeches and the formal group photographs, plus a couple session before or after. These are scoped by guest count and duration." },
+      { q: "What is the best time of year for an anniversary shoot in the UAE?", a: "October to April is comfortable for outdoor sessions at almost any time of day. Between June and September, outdoors realistically means the hour after sunrise or the hour before sunset, and we would otherwise suggest an indoor or studio setting. Your anniversary date is your anniversary date, so we work with it either way." },
+      { q: "How much does an anniversary photoshoot cost in Dubai?", a: "From AED 1,500 for a couple session. Larger family groups, vow renewal event coverage, and sessions across two locations are quoted on scope, itemised in writing before booking." },
+      { q: "Do you shoot anniversary sessions outside Dubai?", a: "Yes, across all seven emirates with no travel premium inside the UAE. Abu Dhabi, Ras Al Khaimah and Fujairah are all regularly used for anniversary sessions and are considerably quieter than central Dubai locations." },
+    ],
+  },
+
+  /* ── BIRTHDAYS ───────────────────────────────────────────────────────
+     Documentary coverage of an uncontrolled room, not a portrait session.
+     The consent point in the FAQs is a genuine UAE operational constraint
+     and a real differentiator — keep it. */
+  "birthday-photography": {
+    title: "Birthday & Celebration Photography",
+    description: "A child's birthday party is the least controllable environment we shoot in, and treating it as a portrait session is the standard way to get it wrong.\n\nNothing waits. The candles get blown out once, usually earlier than scheduled and usually while half the adults are still in another room. The best expressions last a fraction of a second and will not be repeated for the camera. A photographer who spends the party assembling posed group shots will come away with a set of stiff portraits and no record of what the day was actually like. We shoot birthdays as documentary coverage — moving constantly, staying out of the way, and catching the cake, the reactions, the chaos and the quiet moments as they happen, with the formal family frames taken quickly in a gap rather than imposed on the event.\n\nVenue lighting is the technical problem. Most Dubai party venues — indoor play centres, hotel function rooms, private majlis spaces — are lit for atmosphere or for supervision, not for photography, and often mix several colour temperatures in one room. Shooting that badly produces the orange, noisy, slightly grim images most people recognise from party photographs. It is solvable, but it has to be handled deliberately on the day.\n\nFirst birthdays and cake smash sessions are a different job again, and calmer. These are usually scheduled in a controlled setting with proper light, around the child's nap and feed times rather than around the adults' convenience. A session timed against a tired one-year-old will not work no matter who is holding the camera, so we plan these in the window you tell us is best.\n\nAdult milestone birthdays — thirtieth, fortieth, fiftieth, and the large family celebrations that are common here — sit closer to event coverage, and are often shot alongside video.\n\nPricing starts at AED 1,500. Party coverage is quoted by duration and guest count; cake smash and first birthday sessions are quoted as studio-style sessions.",
+    includes: [
+      "Documentary coverage of the party as it actually happens",
+      "Cake and candles covered properly — it only happens once",
+      "Quick formal family and group frames without stopping the event",
+      "Lighting handled for mixed-temperature indoor party venues",
+      "First birthday and cake smash sessions planned around nap and feed times",
+      "Adult milestone celebrations, with video coverage available",
+      "Fast preview set so you can share the same evening",
+      "Full edited gallery within 48 hours",
+    ],
+    faqs: [
+      { q: "How do you handle other people's children in the photographs?", a: "We photograph the party as it happens, which inevitably includes other guests' children, and we ask the host to let parents know a photographer will be present. If any parent prefers their child is not photographed, tell us on arrival and we will work around it and exclude them at the edit. It is much easier to manage this at the start than to find out afterwards." },
+      { q: "When should the photographer arrive for a birthday party?", a: "Around thirty minutes before guests, so we can cover the decorated room and the cake while everything is still intact, and test the lighting before it matters. The single most common scheduling mistake is booking coverage from the party start time, which means the setup shots never get taken." },
+      { q: "What is a cake smash session and when should we book it?", a: "A cake smash is a controlled session where a one-year-old is given a cake to destroy, photographed properly with good light. Book it for the time of day your child is reliably at their best — usually after a nap and a feed. A session scheduled for adult convenience rather than the child's routine does not work, whatever the photographer does." },
+      { q: "Our venue has terrible lighting. Is that a problem?", a: "It is the normal situation rather than the exception, and it is handled on the day. Most party venues mix daylight, tungsten and LED in one room, which is what produces the orange and noisy look people associate with party photos. We correct for it at the shoot rather than trying to rescue it in the edit." },
+      { q: "How much does a birthday photographer cost in Dubai?", a: "From AED 1,500. Party coverage is quoted by duration and guest count, and cake smash or first birthday sessions are quoted as studio-style sessions. Video coverage alongside the photography is quoted separately." },
+      { q: "Do you cover adult milestone birthdays?", a: "Yes. Thirtieth, fortieth, fiftieth and the large family celebrations common in the UAE are covered as events rather than portrait sessions, frequently with video alongside. For larger celebrations these are scoped the same way as any event booking." },
+      { q: "How soon do we get the photos?", a: "A small preview set the same evening so you can share it while people are still talking about the party, and the full edited gallery within 48 hours." },
+      { q: "Do you cover birthdays outside Dubai?", a: "Yes, across all seven emirates with no travel premium within the UAE." },
+    ],
+  },
+
   // Live streaming / multi-camera match coverage.
   //
   // Claims here are capability-only by owner instruction (10 Aug 2026): no
@@ -730,6 +825,22 @@ const SERVICE_SLUGS = [
     // posts were retired during the cannibalisation cleanup; both now 301 here
     // so the demand lands on one strong page instead of two competing ones.
     "live-streaming",
+    // Phase 5 — life-event niches, added 8 Oct 2026.
+    //
+    // These three had real commercial intent and NO service page. The only
+    // thing serving them was the /locations/<city>/<niche> stubs, many of which
+    // Google has put in the "Duplicate without user-selected canonical" bucket
+    // because they are near-identical to each other. Giving each intent one
+    // strong parent page is the fix for that, not more city variants.
+    //
+    // They are deliberately written as three different jobs, because they are:
+    // a surprise proposal is a covert logistics problem, an anniversary shoot is
+    // a returning-couple portrait session, and a child's birthday is chaotic
+    // documentary work with consent constraints. Do not merge them into one
+    // template — that is exactly what produced the duplicate bucket.
+    "engagement-photography",
+    "anniversary-photoshoot",
+    "birthday-photography",
 ] as const;
 
 export function generateStaticParams() {
@@ -750,6 +861,40 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
       "multi camera live production Dubai", "event live streaming Dubai",
       "webinar live streaming Dubai", "conference live streaming UAE",
       "live broadcast production Dubai", "RTMP streaming Dubai",
+    ],
+  },
+  "engagement-photography": {
+    title: "Engagement & Proposal Photographer Dubai | Surprise Shoots",
+    description: "Engagement and surprise proposal photography in Dubai and across the UAE. Hidden-photographer proposal coverage, engagement portraits and ring-moment shots. From AED 1,500, quote in 2 hours.",
+    keywords: [
+      "engagement photographer Dubai", "surprise proposal photographer Dubai",
+      "proposal photographer Dubai", "proposal photoshoot Dubai",
+      "engagement photoshoot Dubai", "engagement shoot Abu Dhabi",
+      "hidden photographer proposal Dubai", "marriage proposal photography UAE",
+      "ring moment photographer Dubai", "engagement photography packages Dubai",
+      "couple engagement shoot UAE", "proposal videographer Dubai",
+    ],
+  },
+  "anniversary-photoshoot": {
+    title: "Anniversary Photoshoot Dubai | Couples & Vow Renewal Photography",
+    description: "Anniversary photography in Dubai and the UAE for couples and families — milestone anniversaries, vow renewals and recreated wedding portraits. From AED 1,500, quote in 2 hours.",
+    keywords: [
+      "anniversary photoshoot Dubai", "anniversary photographer Dubai",
+      "wedding anniversary photography UAE", "vow renewal photographer Dubai",
+      "couples photoshoot Dubai", "milestone anniversary shoot UAE",
+      "25th anniversary photoshoot Dubai", "anniversary photography Abu Dhabi",
+      "family anniversary portraits Dubai", "recreate wedding photos Dubai",
+    ],
+  },
+  "birthday-photography": {
+    title: "Birthday Photographer Dubai | Parties, Cake Smash & First Birthdays",
+    description: "Birthday photography in Dubai and across the UAE — children's parties, first birthday and cake smash sessions, and adult milestone celebrations. From AED 1,500, quote in 2 hours.",
+    keywords: [
+      "birthday photographer Dubai", "birthday party photographer Dubai",
+      "1st birthday photoshoot Dubai", "cake smash photographer Dubai",
+      "kids birthday photographer UAE", "birthday photography Abu Dhabi",
+      "children's party photographer Dubai", "birthday videographer Dubai",
+      "milestone birthday photographer UAE", "first birthday photography Dubai",
     ],
   },
   "event-shoots": {

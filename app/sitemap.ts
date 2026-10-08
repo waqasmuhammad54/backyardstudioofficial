@@ -24,6 +24,10 @@ const SERVICES = [
   "pre-post-production",
   // Live production — added Aug 2026 with the live match coverage service.
   "live-streaming",
+  // Life-event niches — added 8 Oct 2026. Must stay in sync with SERVICE_SLUGS
+  // in app/(en)/services/[slug]/page.tsx; a slug in one and not the other either
+  // hides a real page from the sitemap or advertises a 404.
+  "engagement-photography", "anniversary-photoshoot", "birthday-photography",
 ];
 
 const CITIES = [
