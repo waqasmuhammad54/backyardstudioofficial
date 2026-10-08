@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import EmirateContext from "@/components/shared/EmirateContext";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -318,6 +319,11 @@ export default function CityPage({ params }: { params: { city: string } }) {
             {data.description.split("\n\n").map((p, i) => (
               <p key={i} className="text-[#a0a0a0] leading-relaxed mb-5">{p}</p>
             ))}
+
+            {/* Emirate-specific substance. Same block as the city+service
+                pages, and the reason the city hubs read as distinct documents
+                rather than one template with the name swapped. */}
+            <EmirateContext citySlug={params.city} />
 
             {/* Areas */}
             <h2 className="font-display text-3xl text-white mt-10 mb-5">AREAS WE COVER IN {data.name.toUpperCase()}</h2>

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import EmirateContext from "@/components/shared/EmirateContext";
 import Link from "next/link";
 import { notFound, permanentRedirect } from "next/navigation";
 import { stripBrandSuffix, withBrand } from "@/lib/seoTitle";
@@ -2786,6 +2787,12 @@ export default function CityServicePage({
             {data.intro.map((p, i) => (
               <p key={i} className="text-[#a0a0a0] leading-relaxed">{p}</p>
             ))}
+
+            {/* Emirate-specific substance — the block that stops these pages
+                being duplicates of each other. Placed directly after the intro
+                on purpose: it is the only genuinely differentiated content on
+                the page, so it should not sit below the fold. */}
+            <EmirateContext citySlug={params.city} serviceLabel={data.h1} />
 
             {/* Highlights */}
             <h2 className="font-display text-3xl text-white mt-10 mb-6">
