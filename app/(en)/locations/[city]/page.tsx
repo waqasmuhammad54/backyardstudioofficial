@@ -139,6 +139,31 @@ const CITY_DATA: Record<string, { name: string; image: string; description: stri
 };
 
 
+/**
+ * Emirates whose city+service sub-pages were consolidated into this hub on
+ * 8 Oct 2026.
+ *
+ * Each of these five carried the SAME eight service sub-pages — five cities x
+ * the same eight templates = 41 near-identical URLs, which was the engine
+ * behind Google's "Duplicate without user-selected canonical" bucket. Adding
+ * per-emirate substance helped across cities but made same-emirate pairs worse
+ * (fujairah/birthday vs fujairah/maternity went 51.3% -> 59.2% overlap),
+ * because that block is identical within an emirate.
+ *
+ * Checked first: Bing AI Performance showed ZERO citations on any of the 41.
+ * Dubai and Abu Dhabi sub-pages ARE cited, so they keep their own URLs.
+ *
+ * For these five the service list below still renders — as descriptive blocks
+ * rather than links, since the URLs now 308 back to this page.
+ */
+const CONSOLIDATED_CITIES = new Set([
+  "sharjah",
+  "ajman",
+  "ras-al-khaimah",
+  "fujairah",
+  "umm-al-quwain",
+]);
+
 const CITY_SUB_PAGES: Record<string, { slug: string; name: string; desc: string }[]> = {
   "dubai": [
     { slug: "wedding-photography",        name: "Wedding Photography",       desc: "Arabic, Indian & destination weddings across Dubai's top venues" },
@@ -388,14 +413,29 @@ export default function CityPage({ params }: { params: { city: string } }) {
               Specialist photography and content services available across {data.name}.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {CITY_SUB_PAGES[params.city]?.map(({ slug, name, desc }) => (
-                <Link key={slug} href={`/locations/${params.city}/${slug}`}
-                  className="p-5 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm hover:border-[#e8c547]/50 hover:bg-[#111] transition-all group block">
-                  <div className="text-[#e8c547] text-xs font-semibold tracking-wide mb-2">{name}</div>
-                  <p className="text-[#666] text-xs leading-relaxed">{desc}</p>
-                  <div className="text-[#444] text-xs mt-3 group-hover:text-[#e8c547] transition-colors">Learn more →</div>
-                </Link>
-              ))}
+              {CITY_SUB_PAGES[params.city]?.map(({ slug, name, desc }) =>
+                CONSOLIDATED_CITIES.has(params.city) ? (
+                  // Consolidated emirate: the service had its own URL until
+                  // 8 Oct 2026, when five northern emirates were collapsed into
+                  // their hubs. The CONTENT stays here; only the separate URL
+                  // went. Rendering a link would point at a 308 back to this
+                  // same page.
+                  <div
+                    key={slug}
+                    className="p-5 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm"
+                  >
+                    <div className="text-[#e8c547] text-xs font-semibold tracking-wide mb-2">{name}</div>
+                    <p className="text-[#666] text-xs leading-relaxed">{desc}</p>
+                  </div>
+                ) : (
+                  <Link key={slug} href={`/locations/${params.city}/${slug}`}
+                    className="p-5 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm hover:border-[#e8c547]/50 hover:bg-[#111] transition-all group block">
+                    <div className="text-[#e8c547] text-xs font-semibold tracking-wide mb-2">{name}</div>
+                    <p className="text-[#666] text-xs leading-relaxed">{desc}</p>
+                    <div className="text-[#444] text-xs mt-3 group-hover:text-[#e8c547] transition-colors">Learn more →</div>
+                  </Link>
+                )
+              )}
             </div>
           </div>
         </section>
