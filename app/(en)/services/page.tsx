@@ -140,10 +140,24 @@ const CATEGORIES = [
     slugs: ["corporate-brand-films","corporate-films","documentary","brand-events","testimonial-videos"],
   },
   {
+    label: "Life Events",
+    slugs: ["engagement-photography","anniversary-photoshoot","birthday-photography"],
+  },
+  {
     label: "Specialist Services",
     slugs: ["pre-post-production","event-video-editing"],
   },
 ];
+
+// ⚠️ CATEGORIES is what actually RENDERS on this page. SERVICES above is only a
+// lookup table feeding SERVICE_MAP. A slug added to SERVICES but not to a
+// CATEGORIES group is invisible on /services — the page builds, the route works,
+// and nothing links to it.
+//
+// That happened on 8 Oct 2026 with the three life-event pages: added to
+// SERVICES, to SERVICE_SLUGS and to the sitemap, live and returning 200, and
+// still unreachable from /services because this array was not touched.
+// `npm run check:links` now fails on exactly this.
 
 const SERVICE_MAP = Object.fromEntries(SERVICES.map((s) => [s.slug, s]));
 
