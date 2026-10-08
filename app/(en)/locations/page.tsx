@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { alternatesFor } from "@/lib/hreflang";
 import Link from "next/link";
 import Image from "next/image";
 import { breadcrumbSchema, itemListSchema, faqSchema } from "@/lib/structuredData";
@@ -6,7 +7,7 @@ import { breadcrumbSchema, itemListSchema, faqSchema } from "@/lib/structuredDat
 export const metadata: Metadata = {
   title: { absolute: "Production Locations UAE | All 7 Emirates" },
   description: "Video and photography across all 7 UAE emirates. Dubai, Abu Dhabi, Sharjah, Ajman, RAK, Fujairah and UAQ. No travel fees. Free quote in 2 hours.",
-  alternates: { canonical: "https://www.backyardstudioofficial.com/locations" },
+  alternates: alternatesFor("/locations"),
   openGraph: {
     title: "Video Production Across All 7 UAE Emirates | Backyard Studio Official",
     description: "Professional video & photography production in Dubai, Abu Dhabi, Sharjah, Ajman, RAK, Fujairah & UAQ. No travel fees. Free quote in 2 hours.",

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { alternatesFor } from "@/lib/hreflang";
 import Link from "next/link";
 import { Check, ArrowRight, Phone } from "lucide-react";
 import { faqSchema, breadcrumbSchema, speakableSchema } from "@/lib/structuredData";
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
     "TV commercial cost Dubai",
     "real estate photography price Dubai",
   ],
-  alternates: { canonical: "https://www.backyardstudioofficial.com/pricing" },
+  alternates: alternatesFor("/pricing"),
   openGraph: {
     title: "Video Production Pricing Dubai | 2026 Packages & Costs",
     description: "Compare video, photography, wedding, event, DVC, Reels and corporate film packages for Dubai and the UAE.",

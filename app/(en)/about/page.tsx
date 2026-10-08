@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { alternatesFor } from "@/lib/hreflang";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Play } from "lucide-react";
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
   title: { absolute: "About Backyard Studio | Dubai Production Company" },
   description:
     "Meet Backyard Studio founders Fahad Iqbal Butt and Syed Mazhar Zaidi. Founded in 2019, with UAE operations since 2023 and coverage across all seven emirates.",
-  alternates: { canonical: "https://www.backyardstudioofficial.com/about" },
+  alternates: alternatesFor("/about"),
   openGraph: {
     title: "About Backyard Studio Official — Fahad Iqbal Butt & Syed Mazhar Zaidi",
     description: "Meet the founders and creative team behind Backyard Studio's video and photography production work across the UAE.",

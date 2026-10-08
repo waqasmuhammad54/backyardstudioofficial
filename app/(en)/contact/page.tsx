@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { alternatesFor } from "@/lib/hreflang";
 import ContactSection from "@/components/home/ContactSection";
 import { faqSchema, breadcrumbSchema } from "@/lib/structuredData";
 
@@ -6,7 +7,7 @@ export const metadata: Metadata = {
   title: { absolute: "Contact Backyard Studio | Free Quote Dubai" },
   description:
     "Get a free production quote in 2 hours. Events, weddings, DVCs, Reels, corporate films, drone. All 7 UAE emirates. WhatsApp +971 58 588 2685.",
-  alternates: { canonical: "https://www.backyardstudioofficial.com/contact" },
+  alternates: alternatesFor("/contact"),
   openGraph: {
     title: "Contact Backyard Studio Official | Free Production Quote — Dubai UAE",
     description: "Get a free quote in 2 hours. Events, weddings, DVCs, Reels, TikTok, corporate & drone across all 7 UAE emirates. WhatsApp available.",

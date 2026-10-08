@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { alternatesFor } from "@/lib/hreflang";
 import { buildPortfolioItemListSchema } from "@/lib/portfolio-data";
 import { formatProjectsDeliveredPhrase } from "@/lib/brandStats";
 
@@ -13,7 +14,7 @@ const portfolioSchema = {
 export const metadata: Metadata = {
   title: "Портфолио | Backyard Studio Official — Дубай",
   description: "Портфолио Backyard Studio — корпоративное видео, свадебная съёмка, недвижимость, отели, авто и контент для соцсетей в Дубае и ОАЭ.",
-  alternates: { canonical: "https://www.backyardstudioofficial.com/ru/portfolio" },
+  alternates: alternatesFor("/portfolio", "ru"),
 };
 
 const ALL_PROJECTS = [

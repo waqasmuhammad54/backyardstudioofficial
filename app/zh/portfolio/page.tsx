@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { alternatesFor } from "@/lib/hreflang";
 import { buildPortfolioItemListSchema } from "@/lib/portfolio-data";
 
 const portfolioSchema = {
@@ -12,7 +13,7 @@ const portfolioSchema = {
 export const metadata: Metadata = {
   title: "作品集 | 迪拜摄影摄像作品 Backyard Studio Official",
   description: "Backyard Studio Official精选作品集。企业视频、婚礼摄影、无人机航拍、时尚大片——超过2,400个迪拜及阿联酋项目。",
-  alternates: { canonical: "https://www.backyardstudioofficial.com/zh/portfolio" },
+  alternates: alternatesFor("/portfolio", "zh"),
 };
 
 const CATEGORIES = [

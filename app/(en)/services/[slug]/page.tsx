@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { alternatesFor } from "@/lib/hreflang";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -1044,11 +1045,45 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
   },
 };
 
+/**
+ * Service slugs that also exist under /ar, /ru and /zh.
+ *
+ * Only these get an hreflang `languages` map. The locale pages already declare
+ * one pointing back here, and hreflang is only honoured when it is reciprocal —
+ * before 8 Oct 2026 the English side declared nothing, so Google discarded the
+ * annotation for every one of these clusters and the translations competed with
+ * the English pages instead of complementing them.
+ *
+ * Slugs deliberately NOT in this list:
+ *   - live-streaming, engagement-photography, anniversary-photoshoot,
+ *     birthday-photography — English-only so far. Claiming a translation that
+ *     does not exist would point hreflang at a 404.
+ *   - aerial-drone — 308s in all four languages; drone is not a bookable
+ *     service. Do not reintroduce it here.
+ *
+ * Source: generateStaticParams in app/<locale>/services/[slug]/page.tsx.
+ * If a service is translated later, add the slug here in the same commit.
+ */
+const LOCALISED_SERVICE_SLUGS = new Set([
+  "event-shoots", "event-video-editing", "dvcs", "reels",
+  "photo-shoots", "social-media-content", "testimonial-videos",
+  "ads-shooting", "corporate-films", "social-media-shoots",
+  "automotive", "real-estate", "corporate-videography", "podcast",
+  "youtube-content", "event-videography", "food", "product-shoots",
+  "fashion-shoots", "travel-lifestyle", "tv-commercials",
+  "car-commercials", "corporate-brand-films", "documentary",
+  "hotel-photography", "reels-production", "brand-events",
+  "pre-post-production",
+]);
+
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   // Unknown dynamic slugs must 404 genuinely — never render a generic shell.
   if (!(SERVICE_SLUGS as readonly string[]).includes(params.slug)) notFound();
   const custom = SERVICE_METADATA[params.slug];
   const pageUrl = `https://www.backyardstudioofficial.com/services/${params.slug}`;
+  const alternates = LOCALISED_SERVICE_SLUGS.has(params.slug)
+    ? alternatesFor(`/services/${params.slug}`)
+    : { canonical: pageUrl };
   if (custom) {
     return {
       // SERVICE_METADATA titles were authored with the brand already appended,
@@ -1058,7 +1093,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       title: stripBrandSuffix(custom.title),
       description: custom.description,
       keywords: custom.keywords,
-      alternates: { canonical: pageUrl },
+      alternates,
       openGraph: {
         // openGraph does not inherit the template, so add the brand explicitly.
         title: withBrand(custom.title),
@@ -1082,7 +1117,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   return {
     title: `${s.title} in Dubai UAE`,
     description: `Professional ${fmtSlug} services across Dubai, Abu Dhabi and all UAE. ${s.description.substring(0, 120)}...`,
-    alternates: { canonical: pageUrl },
+    alternates,
     openGraph: {
       title: `${s.title} — Dubai, UAE | Backyard Studio Official`,
       description: `Professional ${fmtSlug} in Dubai and all UAE emirates. Free quote in 2 hours.`,

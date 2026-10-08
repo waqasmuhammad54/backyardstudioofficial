@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { alternatesFor } from "@/lib/hreflang";
 import Link from "next/link";
 import { Star, Quote } from "lucide-react";
 import { breadcrumbSchema } from "@/lib/structuredData";
@@ -6,7 +7,7 @@ import { breadcrumbSchema } from "@/lib/structuredData";
 export const metadata: Metadata = {
   title: { absolute: "Client Reviews | Backyard Studio Dubai" },
   description: "100+ five-star reviews from UAE brands. Event shoots, DVCs, Reels, social media and production services across all 7 emirates.",
-  alternates: { canonical: "https://www.backyardstudioofficial.com/testimonials" },
+  alternates: alternatesFor("/testimonials"),
   openGraph: {
     title: "Client Reviews & Testimonials | Backyard Studio Official Dubai",
     description: "100+ five-star reviews from UAE brands. Dubai's most trusted production studio for events, DVCs, social media and photography.",

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { alternatesFor } from "@/lib/hreflang";
 import Link from "next/link";
 import { Camera, Film, Video, Smartphone, Megaphone, MessageSquare, Image, Plane, Building2, Clapperboard, Car, Home, Mic, Youtube, Utensils, Package, Users, Shirt, MapPin, Tv, BookOpen, Hotel, Play, Star, Settings } from "lucide-react";
 import { faqSchema, itemListSchema, breadcrumbSchema, speakableSchema } from "@/lib/structuredData";
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
     "corporate videography Dubai",
     "event videography photography Dubai",
   ],
-  alternates: { canonical: "https://www.backyardstudioofficial.com/services" },
+  alternates: alternatesFor("/services"),
 };
 
 const SERVICES_FAQS = [

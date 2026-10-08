@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { alternatesFor } from "@/lib/hreflang";
 import { buildPortfolioItemListSchema } from "@/lib/portfolio-data";
 
 export const metadata: Metadata = {
   title: { absolute: "Production Portfolio Dubai | Backyard Studio" },
   description:
     "Watch Backyard Studio's portfolio — events, weddings, DVCs, social media and brand films across Dubai and all UAE emirates. 2,400+ projects.",
-  alternates: { canonical: "https://www.backyardstudioofficial.com/portfolio" },
+  alternates: alternatesFor("/portfolio"),
 };
 
 export default function PortfolioLayout({ children }: { children: React.ReactNode }) {

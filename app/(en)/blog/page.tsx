@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { alternatesFor } from "@/lib/hreflang";
 import Image from "next/image";
 import Link from "next/link";
 import { Clock, ArrowRight } from "lucide-react";
@@ -21,7 +22,7 @@ export const metadata: Metadata = {
     "drone videography UAE rules",
     "Instagram Reels strategy UAE brands",
   ],
-  alternates: { canonical: "https://www.backyardstudioofficial.com/blog" },
+  alternates: alternatesFor("/blog"),
   openGraph: {
     title: "Production Blog Dubai — Video & Photography Guides UAE 2026",
     description: "Expert production guides from Dubai's #1 studio — DVC costs, wedding tips, drone regulations, filming locations & social media strategy.",

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { alternatesFor } from "@/lib/hreflang";
 import { buildPortfolioItemListSchema } from "@/lib/portfolio-data";
 
 const portfolioSchema = {
@@ -12,7 +13,7 @@ const portfolioSchema = {
 export const metadata: Metadata = {
   title: "معرض الأعمال | باكيارد ستوديو أوفيشيال — دبي",
   description: "معرض أعمال باكيارد ستوديو — فيديو الشركات، تصوير الأعراس، العقارات، الفنادق والمحتوى الرقمي في دبي والإمارات.",
-  alternates: { canonical: "https://www.backyardstudioofficial.com/ar/portfolio" },
+  alternates: alternatesFor("/portfolio", "ar"),
 };
 
 const ALL_PROJECTS = [
