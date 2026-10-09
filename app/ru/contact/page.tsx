@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import LocalizedContactForm from "@/components/contact/LocalizedContactForm";
 
 export const metadata: Metadata = {
-  title: "Контакты | Backyard Studio Official Дубай — Бесплатный расчёт",
+  title: "Контакты | Бесплатный расчёт за 2 часа — Дубай",
   description: "Получите бесплатный расчёт за 2 часа. Съёмка мероприятий, свадеб, DVC, Reels, корпоративных фильмов, дроном. Все 7 эмиратов ОАЭ. WhatsApp +971 58 588 2685.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru/contact",

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import LocalizedContactForm from "@/components/contact/LocalizedContactForm";
 
 export const metadata: Metadata = {
-  title: "تواصل معنا | باكيارد ستوديو أوفيشيال دبي — عرض سعر مجاني",
+  title: "تواصل معنا | عرض سعر مجاني خلال ساعتين",
   description: "احصل على عرض سعر مجاني خلال ساعتين. تصوير فعاليات، أعراس، إعلانات، ريلز، أفلام مؤسسية، طائرة مسيّرة. جميع إمارات الدولة. واتساب: +971 58 588 2685.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ar/contact",

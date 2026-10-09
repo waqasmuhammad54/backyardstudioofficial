@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "آراء العملاء | باكيارد ستوديو أوفيشيال دبي",
+  title: "آراء العملاء | إنتاج فيديو وتصوير في دبي",
   description: "أكثر من 100 تقييم خمس نجوم من عملاء الإمارات. تصوير فعاليات، أعراس، إعلانات، محتوى سوشيال ميديا وخدمات إنتاج في جميع الإمارات السبع.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ar/testimonials",

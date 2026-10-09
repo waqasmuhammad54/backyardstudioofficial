@@ -12,7 +12,7 @@ const portfolioSchema = {
 };
 
 export const metadata: Metadata = {
-  title: "Портфолио | Backyard Studio Official — Дубай",
+  title: "Портфолио | Видеосъёмка и фото в Дубае",
   description: "Портфолио Backyard Studio — корпоративное видео, свадебная съёмка, недвижимость, отели, авто и контент для соцсетей в Дубае и ОАЭ.",
   alternates: alternatesFor("/portfolio", "ru"),
 };

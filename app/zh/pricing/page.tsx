@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "迪拜制作价格2026 | Backyard Studio Official — 套餐与报价",
+  title: "迪拜制作价格2026 | 套餐与报价",
   description: "迪拜制作价格2026：婚礼摄影从7,500迪拉姆起，DVC广告从15,000迪拉姆起，活动拍摄从3,000迪拉姆起，社交媒体内容从2,500迪拉姆起。2小时内免费报价。",
   keywords: ["迪拜婚礼摄影价格", "阿联酋视频制作费用", "迪拜活动拍摄价格", "迪拜社交媒体内容价格", "迪拜制作套餐2026"],
   alternates: {

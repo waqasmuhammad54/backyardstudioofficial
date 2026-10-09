@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Отзывы клиентов | Backyard Studio Official Дубай",
+  title: "Отзывы клиентов | Видеопродакшн в Дубае",
   description: "100+ отзывов с оценкой 5 звёзд от брендов ОАЭ. Съёмка мероприятий, DVC, Reels, контент для соцсетей и производственные услуги по всем 7 эмиратам.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru/testimonials",

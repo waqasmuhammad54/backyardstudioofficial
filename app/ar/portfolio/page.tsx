@@ -11,7 +11,7 @@ const portfolioSchema = {
 };
 
 export const metadata: Metadata = {
-  title: "معرض الأعمال | باكيارد ستوديو أوفيشيال — دبي",
+  title: "معرض الأعمال | إنتاج فيديو وتصوير في دبي",
   description: "معرض أعمال باكيارد ستوديو — فيديو الشركات، تصوير الأعراس، العقارات، الفنادق والمحتوى الرقمي في دبي والإمارات.",
   alternates: alternatesFor("/portfolio", "ar"),
 };

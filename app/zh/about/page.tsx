@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "关于我们 — Backyard Studio Official | 法哈德·伊克巴尔·巴特与赛义德·马扎尔·扎伊迪 — 迪拜",
+  // Brand removed from the middle of this title — the zh layout template
+  // appends it, so it was rendering twice and pushing the tag to 89 chars
+  // against Google's ~60. scripts/fix-locale-titles.mjs only strips a trailing
+  // brand, and this one sat mid-string, so it needed doing by hand.
+  title: "关于我们 | 法哈德·伊克巴尔·巴特与赛义德·马扎尔·扎伊迪 — 迪拜制作团队",
  description: "了解Backyard Studio Official——迪拜领先的创意制作公司。2019年由法哈德·伊克巴尔·巴特与赛义德·马扎尔·扎伊迪创立。2,400+项目，无人机航拍，20年+经验。",
   keywords: ["法哈德伊克巴尔巴特", "赛义德马扎尔扎伊迪", "迪拜制作公司", "Backyard Studio团队", "工作室故事", "迪拜最佳摄影工作室"],
   alternates: {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "客户评价 | Backyard Studio Official 迪拜",
+  title: "客户评价 | 迪拜客户真实反馈",
   description: "来自阿联酋品牌的100多条五星好评。活动摄影、DVC广告、Reels、社交媒体内容及制作服务，覆盖全部7个酋长国。",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/zh/testimonials",

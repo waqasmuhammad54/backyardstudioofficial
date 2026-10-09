@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import LocalizedContactForm from "@/components/contact/LocalizedContactForm";
 
 export const metadata: Metadata = {
-  title: "联系我们 | Backyard Studio Official 迪拜 — 免费报价",
+  title: "联系我们 | 迪拜免费报价，2小时内回复",
   description: "2小时内获得免费报价。活动摄影、婚礼、DVC广告、Reels、企业影片、无人机航拍。覆盖阿联酋全部7个酋长国。WhatsApp: +971 58 588 2685。",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/zh/contact",
