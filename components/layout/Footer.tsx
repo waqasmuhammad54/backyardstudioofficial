@@ -268,14 +268,12 @@ export default function Footer() {
             © {new Date().getFullYear()} Backyard Studio Official. All Rights Reserved. Dubai, UAE.
           </p>
           <div className="flex items-center gap-6">
-            {/* Link sculpting: utility/legal pages are nofollow so sitewide crawl
-                equity and crawl budget concentrate on commercial + content pages. */}
             {[
               { label: "Privacy Policy", href: "/privacy-policy" },
               { label: "Terms", href: "/terms" },
-              { label: "Sitemap", href: "/sitemap.xml" },
+              { label: "Sitemap", href: "/sitemap" },
             ].map((l) => (
-              <Link key={l.href} href={l.href} rel="nofollow" className="text-xs transition-colors hover:text-[var(--gold)]" style={{ color: "var(--muted)" }}>
+              <Link key={l.href} href={l.href} className="text-xs transition-colors hover:text-[var(--gold)]" style={{ color: "var(--muted)" }}>
                 {l.label}
               </Link>
             ))}

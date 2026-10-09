@@ -42,7 +42,9 @@ const INDUSTRIES = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
+  // Keep lastmod meaningful: change this only after a material content or
+  // structured-data release, never simply because the application rebuilt.
+  const now = new Date("2026-10-09T00:00:00+04:00");
 
   const core: MetadataRoute.Sitemap = [
     { url: BASE,                       lastModified: now, changeFrequency: "weekly",  priority: 1.0 },
@@ -58,6 +60,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/wedding-packages", lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: BASE + "/weddings",         lastModified: now, changeFrequency: "weekly",  priority: 0.9 },
     { url: BASE + "/case-studies",     lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: BASE + "/sitemap",          lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     // Commercial-investigation intent — the buyer's-guide layer between
     // informational blog content and the transactional service/pricing pages.
     { url: BASE + "/how-to-choose-a-production-company-in-dubai", lastModified: now, changeFrequency: "monthly", priority: 0.9 },
