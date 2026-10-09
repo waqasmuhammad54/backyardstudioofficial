@@ -47,6 +47,19 @@ const nextConfig = {
       // /wedding-photography-<emirate> pages are REAL static route folders under
       // app/(en)/services/ — they do NOT come from [slug]/generateStaticParams.
       // Never add a redirect whose `source` is one of those, it would kill a live page.
+      // Merged 9 Oct 2026. GSC 90d: event-shoots had 0 clicks / 47 impressions /
+      // position 37.4 against event-videography's 1 / 389 / 35.5, with 54.3%
+      // content overlap and titles that were the same words reordered. Neither
+      // page was cited in Bing AI Performance, so no citation equity was lost.
+      // Internal links in all four footers and the homepage were repointed in
+      // the same commit rather than left to hop through this redirect.
+      //
+      // The locale copies go too: hreflang pointing at a redirect is an invalid
+      // annotation, and the clusters were made reciprocal on 8 Oct.
+      { source: "/services/event-shoots",    destination: "/services/event-videography",    permanent: true },
+      { source: "/ar/services/event-shoots", destination: "/ar/services/event-videography", permanent: true },
+      { source: "/ru/services/event-shoots", destination: "/ru/services/event-videography", permanent: true },
+      { source: "/zh/services/event-shoots", destination: "/zh/services/event-videography", permanent: true },
       { source: "/services/luxury-lifestyle-photography",   destination: "/services/wedding-photography", permanent: true },
       { source: "/services/documentary-production",         destination: "/services/corporate-films",     permanent: true },
       // Drone no longer offered as a service — 301 to related services (preserve link equity)

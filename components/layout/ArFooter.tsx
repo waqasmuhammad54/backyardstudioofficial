@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const SERVICES_AR = [
   { label: "تصوير الأعراس",              href: "/ar/services/photo-shoots"         },
-  { label: "تصوير الفعاليات",            href: "/ar/services/event-shoots"         },
+  { label: "تصوير الفعاليات",            href: "/ar/services/event-videography"         },
   { label: "إنتاج الإعلانات والDVC",      href: "/ar/services/dvcs"                },
   { label: "إنتاج ريلز انستقرام",         href: "/ar/services/reels"               },
   { label: "محتوى وسائل التواصل",         href: "/ar/services/social-media-content" },

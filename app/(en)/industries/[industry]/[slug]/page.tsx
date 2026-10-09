@@ -387,7 +387,7 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       challenge: "Football content has a shelf life measured in hours. A match highlight reel published 48 hours after the game is already irrelevant — the conversation has moved on and the algorithm has deprioritised it. Most UAE clubs struggle with the production capacity required to deliver same-day content consistently across a full season.",
       solution: "Our football coverage operation is built around same-day delivery. A match day crew typically includes a pitch-side stills photographer, a primary video operator, and an editor who begins cutting the highlight reel during the second half. A 90-second highlight reel is delivered within two to four hours of the final whistle. Full match photography is delivered within 24 hours.",
       services: [
-        { label: "Match Photography", href: "/services/event-shoots", desc: "Pitch-side match photography — action, set pieces, celebrations, and player portraits. Delivered within 24 hours." },
+        { label: "Match Photography", href: "/services/event-videography", desc: "Pitch-side match photography — action, set pieces, celebrations, and player portraits. Delivered within 24 hours." },
         { label: "Same-Day Highlight Reels", href: "/services/event-videography", desc: "90-second Instagram and TikTok highlight reel delivered within 2 to 4 hours of the final whistle." },
         { label: "Multi-Camera Match Coverage", href: "/services/event-videography", desc: "4-camera match coverage for clubs requiring full match recordings, coach review footage, and broadcast-quality cuts." },
         { label: "Season Retainer Packages", href: "/services/event-videography", desc: "Season-long coverage packages for home fixtures — guaranteed crew, consistent quality, same-day delivery across all matches." },
@@ -466,7 +466,7 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
         { label: "Same-Night Social Cuts", href: "/services/event-video-editing", desc: "Vertical cuts cleared the same night for the promotion and for each fighter's own channels, shot vertical rather than cropped." },
         { label: "Walkout & Camp Films", href: "/services/corporate-brand-films", desc: "Training camp footage, weigh-in coverage and the walkout film — usually a fighter's most-watched piece of the year." },
         { label: "Fighter Brand Content", href: "/services/photo-shoots", desc: "Athlete portraits, sponsor activation content and personal brand campaigns, typically on a monthly arrangement." },
-        { label: "Grappling & Jiu Jitsu Competitions", href: "/services/event-shoots", desc: "Mat-side coverage of jiu jitsu, grappling and wrestling competitions, including podium and medal photography." },
+        { label: "Grappling & Jiu Jitsu Competitions", href: "/services/event-videography", desc: "Mat-side coverage of jiu jitsu, grappling and wrestling competitions, including podium and medal photography." },
         { label: "Gym & Academy Content", href: "/services/social-media-content", desc: "Competition footage of your own members, plus class and coaching content for membership marketing." },
       ],
       results: [
@@ -518,7 +518,7 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
         { label: "Gym Launch Content", href: "/services/corporate-films", desc: "Pre-opening launch content package — facility photography, founder story video, member testimonials, and a hero launch Reel." },
         { label: "Facility Photography", href: "/services/photo-shoots", desc: "Studio and gym facility photography for Google Business, your website, and property listings." },
         { label: "Trainer Profile Videos", href: "/services/corporate-films", desc: "60 to 90-second personal trainer profile videos — background, philosophy, training style, and client results." },
-        { label: "Class & Session Coverage", href: "/services/event-shoots", desc: "Live class photography and video — group fitness, HIIT, yoga, martial arts, and personal training sessions." },
+        { label: "Class & Session Coverage", href: "/services/event-videography", desc: "Live class photography and video — group fitness, HIIT, yoga, martial arts, and personal training sessions." },
         { label: "Monthly Social Content", href: "/services/reels", desc: "Monthly content packages delivering 8 to 12 Reels and 20 static images each month." },
         { label: "Client Transformation Stories", href: "/services/corporate-films", desc: "Before-and-after transformation documentary shorts — 2 to 4 minutes — for YouTube and social proof campaigns." },
       ],
@@ -1130,7 +1130,7 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
         { label: "Operations Photography", href: "/services/photo-shoots", desc: "On-site operations photography documenting actual business activities for report use and investor communications." },
         { label: "ESG Content Production", href: "/services/corporate-films", desc: "Photography and video for sustainability, community, and governance report sections — authentic and audit-ready." },
         { label: "Annual Report Launch Film", href: "/services/corporate-films", desc: "60-second to 3-minute launch film summarising the year's highlights for investor relations, LinkedIn, and the AGM." },
-        { label: "AGM Photography", href: "/services/event-shoots", desc: "Annual General Meeting photography and live event documentation for shareholder communications." },
+        { label: "AGM Photography", href: "/services/event-videography", desc: "Annual General Meeting photography and live event documentation for shareholder communications." },
         { label: "Investor Relations Content", href: "/services/corporate-films", desc: "Quarterly earnings video, analyst briefing photography, and roadshow content for listed companies." },
       ],
       results: [

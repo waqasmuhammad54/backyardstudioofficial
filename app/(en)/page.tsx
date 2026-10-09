@@ -113,7 +113,7 @@ const HOME_FAQS = [
 ];
 
 const HOME_SERVICES_LIST = [
-  { name: "Event Photography & Videography Dubai", url: "https://www.backyardstudioofficial.com/services/event-shoots", description: "Professional event photography and videography across Dubai and UAE from AED 2,000." },
+  { name: "Event Photography & Videography Dubai", url: "https://www.backyardstudioofficial.com/services/event-videography", description: "Professional event photography and videography across Dubai and UAE from AED 2,000." },
   { name: "Wedding Photography & Videography Dubai", url: "https://www.backyardstudioofficial.com/services/wedding-photography", description: "Wedding photography and videography packages from AED 7,500." },
   { name: "Digital Video Commercials (DVC) Dubai", url: "https://www.backyardstudioofficial.com/services/dvcs", description: "Professional DVC production in Dubai from AED 8,000. Social media, broadcast and digital." },
   { name: "Instagram Reels & TikTok Production Dubai", url: "https://www.backyardstudioofficial.com/services/reels", description: "Algorithm-first Reels and TikTok content for UAE brands from AED 2,500." },
@@ -252,7 +252,7 @@ export default function HomePage() {
               <ul className="space-y-2">
                 {[
                   ["Wedding Photography Dubai", "/services/wedding-photography"],
-                  ["Event Photography Dubai", "/services/event-shoots"],
+                  ["Event Photography Dubai", "/services/event-videography"],
                   ["Product Photography Dubai", "/services/product-shoots"],
                   ["Fashion Photography Dubai", "/services/fashion-shoots"],
                   ["Corporate Photography Dubai", "/services/corporate-videography"],

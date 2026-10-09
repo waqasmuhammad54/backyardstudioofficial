@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 const SLUGS = [
-  "event-shoots","event-video-editing","dvcs","reels","photo-shoots",
+  "event-video-editing","dvcs","reels","photo-shoots",
   "social-media-content","testimonial-videos","ads-shooting","aerial-drone","corporate-films",
   "social-media-shoots","automotive","real-estate","corporate-videography","podcast",
   "youtube-content","event-videography","food","product-shoots","fashion-shoots",

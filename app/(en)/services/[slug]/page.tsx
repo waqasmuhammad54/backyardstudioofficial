@@ -32,8 +32,7 @@ const SERVICE_YOUTUBE: Record<
 
 // Vimeo video embeds per service slug
 const SERVICE_VIDEOS: Record<string, { id: string; title: string; poster: string }> = {
-  "photo-shoots":          { id: "1194038771", title: "Couple Shoots",  poster: "/images/wedding/wedding-05.webp" },
-  "event-shoots":          { id: "1194038751", title: "Wedding Shoots", poster: "/images/wedding/wedding-01.webp" },
+  "photo-shoots":          { id: "1194038771", title: "Couple Shoots",  poster: "/images/wedding/wedding-05.webp" },
   "reels":                 { id: "1194038719", title: "Fashion Shoots", poster: "/images/creative/creative-04.webp" },
   "dvcs":                  { id: "1194038719", title: "Fashion Shoots", poster: "/images/creative/creative-04.webp" },
   "social-media-content":  { id: "1194038719", title: "Fashion Shoots", poster: "/images/creative/creative-04.webp" },
@@ -41,10 +40,6 @@ const SERVICE_VIDEOS: Record<string, { id: string; title: string; poster: string
 
 // Map slug -> real hero + gallery images
 const SERVICE_IMAGES: Record<string, { hero: string; gallery: string[] }> = {
-  "event-shoots": {
-    hero: "/images/events/event-01.webp",
-    gallery: ["/images/events/event-02.webp", "/images/events/event-03.webp", "/images/events/event-04.webp", "/images/events/event-05.webp", "/images/events/event-06.webp"],
-  },
   "live-streaming": {
     hero: "/images/events/event-05.webp",
     gallery: ["/images/events/event-02.webp", "/images/events/event-04.webp", "/images/events/event-01.webp", "/images/events/event-06.webp"],
@@ -175,8 +170,7 @@ const SERVICE_PRICES: Record<string, string> = {
   // service page.
   "engagement-photography": "1500",
   "anniversary-photoshoot": "1500",
-  "birthday-photography": "1500",
-  "event-shoots": "2000",
+  "birthday-photography": "1500",
   "event-videography": "2000",
   "event-video-editing": "800",
   "dvcs": "8000",
@@ -205,19 +199,6 @@ const SERVICE_PRICES: Record<string, string> = {
 
 // ─── HowTo steps per service ──────────────────────────────────────────────────
 const SERVICE_HOWTO: Record<string, { name: string; description: string; totalTime: string; steps: { name: string; text: string }[] }> = {
-  "event-shoots": {
-    name: "How to Book Event Photography in Dubai",
-    description: "Step-by-step guide to booking professional event photography and videography in Dubai with Backyard Studio Official.",
-    totalTime: "P3D",
-    steps: [
-      { name: "Submit your event brief", text: "Contact Backyard Studio Official via the website, WhatsApp (+971 58 588 2685), or email with your event date, venue, duration, and coverage requirements. We respond within 2 hours." },
-      { name: "Receive a tailored quote", text: "We provide a transparent, itemised quote within 2 hours covering the full scope: crew size, hours, deliverables, and turnaround times. No hidden fees." },
-      { name: "Confirm the booking", text: "Sign the booking agreement and pay the deposit to secure your date. All UAE major events book 2–8 weeks in advance — confirm early for peak dates." },
-      { name: "Pre-event production call", text: "We schedule a 30-minute call before your event to review the run of show, identify VIPs and key moments, and confirm all logistics with your event team." },
-      { name: "Event day coverage", text: "Our team arrives 45–60 minutes before guests for venue setup, lighting assessment, and coordination. We cover the full event unobtrusively with professional cinema-grade equipment." },
-      { name: "Receive your deliverables", text: "A same-day social media teaser is delivered within 6 hours. Full edited gallery and highlight reel are delivered within 48 hours via your private online gallery." },
-    ],
-  },
   "dvcs": {
     name: "How to Produce a DVC (Digital Video Commercial) in Dubai",
     description: "The complete process for commissioning and producing a digital video commercial in Dubai with Backyard Studio Official.",
@@ -433,18 +414,6 @@ const SERVICE_DATA: Record<string, { title: string; description: string; include
       // real Dubai gym we can point people to. In body content, one link, where
       // it answers the question being asked. Not a footer link.
       { q: "Do you cover combat sports and fight nights?", a: "Yes, and it needs a different camera plan to field sport. A fight card is close-quarters and unpredictable: you want cage or ringside positions, a high wide for context, and a director who knows when a round is about to turn. We also cover the walkouts and corner work, which is usually the footage that performs best afterwards. Dubai has a growing grassroots scene around gyms such as DKing Combat (dkingcombat.com), and smaller shows benefit most from live coverage because it is what turns a local card into something a wider audience can follow." },
-    ],
-  },
-  "event-shoots": {
-    title: "Event Shoots",
-    description: "Backyard Studio Official captures your events with the same cinematic intensity we bring to major film productions. From intimate executive dinners to 5,000-person conferences in Dubai World Trade Centre, every moment is documented with purpose, precision, and a keen storytelling eye.\n\nOur event teams are UAE-native, meaning we know the venues, the light conditions, and the cultural nuances that make event coverage here different from anywhere else in the world. We operate with full redundancy, always two camera operators minimum, so nothing is ever missed.",
-    includes: ["Multi-camera setup", "Professional lighting when required", "On-site audio recording", "48-hour edited highlight reel", "Full raw footage archive", "Social media cutdowns (Reels/TikTok format)", "Same-day teaser clip", "Color grading & sound design"],
-    faqs: [
-      { q: "How quickly can we get the highlight reel after the event?", a: "Standard delivery is 48 hours. We also offer a same-day teaser service for social media, a 60-second clip delivered within 4 hours of the event ending." },
-      { q: "Do you cover events outside Dubai?", a: "Absolutely. We cover events across all 7 UAE emirates and can mobilise internationally with advance notice." },
-      { q: "What's the minimum booking duration?", a: "We typically work in half-day (4hr) blocks for event coverage. Full-day rates are more cost-effective for events longer than 5 hours." },
-      { q: "Can you live-stream our event?", a: "Yes. We offer fully managed live-stream production including multi-camera switching, graphics, and broadcast to YouTube, LinkedIn, or custom RTMP destinations." },
-      { q: "Do you provide photographers as well?", a: "Yes, we offer combined photography and videography packages, which most clients find more cost-effective than booking separately." },
     ],
   },
   "photo-shoots": {
@@ -809,7 +778,7 @@ const DEFAULT_SERVICE = {
 // (app/(en)/services/<name>/) are separate routes and are NOT part of this set.
 const SERVICE_SLUGS = [
     // Original services
-    "event-shoots", "event-video-editing", "dvcs", "reels",
+    "event-video-editing", "dvcs", "reels",
     "photo-shoots", "social-media-content", "testimonial-videos",
     "ads-shooting", "corporate-films",
     // Phase 2 — vertical-specific
@@ -897,11 +866,6 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
       "children's party photographer Dubai", "birthday videographer Dubai",
       "milestone birthday photographer UAE", "first birthday photography Dubai",
     ],
-  },
-  "event-shoots": {
-    title: "Event Photography & Videographer Dubai",
-    description: "Dubai's best event shoots company. Professional event photography and videography for corporate events, conferences, product launches, and weddings across all UAE emirates. 48-hour delivery guaranteed.",
-    keywords: ["event shoots Dubai", "event videographer Dubai", "event photographer Dubai", "event production company Dubai", "corporate event videography UAE", "conference photographer Dubai", "event coverage UAE"],
   },
   "photo-shoots": {
     title: "Wedding & Photo Shoots Dubai",
@@ -1065,7 +1029,7 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
  * If a service is translated later, add the slug here in the same commit.
  */
 const LOCALISED_SERVICE_SLUGS = new Set([
-  "event-shoots", "event-video-editing", "dvcs", "reels",
+  "event-video-editing", "dvcs", "reels",
   "photo-shoots", "social-media-content", "testimonial-videos",
   "ads-shooting", "corporate-films", "social-media-shoots",
   "automotive", "real-estate", "corporate-videography", "podcast",

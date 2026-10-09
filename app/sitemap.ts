@@ -12,7 +12,7 @@ const SERVICES = [
   "affordable-wedding-photography", "flying-dress-photoshoot", "wedding-photography-abu-dhabi",
   "wedding-photography-sharjah", "wedding-photography-ajman", "wedding-photography-ras-al-khaimah",
   "wedding-photography-fujairah", "wedding-photography-umm-al-quwain",
-  "event-shoots", "event-video-editing", "dvcs", "reels",
+  "event-video-editing", "dvcs", "reels",
   "photo-shoots", "social-media-content", "testimonial-videos",
   "ads-shooting", "corporate-films",
   "social-media-shoots", "automotive", "real-estate",

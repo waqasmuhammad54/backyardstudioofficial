@@ -38,6 +38,37 @@ export default function ZhPortfolioPage() {
         </p>
       </section>
 
+      {/* Substantive Chinese prose. Added 9 Oct 2026: this page measured 385
+          CJK characters, the only genuinely thin Chinese page on the site once
+          the counts were redone properly (word counts under-measure Chinese
+          badly — it has no spaces). Written as content for Chinese-speaking
+          clients deciding whether to brief us, not as translated marketing. */}
+      <section style={{ padding: "4rem 2rem", background: "#0a0a0a" }}>
+        <div style={{ maxWidth: "820px", margin: "0 auto", fontFamily: "'Noto Sans SC', sans-serif" }}>
+          <h2 style={{ fontSize: "clamp(1.4rem,3.5vw,2rem)", fontWeight: 800, color: "var(--cream)", marginBottom: "2rem" }}>
+            怎么看一家制作公司的作品集
+          </h2>
+          <div style={{ color: "rgba(245,240,225,0.72)", lineHeight: 2, fontSize: "0.95rem", display: "flex", flexDirection: "column" as const, gap: "1.4rem" }}>
+            <p>
+              <strong style={{ color: "var(--gold)" }}>先看一致性，再看单张最好的。</strong>
+              任何一家公司都能拿出几张漂亮的照片，那通常代表运气或者那一天的条件特别好。真正有参考价值的是：同一个项目里的几十张图，风格、色温、曝光是不是统一。商业项目交付的是一整套素材，不是一张封面——如果一组里只有三张能用，那套素材实际上是不合格的。
+            </p>
+            <p>
+              <strong style={{ color: "var(--gold)" }}>看有没有难拍的场景。</strong>
+              户外日落、棚内布光，这些条件可控，拍好不难。值得注意的是混合光源的室内活动、暗环境下的舞台、以及快速移动的人物——这些场景骗不了人，出来的结果直接反映团队的技术水平和现场判断。
+            </p>
+            <p>
+              <strong style={{ color: "var(--gold)" }}>问清楚谁在现场。</strong>
+              很多公司用来提案的作品，和实际派去拍摄的团队不是同一批人。我们的做法是在报价阶段就写明当天到场的人员配置：几位摄影、几位摄像、是否配灯光助理和现场导演。这一条写在合同里，而不是口头承诺。
+            </p>
+            <p>
+              <strong style={{ color: "var(--gold)" }}>关于这个页面。</strong>
+              以下展示的是部分项目精选。完整案例、同类项目的全套交付素材、以及具体的拍摄方案，可以在沟通时按行业提供。如果您正在比较几家供应商，建议直接要求对方提供一个完整项目的全部成片，而不是精选集——这是最快能看出差距的方式。
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section style={{ padding: "3rem 2rem", background: "#0a0a0a" }}>
         <div style={{ maxWidth: "900px", margin: "0 auto" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem", justifyContent: "center", marginBottom: "3rem" }}>

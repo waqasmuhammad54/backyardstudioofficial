@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 const SLUGS = [
-  "event-shoots","event-video-editing","dvcs","reels","photo-shoots",
+  "event-video-editing","dvcs","reels","photo-shoots",
   "social-media-content","testimonial-videos","ads-shooting","aerial-drone","corporate-films",
   "social-media-shoots","automotive","real-estate","corporate-videography","podcast",
   "youtube-content","event-videography","food","product-shoots","fashion-shoots",
@@ -44,17 +44,6 @@ const SERVICE_IMAGES: Record<string, { hero: string; gallery: string[] }> = {
 const DEFAULT_IMAGES = { hero:"/images/creative/creative-04.webp", gallery:["/images/events/event-01.webp","/images/creative/creative-13.webp"] };
 
 const SERVICE_AR: Record<string, { title: string; description: string; includes: string[]; faqs: { q: string; a: string }[] }> = {
-  "event-shoots": {
-    title: "تصوير الفعاليات في دبي",
- description: "نقدّم تغطية احترافية شاملة لجميع أنواع الفعاليات في دبي والإمارات — من المؤتمرات وإطلاقات المنتجات إلى حفلات الأعراس والاحتفالات الخاصة. فريقنا المتخصص يضمن التقاط كل لحظة مميزة بصورة سينمائية راقية مع ضمان تسليم الصور والفيديوهات خلال 48 ساعة.\n\nنعمل عبر الإمارات السبع ونوفّر مصوّرين ومصوّري فيديو محترفين مع معدات متطورة، وخدمة تصوير جوي للتصوير الجوي عند الطلب.",
- includes: ["مصوّر + مصوّر فيديو محترف","تغطية من 4 إلى 10 ساعات","300+ صورة معدّلة","فيديو تسليط ضوء احترافي","تسليم خلال 48 ساعة","تصوير جوي بطائرة مسيّرة"],
-    faqs: [
-      { q: "كم تبلغ تكلفة تصوير الفعاليات في دبي؟", a: "تبدأ أسعار تصوير الفعاليات من 3,000 درهم لجلسة نصف يوم وتصل إلى 20,000+ درهم للفعاليات الكبرى. نقدّم عروض أسعار مجانية خلال ساعتين." },
-      { q: "هل تشملون جميع أنواع الفعاليات؟", a: "نعم — مؤتمرات، إطلاقات منتجات، حفلات شركات، معارض، حفلات زفاف، واحتفالات خاصة." },
-      { q: "ما مدة تسليم صور الفعاليات؟", a: "نضمن تسليم جميع صور وفيديوهات الفعاليات خلال 48 ساعة من انتهاء التصوير." },
-      { q: "هل تعملون خارج دبي؟", a: "نعم، نغطّي جميع إمارات الدولة السبع — أبوظبي والشارقة وعجمان ورأس الخيمة والفجيرة وأم القيوين." },
-    ],
-  },
   "event-video-editing": {
     title: "مونتاج فيديو الفعاليات",
     description: "خدمة مونتاج وتحرير احترافية لفيديوهات الفعاليات — نحوّل ساعات التصوير الخام إلى ريلز مؤثرة وأفلام تسليط ضوء بتقنيات ألوان سينمائية متطورة. نعمل مع لقطات من مصوّرينا أو من مصادر خارجية.\n\nمونتاج متكامل يشمل التلوين والسكوينغ وإضافة الموسيقى والرسوميات والشعارات.",

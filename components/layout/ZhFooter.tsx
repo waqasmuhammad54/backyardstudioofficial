@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const SERVICES_ZH = [
   { label: "婚礼摄影与摄像",         href: "/zh/services/photo-shoots"         },
-  { label: "活动拍摄",               href: "/zh/services/event-shoots"         },
+  { label: "活动拍摄",               href: "/zh/services/event-videography"         },
   { label: "数字视频广告 (DVC)",      href: "/zh/services/dvcs"                },
   { label: "Instagram Reels制作",    href: "/zh/services/reels"               },
   { label: "社交媒体内容创作",        href: "/zh/services/social-media-content" },

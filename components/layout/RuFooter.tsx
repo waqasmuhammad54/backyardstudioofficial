@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 
 const SERVICES_RU = [
   { label: "Свадебная съёмка",           href: "/ru/services/photo-shoots"         },
-  { label: "Съёмка мероприятий",         href: "/ru/services/event-shoots"         },
+  { label: "Съёмка мероприятий",         href: "/ru/services/event-videography"         },
   { label: "Видеореклама (DVC)",          href: "/ru/services/dvcs"                },
   { label: "Reels и короткое видео",      href: "/ru/services/reels"               },
   { label: "Контент для соцсетей",        href: "/ru/services/social-media-content" },

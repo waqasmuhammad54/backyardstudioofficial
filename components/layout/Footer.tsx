@@ -9,7 +9,7 @@ import { PROJECTS_DELIVERED_DISPLAY } from "@/lib/brandStats";
 const SERVICES = [
   { label: "Weddings",             href: "/weddings" },
   { label: "Wedding Photography",  href: "/services/wedding-photography" },
-  { label: "Event Shoots",         href: "/services/event-shoots" },
+  { label: "Event Shoots",         href: "/services/event-videography" },
   { label: "Live Streaming",       href: "/services/live-streaming" },
   { label: "Event Video Editing",  href: "/services/event-video-editing" },
   { label: "DVCs",                 href: "/services/dvcs" },
