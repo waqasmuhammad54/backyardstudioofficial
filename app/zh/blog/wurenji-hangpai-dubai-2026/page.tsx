@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
- title: "迪拜无人机航拍指南2026：法规、价格与最佳地点 | Backyard Studio",
+ title: "迪拜无人机航拍指南2026：法规、价格与最佳地点",
  description: "在阿联酋拍摄无人机必须了解法规。本文详解迪拜合法航拍许可要求、费用（AED 2,000起）、禁飞区及最佳航拍地点。航拍作业均在商业许可下执行证。",
   alternates: { canonical: "https://www.backyardstudioofficial.com/zh/blog/wurenji-hangpai-dubai-2026" },
 };

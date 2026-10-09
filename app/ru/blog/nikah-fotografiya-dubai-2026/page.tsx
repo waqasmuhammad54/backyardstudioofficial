@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Никах фотосъёмка в Дубае 2026 | Backyard Studio",
+  title: "Никах фотосъёмка в Дубае 2026",
   description:
     "Деликатная профессиональная фотосъёмка никаха в Дубае — в мечети, дома, в зале. Уважение к традициям, естественные снимки самого важного момента. От AED 2 500.",
   alternates: {

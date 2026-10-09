@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "تصوير عقاري في دبي 2026 | باكيارد ستوديو",
+  title: "تصوير عقاري في دبي 2026",
   description:
  "تصوير عقاري احترافي في دبي للفلل، الشقق، المشاريع على الخارطة والفنادق. تصوير داخلي خارجي + طائرة مسيّرة. من AED 600.",
   alternates: {

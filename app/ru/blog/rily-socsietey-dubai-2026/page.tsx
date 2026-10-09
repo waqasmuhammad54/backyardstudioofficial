@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Рилсы и контент для соцсетей в Дубае 2026 | Backyard Studio",
+  title: "Рилсы и контент для соцсетей в Дубае 2026",
   description:
     "Съёмка Reels и TikTok в Дубае от AED 1 800. Контент для Instagram, TikTok и YouTube Shorts — монтаж, цветокоррекция и публикация. Для брендов и блогеров.",
   alternates: {

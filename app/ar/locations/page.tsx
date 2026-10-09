@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "مناطق التصوير في الإمارات | جميع الإمارات السبع — باكيارد ستوديو",
+  title: "مناطق التصوير في الإمارات | جميع الإمارات السبع",
   description: "تصوير فيديو واحترافي في جميع الإمارات السبع. دبي، أبوظبي، الشارقة، عجمان، رأس الخيمة، الفجيرة وأم القيوين. بدون رسوم تنقل. عرض سعر مجاني في ساعتين.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ar/locations",

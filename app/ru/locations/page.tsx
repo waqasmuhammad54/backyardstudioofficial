@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Съёмка по всем 7 эмиратам ОАЭ | Backyard Studio Official",
+  title: "Съёмка по всем 7 эмиратам ОАЭ",
   description: "Видео и фотосъёмка по всем 7 эмиратам ОАЭ. Дубай, Абу-Даби, Шарджа, Аджман, РАК, Фуджейра и УАК. Без платы за выезд. Расчёт за 2 часа.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru/locations",

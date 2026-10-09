@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Фотосессия беременности в Дубае 2026 | Backyard Studio",
+  title: "Фотосессия беременности в Дубае 2026",
   description:
     "Профессиональная фотосессия беременности в Дубае. Нежные, художественные снимки в студии и на природе. Оптимальное время — 30–34 недели. От AED 1 200.",
   alternates: {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Съёмка недвижимости Дубай 2026 | Backyard Studio",
+  title: "Съёмка недвижимости Дубай 2026",
  description: "Съёмка недвижимости в Дубае от 2,500 AED. Видеотуры, аэросъёмка, квартиры, виллы, элитные объекты и застройщики. Реальные цены 2026.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/ru/blog/semka-nedvizhimosti-dubai-2026" },
   openGraph: {

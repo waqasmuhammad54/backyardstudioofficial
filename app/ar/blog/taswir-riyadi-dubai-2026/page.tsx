@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "تصوير رياضي في دبي 2026 | باكيارد ستوديو",
+  title: "تصوير رياضي في دبي 2026",
   description:
  "مصوّر رياضي محترف في دبي. تصوير كرة القدم، الكريكيت، التنس، اللياقة، الماراثون والفنون القتالية. خدمة تصوير جوي. من AED 1,500.",
   alternates: {

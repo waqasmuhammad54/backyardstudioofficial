@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Свадебный фотограф Абу-Даби 2026 | Backyard Studio",
+  title: "Свадебный фотограф Абу-Даби 2026",
   description:
  "Свадебная съёмка в Абу-Даби от AED 4,000. Emirates Palace, Yas Island, Saadiyat. дрон. Backyard Studio — ответ за 2 часа, съёмка по всем 7 эмиратам.",
   alternates: {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "تصوير المواليد في دبي 2026 | باكيارد ستوديو",
+  title: "تصوير المواليد في دبي 2026",
   description:
     "تصوير حديثي الولادة في دبي من AED 900. جلسة نيوبورن آمنة في الاستديو، طاقم متخصص، تسليم خلال 5 أيام. احجز الآن قبل الولادة بـ 4 أسابيع.",
   alternates: {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "مصور حفلات عيد الميلاد في دبي 2026 | باكيارد ستوديو",
+  title: "مصور حفلات عيد الميلاد في دبي 2026",
   description:
     "مصور احترافي لحفلات أعياد الميلاد في دبي من AED 800. أطفال وبالغين، حفلات منزلية وقاعات، تسليم خلال 48 ساعة.",
   alternates: {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "迪拜最佳视频制作公司 2026 | Backyard Studio Official",
+  title: "迪拜最佳视频制作公司 2026",
  description: "迪拜领先制作公司——企业宣传片、婚礼摄影摄像、房产拍摄、无人机航拍（飞行许可）、社交媒体内容制作。超过2,400个项目完成。2小时内免费报价。",
   keywords: ["迪拜视频制作公司", "迪拜摄影公司", "迪拜婚礼摄影", "迪拜企业宣传片", "迪拜无人机航拍", "阿联酋影视制作", "迪拜社交媒体内容", "迪拜中文服务制作公司"],
   alternates: {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "تصوير العقارات في دبي 2026 | باكيارد ستوديو",
+  title: "تصوير العقارات في دبي 2026",
   description: "تصوير العقارات في دبي من 2,500 درهم. فيديو جولات العقارات، تصوير جوي مرخص من هيئة الطيران المدني، مشاريع فاخرة ومطورين. أسعار 2026.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/ar/blog/taswiremolak-dubai-2026" },
   openGraph: {

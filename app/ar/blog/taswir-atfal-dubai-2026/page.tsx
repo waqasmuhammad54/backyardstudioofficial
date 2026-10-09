@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "تصوير أطفال في دبي 2026 | باكيارد ستوديو",
+  title: "تصوير أطفال في دبي 2026",
   description:
     "مصوّر أطفال محترف في دبي. جلسات استوديو وخارجية للرضع والأطفال الصغار والمدرسيين. أسلوب طبيعي وحيوي. من AED 800.",
   alternates: {

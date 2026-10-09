@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "摄影摄像服务 | 迪拜专业制作 2026 — Backyard Studio Official",
+  title: "摄影摄像服务 | 迪拜专业制作 2026",
  description: "迪拜及阿联酋全套制作服务——企业宣传片AED 15,000起、婚礼摄影AED 3,500起、无人机航拍AED 2,000起、社交媒体内容AED 3,000起。2,400+项目完成。2小时免费报价。",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/zh/services",

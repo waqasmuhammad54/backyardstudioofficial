@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "تصوير المؤتمرات والفعاليات في دبي | باكيارد ستوديو",
+  title: "تصوير المؤتمرات والفعاليات في دبي",
   description:
     "تصوير المؤتمرات والفعاليات في دبي من 3,500 درهم. تغطية DWTC وMadinat وAtlantis. هايلايت سوشيال في نفس اليوم. معارض، إطلاق منتجات، حفلات شركات.",
   alternates: {

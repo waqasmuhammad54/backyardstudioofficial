@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "إنتاج فيديو الشركات دبي 2026 | باكيارد ستوديو",
+  title: "إنتاج فيديو الشركات دبي 2026",
   description: "إنتاج فيديو الشركات في دبي من 8,000 درهم. فيديو مؤسسي، فيديو تدريبي، فيديو المنتجات. باكيارد ستوديو — أكثر من 2,400 مشروع في الإمارات.",
   alternates: { canonical: "https://www.backyardstudioofficial.com/ar/blog/video-sharikaat-dubai-2026" },
   openGraph: {

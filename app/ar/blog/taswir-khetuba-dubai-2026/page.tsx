@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "تصوير الخطوبة في دبي 2026 | باكيارد ستوديو",
+  title: "تصوير الخطوبة في دبي 2026",
   description:
     "تصوير جلسة الخطوبة في دبي من AED 1,500. مواقع مميزة، مصور متخصص بالمناسبات العاطفية، تسليم الصور خلال 48 ساعة. استشارة مجانية.",
   alternates: {

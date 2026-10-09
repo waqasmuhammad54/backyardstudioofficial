@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "تصوير الحمل في دبي 2026 | باكيارد ستوديو",
+  title: "تصوير الحمل في دبي 2026",
   description:
     "جلسات تصوير الحمل في دبي من AED 1,000. أجواء رومانسية ودافئة، استديو أو خارجي، مصورة متخصصة. احجزي في الشهر السابع أو الثامن.",
   alternates: {

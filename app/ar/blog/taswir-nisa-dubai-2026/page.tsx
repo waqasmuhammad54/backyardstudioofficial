@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "تصوير نساء في دبي 2026 | باكيارد ستوديو",
+  title: "تصوير نساء في دبي 2026",
   description:
     "جلسات تصوير نسائية احترافية في دبي — بورتريه، برسونال براندينج، حمل، مناسبات. بيئة آمنة ومريحة. من AED 900.",
   alternates: {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "阿联酋拍摄地点 | 覆盖全部7个酋长国 — Backyard Studio",
+  title: "阿联酋拍摄地点 | 覆盖全部7个酋长国",
   description: "覆盖阿联酋全部7个酋长国的视频和摄影服务。迪拜、阿布扎比、沙迦、阿治曼、哈伊马角、富查伊拉和乌姆盖万。无出行费用。2小时免费报价。",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/zh/locations",

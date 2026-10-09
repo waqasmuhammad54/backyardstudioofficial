@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "迪拜企业视频制作2026：品牌影片完全指南 | Backyard Studio Official",
+  title: "迪拜企业视频制作2026：品牌影片完全指南",
   description: "迪拜专业企业视频制作，起价AED 15,000。品牌影片、企业宣传片、数字广告制作。已完成2,400+项目，Fahad Iqbal Butt导演。2小时内免费报价。",
   alternates: { canonical: "https://www.backyardstudioofficial.com/zh/blog/qiye-shipin-zhizuo-dubai-2026" },
 };
