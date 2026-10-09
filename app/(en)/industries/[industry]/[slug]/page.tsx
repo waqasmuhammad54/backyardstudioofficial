@@ -1420,6 +1420,63 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
 
   /* ── FASHION ── */
   "fashion": {
+    "modest-fashion": {
+      parentSlug: "fashion",
+      parentName: "Fashion",
+      name: "Modest & Abaya Fashion Photography",
+      tagline: "Gulf Modest Fashion Shot By People Who Understand the Garment",
+      heroImage: "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=1920&q=80",
+      metaTitle: "Abaya & Modest Fashion Photography Dubai | Gulf Campaigns",
+      metaDescription: "Modest fashion and abaya photography in Dubai and the UAE — campaign, lookbook and e-commerce shoots for Gulf labels, with female crew and movement-led direction.",
+      keywords: [
+        "abaya photoshoot Dubai", "modest fashion photographer UAE",
+        "abaya photography Dubai", "modest fashion campaign Dubai",
+        "hijab fashion photographer Dubai", "abaya lookbook photography UAE",
+        "modest wear ecommerce photography Dubai", "Ramadan campaign photography UAE",
+        "jalabiya photography Dubai", "Gulf modest fashion shoot",
+      ],
+      intro: "Modest fashion is not conventional fashion photography with more fabric. It is a different photographic problem, and most of the disappointing work in this category comes from crews who have not understood that.\n\nThe garment is the subject, and the garment moves. An abaya, a jalabiya or a well-cut modest dress is designed around drape, weight and flow — qualities that only exist in motion. Photographed standing still in a studio, the most expensive piece in a collection reads as a flat dark shape. The frames that sell are the ones with air in the fabric: a turn, a step, a breeze. That means planning for movement — shutter speed, floor space, a wind source, and a model who has been directed to move rather than to pose.\n\nBlack on black is the second technical reality. A large part of this market is black garment on a dark set, and separating black fabric from a black background while keeping detail in the embroidery is a lighting problem that rewards rim and edge light rather than the flat frontal fill a standard e-commerce setup uses. Get it wrong and the beading, the stitching and the panel construction — the things the buyer is paying for — disappear.\n\nThe third factor is the crew, and it is the one brands ask about first. We can staff modest fashion shoots with female photographers, assistants and stylists, and in closed-set configuration where the brief calls for it. For many labels and many models this is the difference between a shoot happening and not happening, so it is worth raising at enquiry rather than at booking.\n\nSeasonality in this category is sharper than in any other fashion segment. Ramadan and Eid are the commercial peak, and the content has to be finished and in the brand's hands well before the season starts, not during it. Production for a Ramadan campaign realistically begins two to three months ahead. Labels that start planning in Ramadan are producing for the following year.\n\nWe shoot campaign, lookbook and e-commerce for Gulf modest labels, and the three need different treatment even inside one collection.",
+      challenge: "The common failure is a crew treating modest wear as ordinary fashion with a longer hemline. That produces static frames that kill the drape, flat lighting that erases the embroidery, a studio set-up with no room to move, and a wardrobe and styling approach that reads as subtly wrong to the actual customer even when every technical box is ticked.\n\nThe second failure is scheduling. Because the Ramadan and Eid windows are fixed and unforgiving, a shoot that slips by three weeks does not simply arrive late — it misses the only part of the year the collection was built for.",
+      solution: "We plan modest fashion shoots around movement from the start: enough floor for a model to walk and turn, a wind source where the fabric justifies it, and shutter speeds chosen to hold the edge of moving cloth rather than blur it.\n\nLighting is built for separation. Rim and edge light to lift dark fabric off a dark set, and raking light across embroidered and beaded panels so the construction is legible at e-commerce thumbnail size, not only at full resolution.\n\nCrew composition is agreed at briefing. Female photographer, assistant and stylist are available, and closed-set working where the brief requires it.\n\nSeasonal work runs to a backward-planned schedule from the brand's launch date, not from our availability — because in this category the date is the whole point.",
+      services: [
+        { label: "Abaya & Jalabiya Campaigns", href: "/services/fashion-shoots", desc: "Seasonal campaign photography built around movement, drape and the detail that justifies the price." },
+        { label: "Modest Lookbooks", href: "/services/fashion-shoots", desc: "Full-collection lookbooks for wholesale and retail, shot consistently across every piece." },
+        { label: "E-commerce & Catalogue", href: "/services/product-shoots", desc: "On-model and flat e-commerce photography with embroidery and construction legible at thumbnail size." },
+        { label: "Ramadan & Eid Campaigns", href: "/services/dvcs", desc: "Seasonal campaign photo and film, backward-planned from your launch date." },
+        { label: "Modest Fashion Reels", href: "/services/reels-production", desc: "Vertical movement-led content where the fabric does the work — the format this category performs best in." },
+        { label: "Female Crew Shoots", href: "/services/photo-shoots", desc: "Female photographer, assistant and stylist, with closed-set working where the brief calls for it." },
+      ],
+      results: [
+        { stat: "Female crew", label: "photographer, assistant and stylist available on request" },
+        { stat: "Movement-led", label: "shot for drape and flow, not static mannequin framing" },
+        { stat: "2-3 months", label: "lead time we plan backwards from for Ramadan and Eid" },
+        { stat: "Closed set", label: "available where the brief requires it" },
+      ],
+      caseStudy: {
+        title: "Why This Category Gets Its Own Page",
+        client: "Gulf modest fashion labels, UAE",
+        result: "Movement, separation lighting and crew composition — the three things that decide whether modest fashion photography works",
+        body: "Modest fashion is described throughout our fashion work, and it kept being treated as a subsection of something else. It is not.\n\nThe three things that decide whether a modest fashion shoot succeeds are specific to the category and are rarely all handled together. Movement, because drape only exists in motion and a still frame flattens the most expensive piece in the collection. Separation lighting, because black fabric on a dark set loses its embroidery under the flat frontal fill a standard e-commerce rig produces, and embroidery is what the buyer is paying for. And crew composition, because for a meaningful share of labels and models a female crew and a closed set are the precondition for the shoot happening at all.\n\nA studio that solves two of those three produces work that looks almost right and underperforms for reasons the brand struggles to articulate. This page exists so the brief can be had properly at enquiry stage rather than discovered on the shoot day.",
+      },
+      faqs: [
+        { q: "Can you provide a female photographer and crew?", a: "Yes. Female photographer, assistant and stylist are available, and we work closed-set where the brief requires it. Raise it at enquiry rather than at booking — it affects crew scheduling, and for many labels and models it is the condition that decides whether a shoot can happen at all." },
+        { q: "How do you photograph black abayas without losing the detail?", a: "With separation lighting rather than flat frontal fill. Rim and edge light lifts dark fabric off a dark set, and raking light across embroidered or beaded panels keeps the construction legible. The test is whether the detail still reads at e-commerce thumbnail size, not whether it looks good at full resolution — those are different problems and only the first one sells." },
+        { q: "Why does movement matter so much for modest fashion?", a: "Because drape, weight and flow are the design, and none of them exist in a static frame. An abaya photographed standing still reads as a flat dark shape no matter how good the garment is. We plan floor space for walking and turning, use a wind source where the fabric justifies it, and set shutter speed to hold the moving edge of the cloth cleanly." },
+        { q: "When should we shoot a Ramadan or Eid campaign?", a: "Two to three months before the season, planned backwards from your launch date. The windows are fixed and unforgiving: a shoot that slips three weeks does not arrive late, it misses the part of the year the collection was built for. Labels that begin planning during Ramadan are in practice producing for the following year." },
+        { q: "Do you shoot e-commerce as well as campaign?", a: "Yes, and they are different jobs even within one collection. Campaign work is movement-led and atmospheric; e-commerce has to be consistent piece to piece, accurate on colour, and legible at thumbnail size. We plan both into the same shoot block where the collection allows, because doing them separately usually costs more than it saves." },
+        { q: "Can you work with models who wear hijab?", a: "Yes, and styling is agreed in advance rather than improvised on the day. Hijab styling, coverage and the way a piece is worn vary by brand and by target market, so we take direction from the label on all of it." },
+        { q: "Do you shoot modest fashion outside Dubai?", a: "Yes, across all seven emirates with no travel premium inside the UAE. The northern emirates are often better for outdoor modest fashion work simply because they are quieter — a location where a model is not being watched by a crowd produces visibly more relaxed frames." },
+      ],
+      relatedLocations: [
+        { label: "Fashion Shoots Dubai", href: "/locations/dubai" },
+        { label: "Fashion Photography Abu Dhabi", href: "/locations/abu-dhabi" },
+        { label: "Sharjah Shoots", href: "/locations/sharjah" },
+      ],
+      relatedPosts: [
+        { title: "Fashion Photography Guide Dubai 2026", href: "/blog/fashion-photography-dubai-2026" },
+        { title: "Instagram Reels Strategy UAE 2026", href: "/blog/instagram-reels-strategy-uae-2026" },
+      ],
+    },
 
     "model-portfolio": {
       parentSlug: "fashion",
@@ -1575,6 +1632,16 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
         { title: "Best Production Companies Dubai 2026", href: "/blog/best-production-companies-dubai-2026" },
       ],
     },
+
+    /* ── MODEST FASHION ─────────────────────────────────────────────────
+       KEYWORD_MAP priority #3. Modest fashion is described at length in the
+       /industries/fashion body copy and owns no page. It is a commercially
+       significant Gulf category with its own production requirements, and
+       those requirements — not generic "fashion photography" — are what this
+       page is about. Do not merge it back into fashion-reels or
+       model-portfolio; the briefs are different.
+
+       No named brand, campaign or client appears here. */
 
     "menu-photography": {
       parentSlug: "food-beverage",

@@ -84,6 +84,38 @@ export default function ZhLocationsPage() {
         </div>
       </section>
 
+      {/* Per-emirate substance in Chinese. Added 9 Oct 2026: this page measured
+          ~149 words of total text including nav and footer. The facts here are
+          the Chinese counterpart of lib/emirateFacts.ts — permit authorities
+          named ONLY where confirmed (Dubai, Abu Dhabi, RAK); Sharjah, Ajman,
+          Fujairah and UAQ deliberately unnamed because sources conflict. Do not
+          fill those in from a blog post. */}
+      <section style={{ padding: "4rem 2rem", borderTop: "1px solid #2a2a2a", background: "#111" }}>
+        <div style={{ maxWidth: "820px", margin: "0 auto", fontFamily: "'Noto Sans SC', sans-serif" }}>
+          <h2 style={{ fontSize: "clamp(1.4rem,3.5vw,2rem)", fontWeight: 800, color: "var(--cream)", marginBottom: "2rem" }}>
+            七个酋长国，拍摄条件各不相同
+          </h2>
+          <div style={{ color: "rgba(245,240,225,0.72)", lineHeight: 2, fontSize: "0.95rem", display: "flex", flexDirection: "column" as const, gap: "1.4rem" }}>
+            <p>
+              <strong style={{ color: "var(--gold)" }}>迪拜</strong>——
+              审批流程最规范。商业拍摄由迪拜影视委员会（DFTC）统一受理，自2014年起为唯一主管机构，申请须通过在阿联酋持牌的制作公司提交。优点是档期可控。实际拍摄中最大的变量不是距离而是交通：同一段路早上25分钟，傍晚要一小时以上，所以当天的拍摄点按地理位置排序，而不是按分镜顺序。
+            </p>
+            <p>
+              <strong style={{ color: "var(--gold)" }}>阿布扎比</strong>——
+              由阿布扎比影视委员会（ADFC）受理，申请方需持有媒体自贸区执照，这一点经常被只持迪拜执照的团队忽略。地形比迪拜开阔，海滨大道和跨岛通道的视线很长，适合大景别。这里距离是真实成本：亚斯岛、萨迪亚特岛到市区和沙漠都是实打实的车程，多场景当天需要按行车时间排期。
+            </p>
+            <p>
+              <strong style={{ color: "var(--gold)" }}>哈伊马角</strong>——
+              北部酋长国中审批最清晰的一个，由哈伊马角旅游发展局（TDA）主管。全阿联酋唯一有真正山地景观的地方，红岩、高差、光线更通透，山上气温也明显更低。但从迪拜过去路程长，山区进场还要再加时间，所以这里按整天起排，半天预约通常不划算。
+            </p>
+            <p>
+              <strong style={{ color: "var(--gold)" }}>沙迦、阿治曼、富查伊拉、乌姆盖万</strong>——
+              这四个酋长国的拍摄许可我们按项目向当地主管部门逐一确认，不在此处列出具体机构名称：第三方代办机构的公开说法互相矛盾，我们没有查证到官方来源，与其写错不如写清楚流程。北部酋长国的审批周期普遍比迪拜长，这是排期时要预留的时间，不是障碍。沙迦另有自己的着装与内容规范，会影响服装、场面调度和团队构成，属于前期需要确认的事项。富查伊拉是阿联酋唯一位于阿曼湾一侧的酋长国，也是全国唯一太阳从海面升起的地方。
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       <section style={{ padding: "4rem 2rem", borderTop: "1px solid #2a2a2a", background: "var(--ink)" }}>
         <div style={{ maxWidth: "760px", margin: "0 auto" }}>

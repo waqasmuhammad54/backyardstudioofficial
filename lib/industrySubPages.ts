@@ -22,6 +22,6 @@ export const INDUSTRY_SUB_PAGES: Record<string, string[]> = {
   "corporate": ["company-profile", "investor-pitch", "annual-report"],
   "hospitality": ["hotels", "resorts"],
   "real-estate": ["luxury-villa", "off-plan", "commercial-property"],
-  "fashion": ["model-portfolio", "fashion-reels"],
+  "fashion": ["model-portfolio", "fashion-reels", "modest-fashion"],
   "food-beverage": ["restaurants", "menu-photography"],
 };

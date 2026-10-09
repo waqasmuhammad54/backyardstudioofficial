@@ -161,6 +161,7 @@ const INDUSTRY_DATA: Record<string, {
     specialisations: [
       { name: "Model Portfolio Shoots", href: "/industries/fashion/model-portfolio", desc: "Portfolio shoots built to open agency doors rather than fill a feed." },
       { name: "Fashion Reels & Social", href: "/industries/fashion/fashion-reels", desc: "Vertical fashion content for Instagram Reels and TikTok that converts scrollers into shoppers." },
+      { name: "Modest & Abaya Fashion", href: "/industries/fashion/modest-fashion", desc: "Movement-led abaya and modest wear campaigns, separation lighting for dark fabric, female crew available." },
     ],
   },
 

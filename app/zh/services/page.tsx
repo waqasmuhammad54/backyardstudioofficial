@@ -128,6 +128,41 @@ export default function ZhServicesPage() {
         </div>
       </section>
 
+      {/* Substantive Chinese prose. Added 9 Oct 2026: this page measured ~169
+          words of total text INCLUDING nav and footer, which is a shell, not a
+          page. Written as real content for Chinese-speaking clients in the
+          UAE — the practical differences they actually ask about — rather than
+          translated English marketing copy. */}
+      <section style={{ padding: "5rem 2rem", background: "#111" }}>
+        <div style={{ maxWidth: "820px", margin: "0 auto", fontFamily: "'Noto Sans SC', sans-serif" }}>
+          <h2 style={{ fontSize: "clamp(1.5rem, 3vw, 2rem)", fontWeight: 800, color: "var(--cream)", marginBottom: "2rem" }}>
+            在迪拜做拍摄，中国客户需要知道的几件事
+          </h2>
+          <div style={{ color: "rgba(245,240,225,0.72)", lineHeight: 2, fontSize: "0.95rem", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+            <p>
+              <strong style={{ color: "var(--gold)" }}>拍摄许可不是走个形式。</strong>
+              迪拜的商业拍摄由迪拜影视委员会（DFTC）统一审批，自2014年起为唯一主管机构。申请必须通过在阿联酋持牌的制作公司提交，客户本人无法直接申请；如果项目需要剧本审核，剧本在出证前就要定稿，之后不能更改。听起来严格，实际上反而让排期更可控——这也是为什么在迪拜拍摄的档期通常能按计划走完。阿布扎比由阿布扎比影视委员会受理，申请方需持有媒体自贸区执照，这一条经常被只有迪拜执照的团队忽略。
+            </p>
+            <p>
+              <strong style={{ color: "var(--gold)" }}>光线决定排期，不是天气。</strong>
+              每年10月到次年4月，全天候外景都比较舒适。6月到9月，室外实拍实际上只有日出后一小时和日落前一小时可用——不是因为画面不好看，而是因为人在镜头前的状态骗不了人。我们会把外景时段排在这两个窗口，其余时间安排室内或棚拍，而不是让团队和模特在40多度的环境里硬撑。
+            </p>
+            <p>
+              <strong style={{ color: "var(--gold)" }}>在迪拜，堵车比距离更影响进度。</strong>
+              早上十点跨城25分钟的路程，下午五点要走一个多小时。所以我们按地理位置而不是按分镜顺序来排当天的拍摄点，这一条对多场景的项目影响很大。
+            </p>
+            <p>
+              <strong style={{ color: "var(--gold)" }}>沟通成本是真实成本。</strong>
+              我们提供全程中文沟通，包括前期需求确认、拍摄现场、以及后期修改意见。对中资企业和华人客户来说，最常见的问题不是拍得好不好，而是改了三轮还没改到点上——中间隔了一层翻译，细节就丢了。直接用中文说清楚，比什么都快。
+            </p>
+            <p>
+              <strong style={{ color: "var(--gold)" }}>报价方式。</strong>
+              我们所有项目都提供书面逐项报价，列明拍摄天数、人员配置、交付内容和交付时间，不使用笼统的打包价。收到需求后2小时内回复。
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section style={{ padding: "5rem 2rem", background: "#0a0a0a" }}>
         <div style={{ maxWidth: "800px", margin: "0 auto" }}>
           <h2 style={{ fontFamily: "'Noto Sans SC', sans-serif", fontSize: "clamp(1.5rem, 3vw, 2rem)", fontWeight: 800, color: "var(--cream)", textAlign: "center", marginBottom: "3rem" }}>
