@@ -25,7 +25,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/wedding-photography": {
     title: "Wedding Photography in Dubai 2026 | Backyard Studio Official",
-    metaDescription: "Professional wedding photography in Dubai — Atlantis The Palm, Burj Al Arab, Armani Hotel, Palace Downtown, One&Only. Arabic, Indian & destination weddings. From AED 5,000.",
+    metaDescription: "Professional wedding photography in Dubai — Atlantis The Palm, Burj Al Arab, Armani Hotel, Palace Downtown, One&Only. From AED 5,000.",
     h1: "Wedding Photography in Dubai",
     subtitle: "Atlantis. Burj Al Arab. Palace Downtown. Dubai's most cinematic weddings, documented.",
     category: "WEDDING PHOTOGRAPHY",
@@ -55,7 +55,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/corporate-video": {
     title: "Corporate Video Production in Dubai 2026 | Backyard Studio Official",
-    metaDescription: "Corporate video production in Dubai — brand films, company profiles, DVCs, DIFC, Business Bay, D3. Government & enterprise grade. Same-day social cuts available. From AED 7,000.",
+    metaDescription: "Corporate video production in Dubai — brand films, company profiles, DVCs, DIFC, Business Bay, D3. Government & enterprise grade. From AED 7,000.",
     h1: "Corporate Video Production in Dubai",
     subtitle: "DIFC. Business Bay. D3. Dubai's leading brands trust us with their story.",
     category: "CORPORATE VIDEO",
@@ -85,7 +85,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/event-photography": {
     title: "Event Photography in Dubai 2026 | Backyard Studio Official",
-    metaDescription: "Professional event photography in Dubai — DWTC, Madinat Jumeirah, Coca-Cola Arena, DIFC, hotel galas. Same-day social delivery. Corporate, brand & gala events. From AED 3,000.",
+    metaDescription: "Professional event photography in Dubai — DWTC, Madinat Jumeirah, Coca-Cola Arena, DIFC, hotel galas. Same-day social delivery. From AED 3,000.",
     h1: "Event Photography in Dubai",
     subtitle: "DWTC. Madinat Jumeirah. Atlantis. Every Dubai event, documented at the highest level.",
     category: "EVENT PHOTOGRAPHY",
@@ -145,7 +145,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/drone-videography": {
     title: "Drone Videography in Dubai 2026 | Backyard Studio Official",
-    metaDescription: "Drone videography in Dubai — Burj Khalifa, Palm Jumeirah, Marina, JBR, Downtown. 4K aerial photography & cinematic video. Legal, permitted, fast. From AED 2,000.",
+    metaDescription: "Drone videography in Dubai — Burj Khalifa, Palm Jumeirah, Marina, JBR, Downtown. 4K aerial photography & cinematic video. From AED 2,000.",
     h1: "Drone Videography in Dubai",
     subtitle: "Burj Khalifa district. Palm Jumeirah. Marina. Every zone covered legally.",
     category: "DRONE VIDEOGRAPHY",
@@ -175,7 +175,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/food-photography": {
     title: "Food Photography in Dubai 2026 | Backyard Studio Official",
-    metaDescription: "Professional food photography in Dubai — restaurant menus, hotel F&B, JBR, DIFC, Downtown, Jumeirah. Instagram Reels, menu shoots, brand campaigns. From AED 1,500.",
+    metaDescription: "Professional food photography in Dubai — restaurant menus, hotel F&B, JBR, DIFC, Downtown, Jumeirah. From AED 1,500.",
     h1: "Food Photography in Dubai",
     subtitle: "From JBR restaurants to DIFC fine dining — content that fills reservation books.",
     category: "FOOD PHOTOGRAPHY",
@@ -235,7 +235,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/personal-branding-photography": {
     title: "Personal Branding Photography in Dubai 2026 | Backyard Studio Official",
-    metaDescription: "Personal branding photography in Dubai — entrepreneurs, executives, coaches, influencers. LinkedIn portraits, brand sessions, DIFC & Marina locations. From AED 1,200.",
+    metaDescription: "Personal branding photography in Dubai — entrepreneurs, executives, coaches, influencers. LinkedIn portraits, brand sessions. From AED 1,200.",
     h1: "Personal Branding Photography in Dubai",
     subtitle: "DIFC executives. Marina entrepreneurs. Dubai influencers. Your image is your brand.",
     category: "PERSONAL BRANDING",
@@ -267,7 +267,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/wedding-photography": {
     title: "Wedding Photography in Abu Dhabi 2026 | Backyard Studio Official",
-    metaDescription: "Professional wedding photography in Abu Dhabi — Emirates Palace, Yas Hotel, St. Regis Saadiyat, W Abu Dhabi. Arabic, Indian & destination weddings. From AED 7,500. Free quote in 2 hrs.",
+    metaDescription: "Professional wedding photography in Abu Dhabi — Emirates Palace, Yas Hotel, St. Regis Saadiyat, W Abu Dhabi. Free quote in 2 hrs.",
     h1: "Wedding Photography in Abu Dhabi",
     subtitle: "Emirates Palace. Yas Hotel. St. Regis Saadiyat. We cover every venue in the capital.",
     category: "WEDDING PHOTOGRAPHY",
@@ -297,7 +297,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/corporate-video": {
     title: "Corporate Video Production in Abu Dhabi 2026 | Backyard Studio Official",
-    metaDescription: "Corporate video production in Abu Dhabi — government entities, ADGM, Mubadala, Aldar, Yas Island brands. Company profiles, brand films, institutional content. From AED 8,000.",
+    metaDescription: "Corporate video production in Abu Dhabi — government entities, ADGM, Mubadala, Aldar, Yas Island brands. From AED 8,000.",
     h1: "Corporate Video Production in Abu Dhabi",
     subtitle: "Government entities. ADGM. Sovereign wealth. We produce to the capital's highest standards.",
     category: "CORPORATE VIDEO",
@@ -327,7 +327,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/event-photography": {
     title: "Event Photography in Abu Dhabi 2026 | Backyard Studio Official",
-    metaDescription: "Professional event photography in Abu Dhabi — ADNEC, Yas Bay, ADGM, luxury hotel events, government galas, corporate conferences. Same-day delivery available. From AED 3,500.",
+    metaDescription: "Professional event photography in Abu Dhabi — ADNEC, Yas Bay, ADGM, luxury hotel events, government galas, corporate conferences. From AED 3,500.",
     h1: "Event Photography in Abu Dhabi",
     subtitle: "ADNEC. Yas Bay Arena. ADGM. We cover every venue in the UAE capital.",
     category: "EVENT PHOTOGRAPHY",
@@ -357,7 +357,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/real-estate-photography": {
     title: "Real Estate Photography in Abu Dhabi 2026 | Backyard Studio Official",
-    metaDescription: "Professional real estate photography in Abu Dhabi — Aldar, Saadiyat Island, Yas Island, Al Reem, ADGM. Interior, aerial drone, developer campaigns. From AED 1,200.",
+    metaDescription: "Professional real estate photography in Abu Dhabi — Aldar, Saadiyat Island, Yas Island, Al Reem, ADGM. From AED 1,200.",
     h1: "Real Estate Photography in Abu Dhabi",
     subtitle: "Aldar. Saadiyat Island. Yas Island. Al Reem. Every development, professionally documented.",
     category: "REAL ESTATE PHOTOGRAPHY",
@@ -417,7 +417,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/food-photography": {
     title: "Food Photography in Abu Dhabi 2026 | Backyard Studio Official",
-    metaDescription: "Professional food photography in Abu Dhabi — restaurant menus, hotel F&B, social media content, Saadiyat & Yas Island venues. Same-day Instagram content available. From AED 1,800.",
+    metaDescription: "Professional food photography in Abu Dhabi — restaurant menus, hotel F&B, social media content, Saadiyat & Yas Island venues. From AED 1,800.",
     h1: "Food Photography in Abu Dhabi",
     subtitle: "From Corniche restaurants to Saadiyat beach clubs — your dishes deserve professional photography.",
     category: "FOOD PHOTOGRAPHY",
@@ -447,7 +447,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/product-photography": {
     title: "Product Photography in Abu Dhabi 2026 | Backyard Studio Official",
-    metaDescription: "Professional product photography in Abu Dhabi — e-commerce, Amazon UAE, brand campaigns, packaging shoots. Studio & lifestyle options. ADGM-based brands welcome. From AED 900.",
+    metaDescription: "Professional product photography in Abu Dhabi — e-commerce, Amazon UAE, brand campaigns, packaging shoots. Studio & lifestyle options. From AED 900.",
     h1: "Product Photography in Abu Dhabi",
     subtitle: "E-commerce. Amazon UAE. Brand campaigns. Your product, professionally presented.",
     category: "PRODUCT PHOTOGRAPHY",
@@ -477,7 +477,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/headshot-photography": {
     title: "Headshot Photography in Dubai 2026 | Backyard Studio Official",
-    metaDescription: "Professional headshot photographer in Dubai — LinkedIn profiles, corporate team days, executive portraits, DIFC and Business Bay. Fast 48-hour delivery. From AED 900.",
+    metaDescription: "Professional headshot photographer in Dubai — LinkedIn profiles, corporate team days, executive portraits, DIFC and Business Bay. From AED 900.",
     h1: "Headshot Photography in Dubai",
     subtitle: "LinkedIn. Corporate profiles. Executive portraits. Dubai professionals, professionally represented.",
     category: "HEADSHOT PHOTOGRAPHY",
@@ -567,7 +567,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/fashion-photography": {
     title: "Fashion Photography in Dubai 2026 | Backyard Studio Official",
-    metaDescription: "Fashion photographer in Dubai for editorial shoots, e-commerce, lookbooks, model portfolios and brand campaigns. DIFC, Downtown, desert, hotel locations. From AED 3,500.",
+    metaDescription: "Fashion photographer in Dubai for editorial shoots, e-commerce, lookbooks, model portfolios and brand campaigns. From AED 3,500.",
     h1: "Fashion Photography in Dubai",
     subtitle: "Editorial. E-commerce. Campaigns. Dubai's fashion photography at international standard.",
     category: "FASHION PHOTOGRAPHY",
@@ -597,7 +597,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/social-media-content": {
     title: "Social Media Content Creation in Dubai 2026 | Backyard Studio Official",
-    metaDescription: "Social media content production in Dubai — Instagram Reels, TikTok, LinkedIn video, brand campaigns. Monthly packages for UAE businesses and creators. From AED 2,500.",
+    metaDescription: "Social media content production in Dubai — Instagram Reels, TikTok, LinkedIn video, brand campaigns. From AED 2,500.",
     h1: "Social Media Content Creation in Dubai",
     subtitle: "Instagram. TikTok. LinkedIn. Dubai brands and creators, consistently showing up.",
     category: "SOCIAL MEDIA CONTENT",
@@ -627,7 +627,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/birthday-photography": {
     title: "Birthday Photography in Dubai 2026 | Backyard Studio Official",
-    metaDescription: "Birthday photographer in Dubai for kids parties, milestone adult birthdays, private celebrations and styled birthday shoots. Hotels, beach clubs, private venues. From AED 1,200.",
+    metaDescription: "Birthday photographer in Dubai for kids parties, milestone adult birthdays, private celebrations and styled birthday shoots. From AED 1,200.",
     h1: "Birthday Photography in Dubai",
     subtitle: "Kids parties. Milestone birthdays. Private celebrations. Dubai moments, professionally documented.",
     category: "BIRTHDAY PHOTOGRAPHY",
@@ -657,7 +657,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/kids-photography": {
     title: "Kids Photography in Dubai 2026 | Backyard Studio Official",
-    metaDescription: "Children's photographer in Dubai for family portrait sessions, kids photoshoots, sibling sessions and school-age portraits. Beach, garden, studio locations. From AED 1,200.",
+    metaDescription: "Children's photographer in Dubai for family portrait sessions, kids photoshoots, sibling sessions and school-age portraits. From AED 1,200.",
     h1: "Kids Photography in Dubai",
     subtitle: "Toddlers to teens. Genuine moments, not forced poses.",
     category: "KIDS PHOTOGRAPHY",
@@ -721,7 +721,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/dubai-marina": {
     title: "Video Production in Dubai Marina 2026 | Backyard Studio Official",
-    metaDescription: "Video production and photography in Dubai Marina — events, corporate, real estate, weddings and social content. Marina Walk, JBR, Bluewaters. Free quote in 2 hours.",
+    metaDescription: "Video production and photography in Dubai Marina — events, corporate, real estate, weddings and social content. Free quote in 2 hours.",
     h1: "Video Production in Dubai Marina",
     subtitle: "Marina Walk. JBR. Bluewaters. The most filmed waterfront in the UAE.",
     category: "DUBAI MARINA",
@@ -754,7 +754,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/downtown-dubai": {
     title: "Video Production in Downtown Dubai 2026 | Backyard Studio Official",
-    metaDescription: "Video production and photography in Downtown Dubai — corporate films, events, hotels and Burj Khalifa backdrops. DIFC-adjacent, Dubai Mall, Boulevard. Free quote in 2 hours.",
+    metaDescription: "Video production and photography in Downtown Dubai — corporate films, events, hotels and Burj Khalifa backdrops. Free quote in 2 hours.",
     h1: "Video Production in Downtown Dubai",
     subtitle: "Burj Khalifa. The Boulevard. Dubai's most recognised backdrop.",
     category: "DOWNTOWN DUBAI",
@@ -787,7 +787,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/business-bay": {
     title: "Video Production in Business Bay 2026 | Backyard Studio Official",
-    metaDescription: "Video production and photography in Business Bay Dubai — corporate films, office content, product shoots and social media for Business Bay companies. Free quote in 2 hours.",
+    metaDescription: "Video production and photography in Business Bay Dubai — corporate films, office content, product shoots and social media for. Free quote in 2 hours.",
     h1: "Video Production in Business Bay",
     subtitle: "Dubai's working district — where the corporate content actually gets made.",
     category: "BUSINESS BAY",
@@ -820,7 +820,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/palm-jumeirah": {
     title: "Video Production on Palm Jumeirah 2026 | Backyard Studio Official",
-    metaDescription: "Video production and photography on Palm Jumeirah — luxury villas, resorts, weddings, events and property films. Atlantis, One&Only, Five Palm. Free quote in 2 hours.",
+    metaDescription: "Video production and photography on Palm Jumeirah — luxury villas, resorts, weddings, events and property films. Free quote in 2 hours.",
     h1: "Video Production on Palm Jumeirah",
     subtitle: "Villas, resorts and weddings on Dubai's most exclusive address.",
     category: "PALM JUMEIRAH",
@@ -853,7 +853,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/difc": {
     title: "Video Production in DIFC Dubai 2026 | Backyard Studio Official",
-    metaDescription: "Video production and photography in DIFC — corporate films, executive portraits, finance sector content and events. Gate Village, Gate Avenue, ICD Brookfield. Free quote in 2 hours.",
+    metaDescription: "Video production and photography in DIFC — corporate films, executive portraits, finance sector content and events. Free quote in 2 hours.",
     h1: "Video Production in DIFC",
     subtitle: "Dubai's financial district — corporate content held to a higher standard.",
     category: "DIFC",
@@ -886,7 +886,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "dubai/al-quoz": {
     title: "Video Production in Al Quoz Dubai 2026 | Backyard Studio Official",
-    metaDescription: "Video production and photography in Al Quoz — studio shoots, warehouse and industrial content, product photography and gallery coverage. Alserkal Avenue. Free quote in 2 hours.",
+    metaDescription: "Video production and photography in Al Quoz — studio shoots, warehouse and industrial content. Free quote in 2 hours.",
     h1: "Video Production in Al Quoz",
     subtitle: "Dubai's studio and warehouse district — where production actually happens.",
     category: "AL QUOZ",
@@ -919,7 +919,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/personal-branding-photography": {
     title: "Personal Branding Photography in Abu Dhabi 2026 | Backyard Studio Official",
-    metaDescription: "Personal branding photography in Abu Dhabi — professionals, entrepreneurs, coaches, executives. LinkedIn, speaker profiles, website portraits. ADGM & Corniche locations. From AED 1,500.",
+    metaDescription: "Personal branding photography in Abu Dhabi — professionals, entrepreneurs, coaches, executives. From AED 1,500.",
     h1: "Personal Branding Photography in Abu Dhabi",
     subtitle: "Executives. Entrepreneurs. Coaches. Your professional image in Abu Dhabi's business capital.",
     category: "PERSONAL BRANDING",
@@ -951,7 +951,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/headshot-photography": {
     title: "Headshot Photography in Abu Dhabi 2026 | Backyard Studio Official",
-    metaDescription: "Professional headshot photographer in Abu Dhabi — LinkedIn profiles, corporate team days, executive portraits, ADGM and Corniche locations. 48-hour delivery. From AED 900.",
+    metaDescription: "Professional headshot photographer in Abu Dhabi — LinkedIn profiles, corporate team days, executive portraits, ADGM and Corniche locations. From AED 900.",
     h1: "Headshot Photography in Abu Dhabi",
     subtitle: "ADGM. Corniche. Government district. Abu Dhabi professionals, professionally represented.",
     category: "HEADSHOT PHOTOGRAPHY",
@@ -1041,7 +1041,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/fashion-photography": {
     title: "Fashion Photography in Abu Dhabi 2026 | Backyard Studio Official",
-    metaDescription: "Fashion photographer in Abu Dhabi for editorial shoots, e-commerce, lookbooks and brand campaigns. Saadiyat, Louvre Abu Dhabi, desert and studio locations. From AED 3,500.",
+    metaDescription: "Fashion photographer in Abu Dhabi for editorial shoots, e-commerce, lookbooks and brand campaigns. From AED 3,500.",
     h1: "Fashion Photography in Abu Dhabi",
     subtitle: "Saadiyat. Louvre Abu Dhabi. Desert. Abu Dhabi fashion photography at international standard.",
     category: "FASHION PHOTOGRAPHY",
@@ -1071,7 +1071,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/social-media-content": {
     title: "Social Media Content Creation in Abu Dhabi 2026 | Backyard Studio Official",
-    metaDescription: "Social media content production in Abu Dhabi — Instagram Reels, TikTok, LinkedIn video, brand campaigns. Monthly packages for UAE businesses and creators. From AED 2,500.",
+    metaDescription: "Social media content production in Abu Dhabi — Instagram Reels, TikTok, LinkedIn video, brand campaigns. From AED 2,500.",
     h1: "Social Media Content Creation in Abu Dhabi",
     subtitle: "Instagram. TikTok. LinkedIn. Abu Dhabi brands and creators, consistently showing up.",
     category: "SOCIAL MEDIA CONTENT",
@@ -1101,7 +1101,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/birthday-photography": {
     title: "Birthday Photography in Abu Dhabi 2026 | Backyard Studio Official",
-    metaDescription: "Birthday photographer in Abu Dhabi for kids parties, milestone birthdays, private celebrations and styled shoots. Hotels, beach clubs, private venues. From AED 1,200.",
+    metaDescription: "Birthday photographer in Abu Dhabi for kids parties, milestone birthdays, private celebrations and styled shoots. From AED 1,200.",
     h1: "Birthday Photography in Abu Dhabi",
     subtitle: "Kids parties. Milestone birthdays. Private celebrations. Abu Dhabi moments documented.",
     category: "BIRTHDAY PHOTOGRAPHY",
@@ -1131,7 +1131,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/kids-photography": {
     title: "Kids Photography in Abu Dhabi 2026 | Backyard Studio Official",
-    metaDescription: "Children's photographer in Abu Dhabi for family portraits, kids sessions, sibling photography and school-age portraits. Saadiyat, Corniche, studio locations. From AED 1,200.",
+    metaDescription: "Children's photographer in Abu Dhabi for family portraits, kids sessions, sibling photography and school-age portraits. From AED 1,200.",
     h1: "Kids Photography in Abu Dhabi",
     subtitle: "Toddlers to teens. Genuine moments, not forced poses.",
     category: "KIDS PHOTOGRAPHY",
@@ -1161,7 +1161,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/engagement-photography": {
     title: "Engagement Photography in Abu Dhabi 2026 | Backyard Studio Official",
-    metaDescription: "Engagement photographer in Abu Dhabi for pre-wedding couple shoots, proposal photography and anniversary sessions. Saadiyat, desert, Corniche and Louvre AD locations. From AED 2,000.",
+    metaDescription: "Engagement photographer in Abu Dhabi for pre-wedding couple shoots, proposal photography and anniversary sessions. From AED 2,000.",
     h1: "Engagement Photography in Abu Dhabi",
     subtitle: "Saadiyat beach. Desert dunes. Louvre Abu Dhabi. Couple photography in the UAE's capital.",
     category: "ENGAGEMENT PHOTOGRAPHY",
@@ -1193,7 +1193,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/yas-island": {
     title: "Video Production on Yas Island 2026 | Backyard Studio Official",
-    metaDescription: "Video production and photography on Yas Island Abu Dhabi — events at Etihad Arena, Yas Marina Circuit, theme parks, hotels and conferences. Free quote in 2 hours.",
+    metaDescription: "Video production and photography on Yas Island Abu Dhabi — events at Etihad Arena, Yas Marina Circuit, theme parks. Free quote in 2 hours.",
     h1: "Video Production on Yas Island",
     subtitle: "Etihad Arena. Yas Marina Circuit. Abu Dhabi's entertainment engine.",
     category: "YAS ISLAND",
@@ -1226,7 +1226,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/saadiyat-island": {
     title: "Video Production on Saadiyat Island 2026 | Backyard Studio Official",
-    metaDescription: "Video production and photography on Saadiyat Island Abu Dhabi — Louvre Abu Dhabi district, luxury resorts, cultural venues, weddings and beach content. Free quote in 2 hours.",
+    metaDescription: "Video production and photography on Saadiyat Island Abu Dhabi — Louvre Abu Dhabi district, luxury resorts, cultural venues. Free quote in 2 hours.",
     h1: "Video Production on Saadiyat Island",
     subtitle: "Louvre Abu Dhabi. Cultural District. The UAE's most architectural address.",
     category: "SAADIYAT ISLAND",
@@ -1259,7 +1259,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/al-maryah-island": {
     title: "Video Production in Al Maryah Island & ADGM 2026 | Backyard Studio Official",
-    metaDescription: "Video production and photography on Al Maryah Island Abu Dhabi — ADGM financial district, corporate films, executive portraits, Galleria Mall and conference coverage.",
+    metaDescription: "Video production and photography on Al Maryah Island Abu Dhabi — ADGM financial district, corporate films, executive portraits",
     h1: "Video Production on Al Maryah Island",
     subtitle: "ADGM. Abu Dhabi's financial centre — corporate content at institutional standard.",
     category: "AL MARYAH ISLAND",
@@ -1292,7 +1292,7 @@ const PAGES: Record<string, ServicePage> = {
 
   "abu-dhabi/corniche": {
     title: "Video Production at Abu Dhabi Corniche 2026 | Backyard Studio Official",
-    metaDescription: "Video production and photography at Abu Dhabi Corniche — waterfront events, skyline content, running and cycling events, family shoots and city films. Free quote in 2 hours.",
+    metaDescription: "Video production and photography at Abu Dhabi Corniche — waterfront events, skyline content, running and cycling events. Free quote in 2 hours.",
     h1: "Video Production at Abu Dhabi Corniche",
     subtitle: "Eight kilometres of waterfront — Abu Dhabi's most accessible location.",
     category: "CORNICHE",

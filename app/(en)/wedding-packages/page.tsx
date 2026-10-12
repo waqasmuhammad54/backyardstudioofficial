@@ -7,7 +7,7 @@ import { breadcrumbSchema, faqSchema, itemListSchema } from "@/lib/structuredDat
 const PAGE_URL = "https://www.backyardstudioofficial.com/wedding-packages";
 
 export const metadata: Metadata = {
-  title: "Wedding Photography Packages Dubai | Prices 2026",
+  title: "Wedding Packages Dubai | Prices 2026",
   description:
     "Compare current Dubai wedding photography and videography packages from AED 7,500, including crew, coverage, edits, albums and delivery details.",
   keywords: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: PAGE_URL },
   openGraph: {
-    title: "Wedding Photography Packages Dubai | Prices 2026",
+    title: "Wedding Packages Dubai | Prices 2026",
     description:
       "Compare current photo and video wedding packages from AED 7,500 to AED 65,000, with inclusions and delivery details.",
     url: PAGE_URL,
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Wedding Photography Packages Dubai | Prices 2026",
+    title: "Wedding Packages Dubai | Prices 2026",
     description: "Compare current photo and video wedding packages, inclusions and delivery details.",
     images: ["/images/wedding/wedding-08.webp"],
   },

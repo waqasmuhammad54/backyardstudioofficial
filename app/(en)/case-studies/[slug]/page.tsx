@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { withBrand } from "@/lib/seoTitle";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
@@ -16,7 +17,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cs = getCaseStudy(params.slug);
   if (!cs) return { title: "Case Study Not Found" };
   return {
-    title: { absolute: `${cs.metaTitle} | Backyard Studio` },
+    // metaTitle in lib/caseStudies.ts ALREADY ends with "| Backyard Studio",
+    // and this line appended it again — every case study shipped with the
+    // brand twice, at 68-74 chars against Google's ~60. Same bug as the 94
+    // locale titles fixed on 9 Oct. withBrand() strips any existing suffix
+    // first, so it is correct whichever way the data is authored.
+    title: { absolute: withBrand(cs.metaTitle) },
     description: cs.metaDescription,
     keywords: cs.keywords,
     alternates: {

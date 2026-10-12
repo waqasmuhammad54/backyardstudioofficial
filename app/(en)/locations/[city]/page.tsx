@@ -276,7 +276,12 @@ export async function generateMetadata({ params }: { params: { city: string } })
   return {
     // Bare string: the (en) layout template appends " | Backyard Studio".
     // Carrying the brand here too produced "... | Backyard Studio Official | Backyard Studio".
-    title: `Video & Photography Production in ${data.name}, UAE`,
+    // Shortened 12 Oct 2026. "Video & Photography Production in Ras Al
+    // Khaimah, UAE" plus the template's " | Backyard Studio" reached 71 chars
+    // against Google's ~60, so the emirate name — the one differentiating
+    // word — was being truncated on the longest-named emirates. ", UAE" was
+    // redundant next to an emirate name and went first.
+    title: `Video & Photo Production ${data.name}`,
     description: `Professional video production, event shoots, weddings, DVCs, Instagram Reels & drone in ${data.name}. Backyard Studio Official covers all areas of ${data.name} — fast turnaround, cinematic results. Free quote in 2 hours.`,
     keywords: [`video production ${data.name}`, `event videography ${data.name}`, `DVC ${data.name}`, `Instagram Reels ${data.name} UAE`, `wedding photography ${data.name}`, `production company ${data.name}`],
     alternates: { canonical: pageUrl },

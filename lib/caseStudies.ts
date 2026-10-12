@@ -28,7 +28,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     projectType: "Property Launch Campaign",
     headline: "AED 180M in reservations within 72 hours of launch",
     metaTitle: "Real Estate Video Campaign Dubai | Backyard Studio",
-    metaDescription: "How Backyard Studio produced a property launch video campaign for a Dubai developer that generated AED 180M in reservations within 72 hours and 340 qualified leads.",
+    metaDescription: "How Backyard Studio produced a property launch video campaign for a Dubai developer that generated AED 180M in reservations within 72 hours and 340",
     keywords: [
       "real estate video production dubai",
       "property launch video dubai",
@@ -219,7 +219,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     projectType: "SS2025 Campaign Production",
     headline: "2.1M campaign impressions and hero pieces sold out in 72 hours",
     metaTitle: "Fashion Campaign Production Dubai | Backyard Studio",
-    metaDescription: "How Backyard Studio produced the SS2025 campaign for a UAE fashion label — 120 campaign images, 8 Reels and a brand film that drove 2.1M impressions and sold-out hero pieces.",
+    metaDescription: "How Backyard Studio produced the SS2025 campaign for a UAE fashion label — 120 campaign images",
     keywords: [
       "fashion photography dubai",
       "fashion campaign production dubai",

@@ -823,7 +823,7 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
     // the differentiator nobody else in this SERP offers, and live production is
     // a category buyers expect to be quoted privately — so stating a number is
     // the strongest possible signal here.
-    title: "Live Streaming Dubai & UAE | Match Coverage From AED 20,000",
+    title: "Live Streaming UAE | Match Coverage From AED 20,000",
     description: "Live multi-camera streaming and match coverage across the UAE from AED 20,000 — vision mixing, instant replay, live graphics and commentary audio. Published rates, quote in 2 hours.",
     keywords: [
       "live streaming Dubai", "live streaming company Dubai", "live streaming services UAE",
