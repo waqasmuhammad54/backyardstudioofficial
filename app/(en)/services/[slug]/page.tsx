@@ -824,7 +824,7 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
     // a category buyers expect to be quoted privately — so stating a number is
     // the strongest possible signal here.
     title: "Live Streaming UAE | Match Coverage From AED 20,000",
-    description: "Live multi-camera streaming and match coverage across the UAE from AED 20,000 — vision mixing, instant replay, live graphics and commentary audio. Published rates, quote in 2 hours.",
+    description: "Live multi-camera streaming and match coverage across the UAE from AED 20,000 — vision mixing, instant replay. Published rates, quote in 2 hours.",
     keywords: [
       "live streaming Dubai", "live streaming company Dubai", "live streaming services UAE",
       "live match coverage UAE", "cricket live streaming UAE", "sports live streaming Dubai",
@@ -835,7 +835,7 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
   },
   "engagement-photography": {
     title: "Engagement & Proposal Photographer Dubai",
-    description: "Engagement and surprise proposal photography in Dubai and across the UAE. Hidden-photographer proposal coverage, engagement portraits and ring-moment shots. From AED 1,500, quote in 2 hours.",
+    description: "Engagement and surprise proposal photography in Dubai and across the UAE. Hidden-photographer proposal coverage. From AED 1,500, quote in 2 hours.",
     keywords: [
       "engagement photographer Dubai", "surprise proposal photographer Dubai",
       "proposal photographer Dubai", "proposal photoshoot Dubai",
@@ -847,7 +847,7 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
   },
   "anniversary-photoshoot": {
     title: "Anniversary & Vow Renewal Photoshoot Dubai",
-    description: "Anniversary photography in Dubai and the UAE for couples and families — milestone anniversaries, vow renewals and recreated wedding portraits. From AED 1,500, quote in 2 hours.",
+    description: "Anniversary photography in Dubai and the UAE for couples and families — milestone anniversaries. From AED 1,500, quote in 2 hours.",
     keywords: [
       "anniversary photoshoot Dubai", "anniversary photographer Dubai",
       "wedding anniversary photography UAE", "vow renewal photographer Dubai",
@@ -858,7 +858,7 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
   },
   "birthday-photography": {
     title: "Birthday Photographer Dubai & UAE",
-    description: "Birthday photography in Dubai and across the UAE — children's parties, first birthday and cake smash sessions, and adult milestone celebrations. From AED 1,500, quote in 2 hours.",
+    description: "Birthday photography in Dubai and across the UAE — children's parties, first birthday and cake smash sessions. From AED 1,500, quote in 2 hours.",
     keywords: [
       "birthday photographer Dubai", "birthday party photographer Dubai",
       "1st birthday photoshoot Dubai", "cake smash photographer Dubai",
@@ -869,67 +869,67 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
   },
   "photo-shoots": {
     title: "Wedding & Photo Shoots Dubai",
-    description: "Dubai's top wedding shoot company for pre-wedding photoshoots, wedding photography, editorial and lifestyle shoots. Cinematic wedding photography across Dubai, Abu Dhabi and all 7 UAE emirates.",
+    description: "Dubai's top wedding shoot company for pre-wedding photoshoots, wedding photography, editorial and lifestyle shoots.",
     keywords: ["best wedding shoot company Dubai", "top wedding shoot company Dubai", "wedding photography Dubai", "pre wedding photoshoot Dubai", "pre wedding photographers Dubai", "wedding photographer Dubai", "Indian wedding photography Dubai", "editorial photography Dubai"],
   },
   "dvcs": {
     title: "DVC Production Company Dubai",
-    description: "Top DVC production company in Dubai. High-production digital video commercials for UAE brands — scripted, filmed and delivered across all platforms. Best production company in Dubai for brand films.",
+    description: "Top DVC production company in Dubai. High-production digital video commercials for UAE brands — scripted, filmed and delivered across all platforms.",
     keywords: ["DVC production Dubai", "digital video commercial UAE", "video commercial production Dubai", "brand film production Dubai", "best production company Dubai", "film production company Dubai"],
   },
   "reels": {
     title: "Instagram Reels & Short Films Dubai",
-    description: "Top Instagram Reels and short film production company in Dubai. Vertical-first, algorithm-optimised content for Instagram, TikTok and YouTube Shorts. Social media shoots across all UAE.",
+    description: "Top Instagram Reels and short film production company in Dubai. Vertical-first, algorithm-optimised content for Instagram, TikTok and YouTube Shorts.",
     keywords: ["Instagram reels production Dubai", "reels production company Dubai", "short film production Dubai", "social media content creator Dubai", "social media shoots Dubai", "reels videographer Dubai UAE"],
   },
   "social-media-content": {
     title: "Social Media Content Creation Dubai",
-    description: "Best social media content creator in Dubai. Professional TikTok, Instagram and YouTube content production — shoots, editing and strategy for UAE brands. Monthly content packages available.",
+    description: "Best social media content creator in Dubai. Professional TikTok, Instagram and YouTube content production — shoots, editing and strategy for UAE brands.",
     keywords: ["social media content creator Dubai", "TikTok content creation Dubai", "Instagram content Dubai", "social media shoots Dubai", "social media production company Dubai", "TikTok videographer Dubai UAE"],
   },
   "ads-shooting": {
     title: "Ad Production Company Dubai",
-    description: "Top ads shooting company in Dubai. High-production ad content for Meta, TikTok, YouTube, OOH and broadcast campaigns across UAE. Best production company in Dubai for commercial ad shoots.",
+    description: "Top ads shooting company in Dubai. High-production ad content for Meta, TikTok, YouTube, OOH and broadcast campaigns across UAE.",
     keywords: ["ads shooting Dubai", "ad production company Dubai", "commercial shoot Dubai", "Meta ads video production UAE", "TikTok ads Dubai", "advertising production company UAE"],
   },
   "aerial-drone": {
     title: "Aerial Drone Videography Dubai & UAE",
-    description: "Drone videography across all 7 UAE emirates. Best aerial drone production company in Dubai for events, weddings, real estate and commercial shoots. 4K cinematic drone footage.",
+    description: "Drone videography across all 7 UAE emirates. Best aerial drone production company in Dubai for events, weddings, real estate and commercial shoots.",
     keywords: ["aerial drone videography Dubai", "drone videographer Dubai", "aerial drone service UAE", "drone filming Dubai", "drone photography UAE", "aerial videography Dubai wedding"],
   },
   "corporate-films": {
     title: "Corporate Film Production Dubai",
-    description: "Top corporate film production company in Dubai. Brand documentaries, investor films, culture videos and corporate content for UAE businesses — delivered with cinematic quality and 48-hour turnaround.",
+    description: "Top corporate film production company in Dubai. Brand documentaries, investor films, culture videos and corporate content for UAE businesses",
     keywords: ["corporate films Dubai", "corporate video production Dubai", "corporate filmmaker UAE", "brand documentary Dubai", "investor film production Dubai", "corporate video company UAE"],
   },
   "testimonial-videos": {
     title: "Testimonial Video Production Dubai",
-    description: "Professional testimonial video production in Dubai. Authentic, conversion-focused client testimonials for UAE brands — filmed, edited and delivered within 48 hours across all emirates.",
+    description: "Professional testimonial video production in Dubai. Authentic, conversion-focused client testimonials for UAE brands — filmed",
     keywords: ["testimonial videos Dubai", "testimonial video production Dubai", "client testimonial filming UAE", "review video production Dubai", "testimonial videographer UAE"],
   },
   "event-video-editing": {
     title: "Event Video Editing | 48-Hour Reels",
-    description: "Professional event video editing in Dubai. Colour-graded, sound-designed highlight reels from your raw event footage — delivered within 48 hours. Best video editing company in UAE.",
+    description: "Professional event video editing in Dubai. Colour-graded, sound-designed highlight reels from your raw event footage — delivered within 48 hours.",
     keywords: ["event video editing Dubai", "video editing company Dubai", "highlight reel editing UAE", "event footage editing Dubai", "video post production Dubai UAE"],
   },
   "social-media-shoots": {
     title: "Social Media Shoots Dubai",
-    description: "Professional social media videography and photography in Dubai. Combined photo + video shoot days for Instagram, TikTok and YouTube — delivering stills and Reels from a single session. Best social media content studio UAE.",
+    description: "Professional social media videography and photography in Dubai. Combined photo + video shoot days for Instagram, TikTok and YouTube",
     keywords: ["social media videography Dubai", "social media photography Dubai", "social media shoots Dubai UAE", "content creation shoot Dubai", "Instagram photography Dubai", "TikTok videography Dubai"],
   },
   "automotive": {
     title: "Automotive Photography & Video Dubai",
-    description: "Professional automotive videography and photography in Dubai. Studio and on-location car shoots, dynamic on-road filming, drone aerials, and social media content for UAE dealerships and auto brands.",
+    description: "Professional automotive videography and photography in Dubai. Studio and on-location car shoots, dynamic on-road filming, drone aerials",
     keywords: ["automotive videography Dubai", "car photography Dubai", "automotive photography UAE", "car shoot Dubai", "dealership photography Dubai", "vehicle photography UAE"],
   },
   "real-estate": {
     title: "Real Estate Photography & Video Dubai",
-    description: "Top real estate videography and photography in Dubai. Property walkthroughs, architectural photography, drone aerials, and twilight shoots for UAE listings and developer campaigns. 24-hour delivery.",
+    description: "Top real estate videography and photography in Dubai. Property walkthroughs, architectural photography, drone aerials",
     keywords: ["real estate videography Dubai", "property photography Dubai", "real estate photography UAE", "property walkthrough video Dubai", "drone real estate photography Dubai", "architectural photography UAE"],
   },
   "corporate-videography": {
     title: "Corporate Videography Dubai",
-    description: "Professional corporate videography and photography in Dubai. Executive headshots, team portraits, office environment shoots, corporate event coverage and LinkedIn video content across UAE businesses.",
+    description: "Professional corporate videography and photography in Dubai. Executive headshots, team portraits, office environment shoots",
     keywords: ["corporate videography Dubai", "corporate photography Dubai", "executive headshots Dubai", "business photography UAE", "corporate event photography Dubai", "LinkedIn video production Dubai"],
   },
   "podcast": {
@@ -939,37 +939,37 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
   },
   "youtube-content": {
     title: "YouTube Video Production Dubai",
-    description: "Professional YouTube video production in Dubai. Full-service YouTube content creation for UAE brands and creators — scripting, filming, editing, thumbnails and SEO strategy. Best YouTube production company UAE.",
+    description: "Professional YouTube video production in Dubai. Full-service YouTube content creation for UAE brands and creators — scripting, filming, editing",
     keywords: ["YouTube videography Dubai", "YouTube video production Dubai", "YouTube content creation UAE", "YouTube channel production Dubai", "YouTube filming Dubai", "video production company YouTube UAE"],
   },
   "event-videography": {
     title: "Event Videography & Photography Dubai",
-    description: "Complete event videography and photography in Dubai. Combined photo and video coverage for corporate events, gala dinners, conferences, award ceremonies, and private events across all UAE emirates. 48-hour delivery.",
+    description: "Complete event videography and photography in Dubai. Combined photo and video coverage for corporate events, gala dinners, conferences. 48-hour delivery.",
     keywords: ["event videography Dubai", "event photography Dubai", "event videographer UAE", "event photographer Dubai", "corporate event coverage UAE", "event filming Dubai"],
   },
   "food": {
     title: "Food Photography & Videography Dubai",
-    description: "Professional food videography and photography in Dubai. Restaurant, F&B, delivery app, and brand food content — styled, filmed and delivered for UAE hospitality brands. Best food photographer Dubai.",
+    description: "Professional food videography and photography in Dubai. Restaurant, F&B, delivery app, and brand food content — styled",
     keywords: ["food videography Dubai", "food photography Dubai", "restaurant photography UAE", "food content creation Dubai", "F&B photography Dubai", "food photographer Dubai UAE"],
   },
   "product-shoots": {
     title: "Product Photography & Video Dubai",
-    description: "Professional product videography and photography in Dubai. E-commerce listing photos, lifestyle product shoots, 360° photography, and product reveal videos for UAE brands and online retailers.",
+    description: "Professional product videography and photography in Dubai. E-commerce listing photos, lifestyle product shoots, 360° photography",
     keywords: ["product photography Dubai", "product videography Dubai", "e-commerce photography UAE", "product shoot Dubai", "Amazon product photography Dubai", "Noon product photography UAE"],
   },
   "fashion-shoots": {
     title: "Fashion Photography & Film Dubai",
-    description: "Top fashion photography and videography studio in Dubai. Luxury fashion campaigns, editorial shoots, retail lookbooks, kids fashion, and seasonal collection campaigns (SS/FW) for UAE and international brands.",
+    description: "Top fashion photography and videography studio in Dubai. Luxury fashion campaigns, editorial shoots, retail lookbooks, kids fashion",
     keywords: ["fashion photography Dubai", "fashion shoot Dubai", "luxury fashion campaign Dubai", "editorial fashion photography UAE", "fashion videography Dubai", "fashion campaign UAE"],
   },
   "travel-lifestyle": {
     title: "Travel & Lifestyle Campaigns Dubai",
-    description: "Professional travel and lifestyle campaign production in Dubai. Hotel and resort photography, wellness shoots, city experience campaigns, and tourism content for UAE hospitality brands and tourism boards.",
+    description: "Professional travel and lifestyle campaign production in Dubai. Hotel and resort photography, wellness shoots, city experience campaigns",
     keywords: ["travel photography Dubai", "lifestyle campaign Dubai", "hotel photography UAE", "resort photography Dubai", "tourism content production UAE", "lifestyle videography Dubai"],
   },
   "tv-commercials": {
     title: "TV Commercial Production Dubai",
-    description: "Broadcast-quality TV commercial production in Dubai. Brand commercials, digital ads, social media ad campaigns, and product commercials for UAE national broadcast and regional GCC markets.",
+    description: "Broadcast-quality TV commercial production in Dubai. Brand commercials, digital ads, social media ad campaigns",
     keywords: ["TV commercial production Dubai", "TVC production Dubai", "brand commercial Dubai", "commercial ad production UAE", "TV advertisement Dubai", "broadcast production company Dubai"],
   },
   "car-commercials": {
@@ -979,32 +979,32 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
   },
   "corporate-brand-films": {
     title: "Corporate Brand Films Dubai",
-    description: "Professional corporate brand film production in Dubai. Company profile videos, culture documentaries, team photography, office branding shoots, and investor films for UAE businesses and organisations.",
+    description: "Professional corporate brand film production in Dubai. Company profile videos, culture documentaries, team photography, office branding shoots",
     keywords: ["corporate brand film Dubai", "company profile video Dubai", "corporate film production UAE", "team photography Dubai", "office branding shoot UAE", "corporate documentary Dubai"],
   },
   "documentary": {
     title: "Documentary Film Production Dubai",
-    description: "Professional documentary film production in Dubai. Brand documentaries, magazine editorial shoots, behind-the-scenes content, and culture storytelling films for UAE brands, media, and public figures.",
+    description: "Professional documentary film production in Dubai. Brand documentaries, magazine editorial shoots, behind-the-scenes content",
     keywords: ["documentary film production Dubai", "documentary filmmaker Dubai UAE", "magazine editorial shoot Dubai", "behind the scenes filming UAE", "culture documentary Dubai", "brand documentary UAE"],
   },
   "hotel-photography": {
     title: "Hotel & Resort Photography Dubai",
-    description: "Professional hotel photography and resort campaign production in Dubai. Room photography, F&B lifestyle imagery, spa content, resort campaigns, real estate video tours, and drone aerials across UAE.",
+    description: "Professional hotel photography and resort campaign production in Dubai. Room photography, F&B lifestyle imagery, spa content, resort campaigns",
     keywords: ["hotel photography Dubai", "resort photography UAE", "hospitality photography Dubai", "hotel campaign production UAE", "property lifestyle photography Dubai", "hotel videography UAE"],
   },
   "reels-production": {
     title: "Reels Production Dubai | TikTok & Shorts",
-    description: "Specialist Reels and short-form content production in Dubai. Instagram Reels, TikTok-style videos, YouTube Shorts, and influencer campaign shoots for UAE brands, agencies and creators.",
+    description: "Specialist Reels and short-form content production in Dubai. Instagram Reels, TikTok-style videos, YouTube Shorts",
     keywords: ["reels production Dubai", "TikTok video production Dubai", "short form content Dubai UAE", "influencer campaign shoot Dubai", "Instagram reels production UAE", "social media video production Dubai"],
   },
   "brand-events": {
     title: "Brand Launch Event Films Dubai",
-    description: "Full-service brand launch event coverage in Dubai. Fashion events, corporate events, concert aftermovies, and brand launch photography and video across UAE — with same-day social media delivery.",
+    description: "Full-service brand launch event coverage in Dubai. Fashion events, corporate events, concert aftermovies",
     keywords: ["brand launch event coverage Dubai", "fashion event photography UAE", "corporate event filming Dubai", "event aftermovie Dubai", "concert filming UAE", "brand event production Dubai"],
   },
   "pre-post-production": {
     title: "Pre & Post Production Dubai | Edit & Colour",
-    description: "Full pre-production and post-production services in Dubai. Location scouting, model casting, styling, video editing, colour grading, photo retouching, and audio mixing for productions across UAE.",
+    description: "Full pre-production and post-production services in Dubai. Location scouting, model casting, styling, video editing, colour grading, photo retouching",
     keywords: ["location scouting Dubai", "model casting Dubai UAE", "video editing company Dubai", "colour grading Dubai", "photo retouching UAE", "post production company Dubai"],
   },
 };

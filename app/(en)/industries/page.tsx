@@ -218,7 +218,7 @@ const INDUSTRIES = [
 
   // ── NEW: TECHNOLOGY & STARTUPS ──────────────────────────────────────────────
   {
-    slug: "technology",
+    slug: "tech",
     label: "Technology",
     desc: "Product demos, startup brand films, app launches, and tech event coverage for Dubai's rapidly growing tech ecosystem.",
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",

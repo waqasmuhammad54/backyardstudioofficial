@@ -32,6 +32,10 @@ import { dirname, resolve } from "node:path";
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
 const FILES = [
+  // NOT app/(en)/services/[slug]/page.tsx — that file has a SERVICE_DATA
+  // object whose `description:` is the full page body copy. Matching
+  // `description:` there truncated 63 service pages to ~100 characters.
+  // It is handled separately and safely by scripts/trim-service-metadata.mjs.
   "lib/blogPosts.ts",
   "app/(en)/locations/[city]/[service]/page.tsx",
   "app/(en)/industries/[industry]/[slug]/page.tsx",
@@ -114,7 +118,9 @@ for (const rel of FILES) {
   let src = readFileSync(file, "utf8");
   let fileChanged = 0;
 
-  src = src.replace(/metaDescription:\s*"((?:[^"\\]|\\.)*)"/g, (match, body) => {
+  // ONLY `metaDescription:`. Never a bare `description:` — in this codebase
+  // that key is also used for page body copy, schema fields and openGraph.
+  src = src.replace(/(metaDescription):\s*"((?:[^"\\]|\\.)*)"/g, (match, key, body) => {
     // Work on the real string: unescape, measure, re-escape.
     const real = body.replace(/\\"/g, '"').replace(/\\\\/g, "\\");
     if (real.length <= 160) return match;
