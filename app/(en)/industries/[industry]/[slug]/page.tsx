@@ -1426,7 +1426,7 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       name: "Modest & Abaya Fashion Photography",
       tagline: "Gulf Modest Fashion Shot By People Who Understand the Garment",
       heroImage: "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=1920&q=80",
-      metaTitle: "Abaya & Modest Fashion Photography Dubai | Gulf Campaigns",
+      metaTitle: "Abaya & Modest Fashion Photography Dubai",
       metaDescription: "Modest fashion and abaya photography in Dubai and the UAE — campaign, lookbook and e-commerce shoots for Gulf labels, with female crew and movement-led direction.",
       keywords: [
         "abaya photoshoot Dubai", "modest fashion photographer UAE",

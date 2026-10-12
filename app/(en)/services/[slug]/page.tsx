@@ -834,7 +834,7 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
     ],
   },
   "engagement-photography": {
-    title: "Engagement & Proposal Photographer Dubai | Surprise Shoots",
+    title: "Engagement & Proposal Photographer Dubai",
     description: "Engagement and surprise proposal photography in Dubai and across the UAE. Hidden-photographer proposal coverage, engagement portraits and ring-moment shots. From AED 1,500, quote in 2 hours.",
     keywords: [
       "engagement photographer Dubai", "surprise proposal photographer Dubai",
@@ -846,7 +846,7 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
     ],
   },
   "anniversary-photoshoot": {
-    title: "Anniversary Photoshoot Dubai | Couples & Vow Renewal Photography",
+    title: "Anniversary & Vow Renewal Photoshoot Dubai",
     description: "Anniversary photography in Dubai and the UAE for couples and families — milestone anniversaries, vow renewals and recreated wedding portraits. From AED 1,500, quote in 2 hours.",
     keywords: [
       "anniversary photoshoot Dubai", "anniversary photographer Dubai",
@@ -857,7 +857,7 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
     ],
   },
   "birthday-photography": {
-    title: "Birthday Photographer Dubai | Parties, Cake Smash & First Birthdays",
+    title: "Birthday Photographer Dubai & UAE",
     description: "Birthday photography in Dubai and across the UAE — children's parties, first birthday and cake smash sessions, and adult milestone celebrations. From AED 1,500, quote in 2 hours.",
     keywords: [
       "birthday photographer Dubai", "birthday party photographer Dubai",

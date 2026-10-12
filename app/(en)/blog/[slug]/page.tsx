@@ -37,6 +37,24 @@ const CATEGORY_SERVICE_MAP: Record<string, string> = {
   "Commercial Photography":   "event-photography",
 };
 
+/**
+ * Emirates that still have /locations/<city>/<service> sub-pages.
+ *
+ * The five northern emirates were consolidated into their city hubs on
+ * 8 Oct 2026, so `/locations/sharjah/food-photography` and its siblings now
+ * 308 back to `/locations/sharjah`. This sidebar was generating a link for all
+ * seven emirates regardless, which quietly turned into **63 internal links
+ * pointing at redirects** across the blog — found by the live crawl in
+ * scripts/audit-technical-seo.mjs, not by any static check.
+ *
+ * `scripts/check-internal-redirects.mjs` could never have caught it: that only
+ * reads literal `source:` entries from next.config.mjs, and these redirects are
+ * produced at runtime by `fallbackFor()` in the [city]/[service] route.
+ *
+ * Keep this in sync with the cities that still have entries in `PAGES` there.
+ */
+const CITIES_WITH_SERVICE_PAGES = new Set(["dubai", "abu-dhabi"]);
+
 const UAE_CITIES = [
   { slug: "dubai",           label: "Dubai" },
   { slug: "abu-dhabi",       label: "Abu Dhabi" },
@@ -316,7 +334,13 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                   <p className="text-[#e8c547] text-xs tracking-[0.3em] uppercase font-semibold mb-4">UAE LOCATIONS</p>
                   <div className="space-y-2">
                     {UAE_CITIES.map((c) => (
-                      <Link key={c.slug} href={`/locations/${c.slug}/${locationServiceSlug}`}
+                      <Link
+                        key={c.slug}
+                        href={
+                          CITIES_WITH_SERVICE_PAGES.has(c.slug)
+                            ? `/locations/${c.slug}/${locationServiceSlug}`
+                            : `/locations/${c.slug}`
+                        }
                         className="flex items-center gap-2 text-[#a0a0a0] hover:text-[#e8c547] transition-colors text-xs">
                         <span className="text-[#e8c547]">&#8594;</span> {c.label}
                       </Link>

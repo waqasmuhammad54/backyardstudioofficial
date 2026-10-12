@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "check:links": "node scripts/check-industry-slugs.mjs && node scripts/check-service-slugs.mjs && node scripts/check-internal-redirects.mjs"
+    "check:links": "node scripts/check-industry-slugs.mjs && node scripts/check-service-slugs.mjs && node scripts/check-internal-redirects.mjs",
+    "audit:seo": "node scripts/audit-technical-seo.mjs && node scripts/check-meta-lengths.mjs --max 200"
   },
   "dependencies": {
     "next": "14.2.35",
