@@ -16,8 +16,7 @@ export const metadata: Metadata = {
     default: "Video Production Company Dubai | Backyard Studio",
     template: "%s | Backyard Studio",
   },
-  description:
-    "Dubai production studio for commercial video, events, weddings, photography and social content across all seven UAE emirates. 2,400+ projects across all seven emirates.",
+  description: "Dubai production studio for commercial video, events, weddings, photography and social content across all seven UAE emirates.",
   keywords: [
     "best production company in Dubai",
     "top production companies in Dubai",

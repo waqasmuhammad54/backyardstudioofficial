@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Фотосъёмка личного бренда в Дубае 2026",
-  description:
-    "Профессиональные фото для личного бренда в Дубае — предприниматели, коучи, спикеры, фрилансеры. Портреты, которые создают доверие и отражают вашу личность. От AED 1 500.",
+  description: "Профессиональные фото для личного бренда в Дубае — предприниматели, коучи, спикеры, фрилансеры. От AED 1 500.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru/blog/personal-brending-fotografiya-dubai-2026",
     languages: {

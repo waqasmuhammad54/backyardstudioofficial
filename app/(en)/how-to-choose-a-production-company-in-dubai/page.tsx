@@ -8,8 +8,7 @@ const PAGE_URL = `${BASE}/how-to-choose-a-production-company-in-dubai`;
 
 export const metadata: Metadata = {
   title: "How to Choose a Production Company in Dubai (2026 Guide)",
-  description:
-    "A 10-point checklist for choosing a video production company in Dubai — budget bands, UAE permit realities, contract red flags, and the exact questions to ask before you sign.",
+  description: "A 10-point checklist for choosing a video production company in Dubai — budget bands, UAE permit realities, contract red flags",
   keywords: [
     "how to choose a video production company in Dubai",
     "how to choose a production company UAE",

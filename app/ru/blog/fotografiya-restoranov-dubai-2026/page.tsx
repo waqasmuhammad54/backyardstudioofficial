@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Фотосъёмка ресторанов и еды в Дубае 2026",
-  description:
-    "Профессиональная фуд-фотография и съёмка ресторанов в Дубае — меню, соцсети, рекламные кампании. Контент, который заставляет гостей бронировать столик. От AED 1 800.",
+  description: "Профессиональная фуд-фотография и съёмка ресторанов в Дубае — меню, соцсети, рекламные кампании. От AED 1 800.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru/blog/fotografiya-restoranov-dubai-2026",
     languages: {

@@ -17,8 +17,7 @@ export const metadata: Metadata = {
     default: "Лучшая студия видеопроизводства в Дубае | Backyard Studio Official",
     template: "%s | Backyard Studio",
   },
-  description:
- "Профессиональная видеосъёмка и фотография в Дубае и ОАЭ. Корпоративное видео, свадебная съёмка, съёмка мероприятий, контент для соцсетей. Более 2,400 реализованных проектов.. Аэросъёмка.",
+  description: "Профессиональная видеосъёмка и фотография в Дубае и ОАЭ. Корпоративное видео, свадебная съёмка, съёмка мероприятий, контент для соцсетей.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru",
     languages: {

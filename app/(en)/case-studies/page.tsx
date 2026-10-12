@@ -5,7 +5,7 @@ import { CASE_STUDIES } from "@/lib/caseStudies";
 
 export const metadata: Metadata = {
   title: { absolute: "Case Studies | Video Production Dubai — Backyard Studio" },
-  description: "Real results from real projects. See how Backyard Studio's video production and photography in Dubai drove property sales, social media growth, and brand recognition for UAE clients.",
+  description: "Real results from real projects. See how Backyard Studio's video production and photography in Dubai drove property sales, social media growth",
   keywords: [
     "video production case studies dubai",
     "production company portfolio dubai",

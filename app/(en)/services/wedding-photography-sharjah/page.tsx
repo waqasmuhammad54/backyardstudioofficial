@@ -8,8 +8,7 @@ const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photog
 
 export const metadata: Metadata = {
   title: "Wedding Photographer Sharjah | From AED 7,500",
-  description:
-    "Wedding photographer in Sharjah — photography & videography packages from AED 7,500 with no travel fees. Ladies' hall coverage with female crews, Al Majaz & Khalid Lagoon shoots, licensed aerial partners, 48-hour delivery.",
+  description: "Wedding photographer in Sharjah — photography & videography packages from AED 7,500 with no travel fees.",
   keywords: [
     "wedding photographer Sharjah",
     "wedding photography Sharjah",

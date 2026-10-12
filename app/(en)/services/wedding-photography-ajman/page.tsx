@@ -8,8 +8,7 @@ const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photog
 
 export const metadata: Metadata = {
   title: "Wedding Photographer Ajman | From AED 7,500",
-  description:
-    "Wedding photographer in Ajman — Ajman Saray, Fairmont Ajman & Al Zorah beach weddings, mangrove couple shoots. Photo + video from AED 7,500, female crews available, licensed aerial partners, no travel fees, 48-hour delivery.",
+  description: "Wedding photographer in Ajman — Ajman Saray, Fairmont Ajman & Al Zorah beach weddings, mangrove couple shoots.",
   keywords: [
     "wedding photographer Ajman",
     "wedding photography Ajman",

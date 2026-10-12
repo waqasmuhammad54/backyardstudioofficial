@@ -9,8 +9,7 @@ const PAGE_URL = "https://www.backyardstudioofficial.com/services/pre-wedding-sh
 
 export const metadata: Metadata = {
   title: "Pre-Wedding Photoshoot Dubai | From AED 1,500",
-  description:
-    "Pre-wedding photoshoot in Dubai from AED 1,500 — desert sunset, Burj Khalifa, Madinat Jumeirah & beach locations. Couple shoots with cinematic photo + video, licensed aerial partners, 48-hour delivery. Top pre-wedding photographers in Dubai.",
+  description: "Pre-wedding photoshoot in Dubai from AED 1,500 — desert sunset, Burj Khalifa, Madinat Jumeirah & beach locations.",
   keywords: [
     "pre wedding photoshoot Dubai",
     "pre wedding photoshoot Dubai price",

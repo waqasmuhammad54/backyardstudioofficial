@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Семейная фотосессия Дубай 2026",
-  description:
-    "Семейная фотосессия в Дубае от AED 1,200. Лучшие локации — Creek Harbour, Jumeirah Beach, Downtown Dubai. Профессиональный фотограф, тёплая атмосфера, результат через 48 часов.",
+  description: "Семейная фотосессия в Дубае от AED 1,200. Лучшие локации — Creek Harbour, Jumeirah Beach, Downtown Dubai.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru/blog/semeinaya-fotosessiya-dubai-2026",
     languages: {

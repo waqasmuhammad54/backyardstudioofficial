@@ -282,7 +282,12 @@ export async function generateMetadata({ params }: { params: { city: string } })
     // word — was being truncated on the longest-named emirates. ", UAE" was
     // redundant next to an emirate name and went first.
     title: `Video & Photo Production ${data.name}`,
-    description: `Professional video production, event shoots, weddings, DVCs, Instagram Reels & drone in ${data.name}. Backyard Studio Official covers all areas of ${data.name} — fast turnaround, cinematic results. Free quote in 2 hours.`,
+    // Shortened 12 Oct 2026: this rendered at 210-228 chars for every emirate,
+    // so Google truncated it on all seven. The old version also repeated the
+    // emirate name twice and spent words on "Backyard Studio Official covers
+    // all areas of…", which the brand in the title already says. The CTA is
+    // kept — "Free quote in 2 hours" is the strongest line in it.
+    description: `Video production, event shoots, weddings, DVCs and Instagram Reels in ${data.name}. All areas covered. Free quote in 2 hours.`,
     keywords: [`video production ${data.name}`, `event videography ${data.name}`, `DVC ${data.name}`, `Instagram Reels ${data.name} UAE`, `wedding photography ${data.name}`, `production company ${data.name}`],
     alternates: { canonical: pageUrl },
     openGraph: {
