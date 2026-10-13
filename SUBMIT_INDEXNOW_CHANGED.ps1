@@ -22,6 +22,14 @@ $key         = "314c7e9d7ba045308e8f73c0bb9136b4"
 $keyLocation = "https://$hostName/$key.txt"
 $B           = "https://$hostName"
 
+# !! THE LIST BELOW IS PER-COMMIT AND GOES STALE.
+# Re-running this script does NOT submit "whatever changed recently" -- it
+# re-submits exactly these paths. On 13 Oct it was run a second time after a
+# later commit and cheerfully resubmitted the previous batch, which is a no-op
+# dressed as a success. Edit the list for the commit you are announcing, or
+# submit ad hoc. Everything still 200-checks first, so a stale entry cannot
+# announce a dead URL -- it just wastes the call.
+#
 # Changed by commit 2a38d7b (13 Oct 2026):
 #   - two drone pages un-retired (were 308 since August)
 #   - four ar/ru pages newly declared in the sitemap
