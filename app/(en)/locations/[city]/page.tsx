@@ -5,6 +5,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MapPin, Camera, ArrowRight } from "lucide-react";
 import { faqSchema, speakableSchema, breadcrumbSchema } from "@/lib/structuredData";
+import { EMIRATE_FACTS } from "@/lib/emirateFacts";
 
 const CITY_DATA: Record<string, { name: string; image: string; description: string; landmarks: string[]; areas: string[]; services: string[]; faqs: { q: string; a: string }[] }> = {
   "dubai": {
@@ -291,12 +292,24 @@ export async function generateMetadata({ params }: { params: { city: string } })
     // word — was being truncated on the longest-named emirates. ", UAE" was
     // redundant next to an emirate name and went first.
     title: `Video & Photo Production ${data.name}`,
-    // Shortened 12 Oct 2026: this rendered at 210-228 chars for every emirate,
-    // so Google truncated it on all seven. The old version also repeated the
-    // emirate name twice and spent words on "Backyard Studio Official covers
-    // all areas of…", which the brand in the title already says. The CTA is
-    // kept — "Free quote in 2 hours" is the strongest line in it.
-    description: `Video production, event shoots, weddings, DVCs and Instagram Reels in ${data.name}. All areas covered. Free quote in 2 hours.`,
+    // Shortened 12 Oct 2026 from 210-228 chars, which Google truncated on all
+    // seven. Then rewritten 13 Oct, because shortening it did not fix the real
+    // problem: it was ONE template with `data.name` substituted, so all seven
+    // descriptions rendered 89% identical to each other.
+    // scripts/audit-duplicate-signals.mjs flagged the whole set.
+    //
+    // That matters more than the length did. The body copy of these pages is
+    // only 1% similar — the differentiation work in lib/emirateFacts.ts
+    // worked — so the PAGES were fine and the SIGNAL was not, and identical
+    // descriptions across same-shaped titles is what makes Google pick its own
+    // canonical and drop six of the seven.
+    //
+    // Now each emirate supplies its own summary, condensed from that emirate's
+    // verified `knownFor` / `terrain`. Fall back to the old template only if a
+    // record somehow lacks one, so a missing field degrades rather than throws.
+    description:
+      EMIRATE_FACTS[params.city]?.serpSummary ??
+      `Video production, event shoots, weddings, DVCs and Instagram Reels in ${data.name}. All areas covered. Free quote in 2 hours.`,
     keywords: [`video production ${data.name}`, `event videography ${data.name}`, `DVC ${data.name}`, `Instagram Reels ${data.name} UAE`, `wedding photography ${data.name}`, `production company ${data.name}`],
     alternates: { canonical: pageUrl },
     openGraph: {

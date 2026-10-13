@@ -44,3 +44,17 @@ build.log
 
 technical-seo-report.json
 audit.log
+# Generated crawl artifacts — regenerate with the scripts in scripts/ rather
+# than committing a snapshot that silently goes stale and gets trusted.
+duplicate-content-report.json
+duplicate-signals-report.json
+build-check.log
+dup-smoke.log
+dup-full.log
+sig.log
+probe.log
+pairprobe.log
+tsc.log
+audit-fresh.log
+audit-fresh.err
+.commitmsg

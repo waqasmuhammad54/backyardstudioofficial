@@ -88,14 +88,64 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const post = getBlogPost(params.slug) ?? getDynamicPost(params.slug);
   if (!post) return { title: "Article Not Found" };
-  // Enforce ≤55 char title: use first segment before " | ", add brand if fits
-  const firstSeg = post.metaTitle.split(" | ")[0];
-  const withBrand = `${firstSeg} | Backyard Studio`;
-  const safeTitle = withBrand.length <= 55 ? withBrand : firstSeg;
-  // Enforce 120–155 char description
-  const safeDesc = post.metaDescription.length > 155
-    ? post.metaDescription.substring(0, 152) + "..."
-    : post.metaDescription;
+  // ⚠️ This used to be `post.metaTitle.split(" | ")[0]` — take the first
+  // segment, full stop — to enforce a length cap. Length won over uniqueness,
+  // and it silently collapsed DISTINCT articles onto IDENTICAL SERP titles:
+  //
+  //   "Food Photography Dubai 2026 | Backyard Studio"                     ->
+  //   "Food Photography Dubai 2026 | Restaurant & F&B Photography Guide"  ->
+  //        both rendered  "Food Photography Dubai 2026 | Backyard Studio"
+  //
+  // Same for the two real-estate posts. Two URLs with the same title and the
+  // same topic are what makes Google pick its own canonical and drop one —
+  // i.e. the "Duplicate without user-selected canonical" bucket — even though
+  // audit-duplicate-content.mjs shows the BODY prose of this site is only 21%
+  // similar at its worst. The differentiating half of the title was being
+  // thrown away by the length guard.
+  //
+  // Now: keep the LONGEST prefix of " | " segments that still fits, so the
+  // distinguishing segment survives whenever there is room for it. Measured in
+  // widths, not characters, to match scripts/audit-technical-seo.mjs.
+  // scripts/check-serp-title-collisions.mjs fails the build if two posts still
+  // land on the same title, because this bug is invisible from the source.
+  const BRAND = " | Backyard Studio";
+  const core = post.metaTitle.replace(/\s*\|\s*Backyard Studio(?: Official)?\s*$/i, "");
+  const segs = core.split(" | ");
+  const w = (s: string) =>
+    [...s].reduce(
+      (n, c) =>
+        n +
+        (/[ᄀ-ᅟ⺀-〾ぁ-㏿㐀-䶿一-鿿가-힣＀-｠]/.test(c)
+          ? 2
+          : 1),
+      0,
+    );
+  let safeTitle = segs[0] + BRAND;
+  for (let n = segs.length; n >= 1; n--) {
+    const candidate = segs.slice(0, n).join(" | ") + BRAND;
+    if (w(candidate) <= 60) { safeTitle = candidate; break; }
+  }
+  // If even the first segment plus brand overflows, drop the brand rather than
+  // the keyword — Google frequently rewrites or omits a brand suffix anyway.
+  if (w(safeTitle) > 60 && w(segs[0]) <= 60) safeTitle = segs[0];
+
+  // Descriptions were cut with `substring(0, 152) + "..."`, which lands
+  // mid-word. Prefer a sentence boundary, then a clause, then a word.
+  const safeDesc = (() => {
+    const d = post.metaDescription;
+    if (d.length <= 160) return d;
+    const win = d.slice(0, 156);
+    for (const probe of [". ", "! ", "? "]) {
+      const k = win.lastIndexOf(probe);
+      if (k >= 90) return d.slice(0, k + 1).trim();
+    }
+    for (const probe of ["— ", "– ", ", ", "; "]) {
+      const k = win.lastIndexOf(probe);
+      if (k >= 90) return d.slice(0, k).trim().replace(/[,;—–]$/, "");
+    }
+    const sp = win.lastIndexOf(" ");
+    return (sp >= 90 ? d.slice(0, sp) : win).trim().replace(/[,;—–]$/, "");
+  })();
   return {
     title: { absolute: safeTitle },
     description: safeDesc,

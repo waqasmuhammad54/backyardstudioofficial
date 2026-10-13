@@ -721,7 +721,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "food-photography-guide-dubai-2026",
     title: "Food Photography in Dubai 2026 — Complete Guide for Restaurants & F&B Brands",
-    metaTitle: "Food Photography Dubai 2026 | Restaurant & F&B Photography Guide UAE",
+    metaTitle: "Food Photography Dubai: Full Guide 2026 | Restaurant & F&B UAE",
     metaDescription: "Everything UAE restaurants and F&B brands need to know about food photography in Dubai — from what it costs to how to prepare, what to shoot",
     keywords: ["food photography Dubai", "restaurant photography UAE", "food photographer Dubai", "F&B photography Dubai", "food content creation UAE", "menu photography Dubai 2026"],
     category: "Industry Guide",
@@ -815,7 +815,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "choose-production-company-dubai",
     title: "How to Choose a Production Company in Dubai — 7 Things to Check",
-    metaTitle: "How to Choose a Production Company in Dubai | UAE Production Guide 2026",
+    metaTitle: "Production Company Checklist Dubai 2026 | 7 Things to Check",
     metaDescription: "7 essential things to check before hiring a production company in Dubai. From portfolio review to aerial licences, response times, and red flags",
     keywords: ["how to choose production company Dubai", "hire video production company UAE", "best production company Dubai", "production company checklist Dubai", "UAE video production agency guide"],
     category: "Industry Guide",
@@ -2413,7 +2413,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "testimonial-video-dubai-2026",
     title: "Testimonial Video Production Dubai 2026 | Client Review Videos UAE",
-    metaTitle: "Testimonial Video Production Dubai 2026 | Client Review Videos UAE",
+    metaTitle: "Client Review Videos Dubai 2026 | Testimonial Filming UAE",
     metaDescription: "Professional testimonial video production Dubai. Authentic client review videos that build trust and drive conversions. 1-day shoot from AED 4,500.",
     keywords: ["testimonial video Dubai", "client testimonial video UAE", "customer review video Dubai", "testimonial video production Dubai", "case study video Dubai", "review video UAE"],
     category: "Video Production",
@@ -7041,7 +7041,7 @@ export const BLOG_POSTS: BlogPost[] = [
     slug: "social-media-content-creator-dubai-2026",
     title: "Social Media Content Creator Dubai 2026 | Content Production UAE",
     metaTitle: "Social Media Content Creator Dubai 2026 | Backyard Studio",
-    metaDescription: "Social media content production in Dubai — Instagram, TikTok, LinkedIn Reels, brand campaigns. From AED 2,500.",
+    metaDescription: "What a social media content creator in Dubai actually costs in 2026, how retainers compare to one-off shoots, and what to expect per platform.",
     keywords: [
       "social media content creator dubai",
       "content creation dubai",
@@ -7632,7 +7632,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "real-estate-architecture-photography-dubai-2026",
     title: "Real Estate & Architecture Photography Dubai 2026 — Off-Plan & Luxury Property UAE",
-    metaTitle: "Real Estate Photography Dubai 2026 | Architecture & Property Photography UAE",
+    metaTitle: "Off-Plan Property Photography Dubai 2026 | Developers & Architecture UAE",
     metaDescription: "Professional real estate and architecture photography in Dubai for developers, agents, and interior designers. Quote in 2 hours.",
     keywords: ["real estate photography Dubai", "architecture photography Dubai", "property photography UAE", "interior photography Dubai", "real estate photographer Dubai 2026"],
     category: "Real Estate",

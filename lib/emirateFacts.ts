@@ -29,9 +29,17 @@
  *    government authority on a production company's own site is a credibility
  *    problem, and clients act on it.
  *
- * 2. **No drone or aviation content anywhere in this file.** Drone is not a
- *    bookable service and the aviation regulator stays unnamed sitewide. Permit
- *    research surfaces GCAA drone licensing constantly — it does not go in.
+ * 2. **Still no drone or aviation content in this file — but the REASON has
+ *    changed, so do not cite the old one.** The original rule said drone "is
+ *    not a bookable service and the aviation regulator stays unnamed
+ *    sitewide". Both halves of that are now false: the owner confirmed on
+ *    8 Oct 2026 that the civil aviation licence is issued and in hand (see
+ *    lib/aviationStatus.ts), and on 13 Oct the two drone location pages were
+ *    un-retired and are live. Aerial copy lives in aviationStatus.ts and on
+ *    those pages. It stays out of THIS file purely for scope: this file is
+ *    geography and permitting, it is rendered on ~89 pages, and permit research
+ *    surfaces GCAA licensing constantly — which belongs in the one switch, not
+ *    duplicated across every location page.
  *
  * 3. `knownFor` and `terrain` describe geography and are safe. `venues` names
  *    only categories of location, never a specific venue we claim access to or
@@ -55,6 +63,24 @@ export type EmirateFacts = {
   venues: string;
   /** The practical scheduling constraint a client should know about. */
   logistics: string;
+  /**
+   * SERP-length summary for the /locations/<city> meta description.
+   *
+   * ⚠️ Added 13 Oct 2026 for a measured defect. All seven city hub
+   * descriptions were generated from ONE template with only the city name
+   * substituted, so they rendered 89% identical to each other —
+   * scripts/audit-duplicate-signals.mjs flagged the whole set. Their BODY copy
+   * is only 1% similar (the differentiation work in this file succeeded), so
+   * the pages were fine and the signal was not: identical descriptions on
+   * same-shaped titles is what makes Google pick its own canonical.
+   *
+   * Each is a condensation of this emirate's own `knownFor` / `terrain`
+   * below — no new claims — and each keeps the "Free quote in 2 hours" CTA,
+   * which is the strongest line in the old template. Keep under ~155
+   * characters and keep them genuinely different from one another; a
+   * reworded template is the same bug.
+   */
+  serpSummary: string;
 };
 
 export const EMIRATE_FACTS: Record<string, EmirateFacts> = {
@@ -71,6 +97,8 @@ export const EMIRATE_FACTS: Record<string, EmirateFacts> = {
       "hotel and resort property, private villas, studio space, waterfront promenades, desert conservation areas and licensed public locations",
     logistics:
       "traffic is the scheduling constraint rather than distance. A cross-city move that takes 25 minutes at 10am takes well over an hour at 5pm, so shot lists are sequenced by geography rather than by storyboard order",
+    serpSummary:
+      "Video production, weddings, events and Reels in Dubai — skyline, desert, marina and old-town looks all within an hour. Free quote in 2 hours.",
   },
 
   "abu-dhabi": {
@@ -86,6 +114,8 @@ export const EMIRATE_FACTS: Record<string, EmirateFacts> = {
       "cultural and institutional buildings, island resort property, studio facilities, corniche waterfront and desert interior",
     logistics:
       "distances are real rather than traffic-bound. Yas and Saadiyat to the mainland and out to the desert are genuine drives, so a multi-location Abu Dhabi day is planned around travel time in a way a Dubai day is not",
+    serpSummary:
+      "Video production in Abu Dhabi — institutional, cultural and government-adjacent work, island resorts and the Corniche. Free quote in 2 hours.",
   },
 
   sharjah: {
@@ -101,6 +131,8 @@ export const EMIRATE_FACTS: Record<string, EmirateFacts> = {
       "heritage and old-town districts, corniche and lagoon waterfront, educational and cultural campuses, and residential communities",
     logistics:
       "the Dubai–Sharjah commute is the single biggest scheduling factor. Morning inbound and evening outbound traffic is severe, so call times are set either well before or well after the peak",
+    serpSummary:
+      "Video production in Sharjah — heritage and old-town character, coral-stone architecture, corniche and lagoon. Free quote in 2 hours.",
   },
 
   ajman: {
@@ -116,6 +148,8 @@ export const EMIRATE_FACTS: Record<string, EmirateFacts> = {
       "open public beach, corniche, residential communities and smaller hotel property",
     logistics:
       "small enough to cross in minutes, which makes multi-location days unusually efficient once the crew is there. The travel cost is getting in and out, not moving around inside it",
+    serpSummary:
+      "Video production in Ajman — the most cost-efficient emirate to shoot in, with genuinely uncrowded beach frontage. Free quote in 2 hours.",
   },
 
   "ras-al-khaimah": {
@@ -132,6 +166,8 @@ export const EMIRATE_FACTS: Record<string, EmirateFacts> = {
       "mountain road and summit locations, desert interior, beach resort property and conservation areas",
     logistics:
       "the drive from Dubai is substantial and mountain access adds more on top, so RAK is planned as a full-day minimum. Half-day bookings here are usually a false economy",
+    serpSummary:
+      "Video production in Ras Al Khaimah — the only real mountain scenery in the UAE, red rock and directional shadow. Free quote in 2 hours.",
   },
 
   fujairah: {
@@ -147,6 +183,8 @@ export const EMIRATE_FACTS: Record<string, EmirateFacts> = {
       "east-coast beaches, mountain and wadi locations, harbour and fishing-port areas, and resort property",
     logistics:
       "the mountain crossing from Dubai is the constraint. Sunrise work on the east coast means either a very early departure or staying the night before, and the second option usually produces the better footage",
+    serpSummary:
+      "Video production in Fujairah — the only emirate on the Gulf of Oman, where the sun rises over the sea. Free quote in 2 hours.",
   },
 
   "umm-al-quwain": {
@@ -162,6 +200,8 @@ export const EMIRATE_FACTS: Record<string, EmirateFacts> = {
       "lagoon and mangrove areas, long undeveloped beach, small-harbour and traditional settings",
     logistics:
       "far enough from Dubai to need a dedicated day, and genuinely quiet on arrival — the practical benefit is that locations are rarely crowded, so setups hold without constant resets",
+    serpSummary:
+      "Video production in Umm Al Quwain — the quietest coastline in the country, tidal lagoons and mangroves. Free quote in 2 hours.",
   },
 };
 

@@ -918,7 +918,7 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
     keywords: ["social media videography Dubai", "social media photography Dubai", "social media shoots Dubai UAE", "content creation shoot Dubai", "Instagram photography Dubai", "TikTok videography Dubai"],
   },
   "automotive": {
-    title: "Automotive Photography & Video Dubai",
+    title: "Car Photography & Videography Dubai",
     description: "Professional automotive videography and photography in Dubai. Studio and on-location car shoots, dynamic on-road filming, drone aerials",
     keywords: ["automotive videography Dubai", "car photography Dubai", "automotive photography UAE", "car shoot Dubai", "dealership photography Dubai", "vehicle photography UAE"],
   },
