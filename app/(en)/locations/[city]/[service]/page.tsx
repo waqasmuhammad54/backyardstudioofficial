@@ -378,7 +378,7 @@ const PAGES: Record<string, ServicePage> = {
     ],
     highlights: [
       { heading: "Unit & Show Apartment Photography", body: "Precision interior photography of Abu Dhabi residential and commercial units, styled for developer marketing brochures, online listings, and international investor presentations." },
-      { heading: "Aerial Drone Documentation", body: "Aerial coverage of Abu Dhabi development sites, masterplans, and completed communities. Drone permits coordinated with ADAC and relevant authority for each location zone." },
+      { heading: "Aerial Drone Documentation", body: "Aerial coverage of Abu Dhabi development sites, masterplans, and completed communities. Airspace approval is applied for per location zone and per date before the shoot is confirmed." },
       { heading: "Developer Launch Campaigns", body: "Full photography production for project launches: CGI lifestyle composites preparation, show apartment hero shots, community aerial footage, and lifestyle imagery for Saadiyat, Yas, and Al Reem Island projects." },
       { heading: "Saadiyat & Yas Island Specialists", body: "Years of experience shooting in Abu Dhabi's premium development zones. We know permit processes, ideal shooting times, and how to capture these extraordinary environments at their best." },
     ],
@@ -390,7 +390,7 @@ const PAGES: Record<string, ServicePage> = {
     ],
     faqs: [
       { q: "Do you produce real estate photography for Aldar Properties developments?", a: "Yes. Backyard Studio Official produces real estate photography and videography for Abu Dhabi developer projects including residential communities, show apartments, project launch campaigns, and aerial documentation. We work within the specific briefing and approval processes that major developers like Aldar operate." },
-      { q: "Are you licensed for drone photography over Abu Dhabi real estate developments?", a: "Yes. Aerial work is fully permitted, with airspace permissions for Abu Dhabi locations including Saadiyat Island, Yas Island, Al Reem Island, and Al Maryah Island. Abu Dhabi Civil Aviation Authority (ADAC) coordination is managed by our team as part of the production service." },
+      { q: "Are you licensed for drone photography over Abu Dhabi real estate developments?", a: "Yes — we fly with an in-house licensed drone team and do not fly without clearance. Abu Dhabi airspace approval is applied for per location and per date, including on Saadiyat, Yas, Al Reem and Al Maryah, and we make those applications as part of the production. Approval is the authority decision, so build permit lead time into the schedule rather than assuming a date." },
       { q: "How much does real estate photography cost in Abu Dhabi?", a: "Unit photography in Abu Dhabi starts from AED 1,200 for up to 3 units with 30 images. Show apartment campaigns start from AED 3,500 for a full-day shoot. Aerial drone packages start from AED 2,500 for a 2-hour drone session. Developer launch packages covering multi-day photography and video are quoted individually." },
       { q: "Do you produce real estate content for international investor audiences?", a: "Yes. Backyard Studio Official produces Abu Dhabi real estate content calibrated for international investor audiences in Europe, South Asia, and Southeast Asia. This includes English-language video with international narration, photography formatted for international property portals, and developer brand films designed for investor roadshow use." },
     ],
