@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     canonical: "https://www.backyardstudioofficial.com/ru/blog/fotografiya-beremennosti-dubai-2026",
     languages: {
       ru: "https://www.backyardstudioofficial.com/ru/blog/fotografiya-beremennosti-dubai-2026",
-      en: "https://www.backyardstudioofficial.com/blog/maternity-photography-dubai-2026",
+      en: "https://www.backyardstudioofficial.com/blog/maternity-photographer-dubai-2026",
     },
   },
   openGraph: {

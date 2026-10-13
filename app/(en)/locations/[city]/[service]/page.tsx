@@ -147,17 +147,21 @@ const PAGES: Record<string, ServicePage> = {
     title: "Drone Videography in Dubai 2026 | Backyard Studio Official",
     metaDescription: "Drone videography in Dubai — Burj Khalifa, Palm Jumeirah, Marina, JBR, Downtown. 4K aerial photography & cinematic video. From AED 2,000.",
     h1: "Drone Videography in Dubai",
-    subtitle: "Burj Khalifa district. Palm Jumeirah. Marina. Every zone covered legally.",
+    subtitle: "Burj Khalifa district. Palm Jumeirah. Marina. Licensed pilots, permits applied for per shoot.",
     category: "DRONE VIDEOGRAPHY",
     intro: [
-      "Dubai produces more aerial video content than almost any other city in the world — and for good reason. The Burj Khalifa at golden hour, the Palm Jumeirah from altitude, the Dubai Marina skyline reflected in the Gulf at dusk — these are images that no ground-level camera can replicate. Backyard Studio Official produces fully permitted aerial video in Dubai's most photographed zones legally, with all permits coordinated before any camera leaves the ground.",
+      "Dubai produces more aerial video content than almost any other city in the world — and for good reason. The Burj Khalifa at golden hour, the Palm Jumeirah from altitude, the Dubai Marina skyline reflected in the Gulf at dusk — these are images that no ground-level camera can replicate. Backyard Studio Official flies with a licensed in-house drone team, and the location permit for each shoot is applied for and granted before anything leaves the ground.",
       "We produce drone videography for Dubai's real estate, tourism, events, construction documentation, wedding, and commercial advertising sectors. Our aerial team operates cinema-grade drone systems in 4K and 6K with cinema colour profiles, delivering footage that integrates seamlessly into broadcast, online, and social media productions.",
     ],
     highlights: [
-      { heading: "Burj Khalifa District", body: "One of the world's most filmed aerial environments. Drone operations in the Downtown Dubai zone require DTCM and Dubai Film Commission coordination. Our team has the permits and the experience to deliver exceptional footage from this airspace." },
-      { heading: "Palm Jumeirah & JBR", body: "Coastal aerial footage of the Palm, Jumeirah Beach, and the JBR waterfront — the images that define Dubai's luxury lifestyle brand globally. We coordinate Nakheel and DTCM permits for Palm Jumeirah aerial sessions." },
+      // ⚠️ Authority named here is DFTC, per lib/emirateFacts.ts: since a 2014
+      // decree the Dubai Film and TV Commission is the SINGLE authority for
+      // filming permits in Dubai. This copy previously said "DTCM and Dubai
+      // Film Commission", which is both outdated and the wrong body.
+      { heading: "Burj Khalifa District", body: "One of the world's most filmed aerial environments, and restricted airspace. Filming here needs a Dubai Film and TV Commission permit plus the relevant property owner's consent, applied for before the shoot date is confirmed. We make that application as part of the booking." },
+      { heading: "Palm Jumeirah & JBR", body: "Coastal aerial footage of the Palm, Jumeirah Beach, and the JBR waterfront — the images that define Dubai's luxury lifestyle brand globally. Palm Jumeirah aerials need a DFTC permit and the property owner's consent; both are arranged before the date is locked." },
       { heading: "Dubai Marina & City Skyline", body: "The Marina at dawn from altitude, the skyline at golden hour, the Creek Harbour towers reflected in the water — our aerial team knows the exact times and positions for each iconic Dubai aerial shot." },
-      { heading: "Real Estate & Construction", body: "Development site documentation, masterplan aerials, community overview footage — coordinated with Dubai Land Department and individual developer site teams." },
+      { heading: "Real Estate & Construction", body: "Development site documentation, masterplan aerials and community overview footage, with site access arranged through the developer ahead of the shoot." },
     ],
     pricing: [
       { pkg: "Drone Session (2 hrs)", detail: "Licensed pilot / 4K footage / colour-graded edit", price: "From AED 2,000" },
@@ -166,8 +170,15 @@ const PAGES: Record<string, ServicePage> = {
       { pkg: "Real Estate Aerial", detail: "Development documentation / same-day delivery", price: "From AED 3,000" },
     ],
     faqs: [
-      { q: "Is drone flying legal in Dubai and do you have the required licences?", a: "Drone operations in Dubai require a commercial operator certificate and location-specific permits from the Dubai Film and TV Commission, relevant property authorities, and in some zones, Dubai Civil Aviation Authority. Backyard Studio Official holds all required licences and manages every permit before any flight. We do not operate without complete legal clearance." },
-      { q: "Can you fly a drone near the Burj Khalifa in Dubai?", a: "Aerial filming in the Burj Khalifa district requires specific DTCM, Emaar, and Dubai Film Commission coordination. Backyard Studio Official has produced aerial content in the Downtown Dubai zone and manages the full permit process for Burj Khalifa-area shoots. Lead time is typically 3–5 business days for Downtown Dubai aerial permits." },
+      // Claims here are limited to the one thing confirmed by the owner on
+      // 8 Oct 2026 (see lib/aviationStatus.ts): the civil aviation licence is
+      // issued and in hand. Everything the previous version asserted beyond
+      // that — permits already held for specific restricted zones, past shoots
+      // inside the Downtown Dubai zone, and a 3–5 day permit lead time — was
+      // removed. If any of it is in fact true, it is worth restoring, but it
+      // has to come from the owner rather than from this file.
+      { q: "Is drone flying legal in Dubai and do you have the required licences?", a: "Yes. Backyard Studio Official flies with an in-house licensed drone team, and we do not fly without clearance. Commercial aerial work in Dubai also needs a location permit for the specific site and date, issued by the Dubai Film and TV Commission — the single authority for filming permits in Dubai — plus the property owner's consent in some zones. We make that application for every shoot as part of the booking." },
+      { q: "Can you fly a drone near the Burj Khalifa in Dubai?", a: "Downtown Dubai is restricted airspace, so it is not a same-week booking. It needs a Dubai Film and TV Commission permit for the specific date and the relevant property owner's consent, and we apply for both on your behalf. Tell us the date as early as you can: on Downtown shoots the permit, not crew availability, is what sets the schedule." },
       { q: "How much does drone videography cost in Dubai?", a: "Drone sessions in Dubai start from AED 2,000 for a 2-hour session with a licensed pilot, 4K footage, and colour-graded edit. Half-day aerial packages with multiple locations start from AED 3,500. Combined drone and ground camera packages from AED 5,500." },
       { q: "Can you produce drone content for Dubai social media and advertising campaigns?", a: "Yes. Our Dubai drone team produces aerial content specifically formatted for social media: vertical Reels, square cuts, and horizontal widescreen — all from a single flight session. We can deliver same-day rough cuts for time-sensitive social media campaigns." },
     ],
@@ -389,17 +400,24 @@ const PAGES: Record<string, ServicePage> = {
     title: "Drone Videography in Abu Dhabi 2026 | Backyard Studio Official",
     metaDescription: "Drone videography in Abu Dhabi — Sheikh Zayed Grand Mosque, Yas Island, Saadiyat, Corniche, ADGM. Aerial photography & 4K video. From AED 2,500.",
     h1: "Drone Videography in Abu Dhabi",
-    subtitle: "ADAC coordinated. Every zone in the capital covered legally.",
+    subtitle: "Licensed drone team. Abu Dhabi Film Commission permits applied for per shoot.",
     category: "DRONE VIDEOGRAPHY",
     intro: [
-      "Drone videography in Abu Dhabi requires more than a camera in the sky. The UAE capital's airspace is among the most regulated in the region, with Abu Dhabi Civil Aviation Authority (ADAC) overseeing commercial drone operations and additional permissions required for filming near government buildings, sensitive zones, and the Sheikh Zayed Grand Mosque environs. Backyard Studio Official arranges all required approvals and manages all Abu Dhabi airspace coordination as a standard part of every aerial production.",
+      // ⚠️ "Abu Dhabi Civil Aviation Authority (ADAC)" was removed from this
+      // page. lib/emirateFacts.ts records the VERIFIED Abu Dhabi authority as
+      // the Abu Dhabi Film Commission (ADFC), and names an emirate's permit
+      // authority only where it is confirmed — which is exactly why Sharjah,
+      // Fujairah, Ajman and Umm Al Quwain are left unnamed there. Civil
+      // aviation in the UAE is federal. Naming a body whose remit we have not
+      // confirmed is the same error as filling those four in from a blog post.
+      "Drone videography in Abu Dhabi requires more than a camera in the sky. The capital's airspace is among the most regulated in the region, and filming near government buildings, sensitive sites and the Sheikh Zayed Grand Mosque environs needs clearance beyond a standard permit. Backyard Studio Official flies with an in-house licensed drone team, and the Abu Dhabi Film Commission permit for each shoot — which requires a media zone authority trade licence to apply for — is arranged before the date is confirmed.",
       "Our Abu Dhabi drone team captures the capital's extraordinary architecture — the Corniche skyline, the Louvre Abu Dhabi's perforated dome, the Yas Marina Circuit's race track curve, and the natural mangrove systems of Eastern Mangroves and Jubail Island. We produce aerial content for real estate developers, tourism campaigns, government communications, event documentation, and commercial advertising in 4K with cinema-grade colour grading.",
     ],
     highlights: [
-      { heading: "Sheikh Zayed Grand Mosque", body: "One of the world's most photographed buildings from the air. Aerial filming of SZGM requires specific ADAC coordination and restricted airspace clearance — which our team manages on your behalf." },
+      { heading: "Sheikh Zayed Grand Mosque", body: "One of the world's most photographed buildings from the air, and restricted airspace. Aerial filming in the mosque environs needs clearance for the specific date on top of the standard film permit. We make the applications; approval is the authority's to give, so build lead time into the schedule." },
       { heading: "Corniche & City Skyline", body: "The Abu Dhabi Corniche from altitude reveals the city's striking waterfront geometry. Dawn and dusk aerials over the capital are among the most compelling aerial footage available anywhere in the Gulf." },
       { heading: "Yas & Saadiyat Islands", body: "Development documentation, resort launches, and event coverage on both islands with same-day drone footage delivery for time-sensitive productions." },
-      { heading: "Mangroves & Natural Environments", body: "The Eastern Mangroves, Jubail Island, and Abu Dhabi's coastline offer dramatic natural aerial perspectives. Conservation area permits coordinated with relevant environmental authorities." },
+      { heading: "Mangroves & Natural Environments", body: "The Eastern Mangroves, Jubail Island, and Abu Dhabi's coastline offer dramatic natural aerial perspectives. Protected areas carry their own access conditions, which we check for your specific location before quoting a date." },
     ],
     pricing: [
       { pkg: "Drone Session (2 hrs)", detail: "Licensed pilot / 4K footage / basic edit", price: "From AED 2,500" },
@@ -408,10 +426,16 @@ const PAGES: Record<string, ServicePage> = {
       { pkg: "Real Estate Aerial", detail: "Development documentation", price: "From AED 3,500" },
     ],
     faqs: [
-      { q: "Is drone flying legal in Abu Dhabi and do you have the required permits?", a: "Drone operations in Abu Dhabi require a commercial operator certificate and, for specific zones, additional clearance from Abu Dhabi Civil Aviation Authority (ADAC). Backyard Studio Official holds all required licences and manages every permit application as part of our standard service. We do not fly without complete legal clearance." },
-      { q: "Can you fly a drone near the Sheikh Zayed Grand Mosque?", a: "Aerial filming near the Sheikh Zayed Grand Mosque is restricted airspace requiring specific ADAC clearance and coordination with the Mosque's management. Backyard Studio Official has experience navigating this process and has produced aerial content in the SZGM zone for tourism and institutional clients. Lead time for SZGM-adjacent drone permits is typically 5 to 7 business days." },
+      // As with the Dubai page: the licence claim stays (confirmed 8 Oct 2026),
+      // the claimed SZGM-zone shoot history, the named government client and
+      // the invented 5–7 day lead time are gone.
+      { q: "Is drone flying legal in Abu Dhabi and do you have the required permits?", a: "Yes. Backyard Studio Official flies with an in-house licensed drone team and does not fly without clearance. Abu Dhabi commercial filming also needs a permit from the Abu Dhabi Film Commission for the specific site and date, and the applying production company needs a media zone authority trade licence — the step that catches out crews who assume a Dubai licence carries across. We hold that side of it and apply for every shoot." },
+      { q: "Can you fly a drone near the Sheikh Zayed Grand Mosque?", a: "The mosque environs are restricted airspace, so this is never a short-notice booking. It needs clearance for the specific date in addition to the standard Abu Dhabi film permit, and we make both applications on your behalf. The authority decides the outcome and the timing, so the honest answer is to come to us early and treat the permit as the critical path." },
       { q: "How much does drone videography cost in Abu Dhabi?", a: "Drone sessions in Abu Dhabi start from AED 2,500 for a 2-hour session with a licensed pilot, 4K footage, and basic colour edit. Full-day aerial packages with multiple locations and a colour-graded edit start from AED 4,000. Packages combining aerial and ground camera teams start from AED 6,500." },
-      { q: "Can you produce drone content for Abu Dhabi tourism campaigns?", a: "Yes. Backyard Studio Official produces drone and aerial content for Abu Dhabi tourism and hospitality brands, including destination overview films, resort aerial footage for Yas and Saadiyat Island properties, and campaign content for Abu Dhabi Tourism marketing in international markets. We are familiar with DCT Abu Dhabi's visual guidelines for tourism content." },
+      // "campaign content for Abu Dhabi Tourism" named a government body as a
+      // client, and "familiar with DCT Abu Dhabi's visual guidelines" implied a
+      // working relationship. Neither is evidenced. Capability only.
+      { q: "Can you produce drone content for Abu Dhabi tourism campaigns?", a: "Yes — destination overview films, resort and hospitality aerials across Yas and Saadiyat, and campaign cutdowns for international markets. Tourism work usually arrives with brand guidelines attached, and we shoot and grade to them rather than to a house look. Send the deck with the brief and the aerial plan comes back built around it." },
     ],
   },
 
@@ -918,7 +942,7 @@ const PAGES: Record<string, ServicePage> = {
   },
 
   "abu-dhabi/personal-branding-photography": {
-    title: "Personal Branding Photography in Abu Dhabi 2026 | Backyard Studio Official",
+    title: "Personal Branding Photography Abu Dhabi | Backyard Studio Official",
     metaDescription: "Personal branding photography in Abu Dhabi — professionals, entrepreneurs, coaches, executives. From AED 1,500.",
     h1: "Personal Branding Photography in Abu Dhabi",
     subtitle: "Executives. Entrepreneurs. Coaches. Your professional image in Abu Dhabi's business capital.",
@@ -1070,7 +1094,7 @@ const PAGES: Record<string, ServicePage> = {
   },
 
   "abu-dhabi/social-media-content": {
-    title: "Social Media Content Creation in Abu Dhabi 2026 | Backyard Studio Official",
+    title: "Social Media Content Creation Abu Dhabi | Backyard Studio Official",
     metaDescription: "Social media content production in Abu Dhabi — Instagram Reels, TikTok, LinkedIn video, brand campaigns. From AED 2,500.",
     h1: "Social Media Content Creation in Abu Dhabi",
     subtitle: "Instagram. TikTok. LinkedIn. Abu Dhabi brands and creators, consistently showing up.",
@@ -1258,7 +1282,7 @@ const PAGES: Record<string, ServicePage> = {
   },
 
   "abu-dhabi/al-maryah-island": {
-    title: "Video Production in Al Maryah Island & ADGM 2026 | Backyard Studio Official",
+    title: "Video Production Al Maryah Island & ADGM | Backyard Studio Official",
     metaDescription: "Video production and photography on Al Maryah Island Abu Dhabi — ADGM financial district, corporate films, executive portraits",
     h1: "Video Production on Al Maryah Island",
     subtitle: "ADGM. Abu Dhabi's financial centre — corporate content at institutional standard.",

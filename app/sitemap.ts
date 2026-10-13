@@ -85,6 +85,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/locations/dubai/birthday-photography",         lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: BASE + "/locations/dubai/kids-photography",             lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: BASE + "/locations/dubai/engagement-photography",       lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    // Un-retired 13 Oct 2026. A wildcard 301 in next.config.mjs had been
+    // swallowing every /locations/:city/drone-videography URL since August,
+    // when drone could not be asserted as a service; the owner confirmed the
+    // civil aviation licence in hand on 8 Oct. Copy was rewritten to the
+    // licence we can evidence before these were declared here. High intent:
+    // "drone videography Dubai" is a buying query, not a research one.
+    { url: BASE + "/locations/dubai/drone-videography",             lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     // Dubai area pages — higher-intent, lower-competition than city-level terms.
     { url: BASE + "/locations/dubai/dubai-marina",                 lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: BASE + "/locations/dubai/downtown-dubai",               lastModified: now, changeFrequency: "monthly", priority: 0.85 },
@@ -98,6 +105,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Sprint 14: Additional Abu Dhabi sub-pages (2026-06-22)
   const abuDhabiSubPages: MetadataRoute.Sitemap = [
     // Abu Dhabi area pages — higher-intent, lower-competition than city-level terms.
+    // Un-retired alongside the Dubai one — see the note in dubaiSubPages.
+    { url: BASE + "/locations/abu-dhabi/drone-videography",            lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: BASE + "/locations/abu-dhabi/yas-island",                   lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: BASE + "/locations/abu-dhabi/saadiyat-island",              lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: BASE + "/locations/abu-dhabi/al-maryah-island",             lastModified: now, changeFrequency: "monthly", priority: 0.85 },
@@ -200,6 +209,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/ar/about",                                   lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: BASE + "/ar/contact",                                 lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: BASE + "/ar/blog",                                    lastModified: now, changeFrequency: "weekly",  priority: 0.7 },
+    // ⚠️ These two existed on disk, served 200, and were named as hreflang
+    // alternates by the ru and zh versions — but were never declared here,
+    // while /zh/testimonials and /zh/locations were. An hreflang target that
+    // Google has not been told about undermines the whole cluster, so the
+    // asymmetry was silently suppressing all four language versions of both
+    // pages. Keep the four locales symmetrical when adding locale pages.
+    { url: BASE + "/ar/testimonials",                            lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: BASE + "/ar/locations",                               lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/taswirzifaf-dubai-2026",             lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/asear-tasswirvideo-dubai-2026",      lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ar/blog/video-sharikaat-dubai-2026",         lastModified: now, changeFrequency: "monthly", priority: 0.75 },
@@ -250,6 +267,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: BASE + "/ru/about",                                   lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: BASE + "/ru/contact",                                 lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: BASE + "/ru/blog",                                    lastModified: now, changeFrequency: "weekly",  priority: 0.7 },
+    // See the note on /ar/testimonials above — same omission, same cluster.
+    { url: BASE + "/ru/testimonials",                            lastModified: now, changeFrequency: "monthly", priority: 0.7 },
+    { url: BASE + "/ru/locations",                               lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ru/blog/svadebnyi-fotograf-dubai-2026",      lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ru/blog/stoimost-videosemki-dubai-2026",     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ru/blog/korporativnoe-video-dubai-2026",     lastModified: now, changeFrequency: "monthly", priority: 0.75 },

@@ -4891,7 +4891,10 @@ export const BLOG_POSTS: BlogPost[] = [
       { question: "What should I wear to a maternity photoshoot?", answer: "Maternity photography wardrobe divides into two distinct styles: flowing fabric and form-fitting. Flowing dresses — particularly chiffon or linen in soft, neutral tones — photograph beautifully in outdoor settings and emphasise the feminine silhouette of pregnancy without being clinical. Form-fitting lycra or jersey wraps show the shape of the bump most clearly and give a more sculptural, artistic result. We recommend bringing options in both styles if you are unsure which you prefer — many clients find they like both for different setups within the same session." },
       { question: "How much does a maternity photoshoot cost in Dubai?", answer: "Maternity photography in Dubai starts from AED 900 for a 60–75 minute outdoor or studio session delivering 30–50 edited images. An extended session including partner and older children, multiple outfit changes, and 2 locations starts from AED 1,500 and delivers 60–80 images. Combined maternity and newborn packages (booking both sessions at the same time) are available from AED 1,800 and are popular with clients who want visual continuity between the two sessions." },
     ],
-    relatedSlugs: ["baby-photographer-dubai-2026", "newborn-photographer-dubai-2026", "family-photographer-dubai-2026"],
+    // "baby-photographer-dubai-2026" removed: it is retired and 301s to
+    // newborn-photographer-dubai-2026, which is already the next item here —
+    // so the link cost a redirect hop to reach a sibling in the same list.
+    relatedSlugs: ["newborn-photographer-dubai-2026", "family-photographer-dubai-2026", "maternity-photographer-dubai-2026"],
     content: `
 <h2>Maternity Photography in Dubai — Capturing This Moment</h2>
 <p>Pregnancy is one of the most visually and emotionally significant periods in a person's life. The physical transformation of nine months — the growing bump, the change in posture, the visible approach of a new life — is something that passes quickly and is often incompletely documented. Professional maternity photography creates a visual record of pregnancy that goes beyond the mirror selfie: images with intention, with light, with composition, and with the emotional honesty that genuine photographic craft produces.</p>

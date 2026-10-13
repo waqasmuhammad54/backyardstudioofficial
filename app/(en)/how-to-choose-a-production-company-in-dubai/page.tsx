@@ -7,7 +7,7 @@ const BASE = "https://www.backyardstudioofficial.com";
 const PAGE_URL = `${BASE}/how-to-choose-a-production-company-in-dubai`;
 
 export const metadata: Metadata = {
-  title: "How to Choose a Production Company in Dubai (2026 Guide)",
+  title: "How to Choose a Dubai Production Company",
   description: "A 10-point checklist for choosing a video production company in Dubai — budget bands, UAE permit realities, contract red flags",
   keywords: [
     "how to choose a video production company in Dubai",

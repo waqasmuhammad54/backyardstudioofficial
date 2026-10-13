@@ -1,11 +1,19 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  // Brand removed from the middle of this title — the zh layout template
-  // appends it, so it was rendering twice and pushing the tag to 89 chars
-  // against Google's ~60. scripts/fix-locale-titles.mjs only strips a trailing
-  // brand, and this one sat mid-string, so it needed doing by hand.
-  title: "关于我们 | 法哈德·伊克巴尔·巴特与赛义德·马扎尔·扎伊迪 — 迪拜制作团队",
+  // ⚠️ Measure this title in WIDTHS, not characters. CJK glyphs are
+  // full-width, so the previous version — already once de-duplicated for a
+  // doubled brand — still rendered at 95 Latin-widths against Google's ~60
+  // once the zh template appended " | Backyard Studio Official". A character
+  // count of "66" made that look like a near-miss; it was the worst title on
+  // the site.
+  //
+  // The two transliterated founder names cost 48 widths, 80% of the whole
+  // budget, and nobody searches 法哈德·伊克巴尔·巴特 in Chinese. They stay in the
+  // description, the keywords and the Organization schema below, where they
+  // do entity work without competing for SERP pixels. The title carries the
+  // commercial query instead: 迪拜 + 影视制作 + 制作公司. Renders at 54 widths.
+  title: "关于我们 | 迪拜影视制作公司",
  description: "了解Backyard Studio Official——迪拜领先的创意制作公司。2019年由法哈德·伊克巴尔·巴特与赛义德·马扎尔·扎伊迪创立。2,400+项目，无人机航拍，20年+经验。",
   keywords: ["法哈德伊克巴尔巴特", "赛义德马扎尔扎伊迪", "迪拜制作公司", "Backyard Studio团队", "工作室故事", "迪拜最佳摄影工作室"],
   alternates: {

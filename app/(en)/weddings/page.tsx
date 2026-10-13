@@ -64,7 +64,7 @@ const EN_GUIDES = [
   { slug: "emirati-wedding-photography-dubai-2026", label: "Emirati Wedding Photography" },
   { slug: "arabic-wedding-photography-dubai-2026", label: "Arabic Wedding Photography" },
   { slug: "indian-wedding-photographer-dubai-2026", label: "Indian Wedding Photographer in Dubai" },
-  { slug: "indian-wedding-photography-dubai", label: "Indian Wedding Photography — Full Guide" },
+  { slug: "indian-wedding-photographer-dubai-2026", label: "Indian Wedding Photography — Full Guide" },
   { slug: "pakistani-wedding-photographer-dubai-2026", label: "Pakistani Wedding Photographer in Dubai" },
   { slug: "desi-wedding-photographer-dubai-2026", label: "Desi Wedding Photographer in Dubai" },
   { slug: "filipino-wedding-photographer-dubai-2026", label: "Filipino Wedding Photographer in Dubai" },

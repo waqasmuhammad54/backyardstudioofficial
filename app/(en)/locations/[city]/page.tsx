@@ -181,6 +181,13 @@ const CITY_SUB_PAGES: Record<string, { slug: string; name: string; desc: string 
     { slug: "birthday-photography",        name: "Birthday Photography",      desc: "Milestone birthday & celebration portrait sessions" },
     { slug: "kids-photography",            name: "Kids Photography",          desc: "Natural, fun portraits of children at every stage" },
     { slug: "engagement-photography",      name: "Engagement Photography",    desc: "Romantic engagement sessions across Dubai's iconic spots" },
+    // ⚠️ This link is what keeps the restored drone page out of "Discovered –
+    // currently not indexed". Twenty-two pages sat in that state earlier this
+    // year for exactly one reason: nothing linked to them. A page added to
+    // PAGES and to the sitemap but not to a hub list is born orphaned, and
+    // that has now happened twice on this site. Added in the same commit that
+    // removed the wildcard 301 in next.config.mjs.
+    { slug: "drone-videography",           name: "Drone Videography",         desc: "Licensed aerial filming — Burj Khalifa district, Palm Jumeirah & Marina" },
   ],
   "abu-dhabi": [
     { slug: "wedding-photography",         name: "Wedding Photography",       desc: "Emirates Palace, Yas Hotel & Saadiyat Island weddings" },
@@ -198,6 +205,8 @@ const CITY_SUB_PAGES: Record<string, { slug: string; name: string; desc: string 
     { slug: "birthday-photography",        name: "Birthday Photography",      desc: "Birthday & milestone portrait sessions" },
     { slug: "kids-photography",            name: "Kids Photography",          desc: "Children's photography across Abu Dhabi" },
     { slug: "engagement-photography",      name: "Engagement Photography",    desc: "Engagement sessions at Sheikh Zayed Mosque & beyond" },
+    // See the note on the Dubai entry above — un-orphaning the restored page.
+    { slug: "drone-videography",           name: "Drone Videography",         desc: "Licensed aerial filming across Yas, Saadiyat & the Corniche" },
   ],
   "sharjah": [
     { slug: "headshot-photography",    name: "Headshot Photography",  desc: "Professional headshots for Sharjah businesses & professionals" },

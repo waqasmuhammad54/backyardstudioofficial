@@ -7,7 +7,7 @@ import { breadcrumbSchema, faqSchema, servicePageSchema, speakableSchema } from 
 const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photography-abu-dhabi";
 
 export const metadata: Metadata = {
-  title: "Wedding Photographer Abu Dhabi | From AED 7,500",
+  title: "Wedding Photographer Abu Dhabi | AED 7,500",
   description: "Wedding photographer in Abu Dhabi — photography & videography packages from AED 7,500 with no travel fees.",
   keywords: [
     "wedding photographer Abu Dhabi",

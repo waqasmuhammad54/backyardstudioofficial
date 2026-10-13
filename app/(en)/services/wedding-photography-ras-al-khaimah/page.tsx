@@ -7,8 +7,11 @@ import { breadcrumbSchema, faqSchema, servicePageSchema, speakableSchema } from 
 const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photography-ras-al-khaimah";
 
 export const metadata: Metadata = {
-  title: "Wedding Photographer Ras Al Khaimah | AED 7,500",
-  description: "Wedding photographer in Ras Al Khaimah — Waldorf Astoria, Ritz-Carlton Al Wadi desert weddings, Rixos Bab Al Bahr & Jebel Jais backdrops.",
+  title: "Wedding Photographer Ras Al Khaimah",
+  // "AED 7,500" moved here from the <title>: "Ras Al Khaimah" is the ranking
+  // term and had to keep its place in a 60-width budget, but a published price
+  // is this site's differentiator and must not simply vanish from the SERP.
+  description: "Wedding photographer in Ras Al Khaimah — Waldorf Astoria, Ritz-Carlton Al Wadi desert weddings, Jebel Jais backdrops. From AED 7,500.",
   keywords: [
     "wedding photographer Ras Al Khaimah",
     "wedding photography RAK",

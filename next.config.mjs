@@ -79,7 +79,36 @@ const nextConfig = {
       // service page (Food Photography & Videography Dubai). Redirect preserves
       // any acquired links while the 8 internal hrefs are updated directly.
       { source: "/services/food-photography",                destination: "/services/food",               permanent: true },
-      { source: "/locations/:city/drone-videography",       destination: "/locations/:city",              permanent: true },
+      // ⚠️ REMOVED 13 Oct 2026 — do not reinstate without checking the licence.
+      //
+      // This wildcard 301 was added during the August "keep the aviation
+      // regulator silent" period, when drone could not be asserted as a
+      // bookable service. It swallowed EVERY /locations/:city/drone-videography
+      // URL — including two fully written pages (~580 and ~604 words, own H1,
+      // pricing, FAQs) sitting in the PAGES map of
+      // app/(en)/locations/[city]/[service]/page.tsx, which have been serving a
+      // 308 to the city hub ever since.
+      //
+      // The premise expired on 8 Oct 2026, when the owner confirmed the civil
+      // aviation licence is issued and in hand (lib/aviationStatus.ts). The
+      // site already sells aerial in (en)/layout.tsx and the services template,
+      // the aerial blog cluster is live, and Instagram advertises drone as
+      // bookable — so this redirect was the last thing suppressing a service
+      // the business is licensed to sell, on two high-intent commercial queries
+      // ("drone videography Dubai" / "Abu Dhabi").
+      //
+      // Both pages were rewritten in the same commit before being un-retired:
+      // they previously named DTCM (wrong — DFTC is Dubai's sole authority
+      // since the 2014 decree) and "Abu Dhabi Civil Aviation Authority (ADAC)"
+      // (unconfirmed remit), and claimed permits in hand for restricted zones,
+      // past shoots near the Burj Khalifa and SZGM, a named government tourism
+      // client, and invented permit lead times. None of that was evidenced by
+      // the one fact the owner confirmed. If this is reinstated, re-check that
+      // the pages have not reverted to those claims.
+      //
+      // If the licence ever lapses: set HOLDS_AVIATION_LICENCE = false in
+      // lib/aviationStatus.ts first — the copy switches to accurate "pending"
+      // wording — rather than reaching for this redirect again.
       { source: "/ar/services/aerial-drone",                destination: "/ar/services",                  permanent: true },
       { source: "/ru/services/aerial-drone",                destination: "/ru/services",                  permanent: true },
       { source: "/zh/services/aerial-drone",                destination: "/zh/services",                  permanent: true },

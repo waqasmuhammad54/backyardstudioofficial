@@ -7,8 +7,10 @@ import { breadcrumbSchema, faqSchema, servicePageSchema, speakableSchema } from 
 const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photography-umm-al-quwain";
 
 export const metadata: Metadata = {
-  title: "Wedding Photographer Umm Al Quwain | AED 7,500",
-  description: "Wedding photographer in Umm Al Quwain — intimate beach ceremonies, mangrove lagoon couple shoots & family villa weddings.",
+  title: "Wedding Photographer Umm Al Quwain",
+  // "AED 7,500" moved here from the <title> — see the note in the Ras Al
+  // Khaimah page. Keyword keeps the title; the published price keeps the SERP.
+  description: "Wedding photographer in Umm Al Quwain — intimate beach ceremonies, mangrove lagoon couple shoots & family villa weddings. From AED 7,500.",
   keywords: [
     "wedding photographer Umm Al Quwain",
     "wedding photography UAQ",

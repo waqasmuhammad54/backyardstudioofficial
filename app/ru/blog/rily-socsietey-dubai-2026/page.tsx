@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     canonical: "https://www.backyardstudioofficial.com/ru/blog/rily-socsietey-dubai-2026",
     languages: {
       ru: "https://www.backyardstudioofficial.com/ru/blog/rily-socsietey-dubai-2026",
-      en: "https://www.backyardstudioofficial.com/blog/social-media-content-creation-dubai-2026",
+      en: "https://www.backyardstudioofficial.com/blog/social-media-content-creator-dubai-2026",
     },
   },
   openGraph: {

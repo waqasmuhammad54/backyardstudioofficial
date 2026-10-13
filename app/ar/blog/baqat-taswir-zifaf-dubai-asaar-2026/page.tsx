@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "باقات تصوير الأعراس في دبي 2026 — الأسعار | باكيارد",
+  title: "باقات تصوير الأعراس في دبي 2026 — الأسعار",
   description:
     "باقات تصوير الأعراس في دبي 2026 من 7,500 إلى 65,000 درهم. مقارنة كاملة لباقات Essential وSilver وGold وPlatinum مع تسليم الـRAW في نفس اليوم.",
   keywords: [

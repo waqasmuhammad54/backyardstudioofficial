@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Фудфотография в Дубае 2026 — для ресторанов и брендов",
+  title: "Фудфотография для ресторанов в Дубае",
   description:
     "Съёмка еды в Дубае от AED 1 500. Меню для ресторанов, Talabat/Deliveroo, Instagram, рекламные кампании. Доставка за 48 часов. Реквизит включён.",
   alternates: {

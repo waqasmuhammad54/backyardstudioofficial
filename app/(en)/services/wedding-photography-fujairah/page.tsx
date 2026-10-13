@@ -7,7 +7,7 @@ import { breadcrumbSchema, faqSchema, servicePageSchema, speakableSchema } from 
 const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photography-fujairah";
 
 export const metadata: Metadata = {
-  title: "Wedding Photographer Fujairah | From AED 7,500",
+  title: "Wedding Photographer Fujairah | AED 7,500",
   description: "Wedding photographer in Fujairah — Le Méridien Al Aqah, Address Beach Resort, Snoopy Island & Hajar mountain backdrops.",
   keywords: [
     "wedding photographer Fujairah",

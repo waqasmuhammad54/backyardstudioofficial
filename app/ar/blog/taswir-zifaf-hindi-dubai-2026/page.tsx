@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     canonical: "https://www.backyardstudioofficial.com/ar/blog/taswir-zifaf-hindi-dubai-2026",
     languages: {
       ar: "https://www.backyardstudioofficial.com/ar/blog/taswir-zifaf-hindi-dubai-2026",
-      en: "https://www.backyardstudioofficial.com/blog/indian-wedding-photography-dubai-2026",
+      en: "https://www.backyardstudioofficial.com/blog/indian-wedding-photographer-dubai-2026",
     },
   },
   openGraph: {
