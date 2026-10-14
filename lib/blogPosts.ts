@@ -2804,7 +2804,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "podcast-video-production-dubai-dmc",
     title: "Podcast Video Production Dubai — Studio Rentals, DMC Content & Full Production",
-    metaTitle: "Podcast Video Production Dubai 2026 | Backyard Studio",
+    metaTitle: "Video Podcast Production Dubai 2026 | Studio Setup & Costs",
     metaDescription: "Podcast studio hire and video production in Dubai. Full production packages for branded podcasts, DMC content, event recordings, and distribution-ready shows.",
     keywords: ["podcast video production Dubai", "podcast studio Dubai hire", "DMC content production Dubai", "podcast recording Dubai 2026", "branded podcast production UAE"],
     category: "Production Guide",

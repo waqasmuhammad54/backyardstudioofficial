@@ -97,6 +97,43 @@ export const VIDEOS: Record<string, SiteVideo> = {
     duration: "PT46S",
     orientation: "landscape",
   },
+
+  /**
+   * ⚠️ TRACKED BUT NOT PLACED ON ANY PAGE YET — deliberately.
+   *
+   * Found 14 Oct 2026 in the channel RSS: the channel has SIX videos, this
+   * file had five. Recording it here so the next session does not "discover"
+   * it again and so the verified uploadDate is captured while it is to hand.
+   *
+   * It is not embedded anywhere because I have not seen the footage, and every
+   * other entry in this file has a `description` written from what is actually
+   * in the frame. Guessing from the title would put an invented caption into
+   * VideoObject schema — the same error class as the invented permit lead
+   * times in CLAIMS_TO_CONFIRM.md.
+   *
+   * Two things to settle before placing it:
+   *   1. What is in it? The title suggests a personal-branding or profile
+   *      shoot, which would fit /services/personal-branding-photography or
+   *      /locations/dubai/personal-branding-photography.
+   *   2. The title names an individual. She is named publicly on the owner's
+   *      own channel, so that is the owner's call — but repeating a client's
+   *      name in site copy and schema is a named-client claim, and this
+   *      project's standing rule is that those come from the owner, not from
+   *      a page file. Caption around the WORK, not the person, unless the
+   *      owner confirms she is happy to be named on the site.
+   *
+   * Verified: oEmbed title + author; /shorts/ URL 302s to /watch, so it is a
+   * regular 16:9 upload, not a Short. Duration omitted — not verified.
+   */
+  personalBrandProfile: {
+    id: "cb-WMXyPJKk",
+    title:
+      "Shaima Yousif Al Mulla || You bring the idea.We build the story.BACKYARD STUDIO OFFICIAL",
+    heading: "Profile film",
+    description: "",
+    uploadDate: "2026-10-06",
+    orientation: "landscape",
+  },
 };
 
 /**
