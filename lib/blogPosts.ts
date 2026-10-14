@@ -1782,7 +1782,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "car-commercial-dubai-2026",
     title: "Car Commercial Dubai 2026 — Automotive Video Production & Photography Guide",
-    metaTitle: "Car Commercial Dubai 2026 | Automotive Video Production UAE | Backyard Studio",
+    metaTitle: "Car Commercial Production Dubai 2026 | Cinematic Car Films UAE",
     metaDescription: "Car commercial production in Dubai from AED 8,000. Automotive video, DVC, launch films & automotive photography for UAE dealerships and brands.",
     keywords: ["car commercial Dubai", "automotive video production Dubai", "car commercial production UAE", "automotive commercial Dubai", "car photography Dubai 2026", "vehicle commercial filming Dubai"],
     category: "Automotive",
