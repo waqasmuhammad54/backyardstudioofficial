@@ -299,7 +299,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Sprint 15 RU translations (2026-06-22)
     { url: BASE + "/ru/blog/headshot-fotografiya-dubai-2026",           lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ru/blog/fotosessiya-novorozhdennykh-dubai-2026",    lastModified: now, changeFrequency: "monthly", priority: 0.75 },
-    { url: BASE + "/ru/blog/fotografiya-beremennosti-dubai-2026",       lastModified: now, changeFrequency: "monthly", priority: 0.75 },
+    // REMOVED 14 Oct 2026 — /ru/blog/fotografiya-beremennosti-dubai-2026.
+    // It and /ru/blog/fotosessiya-beremennosti-dubai-2026 were two Russian
+    // articles translating the SAME English page, both in this sitemap, both
+    // declaring the same `en` hreflang alternate. hreflang is 1:1, so one
+    // cluster was always going to be discarded.
+    //
+    // GSC settled which: this URL sits in "Crawled - currently not indexed" —
+    // Google fetched it and declined — while fotosessiya is in no not-indexed
+    // bucket at all. So the decision is evidence, not a guess about which
+    // Russian phrasing reads better. 301 added in next.config.mjs; a sitemap
+    // full of redirects wastes crawl budget and signals a stale file.
     { url: BASE + "/ru/blog/fashion-fotografiya-dubai-2026",            lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ru/blog/kreator-kontenta-sotssetey-dubai-2026",     lastModified: now, changeFrequency: "monthly", priority: 0.75 },
     { url: BASE + "/ru/blog/fotograf-na-den-rozhdeniya-dubai-2026",     lastModified: now, changeFrequency: "monthly", priority: 0.75 },

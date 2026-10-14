@@ -198,6 +198,59 @@ const nextConfig = {
       { source: "/blog/sports-production-company-uae-2026", destination: "/services/live-streaming", permanent: true },
       { source: "/blog/sports-broadcast-production-uae-2026", destination: "/services/live-streaming", permanent: true },
       { source: "/blog/car-commercial-production-studio-in-the-uae-full-capability-guide-2026-2026", destination: "/blog/car-commercial-production-uae-2026", permanent: true },
+      // Duplicate Russian maternity article, resolved on GSC evidence 14 Oct.
+      // Two RU posts translated the same English page and both declared the
+      // same `en` alternate; hreflang is 1:1 so one cluster was always going
+      // to be dropped. GSC put this one in "Crawled - currently not indexed"
+      // (fetched and declined) while fotosessiya is in no not-indexed bucket,
+      // so the survivor is decided by data rather than by which Russian
+      // phrasing reads better. Removed from the sitemap in the same commit.
+      { source: "/ru/blog/fotografiya-beremennosti-dubai-2026", destination: "/ru/blog/fotosessiya-beremennosti-dubai-2026", permanent: true },
+
+      // ─── 20 URLs Google still holds as 404, found 14 Oct 2026 in GSC ─────
+      //
+      // GSC "Not found (404)" listed 35 URLs. Checking each live split them
+      // 15 / 20: fifteen are ALREADY fixed and the report is simply stale
+      // (/terms returns 200, the ar/zh event-shoots redirects work). These
+      // twenty are real, and they are almost all city+niche blog posts for the
+      // northern emirates — removed during the northern-emirate consolidation
+      // WITHOUT redirects.
+      //
+      // That is the precise mistake this file already documents further up:
+      // 90 of 238 Copilot citations (38%) once pointed at URLs retired without
+      // redirects. A 404 throws away every link and every citation pointing at
+      // it. **Before retiring any URL, add the redirect in the same commit.**
+      //
+      // Targets follow the consolidation that removed them: a city+niche post
+      // for a consolidated emirate goes to that emirate hub, because the
+      // emirate is the stronger intent in "maternity photography Fujairah" and
+      // because every /locations/<northern-city>/<service> already resolves
+      // there. Where an exact city+service page exists, that wins instead.
+      { source: "/blog/engagement-photographer-ajman-2026", destination: "/locations/ajman", permanent: true },
+      { source: "/blog/headshot-photographer-ajman-2026", destination: "/locations/ajman", permanent: true },
+      { source: "/blog/maternity-photography-ajman-2026", destination: "/locations/ajman", permanent: true },
+      { source: "/blog/product-photography-ajman-free-zone-2026", destination: "/locations/ajman", permanent: true },
+      { source: "/blog/engagement-photographer-fujairah-2026", destination: "/locations/fujairah", permanent: true },
+      { source: "/blog/headshot-photographer-fujairah-2026", destination: "/locations/fujairah", permanent: true },
+      { source: "/blog/maternity-photography-fujairah-2026", destination: "/locations/fujairah", permanent: true },
+      { source: "/blog/engagement-photographer-umm-al-quwain-2026", destination: "/locations/umm-al-quwain", permanent: true },
+      { source: "/blog/maternity-photography-umm-al-quwain-2026", destination: "/locations/umm-al-quwain", permanent: true },
+      { source: "/blog/newborn-photographer-umm-al-quwain-2026", destination: "/locations/umm-al-quwain", permanent: true },
+      { source: "/blog/headshot-photographer-ras-al-khaimah-2026", destination: "/locations/ras-al-khaimah", permanent: true },
+      { source: "/blog/newborn-photographer-ras-al-khaimah-2026", destination: "/locations/ras-al-khaimah", permanent: true },
+      { source: "/blog/maternity-photography-sharjah-2026", destination: "/locations/sharjah", permanent: true },
+      { source: "/blog/food-photography-sharjah-restaurants-2026", destination: "/locations/sharjah", permanent: true },
+      { source: "/blog/event-photography-expo-centre-sharjah-2026", destination: "/locations/sharjah", permanent: true },
+      // Exact city+service pages exist for these two, so they beat the hub.
+      { source: "/blog/wedding-photographer-waldorf-astoria-ras-al-khaimah-2026", destination: "/services/wedding-photography-ras-al-khaimah", permanent: true },
+      { source: "/blog/wedding-photography-abu-dhabi-2026", destination: "/services/wedding-photography-abu-dhabi", permanent: true },
+      { source: "/blog/food-photography-restaurant-dubai-2026", destination: "/locations/dubai/food-photography", permanent: true },
+      // "best production studio dubai" is a choosing query, and this is the
+      // page AI engines already cite for it.
+      { source: "/blog/best-production-studio-dubai-2026", destination: "/how-to-choose-a-production-company-in-dubai", permanent: true },
+      // Pre-dates the -2026 rename; its sibling already redirects here.
+      { source: "/blog/how-much-does-dvc-cost-uae", destination: "/blog/how-much-does-video-production-cost-dubai-2026", permanent: true },
+
       // Group B — same-query duplicates merged into one winner.
       { source: "/blog/headshot-photography-dubai-2026", destination: "/blog/headshot-photographer-dubai-2026", permanent: true },
       { source: "/blog/business-headshots-dubai-2026", destination: "/blog/headshot-photographer-dubai-2026", permanent: true },
