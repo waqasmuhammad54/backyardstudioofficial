@@ -8,7 +8,7 @@ import { breadcrumbSchema, faqSchema, servicePageSchema } from "@/lib/structured
 const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photography";
 
 export const metadata: Metadata = {
-  title: "Wedding Photography Dubai | Packages & Prices",
+  title: { absolute: "Wedding Photography Dubai | Packages & Prices" },
   description:
     "Wedding photography and videography in Dubai from AED 7,500. Compare current crew, coverage, album, video and delivery options for UAE weddings.",
   keywords: [

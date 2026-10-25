@@ -157,7 +157,7 @@ function analyse(url, html) {
 
   const internal = [...html.matchAll(/href="(\/[^"#?][^"]*)"/g)].map((m) => m[1]);
 
-  return { issues, internal: [...new Set(internal)], titleLen, descLen: desc.length };
+  return { issues, internal: [...new Set(internal)], titleLen: titleW, descLen: descW };
 }
 
 async function pool(items, fn) {

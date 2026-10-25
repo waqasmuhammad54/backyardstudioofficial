@@ -4,6 +4,7 @@ import { getDynamicPosts } from "@/lib/dynamicPosts";
 import { INDUSTRY_SUB_PAGES } from "@/lib/industrySubPages";
 import { CASE_STUDIES } from "@/lib/caseStudies";
 import { RETIRED_BLOG_SLUGS } from "@/lib/retiredSlugs";
+import { ALL_PROJECTS } from "@/lib/portfolio-data";
 
 const BASE = "https://www.backyardstudioofficial.com";
 
@@ -201,6 +202,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
+  const portfolioProjects: MetadataRoute.Sitemap = ALL_PROJECTS.map((project) => ({
+    url: BASE + "/portfolio/" + project.slug,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.75,
+  }));
+
   // Arabic pages (/ar/)
   const arCore: MetadataRoute.Sitemap = [
     { url: BASE + "/ar",                                         lastModified: now, changeFrequency: "weekly",  priority: 0.9 },
@@ -356,7 +364,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
 
-  const entries = [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...ajmanSubPages, ...rakSubPages, ...fujairSubPages, ...uaqSubPages, ...services, ...locations, ...industries, ...industrySubPages, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
+  const entries = [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...ajmanSubPages, ...rakSubPages, ...fujairSubPages, ...uaqSubPages, ...services, ...locations, ...industries, ...industrySubPages, ...portfolioProjects, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
 
   return Array.from(
     new Map(

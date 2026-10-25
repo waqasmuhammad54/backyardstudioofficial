@@ -34,6 +34,11 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // Correct two portfolio slugs linked by the former home-page preview.
+      // Preserve any links already discovered while consolidating them onto the
+      // canonical project records used by the portfolio and sitemap.
+      { source: "/portfolio/office-celebration-shoot", destination: "/portfolio/office-celebration", permanent: true },
+      { source: "/portfolio/studio-fashion-series", destination: "/portfolio/studio-fashion-vol1", permanent: true },
       { source: "/home", destination: "/", permanent: true },
       {
         source: "/:path*",

@@ -56,7 +56,7 @@ export default function ArNavbar() {
           >
             <div className="relative w-16 h-16 shrink-0 transition-all duration-500 group-hover:scale-110">
               <Image
-                src="/logo-black.png"
+                src="/logo-black-256.webp"
                 alt="باكيارد ستوديو أوفيشيال"
                 fill
                 className="object-contain"

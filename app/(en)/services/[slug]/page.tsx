@@ -1003,7 +1003,7 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
     keywords: ["brand launch event coverage Dubai", "fashion event photography UAE", "corporate event filming Dubai", "event aftermovie Dubai", "concert filming UAE", "brand event production Dubai"],
   },
   "pre-post-production": {
-    title: "Pre & Post Production Dubai | Edit & Colour",
+    title: "Pre & Post Production Dubai",
     description: "Full pre-production and post-production services in Dubai. Location scouting, model casting, styling, video editing, colour grading, photo retouching",
     keywords: ["location scouting Dubai", "model casting Dubai UAE", "video editing company Dubai", "colour grading Dubai", "photo retouching UAE", "post production company Dubai"],
   },

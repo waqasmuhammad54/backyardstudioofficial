@@ -12,7 +12,7 @@ const portfolioSchema = {
 
 export const metadata: Metadata = {
   title: "作品集 | 迪拜摄影摄像作品精选",
-  description: "Backyard Studio Official精选作品集。企业视频、婚礼摄影、无人机航拍、时尚大片——超过2,400个迪拜及阿联酋项目。",
+  description: "浏览Backyard Studio Official迪拜制作作品集：企业视频、婚礼摄影、活动拍摄、产品广告及社交媒体内容。我们已在阿联酋完成超过2,400个项目。",
   alternates: alternatesFor("/portfolio", "zh"),
 };
 

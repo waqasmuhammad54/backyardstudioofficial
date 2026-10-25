@@ -50,7 +50,7 @@ const PROJECTS = [
     client: "Regional Enterprise",
     category: "Events",
     image: "/images/events/event-04.webp",
-    slug: "office-celebration-shoot",
+    slug: "office-celebration",
     featured: false,
   },
   {
@@ -59,7 +59,7 @@ const PROJECTS = [
     client: "Boutique Brand",
     category: "Creative",
     image: "/images/creative/creative-13.webp",
-    slug: "studio-fashion-series",
+    slug: "studio-fashion-vol1",
     featured: false,
   },
 ];

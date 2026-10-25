@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, ChevronDown } from "lucide-react";
 import { notFound } from "next/navigation";
@@ -660,7 +661,7 @@ export default function IndustryPage({ params }: { params: { industry: string } 
       {/* ── HERO ── */}
       <section className="relative min-h-[70vh] flex items-end overflow-hidden" style={{ paddingTop: "120px" }}>
         <div className="absolute inset-0">
-          <img src={data.heroImage} alt={data.name} className="w-full h-full object-cover" />
+          <Image src={data.heroImage} alt={data.name} width={1600} height={900} priority sizes="100vw" className="w-full h-full object-cover" />
           <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(5,5,5,0.95) 30%, rgba(5,5,5,0.4) 70%, transparent)" }} />
         </div>
         <div className="container-xl relative pb-20">

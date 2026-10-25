@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Услуги видеосъёмки в Дубае | от 2 000 AED",
- description: "Полный спектр услуг видеопроизводства в Дубае и ОАЭ: корпоративное видео от 15 000 AED, свадебная съёмка от 3 500 AED, мероприятия, аэросъёмка дроном, контент для соцсетей.",
+ description: "Видеопроизводство в Дубае и ОАЭ: корпоративное видео, свадебная и событийная съёмка, аэросъёмка и контент для соцсетей. Цены от 2 000 AED.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru/services",
     languages: {

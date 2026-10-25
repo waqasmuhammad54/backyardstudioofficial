@@ -100,7 +100,7 @@ export default function ArFooter() {
             <Link href="/ar" className="flex items-center gap-4 mb-7 group" aria-label="باكيارد ستوديو أوفيشيال">
               <div className="relative w-20 h-20 shrink-0 transition-all duration-300">
                 <Image
-                  src="/logo-black.png"
+                  src="/logo-black-256.webp"
                   alt="باكيارد ستوديو أوفيشيال"
                   fill
                   className="object-contain"

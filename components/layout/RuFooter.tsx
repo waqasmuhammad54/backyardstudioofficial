@@ -95,7 +95,7 @@ export default function RuFooter() {
             <Link href="/ru" className="flex items-center gap-4 mb-7 group" aria-label="Backyard Studio Official">
               <div className="relative w-20 h-20 shrink-0 transition-all duration-300">
                 <Image
-                  src="/logo-black.png"
+                  src="/logo-black-256.webp"
                   alt="Backyard Studio Official"
                   fill
                   className="object-contain"

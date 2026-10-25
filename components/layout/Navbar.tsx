@@ -42,7 +42,7 @@ export default function Navbar() {
           <Link href="/" className="relative flex items-center gap-3 group" aria-label="Backyard Studio Official">
             <div className="relative w-20 h-20 shrink-0 transition-all duration-500 group-hover:scale-110">
               <Image
-                src="/logo-black.png"
+                src="/logo-black-256.webp"
                 alt="Backyard Studio Official"
                 fill
                 className="object-contain"

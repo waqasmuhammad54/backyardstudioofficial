@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { faqSchema, itemListSchema, breadcrumbSchema } from "@/lib/structuredData";
@@ -430,9 +431,12 @@ export default function IndustriesPage() {
                 style={{ borderColor: "var(--border)" }}
               >
                 <div className="relative h-56 overflow-hidden">
-                  <img
+                  <Image
                     src={ind.image}
                     alt={ind.label}
+                    width={800}
+                    height={450}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                   <div className="absolute inset-0" style={{ background: "linear-gradient(to top, rgba(5,5,5,0.85), transparent)" }} />
@@ -490,14 +494,14 @@ export default function IndustriesPage() {
               </Link>
             </div>
             <div className="grid grid-cols-2 gap-3">
-              <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400&q=80"
-                alt="Sports event coverage Dubai" className="w-full h-40 object-cover" />
-              <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80"
-                alt="Athlete photography UAE" className="w-full h-40 object-cover" />
-              <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&q=80"
-                alt="Sports drone filming Dubai" className="w-full h-40 object-cover" />
-              <img src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=400&q=80"
-                alt="Sports social media content UAE" className="w-full h-40 object-cover" />
+              <Image src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400&q=80"
+                alt="Sports event coverage Dubai" width={400} height={267} sizes="(max-width: 768px) 50vw, 25vw" className="w-full h-40 object-cover" />
+              <Image src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&q=80"
+                alt="Athlete photography UAE" width={400} height={267} sizes="(max-width: 768px) 50vw, 25vw" className="w-full h-40 object-cover" />
+              <Image src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400&q=80"
+                alt="Sports drone filming Dubai" width={400} height={267} sizes="(max-width: 768px) 50vw, 25vw" className="w-full h-40 object-cover" />
+              <Image src="https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=400&q=80"
+                alt="Sports social media content UAE" width={400} height={267} sizes="(max-width: 768px) 50vw, 25vw" className="w-full h-40 object-cover" />
             </div>
           </div>
         </div>
