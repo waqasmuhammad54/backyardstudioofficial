@@ -41,8 +41,8 @@ export default function AboutSection() {
             {/* Secondary */}
             <div className="absolute bottom-0 right-0 w-[58%] h-[50%] overflow-hidden border border-white/5"
                  style={{ clipPath:"polygon(0 15%, 15% 0, 100% 0, 100% 100%, 0 100%)" }}>
-              <Image src="https://images.unsplash.com/photo-1536240478700-b869ad10a2ab?w=800&q=85"
-                alt="Video production Dubai" fill className="object-cover img-cinematic" sizes="30vw" />
+              <Image src="/images/team/studio-bts.webp"
+                alt="Backyard Studio photographer behind the scenes" fill className="object-cover img-cinematic" sizes="30vw" />
             </div>
 
             {/* Floating accent card */}
