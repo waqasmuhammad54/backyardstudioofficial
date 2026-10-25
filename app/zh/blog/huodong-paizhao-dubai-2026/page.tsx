@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "迪拜活动摄影2026：企业年会、展会与发布会拍摄",
+  title: "迪拜企业活动摄影指南2026",
   description:
     "迪拜专业活动摄影AED 2,500起——企业年会、展会、产品发布、颁奖典礼。DWTC、Madinat、Atlantis常驻拍摄团队，当天交付精选集锦。",
   alternates: {

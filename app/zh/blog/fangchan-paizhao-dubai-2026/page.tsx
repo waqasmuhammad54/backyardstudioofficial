@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "迪拜房产摄影2026：价格、套餐与拍摄攻略",
+  title: "迪拜房产摄影价格与套餐2026",
   description:
  "迪拜专业房产摄影AED 2,500起——公寓、别墅、开发商项目。无人机航拍，48小时交付。Backyard Studio专业团队为您服务。",
   alternates: {

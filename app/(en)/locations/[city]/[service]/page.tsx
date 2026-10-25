@@ -245,7 +245,7 @@ const PAGES: Record<string, ServicePage> = {
   },
 
   "dubai/personal-branding-photography": {
-    title: "Personal Branding Photography in Dubai 2026 | Backyard Studio Official",
+    title: "Personal Branding Photography Dubai 2026 | Backyard Studio Official",
     metaDescription: "Personal branding photography in Dubai — entrepreneurs, executives, coaches, influencers. LinkedIn portraits, brand sessions. From AED 1,200.",
     h1: "Personal Branding Photography in Dubai",
     subtitle: "DIFC executives. Marina entrepreneurs. Dubai influencers. Your image is your brand.",
@@ -307,7 +307,7 @@ const PAGES: Record<string, ServicePage> = {
   },
 
   "abu-dhabi/corporate-video": {
-    title: "Corporate Video Production in Abu Dhabi 2026 | Backyard Studio Official",
+    title: "Corporate Video Production Abu Dhabi | Backyard Studio Official",
     metaDescription: "Corporate video production in Abu Dhabi — government entities, ADGM, Mubadala, Aldar, Yas Island brands. From AED 8,000.",
     h1: "Corporate Video Production in Abu Dhabi",
     subtitle: "Government entities. ADGM. Sovereign wealth. We produce to the capital's highest standards.",
@@ -620,7 +620,7 @@ const PAGES: Record<string, ServicePage> = {
   },
 
   "dubai/social-media-content": {
-    title: "Social Media Content Creation in Dubai 2026 | Backyard Studio Official",
+    title: "Social Media Production Dubai 2026 | Backyard Studio Official",
     metaDescription: "Social media content production in Dubai — Instagram Reels, TikTok, LinkedIn video, brand campaigns. From AED 2,500.",
     h1: "Social Media Content Creation in Dubai",
     subtitle: "Instagram. TikTok. LinkedIn. Dubai brands and creators, consistently showing up.",
@@ -1315,7 +1315,7 @@ const PAGES: Record<string, ServicePage> = {
   },
 
   "abu-dhabi/corniche": {
-    title: "Video Production at Abu Dhabi Corniche 2026 | Backyard Studio Official",
+    title: "Video Production Abu Dhabi Corniche 2026 | Backyard Studio Official",
     metaDescription: "Video production and photography at Abu Dhabi Corniche — waterfront events, skyline content, running and cycling events. Free quote in 2 hours.",
     h1: "Video Production at Abu Dhabi Corniche",
     subtitle: "Eight kilometres of waterfront — Abu Dhabi's most accessible location.",

@@ -8,7 +8,7 @@ import { breadcrumbSchema, faqSchema, servicePageSchema, speakableSchema, itemLi
 const PAGE_URL = "https://www.backyardstudioofficial.com/services/pre-wedding-shoot";
 
 export const metadata: Metadata = {
-  title: "Pre-Wedding Photoshoot Dubai | From AED 1,500",
+  title: "Pre-Wedding Photoshoot Dubai | AED 1,500",
   description: "Pre-wedding photoshoot in Dubai from AED 1,500 — desert sunset, Burj Khalifa, Madinat Jumeirah & beach locations.",
   keywords: [
     "pre wedding photoshoot Dubai",

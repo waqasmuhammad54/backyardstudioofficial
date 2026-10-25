@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "迪拜美食摄影2026：餐厅菜单与外卖平台拍摄指南",
+  title: "迪拜餐厅与菜单摄影指南2026",
   description:
     "迪拜专业美食摄影AED 1,500起——菜单拍摄、Talabat/Deliveroo外卖图、社交媒体内容。48小时交付。Backyard Studio为200+餐厅服务。",
   alternates: {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "迪拜企业视频制作2026：品牌影片、宣传片与客户证言",
+  title: "迪拜企业宣传片与客户证言2026",
   description:
     "迪拜专业企业视频制作AED 8,000起——企业品牌片、产品宣传视频、客户证言、招募影片。Backyard Studio为迪拜100+品牌提供服务。",
   alternates: {

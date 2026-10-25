@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "迪拜社交媒体短视频制作2026：Reels与TikTok拍摄指南",
+  title: "迪拜Reels与TikTok短视频制作2026",
   description:
     "迪拜品牌短视频拍摄AED 1,800起——Instagram Reels、TikTok、小红书内容制作。专业剪辑、字幕、多平台格式交付。Backyard Studio为您服务。",
   alternates: {

@@ -7,7 +7,7 @@ import { breadcrumbSchema, faqSchema, servicePageSchema, speakableSchema } from 
 const PAGE_URL = "https://www.backyardstudioofficial.com/services/wedding-photography-ajman";
 
 export const metadata: Metadata = {
-  title: "Wedding Photographer Ajman | From AED 7,500",
+  title: "Wedding Photographer Ajman | AED 7,500",
   description: "Wedding photographer in Ajman — Ajman Saray, Fairmont Ajman & Al Zorah beach weddings, mangrove couple shoots.",
   keywords: [
     "wedding photographer Ajman",

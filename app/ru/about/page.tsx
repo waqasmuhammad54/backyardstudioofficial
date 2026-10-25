@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "О нас | Команда видеопродакшна в Дубае",
- description: "Узнайте о Backyard Studio Official — ведущей креативной продюсерской компании в Дубае. Основана в 2019 году Фахадом Икбалом Баттом и Саедом Мазаром Зайди. Более 2 400 проектов. Аэросъёмка.",
+ description: "Backyard Studio — продакшн-компания в Дубае, основанная в 2019 году Фахадом Икбалом Баттом и Саедом Мазаром Зайди. Более 2 400 проектов по ОАЭ.",
   keywords: ["Фахад Икбал Батт", "Сайед Мазар Зайди", "продюсерская компания Дубай", "команда Backyard Studio", "история студии", "лучшая фотостудия Дубай"],
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ru/about",

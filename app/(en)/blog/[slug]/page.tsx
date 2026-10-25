@@ -109,7 +109,7 @@ export async function generateMetadata({
   // scripts/check-serp-title-collisions.mjs fails the build if two posts still
   // land on the same title, because this bug is invisible from the source.
   const BRAND = " | Backyard Studio";
-  const core = post.metaTitle.replace(/\s*\|\s*Backyard Studio(?: Official)?\s*$/i, "");
+  const core = post.metaTitle.replace(/\s*\|\s*Backyard(?: Studio(?: Official)?)?\s*$/i, "");
   const segs = core.split(" | ");
   const w = (s: string) =>
     [...s].reduce(

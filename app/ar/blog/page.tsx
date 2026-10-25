@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "المدوّنة | نصائح الإنتاج والتصوير في دبي 2026",
+  title: "نصائح الإنتاج والتصوير في دبي 2026",
   description: "مقالات ونصائح احترافية حول التصوير والإنتاج في دبي والإمارات 2026 — أسعار التصوير، تصوير الأعراس، مواقع التصوير، استراتيجية المحتوى الرقمي.",
   alternates: {
     canonical: "https://www.backyardstudioofficial.com/ar/blog",

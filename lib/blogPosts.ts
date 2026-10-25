@@ -7757,5 +7757,7 @@ const CATEGORY_MAP: Record<CategorySlug, string[]> = {
 
 export function getPostsByCategory(categorySlug: CategorySlug): BlogPost[] {
   const rawCategories = CATEGORY_MAP[categorySlug] ?? [];
-  return BLOG_POSTS.filter((p) => rawCategories.includes(p.category));
+  return BLOG_POSTS.filter(
+    (p) => rawCategories.includes(p.category) && !RETIRED_BLOG_SLUGS.has(p.slug),
+  );
 }

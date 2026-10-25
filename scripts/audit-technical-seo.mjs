@@ -19,7 +19,7 @@
  */
 import { writeFileSync } from "node:fs";
 
-const BASE = "https://www.backyardstudioofficial.com";
+const BASE = (process.env.SEO_AUDIT_BASE || "https://www.backyardstudioofficial.com").replace(/\/$/, "");
 const CONCURRENCY = 6;
 const LIMIT = Number(process.argv[2]) || Infinity;
 
@@ -128,7 +128,9 @@ function analyse(url, html) {
   if (!canonical) issues.push({ type: "CANONICAL_MISSING" });
   else {
     if (!canonical.startsWith("https://")) issues.push({ type: "CANONICAL_NOT_HTTPS", detail: canonical });
-    const self = canonical.replace(/\/$/, "") === url.replace(/\/$/, "");
+    const self = process.env.SEO_AUDIT_BASE
+      ? new URL(canonical).pathname.replace(/\/$/, "") === new URL(url).pathname.replace(/\/$/, "")
+      : canonical.replace(/\/$/, "") === url.replace(/\/$/, "");
     if (!self) issues.push({ type: "CANONICAL_CROSS", detail: canonical });
   }
 
@@ -178,7 +180,10 @@ async function pool(items, fn) {
 console.log("Fetching sitemap…");
 const smRes = await fetch(`${BASE}/sitemap.xml`);
 const sm = await smRes.text();
-let urls = [...sm.matchAll(/<loc>(.*?)<\/loc>/g)].map((m) => m[1]);
+let urls = [...sm.matchAll(/<loc>(.*?)<\/loc>/g)].map((m) => {
+  const url = m[1];
+  return process.env.SEO_AUDIT_BASE ? BASE + new URL(url).pathname : url;
+});
 console.log(`sitemap: ${urls.length} URLs (sitemap.xml status ${smRes.status})`);
 if (urls.length > LIMIT) urls = urls.slice(0, LIMIT);
 
