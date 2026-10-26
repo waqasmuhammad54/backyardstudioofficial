@@ -1,4 +1,3 @@
-"use client";
 import { FileText, MapPin, Camera, Sparkles } from "lucide-react";
 import { PROJECTS_DELIVERED_DISPLAY } from "@/lib/brandStats";
 

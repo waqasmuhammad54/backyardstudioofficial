@@ -1,6 +1,5 @@
 "use client";
-import { useState, useRef } from "react";
-import { motion, useInView } from "framer-motion";
+import { useState } from "react";
 import { Phone, Mail, MapPin, Send, CheckCircle, ArrowUpRight } from "lucide-react";
 import { trackWhatsAppLead, trackPhoneLead, trackEmailLead } from "@/lib/trackLead";
 
@@ -68,8 +67,6 @@ const inputBase =
   "w-full bg-transparent border-b py-4 text-sm placeholder-[#444] focus:outline-none transition-colors duration-300 focus:border-current";
 
 export default function ContactSection() {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true, margin: "-80px" });
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [submitError, setSubmitError] = useState("");
@@ -141,50 +138,39 @@ export default function ContactSection() {
         }}
       />
 
-      <div ref={ref} className="container-xl relative z-10">
+      <div className="container-xl relative z-10">
         {/* Header */}
         <div className="text-center mb-20">
-          <motion.p
-            initial={{ opacity: 0, y: 10 }} animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.6 }}
+          <p
             className="text-xs tracking-[0.5em] uppercase mb-6 font-medium"
             style={{ color: "var(--gold)" }}
           >
             ✦ Work With Us
-          </motion.p>
-          <motion.h2
-            initial={{ opacity: 0, y: 50 }} animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.9, delay: 0.1 }}
+          </p>
+          <h2
             className="font-display leading-none mb-4"
             style={{ fontSize: "clamp(3.5rem,10vw,9rem)", color: "var(--cream)" }}
           >
             LET&apos;S CREATE
-          </motion.h2>
-          <motion.h2
-            initial={{ opacity: 0, y: 50 }} animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.9, delay: 0.2 }}
+          </h2>
+          <h2
             className="font-display leading-none gold-text"
             style={{ fontSize: "clamp(3.5rem,10vw,9rem)" }}
           >
             SOMETHING EPIC
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}}
-            transition={{ duration: 0.7, delay: 0.4 }}
+          </h2>
+          <p
             className="mt-8 max-w-xl mx-auto text-base leading-relaxed"
             style={{ color: "var(--muted)" }}
           >
             Drop us a brief and our production team responds within 2 hours —
             because great projects start fast.
-          </motion.p>
+          </p>
         </div>
 
         <div className="grid lg:grid-cols-[1fr_1.4fr] gap-20">
           {/* Left — Info */}
-          <motion.div
-            initial={{ opacity: 0, x: -40 }} animate={inView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
+          <div>
             {/* Contact details */}
             <div className="space-y-10 mb-16">
               {INFO.map(({ icon, label, value, href }) => (
@@ -251,13 +237,10 @@ export default function ContactSection() {
               WHATSAPP US NOW
               <ArrowUpRight size={16} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </a>
-          </motion.div>
+          </div>
 
           {/* Right — Form */}
-          <motion.div
-            initial={{ opacity: 0, x: 40 }} animate={inView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.3 }}
-          >
+          <div>
             {submitted ? (
               <div
                 className="flex flex-col items-center justify-center text-center p-16 h-full border"
@@ -394,7 +377,7 @@ export default function ContactSection() {
                 </div>
               </form>
             )}
-          </motion.div>
+          </div>
         </div>
       </div>
     </section>

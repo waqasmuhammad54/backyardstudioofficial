@@ -1,8 +1,5 @@
-"use client";
 import Link from "next/link";
 import Image from "next/image";
-import { useRef } from "react";
-import { motion, useInView } from "framer-motion";
 import { ArrowUpRight, Clock } from "lucide-react";
 
 const POSTS = [
@@ -39,54 +36,40 @@ const POSTS = [
 ];
 
 export default function BlogPreview() {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true, margin: "-100px" });
-
   return (
     <section id="blog" className="section-pad overflow-hidden" style={{ background: "var(--black-3)" }}>
       <div className="container-xl">
         {/* Header */}
-        <div ref={ref} className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-20">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-20">
           <div>
-            <motion.p
-              initial={{ opacity: 0, x: -20 }} animate={inView ? { opacity: 1, x: 0 } : {}}
-              transition={{ duration: 0.6 }}
+            <p
               className="text-xs tracking-[0.5em] uppercase mb-5 font-medium"
               style={{ color: "var(--gold)" }}
             >
               ✦ Studio Journal
-            </motion.p>
-            <motion.h2
-              initial={{ opacity: 0, y: 40 }} animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.8, delay: 0.1 }}
+            </p>
+            <h2
               className="font-display leading-none"
               style={{ fontSize: "clamp(3rem,8vw,7rem)", color: "var(--cream)" }}
             >
               CREATIVE<br />
               <span className="gold-text">INSIGHTS</span>
-            </motion.h2>
+            </h2>
           </div>
-          <motion.div
-            initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}}
-            transition={{ duration: 0.6, delay: 0.3 }}
-          >
+          <div>
             <Link href="/blog"
               className="btn-gold group inline-flex items-center gap-3 px-8 py-4 font-display tracking-[0.15em] text-sm transition-all"
               style={{ background: "transparent", border: "1px solid var(--gold)", color: "var(--gold)" }}
             >
               ALL ARTICLES <ArrowUpRight size={16} className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </Link>
-          </motion.div>
+          </div>
         </div>
 
         {/* Posts — editorial row layout */}
         <div className="space-y-0">
           {POSTS.map((post, i) => (
-            <motion.div
-              key={post.slug}
-              initial={{ opacity: 0, y: 60 }} animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.8, delay: 0.2 + i * 0.15 }}
-            >
+            <div key={post.slug}>
               <Link href={`/blog/${post.slug}`}
                 className="group flex flex-col md:flex-row gap-0 border-t transition-all duration-500 hover:bg-white/[0.02] relative"
                 style={{ borderColor: "var(--border)" }}
@@ -144,7 +127,7 @@ export default function BlogPreview() {
                   </div>
                 </div>
               </Link>
-            </motion.div>
+            </div>
           ))}
           {/* Bottom border */}
           <div className="border-t" style={{ borderColor: "var(--border)" }} />

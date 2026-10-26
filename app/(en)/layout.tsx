@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { headers } from "next/headers";
 import "../globals.css";
+import DeferredAnalytics from "@/components/analytics/DeferredAnalytics";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/shared/WhatsAppButton";
@@ -162,21 +162,7 @@ export default function EnglishLayout({ children }: { children: React.ReactNode 
       <Footer />
       <WhatsAppButton />
 
-      {/* Google Analytics 4 */}
-      {GA_ID && (
-        <>
-          <Script
-            src={"https://www.googletagmanager.com/gtag/js?id=" + GA_ID}
-            strategy="lazyOnload"
-          />
-          <Script id="ga4-init" strategy="lazyOnload"
-            dangerouslySetInnerHTML={{
-              __html:
-                "window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','" + GA_ID + "',{page_path:window.location.pathname,anonymize_ip:true});",
-            }}
-          />
-        </>
-      )}
+      {GA_ID ? <DeferredAnalytics measurementId={GA_ID} /> : null}
     </>
   );
 }

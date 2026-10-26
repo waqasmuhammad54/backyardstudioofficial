@@ -1,6 +1,5 @@
 "use client";
 import { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { trackWhatsAppLead } from "@/lib/trackLead";
 
 export default function WhatsAppButton() {
@@ -14,28 +13,20 @@ export default function WhatsAppButton() {
   }, []);
 
   return (
-    <AnimatePresence>
-      {visible && (
-        <motion.div
-          initial={{ opacity: 0, scale: 0.8, y: 20 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          exit={{ opacity: 0, scale: 0.8, y: 20 }}
-          transition={{ type: "spring", stiffness: 260, damping: 20 }}
-          className="fixed bottom-8 right-8 z-50 flex items-center gap-3"
-        >
-          {/* Tooltip label */}
-          <AnimatePresence>
-            {hovered && (
-              <motion.div
-                initial={{ opacity: 0, x: 10 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: 10 }}
-                transition={{ duration: 0.2 }}
-                className="text-xs font-display tracking-[0.2em] px-4 py-2 whitespace-nowrap"
-                style={{ background: "var(--black-4)", color: "var(--gold)", border: "1px solid var(--border)" }}
-              >
-                CHAT WITH US
-              </motion.div>
-            )}
-          </AnimatePresence>
+    <div
+      aria-hidden={!visible}
+      className={`fixed bottom-8 right-8 z-50 flex items-center gap-3 transition-all duration-300 ${
+        visible ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-5 scale-90 pointer-events-none"
+      }`}
+    >
+          <div
+            className={`text-xs font-display tracking-[0.2em] px-4 py-2 whitespace-nowrap transition-all duration-200 ${
+              hovered ? "opacity-100 translate-x-0" : "opacity-0 translate-x-2 pointer-events-none"
+            }`}
+            style={{ background: "var(--black-4)", color: "var(--gold)", border: "1px solid var(--border)" }}
+          >
+            CHAT WITH US
+          </div>
 
           {/* Button */}
           <a
@@ -73,8 +64,6 @@ export default function WhatsAppButton() {
               />
             </svg>
           </a>
-        </motion.div>
-      )}
-    </AnimatePresence>
+    </div>
   );
 }

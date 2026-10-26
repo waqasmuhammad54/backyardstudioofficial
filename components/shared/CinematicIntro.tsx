@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 
 export default function CinematicIntro() {
   const [visible, setVisible] = useState(false);
@@ -35,14 +34,10 @@ export default function CinematicIntro() {
     }
   }, [visible]);
 
+  if (!visible) return null;
+
   return (
-    <AnimatePresence>
-      {visible && (
-        <motion.div
-          key="cinematic-intro"
-          initial={{ opacity: 1 }}
-          animate={{ opacity: fadeOut ? 0 : 1 }}
-          transition={{ duration: 0.9, ease: [0.76, 0, 0.24, 1] }}
+        <div
           onClick={finish}
           aria-hidden="true"
           style={{
@@ -55,6 +50,8 @@ export default function CinematicIntro() {
             justifyContent: "center",
             cursor: "pointer",
             overflow: "hidden",
+            opacity: fadeOut ? 0 : 1,
+            transition: "opacity .9s cubic-bezier(.76,0,.24,1)",
           }}
         >
           <video
@@ -72,7 +69,7 @@ export default function CinematicIntro() {
               display: "block",
             }}
           />
-          <motion.p
+          <p
             style={{
               position: "absolute",
               bottom: "2rem",
@@ -83,14 +80,9 @@ export default function CinematicIntro() {
               color: "rgba(212,160,23,0.4)",
               pointerEvents: "none",
             }}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.5 }}
           >
             tap to skip
-          </motion.p>
-        </motion.div>
-      )}
-    </AnimatePresence>
+          </p>
+        </div>
   );
 }
