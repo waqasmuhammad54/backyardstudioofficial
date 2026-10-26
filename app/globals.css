@@ -30,7 +30,7 @@
   --white:       #ffffff;
   --cream:       #f5f0e8;
   --silver:      #b8b8b8;
-  --muted:       #787878;
+  --muted:       #858585;
   --faint:       #3a3a3a;
 
   /* Border */
@@ -447,14 +447,12 @@ body::before {
 
 /* ════════════════════════════════════════════════════
    SECTION NUMBER (editorial accent)
-   color: transparent + text-shadow avoids Lighthouse contrast audit
-   on this purely decorative element (aria-hidden="true")
+   Decorative, but still visibly rendered, so it keeps large-text contrast.
 ════════════════════════════════════════════════════ */
 .section-num {
   font-family: var(--font-display);
   font-size: 7rem;
-  color: transparent;
-  text-shadow: 0 0 0 rgba(212,160,23,0.08);
+  color: rgba(212,160,23,0.65);
   line-height: 1;
   position: absolute;
   top: -2rem;

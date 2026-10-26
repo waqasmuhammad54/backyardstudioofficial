@@ -41,8 +41,7 @@ export default function ProcessSection() {
                   <div className="hidden lg:block absolute top-10 right-0 w-2 h-2 rounded-full bg-gold/30 translate-x-1/2 z-10" />
                 )}
 
-                {/* Number — decorative, aria-hidden, transparent color avoids Lighthouse contrast audit */}
-                <p aria-hidden="true" className="font-display text-6xl leading-none mb-4 transition-all duration-500" style={{ color: "transparent", textShadow: "0 0 0 rgba(255,255,255,0.06)" }}>
+                <p aria-hidden="true" className="font-display text-6xl leading-none mb-4 transition-all duration-500" style={{ color: "rgba(255,255,255,0.45)" }}>
                   {step.num}
                 </p>
 

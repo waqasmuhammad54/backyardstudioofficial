@@ -298,7 +298,7 @@ export default function ContactSection() {
                       name="service" value={form.service} onChange={handleChange}
                       aria-label="Select service type"
                       className={inputBase + " appearance-none cursor-pointer"}
-                      style={{ borderColor: "var(--border)", color: form.service ? "var(--cream)" : "#444" }}
+                      style={{ borderColor: "var(--border)", color: form.service ? "var(--cream)" : "var(--muted)" }}
                     >
                       <option value="">Select Service</option>
                       {SERVICES_LIST.map((s) => <option key={s} value={s}>{s}</option>)}
@@ -309,7 +309,7 @@ export default function ContactSection() {
                       name="budget" value={form.budget} onChange={handleChange}
                       aria-label="Select budget range"
                       className={inputBase + " appearance-none cursor-pointer"}
-                      style={{ borderColor: "var(--border)", color: form.budget ? "var(--cream)" : "#444" }}
+                      style={{ borderColor: "var(--border)", color: form.budget ? "var(--cream)" : "var(--muted)" }}
                     >
                       <option value="">Budget Range</option>
                       {BUDGETS.map((b) => <option key={b} value={b}>{b}</option>)}

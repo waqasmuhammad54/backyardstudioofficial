@@ -113,7 +113,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr] gap-10 lg:gap-6">
           {/* Col 1 — Brand */}
           <div className="col-span-2 md:col-span-3 lg:col-span-1">
-            <Link href="/" className="flex items-center gap-4 mb-7 group" aria-label="Backyard Studio Official Home">
+            <Link href="/" className="flex items-center gap-4 mb-7 group">
               <div className="relative w-20 h-20 shrink-0 transition-all duration-300">
                 <Image src="/logo-black-256.webp" alt="Backyard Studio Official Logo" fill className="object-contain" style={{ mixBlendMode: "screen" }} />
               </div>
@@ -154,11 +154,11 @@ export default function Footer() {
                 <Instagram size={14} />
               </a>
               <a href="https://www.facebook.com/Backyardstudioofficial/" target="_blank" rel="noreferrer"
-                aria-label="Facebook" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
+                aria-label="FB — Facebook" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
                 FB
               </a>
               <a href="https://www.tiktok.com/@backyardstudio_official5" target="_blank" rel="noreferrer"
-                aria-label="TikTok" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
+                aria-label="TT — TikTok" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
                 TT
               </a>
               <a href="https://youtube.com/@BackyardStudioofficialuae" target="_blank" rel="noreferrer"
@@ -166,11 +166,11 @@ export default function Footer() {
                 <Youtube size={14} />
               </a>
               <a href="https://www.linkedin.com/in/backyard-studio-508532417/" target="_blank" rel="noreferrer"
-                aria-label="LinkedIn" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
+                aria-label="LI — LinkedIn" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
                 LI
               </a>
               <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer"
-                aria-label="WhatsApp" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
+                aria-label="WA — WhatsApp" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
                 WA
               </a>
             </div>

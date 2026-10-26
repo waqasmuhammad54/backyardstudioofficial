@@ -81,7 +81,7 @@ export default function BlogPreview() {
                 {/* Number */}
                 <div className="md:w-24 pt-10 pb-8 md:py-10 pr-6 shrink-0">
                   <span className="font-display text-5xl md:text-6xl leading-none transition-colors duration-300"
-                    style={{ color: "var(--border)", WebkitTextStroke: "1px var(--border)" }}>
+                    style={{ color: "var(--muted)", WebkitTextStroke: "1px var(--muted)" }}>
                     <span className="group-hover:gold-text transition-all duration-500">{post.number}</span>
                   </span>
                 </div>

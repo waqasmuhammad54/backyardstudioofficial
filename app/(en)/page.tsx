@@ -202,11 +202,11 @@ export default function HomePage() {
             {HOME_FAQS.map((faq) => (
               <div key={faq.question} className="p-6 border" style={{ borderColor: "var(--border)", background: "var(--black-2)" }}>
                 <p className="text-cream font-semibold text-sm mb-2">{faq.question}</p>
-                <p className="text-silver/60 text-sm leading-relaxed">{faq.answer}</p>
+                <p className="text-silver/70 text-sm leading-relaxed">{faq.answer}</p>
               </div>
             ))}
           </div>
-          <p className="mt-8 text-sm text-silver/60">
+          <p className="mt-8 text-sm text-silver/70">
             See published packages on our <Link href="/pricing" className="link-gold">pricing page</Link>.
           </p>
         </div>
@@ -219,14 +219,14 @@ export default function HomePage() {
       ══════════════════════════════════════════════════════════════ */}
       <section className="py-16 border-t" style={{ background: "var(--black)", borderColor: "var(--border)" }}>
         <div className="container-xl">
-          <p className="text-center text-[10px] tracking-widest uppercase mb-10 opacity-60" style={{ color: "var(--silver)" }}>
+          <p className="text-center text-[10px] tracking-widest uppercase mb-10 opacity-70" style={{ color: "var(--silver)" }}>
             Production Services Dubai &amp; UAE
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-6">
 
             {/* Video Production */}
             <div>
-              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-55" style={{ color: "var(--silver)" }}>Video Production</p>
+              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-70" style={{ color: "var(--silver)" }}>Video Production</p>
               <ul className="space-y-2">
                 {[
                   ["Event Videography Dubai", "/services/event-videography"],
@@ -248,7 +248,7 @@ export default function HomePage() {
 
             {/* Photography */}
             <div>
-              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-55" style={{ color: "var(--silver)" }}>Photography</p>
+              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-70" style={{ color: "var(--silver)" }}>Photography</p>
               <ul className="space-y-2">
                 {[
                   ["Wedding Photography Dubai", "/services/wedding-photography"],
@@ -272,7 +272,7 @@ export default function HomePage() {
 
             {/* Social & Digital */}
             <div>
-              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-55" style={{ color: "var(--silver)" }}>Social &amp; Digital</p>
+              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-70" style={{ color: "var(--silver)" }}>Social &amp; Digital</p>
               <ul className="space-y-2">
                 {[
                   ["Instagram Reels Dubai", "/services/reels"],
@@ -295,7 +295,7 @@ export default function HomePage() {
 
             {/* Locations & Industries */}
             <div>
-              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-55" style={{ color: "var(--silver)" }}>Locations &amp; Industries</p>
+              <p className="text-[9px] tracking-widest uppercase mb-3 opacity-70" style={{ color: "var(--silver)" }}>Locations &amp; Industries</p>
               <ul className="space-y-2">
                 {[
                   ["Production Company Dubai", "/locations/dubai"],
