@@ -6817,7 +6817,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "personal-branding-photography-dubai-2026",
     title: "Personal Branding Photography Dubai 2026 | Professional Brand Shoot UAE",
-    metaTitle: "Personal Branding Photography Dubai 2026",
+    metaTitle: "Personal Branding Photos Dubai 2026 Guide",
     metaDescription: "Personal branding photographer Dubai for entrepreneurs, executives and content creators. LinkedIn headshots to full brand shoot. From AED 1,800.",
     keywords: [
       "personal branding photography dubai",
