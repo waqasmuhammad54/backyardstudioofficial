@@ -482,6 +482,8 @@ export default function CostReportPage() {
             {[
               { label: "Full published pricing", href: "/pricing" },
               { label: "How to choose a production company", href: "/how-to-choose-a-production-company-in-dubai" },
+              { label: "Free production brief template", href: "/guides/video-production-brief-template" },
+              { label: "Corporate video ROI calculator", href: "/guides/corporate-video-roi" },
               { label: "Corporate films & DVCs", href: "/services/corporate-films" },
               { label: "Event videography", href: "/services/event-videography" },
               { label: "Wedding photography", href: "/services/wedding-photography" },

@@ -355,6 +355,12 @@ export default function HowToChoosePage() {
                   {p}
                 </p>
               ))}
+              {c.n === "04" && (
+                <p className="md:pl-5 mt-4 flex flex-wrap gap-x-5 gap-y-2 text-xs">
+                  <Link href="/guides/dubai-filming-permit" className="link-gold">Dubai filming permit guide →</Link>
+                  <Link href="/guides/drone-filming-checklist-dubai" className="link-gold">Commercial drone checklist →</Link>
+                </p>
+              )}
             </div>
           ))}
         </div>

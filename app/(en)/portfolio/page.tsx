@@ -50,6 +50,18 @@ export default function PortfolioPage() {
         <p className="text-silver/60 mt-4 max-w-md mx-auto text-sm">
           Events, creative shoots, product campaigns & weddings — across all 7 UAE emirates.
         </p>
+        <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
+          {[
+            ["Corporate & Events", "/production-portfolio/corporate-events"],
+            ["Fashion & Beauty", "/production-portfolio/fashion-beauty"],
+            ["Product & E-Commerce", "/production-portfolio/product-ecommerce"],
+            ["Weddings", "/production-portfolio/weddings-celebrations"],
+          ].map(([label, href]) => (
+            <Link key={href} href={href} className="text-xs px-4 py-2 border hover:border-gold hover:text-gold transition-colors" style={{ borderColor: "var(--border)", color: "var(--silver)" }}>
+              {label}
+            </Link>
+          ))}
+        </div>
       </div>
 
       {/* Sticky filter bar */}

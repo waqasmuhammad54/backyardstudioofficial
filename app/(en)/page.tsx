@@ -10,6 +10,7 @@ import TestimonialsSection from "@/components/home/TestimonialsSection";
 import BlogPreview from "@/components/home/BlogPreview";
 import GalleryStrip from "@/components/home/GalleryStrip";
 import ContactSection from "@/components/home/ContactSection";
+import ResourcesPreview from "@/components/home/ResourcesPreview";
 import Link from "next/link";
 import { faqSchema, itemListSchema, personSchema } from "@/lib/structuredData";
 
@@ -189,6 +190,7 @@ export default function HomePage() {
       <ProcessSection />
       <UAECoverage />
       <TestimonialsSection />
+      <ResourcesPreview />
       <BlogPreview />
 
       {/* P3 — visible FAQs must match FAQPage JSON-LD above */}

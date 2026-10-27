@@ -25,6 +25,7 @@ const SERVICES = [
 const COMPANY = [
   { label: "About Us",     href: "/about" },
   { label: "Portfolio",    href: "/portfolio" },
+  { label: "Portfolio by Industry", href: "/production-portfolio" },
   { label: "Pricing",      href: "/pricing" },
   { label: "Case Studies", href: "/case-studies" },
   { label: "Blog",         href: "/blog" },
@@ -37,6 +38,11 @@ const COMPANY = [
 // authority fast — they are the entry point for "how to choose" / "how much"
 // queries and the assets most likely to be cited by AI search engines.
 const GUIDES = [
+  { label: "All Production Guides",               href: "/guides" },
+  { label: "Dubai Filming Permit Guide",          href: "/guides/dubai-filming-permit" },
+  { label: "Dubai Drone Filming Checklist",       href: "/guides/drone-filming-checklist-dubai" },
+  { label: "Video Production Brief Template",     href: "/guides/video-production-brief-template" },
+  { label: "Corporate Video ROI Calculator",      href: "/guides/corporate-video-roi" },
   { label: "How to Choose a Production Company", href: "/how-to-choose-a-production-company-in-dubai" },
   { label: "UAE Production Cost Report 2026",     href: "/uae-video-production-cost-report-2026" },
 ];

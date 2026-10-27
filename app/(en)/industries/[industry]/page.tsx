@@ -610,6 +610,12 @@ export default function IndustryPage({ params }: { params: { industry: string } 
   const data = INDUSTRY_DATA[params.industry];
   if (!data) notFound();
 
+  const portfolioCollection = ({
+    corporate: { label: "Corporate & events portfolio", href: "/production-portfolio/corporate-events" },
+    fashion: { label: "Fashion & beauty portfolio", href: "/production-portfolio/fashion-beauty" },
+    "ecommerce-retail": { label: "Product & e-commerce portfolio", href: "/production-portfolio/product-ecommerce" },
+  } as Record<string, { label: string; href: string }>)[params.industry];
+
   const breadcrumbJsonLd = breadcrumbSchema([
     { name: "Home", url: "https://www.backyardstudioofficial.com" },
     { name: "Industries", url: "https://www.backyardstudioofficial.com/industries" },
@@ -779,6 +785,20 @@ export default function IndustryPage({ params }: { params: { industry: string } 
       </section>
 
       {/* ── RELATED ── */}
+      {portfolioCollection && (
+        <section className="py-12 border-t" style={{ background: "var(--black-2)", borderColor: "var(--border)" }}>
+          <div className="container-xl flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+            <div>
+              <p className="eyebrow mb-3">Published work</p>
+              <h2 className="font-display text-3xl" style={{ color: "var(--cream)" }}>REVIEW THE INDUSTRY PORTFOLIO</h2>
+            </div>
+            <Link href={portfolioCollection.href} className="btn-outline inline-flex items-center gap-2 self-start md:self-auto">
+              <span>{portfolioCollection.label}</span><ArrowUpRight size={14} />
+            </Link>
+          </div>
+        </section>
+      )}
+
       <section className="section-pad border-t" style={{ background: "var(--black)", borderColor: "var(--border)" }}>
         <div className="container-xl grid md:grid-cols-2 gap-12">
           <div>

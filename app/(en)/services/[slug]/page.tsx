@@ -1110,6 +1110,34 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
   const imgs  = SERVICE_IMAGES[params.slug] || DEFAULT_IMAGES;
   const video = SERVICE_VIDEOS[params.slug] || null;
   const pageUrl = `https://www.backyardstudioofficial.com/services/${params.slug}`;
+  const planningGuides = ({
+    "corporate-films": [
+      { label: "Corporate video ROI calculator", href: "/guides/corporate-video-roi" },
+      { label: "Free production brief template", href: "/guides/video-production-brief-template" },
+      { label: "Corporate portfolio", href: "/production-portfolio/corporate-events" },
+    ],
+    "corporate-videography": [
+      { label: "Corporate video ROI calculator", href: "/guides/corporate-video-roi" },
+      { label: "Free production brief template", href: "/guides/video-production-brief-template" },
+    ],
+    "corporate-brand-films": [
+      { label: "Corporate video ROI calculator", href: "/guides/corporate-video-roi" },
+      { label: "Corporate portfolio", href: "/production-portfolio/corporate-events" },
+    ],
+    "pre-post-production": [
+      { label: "Dubai filming permit guide", href: "/guides/dubai-filming-permit" },
+      { label: "Drone filming checklist", href: "/guides/drone-filming-checklist-dubai" },
+      { label: "Free production brief template", href: "/guides/video-production-brief-template" },
+    ],
+    "ads-shooting": [
+      { label: "Corporate video ROI calculator", href: "/guides/corporate-video-roi" },
+      { label: "Free production brief template", href: "/guides/video-production-brief-template" },
+    ],
+    "real-estate": [
+      { label: "Drone filming checklist", href: "/guides/drone-filming-checklist-dubai" },
+      { label: "Dubai filming permit guide", href: "/guides/dubai-filming-permit" },
+    ],
+  } as Record<string, { label: string; href: string }[]>)[params.slug] ?? [];
   const serviceBreadcrumb = breadcrumbSchema([
     { name: "Home", url: "https://www.backyardstudioofficial.com" },
     { name: "Services", url: "https://www.backyardstudioofficial.com/services" },
@@ -1282,6 +1310,18 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
                 )}
               </div>
             </div>
+            {planningGuides.length > 0 && (
+              <div className="p-6 border" style={{ borderColor: "var(--gold)", background: "var(--black-2)" }}>
+                <p className="text-[0.65rem] tracking-widest uppercase mb-3" style={{ color: "var(--gold)" }}>Plan the production</p>
+                <div className="space-y-3">
+                  {planningGuides.map((guide) => (
+                    <Link key={guide.href} href={guide.href} className="block text-sm text-silver/70 hover:text-gold transition-colors">
+                      {guide.label} →
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
 
         </div>

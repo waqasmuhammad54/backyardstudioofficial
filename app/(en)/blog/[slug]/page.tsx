@@ -325,6 +325,18 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
               <div className="p-6 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm">
                 <p className="text-[#e8c547] text-xs tracking-[0.3em] uppercase font-semibold mb-4">BUYER&apos;S GUIDES</p>
                 <div className="space-y-3">
+                  <Link href="/guides" className="block group">
+                    <p className="text-white text-xs font-semibold leading-snug group-hover:text-[#e8c547] transition-colors">
+                      Dubai Production Planning Guides
+                    </p>
+                    <p className="text-[#666] text-[10px] mt-1">Permits, drone, briefing &amp; ROI</p>
+                  </Link>
+                  <Link href="/guides/video-production-brief-template" className="block group">
+                    <p className="text-white text-xs font-semibold leading-snug group-hover:text-[#e8c547] transition-colors">
+                      Free Video Production Brief
+                    </p>
+                    <p className="text-[#666] text-[10px] mt-1">Editable Word template</p>
+                  </Link>
                   <Link href="/how-to-choose-a-production-company-in-dubai" className="block group">
                     <p className="text-white text-xs font-semibold leading-snug group-hover:text-[#e8c547] transition-colors">
                       How to Choose a Production Company in Dubai

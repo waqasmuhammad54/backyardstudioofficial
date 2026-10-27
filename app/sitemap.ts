@@ -5,6 +5,7 @@ import { INDUSTRY_SUB_PAGES } from "@/lib/industrySubPages";
 import { CASE_STUDIES } from "@/lib/caseStudies";
 import { RETIRED_BLOG_SLUGS } from "@/lib/retiredSlugs";
 import { ALL_PROJECTS } from "@/lib/portfolio-data";
+import { PORTFOLIO_COLLECTIONS, RESOURCE_GUIDES, RESOURCE_REVIEW_DATE } from "@/lib/growthResources";
 
 const BASE = "https://www.backyardstudioofficial.com";
 
@@ -209,6 +210,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }));
 
+  // Materially new planning resources and evidence-led portfolio collections.
+  // Keep their release date separate from `now` so adding these URLs does not
+  // falsely refresh the other 485 established pages.
+  const growthDate = new Date(`${RESOURCE_REVIEW_DATE}T00:00:00+04:00`);
+  const growthResources: MetadataRoute.Sitemap = [
+    { url: BASE + "/guides", lastModified: growthDate, changeFrequency: "monthly", priority: 0.9 },
+    ...RESOURCE_GUIDES.map((guide) => ({
+      url: `${BASE}/guides/${guide.slug}`,
+      lastModified: growthDate,
+      changeFrequency: "monthly" as const,
+      priority: 0.88,
+    })),
+    { url: BASE + "/production-portfolio", lastModified: growthDate, changeFrequency: "monthly", priority: 0.9 },
+    ...PORTFOLIO_COLLECTIONS.map((collection) => ({
+      url: `${BASE}/production-portfolio/${collection.slug}`,
+      lastModified: growthDate,
+      changeFrequency: "monthly" as const,
+      priority: 0.85,
+    })),
+  ];
+
   // Arabic pages (/ar/)
   const arCore: MetadataRoute.Sitemap = [
     { url: BASE + "/ar",                                         lastModified: now, changeFrequency: "weekly",  priority: 0.9 },
@@ -364,7 +386,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
 
-  const entries = [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...ajmanSubPages, ...rakSubPages, ...fujairSubPages, ...uaqSubPages, ...services, ...locations, ...industries, ...industrySubPages, ...portfolioProjects, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
+  const entries = [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...ajmanSubPages, ...rakSubPages, ...fujairSubPages, ...uaqSubPages, ...services, ...locations, ...industries, ...industrySubPages, ...portfolioProjects, ...growthResources, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
 
   return Array.from(
     new Map(
