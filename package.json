@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:ipv4": "node --dns-result-order=ipv4first ./node_modules/next/dist/bin/next build",
     "start": "next start",
     "lint": "eslint .",
     "check:links": "node scripts/check-industry-slugs.mjs && node scripts/check-service-slugs.mjs && node scripts/check-internal-redirects.mjs",
