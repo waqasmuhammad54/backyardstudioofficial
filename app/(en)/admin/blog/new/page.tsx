@@ -171,7 +171,7 @@ function LoginScreen({ onLogin }: { onLogin: (token: string) => void }) {
   const submit = async (e: React.FormEvent) => {
     e.preventDefault(); setLoading(true); setErr("");
     const res = await fetch("/api/admin/login", {
-      method: "POST", headers: { "Content-Type": "application/json" },
+      method: "POST", credentials: "include", headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ password: pw }),
     });
     setLoading(false);
@@ -276,11 +276,27 @@ export default function BlogNewPage() {
   const mdInputRef = useRef<HTMLInputElement>(null);
   const imageInputRef = useRef<HTMLInputElement>(null);
 
-  // Check auth on mount (cookie fallback)
+  // Restore a valid cookie or same-tab token after a refresh. The previous
+  // implementation always forced a logout by intentionally sending a bad
+  // password, which made a normal reload look like an unrelated API failure.
   useEffect(() => {
-    fetch("/api/admin/login", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ password: "__check__" }) })
-      .then((r) => { setAuthed(false); })
-      .catch(() => { setAuthed(false); });
+    const storedToken = typeof sessionStorage !== "undefined"
+      ? sessionStorage.getItem("bso_token") || ""
+      : "";
+    const headers: Record<string, string> = {};
+    if (storedToken) headers.Authorization = `Bearer ${storedToken}`;
+
+    fetch("/api/admin/login", { method: "GET", credentials: "include", headers })
+      .then((r) => {
+        if (!r.ok) throw new Error("Session expired");
+        setAuthedToken(storedToken);
+        setAuthed(true);
+      })
+      .catch(() => {
+        if (typeof sessionStorage !== "undefined") sessionStorage.removeItem("bso_token");
+        setAuthedToken("");
+        setAuthed(false);
+      });
   }, []);
 
   const slug = buildSlug(title);
@@ -303,14 +319,28 @@ export default function BlogNewPage() {
   }
 
   /* ── Post list helpers ─────────────────────────────────────────── */
+  const expireAdminSession = (message: string) => {
+    if (typeof sessionStorage !== "undefined") sessionStorage.removeItem("bso_token");
+    setAuthedToken("");
+    setAuthed(false);
+    setPostsMsg(message);
+  };
+
   const fetchPosts = async () => {
     setPostsLoading(true); setPostsMsg("");
-    const res = await fetch("/api/admin/publish", { headers: { Authorization: `Bearer ${authedToken}` } });
+    const headers: Record<string, string> = {};
+    if (authedToken) headers.Authorization = `Bearer ${authedToken}`;
+    const res = await fetch("/api/admin/publish", { credentials: "include", headers });
     if (res.ok) {
       const data = await res.json();
       setPosts(data.posts || []);
     } else {
-      setPostsMsg("Failed to load posts. Check GitHub token.");
+      const body = await res.json().catch(() => ({}));
+      if (res.status === 401) {
+        expireAdminSession(body.error || "Admin session expired. Please log in again.");
+      } else {
+        setPostsMsg(body.error || `Could not load posts (HTTP ${res.status}).`);
+      }
     }
     setPostsLoading(false);
   };
@@ -347,6 +377,7 @@ export default function BlogNewPage() {
     setPostsMsg("");
     const res = await fetch("/api/admin/publish", {
       method: "DELETE",
+      credentials: "include",
       headers: { "Content-Type": "application/json", Authorization: `Bearer ${authedToken}` },
       body: JSON.stringify({ slug: postSlug }),
     });
@@ -362,6 +393,7 @@ export default function BlogNewPage() {
     setPostsMsg("");
     const res = await fetch("/api/admin/publish", {
       method: "PATCH",
+      credentials: "include",
       headers: { "Content-Type": "application/json", Authorization: `Bearer ${authedToken}` },
       body: JSON.stringify({ slug: postSlug }),
     });
@@ -378,6 +410,7 @@ export default function BlogNewPage() {
     setPostsMsg("");
     const res = await fetch("/api/admin/publish", {
       method: "DELETE",
+      credentials: "include",
       headers: { "Content-Type": "application/json", Authorization: `Bearer ${authedToken}` },
       body: JSON.stringify({ slug: postSlug, permanent: true }),
     });
@@ -576,7 +609,9 @@ export default function BlogNewPage() {
     };
 
     const res = await fetch("/api/admin/publish", {
-      method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${authedToken}` }, body: JSON.stringify(post),
+      method: "POST", credentials: "include",
+      headers: { "Content-Type": "application/json", Authorization: `Bearer ${authedToken}` },
+      body: JSON.stringify(post),
     });
 
     const body = await res.json().catch(() => ({}));
@@ -587,7 +622,8 @@ export default function BlogNewPage() {
       );
       if (confirmed) {
         const res2 = await fetch("/api/admin/publish", {
-          method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${authedToken}` },
+          method: "POST", credentials: "include",
+          headers: { "Content-Type": "application/json", Authorization: `Bearer ${authedToken}` },
           body: JSON.stringify({ ...post, overwrite: true }),
         });
         if (res2.ok) {
@@ -616,7 +652,12 @@ export default function BlogNewPage() {
         : `✓ Saved as draft. Won't appear on blog until published.`);
     } else {
       setUiState("error");
-      setMsg(body.error || "Failed. Check GITHUB_TOKEN in Vercel env vars.");
+      if (res.status === 401) {
+        if (typeof sessionStorage !== "undefined") sessionStorage.removeItem("bso_token");
+        setAuthedToken("");
+        setAuthed(false);
+      }
+      setMsg(body.error || `Publishing failed (HTTP ${res.status}). Please try again.`);
     }
   }
 
