@@ -20,6 +20,7 @@ import { NextResponse } from "next/server";
 
 const GITHUB_OWNER = "waqasmuhammad54";
 const GITHUB_REPO = "backyardstudioofficial";
+const POSTS_FILE = "content/posts.json";
 
 export const dynamic = "force-dynamic";
 
@@ -93,7 +94,58 @@ export async function GET() {
     /* fall through — reported below */
   }
 
-  const githubWorking = authStatus === 200 && canWrite;
+  // 3. Can the publishing path read and parse the actual post store? A valid
+  // token alone is not enough: once posts.json exceeded 1 MiB, GitHub stopped
+  // inlining Base64 content and the old admin reader failed despite passing the
+  // user/repository checks above.
+  let postsStatus = 0;
+  let postsRawStatus: number | null = null;
+  let postsReadable = false;
+  let postCount: number | null = null;
+  let postsSize: number | null = null;
+  let postsEncoding: string | null = null;
+
+  try {
+    const postsUrl = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${POSTS_FILE}?ref=main`;
+    const metadataRes = await fetch(postsUrl, {
+      headers: { ...headers, Accept: "application/vnd.github.object+json" },
+      cache: "no-store",
+    });
+    postsStatus = metadataRes.status;
+    if (metadataRes.ok) {
+      const metadata = await metadataRes.json() as {
+        content?: string;
+        encoding?: string;
+        size?: number;
+      };
+      postsSize = typeof metadata.size === "number" ? metadata.size : null;
+      postsEncoding = metadata.encoding ?? null;
+
+      let raw = "";
+      if (metadata.encoding === "base64" && metadata.content) {
+        raw = Buffer.from(metadata.content, "base64").toString("utf-8");
+      } else {
+        const rawRes = await fetch(postsUrl, {
+          headers: { ...headers, Accept: "application/vnd.github.raw+json" },
+          cache: "no-store",
+        });
+        postsRawStatus = rawRes.status;
+        if (rawRes.ok) raw = await rawRes.text();
+      }
+
+      if (raw) {
+        const parsed = JSON.parse(raw) as unknown;
+        if (Array.isArray(parsed)) {
+          postsReadable = true;
+          postCount = parsed.length;
+        }
+      }
+    }
+  } catch {
+    /* Report the failed post-store check below without exposing its content. */
+  }
+
+  const githubWorking = authStatus === 200 && canWrite && postsReadable;
 
   return NextResponse.json(
     {
@@ -103,9 +155,17 @@ export async function GET() {
       authenticatedAs: login,
       repo: `${GITHUB_OWNER}/${GITHUB_REPO}`,
       canWriteToRepo: canWrite,
-      githubStatus: { user: authStatus, repo: repoStatus },
+      postStore: {
+        readable: postsReadable,
+        postCount,
+        sizeBytes: postsSize,
+        encoding: postsEncoding,
+      },
+      githubStatus: { user: authStatus, repo: repoStatus, posts: postsStatus, postsRaw: postsRawStatus },
       detail: githubWorking
-        ? "Token is valid and can write to the repo. Admin publishing and image upload should work."
+        ? `Token is valid, the repo is writable, and all ${postCount} blog posts are readable.`
+        : authStatus === 200 && canWrite && !postsReadable
+          ? "Token and repository permissions are valid, but content/posts.json could not be read and parsed. Admin publishing is not healthy."
         : canWrite === false && authStatus === 200
           ? "Token authenticates but has no write access to this repo. It needs 'Contents: Read and write'."
           : "Token is not usable for this repo.",
