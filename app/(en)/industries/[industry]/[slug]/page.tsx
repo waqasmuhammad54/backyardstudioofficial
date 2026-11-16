@@ -22,8 +22,15 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
   challenge: string;
   solution: string;
   services: { label: string; href: string; desc: string }[];
-  results: { stat: string; label: string }[];
-  caseStudy: { title: string; client: string; result: string; body: string };
+  results?: { stat: string; label: string }[];
+  caseStudy?: { title: string; client: string; result: string; body: string };
+  experience?: {
+    eyebrow: string;
+    heading: string;
+    body: string;
+    points: string[];
+    publicReferences?: { name: string; href: string; label: string }[];
+  };
   faqs: { q: string; a: string }[];
   relatedLocations: { label: string; href: string }[];
   relatedPosts: { title: string; href: string }[];
@@ -432,12 +439,11 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
        D-King (Instagram reels DZZlZh7MFwT, DbqgbE8sLEw) and a Dubai
        competition where medals were awarded (DbnwskpoBhB).
 
-       DELIBERATE OMISSIONS — do not "improve" these in:
-       no venue names, no promotion or tournament names, no governing body,
-       no sanctioning claim, no fighter names beyond the collaborator who
-       published jointly with us. We have written confirmation for none of
-       those, and combat sports is a licensing-sensitive category where an
-       unverifiable association is worse than a thinner page.
+       EVIDENCE NOTE:
+       DKing Combat and DKing Saad Combat System are named only for training
+       content the owner has confirmed Backyard produced and for which public
+       Instagram profiles were supplied. Do not infer event sanctioning,
+       governing-body, venue or fighter endorsements from those references.
     ---------------------------------------------------------------------- */
     "combat-sports": {
       parentSlug: "sports",
@@ -446,7 +452,7 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       tagline: "Fight Night Coverage Built for the Rematch Announcement, Not the Archive",
       heroImage: "https://images.unsplash.com/photo-1544717305-2782549b5136?w=1920&q=80",
       metaTitle: "Boxing & MMA Videographer Dubai | Combat Sports Coverage UAE",
-      metaDescription: "Boxing, MMA and combat sports video production in Dubai and the UAE. Ringside and cage-side coverage, same-night social cuts",
+      metaDescription: "Boxing, MMA, Krav Maga and self-defence video production in Dubai and the UAE, from combat-gym shoots to ringside coverage and Reels.",
       keywords: [
         "boxing videographer Dubai",
         "MMA event coverage UAE",
@@ -458,6 +464,9 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
         "ringside photographer Dubai",
         "jiu jitsu competition photography UAE",
         "athlete walkout film Dubai",
+        "Krav Maga videographer Dubai",
+        "self defence video production Dubai",
+        "combat gym social media content UAE",
       ],
       intro: "Combat sports is one of the fastest-growing spectator categories in the UAE, and one of the least well served by production crews. Boxing cards, MMA promotions, jiu jitsu and grappling competitions, Muay Thai and kickboxing events, and the academy and gym ecosystem underneath all of them now run most weekends somewhere between Dubai, Abu Dhabi and Sharjah. Backyard Studio Official shoots in this category regularly, including combat sessions produced jointly with fighters for their own channels.\n\nCombat sports is technically the hardest live sport to cover well, and the reason is specific. In football you have ninety minutes to find the moment. In a three-round fight you may have four seconds, you cannot ask for it again, and the lighting rig over a ring or a cage is built to look good from the seats and from the broadcast position — not from wherever a single operator happens to be standing. Shooting it properly means committing to positions before the first bell and accepting that some of them will give you nothing.\n\nThe other thing that makes this category different is who the content is for. A football club publishes to one audience. A fight card publishes to at least four at once: the promotion, each fighter's personal channel, the gym or academy they represent, and the sponsors on the canvas. Each of those wants a different cut of the same night, and each of them wants it before the result stops being news. We plan the shot list and the edit queue around all four from the start, because going back for a second pass is not an option in this sport.\n\nWe work with promoters, gyms and academies, and individual fighters building a personal brand. Fighter content in particular tends to run as an ongoing arrangement rather than event by event — camp footage, weigh-in, walkout, the fight itself, then the post-fight edit that sets up the next one.",
       challenge: "Combat sports content is unforgiving in two directions at once. Technically, you are shooting fast, unpredictable movement under hard overhead light with heavy shadows, from a fixed position you chose before you knew what would happen, usually through a barrier — ropes or a cage — that was designed to keep you out. Most crews either shoot too wide and lose the detail that makes the moment land, or shoot too tight and miss the finish entirely.\n\nCommercially, the window is shorter than any other sport. A knockout clip posted the same night travels. The same clip posted the next afternoon is a record of something people have already seen, discussed and moved on from. And unlike a league fixture, there is no next week to make up for it — the card is the card.\n\nThe third problem is quieter and costs more. Fighters and promotions are often handed a single long highlight edit and nothing else, when what they needed was a set of separate cuts for separate channels. One good edit that only fits one platform is a fraction of the value of the night that was actually captured.",
@@ -469,7 +478,23 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
         { label: "Fighter Brand Content", href: "/services/photo-shoots", desc: "Athlete portraits, sponsor activation content and personal brand campaigns, typically on a monthly arrangement." },
         { label: "Grappling & Jiu Jitsu Competitions", href: "/services/event-videography", desc: "Mat-side coverage of jiu jitsu, grappling and wrestling competitions, including podium and medal photography." },
         { label: "Gym & Academy Content", href: "/services/social-media-content", desc: "Competition footage of your own members, plus class and coaching content for membership marketing." },
+        { label: "Krav Maga & Self-Defence Content", href: "/services/reels", desc: "Instructor-led technique, class energy and scenario-training edits for combat studios and coaches." },
       ],
+      experience: {
+        eyebrow: "First-hand experience",
+        heading: "Krav Maga, self-defence and combat training shoots",
+        body: "Backyard Studio has produced recurring combat-training content for DKing Combat and DKing Saad Combat System in Dubai. The work covers Krav Maga, real-world self-defence, coached technique and studio training, with finished material published through client-owned Instagram channels.\n\nTraining content is different from a live fight card: technique must remain legible, the instructor's explanation matters and the production cannot compromise partner safety. No membership, reach or commercial result is claimed without approved analytics.",
+        points: [
+          "Krav Maga and self-defence training sequences",
+          "Instructor-led technique and coaching content",
+          "Combat-studio photography, Reels and behind-the-scenes material",
+          "Safe camera positions planned around live partner drills",
+        ],
+        publicReferences: [
+          { name: "DKing Combat", href: "https://www.instagram.com/dkingcombat_official/", label: "Instagram" },
+          { name: "DKing Saad Combat System", href: "https://www.instagram.com/dkingsaadcombatsystem/", label: "Instagram" },
+        ],
+      },
       results: [
         { stat: "Same night", label: "vertical social cuts cleared before the result stops being news" },
         { stat: "48h", label: "full card film and stills gallery delivered" },
@@ -490,6 +515,7 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
         { q: "Why does the walkout film matter so much?", a: "Because it is reliably the most-watched thing a fighter publishes in a year, and it is almost always the piece nobody planned for. The walk is the only part of the night that is fully predictable — you know where it starts, where it ends, and roughly how long it lasts — which makes it the one sequence you can properly light, block and cover rather than react to." },
         { q: "Can you cover jiu jitsu and grappling competitions?", a: "Yes. Mat-side coverage of jiu jitsu, grappling and wrestling competitions, including podium and medal photography. Competition days are long and run across multiple mats simultaneously, so we scope these by mat count and schedule rather than by hours." },
         { q: "Do you produce content for combat gyms and academies?", a: "Yes. Competition footage of your own members is the strongest membership marketing a gym has — stronger than a facility tour, because it shows outcomes rather than equipment. We also produce class, coaching and technique content for gym social channels on monthly packages." },
+        { q: "Can you film Krav Maga and self-defence training?", a: "Yes. We plan camera positions with the instructor before partner drills begin, capture full technique where teaching clarity matters, and create shorter vertical edits for social discovery. Safety instructions and instructor-approved terminology stay intact." },
         { q: "What do you need from the promotion before the event?", a: "Confirmed ringside or cage-side positions, media accreditation for all crew, the bout order with approximate timings, and a named contact who can clear a cut for publishing on the night. The last one matters more than people expect — footage that cannot be approved until Monday has already lost most of its value." },
       ],
       relatedLocations: [
@@ -506,23 +532,40 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
     "fitness": {
       parentSlug: "sports",
       parentName: "Sports",
-      name: "Fitness & Gym Photography",
-      tagline: "Gym Content That Sells Memberships Before the First Workout",
+      name: "Fitness Influencer, Trainer & Gym Content",
+      tagline: "Performance-Led Reels, Photography and Personal Brand Video",
       heroImage: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920&q=80",
-      metaTitle: "Fitness Photographer Dubai | Gym & Personal Trainer Content",
-      metaDescription: "Fitness photography in Dubai for gyms, personal trainers and wellness brands, including facility images, trainer profiles, launch content and social video.",
-      keywords: ["fitness photography Dubai","gym photography UAE","personal trainer video Dubai","fitness content UAE","gym launch video Dubai"],
-      intro: "The fitness market in Dubai is one of the most competitive in the world. Boutique studios, big-box gyms, personal training brands, and wellness platforms all compete for the same audience — and increasingly, the content quality is what decides which brands attract premium members. Backyard Studio produces fitness photography and video for gyms, studios, personal trainers, and wellness brands across Dubai and the UAE.\n\nWe cover the full fitness content spectrum: launch campaigns that fill founding memberships before a studio opens, ongoing monthly social content that keeps your feed active, trainer profile videos that build personal brand and attract PT clients, and facility photography that earns Google Business views.",
+      metaTitle: "Fitness Influencer Videographer Dubai | Reels & Photos",
+      metaDescription: "Fitness influencer video, personal-trainer Reels, gym photography and workout content production in Dubai and the UAE for social, web and sponsors.",
+      keywords: ["fitness influencer videographer Dubai","fitness photography Dubai","personal trainer Reels Dubai","gym photography UAE","fitness content creator Dubai","workout video production UAE","fitness personal branding Dubai"],
+      intro: "Fitness influencers, personal trainers and gyms are selling different things, but all three depend on credible movement. An influencer needs a recognisable visual identity and enough repeatable formats to publish consistently. A trainer needs clear coaching, personality and proof of method. A gym needs facility, community and class energy. Backyard Studio produces photography and video for those separate goals instead of applying one generic workout montage to every brief.\n\nOur team has completed a fitness-influencer shoot in the UAE and has published fitness footage in the Backyard portfolio. That first-hand experience shapes how we cover real training: exercise form remains understandable, the athlete is not interrupted at unsafe moments, and each set produces both hero frames and usable vertical sequences. We plan hooks, full repetitions, close details, rest moments and spoken pieces before the workout begins so the creator can train rather than repeatedly reset for the camera.\n\nContent is captured for the channel where it will be used. Instagram and TikTok require clean 9:16 composition, quick context and safe space for interface text. YouTube demonstrations need longer uninterrupted technique coverage and clean audio. Sponsor assets need accurate product visibility and approval of any performance or nutrition claims. Websites and media kits need horizontal portraits, headshots and brand frames that do not look like screenshots from a Reel.\n\nA single production day can create a structured content bank, but we do not promise follower growth or client sales from production alone. Reach also depends on publishing consistency, creative testing, audience fit, distribution and the platform's current systems. Our role is to provide strong, accurate source material and edits that give the strategy a fair chance to work.",
       challenge: "Fitness brands in Dubai face a specific content challenge: the product is physical transformation and community, neither of which is easy to communicate in a static image. Generic gym photography — equipment shots, empty studios, stock-style models holding weights — does not differentiate a brand and does not earn engagement.",
       solution: "We produce fitness content with real training intensity. All models and talent are athletes or genuine fitness enthusiasts — not fashion models holding equipment. Movement is photographed and filmed during actual exercise rather than posed static shots. Sound design in Reels captures the energy of training: ambient gym sound, motivational coaching audio, and music that aligns with the brand's training culture.",
       services: [
         { label: "Gym Launch Content", href: "/services/corporate-films", desc: "Pre-opening launch content package — facility photography, founder story video, member testimonials, and a hero launch Reel." },
         { label: "Facility Photography", href: "/services/photo-shoots", desc: "Studio and gym facility photography for Google Business, your website, and property listings." },
-        { label: "Trainer Profile Videos", href: "/services/corporate-films", desc: "60 to 90-second personal trainer profile videos — background, philosophy, training style, and client results." },
+        { label: "Influencer Content Days", href: "/services/reels", desc: "A planned bank of vertical hooks, exercise sequences, lifestyle moments and sponsor-ready clips." },
+        { label: "Trainer Profile Videos", href: "/services/corporate-films", desc: "60 to 90-second personal trainer films covering background, philosophy, coaching style and audience." },
         { label: "Class & Session Coverage", href: "/services/event-videography", desc: "Live class photography and video — group fitness, HIIT, yoga, martial arts, and personal training sessions." },
         { label: "Monthly Social Content", href: "/services/reels", desc: "Monthly content packages delivering 8 to 12 Reels and 20 static images each month." },
-        { label: "Client Transformation Stories", href: "/services/corporate-films", desc: "Before-and-after transformation documentary shorts — 2 to 4 minutes — for YouTube and social proof campaigns." },
+        { label: "Sponsor & Product Content", href: "/services/product-shoots", desc: "Fitness apparel, equipment and nutrition-brand content produced to an approved claim and usage brief." },
       ],
+      experience: {
+        eyebrow: "First-hand experience",
+        heading: "A real fitness-influencer production",
+        body: "Backyard Studio has completed fitness, coaching and combat-training shoots for DKing Combat, DKing Saad Combat System and Alpha Physique Coaching. The work includes Krav Maga, self-defence, combat training and physique-coaching content, with finished material published through client-owned Instagram channels.\n\nThese productions demonstrate experience with fast movement, gym light, vertical framing, instructor-led sequences and creator delivery. No audience, sponsor or commercial result is attributed without approved analytics.",
+        points: [
+          "Fitness-influencer photography and vertical video",
+          "Real exercise sequences rather than static equipment poses",
+          "Reels-ready framing plus personal-brand portrait options",
+          "Behind-the-scenes and repeatable content-bank capture",
+        ],
+        publicReferences: [
+          { name: "DKing Combat", href: "https://www.instagram.com/dkingcombat_official/", label: "Instagram" },
+          { name: "DKing Saad Combat System", href: "https://www.instagram.com/dkingsaadcombatsystem/", label: "Instagram" },
+          { name: "Alpha Physique Coaching", href: "https://www.instagram.com/alphaphysiquecoaching/", label: "Instagram" },
+        ],
+      },
       results: [
         { stat: "350", label: "founding memberships sold in one launch month for a boutique gym client" },
         { stat: "6x ROI", label: "average return on launch content investment within 90 days" },
@@ -540,6 +583,8 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
         { q: "Do you include equipment and studio detail photography?", a: "Yes. Facility photography packages include equipment close-ups, detail shots of class tools and props, locker room and changing facilities where appropriate, and any branded interior features." },
         { q: "How do you handle fitness content for female-only or gender-separated spaces?", a: "We always send a photographer of the appropriate gender for gender-separated spaces and can accommodate full hijab requirements for female talent where relevant." },
         { q: "Can you produce content for fitness apps and YouTube channels?", a: "Yes. Workout tutorial content, nutrition guide videos, and long-form YouTube fitness content are all within scope. Please describe your specific needs when enquiring so we can quote the correct package." },
+        { q: "Do you shoot fitness influencers and creators?", a: "Yes. We plan influencer content around the creator's recurring formats, audience and sponsor obligations. A shoot can combine workout Reels, spoken hooks, portraits, lifestyle frames and behind-the-scenes material." },
+        { q: "Can you create a month of fitness content in one day?", a: "Often, yes, when the exercises, locations, outfits, hooks and approvals are organised before the shoot. The realistic number of finished pieces depends on complexity; we agree a deliverable list rather than promising an arbitrary clip count." },
         { q: "Do you offer content packages for gym chains with multiple locations?", a: "Yes. Multi-location gym groups can access volume pricing across all sites, with a consistent brand visual style maintained across all locations. We manage a shoot schedule that cycles through all sites quarterly." },
       ],
       relatedLocations: [
@@ -1164,6 +1209,130 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
         { title: "Hospitality Production UAE", href: "/industries/hospitality" },
       ],
     },
+
+    "cleaning-company-content": {
+      parentSlug: "corporate",
+      parentName: "Corporate",
+      name: "Cleaning Company Video & Social Content",
+      tagline: "Show the Process, the Standard and the Result",
+      heroImage: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920&q=80",
+      metaTitle: "Cleaning Company Video Production Dubai | Reels",
+      metaDescription: "Video, photography and Instagram Reels for Dubai cleaning, maintenance and holiday-home service companies, with proof-led before-and-after content.",
+      keywords: [
+        "cleaning company video production Dubai",
+        "cleaning services social media content Dubai",
+        "cleaning company Instagram Reels UAE",
+        "home maintenance videography Dubai",
+        "before and after cleaning video Dubai",
+        "holiday home cleaning content UAE",
+      ],
+      intro: "People rarely buy a cleaning or maintenance service because of a cinematic brand statement alone. They want visible proof: how the team arrives, protects the property, handles equipment, works through the checklist and leaves the space. That makes process-led video, before-and-after photography and short vertical edits the most useful content for cleaning companies in Dubai.\n\nBackyard Studio produces on-location content for cleaning, home-maintenance and short-stay support companies. The capture plan is designed around real work rather than staged wiping shots. We document the condition at arrival, the steps that demonstrate professional care, close details that phone footage misses, team presentation and the finished handover. One organised shoot can supply a website hero film, service-page clips, Google Business images and a library of Instagram Reels.\n\nFor holiday-home cleaning, timing and guest privacy shape the production. Filming must fit between checkout and the next arrival, avoid identifiable guest information and show the standards that matter to operators: linen, bathrooms, kitchens, touchpoints, consumables and final inspection. For residential maintenance, the story changes by service. AC cleaning needs safe equipment detail and a clear explanation; painting or renovation benefits from progress stages; emergency repairs need calm, credible team content rather than exaggerated drama.\n\nThe goal is a reusable evidence library. Prospective customers should be able to understand the service standard before they make contact, while the company receives enough correctly framed material for its website, paid campaigns and recurring social posts.",
+      challenge: "Cleaning and maintenance work often looks ordinary when it is filmed without a plan. Wide phone clips hide the difference between a quick surface clean and a professional process, while exaggerated before-and-after edits can damage trust. Active homes also contain privacy risks: family photographs, documents, building numbers, access codes and personal belongings should never appear by accident.",
+      solution: "We build the shot list from the company checklist and the channels where the content will run. Establishing shots explain the property type, macro details show technique and equipment, and matched before-and-after angles make the result understandable without visual tricks. We agree privacy exclusions before filming, obtain staff consent and capture horizontal and vertical formats during the same visit.",
+      services: [
+        { label: "Service Demonstration Films", href: "/services/corporate-videography", desc: "Clear website videos showing the team, equipment, process and final quality check." },
+        { label: "Before-and-After Reels", href: "/services/reels", desc: "Matched vertical sequences for Instagram, TikTok and paid social without misleading edits." },
+        { label: "Team & Vehicle Photography", href: "/services/photo-shoots", desc: "Professional staff, uniform, equipment and fleet images for service pages and Google Business." },
+        { label: "Monthly Social Content", href: "/services/social-media-content", desc: "A repeatable filming schedule across services, properties and seasonal maintenance topics." },
+        { label: "Customer Testimonial Video", href: "/services/testimonial-videos", desc: "Consent-led client stories filmed at a completed property or controlled interview location." },
+        { label: "Website Content Library", href: "/services/corporate-brand-films", desc: "Horizontal hero footage, service-page clips, stills and thumbnails delivered as one organised library." },
+      ],
+      experience: {
+        eyebrow: "First-hand experience",
+        heading: "Filmed where the service happens",
+        body: "Backyard Studio has completed video and behind-the-scenes coverage for FixBNB Cleaning Services, with the work published on the client's Instagram account. That production experience informs the privacy checks, sequence planning and practical shot list on this page.\n\nNo sales uplift, follower growth or customer outcome is claimed unless the client supplies and approves the underlying data.",
+        points: [
+          "On-location service footage and staff-at-work sequences",
+          "Vertical social edits plus behind-the-scenes material",
+          "Process details that explain the service instead of only showing a final room",
+          "Website and social crops captured during the same production window",
+        ],
+        publicReferences: [
+          { name: "FixBNB Cleaning Services", href: "https://www.instagram.com/fixbnbcleaningservices.ae/", label: "Instagram" },
+        ],
+      },
+      faqs: [
+        { q: "Can you film a real cleaning job rather than staging one?", a: "Yes, provided the property owner or operator approves filming and privacy exclusions are agreed in advance. We plan the sequence around the real service checklist so the team can work normally while the camera captures the steps customers need to see." },
+        { q: "Can one shoot create content for our website and Instagram?", a: "Yes. We capture horizontal and vertical compositions during the same production. A typical delivery can include a website hero edit, shorter service clips, multiple Reels, staff photographs and still frames for Google Business." },
+        { q: "How do you protect customer privacy inside homes?", a: "Before recording, we identify documents, photographs, door numbers, access screens, keys and personal belongings that must stay outside the frame. We can also blur an approved detail in post-production, but prevention on set is the preferred approach." },
+        { q: "Can you make before-and-after cleaning videos?", a: "Yes. We lock camera positions and lens choices so the comparison is fair. We do not use lighting or framing changes to exaggerate the result, and we can add captions explaining the service completed." },
+        { q: "Do you produce content for AC, handyman and renovation services too?", a: "Yes. The production plan changes by trade, safety requirement and location. We can cover AC servicing, plumbing, electrical work, painting, minor renovation and short-stay property turnaround when the worksite is safe for filming." },
+        { q: "Can you film recurring monthly content?", a: "Yes. A monthly or quarterly schedule works well for service businesses because it builds separate proof for each service instead of repeating the same generic company introduction." },
+      ],
+      relatedLocations: [
+        { label: "Cleaning Company Content Dubai", href: "/locations/dubai" },
+        { label: "Service Business Video Abu Dhabi", href: "/locations/abu-dhabi" },
+        { label: "Maintenance Content Sharjah", href: "/locations/sharjah" },
+      ],
+      relatedPosts: [
+        { title: "Social Media Content Production", href: "/services/social-media-content" },
+        { title: "Holiday Home Photography & Reels", href: "/industries/hospitality/holiday-home-content" },
+        { title: "Corporate Video Production Guide Dubai 2026", href: "/blog/corporate-video-production-dubai-2026" },
+      ],
+    },
+
+    "manufacturing-video": {
+      parentSlug: "corporate",
+      parentName: "Corporate",
+      name: "Manufacturing & Technical Product Video",
+      tagline: "Make a Complex Product Easy to Understand",
+      heroImage: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1920&q=80",
+      metaTitle: "Manufacturing Video Production Dubai & UAE",
+      metaDescription: "Manufacturing, installation and technical-product video in Dubai and the UAE for factories, suppliers and premium home-system brands.",
+      keywords: [
+        "manufacturing video production Dubai",
+        "factory videography UAE",
+        "technical product video Dubai",
+        "installation video production UAE",
+        "home lift video production Dubai",
+        "industrial photography UAE",
+        "manufacturer social media content Dubai",
+      ],
+      intro: "A technical product is difficult to sell when buyers cannot see how it is made, installed or used. Specifications matter, but the buying decision often depends on trust in the manufacturer, the finish quality, the installation team and the final result inside a real project. Manufacturing and technical-product content must connect those stages without turning the film into a catalogue of machinery.\n\nBackyard Studio produces photography and video for UAE manufacturers, suppliers and installation-led brands. Our recent experience includes ongoing work for a luxury home-lift manufacturer: product and installation videography, social content and material designed to support the company website and portfolio. That work requires a different production approach from a studio product shoot. The camera must respect an active worksite, show scale accurately, protect customer privacy and translate engineering detail into clear visual proof for a homeowner, architect or consultant.\n\nA useful content system normally has several layers. The brand film explains the company and quality promise. A manufacturing or workshop film shows capability. Installation stories document the journey from delivery to handover. Product detail films explain finishes, controls, safety features and space planning. Short vertical edits then turn those same production days into recurring LinkedIn, Instagram and sales-team content.\n\nWe plan those layers together so footage is not captured once and forgotten. Every shoot is mapped to specific website sections, sales conversations and social formats, with a clear distinction between facts that can be demonstrated on camera and technical claims that need client engineering approval.",
+      challenge: "Industrial spaces and installation sites are visually busy, safety-sensitive and difficult to explain to a non-technical audience. Generic factory montages can look impressive without answering a buyer's real questions. For premium home systems such as villa lifts, the content also needs to balance engineering credibility with architecture, finish quality and the lived experience of the completed space.",
+      solution: "We begin with the buyer journey and an approved technical fact sheet. Wide frames establish the facility or property; controlled detail shots show materials and workmanship; interviews explain the decisions; and installation sequences are planned around safe access. We produce separate edits for homeowners, architects, developers, distributors and recruitment when those audiences need different proof.",
+      services: [
+        { label: "Manufacturer Brand Film", href: "/services/corporate-brand-films", desc: "Company story, capability, people and product positioning in one sales-ready film." },
+        { label: "Factory & Workshop Film", href: "/services/corporate-videography", desc: "Process-led coverage of machinery, quality control, skilled work and production capacity." },
+        { label: "Installation Case Story", href: "/services/real-estate", desc: "Site survey, delivery, installation details and completed result documented for portfolio use." },
+        { label: "Technical Product Demonstration", href: "/services/product-shoots", desc: "Controls, materials, finishes and user experience explained through accurate close detail." },
+        { label: "Architecture & Interior Photography", href: "/services/photo-shoots", desc: "Completed products photographed in context for websites, brochures and consultant presentations." },
+        { label: "LinkedIn & Reels Content", href: "/services/social-media-content", desc: "Short edits from workshops, installations and handovers for an ongoing content programme." },
+      ],
+      experience: {
+        eyebrow: "First-hand experience",
+        heading: "Luxury home-lift work in the UAE",
+        body: "Backyard Studio has produced ongoing content for Elevaya Lifts and Demi Elevator, covering products, installation environments and brand portfolios across social, web and video uses. The work has taught us where a production team must coordinate with installers, which finishes need controlled reflections and how to show a lift inside a villa without exposing private household details.\n\nTechnical specifications, compliance statements and performance claims remain subject to each manufacturer's written approval before publication.",
+        points: [
+          "Home-lift product and installation videography",
+          "Luxury finish, control and cabin detail photography",
+          "Website, portfolio and short-form social deliverables",
+          "On-site coordination around active installation work",
+        ],
+        publicReferences: [
+          { name: "Elevaya Lifts", href: "https://elevaya.ae/", label: "Website" },
+          { name: "Demi Elevator", href: "https://demielevator.com/", label: "Website" },
+        ],
+      },
+      faqs: [
+        { q: "Can you film inside an active factory or workshop?", a: "Yes, after a site walk-through or safety briefing. We agree restricted zones, PPE, machinery timing, employee consent and any confidential processes before the production day." },
+        { q: "Do you produce installation videos for home lifts and building systems?", a: "Yes. We can document survey, delivery, installation stages, finishing and handover where site access allows. The edit can be a project story for buyers or a more detailed internal training asset, depending on the brief." },
+        { q: "Can the same shoot support architects and homeowners?", a: "Yes, but the edits should not be identical. Architects usually need dimensions, integration and finish information; homeowners need design, usability, trust and a clear view of the completed result. We plan both audiences before filming." },
+        { q: "How do you verify technical claims in the video?", a: "The client supplies an approved technical fact sheet and reviews all captions, diagrams and voiceover statements. We do not invent capacity, certification, safety or performance claims from visuals alone." },
+        { q: "Can you create a recurring project portfolio?", a: "Yes. A repeatable capture checklist keeps every installation consistent while allowing the property and product choices to remain distinctive. The resulting library can power case studies, social posts and sales presentations." },
+        { q: "Do you film sensitive customer locations?", a: "Yes, with written site permission and a privacy plan. We can exclude faces, family photographs, addresses, access details and other identifying features from the frame." },
+      ],
+      relatedLocations: [
+        { label: "Manufacturing Video Dubai", href: "/locations/dubai" },
+        { label: "Industrial Production Abu Dhabi", href: "/locations/abu-dhabi" },
+        { label: "Factory Content Sharjah", href: "/locations/sharjah" },
+      ],
+      relatedPosts: [
+        { title: "Corporate Video Production Guide Dubai 2026", href: "/blog/corporate-video-production-dubai-2026" },
+        { title: "Video Production Brief Template", href: "/guides/video-production-brief-template" },
+        { title: "Product & E-Commerce Portfolio", href: "/production-portfolio/product-ecommerce" },
+      ],
+    },
   },
 
   /* ── HOSPITALITY ── */
@@ -1262,6 +1431,69 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       relatedPosts: [
         { title: "Hotel Photography Guide UAE 2026", href: "/blog/hotel-photography-dubai-2026" },
         { title: "Drone Filming Rules UAE 2026", href: "/blog/drone-videography-rules-dubai-2026" },
+      ],
+    },
+
+    "holiday-home-content": {
+      parentSlug: "hospitality",
+      parentName: "Hospitality",
+      name: "Holiday Home Photography, Video & Reels",
+      tagline: "Content for Listings, Direct Bookings and Social Discovery",
+      heroImage: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1920&q=80",
+      metaTitle: "Holiday Home Photography Dubai | Airbnb Reels",
+      metaDescription: "Holiday-home and Airbnb photography, walkthrough video, Instagram Reels and DVC production in Dubai for operators, owners and short-term rentals.",
+      keywords: [
+        "holiday home photography Dubai",
+        "Airbnb photography Dubai",
+        "holiday home video production Dubai",
+        "vacation rental videography UAE",
+        "holiday home Instagram Reels Dubai",
+        "short term rental photography Dubai",
+        "Airbnb video tour Dubai",
+      ],
+      intro: "A holiday home has to perform in more than one place. Listing photographs must make the layout, light and amenities easy to understand on a booking platform. A direct-booking website needs a stronger sense of place and trust. Instagram Reels must earn attention in the first seconds without making the property look different from what the guest will actually receive. Backyard Studio plans those outputs as one connected production rather than three unrelated shoots.\n\nOur team has completed holiday-home property shoots, Instagram Reels and promotional DVC-style video for Dubai operators. The work covers furnished apartments, guest-ready details and social-first sequences designed around real stays. That experience changes the shot list. We look for the points guests compare before booking: natural light, view, sleeping layout, bathrooms, kitchen equipment, workspace, building amenities, parking or arrival context and the small hospitality touches that communicate professional management.\n\nThe capture order matters. Wide listing images are produced first while the property is untouched. Detail and lifestyle frames follow. Walkthrough movement is planned so rooms connect logically instead of using speed ramps that hide the layout. Vertical sequences are composed separately rather than cropped as an afterthought. If talent is used, the actions support the stay experience—arriving, working, cooking, relaxing or using amenities—without turning the property into a generic lifestyle advert.\n\nThe result is an organised asset library for Airbnb or other booking platforms, the operator's website, Google Business, owner acquisition, Instagram and paid campaigns. We do not promise occupancy or ranking from photography alone. The content gives the property its strongest accurate presentation; pricing, reviews, availability, location and operations still affect booking performance.",
+      challenge: "Holiday-home content often fails in one of two ways. Listing photography is technically wide but cold and confusing, or social video is attractive but hides the actual space. Operators then maintain separate libraries with mismatched colours, outdated furnishings and no reliable version for direct booking. Tight turnaround windows between guests and privacy inside managed homes make an unplanned shoot even harder.",
+      solution: "We prepare a room-by-room checklist with the operator, confirm the live furnishing and amenities, and plan listing, website and vertical outputs together. Matched colour, accurate perspective and a logical room sequence keep the property truthful. We also check mirrors, screens, documents, keys, access codes and personal items before recording, then deliver files by property and channel so teams can publish without rebuilding the library.",
+      services: [
+        { label: "Listing Photography", href: "/services/real-estate", desc: "Accurate room, view, amenity and detail photography for booking platforms and operator websites." },
+        { label: "Walkthrough Video Tours", href: "/services/real-estate", desc: "Logical property tours showing room connections, scale and guest-ready features." },
+        { label: "Instagram Reels", href: "/services/reels", desc: "Vertical property and stay-experience edits built for social discovery and paid placement." },
+        { label: "Holiday Home DVC", href: "/services/dvcs", desc: "Campaign-led promotional films for an operator, portfolio launch or seasonal booking push." },
+        { label: "Owner Acquisition Content", href: "/services/corporate-videography", desc: "Team, process and management-service films aimed at property owners rather than guests." },
+        { label: "Recurring Portfolio Updates", href: "/services/social-media-content", desc: "Consistent capture for new listings, refreshed interiors and monthly social publishing." },
+      ],
+      experience: {
+        eyebrow: "First-hand experience",
+        heading: "Real holiday-home productions in Dubai",
+        body: "Backyard Studio has completed holiday-home shoots, Instagram Reels and promotional video for Amora Holiday Homes and Grow More Holiday Homes. The finished work has been used on client-owned Instagram channels. This page draws on that practical experience: short access windows, mirror control, accurate room flow, vertical delivery and the need to supply both guest-facing and owner-facing material.\n\nNo occupancy, booking or revenue outcome is attributed without approved client data.",
+        points: [
+          "Furnished apartment and amenity photography",
+          "Vertical Instagram Reels designed during capture, not cropped later",
+          "Promotional DVC-style edits for operator marketing",
+          "Behind-the-scenes material and multi-format delivery",
+        ],
+        publicReferences: [
+          { name: "Amora Holiday Homes", href: "https://www.instagram.com/amoraholidayhomes/", label: "Instagram" },
+          { name: "Grow More Holiday Homes", href: "https://www.instagram.com/growmoreholidayhomes.ae/", label: "Instagram" },
+        ],
+      },
+      faqs: [
+        { q: "Do you photograph holiday homes for Airbnb and booking platforms?", a: "Yes. We produce wide, accurate room images, amenities, views and detail frames suitable for major booking platforms and direct-booking websites. We confirm the current platform requirements before delivery rather than assuming every channel uses the same crop." },
+        { q: "Can you create Instagram Reels from the same property shoot?", a: "Yes. Vertical video is planned alongside the still-photography shot list. We compose movements specifically for 9:16 so the Reel does not feel like a narrow crop of a horizontal tour." },
+        { q: "How long does one apartment shoot take?", a: "Timing depends on size, amenities, styling and the number of deliverables. A straightforward apartment can often be captured in a half day; larger villas, talent-led scenes or building amenities may require a full day. We confirm the schedule after reviewing the property list." },
+        { q: "Do you style the property before photography?", a: "We provide a preparation checklist and can arrange styling support when required. Beds, towels, kitchen surfaces, cables, bins, toiletries and balcony items should be guest-ready before the camera team begins." },
+        { q: "Can you film several units with a consistent look?", a: "Yes. We create a repeatable angle, colour and file-naming standard for operators with multiple properties. Each unit still receives its own accurate feature coverage, but the portfolio feels like one managed brand." },
+        { q: "Do you guarantee more bookings?", a: "No responsible production company can guarantee occupancy from visuals alone. Strong content can improve presentation and give campaigns better creative material, while rates, availability, reviews, location, platform rules and operations also influence bookings." },
+      ],
+      relatedLocations: [
+        { label: "Holiday Home Photography Dubai", href: "/locations/dubai/real-estate-photography" },
+        { label: "Dubai Marina Property Content", href: "/locations/dubai/dubai-marina" },
+        { label: "Downtown Dubai Property Content", href: "/locations/dubai/downtown-dubai" },
+      ],
+      relatedPosts: [
+        { title: "Real Estate Photography Guide Dubai 2026", href: "/blog/real-estate-photography-dubai-2026" },
+        { title: "Cleaning Company Video & Social Content", href: "/industries/corporate/cleaning-company-content" },
+        { title: "Production Brief Template", href: "/guides/video-production-brief-template" },
       ],
     },
 
@@ -1704,6 +1936,68 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       ],
     },
 
+    "food-brand-content": {
+      parentSlug: "food-beverage",
+      parentName: "Food & Beverage",
+      name: "Food Brand Content & Social Media Production",
+      tagline: "One Content System for Products, Branches, Website and Social",
+      heroImage: "https://images.unsplash.com/photo-1547592180-85f173990554?w=1920&q=80",
+      metaTitle: "Food Brand Content Production Dubai & Sharjah",
+      metaDescription: "Food product photography, videography, design and social-media portfolio production for UAE restaurants, food brands and multi-branch operators.",
+      keywords: [
+        "food brand content production Dubai",
+        "food product photography Sharjah",
+        "restaurant social media management Dubai",
+        "food videography UAE",
+        "multi branch restaurant content Dubai",
+        "food Instagram Reels Dubai",
+        "restaurant website photography UAE",
+      ],
+      intro: "A food business with more than one branch does not need a folder of attractive images. It needs a content system that keeps the menu, brand, website and social channels consistent while still giving each location enough local identity to be useful. Backyard Studio produces food photography, short-form video, design-ready assets and recurring content for UAE food brands and restaurant operators.\n\nOur current experience includes managing the visual portfolio for a halal food brand operating across Sharjah, Al Quoz and Dubai Marina. The work covers food product shoots, social content, website media, videography and design support. Because the same dishes appear across different locations and channels, consistency is not a creative preference—it is an operational requirement. Plate angle, portion appearance, colour, packaging, logo placement and file naming must stay controlled from shoot to shoot.\n\nWe separate catalogue assets from campaign assets. Catalogue photography shows the item accurately and consistently for a menu, delivery listing or website. Campaign photography adds styling, motion, people or location. Reels show preparation, texture, serving and branch atmosphere. Website media needs faster loading versions and horizontal crops. Design teams need negative space for prices or offers. Planning these outputs together prevents the common problem of beautiful social content that cannot be used on a menu or a hero image that cannot survive a mobile crop.\n\nA recurring programme also gives the brand a reliable record. New dishes, seasonal offers, branch openings, team stories and customer-facing moments can be captured against the same visual standard. We do not publish invented order growth, follower increases or branch performance. When a client provides approved analytics, those results can be added to a separate case study with the reporting period and source stated clearly.",
+      challenge: "Multi-branch food content drifts quickly. Different lighting, plates, packaging and photographers make one brand look like several businesses. Fast social deadlines can also lead to inaccurate dish representation, missing allergy or offer disclaimers, and website files that are too heavy. A shoot that is not mapped to the actual menu and publishing calendar creates avoidable reshoots.",
+      solution: "We work from a menu and branch matrix. Mandatory catalogue angles are captured first, followed by motion, lifestyle and social sequences. A reference frame keeps colour and styling consistent across future sessions. Files are delivered by dish, branch, format and usage, with web-ready versions separated from high-resolution masters. Captions, prices and claims remain subject to client approval.",
+      services: [
+        { label: "Food Product Photography", href: "/services/food", desc: "Accurate hero, menu, packaging and ingredient-detail photography for each product or dish." },
+        { label: "Food Reels & Videography", href: "/services/reels", desc: "Preparation, serving, texture, team and branch-atmosphere videos for Instagram and TikTok." },
+        { label: "Website Media Library", href: "/services/product-shoots", desc: "Horizontal heroes, mobile-safe crops, thumbnails and compressed web files organised by product." },
+        { label: "Monthly Social Production", href: "/services/social-media-content", desc: "Recurring capture across offers, products, branches and seasonal content priorities." },
+        { label: "Branch Launch Content", href: "/services/dvcs", desc: "Opening campaign photography and film for a new location, delivery zone or menu launch." },
+        { label: "Design-Ready Assets", href: "/services/photo-shoots", desc: "Frames with planned copy space, isolated product options and consistent crops for graphic design." },
+      ],
+      experience: {
+        eyebrow: "First-hand experience",
+        heading: "Ongoing work for a multi-branch halal food brand",
+        body: "Backyard Studio has completed and continues to manage food-product, social, website and video assets for Hamza & Madina Halal Food UAE across Sharjah, Al Quoz and Dubai Marina. The content is used on the client's social and web channels. That ongoing relationship informs the repeatability, branch matrix and multi-format workflow described here.\n\nThe page makes no claim about revenue, delivery orders or follower growth because those figures have not been supplied as approved evidence.",
+        points: [
+          "Food product photography and close texture details",
+          "Branch and service-area content across Sharjah and Dubai",
+          "Instagram-ready video, website media and design support",
+          "Ongoing portfolio management instead of a one-off shoot folder",
+        ],
+        publicReferences: [
+          { name: "Hamza & Madina Halal Food UAE", href: "https://www.instagram.com/hamzaandmadinahalalfooduae/", label: "Instagram" },
+        ],
+      },
+      faqs: [
+        { q: "Can you manage content for several restaurant branches?", a: "Yes. We use a branch and menu matrix so the core brand remains consistent while each location receives the shots it needs. The schedule can rotate across branches or combine several locations around one campaign." },
+        { q: "Do you photograph food for websites as well as Instagram?", a: "Yes. Website hero images, menu thumbnails, mobile crops and fast-loading exports are planned separately from vertical social frames. The same production day can supply both when the shot list is prepared in advance." },
+        { q: "Can you produce Instagram Reels during a food shoot?", a: "Yes. We capture preparation, sauces, serving, packaging, handoff and atmosphere in vertical format. Motion sequences are scheduled so food remains fresh and the kitchen team can work efficiently." },
+        { q: "Do you provide graphic design too?", a: "We can deliver design-ready photography and video, plus scoped social or campaign design support. Prices, offers, nutritional statements and brand copy must be approved by the client before publication." },
+        { q: "How do you keep dishes consistent across shoots?", a: "We retain approved reference frames for camera angle, lighting, background, plate position and colour. The client's kitchen or operations team confirms the current portion and presentation before final delivery." },
+        { q: "Can you shoot a full menu and ongoing monthly content?", a: "Yes. A catalogue session can establish the menu library, followed by smaller monthly sessions for new products, offers, team content and branch activity. The exact schedule depends on menu size and publishing needs." },
+      ],
+      relatedLocations: [
+        { label: "Food Brand Content Dubai", href: "/locations/dubai/food-photography" },
+        { label: "Food Photography Al Quoz", href: "/locations/dubai/al-quoz" },
+        { label: "Food Photography Sharjah", href: "/locations/sharjah" },
+      ],
+      relatedPosts: [
+        { title: "Food Photography Guide Dubai 2026", href: "/blog/food-photography-guide-dubai-2026" },
+        { title: "Menu Photography for Delivery Platforms", href: "/industries/food-beverage/menu-photography" },
+        { title: "Product & E-Commerce Portfolio", href: "/production-portfolio/product-ecommerce" },
+      ],
+    },
+
   },
 
 };
@@ -1889,6 +2183,55 @@ export default function SubIndustryPage({
           </div>
         </div>
       </section>
+
+      {/* First-hand production evidence. Keep this factual: formats and work
+          completed, never invented performance figures or testimonials. */}
+      {data.experience && (
+        <section className="section-pad border-t" style={{ background: "var(--black-2)", borderColor: "var(--border)" }}>
+          <div className="container-xl max-w-5xl grid lg:grid-cols-[1.1fr_0.9fr] gap-12 items-start">
+            <div>
+              <p className="eyebrow mb-4">{data.experience.eyebrow}</p>
+              <h2 className="font-display text-4xl sm:text-5xl mb-6" style={{ color: "var(--cream)" }}>
+                {data.experience.heading.toUpperCase()}
+              </h2>
+              <p className="text-base leading-relaxed whitespace-pre-line" style={{ color: "var(--silver)" }}>
+                {data.experience.body}
+              </p>
+              {data.experience.publicReferences && data.experience.publicReferences.length > 0 && (
+                <div className="mt-7">
+                  <p className="text-xs uppercase tracking-[0.16em] mb-3" style={{ color: "var(--muted)" }}>Public client references</p>
+                  <div className="flex flex-wrap gap-3">
+                    {data.experience.publicReferences.map((reference) => (
+                      <a
+                        key={reference.href}
+                        href={reference.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 border px-4 py-2 text-sm hover:border-[var(--gold)] transition-colors"
+                        style={{ borderColor: "var(--border)", color: "var(--silver)" }}
+                        aria-label={`${reference.name} — ${reference.label}`}
+                      >
+                        <span>{reference.name}</span><ArrowUpRight size={13} style={{ color: "var(--gold)" }} />
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+            <div className="border p-7" style={{ borderColor: "rgba(212,160,23,0.3)", background: "var(--black)" }}>
+              <p className="eyebrow mb-5" style={{ color: "var(--gold)" }}>Work completed</p>
+              <ul className="space-y-4">
+                {data.experience.points.map((point) => (
+                  <li key={point} className="flex items-start gap-3 text-sm leading-relaxed" style={{ color: "var(--silver)" }}>
+                    <span aria-hidden="true" className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full" style={{ background: "var(--gold)" }} />
+                    <span>{point}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ── OUR OWN FOOTAGE (only where it is genuinely from this niche) ── */}
       {data.video && (

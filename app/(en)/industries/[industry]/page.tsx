@@ -74,6 +74,7 @@ const INDUSTRY_DATA: Record<string, {
     specialisations: [
       { name: "Hotel Photography & Video", href: "/industries/hospitality/hotels", desc: "Rooms, suites, lobby, pool, spa and F&B — planned for OTA listings and brand channels in one shoot." },
       { name: "Resort Production", href: "/industries/hospitality/resorts", desc: "Beach and destination resort content built to turn browsers into bookers." },
+      { name: "Holiday Home Content", href: "/industries/hospitality/holiday-home-content", desc: "Listing photography, walkthroughs, Instagram Reels and DVC-style video for short-term rental operators." },
     ],
   },
 
@@ -201,6 +202,7 @@ const INDUSTRY_DATA: Record<string, {
     specialisations: [
       { name: "Restaurant Production", href: "/industries/food-beverage/restaurants", desc: "Ambience, menu and lifestyle content for restaurants — built for tables and delivery queues alike." },
       { name: "Menu Photography", href: "/industries/food-beverage/menu-photography", desc: "Dish-by-dish photography shot to platform spec for Talabat, Deliveroo and Noon Food." },
+      { name: "Food Brand Content", href: "/industries/food-beverage/food-brand-content", desc: "Multi-branch product photography, video, website assets and recurring social production." },
     ],
   },
 
@@ -240,6 +242,8 @@ const INDUSTRY_DATA: Record<string, {
       { name: "Company Profile Films", href: "/industries/corporate/company-profile", desc: "Profile films built to win tenders and survive a pitch-room screening." },
       { name: "Investor Pitch Video", href: "/industries/corporate/investor-pitch", desc: "Founder and pitch content made for rooms where the decision gets made." },
       { name: "Annual Report Content", href: "/industries/corporate/annual-report", desc: "Report photography and video that stakeholders actually open." },
+      { name: "Cleaning Company Content", href: "/industries/corporate/cleaning-company-content", desc: "Process-led video, before-and-after Reels and website assets for cleaning and maintenance services." },
+      { name: "Manufacturing & Technical Video", href: "/industries/corporate/manufacturing-video", desc: "Factory, product and installation films for manufacturers, suppliers and premium home systems." },
     ],
   },
 
@@ -291,7 +295,7 @@ const INDUSTRY_DATA: Record<string, {
       // Linked here on the day the page was created. The sports hub has carried
       // MMA keywords since launch with nothing to land on, and an unlinked page
       // is how the existing "Discovered - currently not indexed" set happened.
-      { name: "Boxing & Combat Sports", href: "/industries/sports/combat-sports", desc: "Ringside and cage-side coverage, same-night social cuts, walkout films and fighter brand content." },
+      { name: "Boxing, Krav Maga & Combat Sports", href: "/industries/sports/combat-sports", desc: "Combat-studio shoots, Krav Maga and self-defence content, ringside coverage and same-night social cuts." },
       // The six below were fully built pages with ZERO internal links anywhere on
       // the site until 7 Oct 2026. See the note on the automotive block.
       { name: "Cricket Production", href: "/industries/sports/cricket", desc: "Stadium and franchise cricket coverage built for the sub-continent audience." },
@@ -299,7 +303,7 @@ const INDUSTRY_DATA: Record<string, {
       { name: "Running & Marathon Events", href: "/industries/sports/running", desc: "Race-day coverage, finish-line photography and same-day social cuts." },
       { name: "Basketball Coverage", href: "/industries/sports/basketball", desc: "Indoor court coverage cut for highlight culture." },
       { name: "Badminton Tournaments", href: "/industries/sports/badminton", desc: "The fastest racquet sport in the world, covered at the right shutter speed." },
-      { name: "Fitness & Gym Content", href: "/industries/sports/fitness", desc: "Gym launches, trainer profiles and monthly fitness social content." },
+      { name: "Fitness Influencer & Gym Content", href: "/industries/sports/fitness", desc: "Influencer shoots, trainer profiles, gym launches and recurring fitness Reels." },
     ],
   },
 

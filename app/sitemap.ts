@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { BLOG_POSTS, CATEGORY_SLUGS } from "@/lib/blogPosts";
 import { getDynamicPosts } from "@/lib/dynamicPosts";
-import { INDUSTRY_SUB_PAGES } from "@/lib/industrySubPages";
+import { INDUSTRY_SUB_PAGES, INDUSTRY_SUB_PAGE_LAST_MODIFIED } from "@/lib/industrySubPages";
 import { CASE_STUDIES } from "@/lib/caseStudies";
 import { RETIRED_BLOG_SLUGS } from "@/lib/retiredSlugs";
 import { ALL_PROJECTS } from "@/lib/portfolio-data";
@@ -148,7 +148,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const industries: MetadataRoute.Sitemap = INDUSTRIES.map((industry) => ({
     url: BASE + "/industries/" + industry,
-    lastModified: now,
+    lastModified: ["hospitality", "food-beverage", "corporate", "sports"].includes(industry)
+      ? new Date("2026-11-16T00:00:00+04:00")
+      : now,
     changeFrequency: "monthly" as const,
     priority: 0.85,
   }));
@@ -160,7 +162,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ).flatMap(([industry, slugs]) =>
     slugs.map((slug) => ({
       url: BASE + "/industries/" + industry + "/" + slug,
-      lastModified: now,
+      lastModified: INDUSTRY_SUB_PAGE_LAST_MODIFIED[`${industry}/${slug}`]
+        ? new Date(`${INDUSTRY_SUB_PAGE_LAST_MODIFIED[`${industry}/${slug}`]}T00:00:00+04:00`)
+        : now,
       changeFrequency: "monthly" as const,
       priority: 0.8,
     }))

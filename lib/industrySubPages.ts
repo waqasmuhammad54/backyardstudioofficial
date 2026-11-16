@@ -19,9 +19,20 @@ export const INDUSTRY_SUB_PAGES: Record<string, string[]> = {
   "automotive": ["car-launch", "dealership"],
   "tech": ["saas", "gitex", "startup", "fintech"],
   "healthcare": ["dental", "aesthetic-clinics", "medical-tourism"],
-  "corporate": ["company-profile", "investor-pitch", "annual-report"],
-  "hospitality": ["hotels", "resorts"],
+  "corporate": ["company-profile", "investor-pitch", "annual-report", "cleaning-company-content", "manufacturing-video"],
+  "hospitality": ["hotels", "resorts", "holiday-home-content"],
   "real-estate": ["luxury-villa", "off-plan", "commercial-property"],
   "fashion": ["model-portfolio", "fashion-reels", "modest-fashion"],
-  "food-beverage": ["restaurants", "menu-photography"],
+  "food-beverage": ["restaurants", "menu-photography", "food-brand-content"],
+};
+
+/** Material-review dates for pages changed independently of the older industry
+ * inventory. Sitemap generation uses these without falsely refreshing every
+ * established industry URL. */
+export const INDUSTRY_SUB_PAGE_LAST_MODIFIED: Record<string, string> = {
+  "sports/fitness": "2026-11-16",
+  "corporate/cleaning-company-content": "2026-11-16",
+  "corporate/manufacturing-video": "2026-11-16",
+  "hospitality/holiday-home-content": "2026-11-16",
+  "food-beverage/food-brand-content": "2026-11-16",
 };
