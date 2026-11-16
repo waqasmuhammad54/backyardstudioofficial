@@ -15,6 +15,8 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
   name: string;
   tagline: string;
   heroImage: string;
+  heroImageAlt?: string;
+  heroPosition?: string;
   metaTitle: string;
   metaDescription: string;
   keywords: string[];
@@ -30,6 +32,7 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
     body: string;
     points: string[];
     publicReferences?: { name: string; href: string; label: string }[];
+    evidenceImage?: { src: string; alt: string; caption: string; position?: string };
   };
   faqs: { q: string; a: string }[];
   relatedLocations: { label: string; href: string }[];
@@ -450,7 +453,9 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       parentName: "Sports",
       name: "Boxing & Combat Sports Production",
       tagline: "Fight Night Coverage Built for the Rematch Announcement, Not the Archive",
-      heroImage: "https://images.unsplash.com/photo-1544717305-2782549b5136?w=1920&q=80",
+      heroImage: "/images/industries/combat-training-dking-action.webp",
+      heroImageAlt: "DKing Combat training session filmed by Backyard Studio in Dubai",
+      heroPosition: "72% 42%",
       metaTitle: "Boxing & MMA Videographer Dubai | Combat Sports Coverage UAE",
       metaDescription: "Boxing, MMA, Krav Maga and self-defence video production in Dubai and the UAE, from combat-gym shoots to ringside coverage and Reels.",
       keywords: [
@@ -495,6 +500,11 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
           { name: "DKing Saad Combat System", href: "https://www.instagram.com/dkingsaadcombatsystem/", label: "Instagram" },
         ],
       },
+      video: {
+        key: "combatCollaboration",
+        heading: "A real DKing combat training collaboration",
+        lead: "Watch the full session behind the page: coached boxing and DKing Combat System technique filmed inside a working Dubai gym. This is client-published footage, not a stock demonstration.",
+      },
       results: [
         { stat: "Same night", label: "vertical social cuts cleared before the result stops being news" },
         { stat: "48h", label: "full card film and stills gallery delivered" },
@@ -534,7 +544,9 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       parentName: "Sports",
       name: "Fitness Influencer, Trainer & Gym Content",
       tagline: "Performance-Led Reels, Photography and Personal Brand Video",
-      heroImage: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1920&q=80",
+      heroImage: "/images/industries/fitness-training-backyard.webp",
+      heroImageAlt: "Fitness athlete deadlifting during a Backyard Studio gym shoot in the UAE",
+      heroPosition: "center 48%",
       metaTitle: "Fitness Influencer Videographer Dubai | Reels & Photos",
       metaDescription: "Fitness influencer video, personal-trainer Reels, gym photography and workout content production in Dubai and the UAE for social, web and sponsors.",
       keywords: ["fitness influencer videographer Dubai","fitness photography Dubai","personal trainer Reels Dubai","gym photography UAE","fitness content creator Dubai","workout video production UAE","fitness personal branding Dubai"],
@@ -1276,7 +1288,9 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       parentName: "Corporate",
       name: "Manufacturing & Technical Product Video",
       tagline: "Make a Complex Product Easy to Understand",
-      heroImage: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=1920&q=80",
+      heroImage: "/images/industries/elevaya-lift-video-production.webp",
+      heroImageAlt: "Contemporary passenger lift used in Elevaya content production",
+      heroPosition: "center 54%",
       metaTitle: "Manufacturing Video Production Dubai & UAE",
       metaDescription: "Manufacturing, installation and technical-product video in Dubai and the UAE for factories, suppliers and premium home-system brands.",
       keywords: [
@@ -1313,6 +1327,12 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
           { name: "Elevaya Lifts", href: "https://elevaya.ae/", label: "Website" },
           { name: "Demi Elevator", href: "https://demielevator.com/", label: "Website" },
         ],
+        evidenceImage: {
+          src: "/images/industries/elevaya-lift-cabin-portfolio.webp",
+          alt: "Warm-toned finished lift cabin from the Elevaya content portfolio",
+          caption: "Elevaya lift-cabin visual from the ongoing client content programme.",
+          position: "center 45%",
+        },
       },
       faqs: [
         { q: "Can you film inside an active factory or workshop?", a: "Yes, after a site walk-through or safety briefing. We agree restricted zones, PPE, machinery timing, employee consent and any confidential processes before the production day." },
@@ -2029,7 +2049,7 @@ export async function generateMetadata({
     openGraph: {
       title: data.metaTitle,
       description: data.metaDescription,
-      images: [{ url: data.heroImage, width: 1920, height: 1080, alt: `${data.name} — Backyard Studio Official UAE` }],
+      images: [{ url: data.heroImage, width: 1920, height: 1080, alt: data.heroImageAlt ?? `${data.name} — Backyard Studio Official UAE` }],
       type: "website",
       url: `https://www.backyardstudioofficial.com/industries/${params.industry}/${params.slug}`,
       siteName: "Backyard Studio Official",
@@ -2108,7 +2128,16 @@ export default function SubIndustryPage({
       {/* ── HERO ── */}
       <section className="relative min-h-[60vh] flex items-end overflow-hidden">
         <div className="absolute inset-0">
-          <Image src={data.heroImage} alt={data.name} width={1600} height={900} priority sizes="100vw" className="w-full h-full object-cover" />
+          <Image
+            src={data.heroImage}
+            alt={data.heroImageAlt ?? data.name}
+            width={1600}
+            height={900}
+            priority
+            sizes="100vw"
+            className="w-full h-full object-cover"
+            style={{ objectPosition: data.heroPosition ?? "center" }}
+          />
           <div
             className="absolute inset-0"
             style={{ background: "linear-gradient(to top, rgba(5,5,5,0.95) 30%, rgba(5,5,5,0.4) 70%, transparent)" }}
@@ -2197,6 +2226,23 @@ export default function SubIndustryPage({
               <p className="text-base leading-relaxed whitespace-pre-line" style={{ color: "var(--silver)" }}>
                 {data.experience.body}
               </p>
+              {data.experience.evidenceImage && (
+                <figure className="mt-8 overflow-hidden border" style={{ borderColor: "var(--border)", background: "var(--black)" }}>
+                  <div className="relative aspect-[4/3] overflow-hidden">
+                    <Image
+                      src={data.experience.evidenceImage.src}
+                      alt={data.experience.evidenceImage.alt}
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 55vw"
+                      className="object-cover"
+                      style={{ objectPosition: data.experience.evidenceImage.position ?? "center" }}
+                    />
+                  </div>
+                  <figcaption className="px-4 py-3 text-xs leading-relaxed" style={{ color: "var(--muted)" }}>
+                    {data.experience.evidenceImage.caption}
+                  </figcaption>
+                </figure>
+              )}
               {data.experience.publicReferences && data.experience.publicReferences.length > 0 && (
                 <div className="mt-7">
                   <p className="text-xs uppercase tracking-[0.16em] mb-3" style={{ color: "var(--muted)" }}>Public client references</p>

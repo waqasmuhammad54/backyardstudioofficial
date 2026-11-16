@@ -65,6 +65,18 @@ export const VIDEOS: Record<string, SiteVideo> = {
     orientation: "vertical",
   },
 
+  combatCollaboration: {
+    id: "lF3oJwM563k",
+    title:
+      "Dking Saad x Aji Sharif  || Dking Combat VS Pro Boxing || Vertexfitness UAE",
+    heading: "DKing Combat training collaboration",
+    description:
+      "A full boxing and DKing Combat System training collaboration filmed inside a working Dubai gym. The session shows coached technique, partner drills and the real training environment behind Backyard Studio's combat-sports production work, with the finished film published by the client.",
+    uploadDate: "2026-06-10",
+    duration: "PT34M14S",
+    orientation: "landscape",
+  },
+
   corporateGala: {
     id: "LBcSVVddEU8",
     title: "Dubai Corporate Gala || Backyard Studio Official || UAE",
