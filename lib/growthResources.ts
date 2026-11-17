@@ -51,11 +51,11 @@ export const RESOURCE_GUIDES: ResourceGuide[] = [
   {
     slug: "dubai-filming-permit",
     eyebrow: "Dubai production planning guide",
-    title: "Dubai Filming Permit Guide",
+    title: "Can You Film in Dubai? Filming Permit Guide",
     shortTitle: "Dubai filming permits",
-    metaTitle: "Dubai Filming Permit Guide | 2026 Checklist",
+    metaTitle: "Can You Film in Dubai? 2026 Permit Guide",
     metaDescription:
-      "Plan a legal Dubai shoot with the current DFTC process, exemptions, script approval, location consent, timelines and drone approval checkpoints.",
+      "Can you film in Dubai? Check when DFTC approval applies, how to get a filming permit, fees, exemptions, location consent, timelines and drone checkpoints.",
     keywords: [
       "Dubai filming permit",
       "film permit Dubai",
@@ -161,6 +161,21 @@ export const RESOURCE_GUIDES: ResourceGuide[] = [
     ],
     questions: [
       {
+        question: "Can you film in Dubai?",
+        answer:
+          "Yes, but the approval path depends on the purpose, location and activity. DFTC is the normal starting point for commercial production, broadcasting and photography. Its FAQ lists weddings, events, educational filming, press conferences and personal-use filming as scenarios that do not require its filming permit, while location-owner, privacy, access, road, security or drone approvals may still apply.",
+      },
+      {
+        question: "How do you get a filming permit in Dubai?",
+        answer:
+          "Define the production and every location, obtain script clearance when the format requires it, secure the location owner's approval, then submit the filming request through the current DFTC portal using an eligible local production entity. Run any drone, road, security or specialist approvals as separate workstreams and carry all issued permissions on set.",
+      },
+      {
+        question: "How much is a film permit in Dubai?",
+        answer:
+          "There is no reliable single all-in film-permit price. DFTC links applicants to its government-location fee schedule, while private-location fees are set by each owner. A production budget may also need location hire, deposits, parking, security, building supervision, insurance, road control and drone approvals. Verify the live schedule for the exact locations and dates before quoting.",
+      },
+      {
         question: "Can an international company apply for a Dubai filming permit directly?",
         answer:
           "DFTC says international companies must go through a local production company to film in Dubai. Individuals and international companies may submit script approval directly, but the filming request itself requires a local production house.",
@@ -204,6 +219,8 @@ export const RESOURCE_GUIDES: ResourceGuide[] = [
     related: [
       { label: "Drone filming checklist", href: "/guides/drone-filming-checklist-dubai", description: "Separate operator, mission and on-set checks for aerial capture." },
       { label: "Production brief template", href: "/guides/video-production-brief-template", description: "Prepare the information approvals teams and producers need." },
+      { label: "Corporate video cost guide", href: "/blog/corporate-videography-uae-pricing-process-booking-guide-2026", description: "See how locations, permits and production scope affect a UAE corporate-film quote." },
+      { label: "UAE video production cost report", href: "/uae-video-production-cost-report-2026", description: "Benchmark published AED production bands before requesting a proposal." },
       { label: "Pre- and post-production", href: "/services/pre-post-production", description: "Location planning, scheduling and production support in Dubai." },
       { label: "Dubai production services", href: "/locations/dubai", description: "Browse Backyard's services across Dubai." },
     ],

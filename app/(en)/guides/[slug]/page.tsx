@@ -150,7 +150,7 @@ export default function ResourceGuidePage({ params }: { params: { slug: string }
 
         <div className="container-xl py-16" style={{ maxWidth: "76rem" }}>
           <div className="grid lg:grid-cols-[minmax(0,1fr)_18rem] gap-14">
-            <div>
+            <div className="min-w-0">
               {guide.sections.map((section, index) => (
                 <section key={section.id} id={section.id} className="scroll-mt-28 pb-14 mb-14 border-b" style={{ borderColor: "var(--border)" }}>
                   <p className="text-[0.65rem] tracking-[0.25em] uppercase mb-3" style={{ color: "var(--gold)" }}>
@@ -172,7 +172,7 @@ export default function ResourceGuidePage({ params }: { params: { slug: string }
                     </ul>
                   )}
                   {section.table && (
-                    <div className="overflow-x-auto my-8 border" style={{ borderColor: "var(--border)" }}>
+                    <div className="max-w-full overflow-x-auto my-8 border" style={{ borderColor: "var(--border)" }}>
                       <table className="w-full min-w-[680px] text-left text-sm">
                         <thead style={{ background: "var(--black-3)" }}>
                           <tr>

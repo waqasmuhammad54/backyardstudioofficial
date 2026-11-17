@@ -1112,15 +1112,18 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
   const pageUrl = `https://www.backyardstudioofficial.com/services/${params.slug}`;
   const planningGuides = ({
     "corporate-films": [
+      { label: "Corporate video cost guide", href: "/blog/corporate-videography-uae-pricing-process-booking-guide-2026" },
       { label: "Corporate video ROI calculator", href: "/guides/corporate-video-roi" },
       { label: "Free production brief template", href: "/guides/video-production-brief-template" },
       { label: "Corporate portfolio", href: "/production-portfolio/corporate-events" },
     ],
     "corporate-videography": [
+      { label: "Corporate video cost guide", href: "/blog/corporate-videography-uae-pricing-process-booking-guide-2026" },
       { label: "Corporate video ROI calculator", href: "/guides/corporate-video-roi" },
       { label: "Free production brief template", href: "/guides/video-production-brief-template" },
     ],
     "corporate-brand-films": [
+      { label: "Corporate video cost guide", href: "/blog/corporate-videography-uae-pricing-process-booking-guide-2026" },
       { label: "Corporate video ROI calculator", href: "/guides/corporate-video-roi" },
       { label: "Corporate portfolio", href: "/production-portfolio/corporate-events" },
     ],
@@ -1136,6 +1139,11 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
     "real-estate": [
       { label: "Drone filming checklist", href: "/guides/drone-filming-checklist-dubai" },
       { label: "Dubai filming permit guide", href: "/guides/dubai-filming-permit" },
+    ],
+    "podcast": [
+      { label: "How to start a podcast in the UAE", href: "/blog/video-podcast-production-dubai-2026" },
+      { label: "Free production brief template", href: "/guides/video-production-brief-template" },
+      { label: "UAE video production cost report", href: "/uae-video-production-cost-report-2026" },
     ],
   } as Record<string, { label: string; href: string }[]>)[params.slug] ?? [];
   const serviceBreadcrumb = breadcrumbSchema([
