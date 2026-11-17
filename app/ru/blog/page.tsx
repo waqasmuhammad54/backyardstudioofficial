@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import InternationalJournalDirectory from "@/components/blog/InternationalJournalDirectory";
 
 export const metadata: Metadata = {
   title: "Блог | Видеосъёмка в Дубае — советы и цены",
@@ -46,6 +47,10 @@ const POSTS = [
   { title: "Фотограф новорождённых в Дубае 2026 — безопасно и нежно", desc: "Профессиональная съёмка новорождённых в тёплой студии. Первые 14 дней — лучшее время. Бронируйте до родов. От AED 900.", href: "/ru/blog/fotograf-novorozhdennykh-dubai-2026", date: "Июнь 2026", featured: true },
 ];
 
+const CURATED_RU_SLUGS = POSTS
+  .map((post) => post.href.match(/^\/ru\/blog\/([^/]+)$/)?.[1])
+  .filter((slug): slug is string => Boolean(slug));
+
 export default function RuBlogPage() {
   return (
     <>
@@ -73,6 +78,14 @@ export default function RuBlogPage() {
               <span style={{ fontFamily: "Inter, sans-serif", color: "var(--gold)", fontSize: "0.875rem", marginTop: "1rem", display: "block" }}>Читать далее →</span>
             </a>
           ))}
+        </div>
+        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+          <InternationalJournalDirectory
+            locale="ru"
+            excludeSlugs={CURATED_RU_SLUGS}
+            heading="Все статьи студии на русском языке"
+            linkLabel="Читать статью"
+          />
         </div>
         <p style={{ fontFamily: "Inter, sans-serif", textAlign: "center", marginTop: "2rem", color: "rgba(245,240,225,0.4)", fontSize: "0.875rem" }}>
           Все статьи доступны на английском языке. <a href="/blog" style={{ color: "var(--gold)" }}>Перейти в полный блог →</a>

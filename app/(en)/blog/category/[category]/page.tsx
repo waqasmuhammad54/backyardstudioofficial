@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { CATEGORY_SLUGS, CATEGORY_META, getPostsByCategory, type CategorySlug, postDate, postExcerpt } from "@/lib/blogPosts";
+import { CATEGORY_SLUGS, CATEGORY_META, type CategorySlug, postDate, postExcerpt } from "@/lib/blogPosts";
+import { getAllPostsByCategory } from "@/lib/blogInventory";
 
 const BASE = "https://www.backyardstudioofficial.com";
 
@@ -45,7 +46,7 @@ export default function CategoryPage({ params }: Props) {
   if (!CATEGORY_SLUGS.includes(slug)) notFound();
 
   const meta = CATEGORY_META[slug];
-  const posts = getPostsByCategory(slug);
+  const posts = getAllPostsByCategory(slug);
 
   const allCategories = CATEGORY_SLUGS.map((s) => ({
     slug: s,

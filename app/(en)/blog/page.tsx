@@ -3,9 +3,8 @@ import { alternatesFor } from "@/lib/hreflang";
 import Image from "next/image";
 import Link from "next/link";
 import { Clock, ArrowRight } from "lucide-react";
-import { BLOG_POSTS, CATEGORY_SLUGS, CATEGORY_META, postDate, postExcerpt } from "@/lib/blogPosts";
-import { RETIRED_BLOG_SLUGS } from "@/lib/retiredSlugs";
-import { getDynamicPosts } from "@/lib/dynamicPosts";
+import { CATEGORY_SLUGS, CATEGORY_META, postDate, postExcerpt } from "@/lib/blogPosts";
+import { getAllBlogPosts } from "@/lib/blogInventory";
 import { breadcrumbSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
@@ -48,9 +47,7 @@ const HUB_CATEGORIES = CATEGORY_SLUGS.map((slug) => ({
 export default function BlogPage() {
   // Retired slugs now 301 elsewhere — linking to them from the index would send both
   // users and crawlers through a redirect and dilute the consolidation.
-  const allPosts = [...getDynamicPosts(), ...BLOG_POSTS]
-    .filter((p) => !RETIRED_BLOG_SLUGS.has(p.slug))
-    .sort((a, b) => {
+  const allPosts = getAllBlogPosts().sort((a, b) => {
     // `date` is optional (16 posts carry only dateISO), so coalesce to "" —
     // Date.parse("") is NaN, which the guard below already handles by sorting
     // the post last rather than throwing or landing it at epoch 0.

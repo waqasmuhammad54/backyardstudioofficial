@@ -1,11 +1,11 @@
 import { MetadataRoute } from "next";
-import { BLOG_POSTS, CATEGORY_SLUGS } from "@/lib/blogPosts";
-import { getDynamicPosts } from "@/lib/dynamicPosts";
+import { CATEGORY_SLUGS } from "@/lib/blogPosts";
+import { getAllBlogPosts } from "@/lib/blogInventory";
 import { INDUSTRY_SUB_PAGES, INDUSTRY_SUB_PAGE_LAST_MODIFIED } from "@/lib/industrySubPages";
 import { CASE_STUDIES } from "@/lib/caseStudies";
-import { RETIRED_BLOG_SLUGS } from "@/lib/retiredSlugs";
 import { ALL_PROJECTS } from "@/lib/portfolio-data";
 import { PORTFOLIO_COLLECTIONS, RESOURCE_GUIDES, RESOURCE_REVIEW_DATE } from "@/lib/growthResources";
+import { INTERNATIONAL_BLOG_POSTS } from "@/lib/internationalBlogPosts";
 
 const BASE = "https://www.backyardstudioofficial.com";
 
@@ -173,15 +173,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Static posts (lib/blogPosts.ts) + dynamic posts published via the admin panel
   // (content/posts.json). Dynamic posts were previously missing from the sitemap,
   // which made them undiscoverable to Google ("No referring sitemaps detected").
-  const dynamicPosts = getDynamicPosts();
-  const staticSlugs = new Set(BLOG_POSTS.map((p) => p.slug));
-  const allBlogPosts = [
-    ...BLOG_POSTS,
-    ...dynamicPosts.filter((p) => !staticSlugs.has(p.slug)),
-  ]
-    // Cannibalisation consolidation: retired slugs now 301 elsewhere. Listing a
-    // redirect in the sitemap wastes crawl budget and signals a stale file.
-    .filter((p) => !RETIRED_BLOG_SLUGS.has(p.slug));
+  const allBlogPosts = getAllBlogPosts();
 
   const blogPosts: MetadataRoute.Sitemap = allBlogPosts.map((post) => ({
     url: BASE + "/blog/" + post.slug,
@@ -195,6 +187,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: now,
     changeFrequency: "weekly" as const,
     priority: 0.8,
+  }));
+
+  const internationalBlogPosts: MetadataRoute.Sitemap = INTERNATIONAL_BLOG_POSTS.map((post) => ({
+    url: `${BASE}/${post.locale}/blog/${post.slug}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.75,
   }));
 
   const caseStudies: MetadataRoute.Sitemap = [
@@ -390,7 +389,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
 
-  const entries = [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...ajmanSubPages, ...rakSubPages, ...fujairSubPages, ...uaqSubPages, ...services, ...locations, ...industries, ...industrySubPages, ...portfolioProjects, ...growthResources, ...blogPosts, ...blogCategories, ...caseStudies, ...arCore, ...ruCore, ...zhCore];
+  const entries = [...core, ...dubaiSubPages, ...abuDhabiSubPages, ...ajmanSubPages, ...rakSubPages, ...fujairSubPages, ...uaqSubPages, ...services, ...locations, ...industries, ...industrySubPages, ...portfolioProjects, ...growthResources, ...blogPosts, ...blogCategories, ...caseStudies, ...internationalBlogPosts, ...arCore, ...ruCore, ...zhCore];
 
   return Array.from(
     new Map(

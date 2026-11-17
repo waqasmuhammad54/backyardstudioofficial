@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import InternationalJournalDirectory from "@/components/blog/InternationalJournalDirectory";
 
 export const metadata: Metadata = {
   title: "博客 | 迪拜摄影摄像干货 2026",
@@ -39,7 +40,7 @@ const BLOG_POSTS_ZH = [
     readTime: "8分钟",
   },
   {
-    slug: "qiye-shipin-dubai-2026",
+    slug: "qiye-shipin-zhizuo-dubai-2026",
     title: "迪拜企业视频制作：如何用影片提升品牌价值",
     excerpt: "一支专业企业影片能带来多大回报？我们分析了迪拜市场上100+企业视频案例，总结出最有效的制作策略。",
     date: "2026年4月",
@@ -89,6 +90,8 @@ const BLOG_POSTS_ZH = [
   },
 ];
 
+const CURATED_ZH_SLUGS = [...new Set(BLOG_POSTS_ZH.map((post) => post.slug))];
+
 export default function ZhBlogPage() {
   return (
     <>
@@ -127,6 +130,14 @@ export default function ZhBlogPage() {
               </a>
             </article>
           ))}
+        </div>
+        <div style={{ maxWidth: "900px", margin: "0 auto" }}>
+          <InternationalJournalDirectory
+            locale="zh"
+            excludeSlugs={CURATED_ZH_SLUGS}
+            heading="全部中文文章"
+            linkLabel="阅读全文"
+          />
         </div>
       </section>
     </>
