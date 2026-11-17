@@ -3,8 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Clock, Calendar, Share2 } from "lucide-react";
-import { BLOG_POSTS, getBlogPost, getRelatedPosts, postDate, postExcerpt } from "@/lib/blogPosts";
-import { getDynamicPost, getDynamicPosts } from "@/lib/dynamicPosts";
+import { postDate, postExcerpt } from "@/lib/blogPosts";
+import {
+  categorySlugForPost,
+  getAllBlogPosts,
+  getBlogPostFromInventory,
+  getRelatedBlogPosts,
+} from "@/lib/blogInventory";
 import { faqSchema, articleSchema, breadcrumbSchema, speakableSchema } from "@/lib/structuredData";
 
 const BASE = "https://www.backyardstudioofficial.com";
@@ -66,8 +71,7 @@ const UAE_CITIES = [
 ];
 
 export function generateStaticParams() {
-  const dynamic = getDynamicPosts();
-  return [...BLOG_POSTS, ...dynamic].map((post) => ({ slug: post.slug }));
+  return getAllBlogPosts().map((post) => ({ slug: post.slug }));
 }
 
 /**
@@ -86,7 +90,7 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
-  const post = getBlogPost(params.slug) ?? getDynamicPost(params.slug);
+  const post = getBlogPostFromInventory(params.slug);
   if (!post) return { title: "Article Not Found" };
   // ⚠️ This used to be `post.metaTitle.split(" | ")[0]` — take the first
   // segment, full stop — to enforce a length cap. Length won over uniqueness,
@@ -177,10 +181,18 @@ export async function generateMetadata({
 }
 
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = getBlogPost(params.slug) ?? getDynamicPost(params.slug);
+  const post = getBlogPostFromInventory(params.slug);
   if (!post) notFound();
 
-  const related = getRelatedPosts(post.relatedSlugs);
+  const related = getRelatedBlogPosts(post);
+  const categoryHub = categorySlugForPost(post);
+  const pathwayByHub = {
+    wedding: { label: "wedding photography services", href: "/services/wedding-photography" },
+    video: { label: "video production services", href: "/services/corporate-videography" },
+    photography: { label: "professional photography services", href: "/services/photo-shoots" },
+    "social-media": { label: "social media production services", href: "/services/social-media-shoots" },
+    industry: { label: "industry production portfolios", href: "/production-portfolio" },
+  }[categoryHub];
   const faqJsonLd = post.faqs.length > 0 ? faqSchema(post.faqs) : null;
   const breadcrumbJsonLd = breadcrumbSchema([
     { name: "Home", url: BASE },
@@ -261,6 +273,31 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
               </p>
 
               <div className="prose-article" dangerouslySetInnerHTML={{ __html: post.content }} />
+
+              <nav
+                aria-label="Continue planning this production"
+                className="mt-10 rounded-sm border border-[#2a2a2a] bg-[#111] p-6"
+                data-internal-link-bridge
+              >
+                <p className="text-[#e8c547] text-xs tracking-[0.25em] uppercase font-semibold mb-3">
+                  Continue planning
+                </p>
+                <p className="text-[#a0a0a0] text-sm leading-relaxed">
+                  Explore more practical advice in our{" "}
+                  <Link href={`/blog/category/${categoryHub}`} className="text-white underline decoration-[#e8c547] underline-offset-4">
+                    {categoryHub.replace("-", " ")} journal
+                  </Link>
+                  , compare the relevant{" "}
+                  <Link href={pathwayByHub.href} className="text-white underline decoration-[#e8c547] underline-offset-4">
+                    {pathwayByHub.label}
+                  </Link>
+                  , or review our{" "}
+                  <Link href="/pricing" className="text-white underline decoration-[#e8c547] underline-offset-4">
+                    published production pricing
+                  </Link>
+                  .
+                </p>
+              </nav>
 
               {/* 90 FAQ entries across 15 posts use `q`/`a` instead of
                   `question`/`answer`. Reading only the documented fields rendered

@@ -7741,7 +7741,7 @@ export const CATEGORY_META: Record<CategorySlug, {
 };
 
 // Which raw category strings map to each hub slug
-const CATEGORY_MAP: Record<CategorySlug, string[]> = {
+export const CATEGORY_MAP: Record<CategorySlug, string[]> = {
   wedding: ["Wedding Guide", "Wedding Photography", "Wedding"],
   video: ["Video Production", "Video", "Videography", "Videography Guide", "Production Guide", "Production"],
   photography: [
@@ -7753,13 +7753,16 @@ const CATEGORY_MAP: Record<CategorySlug, string[]> = {
   industry: [
     "Industry Insight", "Corporate", "Corporate Guide",
     "Brand Production", "UAE Locations", "Events", "Event Guide",
-    "Pricing Guide", "Studio",
+    "Pricing Guide", "Studio", "Web",
   ],
 };
 
+export function postMatchesCategory(categorySlug: CategorySlug, rawCategory: string): boolean {
+  return (CATEGORY_MAP[categorySlug] ?? []).includes(rawCategory);
+}
+
 export function getPostsByCategory(categorySlug: CategorySlug): BlogPost[] {
-  const rawCategories = CATEGORY_MAP[categorySlug] ?? [];
   return BLOG_POSTS.filter(
-    (p) => rawCategories.includes(p.category) && !RETIRED_BLOG_SLUGS.has(p.slug),
+    (p) => postMatchesCategory(categorySlug, p.category) && !RETIRED_BLOG_SLUGS.has(p.slug),
   );
 }

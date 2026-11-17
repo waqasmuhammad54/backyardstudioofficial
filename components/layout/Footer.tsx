@@ -175,6 +175,10 @@ export default function Footer() {
                 aria-label="LI — LinkedIn" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
                 LI
               </a>
+              <a href="https://medium.com/@backyardstudioofficialuae" target="_blank" rel="noreferrer"
+                aria-label="Medium" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
+                M
+              </a>
               <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer"
                 aria-label="WA — WhatsApp" className="footer-social w-9 h-9 flex items-center justify-center border text-[10px] font-bold">
                 WA
