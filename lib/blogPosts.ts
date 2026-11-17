@@ -42,6 +42,8 @@ export interface BlogPost {
   keywords: string[];
   category: string;
   dateISO: string;
+  /** Last material editorial review; used by Article schema without changing publication date. */
+  dateModified?: string;
   /**
    * `readTime` is the rendered field — a string like "8 min".
    *

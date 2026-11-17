@@ -384,6 +384,10 @@ export default function PricingPage() {
           <Link href="/portfolio" className="text-[#a0a0a0] hover:text-[#e8c547] transition-colors">Portfolio</Link>
           <span className="text-[#2a2a2a]">·</span>
           <Link href="/uae-video-production-cost-report-2026#rate-bands" className="text-[#e8c547] hover:text-[#e8c547] transition-colors">AED Cost Report</Link>
+          <span className="text-[#2a2a2a]">·</span>
+          <Link href="/blog/corporate-videography-uae-pricing-process-booking-guide-2026" className="text-[#a0a0a0] hover:text-[#e8c547] transition-colors">Corporate Cost Guide</Link>
+          <span className="text-[#2a2a2a]">·</span>
+          <Link href="/blog/video-podcast-production-dubai-2026" className="text-[#a0a0a0] hover:text-[#e8c547] transition-colors">Podcast Setup Guide</Link>
         </div>
         <div className="flex gap-4 justify-center mt-8">
           <a href="https://wa.me/971585882685" target="_blank" rel="noreferrer" className="btn-gold">WhatsApp for Custom Quote</a>

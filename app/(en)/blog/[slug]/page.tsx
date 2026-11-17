@@ -192,6 +192,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     description: post.metaDescription,
     image: post.image,
     datePublished: post.dateISO,
+    dateModified: post.dateModified,
     authorName: post.author,
     url: `${BASE}/blog/${post.slug}`,
   });

@@ -193,7 +193,7 @@ export default function CostReportPage() {
       "How much does video production cost in Dubai in 2026? Published AED rate bands by format, budget composition, and UAE cost drivers.",
     inLanguage: "en-AE",
     datePublished: "2026-08-05",
-    dateModified: "2026-09-16",
+    dateModified: "2026-11-17",
     mainEntityOfPage: { "@type": "WebPage", "@id": PAGE_URL },
     author: { "@type": "Organization", name: "Backyard Studio Official", url: BASE },
     publisher: {
@@ -485,6 +485,9 @@ export default function CostReportPage() {
               { label: "Free production brief template", href: "/guides/video-production-brief-template" },
               { label: "Corporate video ROI calculator", href: "/guides/corporate-video-roi" },
               { label: "Corporate films & DVCs", href: "/services/corporate-films" },
+              { label: "Corporate video cost guide", href: "/blog/corporate-videography-uae-pricing-process-booking-guide-2026" },
+              { label: "How to start a podcast in the UAE", href: "/blog/video-podcast-production-dubai-2026" },
+              { label: "Dubai filming permit guide", href: "/guides/dubai-filming-permit" },
               { label: "Event videography", href: "/services/event-videography" },
               { label: "Wedding photography", href: "/services/wedding-photography" },
               { label: "Social media content", href: "/services/social-media-content" },
