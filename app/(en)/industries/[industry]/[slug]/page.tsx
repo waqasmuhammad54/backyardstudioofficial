@@ -430,7 +430,7 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       ],
       relatedPosts: [
         { title: "Event Videography Guide Dubai 2026", href: "/blog/event-photography-dubai-2026" },
-        { title: "Drone Filming Rules UAE 2026", href: "/blog/drone-videography-rules-dubai-2026" },
+        { title: "Dubai Drone Filming Checklist", href: "/guides/drone-filming-checklist-dubai" },
       ],
     },
 
@@ -1450,7 +1450,7 @@ const SUB_INDUSTRY_DATA: Record<string, Record<string, {
       ],
       relatedPosts: [
         { title: "Hotel Photography Guide UAE 2026", href: "/blog/hotel-photography-dubai-2026" },
-        { title: "Drone Filming Rules UAE 2026", href: "/blog/drone-videography-rules-dubai-2026" },
+        { title: "Dubai Drone Filming Checklist", href: "/guides/drone-filming-checklist-dubai" },
       ],
     },
 

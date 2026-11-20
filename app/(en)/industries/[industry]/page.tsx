@@ -282,7 +282,7 @@ const INDUSTRY_DATA: Record<string, {
       { q: "What sports event sizes can you handle?", a: "We cover events from a single padel tournament with 30 players to multi-day international events with thousands of athletes. Our smallest setup is one operator with a camera and drone. Our largest deployments have been 6 operators, 2 drone pilots, and a dedicated on-site editor. We scale the crew to the event." },
     ],
     relatedLocations: [{ label: "Dubai Sports Venues", href: "/locations/dubai" },{ label: "Abu Dhabi Yas Island", href: "/locations/abu-dhabi" },{ label: "Sharjah Stadium", href: "/locations/sharjah" }],
-    relatedPosts: [{ title: "Event Videography Guide Dubai 2026", href: "/blog/event-photography-dubai-2026" },{ title: "Drone Filming Rules UAE 2026", href: "/blog/drone-videography-rules-dubai-2026" }],
+    relatedPosts: [{ title: "Event Videography Guide Dubai 2026", href: "/blog/event-photography-dubai-2026" },{ title: "Dubai Drone Filming Checklist", href: "/guides/drone-filming-checklist-dubai" }],
     video: {
       key: "sportsReel",
       heading: "Watch a same-day sports cut",

@@ -24,6 +24,11 @@ export const RETIRED_BLOG_SLUGS = new Set<string>([
   "best-social-media-content-creators-dubai-2026",
   "commercial-production-dubai-2026",
   "drone-photography-dubai-2026",
+  // Superseded 20 Nov 2026 by the source-backed operational checklist. The
+  // retired article made unsourced blanket claims about permissions, fines and
+  // Backyard's credentials; the guide separates operator, aircraft, mission,
+  // filming and property approvals and cites the current official sources.
+  "drone-videography-rules-dubai-2026",
   // ── MANUAL ADDITIONS — do not remove ──────────────────────────────────────
   // These two are RENAME TARGETS of scripts/consolidate.mjs (the long malformed
   // post slugs re-map to them), which is why the generator never adds them to
