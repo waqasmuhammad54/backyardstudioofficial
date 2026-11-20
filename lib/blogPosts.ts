@@ -490,49 +490,6 @@ export const BLOG_POSTS: BlogPost[] = [
     `,
   },
   {
-    slug: "drone-videography-rules-dubai-2026",
-    title: "Drone Videography Rules in Dubai 2026 — Complete Guide",
-    metaTitle: "Drone Rules Dubai 2026 | Permits & No-Fly Zones UAE",
-    metaDescription: "Complete 2026 guide to commercial drone rules in Dubai and the UAE. Permits, no-fly zones, penalties, and how to book a licensed drone operator.",
-    keywords: ["drone videography rules Dubai", "commercial drone permit UAE", "drone filming Dubai 2026", "drone no fly zones Dubai", "drone videographer Dubai", "aerial videography UAE"],
-    category: "Industry Guide",
-    date: "Apr 28, 2026",
-    dateISO: "2026-04-28",
-    readTime: "5 min",
-    image: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=1200&q=80",
-    excerpt: "Flying a drone commercially in Dubai without the right licence carries fines of up to AED 50,000. Here is everything you need to know before booking aerial videography in the UAE.",
-    author: "Backyard Studio Editorial",
-    faqs: [
-      { question: "Is drone videography legal in Dubai?", answer: "Commercial drone videography in Dubai is legal only when conducted by a licensed drone operation with the appropriate flight permits for the specific location and date. Flying commercially without a commercial drone licence can result in fines of AED 50,000 or higher and confiscation of equipment." },
-      { question: "How do I get a commercial drone permit in Dubai?", answer: "Obtaining a commercial drone operator licence requires: completing an approved drone pilot training course, passing a written examination, obtaining insurance, and registering the drone with the authority. Individual flight permits for specific locations are then obtained through the national drone permit system for each shoot. The process typically takes 4–8 weeks for a new operator." },
-      { question: "Which areas are no-fly zones for drones in Dubai?", answer: "No-fly zones in Dubai include: within 5km of any airport or helipad (including DXB, DWC, and hospital helipads), over populated areas without specific permit, near government buildings and security facilities, Burj Khalifa airspace, and certain beach and coastal areas. A licensed operator will identify and comply with all no-fly zone restrictions for your specific location." },
-    ],
-    relatedSlugs: ["how-much-does-video-production-cost-dubai-2026", "best-production-companies-dubai-2026", "filming-locations-dubai-2026"],
-    content: `
-<h2>The Legal Reality of Drone Videography in the UAE</h2>
-<p>The UAE has some of the clearest and most strictly enforced drone regulations in the world. This is largely positive for the professional production industry — it means that licensed operators are genuinely trusted by authorities to fly safely and responsibly. But it also means that anyone who books a drone videographer without checking their drone credentials is taking a significant legal and financial risk.</p>
-
-<h2>Who regulates commercial drones in the UAE?</h2>
-<p>The UAE's federal civil aviation authority is the body responsible for all civil aviation regulation — including commercial drone operations. All commercial drone flights in the UAE must be conducted by a licensed operator, using registered drones, with location-specific permits issued in advance.</p>
-
-<h2>Requirements for Commercial Drone Operators</h2>
-<p>A legitimate commercial drone operator in the UAE must hold: a valid Remote Pilot Licence (RPL); registered drone(s) with the authority; public liability insurance; and a valid permit for each specific flight location and date. Backyard Studio Official holds all of these — and we coordinate location-specific permit applications as part of every drone production booking.</p>
-
-<h2>No-Fly Zones You Need to Know</h2>
-<p>The UAE has extensive no-fly zones that must be understood before any commercial drone operation. A 5km restricted radius extends around Dubai International Airport (DXB) and Al Maktoum International (DWC) — this covers more of the city than most people realise. Government facilities, military installations, and security areas have their own restricted zones, and the Burj Khalifa airspace is heavily controlled. Residential areas and beachfronts typically require specific permits, and active event airspace requires advance coordination with both the aviation and event authorities. A licensed operator will identify and comply with every one of these restrictions for your specific shoot location and date — this is part of what you are paying for when you book a properly licensed team.</p>
-
-<h2>Penalties for Unlicensed Commercial Drone Operation</h2>
-<p>The UAE takes drone violations seriously. Penalties include fines of AED 50,000 or higher, equipment confiscation, and potential criminal liability depending on the severity of the violation. For brands, an incident involving an unlicensed drone operator at your event or on your shoot carries significant reputational risk in addition to the legal liability.</p>
-
-<h2>How to Verify Your Drone Operator's Credentials</h2>
-<p>Before booking any drone videographer in the UAE, ask them to provide: their Remote Pilot Licence number; their registered drone serial numbers; their insurance certificate; and the permit reference for your specific shoot location and date. A licensed operator will have all of these documents immediately available. An unlicensed operator will not.</p>
-
-<h2>What Great Drone Footage Adds to Your Production</h2>
-<p>Beyond the legal compliance argument, drone footage flown under commercial drone licence genuinely elevates production quality in ways that ground-level cameras cannot replicate. For weddings, the aerial perspective of a baraat procession or a beach ceremony transforms a documentation of an event into a cinematic experience. For real estate, drone footage of a property's context — its relationship to the sea, the city, or the desert — communicates value that a ground-level walkthrough cannot. For events, aerial coverage provides a sense of scale and atmosphere that is impossible to achieve otherwise.</p>
-<p>At Backyard Studio Official, our aerial team has worked legally at hundreds of events, weddings, and commercial productions across all 7 UAE emirates. Every shoot is fully compliant, fully insured, and coordinated with the relevant authorities — so your brand is protected as well as beautifully filmed.</p>
-    `,
-  },
-  {
     slug: "tiktok-strategy-uae-brands-2026",
     title: "TikTok Strategy for UAE Brands 2026 — What Actually Works",
     metaTitle: "TikTok Strategy UAE Brands 2026 | TikTok Content Creation Dubai Guide",
@@ -641,7 +598,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { question: "Which Dubai locations are easiest to film at without permits?", answer: "Public beach areas (JBR Beach, Kite Beach, La Mer), the Dubai Marina walk, and the Deira waterfront are among the more accessible public areas for small-crew filming. However, commercial productions — even small ones — technically require permits. Working with a licensed production company that handles the permit process protects your brand from any complications." },
       { question: "What are the most popular filming locations in Dubai for luxury brands?", answer: "For luxury brand content in Dubai, the most requested locations are: Burj Khalifa and DIFC for finance and corporate brands; Burj Al Arab exterior (requires special permission) for ultra-luxury; Palm Jumeirah beachfront and One&Only The Palm for hospitality and fashion; Alserkal Avenue for contemporary arts brands; and the Dubai Design District (d3) for design and fashion labels." },
     ],
-    relatedSlugs: ["best-production-companies-dubai-2026", "drone-videography-rules-dubai-2026", "pre-wedding-shoot-locations-dubai-2026"],
+    relatedSlugs: ["best-production-companies-dubai-2026", "how-much-does-video-production-cost-dubai-2026", "pre-wedding-shoot-locations-dubai-2026"],
     content: `
 <h2>Dubai as a Production Location — Why It Works</h2>
 <p>Dubai's extraordinary combination of architectural diversity, consistent year-round sunshine, and the full range of natural environments within a 90-minute drive makes it one of the most versatile filming cities on earth. You can shoot a sleek urban commercial in Downtown, a desert adventure campaign in Al Qudra, a coastal lifestyle brand in JBR, and a heritage cultural piece in Al Fahidi — all within a single shooting day.</p>
@@ -785,7 +742,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { question: "What does a real estate photography package in Dubai include?", answer: "A complete Dubai real estate photography package should include: interior room photography (all rooms, multiple angles), exterior photography, drone aerial footage, twilight exterior shots, online gallery delivery, and social media-sized crops. Video walkthrough packages add a cinematic property tour video optimised for listing portals and social media." },
       { question: "How long does a real estate photo shoot take in Dubai?", answer: "A standard apartment or villa real estate photo shoot in Dubai takes 2–4 hours for photography and 1–2 hours for drone. For larger properties (villas over 5,000 sqft, penthouses, or commercial spaces), budget 5–8 hours. We schedule interior photography for early morning before natural light becomes harsh, and drone and exterior photography for golden hour in the late afternoon." },
     ],
-    relatedSlugs: ["drone-videography-rules-dubai-2026", "filming-locations-dubai-2026", "how-much-does-video-production-cost-dubai-2026"],
+    relatedSlugs: ["real-estate-videography-dubai-2026", "filming-locations-dubai-2026", "how-much-does-video-production-cost-dubai-2026"],
     content: `
 <h2>The Direct Commercial Value of Real Estate Photography in Dubai</h2>
 <p>Dubai's property market operates at a global scale, with buyers and investors from 100+ countries evaluating UAE properties online before ever visiting in person. For these buyers — many of whom make initial purchase decisions based entirely on listing imagery — the photography is the property. Not the floor plan, not the location pin, not the agent's description. The photography.</p>
@@ -832,7 +789,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { question: "How do I verify a production company's commercial drone licence?", answer: "Ask the production company to provide their Remote Pilot Licence number, their drone registration certificates, and their insurance documents. A legitimately licensed operator can provide all of these immediately. You can also verify drone licences directly through the regulator's website." },
       { question: "Should I choose a specialist or full-service production company in Dubai?", answer: "For brands that need multiple content types (event coverage, social media, corporate video, drone), a full-service production company delivers better brand consistency and efficiency than managing 4–5 specialist studios separately. For highly specific needs (e.g. fashion editorial only), a niche specialist may produce better results in their specific domain." },
     ],
-    relatedSlugs: ["best-production-companies-dubai-2026", "how-much-does-video-production-cost-dubai-2026", "drone-videography-rules-dubai-2026"],
+    relatedSlugs: ["best-production-companies-dubai-2026", "how-much-does-video-production-cost-dubai-2026", "filming-locations-dubai-2026"],
     content: `
 <h2>1. Review Their Portfolio — In Your Specific Category</h2>
 <p>A production company's portfolio is only useful if it specifically includes work in your category. A company that produces extraordinary automotive commercials may produce mediocre wedding photography. A studio known for food photography may produce generic corporate content.</p>
@@ -953,7 +910,7 @@ export const BLOG_POSTS: BlogPost[] = [
     ],
     relatedSlugs: [
       "best-production-companies-dubai-2026",
-      "drone-videography-rules-dubai-2026",
+      "filming-locations-dubai-2026",
       "how-much-does-video-production-cost-dubai-2026",
     ],
     content: `
@@ -1365,7 +1322,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { question: "How long does a real estate video production take in Dubai?", answer: "A standard apartment video is typically shot in a half-day and delivered in 5-7 working days. Luxury villa productions usually require a full day of shooting and take 7-10 working days for full post-production. Developer campaign videos with multiple units, aerial sequences, and lifestyle talent can take 2-4 weeks from brief to final delivery." },
       { question: "What areas in Dubai do you shoot real estate video?", answer: "We cover all Dubai residential areas including Downtown Dubai, Dubai Marina, Palm Jumeirah, DIFC, Jumeirah Bay Island, Emirates Hills, Dubai Hills Estate, Arabian Ranches, and Business Bay. We also cover Abu Dhabi, Sharjah, Ras Al Khaimah, and the other UAE emirates for larger developer campaigns." },
     ],
-    relatedSlugs: ["drone-videography-rules-dubai-2026", "corporate-video-production-dubai-2026", "how-much-does-video-production-cost-dubai-2026"],
+    relatedSlugs: ["real-estate-photography-dubai-2026", "corporate-video-production-dubai-2026", "how-much-does-video-production-cost-dubai-2026"],
     content: `
 <h2>Why Real Estate Video Has Become Non-Negotiable in Dubai's Property Market</h2>
 <p>Dubai's property market in 2026 is genuinely global. A buyer for a Palm Jumeirah penthouse might be making their decision from London, Moscow, or Mumbai — sight unseen except for what they can view on a screen. This reality has changed what professional real estate photography and videography mean for developers and agents. A static photo gallery used to be enough. Now, buyers expect to walk through a property on video before they commit to a viewing, let alone a purchase.</p>
@@ -1422,7 +1379,7 @@ export const BLOG_POSTS: BlogPost[] = [
       { question: "Can you do drone filming at night in Dubai?", answer: "Night drone operations require specific aviation authorisation granted case-by-case. Twilight filming — in the 20-40 minute window after sunset — is the most commonly requested low-light aerial option and is achievable with standard commercial licensing in appropriate airspace. Full night flights are possible with advance authorisation and appropriate equipment, and we have completed night aerial shoots for events and commercial campaigns in Dubai." },
       { question: "How long does it take to get drone permits for Dubai?", answer: "Standard DCAA location permits take 3-7 business days. We recommend confirming aerial shoot dates at least one week in advance for standard locations, and two weeks or more for complex or unusual locations. For events with defined dates, we start the permit process as soon as the date is confirmed." },
     ],
-    relatedSlugs: ["drone-videography-rules-dubai-2026", "real-estate-videography-dubai-2026", "best-event-videographers-dubai-2026"],
+    relatedSlugs: ["filming-locations-dubai-2026", "real-estate-videography-dubai-2026", "best-event-videographers-dubai-2026"],
     content: `
 <h2>Dubai From the Air — Why Aerial Footage Is a Commercial Necessity</h2>
 <p>There is something about Dubai that ground-level cameras cannot fully capture. The scale of the architecture, the geometry of the Palm from above, the way the city transitions from desert to ocean to skyline — these are visual facts that only aerial perspective communicates. We have been flying over Dubai commercially for years, and every time we review the footage back on a monitor it confirms the same thing: the city was designed to be seen from above.</p>

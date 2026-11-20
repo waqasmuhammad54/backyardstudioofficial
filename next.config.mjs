@@ -69,6 +69,10 @@ const nextConfig = {
       { source: "/services/documentary-production",         destination: "/services/corporate-films",     permanent: true },
       // Drone no longer offered as a service — 301 to related services (preserve link equity)
       { source: "/services/aerial-drone",                   destination: "/services/real-estate",         permanent: true },
+      // Consolidate the stale, unsourced rules article onto the maintained,
+      // source-backed checklist. This preserves any links while giving users
+      // one current canonical owner for commercial drone-filming requirements.
+      { source: "/blog/drone-videography-rules-dubai-2026", destination: "/guides/drone-filming-checklist-dubai", permanent: true },
       // Legacy generic slug shells that predate the service catalogue. No route file
       // ever existed for either; both resolve to the [slug] template today. Consolidate
       // to the same target the drone family already uses (see above) rather than

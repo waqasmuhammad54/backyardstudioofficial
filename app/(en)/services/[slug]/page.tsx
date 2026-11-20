@@ -7,7 +7,7 @@ import { ArrowLeft, Check, ArrowUpRight } from "lucide-react";
 import VimeoEmbed from "@/components/shared/VimeoEmbed";
 import VideoProofSection from "@/components/shared/VideoProofSection";
 import type { VIDEOS } from "@/lib/videos";
-import { breadcrumbSchema, faqSchema, servicePageSchema, howToSchema, speakableSchema } from "@/lib/structuredData";
+import { breadcrumbSchema, faqSchema, servicePageSchema, speakableSchema } from "@/lib/structuredData";
 import { stripBrandSuffix, withBrand } from "@/lib/seoTitle";
 
 /**
@@ -555,7 +555,7 @@ const SERVICE_DATA: Record<string, { title: string; description: string; include
     description: "Backyard Studio Official produces world-class real estate videography and photography for Dubai's most competitive property market. From DIFC penthouses and Palm Jumeirah villas to off-plan developer campaigns and commercial real estate portfolios — our property shoots combine architectural photography, walkthrough videography, and drone footage into a complete marketing asset package.\n\nIn Dubai's ultra-competitive real estate market, listing quality directly impacts price and time-on-market. Our real estate production team understands how to capture natural light, showcase space, and tell a lifestyle story that makes a buyer see themselves living in the property before they ever step inside.",
     includes: ["Architectural interior & exterior photography", "Cinematic property walkthrough video", "Aerial drone footage", "Twilight & golden-hour exterior shots", "Virtual tour ready stills", "Floor plan overlay graphics", "Social media cuts (Reels/TikTok)", "Same-day preview delivery"],
     faqs: [
-      { q: "Do you do drone photography for real estate in Dubai?", a: "Yes. Aerial coverage is fully permitted, so it is legal over residential and commercial property across every Dubai district and UAE emirate. Aerial footage lifts listing engagement and is now expected on premium properties." },
+      { q: "Do you do drone photography for real estate in Dubai?", a: "Aerial coverage can be arranged as part of a property production when the exact location, date, operator, aircraft and required approvals are confirmed. Availability is never assumed from the district alone; the flight and filming permissions must match the specific mission. If approval or weather prevents a flight, we plan a ground-camera alternative." },
       { q: "What types of properties do you photograph?", a: "We photograph and film all property types: apartments, villas, townhouses, penthouses, commercial offices, retail spaces, hotels, serviced apartments, and off-plan development show apartments." },
       { q: "How quickly do you deliver real estate photos and video?", a: "Standard delivery is 24 hours for photography and 48 hours for edited video. Rush 12-hour delivery is available for time-sensitive listings." },
       { q: "Do you offer twilight shoots for real estate?", a: "Yes. Twilight and dusk exterior shoots are among the most effective real estate photography techniques, and we schedule them specifically around the optimal light window for each property's orientation." },
@@ -823,7 +823,7 @@ const SERVICE_METADATA: Record<string, { title: string; description: string; key
     // the differentiator nobody else in this SERP offers, and live production is
     // a category buyers expect to be quoted privately — so stating a number is
     // the strongest possible signal here.
-    title: "Live Streaming UAE | From AED 20,000",
+    title: "Live Streaming & Match Coverage UAE",
     description: "Live multi-camera streaming and match coverage across the UAE from AED 20,000 — vision mixing, instant replay. Published rates, quote in 2 hours.",
     keywords: [
       "live streaming Dubai", "live streaming company Dubai", "live streaming services UAE",
@@ -1160,9 +1160,6 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
     url: pageUrl,
     price: SERVICE_PRICES[params.slug],
   });
-  const howTo = SERVICE_HOWTO[params.slug]
-    ? howToSchema(SERVICE_HOWTO[params.slug])
-    : null;
   const speakable = speakableSchema(pageUrl, ["h1", "h2", ".speakable", ".service-description"]);
 
   return (
@@ -1172,9 +1169,6 @@ export default function ServicePage({ params }: { params: { slug: string } }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(speakable) }} />
       {serviceFaqSchema && (
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceFaqSchema) }} />
-      )}
-      {howTo && (
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howTo) }} />
       )}
       {/* Cinematic hero */}
       <div className="relative h-[60vh] min-h-[420px] overflow-hidden">
