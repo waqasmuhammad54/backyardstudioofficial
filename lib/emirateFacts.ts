@@ -118,6 +118,23 @@ export const EMIRATE_FACTS: Record<string, EmirateFacts> = {
       "Video production in Abu Dhabi — institutional, cultural and government-adjacent work, island resorts and the Corniche. Free quote in 2 hours.",
   },
 
+  "al-ain": {
+    label: "Al Ain",
+    permitAuthority: "the Abu Dhabi Film Commission (ADFC)",
+    permitNote:
+      "Al Ain sits within the Emirate of Abu Dhabi, so production planning follows the Abu Dhabi route, with property or heritage-site permission confirmed separately where required. A public destination listing is not a commercial filming approval; the exact location and proposed use are checked before the schedule is locked.",
+    knownFor:
+      "oasis, heritage and inland landscape production — working palm groves, historic forts, mountain roads and desert settings that are visually distinct from both Abu Dhabi city and Dubai",
+    terrain:
+      "an inland mix of shaded oasis paths, low-rise garden-city streets, rocky mountain and open desert, with larger day-to-night temperature changes than the coast",
+    venues:
+      "heritage and cultural property, hotel and event facilities, farms, university settings, mountain and desert locations, and controlled commercial interiors",
+    logistics:
+      "Al Ain is a dedicated travel day from the main coastal cities. Sunrise, multi-location and mountain work benefits from staging the crew locally so the best light is not spent on the road",
+    serpSummary:
+      "Video and photography production in Al Ain — oasis, heritage, events, hospitality and Jebel Hafit locations. Full UAE crew, quote in 2 hours.",
+  },
+
   sharjah: {
     label: "Sharjah",
     permitAuthority: null,

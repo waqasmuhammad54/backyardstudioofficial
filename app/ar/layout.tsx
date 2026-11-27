@@ -62,7 +62,7 @@ const LOCAL_BUSINESS_AR = {
     "addressRegion":   "Dubai",
     "addressCountry":  "AE",
   },
-  "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm Al Quwain"],
+  "areaServed": ["Dubai", "Abu Dhabi", "Al Ain", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm Al Quwain"],
   "description":
     "شركة الإنتاج الإبداعي الرائدة في دبي. تصوير فيديو احترافي، تصوير الأعراس، محتوى وسائل التواصل الاجتماعي، تصوير الفعاليات والأفلام المؤسسية.",
   "sameAs": BRAND_SAME_AS,

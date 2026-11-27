@@ -33,7 +33,7 @@ const SERVICES = [
 ];
 
 const CITIES = [
-  "dubai", "abu-dhabi", "sharjah", "ajman",
+  "dubai", "abu-dhabi", "al-ain", "sharjah", "ajman",
   "ras-al-khaimah", "fujairah", "umm-al-quwain",
 ];
 
@@ -141,7 +141,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const locations: MetadataRoute.Sitemap = CITIES.map((city) => ({
     url: BASE + "/locations/" + city,
-    lastModified: now,
+    lastModified: city === "al-ain" ? new Date("2026-11-27T00:00:00+04:00") : now,
     changeFrequency: "monthly" as const,
     priority: 0.9,
   }));

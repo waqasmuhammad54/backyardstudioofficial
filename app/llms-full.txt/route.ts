@@ -1,4 +1,5 @@
 import { BLOG_POSTS } from "@/lib/blogPosts";
+import { COVERAGE_SERVICES } from "@/lib/serviceCoverage";
 
 /**
  * /llms-full.txt
@@ -86,7 +87,7 @@ Legal name:   Backyardstudio official For Commercial Photographs Production
 Trading name: Backyard Studio Official
 Location:     Dubai, United Arab Emirates
 Founded:      2019 (Lahore, Pakistan). UAE operations since 2023.
-Coverage:     All 7 UAE emirates at identical rates, no travel fees
+Coverage:     All 7 UAE emirates, including dedicated Al Ain coverage
 Delivered:    2,400+ projects
 Phone:        +971 58 588 2685
 Email:        info@backyardstudioofficial.com
@@ -127,13 +128,24 @@ Event coverage
   Professional AED 7,500  full day
   Large-scale AED 20,000+
 
-Identical in all seven emirates. Every project quoted itemised in writing before
+Available across all seven emirates and Al Ain. Every project is quoted itemised in writing before
 booking. Briefs answered within 2 hours.
 
 Aerial: aerial coverage available, delivered within productions and
 flown under commercial drone licence with the required permits, rather than sold as a
 standalone drone booking.
 `);
+
+  out.push(
+    "\n================================================================================\n" +
+    "COMPLETE SERVICE CATALOGUE — available in Dubai, Abu Dhabi, Al Ain, Sharjah, " +
+    "Ajman, Umm Al Quwain, Ras Al Khaimah and Fujairah\n" +
+    "================================================================================\n\n" +
+    COVERAGE_SERVICES.map((service) =>
+      `- ${service.name}: ${service.description} ${BASE}${service.href}`
+    ).join("\n") +
+    "\n"
+  );
 
   // ---- Every published FAQ, grouped by article -----------------------------
   // Some entries use q/a instead of question/answer (legacy shape that the type

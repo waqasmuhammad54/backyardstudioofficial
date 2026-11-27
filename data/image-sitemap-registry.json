@@ -1,0 +1,3810 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-27T16:32:43.716Z",
+  "source": "Verified live canonical crawl",
+  "pageCount": 196,
+  "imageReferenceCount": 705,
+  "uniqueImageCount": 106,
+  "entries": [
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Fashion Shoots"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-05.webp",
+          "alt": "Editorial photography by Backyard Studio Official Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "Studio Fashion Series"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Production Company in Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-02.webp",
+          "alt": "Backyard Studio — Showreel 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Corporate photography by Backyard Studio Official Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-04.webp",
+          "alt": "Office Celebration Shoot"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-03.webp",
+          "alt": "Luxury Perfume Campaign"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/studio-bts.webp",
+          "alt": "Backyard Studio photographer behind the scenes"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-01.webp",
+          "alt": "Wedding Shoots"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-05.webp",
+          "alt": "Couple Shoots"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-16.webp",
+          "alt": "Lifestyle photography by Backyard Studio Official Dubai"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/about",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/behram.webp",
+          "alt": "Behram Shahid — Director of Sales at Backyard Studio Official Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/fahad.webp",
+          "alt": "Fahad Iqbal Butt — Founder & CEO Backyard Studio Official Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/mazhar.webp",
+          "alt": "Syed Mazhar Zaidi Co-Founder Creative Head Backyard Studio Official Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/rajaa.webp",
+          "alt": "Rajaa — Business Development Manager at Backyard Studio Official Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/reem.webp",
+          "alt": "Reem — Business Development Manager at Backyard Studio Official Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/shabana.webp",
+          "alt": "Shabana Basheer — Art Director at Backyard Studio Official Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/waqas.webp",
+          "alt": "Waqas Muhammad — Director of Strategy at Backyard Studio Official Dubai"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/ar",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "تصوير الأزياء في دبي"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-05.webp",
+          "alt": "تصوير الأزياء"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "إنتاج المحتوى الإبداعي في دبي"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "تصوير الفعاليات في دبي"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "فعاليات مؤسسية"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-04.webp",
+          "alt": "تصوير المؤتمرات في دبي"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-03.webp",
+          "alt": "تصوير المنتجات في دبي"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-01.webp",
+          "alt": "تصوير حفل زفاف في دبي"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-16.webp",
+          "alt": "تصوير الزفاف"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/ar/about",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/behram.webp",
+          "alt": "بهرام شاهد — مدير المبيعات — باكيارد ستوديو دبي"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/fahad.webp",
+          "alt": "فهد إقبال بط — المؤسس والرئيس التنفيذي لباكيارد ستوديو أوفيشيال دبي"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/mazhar.webp",
+          "alt": "سيد مظهر زيدي — المؤسس المشارك ورئيس الإبداع لباكيارد ستوديو دبي"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/rajaa.webp",
+          "alt": "رجاء — مدير تطوير الأعمال — باكيارد ستوديو دبي"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/reem.webp",
+          "alt": "ريم — مدير تطوير الأعمال — باكيارد ستوديو دبي"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/shabana.webp",
+          "alt": "شبانة بشير — مديرة الفن والهوية البصرية — باكيارد ستوديو دبي"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/waqas.webp",
+          "alt": "وقاص محمد — مدير الاستراتيجية — باكيارد ستوديو دبي"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/360-virtual-tour-matterport-photography-uae.jpg",
+          "alt": "360° Virtual Tour & Matterport Photography UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/aeo-and-geo-by-backyard-studio-official.jpg",
+          "alt": "AI Search & AEO for UAE Brands — How Video Content Gets You Cited by ChatGPT, Google AI Overviews & Perplexity (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ai-avatar-virtual-presenter-video-production-uae.jpg",
+          "alt": "AI Avatar & Virtual Presenter Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ajman-photography-videography-banner.jpg",
+          "alt": "Ajman Photographer & Videographer 2026 — Photography & Video Production in Ajman, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio_-dubai-portfolio-showcase.jpg",
+          "alt": "Model, Actor & Creator Portfolio Shoots and Showreels in Dubai & UAE — Comp Cards, Headshots & Personal Portfolio Content (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-corporate-portfolio-showcase.jpg",
+          "alt": "Company Brand Portfolio in the UAE — Client Testimonials, Staff Professional Photoshoot at Your Office & Brand Content (From AED 25,000, 2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-official-corporate.png",
+          "alt": "Office & Workplace Video Production UAE — HQ Films, Drone Coverage & Culture Videos 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-official-uae.jpg",
+          "alt": "Best Video Production Company in UAE — Complete Guide & Checklist 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-social-media-packages.jpg",
+          "alt": "Social Media Content Creation Packages for Brands in the UAE — Posts & Reels From AED 5,500 Per Month (2026 Pricing)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-uaq-promotional-banner.jpg",
+          "alt": "Umm Al Quwain Photographer & Videographer 2026 — Photography & Video Production in UAQ, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/best-filming-locations-across-all-7-uae-emirates.jpg",
+          "alt": "Best Filming Locations Across All 7 UAE Emirates — A Location Scout's Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/best-time-of-year-to-film-in-the-uae.jpg",
+          "alt": "Best Time of Year to Film in the UAE — Seasonal Shoot Planning Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/best-video-length-for-instagram-reels-vs-a-professional-brand-video.jpg",
+          "alt": "Best Video Length for Instagram Reels vs a Professional Brand Video — What's the Actual Difference? (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/campaign-content-by-backyard-studio-official.png",
+          "alt": "Ramadan & Eid Campaign Content Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-16-2026-03-00-05-pm.png",
+          "alt": "Comparing Video Production Agencies in the UAE for a Product Launch (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-20-2026-02_19_51-pm.png",
+          "alt": "How to Plan Your Video Shoot Around Your Budget (Without Cutting the Wrong Corners)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-21-2026-01_37_31-pm.png",
+          "alt": "\\\"But That Studio Quoted Me Less\\\": Why Cheaper Isn't the Same as Better"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-22-2026-03_49_38-pm.png",
+          "alt": "Ten Thousand Questions, Zero Budget: The Conversation Every Production House Knows Too Well"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-23-2026-02_13_31-pm.png",
+          "alt": "Why Your First Video Doesn't Need to Be Perfect — It Needs to Be Consistent"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-24-2026-03_08_51-pm.png",
+          "alt": "What Actually Changes When Your Filmmaker Has a Degree, Not Just a Diploma"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-27-2026-01_08_30-pm.png",
+          "alt": "How to Plan Your Video Shoot in Dubai: A Simple 4-Step Guide"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-30-2026-05_12_48-pm.png",
+          "alt": "Car Commercial Production Studio in the UAE — Full Capability Guide (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-30-2026-07_21_56-pm.png",
+          "alt": "Wedding Photography Packages in Dubai — Real 2026 Pricing Guide"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-31-2026-06_51_24-pm.png",
+          "alt": "We're an Agency, Not Just a Studio — Here's What That Actually Means for Your Quote"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/construction-progress-photography-timelapse-video-production-uae.jpg",
+          "alt": "Construction Progress Photography & Timelapse Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-documentary-by-backyard-studio-official.png",
+          "alt": "Corporate Documentary & Annual Report Film Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-headshots-executive-portraits-uae-by-backyard-studio-official.jpg",
+          "alt": "Corporate Headshots & Executive Portraits UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-training-e-learning-video-production-uae.jpg",
+          "alt": "Corporate Training & E-Learning Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-video-cost-uae-hero-v2.webp",
+          "alt": "How Much Does a Corporate Video Cost in the UAE? 2026 Guide"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/dubai-restaurant-brand-launch-package.jpg",
+          "alt": "Restaurant & Product Brand Launch Package UAE — Food Photography, Product Shoots & Website, Bundled (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/dubai-startup-pitch-investor-videos.jpg",
+          "alt": "Startup Pitch Video & Investor Video Production in Dubai & UAE — Fundraising, Demo Day & Product Demo Films (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/dvc-vs-tvc-by-backyard-studio-official.jpg",
+          "alt": "DVC vs TVC — What's the Difference? Complete UAE Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/esthetic-clinic-and-medical-spa-video-production-backyard-studio-official.jpg",
+          "alt": "Aesthetic Clinic & Medical Spa Video Production UAE — DHA-Compliant Content, Pricing & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/event-coverage-by-backyard-studio-official.png",
+          "alt": "Government & Exhibition Event Videography UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/exhibition-livestream-backyard-studio-official.jpg",
+          "alt": "GITEX & Exhibition Livestream Production UAE — Packages, Pricing & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fashion-photography-dubai.jpg",
+          "alt": "Fashion Photography Dubai 2026 — Editorial, Lookbook & Brand Campaign Shoots"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fashion-photography-ecommerce-shoots-videos-fashion-films-by-backyard-studio-official-3.png",
+          "alt": "Fashion & E-Commerce Photography, Video & Reels UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/filming-only-shoot-only-video-production-uae.jpg",
+          "alt": "Filming-Only / Shoot-Only Video Production UAE — For Teams Who Edit In-House (Pricing 2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/food-photography-for-backyard-studio-official.jpg",
+          "alt": "Restaurant & Menu Photography and Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fujairah-photography-videography-banner.jpg",
+          "alt": "Fujairah Photographer & Videographer 2026 — Photography & Video Production in Fujairah, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-hotels-can-use-video-marketing-to-drive-direct-bookings.jpg",
+          "alt": "How Hotels Can Use Video Marketing to Drive Direct Bookings — UAE Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-long-does-video-production-take.jpg",
+          "alt": "How Long Does Video Production Take? UAE Timeline Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-to-prepare-for-a-corporate-video-shoot-uae.jpg",
+          "alt": "How to Prepare for a Corporate Video Shoot — UAE Client Checklist 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/influencer-ugc-content-production-uae-by-backyard-studio-official.png",
+          "alt": "Influencer & UGC Content Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/luxury-holiday-home-photography-in-dubai.jpg",
+          "alt": "Holiday Home & Airbnb Photography and Reels in Dubai & UAE — Monthly Social Media Content From AED 8,000 (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/luxury-product-photography-pricing-banner.jpg",
+          "alt": "Product Photography Price Per Product in Dubai & UAE — From AED 100 by Size & Category (2026 Price Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/luxury-yacht-photography-in-dubai.jpg",
+          "alt": "Yacht & Boat Photography and Videography in Dubai & UAE — Charter, Brokerage & Owner Content (2026 Pricing Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/monthly-content-retainer-uae-2026-backyard-studio-official.jpg",
+          "alt": "Monthly Content Production for UAE Businesses — Idea to Delivery, A to Z (Pricing Guide 2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/mutli-locations-franchise-backyard-studio-official.jpg",
+          "alt": "Multi-Location Franchise Video & Photography Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/off-plan-project-launch-video-by-backyard-studio-official.jpg",
+          "alt": "Off-Plan Real Estate Project Launch Video Production UAE — CGI, Drone & Pricing Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/podcast-uae-guide-hero-v2.webp",
+          "alt": "How to Start a Video Podcast in the UAE: Dubai Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ras-al-khaimah-creative-studio-showcase.jpg",
+          "alt": "Ras Al Khaimah Photographer & Videographer 2026 — Photography & Video Production in RAK, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/schools-and-university-event-and-yearbook-photography-and-photography.jpg",
+          "alt": "School & University Event and Yearbook Videography UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/uae-festive-campaign-content-studio.jpg",
+          "alt": "Festive Season & Sale Campaign Content in the UAE — White Friday, Dubai Shopping Festival, Diwali, Christmas & New Year Video and Photography (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/uae-national-day-campaign-video-photography-production.jpg",
+          "alt": "UAE National Day Campaign Video & Photography Production — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/uae-recruitment-video-production-banner.jpg",
+          "alt": "Recruitment & Employer Branding Video Production in the UAE — Hiring Videos, Job Ads & Careers Content (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/video-editing-service-dubai-2026-backyard.jpg",
+          "alt": "Video Editing & Post-Production Only Services UAE — Already Have the Footage? Pricing Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/video-marketing-statistics-uae-2026.jpg",
+          "alt": "Video Marketing Statistics UAE 2026 — Why Video Now Dominates Digital Marketing in the Emirates"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/web-app-development-for-uae-businesses-by-backyard-studio-official.jpg",
+          "alt": "Web App Development for UAE Businesses — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/what-makes-a-good-property-video.jpg",
+          "alt": "What Makes a Good Property Video? A Buyer-Tested Checklist for UAE Listings (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/whatsapp-image-2026-08-24-at-8.52.00-pm.jpg",
+          "alt": "Dubai Filming Permit Fees & Fines 2026 — Why Backyard Studio Official Never Skips One"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/why-can-t-you-show-us-your-best-work.jpg",
+          "alt": "Why Can't You Show Us Your Best Work? Understanding NDAs in Video & Photo Production"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/why-is-video-production-so-expensive-uae-backyard-studio-official.jpg",
+          "alt": "You Sent Us a Professional Brief. Why Are You Shocked by a Professional Quote?"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/youtube-production-dubai.jpg",
+          "alt": "YouTube Video Production Dubai 2026 — Full-Service Channel Strategy & Filming"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "No, We Won't Start Filming Without the Deposit. Here's Exactly Why."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/2d-animation-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/360-video-production-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/360-virtual-tour-matterport-photography-uae-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/360-virtual-tour-matterport-photography-uae.jpg",
+          "alt": "360° Virtual Tour & Matterport Photography UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/construction-progress-photography-timelapse-video-production-uae.jpg",
+          "alt": "Construction Progress Photography & Timelapse Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-headshots-executive-portraits-uae-by-backyard-studio-official.jpg",
+          "alt": "Corporate Headshots & Executive Portraits UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/food-photography-for-backyard-studio-official.jpg",
+          "alt": "Restaurant & Menu Photography and Video Production UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/3d-animation-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/aerial-videography-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/aesthetic-clinic-medical-spa-video-production-uae-dha-compliant-content-pricing-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/campaign-content-by-backyard-studio-official.png",
+          "alt": "Ramadan & Eid Campaign Content Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-documentary-by-backyard-studio-official.png",
+          "alt": "Corporate Documentary & Annual Report Film Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/esthetic-clinic-and-medical-spa-video-production-backyard-studio-official.jpg",
+          "alt": "Aesthetic Clinic & Medical Spa Video Production UAE — DHA-Compliant Content, Pricing & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/influencer-ugc-content-production-uae-by-backyard-studio-official.png",
+          "alt": "Influencer & UGC Content Production UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/ai-avatar-virtual-presenter-video-production-uae-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ai-avatar-virtual-presenter-video-production-uae.jpg",
+          "alt": "AI Avatar & Virtual Presenter Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-training-e-learning-video-production-uae.jpg",
+          "alt": "Corporate Training & E-Learning Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/dvc-vs-tvc-by-backyard-studio-official.jpg",
+          "alt": "DVC vs TVC — What's the Difference? Complete UAE Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/whatsapp-image-2026-08-24-at-8.52.00-pm.jpg",
+          "alt": "Dubai Filming Permit Fees & Fines 2026 — Why Backyard Studio Official Never Skips One"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/ai-search-aeo-for-uae-brands-how-video-content-gets-you-cited-by-chatgpt-google-ai-overviews-perplexity-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/aeo-and-geo-by-backyard-studio-official.jpg",
+          "alt": "AI Search & AEO for UAE Brands — How Video Content Gets You Cited by ChatGPT, Google AI Overviews & Perplexity (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ai-avatar-virtual-presenter-video-production-uae.jpg",
+          "alt": "AI Avatar & Virtual Presenter Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-training-e-learning-video-production-uae.jpg",
+          "alt": "Corporate Training & E-Learning Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/exhibition-livestream-backyard-studio-official.jpg",
+          "alt": "GITEX & Exhibition Livestream Production UAE — Packages, Pricing & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/ajman-photographer-videographer-2026-photography-video-production-in-ajman-uae-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/360-virtual-tour-matterport-photography-uae.jpg",
+          "alt": "360° Virtual Tour & Matterport Photography UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ajman-photography-videography-banner.jpg",
+          "alt": "Ajman Photographer & Videographer 2026 — Photography & Video Production in Ajman, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/construction-progress-photography-timelapse-video-production-uae.jpg",
+          "alt": "Construction Progress Photography & Timelapse Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/food-photography-for-backyard-studio-official.jpg",
+          "alt": "Restaurant & Menu Photography and Video Production UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/arabic-voice-over-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/architecture-photography-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "TVC Production UAE — TV Commercial Costs, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/best-filming-locations-across-all-7-uae-emirates-a-location-scout-s-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/best-filming-locations-across-all-7-uae-emirates.jpg",
+          "alt": "Best Filming Locations Across All 7 UAE Emirates — A Location Scout's Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/uae-national-day-campaign-video-photography-production.jpg",
+          "alt": "UAE National Day Campaign Video & Photography Production — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/why-is-video-production-so-expensive-uae-backyard-studio-official.jpg",
+          "alt": "You Sent Us a Professional Brief. Why Are You Shocked by a Professional Quote?"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "No, We Won't Start Filming Without the Deposit. Here's Exactly Why."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/best-time-of-year-to-film-in-the-uae-seasonal-shoot-planning-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/best-filming-locations-across-all-7-uae-emirates.jpg",
+          "alt": "Best Filming Locations Across All 7 UAE Emirates — A Location Scout's Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/best-time-of-year-to-film-in-the-uae.jpg",
+          "alt": "Best Time of Year to Film in the UAE — Seasonal Shoot Planning Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/uae-national-day-campaign-video-photography-production.jpg",
+          "alt": "UAE National Day Campaign Video & Photography Production — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "No, We Won't Start Filming Without the Deposit. Here's Exactly Why."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/best-video-length-for-instagram-reels-vs-a-professional-brand-video-what-s-the-actual-difference-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/best-video-length-for-instagram-reels-vs-a-professional-brand-video.jpg",
+          "alt": "Best Video Length for Instagram Reels vs a Professional Brand Video — What's the Actual Difference? (2026)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/best-video-production-company-in-uae-complete-guide-checklist-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-official-uae.jpg",
+          "alt": "Best Video Production Company in UAE — Complete Guide & Checklist 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/mutli-locations-franchise-backyard-studio-official.jpg",
+          "alt": "Multi-Location Franchise Video & Photography Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/off-plan-project-launch-video-by-backyard-studio-official.jpg",
+          "alt": "Off-Plan Real Estate Project Launch Video Production UAE — CGI, Drone & Pricing Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/schools-and-university-event-and-yearbook-photography-and-photography.jpg",
+          "alt": "School & University Event and Yearbook Videography UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/brand-film-production-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/brand-photography-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/brand-profile-revamp-individual-video-portfolio-uae-pricing-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/youtube-production-dubai.jpg",
+          "alt": "YouTube Video Production Dubai 2026 — Full-Service Channel Strategy & Filming"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Brand Profile Revamp & Individual Video Portfolio UAE — Pricing 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/but-that-studio-quoted-me-less-why-cheaper-isn-t-the-same-as-better-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-16-2026-03-00-05-pm.png",
+          "alt": "Comparing Video Production Agencies in the UAE for a Product Launch (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-20-2026-02_19_51-pm.png",
+          "alt": "How to Plan Your Video Shoot Around Your Budget (Without Cutting the Wrong Corners)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-21-2026-01_37_31-pm.png",
+          "alt": "\\\"But That Studio Quoted Me Less\\\": Why Cheaper Isn't the Same as Better"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/car-commercial-production-uae-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-24-2026-03_08_51-pm.png",
+          "alt": "What Actually Changes When Your Filmmaker Has a Degree, Not Just a Diploma"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-27-2026-01_08_30-pm.png",
+          "alt": "How to Plan Your Video Shoot in Dubai: A Simple 4-Step Guide"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-30-2026-05_12_48-pm.png",
+          "alt": "Car Commercial Production Studio in the UAE — Full Capability Guide (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/podcast-uae-guide-hero-v2.webp",
+          "alt": "How to Start a Video Podcast in the UAE: Dubai Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/category/industry",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-video-cost-uae-hero-v2.webp",
+          "alt": "How Much Does a Corporate Video Cost in the UAE? 2026 Guide"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/dubai-restaurant-brand-launch-package.jpg",
+          "alt": "Restaurant & Product Brand Launch Package UAE — Food Photography, Product Shoots & Website, Bundled (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/web-app-development-for-uae-businesses-by-backyard-studio-official.jpg",
+          "alt": "Web App Development for UAE Businesses — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/category/photography",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/360-virtual-tour-matterport-photography-uae.jpg",
+          "alt": "360° Virtual Tour & Matterport Photography UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ajman-photography-videography-banner.jpg",
+          "alt": "Ajman Photographer & Videographer 2026 — Photography & Video Production in Ajman, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio_-dubai-portfolio-showcase.jpg",
+          "alt": "Model, Actor & Creator Portfolio Shoots and Showreels in Dubai & UAE — Comp Cards, Headshots & Personal Portfolio Content (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-uaq-promotional-banner.jpg",
+          "alt": "Umm Al Quwain Photographer & Videographer 2026 — Photography & Video Production in UAQ, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-30-2026-07_21_56-pm.png",
+          "alt": "Wedding Photography Packages in Dubai — Real 2026 Pricing Guide"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/construction-progress-photography-timelapse-video-production-uae.jpg",
+          "alt": "Construction Progress Photography & Timelapse Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-headshots-executive-portraits-uae-by-backyard-studio-official.jpg",
+          "alt": "Corporate Headshots & Executive Portraits UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fashion-photography-dubai.jpg",
+          "alt": "Fashion Photography Dubai 2026 — Editorial, Lookbook & Brand Campaign Shoots"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fashion-photography-ecommerce-shoots-videos-fashion-films-by-backyard-studio-official-3.png",
+          "alt": "Fashion & E-Commerce Photography, Video & Reels UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/food-photography-for-backyard-studio-official.jpg",
+          "alt": "Restaurant & Menu Photography and Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fujairah-photography-videography-banner.jpg",
+          "alt": "Fujairah Photographer & Videographer 2026 — Photography & Video Production in Fujairah, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/luxury-holiday-home-photography-in-dubai.jpg",
+          "alt": "Holiday Home & Airbnb Photography and Reels in Dubai & UAE — Monthly Social Media Content From AED 8,000 (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/luxury-product-photography-pricing-banner.jpg",
+          "alt": "Product Photography Price Per Product in Dubai & UAE — From AED 100 by Size & Category (2026 Price Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/luxury-yacht-photography-in-dubai.jpg",
+          "alt": "Yacht & Boat Photography and Videography in Dubai & UAE — Charter, Brokerage & Owner Content (2026 Pricing Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ras-al-khaimah-creative-studio-showcase.jpg",
+          "alt": "Ras Al Khaimah Photographer & Videographer 2026 — Photography & Video Production in RAK, UAE"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/category/social-media",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-social-media-packages.jpg",
+          "alt": "Social Media Content Creation Packages for Brands in the UAE — Posts & Reels From AED 5,500 Per Month (2026 Pricing)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/best-video-length-for-instagram-reels-vs-a-professional-brand-video.jpg",
+          "alt": "Best Video Length for Instagram Reels vs a Professional Brand Video — What's the Actual Difference? (2026)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/category/video",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/aeo-and-geo-by-backyard-studio-official.jpg",
+          "alt": "AI Search & AEO for UAE Brands — How Video Content Gets You Cited by ChatGPT, Google AI Overviews & Perplexity (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ai-avatar-virtual-presenter-video-production-uae.jpg",
+          "alt": "AI Avatar & Virtual Presenter Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-corporate-portfolio-showcase.jpg",
+          "alt": "Company Brand Portfolio in the UAE — Client Testimonials, Staff Professional Photoshoot at Your Office & Brand Content (From AED 25,000, 2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-official-corporate.png",
+          "alt": "Office & Workplace Video Production UAE — HQ Films, Drone Coverage & Culture Videos 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-official-uae.jpg",
+          "alt": "Best Video Production Company in UAE — Complete Guide & Checklist 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/best-filming-locations-across-all-7-uae-emirates.jpg",
+          "alt": "Best Filming Locations Across All 7 UAE Emirates — A Location Scout's Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/best-time-of-year-to-film-in-the-uae.jpg",
+          "alt": "Best Time of Year to Film in the UAE — Seasonal Shoot Planning Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/campaign-content-by-backyard-studio-official.png",
+          "alt": "Ramadan & Eid Campaign Content Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-16-2026-03-00-05-pm.png",
+          "alt": "Comparing Video Production Agencies in the UAE for a Product Launch (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-20-2026-02_19_51-pm.png",
+          "alt": "How to Plan Your Video Shoot Around Your Budget (Without Cutting the Wrong Corners)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-21-2026-01_37_31-pm.png",
+          "alt": "\\\"But That Studio Quoted Me Less\\\": Why Cheaper Isn't the Same as Better"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-22-2026-03_49_38-pm.png",
+          "alt": "Ten Thousand Questions, Zero Budget: The Conversation Every Production House Knows Too Well"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-23-2026-02_13_31-pm.png",
+          "alt": "Why Your First Video Doesn't Need to Be Perfect — It Needs to Be Consistent"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-24-2026-03_08_51-pm.png",
+          "alt": "What Actually Changes When Your Filmmaker Has a Degree, Not Just a Diploma"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-27-2026-01_08_30-pm.png",
+          "alt": "How to Plan Your Video Shoot in Dubai: A Simple 4-Step Guide"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-30-2026-05_12_48-pm.png",
+          "alt": "Car Commercial Production Studio in the UAE — Full Capability Guide (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-31-2026-06_51_24-pm.png",
+          "alt": "We're an Agency, Not Just a Studio — Here's What That Actually Means for Your Quote"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-documentary-by-backyard-studio-official.png",
+          "alt": "Corporate Documentary & Annual Report Film Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-training-e-learning-video-production-uae.jpg",
+          "alt": "Corporate Training & E-Learning Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/dubai-startup-pitch-investor-videos.jpg",
+          "alt": "Startup Pitch Video & Investor Video Production in Dubai & UAE — Fundraising, Demo Day & Product Demo Films (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/dvc-vs-tvc-by-backyard-studio-official.jpg",
+          "alt": "DVC vs TVC — What's the Difference? Complete UAE Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/esthetic-clinic-and-medical-spa-video-production-backyard-studio-official.jpg",
+          "alt": "Aesthetic Clinic & Medical Spa Video Production UAE — DHA-Compliant Content, Pricing & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/event-coverage-by-backyard-studio-official.png",
+          "alt": "Government & Exhibition Event Videography UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/exhibition-livestream-backyard-studio-official.jpg",
+          "alt": "GITEX & Exhibition Livestream Production UAE — Packages, Pricing & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/filming-only-shoot-only-video-production-uae.jpg",
+          "alt": "Filming-Only / Shoot-Only Video Production UAE — For Teams Who Edit In-House (Pricing 2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-hotels-can-use-video-marketing-to-drive-direct-bookings.jpg",
+          "alt": "How Hotels Can Use Video Marketing to Drive Direct Bookings — UAE Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-long-does-video-production-take.jpg",
+          "alt": "How Long Does Video Production Take? UAE Timeline Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-to-prepare-for-a-corporate-video-shoot-uae.jpg",
+          "alt": "How to Prepare for a Corporate Video Shoot — UAE Client Checklist 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/influencer-ugc-content-production-uae-by-backyard-studio-official.png",
+          "alt": "Influencer & UGC Content Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/monthly-content-retainer-uae-2026-backyard-studio-official.jpg",
+          "alt": "Monthly Content Production for UAE Businesses — Idea to Delivery, A to Z (Pricing Guide 2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/mutli-locations-franchise-backyard-studio-official.jpg",
+          "alt": "Multi-Location Franchise Video & Photography Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/off-plan-project-launch-video-by-backyard-studio-official.jpg",
+          "alt": "Off-Plan Real Estate Project Launch Video Production UAE — CGI, Drone & Pricing Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/podcast-uae-guide-hero-v2.webp",
+          "alt": "How to Start a Video Podcast in the UAE: Dubai Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/schools-and-university-event-and-yearbook-photography-and-photography.jpg",
+          "alt": "School & University Event and Yearbook Videography UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/uae-festive-campaign-content-studio.jpg",
+          "alt": "Festive Season & Sale Campaign Content in the UAE — White Friday, Dubai Shopping Festival, Diwali, Christmas & New Year Video and Photography (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/uae-national-day-campaign-video-photography-production.jpg",
+          "alt": "UAE National Day Campaign Video & Photography Production — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/uae-recruitment-video-production-banner.jpg",
+          "alt": "Recruitment & Employer Branding Video Production in the UAE — Hiring Videos, Job Ads & Careers Content (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/video-editing-service-dubai-2026-backyard.jpg",
+          "alt": "Video Editing & Post-Production Only Services UAE — Already Have the Footage? Pricing Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/video-marketing-statistics-uae-2026.jpg",
+          "alt": "Video Marketing Statistics UAE 2026 — Why Video Now Dominates Digital Marketing in the Emirates"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/what-makes-a-good-property-video.jpg",
+          "alt": "What Makes a Good Property Video? A Buyer-Tested Checklist for UAE Listings (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/whatsapp-image-2026-08-24-at-8.52.00-pm.jpg",
+          "alt": "Dubai Filming Permit Fees & Fines 2026 — Why Backyard Studio Official Never Skips One"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/why-can-t-you-show-us-your-best-work.jpg",
+          "alt": "Why Can't You Show Us Your Best Work? Understanding NDAs in Video & Photo Production"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/why-is-video-production-so-expensive-uae-backyard-studio-official.jpg",
+          "alt": "You Sent Us a Professional Brief. Why Are You Shocked by a Professional Quote?"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/youtube-production-dubai.jpg",
+          "alt": "YouTube Video Production Dubai 2026 — Full-Service Channel Strategy & Filming"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "No, We Won't Start Filming Without the Deposit. Here's Exactly Why."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/commercial-photography-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Product Video Production UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/company-brand-portfolio-in-the-uae-client-testimonials-staff-professional-photoshoot-at-your-office-brand-content-from-aed-25-000-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-corporate-portfolio-showcase.jpg",
+          "alt": "Company Brand Portfolio in the UAE — Client Testimonials, Staff Professional Photoshoot at Your Office & Brand Content (From AED 25,000, 2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/dubai-startup-pitch-investor-videos.jpg",
+          "alt": "Startup Pitch Video & Investor Video Production in Dubai & UAE — Fundraising, Demo Day & Product Demo Films (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/filming-only-shoot-only-video-production-uae.jpg",
+          "alt": "Filming-Only / Shoot-Only Video Production UAE — For Teams Who Edit In-House (Pricing 2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/uae-recruitment-video-production-banner.jpg",
+          "alt": "Recruitment & Employer Branding Video Production in the UAE — Hiring Videos, Job Ads & Careers Content (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/company-profile-video-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/comparing-video-production-agencies-in-the-uae-for-a-product-launch-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-16-2026-03-00-05-pm.png",
+          "alt": "Comparing Video Production Agencies in the UAE for a Product Launch (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Social Media Video Production UAE — Pricing, Process & Strategy Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/conference-video-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/construction-progress-photography-timelapse-video-production-uae-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/construction-progress-photography-timelapse-video-production-uae.jpg",
+          "alt": "Construction Progress Photography & Timelapse Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-headshots-executive-portraits-uae-by-backyard-studio-official.jpg",
+          "alt": "Corporate Headshots & Executive Portraits UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fashion-photography-ecommerce-shoots-videos-fashion-films-by-backyard-studio-official-3.png",
+          "alt": "Fashion & E-Commerce Photography, Video & Reels UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/food-photography-for-backyard-studio-official.jpg",
+          "alt": "Restaurant & Menu Photography and Video Production UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/corporate-documentary-annual-report-film-production-uae-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-official-corporate.png",
+          "alt": "Office & Workplace Video Production UAE — HQ Films, Drone Coverage & Culture Videos 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/campaign-content-by-backyard-studio-official.png",
+          "alt": "Ramadan & Eid Campaign Content Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-documentary-by-backyard-studio-official.png",
+          "alt": "Corporate Documentary & Annual Report Film Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/event-coverage-by-backyard-studio-official.png",
+          "alt": "Government & Exhibition Event Videography UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/corporate-event-videography-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/corporate-headshots-executive-portraits-uae-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-30-2026-07_21_56-pm.png",
+          "alt": "Wedding Photography Packages in Dubai — Real 2026 Pricing Guide"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-headshots-executive-portraits-uae-by-backyard-studio-official.jpg",
+          "alt": "Corporate Headshots & Executive Portraits UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fashion-photography-ecommerce-shoots-videos-fashion-films-by-backyard-studio-official-3.png",
+          "alt": "Fashion & E-Commerce Photography, Video & Reels UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/corporate-photography-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/corporate-training-e-learning-video-production-uae-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-official-uae.jpg",
+          "alt": "Best Video Production Company in UAE — Complete Guide & Checklist 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-training-e-learning-video-production-uae.jpg",
+          "alt": "Corporate Training & E-Learning Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/dvc-vs-tvc-by-backyard-studio-official.jpg",
+          "alt": "DVC vs TVC — What's the Difference? Complete UAE Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/whatsapp-image-2026-08-24-at-8.52.00-pm.jpg",
+          "alt": "Dubai Filming Permit Fees & Fines 2026 — Why Backyard Studio Official Never Skips One"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/corporate-video-production-abu-dhabi-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/dubai-restaurant-brand-launch-package.jpg",
+          "alt": "Restaurant & Product Brand Launch Package UAE — Food Photography, Product Shoots & Website, Bundled (2026)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/corporate-video-production-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-16-2026-03-00-05-pm.png",
+          "alt": "Comparing Video Production Agencies in the UAE for a Product Launch (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Social Media Video Production UAE — Pricing, Process & Strategy Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/corporate-videography-uae-pricing-process-booking-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-video-cost-uae-hero-v2.webp",
+          "alt": "How Much Does a Corporate Video Cost in the UAE? 2026 Guide"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/podcast-uae-guide-hero-v2.webp",
+          "alt": "How to Start a Video Podcast in the UAE: Dubai Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/documentary-production-uae-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Documentary Production UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/drama-production-uae-tv-drama-digital-series-scripted-content-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/youtube-production-dubai.jpg",
+          "alt": "YouTube Video Production Dubai 2026 — Full-Service Channel Strategy & Filming"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Drama Production UAE — TV Drama, Digital Series & Scripted Content 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/dubai-filming-permit-fees-fines-2026-why-backyard-studio-official-never-skips-one-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-official-uae.jpg",
+          "alt": "Best Video Production Company in UAE — Complete Guide & Checklist 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/dvc-vs-tvc-by-backyard-studio-official.jpg",
+          "alt": "DVC vs TVC — What's the Difference? Complete UAE Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/schools-and-university-event-and-yearbook-photography-and-photography.jpg",
+          "alt": "School & University Event and Yearbook Videography UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/whatsapp-image-2026-08-24-at-8.52.00-pm.jpg",
+          "alt": "Dubai Filming Permit Fees & Fines 2026 — Why Backyard Studio Official Never Skips One"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/dvc-vs-tvc-what-s-the-difference-complete-uae-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-official-uae.jpg",
+          "alt": "Best Video Production Company in UAE — Complete Guide & Checklist 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/dvc-vs-tvc-by-backyard-studio-official.jpg",
+          "alt": "DVC vs TVC — What's the Difference? Complete UAE Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/off-plan-project-launch-video-by-backyard-studio-official.jpg",
+          "alt": "Off-Plan Real Estate Project Launch Video Production UAE — CGI, Drone & Pricing Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/schools-and-university-event-and-yearbook-photography-and-photography.jpg",
+          "alt": "School & University Event and Yearbook Videography UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/event-photography-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/event-videography-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/youtube-production-dubai.jpg",
+          "alt": "YouTube Video Production Dubai 2026 — Full-Service Channel Strategy & Filming"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/fashion-e-commerce-photography-video-reels-uae-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-30-2026-07_21_56-pm.png",
+          "alt": "Wedding Photography Packages in Dubai — Real 2026 Pricing Guide"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fashion-photography-ecommerce-shoots-videos-fashion-films-by-backyard-studio-official-3.png",
+          "alt": "Fashion & E-Commerce Photography, Video & Reels UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/fashion-film-brand-campaign-production-uae-pricing-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Fashion Film & Brand Campaign Production UAE — Pricing & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/fashion-photography-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fashion-photography-dubai.jpg",
+          "alt": "Fashion Photography Dubai 2026 — Editorial, Lookbook & Brand Campaign Shoots"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/festive-season-sale-campaign-content-in-the-uae-white-friday-dubai-shopping-festival-diwali-christmas-new-year-video-and-photography-2026-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-corporate-portfolio-showcase.jpg",
+          "alt": "Company Brand Portfolio in the UAE — Client Testimonials, Staff Professional Photoshoot at Your Office & Brand Content (From AED 25,000, 2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/dubai-startup-pitch-investor-videos.jpg",
+          "alt": "Startup Pitch Video & Investor Video Production in Dubai & UAE — Fundraising, Demo Day & Product Demo Films (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/uae-festive-campaign-content-studio.jpg",
+          "alt": "Festive Season & Sale Campaign Content in the UAE — White Friday, Dubai Shopping Festival, Diwali, Christmas & New Year Video and Photography (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/uae-recruitment-video-production-banner.jpg",
+          "alt": "Recruitment & Employer Branding Video Production in the UAE — Hiring Videos, Job Ads & Careers Content (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/filming-only-shoot-only-video-production-uae-for-teams-who-edit-in-house-pricing-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/filming-only-shoot-only-video-production-uae.jpg",
+          "alt": "Filming-Only / Shoot-Only Video Production UAE — For Teams Who Edit In-House (Pricing 2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-hotels-can-use-video-marketing-to-drive-direct-bookings.jpg",
+          "alt": "How Hotels Can Use Video Marketing to Drive Direct Bookings — UAE Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/video-editing-service-dubai-2026-backyard.jpg",
+          "alt": "Video Editing & Post-Production Only Services UAE — Already Have the Footage? Pricing Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/video-marketing-statistics-uae-2026.jpg",
+          "alt": "Video Marketing Statistics UAE 2026 — Why Video Now Dominates Digital Marketing in the Emirates"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/fujairah-photographer-videographer-2026-photography-video-production-in-fujairah-uae-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/360-virtual-tour-matterport-photography-uae.jpg",
+          "alt": "360° Virtual Tour & Matterport Photography UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ajman-photography-videography-banner.jpg",
+          "alt": "Ajman Photographer & Videographer 2026 — Photography & Video Production in Ajman, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fujairah-photography-videography-banner.jpg",
+          "alt": "Fujairah Photographer & Videographer 2026 — Photography & Video Production in Fujairah, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ras-al-khaimah-creative-studio-showcase.jpg",
+          "alt": "Ras Al Khaimah Photographer & Videographer 2026 — Photography & Video Production in RAK, UAE"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/gitex-exhibition-livestream-production-uae-packages-pricing-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ai-avatar-virtual-presenter-video-production-uae.jpg",
+          "alt": "AI Avatar & Virtual Presenter Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-training-e-learning-video-production-uae.jpg",
+          "alt": "Corporate Training & E-Learning Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/exhibition-livestream-backyard-studio-official.jpg",
+          "alt": "GITEX & Exhibition Livestream Production UAE — Packages, Pricing & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/whatsapp-image-2026-08-24-at-8.52.00-pm.jpg",
+          "alt": "Dubai Filming Permit Fees & Fines 2026 — Why Backyard Studio Official Never Skips One"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/government-exhibition-event-videography-uae-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-official-corporate.png",
+          "alt": "Office & Workplace Video Production UAE — HQ Films, Drone Coverage & Culture Videos 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-30-2026-05_12_48-pm.png",
+          "alt": "Car Commercial Production Studio in the UAE — Full Capability Guide (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-31-2026-06_51_24-pm.png",
+          "alt": "We're an Agency, Not Just a Studio — Here's What That Actually Means for Your Quote"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/event-coverage-by-backyard-studio-official.png",
+          "alt": "Government & Exhibition Event Videography UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/green-screen-studio-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "TVC Production UAE — TV Commercial Costs, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/holiday-home-airbnb-photography-and-reels-in-dubai-uae-monthly-social-media-content-from-aed-8-000-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-uaq-promotional-banner.jpg",
+          "alt": "Umm Al Quwain Photographer & Videographer 2026 — Photography & Video Production in UAQ, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fujairah-photography-videography-banner.jpg",
+          "alt": "Fujairah Photographer & Videographer 2026 — Photography & Video Production in Fujairah, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/luxury-holiday-home-photography-in-dubai.jpg",
+          "alt": "Holiday Home & Airbnb Photography and Reels in Dubai & UAE — Monthly Social Media Content From AED 8,000 (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/luxury-yacht-photography-in-dubai.jpg",
+          "alt": "Yacht & Boat Photography and Videography in Dubai & UAE — Charter, Brokerage & Owner Content (2026 Pricing Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/how-hotels-can-use-video-marketing-to-drive-direct-bookings-uae-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-hotels-can-use-video-marketing-to-drive-direct-bookings.jpg",
+          "alt": "How Hotels Can Use Video Marketing to Drive Direct Bookings — UAE Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-to-prepare-for-a-corporate-video-shoot-uae.jpg",
+          "alt": "How to Prepare for a Corporate Video Shoot — UAE Client Checklist 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/what-makes-a-good-property-video.jpg",
+          "alt": "What Makes a Good Property Video? A Buyer-Tested Checklist for UAE Listings (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/why-can-t-you-show-us-your-best-work.jpg",
+          "alt": "Why Can't You Show Us Your Best Work? Understanding NDAs in Video & Photo Production"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/how-long-does-video-production-take-uae-timeline-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/best-filming-locations-across-all-7-uae-emirates.jpg",
+          "alt": "Best Filming Locations Across All 7 UAE Emirates — A Location Scout's Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/best-time-of-year-to-film-in-the-uae.jpg",
+          "alt": "Best Time of Year to Film in the UAE — Seasonal Shoot Planning Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-long-does-video-production-take.jpg",
+          "alt": "How Long Does Video Production Take? UAE Timeline Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/uae-national-day-campaign-video-photography-production.jpg",
+          "alt": "UAE National Day Campaign Video & Photography Production — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/how-to-plan-your-video-shoot-around-your-budget-without-cutting-the-wrong-corners-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-16-2026-03-00-05-pm.png",
+          "alt": "Comparing Video Production Agencies in the UAE for a Product Launch (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-20-2026-02_19_51-pm.png",
+          "alt": "How to Plan Your Video Shoot Around Your Budget (Without Cutting the Wrong Corners)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Social Media Video Production UAE — Pricing, Process & Strategy Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/how-to-plan-your-video-shoot-in-dubai-a-simple-4-step-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-22-2026-03_49_38-pm.png",
+          "alt": "Ten Thousand Questions, Zero Budget: The Conversation Every Production House Knows Too Well"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-23-2026-02_13_31-pm.png",
+          "alt": "Why Your First Video Doesn't Need to Be Perfect — It Needs to Be Consistent"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-24-2026-03_08_51-pm.png",
+          "alt": "What Actually Changes When Your Filmmaker Has a Degree, Not Just a Diploma"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-27-2026-01_08_30-pm.png",
+          "alt": "How to Plan Your Video Shoot in Dubai: A Simple 4-Step Guide"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/how-to-prepare-for-a-corporate-video-shoot-uae-client-checklist-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/best-filming-locations-across-all-7-uae-emirates.jpg",
+          "alt": "Best Filming Locations Across All 7 UAE Emirates — A Location Scout's Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/best-time-of-year-to-film-in-the-uae.jpg",
+          "alt": "Best Time of Year to Film in the UAE — Seasonal Shoot Planning Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-long-does-video-production-take.jpg",
+          "alt": "How Long Does Video Production Take? UAE Timeline Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-to-prepare-for-a-corporate-video-shoot-uae.jpg",
+          "alt": "How to Prepare for a Corporate Video Shoot — UAE Client Checklist 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/influencer-ugc-content-production-uae-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/campaign-content-by-backyard-studio-official.png",
+          "alt": "Ramadan & Eid Campaign Content Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-documentary-by-backyard-studio-official.png",
+          "alt": "Corporate Documentary & Annual Report Film Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/event-coverage-by-backyard-studio-official.png",
+          "alt": "Government & Exhibition Event Videography UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/influencer-ugc-content-production-uae-by-backyard-studio-official.png",
+          "alt": "Influencer & UGC Content Production UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/live-streaming-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/luxury-lifestyle-photography-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fashion-photography-dubai.jpg",
+          "alt": "Fashion Photography Dubai 2026 — Editorial, Lookbook & Brand Campaign Shoots"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/model-actor-creator-portfolio-shoots-and-showreels-in-dubai-uae-comp-cards-headshots-personal-portfolio-content-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio_-dubai-portfolio-showcase.jpg",
+          "alt": "Model, Actor & Creator Portfolio Shoots and Showreels in Dubai & UAE — Comp Cards, Headshots & Personal Portfolio Content (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-uaq-promotional-banner.jpg",
+          "alt": "Umm Al Quwain Photographer & Videographer 2026 — Photography & Video Production in UAQ, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/luxury-holiday-home-photography-in-dubai.jpg",
+          "alt": "Holiday Home & Airbnb Photography and Reels in Dubai & UAE — Monthly Social Media Content From AED 8,000 (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/luxury-yacht-photography-in-dubai.jpg",
+          "alt": "Yacht & Boat Photography and Videography in Dubai & UAE — Charter, Brokerage & Owner Content (2026 Pricing Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/monthly-content-production-for-uae-businesses-idea-to-delivery-a-to-z-pricing-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/aeo-and-geo-by-backyard-studio-official.jpg",
+          "alt": "AI Search & AEO for UAE Brands — How Video Content Gets You Cited by ChatGPT, Google AI Overviews & Perplexity (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ai-avatar-virtual-presenter-video-production-uae.jpg",
+          "alt": "AI Avatar & Virtual Presenter Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/exhibition-livestream-backyard-studio-official.jpg",
+          "alt": "GITEX & Exhibition Livestream Production UAE — Packages, Pricing & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/monthly-content-retainer-uae-2026-backyard-studio-official.jpg",
+          "alt": "Monthly Content Production for UAE Businesses — Idea to Delivery, A to Z (Pricing Guide 2026)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/motion-graphics-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/multi-location-franchise-video-photography-production-uae-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-documentary-by-backyard-studio-official.png",
+          "alt": "Corporate Documentary & Annual Report Film Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/esthetic-clinic-and-medical-spa-video-production-backyard-studio-official.jpg",
+          "alt": "Aesthetic Clinic & Medical Spa Video Production UAE — DHA-Compliant Content, Pricing & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/influencer-ugc-content-production-uae-by-backyard-studio-official.png",
+          "alt": "Influencer & UGC Content Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/mutli-locations-franchise-backyard-studio-official.jpg",
+          "alt": "Multi-Location Franchise Video & Photography Production UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/music-video-production-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Music Video Production UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/no-we-won-t-start-filming-without-the-deposit-here-s-exactly-why-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/aeo-and-geo-by-backyard-studio-official.jpg",
+          "alt": "AI Search & AEO for UAE Brands — How Video Content Gets You Cited by ChatGPT, Google AI Overviews & Perplexity (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/monthly-content-retainer-uae-2026-backyard-studio-official.jpg",
+          "alt": "Monthly Content Production for UAE Businesses — Idea to Delivery, A to Z (Pricing Guide 2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/why-is-video-production-so-expensive-uae-backyard-studio-official.jpg",
+          "alt": "You Sent Us a Professional Brief. Why Are You Shocked by a Professional Quote?"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "No, We Won't Start Filming Without the Deposit. Here's Exactly Why."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/off-plan-real-estate-project-launch-video-production-uae-cgi-drone-pricing-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/esthetic-clinic-and-medical-spa-video-production-backyard-studio-official.jpg",
+          "alt": "Aesthetic Clinic & Medical Spa Video Production UAE — DHA-Compliant Content, Pricing & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/influencer-ugc-content-production-uae-by-backyard-studio-official.png",
+          "alt": "Influencer & UGC Content Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/mutli-locations-franchise-backyard-studio-official.jpg",
+          "alt": "Multi-Location Franchise Video & Photography Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/off-plan-project-launch-video-by-backyard-studio-official.jpg",
+          "alt": "Off-Plan Real Estate Project Launch Video Production UAE — CGI, Drone & Pricing Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/office-workplace-video-production-uae-hq-films-drone-coverage-culture-videos-2026-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-official-corporate.png",
+          "alt": "Office & Workplace Video Production UAE — HQ Films, Drone Coverage & Culture Videos 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-30-2026-05_12_48-pm.png",
+          "alt": "Car Commercial Production Studio in the UAE — Full Capability Guide (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-31-2026-06_51_24-pm.png",
+          "alt": "We're an Agency, Not Just a Studio — Here's What That Actually Means for Your Quote"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/podcast-uae-guide-hero-v2.webp",
+          "alt": "How to Start a Video Podcast in the UAE: Dubai Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/passport-photo-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/podcast-studio-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/youtube-production-dubai.jpg",
+          "alt": "YouTube Video Production Dubai 2026 — Full-Service Channel Strategy & Filming"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/podcast-video-production-dubai-dmc",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/youtube-production-dubai.jpg",
+          "alt": "YouTube Video Production Dubai 2026 — Full-Service Channel Strategy & Filming"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/post-production-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/product-photography-price-per-product-in-dubai-uae-from-aed-100-by-size-category-2026-price-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio_-dubai-portfolio-showcase.jpg",
+          "alt": "Model, Actor & Creator Portfolio Shoots and Showreels in Dubai & UAE — Comp Cards, Headshots & Personal Portfolio Content (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/luxury-holiday-home-photography-in-dubai.jpg",
+          "alt": "Holiday Home & Airbnb Photography and Reels in Dubai & UAE — Monthly Social Media Content From AED 8,000 (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/luxury-product-photography-pricing-banner.jpg",
+          "alt": "Product Photography Price Per Product in Dubai & UAE — From AED 100 by Size & Category (2026 Price Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/luxury-yacht-photography-in-dubai.jpg",
+          "alt": "Yacht & Boat Photography and Videography in Dubai & UAE — Charter, Brokerage & Owner Content (2026 Pricing Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/product-videography-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Product Video Production UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/ramadan-eid-campaign-content-production-uae-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-official-corporate.png",
+          "alt": "Office & Workplace Video Production UAE — HQ Films, Drone Coverage & Culture Videos 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/campaign-content-by-backyard-studio-official.png",
+          "alt": "Ramadan & Eid Campaign Content Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-31-2026-06_51_24-pm.png",
+          "alt": "We're an Agency, Not Just a Studio — Here's What That Actually Means for Your Quote"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/event-coverage-by-backyard-studio-official.png",
+          "alt": "Government & Exhibition Event Videography UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/ras-al-khaimah-photographer-videographer-2026-photography-video-production-in-rak-uae-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/360-virtual-tour-matterport-photography-uae.jpg",
+          "alt": "360° Virtual Tour & Matterport Photography UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ajman-photography-videography-banner.jpg",
+          "alt": "Ajman Photographer & Videographer 2026 — Photography & Video Production in Ajman, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/construction-progress-photography-timelapse-video-production-uae.jpg",
+          "alt": "Construction Progress Photography & Timelapse Video Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ras-al-khaimah-creative-studio-showcase.jpg",
+          "alt": "Ras Al Khaimah Photographer & Videographer 2026 — Photography & Video Production in RAK, UAE"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/real-estate-videography-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/recruitment-employer-branding-video-production-in-the-uae-hiring-videos-job-ads-careers-content-2026-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/filming-only-shoot-only-video-production-uae.jpg",
+          "alt": "Filming-Only / Shoot-Only Video Production UAE — For Teams Who Edit In-House (Pricing 2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/uae-recruitment-video-production-banner.jpg",
+          "alt": "Recruitment & Employer Branding Video Production in the UAE — Hiring Videos, Job Ads & Careers Content (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/video-editing-service-dubai-2026-backyard.jpg",
+          "alt": "Video Editing & Post-Production Only Services UAE — Already Have the Footage? Pricing Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/video-marketing-statistics-uae-2026.jpg",
+          "alt": "Video Marketing Statistics UAE 2026 — Why Video Now Dominates Digital Marketing in the Emirates"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/restaurant-menu-photography-and-video-production-uae-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-30-2026-07_21_56-pm.png",
+          "alt": "Wedding Photography Packages in Dubai — Real 2026 Pricing Guide"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-headshots-executive-portraits-uae-by-backyard-studio-official.jpg",
+          "alt": "Corporate Headshots & Executive Portraits UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fashion-photography-ecommerce-shoots-videos-fashion-films-by-backyard-studio-official-3.png",
+          "alt": "Fashion & E-Commerce Photography, Video & Reels UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/food-photography-for-backyard-studio-official.jpg",
+          "alt": "Restaurant & Menu Photography and Video Production UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/restaurant-product-brand-launch-package-uae-food-photography-product-shoots-website-bundled-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-video-cost-uae-hero-v2.webp",
+          "alt": "How Much Does a Corporate Video Cost in the UAE? 2026 Guide"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/dubai-restaurant-brand-launch-package.jpg",
+          "alt": "Restaurant & Product Brand Launch Package UAE — Food Photography, Product Shoots & Website, Bundled (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/web-app-development-for-uae-businesses-by-backyard-studio-official.jpg",
+          "alt": "Web App Development for UAE Businesses — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/school-university-event-and-yearbook-videography-uae-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/esthetic-clinic-and-medical-spa-video-production-backyard-studio-official.jpg",
+          "alt": "Aesthetic Clinic & Medical Spa Video Production UAE — DHA-Compliant Content, Pricing & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/mutli-locations-franchise-backyard-studio-official.jpg",
+          "alt": "Multi-Location Franchise Video & Photography Production UAE — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/off-plan-project-launch-video-by-backyard-studio-official.jpg",
+          "alt": "Off-Plan Real Estate Project Launch Video Production UAE — CGI, Drone & Pricing Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/schools-and-university-event-and-yearbook-photography-and-photography.jpg",
+          "alt": "School & University Event and Yearbook Videography UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/short-film-web-series-production-uae-pricing-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Short Film & Web Series Production UAE — Pricing & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/social-media-content-creation-packages-for-brands-in-the-uae-posts-reels-from-aed-5-500-per-month-2026-pricing-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-social-media-packages.jpg",
+          "alt": "Social Media Content Creation Packages for Brands in the UAE — Posts & Reels From AED 5,500 Per Month (2026 Pricing)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/best-video-length-for-instagram-reels-vs-a-professional-brand-video.jpg",
+          "alt": "Best Video Length for Instagram Reels vs a Professional Brand Video — What's the Actual Difference? (2026)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/social-media-content-creator-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fashion-photography-dubai.jpg",
+          "alt": "Fashion Photography Dubai 2026 — Editorial, Lookbook & Brand Campaign Shoots"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/social-media-video-production-uae-pricing-process-strategy-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Social Media Video Production UAE — Pricing, Process & Strategy Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/startup-pitch-video-investor-video-production-in-dubai-uae-fundraising-demo-day-product-demo-films-2026-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/dubai-startup-pitch-investor-videos.jpg",
+          "alt": "Startup Pitch Video & Investor Video Production in Dubai & UAE — Fundraising, Demo Day & Product Demo Films (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/filming-only-shoot-only-video-production-uae.jpg",
+          "alt": "Filming-Only / Shoot-Only Video Production UAE — For Teams Who Edit In-House (Pricing 2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/uae-recruitment-video-production-banner.jpg",
+          "alt": "Recruitment & Employer Branding Video Production in the UAE — Hiring Videos, Job Ads & Careers Content (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/video-editing-service-dubai-2026-backyard.jpg",
+          "alt": "Video Editing & Post-Production Only Services UAE — Already Have the Footage? Pricing Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/studio-rental-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/ten-thousand-questions-zero-budget-the-conversation-every-production-house-knows-too-well-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-20-2026-02_19_51-pm.png",
+          "alt": "How to Plan Your Video Shoot Around Your Budget (Without Cutting the Wrong Corners)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-21-2026-01_37_31-pm.png",
+          "alt": "\\\"But That Studio Quoted Me Less\\\": Why Cheaper Isn't the Same as Better"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-22-2026-03_49_38-pm.png",
+          "alt": "Ten Thousand Questions, Zero Budget: The Conversation Every Production House Knows Too Well"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/testimonial-video-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/testimonial-video-production-uae-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Testimonial Video Production UAE — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/timelapse-video-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/travel-videography-uae-pricing-services-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/youtube-production-dubai.jpg",
+          "alt": "YouTube Video Production Dubai 2026 — Full-Service Channel Strategy & Filming"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Travel Videography UAE — Pricing, Services & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/tv-commercial-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/tvc-production-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "TVC Production UAE — TV Commercial Costs, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/uae-national-day-campaign-video-photography-production-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/monthly-content-retainer-uae-2026-backyard-studio-official.jpg",
+          "alt": "Monthly Content Production for UAE Businesses — Idea to Delivery, A to Z (Pricing Guide 2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/uae-national-day-campaign-video-photography-production.jpg",
+          "alt": "UAE National Day Campaign Video & Photography Production — Pricing, Process & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/why-is-video-production-so-expensive-uae-backyard-studio-official.jpg",
+          "alt": "You Sent Us a Professional Brief. Why Are You Shocked by a Professional Quote?"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "No, We Won't Start Filming Without the Deposit. Here's Exactly Why."
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/umm-al-quwain-photographer-videographer-2026-photography-video-production-in-uaq-uae-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ajman-photography-videography-banner.jpg",
+          "alt": "Ajman Photographer & Videographer 2026 — Photography & Video Production in Ajman, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-uaq-promotional-banner.jpg",
+          "alt": "Umm Al Quwain Photographer & Videographer 2026 — Photography & Video Production in UAQ, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fujairah-photography-videography-banner.jpg",
+          "alt": "Fujairah Photographer & Videographer 2026 — Photography & Video Production in Fujairah, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ras-al-khaimah-creative-studio-showcase.jpg",
+          "alt": "Ras Al Khaimah Photographer & Videographer 2026 — Photography & Video Production in RAK, UAE"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/video-editing-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/video-editing-post-production-only-services-uae-already-have-the-footage-pricing-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-hotels-can-use-video-marketing-to-drive-direct-bookings.jpg",
+          "alt": "How Hotels Can Use Video Marketing to Drive Direct Bookings — UAE Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/video-editing-service-dubai-2026-backyard.jpg",
+          "alt": "Video Editing & Post-Production Only Services UAE — Already Have the Footage? Pricing Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/video-marketing-statistics-uae-2026.jpg",
+          "alt": "Video Marketing Statistics UAE 2026 — Why Video Now Dominates Digital Marketing in the Emirates"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/what-makes-a-good-property-video.jpg",
+          "alt": "What Makes a Good Property Video? A Buyer-Tested Checklist for UAE Listings (2026)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/video-marketing-statistics-uae-2026-why-video-now-dominates-digital-marketing-in-the-emirates-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-hotels-can-use-video-marketing-to-drive-direct-bookings.jpg",
+          "alt": "How Hotels Can Use Video Marketing to Drive Direct Bookings — UAE Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/video-marketing-statistics-uae-2026.jpg",
+          "alt": "Video Marketing Statistics UAE 2026 — Why Video Now Dominates Digital Marketing in the Emirates"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/what-makes-a-good-property-video.jpg",
+          "alt": "What Makes a Good Property Video? A Buyer-Tested Checklist for UAE Listings (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/why-can-t-you-show-us-your-best-work.jpg",
+          "alt": "Why Can't You Show Us Your Best Work? Understanding NDAs in Video & Photo Production"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/video-podcast-production-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-27-2026-01_08_30-pm.png",
+          "alt": "How to Plan Your Video Shoot in Dubai: A Simple 4-Step Guide"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-video-cost-uae-hero-v2.webp",
+          "alt": "How Much Does a Corporate Video Cost in the UAE? 2026 Guide"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/podcast-uae-guide-hero-v2.webp",
+          "alt": "How to Start a Video Podcast in the UAE: Dubai Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/we-re-an-agency-not-just-a-studio-here-s-what-that-actually-means-for-your-quote-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-27-2026-01_08_30-pm.png",
+          "alt": "How to Plan Your Video Shoot in Dubai: A Simple 4-Step Guide"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-30-2026-05_12_48-pm.png",
+          "alt": "Car Commercial Production Studio in the UAE — Full Capability Guide (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-31-2026-06_51_24-pm.png",
+          "alt": "We're an Agency, Not Just a Studio — Here's What That Actually Means for Your Quote"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/podcast-uae-guide-hero-v2.webp",
+          "alt": "How to Start a Video Podcast in the UAE: Dubai Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/web-app-development-for-uae-businesses-pricing-process-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/corporate-video-cost-uae-hero-v2.webp",
+          "alt": "How Much Does a Corporate Video Cost in the UAE? 2026 Guide"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/web-app-development-for-uae-businesses-by-backyard-studio-official.jpg",
+          "alt": "Web App Development for UAE Businesses — Pricing, Process & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/wedding-photography-packages-in-dubai-real-2026-pricing-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-30-2026-07_21_56-pm.png",
+          "alt": "Wedding Photography Packages in Dubai — Real 2026 Pricing Guide"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/wedding-videographer-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/what-actually-changes-when-your-filmmaker-has-a-degree-not-just-a-diploma-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-21-2026-01_37_31-pm.png",
+          "alt": "\\\"But That Studio Quoted Me Less\\\": Why Cheaper Isn't the Same as Better"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-22-2026-03_49_38-pm.png",
+          "alt": "Ten Thousand Questions, Zero Budget: The Conversation Every Production House Knows Too Well"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-23-2026-02_13_31-pm.png",
+          "alt": "Why Your First Video Doesn't Need to Be Perfect — It Needs to Be Consistent"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-24-2026-03_08_51-pm.png",
+          "alt": "What Actually Changes When Your Filmmaker Has a Degree, Not Just a Diploma"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/what-makes-a-good-property-video-a-buyer-tested-checklist-for-uae-listings-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-long-does-video-production-take.jpg",
+          "alt": "How Long Does Video Production Take? UAE Timeline Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-to-prepare-for-a-corporate-video-shoot-uae.jpg",
+          "alt": "How to Prepare for a Corporate Video Shoot — UAE Client Checklist 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/what-makes-a-good-property-video.jpg",
+          "alt": "What Makes a Good Property Video? A Buyer-Tested Checklist for UAE Listings (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/why-can-t-you-show-us-your-best-work.jpg",
+          "alt": "Why Can't You Show Us Your Best Work? Understanding NDAs in Video & Photo Production"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/why-can-t-you-show-us-your-best-work-understanding-ndas-in-video-photo-production-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/best-time-of-year-to-film-in-the-uae.jpg",
+          "alt": "Best Time of Year to Film in the UAE — Seasonal Shoot Planning Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-long-does-video-production-take.jpg",
+          "alt": "How Long Does Video Production Take? UAE Timeline Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/how-to-prepare-for-a-corporate-video-shoot-uae.jpg",
+          "alt": "How to Prepare for a Corporate Video Shoot — UAE Client Checklist 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/why-can-t-you-show-us-your-best-work.jpg",
+          "alt": "Why Can't You Show Us Your Best Work? Understanding NDAs in Video & Photo Production"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/why-your-first-video-doesn-t-need-to-be-perfect-it-needs-to-be-consistent-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-20-2026-02_19_51-pm.png",
+          "alt": "How to Plan Your Video Shoot Around Your Budget (Without Cutting the Wrong Corners)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-21-2026-01_37_31-pm.png",
+          "alt": "\\\"But That Studio Quoted Me Less\\\": Why Cheaper Isn't the Same as Better"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-22-2026-03_49_38-pm.png",
+          "alt": "Ten Thousand Questions, Zero Budget: The Conversation Every Production House Knows Too Well"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-23-2026-02_13_31-pm.png",
+          "alt": "Why Your First Video Doesn't Need to Be Perfect — It Needs to Be Consistent"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/yacht-boat-photography-and-videography-in-dubai-uae-charter-brokerage-owner-content-2026-pricing-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/backyard-studio-uaq-promotional-banner.jpg",
+          "alt": "Umm Al Quwain Photographer & Videographer 2026 — Photography & Video Production in UAQ, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/fujairah-photography-videography-banner.jpg",
+          "alt": "Fujairah Photographer & Videographer 2026 — Photography & Video Production in Fujairah, UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/luxury-yacht-photography-in-dubai.jpg",
+          "alt": "Yacht & Boat Photography and Videography in Dubai & UAE — Charter, Brokerage & Owner Content (2026 Pricing Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/ras-al-khaimah-creative-studio-showcase.jpg",
+          "alt": "Ras Al Khaimah Photographer & Videographer 2026 — Photography & Video Production in RAK, UAE"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/you-sent-us-a-professional-brief-why-are-you-shocked-by-a-professional-quote-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/aeo-and-geo-by-backyard-studio-official.jpg",
+          "alt": "AI Search & AEO for UAE Brands — How Video Content Gets You Cited by ChatGPT, Google AI Overviews & Perplexity (2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/exhibition-livestream-backyard-studio-official.jpg",
+          "alt": "GITEX & Exhibition Livestream Production UAE — Packages, Pricing & Guide 2026"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/monthly-content-retainer-uae-2026-backyard-studio-official.jpg",
+          "alt": "Monthly Content Production for UAE Businesses — Idea to Delivery, A to Z (Pricing Guide 2026)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/why-is-video-production-so-expensive-uae-backyard-studio-official.jpg",
+          "alt": "You Sent Us a Professional Brief. Why Are You Shocked by a Professional Quote?"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/youtube-series-show-production-uae-pricing-guide-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "YouTube Series & Show Production UAE — Pricing & Guide 2026"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/blog/youtube-video-production-dubai-2026",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/chatgpt-image-jul-17-2026-05_01_09-pm.png",
+          "alt": "Best Video Production Company in Dubai for Corporate Video (2026 Guide)"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/blog/youtube-production-dubai.jpg",
+          "alt": "YouTube Video Production Dubai 2026 — Full-Service Channel Strategy & Filming"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/industries/corporate/manufacturing-video",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/industries/elevaya-lift-cabin-portfolio.webp",
+          "alt": "Warm-toned finished lift cabin from the Elevaya content portfolio"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/industries/elevaya-lift-video-production.webp",
+          "alt": "Contemporary passenger lift used in Elevaya content production"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/industries/sports/combat-sports",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/industries/combat-training-dking-action.webp",
+          "alt": "DKing Combat training session filmed by Backyard Studio in Dubai"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/industries/sports/fitness",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/industries/fitness-training-backyard.webp",
+          "alt": "Fitness athlete deadlifting during a Backyard Studio gym shoot in the UAE"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-01.webp",
+          "alt": "Neon Portrait Series"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Neon Beauty Editorial"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-05.webp",
+          "alt": "UV Paint Art Direction"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-10.webp",
+          "alt": "Bold Makeup Campaign"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "Studio Fashion Series — Vol I"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-24.webp",
+          "alt": "Fluorescent Studio Shoot"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Corporate Gala — Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-02.webp",
+          "alt": "Product Launch — Champagne Toast"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Office Celebration Series"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-04.webp",
+          "alt": "Executive Awards Night"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-05.webp",
+          "alt": "Annual Conference Coverage"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-06.webp",
+          "alt": "Team Celebration — Year End"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-01.webp",
+          "alt": "Skincare Editorial"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-03.webp",
+          "alt": "Luxury Perfume Campaign"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-05.webp",
+          "alt": "Fragrance Flat Lay Series"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-01.webp",
+          "alt": "Sunset Wedding — Abu Dhabi"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-02.webp",
+          "alt": "Lakeside Ceremony Film"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-05.webp",
+          "alt": "Golden Hour Bridal Portraits"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-08.webp",
+          "alt": "Romantic Dock Session"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-16.webp",
+          "alt": "Pier Wedding — Sunset Ceremony"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/annual-conference",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-05.webp",
+          "alt": "Annual Conference Coverage"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/bold-makeup-campaign",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-10.webp",
+          "alt": "Bold Makeup Campaign"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/corporate-gala-dubai",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Corporate Gala — Dubai"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/executive-awards",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-04.webp",
+          "alt": "Executive Awards Night"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/fluorescent-studio",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-24.webp",
+          "alt": "Fluorescent Studio Shoot"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/fragrance-flat-lay",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-05.webp",
+          "alt": "Fragrance Flat Lay Series"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/golden-hour-bridal",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-05.webp",
+          "alt": "Golden Hour Bridal Portraits"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/lakeside-ceremony",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-02.webp",
+          "alt": "Lakeside Ceremony Film"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/luxury-perfume-campaign",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-03.webp",
+          "alt": "Luxury Perfume Campaign"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/neon-beauty-editorial",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Neon Beauty Editorial"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/neon-portrait-series",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-01.webp",
+          "alt": "Neon Portrait Series"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/office-celebration",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Office Celebration Series"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/pier-wedding",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-16.webp",
+          "alt": "Pier Wedding — Sunset Ceremony"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/product-launch-event",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-02.webp",
+          "alt": "Product Launch — Champagne Toast"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/romantic-dock-session",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-08.webp",
+          "alt": "Romantic Dock Session"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/skincare-editorial",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-01.webp",
+          "alt": "Skincare Editorial"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/studio-fashion-vol1",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "Studio Fashion Series — Vol I"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/sunset-wedding-abu-dhabi",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-01.webp",
+          "alt": "Sunset Wedding — Abu Dhabi"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/uv-paint-art",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-05.webp",
+          "alt": "UV Paint Art Direction"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/portfolio/year-end-celebration",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-06.webp",
+          "alt": "Team Celebration — Year End"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/production-portfolio",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Fashion & Beauty Production Portfolio published work"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Corporate & Events Production Portfolio published work"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-03.webp",
+          "alt": "Product & E-Commerce Production Portfolio published work"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-01.webp",
+          "alt": "Weddings & Celebrations Production Portfolio published work"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/production-portfolio/corporate-events",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Corporate Gala — Dubai — Events production in Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-02.webp",
+          "alt": "Product Launch — Champagne Toast — Events production in Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Office Celebration Series — Events production in Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-04.webp",
+          "alt": "Executive Awards Night — Events production in Abu Dhabi"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-05.webp",
+          "alt": "Annual Conference Coverage — Corporate production in Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-06.webp",
+          "alt": "Team Celebration — Year End — Corporate production in Dubai"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/production-portfolio/fashion-beauty",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-01.webp",
+          "alt": "Neon Portrait Series — Creative production in Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Neon Beauty Editorial — Creative production in Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-05.webp",
+          "alt": "UV Paint Art Direction — Creative production in Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-10.webp",
+          "alt": "Bold Makeup Campaign — Creative production in Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "Studio Fashion Series — Vol I — Creative production in Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-24.webp",
+          "alt": "Fluorescent Studio Shoot — Creative production in Dubai"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/production-portfolio/product-ecommerce",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-01.webp",
+          "alt": "Skincare Editorial — Products production in Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-03.webp",
+          "alt": "Luxury Perfume Campaign — Products production in Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-05.webp",
+          "alt": "Fragrance Flat Lay Series — Products production in Dubai"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/production-portfolio/weddings-celebrations",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-01.webp",
+          "alt": "Sunset Wedding — Abu Dhabi — Wedding production in Abu Dhabi"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-02.webp",
+          "alt": "Lakeside Ceremony Film — Wedding production in Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-05.webp",
+          "alt": "Golden Hour Bridal Portraits — Wedding production in Sharjah"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-08.webp",
+          "alt": "Romantic Dock Session — Wedding production in Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-16.webp",
+          "alt": "Pier Wedding — Sunset Ceremony — Wedding production in Dubai"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/ru",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Фэшн-съёмка в Дубае"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-05.webp",
+          "alt": "Фэшн-фотография"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "Креативный контент"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Съёмка мероприятий в Дубае"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Корпоративные события"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-04.webp",
+          "alt": "Корпоративные мероприятия"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-03.webp",
+          "alt": "Предметная съёмка"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-01.webp",
+          "alt": "Свадебная съёмка в Дубае"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-16.webp",
+          "alt": "Свадебная фотография"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/ru/about",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/behram.webp",
+          "alt": "Бехрам Шахид — Директор по продажам — Backyard Studio Дубай"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/fahad.webp",
+          "alt": "Фахад Икбал Батт — Основатель и CEO Backyard Studio Official Дубай"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/mazhar.webp",
+          "alt": "Сайед Мазар Зайди — Сооснователь Backyard Studio Дубай"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/rajaa.webp",
+          "alt": "Раджа — Менеджер по развитию бизнеса — Backyard Studio Дубай"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/reem.webp",
+          "alt": "Рим — Менеджер по развитию бизнеса — Backyard Studio Дубай"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/shabana.webp",
+          "alt": "Шабана Башир — Арт-директор — Backyard Studio Дубай"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/waqas.webp",
+          "alt": "Вакас Мухаммад — Директор по стратегии — Backyard Studio Дубай"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/ads-shooting",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Ads Shooting Dubai — Meta, TikTok, YouTube & OOH Ad Production work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "Ads Shooting Dubai — Meta, TikTok, YouTube & OOH Ad Production work sample 4"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-02.webp",
+          "alt": "Ads Shooting Dubai — Meta, TikTok, YouTube & OOH Ad Production"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Ads Shooting Dubai — Meta, TikTok, YouTube & OOH Ad Production work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-03.webp",
+          "alt": "Ads Shooting Dubai — Meta, TikTok, YouTube & OOH Ad Production work sample 2"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/affordable-wedding-photography",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-11.webp",
+          "alt": "Affordable wedding photoshoot in Dubai — Backyard Studio Official"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/anniversary-photoshoot",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Anniversary & Vow Renewal Photography work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Anniversary & Vow Renewal Photography"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Anniversary & Vow Renewal Photography work sample 2"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/automotive",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Automotive Videography & Photography Dubai — Car Shoots UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-10.webp",
+          "alt": "Automotive Videography & Photography Dubai — Car Shoots UAE work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-02.webp",
+          "alt": "Automotive Videography & Photography Dubai — Car Shoots UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Automotive Videography & Photography Dubai — Car Shoots UAE work sample 2"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/birthday-photography",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Birthday & Celebration Photography work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Birthday & Celebration Photography"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Birthday & Celebration Photography work sample 2"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/brand-events",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Brand Launch Events Dubai — Fashion Events, Corporate Events & Aftermovies UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-02.webp",
+          "alt": "Brand Launch Events Dubai — Fashion Events, Corporate Events & Aftermovies UAE work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-05.webp",
+          "alt": "Brand Launch Events Dubai — Fashion Events, Corporate Events & Aftermovies UAE work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-06.webp",
+          "alt": "Brand Launch Events Dubai — Fashion Events, Corporate Events & Aftermovies UAE"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/car-commercials",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-10.webp",
+          "alt": "Car Commercial Production Dubai — Cinematic Automotive Films UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-02.webp",
+          "alt": "Car Commercial Production Dubai — Cinematic Automotive Films UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Car Commercial Production Dubai — Cinematic Automotive Films UAE work sample 2"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/corporate-brand-films",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Corporate Brand Films Dubai — Company Profile Videos & Office Branding UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Corporate Brand Films Dubai — Company Profile Videos & Office Branding UAE work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-05.webp",
+          "alt": "Corporate Brand Films Dubai — Company Profile Videos & Office Branding UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-06.webp",
+          "alt": "Corporate Brand Films Dubai — Company Profile Videos & Office Branding UAE work sample 2"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/corporate-films",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Corporate Films Dubai — Brand Documentaries, Culture & Investor Films UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Corporate Films Dubai — Brand Documentaries, Culture & Investor Films UAE work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-05.webp",
+          "alt": "Corporate Films Dubai — Brand Documentaries, Culture & Investor Films UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-06.webp",
+          "alt": "Corporate Films Dubai — Brand Documentaries, Culture & Investor Films UAE work sample 2"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/corporate-videography",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Corporate Videography & Photography Dubai — Business Content UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Corporate Videography & Photography Dubai — Business Content UAE work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-05.webp",
+          "alt": "Corporate Videography & Photography Dubai — Business Content UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-06.webp",
+          "alt": "Corporate Videography & Photography Dubai — Business Content UAE work sample 3"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/documentary",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-01.webp",
+          "alt": "Documentary Films Dubai — Magazine Editorial & Culture Storytelling UAE work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Documentary Films Dubai — Magazine Editorial & Culture Storytelling UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Documentary Films Dubai — Magazine Editorial & Culture Storytelling UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-06.webp",
+          "alt": "Documentary Films Dubai — Magazine Editorial & Culture Storytelling UAE work sample 3"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/dvcs",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-01.webp",
+          "alt": "DVCs — Digital Video Commercials work sample 4"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "DVCs — Digital Video Commercials"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-05.webp",
+          "alt": "DVCs — Digital Video Commercials work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-10.webp",
+          "alt": "DVCs — Digital Video Commercials work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "DVCs — Digital Video Commercials work sample 2"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/engagement-photography",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Engagement & Proposal Photography work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Engagement & Proposal Photography"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Engagement & Proposal Photography work sample 2"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/event-video-editing",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Event Video Editing Dubai — 48-Hour Highlight Reels & Post-Production UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Event Video Editing Dubai — 48-Hour Highlight Reels & Post-Production UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-05.webp",
+          "alt": "Event Video Editing Dubai — 48-Hour Highlight Reels & Post-Production UAE work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-06.webp",
+          "alt": "Event Video Editing Dubai — 48-Hour Highlight Reels & Post-Production UAE work sample 3"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/event-videography",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Event Videography & Photography Dubai — Full-Service Event Coverage UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-02.webp",
+          "alt": "Event Videography & Photography Dubai — Full-Service Event Coverage UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Event Videography & Photography Dubai — Full-Service Event Coverage UAE work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-05.webp",
+          "alt": "Event Videography & Photography Dubai — Full-Service Event Coverage UAE work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-06.webp",
+          "alt": "Event Videography & Photography Dubai — Full-Service Event Coverage UAE work sample 4"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/fashion-shoots",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Fashion Shoots Dubai — Luxury, Editorial & Campaign Photography UAE work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-05.webp",
+          "alt": "Fashion Shoots Dubai — Luxury, Editorial & Campaign Photography UAE work sample 4"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-10.webp",
+          "alt": "Fashion Shoots Dubai — Luxury, Editorial & Campaign Photography UAE work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "Fashion Shoots Dubai — Luxury, Editorial & Campaign Photography UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-24.webp",
+          "alt": "Fashion Shoots Dubai — Luxury, Editorial & Campaign Photography UAE work sample 1"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/flying-dress-photoshoot",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-14.webp",
+          "alt": "Flying dress photoshoot in the Dubai desert at sunset — Backyard Studio Official"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/food",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Food Videography & Photography Dubai — Restaurant & F&B Content UAE work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "Food Videography & Photography Dubai — Restaurant & F&B Content UAE work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-01.webp",
+          "alt": "Food Videography & Photography Dubai — Restaurant & F&B Content UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-03.webp",
+          "alt": "Food Videography & Photography Dubai — Restaurant & F&B Content UAE"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/hotel-photography",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-05.webp",
+          "alt": "Hotel Photography Dubai — Resort Campaigns & Property Lifestyle Shoots UAE work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-05.webp",
+          "alt": "Hotel Photography Dubai — Resort Campaigns & Property Lifestyle Shoots UAE work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-01.webp",
+          "alt": "Hotel Photography Dubai — Resort Campaigns & Property Lifestyle Shoots UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-16.webp",
+          "alt": "Hotel Photography Dubai — Resort Campaigns & Property Lifestyle Shoots UAE"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/live-streaming",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Live Streaming & Match Coverage work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-02.webp",
+          "alt": "Live Streaming & Match Coverage work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-04.webp",
+          "alt": "Live Streaming & Match Coverage work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-05.webp",
+          "alt": "Live Streaming & Match Coverage"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-06.webp",
+          "alt": "Live Streaming & Match Coverage work sample 4"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/photo-shoots",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Wedding & Photo Shoots — Dubai's Best Wedding Shoot Company"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-10.webp",
+          "alt": "Wedding & Photo Shoots — Dubai's Best Wedding Shoot Company work sample 6"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "Wedding & Photo Shoots — Dubai's Best Wedding Shoot Company work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-01.webp",
+          "alt": "Wedding & Photo Shoots — Dubai's Best Wedding Shoot Company work sample 5"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-03.webp",
+          "alt": "Wedding & Photo Shoots — Dubai's Best Wedding Shoot Company work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-01.webp",
+          "alt": "Wedding & Photo Shoots — Dubai's Best Wedding Shoot Company work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-05.webp",
+          "alt": "Couple Shoots"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-16.webp",
+          "alt": "Wedding & Photo Shoots — Dubai's Best Wedding Shoot Company work sample 4"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/podcast",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-01.webp",
+          "alt": "Video Podcast Production Dubai — Multi-Camera Filming UAE work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-02.webp",
+          "alt": "Video Podcast Production Dubai — Multi-Camera Filming UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-04.webp",
+          "alt": "Video Podcast Production Dubai — Multi-Camera Filming UAE"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/pre-post-production",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-01.webp",
+          "alt": "Pre-Production & Post-Production Services Dubai — Location Scouting, Casting, Editing & Retouching UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-10.webp",
+          "alt": "Pre-Production & Post-Production Services Dubai — Location Scouting, Casting, Editing & Retouching UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "Pre-Production & Post-Production Services Dubai — Location Scouting, Casting, Editing & Retouching UAE work sample 2"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/pre-wedding-shoot",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-05.webp",
+          "alt": "Pre-wedding photoshoot in Dubai — couple at sunset by Backyard Studio Official"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/product-shoots",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Product Videography & Photography Dubai — E-Commerce & Brand Shoots UAE work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-10.webp",
+          "alt": "Product Videography & Photography Dubai — E-Commerce & Brand Shoots UAE work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-01.webp",
+          "alt": "Product Videography & Photography Dubai — E-Commerce & Brand Shoots UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-03.webp",
+          "alt": "Product Videography & Photography Dubai — E-Commerce & Brand Shoots UAE work sample 1"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/real-estate",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "Real Estate Videography & Photography Dubai — Property Shoots UAE work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Real Estate Videography & Photography Dubai — Property Shoots UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-05.webp",
+          "alt": "Real Estate Videography & Photography Dubai — Property Shoots UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-01.webp",
+          "alt": "Real Estate Videography & Photography Dubai — Property Shoots UAE work sample 3"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/reels",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Instagram Reels & Short Film Production Dubai work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-05.webp",
+          "alt": "Instagram Reels & Short Film Production Dubai work sample 4"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-10.webp",
+          "alt": "Instagram Reels & Short Film Production Dubai work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "Instagram Reels & Short Film Production Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-24.webp",
+          "alt": "Instagram Reels & Short Film Production Dubai work sample 1"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/reels-production",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-01.webp",
+          "alt": "Reels Production Dubai — TikTok Videos, Short-Form & Influencer Campaign Shoots UAE work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Reels Production Dubai — TikTok Videos, Short-Form & Influencer Campaign Shoots UAE work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "Reels Production Dubai — TikTok Videos, Short-Form & Influencer Campaign Shoots UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-24.webp",
+          "alt": "Reels Production Dubai — TikTok Videos, Short-Form & Influencer Campaign Shoots UAE"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/social-media-content",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-01.webp",
+          "alt": "Social Media Content Creation Dubai — TikTok, Instagram & YouTube work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Social Media Content Creation Dubai — TikTok, Instagram & YouTube work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-05.webp",
+          "alt": "Social Media Content Creation Dubai — TikTok, Instagram & YouTube"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "Social Media Content Creation Dubai — TikTok, Instagram & YouTube work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-24.webp",
+          "alt": "Social Media Content Creation Dubai — TikTok, Instagram & YouTube work sample 4"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/social-media-shoots",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-01.webp",
+          "alt": "Social Media Videography & Photography Dubai work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "Social Media Videography & Photography Dubai work sample 4"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-05.webp",
+          "alt": "Social Media Videography & Photography Dubai"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "Social Media Videography & Photography Dubai work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-24.webp",
+          "alt": "Social Media Videography & Photography Dubai work sample 3"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/testimonial-videos",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "Testimonial Videos Dubai — Authentic Client Review Video Production UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-02.webp",
+          "alt": "Testimonial Videos Dubai — Authentic Client Review Video Production UAE work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-04.webp",
+          "alt": "Testimonial Videos Dubai — Authentic Client Review Video Production UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-06.webp",
+          "alt": "Testimonial Videos Dubai — Authentic Client Review Video Production UAE work sample 3"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/travel-lifestyle",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-05.webp",
+          "alt": "Travel & Lifestyle Campaigns Dubai — Hotel, Resort & Tourism Content UAE work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-05.webp",
+          "alt": "Travel & Lifestyle Campaigns Dubai — Hotel, Resort & Tourism Content UAE work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-01.webp",
+          "alt": "Travel & Lifestyle Campaigns Dubai — Hotel, Resort & Tourism Content UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-02.webp",
+          "alt": "Travel & Lifestyle Campaigns Dubai — Hotel, Resort & Tourism Content UAE work sample 1"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/tv-commercials",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "TV Commercials & Brand Commercials Dubai — Broadcast Ad Production UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-05.webp",
+          "alt": "TV Commercials & Brand Commercials Dubai — Broadcast Ad Production UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "TV Commercials & Brand Commercials Dubai — Broadcast Ad Production UAE work sample 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-02.webp",
+          "alt": "TV Commercials & Brand Commercials Dubai — Broadcast Ad Production UAE work sample 2"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/wedding-photography",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-01.webp",
+          "alt": "Wedding photography in Dubai by Backyard Studio Official"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-02.webp",
+          "alt": "Dubai wedding photography by Backyard Studio — 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-05.webp",
+          "alt": "Dubai wedding photography by Backyard Studio — 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-08.webp",
+          "alt": "Dubai wedding photography by Backyard Studio — 3"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-11.webp",
+          "alt": "Dubai wedding photography by Backyard Studio — 4"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-14.webp",
+          "alt": "Dubai wedding photography by Backyard Studio — 5"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-16.webp",
+          "alt": "Dubai wedding photography by Backyard Studio — 6"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/wedding-photography-abu-dhabi",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-09.webp",
+          "alt": "Wedding photographer in Abu Dhabi — Backyard Studio Official"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/wedding-photography-ajman",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-13.webp",
+          "alt": "Wedding photographer in Ajman — Backyard Studio Official"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/wedding-photography-fujairah",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-17.webp",
+          "alt": "Beach wedding photographer in Fujairah — Backyard Studio Official"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/wedding-photography-ras-al-khaimah",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-15.webp",
+          "alt": "Beach wedding photographer in Ras Al Khaimah — Backyard Studio Official"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/wedding-photography-sharjah",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-12.webp",
+          "alt": "Wedding photographer in Sharjah — Backyard Studio Official"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/wedding-photography-umm-al-quwain",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-18.webp",
+          "alt": "Intimate beach wedding photographer in Umm Al Quwain — Backyard Studio Official"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/wedding-videography",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-01.webp",
+          "alt": "Wedding Films by Backyard Studio"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-03.webp",
+          "alt": "Wedding videographer in Dubai filming a cinematic wedding — Backyard Studio Official"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/services/youtube-content",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-01.webp",
+          "alt": "YouTube Videography Dubai — Professional YouTube Video Production UAE"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "YouTube Videography Dubai — Professional YouTube Video Production UAE work sample 1"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-05.webp",
+          "alt": "YouTube Videography Dubai — Professional YouTube Video Production UAE work sample 2"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "YouTube Videography Dubai — Professional YouTube Video Production UAE work sample 3"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/wedding-packages",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-08.webp",
+          "alt": "Wedding photoshoot packages in Dubai — Backyard Studio Official"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/weddings",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-16.webp",
+          "alt": "Weddings by Backyard Studio Official — Dubai and all UAE emirates"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/zh",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-04.webp",
+          "alt": "迪拜时装拍摄"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-05.webp",
+          "alt": "时尚摄影"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/creative/creative-13.webp",
+          "alt": "迪拜创意内容制作"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-01.webp",
+          "alt": "迪拜活动摄影"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-03.webp",
+          "alt": "企业活动"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/events/event-04.webp",
+          "alt": "迪拜企业活动"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/products/product-03.webp",
+          "alt": "迪拜产品摄影"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-01.webp",
+          "alt": "迪拜婚礼摄影"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/wedding/wedding-16.webp",
+          "alt": "婚礼摄影"
+        }
+      ]
+    },
+    {
+      "pageUrl": "https://www.backyardstudioofficial.com/zh/about",
+      "images": [
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/behram.webp",
+          "alt": "贝赫拉姆·沙希德 — 销售总监 — Backyard Studio迪拜"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/fahad.webp",
+          "alt": "法哈德·伊克巴尔·巴特 — Backyard Studio Official迪拜创始人兼CEO"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/mazhar.webp",
+          "alt": "赛义德·马扎尔·扎伊迪 — Backyard Studio迪拜联合创始人"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/rajaa.webp",
+          "alt": "拉贾 — 业务发展经理 — Backyard Studio迪拜"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/reem.webp",
+          "alt": "里姆 — 业务发展经理 — Backyard Studio迪拜"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/shabana.webp",
+          "alt": "沙巴娜·巴希尔 — 艺术总监 — Backyard Studio迪拜"
+        },
+        {
+          "loc": "https://www.backyardstudioofficial.com/images/team/waqas.webp",
+          "alt": "瓦卡斯·穆罕默德 — 战略总监 — Backyard Studio迪拜"
+        }
+      ]
+    }
+  ]
+}

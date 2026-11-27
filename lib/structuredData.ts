@@ -6,6 +6,7 @@
  */
 
 import { CLIENTS } from "./clients";
+import { COVERAGE_SERVICES } from "./serviceCoverage";
 
 const BRAND = {
   name: "Backyard Studio Official",
@@ -138,6 +139,7 @@ export function organizationSchema() {
     areaServed: [
       { "@type": "City", name: "Dubai", containedInPlace: { "@type": "Country", name: "United Arab Emirates" } },
       { "@type": "City", name: "Abu Dhabi" },
+      { "@type": "City", name: "Al Ain" },
       { "@type": "City", name: "Sharjah" },
       { "@type": "City", name: "Ajman" },
       { "@type": "City", name: "Ras Al Khaimah" },
@@ -224,21 +226,20 @@ export function localBusinessSchema() {
     paymentAccepted: "Cash, Credit Card, Bank Transfer",
     image: [BRAND.og, BRAND.logo],
     sameAs: BRAND.sameAs,
-    areaServed: ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm Al Quwain"],
+    areaServed: ["Dubai", "Abu Dhabi", "Al Ain", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm Al Quwain"],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Video, Photography & Social Media Production Services UAE",
-      itemListElement: [
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Event Shoots Dubai", description: "Professional event photography and videography across all UAE", areaServed: "UAE" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Wedding Photography and Videography Dubai", description: "Cinematic wedding shoots, pre-wedding photoshoots and wedding films in Dubai UAE", areaServed: "UAE" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Digital Video Commercials DVCs Dubai", description: "High-production DVCs and brand films for UAE businesses", areaServed: "UAE" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Instagram Reels and TikTok Content Dubai", description: "Social media shoots and short-form content production in Dubai UAE", areaServed: "UAE" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Social Media Content Creation Dubai", description: "Full social media content production for Instagram TikTok YouTube in UAE", areaServed: "UAE" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Corporate Films UAE", description: "Brand documentaries, investor films and corporate video production Dubai", areaServed: "UAE" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Commercial Photo Shoots Dubai", description: "Editorial, product, lifestyle and brand photography UAE", areaServed: "UAE" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Testimonial Videos Dubai", description: "Client testimonial video production across UAE", areaServed: "UAE" } },
-        { "@type": "Offer", itemOffered: { "@type": "Service", name: "Ads Shooting Dubai", description: "Meta, TikTok, YouTube and OOH ad production in UAE", areaServed: "UAE" } },
-      ],
+      itemListElement: COVERAGE_SERVICES.map((service) => ({
+        "@type": "Offer",
+        url: `${BRAND.url}${service.href}`,
+        itemOffered: {
+          "@type": "Service",
+          name: service.name,
+          description: service.description,
+          areaServed: { "@type": "Country", name: "United Arab Emirates" },
+        },
+      })),
     },
   };
 }

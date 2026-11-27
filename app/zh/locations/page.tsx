@@ -32,6 +32,7 @@ const LOCATIONS_FAQS = [
 const EMIRATES = [
   { name: "迪拜",    slug: "dubai",          image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80", areas: 25, desc: "Downtown市中心、Marina、JBR、DIFC、棕榈岛、商业湾、JLT等。" },
   { name: "阿布扎比", slug: "abu-dhabi",      image: "https://images.unsplash.com/photo-1526495124232-a04e1849168c?w=800&q=80", areas: 10, desc: "亚斯岛、萨迪亚特岛、海滨大道、里姆岛、ADGM等。" },
+  { name: "艾因",    slug: "al-ain",         image: "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80", areas: 12, desc: "艾因绿洲、贾希利城堡、希利、杰贝哈菲特山等。" },
   { name: "沙迦",    slug: "sharjah",         image: "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=800&q=80", areas: 5,  desc: "Al Majaz、Al Qasba、沙迦滨水区、Al Khan。" },
   { name: "阿治曼",  slug: "ajman",           image: "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8e?w=800&q=80", areas: 4,  desc: "阿治曼海滨大道、Al Jurf、Al Rashidiya。" },
   { name: "哈伊马角", slug: "ras-al-khaimah", image: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=800&q=80", areas: 4,  desc: "哈伊马角市区、Al Hamra村、杰贝尔贾伊斯山。" },

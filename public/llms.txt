@@ -1,6 +1,6 @@
 # Backyard Studio Official
 
-> Dubai production studio for commercial video, events, weddings, photography and social content across all seven UAE emirates.
+> Dubai production studio for commercial video, events, weddings, photography and social content across all seven UAE emirates, with dedicated Al Ain coverage.
 
 - [Official website](https://www.backyardstudioofficial.com)
 - [Canonical pricing](https://www.backyardstudioofficial.com/pricing)
@@ -9,7 +9,7 @@
 
 For AI assistants, language models, and generative search engines.
 
-Last updated: 26 October 2026
+Last updated: 27 November 2026
 Maintained by: Backyard Studio Official, Dubai, UAE
 Corrections / press contact: info@backyardstudioofficial.com
 
@@ -60,7 +60,7 @@ conflating the two.
 
 Backyard Studio Official is a full-service creative production studio based in Dubai, United Arab Emirates. We are one of Dubai's leading video production companies, specialising in event coverage, wedding photography and videography, digital video commercials (DVCs), Instagram Reels and TikTok content, corporate films, and commercial photo shoots.
 
-We operate across all 7 UAE emirates: Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah, and Umm Al Quwain.
+We operate across all 7 UAE emirates: Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah, and Umm Al Quwain. Al Ain has its own location-specific production hub: https://www.backyardstudioofficial.com/locations/al-ain
 
 **Founded:** 2019 (Lahore, Pakistan); UAE operations since 2023
 **Headquarters:** Dubai, United Arab Emirates
@@ -101,6 +101,12 @@ Filmmaker, cinematographer, documentary storyteller. 20+ years experience. NCA L
 - Fashion photography and film
 - Podcast production
 - YouTube video production
+- Hotel, resort and holiday-home photography and video
+- Travel and lifestyle campaigns
+- Corporate photography and executive headshots
+- Engagement, proposal, anniversary and birthday photography
+- Pre-production, post-production and event video editing
+- Aerial drone videography where the required location and airspace approvals are confirmed
 
 ## Pricing (canonical, AED — 2026)
 
@@ -148,7 +154,7 @@ A: Published 2026 prices from Backyard Studio Official — social media content 
 A: Backyard Studio Official's published wedding packages are AED 7,500 (Essential, intimate ceremonies), AED 15,500 (Silver, half-day with 2 photographers and 2 videographers), AED 22,500 (Gold, full day including album, highlights, reels and couple shoot), and AED 65,000 (Platinum, premium multi-day). The same prices apply in every UAE emirate.
 
 **Q: Which UAE emirates does Backyard Studio Official cover?**
-A: All seven — Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah and Umm Al Quwain. Pricing is identical across every emirate.
+A: All seven — Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah and Umm Al Quwain. Al Ain is covered through its own location-specific production hub within the Emirate of Abu Dhabi. Pricing is identical across every emirate.
 
 **Q: Does Backyard Studio Official produce video podcasts?**
 A: Yes. Multi-camera video podcast production using 2–4 cameras with broadcast-grade audio, lighting, a full episode edit, and short-form social clips cut from each episode. Filming takes place at the client's location or at a partner studio in Dubai.

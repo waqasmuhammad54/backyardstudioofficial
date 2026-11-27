@@ -5,8 +5,8 @@ import Image from "next/image";
 import { breadcrumbSchema, itemListSchema, faqSchema } from "@/lib/structuredData";
 
 export const metadata: Metadata = {
-  title: { absolute: "Production Locations UAE | All 7 Emirates" },
-  description: "Video and photography across all 7 UAE emirates. Dubai, Abu Dhabi, Sharjah, Ajman, RAK, Fujairah and UAQ. No travel fees. Free quote in 2 hours.",
+  title: { absolute: "Production Locations UAE | All 7 Emirates & Al Ain" },
+  description: "Video and photography across all 7 UAE emirates plus Al Ain. Dubai, Abu Dhabi, Sharjah, Ajman, RAK, Fujairah and UAQ. Free quote in 2 hours.",
   alternates: alternatesFor("/locations"),
   openGraph: {
     title: "Video Production Across All 7 UAE Emirates | Backyard Studio Official",
@@ -43,6 +43,7 @@ const LOCATIONS_FAQS = [
 const LOCATIONS_ITEM_LIST = [
   { name: "Video Production in Dubai", url: "https://www.backyardstudioofficial.com/locations/dubai" },
   { name: "Video Production in Abu Dhabi", url: "https://www.backyardstudioofficial.com/locations/abu-dhabi" },
+  { name: "Video Production in Al Ain", url: "https://www.backyardstudioofficial.com/locations/al-ain" },
   { name: "Video Production in Sharjah", url: "https://www.backyardstudioofficial.com/locations/sharjah" },
   { name: "Video Production in Ajman", url: "https://www.backyardstudioofficial.com/locations/ajman" },
   { name: "Video Production in Ras Al Khaimah", url: "https://www.backyardstudioofficial.com/locations/ras-al-khaimah" },
@@ -53,6 +54,7 @@ const LOCATIONS_ITEM_LIST = [
 const EMIRATES = [
   { name: "Dubai",          slug: "dubai",         image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80", areas: 25, desc: "Downtown, Marina, JBR, DIFC, Palm, Business Bay, JLT and more." },
   { name: "Abu Dhabi",      slug: "abu-dhabi",     image: "https://images.unsplash.com/photo-1526495124232-a04e1849168c?w=800&q=80", areas: 10, desc: "Yas Island, Saadiyat, Corniche, Al Reem, ADGM and more." },
+  { name: "Al Ain",         slug: "al-ain",        image: "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80", areas: 12, desc: "Al Ain Oasis, Al Jahili, Al Hili, Jebel Hafit and more." },
   { name: "Sharjah",        slug: "sharjah",       image: "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=800&q=80", areas: 5,  desc: "Al Majaz, Al Qasba, Sharjah Waterfront, Al Khan." },
   { name: "Ajman",          slug: "ajman",         image: "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8e?w=800&q=80", areas: 4,  desc: "Ajman Corniche, Al Jurf, Al Rashidiya." },
   { name: "Ras Al Khaimah", slug: "ras-al-khaimah",image: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=800&q=80", areas: 4,  desc: "RAK City, Al Hamra Village, Jebel Jais." },
@@ -74,7 +76,7 @@ export default function LocationsPage() {
         <p className="text-[#e8c547] text-xs tracking-[0.4em] uppercase font-semibold mb-3">NATIONWIDE</p>
         <h1 className="font-display text-6xl md:text-7xl text-white">UAE COVERAGE</h1>
         <p className="text-[#a0a0a0] mt-4 max-w-md mx-auto text-sm">
-          We shoot across all 7 UAE emirates — every city, every community, every vision.
+          We shoot across all 7 UAE emirates, including a dedicated Al Ain production hub.
         </p>
       </div>
       <section className="section-pad bg-[#0a0a0a]">

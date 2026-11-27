@@ -88,7 +88,10 @@ export default function robots(): MetadataRoute.Robots {
         disallow: DISALLOW,
       })),
     ],
-    sitemap: "https://www.backyardstudioofficial.com/sitemap.xml",
+    sitemap: [
+      "https://www.backyardstudioofficial.com/sitemap.xml",
+      "https://www.backyardstudioofficial.com/sitemap-images.xml",
+    ],
     // Not a standard robots.txt directive, but several AI crawlers look for a
     // pointer here and unknown directives are ignored by everything else.
     // /llms.txt      — entity summary, canonical pricing, top questions
