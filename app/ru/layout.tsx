@@ -65,6 +65,7 @@ const LOCAL_BUSINESS_RU = {
   "areaServed": [
     { "@type": "City",              "name": "Дубай"   },
     { "@type": "City",              "name": "Абу-Даби" },
+    { "@type": "City",              "name": "Аль-Айн" },
     { "@type": "City",              "name": "Шарджа"  },
     { "@type": "AdministrativeArea","name": "ОАЭ"     },
   ],

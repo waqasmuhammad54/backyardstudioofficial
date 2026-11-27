@@ -32,6 +32,7 @@ const LOCATIONS_FAQS = [
 const EMIRATES = [
   { name: "Дубай",        slug: "dubai",          image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80", areas: 25, desc: "Downtown, Marina, JBR, DIFC, Пальма, Business Bay, JLT и многое другое." },
   { name: "Абу-Даби",     slug: "abu-dhabi",       image: "https://images.unsplash.com/photo-1526495124232-a04e1849168c?w=800&q=80", areas: 10, desc: "Yas Island, Saadiyat, Corniche, Al Reem, ADGM и многое другое." },
+  { name: "Аль-Айн",      slug: "al-ain",          image: "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80", areas: 12, desc: "Оазис Аль-Айн, форт Аль-Джахили, Аль-Хили, Джебель-Хафит и другие районы." },
   { name: "Шарджа",       slug: "sharjah",         image: "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?w=800&q=80", areas: 5,  desc: "Al Majaz, Al Qasba, набережная Шарджи, Al Khan." },
   { name: "Аджман",       slug: "ajman",           image: "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8e?w=800&q=80", areas: 4,  desc: "Корнише Аджмана, Al Jurf, Al Rashidiya." },
   { name: "Рас-эль-Хайма", slug: "ras-al-khaimah", image: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=800&q=80", areas: 4,  desc: "Город РАК, Al Hamra Village, Джебель Джаис." },

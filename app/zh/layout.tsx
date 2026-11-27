@@ -62,7 +62,7 @@ const LOCAL_BUSINESS_ZH = {
     "addressRegion":   "Dubai",
     "addressCountry":  "AE",
   },
-  "areaServed": ["Dubai", "Abu Dhabi", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm Al Quwain"],
+  "areaServed": ["Dubai", "Abu Dhabi", "Al Ain", "Sharjah", "Ajman", "Ras Al Khaimah", "Fujairah", "Umm Al Quwain"],
   "description":
     "迪拜专业影视制作公司。企业视频、婚礼摄影、活动拍摄、社交媒体内容制作。",
   "sameAs": BRAND_SAME_AS,

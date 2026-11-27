@@ -6,8 +6,18 @@ import { notFound } from "next/navigation";
 import { MapPin, Camera, ArrowRight } from "lucide-react";
 import { faqSchema, speakableSchema, breadcrumbSchema } from "@/lib/structuredData";
 import { EMIRATE_FACTS } from "@/lib/emirateFacts";
+import { COVERAGE_SERVICES, COVERAGE_SERVICE_GROUPS } from "@/lib/serviceCoverage";
 
-const CITY_DATA: Record<string, { name: string; image: string; description: string; landmarks: string[]; areas: string[]; services: string[]; faqs: { q: string; a: string }[] }> = {
+const CITY_DATA: Record<string, {
+  name: string;
+  image: string;
+  description: string;
+  landmarks: string[];
+  areas: string[];
+  services: string[];
+  faqs: { q: string; a: string }[];
+  sources?: { title: string; url: string; note: string }[];
+}> = {
   "dubai": {
     name: "Dubai",
     image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1920&q=80",
@@ -42,6 +52,25 @@ const CITY_DATA: Record<string, { name: string; image: string; description: stri
       { q: "Do you produce events content for Abu Dhabi conferences and MICE events?", a: "Yes. Abu Dhabi is one of the Middle East's leading MICE destinations, with major events at Abu Dhabi National Exhibition Centre, Yas Bay Arena, and the capital's luxury hotel conference facilities. Backyard Studio Official covers Abu Dhabi conference and event productions with highlight films, same-day social media content, speaker portrait sessions, and multi-day event documentation. We understand the production protocols for government-associated events and have experience with the accreditation requirements for ministerial and official ceremony coverage." },
       { q: "What social media content services do you offer for Abu Dhabi brands?", a: "Backyard Studio Official provides comprehensive social media content production for Abu Dhabi brands, including monthly content retainer packages covering Instagram Reels, TikTok, YouTube Shorts, and LinkedIn video. We produce Abu Dhabi-based content for hospitality brands on Saadiyat and Yas Island, corporate content for ADGM businesses, and lifestyle content for F&B operators on the Corniche and Yas Bay Waterfront. Our social content team understands the visual and tone differences between Abu Dhabi's social media market and Dubai's, and produces content calibrated for each audience." },
       { q: "What is the typical cost of a corporate video production in Abu Dhabi?", a: "Corporate video production pricing in Abu Dhabi depends on the scope, number of filming days, crew size, and post-production requirements. Backyard Studio Official provides project-specific quotes within two hours of receiving a brief. A standard single-day corporate film with post-production editing ranges from AED 8,000 to AED 25,000 depending on complexity. Government and institutional productions with longer approval cycles and larger crew requirements are quoted separately. Contact us with your brief for an accurate project quote." },
+    ],
+  },
+  "al-ain": {
+    name: "Al Ain",
+    image: "https://images.unsplash.com/photo-1548013146-72479768bada?w=1920&q=80",
+    description: "Al Ain is not a substitute name for Abu Dhabi city. It is a distinct inland production environment within the Emirate of Abu Dhabi, with its own geography, travel plan, heritage settings and client mix. Backyard Studio Official provides the same complete video and photography capability in Al Ain that clients can book elsewhere in the UAE: corporate films, events, weddings, social content, food and product campaigns, hospitality production, documentary work and licensed aerial capture where permissions allow.\n\nThe location choice is the first creative decision. Al Ain Oasis offers shaded palm paths, working falaj irrigation and a calm visual rhythm that is different from a hotel garden or a landscaped Dubai development. Al Jahili Fort, Qasr Al Muwaiji and the wider heritage district provide mud-brick architecture and historic context, while Jebel Hafit and the surrounding desert create open landscapes for automotive, tourism, fashion and lifestyle work. Each setting has different access, timing and permission requirements, so a production plan must identify the exact property or authority before a shot list is approved.\n\nCommercial work in Al Ain often needs two versions of the same story. A corporate film may need an English master for investors and an Arabic version for local stakeholders. A tourism campaign may require a wide hero film for a website, vertical sequences for Reels and a still-image library for listings or press. We plan those outputs before filming, which changes framing, interview capture, sound, talent releases and the amount of time needed at each location. This is more reliable than filming one landscape edit and attempting to crop every other format from it later.\n\nEvents and weddings require a venue-led plan. Hotel ballrooms, farms, private residences, university facilities and outdoor sites each impose different rules for crew access, power, sound feeds, lighting and guest privacy. We confirm the programme, priority people, stage positions, family or executive approvals and delivery deadlines before assigning crew. Where a ceremony or event includes privacy-sensitive areas, the production can be structured with separate teams and controlled media handling. No venue, government or heritage access is represented as automatic; permission is confirmed for the individual brief.\n\nFor food, product and hospitality content, Al Ain supports both controlled and location-led production. Restaurants and hospitality operators can combine menu photographs, preparation footage, staff portraits and short vertical videos in one organised session. Product brands can use studio-style lighting on site or move selected items to a controlled set. Hotels and resorts can build a library covering rooms, facilities, food and beverage, guest experience and nearby destination context without repeating the same composition across every channel.\n\nJebel Hafit and the roads around it can be visually strong for tourism and automotive work, but mountain production needs more than an attractive reference image. Wind, temperature, changing light, traffic safety, parking, public access and aerial restrictions all affect the plan. We scout the intended position, set a safe working footprint and confirm ground or aerial permissions before equipment is deployed. Drone availability is therefore quoted per location and date, not promised as an automatic add-on.\n\nAl Ain is roughly a one-and-a-half to two-hour road journey from Dubai or Abu Dhabi city depending on origin and traffic. For a short interview or portrait session, travel can be built around a compact call time. For multi-location campaigns, sunrise work or a programme with several stakeholders, staging the team locally can protect the shooting window and reduce avoidable resets. The quote separates production, travel, permits and optional deliverables so the client can see what changes the budget.\n\nEvery Al Ain brief starts with the same practical questions: what must the content help the organisation communicate; where will it be published; which people, products and places must appear; who approves access and the final edit; and which claims need documentary support. That process produces a location-specific plan rather than a generic city-name package, while the full Backyard Studio service catalogue remains available across Al Ain and the wider UAE.",
+    areas: ["Al Ain Central", "Al Jimi", "Al Mutarad", "Al Muwaiji", "Al Qattara", "Al Hili", "Al Foah", "Zakher", "Asharej", "Jebel Hafit", "Green Mubazzarah", "Al Ain Industrial Area"],
+    landmarks: ["Al Ain Oasis", "Al Jahili Fort", "Qasr Al Muwaiji", "Jebel Hafit", "Hili Archaeological Park", "Al Qattara Arts Centre", "Al Ain Zoo", "Green Mubazzarah"],
+    services: ["Corporate Films", "Event Coverage", "Wedding Photography", "Social Media Content", "Food & Product Shoots", "Hospitality Campaigns", "Documentary Production", "Aerial Filming Subject to Approval"],
+    faqs: [
+      { q: "Does Backyard Studio provide all production services in Al Ain?", a: "Yes. The complete Backyard Studio catalogue is available in Al Ain, including corporate video, events, weddings, social media content, food and product photography, hospitality campaigns, documentary work, editing and aerial capture where the required permissions are granted." },
+      { q: "Can you film at Al Ain Oasis, Al Jahili Fort or Jebel Hafit?", a: "These are location-specific productions. We first confirm the intended area, property or authority, then plan access and any required ground or aerial permissions. Public visibility does not mean a commercial crew can film without approval." },
+      { q: "Do Al Ain shoots cost more than Dubai shoots?", a: "The creative rates remain based on crew, time and deliverables. Travel, local staging, permits or specialist access are shown separately when they apply, so the client can compare a compact single-location shoot with a larger Al Ain production plan." },
+      { q: "Can you provide Arabic and English content for Al Ain organisations?", a: "Yes. Corporate, tourism and institutional productions can be planned with Arabic and English interviews, captions, voice-over or separate edit versions. Language requirements are confirmed before filming so interview time and approvals are included in the schedule." },
+      { q: "Is drone filming available in Al Ain?", a: "Drone filming may be available, but it is never assumed. The route, airspace, property permission and production date must be checked for each brief. We only schedule aerial capture after the required approvals are confirmed." },
+    ],
+    sources: [
+      { title: "Experience Abu Dhabi — Visit Al Ain", url: "https://visitabudhabi.ae/en/where-to-go/regions/al-ain", note: "Official destination reference for Al Ain's heritage, oases and Jebel Hafit." },
+      { title: "Abu Dhabi Film Commission", url: "https://www.film.gov.ae/", note: "Official production reference for filming in the Emirate of Abu Dhabi." },
     ],
   },
   "sharjah": {
@@ -272,7 +301,7 @@ const DEFAULT_CITY = (slug: string) => ({
 
 export function generateStaticParams() {
   return [
-    "dubai", "abu-dhabi", "sharjah", "ajman",
+    "dubai", "abu-dhabi", "al-ain", "sharjah", "ajman",
     "ras-al-khaimah", "fujairah", "umm-al-quwain",
   ].map((city) => ({ city }));
 }
@@ -334,7 +363,6 @@ export default function CityPage({ params }: { params: { city: string } }) {
   // Same guard as generateMetadata: unknown cities produce a real HTTP 404.
   if (!CITY_DATA[params.city]) notFound();
   const data = CITY_DATA[params.city] || DEFAULT_CITY(params.city);
-  const SERVICES = ["Event Shoots", "DVCs", "Instagram Reels", "TikTok Content", "Testimonial Videos", "Ads Shooting", "Aerial Drone", "Corporate Films"];
   const pageUrl = `https://www.backyardstudioofficial.com/locations/${params.city}`;
   const cityBreadcrumb = breadcrumbSchema([
     { name: "Home", url: "https://www.backyardstudioofficial.com" },
@@ -403,12 +431,43 @@ export default function CityPage({ params }: { params: { city: string } }) {
             </div>
 
             {/* Services */}
-            <h2 className="font-display text-3xl text-white mt-10 mb-5">SERVICES IN {data.name.toUpperCase()}</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-              {SERVICES.map((s) => (
-                <div key={s} className="text-center p-3 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm text-xs text-[#a0a0a0]">{s}</div>
+            <h2 className="font-display text-3xl text-white mt-10 mb-3">ALL PRODUCTION SERVICES IN {data.name.toUpperCase()}</h2>
+            <p className="text-[#a0a0a0] text-sm leading-relaxed mb-8">
+              Every service below is available in {data.name}. The linked service page explains the production scope and deliverables; the {data.name} plan then confirms the venue, access, crew, permits and schedule for the specific brief.
+            </p>
+            <div className="space-y-9">
+              {COVERAGE_SERVICE_GROUPS.map((group) => (
+                <div key={group}>
+                  <h3 className="text-[#e8c547] text-xs font-semibold uppercase tracking-[0.22em] mb-4">{group}</h3>
+                  <div className="grid sm:grid-cols-2 gap-3">
+                    {COVERAGE_SERVICES.filter((service) => service.group === group).map((service) => (
+                      <Link
+                        key={service.name}
+                        href={service.href}
+                        className="block p-4 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm hover:border-[#e8c547]/50 transition-colors"
+                      >
+                        <span className="block text-white text-sm font-semibold mb-1">{service.name} in {data.name}</span>
+                        <span className="block text-[#777] text-xs leading-relaxed">{service.description}</span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
               ))}
             </div>
+
+            {data.sources && data.sources.length > 0 && (
+              <div className="mt-12 border-t border-[#2a2a2a] pt-8">
+                <h2 className="font-display text-2xl text-white mb-4">OFFICIAL PLANNING REFERENCES</h2>
+                <div className="space-y-3">
+                  {data.sources.map((source) => (
+                    <p key={source.url} className="text-[#888] text-sm leading-relaxed">
+                      <a href={source.url} target="_blank" rel="noreferrer" className="text-[#e8c547] hover:underline">{source.title}</a>
+                      {" — "}{source.note}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Sidebar CTA */}
@@ -422,7 +481,7 @@ export default function CityPage({ params }: { params: { city: string } }) {
             </div>
             <div className="p-5 bg-[#1a1a1a] border border-[#2a2a2a] rounded-sm">
               <p className="text-xs text-[#666] uppercase tracking-widest mb-3">Other Emirates</p>
-              {([{ label: "Dubai", slug: "dubai" }, { label: "Abu Dhabi", slug: "abu-dhabi" }, { label: "Sharjah", slug: "sharjah" }, { label: "Ajman", slug: "ajman" }, { label: "Ras Al Khaimah", slug: "ras-al-khaimah" }, { label: "Fujairah", slug: "fujairah" }, { label: "Umm Al Quwain", slug: "umm-al-quwain" }] as const).map((c) => (
+              {([{ label: "Dubai", slug: "dubai" }, { label: "Abu Dhabi", slug: "abu-dhabi" }, { label: "Al Ain", slug: "al-ain" }, { label: "Sharjah", slug: "sharjah" }, { label: "Ajman", slug: "ajman" }, { label: "Ras Al Khaimah", slug: "ras-al-khaimah" }, { label: "Fujairah", slug: "fujairah" }, { label: "Umm Al Quwain", slug: "umm-al-quwain" }] as const).map((c) => (
                 <Link key={c.slug} href={`/locations/${c.slug}`}
                   className="flex items-center justify-between py-1.5 text-[#a0a0a0] text-sm hover:text-[#e8c547] transition-colors border-b border-[#2a2a2a] last:border-0">
                   <span>{c.label}</span><ArrowRight size={12} />

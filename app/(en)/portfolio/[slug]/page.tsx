@@ -6,6 +6,13 @@ import { ArrowLeft, Calendar, MapPin, Tag } from "lucide-react";
 import { ALL_PROJECTS, getProjectBySlug, buildVideoObjectSchema } from "@/lib/portfolio-data";
 
 const CATEGORY_GUIDANCE: Record<string, { heading: string; body: string[] }> = {
+  Corporate: {
+    heading: "Planning corporate and conference coverage",
+    body: [
+      "Corporate productions need a clear record of what must be captured and what the final film must help the organisation communicate. Before filming, we confirm the programme, priority speakers, interview subjects, brand details, venue access, audio feeds and approval owners so key moments are not left to chance.",
+      "The delivery plan should distinguish the main film from speaker edits, internal versions and vertical social cutdowns. Agreeing those outputs before the event lets the crew frame for each format, capture clean sound and organise releases and review rounds without adding unsupported claims about the client or the campaign result.",
+    ],
+  },
   Events: {
     heading: "Planning event coverage in the UAE",
     body: [
