@@ -14,10 +14,10 @@ export default function WhatsAppButton() {
 
   return (
     <div
-      aria-hidden={!visible}
       className={`fixed bottom-8 right-8 z-50 flex items-center gap-3 transition-all duration-300 ${
         visible ? "opacity-100 translate-y-0 scale-100" : "opacity-0 translate-y-5 scale-90 pointer-events-none"
       }`}
+      style={{ visibility: visible ? "visible" : "hidden" }}
     >
           <div
             className={`text-xs font-display tracking-[0.2em] px-4 py-2 whitespace-nowrap transition-all duration-200 ${

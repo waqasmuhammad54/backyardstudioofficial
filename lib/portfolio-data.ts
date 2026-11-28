@@ -2,7 +2,6 @@ import { PROJECTS_DELIVERED_DISPLAY } from "@/lib/brandStats";
 
 /**
  * Portfolio project data — single source of truth.
- * VideoObject schema fields are ready for Google Video Search & AI engines.
  *
  * Real Vimeo IDs from vimeo.com/user258944063 (Backyard Studio official uae).
  * REQUIRED: Go to each video in Vimeo → Settings → Privacy → set to "Anyone"
@@ -65,53 +64,55 @@ export function getProjectBySlug(slug: string): PortfolioProject | undefined {
   return ALL_PROJECTS.find((p) => p.slug === slug);
 }
 
-export function buildVideoObjectSchema(project: PortfolioProject) {
+/**
+ * Accurate structured data for the content visible on a project page.
+ *
+ * Earlier versions emitted VideoObject for every project, even though the page
+ * displayed a still image and several records pointed at a general showreel.
+ * Structured data must describe the primary content users can actually see, so
+ * project pages now use CreativeWork plus a breadcrumb trail. A VideoObject
+ * should be added only when that exact project video is embedded on the page.
+ */
+export function buildPortfolioProjectSchema(project: PortfolioProject) {
+  const url = `https://www.backyardstudioofficial.com/portfolio/${project.slug}`;
   return {
     "@context": "https://schema.org",
-    "@type": "VideoObject",
-    name: `${project.title} | Backyard Studio Official`,
-    description: project.description,
-    thumbnailUrl: `https://www.backyardstudioofficial.com${project.image}`,
-    uploadDate: (() => {
-      // Normalize to ISO 8601 with timezone for Google VideoObject schema.
-      const d = new Date(project.uploadDate);
-      if (isNaN(d.getTime())) return project.uploadDate;
-      const fmt = new Intl.DateTimeFormat("en-CA", {
-        timeZone: "Asia/Dubai",
-        year: "numeric",
-        month: "2-digit",
-        day: "2-digit",
-        hour: "2-digit",
-        minute: "2-digit",
-        second: "2-digit",
-        hour12: false,
-      });
-      const parts = Object.fromEntries(fmt.formatToParts(d).map((p) => [p.type, p.value]));
-      const hour = parts.hour === "24" ? "00" : parts.hour;
-      return `${parts.year}-${parts.month}-${parts.day}T${hour}:${parts.minute}:${parts.second}+04:00`;
-    })(),
-    duration: project.duration,
-    embedUrl: `https://player.vimeo.com/video/${project.vimeoId}`,
-    contentUrl: `https://vimeo.com/${project.vimeoId}`,
-    url: `https://www.backyardstudioofficial.com/portfolio/${project.slug}`,
-    inLanguage: "en",
-    publisher: {
-      "@type": "Organization",
-      name: "Backyard Studio Official",
-      url: "https://www.backyardstudioofficial.com",
-      logo: { "@type": "ImageObject", url: "https://www.backyardstudioofficial.com/logo-black.png", width: 400, height: 400 },
-    },
-    productionCompany: {
-      "@type": "Organization",
-      name: "Backyard Studio Official",
-      address: { "@type": "PostalAddress", addressLocality: "Dubai", addressCountry: "AE" },
-    },
-    genre: project.category,
-    locationCreated: {
-      "@type": "Place",
-      name: project.location,
-      address: { "@type": "PostalAddress", addressLocality: project.location, addressCountry: "AE" },
-    },
+    "@graph": [
+      {
+        "@type": "CreativeWork",
+        "@id": `${url}#project`,
+        name: project.title,
+        description: project.description,
+        url,
+        dateCreated: project.uploadDate,
+        inLanguage: "en",
+        genre: project.category,
+        image: {
+          "@type": "ImageObject",
+          url: `https://www.backyardstudioofficial.com${project.image}`,
+          caption: project.title,
+        },
+        creator: {
+          "@type": "Organization",
+          "@id": "https://www.backyardstudioofficial.com/#organization",
+          name: "Backyard Studio Official",
+          url: "https://www.backyardstudioofficial.com",
+        },
+        locationCreated: {
+          "@type": "Place",
+          name: project.location,
+          address: { "@type": "PostalAddress", addressLocality: project.location, addressCountry: "AE" },
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://www.backyardstudioofficial.com" },
+          { "@type": "ListItem", position: 2, name: "Portfolio", item: "https://www.backyardstudioofficial.com/portfolio" },
+          { "@type": "ListItem", position: 3, name: project.title, item: url },
+        ],
+      },
+    ],
   };
 }
 

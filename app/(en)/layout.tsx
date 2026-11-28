@@ -129,7 +129,8 @@ export default function EnglishLayout({ children }: { children: React.ReactNode 
         dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema()) }}
       />
 
-      {/* WebSite schema with SearchAction — enables Google Sitelinks Search Box + LLM site context */}
+      {/* WebSite schema. Do not advertise a SearchAction unless the site has a
+          working internal search endpoint; /blog currently has no query UI. */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -144,14 +145,6 @@ export default function EnglishLayout({ children }: { children: React.ReactNode 
               "@id": "https://www.backyardstudioofficial.com/#organization",
             },
             inLanguage: ["en", "ar", "ru", "zh"],
-            potentialAction: {
-              "@type": "SearchAction",
-              target: {
-                "@type": "EntryPoint",
-                urlTemplate: "https://www.backyardstudioofficial.com/blog?q={search_term_string}",
-              },
-              "query-input": "required name=search_term_string",
-            },
           }),
         }}
       />
