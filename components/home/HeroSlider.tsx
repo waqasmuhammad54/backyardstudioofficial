@@ -57,6 +57,7 @@ export default function HeroSlider() {
   }, []);
 
   useEffect(() => {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     let rotation: ReturnType<typeof setInterval> | undefined;
     const firstRotation = setTimeout(() => {
       next();
@@ -129,9 +130,10 @@ export default function HeroSlider() {
 
           <div className="flex items-center gap-3 mt-10">
             {SLIDES.map((_, i) => (
-              <button key={i} onClick={() => setCurrent(i)}
+              <button key={i} onClick={() => { setLoadCarouselImages(true); setCurrent(i); }}
                 className={`transition-all duration-500 rounded-full ${i === current ? "w-10 h-[3px] bg-gold shadow-[0_0_10px_rgba(212,160,23,0.8)]" : "w-3 h-[2px] bg-white/20 hover:bg-white/40"}`}
                 aria-label={`Slide ${i + 1}`}
+                aria-current={i === current ? "true" : undefined}
               />
             ))}
           </div>

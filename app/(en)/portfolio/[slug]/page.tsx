@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Calendar, MapPin, Tag } from "lucide-react";
-import { ALL_PROJECTS, getProjectBySlug, buildVideoObjectSchema } from "@/lib/portfolio-data";
+import { ALL_PROJECTS, getProjectBySlug, buildPortfolioProjectSchema } from "@/lib/portfolio-data";
 
 const CATEGORY_GUIDANCE: Record<string, { heading: string; body: string[] }> = {
   Corporate: {
@@ -43,6 +43,34 @@ const CATEGORY_GUIDANCE: Record<string, { heading: string; body: string[] }> = {
   },
 };
 
+const CATEGORY_LINKS: Record<string, { label: string; href: string }[]> = {
+  Events: [
+    { label: "Event videography", href: "/services/event-videography" },
+    { label: "Event video editing", href: "/services/event-video-editing" },
+    { label: "Production brief template", href: "/guides/video-production-brief-template" },
+  ],
+  Corporate: [
+    { label: "Corporate films", href: "/services/corporate-films" },
+    { label: "Corporate video ROI guide", href: "/guides/corporate-video-roi" },
+    { label: "Published production pricing", href: "/pricing" },
+  ],
+  Creative: [
+    { label: "Advertising shoots", href: "/services/ads-shooting" },
+    { label: "Social media content", href: "/services/social-media-content" },
+    { label: "Production brief template", href: "/guides/video-production-brief-template" },
+  ],
+  Products: [
+    { label: "Product photography", href: "/services/product-shoots" },
+    { label: "Food photography and video", href: "/services/food" },
+    { label: "Published production pricing", href: "/pricing" },
+  ],
+  Wedding: [
+    { label: "Wedding videography", href: "/services/wedding-videography" },
+    { label: "Wedding photography", href: "/services/wedding-photography" },
+    { label: "Wedding packages", href: "/wedding-packages" },
+  ],
+};
+
 export function generateStaticParams() {
   return ALL_PROJECTS.map((project) => ({ slug: project.slug }));
 }
@@ -68,8 +96,12 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 export default function ProjectPage({ params }: { params: { slug: string } }) {
   const project = getProjectBySlug(params.slug);
   if (!project) notFound();
-  const schema = buildVideoObjectSchema(project);
+  const schema = buildPortfolioProjectSchema(project);
   const guidance = CATEGORY_GUIDANCE[project.category];
+  const relatedProjects = ALL_PROJECTS
+    .filter((candidate) => candidate.category === project.category && candidate.slug !== project.slug)
+    .slice(0, 3);
+  const planningLinks = CATEGORY_LINKS[project.category] ?? [];
 
   return (
     <div className="pt-24">
@@ -148,7 +180,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                   <div key={item.label} className="flex items-start gap-3">
                     <Icon size={16} className="text-[#e8c547] mt-0.5" />
                     <div>
-                      <p className="text-[#666] text-xs uppercase tracking-widest">{item.label}</p>
+                      <p className="text-[#a0a0a0] text-xs uppercase tracking-widest">{item.label}</p>
                       <p className="text-white text-sm font-medium">{item.value}</p>
                     </div>
                   </div>
@@ -156,6 +188,44 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
               })}
             </div>
             <Link href="/contact" className="btn-gold w-full justify-center">Book a Similar Project</Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="section-pad border-t border-[#2a2a2a] bg-black" aria-labelledby="related-work-heading">
+        <div className="container-xl">
+          <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10">
+            <div>
+              <p className="eyebrow mb-3">Continue planning</p>
+              <h2 id="related-work-heading" className="font-display text-3xl md:text-4xl text-white">
+                Related {project.category.toLowerCase()} work
+              </h2>
+            </div>
+            <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+              {planningLinks.map((link) => (
+                <Link key={link.href} href={link.href} className="link-gold">{link.label} →</Link>
+              ))}
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {relatedProjects.map((related) => (
+              <Link key={related.slug} href={`/portfolio/${related.slug}`} className="group border border-[#2a2a2a] bg-[#0a0a0a]">
+                <div className="relative aspect-[16/10] overflow-hidden">
+                  <Image
+                    src={related.image}
+                    alt={related.title}
+                    fill
+                    sizes="(max-width: 767px) 100vw, 33vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-5">
+                  <h3 className="font-display text-xl text-white group-hover:text-[#e8c547] transition-colors">{related.title}</h3>
+                  <p className="text-[#a0a0a0] text-sm mt-2">{related.location}, UAE · {related.year}</p>
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

@@ -121,7 +121,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-3 lg:col-span-1">
             <Link href="/" className="flex items-center gap-4 mb-7 group">
               <div className="relative w-20 h-20 shrink-0 transition-all duration-300">
-                <Image src="/logo-black-256.webp" alt="Backyard Studio Official Logo" fill className="object-contain" style={{ mixBlendMode: "screen" }} />
+                <Image src="/logo-black-256.webp" alt="Backyard Studio Official Logo" fill sizes="80px" className="object-contain" style={{ mixBlendMode: "screen" }} />
               </div>
               <div>
                 <p className="font-display tracking-[0.3em] leading-none text-base" style={{ color: "var(--gold)" }}>

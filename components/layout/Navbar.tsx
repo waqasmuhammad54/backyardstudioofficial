@@ -82,7 +82,8 @@ export default function Navbar() {
           </div>
 
           {/* HAMBURGER */}
-          <button onClick={() => setOpen(!open)} aria-label="Menu"
+          <button onClick={() => setOpen(!open)} aria-label={open ? "Close menu" : "Open menu"}
+            aria-expanded={open} aria-controls="mobile-navigation"
             className="lg:hidden w-10 h-10 flex flex-col justify-center items-center gap-1.5 group">
             <span className={`block h-px bg-cream transition-all duration-500 ${open ? "w-6 rotate-45 translate-y-1.5" : "w-6"}`} />
             <span className={`block h-px bg-gold transition-all duration-500 ${open ? "opacity-0 w-0" : "w-4"}`} />
@@ -93,8 +94,12 @@ export default function Navbar() {
 
       {/* MOBILE FULLSCREEN MENU */}
       <div
+        id="mobile-navigation"
         className={`fixed inset-0 z-40 transition-all duration-700 ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}
-        style={{ background: "radial-gradient(ellipse at 20% 50%, rgba(212,160,23,0.06) 0%, #050505 60%)" }}
+        style={{
+          background: "radial-gradient(ellipse at 20% 50%, rgba(212,160,23,0.06) 0%, #050505 60%)",
+          visibility: open ? "visible" : "hidden",
+        }}
       >
         <span className="absolute bottom-10 right-10 font-display text-[12rem] text-white/[0.02] leading-none select-none">BSO</span>
 

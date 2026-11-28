@@ -9,9 +9,9 @@ import { MetadataRoute } from "next";
  *  1. Yandex and Baidu behave better with an explicit named rule. Yandex in
  *     particular reads the `host` directive (declared at the bottom) and Baidu's
  *     crawler is conservative with sites it has no named permission for.
- *  2. Several AI crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended)
- *     are checked for by name by their operators' tooling. Naming them is an
- *     unambiguous opt-in for AI citation, which is a stated goal for this site.
+ *  2. Search/retrieval crawlers and model-training crawlers have different
+ *     purposes. Named rules document which agents may fetch public pages, but
+ *     allowing a crawler never guarantees ranking, grounding or citation.
  *  3. It documents intent, so nobody later assumes an omission was deliberate.
  *
  * IMPORTANT: /api/ stays disallowed. /admin/ and /studio/ stay disallowed —
@@ -36,20 +36,20 @@ const SEARCH_BOTS = [
   "NaverBot",
 ];
 
-// AI / LLM crawlers. Allowing these is what makes the site quotable in
-// ChatGPT, Claude, Gemini, Perplexity, Copilot and the CN/other models.
+// AI search/retrieval and model-training crawlers. These rules permit access;
+// they are not a citation or recommendation signal. Google-Extended is also
+// separate from ordinary Google Search and its generative Search features.
 const AI_BOTS = [
-  "GPTBot",              // OpenAI — training + ChatGPT browsing
-  "OAI-SearchBot",       // OpenAI search index
-  "ChatGPT-User",        // ChatGPT live retrieval
-  "ClaudeBot",           // Anthropic
-  "Claude-User",
-  "Claude-SearchBot",
-  "anthropic-ai",
-  "Google-Extended",     // Gemini / Vertex grounding
-  "PerplexityBot",
-  "Perplexity-User",
-  "Applebot-Extended",
+  "GPTBot",              // OpenAI model-training crawler
+  "OAI-SearchBot",       // OpenAI search crawler
+  "ChatGPT-User",        // User-triggered ChatGPT retrieval
+  "ClaudeBot",           // Anthropic model-training crawler
+  "Claude-User",         // User-triggered Claude retrieval
+  "Claude-SearchBot",    // Anthropic search crawler
+  "Google-Extended",     // Gemini training / non-Search grounding control
+  "PerplexityBot",       // Perplexity search crawler
+  "Perplexity-User",     // User-triggered Perplexity retrieval
+  "Applebot-Extended",   // Apple generative-AI training control
   "Amazonbot",
   "Bytespider",          // ByteDance / Doubao
   "CCBot",               // Common Crawl — feeds many open models
@@ -81,7 +81,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: DISALLOW,
       })),
 
-      // Named AI crawlers — explicit opt-in for AI citation.
+      // Named AI crawlers — explicit access policy, not a citation promise.
       ...AI_BOTS.map((userAgent) => ({
         userAgent,
         allow: "/",

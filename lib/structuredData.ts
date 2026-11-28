@@ -428,35 +428,6 @@ export function servicePageSchema(opts: {
   };
 }
 
-// ─── HowTo Schema ─────────────────────────────────────────────────────────────
-export function howToSchema(opts: {
-  name: string;
-  description: string;
-  totalTime?: string;
-  steps: { name: string; text: string; url?: string }[];
-}) {
-  return {
-    "@context": "https://schema.org",
-    "@type": "HowTo",
-    name: opts.name,
-    description: opts.description,
-    ...(opts.totalTime ? { totalTime: opts.totalTime } : {}),
-    step: opts.steps.map((s, i) => ({
-      "@type": "HowToStep",
-      position: i + 1,
-      name: s.name,
-      text: s.text,
-      ...(s.url ? { url: s.url } : {}),
-    })),
-    tool: [
-      { "@type": "HowToTool", name: "Professional camera equipment" },
-      { "@type": "HowToTool", name: "Professional lighting rig" },
-    ],
-    supply: [{ "@type": "HowToSupply", name: "Creative brief" }],
-    author: { "@type": "Organization", name: BRAND.name, url: BRAND.url },
-  };
-}
-
 // ─── Speakable Schema ─────────────────────────────────────────────────────────
 export function speakableSchema(url: string, cssSelectors: string[] = ["h1", "h2", ".speakable"]) {
   return {
